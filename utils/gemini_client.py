@@ -47,7 +47,7 @@ def call(prompt: str, temperature: float = 0.85, max_retries: int = 3) -> str:
         logger.error(ENGINE, "GEMINI_API_KEY not set in environment")
         return ""
 
-    model   = os.environ.get("gemini-2.5-flash", "gemini-1.5-flash")
+    model   = os.environ.get("GEMINI_MODEL", gemini-2.5-flash")
     url     = (
         f"https://generativelanguage.googleapis.com/v1beta/models/"
         f"{model}:generateContent?key={api_key}"
