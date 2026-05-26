@@ -1,0 +1,57 @@
+name: Algocare Auto Post
+
+on:
+  # Cron-job.org hits this webhook to trigger a post
+  repository_dispatch:
+    types: [trigger_post]
+
+  # Backup: GitHub native schedule (UTC times)
+  schedule:
+    - cron: '0 5 * * *'    # 06:00 GST
+    - cron: '30 7 * * *'   # 08:30 GST
+    - cron: '30 9 * * *'   # 10:30 GST
+    - cron: '30 11 * * *'  # 12:30 GST
+    - cron: '30 13 * * *'  # 14:30 GST
+    - cron: '30 15 * * *'  # 16:30 GST
+    - cron: '30 17 * * *'  # 18:30 GST
+    - cron: '0 20 * * *'   # 21:00 GST
+
+  # Manual trigger from GitHub UI
+  workflow_dispatch:
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run Algocare
+        env:
+          GEMINI_API_KEY:        ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL:          gemini-2.0-flash
+          TELEGRAM_BOT_TOKEN:    ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID:      ${{ secrets.TELEGRAM_CHAT_ID }}
+          FACEBOOK_PAGE_TOKEN:   ${{ secrets.FACEBOOK_PAGE_TOKEN }}
+          FACEBOOK_PAGE_ID:      ${{ secrets.FACEBOOK_PAGE_ID }}
+          FACEBOOK_API_VERSION:  v19.0
+        run: python main.py run
+
+      - name: Commit memory updates
+        run: |
+          git config user.name  "Algocare Bot"
+          git config user.email "bot@algocare"
+          git add engines/memory/
+          git add published/
+          git add logs/
+          git add workflow_logs/
+          git add publish_logs/
+          git diff --staged --quiet || git commit -m "auto: post $(date -u '+%Y-%m-%d %H:%M')"
+          git push
