@@ -1,8 +1,7 @@
 """
 utils/gemini_client.py
-Patched Wrapper using Groq Cloud API for Algocare Engine 4 content pipelines.
-Handles auth, rate limiting, retries, and OpenAI-style response normalization.
-Bypasses Cloudflare block 1010 via explicit browser User-Agent headers.
+Multi-Comment Generation Engine using Groq Cloud API.
+Generates a structured payload containing a post caption and 5 distinct conversational comments.
 """
 
 import os
@@ -17,17 +16,13 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 import utils.logger as logger
 
 ENGINE = "GroqClient"
-
-# Rate limiting state (in-process, resets on restart — fine for our use case)
 _call_timestamps: list = []
 RATE_LIMIT_PER_MINUTE = 15
 
 
 def _enforce_rate_limit():
-    """Ensure we don't burst calls too quickly in stateless environments."""
     now = time.time()
     global _call_timestamps
-    # Remove timestamps older than 60 seconds
     _call_timestamps = [t for t in _call_timestamps if now - t < 60]
 
     if len(_call_timestamps) >= RATE_LIMIT_PER_MINUTE:
@@ -36,44 +31,50 @@ def _enforce_rate_limit():
         time.sleep(wait)
 
     _call_timestamps.append(time.time())
-    
-    # 3-second safety delay to keep automated execution threads stable
     time.sleep(3)
 
 
-def call(prompt: str, temperature: float = 0.85, max_retries: int = 3) -> str:
+def call(prompt: str, temperature: float = 0.85, max_retries: int = 3) -> dict:
     """
-    Send a prompt to Groq and return the text response.
-    Returns empty string on complete failure after retries.
+    Send a prompt to Groq requesting a JSON response with 'caption' and an array of 5 'comments'.
+    Returns a dictionary {"caption": "...", "comments": ["...", "...", ...]}
     """
-    # 1. Look for GROQ_API_KEY first, fallback to GEMINI_API_KEY if reusing the env slot
     api_key = os.environ.get("GROQ_API_KEY") or os.environ.get("GEMINI_API_KEY", "")
     if not api_key:
         logger.error(ENGINE, "GROQ_API_KEY or GEMINI_API_KEY not set in environment")
-        return ""
+        return {"caption": "", "comments": []}
 
-    # 2. Select the top text model visible from your Groq dashboard screenshot
     model = os.environ.get("GROQ_MODEL", "llama-3.3-70b-versatile")
     url = "https://api.groq.com/openai/v1/chat/completions"
 
-    # 3. Format payload to comply with OpenAI/Groq Chat Completion specification
+    structured_prompt = (
+        f"{prompt}\n\n"
+        "CRITICAL: You must respond ONLY with a raw JSON object. Do not include markdown code blocks or text outside the JSON.\n"
+        "The JSON object must have exactly these fields:\n"
+        "{\n"
+        '  "caption": "Your generated health post content here",\n'
+        '  "comments": [\n'
+        '    "First natural question/thought to spark debate",\n'
+        '    "Second follow-up angle or common misconception to drop later",\n'
+        '    "Third conversational point about daily habits related to the topic",\n'
+        '    "Fourth helpful community-style tip or observation",\n'
+        '    "Fifth question pushing users to share their own experiences"\n'
+        "  ]\n"
+        "}"
+    )
+
     payload = json.dumps({
         "model": model,
-        "messages": [
-            {
-                "role": "user",
-                "content": prompt
-            }
-        ],
+        "messages": [{"role": "user", "content": structured_prompt}],
         "temperature": temperature,
-        "max_tokens": 1000,
+        "max_tokens": 1500,
+        "response_format": {"type": "json_object"}
     }).encode("utf-8")
 
     for attempt in range(1, max_retries + 1):
         try:
             _enforce_rate_limit()
 
-            # 4. Request with browser User-Agent configuration to clear Cloudflare rules
             req = urllib.request.Request(
                 url,
                 data=payload,
@@ -86,36 +87,22 @@ def call(prompt: str, temperature: float = 0.85, max_retries: int = 3) -> str:
             )
 
             with urllib.request.urlopen(req, timeout=30) as resp:
-                raw  = resp.read().decode("utf-8")
+                raw = resp.read().decode("utf-8")
                 data = json.loads(raw)
 
-            # Extract text from OpenAI/Groq JSON response tree structure
-            text = data["choices"][0]["message"]["content"].strip()
+            raw_json_string = data["choices"][0]["message"]["content"].strip()
+            parsed_content = json.loads(raw_json_string)
 
-            if text:
-                logger.info(ENGINE, f"Groq call success ({model}) (attempt {attempt})")
-                return text
-            else:
-                logger.warning(ENGINE, f"Empty response from Groq (attempt {attempt})")
+            caption = parsed_content.get("caption", "").strip()
+            comments = parsed_content.get("comments", [])
 
-        except urllib.error.HTTPError as e:
-            body = e.read().decode("utf-8", errors="ignore")
-            logger.warning(ENGINE, f"HTTP {e.code} on attempt {attempt}: {body[:200]}")
-
-            if e.code == 429:
-                # Server rate limits — back off incrementally
-                wait = 30 * attempt
-                logger.info(ENGINE, f"Server rate limit hit. Waiting {wait}s")
-                time.sleep(wait)
-            elif e.code >= 500:
-                time.sleep(10 * attempt)
-            else:
-                # 4xx client anomalies (401 Bad Token, 400 Bad JSON) — skip retries
-                break
+            if caption:
+                logger.info(ENGINE, f"Groq Multi-Comment JSON generation success (attempt {attempt})")
+                return {"caption": caption, "comments": comments[:5]}
 
         except Exception as e:
-            logger.warning(ENGINE, f"Groq execution error on attempt {attempt}: {e}")
-            time.sleep(10 * attempt)
+            logger.warning(ENGINE, f"Groq parsing error on attempt {attempt}: {e}")
+            time.sleep(5 * attempt)
 
     logger.error(ENGINE, f"Groq client call completely failed after {max_retries} attempts")
-    return ""
+    return {"caption": "", "comments": []}
