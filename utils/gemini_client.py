@@ -1,7 +1,7 @@
 """
 utils/gemini_client.py
-Single Gemini API wrapper for all engines.
-Handles auth, rate limiting, retries, and response normalization.
+Patched Wrapper using Groq Cloud API for Algocare Engine 4 content pipelines.
+Handles auth, rate limiting, retries, and OpenAI-style response normalization.
 """
 
 import os
@@ -15,7 +15,7 @@ import sys
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 import utils.logger as logger
 
-ENGINE = "GeminiClient"
+ENGINE = "GroqClient"
 
 # Rate limiting state (in-process, resets on restart — fine for our use case)
 _call_timestamps: list = []
@@ -23,10 +23,10 @@ RATE_LIMIT_PER_MINUTE = 15
 
 
 def _enforce_rate_limit():
-    """Ensure we don't exceed 15 calls/minute (Gemini free tier)."""
+    """Ensure we don't burst calls too quickly in stateless environments."""
     now = time.time()
-    # Remove timestamps older than 60 seconds
     global _call_timestamps
+    # Remove timestamps older than 60 seconds
     _call_timestamps = [t for t in _call_timestamps if now - t < 60]
 
     if len(_call_timestamps) >= RATE_LIMIT_PER_MINUTE:
@@ -35,30 +35,37 @@ def _enforce_rate_limit():
         time.sleep(wait)
 
     _call_timestamps.append(time.time())
+    
+    # 3-second safety delay to keep automated execution threads stable
+    time.sleep(3)
 
 
 def call(prompt: str, temperature: float = 0.85, max_retries: int = 3) -> str:
     """
-    Send a prompt to Gemini and return the text response.
+    Send a prompt to Groq and return the text response.
     Returns empty string on complete failure after retries.
     """
-    api_key = os.environ.get("GEMINI_API_KEY", "")
+    # 1. Look for GROQ_API_KEY first, fallback to GEMINI_API_KEY if reusing the env slot
+    api_key = os.environ.get("GROQ_API_KEY") or os.environ.get("GEMINI_API_KEY", "")
     if not api_key:
-        logger.error(ENGINE, "GEMINI_API_KEY not set in environment")
+        logger.error(ENGINE, "GROQ_API_KEY or GEMINI_API_KEY not set in environment")
         return ""
 
-    model   = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash-lite")
-    url     = (
-        f"https://generativelanguage.googleapis.com/v1beta/models/"
-        f"{model}:generateContent?key={api_key}"
-    )
+    # 2. Select the top text model visible from your Groq dashboard screenshot
+    model = os.environ.get("GROQ_MODEL", "llama-3.3-70b-versatile")
+    url = "https://api.groq.com/openai/v1/chat/completions"
 
+    # 3. Format payload to comply with OpenAI/Groq Chat Completion specification
     payload = json.dumps({
-        "contents": [{"parts": [{"text": prompt}]}],
-        "generationConfig": {
-            "temperature":    temperature,
-            "maxOutputTokens": 1000,
-        }
+        "model": model,
+        "messages": [
+            {
+                "role": "user",
+                "content": prompt
+            }
+        ],
+        "temperature": temperature,
+        "max_tokens": 1000,
     }).encode("utf-8")
 
     for attempt in range(1, max_retries + 1):
@@ -68,7 +75,10 @@ def call(prompt: str, temperature: float = 0.85, max_retries: int = 3) -> str:
             req = urllib.request.Request(
                 url,
                 data=payload,
-                headers={"Content-Type": "application/json"},
+                headers={
+                    "Content-Type": "application/json",
+                    "Authorization": f"Bearer {api_key}"
+                },
                 method="POST"
             )
 
@@ -76,39 +86,33 @@ def call(prompt: str, temperature: float = 0.85, max_retries: int = 3) -> str:
                 raw  = resp.read().decode("utf-8")
                 data = json.loads(raw)
 
-            # Extract text from Gemini response structure
-            text = (
-                data.get("candidates", [{}])[0]
-                    .get("content", {})
-                    .get("parts", [{}])[0]
-                    .get("text", "")
-                    .strip()
-            )
+            # Extract text from OpenAI/Groq JSON response tree structure
+            text = data["choices"][0]["message"]["content"].strip()
 
             if text:
-                logger.info(ENGINE, f"Gemini call success (attempt {attempt})")
+                logger.info(ENGINE, f"Groq call success ({model}) (attempt {attempt})")
                 return text
             else:
-                logger.warning(ENGINE, f"Empty response from Gemini (attempt {attempt})")
+                logger.warning(ENGINE, f"Empty response from Groq (attempt {attempt})")
 
         except urllib.error.HTTPError as e:
             body = e.read().decode("utf-8", errors="ignore")
             logger.warning(ENGINE, f"HTTP {e.code} on attempt {attempt}: {body[:200]}")
 
             if e.code == 429:
-                # Rate limited by server — wait longer
+                # Server rate limits — back off incrementally
                 wait = 30 * attempt
-                logger.info(ENGINE, f"Server rate limit. Waiting {wait}s")
+                logger.info(ENGINE, f"Server rate limit hit. Waiting {wait}s")
                 time.sleep(wait)
             elif e.code >= 500:
                 time.sleep(10 * attempt)
             else:
-                # 4xx that isn't 429 — not worth retrying
+                # 4xx client anomalies (401 Bad Token, 400 Bad JSON) — skip retries
                 break
 
         except Exception as e:
-            logger.warning(ENGINE, f"Gemini call error on attempt {attempt}: {e}")
+            logger.warning(ENGINE, f"Groq execution error on attempt {attempt}: {e}")
             time.sleep(10 * attempt)
 
-    logger.error(ENGINE, f"Gemini call failed after {max_retries} attempts")
+    logger.error(ENGINE, f"Groq client call completely failed after {max_retries} attempts")
     return ""
