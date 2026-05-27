@@ -48,10 +48,13 @@ jobs:
         run: |
           git config user.name  "Algocare Bot"
           git config user.email "bot@algocare"
-          git add engines/memory/
-          git add published/
-          git add logs/
-          git add workflow_logs/
-          git add publish_logs/
-          git diff --staged --quiet || git commit -m "auto: post $(date -u '+%Y-%m-%d %H:%M')"
-          git push
+          
+          # Force track directories to clear the .gitignore restriction safely
+          git add -f engines/memory/ || true
+          git add -f published/ || true
+          git add -f logs/ || true
+          git add -f workflow_logs/ || true
+          git add -f publish_logs/ || true
+          
+          # Only create a commit and attempt to push if file differences are present
+          git diff --staged --quiet || (git commit -m "auto: post $(date -u '+%Y-%m-%d %H:%M')" && git push)
