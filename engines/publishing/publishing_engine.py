@@ -251,3 +251,30 @@ def publish_next_approved() -> dict:
         write_json(_FAILED_DIR / draft_path.name, draft_data)
         draft_path.unlink(missing_ok=True)
         return {"status": "failed", "reason": result["reason"]}
+
+
+
+def trickle_comments_only(post_id: str, comments_list: list):
+    """
+    Handles dropping algorithmic interaction comments sequentially.
+    Executed after files are saved to avoid Git merge lockouts.
+    """
+    if not post_id or not comments_list:
+        return
+
+    logger.info(ENGINE, f"Starting trickle for {len(comments_list)} comments.")
+    for index, comment in enumerate(comments_list):
+        if not comment or not str(comment).strip():
+            continue
+        
+        if index > 0:
+            logger.info(ENGINE, f"Waiting {COMMENT_DELAY // 60} minutes before next comment drop...")
+            time.sleep(COMMENT_DELAY)
+
+        logger.info(ENGINE, f"Dropping automated comment {index + 1}/{len(comments_list)}...")
+        success = _add_comment_to_post(post_id, str(comment).strip())
+        if success:
+            logger.info(ENGINE, f"Comment {index + 1} posted successfully.")
+        else:
+            logger.error(ENGINE, "Trickle loop stopped early due to an API transmission error.")
+            break
