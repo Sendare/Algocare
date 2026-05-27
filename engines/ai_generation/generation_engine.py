@@ -2,10 +2,11 @@
 ENGINE 4 — AI GENERATION ENGINE
 Executes AI API calls using prompt objects from Engine 3.
 Handles retries, validation, normalization.
-Returns clean generated content.
+Upgraded to safely handle JSON dictionaries for caption + multi-comment workflows.
 """
 
 import re
+import json
 from pathlib import Path
 from datetime import datetime, timezone
 
@@ -75,14 +76,14 @@ def _validate_output(text: str, post_type: str) -> tuple:
 
 
 def _clean_output(text: str) -> str:
-    """Remove any common AI artifacts from output."""
+    """Remove any common AI artifacts from output strings."""
     text = text.strip()
     # Remove surrounding quotes if present
     if text.startswith('"') and text.endswith('"'):
         text = text[1:-1].strip()
     if text.startswith("'") and text.endswith("'"):
         text = text[1:-1].strip()
-    # Remove "Caption:" label if Gemini added it anyway
+    # Remove metadata labels if added by the provider
     text = re.sub(r"^(Caption|Post|Content|Text):\s*", "", text, flags=re.IGNORECASE)
     return text.strip()
 
@@ -93,6 +94,7 @@ def generate(prompt_object: dict) -> dict:
     """
     Main entry point.
     Receives prompt object from Engine 3.
+    Parses complex JSON outputs containing both post captions and arrays of comments.
     Returns generated content object.
     """
     if not prompt_object:
@@ -112,34 +114,45 @@ def generate(prompt_object: dict) -> dict:
         return {"status": "failed", "reason": "empty_prompt"}
 
     start_time = datetime.now(timezone.utc)
-    raw_text   = ""
+    
+    # Execute AI prompt through our standard Groq Client tool
+    raw_response = gemini_call(text_prompt)
 
-    # Gemini generates with built-in retry (gemini_client handles retries internally)
-    raw_text = gemini_call(text_prompt)
-
-    if not raw_text:
-        logger.error(ENGINE, f"Gemini returned empty response for topic {topic_id}")
+    if not raw_response:
+        logger.error(ENGINE, f"Provider returned empty response for topic {topic_id}")
         return {
             "status":   "failed",
             "topic_id": topic_id,
-            "reason":   "empty_gemini_response"
+            "reason":   "empty_api_response"
         }
 
-    cleaned = _clean_output(raw_text)
-    is_valid, reason = _validate_output(cleaned, post_type)
+    # Safe extraction parsing block to handle dict objects returned directly by utils.gemini_client
+    caption_text = ""
+    comments_list = []
 
-    if not is_valid:
-        logger.warning(ENGINE, f"Output validation failed: {reason} | topic={topic_id}")
-        # Attempt one more Gemini call with stricter instruction
-        stricter_prompt = text_prompt + "\n\nIMPORTANT: Keep it under 3 lines. No labels. Plain text only."
-        raw_text2       = gemini_call(stricter_prompt)
-        if raw_text2:
-            cleaned2     = _clean_output(raw_text2)
-            is_valid2, _ = _validate_output(cleaned2, post_type)
-            if is_valid2:
-                cleaned  = cleaned2
-                is_valid = True
-                reason   = "ok (retry)"
+    if isinstance(raw_response, dict):
+        caption_text = raw_response.get("caption", "")
+        comments_list = raw_response.get("comments", [])
+    else:
+        # Fallback security check in case raw text slipped through
+        try:
+            parsed = json.loads(raw_response)
+            caption_text = parsed.get("caption", "")
+            comments_list = parsed.get("comments", [])
+        except Exception:
+            caption_text = raw_response
+
+    cleaned_caption = _clean_output(caption_text)
+    is_valid, reason = _validate_output(cleaned_caption, post_type)
+
+    # Perform validation checks on every generated trickle comment for safety compliance
+    validated_comments = []
+    if is_valid and comments_list:
+        for comment in comments_list:
+            cleaned_comm = _clean_output(str(comment))
+            comm_valid, _ = _validate_output(cleaned_comm, "Comment")
+            if comm_valid:
+                validated_comments.append(cleaned_comm)
 
     end_time    = datetime.now(timezone.utc)
     duration_ms = int((end_time - start_time).total_seconds() * 1000)
@@ -147,8 +160,9 @@ def generate(prompt_object: dict) -> dict:
     result = {
         "status":           "success" if is_valid else "failed",
         "topic_id":         topic_id,
-        "caption":          cleaned if is_valid else "",
-        "raw_output":       raw_text,
+        "caption":          cleaned_caption if is_valid else "",
+        "comments":         validated_comments if is_valid else [],
+        "raw_output":       str(raw_response),
         "post_type":        post_type,
         "category":         prompt_object.get("category"),
         "subtopic":         prompt_object.get("subtopic"),
@@ -157,7 +171,7 @@ def generate(prompt_object: dict) -> dict:
         "cta_type":         prompt_object.get("cta_type"),
         "caption_length":   prompt_object.get("caption_length"),
         "validation":       reason,
-        "provider":         "gemini",
+        "provider":         "groq_json",
         "generation_time_ms": duration_ms,
         "generated_at":     end_time.isoformat()
     }
