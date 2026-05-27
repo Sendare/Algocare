@@ -25,3 +25,21 @@
 {"ts": "2026-05-27T06:08:53.481806+00:00", "level": "INFO", "engine": "MemoryEngine", "message": "Combination recorded: USED_SWEAT_SWEATY-CLOTHES_RELATABILITY_MINI-STEPS"}
 {"ts": "2026-05-27T06:08:53.481901+00:00", "level": "WARNING", "engine": "FileStore", "message": "File not found: /home/runner/work/Algocare-/Algocare-/engines/memory/recent_history.json"}
 {"ts": "2026-05-27T06:08:54.519434+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== WORKFLOW COMPLETE: WF_20260527_060838 ==="}
+{"ts": "2026-05-27T06:37:42.717994+00:00", "level": "INFO", "engine": "Main", "message": "Starting auto workflow (generate + publish)"}
+{"ts": "2026-05-27T06:37:42.718177+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== AUTO WORKFLOW START: WF_20260527_063742 ==="}
+{"ts": "2026-05-27T06:37:42.718244+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 1: Topic Intelligence"}
+{"ts": "2026-05-27T06:37:42.721155+00:00", "level": "INFO", "engine": "TopicIntelligenceEngine", "message": "Topic generated: [hands] hand drying | Tiny Discomfort | This or That | score=76"}
+{"ts": "2026-05-27T06:37:42.721235+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 2: Content Strategy"}
+{"ts": "2026-05-27T06:37:42.721372+00:00", "level": "INFO", "engine": "ContentStrategyEngine", "message": "Strategy built: This or That | gentle_alert | short | cta=ask_question"}
+{"ts": "2026-05-27T06:37:42.721430+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 6: Visual Identity"}
+{"ts": "2026-05-27T06:37:42.721505+00:00", "level": "INFO", "engine": "VisualIdentityEngine", "message": "Visual identity built: center_closeup | soft_blue | subject=hands and fingers"}
+{"ts": "2026-05-27T06:37:42.721568+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 3: Prompt Orchestration"}
+{"ts": "2026-05-27T06:37:42.721928+00:00", "level": "INFO", "engine": "PromptOrchestrationEngine", "message": "Prompt built for: This or That | hand drying"}
+{"ts": "2026-05-27T06:37:42.722004+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 4: AI Generation"}
+{"ts": "2026-05-27T06:37:46.135654+00:00", "level": "INFO", "engine": "GroqClient", "message": "Groq call success (llama-3.3-70b-versatile) (attempt 1)"}
+{"ts": "2026-05-27T06:37:46.136284+00:00", "level": "INFO", "engine": "AIGenerationEngine", "message": "Generation success: HAN_439438 | 3414ms"}
+{"ts": "2026-05-27T06:37:46.136368+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 7: Publishing"}
+{"ts": "2026-05-27T06:37:46.136469+00:00", "level": "WARNING", "engine": "FileStore", "message": "File not found: /home/runner/work/Algocare-/Algocare-/config/safe_mode.json"}
+{"ts": "2026-05-27T06:37:51.687994+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Published: 1142784782252062_122095748763350290"}
+{"ts": "2026-05-27T06:37:51.688353+00:00", "level": "INFO", "engine": "MemoryEngine", "message": "Combination recorded: USED_HANDS_HAND-DRYING_TINY-DISCOMFORT_THIS-OR-THAT"}
+{"ts": "2026-05-27T06:37:51.994962+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== WORKFLOW COMPLETE: WF_20260527_063742 ==="}
