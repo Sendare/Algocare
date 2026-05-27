@@ -79,3 +79,21 @@
 {"ts": "2026-05-27T08:35:06.460635+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Published: 1142784782252062_122095786383350290"}
 {"ts": "2026-05-27T08:35:06.461000+00:00", "level": "INFO", "engine": "MemoryEngine", "message": "Combination recorded: USED_EVERYDAY-BODY-REACTIONS_SNEEZING_MILD-CONCERN_MINI-STEPS"}
 {"ts": "2026-05-27T08:35:06.971607+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== WORKFLOW COMPLETE: WF_20260527_083456 ==="}
+{"ts": "2026-05-27T11:04:58.707469+00:00", "level": "INFO", "engine": "Main", "message": "Starting auto workflow (generate + publish)"}
+{"ts": "2026-05-27T11:04:58.707645+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== AUTO WORKFLOW START: WF_20260527_110458 ==="}
+{"ts": "2026-05-27T11:04:58.707700+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 1: Topic Intelligence"}
+{"ts": "2026-05-27T11:04:58.708490+00:00", "level": "INFO", "engine": "TopicIntelligenceEngine", "message": "Topic generated: [cold_weather] cold hands | Overlooked Detail | Myth vs Reality | score=77"}
+{"ts": "2026-05-27T11:04:58.708588+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 2: Content Strategy"}
+{"ts": "2026-05-27T11:04:58.708701+00:00", "level": "INFO", "engine": "ContentStrategyEngine", "message": "Strategy built: Myth vs Reality | quiet_observation | medium | cta=no_cta"}
+{"ts": "2026-05-27T11:04:58.708744+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 6: Visual Identity"}
+{"ts": "2026-05-27T11:04:58.708792+00:00", "level": "INFO", "engine": "VisualIdentityEngine", "message": "Visual identity built: minimal_layout | soft_blue | subject=cold weather symbols or cracked skin"}
+{"ts": "2026-05-27T11:04:58.708835+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 3: Prompt Orchestration"}
+{"ts": "2026-05-27T11:04:58.709077+00:00", "level": "INFO", "engine": "PromptOrchestrationEngine", "message": "Prompt built for: Myth vs Reality | cold hands"}
+{"ts": "2026-05-27T11:04:58.709132+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 4: AI Generation"}
+{"ts": "2026-05-27T11:05:02.468480+00:00", "level": "INFO", "engine": "GroqClient", "message": "Groq call success (llama-3.3-70b-versatile) (attempt 1)"}
+{"ts": "2026-05-27T11:05:02.469093+00:00", "level": "INFO", "engine": "AIGenerationEngine", "message": "Generation success: COL_47CFB9 | 3759ms"}
+{"ts": "2026-05-27T11:05:02.469190+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 7: Publishing"}
+{"ts": "2026-05-27T11:05:02.469293+00:00", "level": "WARNING", "engine": "FileStore", "message": "File not found: /home/runner/work/Algocare-/Algocare-/config/safe_mode.json"}
+{"ts": "2026-05-27T11:05:06.192821+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Published: 1142784782252062_122095848723350290"}
+{"ts": "2026-05-27T11:05:06.193210+00:00", "level": "INFO", "engine": "MemoryEngine", "message": "Combination recorded: USED_COLD-WEATHER_COLD-HANDS_OVERLOOKED-DETAIL_MYTH-VS-REALITY"}
+{"ts": "2026-05-27T11:05:06.516701+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== WORKFLOW COMPLETE: WF_20260527_110458 ==="}
