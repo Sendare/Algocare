@@ -61,3 +61,21 @@
 {"ts": "2026-05-27T08:33:05.971997+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Published: 1142784782252062_122095785429350290"}
 {"ts": "2026-05-27T08:33:05.972552+00:00", "level": "INFO", "engine": "MemoryEngine", "message": "Combination recorded: USED_HANDS_DIRTY-PHONES_REALIZATION_BODY-REACTION"}
 {"ts": "2026-05-27T08:33:06.414527+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== WORKFLOW COMPLETE: WF_20260527_083258 ==="}
+{"ts": "2026-05-27T08:34:56.804106+00:00", "level": "INFO", "engine": "Main", "message": "Starting auto workflow (generate + publish)"}
+{"ts": "2026-05-27T08:34:56.804237+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== AUTO WORKFLOW START: WF_20260527_083456 ==="}
+{"ts": "2026-05-27T08:34:56.804283+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 1: Topic Intelligence"}
+{"ts": "2026-05-27T08:34:56.805456+00:00", "level": "INFO", "engine": "TopicIntelligenceEngine", "message": "Topic generated: [everyday_body_reactions] sneezing | Mild Concern | Mini Steps | score=73"}
+{"ts": "2026-05-27T08:34:56.805547+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 2: Content Strategy"}
+{"ts": "2026-05-27T08:34:56.805659+00:00", "level": "INFO", "engine": "ContentStrategyEngine", "message": "Strategy built: Mini Steps | gentle_alert | medium | cta=save_this"}
+{"ts": "2026-05-27T08:34:56.805697+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 6: Visual Identity"}
+{"ts": "2026-05-27T08:34:56.805744+00:00", "level": "INFO", "engine": "VisualIdentityEngine", "message": "Visual identity built: minimal_layout | soft_blue | subject=simple body silhouette"}
+{"ts": "2026-05-27T08:34:56.805785+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 3: Prompt Orchestration"}
+{"ts": "2026-05-27T08:34:56.806031+00:00", "level": "INFO", "engine": "PromptOrchestrationEngine", "message": "Prompt built for: Mini Steps | sneezing"}
+{"ts": "2026-05-27T08:34:56.806079+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 4: AI Generation"}
+{"ts": "2026-05-27T08:35:00.257559+00:00", "level": "INFO", "engine": "GroqClient", "message": "Groq call success (llama-3.3-70b-versatile) (attempt 1)"}
+{"ts": "2026-05-27T08:35:00.258178+00:00", "level": "INFO", "engine": "AIGenerationEngine", "message": "Generation success: EVE_CD71F6 | 3452ms"}
+{"ts": "2026-05-27T08:35:00.258256+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 7: Publishing"}
+{"ts": "2026-05-27T08:35:00.258331+00:00", "level": "WARNING", "engine": "FileStore", "message": "File not found: /home/runner/work/Algocare-/Algocare-/config/safe_mode.json"}
+{"ts": "2026-05-27T08:35:06.460635+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Published: 1142784782252062_122095786383350290"}
+{"ts": "2026-05-27T08:35:06.461000+00:00", "level": "INFO", "engine": "MemoryEngine", "message": "Combination recorded: USED_EVERYDAY-BODY-REACTIONS_SNEEZING_MILD-CONCERN_MINI-STEPS"}
+{"ts": "2026-05-27T08:35:06.971607+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== WORKFLOW COMPLETE: WF_20260527_083456 ==="}
