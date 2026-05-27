@@ -27,6 +27,9 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          # Fetch all history so rebase operations are clean and stable
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -49,12 +52,19 @@ jobs:
           git config user.name  "Algocare Bot"
           git config user.email "bot@algocare"
           
-          # Force track directories to clear the .gitignore restriction safely
+          # Force track flat-file directories to clear the .gitignore restriction safely
           git add -f engines/memory/ || true
           git add -f published/ || true
           git add -f logs/ || true
           git add -f workflow_logs/ || true
           git add -f publish_logs/ || true
           
-          # Only create a commit and attempt to push if file differences are present
-          git diff --staged --quiet || (git commit -m "auto: post $(date -u '+%Y-%m-%d %H:%M')" && git push)
+          # Explicitly unstage internal python cache files so they never trigger push blockages
+          git rm -r --cached *__pycache__* || true
+          
+          # Run a safety rebase pull before pushing to seamlessly merge parallel background schedule tasks
+          if ! git diff --staged --quiet; then
+            git commit -m "auto: post $(date -u '+%Y-%m-%d %H:%M')"
+            git pull --rebase origin main
+            git push origin main
+          fi
