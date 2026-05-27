@@ -133,3 +133,26 @@
 {"ts": "2026-05-27T14:37:51.997438+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Published: 1142784782252062_122095949343350290"}
 {"ts": "2026-05-27T14:37:51.997851+00:00", "level": "INFO", "engine": "MemoryEngine", "message": "Combination recorded: USED_CLOTHING-HEALTH_SWEATY-FABRICS_FALSE-CONFIDENCE_SMALL-MISTAKE"}
 {"ts": "2026-05-27T14:37:52.374297+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== WORKFLOW COMPLETE: WF_20260527_143744 ==="}
+{"ts": "2026-05-27T18:10:54.523974+00:00", "level": "INFO", "engine": "Main", "message": "Starting auto workflow (generate + publish)"}
+{"ts": "2026-05-27T18:10:54.524099+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== AUTO WORKFLOW START: WF_20260527_181054 ==="}
+{"ts": "2026-05-27T18:10:54.524141+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 1: Topic Intelligence"}
+{"ts": "2026-05-27T18:10:54.524593+00:00", "level": "INFO", "engine": "TopicIntelligenceEngine", "message": "Topic generated: [sun_exposure] dehydration | Contradiction | Answer Reveal | score=83"}
+{"ts": "2026-05-27T18:10:54.524650+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 2: Content Strategy"}
+{"ts": "2026-05-27T18:10:54.524737+00:00", "level": "INFO", "engine": "ContentStrategyEngine", "message": "Strategy built: Answer Reveal | assumption_flip | medium | cta=save_this"}
+{"ts": "2026-05-27T18:10:54.524774+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 6: Visual Identity"}
+{"ts": "2026-05-27T18:10:54.524817+00:00", "level": "INFO", "engine": "VisualIdentityEngine", "message": "Visual identity built: minimal_symbol | soft_teal | subject=skin under sun rays"}
+{"ts": "2026-05-27T18:10:54.524855+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 3: Prompt Orchestration"}
+{"ts": "2026-05-27T18:10:54.525084+00:00", "level": "INFO", "engine": "PromptOrchestrationEngine", "message": "Prompt built for: Answer Reveal | dehydration"}
+{"ts": "2026-05-27T18:10:54.525126+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 4: AI Generation"}
+{"ts": "2026-05-27T18:10:58.336743+00:00", "level": "INFO", "engine": "GroqClient", "message": "Groq Multi-Comment JSON generation success (attempt 1)"}
+{"ts": "2026-05-27T18:10:58.337513+00:00", "level": "INFO", "engine": "AIGenerationEngine", "message": "Generation success: SUN_33394C | 3812ms"}
+{"ts": "2026-05-27T18:10:58.337576+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 7: Publishing Main Caption"}
+{"ts": "2026-05-27T18:10:58.337649+00:00", "level": "WARNING", "engine": "FileStore", "message": "File not found: /home/runner/work/Algocare-/Algocare-/config/safe_mode.json"}
+{"ts": "2026-05-27T18:11:04.054517+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Published: 1142784782252062_122096044905350290"}
+{"ts": "2026-05-27T18:11:04.054839+00:00", "level": "INFO", "engine": "MemoryEngine", "message": "Combination recorded: USED_SUN-EXPOSURE_DEHYDRATION_CONTRADICTION_ANSWER-REVEAL"}
+{"ts": "2026-05-27T18:11:04.576495+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Executing delayed comment trickle loop..."}
+{"ts": "2026-05-27T18:11:04.576675+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Starting trickle for 5 comments."}
+{"ts": "2026-05-27T18:11:04.576719+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Dropping automated comment 1/5..."}
+{"ts": "2026-05-27T18:11:05.290564+00:00", "level": "WARNING", "engine": "PublishingEngine", "message": "Failed to post algorithmic background comment: HTTP Error 403: Forbidden"}
+{"ts": "2026-05-27T18:11:05.818908+00:00", "level": "ERROR", "engine": "PublishingEngine", "message": "Trickle loop stopped early due to an API transmission error."}
+{"ts": "2026-05-27T18:11:06.366662+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== WORKFLOW COMPLETE: WF_20260527_181054 ==="}
