@@ -115,3 +115,21 @@
 {"ts": "2026-05-27T12:41:21.072187+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Published: 1142784782252062_122095889727350290"}
 {"ts": "2026-05-27T12:41:21.072643+00:00", "level": "INFO", "engine": "MemoryEngine", "message": "Combination recorded: USED_STRESS_JAW-CLENCHING_TINY-DISCOMFORT_COMPARISON"}
 {"ts": "2026-05-27T12:41:21.411068+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== WORKFLOW COMPLETE: WF_20260527_124103 ==="}
+{"ts": "2026-05-27T14:37:44.534311+00:00", "level": "INFO", "engine": "Main", "message": "Starting auto workflow (generate + publish)"}
+{"ts": "2026-05-27T14:37:44.534470+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== AUTO WORKFLOW START: WF_20260527_143744 ==="}
+{"ts": "2026-05-27T14:37:44.534527+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 1: Topic Intelligence"}
+{"ts": "2026-05-27T14:37:44.535343+00:00", "level": "INFO", "engine": "TopicIntelligenceEngine", "message": "Topic generated: [clothing_health] sweaty fabrics | False Confidence | Small Mistake | score=83"}
+{"ts": "2026-05-27T14:37:44.535434+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 2: Content Strategy"}
+{"ts": "2026-05-27T14:37:44.535550+00:00", "level": "INFO", "engine": "ContentStrategyEngine", "message": "Strategy built: Small Mistake | assumption_flip | short | cta=no_cta"}
+{"ts": "2026-05-27T14:37:44.535592+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 6: Visual Identity"}
+{"ts": "2026-05-27T14:37:44.535638+00:00", "level": "INFO", "engine": "VisualIdentityEngine", "message": "Visual identity built: minimal_layout | soft_blue | subject=clothing fabric or outfit"}
+{"ts": "2026-05-27T14:37:44.535681+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 3: Prompt Orchestration"}
+{"ts": "2026-05-27T14:37:44.535961+00:00", "level": "INFO", "engine": "PromptOrchestrationEngine", "message": "Prompt built for: Small Mistake | sweaty fabrics"}
+{"ts": "2026-05-27T14:37:44.536019+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 4: AI Generation"}
+{"ts": "2026-05-27T14:37:48.414187+00:00", "level": "INFO", "engine": "GroqClient", "message": "Groq call success (llama-3.3-70b-versatile) (attempt 1)"}
+{"ts": "2026-05-27T14:37:48.415571+00:00", "level": "INFO", "engine": "AIGenerationEngine", "message": "Generation success: CLO_CC4A3D | 3879ms"}
+{"ts": "2026-05-27T14:37:48.415650+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 7: Publishing"}
+{"ts": "2026-05-27T14:37:48.415748+00:00", "level": "WARNING", "engine": "FileStore", "message": "File not found: /home/runner/work/Algocare-/Algocare-/config/safe_mode.json"}
+{"ts": "2026-05-27T14:37:51.997438+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Published: 1142784782252062_122095949343350290"}
+{"ts": "2026-05-27T14:37:51.997851+00:00", "level": "INFO", "engine": "MemoryEngine", "message": "Combination recorded: USED_CLOTHING-HEALTH_SWEATY-FABRICS_FALSE-CONFIDENCE_SMALL-MISTAKE"}
+{"ts": "2026-05-27T14:37:52.374297+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== WORKFLOW COMPLETE: WF_20260527_143744 ==="}
