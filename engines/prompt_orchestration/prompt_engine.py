@@ -2,6 +2,7 @@
 ENGINE 3 — PROMPT ORCHESTRATION ENGINE
 Builds the final Gemini prompt from strategy + visual + rules.
 Never calls APIs. Only outputs a ready-to-send prompt object.
+Upgraded to inject dual-generation JSON schema instructions at runtime.
 """
 
 import json
@@ -107,7 +108,23 @@ def _build_context_block(strategy: dict) -> str:
 
 
 def _build_generation_instruction(post_type: str) -> str:
-    return f"\nNow write the {post_type} post. Return only the post text."
+    return (
+        f"\nNow write the {post_type} post and its accompanying comments.\n"
+        "CRITICAL RESPONSE FORMAT INSTRUCTION:\n"
+        "You must output your complete response as a single valid JSON object. "
+        "Do not wrap your JSON in markdown code blocks (no ```json). "
+        "The JSON object configuration structure must match this scheme exactly:\n"
+        "{\n"
+        '  "caption": "Your generated health post caption body text here matching all format rules",\n'
+        '  "comments": [\n'
+        '    "First natural, open-ended question or thought from the Page profile to spark discussion",\n'
+        '    "Second casual follow-up point or lesser-known observation to drop later",\n'
+        '    "Third practical question pushing users to share their everyday habits",\n'
+        '    "Fourth helpful community-style comment emphasizing the main takeaway",\n'
+        '    "Fifth question encouraging followers to drop their experiences in the thread"\n'
+        "  ]\n"
+        "}"
+    )
 
 
 # ─── Main Prompt Builder ──────────────────────────────────────────────────────
