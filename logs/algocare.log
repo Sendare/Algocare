@@ -43,3 +43,21 @@
 {"ts": "2026-05-27T06:37:51.687994+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Published: 1142784782252062_122095748763350290"}
 {"ts": "2026-05-27T06:37:51.688353+00:00", "level": "INFO", "engine": "MemoryEngine", "message": "Combination recorded: USED_HANDS_HAND-DRYING_TINY-DISCOMFORT_THIS-OR-THAT"}
 {"ts": "2026-05-27T06:37:51.994962+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== WORKFLOW COMPLETE: WF_20260527_063742 ==="}
+{"ts": "2026-05-27T08:32:58.520233+00:00", "level": "INFO", "engine": "Main", "message": "Starting auto workflow (generate + publish)"}
+{"ts": "2026-05-27T08:32:58.520553+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== AUTO WORKFLOW START: WF_20260527_083258 ==="}
+{"ts": "2026-05-27T08:32:58.520626+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 1: Topic Intelligence"}
+{"ts": "2026-05-27T08:32:58.522052+00:00", "level": "INFO", "engine": "TopicIntelligenceEngine", "message": "Topic generated: [hands] dirty phones | Realization | Body Reaction | score=80"}
+{"ts": "2026-05-27T08:32:58.522131+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 2: Content Strategy"}
+{"ts": "2026-05-27T08:32:58.522250+00:00", "level": "INFO", "engine": "ContentStrategyEngine", "message": "Strategy built: Body Reaction | quiet_realization | medium | cta=no_cta"}
+{"ts": "2026-05-27T08:32:58.522305+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 6: Visual Identity"}
+{"ts": "2026-05-27T08:32:58.522360+00:00", "level": "INFO", "engine": "VisualIdentityEngine", "message": "Visual identity built: isolated_object | soft_blue | subject=hands and fingers"}
+{"ts": "2026-05-27T08:32:58.522448+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 3: Prompt Orchestration"}
+{"ts": "2026-05-27T08:32:58.522749+00:00", "level": "INFO", "engine": "PromptOrchestrationEngine", "message": "Prompt built for: Body Reaction | dirty phones"}
+{"ts": "2026-05-27T08:32:58.522817+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 4: AI Generation"}
+{"ts": "2026-05-27T08:33:02.117916+00:00", "level": "INFO", "engine": "GroqClient", "message": "Groq call success (llama-3.3-70b-versatile) (attempt 1)"}
+{"ts": "2026-05-27T08:33:02.118561+00:00", "level": "INFO", "engine": "AIGenerationEngine", "message": "Generation success: HAN_D99542 | 3595ms"}
+{"ts": "2026-05-27T08:33:02.118654+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 7: Publishing"}
+{"ts": "2026-05-27T08:33:02.118749+00:00", "level": "WARNING", "engine": "FileStore", "message": "File not found: /home/runner/work/Algocare-/Algocare-/config/safe_mode.json"}
+{"ts": "2026-05-27T08:33:05.971997+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Published: 1142784782252062_122095785429350290"}
+{"ts": "2026-05-27T08:33:05.972552+00:00", "level": "INFO", "engine": "MemoryEngine", "message": "Combination recorded: USED_HANDS_DIRTY-PHONES_REALIZATION_BODY-REACTION"}
+{"ts": "2026-05-27T08:33:06.414527+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== WORKFLOW COMPLETE: WF_20260527_083258 ==="}
