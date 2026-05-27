@@ -2,6 +2,7 @@
 ENGINE 8 — ORCHESTRATOR ENGINE
 Central controller. Coordinates all engines sequentially.
 Controls, never thinks. Business logic stays in individual engines.
+Upgraded to pipeline complex multi-comment data payloads safely.
 """
 
 from pathlib import Path
@@ -81,7 +82,6 @@ def run_auto_workflow() -> dict:
     # ── Engine 6: Visual Identity
     logger.info(ENGINE, "Engine 6: Visual Identity")
     visual_object = build_visual_identity(strategy_object)
-    # Non-critical — continue even if this fails
 
     # ── Engine 3: Prompt Orchestration
     logger.info(ENGINE, "Engine 3: Prompt Orchestration")
@@ -103,10 +103,17 @@ def run_auto_workflow() -> dict:
         return state
 
     caption = generation_result.get("caption", "")
+    comments = generation_result.get("comments", [])
+
+    # Bundle caption data alongside the comment arrays to run the trickle loop cleanly
+    publishing_payload = {
+        "caption": caption,
+        "comments": comments
+    }
 
     # ── Engine 7: Publish directly
-    logger.info(ENGINE, "Engine 7: Publishing")
-    publish_result = publish_caption(caption)
+    logger.info(ENGINE, "Engine 7: Publishing with Delayed Comments Loop")
+    publish_result = publish_caption(publishing_payload)
 
     if publish_result.get("success"):
         # ── Update memory after successful publish
@@ -132,6 +139,7 @@ def run_auto_workflow() -> dict:
             "post_type":       topic_object.get("post_type"),
             "emotion":         topic_object.get("emotion"),
             "caption":         caption,
+            "comments_seeded": comments,
             "facebook_post_id": publish_result.get("post_id"),
             "published_at":    datetime.now(timezone.utc).isoformat(),
             "generation_time_ms": generation_result.get("generation_time_ms", 0)
