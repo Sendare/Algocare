@@ -2,6 +2,7 @@
 utils/gemini_client.py
 Patched Wrapper using Groq Cloud API for Algocare Engine 4 content pipelines.
 Handles auth, rate limiting, retries, and OpenAI-style response normalization.
+Bypasses Cloudflare block 1010 via explicit browser User-Agent headers.
 """
 
 import os
@@ -72,12 +73,14 @@ def call(prompt: str, temperature: float = 0.85, max_retries: int = 3) -> str:
         try:
             _enforce_rate_limit()
 
+            # 4. Request with browser User-Agent configuration to clear Cloudflare rules
             req = urllib.request.Request(
                 url,
                 data=payload,
                 headers={
                     "Content-Type": "application/json",
-                    "Authorization": f"Bearer {api_key}"
+                    "Authorization": f"Bearer {api_key}",
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
                 },
                 method="POST"
             )
