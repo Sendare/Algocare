@@ -257,7 +257,8 @@ def publish_next_approved() -> dict:
 def trickle_comments_only(post_id: str, comments_list: list):
     """
     Handles dropping algorithmic interaction comments sequentially.
-    Executed after files are saved to avoid Git merge lockouts.
+    Uses a 1-minute heartbeat sub-loop to prevent GitHub Actions from 
+    canceling the run due to silence.
     """
     if not post_id or not comments_list:
         return
@@ -268,10 +269,22 @@ def trickle_comments_only(post_id: str, comments_list: list):
             continue
         
         if index > 0:
-            logger.info(ENGINE, f"Waiting {COMMENT_DELAY // 60} minutes before next comment drop...")
-            time.sleep(COMMENT_DELAY)
+            total_wait_minutes = COMMENT_DELAY // 60
+            logger.info(ENGINE, f"Starting {total_wait_minutes}-minute delay before comment {index + 1}...")
+            
+            # Break down 10 minutes into 1-minute intervals with live console print updates
+            for minute in range(1, total_wait_minutes + 1):
+                time.sleep(60)
+                logger.info(ENGINE, f"  [Heartbeat] Waiting... ({minute}/{total_wait_minutes} minutes elapsed)")
 
         logger.info(ENGINE, f"Dropping automated comment {index + 1}/{len(comments_list)}...")
+        success = _add_comment_to_post(post_id, str(comment).strip())
+        if success:
+            logger.info(ENGINE, f"Comment {index + 1} posted successfully.")
+        else:
+            logger.error(ENGINE, "Trickle loop stopped early due to an API transmission error.")
+            break
+ comment {index + 1}/{len(comments_list)}...")
         success = _add_comment_to_post(post_id, str(comment).strip())
         if success:
             logger.info(ENGINE, f"Comment {index + 1} posted successfully.")
