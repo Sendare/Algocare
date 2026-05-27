@@ -49,7 +49,7 @@ def run_auto_workflow() -> dict:
     """
     Full automation pipeline used by GitHub Actions.
     Engine 1 → 2 → 6 → 3 → 4 → publish → memory update.
-    No human approval step.
+    Upgraded to commit repository updates BEFORE executing the long comment loop.
     """
     workflow_id = _make_workflow_id()
     started_at  = datetime.now(timezone.utc).isoformat()
@@ -105,18 +105,18 @@ def run_auto_workflow() -> dict:
     caption = generation_result.get("caption", "")
     comments = generation_result.get("comments", [])
 
-    # Bundle caption data alongside the comment arrays to run the trickle loop cleanly
+    # Bundle only the caption first for the immediate Meta post push
     publishing_payload = {
         "caption": caption,
-        "comments": comments
+        "comments": [] # Pass empty here so Engine 7 returns instantly
     }
 
-    # ── Engine 7: Publish directly
-    logger.info(ENGINE, "Engine 7: Publishing with Delayed Comments Loop")
+    # ── Engine 7: Publish directly (Immediate Feed post)
+    logger.info(ENGINE, "Engine 7: Publishing Main Caption")
     publish_result = publish_caption(publishing_payload)
 
     if publish_result.get("success"):
-        # ── Update memory after successful publish
+        # ── SAVE AND LOG EVERYTHING IMMEDIATELY BEFORE THE SLEEP LOOP
         record_combination(
             topic_object.get("category", ""),
             topic_object.get("subtopic", ""),
@@ -128,7 +128,7 @@ def run_auto_workflow() -> dict:
         update_recent("post_type", topic_object.get("post_type", ""))
         update_recent("cta",      strategy_object.get("cta_type", ""))
 
-        # ── Archive published record
+        # Archive published record
         published_record = {
             "status":          "published",
             "workflow_id":     workflow_id,
@@ -157,8 +157,15 @@ def run_auto_workflow() -> dict:
             "completed_at":    end_time
         })
         _log_workflow(workflow_id, state, "completed")
+        send_alert(f"✅ Posted main content successfully. Memory logs saved.")
 
-        send_alert(f"✅ Posted:\n{caption[:120]}")
+        # ── NOW EXECUTE TRICKLE LOOP AFTER LOCAL FILE CHANGES ARE SECURED
+        if comments:
+            logger.info(ENGINE, "Executing delayed comment trickle loop...")
+            # We call Engine 7's direct function passing just the comments payload
+            from engines.publishing.publishing_engine import trickle_comments_only
+            trickle_comments_only(publish_result.get("post_id"), comments)
+
         logger.info(ENGINE, f"=== WORKFLOW COMPLETE: {workflow_id} ===")
         return state
 
@@ -168,7 +175,6 @@ def run_auto_workflow() -> dict:
         _log_workflow(workflow_id, state, "failed")
         send_alert(f"🔴 Publish failed: {reason}")
         return state
-
 
 # ─── Workflow: Generate Only (Termux testing) ─────────────────────────────────
 
