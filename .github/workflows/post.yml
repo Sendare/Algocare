@@ -1,5 +1,10 @@
 name: Algocare Auto Post
 
+concurrency:
+  group: algocare-publishing
+  cancel-in-progress: false
+
+
 on:
   # Cron-job.org hits this webhook to trigger a post
   repository_dispatch:
