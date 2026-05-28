@@ -436,3 +436,30 @@
 {"ts": "2026-05-28T20:59:05.444083+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 1 dropped successfully on Facebook."}
 {"ts": "2026-05-28T20:59:05.444890+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Successfully saved remaining 4 interaction comments into flat storage file."}
 {"ts": "2026-05-28T20:59:05.444973+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== WORKFLOW COMPLETE: WF_20260528_205850 ==="}
+{"ts": "2026-05-28T21:00:19.768827+00:00", "level": "INFO", "engine": "Main", "message": "Checking comment queue pipeline..."}
+{"ts": "2026-05-28T21:00:19.769438+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Processing item from queue. Remaining in backup: 31"}
+{"ts": "2026-05-28T21:00:19.769523+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Dropping comment for post 1142784782252062_122096539167350290..."}
+{"ts": "2026-05-28T21:00:23.453703+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment went live on Facebook interface: 122096539167350290_983288364085765"}
+{"ts": "2026-05-28T21:00:23.453839+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Queue item posted successfully to Facebook Page."}
+{"ts": "2026-05-28T21:00:23.454387+00:00", "level": "INFO", "engine": "Main", "message": "Starting auto workflow (generate + publish)"}
+{"ts": "2026-05-28T21:00:23.454498+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== AUTO WORKFLOW START: WF_20260528_210023 ==="}
+{"ts": "2026-05-28T21:00:23.454608+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 1: Topic Intelligence"}
+{"ts": "2026-05-28T21:00:23.455324+00:00", "level": "INFO", "engine": "TopicIntelligenceEngine", "message": "Topic generated: [blood_sugar] energy dips | Contradiction | Small Mistake | score=73"}
+{"ts": "2026-05-28T21:00:23.455396+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 2: Content Strategy"}
+{"ts": "2026-05-28T21:00:23.455525+00:00", "level": "INFO", "engine": "ContentStrategyEngine", "message": "Strategy built: Small Mistake | assumption_flip | medium | cta=ask_question"}
+{"ts": "2026-05-28T21:00:23.455624+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 6: Visual Identity"}
+{"ts": "2026-05-28T21:00:23.455708+00:00", "level": "INFO", "engine": "VisualIdentityEngine", "message": "Visual identity built: minimal_layout | soft_blue | subject=blood sugar graph or food items"}
+{"ts": "2026-05-28T21:00:23.455773+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 3: Prompt Orchestration"}
+{"ts": "2026-05-28T21:00:23.456056+00:00", "level": "INFO", "engine": "PromptOrchestrationEngine", "message": "Prompt built for: Small Mistake | energy dips"}
+{"ts": "2026-05-28T21:00:23.456125+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 4: AI Generation"}
+{"ts": "2026-05-28T21:00:27.367287+00:00", "level": "INFO", "engine": "GroqClient", "message": "Groq Multi-Comment JSON generation success (attempt 1)"}
+{"ts": "2026-05-28T21:00:27.372989+00:00", "level": "INFO", "engine": "AIGenerationEngine", "message": "Generation success: BLO_2AAA41 | 3916ms"}
+{"ts": "2026-05-28T21:00:27.373088+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 7: Publishing Main Caption"}
+{"ts": "2026-05-28T21:00:30.343922+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Published main post: 1142784782252062_122096708301350290"}
+{"ts": "2026-05-28T21:00:30.344491+00:00", "level": "INFO", "engine": "MemoryEngine", "message": "Combination recorded: USED_BLOOD-SUGAR_ENERGY-DIPS_CONTRADICTION_SMALL-MISTAKE"}
+{"ts": "2026-05-28T21:00:30.952237+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Injecting interaction content into backend queue flat file..."}
+{"ts": "2026-05-28T21:00:30.952625+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 1 immediately with main feed post..."}
+{"ts": "2026-05-28T21:00:34.054127+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment went live on Facebook interface: 122096708301350290_1293269966321771"}
+{"ts": "2026-05-28T21:00:34.054642+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 1 dropped successfully on Facebook."}
+{"ts": "2026-05-28T21:00:34.055455+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Successfully saved remaining 4 interaction comments into flat storage file."}
+{"ts": "2026-05-28T21:00:34.055535+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== WORKFLOW COMPLETE: WF_20260528_210023 ==="}
