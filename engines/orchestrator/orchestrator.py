@@ -18,12 +18,12 @@ import utils.logger as logger
 from utils.file_store import write_json, read_json
 from utils.telegram_alert import send_alert
 
-# Engine package cross-imports
-from engines.topic_intelligence.topic_intelligence import generate_topic
-from engines.content_strategy.content_strategy import build_strategy
-from engines.visual_identity.visual_identity import build_visual_identity
-from engines.prompt_orchestration.prompt_orchestration import build_prompt
-from engines.ai_generation.ai_generation import generate
+# ─── REAL FILENAME MATCHING IMPORTS ──────────────────────────────────────────
+from engines.topic_intelligence.topic_engine import generate_topic
+from engines.content_strategy.strategy_engine import build_strategy
+from engines.visual_identity.visual_engine import build_visual_identity
+from engines.prompt_orchestration.prompt_engine import build_prompt
+from engines.ai_generation.generation_engine import generate
 from engines.publishing.publishing_engine import publish_caption, queue_comments
 from engines.memory.memory_engine import record_combination, update_recent
 
