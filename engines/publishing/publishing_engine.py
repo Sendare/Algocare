@@ -36,7 +36,7 @@ MAX_RETRIES          = 3
 RETRY_DELAY          = 30
 SAFE_MODE_THRESHOLD  = 5
 COMMENT_DELAY        = 530 
-seconds = 9 minutes
+#seconds = 9 minutes
 
 
 # ─── Safe Mode ────────────────────────────────────────────────────────────────
