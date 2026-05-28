@@ -13,6 +13,7 @@ import os
 import json
 import urllib.request
 import urllib.error
+import urllib.parse
 from pathlib import Path
 from datetime import datetime, timezone
 
@@ -112,28 +113,42 @@ def _post_to_facebook(caption: str) -> dict:
 
 
 def _add_comment_to_post(post_id: str, comment_text: str) -> bool:
-    """Sends a matching algorithmic interaction comment under the created post."""
+    """Sends a matching algorithmic interaction comment using URL Form-Encoding."""
     page_token = os.environ.get("FACEBOOK_PAGE_TOKEN", "")
     api_ver    = os.environ.get("FACEBOOK_API_VERSION", "v19.0")
 
+    if not page_token or not post_id:
+        return False
+
     url = f"https://graph.facebook.com/{api_ver}/{post_id}/comments"
-    payload = json.dumps({
-        "message":      comment_text,
+    
+    # FIX: Meta APIs require x-www-form-urlencoded delivery to securely show comments on UI
+    payload_data = {
+        "message": comment_text,
         "access_token": page_token
-    }).encode("utf-8")
+    }
+    encoded_payload = urllib.parse.urlencode(payload_data).encode("utf-8")
 
     try:
         req = urllib.request.Request(
             url,
-            data=payload,
-            headers={"Content-Type": "application/json"},
+            data=encoded_payload,
+            headers={"Content-Type": "application/x-www-form-urlencoded"},
             method="POST"
         )
         with urllib.request.urlopen(req, timeout=30) as resp:
             data = json.loads(resp.read().decode("utf-8"))
-            return "id" in data
+            comment_id = data.get("id", "")
+            if comment_id:
+                logger.info(ENGINE, f"Comment went live on Facebook interface: {comment_id}")
+                return True
+            return False
     except Exception as e:
-        logger.warning(ENGINE, f"Failed to post comment: {e}")
+        if hasattr(e, 'read'):
+            error_body = e.read().decode("utf-8", errors="ignore")
+            logger.warning(ENGINE, f"Meta Comment Engine Rejection: {error_body}")
+        else:
+            logger.warning(ENGINE, f"Failed to post comment down link: {e}")
         return False
 
 
@@ -206,8 +221,11 @@ def queue_comments(post_id: str, comments_list: list):
     # Ensure config/ folder path directory exists dynamically
     Path(_QUEUE_FILE).parent.mkdir(parents=True, exist_ok=True)
 
-    # Read current queue state or initialize fresh list structure
-    queue_data = read_json(_QUEUE_FILE) or []
+    # CRITICAL FIX: Explicitly re-read the fresh queue state directly from disk.
+    # This prevents overwriting changes made by process_comment_queue() earlier in the same workflow.
+    queue_data = read_json(_QUEUE_FILE)
+    if not queue_data or not isinstance(queue_data, list):
+        queue_data = []
     
     # Append remaining structured record objects
     for comment in cleaned_comments:
@@ -223,9 +241,10 @@ def queue_comments(post_id: str, comments_list: list):
 
 def process_comment_queue():
     """Processes exactly ONE comment from the queue per execution. Completely eliminates sleeps."""
+    # Force-read directly from disk file to make sure we have the latest state
     queue_data = read_json(_QUEUE_FILE)
     if not queue_data or not isinstance(queue_data, list):
-        logger.info(ENGINE, "Comment queue is empty. No tasks to process.")
+        logger.info(ENGINE, "Comment queue is empty or file not found. No tasks to process.")
         return
 
     # Pop oldest item in queue (FIFO stack configuration)
@@ -240,7 +259,7 @@ def process_comment_queue():
     
     if success:
         logger.info(ENGINE, "Queue item posted successfully to Facebook Page.")
-        # Update queue tracking file with remaining entries
+        # Update queue tracking file immediately on disk with remaining entries
         write_json(_QUEUE_FILE, queue_data)
     else:
         logger.error(ENGINE, "Failed to deliver queue item. Retaining item in queue for next cycle retry.")
