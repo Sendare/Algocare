@@ -1,7 +1,7 @@
 """
 ENGINE 7 — PUBLISHING & DISTRIBUTION ENGINE
 Handles formatting, publishing to Facebook, retries, safe mode, and file logging.
-Upgraded to use a Zero-Sleep Queue System to bypass GitHub Actions' 10-minute timeout rules.
+Upgraded to instantly post the 1st comment and queue the remaining 4 comments.
 
 Three major public entry points:
   1. publish_caption(content)   — used by auto workflow (Engine 8) to post main feed
@@ -177,7 +177,10 @@ def publish_caption(content) -> dict:
 # ─── Public: Zero-Sleep Queue Operations ─────────────────────────────────────
 
 def queue_comments(post_id: str, comments_list: list):
-    """Saves generated comments into a flat-file queue to be processed sequentially."""
+    """
+    Splits the comment list: instantly fires comment 1, 
+    and queues up the remaining comments (2-5) into flat file storage.
+    """
     if not post_id or not comments_list:
         return
 
@@ -185,10 +188,28 @@ def queue_comments(post_id: str, comments_list: list):
     if not cleaned_comments:
         return
 
-    # Read current queue or initialize fresh list if file doesn't exist yet
+    # 1. INSTANT DEPLOYMENT: Pop and post the very first comment right now
+    first_comment = cleaned_comments.pop(0)
+    logger.info(ENGINE, f"Deploying comment 1 immediately with main feed post...")
+    instant_success = _add_comment_to_post(post_id, first_comment)
+    
+    if instant_success:
+        logger.info(ENGINE, "Comment 1 dropped successfully on Facebook.")
+    else:
+        # Fallback: if instant delivery fails, add it back to front of queue so it isn't lost
+        cleaned_comments.insert(0, first_comment)
+        logger.warning(ENGINE, "Instant comment failed to deploy. Appending back into queue.")
+
+    if not cleaned_comments:
+        return
+
+    # Ensure config/ folder path directory exists dynamically
+    Path(_QUEUE_FILE).parent.mkdir(parents=True, exist_ok=True)
+
+    # Read current queue state or initialize fresh list structure
     queue_data = read_json(_QUEUE_FILE) or []
     
-    # Append structured record objects
+    # Append remaining structured record objects
     for comment in cleaned_comments:
         queue_data.append({
             "post_id": post_id,
@@ -197,7 +218,7 @@ def queue_comments(post_id: str, comments_list: list):
         })
 
     write_json(_QUEUE_FILE, queue_data)
-    logger.info(ENGINE, f"Successfully queued {len(cleaned_comments)} interaction comments into storage database.")
+    logger.info(ENGINE, f"Successfully saved remaining {len(cleaned_comments)} interaction comments into flat storage file.")
 
 
 def process_comment_queue():
@@ -259,7 +280,7 @@ def publish_next_approved() -> dict:
             })
         write_json(_PUBLISHED_DIR / draft_path.name, draft_data)
         
-        # If manual post contains engagement strings, queue them up cleanly
+        # Split and process using the unified split method logic
         if isinstance(draft_data, dict) and "comments" in draft_data:
             queue_comments(result["post_id"], draft_data["comments"])
             
