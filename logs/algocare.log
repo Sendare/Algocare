@@ -156,3 +156,28 @@
 {"ts": "2026-05-27T18:11:05.290564+00:00", "level": "WARNING", "engine": "PublishingEngine", "message": "Failed to post algorithmic background comment: HTTP Error 403: Forbidden"}
 {"ts": "2026-05-27T18:11:05.818908+00:00", "level": "ERROR", "engine": "PublishingEngine", "message": "Trickle loop stopped early due to an API transmission error."}
 {"ts": "2026-05-27T18:11:06.366662+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== WORKFLOW COMPLETE: WF_20260527_181054 ==="}
+{"ts": "2026-05-28T10:19:17.203423+00:00", "level": "INFO", "engine": "Main", "message": "Checking comment queue pipeline..."}
+{"ts": "2026-05-28T10:19:17.203554+00:00", "level": "WARNING", "engine": "FileStore", "message": "File not found: /home/runner/work/Algocare-/Algocare-/config/comment_queue.json"}
+{"ts": "2026-05-28T10:19:17.652681+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment queue is empty. No tasks to process."}
+{"ts": "2026-05-28T10:19:17.653015+00:00", "level": "INFO", "engine": "Main", "message": "Starting auto workflow (generate + publish)"}
+{"ts": "2026-05-28T10:19:17.653115+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== AUTO WORKFLOW START: WF_20260528_101917 ==="}
+{"ts": "2026-05-28T10:19:17.653176+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 1: Topic Intelligence"}
+{"ts": "2026-05-28T10:19:17.653867+00:00", "level": "INFO", "engine": "TopicIntelligenceEngine", "message": "Topic generated: [daily_energy] screen overload | Overlooked Detail | Question | score=67"}
+{"ts": "2026-05-28T10:19:17.653968+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 2: Content Strategy"}
+{"ts": "2026-05-28T10:19:17.654094+00:00", "level": "INFO", "engine": "ContentStrategyEngine", "message": "Strategy built: Question | quiet_observation | short | cta=no_cta"}
+{"ts": "2026-05-28T10:19:17.654143+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 6: Visual Identity"}
+{"ts": "2026-05-28T10:19:17.654198+00:00", "level": "INFO", "engine": "VisualIdentityEngine", "message": "Visual identity built: minimal_layout | soft_blue | subject=energy meter or figure"}
+{"ts": "2026-05-28T10:19:17.654246+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 3: Prompt Orchestration"}
+{"ts": "2026-05-28T10:19:17.654503+00:00", "level": "INFO", "engine": "PromptOrchestrationEngine", "message": "Prompt built for: Question | screen overload"}
+{"ts": "2026-05-28T10:19:17.654559+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 4: AI Generation"}
+{"ts": "2026-05-28T10:19:21.473842+00:00", "level": "INFO", "engine": "GroqClient", "message": "Groq Multi-Comment JSON generation success (attempt 1)"}
+{"ts": "2026-05-28T10:19:21.475436+00:00", "level": "INFO", "engine": "AIGenerationEngine", "message": "Generation success: DAI_F28D4B | 3820ms"}
+{"ts": "2026-05-28T10:19:21.475520+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 7: Publishing Main Caption"}
+{"ts": "2026-05-28T10:19:21.475929+00:00", "level": "WARNING", "engine": "FileStore", "message": "File not found: /home/runner/work/Algocare-/Algocare-/config/safe_mode.json"}
+{"ts": "2026-05-28T10:19:24.682198+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Published main post: 1142784782252062_122096383497350290"}
+{"ts": "2026-05-28T10:19:24.682710+00:00", "level": "INFO", "engine": "MemoryEngine", "message": "Combination recorded: USED_DAILY-ENERGY_SCREEN-OVERLOAD_OVERLOOKED-DETAIL_QUESTION"}
+{"ts": "2026-05-28T10:19:24.684800+00:00", "level": "WARNING", "engine": "FileStore", "message": "File not found: /home/runner/work/Algocare-/Algocare-/logs/workflow_history.json"}
+{"ts": "2026-05-28T10:19:25.475164+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Injecting interaction content into backend queue flat file..."}
+{"ts": "2026-05-28T10:19:25.475352+00:00", "level": "WARNING", "engine": "FileStore", "message": "File not found: /home/runner/work/Algocare-/Algocare-/config/comment_queue.json"}
+{"ts": "2026-05-28T10:19:25.877207+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Successfully queued 5 interaction comments into storage database."}
+{"ts": "2026-05-28T10:19:25.877281+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== WORKFLOW COMPLETE: WF_20260528_101917 ==="}
