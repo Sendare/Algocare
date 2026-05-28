@@ -3,11 +3,14 @@ MAIN ENTRY POINT
 Routes automated cron workflows and manual operational flags smoothly.
 """
 
+import os
 import sys
 from pathlib import Path
 
-# Fix relative import structures
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+# Absolute Path Resolution: Force Python to treat the project root folder as a top-level package path
+_CURRENT_DIR = Path(__file__).resolve().parent
+if str(_CURRENT_DIR) not in sys.path:
+    sys.path.insert(0, str(_CURRENT_DIR))
 
 import utils.logger as logger
 from engines.orchestrator.orchestrator import run_auto_workflow, run_manual_workflow
