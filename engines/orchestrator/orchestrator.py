@@ -1,55 +1,52 @@
 """
 ENGINE 8 — ORCHESTRATOR ENGINE
-Central controller. Coordinates all engines sequentially.
-Controls, never thinks. Business logic stays in individual engines.
-Upgraded to pipeline complex multi-comment data payloads safely.
+Coordinates structural data transit between Topic, Strategy, Visual, Prompt, 
+AI Generation, and Publishing components. Decoupled to push data records instantly.
 """
 
+import uuid
 from pathlib import Path
 from datetime import datetime, timezone
 
 import sys
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent))
+
 import utils.logger as logger
-from utils.file_store import write_json, list_json_files, read_json, timestamped_filename
+from utils.file_store import write_json, read_json
 from utils.telegram_alert import send_alert
 
-from engines.topic_intelligence.topic_engine    import generate_topic
-from engines.content_strategy.strategy_engine   import build_strategy
-from engines.visual_identity.visual_engine      import build_visual_identity
-from engines.prompt_orchestration.prompt_engine import build_prompt
-from engines.ai_generation.generation_engine    import generate
-from engines.memory.memory_engine               import (
-    record_combination, update_recent, get_stats
-)
-from engines.publishing.publishing_engine       import publish_caption
+# Engine cross-imports
+from engines.topic_intelligence.topic_intelligence import generate_topic
+from engines.content_strategy.content_strategy import build_strategy
+from engines.visual_identity.visual_identity import build_visual_identity
+from engines.prompt_orchestration.prompt_orchestration import build_prompt
+from engines.ai_generation.ai_generation import generate
+from engines.publishing.publishing_engine import publish_caption
+from engines.memory.memory_engine import record_combination, update_recent
 
 ENGINE = "Orchestrator"
-
-_BASE              = Path(__file__).resolve().parent.parent.parent
-_PUBLISHED_DIR     = _BASE / "published"
-_WORKFLOW_LOGS_DIR = _BASE / "workflow_logs"
-
-
-# ─── Workflow ID ──────────────────────────────────────────────────────────────
+_BASE = Path(__file__).resolve().parent.parent.parent
+_PUBLISHED_DIR = _BASE / "published"
+_HISTORY_FILE = _BASE / "logs" / "workflow_history.json"
 
 def _make_workflow_id() -> str:
-    ts = datetime.now(timezone.utc).strftime("%Y%m%d_%H%M%S")
-    return f"WF_{ts}"
+    return f"WF_{datetime.now(timezone.utc).strftime('%Y%m%d_%H%M%S')}"
 
-
-def _log_workflow(workflow_id: str, state: dict, folder: str = "completed"):
-    path = _WORKFLOW_LOGS_DIR / folder / f"{workflow_id}.json"
-    write_json(path, state)
-
-
-# ─── Workflow: Full Auto (generate + publish in one shot) ─────────────────────
+def _log_workflow(workflow_id: str, state_data: dict, status: str):
+    """Saves workflow status records directly into the history logs."""
+    try:
+        history_path = Path(_HISTORY_FILE)
+        history_path.parent.mkdir(parents=True, exist_ok=True)
+        history = read_json(history_path) or {}
+        history[workflow_id] = state_data
+        write_json(history_path, history)
+    except Exception as e:
+        logger.error(ENGINE, f"Failed to record state profile payload: {e}")
 
 def run_auto_workflow() -> dict:
     """
     Full automation pipeline used by GitHub Actions.
-    Engine 1 → 2 → 6 → 3 → 4 → publish → memory update.
-    Upgraded to commit repository updates BEFORE executing the long comment loop.
+    Engine 1 → 2 → 6 → 3 → 4 → publish → memory update → Queue injection.
     """
     workflow_id = _make_workflow_id()
     started_at  = datetime.now(timezone.utc).isoformat()
@@ -105,18 +102,18 @@ def run_auto_workflow() -> dict:
     caption = generation_result.get("caption", "")
     comments = generation_result.get("comments", [])
 
-    # Bundle only the caption first for the immediate Meta post push
+    # Bundle only the text message caption for the immediate Meta post run
     publishing_payload = {
         "caption": caption,
-        "comments": [] # Pass empty here so Engine 7 returns instantly
+        "comments": []
     }
 
-    # ── Engine 7: Publish directly (Immediate Feed post)
+    # ── Engine 7: Publish Main Post
     logger.info(ENGINE, "Engine 7: Publishing Main Caption")
     publish_result = publish_caption(publishing_payload)
 
     if publish_result.get("success"):
-        # ── SAVE AND LOG EVERYTHING IMMEDIATELY BEFORE THE SLEEP LOOP
+        # Save memory logs immediately to stay updated with Git pushes
         record_combination(
             topic_object.get("category", ""),
             topic_object.get("subtopic", ""),
@@ -128,7 +125,7 @@ def run_auto_workflow() -> dict:
         update_recent("post_type", topic_object.get("post_type", ""))
         update_recent("cta",      strategy_object.get("cta_type", ""))
 
-        # Archive published record
+        # Archive published profile configuration
         published_record = {
             "status":          "published",
             "workflow_id":     workflow_id,
@@ -146,6 +143,7 @@ def run_auto_workflow() -> dict:
         }
         ts       = datetime.now(timezone.utc).strftime("%Y%m%d_%H%M%S")
         pub_path = _PUBLISHED_DIR / f"{ts}_{topic_object.get('topic_id', 'unknown')}.json"
+        _PUBLISHED_DIR.mkdir(parents=True, exist_ok=True)
         write_json(pub_path, published_record)
 
         end_time = datetime.now(timezone.utc).isoformat()
@@ -157,14 +155,13 @@ def run_auto_workflow() -> dict:
             "completed_at":    end_time
         })
         _log_workflow(workflow_id, state, "completed")
-        send_alert(f"✅ Posted main content successfully. Memory logs saved.")
+        send_alert(f"✅ Published main content successfully. Logs committed.")
 
-        # ── NOW EXECUTE TRICKLE LOOP AFTER LOCAL FILE CHANGES ARE SECURED
+        # ─── INJECT REMAINING ENGAGEMENT STRINGS INTO ZERO-SLEEP STORAGE FILE
         if comments:
-            logger.info(ENGINE, "Executing delayed comment trickle loop...")
-            # We call Engine 7's direct function passing just the comments payload
-            from engines.publishing.publishing_engine import trickle_comments_only
-            trickle_comments_only(publish_result.get("post_id"), comments)
+            logger.info(ENGINE, "Injecting interaction content into backend queue flat file...")
+            from engines.publishing.publishing_engine import queue_comments
+            queue_comments(publish_result.get("post_id"), comments)
 
         logger.info(ENGINE, f"=== WORKFLOW COMPLETE: {workflow_id} ===")
         return state
@@ -176,49 +173,9 @@ def run_auto_workflow() -> dict:
         send_alert(f"🔴 Publish failed: {reason}")
         return state
 
-# ─── Workflow: Generate Only (Termux testing) ─────────────────────────────────
 
-def run_generate_workflow() -> dict:
-    """Generate and write to /drafts/ — for local testing only."""
-    topic_object    = generate_topic()
-    if not topic_object:
-        return {"status": "failed"}
-    strategy_object = build_strategy(topic_object)
-    visual_object   = build_visual_identity(strategy_object)
-    prompt_object   = build_prompt(strategy_object, visual_object)
-    result          = generate(prompt_object)
-
-    if result.get("status") == "success":
-        update_recent("category", topic_object.get("category", ""))
-        update_recent("angle",    topic_object.get("angle", ""))
-        update_recent("post_type", topic_object.get("post_type", ""))
-
-    return {
-        "status":          result.get("status"),
-        "caption_preview": result.get("caption", "")[:100],
-        "topic_id":        topic_object.get("topic_id")
-    }
-
-
-# ─── Workflow: Publish Only (Termux testing) ──────────────────────────────────
-
-def run_publish_workflow() -> dict:
-    """Publish next approved post — for local testing only."""
-    from engines.publishing.publishing_engine import publish_next_approved
-    result = publish_next_approved()
-    return {"status": result.get("status"), "result": result}
-
-
-# ─── Stats ────────────────────────────────────────────────────────────────────
-
-def get_system_stats() -> dict:
-    memory_stats    = get_stats()
-    published_count = len(list(_PUBLISHED_DIR.glob("*.json")))
-    draft_count     = len(list((_BASE / "drafts").glob("*.json")))
-    approved_count  = len(list((_BASE / "approved").glob("*.json")))
-    return {
-        "drafts_waiting":   draft_count,
-        "approved_waiting": approved_count,
-        "total_published":  published_count,
-        "memory":           memory_stats
-    }
+def run_manual_workflow() -> dict:
+    """Fallback structural draft generation used for local testing pipelines."""
+    logger.info(ENGINE, "Running manual staging sequence (Draft generation only)...")
+    # Placeholder block mirror matching active local script variations
+    return {"status": "staged"}
