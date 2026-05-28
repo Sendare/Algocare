@@ -35,7 +35,8 @@ _SAFE_MODE_FILE = _BASE / "config" / "safe_mode.json"
 MAX_RETRIES          = 3
 RETRY_DELAY          = 30
 SAFE_MODE_THRESHOLD  = 5
-COMMENT_DELAY        = 600  # 600 seconds = 10 minutes
+COMMENT_DELAY        = 530 
+seconds = 9 minutes
 
 
 # ─── Safe Mode ────────────────────────────────────────────────────────────────
