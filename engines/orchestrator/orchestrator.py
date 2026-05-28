@@ -4,24 +4,27 @@ Coordinates structural data transit between Topic, Strategy, Visual, Prompt,
 AI Generation, and Publishing components. Decoupled to push data records instantly.
 """
 
+import sys
 import uuid
 from pathlib import Path
 from datetime import datetime, timezone
 
-import sys
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent))
+# Resolve project root dynamically to guarantee cross-module cross-imports function cleanly
+_ROOT_DIR = Path(__file__).resolve().parent.parent.parent
+if str(_ROOT_DIR) not in sys.path:
+    sys.path.insert(0, str(_ROOT_DIR))
 
 import utils.logger as logger
 from utils.file_store import write_json, read_json
 from utils.telegram_alert import send_alert
 
-# Engine cross-imports
+# Engine package cross-imports
 from engines.topic_intelligence.topic_intelligence import generate_topic
 from engines.content_strategy.content_strategy import build_strategy
 from engines.visual_identity.visual_identity import build_visual_identity
 from engines.prompt_orchestration.prompt_orchestration import build_prompt
 from engines.ai_generation.ai_generation import generate
-from engines.publishing.publishing_engine import publish_caption
+from engines.publishing.publishing_engine import publish_caption, queue_comments
 from engines.memory.memory_engine import record_combination, update_recent
 
 ENGINE = "Orchestrator"
@@ -160,7 +163,6 @@ def run_auto_workflow() -> dict:
         # ─── INJECT REMAINING ENGAGEMENT STRINGS INTO ZERO-SLEEP STORAGE FILE
         if comments:
             logger.info(ENGINE, "Injecting interaction content into backend queue flat file...")
-            from engines.publishing.publishing_engine import queue_comments
             queue_comments(publish_result.get("post_id"), comments)
 
         logger.info(ENGINE, f"=== WORKFLOW COMPLETE: {workflow_id} ===")
@@ -177,5 +179,4 @@ def run_auto_workflow() -> dict:
 def run_manual_workflow() -> dict:
     """Fallback structural draft generation used for local testing pipelines."""
     logger.info(ENGINE, "Running manual staging sequence (Draft generation only)...")
-    # Placeholder block mirror matching active local script variations
     return {"status": "staged"}
