@@ -499,3 +499,38 @@
 {"ts": "2026-05-28T21:34:52.270805+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 5 went live successfully."}
 {"ts": "2026-05-28T21:34:52.270950+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Fast-Stagger comment sequence execution completely finished."}
 {"ts": "2026-05-28T21:34:52.270992+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== WORKFLOW COMPLETE: WF_20260528_212540 ==="}
+{"ts": "2026-05-28T21:36:27.212806+00:00", "level": "INFO", "engine": "Main", "message": "Checking comment queue pipeline..."}
+{"ts": "2026-05-28T21:36:27.212942+00:00", "level": "INFO", "engine": "Main", "message": "Starting auto workflow (generate + publish)"}
+{"ts": "2026-05-28T21:36:27.213015+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== AUTO WORKFLOW START: WF_20260528_213627 ==="}
+{"ts": "2026-05-28T21:36:27.213050+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 1: Topic Intelligence"}
+{"ts": "2026-05-28T21:36:27.213972+00:00", "level": "INFO", "engine": "TopicIntelligenceEngine", "message": "Topic generated: [eyes] dry eyes | Curiosity | Hidden Cause | score=86"}
+{"ts": "2026-05-28T21:36:27.214062+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 2: Content Strategy"}
+{"ts": "2026-05-28T21:36:27.214185+00:00", "level": "INFO", "engine": "ContentStrategyEngine", "message": "Strategy built: Hidden Cause | open_loop | short | cta=curiosity_continuation"}
+{"ts": "2026-05-28T21:36:27.214234+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 6: Visual Identity"}
+{"ts": "2026-05-28T21:36:27.214288+00:00", "level": "INFO", "engine": "VisualIdentityEngine", "message": "Visual identity built: simple_scene | soft_blue | subject=eyes and eyelids"}
+{"ts": "2026-05-28T21:36:27.214325+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 3: Prompt Orchestration"}
+{"ts": "2026-05-28T21:36:27.214543+00:00", "level": "INFO", "engine": "PromptOrchestrationEngine", "message": "Prompt built for: Hidden Cause | dry eyes"}
+{"ts": "2026-05-28T21:36:27.214601+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 4: AI Generation"}
+{"ts": "2026-05-28T21:36:31.453749+00:00", "level": "INFO", "engine": "GroqClient", "message": "Groq Multi-Comment JSON generation success (attempt 1)"}
+{"ts": "2026-05-28T21:36:31.475722+00:00", "level": "INFO", "engine": "AIGenerationEngine", "message": "Generation success: EYE_99AB3A | 4261ms"}
+{"ts": "2026-05-28T21:36:31.475836+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 7: Publishing Main Caption"}
+{"ts": "2026-05-28T21:36:36.071659+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Published main post: 1142784782252062_122096721795350290"}
+{"ts": "2026-05-28T21:36:36.072227+00:00", "level": "INFO", "engine": "MemoryEngine", "message": "Combination recorded: USED_EYES_DRY-EYES_CURIOSITY_HIDDEN-CAUSE"}
+{"ts": "2026-05-28T21:36:36.562293+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Injecting interaction content into backend queue flat file..."}
+{"ts": "2026-05-28T21:36:36.562677+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Starting Fast-Stagger deployment loop for 5 comments under post 1142784782252062_122096721795350290..."}
+{"ts": "2026-05-28T21:36:36.562728+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 1/5 to Facebook..."}
+{"ts": "2026-05-28T21:36:40.681326+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 1 went live successfully."}
+{"ts": "2026-05-28T21:36:40.681462+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Stagger engagement hold: Sleeping for 120 seconds before dropping comment 2..."}
+{"ts": "2026-05-28T21:38:40.681665+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 2/5 to Facebook..."}
+{"ts": "2026-05-28T21:38:43.187716+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 2 went live successfully."}
+{"ts": "2026-05-28T21:38:43.187866+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Stagger engagement hold: Sleeping for 120 seconds before dropping comment 3..."}
+{"ts": "2026-05-28T21:40:43.188013+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 3/5 to Facebook..."}
+{"ts": "2026-05-28T21:40:46.223043+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 3 went live successfully."}
+{"ts": "2026-05-28T21:40:46.223180+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Stagger engagement hold: Sleeping for 120 seconds before dropping comment 4..."}
+{"ts": "2026-05-28T21:42:46.223355+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 4/5 to Facebook..."}
+{"ts": "2026-05-28T21:42:49.204642+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 4 went live successfully."}
+{"ts": "2026-05-28T21:42:49.204780+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Stagger engagement hold: Sleeping for 120 seconds before dropping comment 5..."}
+{"ts": "2026-05-28T21:44:49.204925+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 5/5 to Facebook..."}
+{"ts": "2026-05-28T21:44:52.042081+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 5 went live successfully."}
+{"ts": "2026-05-28T21:44:52.042223+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Fast-Stagger comment sequence execution completely finished."}
+{"ts": "2026-05-28T21:44:52.042276+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== WORKFLOW COMPLETE: WF_20260528_213627 ==="}
