@@ -4,24 +4,12 @@ concurrency:
   group: algocare-publishing
   cancel-in-progress: false
 
-
 on:
-  # Cron-job.org hits this webhook to trigger a post
-  repository_dispatch:
-    types: [trigger_post]
-
-  # Backup: GitHub native schedule (UTC times)
+  # Automated Native Trigger: Executes cleanly every 2 hours
   schedule:
-    - cron: '0 5 * * *'    # 06:00 GST
-    - cron: '30 7 * * *'   # 08:30 GST
-    - cron: '30 9 * * *'   # 10:30 GST
-    - cron: '30 11 * * *'  # 12:30 GST
-    - cron: '30 13 * * *'  # 14:30 GST
-    - cron: '30 15 * * *'  # 16:30 GST
-    - cron: '30 17 * * *'  # 18:30 GST
-    - cron: '0 20 * * *'   # 21:00 GST
+    - cron: '0 */2 * * *'
 
-  # Manual trigger from GitHub UI
+  # Manual trigger from GitHub UI (Keep this for quick testing)
   workflow_dispatch:
 
 jobs:
@@ -50,14 +38,16 @@ jobs:
           FACEBOOK_PAGE_TOKEN:   ${{ secrets.FACEBOOK_PAGE_TOKEN }}
           FACEBOOK_PAGE_ID:      ${{ secrets.FACEBOOK_PAGE_ID }}
           FACEBOOK_API_VERSION:  v19.0
+          PYTHONUNBUFFERED:      "1"
         run: python main.py run
 
-      - name: Commit memory updates
+      - name: Commit memory and queue updates
         run: |
           git config user.name  "Algocare Bot"
           git config user.email "bot@algocare"
           
-          # Force track flat-file directories to clear the .gitignore restriction safely
+          # Force track flat-file directories to clear tracking restrictions safely
+          git add -f config/ || true
           git add -f engines/memory/ || true
           git add -f published/ || true
           git add -f logs/ || true
@@ -69,7 +59,11 @@ jobs:
           
           # Run a safety rebase pull before pushing to seamlessly merge parallel background schedule tasks
           if ! git diff --staged --quiet; then
-            git commit -m "auto: post $(date -u '+%Y-%m-%d %H:%M')"
+            git commit -m "auto: post data sync $(date -u '+%Y-%m-%d %H:%M') [skip ci]"
+            
+            # Pull updates with a rebase strategy to handle high frequency runs cleanly
             git pull --rebase origin main
             git push origin main
+          else
+            echo "No state mutations or queue alterations detected. Skipping push process."
           fi
