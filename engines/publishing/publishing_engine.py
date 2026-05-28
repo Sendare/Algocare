@@ -1,7 +1,9 @@
 """
 ENGINE 7 — PUBLISHING & DISTRIBUTION ENGINE
 Handles formatting, publishing to Facebook, retries, safe mode, logging.
-Upgraded with a 10-minute delayed comment trickle to beat the Meta reach algorithm.
+Upgraded with a 1-minute console heartbeat trickle loop to beat the Meta reach 
+algorithm without triggering a silent runner termination on GitHub Actions.
+
 Two modes:
   publish_caption(content)  — used by auto workflow (Engine 8) [Accepts str or dict]
   publish_next_approved()   — used for manual Termux testing
@@ -177,23 +179,6 @@ def publish_caption(content) -> dict:
         )
         logger.info(ENGINE, f"Published: {result['post_id']}")
 
-        # Trickle Comments Processing Loop (Fires only if comments list was provided)
-        if comments_list and isinstance(comments_list, list):
-            logger.info(ENGINE, f"Found {len(comments_list)} algorithmic interaction comments to trickle.")
-            for index, comment in enumerate(comments_list):
-                if not comment or not str(comment).strip():
-                    continue
-                
-                # Delay the execution if it isn't the immediate first comment spark
-                if index > 0:
-                    logger.info(ENGINE, f"Holding workflow open for {COMMENT_DELAY // 60} minutes to bypass spam filters...")
-                    time.sleep(COMMENT_DELAY)
-
-                logger.info(ENGINE, f"Dropping automated comment trickle {index + 1}/{len(comments_list)}...")
-                success = _add_comment_to_post(result["post_id"], str(comment).strip())
-                if success:
-                    logger.info(ENGINE, f"Comment {index + 1} successfully validated on Meta feeds.")
-
     else:
         _increment_failure_count()
         write_json(
@@ -227,7 +212,6 @@ def publish_next_approved() -> dict:
         draft_path.unlink(missing_ok=True)
         return {"status": "failed", "reason": "Unreadable draft"}
 
-    # Allow support for dictionary-based metadata formats if tracking expanded items locally
     caption = draft_data.get("caption", "").strip() if isinstance(draft_data, dict) else ""
     if not caption:
         draft_path.unlink(missing_ok=True)
@@ -253,6 +237,7 @@ def publish_next_approved() -> dict:
         return {"status": "failed", "reason": result["reason"]}
 
 
+# ─── Public: Delayed Trickle Operations ──────────────────────────────────────
 
 def trickle_comments_only(post_id: str, comments_list: list):
     """
@@ -267,24 +252,17 @@ def trickle_comments_only(post_id: str, comments_list: list):
     for index, comment in enumerate(comments_list):
         if not comment or not str(comment).strip():
             continue
-        
+
         if index > 0:
             total_wait_minutes = COMMENT_DELAY // 60
             logger.info(ENGINE, f"Starting {total_wait_minutes}-minute delay before comment {index + 1}...")
-            
-            # Break down 10 minutes into 1-minute intervals with live console print updates
+
+            # Break down 10 minutes into 1-minute intervals with live console prints
             for minute in range(1, total_wait_minutes + 1):
                 time.sleep(60)
                 logger.info(ENGINE, f"  [Heartbeat] Waiting... ({minute}/{total_wait_minutes} minutes elapsed)")
 
         logger.info(ENGINE, f"Dropping automated comment {index + 1}/{len(comments_list)}...")
-        success = _add_comment_to_post(post_id, str(comment).strip())
-        if success:
-            logger.info(ENGINE, f"Comment {index + 1} posted successfully.")
-        else:
-            logger.error(ENGINE, "Trickle loop stopped early due to an API transmission error.")
-            break
- comment {index + 1}/{len(comments_list)}...")
         success = _add_comment_to_post(post_id, str(comment).strip())
         if success:
             logger.info(ENGINE, f"Comment {index + 1} posted successfully.")
