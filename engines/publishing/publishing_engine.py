@@ -1,17 +1,16 @@
 """
 ENGINE 7 — PUBLISHING & DISTRIBUTION ENGINE
-Handles formatting, publishing to Facebook, retries, safe mode, logging.
-Upgraded with a 1-minute console heartbeat trickle loop to beat the Meta reach 
-algorithm without triggering a silent runner termination on GitHub Actions.
+Handles formatting, publishing to Facebook, retries, safe mode, and file logging.
+Upgraded to use a Zero-Sleep Queue System to bypass GitHub Actions' 10-minute timeout rules.
 
-Two modes:
-  publish_caption(content)  — used by auto workflow (Engine 8) [Accepts str or dict]
-  publish_next_approved()   — used for manual Termux testing
+Three major public entry points:
+  1. publish_caption(content)   — used by auto workflow (Engine 8) to post main feed
+  2. process_comment_queue()    — called by main.py to trickle one comment per cron run
+  3. publish_next_approved()    — used for manual Termux terminal testing
 """
 
 import os
 import json
-import time
 import urllib.request
 import urllib.error
 from pathlib import Path
@@ -25,18 +24,17 @@ from utils.telegram_alert import send_alert
 
 ENGINE = "PublishingEngine"
 
-_BASE          = Path(__file__).resolve().parent.parent.parent
-_APPROVED_DIR  = _BASE / "approved"
-_PUBLISHED_DIR = _BASE / "published"
-_FAILED_DIR    = _BASE / "failed"
-_PUB_LOGS_DIR  = _BASE / "publish_logs"
+_BASE           = Path(__file__).resolve().parent.parent.parent
+_APPROVED_DIR   = _BASE / "approved"
+_PUBLISHED_DIR  = _BASE / "published"
+_FAILED_DIR     = _BASE / "failed"
+_PUB_LOGS_DIR   = _BASE / "publish_logs"
 _SAFE_MODE_FILE = _BASE / "config" / "safe_mode.json"
+_QUEUE_FILE     = _BASE / "config" / "comment_queue.json"
 
 MAX_RETRIES          = 3
 RETRY_DELAY          = 30
 SAFE_MODE_THRESHOLD  = 5
-COMMENT_DELAY        = 530 
-#seconds = 9 minutes
 
 
 # ─── Safe Mode ────────────────────────────────────────────────────────────────
@@ -66,10 +64,7 @@ def _is_safe_mode() -> bool:
 # ─── Facebook API ─────────────────────────────────────────────────────────────
 
 def _post_to_facebook(caption: str) -> dict:
-    """
-    POST caption to Facebook Page.
-    Returns {"success": bool, "post_id": str, "reason": str}
-    """
+    """POST caption to Facebook Page. Returns {"success": bool, "post_id": str}"""
     page_token = os.environ.get("FACEBOOK_PAGE_TOKEN", "")
     page_id    = os.environ.get("FACEBOOK_PAGE_ID", "")
     api_ver    = os.environ.get("FACEBOOK_API_VERSION", "v19.0")
@@ -101,19 +96,16 @@ def _post_to_facebook(caption: str) -> dict:
         except urllib.error.HTTPError as e:
             body = e.read().decode("utf-8", errors="ignore")
             logger.warning(ENGINE, f"HTTP {e.code} attempt {attempt}: {body[:200]}")
-
             if e.code == 190:
-                msg = "Facebook token expired. Update FACEBOOK_PAGE_TOKEN in GitHub Secrets."
-                send_alert(f"🔴 {msg}")
+                send_alert("🔴 Facebook token expired. Update your secrets.")
                 return {"success": False, "reason": "token_expired"}
-
             if attempt < MAX_RETRIES:
-                logger.info(ENGINE, f"Retrying in {RETRY_DELAY}s...")
+                import time
                 time.sleep(RETRY_DELAY)
-
         except Exception as e:
             logger.warning(ENGINE, f"Publish attempt {attempt} error: {e}")
             if attempt < MAX_RETRIES:
+                import time
                 time.sleep(RETRY_DELAY)
 
     return {"success": False, "reason": f"Failed after {MAX_RETRIES} attempts"}
@@ -141,28 +133,19 @@ def _add_comment_to_post(post_id: str, comment_text: str) -> bool:
             data = json.loads(resp.read().decode("utf-8"))
             return "id" in data
     except Exception as e:
-        logger.warning(ENGINE, f"Failed to post algorithmic background comment: {e}")
+        logger.warning(ENGINE, f"Failed to post comment: {e}")
         return False
 
 
 # ─── Public: Auto workflow entry point ───────────────────────────────────────
 
 def publish_caption(content) -> dict:
-    """
-    Direct publish — used by auto workflow (no draft files involved).
-    Accepts raw caption string or dictionary containing {"caption": "...", "comments": []}
-    Returns {"success": bool, "post_id": str, "reason": str}
-    """
+    """Direct publish — used by auto workflow (no draft files involved)."""
     if _is_safe_mode():
-        msg = "Safe mode active. Publishing paused."
-        logger.error(ENGINE, msg)
         return {"success": False, "reason": "safe_mode"}
 
-    # Separate comments array from main post caption if data dictionary is provided
-    comments_list = []
     if isinstance(content, dict):
         caption = content.get("caption", "").strip()
-        comments_list = content.get("comments", [])
     else:
         caption = str(content).strip()
 
@@ -178,8 +161,7 @@ def publish_caption(content) -> dict:
             {"caption": caption[:200], "post_id": result["post_id"],
              "published_at": datetime.now(timezone.utc).isoformat()}
         )
-        logger.info(ENGINE, f"Published: {result['post_id']}")
-
+        logger.info(ENGINE, f"Published main post: {result['post_id']}")
     else:
         _increment_failure_count()
         write_json(
@@ -192,13 +174,61 @@ def publish_caption(content) -> dict:
     return result
 
 
+# ─── Public: Zero-Sleep Queue Operations ─────────────────────────────────────
+
+def queue_comments(post_id: str, comments_list: list):
+    """Saves generated comments into a flat-file queue to be processed sequentially."""
+    if not post_id or not comments_list:
+        return
+
+    cleaned_comments = [str(c).strip() for c in comments_list if c and str(c).strip()]
+    if not cleaned_comments:
+        return
+
+    # Read current queue or initialize fresh list if file doesn't exist yet
+    queue_data = read_json(_QUEUE_FILE) or []
+    
+    # Append structured record objects
+    for comment in cleaned_comments:
+        queue_data.append({
+            "post_id": post_id,
+            "comment_text": comment,
+            "queued_at": datetime.now(timezone.utc).isoformat()
+        })
+
+    write_json(_QUEUE_FILE, queue_data)
+    logger.info(ENGINE, f"Successfully queued {len(cleaned_comments)} interaction comments into storage database.")
+
+
+def process_comment_queue():
+    """Processes exactly ONE comment from the queue per execution. Completely eliminates sleeps."""
+    queue_data = read_json(_QUEUE_FILE)
+    if not queue_data or not isinstance(queue_data, list):
+        logger.info(ENGINE, "Comment queue is empty. No tasks to process.")
+        return
+
+    # Pop oldest item in queue (FIFO stack configuration)
+    next_item = queue_data.pop(0)
+    post_id = next_item.get("post_id")
+    comment_text = next_item.get("comment_text")
+
+    logger.info(ENGINE, f"Processing item from queue. Remaining in backup: {len(queue_data)}")
+    logger.info(ENGINE, f"Dropping comment for post {post_id}...")
+    
+    success = _add_comment_to_post(post_id, comment_text)
+    
+    if success:
+        logger.info(ENGINE, "Queue item posted successfully to Facebook Page.")
+        # Update queue tracking file with remaining entries
+        write_json(_QUEUE_FILE, queue_data)
+    else:
+        logger.error(ENGINE, "Failed to deliver queue item. Retaining item in queue for next cycle retry.")
+
+
 # ─── Public: Manual testing entry point ──────────────────────────────────────
 
 def publish_next_approved() -> dict:
-    """
-    Read oldest approved draft and publish it.
-    Used for manual Termux testing only.
-    """
+    """Read oldest approved draft and publish it (Used for local Termux tests)."""
     if _is_safe_mode():
         return {"status": "safe_mode", "reason": "Safe mode active"}
 
@@ -218,7 +248,7 @@ def publish_next_approved() -> dict:
         draft_path.unlink(missing_ok=True)
         return {"status": "failed", "reason": "No caption in draft"}
 
-    result = publish_caption(draft_data if isinstance(draft_data, dict) and "comments" in draft_data else caption)
+    result = publish_caption(draft_data)
 
     if result["success"]:
         if isinstance(draft_data, dict):
@@ -228,6 +258,11 @@ def publish_next_approved() -> dict:
                 "published_at":    datetime.now(timezone.utc).isoformat()
             })
         write_json(_PUBLISHED_DIR / draft_path.name, draft_data)
+        
+        # If manual post contains engagement strings, queue them up cleanly
+        if isinstance(draft_data, dict) and "comments" in draft_data:
+            queue_comments(result["post_id"], draft_data["comments"])
+            
         draft_path.unlink(missing_ok=True)
         return {"status": "published", "facebook_post_id": result["post_id"]}
     else:
@@ -236,37 +271,3 @@ def publish_next_approved() -> dict:
         write_json(_FAILED_DIR / draft_path.name, draft_data)
         draft_path.unlink(missing_ok=True)
         return {"status": "failed", "reason": result["reason"]}
-
-
-# ─── Public: Delayed Trickle Operations ──────────────────────────────────────
-
-def trickle_comments_only(post_id: str, comments_list: list):
-    """
-    Handles dropping algorithmic interaction comments sequentially.
-    Uses a 1-minute heartbeat sub-loop to prevent GitHub Actions from 
-    canceling the run due to silence.
-    """
-    if not post_id or not comments_list:
-        return
-
-    logger.info(ENGINE, f"Starting trickle for {len(comments_list)} comments.")
-    for index, comment in enumerate(comments_list):
-        if not comment or not str(comment).strip():
-            continue
-
-        if index > 0:
-            total_wait_minutes = COMMENT_DELAY // 60
-            logger.info(ENGINE, f"Starting {total_wait_minutes}-minute delay before comment {index + 1}...")
-
-            # Break down 10 minutes into 1-minute intervals with live console prints
-            for minute in range(1, total_wait_minutes + 1):
-                time.sleep(60)
-                logger.info(ENGINE, f"  [Heartbeat] Waiting... ({minute}/{total_wait_minutes} minutes elapsed)")
-
-        logger.info(ENGINE, f"Dropping automated comment {index + 1}/{len(comments_list)}...")
-        success = _add_comment_to_post(post_id, str(comment).strip())
-        if success:
-            logger.info(ENGINE, f"Comment {index + 1} posted successfully.")
-        else:
-            logger.error(ENGINE, "Trickle loop stopped early due to an API transmission error.")
-            break
