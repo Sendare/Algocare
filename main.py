@@ -12,9 +12,12 @@ _CURRENT_DIR = Path(__file__).resolve().parent
 if str(_CURRENT_DIR) not in sys.path:
     sys.path.insert(0, str(_CURRENT_DIR))
 
+# Ensure sub-engine folders are globally exposed to Python's environment scanner
+_ENGINES_DIR = _CURRENT_DIR / "engines"
+if str(_ENGINES_DIR) not in sys.path:
+    sys.path.insert(0, str(_ENGINES_DIR))
+
 import utils.logger as logger
-from engines.orchestrator.orchestrator import run_auto_workflow, run_manual_workflow
-from engines.publishing.publishing_engine import publish_next_approved, process_comment_queue
 
 def print_help():
     print("""
@@ -32,6 +35,10 @@ def main():
     cmd = sys.argv[1].strip().lower()
 
     if cmd == "run":
+        # Deferred Runtime Imports: Prevents premature execution path evaluation
+        from engines.publishing.publishing_engine import process_comment_queue
+        from engines.orchestrator.orchestrator import run_auto_workflow
+
         logger.info("Main", "Checking comment queue pipeline...")
         try:
             process_comment_queue()
@@ -42,10 +49,12 @@ def main():
         run_auto_workflow()
 
     elif cmd == "approve":
+        from engines.orchestrator.orchestrator import run_manual_workflow
         logger.info("Main", "Starting manual/draft strategy preparation engine...")
         run_manual_workflow()
 
     elif cmd == "publish":
+        from engines.publishing.publishing_engine import publish_next_approved
         logger.info("Main", "Executing deployment loop for oldest approved file...")
         result = publish_next_approved()
         print(f"Publish execution output status matrix: {result}")
