@@ -305,3 +305,28 @@
 {"ts": "2026-05-28T19:00:31.710656+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 1 dropped successfully on Facebook."}
 {"ts": "2026-05-28T19:00:31.711494+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Successfully saved remaining 4 interaction comments into flat storage file."}
 {"ts": "2026-05-28T19:00:31.711569+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== WORKFLOW COMPLETE: WF_20260528_190016 ==="}
+{"ts": "2026-05-28T20:00:38.549001+00:00", "level": "INFO", "engine": "Main", "message": "Checking comment queue pipeline..."}
+{"ts": "2026-05-28T20:00:38.549496+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Processing item from queue. Remaining in backup: 16"}
+{"ts": "2026-05-28T20:00:38.549575+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Dropping comment for post 1142784782252062_122096391555350290..."}
+{"ts": "2026-05-28T20:00:40.706385+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Queue item posted successfully to Facebook Page."}
+{"ts": "2026-05-28T20:00:40.706893+00:00", "level": "INFO", "engine": "Main", "message": "Starting auto workflow (generate + publish)"}
+{"ts": "2026-05-28T20:00:40.707004+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== AUTO WORKFLOW START: WF_20260528_200040 ==="}
+{"ts": "2026-05-28T20:00:40.707069+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 1: Topic Intelligence"}
+{"ts": "2026-05-28T20:00:40.707989+00:00", "level": "INFO", "engine": "TopicIntelligenceEngine", "message": "Topic generated: [indoor_living] dust | Pattern Recognition | Mini Steps | score=53"}
+{"ts": "2026-05-28T20:00:40.708046+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 2: Content Strategy"}
+{"ts": "2026-05-28T20:00:40.708133+00:00", "level": "INFO", "engine": "ContentStrategyEngine", "message": "Strategy built: Mini Steps | pattern_reveal | medium | cta=no_cta"}
+{"ts": "2026-05-28T20:00:40.708167+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 6: Visual Identity"}
+{"ts": "2026-05-28T20:00:40.708203+00:00", "level": "INFO", "engine": "VisualIdentityEngine", "message": "Visual identity built: centered_object | soft_blue | subject=indoor room setting"}
+{"ts": "2026-05-28T20:00:40.708230+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 3: Prompt Orchestration"}
+{"ts": "2026-05-28T20:00:40.708463+00:00", "level": "INFO", "engine": "PromptOrchestrationEngine", "message": "Prompt built for: Mini Steps | dust"}
+{"ts": "2026-05-28T20:00:40.708535+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 4: AI Generation"}
+{"ts": "2026-05-28T20:00:44.743462+00:00", "level": "INFO", "engine": "GroqClient", "message": "Groq Multi-Comment JSON generation success (attempt 1)"}
+{"ts": "2026-05-28T20:00:44.744169+00:00", "level": "INFO", "engine": "AIGenerationEngine", "message": "Generation success: IND_A87429 | 4035ms"}
+{"ts": "2026-05-28T20:00:44.744279+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 7: Publishing Main Caption"}
+{"ts": "2026-05-28T20:00:52.099505+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Published main post: 1142784782252062_122096684529350290"}
+{"ts": "2026-05-28T20:00:52.099952+00:00", "level": "INFO", "engine": "MemoryEngine", "message": "Combination recorded: USED_INDOOR-LIVING_DUST_PATTERN-RECOGNITION_MINI-STEPS"}
+{"ts": "2026-05-28T20:00:52.467585+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Injecting interaction content into backend queue flat file..."}
+{"ts": "2026-05-28T20:00:52.467857+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 1 immediately with main feed post..."}
+{"ts": "2026-05-28T20:00:54.985699+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 1 dropped successfully on Facebook."}
+{"ts": "2026-05-28T20:00:54.986416+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Successfully saved remaining 4 interaction comments into flat storage file."}
+{"ts": "2026-05-28T20:00:54.986489+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== WORKFLOW COMPLETE: WF_20260528_200040 ==="}
