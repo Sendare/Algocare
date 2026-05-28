@@ -5,11 +5,11 @@ concurrency:
   cancel-in-progress: false
 
 on:
-  # Automated Native Trigger: Executes cleanly every 2 hours
-  schedule:
-    - cron: '0 */2 * * *'
+  # Cron-job.org hits this webhook to trigger a post instantly
+  repository_dispatch:
+    types: [trigger_post]
 
-  # Manual trigger from GitHub UI (Keep this for quick testing)
+  # Manual trigger from GitHub UI (Kept for safety/testing)
   workflow_dispatch:
 
 jobs:
