@@ -181,3 +181,27 @@
 {"ts": "2026-05-28T10:19:25.475352+00:00", "level": "WARNING", "engine": "FileStore", "message": "File not found: /home/runner/work/Algocare-/Algocare-/config/comment_queue.json"}
 {"ts": "2026-05-28T10:19:25.877207+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Successfully queued 5 interaction comments into storage database."}
 {"ts": "2026-05-28T10:19:25.877281+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== WORKFLOW COMPLETE: WF_20260528_101917 ==="}
+{"ts": "2026-05-28T10:33:27.836083+00:00", "level": "INFO", "engine": "Main", "message": "Checking comment queue pipeline..."}
+{"ts": "2026-05-28T10:33:27.836202+00:00", "level": "WARNING", "engine": "FileStore", "message": "File not found: /home/runner/work/Algocare-/Algocare-/config/comment_queue.json"}
+{"ts": "2026-05-28T10:33:28.467166+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment queue is empty. No tasks to process."}
+{"ts": "2026-05-28T10:33:28.467619+00:00", "level": "INFO", "engine": "Main", "message": "Starting auto workflow (generate + publish)"}
+{"ts": "2026-05-28T10:33:28.467723+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== AUTO WORKFLOW START: WF_20260528_103328 ==="}
+{"ts": "2026-05-28T10:33:28.467766+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 1: Topic Intelligence"}
+{"ts": "2026-05-28T10:33:28.468319+00:00", "level": "INFO", "engine": "TopicIntelligenceEngine", "message": "Topic generated: [hydration] sweating | Pattern Recognition | Habit Check | score=76"}
+{"ts": "2026-05-28T10:33:28.468379+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 2: Content Strategy"}
+{"ts": "2026-05-28T10:33:28.468474+00:00", "level": "INFO", "engine": "ContentStrategyEngine", "message": "Strategy built: Habit Check | pattern_reveal | short | cta=ask_question"}
+{"ts": "2026-05-28T10:33:28.468513+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 6: Visual Identity"}
+{"ts": "2026-05-28T10:33:28.468555+00:00", "level": "INFO", "engine": "VisualIdentityEngine", "message": "Visual identity built: center_closeup | soft_green | subject=water glass or water droplets"}
+{"ts": "2026-05-28T10:33:28.468585+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 3: Prompt Orchestration"}
+{"ts": "2026-05-28T10:33:28.468791+00:00", "level": "INFO", "engine": "PromptOrchestrationEngine", "message": "Prompt built for: Habit Check | sweating"}
+{"ts": "2026-05-28T10:33:28.468842+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 4: AI Generation"}
+{"ts": "2026-05-28T10:33:32.115338+00:00", "level": "INFO", "engine": "GroqClient", "message": "Groq Multi-Comment JSON generation success (attempt 1)"}
+{"ts": "2026-05-28T10:33:32.116223+00:00", "level": "INFO", "engine": "AIGenerationEngine", "message": "Generation success: HYD_3824C5 | 3647ms"}
+{"ts": "2026-05-28T10:33:32.116283+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 7: Publishing Main Caption"}
+{"ts": "2026-05-28T10:33:32.116363+00:00", "level": "WARNING", "engine": "FileStore", "message": "File not found: /home/runner/work/Algocare-/Algocare-/config/safe_mode.json"}
+{"ts": "2026-05-28T10:33:36.853297+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Published main post: 1142784782252062_122096391555350290"}
+{"ts": "2026-05-28T10:33:36.853629+00:00", "level": "INFO", "engine": "MemoryEngine", "message": "Combination recorded: USED_HYDRATION_SWEATING_PATTERN-RECOGNITION_HABIT-CHECK"}
+{"ts": "2026-05-28T10:33:37.664599+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Injecting interaction content into backend queue flat file..."}
+{"ts": "2026-05-28T10:33:37.664832+00:00", "level": "WARNING", "engine": "FileStore", "message": "File not found: /home/runner/work/Algocare-/Algocare-/config/comment_queue.json"}
+{"ts": "2026-05-28T10:33:38.228815+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Successfully queued 5 interaction comments into storage database."}
+{"ts": "2026-05-28T10:33:38.228881+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== WORKFLOW COMPLETE: WF_20260528_103328 ==="}
