@@ -674,3 +674,38 @@
 {"ts": "2026-05-29T05:08:41.000573+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 5 went live successfully."}
 {"ts": "2026-05-29T05:08:41.000726+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Fast-Stagger comment sequence execution completely finished."}
 {"ts": "2026-05-29T05:08:41.000782+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== WORKFLOW COMPLETE: WF_20260529_050013 ==="}
+{"ts": "2026-05-29T07:00:13.108334+00:00", "level": "INFO", "engine": "Main", "message": "Checking comment queue pipeline..."}
+{"ts": "2026-05-29T07:00:13.108477+00:00", "level": "INFO", "engine": "Main", "message": "Starting auto workflow (generate + publish)"}
+{"ts": "2026-05-29T07:00:13.108555+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== AUTO WORKFLOW START: WF_20260529_070013 ==="}
+{"ts": "2026-05-29T07:00:13.108598+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 1: Topic Intelligence"}
+{"ts": "2026-05-29T07:00:13.109543+00:00", "level": "INFO", "engine": "TopicIntelligenceEngine", "message": "Topic generated: [neck] tension headaches | Self-Recognition | Myth vs Reality | score=77"}
+{"ts": "2026-05-29T07:00:13.109614+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 2: Content Strategy"}
+{"ts": "2026-05-29T07:00:13.109725+00:00", "level": "INFO", "engine": "ContentStrategyEngine", "message": "Strategy built: Myth vs Reality | familiar_moment | medium | cta=ask_question"}
+{"ts": "2026-05-29T07:00:13.109779+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 6: Visual Identity"}
+{"ts": "2026-05-29T07:00:13.109832+00:00", "level": "INFO", "engine": "VisualIdentityEngine", "message": "Visual identity built: minimal_layout | soft_amber | subject=neck and shoulder area"}
+{"ts": "2026-05-29T07:00:13.109871+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 3: Prompt Orchestration"}
+{"ts": "2026-05-29T07:00:13.110135+00:00", "level": "INFO", "engine": "PromptOrchestrationEngine", "message": "Prompt built for: Myth vs Reality | tension headaches"}
+{"ts": "2026-05-29T07:00:13.110192+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 4: AI Generation"}
+{"ts": "2026-05-29T07:00:17.866658+00:00", "level": "INFO", "engine": "GroqClient", "message": "Groq Multi-Comment JSON generation success (attempt 1)"}
+{"ts": "2026-05-29T07:00:17.867649+00:00", "level": "INFO", "engine": "AIGenerationEngine", "message": "Generation success: NEC_6400E7 | 4757ms"}
+{"ts": "2026-05-29T07:00:17.867731+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 7: Publishing Main Caption"}
+{"ts": "2026-05-29T07:00:20.774123+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Published main post: 1142784782252062_122096980065350290"}
+{"ts": "2026-05-29T07:00:20.774776+00:00", "level": "INFO", "engine": "MemoryEngine", "message": "Combination recorded: USED_NECK_TENSION-HEADACHES_SELF-RECOGNITION_MYTH-VS-REALITY"}
+{"ts": "2026-05-29T07:00:21.353737+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Injecting interaction content into backend queue flat file..."}
+{"ts": "2026-05-29T07:00:21.354040+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Starting Fast-Stagger deployment loop for 5 comments under post 1142784782252062_122096980065350290..."}
+{"ts": "2026-05-29T07:00:21.354122+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 1/5 to Facebook..."}
+{"ts": "2026-05-29T07:00:27.596731+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 1 went live successfully."}
+{"ts": "2026-05-29T07:00:27.596901+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Stagger engagement hold: Sleeping for 120 seconds before dropping comment 2..."}
+{"ts": "2026-05-29T07:02:27.597147+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 2/5 to Facebook..."}
+{"ts": "2026-05-29T07:02:31.323835+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 2 went live successfully."}
+{"ts": "2026-05-29T07:02:31.324175+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Stagger engagement hold: Sleeping for 120 seconds before dropping comment 3..."}
+{"ts": "2026-05-29T07:04:31.324376+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 3/5 to Facebook..."}
+{"ts": "2026-05-29T07:04:33.578976+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 3 went live successfully."}
+{"ts": "2026-05-29T07:04:33.579155+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Stagger engagement hold: Sleeping for 120 seconds before dropping comment 4..."}
+{"ts": "2026-05-29T07:06:33.579361+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 4/5 to Facebook..."}
+{"ts": "2026-05-29T07:06:36.967479+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 4 went live successfully."}
+{"ts": "2026-05-29T07:06:36.967642+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Stagger engagement hold: Sleeping for 120 seconds before dropping comment 5..."}
+{"ts": "2026-05-29T07:08:36.967824+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 5/5 to Facebook..."}
+{"ts": "2026-05-29T07:08:39.777340+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 5 went live successfully."}
+{"ts": "2026-05-29T07:08:39.777523+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Fast-Stagger comment sequence execution completely finished."}
+{"ts": "2026-05-29T07:08:39.777581+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== WORKFLOW COMPLETE: WF_20260529_070013 ==="}
