@@ -744,3 +744,38 @@
 {"ts": "2026-05-29T09:08:38.331785+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 5 went live successfully."}
 {"ts": "2026-05-29T09:08:38.331941+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Fast-Stagger comment sequence execution completely finished."}
 {"ts": "2026-05-29T09:08:38.331995+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== WORKFLOW COMPLETE: WF_20260529_090013 ==="}
+{"ts": "2026-05-29T11:00:12.692240+00:00", "level": "INFO", "engine": "Main", "message": "Checking comment queue pipeline..."}
+{"ts": "2026-05-29T11:00:12.692375+00:00", "level": "INFO", "engine": "Main", "message": "Starting auto workflow (generate + publish)"}
+{"ts": "2026-05-29T11:00:12.692468+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== AUTO WORKFLOW START: WF_20260529_110012 ==="}
+{"ts": "2026-05-29T11:00:12.692524+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 1: Topic Intelligence"}
+{"ts": "2026-05-29T11:00:12.693521+00:00", "level": "INFO", "engine": "TopicIntelligenceEngine", "message": "Topic generated: [walking] ankle stiffness | Mild Concern | Mini Steps | score=79"}
+{"ts": "2026-05-29T11:00:12.693609+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 2: Content Strategy"}
+{"ts": "2026-05-29T11:00:12.693739+00:00", "level": "INFO", "engine": "ContentStrategyEngine", "message": "Strategy built: Mini Steps | gentle_alert | medium | cta=save_this"}
+{"ts": "2026-05-29T11:00:12.693796+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 6: Visual Identity"}
+{"ts": "2026-05-29T11:00:12.693867+00:00", "level": "INFO", "engine": "VisualIdentityEngine", "message": "Visual identity built: centered_object | soft_blue | subject=feet and legs walking"}
+{"ts": "2026-05-29T11:00:12.693924+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 3: Prompt Orchestration"}
+{"ts": "2026-05-29T11:00:12.694226+00:00", "level": "INFO", "engine": "PromptOrchestrationEngine", "message": "Prompt built for: Mini Steps | ankle stiffness"}
+{"ts": "2026-05-29T11:00:12.694287+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 4: AI Generation"}
+{"ts": "2026-05-29T11:00:16.630944+00:00", "level": "INFO", "engine": "GroqClient", "message": "Groq Multi-Comment JSON generation success (attempt 1)"}
+{"ts": "2026-05-29T11:00:16.631775+00:00", "level": "INFO", "engine": "AIGenerationEngine", "message": "Generation success: WAL_3E7FF6 | 3937ms"}
+{"ts": "2026-05-29T11:00:16.631856+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 7: Publishing Main Caption"}
+{"ts": "2026-05-29T11:00:19.883479+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Published main post: 1142784782252062_122097109791350290"}
+{"ts": "2026-05-29T11:00:19.884154+00:00", "level": "INFO", "engine": "MemoryEngine", "message": "Combination recorded: USED_WALKING_ANKLE-STIFFNESS_MILD-CONCERN_MINI-STEPS"}
+{"ts": "2026-05-29T11:00:20.451669+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Injecting interaction content into backend queue flat file..."}
+{"ts": "2026-05-29T11:00:20.452079+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Starting Fast-Stagger deployment loop for 5 comments under post 1142784782252062_122097109791350290..."}
+{"ts": "2026-05-29T11:00:20.452156+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 1/5 to Facebook..."}
+{"ts": "2026-05-29T11:00:24.080813+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 1 went live successfully."}
+{"ts": "2026-05-29T11:00:24.081253+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Stagger engagement hold: Sleeping for 120 seconds before dropping comment 2..."}
+{"ts": "2026-05-29T11:02:24.081497+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 2/5 to Facebook..."}
+{"ts": "2026-05-29T11:02:26.704532+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 2 went live successfully."}
+{"ts": "2026-05-29T11:02:26.704934+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Stagger engagement hold: Sleeping for 120 seconds before dropping comment 3..."}
+{"ts": "2026-05-29T11:04:26.705183+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 3/5 to Facebook..."}
+{"ts": "2026-05-29T11:04:29.810749+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 3 went live successfully."}
+{"ts": "2026-05-29T11:04:29.810898+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Stagger engagement hold: Sleeping for 120 seconds before dropping comment 4..."}
+{"ts": "2026-05-29T11:06:29.811100+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 4/5 to Facebook..."}
+{"ts": "2026-05-29T11:06:32.176239+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 4 went live successfully."}
+{"ts": "2026-05-29T11:06:32.176375+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Stagger engagement hold: Sleeping for 120 seconds before dropping comment 5..."}
+{"ts": "2026-05-29T11:08:32.176532+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 5/5 to Facebook..."}
+{"ts": "2026-05-29T11:08:35.431538+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 5 went live successfully."}
+{"ts": "2026-05-29T11:08:35.431686+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Fast-Stagger comment sequence execution completely finished."}
+{"ts": "2026-05-29T11:08:35.431748+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== WORKFLOW COMPLETE: WF_20260529_110012 ==="}
