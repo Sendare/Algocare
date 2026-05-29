@@ -884,3 +884,38 @@
 {"ts": "2026-05-29T17:08:48.093030+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 5 went live successfully."}
 {"ts": "2026-05-29T17:08:48.093184+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Fast-Stagger comment sequence execution completely finished."}
 {"ts": "2026-05-29T17:08:48.093245+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== WORKFLOW COMPLETE: WF_20260529_170016 ==="}
+{"ts": "2026-05-29T19:00:13.141559+00:00", "level": "INFO", "engine": "Main", "message": "Checking comment queue pipeline..."}
+{"ts": "2026-05-29T19:00:13.141695+00:00", "level": "INFO", "engine": "Main", "message": "Starting auto workflow (generate + publish)"}
+{"ts": "2026-05-29T19:00:13.141795+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== AUTO WORKFLOW START: WF_20260529_190013 ==="}
+{"ts": "2026-05-29T19:00:13.141864+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 1: Topic Intelligence"}
+{"ts": "2026-05-29T19:00:13.143432+00:00", "level": "INFO", "engine": "TopicIntelligenceEngine", "message": "Topic generated: [indoor_living] sitting too long | Overlooked Detail | Hidden Cause | score=63"}
+{"ts": "2026-05-29T19:00:13.143521+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 2: Content Strategy"}
+{"ts": "2026-05-29T19:00:13.143651+00:00", "level": "INFO", "engine": "ContentStrategyEngine", "message": "Strategy built: Hidden Cause | quiet_observation | short | cta=no_cta"}
+{"ts": "2026-05-29T19:00:13.143707+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 6: Visual Identity"}
+{"ts": "2026-05-29T19:00:13.143786+00:00", "level": "INFO", "engine": "VisualIdentityEngine", "message": "Visual identity built: minimal_layout | soft_green | subject=indoor room setting"}
+{"ts": "2026-05-29T19:00:13.143837+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 3: Prompt Orchestration"}
+{"ts": "2026-05-29T19:00:13.144088+00:00", "level": "INFO", "engine": "PromptOrchestrationEngine", "message": "Prompt built for: Hidden Cause | sitting too long"}
+{"ts": "2026-05-29T19:00:13.144158+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 4: AI Generation"}
+{"ts": "2026-05-29T19:00:17.419519+00:00", "level": "INFO", "engine": "GroqClient", "message": "Groq Multi-Comment JSON generation success (attempt 1)"}
+{"ts": "2026-05-29T19:00:17.420640+00:00", "level": "INFO", "engine": "AIGenerationEngine", "message": "Generation success: IND_866010 | 4276ms"}
+{"ts": "2026-05-29T19:00:17.420722+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 7: Publishing Main Caption"}
+{"ts": "2026-05-29T19:00:20.592993+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Published main post: 1142784782252062_122097367881350290"}
+{"ts": "2026-05-29T19:00:20.593749+00:00", "level": "INFO", "engine": "MemoryEngine", "message": "Combination recorded: USED_INDOOR-LIVING_SITTING-TOO-LONG_OVERLOOKED-DETAIL_HIDDEN-CAUSE"}
+{"ts": "2026-05-29T19:00:21.022014+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Injecting interaction content into backend queue flat file..."}
+{"ts": "2026-05-29T19:00:21.022496+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Starting Fast-Stagger deployment loop for 5 comments under post 1142784782252062_122097367881350290..."}
+{"ts": "2026-05-29T19:00:21.022569+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 1/5 to Facebook..."}
+{"ts": "2026-05-29T19:00:23.786540+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 1 went live successfully."}
+{"ts": "2026-05-29T19:00:23.786706+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Stagger engagement hold: Sleeping for 120 seconds before dropping comment 2..."}
+{"ts": "2026-05-29T19:02:23.786916+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 2/5 to Facebook..."}
+{"ts": "2026-05-29T19:02:25.462717+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 2 went live successfully."}
+{"ts": "2026-05-29T19:02:25.463186+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Stagger engagement hold: Sleeping for 120 seconds before dropping comment 3..."}
+{"ts": "2026-05-29T19:04:25.463394+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 3/5 to Facebook..."}
+{"ts": "2026-05-29T19:04:29.168879+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 3 went live successfully."}
+{"ts": "2026-05-29T19:04:29.169057+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Stagger engagement hold: Sleeping for 120 seconds before dropping comment 4..."}
+{"ts": "2026-05-29T19:06:29.169260+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 4/5 to Facebook..."}
+{"ts": "2026-05-29T19:06:31.836670+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 4 went live successfully."}
+{"ts": "2026-05-29T19:06:31.836830+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Stagger engagement hold: Sleeping for 120 seconds before dropping comment 5..."}
+{"ts": "2026-05-29T19:08:31.837033+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 5/5 to Facebook..."}
+{"ts": "2026-05-29T19:08:35.223371+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 5 went live successfully."}
+{"ts": "2026-05-29T19:08:35.223521+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Fast-Stagger comment sequence execution completely finished."}
+{"ts": "2026-05-29T19:08:35.223587+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== WORKFLOW COMPLETE: WF_20260529_190013 ==="}
