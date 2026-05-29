@@ -814,3 +814,38 @@
 {"ts": "2026-05-29T13:08:37.725679+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 5 went live successfully."}
 {"ts": "2026-05-29T13:08:37.725838+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Fast-Stagger comment sequence execution completely finished."}
 {"ts": "2026-05-29T13:08:37.725896+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== WORKFLOW COMPLETE: WF_20260529_130012 ==="}
+{"ts": "2026-05-29T15:00:15.977636+00:00", "level": "INFO", "engine": "Main", "message": "Checking comment queue pipeline..."}
+{"ts": "2026-05-29T15:00:15.977764+00:00", "level": "INFO", "engine": "Main", "message": "Starting auto workflow (generate + publish)"}
+{"ts": "2026-05-29T15:00:15.977841+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== AUTO WORKFLOW START: WF_20260529_150015 ==="}
+{"ts": "2026-05-29T15:00:15.977884+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 1: Topic Intelligence"}
+{"ts": "2026-05-29T15:00:15.978774+00:00", "level": "INFO", "engine": "TopicIntelligenceEngine", "message": "Topic generated: [cold_weather] hot shower effects | Tiny Discomfort | Myth vs Reality | score=57"}
+{"ts": "2026-05-29T15:00:15.978845+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 2: Content Strategy"}
+{"ts": "2026-05-29T15:00:15.978951+00:00", "level": "INFO", "engine": "ContentStrategyEngine", "message": "Strategy built: Myth vs Reality | gentle_alert | medium | cta=no_cta"}
+{"ts": "2026-05-29T15:00:15.978998+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 6: Visual Identity"}
+{"ts": "2026-05-29T15:00:15.979054+00:00", "level": "INFO", "engine": "VisualIdentityEngine", "message": "Visual identity built: minimal_layout | soft_blue | subject=cold weather symbols or cracked skin"}
+{"ts": "2026-05-29T15:00:15.979098+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 3: Prompt Orchestration"}
+{"ts": "2026-05-29T15:00:15.979337+00:00", "level": "INFO", "engine": "PromptOrchestrationEngine", "message": "Prompt built for: Myth vs Reality | hot shower effects"}
+{"ts": "2026-05-29T15:00:15.979406+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 4: AI Generation"}
+{"ts": "2026-05-29T15:00:20.627188+00:00", "level": "INFO", "engine": "GroqClient", "message": "Groq Multi-Comment JSON generation success (attempt 1)"}
+{"ts": "2026-05-29T15:00:20.724872+00:00", "level": "INFO", "engine": "AIGenerationEngine", "message": "Generation success: COL_09B937 | 4745ms"}
+{"ts": "2026-05-29T15:00:20.725122+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 7: Publishing Main Caption"}
+{"ts": "2026-05-29T15:00:26.780397+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Published main post: 1142784782252062_122097246705350290"}
+{"ts": "2026-05-29T15:00:26.781057+00:00", "level": "INFO", "engine": "MemoryEngine", "message": "Combination recorded: USED_COLD-WEATHER_HOT-SHOWER-EFFECTS_TINY-DISCOMFORT_MYTH-VS-REALITY"}
+{"ts": "2026-05-29T15:00:27.176201+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Injecting interaction content into backend queue flat file..."}
+{"ts": "2026-05-29T15:00:27.176655+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Starting Fast-Stagger deployment loop for 5 comments under post 1142784782252062_122097246705350290..."}
+{"ts": "2026-05-29T15:00:27.176728+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 1/5 to Facebook..."}
+{"ts": "2026-05-29T15:00:33.819852+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 1 went live successfully."}
+{"ts": "2026-05-29T15:00:33.820018+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Stagger engagement hold: Sleeping for 120 seconds before dropping comment 2..."}
+{"ts": "2026-05-29T15:02:33.820223+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 2/5 to Facebook..."}
+{"ts": "2026-05-29T15:02:36.294985+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 2 went live successfully."}
+{"ts": "2026-05-29T15:02:36.295150+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Stagger engagement hold: Sleeping for 120 seconds before dropping comment 3..."}
+{"ts": "2026-05-29T15:04:36.295335+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 3/5 to Facebook..."}
+{"ts": "2026-05-29T15:04:39.756359+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 3 went live successfully."}
+{"ts": "2026-05-29T15:04:39.756546+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Stagger engagement hold: Sleeping for 120 seconds before dropping comment 4..."}
+{"ts": "2026-05-29T15:06:39.756724+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 4/5 to Facebook..."}
+{"ts": "2026-05-29T15:06:42.613496+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 4 went live successfully."}
+{"ts": "2026-05-29T15:06:42.613667+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Stagger engagement hold: Sleeping for 120 seconds before dropping comment 5..."}
+{"ts": "2026-05-29T15:08:42.613847+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 5/5 to Facebook..."}
+{"ts": "2026-05-29T15:08:45.486539+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 5 went live successfully."}
+{"ts": "2026-05-29T15:08:45.486705+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Fast-Stagger comment sequence execution completely finished."}
+{"ts": "2026-05-29T15:08:45.486758+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== WORKFLOW COMPLETE: WF_20260529_150015 ==="}
