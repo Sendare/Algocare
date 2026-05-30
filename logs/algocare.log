@@ -1129,3 +1129,38 @@
 {"ts": "2026-05-30T07:08:33.446874+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 5 went live successfully."}
 {"ts": "2026-05-30T07:08:33.447028+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Fast-Stagger comment sequence execution completely finished."}
 {"ts": "2026-05-30T07:08:33.447081+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== WORKFLOW COMPLETE: WF_20260530_070010 ==="}
+{"ts": "2026-05-30T09:00:11.789491+00:00", "level": "INFO", "engine": "Main", "message": "Checking comment queue pipeline..."}
+{"ts": "2026-05-30T09:00:11.789632+00:00", "level": "INFO", "engine": "Main", "message": "Starting auto workflow (generate + publish)"}
+{"ts": "2026-05-30T09:00:11.789718+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== AUTO WORKFLOW START: WF_20260530_090011 ==="}
+{"ts": "2026-05-30T09:00:11.789762+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 1: Topic Intelligence"}
+{"ts": "2026-05-30T09:00:11.792154+00:00", "level": "INFO", "engine": "TopicIntelligenceEngine", "message": "Topic generated: [stomach] soda effects | Overlooked Detail | Hidden Cause | score=79"}
+{"ts": "2026-05-30T09:00:11.792296+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 2: Content Strategy"}
+{"ts": "2026-05-30T09:00:11.792483+00:00", "level": "INFO", "engine": "ContentStrategyEngine", "message": "Strategy built: Hidden Cause | quiet_observation | short | cta=curiosity_continuation"}
+{"ts": "2026-05-30T09:00:11.792537+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 6: Visual Identity"}
+{"ts": "2026-05-30T09:00:11.792592+00:00", "level": "INFO", "engine": "VisualIdentityEngine", "message": "Visual identity built: minimal_layout | soft_green | subject=stomach area"}
+{"ts": "2026-05-30T09:00:11.792633+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 3: Prompt Orchestration"}
+{"ts": "2026-05-30T09:00:11.792874+00:00", "level": "INFO", "engine": "PromptOrchestrationEngine", "message": "Prompt built for: Hidden Cause | soda effects"}
+{"ts": "2026-05-30T09:00:11.792926+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 4: AI Generation"}
+{"ts": "2026-05-30T09:00:15.655398+00:00", "level": "INFO", "engine": "GroqClient", "message": "Groq Multi-Comment JSON generation success (attempt 1)"}
+{"ts": "2026-05-30T09:00:15.656115+00:00", "level": "INFO", "engine": "AIGenerationEngine", "message": "Generation success: STO_3C8290 | 3863ms"}
+{"ts": "2026-05-30T09:00:15.656228+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 7: Publishing Main Caption"}
+{"ts": "2026-05-30T09:00:20.478272+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Published main post: 1142784782252062_122097675945350290"}
+{"ts": "2026-05-30T09:00:20.478991+00:00", "level": "INFO", "engine": "MemoryEngine", "message": "Combination recorded: USED_STOMACH_SODA-EFFECTS_OVERLOOKED-DETAIL_HIDDEN-CAUSE"}
+{"ts": "2026-05-30T09:00:20.817093+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Injecting interaction content into backend queue flat file..."}
+{"ts": "2026-05-30T09:00:20.817550+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Starting Fast-Stagger deployment loop for 5 comments under post 1142784782252062_122097675945350290..."}
+{"ts": "2026-05-30T09:00:20.817627+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 1/5 to Facebook..."}
+{"ts": "2026-05-30T09:00:23.757412+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 1 went live successfully."}
+{"ts": "2026-05-30T09:00:23.757566+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Stagger engagement hold: Sleeping for 120 seconds before dropping comment 2..."}
+{"ts": "2026-05-30T09:02:23.757765+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 2/5 to Facebook..."}
+{"ts": "2026-05-30T09:02:26.690032+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 2 went live successfully."}
+{"ts": "2026-05-30T09:02:26.690478+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Stagger engagement hold: Sleeping for 120 seconds before dropping comment 3..."}
+{"ts": "2026-05-30T09:04:26.690714+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 3/5 to Facebook..."}
+{"ts": "2026-05-30T09:04:29.299300+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 3 went live successfully."}
+{"ts": "2026-05-30T09:04:29.299482+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Stagger engagement hold: Sleeping for 120 seconds before dropping comment 4..."}
+{"ts": "2026-05-30T09:06:29.299706+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 4/5 to Facebook..."}
+{"ts": "2026-05-30T09:06:31.492207+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 4 went live successfully."}
+{"ts": "2026-05-30T09:06:31.492404+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Stagger engagement hold: Sleeping for 120 seconds before dropping comment 5..."}
+{"ts": "2026-05-30T09:08:31.492618+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 5/5 to Facebook..."}
+{"ts": "2026-05-30T09:08:34.940284+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 5 went live successfully."}
+{"ts": "2026-05-30T09:08:34.940457+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Fast-Stagger comment sequence execution completely finished."}
+{"ts": "2026-05-30T09:08:34.940514+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== WORKFLOW COMPLETE: WF_20260530_090011 ==="}
