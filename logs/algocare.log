@@ -989,3 +989,38 @@
 {"ts": "2026-05-29T23:08:43.022265+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 5 went live successfully."}
 {"ts": "2026-05-29T23:08:43.022451+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Fast-Stagger comment sequence execution completely finished."}
 {"ts": "2026-05-29T23:08:43.022507+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== WORKFLOW COMPLETE: WF_20260529_230011 ==="}
+{"ts": "2026-05-30T01:00:12.806003+00:00", "level": "INFO", "engine": "Main", "message": "Checking comment queue pipeline..."}
+{"ts": "2026-05-30T01:00:12.806131+00:00", "level": "INFO", "engine": "Main", "message": "Starting auto workflow (generate + publish)"}
+{"ts": "2026-05-30T01:00:12.806224+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== AUTO WORKFLOW START: WF_20260530_010012 ==="}
+{"ts": "2026-05-30T01:00:12.806278+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 1: Topic Intelligence"}
+{"ts": "2026-05-30T01:00:12.807242+00:00", "level": "INFO", "engine": "TopicIntelligenceEngine", "message": "Topic generated: [feet] foot odor | Surprise | This or That | score=96"}
+{"ts": "2026-05-30T01:00:12.807324+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 2: Content Strategy"}
+{"ts": "2026-05-30T01:00:12.807451+00:00", "level": "INFO", "engine": "ContentStrategyEngine", "message": "Strategy built: This or That | unexpected_truth | short | cta=ask_question"}
+{"ts": "2026-05-30T01:00:12.807506+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 6: Visual Identity"}
+{"ts": "2026-05-30T01:00:12.807578+00:00", "level": "INFO", "engine": "VisualIdentityEngine", "message": "Visual identity built: simple_scene | soft_amber | subject=feet and toes"}
+{"ts": "2026-05-30T01:00:12.807666+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 3: Prompt Orchestration"}
+{"ts": "2026-05-30T01:00:12.807938+00:00", "level": "INFO", "engine": "PromptOrchestrationEngine", "message": "Prompt built for: This or That | foot odor"}
+{"ts": "2026-05-30T01:00:12.807998+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 4: AI Generation"}
+{"ts": "2026-05-30T01:00:16.741111+00:00", "level": "INFO", "engine": "GroqClient", "message": "Groq Multi-Comment JSON generation success (attempt 1)"}
+{"ts": "2026-05-30T01:00:16.745584+00:00", "level": "INFO", "engine": "AIGenerationEngine", "message": "Generation success: FEE_DCB3F1 | 3937ms"}
+{"ts": "2026-05-30T01:00:16.745680+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 7: Publishing Main Caption"}
+{"ts": "2026-05-30T01:00:20.882401+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Published main post: 1142784782252062_122097502113350290"}
+{"ts": "2026-05-30T01:00:20.883192+00:00", "level": "INFO", "engine": "MemoryEngine", "message": "Combination recorded: USED_FEET_FOOT-ODOR_SURPRISE_THIS-OR-THAT"}
+{"ts": "2026-05-30T01:00:21.453452+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Injecting interaction content into backend queue flat file..."}
+{"ts": "2026-05-30T01:00:21.453881+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Starting Fast-Stagger deployment loop for 5 comments under post 1142784782252062_122097502113350290..."}
+{"ts": "2026-05-30T01:00:21.453961+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 1/5 to Facebook..."}
+{"ts": "2026-05-30T01:00:24.701594+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 1 went live successfully."}
+{"ts": "2026-05-30T01:00:24.701781+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Stagger engagement hold: Sleeping for 120 seconds before dropping comment 2..."}
+{"ts": "2026-05-30T01:02:24.701978+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 2/5 to Facebook..."}
+{"ts": "2026-05-30T01:02:27.170850+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 2 went live successfully."}
+{"ts": "2026-05-30T01:02:27.171010+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Stagger engagement hold: Sleeping for 120 seconds before dropping comment 3..."}
+{"ts": "2026-05-30T01:04:27.171191+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 3/5 to Facebook..."}
+{"ts": "2026-05-30T01:04:30.595478+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 3 went live successfully."}
+{"ts": "2026-05-30T01:04:30.595669+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Stagger engagement hold: Sleeping for 120 seconds before dropping comment 4..."}
+{"ts": "2026-05-30T01:06:30.595892+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 4/5 to Facebook..."}
+{"ts": "2026-05-30T01:06:33.527593+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 4 went live successfully."}
+{"ts": "2026-05-30T01:06:33.527799+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Stagger engagement hold: Sleeping for 120 seconds before dropping comment 5..."}
+{"ts": "2026-05-30T01:08:33.527996+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 5/5 to Facebook..."}
+{"ts": "2026-05-30T01:08:37.391223+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 5 went live successfully."}
+{"ts": "2026-05-30T01:08:37.391381+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Fast-Stagger comment sequence execution completely finished."}
+{"ts": "2026-05-30T01:08:37.391446+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== WORKFLOW COMPLETE: WF_20260530_010012 ==="}
