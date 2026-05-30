@@ -1339,3 +1339,38 @@
 {"ts": "2026-05-30T19:08:38.281070+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 5 went live successfully."}
 {"ts": "2026-05-30T19:08:38.281230+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Fast-Stagger comment sequence execution completely finished."}
 {"ts": "2026-05-30T19:08:38.281285+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== WORKFLOW COMPLETE: WF_20260530_190011 ==="}
+{"ts": "2026-05-30T21:00:11.027863+00:00", "level": "INFO", "engine": "Main", "message": "Checking comment queue pipeline..."}
+{"ts": "2026-05-30T21:00:11.027985+00:00", "level": "INFO", "engine": "Main", "message": "Starting auto workflow (generate + publish)"}
+{"ts": "2026-05-30T21:00:11.028068+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== AUTO WORKFLOW START: WF_20260530_210011 ==="}
+{"ts": "2026-05-30T21:00:11.028113+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 1: Topic Intelligence"}
+{"ts": "2026-05-30T21:00:11.029953+00:00", "level": "INFO", "engine": "TopicIntelligenceEngine", "message": "Topic generated: [muscles] overuse | Mild Concern | Answer Reveal | score=73"}
+{"ts": "2026-05-30T21:00:11.030043+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 2: Content Strategy"}
+{"ts": "2026-05-30T21:00:11.030162+00:00", "level": "INFO", "engine": "ContentStrategyEngine", "message": "Strategy built: Answer Reveal | gentle_alert | short | cta=no_cta"}
+{"ts": "2026-05-30T21:00:11.030209+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 6: Visual Identity"}
+{"ts": "2026-05-30T21:00:11.030262+00:00", "level": "INFO", "engine": "VisualIdentityEngine", "message": "Visual identity built: minimal_symbol | soft_blue | subject=muscle outline or arm"}
+{"ts": "2026-05-30T21:00:11.030302+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 3: Prompt Orchestration"}
+{"ts": "2026-05-30T21:00:11.030531+00:00", "level": "INFO", "engine": "PromptOrchestrationEngine", "message": "Prompt built for: Answer Reveal | overuse"}
+{"ts": "2026-05-30T21:00:11.030581+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 4: AI Generation"}
+{"ts": "2026-05-30T21:00:14.973231+00:00", "level": "INFO", "engine": "GroqClient", "message": "Groq Multi-Comment JSON generation success (attempt 1)"}
+{"ts": "2026-05-30T21:00:14.974287+00:00", "level": "INFO", "engine": "AIGenerationEngine", "message": "Generation success: MUS_A8BAB4 | 3943ms"}
+{"ts": "2026-05-30T21:00:14.974368+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 7: Publishing Main Caption"}
+{"ts": "2026-05-30T21:00:18.432460+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Published main post: 1142784782252062_122098110591350290"}
+{"ts": "2026-05-30T21:00:18.433307+00:00", "level": "INFO", "engine": "MemoryEngine", "message": "Combination recorded: USED_MUSCLES_OVERUSE_MILD-CONCERN_ANSWER-REVEAL"}
+{"ts": "2026-05-30T21:00:18.789401+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Injecting interaction content into backend queue flat file..."}
+{"ts": "2026-05-30T21:00:18.789617+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Starting Fast-Stagger deployment loop for 5 comments under post 1142784782252062_122098110591350290..."}
+{"ts": "2026-05-30T21:00:18.789673+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 1/5 to Facebook..."}
+{"ts": "2026-05-30T21:00:21.705711+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 1 went live successfully."}
+{"ts": "2026-05-30T21:00:21.705892+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Stagger engagement hold: Sleeping for 120 seconds before dropping comment 2..."}
+{"ts": "2026-05-30T21:02:21.706122+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 2/5 to Facebook..."}
+{"ts": "2026-05-30T21:02:25.298838+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 2 went live successfully."}
+{"ts": "2026-05-30T21:02:25.299022+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Stagger engagement hold: Sleeping for 120 seconds before dropping comment 3..."}
+{"ts": "2026-05-30T21:04:25.299199+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 3/5 to Facebook..."}
+{"ts": "2026-05-30T21:04:28.712093+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 3 went live successfully."}
+{"ts": "2026-05-30T21:04:28.712273+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Stagger engagement hold: Sleeping for 120 seconds before dropping comment 4..."}
+{"ts": "2026-05-30T21:06:28.712493+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 4/5 to Facebook..."}
+{"ts": "2026-05-30T21:06:32.254253+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 4 went live successfully."}
+{"ts": "2026-05-30T21:06:32.254674+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Stagger engagement hold: Sleeping for 120 seconds before dropping comment 5..."}
+{"ts": "2026-05-30T21:08:32.254902+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 5/5 to Facebook..."}
+{"ts": "2026-05-30T21:08:35.286214+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 5 went live successfully."}
+{"ts": "2026-05-30T21:08:35.286667+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Fast-Stagger comment sequence execution completely finished."}
+{"ts": "2026-05-30T21:08:35.286738+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== WORKFLOW COMPLETE: WF_20260530_210011 ==="}
