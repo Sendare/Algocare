@@ -1654,3 +1654,38 @@
 {"ts": "2026-05-31T13:08:38.456376+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 5 went live successfully."}
 {"ts": "2026-05-31T13:08:38.456529+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Fast-Stagger comment sequence execution completely finished."}
 {"ts": "2026-05-31T13:08:38.456591+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== WORKFLOW COMPLETE: WF_20260531_130013 ==="}
+{"ts": "2026-05-31T15:00:11.946915+00:00", "level": "INFO", "engine": "Main", "message": "Checking comment queue pipeline..."}
+{"ts": "2026-05-31T15:00:11.947038+00:00", "level": "INFO", "engine": "Main", "message": "Starting auto workflow (generate + publish)"}
+{"ts": "2026-05-31T15:00:11.947135+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== AUTO WORKFLOW START: WF_20260531_150011 ==="}
+{"ts": "2026-05-31T15:00:11.947191+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 1: Topic Intelligence"}
+{"ts": "2026-05-31T15:00:11.949445+00:00", "level": "INFO", "engine": "TopicIntelligenceEngine", "message": "Topic generated: [cold_weather] dry lips | Familiar Experience | Answer Reveal | score=73"}
+{"ts": "2026-05-31T15:00:11.949536+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 2: Content Strategy"}
+{"ts": "2026-05-31T15:00:11.949675+00:00", "level": "INFO", "engine": "ContentStrategyEngine", "message": "Strategy built: Answer Reveal | familiar_moment | short | cta=save_this"}
+{"ts": "2026-05-31T15:00:11.949736+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 6: Visual Identity"}
+{"ts": "2026-05-31T15:00:11.949800+00:00", "level": "INFO", "engine": "VisualIdentityEngine", "message": "Visual identity built: minimal_symbol | soft_amber | subject=cold weather symbols or cracked skin"}
+{"ts": "2026-05-31T15:00:11.949848+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 3: Prompt Orchestration"}
+{"ts": "2026-05-31T15:00:11.950172+00:00", "level": "INFO", "engine": "PromptOrchestrationEngine", "message": "Prompt built for: Answer Reveal | dry lips"}
+{"ts": "2026-05-31T15:00:11.950239+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 4: AI Generation"}
+{"ts": "2026-05-31T15:00:15.768323+00:00", "level": "INFO", "engine": "GroqClient", "message": "Groq Multi-Comment JSON generation success (attempt 1)"}
+{"ts": "2026-05-31T15:00:15.769317+00:00", "level": "INFO", "engine": "AIGenerationEngine", "message": "Generation success: COL_54E025 | 3818ms"}
+{"ts": "2026-05-31T15:00:15.769424+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 7: Publishing Main Caption"}
+{"ts": "2026-05-31T15:00:20.144674+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Published main post: 1142784782252062_122098596051350290"}
+{"ts": "2026-05-31T15:00:20.145638+00:00", "level": "INFO", "engine": "MemoryEngine", "message": "Combination recorded: USED_COLD-WEATHER_DRY-LIPS_FAMILIAR-EXPERIENCE_ANSWER-REVEAL"}
+{"ts": "2026-05-31T15:00:20.621923+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Injecting interaction content into backend queue flat file..."}
+{"ts": "2026-05-31T15:00:20.622333+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Starting Fast-Stagger deployment loop for 5 comments under post 1142784782252062_122098596051350290..."}
+{"ts": "2026-05-31T15:00:20.622427+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 1/5 to Facebook..."}
+{"ts": "2026-05-31T15:00:23.352552+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 1 went live successfully."}
+{"ts": "2026-05-31T15:00:23.352694+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Stagger engagement hold: Sleeping for 120 seconds before dropping comment 2..."}
+{"ts": "2026-05-31T15:02:23.352882+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 2/5 to Facebook..."}
+{"ts": "2026-05-31T15:02:26.180966+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 2 went live successfully."}
+{"ts": "2026-05-31T15:02:26.181118+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Stagger engagement hold: Sleeping for 120 seconds before dropping comment 3..."}
+{"ts": "2026-05-31T15:04:26.181313+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 3/5 to Facebook..."}
+{"ts": "2026-05-31T15:04:31.278456+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 3 went live successfully."}
+{"ts": "2026-05-31T15:04:31.278615+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Stagger engagement hold: Sleeping for 120 seconds before dropping comment 4..."}
+{"ts": "2026-05-31T15:06:31.278814+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 4/5 to Facebook..."}
+{"ts": "2026-05-31T15:06:34.003581+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 4 went live successfully."}
+{"ts": "2026-05-31T15:06:34.003991+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Stagger engagement hold: Sleeping for 120 seconds before dropping comment 5..."}
+{"ts": "2026-05-31T15:08:34.004205+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 5/5 to Facebook..."}
+{"ts": "2026-05-31T15:08:37.946442+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 5 went live successfully."}
+{"ts": "2026-05-31T15:08:37.946595+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Fast-Stagger comment sequence execution completely finished."}
+{"ts": "2026-05-31T15:08:37.946658+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== WORKFLOW COMPLETE: WF_20260531_150011 ==="}
