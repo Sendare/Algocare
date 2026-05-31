@@ -1514,3 +1514,38 @@
 {"ts": "2026-05-31T05:08:35.406533+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 5 went live successfully."}
 {"ts": "2026-05-31T05:08:35.406704+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Fast-Stagger comment sequence execution completely finished."}
 {"ts": "2026-05-31T05:08:35.406758+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== WORKFLOW COMPLETE: WF_20260531_050012 ==="}
+{"ts": "2026-05-31T07:00:11.475820+00:00", "level": "INFO", "engine": "Main", "message": "Checking comment queue pipeline..."}
+{"ts": "2026-05-31T07:00:11.475977+00:00", "level": "INFO", "engine": "Main", "message": "Starting auto workflow (generate + publish)"}
+{"ts": "2026-05-31T07:00:11.476076+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== AUTO WORKFLOW START: WF_20260531_070011 ==="}
+{"ts": "2026-05-31T07:00:11.476131+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 1: Topic Intelligence"}
+{"ts": "2026-05-31T07:00:11.478380+00:00", "level": "INFO", "engine": "TopicIntelligenceEngine", "message": "Topic generated: [bathroom_habits] ventilation | Relatability | Small Mistake | score=73"}
+{"ts": "2026-05-31T07:00:11.478462+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 2: Content Strategy"}
+{"ts": "2026-05-31T07:00:11.478607+00:00", "level": "INFO", "engine": "ContentStrategyEngine", "message": "Strategy built: Small Mistake | familiar_moment | short | cta=ask_question"}
+{"ts": "2026-05-31T07:00:11.478673+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 6: Visual Identity"}
+{"ts": "2026-05-31T07:00:11.478753+00:00", "level": "INFO", "engine": "VisualIdentityEngine", "message": "Visual identity built: centered_object | soft_blue | subject=bathroom setting"}
+{"ts": "2026-05-31T07:00:11.478810+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 3: Prompt Orchestration"}
+{"ts": "2026-05-31T07:00:11.479288+00:00", "level": "INFO", "engine": "PromptOrchestrationEngine", "message": "Prompt built for: Small Mistake | ventilation"}
+{"ts": "2026-05-31T07:00:11.479361+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 4: AI Generation"}
+{"ts": "2026-05-31T07:00:15.415963+00:00", "level": "INFO", "engine": "GroqClient", "message": "Groq Multi-Comment JSON generation success (attempt 1)"}
+{"ts": "2026-05-31T07:00:15.416998+00:00", "level": "INFO", "engine": "AIGenerationEngine", "message": "Generation success: BAT_E0F00F | 3937ms"}
+{"ts": "2026-05-31T07:00:15.417079+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 7: Publishing Main Caption"}
+{"ts": "2026-05-31T07:00:18.961997+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Published main post: 1142784782252062_122098348965350290"}
+{"ts": "2026-05-31T07:00:18.962926+00:00", "level": "INFO", "engine": "MemoryEngine", "message": "Combination recorded: USED_BATHROOM-HABITS_VENTILATION_RELATABILITY_SMALL-MISTAKE"}
+{"ts": "2026-05-31T07:00:19.275700+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Injecting interaction content into backend queue flat file..."}
+{"ts": "2026-05-31T07:00:19.276104+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Starting Fast-Stagger deployment loop for 5 comments under post 1142784782252062_122098348965350290..."}
+{"ts": "2026-05-31T07:00:19.276171+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 1/5 to Facebook..."}
+{"ts": "2026-05-31T07:00:22.806640+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 1 went live successfully."}
+{"ts": "2026-05-31T07:00:22.806990+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Stagger engagement hold: Sleeping for 120 seconds before dropping comment 2..."}
+{"ts": "2026-05-31T07:02:22.807207+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 2/5 to Facebook..."}
+{"ts": "2026-05-31T07:02:25.246481+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 2 went live successfully."}
+{"ts": "2026-05-31T07:02:25.246882+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Stagger engagement hold: Sleeping for 120 seconds before dropping comment 3..."}
+{"ts": "2026-05-31T07:04:25.247093+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 3/5 to Facebook..."}
+{"ts": "2026-05-31T07:04:28.901378+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 3 went live successfully."}
+{"ts": "2026-05-31T07:04:28.901797+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Stagger engagement hold: Sleeping for 120 seconds before dropping comment 4..."}
+{"ts": "2026-05-31T07:06:28.902042+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 4/5 to Facebook..."}
+{"ts": "2026-05-31T07:06:31.432590+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 4 went live successfully."}
+{"ts": "2026-05-31T07:06:31.432762+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Stagger engagement hold: Sleeping for 120 seconds before dropping comment 5..."}
+{"ts": "2026-05-31T07:08:31.432956+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 5/5 to Facebook..."}
+{"ts": "2026-05-31T07:08:34.420774+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 5 went live successfully."}
+{"ts": "2026-05-31T07:08:34.420958+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Fast-Stagger comment sequence execution completely finished."}
+{"ts": "2026-05-31T07:08:34.421025+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== WORKFLOW COMPLETE: WF_20260531_070011 ==="}
