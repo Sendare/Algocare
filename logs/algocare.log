@@ -1794,3 +1794,25 @@
 {"ts": "2026-05-31T21:08:43.151009+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Comment 5 went live successfully."}
 {"ts": "2026-05-31T21:08:43.151153+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Fast-Stagger comment sequence execution completely finished."}
 {"ts": "2026-05-31T21:08:43.151320+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== WORKFLOW COMPLETE: WF_20260531_210013 ==="}
+{"ts": "2026-06-01T04:39:34.658719+00:00", "level": "INFO", "engine": "Main", "message": "Checking comment queue pipeline..."}
+{"ts": "2026-06-01T04:39:34.659542+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "No pending comment queues detected in flat cache."}
+{"ts": "2026-06-01T04:39:34.659653+00:00", "level": "INFO", "engine": "Main", "message": "Starting auto workflow (generate + publish)"}
+{"ts": "2026-06-01T04:39:34.659729+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== AUTO WORKFLOW START: WF_20260601_043934 ==="}
+{"ts": "2026-06-01T04:39:34.659770+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 1: Topic Intelligence"}
+{"ts": "2026-06-01T04:39:34.661014+00:00", "level": "INFO", "engine": "TopicIntelligenceEngine", "message": "Topic generated: [brain] overstimulation | Tiny Discomfort | Mini Steps | score=63"}
+{"ts": "2026-06-01T04:39:34.661089+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 2: Content Strategy"}
+{"ts": "2026-06-01T04:39:34.661210+00:00", "level": "INFO", "engine": "ContentStrategyEngine", "message": "Strategy built: Mini Steps | gentle_alert | medium | cta=save_this"}
+{"ts": "2026-06-01T04:39:34.661321+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 6: Visual Identity"}
+{"ts": "2026-06-01T04:39:34.661381+00:00", "level": "INFO", "engine": "VisualIdentityEngine", "message": "Visual identity built: centered_object | soft_green | subject=brain outline or head"}
+{"ts": "2026-06-01T04:39:34.661428+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 3: Prompt Orchestration"}
+{"ts": "2026-06-01T04:39:34.661701+00:00", "level": "INFO", "engine": "PromptOrchestrationEngine", "message": "Prompt built for: Mini Steps | overstimulation"}
+{"ts": "2026-06-01T04:39:34.661767+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 4: AI Generation"}
+{"ts": "2026-06-01T04:39:38.641065+00:00", "level": "INFO", "engine": "GroqClient", "message": "Groq Multi-Comment JSON generation success (attempt 1)"}
+{"ts": "2026-06-01T04:39:38.641777+00:00", "level": "INFO", "engine": "AIGenerationEngine", "message": "Generation success: BRA_996269 | 3979ms"}
+{"ts": "2026-06-01T04:39:38.641849+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 7: Publishing Main Caption"}
+{"ts": "2026-06-01T04:39:45.224480+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Published main post: 1142784782252062_122098969869350290"}
+{"ts": "2026-06-01T04:39:45.225521+00:00", "level": "INFO", "engine": "MemoryEngine", "message": "Combination recorded: USED_BRAIN_OVERSTIMULATION_TINY-DISCOMFORT_MINI-STEPS"}
+{"ts": "2026-06-01T04:39:45.634925+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Injecting interaction content into backend queue flat file..."}
+{"ts": "2026-06-01T04:39:45.635340+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 1 immediately with main feed post..."}
+{"ts": "2026-06-01T04:39:51.249528+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Cached remaining 4 comments for post 1142784782252062_122098969869350290. Zero seconds wasted."}
+{"ts": "2026-06-01T04:39:51.249636+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== WORKFLOW COMPLETE: WF_20260601_043934 ==="}
