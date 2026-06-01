@@ -1885,3 +1885,28 @@
 {"ts": "2026-06-01T09:00:31.352731+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 1 immediately with main feed post..."}
 {"ts": "2026-06-01T09:00:35.239398+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Cached remaining 4 comments for post 1142784782252062_122099127717350290. Zero seconds wasted."}
 {"ts": "2026-06-01T09:00:35.239487+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== WORKFLOW COMPLETE: WF_20260601_090023 ==="}
+{"ts": "2026-06-01T11:00:14.814627+00:00", "level": "INFO", "engine": "Main", "message": "Checking comment queue pipeline..."}
+{"ts": "2026-06-01T11:00:14.815084+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Trickling comment onto post 1142784782252062_122098969869350290. Remaining for this post: 0"}
+{"ts": "2026-06-01T11:00:18.595050+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Trickling comment onto post 1142784782252062_122098979697350290. Remaining for this post: 1"}
+{"ts": "2026-06-01T11:00:22.085401+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Trickling comment onto post 1142784782252062_122099039097350290. Remaining for this post: 2"}
+{"ts": "2026-06-01T11:00:25.757471+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Trickling comment onto post 1142784782252062_122099127717350290. Remaining for this post: 3"}
+{"ts": "2026-06-01T11:00:28.692183+00:00", "level": "INFO", "engine": "Main", "message": "Starting auto workflow (generate + publish)"}
+{"ts": "2026-06-01T11:00:28.692353+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== AUTO WORKFLOW START: WF_20260601_110028 ==="}
+{"ts": "2026-06-01T11:00:28.692422+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 1: Topic Intelligence"}
+{"ts": "2026-06-01T11:00:28.693179+00:00", "level": "INFO", "engine": "TopicIntelligenceEngine", "message": "Topic generated: [food_hygiene] kitchen towels | Relatability | Tiny Reminder | score=63"}
+{"ts": "2026-06-01T11:00:28.693268+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 2: Content Strategy"}
+{"ts": "2026-06-01T11:00:28.693458+00:00", "level": "INFO", "engine": "ContentStrategyEngine", "message": "Strategy built: Tiny Reminder | familiar_moment | ultra_short | cta=no_cta"}
+{"ts": "2026-06-01T11:00:28.693522+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 6: Visual Identity"}
+{"ts": "2026-06-01T11:00:28.693587+00:00", "level": "INFO", "engine": "VisualIdentityEngine", "message": "Visual identity built: icon_only | soft_blue | subject=kitchen or food items"}
+{"ts": "2026-06-01T11:00:28.693632+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 3: Prompt Orchestration"}
+{"ts": "2026-06-01T11:00:28.693893+00:00", "level": "INFO", "engine": "PromptOrchestrationEngine", "message": "Prompt built for: Tiny Reminder | kitchen towels"}
+{"ts": "2026-06-01T11:00:28.694430+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 4: AI Generation"}
+{"ts": "2026-06-01T11:00:32.971621+00:00", "level": "INFO", "engine": "GroqClient", "message": "Groq Multi-Comment JSON generation success (attempt 1)"}
+{"ts": "2026-06-01T11:00:32.972606+00:00", "level": "INFO", "engine": "AIGenerationEngine", "message": "Generation success: FOO_541302 | 4278ms"}
+{"ts": "2026-06-01T11:00:32.972686+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 7: Publishing Main Caption"}
+{"ts": "2026-06-01T11:00:36.741603+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Published main post: 1142784782252062_122099180823350290"}
+{"ts": "2026-06-01T11:00:36.742580+00:00", "level": "INFO", "engine": "MemoryEngine", "message": "Combination recorded: USED_FOOD-HYGIENE_KITCHEN-TOWELS_RELATABILITY_TINY-REMINDER"}
+{"ts": "2026-06-01T11:00:37.311007+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Injecting interaction content into backend queue flat file..."}
+{"ts": "2026-06-01T11:00:37.311424+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 1 immediately with main feed post..."}
+{"ts": "2026-06-01T11:00:40.753256+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Cached remaining 4 comments for post 1142784782252062_122099180823350290. Zero seconds wasted."}
+{"ts": "2026-06-01T11:00:40.753567+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== WORKFLOW COMPLETE: WF_20260601_110028 ==="}
