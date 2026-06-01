@@ -6,6 +6,10 @@ into a flat file to be trickled out by upcoming cron cycles without using time.s
 
 import os
 import json
+import time
+import urllib.request
+import urllib.error
+import urllib.parse
 from pathlib import Path
 from datetime import datetime, timezone
 
