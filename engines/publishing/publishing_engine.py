@@ -23,7 +23,7 @@ _PUBLISHED_DIR  = _BASE / "published"
 _FAILED_DIR     = _BASE / "failed"
 _PUB_LOGS_DIR   = _BASE / "publish_logs"
 _SAFE_MODE_FILE = _BASE / "config" / "safe_mode.json"
-_CACHE_FILE     = _BASE / "config" / "post_comments.json"
+_CACHE_FILE     = _BASE / "config" / "comment_queue.json"
 
 MAX_RETRIES          = 3
 RETRY_DELAY          = 10  # Reduced delay to save workflow seconds
