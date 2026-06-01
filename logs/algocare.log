@@ -1816,3 +1816,25 @@
 {"ts": "2026-06-01T04:39:45.635340+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 1 immediately with main feed post..."}
 {"ts": "2026-06-01T04:39:51.249528+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Cached remaining 4 comments for post 1142784782252062_122098969869350290. Zero seconds wasted."}
 {"ts": "2026-06-01T04:39:51.249636+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== WORKFLOW COMPLETE: WF_20260601_043934 ==="}
+{"ts": "2026-06-01T05:00:11.659568+00:00", "level": "INFO", "engine": "Main", "message": "Checking comment queue pipeline..."}
+{"ts": "2026-06-01T05:00:11.659987+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Trickling comment onto post 1142784782252062_122098969869350290. Remaining for this post: 3"}
+{"ts": "2026-06-01T05:00:16.854935+00:00", "level": "INFO", "engine": "Main", "message": "Starting auto workflow (generate + publish)"}
+{"ts": "2026-06-01T05:00:16.855074+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== AUTO WORKFLOW START: WF_20260601_050016 ==="}
+{"ts": "2026-06-01T05:00:16.855125+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 1: Topic Intelligence"}
+{"ts": "2026-06-01T05:00:16.855860+00:00", "level": "INFO", "engine": "TopicIntelligenceEngine", "message": "Topic generated: [water] dehydration | Hidden Truth | Everyday Observation | score=86"}
+{"ts": "2026-06-01T05:00:16.855935+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 2: Content Strategy"}
+{"ts": "2026-06-01T05:00:16.856032+00:00", "level": "INFO", "engine": "ContentStrategyEngine", "message": "Strategy built: Everyday Observation | hidden_reveal | medium | cta=no_cta"}
+{"ts": "2026-06-01T05:00:16.856069+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 6: Visual Identity"}
+{"ts": "2026-06-01T05:00:16.856106+00:00", "level": "INFO", "engine": "VisualIdentityEngine", "message": "Visual identity built: center_closeup | soft_teal | subject=water droplets or glass"}
+{"ts": "2026-06-01T05:00:16.856134+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 3: Prompt Orchestration"}
+{"ts": "2026-06-01T05:00:16.856304+00:00", "level": "INFO", "engine": "PromptOrchestrationEngine", "message": "Prompt built for: Everyday Observation | dehydration"}
+{"ts": "2026-06-01T05:00:16.856341+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 4: AI Generation"}
+{"ts": "2026-06-01T05:00:20.962035+00:00", "level": "INFO", "engine": "GroqClient", "message": "Groq Multi-Comment JSON generation success (attempt 1)"}
+{"ts": "2026-06-01T05:00:20.963149+00:00", "level": "INFO", "engine": "AIGenerationEngine", "message": "Generation success: WAT_23D347 | 4106ms"}
+{"ts": "2026-06-01T05:00:20.963236+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 7: Publishing Main Caption"}
+{"ts": "2026-06-01T05:00:24.688504+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Published main post: 1142784782252062_122098979697350290"}
+{"ts": "2026-06-01T05:00:24.689453+00:00", "level": "INFO", "engine": "MemoryEngine", "message": "Combination recorded: USED_WATER_DEHYDRATION_HIDDEN-TRUTH_EVERYDAY-OBSERVATION"}
+{"ts": "2026-06-01T05:00:25.071281+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Injecting interaction content into backend queue flat file..."}
+{"ts": "2026-06-01T05:00:25.071692+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 1 immediately with main feed post..."}
+{"ts": "2026-06-01T05:00:28.827079+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Cached remaining 4 comments for post 1142784782252062_122098979697350290. Zero seconds wasted."}
+{"ts": "2026-06-01T05:00:28.827168+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== WORKFLOW COMPLETE: WF_20260601_050016 ==="}
