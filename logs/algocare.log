@@ -2210,3 +2210,28 @@
 {"ts": "2026-06-02T11:00:33.218753+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 1 immediately with main feed post..."}
 {"ts": "2026-06-02T11:00:36.557040+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Cached remaining 4 comments for post 1142784782252062_122099838543350290. Zero seconds wasted."}
 {"ts": "2026-06-02T11:00:36.557165+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== WORKFLOW COMPLETE: WF_20260602_110026 ==="}
+{"ts": "2026-06-02T13:00:20.841840+00:00", "level": "INFO", "engine": "Main", "message": "Checking comment queue pipeline..."}
+{"ts": "2026-06-02T13:00:20.842547+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Trickling comment onto post 1142784782252062_122099689149350290. Remaining for this post: 0"}
+{"ts": "2026-06-02T13:00:24.399161+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Trickling comment onto post 1142784782252062_122099736501350290. Remaining for this post: 1"}
+{"ts": "2026-06-02T13:00:27.325001+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Trickling comment onto post 1142784782252062_122099786847350290. Remaining for this post: 1"}
+{"ts": "2026-06-02T13:00:30.384806+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Trickling comment onto post 1142784782252062_122099838543350290. Remaining for this post: 3"}
+{"ts": "2026-06-02T13:00:33.887805+00:00", "level": "INFO", "engine": "Main", "message": "Starting auto workflow (generate + publish)"}
+{"ts": "2026-06-02T13:00:33.888201+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== AUTO WORKFLOW START: WF_20260602_130033 ==="}
+{"ts": "2026-06-02T13:00:33.888279+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 1: Topic Intelligence"}
+{"ts": "2026-06-02T13:00:33.888929+00:00", "level": "INFO", "engine": "TopicIntelligenceEngine", "message": "Topic generated: [digestion] stomach sounds | Familiar Experience | Habit Check | score=79"}
+{"ts": "2026-06-02T13:00:33.888984+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 2: Content Strategy"}
+{"ts": "2026-06-02T13:00:33.889074+00:00", "level": "INFO", "engine": "ContentStrategyEngine", "message": "Strategy built: Habit Check | familiar_moment | short | cta=ask_question"}
+{"ts": "2026-06-02T13:00:33.889123+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 6: Visual Identity"}
+{"ts": "2026-06-02T13:00:33.889165+00:00", "level": "INFO", "engine": "VisualIdentityEngine", "message": "Visual identity built: centered_object | soft_blue | subject=stomach or digestive area"}
+{"ts": "2026-06-02T13:00:33.889197+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 3: Prompt Orchestration"}
+{"ts": "2026-06-02T13:00:33.889454+00:00", "level": "INFO", "engine": "PromptOrchestrationEngine", "message": "Prompt built for: Habit Check | stomach sounds"}
+{"ts": "2026-06-02T13:00:33.889525+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 4: AI Generation"}
+{"ts": "2026-06-02T13:00:37.874586+00:00", "level": "INFO", "engine": "GroqClient", "message": "Groq Multi-Comment JSON generation success (attempt 1)"}
+{"ts": "2026-06-02T13:00:37.875197+00:00", "level": "INFO", "engine": "AIGenerationEngine", "message": "Generation success: DIG_B4C01B | 3985ms"}
+{"ts": "2026-06-02T13:00:37.875266+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 7: Publishing Main Caption"}
+{"ts": "2026-06-02T13:00:45.101854+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Published main post: 1142784782252062_122099899443350290"}
+{"ts": "2026-06-02T13:00:45.102945+00:00", "level": "INFO", "engine": "MemoryEngine", "message": "Combination recorded: USED_DIGESTION_STOMACH-SOUNDS_FAMILIAR-EXPERIENCE_HABIT-CHECK"}
+{"ts": "2026-06-02T13:00:45.694741+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Injecting interaction content into backend queue flat file..."}
+{"ts": "2026-06-02T13:00:45.695164+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 1 immediately with main feed post..."}
+{"ts": "2026-06-02T13:00:50.396019+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Cached remaining 4 comments for post 1142784782252062_122099899443350290. Zero seconds wasted."}
+{"ts": "2026-06-02T13:00:50.396130+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== WORKFLOW COMPLETE: WF_20260602_130033 ==="}
