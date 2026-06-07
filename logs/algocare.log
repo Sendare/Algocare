@@ -3785,3 +3785,28 @@
 {"ts": "2026-06-07T17:00:37.127950+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 1 immediately with main feed post..."}
 {"ts": "2026-06-07T17:00:40.929058+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Cached remaining 4 comments for post 1142784782252062_122104105431350290. Zero seconds wasted."}
 {"ts": "2026-06-07T17:00:40.929151+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== WORKFLOW COMPLETE: WF_20260607_170029 ==="}
+{"ts": "2026-06-07T19:00:14.829960+00:00", "level": "INFO", "engine": "Main", "message": "Checking comment queue pipeline..."}
+{"ts": "2026-06-07T19:00:14.830461+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Trickling comment onto post 1142784782252062_122103909543350290. Remaining for this post: 0"}
+{"ts": "2026-06-07T19:00:18.115273+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Trickling comment onto post 1142784782252062_122103966345350290. Remaining for this post: 1"}
+{"ts": "2026-06-07T19:00:21.938734+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Trickling comment onto post 1142784782252062_122104038861350290. Remaining for this post: 2"}
+{"ts": "2026-06-07T19:00:24.798414+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Trickling comment onto post 1142784782252062_122104105431350290. Remaining for this post: 3"}
+{"ts": "2026-06-07T19:00:27.786111+00:00", "level": "INFO", "engine": "Main", "message": "Starting auto workflow (generate + publish)"}
+{"ts": "2026-06-07T19:00:27.786327+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== AUTO WORKFLOW START: WF_20260607_190027 ==="}
+{"ts": "2026-06-07T19:00:27.786404+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 1: Topic Intelligence"}
+{"ts": "2026-06-07T19:00:27.787445+00:00", "level": "INFO", "engine": "TopicIntelligenceEngine", "message": "Topic generated: [nose] mouth breathing | False Confidence | Tiny Reminder | score=83"}
+{"ts": "2026-06-07T19:00:27.787527+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 2: Content Strategy"}
+{"ts": "2026-06-07T19:00:27.787670+00:00", "level": "INFO", "engine": "ContentStrategyEngine", "message": "Strategy built: Tiny Reminder | assumption_flip | ultra_short | cta=no_cta"}
+{"ts": "2026-06-07T19:00:27.787728+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 6: Visual Identity"}
+{"ts": "2026-06-07T19:00:27.787794+00:00", "level": "INFO", "engine": "VisualIdentityEngine", "message": "Visual identity built: minimal_symbol | soft_blue | subject=nose area"}
+{"ts": "2026-06-07T19:00:27.787844+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 3: Prompt Orchestration"}
+{"ts": "2026-06-07T19:00:27.788134+00:00", "level": "INFO", "engine": "PromptOrchestrationEngine", "message": "Prompt built for: Tiny Reminder | mouth breathing"}
+{"ts": "2026-06-07T19:00:27.788208+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 4: AI Generation"}
+{"ts": "2026-06-07T19:00:31.594093+00:00", "level": "INFO", "engine": "GroqClient", "message": "Groq Multi-Comment JSON generation success (attempt 1)"}
+{"ts": "2026-06-07T19:00:31.595392+00:00", "level": "INFO", "engine": "AIGenerationEngine", "message": "Generation success: NOS_CE2349 | 3807ms"}
+{"ts": "2026-06-07T19:00:31.595525+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Engine 7: Publishing Main Caption"}
+{"ts": "2026-06-07T19:00:34.886596+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Published main post: 1142784782252062_122104172973350290"}
+{"ts": "2026-06-07T19:00:34.888224+00:00", "level": "INFO", "engine": "MemoryEngine", "message": "Combination recorded: USED_NOSE_MOUTH-BREATHING_FALSE-CONFIDENCE_TINY-REMINDER"}
+{"ts": "2026-06-07T19:00:35.541626+00:00", "level": "INFO", "engine": "Orchestrator", "message": "Injecting interaction content into backend queue flat file..."}
+{"ts": "2026-06-07T19:00:35.541914+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Deploying comment 1 immediately with main feed post..."}
+{"ts": "2026-06-07T19:00:38.377835+00:00", "level": "INFO", "engine": "PublishingEngine", "message": "Cached remaining 4 comments for post 1142784782252062_122104172973350290. Zero seconds wasted."}
+{"ts": "2026-06-07T19:00:38.377926+00:00", "level": "INFO", "engine": "Orchestrator", "message": "=== WORKFLOW COMPLETE: WF_20260607_190027 ==="}
