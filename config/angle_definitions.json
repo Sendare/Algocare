@@ -1,0 +1,112 @@
+{
+  "angle_types": {
+    "exam_question": {
+      "id": "exam_question",
+      "name": "Exam Question",
+      "description": "NMCN-style multiple choice or scenario-based question",
+      "word_count_range": [100, 150],
+      "engagement_target": "comments",
+      "image_template": "question_card",
+      "safety_level": "medium",
+      "requires_review": true,
+      "applicable_to_types": ["disease", "organ", "procedure", "concept", "theory", "diagnostic", "drug", "physiological_process"],
+      "example": "Which area of the body is MOST at risk for pressure sores?"
+    },
+    "quick_fact": {
+      "id": "quick_fact",
+      "name": "Quick Revision Fact",
+      "description": "Key fact, stat, or summary for quick learning",
+      "word_count_range": [50, 100],
+      "engagement_target": "saves",
+      "image_template": "fact_card",
+      "safety_level": "low",
+      "requires_review": false,
+      "applicable_to_types": ["organ", "physiological_process", "concept", "theory", "disease"],
+      "example": "The heart beats approximately 100,000 times per day"
+    },
+    "clinical_scenario": {
+      "id": "clinical_scenario",
+      "name": "Clinical Scenario",
+      "description": "Real-world patient case with clinical decision point",
+      "word_count_range": [150, 200],
+      "engagement_target": "comments",
+      "image_template": "case_card",
+      "safety_level": "high",
+      "requires_review": true,
+      "applicable_to_types": ["disease", "procedure", "concept", "physiological_process", "diagnostic"],
+      "example": "28-year-old patient admitted with BP 160/100. What's your first nursing action?"
+    },
+    "disease_spotlight": {
+      "id": "disease_spotlight",
+      "name": "Disease Spotlight",
+      "description": "Cause → Symptoms → Diagnosis → Prevention overview",
+      "word_count_range": [150, 250],
+      "engagement_target": "saves",
+      "image_template": "disease_infographic",
+      "safety_level": "medium",
+      "requires_review": true,
+      "applicable_to_types": ["disease"],
+      "example": "Pressure sores: Cause, Symptoms, Prevention, Management"
+    },
+    "mnemonic": {
+      "id": "mnemonic",
+      "name": "Mnemonic & Memory Aid",
+      "description": "Memory aid using acronym or visual association",
+      "word_count_range": [80, 120],
+      "engagement_target": "saves",
+      "image_template": "mnemonic_visual",
+      "safety_level": "low",
+      "requires_review": false,
+      "applicable_to_types": ["organ", "concept", "theory", "physiological_process"],
+      "example": "SA node → AV node → Bundle of His (SAH = Heart conduction)"
+    },
+    "common_mistake": {
+      "id": "common_mistake",
+      "name": "Common Mistake",
+      "description": "What students often get wrong and the correct understanding",
+      "word_count_range": [100, 150],
+      "engagement_target": "comments",
+      "image_template": "mistake_card",
+      "safety_level": "low",
+      "requires_review": false,
+      "applicable_to_types": ["disease", "procedure", "concept", "physiological_process", "organ"],
+      "example": "❌ Wrong: All red areas on skin are pressure sores. ✅ Right: Must have blanching test"
+    },
+    "clinical_relevance": {
+      "id": "clinical_relevance",
+      "name": "Clinical Relevance",
+      "description": "Why this topic matters in nursing practice",
+      "word_count_range": [100, 150],
+      "engagement_target": "saves",
+      "image_template": "relevance_card",
+      "safety_level": "low",
+      "requires_review": false,
+      "applicable_to_types": ["disease", "organ", "procedure", "physiological_process", "diagnostic"],
+      "example": "Why ECG monitoring is critical in post-operative patients"
+    },
+    "comparison": {
+      "id": "comparison",
+      "name": "Comparison/Contrast",
+      "description": "Compare two related concepts or conditions",
+      "word_count_range": [120, 180],
+      "engagement_target": "saves",
+      "image_template": "comparison_card",
+      "safety_level": "low",
+      "requires_review": false,
+      "applicable_to_types": ["organ", "disease", "concept", "theory"],
+      "example": "Systemic vs Pulmonary Circulation: Key Differences"
+    },
+    "student_success": {
+      "id": "student_success",
+      "name": "Student Success/Career Tip",
+      "description": "Exam tips, study strategies, or career advice for nursing students",
+      "word_count_range": [80, 120],
+      "engagement_target": "saves",
+      "image_template": "tip_card",
+      "safety_level": "low",
+      "requires_review": false,
+      "applicable_to_types": [],
+      "example": "Pro tip: Memorize the order of vital signs assessment for faster exams"
+    }
+  }
+}
