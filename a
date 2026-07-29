@@ -1,0 +1,18 @@
+import json
+
+FILE_PATH = "curriculum.json"
+
+
+def list_courses(file_path):
+    with open(file_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    courses = data.get("curriculum", [])
+    print(f"Total Courses: {len(courses)}\n")
+
+    for c in courses:
+        print(f"{c.get('course_id'):<8} | {c.get('group'):<12} | {c.get('course_name')}")
+
+
+if __name__ == "__main__":
+    list_courses(FILE_PATH)
