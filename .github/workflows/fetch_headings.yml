@@ -1,0 +1,39 @@
+name: Fetch Headings
+
+# Triggered externally by cron-job.org (or similar) hitting the GitHub API's
+# "workflow_dispatch" endpoint every ~10 minutes. This spreads out AI API calls
+# instead of relying on GitHub's own schedule (which is not reliable for
+# short/frequent intervals) and keeps runs short enough to avoid overlap.
+on:
+  workflow_dispatch:
+
+jobs:
+  fetch-headings:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6   # outer safety net; script itself self-stops at 4.5 min
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run fetch_headings.py
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python fetch_headings.py
+
+      - name: Commit and push updated data/state
+        run: |
+          git config user.name "algocare-bot"
+          git config user.email "algocare-bot@users.noreply.github.com"
+          git add data/topic_headings.json state/generation_state.json
+          git diff --cached --quiet || git commit -m "Update headings [automated]"
+          git pull --rebase
+          git push
