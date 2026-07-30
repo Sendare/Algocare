@@ -11,7 +11,8 @@ ARTICLES_DIR = "data/articles"
 QUESTIONS_DIR = "data/questions"
 STATE_PATH = "state/generation_state.json"
 
-MAX_RUNTIME_SECONDS = 480 
+MAX_RUNTIME_SECONDS =  180 
+
    # 4.5 min hard stop - stays under the 5 min ceiling
 
 # The AI never constructs the learn-more link itself - it just marks where one
