@@ -9,7 +9,7 @@ CURRICULUM_PATH = "curriculum.json"
 HEADINGS_PATH = "data/topic_headings.json"
 STATE_PATH = "state/generation_state.json"
 
-MAX_RUNTIME_SECONDS = 240    # 4.5 min hard stop - stays under the 5 min ceiling
+MAX_RUNTIME_SECONDS = 120    # 4.5 min hard stop - stays under the 5 min ceiling
 
 HEADINGS_SYSTEM_PROMPT = """You are a curriculum content designer for Algocare, \
 an educational platform for nursing students in Nigeria.
