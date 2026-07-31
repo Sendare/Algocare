@@ -1,0 +1,152 @@
+[
+  {
+    "question_id": "GNS217_U4_T5_h1_q1",
+    "heading_id": "GNS217_U4_T5_h1",
+    "article_id": "GNS217_U4_T5",
+    "topic_id": "GNS217_U4_T5",
+    "question": "What do measures of variability primarily describe in nursing research data?",
+    "options": {
+      "A": "The exact middle point of a dataset",
+      "B": "How spread out or dispersed data points are around a central value",
+      "C": "The most frequently occurring value in a patient cohort",
+      "D": "The total sum of all patient measurements combined"
+    },
+    "answer": "B",
+    "explanation": "Measures of variability specifically describe the dispersion or spread of data points away from a central value like the mean or median. [learn more](GNS217_U4_T5#GNS217_U4_T5_h1)"
+  },
+  {
+    "question_id": "GNS217_U4_T5_h1_q2",
+    "heading_id": "GNS217_U4_T5_h1",
+    "article_id": "GNS217_U4_T5",
+    "topic_id": "GNS217_U4_T5",
+    "question": "What does a high level of variability in a patient dataset typically indicate?",
+    "options": {
+      "A": "High homogeneity and tight clustering of data",
+      "B": "Identical responses from every patient in the study",
+      "C": "Wide scattering and significant differences among individual measurements",
+      "D": "An error in the calculation of the central tendency"
+    },
+    "answer": "C",
+    "explanation": "High variability means the data points are widely scattered, indicating significant differences or heterogeneity among individuals in the dataset. [learn more](GNS217_U4_T5#GNS217_U4_T5_h1)"
+  },
+  {
+    "question_id": "GNS217_U4_T5_h2_q1",
+    "heading_id": "GNS217_U4_T5_h2",
+    "article_id": "GNS217_U4_T5",
+    "topic_id": "GNS217_U4_T5",
+    "question": "How is the range of a dataset calculated?",
+    "options": {
+      "A": "By subtracting the minimum value from the maximum value",
+      "B": "By finding the difference between the third and first quartiles",
+      "C": "By dividing the sum of all values by the total number of observations",
+      "D": "By identifying the most frequent measurement in the dataset"
+    },
+    "answer": "A",
+    "explanation": "The range is calculated simply as the difference between the highest (maximum) and lowest (minimum) values in a dataset. [learn more](GNS217_U4_T5#GNS217_U4_T5_h2)"
+  },
+  {
+    "question_id": "GNS217_U4_T5_h2_q2",
+    "heading_id": "GNS217_U4_T5_h2",
+    "article_id": "GNS217_U4_T5",
+    "topic_id": "GNS217_U4_T5",
+    "question": "What proportion of a dataset does the interquartile range (IQR) measure?",
+    "options": {
+      "A": "The entire dataset from minimum to maximum",
+      "B": "The middle 50% of the data",
+      "C": "The top 10% of extreme outlier values",
+      "D": "The lower 25% of the distribution"
+    },
+    "answer": "B",
+    "explanation": "The interquartile range measures the statistical spread of the middle 50% of the data, lying between the first and third quartiles. [learn more](GNS217_U4_T5#GNS217_U4_T5_h2)"
+  },
+  {
+    "question_id": "GNS217_U4_T5_h3_q1",
+    "heading_id": "GNS217_U4_T5_h3",
+    "article_id": "GNS217_U4_T5",
+    "topic_id": "GNS217_U4_T5",
+    "question": "Why is the standard deviation often preferred over the variance in clinical interpretation?",
+    "options": {
+      "A": "It is completely unaffected by extreme outlier values",
+      "B": "It is measured in the original units of the data rather than squared units",
+      "C": "It is always a smaller number than the variance",
+      "D": "It can be calculated without knowing the arithmetic mean"
+    },
+    "answer": "B",
+    "explanation": "Standard deviation is the square root of the variance, which brings the unit of measurement back to the original units of the data for easier interpretation. [learn more](GNS217_U4_T5#GNS217_U4_T5_h3)"
+  },
+  {
+    "question_id": "GNS217_U4_T5_h3_q2",
+    "heading_id": "GNS217_U4_T5_h3",
+    "article_id": "GNS217_U4_T5",
+    "topic_id": "GNS217_U4_T5",
+    "question": "In a normal distribution, approximately what percentage of data falls within two standard deviations of the mean?",
+    "options": {
+      "A": "50 percent",
+      "B": "68 percent",
+      "C": "95 percent",
+      "D": "99.7 percent"
+    },
+    "answer": "C",
+    "explanation": "According to the empirical rule for normal distributions, roughly 95% of data points fall within two standard deviations of the mean. [learn more](GNS217_U4_T5#GNS217_U4_T5_h3)"
+  },
+  {
+    "question_id": "GNS217_U4_T5_h4_q1",
+    "heading_id": "GNS217_U4_T5_h4",
+    "article_id": "GNS217_U4_T5",
+    "topic_id": "GNS217_U4_T5",
+    "question": "When is the coefficient of variation (CV) most useful in nursing research?",
+    "options": {
+      "A": "When calculating the exact median of a single skewed dataset",
+      "B": "When comparing variability between datasets with different units or means",
+      "C": "When determining the absolute minimum and maximum patient values",
+      "D": "When finding the sum of squared differences from the mean"
+    },
+    "answer": "B",
+    "explanation": "The coefficient of variation is a relative measure that allows researchers to compare variability across datasets with different units or different means. [learn more](GNS217_U4_T5#GNS217_U4_T5_h4)"
+  },
+  {
+    "question_id": "GNS217_U4_T5_h4_q2",
+    "heading_id": "GNS217_U4_T5_h4",
+    "article_id": "GNS217_U4_T5",
+    "topic_id": "GNS217_U4_T5",
+    "question": "How is the coefficient of variation calculated?",
+    "options": {
+      "A": "By subtracting the mean from the standard deviation",
+      "B": "By dividing the standard deviation by the mean and multiplying by 100",
+      "C": "By adding the range to the interquartile range and dividing by two",
+      "D": "By taking the square root of the total sample variance"
+    },
+    "answer": "B",
+    "explanation": "The CV is expressed as a percentage and is calculated by dividing the standard deviation by the mean, then multiplying by 100. [learn more](GNS217_U4_T5#GNS217_U4_T5_h4)"
+  },
+  {
+    "question_id": "GNS217_U4_T5_h5_q1",
+    "heading_id": "GNS217_U4_T5_h5",
+    "article_id": "GNS217_U4_T5",
+    "topic_id": "GNS217_U4_T5",
+    "question": "What might high variability in patient recovery times across different hospital wards indicate?",
+    "options": {
+      "A": "Perfect adherence to standardized clinical practice guidelines",
+      "B": "Inconsistencies in care delivery or differences in clinical protocols",
+      "C": "An error in calculating the arithmetic mean of the dataset",
+      "D": "That all patients experienced identical clinical outcomes"
+    },
+    "answer": "B",
+    "explanation": "High variability in outcomes like recovery times often highlights inconsistencies in care delivery, resource availability, or protocol adherence across units. [learn more](GNS217_U4_T5#GNS217_U4_T5_h5)"
+  },
+  {
+    "question_id": "GNS217_U4_T5_h5_q2",
+    "heading_id": "GNS217_U4_T5_h5",
+    "article_id": "GNS217_U4_T5",
+    "topic_id": "GNS217_U4_T5",
+    "question": "Why must professional nurses understand the difference between normal physiological variability and pathological instability?",
+    "options": {
+      "A": "To ensure accurate calculation of variance in published research papers",
+      "B": "To recognize true clinical deterioration versus normal fluctuations in patient parameters",
+      "C": "To eliminate all forms of variation in hospital vital sign charting",
+      "D": "To replace the need for regular nursing assessments and physical examinations"
+    },
+    "answer": "B",
+    "explanation": "Understanding normal physiological fluctuation versus pathology allows nurses to identify genuine clinical instability and respond appropriately with patient care. [learn more](GNS217_U4_T5#GNS217_U4_T5_h5)"
+  }
+]

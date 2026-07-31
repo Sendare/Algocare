@@ -1,0 +1,49 @@
+{
+  "article_id": "GNS217_U4_T4",
+  "topic_id": "GNS217_U4_T4",
+  "title": "Measures of Central Tendency",
+  "path": [
+    "Research & Statistics I",
+    "Introduction to Measurement and Statistics",
+    "Descriptive Statistics",
+    "Measures of Central Tendency"
+  ],
+  "headings": [
+    {
+      "heading_id": "GNS217_U4_T4_h1",
+      "order": 1,
+      "title": "Introduction to Descriptive Statistics and Central Tendency",
+      "content": "Descriptive statistics form the foundational language of quantitative research in nursing, allowing healthcare professionals to summarize and make sense of large volumes of clinical data. When conducting or reading nursing research, raw data such as patient blood pressure readings, length of hospital stays, or scores on pain scales can be overwhelming. Descriptive statistics organize these numbers into manageable summaries. At the core of descriptive statistics are measures of central tendency, which provide a single, representative value that pinpoints the center or typical score of a dataset. Understanding these measures is crucial for nursing students, as they appear frequently in evidence-based practice guidelines, public health reports, and hospital quality improvement projects. By knowing where the center of a data distribution lies, nurses can better evaluate baseline patient characteristics, compare treatment outcomes between different cohorts, and interpret clinical research findings accurately. Measures of central tendency simplify complex information, making it accessible for clinical decision-making. However, relying on a single central value without considering how spread out the data is can sometimes be misleading. Therefore, mastering these metrics is the first step toward developing critical appraisal skills necessary for modern, evidence-based nursing practice in Nigeria and beyond."
+    },
+    {
+      "heading_id": "GNS217_U4_T4_h2",
+      "order": 2,
+      "title": "The Mean: Calculation, Uses, and Limitations in Nursing Research",
+      "content": "The arithmetic mean, commonly referred to as simply the mean or the average, is the most frequently used measure of central tendency in quantitative nursing research. To calculate the mean, a researcher sums all the individual values in a dataset and then divides that total by the number of observations. In clinical settings, the mean is exceptionally useful for analyzing interval and ratio data, such as patient age, body mass index, laboratory values, or postoperative recovery times. Because the calculation incorporates every single data point, the mean provides a very precise mathematical reflection of the dataset. Despite its widespread utility, the mean has a major limitation in nursing research: it is highly sensitive to outliers. Extreme values, such as an exceptionally long hospital stay for a single complicated patient or unusually high laboratory readings, can severely distort the mean, pulling it in the direction of the skew and making it an unrepresentative measure of a typical patient. For instance, if four patients stay in the ward for 3 days and one patient stays for 33 days due to complications, the mean stay jumps significantly, masking the fact that most patients went home much earlier. Therefore, while the mean is powerful, nursing researchers must always check for skewed distributions and extreme values before deciding to use it as their primary summary statistic."
+    },
+    {
+      "heading_id": "GNS217_U4_T4_h3",
+      "order": 3,
+      "title": "The Median: Identifying the Middle Value in Skewed Data",
+      "content": "When clinical datasets contain extreme outliers or skewed distributions, the mean often fails to provide a true picture of the typical patient or observation. In these situations, the median serves as a superior measure of central tendency. The median is the exact middle value in a dataset that has been ordered numerically from lowest to highest. If there is an odd number of observations, the median is the single middle number. If there is an even number of observations, the median is calculated by taking the average of the two middle numbers. In nursing and healthcare research, the median is frequently used to report skewed variables, such as household income, length of hospital stay, or waiting times in emergency departments. Because emergency wait times often include a few patients who wait for many hours due to critical triage priorities, the mean wait time can be artificially inflated. The median, however, remains unaffected by these extreme upper values because it only cares about the positional middle of the ranked data. This makes the median robust and reliable when dealing with skewed clinical data, giving nurses a realistic benchmark of what an average patient actually experiences during their care journey."
+    },
+    {
+      "heading_id": "GNS217_U4_T4_h4",
+      "order": 4,
+      "title": "The Mode: Determining Most Frequent Clinical Observations",
+      "content": "The mode is the third major measure of central tendency and represents the value that occurs most frequently in a given dataset. Unlike the mean and median, which rely on numerical magnitude and ordering, the mode is all about frequency and popularity. A dataset can have a single mode (unimodal), two modes (bimodal), or multiple modes (multimodal) if several categories or numbers share the highest occurrence count. In nursing practice and research, the mode is exceptionally valuable for categorical, nominal, and ordinal data where mathematical averages cannot be computed. For example, nurses frequently use the mode when analyzing patient blood types (A, B, AB, O), primary medical diagnoses, preferred patient education formats, or reported levels of satisfaction on a Likert scale (e.g., finding that 'Satisfied' is the most common response). If a hospital records the most common type of nosocomial infection over a quarter, the mode instantly highlights the primary clinical target for infection control interventions. While the mode does not provide information about the entire spread or mathematical center of continuous numerical data, it is indispensable for understanding categorical trends and identifying the most common clinical observations in patient populations."
+    },
+    {
+      "heading_id": "GNS217_U4_T4_h5",
+      "order": 5,
+      "title": "Comparing Mean, Median, and Mode Across Different Data Distributions",
+      "content": "The relationship between the mean, median, and mode changes dramatically depending on the shape of the data distribution. In a perfectly symmetrical, bell-shaped normal distribution, the mean, median, and mode all fall at the exact same central point. This symmetry indicates that the data is balanced evenly on both sides of the center. However, clinical data in healthcare is frequently skewed. In a positively skewed distribution (right-skewed), such as hospital charges or length of stay where most patients have short stays but a few have extremely long stays, the tail extends to the right. In this scenario, the extreme high values pull the mean upward, making it the highest of the three metrics. The median sits to the left of the mean, and the mode remains at the highest peak (the lowest value of the three). Conversely, in a negatively skewed distribution (left-skewed), such as age at retirement or scores on an easy nursing exam where most people score very high, the tail extends to the left. Here, the low outliers pull the mean downward, making the mean the lowest value, while the median is higher than the mean, and the mode is at the highest peak on the right. Recognizing these relationships allows nursing researchers to quickly infer data skewness simply by looking at the values of the mean and median."
+    },
+    {
+      "heading_id": "GNS217_U4_T4_h6",
+      "order": 6,
+      "title": "Selecting the Appropriate Measure of Central Tendency Based on Scale of Measurement",
+      "content": "Choosing the correct measure of central tendency depends fundamentally on the scale of measurement (level of measurement) of the data being analyzed. Data can be categorized into four scales: nominal, ordinal, interval, and ratio. For nominal data, which consist of unordered categories like gender, ward unit, or blood group, neither the mean nor the median can be calculated because the categories have no mathematical value. Therefore, the mode is the only appropriate measure of central tendency for nominal data. For ordinal data, where categories have a logical rank or order (such as patient satisfaction ratings: poor, fair, good, excellent, or pain scales with verbal descriptors), data can be ordered, allowing for the determination of the median and the mode. However, because the distance between ordinal categories is not necessarily equal, calculating an arithmetic mean is mathematically invalid. For interval and ratio data, which possess equal, measurable intervals and a true zero in the case of ratio data (such as temperature in Celsius, blood pressure, weight, or age), all three measures—mean, median, and mode—can be calculated. Nevertheless, nursing researchers must still inspect the distribution shape for skewness to decide whether the mean or the median provides the most accurate representation of the data. Matching the statistical measure to the correct scale of measurement ensures valid, reliable, and scientifically sound nursing research conclusions."
+    }
+  ]
+}
