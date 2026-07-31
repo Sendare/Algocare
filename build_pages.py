@@ -7,7 +7,7 @@ from utils.course_branch_map import COURSE_BRANCH_MAP, get_course_id_from_topic_
 
 CURRICULUM_PATH = "curriculum.json"
 ARTICLES_DIR = Path("data/articles")
-PUBLISHED_DIR = Path("published")
+PUBLISHED_DIR = Path("docs")
 STATE_PATH = Path("state/build_state.json")
 
 MAX_RUNTIME_SECONDS = 270  # 4.5 min hard stop - same tier-limit reasoning as the fetch scripts
