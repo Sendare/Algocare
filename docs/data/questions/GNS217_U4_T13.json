@@ -1,0 +1,212 @@
+[
+  {
+    "question_id": "GNS217_U4_T13_h1_q1",
+    "heading_id": "GNS217_U4_T13_h1",
+    "article_id": "GNS217_U4_T13",
+    "topic_id": "GNS217_U4_T13",
+    "question": "What type of data is primarily analyzed using the Chi-Square test?",
+    "options": {
+      "A": "Continuous data",
+      "B": "Categorical data",
+      "C": "Normally distributed ratios",
+      "D": "Interval data"
+    },
+    "answer": "B",
+    "explanation": "The Chi-Square test is a non-parametric method specifically designed to analyze categorical data, frequencies, and counts. [learn more](GNS217_U4_T13#GNS217_U4_T13_h1)"
+  },
+  {
+    "question_id": "GNS217_U4_T13_h1_q2",
+    "heading_id": "GNS217_U4_T13_h1",
+    "article_id": "GNS217_U4_T13",
+    "topic_id": "GNS217_U4_T13",
+    "question": "Which of the following scenarios is most appropriate for a Chi-Square test in nursing research?",
+    "options": {
+      "A": "Comparing mean blood pressure levels across four age groups",
+      "B": "Measuring the exact weight loss in kilograms of postpartum mothers",
+      "C": "Investigating the association between smoking status and the incidence of lung cancer",
+      "D": "Calculating the precise correlation coefficient of temperature and heart rate"
+    },
+    "answer": "C",
+    "explanation": "Investigating the association between categorical variables like smoking status and disease incidence is a classic application of the Chi-Square test. [learn more](GNS217_U4_T13#GNS217_U4_T13_h1)"
+  },
+  {
+    "question_id": "GNS217_U4_T13_h2_q1",
+    "heading_id": "GNS217_U4_T13_h2",
+    "article_id": "GNS217_U4_T13",
+    "topic_id": "GNS217_U4_T13",
+    "question": "What is a major sample size requirement for cells in a Chi-Square contingency table?",
+    "options": {
+      "A": "Every cell must have an expected frequency of exactly zero.",
+      "B": "At least 80% of cells must have an expected frequency of 5 or greater.",
+      "C": "All cells must have an expected frequency of at least 50.",
+      "D": "There are no restrictions on cell frequencies."
+    },
+    "answer": "B",
+    "explanation": "Standard statistical rules require that at least 80% of the contingency table cells have an expected frequency of 5 or greater for the test to be valid. [learn more](GNS217_U4_T13#GNS217_U4_T13_h2)"
+  },
+  {
+    "question_id": "GNS217_U4_T13_h2_q2",
+    "heading_id": "GNS217_U4_T13_h2",
+    "article_id": "GNS217_U4_T13",
+    "topic_id": "GNS217_U4_T13",
+    "question": "What does the assumption of observation independence mean in a Chi-Square test?",
+    "options": {
+      "A": "Each participant can only contribute data to one single cell.",
+      "B": "Patients must be separated by age groups.",
+      "C": "Researchers must work independently without peer review.",
+      "D": "The sample size must exceed 1000 participants."
+    },
+    "answer": "A",
+    "explanation": "Independence means that each subject is unique to the study dataset and can only be counted in one cell of the contingency table. [learn more](GNS217_U4_T13#GNS217_U4_T13_h2)"
+  },
+  {
+    "question_id": "GNS217_U4_T13_h3_q1",
+    "heading_id": "GNS217_U4_T13_h3",
+    "article_id": "GNS217_U4_T13",
+    "topic_id": "GNS217_U4_T13",
+    "question": "Which Chi-Square test is used to evaluate whether a single categorical variable matches a known theoretical distribution?",
+    "options": {
+      "A": "Test of Independence",
+      "B": "Goodness-of-Fit Test",
+      "C": "Independent samples t-test",
+      "D": "Mann-Whitney U test"
+    },
+    "answer": "B",
+    "explanation": "The Chi-Square Goodness-of-Fit test examines whether a single categorical sample fits an expected theoretical population distribution. [learn more](GNS217_U4_T13#GNS217_U4_T13_h3)"
+  },
+  {
+    "question_id": "GNS217_U4_T13_h3_q2",
+    "heading_id": "GNS217_U4_T13_h3",
+    "article_id": "GNS217_U4_T13",
+    "topic_id": "GNS217_U4_T13",
+    "question": "What is the primary function of the Chi-Square Test of Independence?",
+    "options": {
+      "A": "To compare two continuous means",
+      "B": "To determine if two categorical variables are associated with each other",
+      "C": "To measure the exact variance of a single normal distribution",
+      "D": "To predict future patient mortality rates using linear regression"
+    },
+    "answer": "B",
+    "explanation": "The Test of Independence determines if an association exists between two different categorical variables using a contingency table. [learn more](GNS217_U4_T13#GNS217_U4_T13_h3)"
+  },
+  {
+    "question_id": "GNS217_U4_T13_h4_q1",
+    "heading_id": "GNS217_U4_T13_h4",
+    "article_id": "GNS217_U4_T13",
+    "topic_id": "GNS217_U4_T13",
+    "question": "What does the null hypothesis (H₀) typically state in a Chi-Square Test of Independence?",
+    "options": {
+      "A": "There is a strong causal relationship between the variables.",
+      "B": "There is no association or relationship between the variables.",
+      "C": "The sample size is too small to calculate frequencies.",
+      "D": "The observed frequencies equal zero."
+    },
+    "answer": "B",
+    "explanation": "The null hypothesis in a Chi-Square test of independence states that the variables are independent, meaning there is no association between them. [learn more](GNS217_U4_T13#GNS217_U4_T13_h4)"
+  },
+  {
+    "question_id": "GNS217_U4_T13_h4_q2",
+    "heading_id": "GNS217_U4_T13_h4",
+    "article_id": "GNS217_U4_T13",
+    "topic_id": "GNS217_U4_T13",
+    "question": "What is the primary purpose of setting hypotheses before running a Chi-Square analysis?",
+    "options": {
+      "A": "To ensure statistical software runs faster",
+      "B": "To prevent confirmation bias and guide the evaluation of the p-value",
+      "C": "To automatically increase the sample size",
+      "D": "To eliminate the need for contingency tables"
+    },
+    "answer": "B",
+    "explanation": "Formulating hypotheses prior to analysis prevents bias and provides a clear benchmark for testing against the significance level. [learn more](GNS217_U4_T13#GNS217_U4_T13_h4)"
+  },
+  {
+    "question_id": "GNS217_U4_T13_h5_q1",
+    "heading_id": "GNS217_U4_T13_h5",
+    "article_id": "GNS217_U4_T13",
+    "topic_id": "GNS217_U4_T13",
+    "question": "How is the expected frequency (E) for a specific cell calculated in a contingency table?",
+    "options": {
+      "A": "Row Total multiplied by Column Total, divided by Grand Total",
+      "B": "Observed frequency minus the mean of the sample",
+      "C": "Grand Total divided by the number of categories",
+      "D": "Observed frequency squared divided by two"
+    },
+    "answer": "A",
+    "explanation": "The expected frequency for any cell is found by multiplying its row total by its column total and dividing by the grand total. [learn more](GNS217_U4_T13#GNS217_U4_T13_h5)"
+  },
+  {
+    "question_id": "GNS217_U4_T13_h5_q2",
+    "heading_id": "GNS217_U4_T13_h5",
+    "article_id": "GNS217_U4_T13",
+    "topic_id": "GNS217_U4_T13",
+    "question": "What does a large calculated Chi-Square (χ²) statistic generally indicate?",
+    "options": {
+      "A": "A strong alignment with the null hypothesis",
+      "B": "A large discrepancy between observed and expected frequencies",
+      "C": "An error in the sample collection process",
+      "D": "That the variables are identical"
+    },
+    "answer": "B",
+    "explanation": "A large Chi-Square statistic means there is a substantial difference between the observed data counts and the expected frequencies under the null hypothesis. [learn more](GNS217_U4_T13#GNS217_U4_T13_h5)"
+  },
+  {
+    "question_id": "GNS217_U4_T13_h6_q1",
+    "heading_id": "GNS217_U4_T13_h6",
+    "article_id": "GNS217_U4_T13",
+    "topic_id": "GNS217_U4_T13",
+    "question": "How are the degrees of freedom (df) calculated for a Chi-Square test of independence with 'r' rows and 'c' columns?",
+    "options": {
+      "A": "(r + 1) × (c + 1)",
+      "B": "(r - 1) × (c - 1)",
+      "C": "r × c",
+      "D": "Grand Total minus (r + c)"
+    },
+    "answer": "B",
+    "explanation": "The degrees of freedom for a contingency table are calculated by multiplying the number of rows minus one by the number of columns minus one: (r - 1) × (c - 1). [learn more](GNS217_U4_T13#GNS217_U4_T13_h6)"
+  },
+  {
+    "question_id": "GNS217_U4_T13_h6_q2",
+    "heading_id": "GNS217_U4_T13_h6",
+    "article_id": "GNS217_U4_T13",
+    "topic_id": "GNS217_U4_T13",
+    "question": "What conclusion should a nurse researcher make if the calculated p-value is 0.03, using an alpha level of 0.05?",
+    "options": {
+      "A": "Fail to reject the null hypothesis because the variables are independent.",
+      "B": "Reject the null hypothesis and conclude there is a statistically significant association.",
+      "C": "Accept the null hypothesis because the sample size was too small.",
+      "D": "Redo the study because p-values must be zero."
+    },
+    "answer": "B",
+    "explanation": "Since the p-value (0.03) is less than the standard significance level (0.05), the researcher rejects the null hypothesis and accepts that a significant association exists. [learn more](GNS217_U4_T13#GNS217_U4_T13_h6)"
+  },
+  {
+    "question_id": "GNS217_U4_T13_h7_q1",
+    "heading_id": "GNS217_U4_T13_h7",
+    "article_id": "GNS217_U4_T13",
+    "topic_id": "GNS217_U4_T13",
+    "question": "Which elements are essential when reporting Chi-Square results in APA format for a nursing research paper?",
+    "options": {
+      "A": "Degrees of freedom, total sample size, test statistic value, and p-value",
+      "B": "Mean, median, standard deviation, and variance",
+      "C": "Patient names, hospital ward numbers, and room temperatures",
+      "D": "Confidence intervals for continuous means"
+    },
+    "answer": "A",
+    "explanation": "Standard APA reporting for Chi-Square requires the degrees of freedom, sample size (N), calculated test statistic, and the p-value. [learn more](GNS217_U4_T13#GNS217_U4_T13_h7)"
+  },
+  {
+    "question_id": "GNS217_U4_T13_h7_q2",
+    "heading_id": "GNS217_U4_T13_h7",
+    "article_id": "GNS217_U4_T13",
+    "topic_id": "GNS217_U4_T13",
+    "question": "What is a vital responsibility of a nurse researcher when discussing statistically significant Chi-Square results in clinical practice?",
+    "options": {
+      "A": "Ignoring the clinical implications if the p-value is less than 0.05",
+      "B": "Contextualizing the findings by explaining their practical impact on patient care and interventions",
+      "C": "Converting all categorical data into continuous ratio scales",
+      "D": "Publishing the raw data without any accompanying summary tables"
+    },
+    "answer": "B",
+    "explanation": "Researchers must translate statistical findings into practical insights that improve nursing interventions and patient care outcomes. [learn more](GNS217_U4_T13#GNS217_U4_T13_h7)"
+  }
+]
