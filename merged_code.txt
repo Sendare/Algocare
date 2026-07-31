@@ -1,0 +1,7056 @@
+===== FILE: ./README.md =====
+hi
+
+
+===== FILE: ./assets/home_search.js =====
+let siteIndex = [];
+
+async function loadIndex() {
+  try {
+    const res = await fetch("site_index.json");
+    siteIndex = await res.json();
+  } catch (err) {
+    console.error("Could not load search index", err);
+  }
+}
+
+function renderSearchResults(query) {
+  const listEl = document.getElementById("courseList");
+  if (!query) {
+    listEl.style.display = "";
+    return;
+  }
+  listEl.style.display = "none";
+
+  let resultsEl = document.getElementById("searchResults");
+  if (!resultsEl) {
+    resultsEl = document.createElement("div");
+    resultsEl.id = "searchResults";
+    resultsEl.className = "branch-group";
+    listEl.after(resultsEl);
+  }
+
+  const q = query.toLowerCase();
+  const matches = siteIndex.filter(item =>
+    item.title.toLowerCase().includes(q) ||
+    item.course.toLowerCase().includes(q) ||
+    item.unit.toLowerCase().includes(q)
+  );
+
+  if (matches.length === 0) {
+    resultsEl.innerHTML = `<div class="empty-state">No topics match "${query}".</div>`;
+    return;
+  }
+
+  resultsEl.innerHTML = matches.map(item => `
+    <div class="topic-card">
+      <div>
+        <div class="topic-title">${item.title}</div>
+        <div class="topic-meta">${item.course} · ${item.unit}</div>
+      </div>
+      <div class="topic-actions"><a href="${item.url}">Read →</a></div>
+    </div>
+  `).join("");
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  loadIndex();
+  const input = document.getElementById("searchInput");
+  input.addEventListener("input", (e) => renderSearchResults(e.target.value.trim()));
+});
+
+
+===== FILE: ./assets/style.css =====
+/* ===== Algocare CBT — Design Tokens ===== */
+:root {
+  --paper: #F7F8F7;
+  --card: #FFFFFF;
+  --ink: #16232E;
+  --ink-soft: #46545F;
+  --grey: #8A9199;
+  --grey-line: #DDE2E1;
+  --scrub: #2F6F62;
+  --scrub-soft: #E4EEEC;
+  --brick: #B14A3A;
+  --brick-soft: #F7E9E6;
+  --amber: #C98A2E;
+  --amber-soft: #FBF0DE;
+
+  --display: 'Space Grotesk', sans-serif;
+  --body: 'IBM Plex Sans', sans-serif;
+  --mono: 'IBM Plex Mono', monospace;
+
+  --radius: 6px;
+  --shadow: 0 1px 2px rgba(22, 35, 46, 0.06), 0 4px 12px rgba(22, 35, 46, 0.05);
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--body);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+a { color: var(--scrub); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+h1, h2, h3 {
+  font-family: var(--display);
+  font-weight: 600;
+  margin: 0 0 0.5em 0;
+  letter-spacing: -0.01em;
+}
+
+button, input {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+:focus-visible {
+  outline: 2px solid var(--scrub);
+  outline-offset: 2px;
+}
+
+.container {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 24px 20px 64px;
+}
+
+/* ===== Top bar ===== */
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--grey-line);
+  background: var(--card);
+}
+
+.brand {
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 1.15rem;
+  color: var(--ink);
+}
+
+.brand .pulse-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--scrub);
+  margin-right: 8px;
+  animation: pulse-dot 1.6s ease-in-out infinite;
+}
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.4; transform: scale(0.8); }
+}
+
+/* ===== Search / browse (index.html) ===== */
+.search-box {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1px solid var(--grey-line);
+  border-radius: var(--radius);
+  background: var(--card);
+  margin-bottom: 24px;
+}
+
+.branch-group { margin-bottom: 28px; }
+
+.branch-label {
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--grey);
+  margin-bottom: 10px;
+}
+
+.topic-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 16px;
+  background: var(--card);
+  border: 1px solid var(--grey-line);
+  border-radius: var(--radius);
+  margin-bottom: 8px;
+  transition: border-color 0.15s ease;
+}
+
+.topic-card:hover {
+  border-color: var(--scrub);
+}
+
+.topic-title {
+  font-weight: 500;
+  color: var(--ink);
+}
+
+.topic-meta {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  color: var(--grey);
+}
+
+.topic-actions a {
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-left: 14px;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 48px 16px;
+  color: var(--grey);
+}
+
+/* ===== ECG pulse strip (signature element / timer) ===== */
+.pulse-strip {
+  position: relative;
+  height: 48px;
+  background: var(--ink);
+  overflow: hidden;
+}
+
+.pulse-strip svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 200%;
+  animation: pulse-scroll 3s linear infinite;
+}
+
+.pulse-strip.warning svg { stroke: var(--amber); }
+.pulse-strip.danger svg { stroke: var(--brick); }
+.pulse-strip svg { stroke: var(--scrub); }
+
+@keyframes pulse-scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+.timer-readout {
+  position: absolute;
+  top: 50%;
+  right: 16px;
+  transform: translateY(-50%);
+  font-family: var(--mono);
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #fff;
+  background: rgba(0,0,0,0.35);
+  padding: 4px 10px;
+  border-radius: var(--radius);
+}
+
+/* ===== Test layout ===== */
+.test-layout {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+.question-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.nav-tab {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--mono);
+  font-size: 0.85rem;
+  border: 1px solid var(--grey-line);
+  border-radius: var(--radius);
+  background: var(--card);
+  cursor: pointer;
+  color: var(--ink-soft);
+}
+
+.nav-tab.current { border-color: var(--ink); color: var(--ink); font-weight: 700; }
+.nav-tab.answered-correct { background: var(--scrub-soft); border-color: var(--scrub); color: var(--scrub); }
+.nav-tab.answered-incorrect { background: var(--brick-soft); border-color: var(--brick); color: var(--brick); }
+.nav-tab.answered { background: var(--ink); border-color: var(--ink); color: #fff; }
+
+.grid-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 20px;
+}
+
+.grid-nav .nav-tab {
+  width: 32px;
+  height: 32px;
+  font-size: 0.72rem;
+}
+
+.device-banner {
+  background: var(--amber-soft);
+  color: var(--ink);
+  padding: 10px 16px;
+  font-size: 0.85rem;
+  text-align: center;
+  border-bottom: 1px solid var(--amber);
+}
+
+.mode-card {
+  background: var(--card);
+  border: 1px solid var(--grey-line);
+  border-radius: var(--radius);
+  padding: 20px;
+  margin-bottom: 16px;
+}
+
+.mode-card h3 { margin-bottom: 6px; }
+.mode-card p { color: var(--ink-soft); font-size: 0.9rem; margin: 0 0 14px 0; }
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 14px;
+}
+
+.form-row label {
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--grey);
+}
+
+.form-row select, .form-row input[type="number"] {
+  padding: 10px 12px;
+  border: 1px solid var(--grey-line);
+  border-radius: var(--radius);
+  background: var(--card);
+}
+
+.score-summary {
+  text-align: center;
+  padding: 32px 16px;
+}
+
+.score-summary .big-score {
+  font-family: var(--mono);
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 12px 0;
+}
+
+.test-card {
+  flex: 1;
+  background: var(--card);
+  border: 1px solid var(--grey-line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 28px;
+  position: relative;
+}
+
+.folder-tab {
+  position: absolute;
+  top: -14px;
+  left: 20px;
+  background: var(--ink);
+  color: #fff;
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  padding: 4px 10px;
+  border-radius: 4px 4px 0 0;
+}
+
+.question-number {
+  font-family: var(--mono);
+  color: var(--grey);
+  font-size: 0.85rem;
+  margin-bottom: 8px;
+}
+
+.question-text {
+  font-size: 1.15rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.option {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 12px 16px;
+  margin-bottom: 8px;
+  border: 1px solid var(--grey-line);
+  border-radius: var(--radius);
+  background: var(--card);
+  cursor: pointer;
+}
+
+.option:hover { border-color: var(--ink-soft); }
+.option.selected { border-color: var(--ink); background: var(--paper); }
+.option.correct { border-color: var(--scrub); background: var(--scrub-soft); }
+.option.incorrect { border-color: var(--brick); background: var(--brick-soft); }
+
+.action-row {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 10px 18px;
+  border-radius: var(--radius);
+  border: 1px solid var(--ink);
+  background: var(--ink);
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn.secondary {
+  background: var(--card);
+  color: var(--ink);
+}
+
+.btn:disabled { opacity: 0.4; cursor: not-allowed; }
+
+.explanation-box {
+  margin-top: 18px;
+  padding: 16px;
+  background: var(--paper);
+  border-left: 3px solid var(--scrub);
+  border-radius: var(--radius);
+  font-size: 0.95rem;
+  color: var(--ink-soft);
+}
+
+.explanation-box a { font-weight: 600; }
+
+/* ===== Article layout ===== */
+.breadcrumb {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  color: var(--grey);
+  margin-bottom: 16px;
+}
+
+.article-heading {
+  scroll-margin-top: 24px;
+  padding: 20px 0;
+  border-bottom: 1px solid var(--grey-line);
+}
+
+.article-heading h2 {
+  font-size: 1.15rem;
+}
+
+.article-heading:target {
+  background: var(--amber-soft);
+  margin: 0 -20px;
+  padding: 20px;
+}
+
+.test-yourself-link {
+  display: inline-block;
+  margin-top: 24px;
+  padding: 10px 18px;
+  background: var(--scrub);
+  color: #fff;
+  border-radius: var(--radius);
+  font-weight: 600;
+}
+
+.test-yourself-link:hover { text-decoration: none; opacity: 0.9; }
+
+/* ===== Responsive ===== */
+@media (max-width: 640px) {
+  .test-layout { flex-direction: column; }
+  .question-nav { flex-direction: row; flex-wrap: wrap; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pulse-strip svg { animation: none; }
+  .brand .pulse-dot { animation: none; }
+}
+
+
+===== FILE: ./build_pages.py =====
+import json
+import re
+import shutil
+import time
+from pathlib import Path
+
+from utils.course_branch_map import COURSE_BRANCH_MAP, get_course_id_from_topic_id
+from utils.weighted_sampling import build_weighted_pool, sample_without_replacement
+
+CURRICULUM_PATH = "curriculum.json"
+ARTICLES_DIR = Path("data/articles")
+QUESTIONS_DIR = Path("data/questions")
+CBT_APP_SRC = Path("cbt-app")
+PUBLISHED_DIR = Path("docs")
+STATE_PATH = Path("state/build_state.json")
+REAL_FEEL_STATE_PATH = Path("state/real_feel_state.json")
+REAL_FEEL_CONFIG_PATH = Path("config/real_feel_config.json")
+WEIGHTS_CONFIG_PATH = Path("config/weights.json")
+
+MAX_RUNTIME_SECONDS = 270  # 4.5 min hard stop - same tier-limit reasoning as the fetch scripts
+
+# ---------- helpers ----------
+
+def slugify(text):
+    text = text.lower().strip()
+    text = re.sub(r"[^a-z0-9]+", "-", text)
+    return text.strip("-")
+
+
+def load_json(path, default):
+    p = Path(path)
+    if not p.exists():
+        return default
+    with open(p, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def save_json(path, data):
+    Path(path).parent.mkdir(parents=True, exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+
+
+def write_html(path, html):
+    Path(path).parent.mkdir(parents=True, exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(html)
+
+
+def build_context_lookup(curriculum):
+    """topic_id -> {title, order, course_name, course_slug, unit_name, unit_slug}"""
+    lookup = {}
+    for c in curriculum.get("curriculum", []):
+        course_id = c.get("course_id")
+        course_name = COURSE_BRANCH_MAP.get(course_id, c.get("course_name"))
+        course_slug = slugify(course_name)
+        for u in c.get("units", []):
+            unit_name = u.get("unit_name")
+            unit_slug = slugify(unit_name)
+            for t in u.get("topics", []):
+                lookup[t["topic_id"]] = {
+                    "title": t.get("title"),
+                    "order": t.get("order", 0),
+                    "course_name": course_name,
+                    "course_slug": course_slug,
+                    "unit_name": unit_name,
+                    "unit_slug": unit_slug,
+                }
+    return lookup
+
+
+# ---------- page shell ----------
+
+PAGE_HEAD = """<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{title} — Algocare</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{rel}assets/style.css">
+</head>
+<body>
+<div class="topbar">
+  <div class="brand"><span class="pulse-dot"></span>Algocare</div>
+  <div>
+    <a href="{rel}cbt/index.html" style="font-size: 0.85rem; color: var(--scrub); font-weight: 600; margin-right: 16px;">Practice tests</a>
+    <a href="{rel}index.html" style="font-size: 0.85rem; color: var(--ink-soft);">Home</a>
+  </div>
+</div>
+<div class="container">
+{breadcrumb}
+{body}
+</div>
+</body>
+</html>
+"""
+
+
+def render_page(title, rel, breadcrumb_html, body_html):
+    return PAGE_HEAD.format(title=title, rel=rel, breadcrumb=breadcrumb_html, body=body_html)
+
+
+def breadcrumb(rel, crumbs):
+    """crumbs = list of (label, href|None) - last one has no href"""
+    parts = []
+    for label, href in crumbs:
+        if href:
+            parts.append(f'<a href="{rel}{href}">{label}</a>')
+        else:
+            parts.append(label)
+    return f'<div class="breadcrumb">{" &gt; ".join(parts)}</div>'
+
+
+# ---------- article page ----------
+
+def render_article_page(article, ctx):
+    headings_html = "".join(
+        f'<div class="article-heading" id="{h["heading_id"]}"><h2>{h["title"]}</h2><p>{h["content"]}</p></div>'
+        for h in sorted(article["headings"], key=lambda x: x["order"])
+    )
+    crumbs = breadcrumb("../../", [
+        ("Home", "index.html"),
+        (ctx["course_name"], f'{ctx["course_slug"]}/index.html'),
+        (ctx["unit_name"], f'{ctx["course_slug"]}/{ctx["unit_slug"]}/index.html'),
+        (article["title"], None),
+    ])
+    body = (
+        f'<h1>{article["title"]}</h1>{headings_html}'
+        f'<a class="test-yourself-link" href="../../cbt/index.html?topic={article["topic_id"]}">Test yourself on this topic →</a>'
+    )
+    return render_page(article["title"], "../../", crumbs, body)
+
+
+# ---------- unit / course / home pages ----------
+
+def render_unit_page(course_name, course_slug, unit_name, unit_slug, topics):
+    topics_sorted = sorted(topics, key=lambda t: t["order"])
+    rows = "".join(
+        f'<div class="topic-card"><div class="topic-title">{t["title"]}</div>'
+        f'<div class="topic-actions"><a href="{t["topic_id"]}.html">Read →</a></div></div>'
+        for t in topics_sorted
+    )
+    crumbs = breadcrumb("../../", [
+        ("Home", "index.html"),
+        (course_name, f"{course_slug}/index.html"),
+        (unit_name, None),
+    ])
+    body = f'<h1>{unit_name}</h1><div class="branch-group">{rows}</div>'
+    return render_page(unit_name, "../../", crumbs, body)
+
+
+def render_course_page(course_name, course_slug, units):
+    """units = {unit_slug: {unit_name, topic_count}}"""
+    rows = "".join(
+        f'<div class="topic-card"><div><div class="topic-title">{u["unit_name"]}</div>'
+        f'<div class="topic-meta">{u["topic_count"]} topics</div></div>'
+        f'<div class="topic-actions"><a href="{unit_slug}/index.html">Open →</a></div></div>'
+        for unit_slug, u in sorted(units.items(), key=lambda kv: kv[1]["unit_name"])
+    )
+    crumbs = breadcrumb("../", [("Home", "index.html"), (course_name, None)])
+    body = f'<h1>{course_name}</h1><div class="branch-group">{rows}</div>'
+    return render_page(course_name, "../", crumbs, body)
+
+
+def render_home_page(courses):
+    """courses = {course_slug: {course_name, unit_count, topic_count}}"""
+    rows = "".join(
+        f'<div class="topic-card"><div><div class="topic-title">{c["course_name"]}</div>'
+        f'<div class="topic-meta">{c["unit_count"]} units · {c["topic_count"]} topics</div></div>'
+        f'<div class="topic-actions"><a href="{course_slug}/index.html">Open →</a></div></div>'
+        for course_slug, c in sorted(courses.items(), key=lambda kv: kv[1]["course_name"])
+    )
+    body = (
+        '<h1>Study articles</h1>'
+        '<p style="color: var(--ink-soft); margin-top: -8px;">Browse by course, or search below.</p>'
+        '<input type="text" id="searchInput" class="search-box" placeholder="Search courses, units, or topics...">'
+        f'<div class="branch-group" id="courseList">{rows}</div>'
+        '<script src="assets/home_search.js"></script>'
+    )
+    return render_page("Algocare", "", "", body)
+
+
+# ---------- CBT: course pools + real-feel exams ----------
+
+def build_course_pools(courses, questions_dir):
+    """
+    courses: the same {course_slug: {course_name, units: {unit_slug: {..., topics:[...]}}}}
+    structure already built for nav. Returns {course_slug: {unit_slug: [question, ...]}}
+    by loading each published topic's question file.
+    """
+    pools = {}
+    for c_slug, c_data in courses.items():
+        pools[c_slug] = {}
+        for u_slug, u_data in c_data["units"].items():
+            questions = []
+            for t in u_data["topics"]:
+                q_path = questions_dir / f"{t['topic_id']}.json"
+                q_list = load_json(q_path, [])
+                questions.extend(q_list)
+            pools[c_slug][u_slug] = questions
+    return pools
+
+
+def build_real_feel_tests(course_pools):
+    """
+    Draws fixed-size, weighted, non-overlapping question sets from everything
+    published so far. Never rewrites an already-built test - only adds a new
+    one when enough unused questions exist. Cheap (no AI calls), safe to run
+    every hour alongside the rest of the build.
+    """
+    config = load_json(REAL_FEEL_CONFIG_PATH, {
+        "question_count": 250, "seconds_per_question": 30, "min_answered_to_submit": 125
+    })
+    weights_config = load_json(WEIGHTS_CONFIG_PATH, {"courses": {}, "units": {}})
+
+    rf_state = load_json(REAL_FEEL_STATE_PATH, {"used_question_ids": [], "tests_built": 0})
+    used_ids = set(rf_state["used_question_ids"])
+
+    # Filter out already-used questions before building the weighted pool
+    unused_pools = {}
+    for c_slug, units in course_pools.items():
+        unused_pools[c_slug] = {}
+        for u_slug, questions in units.items():
+            unused_pools[c_slug][u_slug] = [q for q in questions if q["question_id"] not in used_ids]
+
+    pool = build_weighted_pool(unused_pools, weights_config)
+    question_count = config["question_count"]
+
+    tests_built_this_run = 0
+    available_ids_path = PUBLISHED_DIR / "data" / "real_feel_tests" / "index.json"
+    available = load_json(available_ids_path, {"tests": []})
+
+    while len(pool) >= question_count:
+        selected = sample_without_replacement(pool, question_count)
+        selected_ids = {q["question_id"] for q in selected}
+
+        rf_state["tests_built"] += 1
+        test_number = rf_state["tests_built"]
+        save_json(PUBLISHED_DIR / "data" / "real_feel_tests" / f"test_{test_number}.json", selected)
+
+        used_ids.update(selected_ids)
+        rf_state["used_question_ids"] = list(used_ids)
+        save_json(REAL_FEEL_STATE_PATH, rf_state)
+
+        available["tests"].append(test_number)
+        save_json(available_ids_path, available)
+
+        # remove selected from pool so the next loop iteration draws fresh
+        pool = [(q, w) for q, w in pool if q["question_id"] not in selected_ids]
+        tests_built_this_run += 1
+
+    return tests_built_this_run, rf_state["tests_built"]
+
+
+def run():
+    start_time = time.time()
+
+    # GitHub Pages only serves what's inside PUBLISHED_DIR - assets/ lives at
+    # repo root as a sibling, so it must be copied in on every run to be reachable.
+    assets_src = Path("assets")
+    if assets_src.exists():
+        shutil.copytree(assets_src, PUBLISHED_DIR / "assets", dirs_exist_ok=True)
+        print(f"📦 Copied {assets_src} -> {PUBLISHED_DIR / 'assets'}")
+    else:
+        print(f"⚠️  No {assets_src} folder found at repo root - CSS/JS will be missing.")
+
+    if CBT_APP_SRC.exists():
+        shutil.copytree(CBT_APP_SRC, PUBLISHED_DIR / "cbt", dirs_exist_ok=True)
+        print(f"📦 Copied {CBT_APP_SRC} -> {PUBLISHED_DIR / 'cbt'}")
+
+    if QUESTIONS_DIR.exists():
+        shutil.copytree(QUESTIONS_DIR, PUBLISHED_DIR / "data" / "questions", dirs_exist_ok=True)
+        print(f"📦 Copied {QUESTIONS_DIR} -> {PUBLISHED_DIR / 'data' / 'questions'}")
+
+    if REAL_FEEL_CONFIG_PATH.exists():
+        rf_config = load_json(REAL_FEEL_CONFIG_PATH, {})
+        save_json(PUBLISHED_DIR / "data" / "real_feel_config.json", rf_config)
+
+    curriculum = load_json(CURRICULUM_PATH, {})
+    ctx_lookup = build_context_lookup(curriculum)
+
+    state = load_json(STATE_PATH, {})
+    state.setdefault("published_done", [])
+    done_ids = set(state["published_done"])
+
+    available_ids = sorted(p.stem for p in ARTICLES_DIR.glob("*.json")) if ARTICLES_DIR.exists() else []
+    pending_ids = [tid for tid in available_ids if tid not in done_ids]
+
+    print(f"Articles available : {len(available_ids)}")
+    print(f"Already published  : {len(done_ids)}")
+    print(f"Pending this run   : {len(pending_ids)}")
+
+    processed_this_run = 0
+
+    for topic_id in pending_ids:
+        elapsed = time.time() - start_time
+        if elapsed > MAX_RUNTIME_SECONDS:
+            print(f"⏱️  Time limit reached ({elapsed:.0f}s). Stopping gracefully.")
+            break
+
+        ctx = ctx_lookup.get(topic_id)
+        if ctx is None:
+            print(f"⚠️  {topic_id} not found in curriculum.json. Skipping.")
+            continue
+
+        article = load_json(ARTICLES_DIR / f"{topic_id}.json", None)
+        if article is None:
+            print(f"⚠️  Could not read article file for {topic_id}. Skipping.")
+            continue
+
+        html = render_article_page(article, ctx)
+        out_path = PUBLISHED_DIR / ctx["course_slug"] / ctx["unit_slug"] / f"{topic_id}.html"
+        write_html(out_path, html)
+
+        state["published_done"].append(topic_id)
+        save_json(STATE_PATH, state)
+
+        processed_this_run += 1
+        print(f"✅ [{processed_this_run}] {topic_id} -> {out_path}")
+
+    # ---- rebuild navigation (home / course / unit pages) from everything published so far ----
+    published_ids = state["published_done"]
+
+    courses = {}   # course_slug -> {course_name, units: {unit_slug: {unit_name, topics: [...]}}}
+    for topic_id in published_ids:
+        ctx = ctx_lookup.get(topic_id)
+        if ctx is None:
+            continue
+        c_slug, u_slug = ctx["course_slug"], ctx["unit_slug"]
+        courses.setdefault(c_slug, {"course_name": ctx["course_name"], "units": {}})
+        courses[c_slug]["units"].setdefault(u_slug, {"unit_name": ctx["unit_name"], "topics": []})
+        courses[c_slug]["units"][u_slug]["topics"].append({
+            "topic_id": topic_id, "title": ctx["title"], "order": ctx["order"]
+        })
+
+    # unit pages
+    for c_slug, c_data in courses.items():
+        for u_slug, u_data in c_data["units"].items():
+            html = render_unit_page(c_data["course_name"], c_slug, u_data["unit_name"], u_slug, u_data["topics"])
+            write_html(PUBLISHED_DIR / c_slug / u_slug / "index.html", html)
+
+    # course pages
+    for c_slug, c_data in courses.items():
+        units_summary = {
+            u_slug: {"unit_name": u_data["unit_name"], "topic_count": len(u_data["topics"])}
+            for u_slug, u_data in c_data["units"].items()
+        }
+        html = render_course_page(c_data["course_name"], c_slug, units_summary)
+        write_html(PUBLISHED_DIR / c_slug / "index.html", html)
+
+    # home page
+    courses_summary = {
+        c_slug: {
+            "course_name": c_data["course_name"],
+            "unit_count": len(c_data["units"]),
+            "topic_count": sum(len(u["topics"]) for u in c_data["units"].values()),
+        }
+        for c_slug, c_data in courses.items()
+    }
+    write_html(PUBLISHED_DIR / "index.html", render_home_page(courses_summary))
+
+    # site-wide search index for the homepage's client-side search
+    site_index = []
+    for c_slug, c_data in courses.items():
+        for u_slug, u_data in c_data["units"].items():
+            for t in u_data["topics"]:
+                site_index.append({
+                    "topic_id": t["topic_id"],
+                    "title": t["title"],
+                    "course": c_data["course_name"],
+                    "course_slug": c_slug,
+                    "unit": u_data["unit_name"],
+                    "url": f"{c_slug}/{u_slug}/{t['topic_id']}.html",
+                })
+    save_json(PUBLISHED_DIR / "site_index.json", site_index)
+
+    # ---- CBT: course pools + real-feel exams ----
+    course_pools = build_course_pools(courses, QUESTIONS_DIR)
+
+    for c_slug, units in course_pools.items():
+        flat_questions = [q for qs in units.values() for q in qs]
+        save_json(PUBLISHED_DIR / "data" / "course_pools" / f"{c_slug}.json", flat_questions)
+
+    tests_built_this_run, total_tests = build_real_feel_tests(course_pools)
+
+    print(f"\n🏁 Run complete. Built {processed_this_run} new article page(s) this run.")
+    print(f"   Total published: {len(published_ids)}/{len(available_ids)}")
+    print(f"   Navigation rebuilt for {len(courses)} course(s).")
+    print(f"   Real-feel exams: {tests_built_this_run} new this run, {total_tests} total available.")
+
+
+if __name__ == "__main__":
+    run()
+		
+
+
+===== FILE: ./cbt-app/index.html =====
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Algocare — Practice Tests</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+
+<div id="deviceBanner"></div>
+
+<div class="topbar">
+  <div class="brand"><span class="pulse-dot"></span>Algocare</div>
+  <a href="../index.html" style="font-size: 0.85rem; color: var(--ink-soft);">← Study articles</a>
+</div>
+
+<div class="container" id="root">
+  <div class="empty-state">Loading...</div>
+</div>
+
+<script src="js/index.js"></script>
+</body>
+</html>
+
+
+===== FILE: ./cbt-app/js/index.js =====
+const params = new URLSearchParams(window.location.search);
+const quickTopic = params.get("topic");
+
+function showDeviceBanner() {
+  if (window.innerWidth < 768) {
+    document.getElementById("deviceBanner").innerHTML =
+      `<div class="device-banner">Desktop mode is recommended for the best experience if you're on a mobile device.</div>`;
+  }
+}
+
+async function init() {
+  showDeviceBanner();
+
+  // Coming from an article's "Test yourself" link - skip the picker entirely
+  // and jump straight into a quick single-topic practice session.
+  if (quickTopic) {
+    window.location.href = `practice.html?topic=${quickTopic}`;
+    return;
+  }
+
+  const root = document.getElementById("root");
+  root.innerHTML = `<div class="empty-state">Loading...</div>`;
+
+  let siteIndex = [];
+  let realFeelIndex = { tests: [] };
+
+  try {
+    const [siteRes, rfRes] = await Promise.all([
+      fetch("../site_index.json"),
+      fetch("../data/real_feel_tests/index.json").catch(() => null),
+    ]);
+    siteIndex = await siteRes.json();
+    if (rfRes && rfRes.ok) {
+      realFeelIndex = await rfRes.json();
+    }
+  } catch (err) {
+    root.innerHTML = `<div class="empty-state">Couldn't load test data. Try again shortly.</div>`;
+    console.error(err);
+    return;
+  }
+
+  // Unique courses for the practice-mode picker
+  const courseMap = {};
+  siteIndex.forEach(item => {
+    if (!courseMap[item.course_slug]) courseMap[item.course_slug] = item.course;
+  });
+  const courseOptions = Object.entries(courseMap)
+    .sort((a, b) => a[1].localeCompare(b[1]))
+    .map(([slug, name]) => `<option value="${slug}">${name}</option>`)
+    .join("");
+
+  const realFeelHtml = realFeelIndex.tests.length
+    ? realFeelIndex.tests.map(n => `
+        <div class="topic-card">
+          <div class="topic-title">Real-Feel Exam ${n}</div>
+          <div class="topic-actions"><a href="real_feel.html?test=${n}">Attempt →</a></div>
+        </div>
+      `).join("")
+    : `<div class="empty-state">No real-feel exams available yet — check back soon.</div>`;
+
+  root.innerHTML = `
+    <h1>Practice tests</h1>
+
+    <div class="mode-card">
+      <h3>Real-Feel Exam</h3>
+      <p>250 questions, timed, no explanations shown — mirrors the real CBT exam experience.</p>
+      ${realFeelHtml}
+    </div>
+
+    <div class="mode-card">
+      <h3>Practice Mode</h3>
+      <p>Choose a course, how many questions, and time per question. Explanations and "learn more" links available after each answer.</p>
+      <form id="practiceForm">
+        <div class="form-row">
+          <label>Course</label>
+          <select id="courseSelect" required>
+            <option value="" disabled selected>Select a course...</option>
+            ${courseOptions}
+          </select>
+        </div>
+        <div class="form-row">
+          <label>Number of questions</label>
+          <input type="number" id="questionCount" min="1" value="20" required>
+        </div>
+        <div class="form-row">
+          <label>Seconds per question</label>
+          <select id="secondsPerQuestion">
+            <option value="15">15 seconds</option>
+            <option value="30" selected>30 seconds</option>
+            <option value="45">45 seconds</option>
+            <option value="60">60 seconds</option>
+          </select>
+        </div>
+        <button type="submit" class="btn">Start practice test</button>
+      </form>
+    </div>
+  `;
+
+  document.getElementById("practiceForm").addEventListener("submit", (e) => {
+    e.preventDefault();
+    const course = document.getElementById("courseSelect").value;
+    const count = document.getElementById("questionCount").value;
+    const spq = document.getElementById("secondsPerQuestion").value;
+    window.location.href = `practice.html?course=${course}&count=${count}&spq=${spq}`;
+  });
+}
+
+init();
+
+
+===== FILE: ./cbt-app/js/practice.js =====
+const params = new URLSearchParams(window.location.search);
+const courseSlug = params.get("course");
+const topicId = params.get("topic");
+const requestedCount = parseInt(params.get("count"), 10) || null;
+const secondsPerQuestion = parseInt(params.get("spq"), 10) || 30;
+
+let questions = [];
+let siteIndex = [];
+let current = 0;
+let answers = []; // { selected, isCorrect, showExplanation }
+let timeRemaining = 0;
+let timerInterval = null;
+let timerPaused = false;
+
+function shuffle(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+async function init() {
+  try {
+    const siteRes = await fetch("../site_index.json");
+    siteIndex = await siteRes.json();
+
+    let pool = [];
+    if (topicId) {
+      const qRes = await fetch(`../data/questions/${topicId}.json`);
+      pool = await qRes.json();
+    } else if (courseSlug) {
+      const qRes = await fetch(`../data/course_pools/${courseSlug}.json`);
+      pool = await qRes.json();
+    } else {
+      document.getElementById("root").innerHTML =
+        `<div class="empty-state">No course or topic specified. <a href="index.html">Go back</a>.</div>`;
+      return;
+    }
+
+    const count = requestedCount ? Math.min(requestedCount, pool.length) : pool.length;
+    questions = shuffle(pool).slice(0, count);
+  } catch (err) {
+    document.getElementById("root").innerHTML =
+      `<div class="empty-state">Couldn't load this practice set. <a href="index.html">Go back</a>.</div>`;
+    console.error(err);
+    return;
+  }
+
+  if (!questions.length) {
+    document.getElementById("root").innerHTML = `<div class="empty-state">No questions available.</div>`;
+    return;
+  }
+
+  answers = new Array(questions.length).fill(null);
+  timeRemaining = questions.length * secondsPerQuestion;
+  startTimer();
+  render();
+}
+
+function startTimer() {
+  updateTimerDisplay();
+  timerInterval = setInterval(() => {
+    if (timerPaused) return;
+    timeRemaining--;
+    updateTimerDisplay();
+    if (timeRemaining <= 0) {
+      clearInterval(timerInterval);
+      finishTest(true);
+    }
+  }, 1000);
+}
+
+function updateTimerDisplay() {
+  const m = Math.floor(timeRemaining / 60).toString().padStart(2, "0");
+  const s = (timeRemaining % 60).toString().padStart(2, "0");
+  document.getElementById("timerReadout").textContent = timerPaused ? "PAUSED" : `${m}:${s}`;
+
+  const strip = document.getElementById("pulseStrip");
+  strip.classList.remove("warning", "danger");
+  if (timeRemaining <= 60) strip.classList.add("danger");
+  else if (timeRemaining <= 180) strip.classList.add("warning");
+}
+
+function render() {
+  const q = questions[current];
+  const answer = answers[current];
+  const optionKeys = Object.keys(q.options);
+
+  // Timer pauses exactly while an explanation is open - covers both reading
+  // the explanation itself and following a learn-more link from inside it.
+  timerPaused = !!(answer && answer.showExplanation);
+  updateTimerDisplay();
+
+  const optionsHtml = optionKeys.map(key => {
+    let cls = "option";
+    if (answer) {
+      if (key === answer.selected) cls += " selected";
+      if (key === q.answer) cls += " correct";
+      if (key === answer.selected && key !== q.answer) cls += " incorrect";
+    }
+    return `<button class="${cls}" data-key="${key}" ${answer ? "disabled" : ""}>
+      <strong>${key}.</strong> ${q.options[key]}
+    </button>`;
+  }).join("");
+
+  const explanationHtml = answer ? `
+    ${answer.showExplanation ? `<div class="explanation-box">${parseExplanation(q.explanation, q.topic_id)}</div>` : ""}
+    <div class="action-row">
+      ${!answer.showExplanation ? `<button class="btn secondary" id="showExplanationBtn">Show explanation</button>` : ""}
+      <button class="btn" id="nextBtn">${current < questions.length - 1 ? "Next question" : "Finish"}</button>
+    </div>
+  ` : "";
+
+  document.getElementById("root").innerHTML = `
+    <div class="test-layout">
+      <div class="question-nav">${renderNavTabs()}</div>
+      <div class="test-card">
+        <div class="question-number">Question ${current + 1} of ${questions.length}</div>
+        <div class="question-text">${q.question}</div>
+        <div class="options-list">${optionsHtml}</div>
+        ${explanationHtml}
+      </div>
+    </div>
+  `;
+
+  attachHandlers();
+}
+
+function renderNavTabs() {
+  return questions.map((_, i) => {
+    let cls = "nav-tab";
+    if (i === current) cls += " current";
+    else if (answers[i]) cls += answers[i].isCorrect ? " answered-correct" : " answered-incorrect";
+    return `<div class="${cls}" data-index="${i}">${i + 1}</div>`;
+  }).join("");
+}
+
+function parseExplanation(text, ownTopicId) {
+  // Explanation strings contain [learn more](topic_id#heading_id). Resolve
+  // topic_id to the real published article URL via site_index.
+  return text.replace(/\[([^\]]+)\]\(([^)#]+)#([^)]+)\)/g, (match, label, tId, headingId) => {
+    const entry = siteIndex.find(item => item.topic_id === tId);
+    if (!entry) return label; // fall back to plain text if not found
+    return `<a href="../${entry.url}#${headingId}">${label}</a>`;
+  });
+}
+
+function attachHandlers() {
+  document.querySelectorAll(".option").forEach(btn => {
+    btn.addEventListener("click", () => selectAnswer(btn.dataset.key));
+  });
+
+  document.querySelectorAll(".nav-tab").forEach(tab => {
+    tab.addEventListener("click", () => {
+      current = parseInt(tab.dataset.index, 10);
+      render();
+    });
+  });
+
+  const showExplanationBtn = document.getElementById("showExplanationBtn");
+  if (showExplanationBtn) {
+    showExplanationBtn.addEventListener("click", () => {
+      answers[current].showExplanation = true;
+      render();
+    });
+  }
+
+  const nextBtn = document.getElementById("nextBtn");
+  if (nextBtn) {
+    nextBtn.addEventListener("click", () => {
+      if (current < questions.length - 1) {
+        current++;
+        render();
+      } else {
+        finishTest(false);
+      }
+    });
+  }
+}
+
+function selectAnswer(key) {
+  if (answers[current]) return;
+  const q = questions[current];
+  answers[current] = {
+    selected: key,
+    isCorrect: key === q.answer,
+    showExplanation: false,
+  };
+  render();
+}
+
+function finishTest(timedOut) {
+  clearInterval(timerInterval);
+  const correctCount = answers.filter(a => a && a.isCorrect).length;
+  const answeredCount = answers.filter(a => a).length;
+
+  document.getElementById("root").innerHTML = `
+    <div class="score-summary">
+      <h2>${timedOut ? "Time's up" : "Practice complete"}</h2>
+      <div class="big-score">${correctCount} / ${questions.length}</div>
+      <p style="color: var(--ink-soft);">${answeredCount} of ${questions.length} questions answered</p>
+      <a class="btn" href="index.html" style="text-decoration:none; display:inline-block; margin-top: 16px;">Back to practice tests</a>
+    </div>
+  `;
+}
+
+init();
+
+
+===== FILE: ./cbt-app/js/real_feel.js =====
+const params = new URLSearchParams(window.location.search);
+const testNumber = params.get("test");
+
+let config = { question_count: 250, seconds_per_question: 30, min_answered_to_submit: 125 };
+let questions = [];
+let current = 0;
+let answers = []; // answers[i] = "A" | "B" | ... | null (never marked correct/incorrect client-side)
+let timeRemaining = 0;
+let timerInterval = null;
+let finished = false;
+
+async function init() {
+  if (!testNumber) {
+    document.getElementById("root").innerHTML =
+      `<div class="empty-state">No exam specified. <a href="index.html">Go back</a>.</div>`;
+    return;
+  }
+
+  try {
+    const [configRes, qRes] = await Promise.all([
+      fetch("../data/real_feel_config.json").catch(() => null),
+      fetch(`../data/real_feel_tests/test_${testNumber}.json`),
+    ]);
+    if (configRes && configRes.ok) config = await configRes.json();
+    questions = await qRes.json();
+  } catch (err) {
+    document.getElementById("root").innerHTML =
+      `<div class="empty-state">Couldn't load this exam. <a href="index.html">Go back</a>.</div>`;
+    console.error(err);
+    return;
+  }
+
+  if (!questions.length) {
+    document.getElementById("root").innerHTML = `<div class="empty-state">This exam has no questions.</div>`;
+    return;
+  }
+
+  answers = new Array(questions.length).fill(null);
+  timeRemaining = questions.length * config.seconds_per_question;
+  startTimer();
+  render();
+}
+
+function startTimer() {
+  updateTimerDisplay();
+  timerInterval = setInterval(() => {
+    timeRemaining--;
+    updateTimerDisplay();
+    if (timeRemaining <= 0) {
+      clearInterval(timerInterval);
+      finishExam();
+    }
+  }, 1000);
+}
+
+function updateTimerDisplay() {
+  const h = Math.floor(timeRemaining / 3600);
+  const m = Math.floor((timeRemaining % 3600) / 60).toString().padStart(2, "0");
+  const s = (timeRemaining % 60).toString().padStart(2, "0");
+  document.getElementById("timerReadout").textContent = h > 0 ? `${h}:${m}:${s}` : `${m}:${s}`;
+
+  const strip = document.getElementById("pulseStrip");
+  strip.classList.remove("warning", "danger");
+  if (timeRemaining <= 60) strip.classList.add("danger");
+  else if (timeRemaining <= 300) strip.classList.add("warning");
+}
+
+function answeredCount() {
+  return answers.filter(a => a !== null).length;
+}
+
+function render() {
+  if (finished) return;
+
+  const q = questions[current];
+  const selected = answers[current];
+  const optionKeys = Object.keys(q.options);
+
+  const optionsHtml = optionKeys.map(key => {
+    const cls = "option" + (key === selected ? " selected" : "");
+    return `<button class="${cls}" data-key="${key}"><strong>${key}.</strong> ${q.options[key]}</button>`;
+  }).join("");
+
+  const canSubmit = answeredCount() >= config.min_answered_to_submit;
+
+  document.getElementById("root").innerHTML = `
+    <div class="grid-nav" id="gridNav">${renderGridNav()}</div>
+    <div class="test-card">
+      <div class="question-number">Question ${current + 1} of ${questions.length} · ${answeredCount()} answered</div>
+      <div class="question-text">${q.question}</div>
+      <div class="options-list">${optionsHtml}</div>
+      <div class="action-row">
+        <button class="btn secondary" id="prevBtn" ${current === 0 ? "disabled" : ""}>← Prev</button>
+        <button class="btn" id="nextBtn" ${current === questions.length - 1 ? "disabled" : ""}>Next →</button>
+        <button class="btn" id="submitBtn" ${canSubmit ? "" : "disabled"} style="margin-left:auto; background: var(--brick); border-color: var(--brick);">
+          Submit exam ${canSubmit ? "" : `(need ${config.min_answered_to_submit - answeredCount()} more)`}
+        </button>
+      </div>
+    </div>
+  `;
+
+  attachHandlers();
+}
+
+function renderGridNav() {
+  return questions.map((_, i) => {
+    let cls = "nav-tab";
+    if (i === current) cls += " current";
+    else if (answers[i]) cls += " answered";
+    return `<div class="${cls}" data-index="${i}">${i + 1}</div>`;
+  }).join("");
+}
+
+function attachHandlers() {
+  document.querySelectorAll(".option").forEach(btn => {
+    btn.addEventListener("click", () => {
+      answers[current] = btn.dataset.key;
+      render();
+    });
+  });
+
+  document.querySelectorAll(".nav-tab").forEach(tab => {
+    tab.addEventListener("click", () => {
+      current = parseInt(tab.dataset.index, 10);
+      render();
+    });
+  });
+
+  const prevBtn = document.getElementById("prevBtn");
+  if (prevBtn) prevBtn.addEventListener("click", () => { current--; render(); });
+
+  const nextBtn = document.getElementById("nextBtn");
+  if (nextBtn) nextBtn.addEventListener("click", () => { current++; render(); });
+
+  const submitBtn = document.getElementById("submitBtn");
+  if (submitBtn) submitBtn.addEventListener("click", () => {
+    if (!submitBtn.disabled) finishExam();
+  });
+}
+
+function finishExam() {
+  if (finished) return;
+  finished = true;
+  clearInterval(timerInterval);
+
+  let correct = 0;
+  questions.forEach((q, i) => {
+    if (answers[i] === q.answer) correct++;
+  });
+  const total = questions.length;
+  const pct = Math.round((correct / total) * 100);
+
+  document.getElementById("root").innerHTML = `
+    <div class="score-summary">
+      <h2>Exam complete</h2>
+      <div class="big-score">${correct} / ${total}</div>
+      <p style="color: var(--ink-soft);">${pct}% · ${answeredCount()} of ${total} questions answered</p>
+      <p style="color: var(--ink-soft); font-size: 0.85rem;">Answers and explanations are not shown for real-feel exams.</p>
+      <a class="btn" href="index.html" style="text-decoration:none; display:inline-block; margin-top: 16px;">Back to practice tests</a>
+    </div>
+  `;
+}
+
+init();
+
+
+===== FILE: ./cbt-app/practice.html =====
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Algocare — Practice</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="brand"><span class="pulse-dot"></span>Algocare</div>
+  <a href="index.html" style="font-size: 0.85rem; color: var(--ink-soft);">← Practice tests</a>
+</div>
+
+<div class="pulse-strip" id="pulseStrip">
+  <svg viewBox="0 0 300 48" preserveAspectRatio="none" fill="none" stroke-width="2">
+    <path d="M0,24 L60,24 L70,8 L80,40 L90,24 L300,24 L360,24 L370,8 L380,40 L390,24 L600,24" />
+  </svg>
+  <div class="timer-readout" id="timerReadout">--:--</div>
+</div>
+
+<div class="container">
+  <div id="root">
+    <div class="empty-state">Loading practice test...</div>
+  </div>
+</div>
+
+<script src="js/practice.js"></script>
+</body>
+</html>
+
+
+===== FILE: ./cbt-app/real_feel.html =====
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Algocare — Real-Feel Exam</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="brand"><span class="pulse-dot"></span>Algocare</div>
+  <a href="index.html" style="font-size: 0.85rem; color: var(--ink-soft);">← Practice tests</a>
+</div>
+
+<div class="pulse-strip" id="pulseStrip">
+  <svg viewBox="0 0 300 48" preserveAspectRatio="none" fill="none" stroke-width="2">
+    <path d="M0,24 L60,24 L70,8 L80,40 L90,24 L300,24 L360,24 L370,8 L380,40 L390,24 L600,24" />
+  </svg>
+  <div class="timer-readout" id="timerReadout">--:--</div>
+</div>
+
+<div class="container">
+  <div id="root">
+    <div class="empty-state">Loading exam...</div>
+  </div>
+</div>
+
+<script src="js/real_feel.js"></script>
+</body>
+</html>
+
+
+===== FILE: ./config/real_feel_config.json =====
+{
+  "question_count": 250,
+  "seconds_per_question": 30,
+  "min_answered_to_submit": 125
+}
+
+
+===== FILE: ./config/weights.json =====
+{
+  "_readme": "Course/unit weights control how often real-feel exam questions are drawn from each. Any course_slug or unit key NOT listed here defaults to 1.0 (equal weight). Unit keys are 'course-slug|unit-slug'. Edit these once you have real NMCN exam blueprint percentages - values are relative, not required to sum to 100.",
+  "courses": {},
+  "units": {}
+}
+
+
+===== FILE: ./fetch_articles.py =====
+import json
+import time
+import sys
+from pathlib import Path
+
+from utils.ai_client import call_gemini
+
+CURRICULUM_PATH = "curriculum.json"
+HEADINGS_PATH = "data/topic_headings.json"
+ARTICLES_DIR = "data/articles"
+QUESTIONS_DIR = "data/questions"
+STATE_PATH = "state/generation_state.json"
+
+MAX_RUNTIME_SECONDS =  180 
+
+   # 4.5 min hard stop - stays under the 5 min ceiling
+
+# The AI never constructs the learn-more link itself - it just marks where one
+# goes with this literal token, which the script replaces deterministically.
+LEARN_MORE_TOKEN = "[[LEARN_MORE]]"
+
+ARTICLE_SYSTEM_PROMPT = """You are an expert nursing educator writing study \
+content for Algocare, an educational platform for nursing students in Nigeria.
+
+You will be given a topic and its ordered list of section headings. For EACH \
+heading, write:
+
+1. "content": clear, accurate educational text (150-300 words) suitable for \
+nursing students preparing for exams.
+
+2. "questions": exactly 2 multiple-choice questions based ONLY on the content \
+you just wrote for that heading (not on outside knowledge), so a student who \
+read that heading could answer them.
+
+Each question needs:
+- "question": the question text
+- "options": an object with keys A, B, C, D
+- "answer": the correct option key (one of A/B/C/D)
+- "explanation": 1-3 sentences in plain, student-friendly language explaining \
+why that answer is correct. End every explanation with exactly this literal \
+token on its own, with nothing after it: [[LEARN_MORE]]
+  Do not attempt to write an actual link or heading reference yourself - the \
+token is a placeholder that will be replaced programmatically.
+
+Return ONLY valid JSON, no markdown fences, no commentary, in exactly this \
+schema:
+{
+  "headings": [
+    {
+      "order": 1,
+      "content": "...",
+      "questions": [
+        {"question": "...", "options": {"A": "...", "B": "...", "C": "...", "D": "..."}, "answer": "A", "explanation": "... [[LEARN_MORE]]"},
+        {"question": "...", "options": {"A": "...", "B": "...", "C": "...", "D": "..."}, "answer": "B", "explanation": "... [[LEARN_MORE]]"}
+      ]
+    }
+  ]
+}"""
+
+
+def load_json(path, default):
+    p = Path(path)
+    if not p.exists():
+        return default
+    with open(p, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def save_json(path, data):
+    Path(path).parent.mkdir(parents=True, exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+
+
+def build_topic_lookup(curriculum):
+    """topic_id -> {title, path} - needed here since topic_headings.json only
+    stores headings/source, not the topic's title/path."""
+    lookup = {}
+    for c in curriculum.get("curriculum", []):
+        for u in c.get("units", []):
+            for t in u.get("topics", []):
+                lookup[t.get("topic_id")] = {
+                    "title": t.get("title"),
+                    "path": t.get("path", []),
+                }
+    return lookup
+
+
+def generate_article_and_questions(topic_id, headings_entry, topic_meta):
+    """
+    Calls Gemini ONCE for this topic, sending all its headings together, and
+    gets back content + 2 MCQs per heading - generated from the same content,
+    so the learn-more link always points to material that answers the question.
+
+    Returns (article_dict, questions_list).
+    """
+    headings = headings_entry["headings"]  # [{heading_id, order, title}, ...]
+
+    heading_lines = [f"{h['order']}. {h['title']}" for h in headings]
+    user_prompt = (
+        f"Topic: {topic_meta['title']}\n"
+        f"Headings:\n" + "\n".join(heading_lines)
+    )
+
+    result = call_gemini(ARTICLE_SYSTEM_PROMPT, user_prompt)
+    ai_headings = {h["order"]: h for h in result.get("headings", [])}
+
+    article_headings = []
+    questions_list = []
+
+    for h in headings:
+        order = h["order"]
+        heading_id = h["heading_id"]
+        ai_heading = ai_headings.get(order)
+
+        if ai_heading is None:
+            raise ValueError(f"AI response missing heading order {order} for {topic_id}")
+
+        article_headings.append({
+            "heading_id": heading_id,
+            "order": order,
+            "title": h["title"],
+            "content": ai_heading["content"],
+        })
+
+        learn_more_link = f"[learn more]({topic_id}#{heading_id})"
+
+        for i, q in enumerate(ai_heading.get("questions", []), start=1):
+            explanation = q["explanation"].replace(LEARN_MORE_TOKEN, learn_more_link)
+            questions_list.append({
+                "question_id": f"{topic_id}_h{order}_q{i}",
+                "heading_id": heading_id,
+                "article_id": topic_id,
+                "topic_id": topic_id,
+                "question": q["question"],
+                "options": q["options"],
+                "answer": q["answer"],
+                "explanation": explanation,
+            })
+
+    article_dict = {
+        "article_id": topic_id,
+        "topic_id": topic_id,
+        "title": topic_meta["title"],
+        "path": topic_meta["path"],
+        "headings": article_headings,
+    }
+
+    return article_dict, questions_list
+
+
+def run():
+    start_time = time.time()
+
+    curriculum = load_json(CURRICULUM_PATH, {})
+    topic_lookup = build_topic_lookup(curriculum)
+
+    headings_data = load_json(HEADINGS_PATH, {})
+    state = load_json(STATE_PATH, {"headings_done": [], "articles_done": []})
+    state.setdefault("headings_done", [])
+    state.setdefault("articles_done", [])
+
+    done_ids = set(state["articles_done"])
+    # Only topics that already have headings ready are eligible for article generation
+    eligible_ids = [tid for tid in headings_data.keys() if tid not in done_ids]
+
+    print(f"Topics with headings ready : {len(headings_data)}")
+    print(f"Articles already done      : {len(done_ids)}")
+    print(f"Remaining                 : {len(eligible_ids)}")
+
+    if not eligible_ids:
+        print("✅ No eligible topics awaiting article generation. Nothing to do.")
+        return
+
+    processed_this_run = 0
+
+    for topic_id in eligible_ids:
+        elapsed = time.time() - start_time
+        if elapsed > MAX_RUNTIME_SECONDS:
+            print(f"⏱️  Time limit reached ({elapsed:.0f}s). Stopping gracefully.")
+            break
+
+        topic_meta = topic_lookup.get(topic_id)
+        if topic_meta is None:
+            print(f"⚠️  {topic_id} not found in curriculum.json. Skipping.")
+            continue
+
+        try:
+            article, questions = generate_article_and_questions(
+                topic_id, headings_data[topic_id], topic_meta
+            )
+        except Exception as e:
+            print(f"⚠️  Failed on {topic_id}: {e}. Skipping for this run.")
+            continue
+
+        # Save article + questions immediately - not batched
+        save_json(f"{ARTICLES_DIR}/{topic_id}.json", article)
+        save_json(f"{QUESTIONS_DIR}/{topic_id}.json", questions)
+
+        # Save state immediately - not batched
+        state["articles_done"].append(topic_id)
+        save_json(STATE_PATH, state)
+
+        processed_this_run += 1
+        print(f"✅ [{processed_this_run}] {topic_id} - article + questions saved.")
+
+    print(f"\n🏁 Run complete. Processed {processed_this_run} topic(s) this run.")
+    print(f"   Total done: {len(state['articles_done'])}/{len(headings_data)}")
+
+
+if __name__ == "__main__":
+    run()
+
+
+===== FILE: ./fetch_headings.py =====
+import json
+import time
+import sys
+from pathlib import Path
+
+from utils.ai_client import call_gemini
+
+CURRICULUM_PATH = "curriculum.json"
+HEADINGS_PATH = "data/topic_headings.json"
+STATE_PATH = "state/generation_state.json"
+
+MAX_RUNTIME_SECONDS = 120    # 4.5 min hard stop - stays under the 5 min ceiling
+
+HEADINGS_SYSTEM_PROMPT = """You are a curriculum content designer for Algocare, \
+an educational platform for nursing students in Nigeria.
+
+Given a topic, produce a final list of 5 to 10 section headings for an \
+educational article on that topic, ordered in a logical teaching sequence \
+(e.g. definition -> underlying concepts -> types/classification -> causes -> \
+assessment -> management -> complications - adjust order to fit what actually \
+suits this specific topic).
+
+If a list of existing "coverage" points is provided, treat them as a required \
+foundation: keep each one (you may rephrase for clarity), do not drop any, and \
+add or reorder additional headings around them so the FINAL combined list \
+totals between 5 and 10 headings with no duplicated content between headings.
+
+If no coverage is provided, generate the full list from scratch.
+
+Return ONLY valid JSON, with no markdown fences and no commentary, in exactly \
+this schema:
+{
+  "headings": [
+    {"order": 1, "title": "..."},
+    {"order": 2, "title": "..."}
+  ]
+}"""
+
+
+def load_json(path, default):
+    p = Path(path)
+    if not p.exists():
+        return default
+    with open(p, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def save_json(path, data):
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+
+
+def get_all_topics(curriculum):
+    topics = []
+    for c in curriculum.get("curriculum", []):
+        for u in c.get("units", []):
+            for t in u.get("topics", []):
+                topics.append({
+                    "topic_id": t.get("topic_id"),
+                    "title": t.get("title"),
+                    "path": t.get("path"),
+                    "coverage": t.get("coverage", []),
+                })
+    return topics
+
+
+def generate_headings_for_topic(topic):
+    """
+    Calls Gemini to produce 5-10 section headings for this topic.
+
+    Returns:
+      {
+        "headings": [{"heading_id": ..., "order": ..., "title": ...}, ...],
+        "source": "coverage_augmented" | "ai_generated"
+      }
+    """
+    coverage = topic.get("coverage") or []
+    path_str = " > ".join(topic.get("path", [])) if topic.get("path") else ""
+
+    user_prompt_lines = [
+        f"Topic title: {topic.get('title')}",
+        f"Curriculum path: {path_str}",
+    ]
+    if coverage:
+        user_prompt_lines.append(
+            "Existing coverage points (must all be kept, reworded if needed):"
+        )
+        for point in coverage:
+            user_prompt_lines.append(f"- {point}")
+    else:
+        user_prompt_lines.append("No existing coverage points - generate the full list.")
+
+    user_prompt = "\n".join(user_prompt_lines)
+
+    result = call_gemini(HEADINGS_SYSTEM_PROMPT, user_prompt)
+
+    headings = result.get("headings", [])
+    if not (5 <= len(headings) <= 10):
+        raise ValueError(f"Expected 5-10 headings, got {len(headings)}")
+
+    topic_id = topic["topic_id"]
+    formatted_headings = []
+    for h in sorted(headings, key=lambda x: x["order"]):
+        order = h["order"]
+        formatted_headings.append({
+            "heading_id": f"{topic_id}_h{order}",
+            "order": order,
+            "title": h["title"],
+        })
+
+    return {
+        "headings": formatted_headings,
+        "source": "coverage_augmented" if coverage else "ai_generated",
+    }
+
+
+def run():
+    start_time = time.time()
+
+    curriculum = load_json(CURRICULUM_PATH, {})
+    headings_data = load_json(HEADINGS_PATH, {})
+    state = load_json(STATE_PATH, {"headings_done": [], "articles_done": []})
+    state.setdefault("headings_done", [])
+    state.setdefault("articles_done", [])
+
+    all_topics = get_all_topics(curriculum)
+    done_ids = set(state["headings_done"])
+    remaining = [t for t in all_topics if t["topic_id"] not in done_ids]
+
+    print(f"Total topics : {len(all_topics)}")
+    print(f"Already done : {len(done_ids)}")
+    print(f"Remaining    : {len(remaining)}")
+
+    if not remaining:
+        print("✅ All topics already have headings. Nothing to do.")
+        return
+
+    processed_this_run = 0
+
+    for topic in remaining:
+        elapsed = time.time() - start_time
+        if elapsed > MAX_RUNTIME_SECONDS:
+            print(f"⏱️  Time limit reached ({elapsed:.0f}s). Stopping gracefully.")
+            break
+
+        topic_id = topic["topic_id"]
+
+        try:
+            result = generate_headings_for_topic(topic)
+        except NotImplementedError as e:
+            print(f"❌ {e}")
+            sys.exit(1)
+        except Exception as e:
+            print(f"⚠️  Failed on {topic_id}: {e}. Skipping for this run.")
+            continue
+
+        # Save output immediately - not batched
+        headings_data[topic_id] = result
+        save_json(HEADINGS_PATH, headings_data)
+
+        # Save state immediately - not batched
+        state["headings_done"].append(topic_id)
+        save_json(STATE_PATH, state)
+
+        processed_this_run += 1
+        print(f"✅ [{processed_this_run}] {topic_id} - headings saved.")
+
+    print(f"\n🏁 Run complete. Processed {processed_this_run} topic(s) this run.")
+    print(f"   Total done: {len(state['headings_done'])}/{len(all_topics)}")
+
+
+if __name__ == "__main__":
+    run()
+
+
+===== FILE: ./normalize_paths.py =====
+import json
+
+FILE_PATH = "curriculum.json"
+OUTPUT_PATH = "curriculum_normalized.json"
+
+COURSE_BRANCH_MAP = {
+    # Anatomy & Physiology
+    "GNS111": "Anatomy and Physiology",
+    "GNS121": "Anatomy and Physiology",
+    "GNS211": "Anatomy and Physiology",
+
+    # Foundation of Nursing
+    "GNS112": "Foundation of Nursing",
+    "GNS122": "Foundation of Nursing",
+    "GNS212": "Foundation of Nursing",
+    "GNS221": "Foundation of Nursing",
+
+    # Nursing Informatics
+    "GNS113": "Nursing Informatics",
+
+    # Microbiology
+    "GST114": "Microbiology",
+
+    # Medical/Surgical Nursing
+    "GNS123": "Medical Surgical Nursing",
+    "GNS213": "Medical Surgical Nursing",
+    "GNS222": "Medical Surgical Nursing",
+    "GNS311": "Medical Surgical Nursing",
+    "GNS321": "Medical Surgical Nursing",
+
+    # Primary Health Care
+    "GNS124": "Primary Health Care",
+    "GNS214": "Primary Health Care",
+
+    # Pharmacology
+    "GNS125": "Pharmacology",
+    "GNS215": "Pharmacology",
+    "GNS223": "Pharmacology",
+
+    # Reproductive Health
+    "GNS216": "Reproductive Health",
+    "GNS226": "Reproductive Health",
+    "GNS312": "Reproductive Health",
+
+    # Research & Statistics
+    "GNS217": "Research and Statistics",
+    "GNS224": "Research and Statistics",
+
+    # Community Health Nursing
+    "GNS225": "Community Health Nursing",
+    "GNS313": "Community Health Nursing",
+
+    # Nutrition
+    "GNS227": "Nutrition and Dietetics",
+
+    # Mental Health
+    "GNS314": "Mental Health Nursing",
+
+    # Emergency & Disaster
+    "GNS315": "Emergency and Disaster Nursing",
+
+    # Quality & Safety
+    "GST319": "Quality Improvement and Patient Safety",
+
+    # Home Healthcare
+    "GNS324": "Home Healthcare Nursing",
+
+    # Management & Teaching
+    "GST321": "Management and Teaching",
+
+    # Health Economics
+    "GST322": "Health Economics",
+}
+
+
+def normalize_path(topic, course_id, course_name):
+    """
+    Returns a normalized path as a list, in one of three ways:
+      1. String path "A > B > C" -> split into ["A", "B", "C"]
+      2. Already a list -> returned as-is
+      3. Missing/blank -> backfilled as [branch_name, topic_title]
+    """
+    path = topic.get("path")
+
+    if isinstance(path, str) and path.strip():
+        return [p.strip() for p in path.split(">")]
+
+    if isinstance(path, list) and len(path) > 0:
+        return path
+
+    # Blank/missing path -> deterministic backfill using the branch map
+    branch = COURSE_BRANCH_MAP.get(course_id, course_name)
+    return [branch, topic.get("title", "Untitled")]
+
+
+def normalize_all_paths(file_path, output_path):
+    with open(file_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    fixed_count = 0
+    backfilled_count = 0
+    unmapped_courses = set()
+
+    for c in data.get("curriculum", []):
+        course_id = c.get("course_id")
+        course_name = c.get("course_name")
+
+        if course_id not in COURSE_BRANCH_MAP:
+            unmapped_courses.add(course_id)
+
+        for u in c.get("units", []):
+            for t in u.get("topics", []):
+                original = t.get("path")
+                t["path"] = normalize_path(t, course_id, course_name)
+
+                if isinstance(original, str) and original.strip():
+                    fixed_count += 1
+                elif not original:
+                    backfilled_count += 1
+
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+
+    print(f"✅ Normalized paths written to {output_path}")
+    print(f"   • String paths converted to arrays : {fixed_count}")
+    print(f"   • Blank paths backfilled            : {backfilled_count}")
+
+    if unmapped_courses:
+        print(f"\n⚠️  Warning: {len(unmapped_courses)} course_id(s) not found in COURSE_BRANCH_MAP:")
+        for cid in sorted(unmapped_courses):
+            print(f"   - {cid}")
+        print("   (Their topics were backfilled using course_name as branch instead.)")
+
+
+if __name__ == "__main__":
+    normalize_all_paths(FILE_PATH, OUTPUT_PATH)
+
+
+
+===== FILE: ./requirements.txt =====
+# Algocare uses Python standard library only.
+# No pip install required.
+# Python 3.8+ recommended.
+google-genai
+
+
+
+===== FILE: ./requirements_addition.txt =====
+google-genai
+
+
+===== FILE: ./setup_folders.py =====
+import os
+import json
+
+# Folders to ensure exist (new + pre-existing, safe to re-run)
+FOLDERS = [
+    "data",
+    "data/articles",
+    "data/questions",
+    "state",
+    "drafts",
+    "approved",
+    "failed",
+    "published",
+    "publish_logs",
+    "workflow_logs",
+    "logs",
+]
+
+# Files to initialize with empty/default JSON if they don't exist yet
+FILES = {
+    "data/topic_headings.json": {},
+    "data/keyword_index.json": {},
+    "state/generation_state.json": {
+        "headings_done": [],
+        "articles_done": []
+    },
+    "state/build_state.json": {
+        "last_built_article_id": None,
+        "last_build_time": None
+    },
+}
+
+
+def setup_folders():
+    created_folders = []
+    skipped_folders = []
+
+    for folder in FOLDERS:
+        if not os.path.exists(folder):
+            os.makedirs(folder)
+            created_folders.append(folder)
+        else:
+            skipped_folders.append(folder)
+
+    created_files = []
+    skipped_files = []
+
+    for filepath, default_content in FILES.items():
+        if not os.path.exists(filepath):
+            with open(filepath, "w", encoding="utf-8") as f:
+                json.dump(default_content, f, indent=2)
+            created_files.append(filepath)
+        else:
+            skipped_files.append(filepath)
+
+    print("=========================================")
+    print("       ALGOCARE FOLDER/FILE SETUP        ")
+    print("=========================================\n")
+
+    print(f"📁 Folders created ({len(created_folders)}):")
+    for f in created_folders:
+        print(f"   + {f}")
+
+    print(f"\n📁 Folders already existed ({len(skipped_folders)}):")
+    for f in skipped_folders:
+        print(f"   = {f}")
+
+    print(f"\n📄 Files created ({len(created_files)}):")
+    for f in created_files:
+        print(f"   + {f}")
+
+    print(f"\n📄 Files already existed ({len(skipped_files)}):")
+    for f in skipped_files:
+        print(f"   = {f}")
+
+    print("\n✅ Setup complete.")
+
+
+if __name__ == "__main__":
+    setup_folders()
+
+
+
+===== FILE: ./state/build_state.json =====
+{
+  "published_done": [
+    "GNS111_U1_T1",
+    "GNS111_U1_T10",
+    "GNS111_U1_T2",
+    "GNS111_U1_T3",
+    "GNS111_U1_T4",
+    "GNS111_U1_T5",
+    "GNS111_U1_T6",
+    "GNS111_U1_T7",
+    "GNS111_U1_T8",
+    "GNS111_U1_T9",
+    "GNS111_U2_T1",
+    "GNS111_U2_T10",
+    "GNS111_U2_T11",
+    "GNS111_U2_T12",
+    "GNS111_U2_T13",
+    "GNS111_U2_T14",
+    "GNS111_U2_T2",
+    "GNS111_U2_T3",
+    "GNS111_U2_T4",
+    "GNS111_U2_T5",
+    "GNS111_U2_T6",
+    "GNS111_U2_T7",
+    "GNS111_U2_T8",
+    "GNS111_U2_T9",
+    "GNS112_U1_T1",
+    "GNS112_U1_T2",
+    "GNS112_U1_T3",
+    "GNS112_U1_T4",
+    "GNS112_U1_T5",
+    "GNS112_U1_T6",
+    "GNS112_U1_T7",
+    "GNS112_U2_T1",
+    "GNS112_U2_T2",
+    "GNS112_U2_T3",
+    "GNS112_U2_T4",
+    "GNS112_U2_T5",
+    "GNS112_U2_T6",
+    "GNS112_U3_T1",
+    "GNS112_U3_T2",
+    "GNS112_U3_T3",
+    "GNS112_U3_T4",
+    "GNS112_U3_T5",
+    "GNS112_U3_T6",
+    "GNS112_U3_T7",
+    "GNS112_U4_T1",
+    "GNS112_U4_T2",
+    "GNS112_U4_T3",
+    "GNS112_U4_T4",
+    "GNS112_U4_T5",
+    "GNS112_U4_T6",
+    "GNS112_U4_T7",
+    "GNS112_U4_T8",
+    "GNS112_U4_T9",
+    "GNS112_U5_T1",
+    "GNS112_U5_T10",
+    "GNS112_U5_T11",
+    "GNS112_U5_T2",
+    "GNS112_U5_T3",
+    "GNS112_U5_T4",
+    "GNS112_U5_T5",
+    "GNS112_U5_T6",
+    "GNS112_U5_T7",
+    "GNS112_U5_T8",
+    "GNS112_U5_T9",
+    "GNS112_U6_T1",
+    "GNS112_U6_T2",
+    "GNS112_U6_T3",
+    "GNS112_U6_T4",
+    "GNS112_U7_T1",
+    "GNS112_U7_T10",
+    "GNS112_U7_T2",
+    "GNS112_U7_T3",
+    "GNS112_U7_T4",
+    "GNS112_U7_T5",
+    "GNS112_U7_T6",
+    "GNS112_U7_T7",
+    "GNS112_U7_T8",
+    "GNS112_U7_T9",
+    "GNS113_U1_T1",
+    "GNS113_U1_T10",
+    "GNS113_U1_T2",
+    "GNS113_U1_T3",
+    "GNS113_U1_T4",
+    "GNS113_U1_T5",
+    "GNS113_U1_T6",
+    "GNS113_U1_T7",
+    "GNS113_U1_T8",
+    "GNS113_U1_T9",
+    "GNS113_U2_T1",
+    "GNS113_U2_T2",
+    "GNS113_U2_T3",
+    "GNS113_U2_T4",
+    "GNS113_U2_T5",
+    "GNS113_U2_T6",
+    "GNS113_U2_T7",
+    "GNS113_U2_T8",
+    "GNS113_U3_T1",
+    "GNS113_U3_T2",
+    "GNS113_U3_T3",
+    "GNS113_U3_T4",
+    "GNS113_U3_T5",
+    "GNS113_U3_T6",
+    "GNS113_U3_T7",
+    "GNS113_U4_T1",
+    "GNS113_U4_T2",
+    "GNS113_U4_T3",
+    "GNS113_U4_T4",
+    "GNS113_U4_T5",
+    "GNS121_U1_T1",
+    "GNS121_U1_T10",
+    "GNS121_U1_T11",
+    "GNS121_U1_T12",
+    "GNS121_U1_T13",
+    "GNS121_U1_T2",
+    "GNS121_U1_T3",
+    "GNS121_U1_T4",
+    "GNS121_U1_T5",
+    "GNS121_U1_T6",
+    "GNS121_U1_T7",
+    "GNS121_U1_T8",
+    "GNS121_U1_T9",
+    "GNS121_U2_T1",
+    "GNS121_U2_T10",
+    "GNS121_U2_T11",
+    "GNS121_U2_T12",
+    "GNS121_U2_T13",
+    "GNS121_U2_T2",
+    "GNS121_U2_T3",
+    "GNS121_U2_T4",
+    "GNS121_U2_T5",
+    "GNS121_U2_T6",
+    "GNS121_U2_T7",
+    "GNS121_U2_T8",
+    "GNS121_U2_T9",
+    "GNS121_U3_T1",
+    "GNS121_U3_T10",
+    "GNS121_U3_T11",
+    "GNS121_U3_T12",
+    "GNS121_U3_T2",
+    "GNS121_U3_T3",
+    "GNS121_U3_T4",
+    "GNS121_U3_T5",
+    "GNS121_U3_T6",
+    "GNS121_U3_T7",
+    "GNS121_U3_T8",
+    "GNS121_U3_T9",
+    "GNS121_U4_T1",
+    "GNS121_U4_T2",
+    "GNS121_U4_T3",
+    "GNS121_U4_T4",
+    "GNS121_U4_T5",
+    "GNS121_U4_T6",
+    "GNS121_U4_T7",
+    "GNS121_U4_T8",
+    "GNS121_U5_T1",
+    "GNS121_U5_T10",
+    "GNS121_U5_T11",
+    "GNS121_U5_T12",
+    "GNS121_U5_T13",
+    "GNS121_U5_T14",
+    "GNS121_U5_T15",
+    "GNS121_U5_T16",
+    "GNS121_U5_T17",
+    "GNS121_U5_T18",
+    "GNS121_U5_T2",
+    "GNS121_U5_T3",
+    "GNS121_U5_T4",
+    "GNS121_U5_T5",
+    "GNS121_U5_T6",
+    "GNS121_U5_T7",
+    "GNS121_U5_T8",
+    "GNS121_U5_T9",
+    "GNS121_U6_T1",
+    "GNS121_U6_T10",
+    "GNS121_U6_T11",
+    "GNS121_U6_T12",
+    "GNS121_U6_T13",
+    "GNS121_U6_T14",
+    "GNS121_U6_T15",
+    "GNS121_U6_T16",
+    "GNS121_U6_T2",
+    "GNS121_U6_T3",
+    "GNS121_U6_T4",
+    "GNS121_U6_T5",
+    "GNS121_U6_T6",
+    "GNS121_U6_T7",
+    "GNS121_U6_T8",
+    "GNS121_U6_T9",
+    "GNS121_U7_T1",
+    "GNS121_U7_T10",
+    "GNS121_U7_T2",
+    "GNS121_U7_T3",
+    "GNS121_U7_T4",
+    "GNS121_U7_T5",
+    "GNS121_U7_T6",
+    "GNS121_U7_T7",
+    "GNS121_U7_T8",
+    "GNS121_U7_T9",
+    "GNS122_U1_T1",
+    "GNS122_U1_T10",
+    "GNS122_U1_T11",
+    "GNS122_U1_T12",
+    "GNS122_U1_T13",
+    "GNS122_U1_T14",
+    "GNS122_U1_T15",
+    "GNS122_U1_T16",
+    "GNS122_U1_T17",
+    "GNS122_U1_T18",
+    "GNS122_U1_T19",
+    "GNS122_U1_T2",
+    "GNS122_U1_T20",
+    "GNS122_U1_T21",
+    "GNS122_U1_T22",
+    "GNS122_U1_T23",
+    "GNS122_U1_T3",
+    "GNS122_U1_T4",
+    "GNS122_U1_T5",
+    "GNS122_U1_T6",
+    "GNS122_U1_T7",
+    "GNS122_U1_T8",
+    "GNS122_U1_T9",
+    "GNS122_U2_T1",
+    "GNS122_U2_T10",
+    "GNS122_U2_T11",
+    "GNS122_U2_T12",
+    "GNS122_U2_T13",
+    "GNS122_U2_T14",
+    "GNS122_U2_T15",
+    "GNS122_U2_T16",
+    "GNS122_U2_T2",
+    "GNS122_U2_T3",
+    "GNS122_U2_T4",
+    "GNS122_U2_T5",
+    "GNS122_U2_T6",
+    "GNS122_U2_T7",
+    "GNS122_U2_T8",
+    "GNS122_U2_T9",
+    "GNS122_U3_T1",
+    "GNS122_U3_T10",
+    "GNS122_U3_T11",
+    "GNS122_U3_T12",
+    "GNS122_U3_T13",
+    "GNS122_U3_T14",
+    "GNS122_U3_T15",
+    "GNS122_U3_T16",
+    "GNS122_U3_T17",
+    "GNS122_U3_T18",
+    "GNS122_U3_T19",
+    "GNS122_U3_T2",
+    "GNS122_U3_T20",
+    "GNS122_U3_T3",
+    "GNS122_U3_T4",
+    "GNS122_U3_T5",
+    "GNS122_U3_T6",
+    "GNS122_U3_T7",
+    "GNS122_U3_T8",
+    "GNS122_U3_T9",
+    "GNS122_U4_T1",
+    "GNS122_U4_T2",
+    "GNS122_U4_T3",
+    "GNS122_U4_T4",
+    "GNS122_U4_T5",
+    "GNS122_U4_T6",
+    "GNS122_U4_T7",
+    "GNS122_U5_T1",
+    "GNS122_U5_T2",
+    "GNS122_U5_T3",
+    "GNS122_U5_T4",
+    "GNS122_U5_T5",
+    "GNS123_U1_T1",
+    "GNS123_U1_T2",
+    "GNS123_U1_T3",
+    "GNS123_U1_T4",
+    "GNS123_U1_T5",
+    "GNS123_U1_T6",
+    "GNS123_U1_T7",
+    "GNS123_U1_T8",
+    "GNS123_U1_T9",
+    "GNS123_U2_T1",
+    "GNS123_U2_T10",
+    "GNS123_U2_T11",
+    "GNS123_U2_T12",
+    "GNS123_U2_T13",
+    "GNS123_U2_T14",
+    "GNS123_U2_T2",
+    "GNS123_U2_T3",
+    "GNS123_U2_T4",
+    "GNS123_U2_T5",
+    "GNS123_U2_T6",
+    "GNS123_U2_T7",
+    "GNS123_U2_T8",
+    "GNS123_U2_T9",
+    "GNS123_U3_T1",
+    "GNS123_U3_T10",
+    "GNS123_U3_T11",
+    "GNS123_U3_T12",
+    "GNS123_U3_T13",
+    "GNS123_U3_T14",
+    "GNS123_U3_T15",
+    "GNS123_U3_T16",
+    "GNS123_U3_T2",
+    "GNS123_U3_T3",
+    "GNS123_U3_T4",
+    "GNS123_U3_T5",
+    "GNS123_U3_T6",
+    "GNS123_U3_T7",
+    "GNS123_U3_T8",
+    "GNS123_U3_T9",
+    "GNS123_U4_T1",
+    "GNS123_U4_T2",
+    "GNS123_U4_T3",
+    "GNS123_U4_T4",
+    "GNS123_U4_T5",
+    "GNS123_U4_T6",
+    "GNS123_U4_T7",
+    "GNS123_U5_T1",
+    "GNS123_U5_T10",
+    "GNS123_U5_T11",
+    "GNS123_U5_T12",
+    "GNS123_U5_T13",
+    "GNS123_U5_T2",
+    "GNS123_U5_T3",
+    "GNS123_U5_T4",
+    "GNS123_U5_T5",
+    "GNS123_U5_T6",
+    "GNS123_U5_T7",
+    "GNS123_U5_T8",
+    "GNS123_U5_T9",
+    "GNS123_U6_T1",
+    "GNS123_U6_T2",
+    "GNS123_U6_T3",
+    "GNS123_U6_T4",
+    "GNS123_U6_T5",
+    "GNS123_U6_T6",
+    "GNS124_U1_T1",
+    "GNS124_U1_T2",
+    "GNS124_U1_T3",
+    "GNS124_U1_T4",
+    "GNS124_U1_T5",
+    "GNS124_U1_T6",
+    "GNS124_U1_T7",
+    "GNS124_U2_T1",
+    "GNS124_U2_T2",
+    "GNS124_U2_T3",
+    "GNS124_U2_T4",
+    "GNS124_U2_T5",
+    "GNS124_U2_T6",
+    "GNS124_U2_T7",
+    "GNS124_U3_T1",
+    "GNS124_U3_T2",
+    "GNS124_U3_T3",
+    "GNS124_U3_T4",
+    "GNS124_U3_T5",
+    "GNS124_U3_T6",
+    "GNS124_U3_T7",
+    "GNS124_U3_T8",
+    "GNS124_U4_T1",
+    "GNS124_U4_T2",
+    "GNS124_U4_T3",
+    "GNS124_U4_T4",
+    "GNS124_U4_T5",
+    "GNS124_U4_T6",
+    "GNS124_U4_T7",
+    "GNS124_U4_T8",
+    "GNS124_U5_T1",
+    "GNS124_U5_T10",
+    "GNS124_U5_T11",
+    "GNS124_U5_T12",
+    "GNS124_U5_T13",
+    "GNS124_U5_T2",
+    "GNS124_U5_T3",
+    "GNS124_U5_T4",
+    "GNS124_U5_T5",
+    "GNS124_U5_T6",
+    "GNS124_U5_T7",
+    "GNS124_U5_T8",
+    "GNS124_U5_T9",
+    "GNS124_U6_T1",
+    "GNS124_U6_T2",
+    "GNS124_U6_T3",
+    "GNS124_U6_T4",
+    "GNS124_U6_T5",
+    "GNS124_U6_T6",
+    "GNS124_U6_T7",
+    "GNS125_U1_T1",
+    "GNS125_U1_T10",
+    "GNS125_U1_T2",
+    "GNS125_U1_T3",
+    "GNS125_U1_T4",
+    "GNS125_U1_T5",
+    "GNS125_U1_T6",
+    "GNS125_U1_T7",
+    "GNS125_U1_T8",
+    "GNS125_U1_T9",
+    "GNS125_U2_T1",
+    "GNS125_U2_T10",
+    "GNS125_U2_T11",
+    "GNS125_U2_T12",
+    "GNS125_U2_T13",
+    "GNS125_U2_T2",
+    "GNS125_U2_T3",
+    "GNS125_U2_T4",
+    "GNS125_U2_T5",
+    "GNS125_U2_T6",
+    "GNS125_U2_T7",
+    "GNS125_U2_T8",
+    "GNS125_U2_T9",
+    "GNS125_U3_T1",
+    "GNS125_U3_T10",
+    "GNS125_U3_T11",
+    "GNS125_U3_T12",
+    "GNS125_U3_T13",
+    "GNS125_U3_T14",
+    "GNS125_U3_T15",
+    "GNS125_U3_T16",
+    "GNS125_U3_T17",
+    "GNS125_U3_T18",
+    "GNS125_U3_T19",
+    "GNS125_U3_T2",
+    "GNS125_U3_T3",
+    "GNS125_U3_T4",
+    "GNS125_U3_T5",
+    "GNS125_U3_T6",
+    "GNS125_U3_T7",
+    "GNS125_U3_T8",
+    "GNS125_U3_T9",
+    "GNS125_U4_T1",
+    "GNS125_U4_T2",
+    "GNS125_U4_T3",
+    "GNS125_U4_T4",
+    "GNS125_U4_T5",
+    "GNS125_U5_T1",
+    "GNS125_U5_T10",
+    "GNS125_U5_T2",
+    "GNS125_U5_T3",
+    "GNS125_U5_T4",
+    "GNS125_U5_T5",
+    "GNS125_U5_T6",
+    "GNS125_U5_T7",
+    "GNS125_U5_T8",
+    "GNS125_U5_T9",
+    "GNS211_U1_T1",
+    "GNS211_U1_T10",
+    "GNS211_U1_T11",
+    "GNS211_U1_T2",
+    "GNS211_U1_T3",
+    "GNS211_U1_T4",
+    "GNS211_U1_T5",
+    "GNS211_U1_T6",
+    "GNS211_U1_T7",
+    "GNS211_U1_T8",
+    "GNS211_U1_T9",
+    "GNS211_U2_T1",
+    "GNS211_U2_T2",
+    "GNS211_U2_T3",
+    "GNS211_U2_T4",
+    "GNS211_U2_T5",
+    "GNS211_U3_T1",
+    "GNS211_U3_T10",
+    "GNS211_U3_T11",
+    "GNS211_U3_T12",
+    "GNS211_U3_T13",
+    "GNS211_U3_T14",
+    "GNS211_U3_T15",
+    "GNS211_U3_T16",
+    "GNS211_U3_T17",
+    "GNS211_U3_T18",
+    "GNS211_U3_T19",
+    "GNS211_U3_T2",
+    "GNS211_U3_T20",
+    "GNS211_U3_T21",
+    "GNS211_U3_T22",
+    "GNS211_U3_T23",
+    "GNS211_U3_T24",
+    "GNS211_U3_T25",
+    "GNS211_U3_T26",
+    "GNS211_U3_T27",
+    "GNS211_U3_T28",
+    "GNS211_U3_T29",
+    "GNS211_U3_T3",
+    "GNS211_U3_T30",
+    "GNS211_U3_T31",
+    "GNS211_U3_T4",
+    "GNS211_U3_T5",
+    "GNS211_U3_T6",
+    "GNS211_U3_T7",
+    "GNS211_U3_T8",
+    "GNS211_U3_T9",
+    "GNS211_U4_T1",
+    "GNS211_U4_T10",
+    "GNS211_U4_T11",
+    "GNS211_U4_T2",
+    "GNS211_U4_T3",
+    "GNS211_U4_T4",
+    "GNS211_U4_T5",
+    "GNS211_U4_T6",
+    "GNS211_U4_T7",
+    "GNS211_U4_T8",
+    "GNS211_U4_T9",
+    "GNS212_U1_T1",
+    "GNS212_U1_T10",
+    "GNS212_U1_T11",
+    "GNS212_U1_T12",
+    "GNS212_U1_T13",
+    "GNS212_U1_T14",
+    "GNS212_U1_T15",
+    "GNS212_U1_T16",
+    "GNS212_U1_T17",
+    "GNS212_U1_T18",
+    "GNS212_U1_T19",
+    "GNS212_U1_T2",
+    "GNS212_U1_T20",
+    "GNS212_U1_T21",
+    "GNS212_U1_T22",
+    "GNS212_U1_T23",
+    "GNS212_U1_T3",
+    "GNS212_U1_T4",
+    "GNS212_U1_T5",
+    "GNS212_U1_T6",
+    "GNS212_U1_T7",
+    "GNS212_U1_T8",
+    "GNS212_U1_T9",
+    "GNS212_U2_T1",
+    "GNS212_U2_T10",
+    "GNS212_U2_T11",
+    "GNS212_U2_T12",
+    "GNS212_U2_T2",
+    "GNS212_U2_T3",
+    "GNS212_U2_T4",
+    "GNS212_U2_T5",
+    "GNS212_U2_T6",
+    "GNS212_U2_T7",
+    "GNS212_U2_T8",
+    "GNS212_U2_T9",
+    "GNS212_U4_T1",
+    "GNS212_U4_T10",
+    "GNS212_U4_T11",
+    "GNS212_U4_T12",
+    "GNS212_U4_T13",
+    "GNS212_U4_T14",
+    "GNS212_U4_T15",
+    "GNS212_U4_T2",
+    "GNS212_U4_T3",
+    "GNS212_U4_T4",
+    "GNS212_U4_T5",
+    "GNS212_U4_T6",
+    "GNS212_U4_T7",
+    "GNS212_U4_T8",
+    "GNS212_U4_T9",
+    "GNS213_U1_T1",
+    "GNS213_U1_T10",
+    "GNS213_U1_T11",
+    "GNS213_U1_T12",
+    "GNS213_U1_T13",
+    "GNS213_U1_T14",
+    "GNS213_U1_T15",
+    "GNS213_U1_T16",
+    "GNS213_U1_T17",
+    "GNS213_U1_T2",
+    "GNS213_U1_T3",
+    "GNS213_U1_T4",
+    "GNS213_U1_T5",
+    "GNS213_U1_T6",
+    "GNS213_U1_T7",
+    "GNS213_U1_T8",
+    "GNS213_U1_T9",
+    "GNS213_U2_T1",
+    "GNS213_U2_T10",
+    "GNS213_U2_T11",
+    "GNS213_U2_T12",
+    "GNS213_U2_T13",
+    "GNS213_U2_T14",
+    "GNS213_U2_T15",
+    "GNS213_U2_T16",
+    "GNS213_U2_T17",
+    "GNS213_U2_T18",
+    "GNS213_U2_T2",
+    "GNS213_U2_T3",
+    "GNS213_U2_T4",
+    "GNS213_U2_T5",
+    "GNS213_U2_T6",
+    "GNS213_U2_T7",
+    "GNS213_U2_T8",
+    "GNS213_U2_T9",
+    "GNS213_U3_T1",
+    "GNS213_U3_T10",
+    "GNS213_U3_T11",
+    "GNS213_U3_T12",
+    "GNS213_U3_T13",
+    "GNS213_U3_T14",
+    "GNS213_U3_T2",
+    "GNS213_U3_T3",
+    "GNS213_U3_T4",
+    "GNS213_U3_T5",
+    "GNS213_U3_T6",
+    "GNS213_U3_T7",
+    "GNS213_U3_T8",
+    "GNS213_U3_T9",
+    "GNS213_U4_T1",
+    "GNS213_U4_T10",
+    "GNS213_U4_T2",
+    "GNS213_U4_T3",
+    "GNS213_U4_T4",
+    "GNS213_U4_T5",
+    "GNS213_U4_T6",
+    "GNS213_U4_T7",
+    "GNS213_U4_T8",
+    "GNS213_U4_T9",
+    "GNS213_U5_T1",
+    "GNS213_U5_T10",
+    "GNS213_U5_T11",
+    "GNS213_U5_T12",
+    "GNS213_U5_T13",
+    "GNS213_U5_T2",
+    "GNS213_U5_T3",
+    "GNS213_U5_T4",
+    "GNS213_U5_T5",
+    "GNS213_U5_T6",
+    "GNS213_U5_T7",
+    "GNS213_U5_T8",
+    "GNS213_U5_T9",
+    "GNS214_U1_T1",
+    "GNS214_U1_T10",
+    "GNS214_U1_T11",
+    "GNS214_U1_T12",
+    "GNS214_U1_T13",
+    "GNS214_U1_T14",
+    "GNS214_U1_T15",
+    "GNS214_U1_T16",
+    "GNS214_U1_T17",
+    "GNS214_U1_T18",
+    "GNS214_U1_T19",
+    "GNS214_U1_T2",
+    "GNS214_U1_T20",
+    "GNS214_U1_T21",
+    "GNS214_U1_T22",
+    "GNS214_U1_T3",
+    "GNS214_U1_T4",
+    "GNS214_U1_T43",
+    "GNS214_U1_T44",
+    "GNS214_U1_T45",
+    "GNS214_U1_T46",
+    "GNS214_U1_T47",
+    "GNS214_U1_T48",
+    "GNS214_U1_T49",
+    "GNS214_U1_T5",
+    "GNS214_U1_T50",
+    "GNS214_U1_T51",
+    "GNS214_U1_T52",
+    "GNS214_U1_T53",
+    "GNS214_U1_T54",
+    "GNS214_U1_T55",
+    "GNS214_U1_T56",
+    "GNS214_U1_T57",
+    "GNS214_U1_T58",
+    "GNS214_U1_T59",
+    "GNS214_U1_T6",
+    "GNS214_U1_T60",
+    "GNS214_U1_T61",
+    "GNS214_U1_T62",
+    "GNS214_U1_T63",
+    "GNS214_U1_T64",
+    "GNS214_U1_T65",
+    "GNS214_U1_T66",
+    "GNS214_U1_T67",
+    "GNS214_U1_T68",
+    "GNS214_U1_T69",
+    "GNS214_U1_T7",
+    "GNS214_U1_T70",
+    "GNS214_U1_T71",
+    "GNS214_U1_T72",
+    "GNS214_U1_T73",
+    "GNS214_U1_T74",
+    "GNS214_U1_T75",
+    "GNS214_U1_T76",
+    "GNS214_U1_T77",
+    "GNS214_U1_T78",
+    "GNS214_U1_T79",
+    "GNS214_U1_T8",
+    "GNS214_U1_T80",
+    "GNS214_U1_T81",
+    "GNS214_U1_T82",
+    "GNS214_U1_T83",
+    "GNS214_U1_T84",
+    "GNS214_U1_T85",
+    "GNS214_U1_T86",
+    "GNS214_U1_T87",
+    "GNS214_U1_T88",
+    "GNS214_U1_T89",
+    "GNS214_U1_T9",
+    "GNS214_U1_T90",
+    "GNS214_U1_T91",
+    "GNS214_U1_T92",
+    "GNS214_U1_T93",
+    "GNS214_U1_T94",
+    "GNS214_U1_T95",
+    "GNS214_U1_T96",
+    "GNS214_U1_T97",
+    "GNS215_U1_T1",
+    "GNS215_U1_T2",
+    "GNS215_U1_T3",
+    "GNS215_U1_T4",
+    "GNS215_U1_T5",
+    "GNS215_U1_T6",
+    "GNS215_U1_T7",
+    "GNS215_U1_T8",
+    "GNS215_U1_T9",
+    "GNS215_U2_T1",
+    "GNS215_U2_T2",
+    "GNS215_U2_T3",
+    "GNS215_U2_T4",
+    "GNS215_U2_T5",
+    "GNS215_U2_T6",
+    "GNS215_U3_T1",
+    "GNS215_U3_T2",
+    "GNS215_U3_T3",
+    "GNS215_U3_T4",
+    "GNS215_U3_T5",
+    "GNS215_U3_T6",
+    "GNS215_U3_T7",
+    "GNS215_U4_T1",
+    "GNS215_U4_T2",
+    "GNS215_U4_T3",
+    "GNS215_U4_T4",
+    "GNS215_U4_T5",
+    "GNS215_U4_T6",
+    "GNS215_U4_T7",
+    "GNS215_U5_T1",
+    "GNS215_U5_T2",
+    "GNS215_U5_T3",
+    "GNS215_U5_T4",
+    "GNS215_U5_T5",
+    "GNS215_U5_T6",
+    "GNS215_U5_T7",
+    "GNS215_U5_T8",
+    "GNS215_U6_T1",
+    "GNS215_U6_T10",
+    "GNS215_U6_T11",
+    "GNS215_U6_T12",
+    "GNS215_U6_T13",
+    "GNS215_U6_T14",
+    "GNS215_U6_T15",
+    "GNS215_U6_T16",
+    "GNS215_U6_T17",
+    "GNS215_U6_T18",
+    "GNS215_U6_T2",
+    "GNS215_U6_T3",
+    "GNS215_U6_T4",
+    "GNS215_U6_T5",
+    "GNS215_U6_T6",
+    "GNS215_U6_T7",
+    "GNS215_U6_T8",
+    "GNS215_U6_T9",
+    "GNS216_U1_T1",
+    "GNS216_U1_T2",
+    "GNS216_U1_T3",
+    "GNS216_U1_T4",
+    "GNS216_U1_T5",
+    "GNS216_U1_T6",
+    "GNS216_U1_T7",
+    "GNS216_U1_T8",
+    "GNS216_U2_T1",
+    "GNS216_U2_T2",
+    "GNS216_U2_T3",
+    "GNS216_U2_T4",
+    "GNS216_U2_T5",
+    "GNS216_U2_T6",
+    "GNS216_U2_T7",
+    "GNS216_U5_T1",
+    "GNS216_U5_T10",
+    "GNS216_U5_T11",
+    "GNS216_U5_T12",
+    "GNS216_U5_T13",
+    "GNS216_U5_T14",
+    "GNS216_U5_T15",
+    "GNS216_U5_T16",
+    "GNS216_U5_T17",
+    "GNS216_U5_T18",
+    "GNS216_U5_T19",
+    "GNS216_U5_T2",
+    "GNS216_U5_T20",
+    "GNS216_U5_T21",
+    "GNS216_U5_T22",
+    "GNS216_U5_T23",
+    "GNS216_U5_T24",
+    "GNS216_U5_T25",
+    "GNS216_U5_T26",
+    "GNS216_U5_T27",
+    "GNS216_U5_T28",
+    "GNS216_U5_T29",
+    "GNS216_U5_T3",
+    "GNS216_U5_T30",
+    "GNS216_U5_T31",
+    "GNS216_U5_T32",
+    "GNS216_U5_T33",
+    "GNS216_U5_T4",
+    "GNS216_U5_T5",
+    "GNS216_U5_T6",
+    "GNS216_U5_T7",
+    "GNS216_U5_T8",
+    "GNS216_U5_T9",
+    "GNS216_U6_T1",
+    "GNS216_U6_T10",
+    "GNS216_U6_T11",
+    "GNS216_U6_T12",
+    "GNS216_U6_T13",
+    "GNS216_U6_T2",
+    "GNS216_U6_T3",
+    "GNS216_U6_T4",
+    "GNS216_U6_T5",
+    "GNS216_U6_T6",
+    "GNS216_U6_T7",
+    "GNS216_U6_T8",
+    "GNS216_U6_T9",
+    "GNS217_U1_T1",
+    "GNS217_U1_T2",
+    "GNS217_U1_T3",
+    "GNS217_U1_T4",
+    "GNS217_U2_T1",
+    "GNS217_U2_T2",
+    "GNS217_U2_T3",
+    "GNS217_U2_T4",
+    "GNS217_U2_T5",
+    "GNS217_U2_T6",
+    "GNS217_U3_T1",
+    "GNS217_U3_T10",
+    "GNS217_U3_T11",
+    "GNS217_U3_T12",
+    "GNS217_U3_T13",
+    "GNS217_U3_T14",
+    "GNS217_U3_T15",
+    "GNS217_U3_T16",
+    "GNS217_U3_T17",
+    "GNS217_U3_T2",
+    "GNS217_U3_T3",
+    "GNS217_U3_T4",
+    "GNS217_U3_T5",
+    "GNS217_U3_T6",
+    "GNS217_U3_T7",
+    "GNS217_U3_T8",
+    "GNS217_U3_T9",
+    "GNS217_U4_T1",
+    "GNS217_U4_T10",
+    "GNS217_U4_T11",
+    "GNS217_U4_T12",
+    "GNS217_U4_T13",
+    "GNS217_U4_T14",
+    "GNS217_U4_T15",
+    "GNS217_U4_T2",
+    "GNS217_U4_T3",
+    "GNS217_U4_T4",
+    "GNS217_U4_T5",
+    "GNS217_U4_T6",
+    "GNS217_U4_T7",
+    "GNS217_U4_T8",
+    "GNS217_U4_T9",
+    "GNS221_U1_T1",
+    "GNS221_U1_T10",
+    "GNS221_U1_T11",
+    "GNS221_U1_T12",
+    "GNS221_U1_T2",
+    "GNS221_U1_T3",
+    "GNS221_U1_T4",
+    "GNS221_U1_T5",
+    "GNS221_U1_T6",
+    "GNS221_U1_T7",
+    "GNS221_U1_T8",
+    "GNS221_U1_T9",
+    "GNS221_U2_T1",
+    "GNS221_U2_T10",
+    "GNS221_U2_T11",
+    "GNS221_U2_T12",
+    "GNS221_U2_T13",
+    "GNS221_U2_T14",
+    "GNS221_U2_T15",
+    "GNS221_U2_T16",
+    "GNS221_U2_T17",
+    "GNS221_U2_T18",
+    "GNS221_U2_T19",
+    "GNS221_U2_T2",
+    "GNS221_U2_T3",
+    "GNS221_U2_T4",
+    "GNS221_U2_T5",
+    "GNS221_U2_T6",
+    "GNS221_U2_T7",
+    "GNS221_U2_T8",
+    "GNS221_U2_T9",
+    "GNS221_U3_T1",
+    "GNS221_U3_T10",
+    "GNS221_U3_T11",
+    "GNS221_U3_T12",
+    "GNS221_U3_T13",
+    "GNS221_U3_T14",
+    "GNS221_U3_T2",
+    "GNS221_U3_T3",
+    "GNS221_U3_T4",
+    "GNS221_U3_T5",
+    "GNS221_U3_T6",
+    "GNS221_U3_T7",
+    "GNS221_U3_T8",
+    "GNS221_U3_T9",
+    "GNS221_U4_T1",
+    "GNS221_U4_T10",
+    "GNS221_U4_T2",
+    "GNS221_U4_T3",
+    "GNS221_U4_T4",
+    "GNS221_U4_T5",
+    "GNS221_U4_T6",
+    "GNS221_U4_T7",
+    "GNS221_U4_T8",
+    "GNS221_U4_T9",
+    "GNS222_U1_T1",
+    "GNS222_U1_T10",
+    "GNS222_U1_T11",
+    "GNS222_U1_T12",
+    "GNS222_U1_T13",
+    "GNS222_U1_T14",
+    "GNS222_U1_T15",
+    "GNS222_U1_T16",
+    "GNS222_U1_T17",
+    "GNS222_U1_T18",
+    "GNS222_U1_T19",
+    "GNS222_U1_T2",
+    "GNS222_U1_T20",
+    "GNS222_U1_T21",
+    "GNS222_U1_T22",
+    "GNS222_U1_T23",
+    "GNS222_U1_T24",
+    "GNS222_U1_T25",
+    "GNS222_U1_T3",
+    "GNS222_U1_T4",
+    "GNS222_U1_T5",
+    "GNS222_U1_T6",
+    "GNS222_U1_T7",
+    "GNS222_U1_T8",
+    "GNS222_U1_T9",
+    "GNS222_U2_T1",
+    "GNS222_U2_T10",
+    "GNS222_U2_T11",
+    "GNS222_U2_T12",
+    "GNS222_U2_T13",
+    "GNS222_U2_T14",
+    "GNS222_U2_T15",
+    "GNS222_U2_T16",
+    "GNS222_U2_T17",
+    "GNS222_U2_T18",
+    "GNS222_U2_T19",
+    "GNS222_U2_T2",
+    "GNS222_U2_T20",
+    "GNS222_U2_T3",
+    "GNS222_U2_T4",
+    "GNS222_U2_T5",
+    "GNS222_U2_T6",
+    "GNS222_U2_T7",
+    "GNS222_U2_T8",
+    "GNS222_U2_T9",
+    "GNS222_U3_T1",
+    "GNS222_U3_T10",
+    "GNS222_U3_T11",
+    "GNS222_U3_T12",
+    "GNS222_U3_T13",
+    "GNS222_U3_T14",
+    "GNS222_U3_T15",
+    "GNS222_U3_T16",
+    "GNS222_U3_T17",
+    "GNS222_U3_T2",
+    "GNS222_U3_T21",
+    "GNS222_U3_T22",
+    "GNS222_U3_T3",
+    "GNS222_U3_T4",
+    "GNS222_U3_T5",
+    "GNS222_U3_T6",
+    "GNS222_U3_T7",
+    "GNS222_U3_T8",
+    "GNS222_U4_T13",
+    "GNS222_U4_T15",
+    "GNS222_U4_T16",
+    "GNS222_U4_T17",
+    "GNS222_U4_T18",
+    "GNS222_U4_T19",
+    "GNS222_U4_T20",
+    "GNS222_U4_T5",
+    "GNS222_U4_T9",
+    "GNS223_U1_T1",
+    "GNS223_U1_T2",
+    "GNS223_U1_T3",
+    "GNS223_U1_T4",
+    "GNS223_U1_T5",
+    "GNS223_U1_T6",
+    "GNS223_U2_T1",
+    "GNS223_U2_T2",
+    "GNS223_U2_T3",
+    "GNS223_U2_T4",
+    "GNS223_U5_T2",
+    "GNS223_U5_T4",
+    "GNS223_U5_T5",
+    "GNS223_U5_T6",
+    "GNS223_U6_T1",
+    "GNS223_U6_T2",
+    "GNS223_U6_T3",
+    "GNS223_U6_T4",
+    "GNS223_U6_T5",
+    "GNS223_U6_T6",
+    "GNS223_U6_T7",
+    "GNS223_U7_T1",
+    "GNS223_U7_T2",
+    "GNS223_U8_T2",
+    "GNS224_U1_T14",
+    "GNS224_U1_T8",
+    "GNS224_U2_T3",
+    "GNS224_U4_T3",
+    "GNS225_U2_T21",
+    "GNS225_U2_T8",
+    "GNS225_U3_T10",
+    "GNS225_U3_T11",
+    "GNS225_U3_T13",
+    "GNS225_U3_T14",
+    "GNS225_U3_T15",
+    "GNS225_U3_T16",
+    "GNS225_U3_T8",
+    "GNS225_U4_T1",
+    "GNS225_U4_T2",
+    "GNS225_U4_T3",
+    "GNS225_U4_T4",
+    "GNS225_U4_T5",
+    "GNS225_U4_T6",
+    "GNS225_U4_T7",
+    "GNS225_U4_T8",
+    "GNS225_U5_T1",
+    "GNS225_U5_T3",
+    "GNS225_U5_T4",
+    "GNS225_U5_T5",
+    "GNS225_U6_T10",
+    "GNS225_U6_T2",
+    "GNS225_U6_T3",
+    "GNS225_U6_T5",
+    "GNS225_U6_T6",
+    "GNS225_U6_T7",
+    "GNS225_U6_T8",
+    "GNS225_U6_T9",
+    "GNS225_U7_T1",
+    "GNS225_U7_T2",
+    "GNS225_U7_T3",
+    "GNS225_U7_T4",
+    "GNS225_U7_T5",
+    "GNS225_U7_T6",
+    "GNS225_U7_T7",
+    "GNS225_U7_T8",
+    "GNS226_U1_T002",
+    "GNS226_U1_T003",
+    "GNS226_U1_T008",
+    "GNS226_U1_T013",
+    "GNS226_U2_T001",
+    "GNS226_U2_T002",
+    "GNS226_U2_T004",
+    "GNS226_U2_T005",
+    "GNS226_U2_T006",
+    "GNS226_U2_T007",
+    "GNS226_U2_T008",
+    "GNS226_U2_T009",
+    "GNS226_U2_T010",
+    "GNS226_U2_T011",
+    "GNS226_U2_T012",
+    "GNS226_U2_T013",
+    "GNS226_U2_T014",
+    "GNS226_U2_T015",
+    "GNS226_U2_T016",
+    "GNS226_U2_T017",
+    "GNS226_U2_T020",
+    "GNS226_U3_T002",
+    "GNS226_U3_T005",
+    "GNS226_U3_T006",
+    "GNS226_U3_T007",
+    "GNS226_U3_T008",
+    "GNS226_U3_T009",
+    "GNS226_U3_T010",
+    "GNS226_U3_T011",
+    "GNS226_U3_T012",
+    "GNS226_U3_T013",
+    "GNS226_U3_T014",
+    "GNS226_U3_T015",
+    "GNS226_U3_T016",
+    "GNS226_U3_T017",
+    "GNS226_U3_T018",
+    "GNS226_U3_T019",
+    "GNS226_U3_T023",
+    "GNS226_U4_T009",
+    "GNS226_U5_T001",
+    "GNS226_U5_T002",
+    "GNS226_U5_T004",
+    "GNS226_U5_T005",
+    "GNS226_U5_T006",
+    "GNS226_U5_T007",
+    "GNS226_U5_T008",
+    "GNS226_U5_T009",
+    "GNS226_U5_T010",
+    "GNS226_U5_T011",
+    "GNS226_U5_T012",
+    "GNS226_U5_T013",
+    "GNS226_U5_T014",
+    "GNS226_U5_T015",
+    "GNS226_U5_T016",
+    "GNS226_U5_T017",
+    "GNS226_U5_T019",
+    "GNS226_U5_T021",
+    "GNS226_U5_T023",
+    "GNS227_U1_T011",
+    "GNS227_U1_T012",
+    "GNS227_U1_T015",
+    "GNS227_U2_T001",
+    "GNS227_U2_T002",
+    "GNS227_U2_T003",
+    "GNS227_U2_T004",
+    "GNS227_U2_T005",
+    "GNS227_U2_T006",
+    "GNS227_U2_T007",
+    "GNS227_U2_T008",
+    "GNS227_U2_T009",
+    "GNS227_U2_T010",
+    "GNS227_U2_T011",
+    "GNS227_U2_T012",
+    "GNS227_U2_T013",
+    "GNS227_U2_T016",
+    "GNS227_U2_T019",
+    "GNS227_U3_T008",
+    "GNS227_U3_T011",
+    "GNS227_U4_T005",
+    "GNS227_U4_T006",
+    "GNS311_U3_T4",
+    "GNS312_U1_T25",
+    "GNS312_U1_T27",
+    "GNS312_U3_T1",
+    "GNS312_U3_T2",
+    "GNS312_U3_T3",
+    "GNS312_U3_T4",
+    "GNS312_U3_T5",
+    "GNS312_U3_T6",
+    "GNS312_U3_T7",
+    "GNS312_U3_T8",
+    "GNS312_U3_T9",
+    "GNS314_U5_T5",
+    "GNS315_U2_T3",
+    "GST114_U1_T1",
+    "GST114_U1_T2",
+    "GST114_U1_T3",
+    "GST114_U1_T4",
+    "GST114_U2_T1",
+    "GST114_U2_T10",
+    "GST114_U2_T11",
+    "GST114_U2_T12",
+    "GST114_U2_T13",
+    "GST114_U2_T14",
+    "GST114_U2_T15",
+    "GST114_U2_T16",
+    "GST114_U2_T17",
+    "GST114_U2_T18",
+    "GST114_U2_T19",
+    "GST114_U2_T2",
+    "GST114_U2_T20",
+    "GST114_U2_T21",
+    "GST114_U2_T22",
+    "GST114_U2_T3",
+    "GST114_U2_T4",
+    "GST114_U2_T5",
+    "GST114_U2_T6",
+    "GST114_U2_T7",
+    "GST114_U2_T8",
+    "GST114_U2_T9",
+    "GST114_U3_T1",
+    "GST114_U3_T2",
+    "GST114_U3_T3",
+    "GST114_U3_T4",
+    "GST114_U3_T5",
+    "GST114_U3_T6",
+    "GST114_U3_T7",
+    "GST114_U3_T8",
+    "GST114_U4_T1",
+    "GST114_U4_T10",
+    "GST114_U4_T11",
+    "GST114_U4_T2",
+    "GST114_U4_T3",
+    "GST114_U4_T4",
+    "GST114_U4_T5",
+    "GST114_U4_T6",
+    "GST114_U4_T7",
+    "GST114_U4_T8",
+    "GST114_U4_T9",
+    "GST114_U5_T1",
+    "GST114_U5_T2",
+    "GST114_U5_T3",
+    "GST114_U5_T4",
+    "GST114_U5_T5",
+    "GST114_U6_T1",
+    "GST114_U6_T10",
+    "GST114_U6_T11",
+    "GST114_U6_T12",
+    "GST114_U6_T13",
+    "GST114_U6_T2",
+    "GST114_U6_T3",
+    "GST114_U6_T4",
+    "GST114_U6_T5",
+    "GST114_U6_T6",
+    "GST114_U6_T7",
+    "GST114_U6_T8",
+    "GST114_U6_T9"
+  ]
+}
+
+===== FILE: ./state/generation_state.json =====
+{
+  "headings_done": [
+    "GNS111_U1_T1",
+    "GNS111_U1_T2",
+    "GNS111_U1_T3",
+    "GNS111_U1_T4",
+    "GNS111_U1_T5",
+    "GNS111_U1_T6",
+    "GNS111_U1_T7",
+    "GNS111_U1_T8",
+    "GNS111_U1_T9",
+    "GNS111_U1_T10",
+    "GNS111_U2_T1",
+    "GNS111_U2_T2",
+    "GNS111_U2_T3",
+    "GNS111_U2_T4",
+    "GNS111_U2_T5",
+    "GNS111_U2_T9",
+    "GNS111_U2_T10",
+    "GNS111_U2_T14",
+    "GNS112_U3_T3",
+    "GNS112_U7_T7",
+    "GNS112_U7_T8",
+    "GNS112_U7_T9",
+    "GNS112_U7_T10",
+    "GNS113_U1_T1",
+    "GNS113_U1_T2",
+    "GNS113_U1_T3",
+    "GNS113_U1_T4",
+    "GNS113_U1_T5",
+    "GNS113_U1_T6",
+    "GNS113_U1_T7",
+    "GNS113_U1_T8",
+    "GNS113_U1_T9",
+    "GNS113_U1_T10",
+    "GNS113_U2_T1",
+    "GNS113_U2_T2",
+    "GNS113_U2_T3",
+    "GNS113_U2_T4",
+    "GNS111_U2_T6",
+    "GNS111_U2_T7",
+    "GNS111_U2_T8",
+    "GNS111_U2_T11",
+    "GNS111_U2_T12",
+    "GNS111_U2_T13",
+    "GNS112_U1_T1",
+    "GNS112_U1_T2",
+    "GNS112_U1_T3",
+    "GNS112_U1_T4",
+    "GNS112_U1_T5",
+    "GNS112_U1_T6",
+    "GNS112_U1_T7",
+    "GNS112_U2_T1",
+    "GNS112_U2_T2",
+    "GNS112_U2_T3",
+    "GNS112_U2_T4",
+    "GNS112_U2_T5",
+    "GNS112_U2_T6",
+    "GNS112_U3_T1",
+    "GNS112_U3_T2",
+    "GNS112_U3_T4",
+    "GNS112_U3_T5",
+    "GNS112_U3_T6",
+    "GNS112_U3_T7",
+    "GNS112_U4_T1",
+    "GNS112_U4_T2",
+    "GNS112_U4_T3",
+    "GNS112_U4_T4",
+    "GNS112_U4_T5",
+    "GNS112_U4_T6",
+    "GNS112_U4_T7",
+    "GNS112_U4_T8",
+    "GNS112_U4_T9",
+    "GNS112_U5_T1",
+    "GNS112_U5_T4",
+    "GNS112_U5_T6",
+    "GNS112_U5_T7",
+    "GNS112_U5_T8",
+    "GNS112_U5_T9",
+    "GNS112_U6_T4",
+    "GNS112_U7_T1",
+    "GNS121_U6_T10",
+    "GNS112_U5_T2",
+    "GNS112_U5_T3",
+    "GNS112_U5_T5",
+    "GNS112_U5_T10",
+    "GNS112_U5_T11",
+    "GNS112_U6_T1",
+    "GNS112_U6_T2",
+    "GNS112_U6_T3",
+    "GNS112_U7_T2",
+    "GNS112_U7_T3",
+    "GNS112_U7_T4",
+    "GNS112_U7_T5",
+    "GNS112_U7_T6",
+    "GNS113_U2_T5",
+    "GNS113_U2_T6",
+    "GNS113_U2_T7",
+    "GNS113_U2_T8",
+    "GNS113_U3_T1",
+    "GNS113_U3_T2",
+    "GNS113_U3_T3",
+    "GNS113_U3_T4",
+    "GNS113_U3_T5",
+    "GNS113_U3_T6",
+    "GNS113_U3_T7",
+    "GNS113_U4_T1",
+    "GNS113_U4_T2",
+    "GNS113_U4_T3",
+    "GNS113_U4_T4",
+    "GNS113_U4_T5",
+    "GST114_U1_T1",
+    "GST114_U1_T2",
+    "GST114_U1_T3",
+    "GST114_U1_T4",
+    "GST114_U2_T1",
+    "GST114_U2_T2",
+    "GST114_U2_T3",
+    "GST114_U2_T4",
+    "GST114_U2_T5",
+    "GST114_U2_T6",
+    "GST114_U2_T7",
+    "GST114_U2_T8",
+    "GST114_U2_T9",
+    "GST114_U2_T10",
+    "GST114_U2_T11",
+    "GST114_U2_T12",
+    "GST114_U2_T13",
+    "GST114_U2_T14",
+    "GST114_U2_T15",
+    "GST114_U2_T16",
+    "GST114_U2_T19",
+    "GST114_U2_T20",
+    "GST114_U3_T1",
+    "GST114_U3_T8",
+    "GST114_U5_T2",
+    "GNS122_U2_T5",
+    "GNS122_U2_T6",
+    "GNS122_U2_T7",
+    "GNS122_U2_T8",
+    "GNS122_U2_T9",
+    "GNS122_U2_T10",
+    "GNS122_U2_T11",
+    "GNS122_U2_T12",
+    "GNS122_U2_T13",
+    "GNS122_U2_T14",
+    "GNS122_U2_T15",
+    "GNS122_U2_T16",
+    "GNS122_U3_T1",
+    "GNS122_U3_T2",
+    "GNS122_U3_T3",
+    "GNS122_U3_T4",
+    "GNS122_U3_T5",
+    "GNS122_U3_T6",
+    "GNS122_U3_T7",
+    "GST114_U2_T17",
+    "GST114_U2_T18",
+    "GST114_U2_T21",
+    "GST114_U2_T22",
+    "GST114_U3_T2",
+    "GST114_U3_T3",
+    "GST114_U3_T4",
+    "GST114_U3_T5",
+    "GST114_U3_T6",
+    "GST114_U3_T7",
+    "GST114_U4_T1",
+    "GST114_U4_T2",
+    "GST114_U4_T4",
+    "GST114_U5_T1",
+    "GST114_U5_T3",
+    "GNS121_U1_T13",
+    "GNS125_U1_T10",
+    "GNS125_U2_T1",
+    "GNS125_U2_T2",
+    "GNS125_U2_T3",
+    "GNS125_U2_T4",
+    "GNS125_U2_T5",
+    "GNS125_U2_T6",
+    "GNS125_U2_T7",
+    "GNS125_U2_T8",
+    "GNS125_U2_T9",
+    "GNS125_U2_T10",
+    "GNS125_U2_T11",
+    "GNS125_U2_T13",
+    "GNS125_U3_T2",
+    "GNS125_U3_T7",
+    "GNS125_U3_T15",
+    "GNS125_U4_T3",
+    "GNS213_U2_T14",
+    "GNS213_U2_T15",
+    "GNS213_U2_T16",
+    "GNS213_U2_T17",
+    "GNS213_U2_T18",
+    "GNS213_U3_T1",
+    "GNS213_U3_T2",
+    "GNS213_U3_T3",
+    "GNS213_U3_T4",
+    "GNS213_U3_T5",
+    "GNS213_U3_T6",
+    "GNS213_U3_T7",
+    "GNS213_U3_T8",
+    "GNS213_U3_T11",
+    "GNS213_U4_T1",
+    "GNS215_U4_T1",
+    "GNS215_U4_T2",
+    "GST114_U4_T3",
+    "GST114_U4_T5",
+    "GST114_U4_T6",
+    "GST114_U4_T7",
+    "GST114_U4_T8",
+    "GST114_U4_T9",
+    "GST114_U4_T10",
+    "GST114_U4_T11",
+    "GST114_U5_T4",
+    "GST114_U5_T5",
+    "GST114_U6_T1",
+    "GST114_U6_T2",
+    "GST114_U6_T3",
+    "GST114_U6_T4",
+    "GST114_U6_T5",
+    "GST114_U6_T6",
+    "GST114_U6_T7",
+    "GST114_U6_T8",
+    "GST114_U6_T9",
+    "GST114_U6_T10",
+    "GST114_U6_T11",
+    "GST114_U6_T12",
+    "GST114_U6_T13",
+    "GNS121_U1_T1",
+    "GNS121_U1_T2",
+    "GNS121_U1_T3",
+    "GNS121_U1_T4",
+    "GNS121_U1_T5",
+    "GNS121_U1_T6",
+    "GNS121_U1_T7",
+    "GNS121_U1_T8",
+    "GNS121_U1_T9",
+    "GNS121_U1_T10",
+    "GNS121_U1_T11",
+    "GNS121_U1_T12",
+    "GNS121_U2_T1",
+    "GNS121_U2_T2",
+    "GNS121_U2_T4",
+    "GNS121_U2_T7",
+    "GNS121_U2_T12",
+    "GNS211_U1_T7",
+    "GNS211_U1_T8",
+    "GNS211_U1_T9",
+    "GNS211_U1_T10",
+    "GNS211_U1_T11",
+    "GNS211_U2_T1",
+    "GNS211_U2_T2",
+    "GNS211_U2_T3",
+    "GNS211_U2_T4",
+    "GNS211_U2_T5",
+    "GNS211_U3_T1",
+    "GNS211_U3_T2",
+    "GNS211_U3_T3",
+    "GNS211_U3_T4",
+    "GNS211_U3_T5",
+    "GNS211_U3_T6",
+    "GNS211_U3_T7",
+    "GNS211_U3_T19",
+    "GNS216_U6_T8",
+    "GNS216_U5_T19",
+    "GNS216_U5_T20",
+    "GNS216_U5_T21",
+    "GNS216_U5_T22",
+    "GNS216_U5_T23",
+    "GNS216_U5_T24",
+    "GNS216_U5_T25",
+    "GNS216_U5_T26",
+    "GNS216_U5_T27",
+    "GNS216_U5_T28",
+    "GNS216_U5_T29",
+    "GNS216_U5_T30",
+    "GNS216_U5_T31",
+    "GNS216_U5_T32",
+    "GNS216_U5_T33",
+    "GNS216_U6_T9",
+    "GNS217_U1_T4",
+    "GNS225_U3_T10",
+    "GNS225_U3_T11",
+    "GNS225_U3_T13",
+    "GNS225_U3_T14",
+    "GNS225_U3_T15",
+    "GNS225_U3_T16",
+    "GNS225_U4_T1",
+    "GNS225_U4_T2",
+    "GNS225_U4_T3",
+    "GNS225_U4_T4",
+    "GNS225_U4_T5",
+    "GNS225_U4_T6",
+    "GNS225_U4_T7",
+    "GNS225_U4_T8",
+    "GNS225_U5_T1",
+    "GNS225_U5_T3",
+    "GNS225_U5_T4",
+    "GNS225_U5_T5",
+    "GNS311_U3_T4",
+    "GNS121_U2_T3",
+    "GNS121_U2_T5",
+    "GNS121_U2_T6",
+    "GNS121_U2_T8",
+    "GNS121_U2_T9",
+    "GNS121_U2_T10",
+    "GNS121_U2_T11",
+    "GNS121_U2_T13",
+    "GNS121_U3_T1",
+    "GNS121_U3_T2",
+    "GNS121_U3_T3",
+    "GNS121_U3_T4",
+    "GNS121_U3_T5",
+    "GNS121_U3_T6",
+    "GNS121_U3_T9",
+    "GNS121_U3_T10",
+    "GNS121_U4_T1",
+    "GNS212_U1_T16",
+    "GNS212_U1_T17",
+    "GNS212_U1_T18",
+    "GNS212_U1_T19",
+    "GNS212_U1_T20",
+    "GNS212_U1_T21",
+    "GNS212_U1_T22",
+    "GNS212_U1_T23",
+    "GNS212_U2_T1",
+    "GNS212_U2_T2",
+    "GNS212_U2_T3",
+    "GNS212_U2_T4",
+    "GNS212_U2_T5",
+    "GNS212_U2_T6",
+    "GNS212_U2_T7",
+    "GNS212_U2_T8",
+    "GNS212_U2_T9",
+    "GNS212_U2_T11",
+    "GNS212_U4_T5",
+    "GNS221_U4_T2",
+    "GNS221_U4_T3",
+    "GNS221_U4_T4",
+    "GNS221_U4_T5",
+    "GNS221_U4_T6",
+    "GNS221_U4_T7",
+    "GNS221_U4_T8",
+    "GNS221_U4_T9",
+    "GNS221_U4_T10",
+    "GNS222_U1_T1",
+    "GNS222_U1_T2",
+    "GNS222_U1_T3",
+    "GNS222_U1_T4",
+    "GNS222_U1_T5",
+    "GNS222_U1_T6",
+    "GNS222_U1_T7",
+    "GNS222_U1_T8",
+    "GNS222_U1_T12",
+    "GNS222_U1_T14",
+    "GNS226_U5_T001",
+    "GNS226_U5_T002",
+    "GNS226_U5_T004",
+    "GNS226_U5_T005",
+    "GNS226_U5_T006",
+    "GNS226_U5_T007",
+    "GNS226_U5_T008",
+    "GNS226_U5_T009",
+    "GNS226_U5_T010",
+    "GNS226_U5_T011",
+    "GNS226_U5_T012",
+    "GNS226_U5_T013",
+    "GNS226_U5_T014",
+    "GNS226_U5_T015",
+    "GNS226_U5_T016",
+    "GNS226_U5_T017",
+    "GNS226_U5_T019",
+    "GNS226_U5_T021",
+    "GNS226_U5_T023",
+    "GNS314_U5_T5",
+    "GNS121_U3_T7",
+    "GNS121_U3_T8",
+    "GNS121_U3_T11",
+    "GNS121_U3_T12",
+    "GNS121_U4_T5",
+    "GNS121_U4_T8",
+    "GNS121_U5_T2",
+    "GNS121_U5_T6",
+    "GNS121_U5_T12",
+    "GNS121_U5_T16",
+    "GNS121_U5_T18",
+    "GNS121_U4_T2",
+    "GNS121_U4_T3",
+    "GNS121_U4_T4",
+    "GNS121_U4_T6",
+    "GNS121_U4_T7",
+    "GNS121_U5_T1",
+    "GNS121_U5_T3",
+    "GNS121_U5_T4",
+    "GNS121_U5_T5",
+    "GNS121_U5_T7",
+    "GNS121_U5_T8",
+    "GNS121_U5_T9",
+    "GNS121_U5_T10",
+    "GNS121_U5_T11",
+    "GNS121_U5_T13",
+    "GNS121_U5_T14",
+    "GNS121_U5_T15",
+    "GNS121_U5_T17",
+    "GNS121_U6_T13",
+    "GNS213_U1_T9",
+    "GNS213_U1_T10",
+    "GNS213_U1_T11",
+    "GNS213_U1_T12",
+    "GNS213_U1_T13",
+    "GNS213_U1_T14",
+    "GNS213_U1_T15",
+    "GNS213_U1_T16",
+    "GNS213_U1_T17",
+    "GNS213_U2_T1",
+    "GNS213_U2_T2",
+    "GNS213_U2_T3",
+    "GNS213_U2_T4",
+    "GNS213_U2_T5",
+    "GNS121_U6_T1",
+    "GNS121_U6_T2",
+    "GNS121_U6_T3",
+    "GNS121_U6_T4",
+    "GNS121_U6_T5",
+    "GNS121_U6_T6",
+    "GNS121_U6_T7",
+    "GNS121_U6_T8",
+    "GNS121_U6_T9",
+    "GNS121_U6_T11",
+    "GNS121_U6_T12",
+    "GNS121_U6_T14",
+    "GNS121_U6_T15",
+    "GNS121_U6_T16",
+    "GNS121_U7_T1",
+    "GNS121_U7_T2",
+    "GNS121_U7_T3",
+    "GNS121_U7_T4",
+    "GNS121_U7_T5",
+    "GNS121_U7_T6",
+    "GNS121_U7_T7",
+    "GNS121_U7_T8",
+    "GNS121_U7_T9",
+    "GNS121_U7_T10",
+    "GNS122_U1_T1",
+    "GNS122_U1_T2",
+    "GNS122_U1_T4",
+    "GNS122_U1_T6",
+    "GNS122_U1_T18",
+    "GNS122_U1_T19",
+    "GNS122_U1_T20",
+    "GNS122_U1_T21",
+    "GNS122_U1_T22",
+    "GNS122_U1_T23",
+    "GNS122_U2_T1",
+    "GNS122_U2_T2",
+    "GNS122_U2_T3",
+    "GNS122_U2_T4",
+    "GNS122_U3_T8",
+    "GNS122_U3_T9",
+    "GNS122_U3_T10",
+    "GNS122_U3_T11",
+    "GNS122_U3_T12",
+    "GNS122_U3_T18",
+    "GNS122_U3_T20",
+    "GNS214_U1_T82",
+    "GNS122_U1_T3",
+    "GNS122_U1_T5",
+    "GNS122_U1_T7",
+    "GNS122_U1_T8",
+    "GNS122_U1_T9",
+    "GNS122_U1_T10",
+    "GNS122_U1_T11",
+    "GNS122_U1_T12",
+    "GNS122_U1_T13",
+    "GNS122_U1_T14",
+    "GNS122_U1_T15",
+    "GNS122_U1_T16",
+    "GNS122_U3_T13",
+    "GNS122_U3_T14",
+    "GNS122_U3_T15",
+    "GNS213_U3_T10",
+    "GNS213_U3_T13",
+    "GNS213_U4_T3",
+    "GNS213_U4_T4",
+    "GNS213_U4_T5",
+    "GNS213_U4_T6",
+    "GNS213_U4_T7",
+    "GNS213_U4_T8",
+    "GNS213_U4_T9",
+    "GNS213_U4_T10",
+    "GNS213_U5_T1",
+    "GNS213_U5_T2",
+    "GNS213_U5_T4",
+    "GNS213_U5_T6",
+    "GNS214_U1_T2",
+    "GNS215_U5_T3",
+    "GNS215_U5_T4",
+    "GNS215_U5_T6",
+    "GNS215_U5_T8",
+    "GNS215_U6_T1",
+    "GNS215_U6_T2",
+    "GNS215_U6_T3",
+    "GNS215_U6_T4",
+    "GNS215_U6_T5",
+    "GNS215_U6_T6",
+    "GNS215_U6_T7",
+    "GNS215_U6_T8",
+    "GNS215_U6_T9",
+    "GNS215_U6_T10",
+    "GNS215_U6_T17",
+    "GNS216_U1_T7",
+    "GNS216_U6_T6",
+    "GNS217_U3_T16",
+    "GNS221_U1_T6",
+    "GNS222_U3_T14",
+    "GNS223_U5_T2",
+    "GNS223_U5_T4",
+    "GNS223_U5_T5",
+    "GNS223_U5_T6",
+    "GNS223_U6_T1",
+    "GNS223_U6_T2",
+    "GNS223_U6_T3",
+    "GNS223_U6_T4",
+    "GNS223_U6_T5",
+    "GNS223_U6_T6",
+    "GNS223_U6_T7",
+    "GNS223_U7_T1",
+    "GNS223_U7_T2",
+    "GNS223_U8_T2",
+    "GNS224_U1_T8",
+    "GNS224_U1_T14",
+    "GNS224_U4_T3",
+    "GNS225_U2_T8",
+    "GNS225_U3_T8",
+    "GNS226_U2_T006",
+    "GNS226_U2_T008",
+    "GNS226_U2_T009",
+    "GNS122_U1_T17",
+    "GNS122_U3_T16",
+    "GNS122_U3_T17",
+    "GNS122_U3_T19",
+    "GNS122_U4_T1",
+    "GNS122_U4_T2",
+    "GNS122_U4_T3",
+    "GNS122_U4_T4",
+    "GNS122_U4_T5",
+    "GNS122_U4_T6",
+    "GNS122_U4_T7",
+    "GNS122_U5_T1",
+    "GNS122_U5_T2",
+    "GNS122_U5_T3",
+    "GNS122_U5_T4",
+    "GNS122_U5_T5",
+    "GNS123_U1_T1",
+    "GNS123_U1_T2",
+    "GNS123_U1_T3",
+    "GNS123_U1_T4",
+    "GNS123_U1_T5",
+    "GNS123_U1_T6",
+    "GNS123_U1_T7",
+    "GNS123_U1_T8",
+    "GNS123_U1_T9",
+    "GNS123_U2_T1",
+    "GNS123_U2_T2",
+    "GNS123_U2_T3",
+    "GNS123_U2_T4",
+    "GNS123_U2_T5",
+    "GNS123_U2_T6",
+    "GNS123_U2_T7",
+    "GNS123_U2_T8",
+    "GNS123_U2_T9",
+    "GNS123_U2_T10",
+    "GNS123_U2_T11",
+    "GNS123_U2_T12",
+    "GNS123_U3_T3",
+    "GNS123_U3_T6",
+    "GNS123_U3_T8",
+    "GNS123_U4_T3",
+    "GNS124_U4_T2",
+    "GNS124_U4_T3",
+    "GNS124_U4_T4",
+    "GNS124_U4_T5",
+    "GNS124_U4_T6",
+    "GNS124_U4_T7",
+    "GNS124_U4_T8",
+    "GNS124_U5_T1",
+    "GNS124_U5_T2",
+    "GNS124_U5_T3",
+    "GNS124_U5_T4",
+    "GNS124_U5_T5",
+    "GNS124_U5_T6",
+    "GNS124_U5_T7",
+    "GNS124_U5_T8",
+    "GNS124_U5_T11",
+    "GNS124_U5_T12",
+    "GNS124_U6_T2",
+    "GNS125_U3_T14",
+    "GNS123_U2_T13",
+    "GNS123_U2_T14",
+    "GNS123_U3_T1",
+    "GNS123_U3_T2",
+    "GNS123_U3_T4",
+    "GNS123_U3_T5",
+    "GNS123_U3_T7",
+    "GNS123_U3_T9",
+    "GNS123_U3_T10",
+    "GNS123_U3_T11",
+    "GNS123_U3_T12",
+    "GNS123_U3_T13",
+    "GNS123_U3_T14",
+    "GNS123_U3_T15",
+    "GNS123_U3_T16",
+    "GNS123_U4_T2",
+    "GNS123_U4_T5",
+    "GNS123_U5_T2",
+    "GNS123_U5_T4",
+    "GNS214_U1_T64",
+    "GNS214_U1_T65",
+    "GNS214_U1_T66",
+    "GNS214_U1_T67",
+    "GNS214_U1_T68",
+    "GNS214_U1_T69",
+    "GNS214_U1_T70",
+    "GNS214_U1_T71",
+    "GNS214_U1_T72",
+    "GNS214_U1_T73",
+    "GNS214_U1_T74",
+    "GNS214_U1_T75",
+    "GNS214_U1_T76",
+    "GNS214_U1_T77",
+    "GNS214_U1_T78",
+    "GNS214_U1_T79",
+    "GNS214_U1_T85",
+    "GNS214_U1_T87",
+    "GNS214_U1_T88",
+    "GNS123_U4_T1",
+    "GNS123_U4_T4",
+    "GNS123_U4_T6",
+    "GNS123_U4_T7",
+    "GNS123_U5_T1",
+    "GNS123_U5_T3",
+    "GNS123_U5_T5",
+    "GNS123_U5_T6",
+    "GNS123_U5_T7",
+    "GNS123_U5_T8",
+    "GNS123_U5_T9",
+    "GNS123_U5_T10",
+    "GNS123_U5_T11",
+    "GNS123_U5_T12",
+    "GNS123_U6_T1",
+    "GNS123_U6_T2",
+    "GNS123_U6_T3",
+    "GNS123_U6_T4",
+    "GNS123_U6_T5",
+    "GNS123_U6_T6",
+    "GNS124_U1_T1",
+    "GNS124_U1_T2",
+    "GNS124_U1_T3",
+    "GNS124_U1_T4",
+    "GNS124_U1_T5",
+    "GNS124_U1_T6",
+    "GNS124_U1_T7",
+    "GNS124_U2_T1",
+    "GNS124_U2_T2",
+    "GNS124_U2_T6",
+    "GNS124_U2_T7",
+    "GNS124_U3_T2",
+    "GNS124_U3_T6",
+    "GNS124_U5_T10",
+    "GNS216_U5_T7",
+    "GNS216_U5_T8",
+    "GNS216_U5_T9",
+    "GNS216_U5_T10",
+    "GNS216_U5_T11",
+    "GNS216_U5_T12",
+    "GNS216_U5_T13",
+    "GNS216_U5_T14",
+    "GNS216_U5_T15",
+    "GNS216_U5_T16",
+    "GNS216_U5_T17",
+    "GNS216_U5_T18",
+    "GNS216_U6_T1",
+    "GNS216_U6_T2",
+    "GNS216_U6_T3",
+    "GNS216_U6_T4",
+    "GNS216_U6_T7",
+    "GNS216_U6_T10",
+    "GNS216_U6_T12",
+    "GNS123_U5_T13",
+    "GNS124_U2_T3",
+    "GNS124_U2_T4",
+    "GNS124_U2_T5",
+    "GNS124_U3_T1",
+    "GNS124_U3_T3",
+    "GNS124_U3_T4",
+    "GNS124_U3_T5",
+    "GNS124_U3_T7",
+    "GNS124_U3_T8",
+    "GNS124_U4_T1",
+    "GNS124_U5_T9",
+    "GNS124_U5_T13",
+    "GNS124_U6_T1",
+    "GNS124_U6_T3",
+    "GNS124_U6_T4",
+    "GNS124_U6_T5",
+    "GNS124_U6_T6",
+    "GNS216_U2_T7",
+    "GNS216_U5_T1",
+    "GNS216_U5_T2",
+    "GNS216_U5_T3",
+    "GNS216_U5_T4",
+    "GNS216_U5_T5",
+    "GNS216_U5_T6",
+    "GNS216_U6_T5",
+    "GNS216_U6_T11",
+    "GNS216_U6_T13",
+    "GNS217_U1_T1",
+    "GNS217_U1_T2",
+    "GNS217_U1_T3",
+    "GNS217_U2_T1",
+    "GNS217_U2_T2",
+    "GNS217_U2_T3",
+    "GNS217_U2_T6",
+    "GNS217_U3_T8",
+    "GNS225_U2_T21",
+    "GNS124_U6_T7",
+    "GNS125_U1_T1",
+    "GNS125_U1_T2",
+    "GNS125_U1_T3",
+    "GNS125_U1_T4",
+    "GNS125_U1_T5",
+    "GNS125_U1_T6",
+    "GNS125_U1_T7",
+    "GNS125_U1_T8",
+    "GNS125_U1_T9",
+    "GNS125_U2_T12",
+    "GNS125_U3_T1",
+    "GNS125_U3_T3",
+    "GNS125_U3_T4",
+    "GNS125_U3_T5",
+    "GNS125_U3_T6",
+    "GNS125_U3_T8",
+    "GNS125_U3_T9",
+    "GNS125_U3_T10",
+    "GNS125_U3_T11",
+    "GNS125_U3_T12",
+    "GNS125_U3_T13",
+    "GNS125_U3_T16",
+    "GNS125_U3_T17",
+    "GNS125_U3_T18",
+    "GNS125_U3_T19",
+    "GNS125_U4_T1",
+    "GNS125_U4_T2",
+    "GNS125_U4_T4",
+    "GNS125_U4_T5",
+    "GNS125_U5_T1",
+    "GNS125_U5_T2",
+    "GNS125_U5_T3",
+    "GNS125_U5_T5",
+    "GNS125_U5_T6",
+    "GNS125_U5_T10",
+    "GNS222_U1_T10",
+    "GNS222_U1_T11",
+    "GNS222_U1_T13",
+    "GNS222_U1_T15",
+    "GNS222_U1_T16",
+    "GNS222_U1_T17",
+    "GNS222_U1_T18",
+    "GNS222_U1_T19",
+    "GNS222_U1_T20",
+    "GNS222_U1_T21",
+    "GNS222_U1_T22",
+    "GNS222_U1_T23",
+    "GNS222_U1_T24",
+    "GNS222_U1_T25",
+    "GNS222_U2_T1",
+    "GNS222_U2_T3",
+    "GNS222_U2_T5",
+    "GNS222_U2_T6",
+    "GNS222_U2_T8",
+    "GNS125_U5_T4",
+    "GNS125_U5_T7",
+    "GNS125_U5_T8",
+    "GNS125_U5_T9",
+    "GNS211_U1_T1",
+    "GNS211_U1_T2",
+    "GNS211_U1_T3",
+    "GNS211_U1_T4",
+    "GNS211_U1_T5",
+    "GNS211_U1_T6",
+    "GNS211_U3_T8",
+    "GNS211_U3_T9",
+    "GNS211_U3_T10",
+    "GNS211_U3_T11",
+    "GNS211_U3_T12",
+    "GNS211_U3_T15",
+    "GNS211_U3_T16",
+    "GNS211_U3_T20",
+    "GNS211_U3_T23",
+    "GNS211_U3_T24",
+    "GNS222_U4_T9",
+    "GNS222_U4_T13",
+    "GNS222_U4_T15",
+    "GNS222_U4_T16",
+    "GNS222_U4_T17",
+    "GNS222_U4_T18",
+    "GNS222_U4_T19",
+    "GNS222_U4_T20",
+    "GNS223_U1_T1",
+    "GNS223_U1_T2",
+    "GNS223_U1_T3",
+    "GNS223_U1_T4",
+    "GNS223_U1_T5",
+    "GNS223_U1_T6",
+    "GNS223_U2_T1",
+    "GNS223_U2_T2",
+    "GNS223_U2_T3",
+    "GNS223_U2_T4",
+    "GNS211_U3_T13",
+    "GNS211_U3_T14",
+    "GNS211_U3_T18",
+    "GNS211_U3_T25",
+    "GNS211_U3_T26",
+    "GNS211_U3_T27",
+    "GNS211_U3_T17",
+    "GNS211_U3_T22",
+    "GNS211_U3_T28",
+    "GNS211_U3_T29",
+    "GNS211_U3_T30",
+    "GNS211_U3_T31",
+    "GNS211_U4_T4",
+    "GNS212_U1_T2",
+    "GNS212_U1_T3",
+    "GNS212_U1_T4",
+    "GNS212_U1_T7",
+    "GNS212_U1_T8",
+    "GNS212_U1_T10",
+    "GNS211_U3_T21",
+    "GNS211_U4_T1",
+    "GNS211_U4_T2",
+    "GNS211_U4_T3",
+    "GNS211_U4_T5",
+    "GNS211_U4_T6",
+    "GNS211_U4_T7",
+    "GNS211_U4_T8",
+    "GNS211_U4_T9",
+    "GNS211_U4_T10",
+    "GNS211_U4_T11",
+    "GNS212_U1_T1",
+    "GNS212_U1_T5",
+    "GNS212_U1_T6",
+    "GNS212_U1_T9",
+    "GNS212_U1_T13",
+    "GNS212_U4_T2",
+    "GNS212_U4_T4",
+    "GNS217_U4_T2",
+    "GNS217_U4_T4",
+    "GNS217_U4_T5",
+    "GNS217_U4_T6",
+    "GNS217_U4_T7",
+    "GNS217_U4_T8",
+    "GNS217_U4_T9",
+    "GNS217_U4_T10",
+    "GNS217_U4_T11",
+    "GNS217_U4_T12",
+    "GNS217_U4_T13",
+    "GNS217_U4_T14",
+    "GNS217_U4_T15",
+    "GNS221_U1_T1",
+    "GNS221_U1_T2",
+    "GNS221_U1_T3",
+    "GNS221_U1_T8",
+    "GNS221_U2_T2",
+    "GNS226_U2_T001",
+    "GNS226_U2_T002",
+    "GNS226_U2_T004",
+    "GNS226_U2_T005",
+    "GNS226_U2_T007",
+    "GNS226_U2_T010",
+    "GNS226_U2_T011",
+    "GNS226_U2_T012",
+    "GNS226_U2_T013",
+    "GNS226_U2_T014",
+    "GNS226_U2_T015",
+    "GNS226_U2_T016",
+    "GNS212_U1_T11",
+    "GNS212_U1_T12",
+    "GNS212_U1_T14",
+    "GNS212_U1_T15",
+    "GNS212_U2_T10",
+    "GNS212_U2_T12",
+    "GNS212_U4_T1",
+    "GNS212_U4_T3",
+    "GNS212_U4_T6",
+    "GNS212_U4_T7",
+    "GNS212_U4_T8",
+    "GNS212_U4_T9",
+    "GNS212_U4_T10",
+    "GNS212_U4_T11",
+    "GNS212_U4_T12",
+    "GNS212_U4_T13",
+    "GNS212_U4_T14",
+    "GNS212_U4_T15",
+    "GNS213_U1_T1",
+    "GNS213_U1_T2",
+    "GNS213_U1_T3",
+    "GNS213_U1_T4",
+    "GNS213_U1_T5",
+    "GNS213_U1_T8",
+    "GNS226_U2_T020",
+    "GNS226_U3_T002",
+    "GNS226_U3_T005",
+    "GNS226_U3_T006",
+    "GNS226_U3_T007",
+    "GNS226_U3_T008",
+    "GNS226_U3_T009",
+    "GNS226_U3_T010",
+    "GNS226_U3_T011",
+    "GNS226_U3_T012",
+    "GNS226_U3_T013",
+    "GNS226_U3_T014",
+    "GNS226_U3_T015",
+    "GNS226_U3_T016",
+    "GNS226_U3_T017",
+    "GNS226_U3_T018",
+    "GNS226_U3_T019",
+    "GNS226_U4_T009",
+    "GNS315_U2_T3",
+    "GNS213_U1_T6",
+    "GNS213_U1_T7",
+    "GNS213_U2_T6",
+    "GNS213_U2_T7",
+    "GNS213_U2_T8",
+    "GNS213_U2_T9",
+    "GNS213_U2_T10",
+    "GNS213_U2_T11",
+    "GNS213_U2_T12",
+    "GNS213_U2_T13",
+    "GNS213_U3_T9",
+    "GNS213_U3_T12",
+    "GNS213_U3_T14",
+    "GNS213_U4_T2",
+    "GNS213_U5_T3",
+    "GNS213_U5_T5",
+    "GNS213_U5_T7",
+    "GNS213_U5_T8",
+    "GNS213_U5_T9",
+    "GNS213_U5_T10",
+    "GNS213_U5_T11",
+    "GNS213_U5_T12",
+    "GNS213_U5_T13",
+    "GNS214_U1_T1",
+    "GNS214_U1_T3",
+    "GNS214_U1_T4",
+    "GNS214_U1_T5",
+    "GNS214_U1_T6",
+    "GNS214_U1_T7",
+    "GNS214_U1_T8",
+    "GNS214_U1_T9",
+    "GNS214_U1_T10",
+    "GNS214_U1_T11",
+    "GNS214_U1_T12",
+    "GNS214_U1_T13",
+    "GNS214_U1_T14",
+    "GNS214_U1_T15",
+    "GNS214_U1_T18",
+    "GNS214_U1_T55",
+    "GNS214_U1_T16",
+    "GNS214_U1_T17",
+    "GNS214_U1_T19",
+    "GNS214_U1_T20",
+    "GNS214_U1_T21",
+    "GNS214_U1_T22",
+    "GNS214_U1_T43",
+    "GNS214_U1_T44",
+    "GNS214_U1_T45",
+    "GNS214_U1_T46",
+    "GNS214_U1_T47",
+    "GNS214_U1_T48",
+    "GNS214_U1_T49",
+    "GNS214_U1_T50",
+    "GNS214_U1_T51",
+    "GNS214_U1_T52",
+    "GNS214_U1_T53",
+    "GNS214_U1_T61",
+    "GNS222_U2_T9",
+    "GNS222_U2_T10",
+    "GNS222_U2_T11",
+    "GNS222_U2_T12",
+    "GNS222_U2_T13",
+    "GNS222_U2_T14",
+    "GNS222_U2_T15",
+    "GNS214_U1_T54",
+    "GNS214_U1_T56",
+    "GNS214_U1_T57",
+    "GNS214_U1_T58",
+    "GNS214_U1_T59",
+    "GNS214_U1_T60",
+    "GNS214_U1_T62",
+    "GNS214_U1_T63",
+    "GNS214_U1_T80",
+    "GNS214_U1_T81",
+    "GNS214_U1_T83",
+    "GNS214_U1_T84",
+    "GNS214_U1_T86",
+    "GNS214_U1_T89",
+    "GNS214_U1_T90",
+    "GNS214_U1_T91",
+    "GNS214_U1_T92",
+    "GNS214_U1_T93",
+    "GNS214_U1_T94",
+    "GNS214_U1_T95",
+    "GNS214_U1_T96",
+    "GNS214_U1_T97",
+    "GNS215_U1_T1",
+    "GNS215_U1_T2",
+    "GNS215_U1_T3",
+    "GNS215_U1_T4",
+    "GNS215_U1_T5",
+    "GNS215_U1_T6",
+    "GNS215_U1_T7",
+    "GNS215_U1_T8",
+    "GNS215_U1_T9",
+    "GNS215_U2_T1",
+    "GNS215_U2_T2",
+    "GNS215_U2_T3",
+    "GNS215_U2_T4",
+    "GNS215_U2_T5",
+    "GNS215_U2_T6",
+    "GNS215_U3_T1",
+    "GNS215_U3_T2",
+    "GNS215_U3_T3",
+    "GNS215_U3_T4",
+    "GNS215_U3_T5",
+    "GNS215_U3_T6",
+    "GNS215_U3_T7",
+    "GNS215_U4_T3",
+    "GNS215_U4_T4",
+    "GNS215_U4_T5",
+    "GNS215_U4_T6",
+    "GNS215_U4_T7",
+    "GNS215_U5_T1",
+    "GNS215_U5_T2",
+    "GNS215_U5_T5",
+    "GNS215_U5_T7",
+    "GNS215_U6_T11",
+    "GNS215_U6_T12",
+    "GNS215_U6_T13",
+    "GNS215_U6_T14",
+    "GNS215_U6_T15",
+    "GNS215_U6_T16",
+    "GNS215_U6_T18",
+    "GNS216_U1_T1",
+    "GNS216_U1_T2",
+    "GNS216_U1_T3",
+    "GNS216_U1_T4",
+    "GNS216_U1_T5",
+    "GNS216_U1_T6",
+    "GNS216_U1_T8",
+    "GNS216_U2_T1",
+    "GNS216_U2_T2",
+    "GNS217_U2_T5",
+    "GNS217_U3_T4",
+    "GNS217_U3_T9",
+    "GNS217_U3_T12",
+    "GNS221_U1_T4",
+    "GNS222_U4_T5",
+    "GNS224_U2_T3",
+    "GNS225_U6_T2",
+    "GNS225_U6_T3",
+    "GNS225_U6_T5",
+    "GNS225_U6_T6",
+    "GNS225_U6_T7",
+    "GNS225_U6_T8",
+    "GNS225_U6_T9",
+    "GNS225_U6_T10",
+    "GNS225_U7_T1",
+    "GNS225_U7_T2",
+    "GNS225_U7_T3",
+    "GNS225_U7_T4",
+    "GNS225_U7_T5",
+    "GNS225_U7_T6",
+    "GNS225_U7_T7",
+    "GNS225_U7_T8",
+    "GNS226_U1_T002",
+    "GNS226_U1_T003",
+    "GNS226_U1_T008",
+    "GNS226_U1_T013",
+    "GNS226_U2_T017",
+    "GNS226_U3_T023",
+    "GNS216_U2_T3",
+    "GNS216_U2_T4",
+    "GNS216_U2_T5",
+    "GNS216_U2_T6",
+    "GNS217_U2_T4",
+    "GNS217_U3_T1",
+    "GNS217_U3_T2",
+    "GNS217_U3_T3",
+    "GNS217_U3_T5",
+    "GNS217_U3_T6",
+    "GNS217_U3_T7",
+    "GNS217_U3_T10",
+    "GNS217_U3_T11",
+    "GNS217_U3_T13",
+    "GNS217_U3_T14",
+    "GNS217_U3_T15",
+    "GNS217_U3_T17",
+    "GNS217_U4_T1",
+    "GNS217_U4_T3",
+    "GNS221_U1_T5",
+    "GNS221_U1_T7",
+    "GNS221_U1_T9",
+    "GNS221_U1_T10",
+    "GNS221_U1_T11",
+    "GNS221_U1_T12",
+    "GNS221_U2_T4",
+    "GNS227_U1_T011",
+    "GNS227_U1_T012",
+    "GNS227_U1_T015",
+    "GNS227_U2_T001",
+    "GNS227_U2_T002",
+    "GNS227_U2_T003",
+    "GNS227_U2_T004",
+    "GNS227_U2_T005",
+    "GNS227_U2_T006",
+    "GNS227_U2_T007",
+    "GNS227_U2_T008",
+    "GNS227_U2_T009",
+    "GNS227_U2_T010",
+    "GNS227_U2_T011",
+    "GNS227_U2_T012",
+    "GNS227_U2_T013",
+    "GNS227_U2_T016",
+    "GNS227_U2_T019",
+    "GNS221_U2_T1",
+    "GNS221_U2_T3",
+    "GNS221_U2_T5",
+    "GNS221_U2_T6",
+    "GNS221_U2_T7",
+    "GNS221_U2_T8",
+    "GNS221_U2_T9",
+    "GNS221_U2_T10",
+    "GNS221_U2_T11",
+    "GNS221_U2_T12",
+    "GNS221_U2_T13",
+    "GNS221_U2_T14",
+    "GNS221_U2_T15",
+    "GNS221_U2_T16",
+    "GNS221_U2_T17",
+    "GNS221_U3_T1",
+    "GNS221_U3_T4",
+    "GNS222_U3_T6",
+    "GNS312_U1_T25",
+    "GNS312_U1_T27",
+    "GNS312_U3_T1",
+    "GNS312_U3_T2",
+    "GNS312_U3_T3",
+    "GNS312_U3_T4",
+    "GNS312_U3_T5",
+    "GNS312_U3_T6",
+    "GNS312_U3_T7",
+    "GNS312_U3_T8",
+    "GNS312_U3_T9",
+    "GNS221_U2_T18",
+    "GNS221_U2_T19",
+    "GNS221_U3_T2",
+    "GNS221_U3_T3",
+    "GNS221_U3_T5",
+    "GNS221_U3_T6",
+    "GNS221_U3_T7",
+    "GNS221_U3_T8",
+    "GNS221_U3_T9",
+    "GNS221_U3_T10",
+    "GNS221_U3_T11",
+    "GNS221_U3_T12",
+    "GNS221_U3_T13",
+    "GNS221_U3_T14",
+    "GNS221_U4_T1",
+    "GNS222_U1_T9",
+    "GNS222_U2_T2",
+    "GNS222_U2_T4",
+    "GNS222_U2_T7",
+    "GNS222_U2_T16",
+    "GNS222_U2_T17",
+    "GNS222_U2_T18",
+    "GNS222_U2_T19",
+    "GNS222_U2_T20",
+    "GNS222_U3_T1",
+    "GNS222_U3_T2",
+    "GNS222_U3_T3",
+    "GNS222_U3_T4",
+    "GNS222_U3_T5",
+    "GNS222_U3_T10",
+    "GNS222_U3_T11",
+    "GNS227_U3_T008",
+    "GNS227_U3_T011",
+    "GNS227_U4_T005",
+    "GNS227_U4_T006",
+    "GNS222_U3_T7",
+    "GNS222_U3_T8",
+    "GNS222_U3_T9",
+    "GNS222_U3_T12",
+    "GNS222_U3_T13",
+    "GNS222_U3_T15",
+    "GNS222_U3_T16",
+    "GNS222_U3_T17",
+    "GNS222_U3_T18",
+    "GNS222_U3_T21",
+    "GNS222_U3_T22",
+    "GNS223_U3_T6",
+    "GNS222_U3_T19",
+    "GNS222_U3_T20",
+    "GNS222_U3_T23",
+    "GNS222_U3_T24",
+    "GNS222_U4_T1",
+    "GNS222_U4_T2",
+    "GNS222_U4_T3",
+    "GNS222_U4_T4",
+    "GNS222_U4_T6",
+    "GNS222_U4_T7",
+    "GNS222_U4_T8",
+    "GNS222_U4_T10",
+    "GNS222_U4_T11",
+    "GNS222_U4_T12",
+    "GNS222_U4_T14",
+    "GNS223_U2_T5",
+    "GNS223_U2_T6",
+    "GNS223_U3_T1",
+    "GNS223_U3_T2",
+    "GNS223_U3_T3",
+    "GNS223_U3_T5",
+    "GNS223_U3_T7",
+    "GNS223_U3_T4",
+    "GNS223_U3_T8",
+    "GNS223_U3_T9",
+    "GNS223_U5_T1",
+    "GNS223_U5_T3",
+    "GNS223_U7_T3",
+    "GNS223_U7_T4",
+    "GNS223_U8_T1",
+    "GNS223_U8_T3",
+    "GNS223_U8_T4",
+    "GNS223_U8_T5",
+    "GNS224_U1_T1",
+    "GNS224_U1_T2",
+    "GNS224_U1_T3",
+    "GNS224_U1_T4",
+    "GNS224_U1_T5",
+    "GNS224_U1_T6",
+    "GNS224_U1_T7",
+    "GNS224_U1_T9",
+    "GNS224_U1_T10",
+    "GNS224_U1_T11",
+    "GNS224_U1_T12",
+    "GNS224_U1_T13",
+    "GNS224_U1_T15",
+    "GNS225_U1_T1",
+    "GNS225_U1_T2",
+    "GNS224_U1_T16",
+    "GNS224_U1_T17",
+    "GNS224_U1_T18",
+    "GNS224_U1_T19",
+    "GNS224_U1_T20",
+    "GNS224_U1_T21",
+    "GNS224_U1_T22",
+    "GNS224_U1_T23",
+    "GNS224_U1_T24",
+    "GNS224_U1_T25",
+    "GNS224_U1_T26",
+    "GNS224_U1_T27",
+    "GNS224_U2_T1",
+    "GNS224_U2_T2",
+    "GNS224_U2_T4",
+    "GNS224_U2_T5",
+    "GNS224_U3_T1",
+    "GNS224_U3_T2",
+    "GNS224_U3_T3",
+    "GNS224_U4_T1",
+    "GNS224_U4_T2",
+    "GNS224_U4_T4",
+    "GNS225_U1_T3",
+    "GNS225_U1_T4",
+    "GNS225_U1_T5",
+    "GNS225_U1_T6",
+    "GNS225_U1_T7",
+    "GNS225_U1_T8",
+    "GNS225_U1_T9",
+    "GNS225_U2_T1",
+    "GNS225_U2_T2",
+    "GNS225_U2_T5",
+    "GNS225_U2_T6",
+    "GNS225_U2_T10",
+    "GNS225_U2_T11",
+    "GNS225_U2_T25",
+    "GNS225_U5_T8",
+    "GNS225_U2_T3",
+    "GNS225_U2_T4",
+    "GNS225_U2_T7",
+    "GNS225_U2_T9",
+    "GNS225_U2_T12",
+    "GNS225_U2_T13",
+    "GNS225_U2_T14",
+    "GNS225_U2_T15",
+    "GNS225_U2_T16",
+    "GNS225_U2_T17",
+    "GNS225_U2_T18",
+    "GNS225_U2_T19",
+    "GNS225_U2_T20",
+    "GNS225_U2_T22",
+    "GNS225_U2_T23",
+    "GNS225_U2_T24",
+    "GNS225_U3_T1",
+    "GNS225_U3_T5",
+    "GNS315_U1_T2",
+    "GNS315_U1_T3",
+    "GNS315_U1_T4",
+    "GNS315_U1_T5",
+    "GNS315_U1_T6",
+    "GNS315_U1_T7",
+    "GNS315_U1_T8",
+    "GNS315_U1_T9",
+    "GNS315_U1_T10",
+    "GNS225_U2_T26",
+    "GNS225_U2_T27",
+    "GNS225_U3_T2",
+    "GNS225_U3_T3",
+    "GNS225_U3_T4",
+    "GNS225_U3_T6",
+    "GNS225_U3_T7",
+    "GNS225_U3_T9",
+    "GNS225_U3_T12",
+    "GNS225_U5_T2",
+    "GNS225_U5_T6",
+    "GNS225_U5_T7",
+    "GNS225_U5_T9",
+    "GNS225_U5_T10",
+    "GNS225_U5_T11",
+    "GNS225_U5_T12",
+    "GNS225_U5_T17",
+    "GNS226_U1_T014",
+    "GNS226_U1_T015",
+    "GNS226_U1_T016",
+    "GNS226_U2_T003",
+    "GNS226_U2_T018",
+    "GNS226_U2_T019",
+    "GNS226_U3_T001",
+    "GNS226_U3_T003",
+    "GNS226_U3_T004",
+    "GNS226_U3_T020",
+    "GNS226_U3_T021",
+    "GNS226_U3_T022",
+    "GNS226_U3_T024",
+    "GNS226_U3_T025",
+    "GNS226_U4_T001",
+    "GNS226_U4_T002",
+    "GST319_U5_T4",
+    "GNS225_U5_T13",
+    "GNS225_U5_T14",
+    "GNS225_U5_T15",
+    "GNS225_U5_T16",
+    "GNS225_U5_T18",
+    "GNS225_U5_T19",
+    "GNS225_U5_T20",
+    "GNS225_U5_T21",
+    "GNS225_U5_T22",
+    "GNS225_U5_T23",
+    "GNS225_U5_T24",
+    "GNS225_U5_T25",
+    "GNS225_U5_T26",
+    "GNS225_U5_T27",
+    "GNS225_U5_T28",
+    "GNS225_U6_T1",
+    "GNS225_U6_T4",
+    "GNS226_U1_T001",
+    "GNS226_U1_T004",
+    "GNS226_U1_T005",
+    "GNS226_U1_T006",
+    "GNS226_U1_T007",
+    "GNS226_U4_T006",
+    "GNS226_U5_T026",
+    "GST319_U6_T4",
+    "GST319_U6_T5",
+    "GST319_U6_T6",
+    "GST319_U6_T7",
+    "GNS321_U1_T1",
+    "GNS321_U1_T2",
+    "GNS226_U1_T009",
+    "GNS226_U1_T010",
+    "GNS226_U1_T011",
+    "GNS226_U1_T012",
+    "GNS226_U4_T003",
+    "GNS226_U4_T004",
+    "GNS226_U4_T005",
+    "GNS226_U4_T007",
+    "GNS226_U4_T008",
+    "GNS226_U4_T010",
+    "GNS226_U4_T011",
+    "GNS226_U4_T012",
+    "GNS226_U5_T003",
+    "GNS226_U5_T018",
+    "GNS226_U5_T020",
+    "GNS226_U5_T022",
+    "GNS226_U5_T024",
+    "GNS226_U5_T025",
+    "GNS226_U6_T001",
+    "GNS226_U6_T002",
+    "GNS226_U6_T003",
+    "GNS226_U6_T004",
+    "GNS226_U6_T005",
+    "GNS226_U6_T006",
+    "GNS226_U6_T007",
+    "GNS226_U6_T008",
+    "GNS226_U6_T009",
+    "GNS226_U6_T010",
+    "GNS226_U6_T011",
+    "GNS226_U6_T012",
+    "GNS226_U6_T013",
+    "GNS226_U6_T014",
+    "GNS226_U6_T015",
+    "GNS226_U6_T016",
+    "GNS226_U6_T017",
+    "GNS226_U6_T018",
+    "GNS226_U6_T019",
+    "GNS226_U6_T020",
+    "GNS226_U6_T021",
+    "GNS226_U6_T022",
+    "GNS226_U6_T024",
+    "GNS226_U6_T025",
+    "GNS311_U1_T14",
+    "GNS311_U1_T15",
+    "GNS311_U2_T1",
+    "GNS311_U2_T2",
+    "GNS311_U2_T3",
+    "GNS311_U2_T4",
+    "GNS311_U2_T5",
+    "GNS311_U2_T6",
+    "GNS311_U2_T7",
+    "GNS311_U2_T8",
+    "GNS311_U2_T9",
+    "GNS311_U2_T10",
+    "GNS311_U2_T11",
+    "GNS311_U2_T12",
+    "GNS311_U2_T13",
+    "GNS311_U2_T14",
+    "GNS311_U2_T15",
+    "GNS311_U3_T2",
+    "GNS321_U4_T13",
+    "GNS226_U6_T023",
+    "GNS226_U6_T026",
+    "GNS226_U6_T027",
+    "GNS226_U6_T028",
+    "GNS226_U6_T029",
+    "GNS227_U1_T001",
+    "GNS227_U1_T002",
+    "GNS227_U1_T003",
+    "GNS227_U1_T004",
+    "GNS227_U1_T005",
+    "GNS227_U1_T006",
+    "GNS227_U1_T007",
+    "GNS227_U1_T008",
+    "GNS227_U1_T009",
+    "GNS227_U1_T010",
+    "GNS227_U1_T013",
+    "GNS227_U2_T017",
+    "GNS227_U4_T002",
+    "GNS227_U4_T009",
+    "GNS227_U7_T008",
+    "GNS227_U7_T012",
+    "GNS227_U7_T014",
+    "GNS311_U1_T1",
+    "GNS311_U1_T2",
+    "GNS311_U1_T3",
+    "GNS311_U1_T4",
+    "GNS311_U1_T5",
+    "GNS311_U1_T6",
+    "GNS311_U1_T7",
+    "GNS311_U1_T8",
+    "GNS311_U1_T9",
+    "GNS311_U1_T10",
+    "GNS311_U1_T11",
+    "GNS311_U1_T12",
+    "GNS311_U1_T13",
+    "GNS311_U3_T1",
+    "GNS312_U1_T1",
+    "GNS227_U1_T014",
+    "GNS227_U2_T014",
+    "GNS227_U2_T015",
+    "GNS227_U2_T018",
+    "GNS227_U2_T020",
+    "GNS227_U2_T021",
+    "GNS227_U2_T022",
+    "GNS227_U2_T023",
+    "GNS227_U2_T024",
+    "GNS227_U2_T025",
+    "GNS227_U2_T026",
+    "GNS227_U2_T027",
+    "GNS227_U2_T028",
+    "GNS227_U2_T029",
+    "GNS227_U2_T030",
+    "GNS227_U2_T031",
+    "GNS312_U4_T13",
+    "GNS312_U4_T14",
+    "GNS312_U4_T15",
+    "GNS312_U5_T1",
+    "GNS227_U3_T001",
+    "GNS227_U3_T002",
+    "GNS227_U3_T003",
+    "GNS227_U3_T004",
+    "GNS227_U3_T005",
+    "GNS227_U3_T006",
+    "GNS227_U3_T007",
+    "GNS227_U3_T009",
+    "GNS227_U3_T010",
+    "GNS227_U3_T012",
+    "GNS227_U4_T001",
+    "GNS227_U4_T003",
+    "GNS227_U4_T004",
+    "GNS227_U4_T007",
+    "GNS227_U4_T008",
+    "GNS227_U4_T010",
+    "GNS227_U4_T011",
+    "GNS227_U4_T012",
+    "GNS227_U4_T013",
+    "GNS227_U4_T014",
+    "GNS227_U4_T015",
+    "GNS227_U5_T001",
+    "GNS227_U5_T002",
+    "GNS227_U5_T003",
+    "GNS227_U5_T004",
+    "GNS227_U5_T005",
+    "GNS227_U5_T006",
+    "GNS227_U6_T001",
+    "GNS227_U6_T002",
+    "GNS227_U6_T003",
+    "GNS227_U6_T004",
+    "GNS227_U6_T005",
+    "GNS227_U6_T006",
+    "GNS227_U6_T007",
+    "GNS227_U6_T008",
+    "GNS227_U6_T009",
+    "GNS227_U6_T010",
+    "GNS227_U6_T011",
+    "GNS227_U6_T012",
+    "GNS227_U7_T001",
+    "GNS227_U7_T002",
+    "GNS227_U7_T003",
+    "GNS227_U7_T004",
+    "GNS227_U7_T010",
+    "GNS227_U7_T005",
+    "GNS227_U7_T006",
+    "GNS227_U7_T007",
+    "GNS227_U7_T009",
+    "GNS227_U7_T011",
+    "GNS227_U7_T013",
+    "GNS311_U3_T3",
+    "GNS311_U3_T5",
+    "GNS311_U3_T6",
+    "GNS311_U3_T7",
+    "GNS311_U3_T8",
+    "GNS311_U3_T9",
+    "GNS311_U4_T1",
+    "GNS311_U4_T2",
+    "GNS311_U4_T3",
+    "GNS311_U4_T4",
+    "GNS311_U4_T5",
+    "GNS311_U4_T6",
+    "GNS312_U1_T2",
+    "GNS312_U1_T3",
+    "GNS312_U1_T4",
+    "GNS312_U1_T5",
+    "GNS312_U1_T6",
+    "GNS312_U1_T7",
+    "GNS312_U1_T8",
+    "GNS312_U1_T9",
+    "GNS312_U1_T10",
+    "GNS312_U1_T11",
+    "GNS312_U1_T12",
+    "GNS312_U1_T13",
+    "GNS312_U1_T14",
+    "GNS312_U1_T15",
+    "GNS312_U1_T16",
+    "GNS312_U1_T17",
+    "GNS312_U1_T18",
+    "GNS312_U1_T19",
+    "GNS312_U1_T20",
+    "GNS312_U1_T21",
+    "GNS312_U1_T22",
+    "GNS312_U1_T23",
+    "GNS312_U1_T24",
+    "GNS312_U1_T26",
+    "GNS312_U3_T10",
+    "GNS312_U3_T11",
+    "GNS312_U3_T12",
+    "GNS312_U3_T13",
+    "GNS312_U3_T14",
+    "GNS312_U3_T15",
+    "GNS312_U3_T16",
+    "GNS312_U3_T17",
+    "GNS312_U3_T18",
+    "GNS312_U3_T19",
+    "GNS312_U3_T20",
+    "GNS312_U4_T1",
+    "GNS312_U4_T2",
+    "GNS312_U4_T3",
+    "GNS312_U4_T4",
+    "GNS312_U4_T5",
+    "GNS312_U4_T6",
+    "GNS312_U4_T7",
+    "GNS312_U4_T8",
+    "GNS312_U4_T9",
+    "GNS312_U4_T10",
+    "GNS312_U4_T11",
+    "GNS312_U4_T12",
+    "GNS312_U5_T2",
+    "GNS312_U5_T3",
+    "GNS312_U5_T4",
+    "GNS312_U5_T5",
+    "GNS312_U5_T6",
+    "GNS312_U5_T7",
+    "GNS312_U5_T8",
+    "GNS312_U5_T9",
+    "GNS313_U1_T2",
+    "GNS313_U1_T3",
+    "GNS313_U1_T12",
+    "GNS313_U1_T13",
+    "GNS313_U1_T18",
+    "GNS324_U4_T3",
+    "GNS324_U4_T4",
+    "GNS324_U4_T5",
+    "GNS324_U4_T6",
+    "GNS324_U4_T7",
+    "GNS324_U4_T8",
+    "GNS324_U4_T9",
+    "GNS324_U4_T10",
+    "GNS324_U4_T11",
+    "GNS324_U4_T12",
+    "GNS324_U4_T13",
+    "GNS324_U4_T14",
+    "GNS324_U4_T15",
+    "GNS324_U4_T16",
+    "GNS324_U5_T1",
+    "GNS324_U5_T2",
+    "GNS324_U5_T4",
+    "GNS324_U5_T13",
+    "GNS324_U6_T7",
+    "GST321_U10_T4",
+    "GST322_U4_T6",
+    "GNS313_U1_T1",
+    "GNS313_U1_T4",
+    "GNS313_U1_T5",
+    "GNS313_U1_T6",
+    "GNS313_U1_T7",
+    "GNS313_U1_T8",
+    "GNS313_U1_T9",
+    "GNS313_U1_T10",
+    "GNS313_U1_T11",
+    "GNS313_U1_T14",
+    "GNS313_U1_T15",
+    "GNS313_U1_T16",
+    "GNS313_U1_T17",
+    "GNS313_U1_T19",
+    "GNS313_U2_T1",
+    "GNS313_U2_T2",
+    "GNS313_U2_T3",
+    "GNS313_U2_T4",
+    "GNS313_U2_T5",
+    "GNS313_U2_T6",
+    "GNS313_U2_T7",
+    "GNS313_U2_T8",
+    "GNS324_U5_T10",
+    "GNS324_U5_T11",
+    "GNS324_U5_T14",
+    "GNS324_U5_T15",
+    "GNS324_U6_T1",
+    "GNS324_U6_T2",
+    "GNS324_U6_T3",
+    "GNS324_U6_T4",
+    "GNS324_U6_T5",
+    "GNS324_U6_T6",
+    "GNS324_U6_T8",
+    "GNS324_U6_T9",
+    "GST321_U1_T1",
+    "GST321_U1_T2",
+    "GST321_U1_T3",
+    "GST321_U1_T4",
+    "GST321_U1_T5",
+    "GST321_U1_T7",
+    "GST321_U1_T8",
+    "GNS313_U2_T9",
+    "GNS313_U2_T10",
+    "GNS313_U2_T11",
+    "GNS313_U2_T12",
+    "GNS313_U2_T13",
+    "GNS313_U2_T14",
+    "GNS313_U2_T16",
+    "GNS313_U2_T18",
+    "GNS313_U2_T19",
+    "GNS313_U2_T21",
+    "GNS313_U2_T15",
+    "GNS313_U2_T20",
+    "GNS313_U2_T17",
+    "GNS313_U2_T22",
+    "GNS313_U2_T23",
+    "GNS313_U2_T24",
+    "GNS313_U2_T25",
+    "GNS313_U2_T26",
+    "GNS313_U3_T1",
+    "GNS313_U3_T2",
+    "GNS313_U3_T3",
+    "GNS313_U3_T4",
+    "GNS313_U3_T5",
+    "GNS313_U3_T6",
+    "GNS313_U3_T7",
+    "GNS313_U3_T8",
+    "GNS313_U3_T9",
+    "GNS313_U3_T10",
+    "GNS313_U3_T12",
+    "GNS313_U3_T14",
+    "GST322_U2_T5",
+    "GST322_U3_T3",
+    "GST322_U3_T6",
+    "GST322_U3_T7",
+    "GST322_U4_T1",
+    "GST322_U4_T2",
+    "GST322_U4_T3",
+    "GST322_U4_T4",
+    "GST322_U4_T5",
+    "GST322_U4_T7",
+    "GST322_U4_T8",
+    "GST322_U4_T9",
+    "GST322_U4_T10",
+    "GST322_U4_T11",
+    "GST322_U4_T12",
+    "GST322_U5_T1",
+    "GST322_U5_T2",
+    "GST322_U5_T3",
+    "GNS313_U3_T11",
+    "GNS313_U3_T13",
+    "GNS313_U3_T15",
+    "GNS313_U4_T1",
+    "GNS313_U4_T2",
+    "GNS313_U4_T3",
+    "GNS313_U4_T4",
+    "GNS314_U1_T1",
+    "GNS314_U1_T2",
+    "GNS314_U1_T3",
+    "GNS314_U1_T4",
+    "GNS314_U1_T5",
+    "GNS314_U1_T6",
+    "GNS314_U1_T7",
+    "GNS314_U1_T8",
+    "GNS314_U1_T9",
+    "GNS314_U2_T1",
+    "GNS314_U2_T2",
+    "GNS314_U2_T3",
+    "GNS314_U2_T4",
+    "GNS314_U2_T5",
+    "GNS314_U2_T6",
+    "GNS314_U2_T7",
+    "GNS314_U2_T8",
+    "GNS314_U2_T9",
+    "GNS314_U4_T1",
+    "GNS314_U4_T2",
+    "GNS314_U4_T3",
+    "GNS314_U4_T4",
+    "GNS314_U4_T5",
+    "GNS314_U4_T6",
+    "GNS314_U4_T7",
+    "GNS314_U5_T1",
+    "GNS314_U5_T2",
+    "GNS314_U5_T3",
+    "GNS314_U5_T4",
+    "GNS314_U5_T6",
+    "GNS314_U5_T8",
+    "GNS314_U6_T1",
+    "GNS314_U6_T2",
+    "GNS314_U6_T3",
+    "GNS315_U1_T1",
+    "GST319_U5_T6",
+    "GST319_U5_T7",
+    "GST319_U5_T8",
+    "GST319_U6_T1",
+    "GST319_U6_T2",
+    "GST319_U6_T3",
+    "GNS321_U1_T3",
+    "GNS321_U1_T4",
+    "GNS321_U1_T5",
+    "GNS321_U1_T6",
+    "GNS321_U1_T7",
+    "GNS321_U1_T8",
+    "GNS321_U1_T9",
+    "GNS321_U1_T10",
+    "GNS321_U1_T11",
+    "GNS321_U1_T12",
+    "GNS321_U1_T13",
+    "GNS321_U2_T4",
+    "GNS321_U2_T7",
+    "GST321_U7_T3",
+    "GST321_U7_T4",
+    "GST321_U7_T5",
+    "GNS314_U5_T7",
+    "GNS314_U6_T4",
+    "GNS314_U6_T5",
+    "GNS315_U1_T11",
+    "GNS315_U1_T12",
+    "GNS315_U2_T1",
+    "GNS315_U2_T2",
+    "GNS315_U2_T4",
+    "GNS315_U3_T1",
+    "GNS315_U3_T2",
+    "GNS315_U3_T3",
+    "GNS315_U3_T4",
+    "GNS315_U3_T5",
+    "GNS315_U3_T6",
+    "GNS315_U3_T7",
+    "GNS315_U3_T8",
+    "GNS315_U4_T3",
+    "GNS315_U4_T4",
+    "GNS315_U3_T9",
+    "GNS315_U4_T1",
+    "GNS315_U4_T2",
+    "GNS315_U5_T1",
+    "GNS315_U5_T2",
+    "GNS315_U5_T3",
+    "GNS315_U5_T4",
+    "GNS315_U5_T5",
+    "GNS315_U5_T6",
+    "GNS315_U5_T7",
+    "GNS315_U5_T8",
+    "GNS315_U5_T9",
+    "GNS315_U5_T10",
+    "GNS315_U5_T11",
+    "GST319_U1_T1",
+    "GST319_U1_T2",
+    "GST319_U1_T3",
+    "GST319_U2_T2",
+    "GST319_U2_T3",
+    "GST319_U1_T4",
+    "GST319_U1_T5",
+    "GST319_U1_T6",
+    "GST319_U2_T1",
+    "GST319_U2_T4",
+    "GST319_U2_T5",
+    "GST319_U2_T6",
+    "GST319_U2_T7",
+    "GST319_U2_T8",
+    "GST319_U2_T9",
+    "GST319_U3_T1",
+    "GST319_U3_T2",
+    "GST319_U3_T3",
+    "GST319_U3_T4",
+    "GST319_U3_T5",
+    "GST319_U4_T1",
+    "GST319_U4_T2",
+    "GST319_U4_T3",
+    "GST319_U4_T9",
+    "GST319_U4_T4",
+    "GST319_U4_T5",
+    "GST319_U4_T6",
+    "GST319_U4_T7",
+    "GST319_U4_T8",
+    "GST319_U5_T1",
+    "GST319_U5_T2",
+    "GST319_U5_T3",
+    "GST319_U5_T5",
+    "GNS321_U2_T1",
+    "GNS321_U2_T2",
+    "GNS321_U2_T3",
+    "GNS321_U2_T5",
+    "GNS321_U2_T6",
+    "GNS321_U2_T8",
+    "GNS321_U2_T9",
+    "GNS321_U2_T10",
+    "GNS321_U2_T11",
+    "GNS321_U2_T14",
+    "GNS321_U2_T15",
+    "GNS321_U3_T1",
+    "GNS321_U3_T5",
+    "GNS321_U2_T12",
+    "GNS321_U2_T13",
+    "GNS321_U3_T2",
+    "GNS321_U3_T3",
+    "GNS321_U3_T4",
+    "GNS321_U3_T6",
+    "GNS321_U3_T7",
+    "GNS321_U4_T1",
+    "GNS321_U4_T2",
+    "GNS321_U4_T3",
+    "GNS321_U4_T4",
+    "GNS321_U4_T5",
+    "GNS321_U4_T6",
+    "GNS321_U4_T7",
+    "GNS321_U4_T8",
+    "GNS321_U4_T17",
+    "GNS324_U2_T8",
+    "GNS324_U3_T2",
+    "GNS321_U4_T9",
+    "GNS321_U4_T10",
+    "GNS321_U4_T11",
+    "GNS321_U4_T12",
+    "GNS321_U4_T14",
+    "GNS321_U4_T15",
+    "GNS321_U4_T16",
+    "GNS324_U1_T1",
+    "GNS324_U1_T2",
+    "GNS324_U1_T3",
+    "GNS324_U1_T4",
+    "GNS324_U1_T5",
+    "GNS324_U1_T6",
+    "GNS324_U1_T7",
+    "GNS324_U1_T8",
+    "GNS324_U1_T9",
+    "GNS324_U1_T10",
+    "GNS324_U1_T11",
+    "GNS324_U2_T1",
+    "GNS324_U2_T2",
+    "GNS324_U2_T3",
+    "GNS324_U2_T4",
+    "GNS324_U2_T5",
+    "GNS324_U2_T6",
+    "GNS324_U2_T7",
+    "GNS324_U3_T1",
+    "GNS324_U3_T3",
+    "GNS324_U3_T4",
+    "GNS324_U3_T5",
+    "GNS324_U3_T7",
+    "GNS324_U3_T9",
+    "GNS324_U3_T15",
+    "GNS324_U4_T17",
+    "GNS324_U3_T6",
+    "GNS324_U3_T8",
+    "GNS324_U3_T10",
+    "GNS324_U3_T11",
+    "GNS324_U3_T12",
+    "GNS324_U3_T13",
+    "GNS324_U3_T14",
+    "GNS324_U3_T16",
+    "GNS324_U4_T1",
+    "GNS324_U4_T2",
+    "GNS324_U4_T18",
+    "GNS324_U5_T3",
+    "GNS324_U5_T5",
+    "GNS324_U5_T6",
+    "GNS324_U5_T7",
+    "GNS324_U5_T8",
+    "GNS324_U5_T9",
+    "GNS324_U5_T12",
+    "GST321_U1_T6",
+    "GST321_U1_T9",
+    "GST321_U1_T10",
+    "GST321_U3_T3",
+    "GST321_U7_T2",
+    "GST321_U8_T8",
+    "GST321_U1_T11",
+    "GST321_U1_T12",
+    "GST321_U1_T13",
+    "GST321_U1_T14",
+    "GST321_U1_T15",
+    "GST321_U1_T16",
+    "GST321_U1_T17",
+    "GST321_U1_T18",
+    "GST321_U1_T19",
+    "GST321_U1_T20",
+    "GST321_U1_T21",
+    "GST321_U1_T22",
+    "GST321_U1_T23",
+    "GST321_U1_T24",
+    "GST321_U2_T1",
+    "GST321_U2_T2",
+    "GST321_U2_T3",
+    "GST321_U2_T4",
+    "GST321_U3_T2",
+    "GST321_U2_T5",
+    "GST321_U3_T1",
+    "GST321_U3_T4",
+    "GST321_U3_T5",
+    "GST321_U3_T6",
+    "GST321_U3_T7",
+    "GST321_U4_T1",
+    "GST321_U4_T2",
+    "GST321_U4_T3",
+    "GST321_U4_T4",
+    "GST321_U4_T5",
+    "GST321_U5_T1",
+    "GST321_U5_T2",
+    "GST321_U5_T3",
+    "GST321_U5_T4",
+    "GST321_U6_T1",
+    "GST321_U6_T2",
+    "GST321_U8_T2",
+    "GST321_U8_T4",
+    "GST321_U6_T3",
+    "GST321_U7_T1",
+    "GST321_U8_T1",
+    "GST321_U8_T3",
+    "GST321_U8_T5",
+    "GST321_U8_T6",
+    "GST321_U8_T7",
+    "GST321_U8_T9",
+    "GST321_U9_T1",
+    "GST321_U9_T2",
+    "GST321_U9_T3",
+    "GST321_U9_T4",
+    "GST321_U10_T1",
+    "GST321_U10_T2",
+    "GST321_U10_T3",
+    "GST321_U10_T5",
+    "GST321_U10_T6",
+    "GST321_U10_T7",
+    "GST322_U1_T1",
+    "GST322_U1_T2",
+    "GST322_U1_T3",
+    "GST322_U1_T4",
+    "GST322_U2_T2",
+    "GST322_U2_T3",
+    "GST322_U3_T5",
+    "GST322_U2_T1",
+    "GST322_U2_T4",
+    "GST322_U3_T1",
+    "GST322_U3_T2",
+    "GST322_U3_T4",
+    "GST322_U5_T4",
+    "GST322_U5_T5"
+  ],
+  "articles_done": [
+    "GNS111_U1_T1",
+    "GNS111_U1_T2",
+    "GNS111_U1_T4",
+    "GNS111_U1_T5",
+    "GNS111_U1_T3",
+    "GNS111_U1_T6",
+    "GNS111_U1_T7",
+    "GNS111_U1_T8",
+    "GNS111_U1_T9",
+    "GNS111_U1_T10",
+    "GNS111_U2_T1",
+    "GNS111_U2_T2",
+    "GNS111_U2_T3",
+    "GNS111_U2_T4",
+    "GNS111_U2_T5",
+    "GNS111_U2_T9",
+    "GNS111_U2_T10",
+    "GNS111_U2_T14",
+    "GNS112_U3_T3",
+    "GNS112_U7_T7",
+    "GNS112_U7_T8",
+    "GNS112_U7_T9",
+    "GNS112_U7_T10",
+    "GNS113_U1_T1",
+    "GNS113_U1_T8",
+    "GNS113_U1_T2",
+    "GNS113_U1_T3",
+    "GNS113_U1_T4",
+    "GNS112_U2_T1",
+    "GNS112_U3_T5",
+    "GNS112_U3_T6",
+    "GNS112_U5_T8",
+    "GST114_U2_T8",
+    "GST114_U2_T9",
+    "GST114_U2_T10",
+    "GNS122_U2_T5",
+    "GNS213_U3_T1",
+    "GNS213_U3_T2",
+    "GNS213_U3_T3",
+    "GNS113_U1_T5",
+    "GNS113_U1_T6",
+    "GNS113_U1_T9",
+    "GNS113_U2_T2",
+    "GNS111_U2_T7",
+    "GNS112_U5_T10",
+    "GNS122_U3_T2",
+    "GNS125_U2_T3",
+    "GST114_U6_T12",
+    "GNS216_U5_T19",
+    "GNS121_U3_T2",
+    "GNS221_U4_T3",
+    "GNS226_U5_T014",
+    "GST114_U4_T11",
+    "GNS113_U1_T7",
+    "GNS113_U1_T10",
+    "GNS113_U2_T1",
+    "GNS113_U2_T3",
+    "GNS113_U2_T4",
+    "GNS111_U2_T6",
+    "GNS111_U2_T8",
+    "GNS111_U2_T11",
+    "GNS111_U2_T12",
+    "GNS111_U2_T13",
+    "GNS112_U1_T1",
+    "GNS112_U1_T2",
+    "GNS112_U1_T3",
+    "GNS112_U1_T4",
+    "GNS112_U1_T5",
+    "GNS112_U1_T6",
+    "GNS112_U1_T7",
+    "GNS112_U2_T2",
+    "GNS112_U2_T3",
+    "GNS112_U2_T4",
+    "GNS112_U2_T5",
+    "GNS112_U2_T6",
+    "GNS112_U3_T1",
+    "GNS112_U3_T2",
+    "GNS112_U3_T7",
+    "GNS112_U4_T1",
+    "GNS112_U4_T2",
+    "GNS112_U3_T4",
+    "GNS112_U4_T3",
+    "GNS112_U4_T4",
+    "GNS112_U4_T5",
+    "GNS112_U4_T6",
+    "GNS112_U4_T7",
+    "GNS112_U4_T8",
+    "GNS112_U4_T9",
+    "GNS112_U5_T1",
+    "GNS112_U5_T4",
+    "GNS112_U5_T6",
+    "GNS112_U5_T7",
+    "GNS112_U5_T9",
+    "GNS112_U6_T4",
+    "GNS112_U7_T1",
+    "GNS121_U6_T10",
+    "GNS112_U5_T2",
+    "GNS112_U5_T3",
+    "GNS112_U5_T5",
+    "GNS112_U5_T11",
+    "GNS112_U6_T1",
+    "GNS112_U6_T2",
+    "GNS112_U6_T3",
+    "GNS112_U7_T2",
+    "GNS112_U7_T3",
+    "GNS112_U7_T4",
+    "GNS112_U7_T5",
+    "GNS113_U2_T5",
+    "GNS113_U2_T6",
+    "GNS113_U2_T7",
+    "GNS113_U2_T8",
+    "GNS113_U3_T1",
+    "GNS113_U3_T2",
+    "GNS113_U3_T3",
+    "GNS112_U7_T6",
+    "GNS113_U3_T4",
+    "GNS113_U3_T5",
+    "GNS113_U3_T6",
+    "GNS113_U3_T7",
+    "GNS113_U4_T1",
+    "GNS113_U4_T2",
+    "GNS113_U4_T3",
+    "GNS113_U4_T4",
+    "GNS113_U4_T5",
+    "GST114_U1_T1",
+    "GST114_U1_T2",
+    "GST114_U1_T3",
+    "GST114_U2_T1",
+    "GST114_U2_T2",
+    "GST114_U2_T3",
+    "GST114_U1_T4",
+    "GST114_U2_T4",
+    "GST114_U2_T5",
+    "GST114_U2_T6",
+    "GST114_U2_T7",
+    "GST114_U2_T11",
+    "GST114_U2_T12",
+    "GST114_U2_T13",
+    "GST114_U2_T14",
+    "GST114_U2_T15",
+    "GST114_U2_T16",
+    "GST114_U2_T19",
+    "GST114_U3_T1",
+    "GST114_U3_T8",
+    "GST114_U5_T2",
+    "GNS122_U2_T6",
+    "GNS122_U2_T7",
+    "GNS122_U2_T8",
+    "GNS122_U2_T9",
+    "GNS122_U2_T10",
+    "GNS122_U2_T11",
+    "GNS122_U2_T12",
+    "GNS122_U2_T13",
+    "GST114_U2_T20",
+    "GNS122_U2_T14",
+    "GNS122_U2_T15",
+    "GNS122_U3_T1",
+    "GNS122_U3_T3",
+    "GNS122_U3_T4",
+    "GNS122_U3_T5",
+    "GNS122_U2_T16",
+    "GNS122_U3_T6",
+    "GNS122_U3_T7",
+    "GST114_U2_T17",
+    "GST114_U2_T18",
+    "GST114_U2_T21",
+    "GST114_U2_T22",
+    "GST114_U3_T2",
+    "GST114_U3_T4",
+    "GST114_U3_T3",
+    "GST114_U5_T1",
+    "GST114_U3_T5",
+    "GST114_U3_T6",
+    "GST114_U3_T7",
+    "GST114_U4_T1",
+    "GST114_U4_T2",
+    "GST114_U4_T4",
+    "GST114_U5_T3",
+    "GNS121_U1_T13",
+    "GNS125_U1_T10",
+    "GNS125_U2_T1",
+    "GNS125_U2_T2",
+    "GNS125_U2_T4",
+    "GNS125_U2_T5",
+    "GNS125_U2_T6",
+    "GNS125_U2_T7",
+    "GNS125_U2_T8",
+    "GNS125_U2_T9",
+    "GNS125_U2_T10",
+    "GNS125_U2_T11",
+    "GNS125_U2_T13",
+    "GNS125_U3_T2",
+    "GNS125_U3_T7",
+    "GNS125_U3_T15",
+    "GNS125_U4_T3",
+    "GNS213_U2_T14",
+    "GNS213_U2_T15",
+    "GNS213_U2_T16",
+    "GNS213_U2_T17",
+    "GNS213_U2_T18",
+    "GNS213_U3_T4",
+    "GNS213_U3_T5",
+    "GNS213_U3_T6",
+    "GNS213_U3_T7",
+    "GNS213_U3_T8",
+    "GNS213_U3_T11",
+    "GNS213_U4_T1",
+    "GNS215_U4_T1",
+    "GNS215_U4_T2",
+    "GST114_U4_T3",
+    "GST114_U4_T5",
+    "GST114_U4_T6",
+    "GST114_U4_T7",
+    "GST114_U4_T8",
+    "GST114_U4_T9",
+    "GST114_U4_T10",
+    "GST114_U5_T4",
+    "GST114_U5_T5",
+    "GST114_U6_T1",
+    "GST114_U6_T2",
+    "GST114_U6_T3",
+    "GST114_U6_T4",
+    "GST114_U6_T5",
+    "GST114_U6_T6",
+    "GST114_U6_T7",
+    "GST114_U6_T8",
+    "GST114_U6_T9",
+    "GST114_U6_T10",
+    "GST114_U6_T13",
+    "GNS121_U1_T1",
+    "GNS121_U1_T2",
+    "GNS121_U1_T3",
+    "GNS121_U1_T4",
+    "GNS121_U1_T5",
+    "GNS121_U1_T6",
+    "GNS121_U1_T7",
+    "GNS121_U1_T8",
+    "GST114_U6_T11",
+    "GNS121_U1_T9",
+    "GNS121_U1_T10",
+    "GNS121_U1_T11",
+    "GNS121_U1_T12",
+    "GNS121_U2_T1",
+    "GNS121_U2_T2",
+    "GNS121_U2_T4",
+    "GNS121_U2_T7",
+    "GNS121_U2_T12",
+    "GNS211_U1_T7",
+    "GNS211_U1_T8",
+    "GNS211_U1_T9",
+    "GNS211_U1_T10",
+    "GNS211_U1_T11",
+    "GNS211_U2_T1",
+    "GNS211_U2_T2",
+    "GNS211_U2_T3",
+    "GNS211_U2_T4",
+    "GNS211_U2_T5",
+    "GNS211_U3_T1",
+    "GNS211_U3_T2",
+    "GNS211_U3_T3",
+    "GNS211_U3_T4",
+    "GNS211_U3_T5",
+    "GNS211_U3_T6",
+    "GNS211_U3_T19",
+    "GNS216_U6_T8",
+    "GNS216_U5_T20",
+    "GNS216_U5_T21",
+    "GNS216_U5_T22",
+    "GNS216_U5_T23",
+    "GNS216_U5_T24",
+    "GNS216_U5_T25",
+    "GNS216_U5_T26",
+    "GNS216_U5_T27",
+    "GNS216_U5_T28",
+    "GNS211_U3_T7",
+    "GNS216_U5_T29",
+    "GNS216_U5_T30",
+    "GNS216_U5_T31",
+    "GNS216_U5_T32",
+    "GNS216_U5_T33",
+    "GNS216_U6_T9",
+    "GNS217_U1_T4",
+    "GNS225_U3_T10",
+    "GNS225_U3_T11",
+    "GNS225_U3_T13",
+    "GNS225_U3_T14",
+    "GNS225_U3_T15",
+    "GNS225_U3_T16",
+    "GNS225_U4_T1",
+    "GNS225_U4_T2",
+    "GNS225_U4_T3",
+    "GNS225_U4_T4",
+    "GNS225_U4_T5",
+    "GNS225_U4_T6",
+    "GNS225_U4_T7",
+    "GNS225_U4_T8",
+    "GNS225_U5_T1",
+    "GNS225_U5_T3",
+    "GNS225_U5_T4",
+    "GNS225_U5_T5",
+    "GNS311_U3_T4",
+    "GNS121_U2_T3",
+    "GNS121_U2_T5",
+    "GNS121_U2_T6",
+    "GNS121_U2_T8",
+    "GNS121_U2_T9",
+    "GNS121_U2_T10",
+    "GNS121_U2_T11",
+    "GNS121_U2_T13",
+    "GNS121_U3_T1",
+    "GNS121_U3_T3",
+    "GNS121_U3_T4",
+    "GNS121_U3_T5",
+    "GNS121_U3_T6",
+    "GNS121_U3_T9",
+    "GNS121_U3_T10",
+    "GNS121_U4_T1",
+    "GNS212_U1_T16",
+    "GNS212_U1_T17",
+    "GNS212_U1_T18",
+    "GNS212_U1_T19",
+    "GNS212_U1_T20",
+    "GNS212_U1_T22",
+    "GNS212_U1_T23",
+    "GNS212_U2_T1",
+    "GNS212_U2_T2",
+    "GNS212_U2_T3",
+    "GNS212_U1_T21",
+    "GNS212_U2_T5",
+    "GNS212_U2_T6",
+    "GNS212_U2_T7",
+    "GNS212_U2_T8",
+    "GNS212_U2_T9",
+    "GNS212_U2_T11",
+    "GNS212_U4_T5",
+    "GNS221_U4_T2",
+    "GNS221_U4_T4",
+    "GNS221_U4_T5",
+    "GNS212_U2_T4",
+    "GNS221_U4_T6",
+    "GNS221_U4_T7",
+    "GNS221_U4_T8",
+    "GNS221_U4_T9",
+    "GNS221_U4_T10",
+    "GNS222_U1_T1",
+    "GNS222_U1_T2",
+    "GNS222_U1_T3",
+    "GNS222_U1_T4",
+    "GNS222_U1_T5",
+    "GNS222_U1_T6",
+    "GNS222_U1_T8",
+    "GNS222_U1_T12",
+    "GNS222_U1_T14",
+    "GNS226_U5_T001",
+    "GNS226_U5_T002",
+    "GNS226_U5_T004",
+    "GNS226_U5_T005",
+    "GNS226_U5_T006",
+    "GNS226_U5_T007",
+    "GNS226_U5_T008",
+    "GNS226_U5_T009",
+    "GNS222_U1_T7",
+    "GNS226_U5_T010",
+    "GNS226_U5_T011",
+    "GNS226_U5_T012",
+    "GNS226_U5_T013",
+    "GNS226_U5_T015",
+    "GNS226_U5_T016",
+    "GNS226_U5_T017",
+    "GNS226_U5_T019",
+    "GNS226_U5_T021",
+    "GNS226_U5_T023",
+    "GNS314_U5_T5",
+    "GNS121_U3_T7",
+    "GNS121_U3_T8",
+    "GNS121_U3_T11",
+    "GNS121_U3_T12",
+    "GNS121_U4_T5",
+    "GNS121_U4_T8",
+    "GNS121_U5_T2",
+    "GNS121_U5_T6",
+    "GNS121_U5_T12",
+    "GNS121_U5_T16",
+    "GNS121_U5_T18",
+    "GNS121_U4_T2",
+    "GNS121_U4_T3",
+    "GNS121_U4_T4",
+    "GNS121_U4_T6",
+    "GNS121_U4_T7",
+    "GNS121_U5_T1",
+    "GNS121_U5_T3",
+    "GNS121_U5_T4",
+    "GNS121_U5_T5",
+    "GNS121_U5_T7",
+    "GNS121_U5_T8",
+    "GNS121_U5_T9",
+    "GNS121_U5_T10",
+    "GNS121_U5_T11",
+    "GNS121_U5_T13",
+    "GNS121_U5_T14",
+    "GNS121_U5_T15",
+    "GNS121_U5_T17",
+    "GNS121_U6_T13",
+    "GNS213_U1_T9",
+    "GNS213_U1_T10",
+    "GNS213_U1_T11",
+    "GNS213_U1_T12",
+    "GNS213_U1_T13",
+    "GNS213_U1_T14",
+    "GNS213_U1_T15",
+    "GNS213_U1_T16",
+    "GNS213_U1_T17",
+    "GNS213_U2_T1",
+    "GNS213_U2_T2",
+    "GNS213_U2_T3",
+    "GNS213_U2_T4",
+    "GNS213_U2_T5",
+    "GNS121_U6_T1",
+    "GNS121_U6_T2",
+    "GNS121_U6_T3",
+    "GNS121_U6_T4",
+    "GNS121_U6_T5",
+    "GNS121_U6_T6",
+    "GNS121_U6_T7",
+    "GNS121_U6_T8",
+    "GNS121_U6_T9",
+    "GNS121_U6_T11",
+    "GNS121_U6_T12",
+    "GNS121_U6_T14",
+    "GNS121_U6_T15",
+    "GNS121_U7_T1",
+    "GNS121_U7_T2",
+    "GNS121_U7_T3",
+    "GNS121_U7_T4",
+    "GNS121_U7_T5",
+    "GNS121_U6_T16",
+    "GNS121_U7_T6",
+    "GNS121_U7_T7",
+    "GNS121_U7_T8",
+    "GNS121_U7_T9",
+    "GNS121_U7_T10",
+    "GNS122_U1_T1",
+    "GNS122_U1_T2",
+    "GNS122_U1_T4",
+    "GNS122_U1_T6",
+    "GNS122_U1_T18",
+    "GNS122_U1_T19",
+    "GNS122_U1_T20",
+    "GNS122_U1_T21",
+    "GNS122_U1_T22",
+    "GNS122_U1_T23",
+    "GNS122_U2_T1",
+    "GNS122_U2_T2",
+    "GNS122_U2_T3",
+    "GNS122_U2_T4",
+    "GNS122_U3_T8",
+    "GNS122_U3_T9",
+    "GNS122_U3_T10",
+    "GNS122_U3_T11",
+    "GNS122_U3_T12",
+    "GNS122_U3_T18",
+    "GNS214_U1_T82",
+    "GNS122_U1_T3",
+    "GNS122_U1_T5",
+    "GNS122_U1_T7",
+    "GNS122_U1_T8",
+    "GNS122_U1_T9",
+    "GNS122_U1_T10",
+    "GNS122_U1_T11",
+    "GNS122_U3_T20",
+    "GNS122_U1_T13",
+    "GNS122_U1_T14",
+    "GNS122_U1_T15",
+    "GNS122_U1_T16",
+    "GNS122_U3_T13",
+    "GNS122_U3_T14",
+    "GNS122_U3_T15",
+    "GNS213_U3_T10",
+    "GNS122_U1_T12",
+    "GNS213_U3_T13",
+    "GNS213_U4_T3",
+    "GNS213_U4_T4",
+    "GNS213_U4_T5",
+    "GNS213_U4_T6",
+    "GNS213_U4_T7",
+    "GNS213_U4_T8",
+    "GNS213_U4_T9",
+    "GNS213_U4_T10",
+    "GNS213_U5_T1",
+    "GNS213_U5_T2",
+    "GNS213_U5_T4",
+    "GNS213_U5_T6",
+    "GNS214_U1_T2",
+    "GNS215_U5_T3",
+    "GNS215_U5_T4",
+    "GNS215_U5_T6",
+    "GNS215_U5_T8",
+    "GNS215_U6_T1",
+    "GNS215_U6_T2",
+    "GNS215_U6_T3",
+    "GNS215_U6_T4",
+    "GNS215_U6_T5",
+    "GNS215_U6_T6",
+    "GNS215_U6_T7",
+    "GNS215_U6_T8",
+    "GNS215_U6_T9",
+    "GNS216_U1_T7",
+    "GNS215_U6_T10",
+    "GNS215_U6_T17",
+    "GNS216_U6_T6",
+    "GNS217_U3_T16",
+    "GNS221_U1_T6",
+    "GNS222_U3_T14",
+    "GNS223_U5_T2",
+    "GNS223_U5_T4",
+    "GNS223_U5_T5",
+    "GNS223_U5_T6",
+    "GNS223_U6_T1",
+    "GNS223_U6_T2",
+    "GNS223_U6_T3",
+    "GNS223_U6_T4",
+    "GNS223_U6_T5",
+    "GNS223_U6_T6",
+    "GNS223_U6_T7",
+    "GNS223_U7_T1",
+    "GNS223_U7_T2",
+    "GNS223_U8_T2",
+    "GNS224_U1_T8",
+    "GNS224_U1_T14",
+    "GNS224_U4_T3",
+    "GNS225_U2_T8",
+    "GNS225_U3_T8",
+    "GNS226_U2_T006",
+    "GNS226_U2_T008",
+    "GNS226_U2_T009",
+    "GNS122_U1_T17",
+    "GNS122_U3_T16",
+    "GNS122_U3_T17",
+    "GNS122_U3_T19",
+    "GNS122_U4_T2",
+    "GNS122_U4_T3",
+    "GNS122_U4_T4",
+    "GNS122_U4_T5",
+    "GNS122_U4_T6",
+    "GNS122_U5_T1",
+    "GNS122_U5_T2",
+    "GNS122_U5_T3",
+    "GNS122_U4_T1",
+    "GNS122_U4_T7",
+    "GNS122_U5_T4",
+    "GNS122_U5_T5",
+    "GNS123_U1_T1",
+    "GNS123_U1_T2",
+    "GNS123_U1_T3",
+    "GNS123_U1_T4",
+    "GNS123_U1_T5",
+    "GNS123_U1_T6",
+    "GNS123_U1_T7",
+    "GNS123_U1_T8",
+    "GNS123_U1_T9",
+    "GNS123_U2_T1",
+    "GNS123_U2_T2",
+    "GNS123_U2_T3",
+    "GNS123_U2_T4",
+    "GNS123_U2_T5",
+    "GNS123_U2_T6",
+    "GNS123_U2_T7",
+    "GNS123_U2_T8",
+    "GNS123_U2_T9",
+    "GNS123_U2_T10",
+    "GNS123_U2_T12",
+    "GNS123_U3_T6",
+    "GNS123_U3_T8",
+    "GNS123_U4_T3",
+    "GNS124_U4_T2",
+    "GNS124_U4_T3",
+    "GNS124_U4_T4",
+    "GNS124_U4_T5",
+    "GNS124_U4_T6",
+    "GNS124_U4_T7",
+    "GNS123_U2_T11",
+    "GNS123_U3_T3",
+    "GNS124_U4_T8",
+    "GNS124_U5_T1",
+    "GNS124_U5_T2",
+    "GNS124_U5_T3",
+    "GNS124_U5_T4",
+    "GNS124_U5_T5",
+    "GNS124_U5_T6",
+    "GNS124_U5_T7",
+    "GNS124_U5_T8",
+    "GNS124_U5_T11",
+    "GNS124_U5_T12",
+    "GNS124_U6_T2",
+    "GNS125_U3_T14",
+    "GNS123_U2_T13",
+    "GNS123_U2_T14",
+    "GNS123_U3_T1",
+    "GNS123_U3_T2",
+    "GNS123_U3_T4",
+    "GNS123_U3_T5",
+    "GNS123_U3_T7",
+    "GNS123_U3_T9",
+    "GNS123_U3_T10",
+    "GNS123_U3_T11",
+    "GNS123_U3_T12",
+    "GNS123_U3_T13",
+    "GNS123_U3_T14",
+    "GNS123_U3_T15",
+    "GNS123_U3_T16",
+    "GNS123_U4_T2",
+    "GNS123_U4_T5",
+    "GNS123_U5_T2",
+    "GNS123_U5_T4",
+    "GNS214_U1_T64",
+    "GNS214_U1_T65",
+    "GNS214_U1_T66",
+    "GNS214_U1_T67",
+    "GNS214_U1_T68",
+    "GNS214_U1_T70",
+    "GNS214_U1_T71",
+    "GNS214_U1_T72",
+    "GNS214_U1_T73",
+    "GNS214_U1_T69",
+    "GNS214_U1_T74",
+    "GNS214_U1_T75",
+    "GNS214_U1_T76",
+    "GNS214_U1_T77",
+    "GNS214_U1_T78",
+    "GNS214_U1_T85",
+    "GNS214_U1_T88",
+    "GNS123_U4_T6",
+    "GNS123_U5_T8",
+    "GNS123_U5_T12",
+    "GNS214_U1_T79",
+    "GNS214_U1_T87",
+    "GNS123_U4_T1",
+    "GNS123_U4_T4",
+    "GNS123_U5_T1",
+    "GNS123_U5_T3",
+    "GNS123_U5_T5",
+    "GNS123_U5_T6",
+    "GNS123_U5_T9",
+    "GNS123_U5_T11",
+    "GNS123_U6_T1",
+    "GNS123_U5_T7",
+    "GNS123_U5_T10",
+    "GNS123_U6_T4",
+    "GNS124_U2_T1",
+    "GNS216_U5_T17",
+    "GNS221_U3_T2",
+    "GNS123_U4_T7",
+    "GNS123_U6_T2",
+    "GNS123_U6_T3",
+    "GNS123_U6_T5",
+    "GNS124_U1_T1",
+    "GNS124_U1_T2",
+    "GNS124_U1_T3",
+    "GNS123_U6_T6",
+    "GNS124_U1_T4",
+    "GNS124_U1_T6",
+    "GNS124_U1_T7",
+    "GNS124_U2_T2",
+    "GNS124_U2_T6",
+    "GNS124_U2_T7",
+    "GNS124_U3_T2",
+    "GNS124_U3_T6",
+    "GNS124_U5_T10",
+    "GNS216_U5_T7",
+    "GNS216_U5_T8",
+    "GNS216_U5_T9",
+    "GNS216_U5_T10",
+    "GNS216_U5_T11",
+    "GNS216_U5_T12",
+    "GNS216_U5_T14",
+    "GNS216_U5_T15",
+    "GNS216_U5_T13",
+    "GNS216_U5_T16",
+    "GNS216_U5_T18",
+    "GNS216_U6_T1",
+    "GNS216_U6_T2",
+    "GNS216_U6_T3",
+    "GNS216_U6_T4",
+    "GNS216_U6_T7",
+    "GNS216_U6_T10",
+    "GNS216_U6_T12",
+    "GNS123_U5_T13",
+    "GNS124_U2_T3",
+    "GNS124_U2_T4",
+    "GNS124_U2_T5",
+    "GNS124_U3_T1",
+    "GNS124_U3_T3",
+    "GNS124_U3_T4",
+    "GNS124_U3_T5",
+    "GNS124_U3_T7",
+    "GNS124_U3_T8",
+    "GNS124_U4_T1",
+    "GNS124_U5_T9",
+    "GNS124_U5_T13",
+    "GNS124_U6_T1",
+    "GNS124_U6_T3",
+    "GNS124_U6_T4",
+    "GNS124_U6_T5",
+    "GNS124_U6_T6",
+    "GNS216_U2_T7",
+    "GNS216_U5_T1",
+    "GNS216_U5_T2",
+    "GNS216_U5_T3",
+    "GNS216_U5_T4",
+    "GNS216_U5_T5",
+    "GNS216_U5_T6",
+    "GNS216_U6_T5",
+    "GNS216_U6_T11",
+    "GNS216_U6_T13",
+    "GNS217_U1_T1",
+    "GNS217_U1_T2",
+    "GNS217_U1_T3",
+    "GNS217_U2_T1",
+    "GNS217_U2_T2",
+    "GNS217_U2_T3",
+    "GNS217_U2_T6",
+    "GNS217_U3_T8",
+    "GNS225_U2_T21",
+    "GNS124_U6_T7",
+    "GNS125_U1_T1",
+    "GNS125_U1_T2",
+    "GNS125_U1_T3",
+    "GNS125_U1_T4",
+    "GNS125_U1_T5",
+    "GNS125_U1_T6",
+    "GNS125_U1_T7",
+    "GNS125_U1_T8",
+    "GNS125_U1_T9",
+    "GNS125_U3_T1",
+    "GNS125_U2_T12",
+    "GNS125_U3_T3",
+    "GNS125_U3_T4",
+    "GNS125_U3_T5",
+    "GNS125_U3_T6",
+    "GNS125_U3_T8",
+    "GNS125_U3_T9",
+    "GNS125_U3_T10",
+    "GNS125_U3_T11",
+    "GNS125_U3_T12",
+    "GNS125_U3_T13",
+    "GNS125_U3_T16",
+    "GNS125_U3_T17",
+    "GNS125_U3_T18",
+    "GNS125_U3_T19",
+    "GNS125_U4_T1",
+    "GNS125_U4_T2",
+    "GNS125_U4_T4",
+    "GNS125_U4_T5",
+    "GNS125_U5_T1",
+    "GNS125_U5_T2",
+    "GNS125_U5_T3",
+    "GNS125_U5_T5",
+    "GNS125_U5_T10",
+    "GNS222_U1_T10",
+    "GNS222_U1_T11",
+    "GNS222_U1_T13",
+    "GNS125_U5_T6",
+    "GNS222_U1_T15",
+    "GNS222_U1_T16",
+    "GNS222_U1_T17",
+    "GNS222_U1_T18",
+    "GNS222_U1_T19",
+    "GNS222_U1_T20",
+    "GNS222_U1_T21",
+    "GNS222_U1_T22",
+    "GNS222_U1_T23",
+    "GNS222_U1_T24",
+    "GNS222_U1_T25",
+    "GNS222_U2_T1",
+    "GNS222_U2_T3",
+    "GNS222_U2_T5",
+    "GNS222_U2_T6",
+    "GNS222_U2_T8",
+    "GNS125_U5_T4",
+    "GNS125_U5_T7",
+    "GNS125_U5_T8",
+    "GNS125_U5_T9",
+    "GNS211_U1_T1",
+    "GNS211_U1_T3",
+    "GNS211_U1_T4",
+    "GNS211_U1_T5",
+    "GNS211_U1_T6",
+    "GNS211_U1_T2",
+    "GNS211_U3_T8",
+    "GNS211_U3_T9",
+    "GNS211_U3_T10",
+    "GNS211_U3_T11",
+    "GNS211_U3_T12",
+    "GNS124_U1_T5",
+    "GNS211_U3_T15",
+    "GNS211_U3_T16",
+    "GNS211_U3_T23",
+    "GNS211_U3_T24",
+    "GNS222_U4_T9",
+    "GNS222_U4_T13",
+    "GNS222_U4_T15",
+    "GNS211_U3_T20",
+    "GNS222_U4_T17",
+    "GNS222_U4_T18",
+    "GNS222_U4_T19",
+    "GNS222_U4_T20",
+    "GNS223_U1_T1",
+    "GNS223_U1_T2",
+    "GNS222_U4_T16",
+    "GNS223_U1_T3",
+    "GNS223_U1_T4",
+    "GNS223_U1_T5",
+    "GNS223_U1_T6",
+    "GNS223_U2_T1",
+    "GNS223_U2_T4",
+    "GNS211_U3_T13",
+    "GNS211_U3_T14",
+    "GNS211_U3_T18",
+    "GNS211_U3_T25",
+    "GNS223_U2_T2",
+    "GNS223_U2_T3",
+    "GNS211_U3_T26",
+    "GNS211_U3_T27",
+    "GNS211_U3_T17",
+    "GNS211_U3_T22",
+    "GNS211_U3_T28",
+    "GNS211_U3_T29",
+    "GNS211_U3_T30",
+    "GNS211_U3_T31",
+    "GNS211_U4_T4",
+    "GNS212_U1_T2",
+    "GNS212_U1_T3",
+    "GNS212_U1_T4",
+    "GNS212_U1_T7",
+    "GNS212_U1_T8",
+    "GNS212_U1_T10",
+    "GNS211_U3_T21",
+    "GNS211_U4_T1",
+    "GNS211_U4_T2",
+    "GNS211_U4_T3",
+    "GNS211_U4_T5",
+    "GNS211_U4_T6",
+    "GNS211_U4_T8",
+    "GNS211_U4_T9",
+    "GNS211_U4_T7",
+    "GNS211_U4_T10",
+    "GNS211_U4_T11",
+    "GNS212_U1_T1",
+    "GNS212_U1_T5",
+    "GNS212_U1_T6",
+    "GNS212_U1_T9",
+    "GNS212_U1_T13",
+    "GNS212_U4_T2",
+    "GNS212_U4_T4",
+    "GNS217_U4_T2",
+    "GNS217_U4_T4",
+    "GNS217_U4_T5",
+    "GNS217_U4_T6",
+    "GNS217_U4_T7",
+    "GNS217_U4_T8",
+    "GNS217_U4_T9",
+    "GNS217_U4_T10",
+    "GNS217_U4_T11",
+    "GNS217_U4_T12",
+    "GNS217_U4_T13",
+    "GNS217_U4_T14",
+    "GNS217_U4_T15",
+    "GNS221_U1_T1",
+    "GNS221_U1_T2",
+    "GNS221_U1_T8",
+    "GNS221_U2_T2",
+    "GNS221_U1_T3",
+    "GNS226_U2_T001",
+    "GNS226_U2_T002",
+    "GNS226_U2_T004",
+    "GNS226_U2_T005",
+    "GNS226_U2_T007",
+    "GNS226_U2_T010",
+    "GNS226_U2_T011",
+    "GNS226_U2_T012",
+    "GNS226_U2_T013",
+    "GNS226_U2_T014",
+    "GNS226_U2_T015",
+    "GNS226_U2_T016",
+    "GNS212_U1_T11",
+    "GNS212_U1_T12",
+    "GNS212_U1_T14",
+    "GNS212_U1_T15",
+    "GNS212_U2_T10",
+    "GNS212_U2_T12",
+    "GNS212_U4_T1",
+    "GNS212_U4_T3",
+    "GNS212_U4_T6",
+    "GNS212_U4_T8",
+    "GNS212_U4_T9",
+    "GNS212_U4_T10",
+    "GNS212_U4_T11",
+    "GNS212_U4_T12",
+    "GNS212_U4_T13",
+    "GNS212_U4_T14",
+    "GNS212_U4_T15",
+    "GNS213_U1_T1",
+    "GNS213_U1_T2",
+    "GNS213_U1_T3",
+    "GNS213_U1_T4",
+    "GNS213_U1_T5",
+    "GNS226_U2_T020",
+    "GNS226_U3_T002",
+    "GNS226_U3_T005",
+    "GNS226_U3_T006",
+    "GNS226_U3_T007",
+    "GNS212_U4_T7",
+    "GNS213_U1_T8",
+    "GNS226_U3_T008",
+    "GNS226_U3_T009",
+    "GNS226_U3_T010",
+    "GNS226_U3_T011",
+    "GNS226_U3_T012",
+    "GNS226_U3_T013",
+    "GNS226_U3_T014",
+    "GNS226_U3_T015",
+    "GNS226_U3_T016",
+    "GNS226_U3_T017",
+    "GNS226_U3_T018",
+    "GNS226_U3_T019",
+    "GNS226_U4_T009",
+    "GNS315_U2_T3",
+    "GNS213_U1_T6",
+    "GNS213_U1_T7",
+    "GNS213_U2_T6",
+    "GNS213_U2_T7",
+    "GNS213_U2_T8",
+    "GNS213_U2_T10",
+    "GNS213_U2_T11",
+    "GNS213_U2_T12",
+    "GNS213_U2_T13",
+    "GNS213_U3_T9",
+    "GNS213_U3_T12",
+    "GNS213_U3_T14",
+    "GNS213_U4_T2",
+    "GNS213_U5_T3",
+    "GNS213_U5_T5",
+    "GNS213_U5_T7",
+    "GNS213_U2_T9",
+    "GNS213_U5_T8",
+    "GNS213_U5_T9",
+    "GNS213_U5_T10",
+    "GNS213_U5_T11",
+    "GNS213_U5_T12",
+    "GNS213_U5_T13",
+    "GNS214_U1_T1",
+    "GNS214_U1_T4",
+    "GNS214_U1_T5",
+    "GNS214_U1_T6",
+    "GNS214_U1_T3",
+    "GNS214_U1_T7",
+    "GNS214_U1_T8",
+    "GNS214_U1_T9",
+    "GNS214_U1_T10",
+    "GNS214_U1_T11",
+    "GNS214_U1_T12",
+    "GNS214_U1_T13",
+    "GNS214_U1_T14",
+    "GNS214_U1_T18",
+    "GNS214_U1_T55",
+    "GNS214_U1_T15",
+    "GNS214_U1_T16",
+    "GNS214_U1_T17",
+    "GNS214_U1_T19",
+    "GNS214_U1_T20",
+    "GNS214_U1_T21",
+    "GNS214_U1_T22",
+    "GNS214_U1_T43",
+    "GNS214_U1_T44",
+    "GNS214_U1_T45",
+    "GNS214_U1_T46",
+    "GNS214_U1_T47",
+    "GNS214_U1_T48",
+    "GNS214_U1_T49",
+    "GNS214_U1_T50",
+    "GNS214_U1_T51",
+    "GNS214_U1_T53",
+    "GNS214_U1_T61",
+    "GNS222_U2_T9",
+    "GNS222_U2_T10",
+    "GNS222_U2_T12",
+    "GNS222_U2_T13",
+    "GNS214_U1_T52",
+    "GNS222_U2_T11",
+    "GNS222_U2_T14",
+    "GNS222_U2_T15",
+    "GNS214_U1_T54",
+    "GNS214_U1_T57",
+    "GNS214_U1_T58",
+    "GNS214_U1_T59",
+    "GNS214_U1_T60",
+    "GNS214_U1_T62",
+    "GNS214_U1_T56",
+    "GNS214_U1_T63",
+    "GNS214_U1_T80",
+    "GNS214_U1_T81",
+    "GNS214_U1_T83",
+    "GNS214_U1_T84",
+    "GNS214_U1_T86",
+    "GNS214_U1_T89",
+    "GNS214_U1_T90",
+    "GNS214_U1_T91",
+    "GNS214_U1_T92",
+    "GNS214_U1_T93",
+    "GNS214_U1_T94",
+    "GNS214_U1_T95",
+    "GNS214_U1_T96",
+    "GNS214_U1_T97",
+    "GNS215_U1_T1",
+    "GNS215_U1_T2",
+    "GNS215_U1_T3",
+    "GNS215_U1_T4",
+    "GNS215_U1_T5",
+    "GNS215_U1_T6",
+    "GNS215_U1_T7",
+    "GNS215_U1_T8",
+    "GNS215_U1_T9",
+    "GNS215_U2_T1",
+    "GNS215_U2_T2",
+    "GNS215_U2_T3",
+    "GNS215_U2_T4",
+    "GNS215_U2_T5",
+    "GNS215_U2_T6",
+    "GNS215_U3_T1",
+    "GNS215_U3_T2",
+    "GNS215_U3_T3",
+    "GNS215_U3_T4",
+    "GNS215_U3_T5",
+    "GNS215_U3_T6",
+    "GNS215_U3_T7",
+    "GNS215_U4_T3",
+    "GNS215_U4_T4",
+    "GNS215_U4_T5",
+    "GNS215_U4_T6",
+    "GNS215_U4_T7",
+    "GNS215_U5_T1",
+    "GNS215_U5_T2",
+    "GNS215_U5_T5",
+    "GNS215_U5_T7",
+    "GNS215_U6_T11",
+    "GNS215_U6_T12",
+    "GNS215_U6_T13",
+    "GNS215_U6_T14",
+    "GNS215_U6_T15",
+    "GNS215_U6_T16",
+    "GNS215_U6_T18",
+    "GNS216_U1_T1",
+    "GNS216_U1_T2",
+    "GNS216_U1_T3",
+    "GNS216_U1_T4",
+    "GNS216_U1_T5",
+    "GNS216_U1_T6",
+    "GNS216_U1_T8",
+    "GNS216_U2_T1",
+    "GNS216_U2_T2",
+    "GNS217_U2_T5",
+    "GNS217_U3_T4",
+    "GNS217_U3_T9",
+    "GNS217_U3_T12",
+    "GNS221_U1_T4",
+    "GNS222_U4_T5",
+    "GNS224_U2_T3",
+    "GNS225_U6_T2",
+    "GNS225_U6_T3",
+    "GNS225_U6_T5",
+    "GNS225_U6_T6",
+    "GNS225_U6_T7",
+    "GNS225_U6_T8",
+    "GNS225_U6_T9",
+    "GNS225_U6_T10",
+    "GNS225_U7_T1",
+    "GNS225_U7_T2",
+    "GNS225_U7_T3",
+    "GNS225_U7_T4",
+    "GNS225_U7_T5",
+    "GNS225_U7_T6",
+    "GNS225_U7_T7",
+    "GNS225_U7_T8",
+    "GNS226_U1_T002",
+    "GNS226_U1_T003",
+    "GNS226_U1_T008",
+    "GNS226_U1_T013",
+    "GNS226_U2_T017",
+    "GNS226_U3_T023",
+    "GNS216_U2_T3",
+    "GNS216_U2_T4",
+    "GNS216_U2_T5",
+    "GNS216_U2_T6",
+    "GNS217_U2_T4",
+    "GNS217_U3_T1",
+    "GNS217_U3_T2",
+    "GNS217_U3_T3",
+    "GNS217_U3_T5",
+    "GNS217_U3_T7",
+    "GNS217_U3_T14",
+    "GNS217_U3_T15",
+    "GNS217_U3_T17",
+    "GNS227_U2_T002",
+    "GNS221_U2_T1",
+    "GNS221_U3_T4",
+    "GNS312_U1_T27",
+    "GNS222_U2_T4",
+    "GNS217_U3_T6",
+    "GNS217_U3_T10",
+    "GNS217_U3_T11",
+    "GNS217_U3_T13",
+    "GNS221_U1_T10",
+    "GNS227_U2_T011",
+    "GNS217_U4_T1",
+    "GNS217_U4_T3",
+    "GNS221_U1_T5",
+    "GNS221_U1_T7",
+    "GNS221_U1_T9",
+    "GNS221_U1_T11",
+    "GNS221_U1_T12",
+    "GNS221_U2_T4",
+    "GNS227_U1_T011",
+    "GNS227_U1_T012",
+    "GNS227_U1_T015",
+    "GNS227_U2_T001",
+    "GNS227_U2_T003",
+    "GNS227_U2_T004",
+    "GNS227_U2_T005",
+    "GNS227_U2_T006",
+    "GNS227_U2_T007",
+    "GNS227_U2_T008",
+    "GNS227_U2_T009",
+    "GNS227_U2_T010",
+    "GNS227_U2_T012",
+    "GNS227_U2_T013",
+    "GNS227_U2_T019",
+    "GNS221_U2_T3",
+    "GNS221_U2_T5",
+    "GNS227_U2_T016",
+    "GNS221_U2_T6",
+    "GNS221_U2_T7",
+    "GNS221_U2_T8",
+    "GNS221_U2_T9",
+    "GNS221_U2_T10",
+    "GNS221_U2_T11",
+    "GNS221_U2_T13",
+    "GNS221_U2_T14",
+    "GNS221_U2_T16",
+    "GNS221_U2_T17",
+    "GNS221_U2_T12",
+    "GNS221_U2_T15",
+    "GNS221_U3_T1",
+    "GNS222_U3_T6",
+    "GNS312_U3_T1",
+    "GNS312_U3_T2",
+    "GNS312_U3_T3",
+    "GNS312_U3_T4",
+    "GNS312_U3_T5",
+    "GNS312_U3_T6",
+    "GNS312_U3_T7",
+    "GNS312_U3_T8",
+    "GNS312_U3_T9",
+    "GNS221_U2_T18",
+    "GNS221_U2_T19",
+    "GNS221_U3_T3",
+    "GNS221_U3_T5",
+    "GNS221_U3_T6",
+    "GNS221_U3_T7",
+    "GNS221_U3_T8",
+    "GNS221_U3_T9",
+    "GNS221_U3_T10",
+    "GNS312_U1_T25",
+    "GNS221_U3_T11",
+    "GNS221_U3_T12",
+    "GNS221_U3_T13",
+    "GNS221_U4_T1",
+    "GNS222_U1_T9",
+    "GNS222_U2_T2",
+    "GNS222_U2_T7",
+    "GNS222_U2_T16",
+    "GNS222_U2_T17",
+    "GNS222_U2_T18",
+    "GNS221_U3_T14",
+    "GNS222_U2_T19",
+    "GNS222_U2_T20",
+    "GNS222_U3_T1",
+    "GNS222_U3_T2",
+    "GNS222_U3_T3",
+    "GNS222_U3_T4",
+    "GNS222_U3_T5",
+    "GNS222_U3_T10",
+    "GNS222_U3_T11",
+    "GNS227_U3_T008",
+    "GNS227_U3_T011",
+    "GNS227_U4_T005",
+    "GNS227_U4_T006",
+    "GNS222_U3_T7",
+    "GNS222_U3_T8",
+    "GNS222_U3_T12",
+    "GNS222_U3_T13",
+    "GNS222_U3_T15",
+    "GNS222_U3_T16",
+    "GNS222_U3_T17",
+    "GNS222_U3_T21",
+    "GNS222_U3_T22",
+    "GNS222_U3_T9",
+    "GNS222_U3_T18",
+    "GNS223_U3_T6",
+    "GNS222_U3_T19",
+    "GNS222_U3_T20",
+    "GNS222_U3_T23",
+    "GNS222_U3_T24",
+    "GNS222_U4_T2",
+    "GNS222_U4_T3",
+    "GNS222_U4_T4",
+    "GNS222_U4_T6",
+    "GNS222_U4_T7",
+    "GNS222_U4_T1",
+    "GNS222_U4_T8",
+    "GNS222_U4_T11",
+    "GNS222_U4_T12",
+    "GNS222_U4_T14",
+    "GNS223_U2_T5",
+    "GNS223_U2_T6",
+    "GNS223_U3_T1",
+    "GNS223_U3_T3",
+    "GNS223_U3_T5",
+    "GNS222_U4_T10",
+    "GNS223_U3_T2",
+    "GNS223_U3_T7",
+    "GNS223_U3_T4",
+    "GNS223_U3_T8",
+    "GNS223_U3_T9",
+    "GNS223_U5_T3",
+    "GNS223_U7_T3",
+    "GNS223_U7_T4",
+    "GNS223_U8_T1",
+    "GNS223_U8_T3",
+    "GNS223_U5_T1",
+    "GNS223_U8_T5",
+    "GNS224_U1_T1",
+    "GNS224_U1_T2",
+    "GNS224_U1_T3",
+    "GNS224_U1_T4",
+    "GNS223_U8_T4",
+    "GNS224_U1_T5",
+    "GNS224_U1_T6",
+    "GNS224_U1_T7",
+    "GNS224_U1_T9",
+    "GNS224_U1_T10",
+    "GNS224_U1_T11",
+    "GNS224_U1_T12",
+    "GNS224_U1_T13",
+    "GNS224_U1_T15",
+    "GNS225_U1_T2",
+    "GNS225_U1_T1",
+    "GNS224_U1_T16",
+    "GNS224_U1_T17",
+    "GNS224_U1_T18",
+    "GNS224_U1_T20",
+    "GNS224_U1_T21",
+    "GNS224_U1_T22",
+    "GNS224_U1_T23",
+    "GNS224_U1_T24",
+    "GNS224_U1_T25",
+    "GNS224_U1_T26",
+    "GNS224_U1_T27",
+    "GNS224_U2_T1",
+    "GNS224_U1_T19",
+    "GNS224_U2_T2",
+    "GNS224_U2_T4",
+    "GNS224_U2_T5",
+    "GNS224_U3_T1",
+    "GNS224_U3_T2",
+    "GNS224_U3_T3",
+    "GNS224_U4_T2",
+    "GNS224_U4_T4",
+    "GNS225_U1_T3",
+    "GNS225_U1_T4",
+    "GNS225_U1_T5",
+    "GNS224_U4_T1",
+    "GNS225_U1_T6",
+    "GNS225_U1_T8",
+    "GNS225_U1_T9",
+    "GNS225_U2_T1",
+    "GNS225_U2_T2",
+    "GNS225_U2_T5",
+    "GNS225_U2_T11",
+    "GNS225_U2_T25",
+    "GNS225_U5_T8",
+    "GNS225_U2_T6",
+    "GNS225_U2_T10",
+    "GNS225_U2_T3",
+    "GNS225_U2_T4",
+    "GNS225_U2_T7",
+    "GNS225_U2_T9",
+    "GNS225_U2_T12",
+    "GNS225_U2_T13",
+    "GNS225_U2_T14",
+    "GNS225_U2_T15",
+    "GNS225_U2_T16",
+    "GNS225_U2_T17",
+    "GNS225_U2_T18",
+    "GNS225_U2_T19",
+    "GNS225_U2_T20",
+    "GNS225_U2_T22",
+    "GNS225_U2_T23",
+    "GNS225_U2_T24",
+    "GNS225_U3_T1",
+    "GNS225_U3_T5",
+    "GNS315_U1_T2",
+    "GNS315_U1_T3",
+    "GNS315_U1_T5",
+    "GNS315_U1_T6",
+    "GNS315_U1_T7",
+    "GNS315_U1_T8",
+    "GNS315_U1_T9",
+    "GNS315_U1_T10",
+    "GNS225_U2_T26",
+    "GNS225_U2_T27",
+    "GNS225_U3_T2",
+    "GNS225_U3_T3",
+    "GNS315_U1_T4",
+    "GNS225_U3_T4",
+    "GNS225_U3_T6",
+    "GNS225_U3_T7",
+    "GNS225_U3_T9",
+    "GNS225_U3_T12",
+    "GNS225_U5_T6",
+    "GNS225_U5_T7",
+    "GNS225_U5_T9",
+    "GNS225_U5_T10",
+    "GNS225_U5_T2",
+    "GNS225_U5_T11",
+    "GNS225_U5_T12",
+    "GNS226_U1_T014",
+    "GNS226_U1_T015",
+    "GNS226_U1_T016",
+    "GNS226_U2_T003",
+    "GNS226_U2_T018",
+    "GNS226_U2_T019",
+    "GNS225_U5_T17",
+    "GNS226_U3_T001",
+    "GNS226_U3_T003",
+    "GNS226_U3_T004",
+    "GNS226_U3_T020",
+    "GNS226_U3_T021",
+    "GNS226_U3_T022",
+    "GNS226_U3_T024",
+    "GNS226_U3_T025",
+    "GNS226_U4_T001",
+    "GNS225_U1_T7",
+    "GNS226_U4_T002",
+    "GST319_U5_T4",
+    "GNS225_U5_T13",
+    "GNS225_U5_T14",
+    "GNS225_U5_T15",
+    "GNS225_U5_T16",
+    "GNS225_U5_T18",
+    "GNS225_U5_T19",
+    "GNS225_U5_T20",
+    "GNS225_U5_T21",
+    "GNS225_U5_T22",
+    "GNS225_U5_T23",
+    "GNS225_U5_T24",
+    "GNS225_U5_T25",
+    "GNS225_U5_T26",
+    "GNS225_U5_T27",
+    "GNS225_U5_T28",
+    "GNS225_U6_T1",
+    "GNS225_U6_T4",
+    "GNS226_U1_T001",
+    "GNS226_U1_T004",
+    "GNS226_U1_T005",
+    "GNS226_U1_T006",
+    "GNS226_U1_T007",
+    "GNS226_U4_T006",
+    "GNS226_U5_T026",
+    "GST319_U6_T4",
+    "GST319_U6_T5",
+    "GST319_U6_T6",
+    "GST319_U6_T7",
+    "GNS321_U1_T1",
+    "GNS321_U1_T2",
+    "GNS226_U1_T009",
+    "GNS226_U1_T010",
+    "GNS226_U1_T011",
+    "GNS226_U1_T012",
+    "GNS226_U4_T003",
+    "GNS226_U4_T004",
+    "GNS226_U4_T005",
+    "GNS226_U4_T007",
+    "GNS226_U4_T008",
+    "GNS226_U4_T010",
+    "GNS226_U4_T011",
+    "GNS226_U4_T012",
+    "GNS226_U5_T003",
+    "GNS226_U5_T018",
+    "GNS226_U5_T020",
+    "GNS226_U5_T022",
+    "GNS226_U5_T024",
+    "GNS226_U5_T025",
+    "GNS226_U6_T001",
+    "GNS226_U6_T002",
+    "GNS226_U6_T003",
+    "GNS226_U6_T004",
+    "GNS226_U6_T005",
+    "GNS226_U6_T006",
+    "GNS226_U6_T007",
+    "GNS226_U6_T009",
+    "GNS226_U6_T010",
+    "GNS226_U6_T008",
+    "GNS226_U6_T011",
+    "GNS226_U6_T012",
+    "GNS226_U6_T013",
+    "GNS226_U6_T014",
+    "GNS226_U6_T015",
+    "GNS226_U6_T017",
+    "GNS226_U6_T018",
+    "GNS226_U6_T019",
+    "GNS226_U6_T020",
+    "GNS226_U6_T021",
+    "GNS226_U6_T016",
+    "GNS226_U6_T022",
+    "GNS226_U6_T024",
+    "GNS226_U6_T025",
+    "GNS311_U1_T14",
+    "GNS311_U1_T15",
+    "GNS311_U2_T1",
+    "GNS311_U2_T2",
+    "GNS311_U2_T4",
+    "GNS311_U2_T5",
+    "GNS311_U2_T7",
+    "GNS311_U2_T3",
+    "GNS311_U2_T6",
+    "GNS311_U2_T8",
+    "GNS311_U2_T9",
+    "GNS311_U2_T10",
+    "GNS311_U2_T11",
+    "GNS311_U2_T12",
+    "GNS311_U2_T13",
+    "GNS311_U2_T14",
+    "GNS311_U2_T15",
+    "GNS311_U3_T2",
+    "GNS321_U4_T13",
+    "GNS226_U6_T023",
+    "GNS226_U6_T026",
+    "GNS226_U6_T027",
+    "GNS226_U6_T028",
+    "GNS226_U6_T029",
+    "GNS227_U1_T001",
+    "GNS227_U1_T002",
+    "GNS227_U1_T003",
+    "GNS227_U1_T004",
+    "GNS227_U1_T005",
+    "GNS227_U1_T007",
+    "GNS227_U1_T008",
+    "GNS227_U1_T009",
+    "GNS227_U1_T006",
+    "GNS227_U1_T010",
+    "GNS227_U1_T013",
+    "GNS227_U2_T017",
+    "GNS227_U4_T002",
+    "GNS227_U4_T009",
+    "GNS227_U7_T008",
+    "GNS227_U7_T012",
+    "GNS227_U7_T014",
+    "GNS311_U1_T1",
+    "GNS311_U1_T2",
+    "GNS311_U1_T3",
+    "GNS311_U1_T4",
+    "GNS311_U1_T5",
+    "GNS311_U1_T6",
+    "GNS311_U1_T7",
+    "GNS311_U1_T8",
+    "GNS311_U1_T9",
+    "GNS311_U1_T10",
+    "GNS311_U1_T11",
+    "GNS311_U1_T12",
+    "GNS311_U1_T13",
+    "GNS311_U3_T1",
+    "GNS312_U1_T1",
+    "GNS227_U1_T014",
+    "GNS227_U2_T014",
+    "GNS227_U2_T020",
+    "GNS227_U2_T021",
+    "GNS227_U2_T022",
+    "GNS227_U2_T024",
+    "GNS227_U2_T025",
+    "GNS227_U2_T026",
+    "GNS227_U2_T027",
+    "GNS227_U2_T028",
+    "GNS227_U2_T018",
+    "GNS227_U2_T023",
+    "GNS227_U2_T029",
+    "GNS227_U2_T030",
+    "GNS227_U2_T031",
+    "GNS312_U4_T13",
+    "GNS312_U4_T14",
+    "GNS312_U4_T15",
+    "GNS312_U5_T1",
+    "GNS227_U3_T001",
+    "GNS227_U3_T002",
+    "GNS227_U3_T003",
+    "GNS227_U2_T015",
+    "GNS227_U3_T004",
+    "GNS227_U3_T005",
+    "GNS227_U3_T006",
+    "GNS227_U3_T007",
+    "GNS227_U3_T009",
+    "GNS227_U3_T010",
+    "GNS227_U3_T012",
+    "GNS227_U4_T001",
+    "GNS227_U4_T003",
+    "GNS227_U4_T004",
+    "GNS227_U4_T007",
+    "GNS227_U4_T008"
+  ]
+}
+
+===== FILE: ./utils/ai_client.py =====
+import os
+import json
+from google import genai
+from google.genai import types
+
+# Confirm this is the exact model string you want before running at scale.
+MODEL_NAME = "gemini-3.5-flash-lite"
+
+
+def get_client():
+    api_key = os.environ.get("GEMINI_API_KEY")
+    if not api_key:
+        raise RuntimeError("GEMINI_API_KEY environment variable is not set.")
+    return genai.Client(api_key=api_key)
+
+
+def call_gemini(system_prompt, user_prompt):
+    """
+    Calls Gemini with a system instruction + user prompt, forcing JSON-mode
+    output via response_mime_type so the model can't wrap the reply in
+    markdown fences or add commentary around it.
+
+    Returns the parsed JSON object (dict/list). Raises ValueError if the
+    response isn't valid JSON, so callers can treat that as a failed
+    topic and move on rather than crashing the whole run.
+    """
+    client = get_client()
+
+    response = client.models.generate_content(
+        model=MODEL_NAME,
+        contents=user_prompt,
+        config=types.GenerateContentConfig(
+            system_instruction=system_prompt,
+            response_mime_type="application/json",
+        ),
+    )
+
+    raw_text = (response.text or "").strip()
+
+    try:
+        return json.loads(raw_text)
+    except json.JSONDecodeError as e:
+        raise ValueError(f"AI response was not valid JSON: {e}\nRaw response: {raw_text[:500]}")
+
+
+===== FILE: ./utils/course_branch_map.py =====
+COURSE_BRANCH_MAP = {
+    # Anatomy & Physiology
+    "GNS111": "Anatomy and Physiology",
+    "GNS121": "Anatomy and Physiology",
+    "GNS211": "Anatomy and Physiology",
+
+    # Foundation of Nursing
+    "GNS112": "Foundation of Nursing",
+    "GNS122": "Foundation of Nursing",
+    "GNS212": "Foundation of Nursing",
+    "GNS221": "Foundation of Nursing",
+
+    # Nursing Informatics
+    "GNS113": "Nursing Informatics",
+
+    # Microbiology
+    "GST114": "Microbiology",
+
+    # Medical/Surgical Nursing
+    "GNS123": "Medical Surgical Nursing",
+    "GNS213": "Medical Surgical Nursing",
+    "GNS222": "Medical Surgical Nursing",
+    "GNS311": "Medical Surgical Nursing",
+    "GNS321": "Medical Surgical Nursing",
+
+    # Primary Health Care
+    "GNS124": "Primary Health Care",
+    "GNS214": "Primary Health Care",
+
+    # Pharmacology
+    "GNS125": "Pharmacology",
+    "GNS215": "Pharmacology",
+    "GNS223": "Pharmacology",
+
+    # Reproductive Health
+    "GNS216": "Reproductive Health",
+    "GNS226": "Reproductive Health",
+    "GNS312": "Reproductive Health",
+
+    # Research & Statistics
+    "GNS217": "Research and Statistics",
+    "GNS224": "Research and Statistics",
+
+    # Community Health Nursing
+    "GNS225": "Community Health Nursing",
+    "GNS313": "Community Health Nursing",
+
+    # Nutrition
+    "GNS227": "Nutrition and Dietetics",
+
+    # Mental Health
+    "GNS314": "Mental Health Nursing",
+
+    # Emergency & Disaster
+    "GNS315": "Emergency and Disaster Nursing",
+
+    # Quality & Safety
+    "GST319": "Quality Improvement and Patient Safety",
+
+    # Home Healthcare
+    "GNS324": "Home Healthcare Nursing",
+
+    # Management & Teaching
+    "GST321": "Management and Teaching",
+
+    # Health Economics
+    "GST322": "Health Economics",
+}
+
+
+def get_course_id_from_topic_id(topic_id):
+    """e.g. 'GNS321_U4_T6' -> 'GNS321'"""
+    return topic_id.split("_")[0]
+
+
+===== FILE: ./utils/weighted_sampling.py =====
+import random
+
+
+def load_weights(weights_config):
+    """Returns (course_weights: dict, unit_weights: dict) with .get(key, 1.0) semantics baked in via defaultdict-like access."""
+    courses = weights_config.get("courses", {})
+    units = weights_config.get("units", {})
+    return courses, units
+
+
+def build_weighted_pool(course_pool_questions, weights_config):
+    """
+    course_pool_questions: {course_slug: {unit_slug: [question_dict, ...]}}
+    Returns a flat list of (question_dict, weight) tuples - one entry per question,
+    weight = course_weight * unit_weight for whichever course/unit it belongs to.
+    """
+    course_weights, unit_weights = load_weights(weights_config)
+
+    pool = []
+    for course_slug, units in course_pool_questions.items():
+        c_weight = course_weights.get(course_slug, 1.0)
+        for unit_slug, questions in units.items():
+            unit_key = f"{course_slug}|{unit_slug}"
+            u_weight = unit_weights.get(unit_key, 1.0)
+            weight = c_weight * u_weight
+            for q in questions:
+                pool.append((q, weight))
+    return pool
+
+
+def sample_without_replacement(pool, k):
+    """
+    pool: list of (item, weight) tuples
+    Returns up to k items, weighted, without replacement.
+    O(n*k) - fine for pool sizes in the low thousands and k=250.
+    """
+    items = [p[0] for p in pool]
+    weights = [p[1] for p in pool]
+    selected = []
+
+    for _ in range(min(k, len(items))):
+        if not items:
+            break
+        chosen = random.choices(items, weights=weights, k=1)[0]
+        idx = items.index(chosen)
+        selected.append(items.pop(idx))
+        weights.pop(idx)
+
+    return selected
+
+
