@@ -129,13 +129,13 @@ def render_unit_page(course_name, course_slug, unit_name, unit_slug, topics):
         f'<div class="topic-actions"><a href="{t["topic_id"]}.html">Read →</a></div></div>'
         for t in topics_sorted
     )
-    crumbs = breadcrumb("../../", [
+    crumbs = breadcrumb("../../../", [
         ("Home", "index.html"),
         (course_name, f"{course_slug}/index.html"),
         (unit_name, None),
     ])
     body = f'<h1>{unit_name}</h1><div class="branch-group">{rows}</div>'
-    return render_page(unit_name, "../../", crumbs, body)
+    return render_page(unit_name, "../../../", crumbs, body)
 
 
 def render_course_page(course_name, course_slug, units):
@@ -146,9 +146,9 @@ def render_course_page(course_name, course_slug, units):
         f'<div class="topic-actions"><a href="{unit_slug}/index.html">Open →</a></div></div>'
         for unit_slug, u in sorted(units.items(), key=lambda kv: kv[1]["unit_name"])
     )
-    crumbs = breadcrumb("../", [("Home", "index.html"), (course_name, None)])
+    crumbs = breadcrumb("../../", [("Home", "index.html"), (course_name, None)])
     body = f'<h1>{course_name}</h1><div class="branch-group">{rows}</div>'
-    return render_page(course_name, "../", crumbs, body)
+    return render_page(course_name, "../../", crumbs, body)
 
 
 def render_home_page(courses):
@@ -164,9 +164,9 @@ def render_home_page(courses):
         '<p style="color: var(--ink-soft); margin-top: -8px;">Browse by course, or search below.</p>'
         '<input type="text" id="searchInput" class="search-box" placeholder="Search courses, units, or topics...">'
         f'<div class="branch-group" id="courseList">{rows}</div>'
-        '<script src="assets/home_search.js"></script>'
+        '<script src="../assets/home_search.js"></script>'
     )
-    return render_page("Algocare", "", "", body)
+    return render_page("Algocare", "../", "", body)
 
 
 # ---------- main ----------
