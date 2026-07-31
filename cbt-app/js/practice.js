@@ -1,45 +1,60 @@
 const params = new URLSearchParams(window.location.search);
+const courseSlug = params.get("course");
 const topicId = params.get("topic");
-
-const TEST_DURATION_SECONDS = 15 * 60; // 15 min default test length
-let timeRemaining = TEST_DURATION_SECONDS;
-let timerInterval = null;
+const requestedCount = parseInt(params.get("count"), 10) || null;
+const secondsPerQuestion = parseInt(params.get("spq"), 10) || 30;
 
 let questions = [];
-let articleTitle = "";
+let siteIndex = [];
 let current = 0;
-// answers[i] = { selected: "A", isCorrect: true/false } once answered
-let answers = [];
+let answers = []; // { selected, isCorrect, showExplanation }
+let timeRemaining = 0;
+let timerInterval = null;
+let timerPaused = false;
+
+function shuffle(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
 
 async function init() {
-  if (!topicId) {
-    document.getElementById("testRoot").innerHTML =
-      `<div class="empty-state">No topic specified. <a href="index.html">Go back to topics</a>.</div>`;
-    return;
-  }
-
   try {
-    const [qRes, aRes] = await Promise.all([
-      fetch(`../data/questions/${topicId}.json`),
-      fetch(`../data/articles/${topicId}.json`),
-    ]);
-    questions = await qRes.json();
-    const article = await aRes.json();
-    articleTitle = article.title;
+    const siteRes = await fetch("../site_index.json");
+    siteIndex = await siteRes.json();
+
+    let pool = [];
+    if (topicId) {
+      const qRes = await fetch(`../data/questions/${topicId}.json`);
+      pool = await qRes.json();
+    } else if (courseSlug) {
+      const qRes = await fetch(`../data/course_pools/${courseSlug}.json`);
+      pool = await qRes.json();
+    } else {
+      document.getElementById("root").innerHTML =
+        `<div class="empty-state">No course or topic specified. <a href="index.html">Go back</a>.</div>`;
+      return;
+    }
+
+    const count = requestedCount ? Math.min(requestedCount, pool.length) : pool.length;
+    questions = shuffle(pool).slice(0, count);
   } catch (err) {
-    document.getElementById("testRoot").innerHTML =
-      `<div class="empty-state">Couldn't load this test — it may not be generated yet. <a href="index.html">Go back</a>.</div>`;
+    document.getElementById("root").innerHTML =
+      `<div class="empty-state">Couldn't load this practice set. <a href="index.html">Go back</a>.</div>`;
     console.error(err);
     return;
   }
 
   if (!questions.length) {
-    document.getElementById("testRoot").innerHTML =
-      `<div class="empty-state">No questions available for this topic yet.</div>`;
+    document.getElementById("root").innerHTML = `<div class="empty-state">No questions available.</div>`;
     return;
   }
 
   answers = new Array(questions.length).fill(null);
+  timeRemaining = questions.length * secondsPerQuestion;
   startTimer();
   render();
 }
@@ -47,6 +62,7 @@ async function init() {
 function startTimer() {
   updateTimerDisplay();
   timerInterval = setInterval(() => {
+    if (timerPaused) return;
     timeRemaining--;
     updateTimerDisplay();
     if (timeRemaining <= 0) {
@@ -59,7 +75,7 @@ function startTimer() {
 function updateTimerDisplay() {
   const m = Math.floor(timeRemaining / 60).toString().padStart(2, "0");
   const s = (timeRemaining % 60).toString().padStart(2, "0");
-  document.getElementById("timerReadout").textContent = `${m}:${s}`;
+  document.getElementById("timerReadout").textContent = timerPaused ? "PAUSED" : `${m}:${s}`;
 
   const strip = document.getElementById("pulseStrip");
   strip.classList.remove("warning", "danger");
@@ -70,8 +86,12 @@ function updateTimerDisplay() {
 function render() {
   const q = questions[current];
   const answer = answers[current];
-
   const optionKeys = Object.keys(q.options);
+
+  // Timer pauses exactly while an explanation is open - covers both reading
+  // the explanation itself and following a learn-more link from inside it.
+  timerPaused = !!(answer && answer.showExplanation);
+  updateTimerDisplay();
 
   const optionsHtml = optionKeys.map(key => {
     let cls = "option";
@@ -86,20 +106,17 @@ function render() {
   }).join("");
 
   const explanationHtml = answer ? `
-    <div class="explanation-box" id="explanationBox">
-      ${answer.showExplanation ? parseExplanation(q.explanation) : ""}
-    </div>
+    ${answer.showExplanation ? `<div class="explanation-box">${parseExplanation(q.explanation, q.topic_id)}</div>` : ""}
     <div class="action-row">
       ${!answer.showExplanation ? `<button class="btn secondary" id="showExplanationBtn">Show explanation</button>` : ""}
-      <button class="btn" id="nextBtn">${current < questions.length - 1 ? "Next question" : "Finish test"}</button>
+      <button class="btn" id="nextBtn">${current < questions.length - 1 ? "Next question" : "Finish"}</button>
     </div>
   ` : "";
 
-  document.getElementById("testRoot").innerHTML = `
+  document.getElementById("root").innerHTML = `
     <div class="test-layout">
       <div class="question-nav">${renderNavTabs()}</div>
       <div class="test-card">
-        <div class="folder-tab">${articleTitle}</div>
         <div class="question-number">Question ${current + 1} of ${questions.length}</div>
         <div class="question-text">${q.question}</div>
         <div class="options-list">${optionsHtml}</div>
@@ -120,12 +137,14 @@ function renderNavTabs() {
   }).join("");
 }
 
-function parseExplanation(text) {
-  // Convert [learn more](article_id#heading_id) into a real link to article.html
-  return text.replace(/\[([^\]]+)\]\(([^)#]+)#([^)]+)\)/g,
-    (match, label, articleId, headingId) =>
-      `<a href="article.html?topic=${articleId}#${headingId}">${label}</a>`
-  );
+function parseExplanation(text, ownTopicId) {
+  // Explanation strings contain [learn more](topic_id#heading_id). Resolve
+  // topic_id to the real published article URL via site_index.
+  return text.replace(/\[([^\]]+)\]\(([^)#]+)#([^)]+)\)/g, (match, label, tId, headingId) => {
+    const entry = siteIndex.find(item => item.topic_id === tId);
+    if (!entry) return label; // fall back to plain text if not found
+    return `<a href="../${entry.url}#${headingId}">${label}</a>`;
+  });
 }
 
 function attachHandlers() {
@@ -162,7 +181,7 @@ function attachHandlers() {
 }
 
 function selectAnswer(key) {
-  if (answers[current]) return; // already answered, locked
+  if (answers[current]) return;
   const q = questions[current];
   answers[current] = {
     selected: key,
@@ -177,14 +196,12 @@ function finishTest(timedOut) {
   const correctCount = answers.filter(a => a && a.isCorrect).length;
   const answeredCount = answers.filter(a => a).length;
 
-  document.getElementById("testRoot").innerHTML = `
-    <div class="test-card">
-      <h2>${timedOut ? "Time's up" : "Test complete"}</h2>
-      <p>You answered ${answeredCount} of ${questions.length} questions.</p>
-      <p><strong>${correctCount} correct</strong> out of ${answeredCount} answered.</p>
-      <div class="action-row">
-        <a class="btn" href="index.html" style="text-decoration:none; display:inline-block;">Back to topics</a>
-      </div>
+  document.getElementById("root").innerHTML = `
+    <div class="score-summary">
+      <h2>${timedOut ? "Time's up" : "Practice complete"}</h2>
+      <div class="big-score">${correctCount} / ${questions.length}</div>
+      <p style="color: var(--ink-soft);">${answeredCount} of ${questions.length} questions answered</p>
+      <a class="btn" href="index.html" style="text-decoration:none; display:inline-block; margin-top: 16px;">Back to practice tests</a>
     </div>
   `;
 }

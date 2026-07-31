@@ -1,0 +1,5 @@
+{
+  "_readme": "Course/unit weights control how often real-feel exam questions are drawn from each. Any course_slug or unit key NOT listed here defaults to 1.0 (equal weight). Unit keys are 'course-slug|unit-slug'. Edit these once you have real NMCN exam blueprint percentages - values are relative, not required to sum to 100.",
+  "courses": {},
+  "units": {}
+}

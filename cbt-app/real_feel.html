@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Algocare — Article</title>
+<title>Algocare — Real-Feel Exam</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../assets/style.css">
@@ -12,15 +12,22 @@
 
 <div class="topbar">
   <div class="brand"><span class="pulse-dot"></span>Algocare</div>
-  <a href="index.html" style="font-size: 0.85rem; color: var(--ink-soft);">← All topics</a>
+  <a href="index.html" style="font-size: 0.85rem; color: var(--ink-soft);">← Practice tests</a>
+</div>
+
+<div class="pulse-strip" id="pulseStrip">
+  <svg viewBox="0 0 300 48" preserveAspectRatio="none" fill="none" stroke-width="2">
+    <path d="M0,24 L60,24 L70,8 L80,40 L90,24 L300,24 L360,24 L370,8 L380,40 L390,24 L600,24" />
+  </svg>
+  <div class="timer-readout" id="timerReadout">--:--</div>
 </div>
 
 <div class="container">
-  <div id="articleRoot">
-    <div class="empty-state">Loading article...</div>
+  <div id="root">
+    <div class="empty-state">Loading exam...</div>
   </div>
 </div>
 
-<script src="js/article.js"></script>
+<script src="js/real_feel.js"></script>
 </body>
 </html>

@@ -10,17 +10,15 @@
 </head>
 <body>
 
+<div id="deviceBanner"></div>
+
 <div class="topbar">
   <div class="brand"><span class="pulse-dot"></span>Algocare</div>
+  <a href="../index.html" style="font-size: 0.85rem; color: var(--ink-soft);">← Study articles</a>
 </div>
 
-<div class="container">
-  <h1>Practice tests</h1>
-  <p style="color: var(--ink-soft); margin-top: -8px;">Pick a topic to start a timed test, or search for one below.</p>
-
-  <input type="text" id="searchInput" class="search-box" placeholder="Search topics (e.g. heart, malaria, palliative care)...">
-
-  <div id="results"></div>
+<div class="container" id="root">
+  <div class="empty-state">Loading...</div>
 </div>
 
 <script src="js/index.js"></script>

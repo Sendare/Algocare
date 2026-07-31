@@ -5,11 +5,17 @@ import time
 from pathlib import Path
 
 from utils.course_branch_map import COURSE_BRANCH_MAP, get_course_id_from_topic_id
+from utils.weighted_sampling import build_weighted_pool, sample_without_replacement
 
 CURRICULUM_PATH = "curriculum.json"
 ARTICLES_DIR = Path("data/articles")
+QUESTIONS_DIR = Path("data/questions")
+CBT_APP_SRC = Path("cbt-app")
 PUBLISHED_DIR = Path("docs")
 STATE_PATH = Path("state/build_state.json")
+REAL_FEEL_STATE_PATH = Path("state/real_feel_state.json")
+REAL_FEEL_CONFIG_PATH = Path("config/real_feel_config.json")
+WEIGHTS_CONFIG_PATH = Path("config/weights.json")
 
 MAX_RUNTIME_SECONDS = 270  # 4.5 min hard stop - same tier-limit reasoning as the fetch scripts
 
@@ -78,7 +84,10 @@ PAGE_HEAD = """<!DOCTYPE html>
 <body>
 <div class="topbar">
   <div class="brand"><span class="pulse-dot"></span>Algocare</div>
-  <a href="{rel}index.html" style="font-size: 0.85rem; color: var(--ink-soft);">Home</a>
+  <div>
+    <a href="{rel}cbt/index.html" style="font-size: 0.85rem; color: var(--scrub); font-weight: 600; margin-right: 16px;">Practice tests</a>
+    <a href="{rel}index.html" style="font-size: 0.85rem; color: var(--ink-soft);">Home</a>
+  </div>
 </div>
 <div class="container">
 {breadcrumb}
@@ -117,7 +126,10 @@ def render_article_page(article, ctx):
         (ctx["unit_name"], f'{ctx["course_slug"]}/{ctx["unit_slug"]}/index.html'),
         (article["title"], None),
     ])
-    body = f'<h1>{article["title"]}</h1>{headings_html}'
+    body = (
+        f'<h1>{article["title"]}</h1>{headings_html}'
+        f'<a class="test-yourself-link" href="../../cbt/index.html?topic={article["topic_id"]}">Test yourself on this topic →</a>'
+    )
     return render_page(article["title"], "../../", crumbs, body)
 
 
@@ -170,7 +182,77 @@ def render_home_page(courses):
     return render_page("Algocare", "", "", body)
 
 
-# ---------- main ----------
+# ---------- CBT: course pools + real-feel exams ----------
+
+def build_course_pools(courses, questions_dir):
+    """
+    courses: the same {course_slug: {course_name, units: {unit_slug: {..., topics:[...]}}}}
+    structure already built for nav. Returns {course_slug: {unit_slug: [question, ...]}}
+    by loading each published topic's question file.
+    """
+    pools = {}
+    for c_slug, c_data in courses.items():
+        pools[c_slug] = {}
+        for u_slug, u_data in c_data["units"].items():
+            questions = []
+            for t in u_data["topics"]:
+                q_path = questions_dir / f"{t['topic_id']}.json"
+                q_list = load_json(q_path, [])
+                questions.extend(q_list)
+            pools[c_slug][u_slug] = questions
+    return pools
+
+
+def build_real_feel_tests(course_pools):
+    """
+    Draws fixed-size, weighted, non-overlapping question sets from everything
+    published so far. Never rewrites an already-built test - only adds a new
+    one when enough unused questions exist. Cheap (no AI calls), safe to run
+    every hour alongside the rest of the build.
+    """
+    config = load_json(REAL_FEEL_CONFIG_PATH, {
+        "question_count": 250, "seconds_per_question": 30, "min_answered_to_submit": 125
+    })
+    weights_config = load_json(WEIGHTS_CONFIG_PATH, {"courses": {}, "units": {}})
+
+    rf_state = load_json(REAL_FEEL_STATE_PATH, {"used_question_ids": [], "tests_built": 0})
+    used_ids = set(rf_state["used_question_ids"])
+
+    # Filter out already-used questions before building the weighted pool
+    unused_pools = {}
+    for c_slug, units in course_pools.items():
+        unused_pools[c_slug] = {}
+        for u_slug, questions in units.items():
+            unused_pools[c_slug][u_slug] = [q for q in questions if q["question_id"] not in used_ids]
+
+    pool = build_weighted_pool(unused_pools, weights_config)
+    question_count = config["question_count"]
+
+    tests_built_this_run = 0
+    available_ids_path = PUBLISHED_DIR / "data" / "real_feel_tests" / "index.json"
+    available = load_json(available_ids_path, {"tests": []})
+
+    while len(pool) >= question_count:
+        selected = sample_without_replacement(pool, question_count)
+        selected_ids = {q["question_id"] for q in selected}
+
+        rf_state["tests_built"] += 1
+        test_number = rf_state["tests_built"]
+        save_json(PUBLISHED_DIR / "data" / "real_feel_tests" / f"test_{test_number}.json", selected)
+
+        used_ids.update(selected_ids)
+        rf_state["used_question_ids"] = list(used_ids)
+        save_json(REAL_FEEL_STATE_PATH, rf_state)
+
+        available["tests"].append(test_number)
+        save_json(available_ids_path, available)
+
+        # remove selected from pool so the next loop iteration draws fresh
+        pool = [(q, w) for q, w in pool if q["question_id"] not in selected_ids]
+        tests_built_this_run += 1
+
+    return tests_built_this_run, rf_state["tests_built"]
+
 
 def run():
     start_time = time.time()
@@ -183,6 +265,18 @@ def run():
         print(f"📦 Copied {assets_src} -> {PUBLISHED_DIR / 'assets'}")
     else:
         print(f"⚠️  No {assets_src} folder found at repo root - CSS/JS will be missing.")
+
+    if CBT_APP_SRC.exists():
+        shutil.copytree(CBT_APP_SRC, PUBLISHED_DIR / "cbt", dirs_exist_ok=True)
+        print(f"📦 Copied {CBT_APP_SRC} -> {PUBLISHED_DIR / 'cbt'}")
+
+    if QUESTIONS_DIR.exists():
+        shutil.copytree(QUESTIONS_DIR, PUBLISHED_DIR / "data" / "questions", dirs_exist_ok=True)
+        print(f"📦 Copied {QUESTIONS_DIR} -> {PUBLISHED_DIR / 'data' / 'questions'}")
+
+    if REAL_FEEL_CONFIG_PATH.exists():
+        rf_config = load_json(REAL_FEEL_CONFIG_PATH, {})
+        save_json(PUBLISHED_DIR / "data" / "real_feel_config.json", rf_config)
 
     curriculum = load_json(CURRICULUM_PATH, {})
     ctx_lookup = build_context_lookup(curriculum)
@@ -273,17 +367,30 @@ def run():
         for u_slug, u_data in c_data["units"].items():
             for t in u_data["topics"]:
                 site_index.append({
+                    "topic_id": t["topic_id"],
                     "title": t["title"],
                     "course": c_data["course_name"],
+                    "course_slug": c_slug,
                     "unit": u_data["unit_name"],
                     "url": f"{c_slug}/{u_slug}/{t['topic_id']}.html",
                 })
     save_json(PUBLISHED_DIR / "site_index.json", site_index)
 
+    # ---- CBT: course pools + real-feel exams ----
+    course_pools = build_course_pools(courses, QUESTIONS_DIR)
+
+    for c_slug, units in course_pools.items():
+        flat_questions = [q for qs in units.values() for q in qs]
+        save_json(PUBLISHED_DIR / "data" / "course_pools" / f"{c_slug}.json", flat_questions)
+
+    tests_built_this_run, total_tests = build_real_feel_tests(course_pools)
+
     print(f"\n🏁 Run complete. Built {processed_this_run} new article page(s) this run.")
     print(f"   Total published: {len(published_ids)}/{len(available_ids)}")
     print(f"   Navigation rebuilt for {len(courses)} course(s).")
+    print(f"   Real-feel exams: {tests_built_this_run} new this run, {total_tests} total available.")
 
 
 if __name__ == "__main__":
     run()
+		
