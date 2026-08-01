@@ -4,239 +4,191 @@
     "heading_id": "GNS223_U5_T4_h1",
     "article_id": "GNS223_U5_T4",
     "topic_id": "GNS223_U5_T4",
-    "question": "What is the primary pharmacological mechanism of action of Non-Steroidal Anti-Inflammatory Drugs (NSAIDs)?",
+    "difficulty": "recall",
+    "question": "What is the primary cellular target of non-steroidal anti-inflammatory drugs?",
     "options": {
-      "A": "Stimulation of the sympathetic nervous system",
-      "B": "Inhibition of the cyclooxygenase (COX) enzymes",
-      "C": "Activation of endogenous opioid receptors",
-      "D": "Blockade of histamine H1 receptors"
+      "A": "Beta-adrenergic receptors",
+      "B": "Cyclooxygenase enzymes",
+      "C": "Angiotensin-converting enzyme",
+      "D": "Histamine receptors"
     },
     "answer": "B",
-    "explanation": "NSAIDs work primarily by inhibiting the cyclooxygenase (COX) enzymes, which stops the synthesis of prostaglandins responsible for pain and inflammation. [learn more](GNS223_U5_T4#GNS223_U5_T4_h1)"
+    "explanation": "NSAIDs work by blocking cyclooxygenase enzymes, preventing the conversion of arachidonic acid into inflammatory prostaglandins. [learn more](GNS223_U5_T4#GNS223_U5_T4_h1)"
   },
   {
     "question_id": "GNS223_U5_T4_h1_q2",
     "heading_id": "GNS223_U5_T4_h1",
     "article_id": "GNS223_U5_T4",
     "topic_id": "GNS223_U5_T4",
-    "question": "Which COX isoform is primarily responsible for maintaining protective functions such as gastric mucosal integrity?",
+    "difficulty": "understanding",
+    "question": "Which physiological function is primarily maintained by the constitutive activity of the COX-1 enzyme?",
     "options": {
-      "A": "COX-1",
-      "B": "COX-2",
-      "C": "COX-3",
-      "D": "COX-4"
+      "A": "Vasoconstriction at injury sites",
+      "B": "Protection of the gastric mucosa",
+      "C": "Amplification of acute pain signals",
+      "D": "Induction of peripheral fever"
     },
-    "answer": "A",
-    "explanation": "COX-1 is constitutively expressed and plays a protective role in the body, including maintaining the gastric mucosa and supporting platelet aggregation. [learn more](GNS223_U5_T4#GNS223_U5_T4_h1)"
+    "answer": "B",
+    "explanation": "COX-1 produces prostaglandins that maintain the mucosal lining of the stomach, which is why blocking it can lead to ulceration. [learn more](GNS223_U5_T4#GNS223_U5_T4_h1)"
   },
   {
     "question_id": "GNS223_U5_T4_h2_q1",
     "heading_id": "GNS223_U5_T4_h2",
     "article_id": "GNS223_U5_T4",
     "topic_id": "GNS223_U5_T4",
-    "question": "Which of the following medications belongs to the propionic acid derivative subclass of NSAIDs?",
+    "difficulty": "recall",
+    "question": "Which medication belongs to the propionic acid derivative class of NSAIDs?",
     "options": {
-      "A": "Indomethacin",
+      "A": "Aspirin",
       "B": "Ibuprofen",
-      "C": "Piroxicam",
+      "C": "Indomethacin",
       "D": "Celecoxib"
     },
     "answer": "B",
-    "explanation": "Ibuprofen is classified as a propionic acid derivative commonly used for mild to moderate pain and fever. [learn more](GNS223_U5_T4#GNS223_U5_T4_h2)"
+    "explanation": "Ibuprofen, along with naproxen, is classified under propionic acid derivatives commonly used for mild to moderate pain. [learn more](GNS223_U5_T4#GNS223_U5_T4_h2)"
   },
   {
     "question_id": "GNS223_U5_T4_h2_q2",
     "heading_id": "GNS223_U5_T4_h2",
     "article_id": "GNS223_U5_T4",
     "topic_id": "GNS223_U5_T4",
-    "question": "What is a major distinguishing feature of aspirin compared to most other traditional NSAIDs?",
+    "difficulty": "understanding",
+    "question": "What is a major pharmacological advantage of selective COX-2 inhibitors over traditional non-selective NSAIDs?",
     "options": {
-      "A": "It has no anti-inflammatory properties",
-      "B": "It causes rapid liver failure at standard doses",
-      "C": "It has unique antiplatelet properties due to irreversible COX-1 inhibition",
-      "D": "It stimulates COX-3 exclusively in the central nervous system"
+      "A": "Complete elimination of renal side effects",
+      "B": "Reduced incidence of gastric mucosal injury",
+      "C": "Irreversible inhibition of platelet aggregation",
+      "D": "Immediate reversal of chronic hypertension"
     },
-    "answer": "C",
-    "explanation": "Aspirin possesses unique antiplatelet properties at low doses due to the irreversible inhibition of platelet COX-1. [learn more](GNS223_U5_T4#GNS223_U5_T4_h2)"
+    "answer": "B",
+    "explanation": "By sparing COX-1, selective inhibitors avoid suppressing the protective prostaglandins that line the stomach, lowering ulcer risk. [learn more](GNS223_U5_T4#GNS223_U5_T4_h2)"
   },
   {
     "question_id": "GNS223_U5_T4_h3_q1",
     "heading_id": "GNS223_U5_T4_h3",
     "article_id": "GNS223_U5_T4",
     "topic_id": "GNS223_U5_T4",
-    "question": "Where does the primary metabolism of most Non-Steroidal Anti-Inflammatory Drugs take place?",
+    "difficulty": "recall",
+    "question": "Which pharmacological triad represents the core therapeutic properties of NSAIDs?",
     "options": {
-      "A": "Kidneys",
-      "B": "Lungs",
-      "C": "Liver",
-      "D": "Stomach lining"
+      "A": "Sedative, hypnotic, skeletal muscle relaxant",
+      "B": "Antibacterial, antiviral, antifungal",
+      "C": "Analgesic, anti-inflammatory, antipyretic",
+      "D": "Bronchodilator, antitussive, expectorant"
     },
     "answer": "C",
-    "explanation": "Most NSAIDs are metabolized primarily in the liver through the cytochrome P450 enzyme system before being excreted by the kidneys. [learn more](GNS223_U5_T4#GNS223_U5_T4_h3)"
+    "explanation": "NSAIDs are uniquely valued in medicine for their ability to relieve pain, reduce inflammation, and lower fever. [learn more](GNS223_U5_T4#GNS223_U5_T4_h3)"
   },
   {
     "question_id": "GNS223_U5_T4_h3_q2",
     "heading_id": "GNS223_U5_T4_h3",
     "article_id": "GNS223_U5_T4",
     "topic_id": "GNS223_U5_T4",
-    "question": "Why is the high plasma protein binding of NSAIDs clinically significant for nursing care?",
+    "difficulty": "application",
+    "question": "A client presents to the outpatient clinic with painful, swollen knee joints due to osteoarthritis. Which drug class is most appropriate to provide symptomatic relief for this inflammation?",
     "options": {
-      "A": "It prevents the drug from crossing the blood-brain barrier completely",
-      "B": "It can lead to increased free active drug and toxicity if displaced by other protein-bound drugs",
-      "C": "It causes immediate destruction of red blood cells in circulation",
-      "D": "It shortens the half-life of the medication to less than 30 minutes"
+      "A": "Inhaled beta-2 agonists",
+      "B": "Broad-spectrum bacteriostatic antibiotics",
+      "C": "Proton pump inhibitors",
+      "D": "Non-Steroidal Anti-Inflammatory Drugs"
     },
-    "answer": "B",
-    "explanation": "Because NSAIDs bind heavily to plasma proteins like albumin, concurrent use of other highly bound drugs can displace them, increasing free drug levels and toxicity risk. [learn more](GNS223_U5_T4#GNS223_U5_T4_h3)"
+    "answer": "D",
+    "explanation": "Osteoarthritis involves joint inflammation and pain, making NSAIDs a primary pharmacological choice for symptom management. [learn more](GNS223_U5_T4#GNS223_U5_T4_h3)"
   },
   {
     "question_id": "GNS223_U5_T4_h4_q1",
     "heading_id": "GNS223_U5_T4_h4",
     "article_id": "GNS223_U5_T4",
     "topic_id": "GNS223_U5_T4",
-    "question": "What is a major advantage of incorporating NSAIDs into a postoperative multimodal analgesia regimen?",
+    "difficulty": "recall",
+    "question": "What is a primary gastrointestinal complication associated with long-term traditional NSAID therapy?",
     "options": {
-      "A": "It completely eliminates the need for any nursing assessment",
-      "B": "It reduces the reliance on opioids and their associated side effects",
-      "C": "It permanently cures chronic surgical site infections",
-      "D": "It accelerates wound healing by doubling collagen production"
+      "A": "Massive hypertrophy of the gastric fundus",
+      "B": "Peptic ulcer disease and bleeding",
+      "C": "Hyperactive bowel motility and diarrhea",
+      "D": "Permanent stricture of the esophagus"
     },
     "answer": "B",
-    "explanation": "Using NSAIDs in postoperative care helps reduce reliance on opioids, lowering the risk of side effects like respiratory depression and severe constipation. [learn more](GNS223_U5_T4#GNS223_U5_T4_h4)"
+    "explanation": "Blocking COX-1 removes the protective mucosal barrier in the stomach, predisposing patients to ulcers and hemorrhage. [learn more](GNS223_U5_T4#GNS223_U5_T4_h4)"
   },
   {
     "question_id": "GNS223_U5_T4_h4_q2",
     "heading_id": "GNS223_U5_T4_h4",
     "article_id": "GNS223_U5_T4",
     "topic_id": "GNS223_U5_T4",
-    "question": "How do NSAIDs achieve their antipyretic effect in febrile patients?",
+    "difficulty": "understanding",
+    "question": "Why can NSAID therapy precipitate acute kidney injury in a patient experiencing severe dehydration?",
     "options": {
-      "A": "By constricting all peripheral blood vessels to trap heat",
-      "B": "By acting on the hypothalamic thermoregulatory center to promote heat dissipation",
-      "C": "By freezing sweat glands to lower skin temperature",
-      "D": "By directly destroying pyrogenic bacteria in the bloodstream"
+      "A": "The drugs directly crystallize within the renal tubules and cause physical obstruction.",
+      "B": "Renal blood flow depends on vasodilating prostaglandins when circulating volume is low.",
+      "C": "They destroy the glomerular basement membrane through immune complex deposition.",
+      "D": "Potassium is rapidly depleted from the renal cortex, causing cellular collapse."
     },
     "answer": "B",
-    "explanation": "Antipyretic NSAIDs act on the hypothalamus to decrease prostaglandin production, promoting heat loss through peripheral vasodilation and sweating. [learn more](GNS223_U5_T4#GNS223_U5_T4_h4)"
+    "explanation": "Prostaglandins dilate the afferent arterioles to maintain glomerular filtration when fluid is low; inhibiting them causes renal ischemia. [learn more](GNS223_U5_T4#GNS223_U5_T4_h4)"
   },
   {
     "question_id": "GNS223_U5_T4_h5_q1",
     "heading_id": "GNS223_U5_T4_h5",
     "article_id": "GNS223_U5_T4",
     "topic_id": "GNS223_U5_T4",
-    "question": "Why do traditional NSAIDs frequently cause gastric irritation and peptic ulcer disease?",
+    "difficulty": "understanding",
+    "question": "Which concurrent medication combination poses the highest immediate risk for severe gastrointestinal hemorrhage?",
     "options": {
-      "A": "They directly stimulate hydrochloric acid production in the parietal cells",
-      "B": "They inhibit cytoprotective prostaglandins that maintain the gastric mucosal barrier",
-      "C": "They paralyze the esophageal sphincter, causing severe acid reflux",
-      "D": "They promote bacterial overgrowth of Helicobacter pylori in the stomach"
+      "A": "An NSAID and a broad-spectrum antibiotic",
+      "B": "A calcium supplement and a multivitamin",
+      "C": "An inhaled bronchodilator and an antihistamine",
+      "D": "An NSAID and an oral corticosteroid"
     },
-    "answer": "B",
-    "explanation": "Blocking COX-1 suppresses protective prostaglandins in the stomach, leaving the mucosal lining vulnerable to acid erosion and ulceration. [learn more](GNS223_U5_T4#GNS223_U5_T4_h5)"
+    "answer": "D",
+    "explanation": "Both drugs compromise the gastric mucosal defense mechanisms, and taking them together multiplies the risk of ulceration and bleeding. [learn more](GNS223_U5_T4#GNS223_U5_T4_h5)"
   },
   {
     "question_id": "GNS223_U5_T4_h5_q2",
     "heading_id": "GNS223_U5_T4_h5",
     "article_id": "GNS223_U5_T4",
     "topic_id": "GNS223_U5_T4",
-    "question": "How do NSAIDs negatively impact renal function in vulnerable clients?",
+    "difficulty": "recall",
+    "question": "Which condition is a strict contraindication for NSAID use during the third trimester of pregnancy?",
     "options": {
-      "A": "By causing massive dilation of the efferent arterioles",
-      "B": "By precipitating renal vasoconstriction due to a lack of vasodilating prostaglandins",
-      "C": "By destroying the glomerulus directly through immune complex deposition",
-      "D": "By causing permanent paralysis of the bladder detrusor muscle"
+      "A": "Development of gestational diabetes mellitus",
+      "B": "Premature closure of the fetal ductus arteriosus",
+      "C": "Severe morning sickness and hyperemesis",
+      "D": "Excessive maternal weight gain and peripheral edema"
     },
     "answer": "B",
-    "explanation": "Prostaglandins normally dilate the afferent arterioles to maintain renal blood flow; inhibiting them causes vasoconstriction and potential acute kidney injury. [learn more](GNS223_U5_T4#GNS223_U5_T4_h5)"
+    "explanation": "Prostaglandins keep the ductus arteriosus open in utero; inhibiting them late in pregnancy can cause the vessel to close prematurely. [learn more](GNS223_U5_T4#GNS223_U5_T4_h5)"
   },
   {
     "question_id": "GNS223_U5_T4_h6_q1",
     "heading_id": "GNS223_U5_T4_h6",
     "article_id": "GNS223_U5_T4",
     "topic_id": "GNS223_U5_T4",
-    "question": "Why is the use of NSAIDs contraindicated during the third trimester of pregnancy?",
+    "difficulty": "recall",
+    "question": "What is the primary rationale for administering oral NSAIDs with food or milk?",
     "options": {
-      "A": "They cause rapid maternal weight loss and malnutrition",
-      "B": "They can cause premature closure of the fetal ductus arteriosus",
-      "C": "They stimulate excessive amniotic fluid production leading to rupture",
-      "D": "They induce immediate postpartum hemorrhage before delivery"
+      "A": "To prevent systemic allergic skin reactions",
+      "B": "To minimize direct local gastric irritation",
+      "C": "To enhance the binding affinity to platelets",
+      "D": "To accelerate hepatic first-pass metabolism"
     },
     "answer": "B",
-    "explanation": "NSAID use late in pregnancy can lead to premature closure of the fetal ductus arteriosus, posing severe cardiovascular risks to the fetus. [learn more](GNS223_U5_T4#GNS223_U5_T4_h6)"
+    "explanation": "Food and milk provide a physical buffer in the stomach, reducing the direct corrosive contact of the drug on the gastric mucosa. [learn more](GNS223_U5_T4#GNS223_U5_T4_h6)"
   },
   {
     "question_id": "GNS223_U5_T4_h6_q2",
     "heading_id": "GNS223_U5_T4_h6",
     "article_id": "GNS223_U5_T4",
     "topic_id": "GNS223_U5_T4",
-    "question": "What is a potential complication of concurrently administering NSAIDs and antihypertensive drugs like ACE inhibitors?",
+    "difficulty": "application",
+    "question": "A patient with chronic arthritis who has been taking high-dose ibuprofen daily reports passing dark, tarry stools. What is the most appropriate initial nursing action?",
     "options": {
-      "A": "Severe, sudden drop in blood pressure accompanied by shock",
-      "B": "Decreased antihypertensive efficacy and increased risk of renal failure",
-      "C": "Irreversible blindness due to optic nerve compression",
-      "D": "Immediate development of type 2 diabetes mellitus"
+      "A": "Advise the patient to take the next dose with an antacid instead of food.",
+      "B": "Withhold the scheduled dose and notify the prescribing physician immediately.",
+      "C": "Document the finding as a normal side effect and reassess in one week.",
+      "D": "Instruct the patient to double their fluid intake and continue the medication."
     },
     "answer": "B",
-    "explanation": "NSAIDs can blunt the blood pressure-lowering effects of antihypertensives and impair kidney function when combined with ACE inhibitors or diuretics. [learn more](GNS223_U5_T4#GNS223_U5_T4_h6)"
-  },
-  {
-    "question_id": "GNS223_U5_T4_h7_q1",
-    "heading_id": "GNS223_U5_T4_h7",
-    "article_id": "GNS223_U5_T4",
-    "topic_id": "GNS223_U5_T4",
-    "question": "Which of the following conditions represents a critical finding to screen for during pre-administration assessment due to severe hypersensitivity risks?",
-    "options": {
-      "A": "History of mild seasonal allergies to pollen",
-      "B": "Aspirin-exacerbated respiratory disease with asthma and nasal polyps",
-      "C": "A history of childhood chickenpox",
-      "D": "Well-controlled gestational diabetes"
-    },
-    "answer": "B",
-    "explanation": "Patients with asthma, nasal polyps, and aspirin sensitivity are at high risk for severe bronchospasm and hypersensitivity reactions when given NSAIDs. [learn more](GNS223_U5_T4#GNS223_U5_T4_h7)"
-  },
-  {
-    "question_id": "GNS223_U5_T4_h7_q2",
-    "heading_id": "GNS223_U5_T4_h7",
-    "article_id": "GNS223_U5_T4",
-    "topic_id": "GNS223_U5_T4",
-    "question": "What baseline laboratory tests are essential to review before initiating long-term NSAID therapy?",
-    "options": {
-      "A": "Complete blood count and lipid panel",
-      "B": "Renal function tests (BUN, creatinine) and liver function tests",
-      "C": "Serum electrolytes and thyroid stimulating hormone",
-      "D": "Urinalysis and arterial blood gases"
-    },
-    "answer": "B",
-    "explanation": "Renal and liver function tests are crucial because NSAIDs are metabolized by the liver and eliminated by the kidneys, posing toxicity risks if organ function is impaired. [learn more](GNS223_U5_T4#GNS223_U5_T4_h7)"
-  },
-  {
-    "question_id": "GNS223_U5_T4_h8_q1",
-    "heading_id": "GNS223_U5_T4_h8",
-    "article_id": "GNS223_U5_T4",
-    "topic_id": "GNS223_U5_T4",
-    "question": "What is an important instruction a nurse should provide to a patient taking oral NSAIDs to minimize gastrointestinal upset?",
-    "options": {
-      "A": "Take the medication strictly on an empty stomach with vinegar",
-      "B": "Administer the drug with food, milk, or a full glass of water",
-      "C": "Crush all enteric-coated tablets before swallowing",
-      "D": "Lie flat immediately after ingestion to speed up absorption"
-    },
-    "answer": "B",
-    "explanation": "Taking oral NSAIDs with food, milk, or water helps reduce local gastric irritation and minimizes the risk of dyspepsia. [learn more](GNS223_U5_T4#GNS223_U5_T4_h8)"
-  },
-  {
-    "question_id": "GNS223_U5_T4_h8_q2",
-    "heading_id": "GNS223_U5_T4_h8",
-    "article_id": "GNS223_U5_T4",
-    "topic_id": "GNS223_U5_T4",
-    "question": "What crucial warning should a nurse include when educating a patient about taking over-the-counter NSAIDs?",
-    "options": {
-      "A": "Avoid taking multiple NSAID products simultaneously to prevent accidental toxicity",
-      "B": "Double your dose if pain persists after the first pill",
-      "C": "Stop drinking all fluids while on NSAID therapy",
-      "D": "Expect permanent discoloration of the skin as a normal side effect"
-    },
-    "answer": "A",
-    "explanation": "Patients must be warned against taking multiple NSAID products at once to avoid dangerous overdose and compounding toxicity. [learn more](GNS223_U5_T4#GNS223_U5_T4_h8)"
+    "explanation": "Dark, tarry stools indicate upper gastrointestinal bleeding, a serious complication requiring immediate medical evaluation and stopping the drug. [learn more](GNS223_U5_T4#GNS223_U5_T4_h6)"
   }
 ]
