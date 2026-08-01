@@ -425,3 +425,49 @@ button, input {
   .pulse-strip svg { animation: none; }
   .brand .pulse-dot { animation: none; }
 }
+
+
+
+/* ===== Star review widget ===== */
+.review-widget {
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid var(--grey-line);
+  text-align: left;
+}
+
+.review-prompt {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.star-row {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 12px;
+}
+
+.star-btn {
+  background: none;
+  border: none;
+  font-size: 1.8rem;
+  line-height: 1;
+  cursor: pointer;
+  color: var(--grey-line);
+  padding: 0;
+}
+
+.star-btn.filled {
+  color: var(--amber);
+}
+
+.review-widget textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--grey-line);
+  border-radius: var(--radius);
+  font-family: inherit;
+  margin-bottom: 10px;
+  resize: vertical;
+}
+

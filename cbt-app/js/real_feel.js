@@ -5,14 +5,16 @@ const STORAGE_KEY = testNumber ? `algocare_realfeel_${testNumber}` : null;
 let config = { question_count: 250, seconds_per_question: 30, min_answered_to_submit: 125 };
 let questions = [];
 let current = 0;
-let answers = []; // answers[i] = "A" | "B" | ... | null (never marked correct/incorrect client-side)
-let endTime = null; // absolute timestamp (ms) - survives refresh/backgrounding, unlike a countdown int
+let answers = [];
+let endTime = null;
 let timerInterval = null;
 let finished = false;
+let attemptId = null;
+let markTestFinished = () => {};
 
 function saveState() {
   if (!STORAGE_KEY || finished) return;
-  sessionStorage.setItem(STORAGE_KEY, JSON.stringify({ current, answers, endTime }));
+  sessionStorage.setItem(STORAGE_KEY, JSON.stringify({ current, answers, endTime, attemptId }));
 }
 
 function loadState() {
@@ -55,17 +57,25 @@ async function init() {
     return;
   }
 
-  // Resume an in-progress attempt if this browser tab still has one for this test.
   const saved = loadState();
   if (saved && Array.isArray(saved.answers) && saved.answers.length === questions.length) {
     current = saved.current;
     answers = saved.answers;
     endTime = saved.endTime;
+    attemptId = saved.attemptId;
   } else {
     answers = new Array(questions.length).fill(null);
     endTime = Date.now() + questions.length * config.seconds_per_question * 1000;
+    attemptId = generateAttemptId();
     saveState();
+
+    logTestStarted(attemptId, "real_feel", testNumber, questions.length);
   }
+
+  markTestFinished = trackAbandonment(
+    attemptId, "real_feel", testNumber, questions.length,
+    () => answeredCount()
+  );
 
   if (Date.now() >= endTime) {
     finishExam();
@@ -123,7 +133,6 @@ function render() {
 
   const canSubmit = answeredCount() >= config.min_answered_to_submit;
 
-  // Question card first, nav grid below it - so the timer is visible while reading the question.
   document.getElementById("root").innerHTML = `
     <div class="test-card">
       <div class="question-number">Question ${current + 1} of ${questions.length} · ${answeredCount()} answered</div>
@@ -185,7 +194,6 @@ function finishExam() {
   if (finished) return;
   finished = true;
   clearInterval(timerInterval);
-  clearState();
 
   const total = questions.length;
   const attempted = answeredCount();
@@ -195,6 +203,10 @@ function finishExam() {
   });
   const pctOfAttempted = attempted > 0 ? Math.round((correct / attempted) * 100) : 0;
   const pctOfTotal = Math.round((correct / total) * 100);
+
+  markTestFinished();
+  logTestFinished(attemptId, "real_feel", testNumber, total, attempted, correct);
+  clearState();
 
   document.getElementById("root").innerHTML = `
     <div class="score-summary">
@@ -207,9 +219,12 @@ function finishExam() {
         <p style="margin: 4px 0;">Score (of all ${total}): ${correct} out of ${total} · ${pctOfTotal}%</p>
       </div>
       <p style="color: var(--ink-soft); font-size: 0.85rem;">Answers and explanations are not shown for real-feel exams.</p>
+      <div id="reviewWidgetContainer"></div>
       <a class="btn" href="index.html" style="text-decoration:none; display:inline-block; margin-top: 16px;">Back to practice tests</a>
     </div>
   `;
+
+  attachReviewWidget("reviewWidgetContainer", "real_feel");
 }
 
 init();
