@@ -4,209 +4,223 @@
     "heading_id": "GST114_U2_T1_h1",
     "article_id": "GST114_U2_T1",
     "topic_id": "GST114_U2_T1",
-    "question": "How many distinct links make up the conceptual model known as the chain of infection?",
+    "difficulty": "recall",
+    "question": "How many distinct components comprise the traditional chain of infection?",
     "options": {
-      "A": "Four",
-      "B": "Five",
-      "C": "Six",
-      "D": "Seven"
+      "A": "Four components",
+      "B": "Six components",
+      "C": "Eight components",
+      "D": "Ten components"
     },
-    "answer": "C",
-    "explanation": "The chain of infection consists of six distinct links: the infectious agent, reservoir, portal of exit, mode of transmission, portal of entry, and susceptible host. [learn more](GST114_U2_T1#GST114_U2_T1_h1)"
+    "answer": "B",
+    "explanation": "The traditional chain of infection is modeled using six distinct links that must all be intact for an infection to spread from one place to another. [learn more](GST114_U2_T1#GST114_U2_T1_h1)"
   },
   {
     "question_id": "GST114_U2_T1_h1_q2",
     "heading_id": "GST114_U2_T1_h1",
     "article_id": "GST114_U2_T1",
     "topic_id": "GST114_U2_T1",
-    "question": "What is the primary effect of breaking any single link in the chain of infection?",
+    "difficulty": "understanding",
+    "question": "What happens to the infectious cycle if a single link in the chain of infection is broken?",
     "options": {
-      "A": "It increases the virulence of the pathogen",
-      "B": "It stops the spread of the infection",
-      "C": "It accelerates the portal of exit",
-      "D": "It multiplies the susceptible host factors"
+      "A": "The pathogen becomes stronger",
+      "B": "The incubation period lengthens",
+      "C": "Symptoms temporarily disappear",
+      "D": "Transmission is completely halted"
     },
-    "answer": "B",
-    "explanation": "Interrupting or breaking even one link in the chain halts the transmission and stops the spread of the infection. [learn more](GST114_U2_T1#GST114_U2_T1_h1)"
+    "answer": "D",
+    "explanation": "Because infection requires every link in the sequence to function continuously, interrupting even one link stops the entire cycle of disease spread. [learn more](GST114_U2_T1#GST114_U2_T1_h1)"
   },
   {
     "question_id": "GST114_U2_T1_h2_q1",
     "heading_id": "GST114_U2_T1_h2",
     "article_id": "GST114_U2_T1",
     "topic_id": "GST114_U2_T1",
-    "question": "What is defined as the natural habitat where an infectious agent lives, grows, and multiplies?",
+    "difficulty": "recall",
+    "question": "What is the term for a human or animal reservoir that harbors a pathogen without displaying any clinical signs of illness?",
     "options": {
-      "A": "Portal of entry",
-      "B": "Reservoir",
-      "C": "Susceptible host",
-      "D": "Vector"
+      "A": "Passive vector",
+      "B": "Fomite transmitter",
+      "C": "Asymptomatic carrier",
+      "D": "Secondary host"
     },
-    "answer": "B",
-    "explanation": "A reservoir is the natural habitat of the infectious agent, which can include humans, animals, soil, and water, where it lives and multiplies. [learn more](GST114_U2_T1#GST114_U2_T1_h2)"
+    "answer": "C",
+    "explanation": "Carriers successfully harbor and shed infectious agents into the environment while remaining completely healthy themselves, making them hidden sources of outbreaks. [learn more](GST114_U2_T1#GST114_U2_T1_h2)"
   },
   {
     "question_id": "GST114_U2_T1_h2_q2",
     "heading_id": "GST114_U2_T1_h2",
     "article_id": "GST114_U2_T1",
     "topic_id": "GST114_U2_T1",
-    "question": "How are human reservoirs who harbor a pathogen without showing any outward signs of illness classified?",
+    "difficulty": "understanding",
+    "question": "How does an inanimate reservoir differ primarily from a human reservoir?",
     "options": {
-      "A": "Primary vectors",
-      "B": "Asymptomatic carriers",
-      "C": "Susceptible hosts",
-      "D": "Inanimate sources"
+      "A": "It only transmits chronic non-communicable disorders",
+      "B": "It requires direct skin-to-skin contact to spread pathogens",
+      "C": "It cannot support microbial replication under any circumstances",
+      "D": "It consists of environmental elements like soil or water rather than living tissues"
     },
-    "answer": "B",
-    "explanation": "Individuals who harbor a pathogen without exhibiting symptoms of the disease are known as asymptomatic carriers. [learn more](GST114_U2_T1#GST114_U2_T1_h2)"
+    "answer": "D",
+    "explanation": "Inanimate reservoirs encompass non-living matter such as soil, water, and food supplies that harbor microorganisms capable of infecting humans. [learn more](GST114_U2_T1#GST114_U2_T1_h2)"
   },
   {
     "question_id": "GST114_U2_T1_h3_q1",
     "heading_id": "GST114_U2_T1_h3",
     "article_id": "GST114_U2_T1",
     "topic_id": "GST114_U2_T1",
-    "question": "Which of the following describes direct transmission of an infectious agent?",
+    "difficulty": "recall",
+    "question": "Which term describes inanimate objects such as surgical instruments, bedding, or toys that facilitate indirect microbial transmission?",
     "options": {
-      "A": "Drinking contaminated water from a well",
-      "B": "Being bitten by an infected mosquito",
-      "C": "Physical touch or droplet spread during close contact",
-      "D": "Inhaling droplet nuclei suspended in a ventilation system"
+      "A": "Fomites",
+      "B": "Carriers",
+      "C": "Reservoirs",
+      "D": "Vectors"
     },
-    "answer": "C",
-    "explanation": "Direct transmission involves immediate physical contact or close-range droplet spread between an infected individual and a susceptible host. [learn more](GST114_U2_T1#GST114_U2_T1_h3)"
+    "answer": "A",
+    "explanation": "Fomites are non-living objects that can become contaminated with infectious agents and transfer them to subsequent individuals who touch them. [learn more](GST114_U2_T1#GST114_U2_T1_h3)"
   },
   {
     "question_id": "GST114_U2_T1_h3_q2",
     "heading_id": "GST114_U2_T1_h3",
     "article_id": "GST114_U2_T1",
     "topic_id": "GST114_U2_T1",
-    "question": "Which mode of transmission is typically involved when pathogens are spread via living creatures like mosquitoes?",
+    "difficulty": "application",
+    "question": "A patient contracts malaria after being bitten by an infected female Anopheles mosquito. What specific mode of transmission has occurred?",
     "options": {
-      "A": "Vehicle-borne transmission",
-      "B": "Vector-borne transmission",
-      "C": "Direct contact transmission",
-      "D": "Droplet nuclei transmission"
+      "A": "Fomite-mediated transmission",
+      "B": "Direct droplet transmission",
+      "C": "Vehicle-borne indirect transmission",
+      "D": "Vector-borne indirect transmission"
     },
-    "answer": "B",
-    "explanation": "Vector-borne transmission involves living organisms, such as mosquitoes and ticks, carrying pathogens from a reservoir to a host. [learn more](GST114_U2_T1#GST114_U2_T1_h3)"
+    "answer": "D",
+    "explanation": "Mosquitoes act as living vectors that transport parasites from one host to another, representing a classic vector-borne indirect route. [learn more](GST114_U2_T1#GST114_U2_T1_h3)"
   },
   {
     "question_id": "GST114_U2_T1_h4_q1",
     "heading_id": "GST114_U2_T1_h4",
     "article_id": "GST114_U2_T1",
     "topic_id": "GST114_U2_T1",
-    "question": "What is the term for the specific anatomical pathway through which a pathogen leaves its reservoir?",
+    "difficulty": "recall",
+    "question": "What is the primary portal of entry for pathogens that cause waterborne illnesses like cholera and typhoid fever?",
     "options": {
-      "A": "Portal of entry",
-      "B": "Portal of exit",
-      "C": "Susceptible route",
-      "D": "Vehicle channel"
+      "A": "Cutaneous skin barrier",
+      "B": "Respiratory tract",
+      "C": "Genitourinary mucosa",
+      "D": "Gastrointestinal tract"
     },
-    "answer": "B",
-    "explanation": "A portal of exit is the site or pathway through which microorganisms leave the body of the infected host. [learn more](GST114_U2_T1#GST114_U2_T1_h4)"
+    "answer": "D",
+    "explanation": "Waterborne and foodborne pathogens enter the human body when contaminated substances are ingested through the mouth into the digestive tract. [learn more](GST114_U2_T1#GST114_U2_T1_h4)"
   },
   {
     "question_id": "GST114_U2_T1_h4_q2",
     "heading_id": "GST114_U2_T1_h4",
     "article_id": "GST114_U2_T1",
     "topic_id": "GST114_U2_T1",
-    "question": "Which of the following is an example of both a common portal of exit and a portal of entry?",
+    "difficulty": "understanding",
+    "question": "Which route represents a common portal of exit for bloodborne viruses such as Hepatitis B and HIV?",
     "options": {
-      "A": "Intact skin",
-      "B": "The respiratory tract",
-      "C": "A sterile surgical blade",
-      "D": "A closed indwelling catheter tubing"
+      "A": "Broken skin and mucosal exposure to body fluids",
+      "B": "Expired respiratory droplets from heavy breathing",
+      "C": "Desquamated skin cells shed during routine bathing",
+      "D": "Normal urinary output voided into sanitary facilities"
     },
-    "answer": "B",
-    "explanation": "The respiratory tract frequently serves as both a portal of exit (via coughing/sneezing) and a portal of entry (via inhalation). [learn more](GST114_U2_T1#GST114_U2_T1_h4)"
+    "answer": "A",
+    "explanation": "Bloodborne pathogens exit and enter through breaks in the skin or mucous membranes that permit direct contact with infected blood or semen. [learn more](GST114_U2_T1#GST114_U2_T1_h4)"
   },
   {
     "question_id": "GST114_U2_T1_h5_q1",
     "heading_id": "GST114_U2_T1_h5",
     "article_id": "GST114_U2_T1",
     "topic_id": "GST114_U2_T1",
-    "question": "Which factor significantly increases host susceptibility by compromising immune competence in vulnerable populations?",
+    "difficulty": "recall",
+    "question": "Which group generally exhibits the highest baseline susceptibility to infectious diseases due to waning or undeveloped immune defenses?",
     "options": {
-      "A": "Regular exercise",
-      "B": "Good nutritional status",
-      "C": "Malnutrition",
-      "D": "Intact skin barriers"
+      "A": "Pregnant women in second trimester",
+      "B": "The very young and the elderly",
+      "C": "Adolescents and young adults",
+      "D": "Athletes in physical training"
     },
-    "answer": "C",
-    "explanation": "Malnutrition severely compromises immune competence, making individuals much more susceptible to various infections. [learn more](GST114_U2_T1#GST114_U2_T1_h5)"
+    "answer": "B",
+    "explanation": "Infants have immature immune systems, while older adults experience immunosenescence, making both populations highly vulnerable to infections. [learn more](GST114_U2_T1#GST114_U2_T1_h5)"
   },
   {
     "question_id": "GST114_U2_T1_h5_q2",
     "heading_id": "GST114_U2_T1_h5",
     "article_id": "GST114_U2_T1",
     "topic_id": "GST114_U2_T1",
-    "question": "How do invasive medical devices such as urinary catheters increase host susceptibility?",
+    "difficulty": "understanding",
+    "question": "Why does severe malnutrition significantly increase a patient's susceptibility to infections?",
     "options": {
-      "A": "They enhance the body's natural skin barrier",
-      "B": "They bypass natural anatomical barriers",
-      "C": "They eliminate all pathogens from the body",
-      "D": "They stimulate excessive antibody production"
+      "A": "It causes immediate closure of respiratory cilia",
+      "B": "It thickens the outer epidermal skin layer excessively",
+      "C": "It increases the pH of gastric acid secretions",
+      "D": "It impairs cellular immunity and antibody production"
     },
-    "answer": "B",
-    "explanation": "Invasive devices bypass natural anatomical barriers like the skin and mucous membranes, creating a direct pathway for pathogens to enter. [learn more](GST114_U2_T1#GST114_U2_T1_h5)"
+    "answer": "D",
+    "explanation": "Nutritional deficiencies deprive the body of essential building blocks required to synthesize immune cells and antibodies, reducing pathogen resistance. [learn more](GST114_U2_T1#GST114_U2_T1_h5)"
   },
   {
     "question_id": "GST114_U2_T1_h6_q1",
     "heading_id": "GST114_U2_T1_h6",
     "article_id": "GST114_U2_T1",
     "topic_id": "GST114_U2_T1",
-    "question": "During which stage of an infectious disease does a patient experience vague, non-specific symptoms like mild fatigue and malaise?",
+    "difficulty": "recall",
+    "question": "During which stage of an infectious disease does a patient typically experience vague, non-specific symptoms like general malaise and fatigue?",
     "options": {
-      "A": "Incubation period",
-      "B": "Prodromal stage",
+      "A": "Convalescent stage",
+      "B": "Incubation period",
       "C": "Illness stage",
-      "D": "Convalescent stage"
+      "D": "Prodromal stage"
     },
-    "answer": "B",
-    "explanation": "The prodromal stage is marked by vague, non-specific symptoms such as fatigue and general malaise as the immune response begins. [learn more](GST114_U2_T1#GST114_U2_T1_h6)"
+    "answer": "D",
+    "explanation": "The prodromal stage marks the onset of general, non-specific discomfort before characteristic signs of the specific disease appear. [learn more](GST114_U2_T1#GST114_U2_T1_h6)"
   },
   {
     "question_id": "GST114_U2_T1_h6_q2",
     "heading_id": "GST114_U2_T1_h6",
     "article_id": "GST114_U2_T1",
     "topic_id": "GST114_U2_T1",
-    "question": "What occurs during the incubation period of an infectious disease?",
+    "difficulty": "understanding",
+    "question": "Why is the prodromal stage often considered dangerous regarding community disease spread?",
     "options": {
-      "A": "The patient experiences specific, prominent disease symptoms",
-      "B": "The pathogen enters the host and multiplies without showing initial symptoms",
-      "C": "Acute symptoms completely subside and health returns",
-      "D": "The body experiences rapid fever and localized rashes"
+      "A": "Patients feel well enough to maintain normal activities while unknowingly shedding microbes",
+      "B": "Medical diagnostic tests are legally forbidden during this phase",
+      "C": "Pathogens multiply at their absolute slowest velocity during this window",
+      "D": "The immune system completely halts all antibody production temporarily"
     },
-    "answer": "B",
-    "explanation": "The incubation period spans from the pathogen's entry until the first symptoms appear, during which time the organism multiplies quietly. [learn more](GST114_U2_T1#GST114_U2_T1_h6)"
+    "answer": "A",
+    "explanation": "Because symptoms are mild and non-specific, infected individuals continue interacting with others, unconsciously spreading the pathogen. [learn more](GST114_U2_T1#GST114_U2_T1_h6)"
   },
   {
     "question_id": "GST114_U2_T1_h7_q1",
     "heading_id": "GST114_U2_T1_h7",
     "article_id": "GST114_U2_T1",
     "topic_id": "GST114_U2_T1",
-    "question": "What is considered the single most effective and cost-efficient measure to prevent the cross-contamination of infections?",
+    "difficulty": "recall",
+    "question": "What is widely recognized as the single most effective nursing intervention for preventing the spread of infections in clinical settings?",
     "options": {
-      "A": "Wearing sterile gowns at all times",
-      "B": "Administering prophylactic antibiotics",
+      "A": "Daily room disinfection",
+      "B": "Routine prophylactic antibiotics",
       "C": "Proper hand hygiene",
-      "D": "Isolating all patients on admission"
+      "D": "Surgical mask wearing"
     },
     "answer": "C",
-    "explanation": "Hand hygiene using soap and water or alcohol-based rubs is widely recognized as the single most effective method to prevent cross-contamination. [learn more](GST114_U2_T1#GST114_U2_T1_h7)"
+    "explanation": "Frequent and proper handwashing or alcohol rub application removes transient microorganisms before they can be transferred to patients. [learn more](GST114_U2_T1#GST114_U2_T1_h7)"
   },
   {
     "question_id": "GST114_U2_T1_h7_q2",
     "heading_id": "GST114_U2_T1_h7",
     "article_id": "GST114_U2_T1",
     "topic_id": "GST114_U2_T1",
-    "question": "Which precautions should a nurse apply to all patients in a healthcare facility regardless of their diagnosed infection status?",
+    "difficulty": "application",
+    "question": "A nurse wears gloves, a gown, and a face shield while caring for a patient with an open, draining wound. Which link in the chain of infection is this action primarily targeting?",
     "options": {
-      "A": "Airborne precautions",
-      "B": "Standard precautions",
-      "C": "Contact isolation precautions",
-      "D": "Reverse barrier nursing"
+      "A": "Nutritional host status",
+      "B": "Infectious agent mutation",
+      "C": "Incubation period duration",
+      "D": "Portal of entry and exit"
     },
-    "answer": "B",
-    "explanation": "Standard precautions are designed for the care of all patients, regardless of their diagnosis or presumed infection status, to ensure baseline safety. [learn more](GST114_U2_T1#GST114_U2_T1_h7)"
+    "answer": "D",
+    "explanation": "Using personal protective equipment creates a physical barrier that prevents pathogens from exiting the patient's wound or entering the nurse's body. [learn more](GST114_U2_T1#GST114_U2_T1_h7)"
   }
 ]

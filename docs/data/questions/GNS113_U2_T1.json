@@ -4,239 +4,255 @@
     "heading_id": "GNS113_U2_T1_h1",
     "article_id": "GNS113_U2_T1",
     "topic_id": "GNS113_U2_T1",
-    "question": "What is a primary characteristic of an Electronic Health Record (EHR)?",
+    "difficulty": "recall",
+    "question": "What is the primary function of an Electronic Health Record?",
     "options": {
-      "A": "It can only be viewed in a single department.",
-      "B": "It is a systematic digital collection of patient health information that can be shared across settings.",
-      "C": "It is exclusively used for tracking financial billing.",
-      "D": "It replaces verbal communication entirely without documentation."
+      "A": "Replacing the need for physical nursing assessments at the bedside entirely",
+      "B": "Generating automated billing statements without clinical staff input",
+      "C": "Limiting patient data access strictly to a single attending physician",
+      "D": "Storing a digital collection of patient health information for sharing across settings"
     },
-    "answer": "B",
-    "explanation": "An EHR is specifically designed as a digital collection of health data that facilitates secure sharing across various healthcare settings and providers. [learn more](GNS113_U2_T1#GNS113_U2_T1_h1)"
+    "answer": "D",
+    "explanation": "An EHR is specifically built to aggregate comprehensive medical data and allow secure sharing among multiple authorized providers. [learn more](GNS113_U2_T1#GNS113_U2_T1_h1)"
   },
   {
     "question_id": "GNS113_U2_T1_h1_q2",
     "heading_id": "GNS113_U2_T1_h1",
     "article_id": "GNS113_U2_T1",
     "topic_id": "GNS113_U2_T1",
-    "question": "Why is knowledge of EHRs important for nursing students in Nigeria?",
+    "difficulty": "understanding",
+    "question": "Why is interoperability considered a crucial aspect of an EHR system?",
     "options": {
-      "A": "Paper records are completely banned globally.",
-      "B": "Nurses no longer need to assess patients physically.",
-      "C": "Nigeria's healthcare landscape is transitioning toward digital health policies requiring proficiency in these systems.",
-      "D": "EHRs eliminate the need for nursing documentation altogether."
+      "A": "It automatically locks patient records after every single nursing shift change",
+      "B": "It converts all handwritten physician orders into printed prescription pads",
+      "C": "It restricts patient information access to financial auditors only",
+      "D": "It allows different healthcare facilities to seamlessly share and read patient data"
     },
-    "answer": "C",
-    "explanation": "As the Federal Ministry of Health promotes digital health policies, nursing professionals must adapt to digital systems to ensure continuity of care and safety. [learn more](GNS113_U2_T1#GNS113_U2_T1_h1)"
+    "answer": "D",
+    "explanation": "Interoperability ensures that disparate systems and departments can exchange usable clinical information without friction. [learn more](GNS113_U2_T1#GNS113_U2_T1_h1)"
   },
   {
     "question_id": "GNS113_U2_T1_h2_q1",
     "heading_id": "GNS113_U2_T1_h2",
     "article_id": "GNS113_U2_T1",
     "topic_id": "GNS113_U2_T1",
-    "question": "What was a major limitation of traditional paper health charts?",
+    "difficulty": "recall",
+    "question": "What was a major limitation of traditional paper-based health records?",
     "options": {
-      "A": "They were automatically backed up in cloud storage.",
-      "B": "They were prone to physical damage, misplacement, and illegibility.",
-      "C": "They allowed instantaneous sharing across multiple hospitals.",
-      "D": "They prevented medication administration errors completely."
+      "A": "They were frequently illegible and prone to physical loss or damage",
+      "B": "They required continuous electrical power supply to remain readable",
+      "C": "They automatically encrypted data against unauthorized viewing",
+      "D": "They processed diagnostic laboratory results much faster than digital systems"
     },
-    "answer": "B",
-    "explanation": "Paper charts suffered from physical vulnerability, risk of loss, and challenges related to poor handwriting, leading to potential errors. [learn more](GNS113_U2_T1#GNS113_U2_T1_h2)"
+    "answer": "A",
+    "explanation": "Paper records suffered from physical wear and tear, handwriting legibility issues, and the risk of physical misplacement. [learn more](GNS113_U2_T1#GNS113_U2_T1_h2)"
   },
   {
     "question_id": "GNS113_U2_T1_h2_q2",
     "heading_id": "GNS113_U2_T1_h2",
     "article_id": "GNS113_U2_T1",
     "topic_id": "GNS113_U2_T1",
-    "question": "How does the adoption of digital health systems generally progress in Nigeria?",
+    "difficulty": "understanding",
+    "question": "How did early hospital digitization efforts differ from modern comprehensive EHRs?",
     "options": {
-      "A": "All primary health centers were digitized first.",
-      "B": "Tertiary and private hospitals typically lead adoption while primary centers often still use paper.",
-      "C": "Every hospital transitioned simultaneously in the year 2000.",
-      "D": "Digital systems are exclusively used in rural clinics."
+      "A": "Early systems relied entirely on cloud-based mobile applications",
+      "B": "Early systems were exclusively used by patients rather than clinicians",
+      "C": "Early systems operated as isolated departmental silos rather than unified platforms",
+      "D": "Early systems eliminated the need for any manual data entry whatsoever"
     },
-    "answer": "B",
-    "explanation": "Urban tertiary institutions and private facilities generally lead in health tech adoption compared to resource-constrained primary health centers. [learn more](GNS113_U2_T1#GNS113_U2_T1_h2)"
+    "answer": "C",
+    "explanation": "Initial digital efforts often focused on separate departmental tasks, whereas modern EHRs integrate data across the entire institution. [learn more](GNS113_U2_T1#GNS113_U2_T1_h2)"
   },
   {
     "question_id": "GNS113_U2_T1_h3_q1",
     "heading_id": "GNS113_U2_T1_h3",
     "article_id": "GNS113_U2_T1",
     "topic_id": "GNS113_U2_T1",
-    "question": "What is the function of Clinical Decision Support (CDS) within an EHR?",
+    "difficulty": "recall",
+    "question": "What does the acronym CPOE stand for within electronic health record systems?",
     "options": {
-      "A": "To schedule hospital maintenance and cleaning staff",
-      "B": "To provide alerts for drug-drug interactions and evidence-based guidelines",
-      "C": "To calculate patient hospital bills and insurance claims",
-      "D": "To automatically discharge patients when they recover"
+      "A": "Certified Practice Operational Examiner",
+      "B": "Comprehensive Pharmacy Order Encryption",
+      "C": "Clinical Patient Outcome Evaluation",
+      "D": "Computerized Provider Order Entry"
     },
-    "answer": "B",
-    "explanation": "CDS tools assist clinicians by offering safety alerts, allergy notifications, and practice guidelines directly at the point of care. [learn more](GNS113_U2_T1#GNS113_U2_T1_h3)"
+    "answer": "D",
+    "explanation": "CPOE refers to the digital process where clinicians input medical orders, reducing errors associated with handwritten instructions. [learn more](GNS113_U2_T1#GNS113_U2_T1_h3)"
   },
   {
     "question_id": "GNS113_U2_T1_h3_q2",
     "heading_id": "GNS113_U2_T1_h3",
     "article_id": "GNS113_U2_T1",
     "topic_id": "GNS113_U2_T1",
-    "question": "What is the primary benefit of system interoperability in EHRs?",
+    "difficulty": "understanding",
+    "question": "What is the clinical value of clinical decision support (CDS) tools within an EHR?",
     "options": {
-      "A": "It stops patients from changing hospitals.",
-      "B": "It allows different health information systems to communicate and exchange patient data seamlessly.",
-      "C": "It removes the need for internet or electricity.",
-      "D": "It encrypts billing records so patients cannot view them."
+      "A": "They calculate hospital financial budgets based on daily bed occupancy",
+      "B": "They provide automated alerts for potential drug interactions and abnormal lab values",
+      "C": "They automatically discharge patients when their vital signs normalize",
+      "D": "They replace the professional judgment of nurses with artificial intelligence"
     },
     "answer": "B",
-    "explanation": "Interoperability ensures that disparate health systems can share vital patient information across departments and facilities without friction. [learn more](GNS113_U2_T1#GNS113_U2_T1_h3)"
+    "explanation": "CDS tools act as safety nets by flagging clinical risks like adverse drug interactions or missing documentation in real time. [learn more](GNS113_U2_T1#GNS113_U2_T1_h3)"
   },
   {
     "question_id": "GNS113_U2_T1_h4_q1",
     "heading_id": "GNS113_U2_T1_h4",
     "article_id": "GNS113_U2_T1",
     "topic_id": "GNS113_U2_T1",
-    "question": "Which of the following best describes an Electronic Medical Record (EMR)?",
+    "difficulty": "recall",
+    "question": "What is the primary characteristic that separates an EMR from a full EHR?",
     "options": {
-      "A": "A lifelong record shared across all healthcare providers nationwide",
-      "B": "A digital version of a paper chart primarily used within a single clinic or practice",
-      "C": "An open-access internet portal for public health statistics",
-      "D": "A purely financial database for hospital budgeting"
+      "A": "An EMR requires internet access while EHRs function completely offline",
+      "B": "An EMR is maintained exclusively by patients rather than medical staff",
+      "C": "An EMR is typically restricted to a single clinical practice or facility",
+      "D": "An EMR cannot store any laboratory or diagnostic test results"
     },
-    "answer": "B",
-    "explanation": "An EMR functions primarily as a digital chart housed within one specific healthcare organization, lacking the broad interoperability of an EHR. [learn more](GNS113_U2_T1#GNS113_U2_T1_h4)"
+    "answer": "C",
+    "explanation": "EMRs function as digital charts for single practices, whereas EHRs are designed for interoperability and data sharing across multiple organizations. [learn more](GNS113_U2_T1#GNS113_U2_T1_h4)"
   },
   {
     "question_id": "GNS113_U2_T1_h4_q2",
     "heading_id": "GNS113_U2_T1_h4",
     "article_id": "GNS113_U2_T1",
     "topic_id": "GNS113_U2_T1",
-    "question": "What is a major advantage of an EHR over an EMR?",
+    "difficulty": "understanding",
+    "question": "A patient receives specialized care at three different tertiary hospitals in Nigeria, each utilizing an integrated digital network to view prior treatments. What system is primarily facilitating this continuity?",
     "options": {
-      "A": "EHRs cannot be accessed by nurses.",
-      "B": "EHRs are restricted to a single doctor's office.",
-      "C": "EHRs are designed to share comprehensive patient data across multiple healthcare settings and providers.",
-      "D": "EHRs only record billing information."
+      "A": "Standalone billing database",
+      "B": "Electronic Medical Record",
+      "C": "Manual paper archiving system",
+      "D": "Electronic Health Record"
     },
-    "answer": "C",
-    "explanation": "EHRs are built for comprehensive interoperability, allowing seamless data sharing across diverse healthcare facilities and disciplines. [learn more](GNS113_U2_T1#GNS113_U2_T1_h4)"
+    "answer": "D",
+    "explanation": "The ability to share comprehensive data across multiple independent healthcare facilities defines an EHR system. [learn more](GNS113_U2_T1#GNS113_U2_T1_h4)"
   },
   {
     "question_id": "GNS113_U2_T1_h5_q1",
     "heading_id": "GNS113_U2_T1_h5",
     "article_id": "GNS113_U2_T1",
     "topic_id": "GNS113_U2_T1",
-    "question": "How does Barcode Medication Administration (BCMA) within an EHR improve patient safety?",
+    "difficulty": "understanding",
+    "question": "How do EHRs directly enhance patient safety during medication administration?",
     "options": {
-      "A": "It automatically administers IV fluids without nursing supervision.",
-      "B": "It verifies the right patient, medication, dose, route, and time to prevent medication errors.",
-      "C": "It orders new drug supplies from international pharmacies.",
-      "D": "It replaces the need for physician prescriptions."
+      "A": "By cross-referencing orders with patient allergies and flagging discrepancies",
+      "B": "By automatically administering intravenous medications without staff oversight",
+      "C": "By eliminating the need for independent double-checking of high-risk drugs",
+      "D": "By ensuring nurses never have to check patient identification bands"
     },
-    "answer": "B",
-    "explanation": "BCMA acts as a safety check to ensure the correct medication is given to the correct patient under the right parameters. [learn more](GNS113_U2_T1#GNS113_U2_T1_h5)"
+    "answer": "A",
+    "explanation": "EHR systems utilize built-in safety checks to alert nurses about potential drug allergies or incorrect dosages prior to administration. [learn more](GNS113_U2_T1#GNS113_U2_T1_h5)"
   },
   {
     "question_id": "GNS113_U2_T1_h5_q2",
     "heading_id": "GNS113_U2_T1_h5",
     "article_id": "GNS113_U2_T1",
     "topic_id": "GNS113_U2_T1",
-    "question": "What is a direct benefit of EHRs for nursing workload and documentation?",
+    "difficulty": "recall",
+    "question": "Which nursing task is significantly streamlined by the use of real-time electronic documentation during shift changes?",
     "options": {
-      "A": "It increases the amount of handwritten paperwork.",
-      "B": "It streamlines documentation, freeing up time for direct bedside patient care.",
-      "C": "It eliminates the need for nurses to assess vital signs.",
-      "D": "It prevents nurses from communicating with doctors."
+      "A": "Direct patient dietary meal preparation",
+      "B": "Physical bed linen inventory checks",
+      "C": "Hospital facility maintenance scheduling",
+      "D": "Clinical handover communication"
     },
-    "answer": "B",
-    "explanation": "Digital templates and streamlined charting reduce documentation burden, allowing nurses to spend more time caring directly for patients. [learn more](GNS113_U2_T1#GNS113_U2_T1_h5)"
+    "answer": "D",
+    "explanation": "Real-time digital records ensure that incoming nursing staff have immediate, accurate access to recent patient updates during handover. [learn more](GNS113_U2_T1#GNS113_U2_T1_h5)"
   },
   {
     "question_id": "GNS113_U2_T1_h6_q1",
     "heading_id": "GNS113_U2_T1_h6",
     "article_id": "GNS113_U2_T1",
     "topic_id": "GNS113_U2_T1",
-    "question": "Which infrastructural challenge frequently disrupts EHR implementation in Nigeria?",
+    "difficulty": "recall",
+    "question": "Which factor represents a major infrastructural barrier to EHR adoption in many Nigerian hospitals?",
     "options": {
-      "A": "Excessive high-speed fiber optic cables",
-      "B": "Unreliable electricity supply and unstable internet connectivity",
-      "C": "An overabundance of computer hardware",
-      "D": "Lack of patients needing healthcare"
+      "A": "Patient refusal to allow electronic data collection",
+      "B": "Government prohibition of digital storage in healthcare",
+      "C": "An absolute lack of trained nurses in the entire country",
+      "D": "Erratic power supply and unstable internet connectivity"
     },
-    "answer": "B",
-    "explanation": "Unstable power grids and poor internet access remain major obstacles to maintaining functional digital health systems in many Nigerian facilities. [learn more](GNS113_U2_T1#GNS113_U2_T1_h6)"
+    "answer": "D",
+    "explanation": "Unreliable electricity and internet infrastructure severely hinder the continuous operation of digital health systems in resource-limited settings. [learn more](GNS113_U2_T1#GNS113_U2_T1_h6)"
   },
   {
     "question_id": "GNS113_U2_T1_h6_q2",
     "heading_id": "GNS113_U2_T1_h6",
     "article_id": "GNS113_U2_T1",
     "topic_id": "GNS113_U2_T1",
-    "question": "What is a primary human resource barrier to EHR adoption in healthcare settings?",
+    "difficulty": "understanding",
+    "question": "Why can staff resistance pose a significant threat to a successful EHR rollout?",
     "options": {
-      "A": "Excessive training that bores clinical staff",
-      "B": "Resistance to change, computer illiteracy, and inadequate staff training",
-      "C": "Nurses refusing to care for patients",
-      "D": "Doctors insisting on using paper exclusively"
+      "A": "Staff members will legally own the patient data stored on their personal devices",
+      "B": "Digital systems completely erase the need for clinical nursing personnel",
+      "C": "Union regulations prevent nurses from touching computer keyboards during shifts",
+      "D": "Clinicians habituated to paper charts may struggle with workflow adjustments and software adoption"
     },
-    "answer": "B",
-    "explanation": "Human resistance and lack of digital literacy among personnel hinder the successful transition to electronic health records. [learn more](GNS113_U2_T1#GNS113_U2_T1_h6)"
+    "answer": "D",
+    "explanation": "Psychological and practical resistance from staff accustomed to traditional methods can derail new technological implementations if not managed with proper training. [learn more](GNS113_U2_T1#GNS113_U2_T1_h6)"
   },
   {
     "question_id": "GNS113_U2_T1_h7_q1",
     "heading_id": "GNS113_U2_T1_h7",
     "article_id": "GNS113_U2_T1",
     "topic_id": "GNS113_U2_T1",
-    "question": "What is an essential technical safeguard for protecting EHR data security?",
+    "difficulty": "recall",
+    "question": "What security practice is essential when a nurse steps away from a computer workstation displaying an EHR?",
     "options": {
-      "A": "Writing passwords on sticky notes attached to computer monitors",
-      "B": "Role-based access controls, strong passwords, and data encryption",
-      "C": "Leaving computer workstations logged in and unattended",
-      "D": "Sharing login credentials freely among shift members"
+      "A": "Covering the monitor screen with a sheet of paper",
+      "B": "Logging out or locking the active session immediately",
+      "C": "Turning off the main circuit breaker in the ward",
+      "D": "Leaving the system open for the next oncoming shift"
     },
     "answer": "B",
-    "explanation": "Technical safeguards like role-based access, encryption, and secure authentication protect sensitive health records from breaches. [learn more](GNS113_U2_T1#GNS113_U2_T1_h7)"
+    "explanation": "Leaving an active session unattended compromises patient privacy and violates basic data security protocols. [learn more](GNS113_U2_T1#GNS113_U2_T1_h7)"
   },
   {
     "question_id": "GNS113_U2_T1_h7_q2",
     "heading_id": "GNS113_U2_T1_h7",
     "article_id": "GNS113_U2_T1",
     "topic_id": "GNS113_U2_T1",
-    "question": "What is a key ethical and professional responsibility of nurses regarding EHRs?",
+    "difficulty": "understanding",
+    "question": "What is the purpose of role-based access control within an electronic health record system?",
     "options": {
-      "A": "Posting patient diagnostic results on public social media groups",
-      "B": "Protecting patient privacy and maintaining strict confidentiality of digital data",
-      "C": "Sharing patient passwords with family members",
-      "D": "Ignoring security warnings on the computer screen"
+      "A": "To restrict user permissions based on specific job responsibilities and clinical duties",
+      "B": "To assign random passwords to patients visiting the outpatient department",
+      "C": "To limit the number of hours a nurse can spend documenting care",
+      "D": "To determine the monthly salary and hazard allowances of healthcare workers"
     },
-    "answer": "B",
-    "explanation": "Nurses are ethically bound to safeguard patient information and maintain confidentiality across both paper and digital platforms. [learn more](GNS113_U2_T1#GNS113_U2_T1_h7)"
+    "answer": "A",
+    "explanation": "Role-based access ensures that staff members only view data necessary for their specific professional responsibilities, protecting patient privacy. [learn more](GNS113_U2_T1#GNS113_U2_T1_h7)"
   },
   {
     "question_id": "GNS113_U2_T1_h8_q1",
     "heading_id": "GNS113_U2_T1_h8",
     "article_id": "GNS113_U2_T1",
     "topic_id": "GNS113_U2_T1",
-    "question": "How can artificial intelligence and predictive analytics enhance EHRs in nursing?",
+    "difficulty": "recall",
+    "question": "What emerging technology is expected to assist EHRs in predicting patient clinical deterioration?",
     "options": {
-      "A": "By replacing nurses with automated robots entirely",
-      "B": "By analyzing vital sign trends to alert nurses to early signs of clinical deterioration like sepsis",
-      "C": "By increasing the time required to document patient assessments",
-      "D": "By restricting patient access to their own medical data"
+      "A": "Manual typewriter transcription software",
+      "B": "Standalone analogue electrocardiogram printouts",
+      "C": "Artificial intelligence and machine learning",
+      "D": "Basic pneumatic tube delivery systems"
     },
-    "answer": "B",
-    "explanation": "AI integration in EHRs helps predict complications early, enabling proactive and timely nursing interventions. [learn more](GNS113_U2_T1#GNS113_U2_T1_h8)"
+    "answer": "C",
+    "explanation": "AI and machine learning algorithms analyze vast streams of EHR data to identify early patterns of patient decline. [learn more](GNS113_U2_T1#GNS113_U2_T1_h8)"
   },
   {
     "question_id": "GNS113_U2_T1_h8_q2",
     "heading_id": "GNS113_U2_T1_h8",
     "article_id": "GNS113_U2_T1",
     "topic_id": "GNS113_U2_T1",
-    "question": "What role do mobile health (mHealth) and telehealth play in the future of EHRs?",
+    "difficulty": "understanding",
+    "question": "Which of the following is NOT a projected advancement in modern health informatics for nursing?",
     "options": {
-      "A": "They make patient records completely inaccessible.",
-      "B": "They expand EHR accessibility, allowing community health nurses to update records remotely during outreach.",
-      "C": "They force all healthcare to be delivered strictly in tertiary hospitals.",
-      "D": "They eliminate the need for any data security."
+      "A": "Predictive analytics flagging sepsis risks prior to visible symptoms",
+      "B": "Mobile applications supporting point-of-care vital sign entry",
+      "C": "Complete elimination of all human clinical judgment in decision making",
+      "D": "Integration of wearable biosensor data directly into patient records"
     },
-    "answer": "B",
-    "explanation": "mHealth and telehealth extend EHR capabilities to remote and community settings, supporting outreach and home healthcare. [learn more](GNS113_U2_T1#GNS113_U2_T1_h8)"
+    "answer": "C",
+    "explanation": "Technology enhances and supports clinical decision-making, but it does not replace the critical thinking and judgment of professional nurses. [learn more](GNS113_U2_T1#GNS113_U2_T1_h8)"
   }
 ]

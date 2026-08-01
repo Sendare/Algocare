@@ -4,82 +4,88 @@
     "heading_id": "GNS111_U1_T7_h1",
     "article_id": "GNS111_U1_T7",
     "topic_id": "GNS111_U1_T7",
-    "question": "Which of the following nitrogenous base pairs is correctly matched according to DNA structural rules?",
+    "difficulty": "recall",
+    "question": "Which nitrogenous base pairs exclusively with adenine in a standard DNA molecule?",
     "options": {
-      "A": "Adenine pairs with Cytosine",
-      "B": "Guanine pairs with Thymine",
-      "C": "Adenine pairs with Thymine",
-      "D": "Cytosine pairs with Adenine"
+      "A": "Thymine",
+      "B": "Guanine",
+      "C": "Cytosine",
+      "D": "Uracil"
     },
-    "answer": "C",
-    "explanation": "In the DNA double helix, adenine always forms complementary pairs with thymine, and cytosine always pairs with guanine. [learn more](GNS111_U1_T7#GNS111_U1_T7_h1)"
+    "answer": "A",
+    "explanation": "Adenine always pairs with thymine in DNA via hydrogen bonds to maintain the double helix structure. [learn more](GNS111_U1_T7#GNS111_U1_T7_h1)"
   },
   {
     "question_id": "GNS111_U1_T7_h1_q2",
     "heading_id": "GNS111_U1_T7_h1",
     "article_id": "GNS111_U1_T7",
     "topic_id": "GNS111_U1_T7",
-    "question": "What is the primary structural function of a gene within the DNA molecule?",
+    "difficulty": "understanding",
+    "question": "What is the primary cellular function of a DNA molecule?",
     "options": {
-      "A": "To form the alternating sugar-phosphate backbone",
-      "B": "To code for a specific functional product, usually a protein",
-      "C": "To act as the primary hydrogen bond holding the double helix",
-      "D": "To replicate the deoxyribose sugar molecules"
+      "A": "Transporting amino acids across the cell membrane",
+      "B": "Providing immediate structural energy for cellular respiration",
+      "C": "Catalysing metabolic reactions directly in the cytoplasm",
+      "D": "Storing hereditary instructions for cellular proteins"
     },
-    "answer": "B",
-    "explanation": "A gene is a specific sequence of DNA nucleotides that codes for a functional product, most commonly a protein essential for bodily structure and function. [learn more](GNS111_U1_T7#GNS111_U1_T7_h1)"
+    "answer": "D",
+    "explanation": "DNA serves as the long-term storage archive for the genetic code needed to synthesize proteins. [learn more](GNS111_U1_T7#GNS111_U1_T7_h1)"
   },
   {
     "question_id": "GNS111_U1_T7_h2_q1",
     "heading_id": "GNS111_U1_T7_h2",
     "article_id": "GNS111_U1_T7",
     "topic_id": "GNS111_U1_T7",
-    "question": "How many total chromosomes are typically found in a normal human somatic cell?",
+    "difficulty": "recall",
+    "question": "How many total chromosomes are found in a normal human somatic cell?",
     "options": {
       "A": "23",
       "B": "46",
-      "C": "22",
-      "D": "92"
+      "C": "92",
+      "D": "48"
     },
     "answer": "B",
-    "explanation": "Normal human somatic cells contain 46 chromosomes, which are organized into 23 pairs (22 pairs of autosomes and 1 pair of sex chromosomes). [learn more](GNS111_U1_T7#GNS111_U1_T7_h2)"
+    "explanation": "Normal human somatic cells contain 46 chromosomes, organized into 23 pairs. [learn more](GNS111_U1_T7#GNS111_U1_T7_h2)"
   },
   {
     "question_id": "GNS111_U1_T7_h2_q2",
     "heading_id": "GNS111_U1_T7_h2",
     "article_id": "GNS111_U1_T7",
     "topic_id": "GNS111_U1_T7",
-    "question": "What is the term for the specific fixed position of a gene on a chromosome?",
+    "difficulty": "understanding",
+    "question": "What distinguishes an autosome from a sex chromosome in humans?",
     "options": {
-      "A": "Karyotype",
-      "B": "Locus",
-      "C": "Genome",
-      "D": "Gamete"
+      "A": "Sex chromosomes are significantly shorter than all autosomes.",
+      "B": "Autosomes are only found in reproductive cells, not body tissues.",
+      "C": "Sex chromosomes contain no functional protein-coding genes.",
+      "D": "Autosomes do not determine biological sex, unlike the 23rd pair."
     },
-    "answer": "B",
-    "explanation": "A locus refers to the specific physical location or position of a gene on a given chromosome. [learn more](GNS111_U1_T7#GNS111_U1_T7_h2)"
+    "answer": "D",
+    "explanation": "The first 22 pairs of chromosomes are autosomes shared by both sexes, while the 23rd pair determines biological sex. [learn more](GNS111_U1_T7#GNS111_U1_T7_h2)"
   },
   {
     "question_id": "GNS111_U1_T7_h3_q1",
     "heading_id": "GNS111_U1_T7_h3",
     "article_id": "GNS111_U1_T7",
     "topic_id": "GNS111_U1_T7",
-    "question": "Which Mendel law states that allele pairs separate during the formation of gametes?",
+    "difficulty": "recall",
+    "question": "What term describes an individual who possesses two identical alleles for a specific gene?",
     "options": {
-      "A": "Law of Independent Assortment",
-      "B": "Law of Segregation",
-      "C": "Law of Dominance",
-      "D": "Law of Codominance"
+      "A": "Homozygous",
+      "B": "Polygenic",
+      "C": "Hemizygous",
+      "D": "Heterozygous"
     },
-    "answer": "B",
-    "explanation": "The Law of Segregation dictates that allele pairs separate or segregate during gamete formation so that each gamete carries only one allele for each gene. [learn more](GNS111_U1_T7#GNS111_U1_T7_h3)"
+    "answer": "A",
+    "explanation": "Homozygous individuals carry two copies of the exact same allele for a given gene locus. [learn more](GNS111_U1_T7#GNS111_U1_T7_h3)"
   },
   {
     "question_id": "GNS111_U1_T7_h3_q2",
     "heading_id": "GNS111_U1_T7_h3",
     "article_id": "GNS111_U1_T7",
     "topic_id": "GNS111_U1_T7",
-    "question": "What is the chance that an affected parent with an autosomal dominant disorder will pass the mutated allele to an offspring?",
+    "difficulty": "application",
+    "question": "A carrier mother (Aa) and an unaffected father (aa) have children. What percentage of their offspring are expected to have the recessive phenotype?",
     "options": {
       "A": "25 percent",
       "B": "50 percent",
@@ -87,126 +93,134 @@
       "D": "100 percent"
     },
     "answer": "B",
-    "explanation": "Autosomal dominant conditions require only one copy of the mutated allele, giving an affected heterozygous parent a 50 percent chance of transmitting it to each pregnancy. [learn more](GNS111_U1_T7#GNS111_U1_T7_h3)"
+    "explanation": "Crossing Aa with aa yields a 1:1 ratio, meaning half the offspring will inherit 'aa' and express the recessive trait. [learn more](GNS111_U1_T7#GNS111_U1_T7_h3)"
   },
   {
     "question_id": "GNS111_U1_T7_h4_q1",
     "heading_id": "GNS111_U1_T7_h4",
     "article_id": "GNS111_U1_T7",
     "topic_id": "GNS111_U1_T7",
-    "question": "Which blood group system is a classic clinical example of codominance?",
+    "difficulty": "understanding",
+    "question": "Which genetic scenario best exemplifies codominance in human clinical medicine?",
     "options": {
-      "A": "O blood group",
-      "B": "Rhesus factor",
-      "C": "AB blood group",
-      "D": "Bombay phenotype"
+      "A": "Sickle cell trait where individuals show mild symptoms under severe hypoxia",
+      "B": "Height variation across human populations regulated by multiple genes",
+      "C": "AB blood type where both A and B antigens are expressed on red blood cells",
+      "D": "Color blindness occurring exclusively in male offspring due to X linkage"
     },
     "answer": "C",
-    "explanation": "The AB blood group demonstrates codominance because both A and B alleles are fully and simultaneously expressed on the red blood cells. [learn more](GNS111_U1_T7#GNS111_U1_T7_h4)"
+    "explanation": "Codominance occurs when both alleles contribute equally and independently to the phenotype without blending. [learn more](GNS111_U1_T7#GNS111_U1_T7_h4)"
   },
   {
     "question_id": "GNS111_U1_T7_h4_q2",
     "heading_id": "GNS111_U1_T7_h4",
     "article_id": "GNS111_U1_T7",
     "topic_id": "GNS111_U1_T7",
-    "question": "How are mitochondrial DNA mutations typically inherited in human families?",
+    "difficulty": "recall",
+    "question": "Why are males more frequently affected by X-linked recessive disorders than females?",
     "options": {
-      "A": "Exclusively from the paternal line",
-      "B": "Exclusively from the maternal line",
-      "C": "Equally from both parents",
-      "D": "Through autosomal recessive transmission"
+      "A": "Y chromosomes actively suppress protective genes located on autosomes.",
+      "B": "They possess only one X chromosome, meaning a single recessive mutant allele is expressed.",
+      "C": "Testosterone accelerates the mutation rate of genes on the X chromosome.",
+      "D": "Maternal antibodies destroy normal X chromosomes during embryonic development."
     },
     "answer": "B",
-    "explanation": "Mitochondrial DNA is inherited exclusively from the mother because mitochondria are passed down through the cytoplasm of the egg cell during fertilization. [learn more](GNS111_U1_T7#GNS111_U1_T7_h4)"
+    "explanation": "Because males have only one X chromosome (XY), they lack a second X chromosome to mask a recessive mutation. [learn more](GNS111_U1_T7#GNS111_U1_T7_h4)"
   },
   {
     "question_id": "GNS111_U1_T7_h5_q1",
     "heading_id": "GNS111_U1_T7_h5",
     "article_id": "GNS111_U1_T7",
     "topic_id": "GNS111_U1_T7",
-    "question": "What mechanism causes numerical chromosomal abnormalities such as monosomy and trisomy during cell division?",
+    "difficulty": "recall",
+    "question": "What is the primary mechanism responsible for numerical chromosomal abnormalities like trisomy?",
     "options": {
-      "A": "Codominance",
-      "B": "Nondisjunction",
-      "C": "Point mutation",
-      "D": "DNA methylation"
+      "A": "Mitotic arrest during embryonic cleavage",
+      "B": "Spontaneous point mutation in a structural gene",
+      "C": "Excessive exposure to dietary mutagens",
+      "D": "Nondisjunction during meiotic cell division"
     },
-    "answer": "B",
-    "explanation": "Nondisjunction is the failure of homologous chromosomes or sister chromatids to separate properly during meiosis or mitosis, leading to abnormal chromosome numbers in daughter cells. [learn more](GNS111_U1_T7#GNS111_U1_T7_h5)"
+    "answer": "D",
+    "explanation": "Nondisjunction occurs when chromosomes fail to separate properly during meiosis, producing gametes with incorrect chromosome counts. [learn more](GNS111_U1_T7#GNS111_U1_T7_h5)"
   },
   {
     "question_id": "GNS111_U1_T7_h5_q2",
     "heading_id": "GNS111_U1_T7_h5",
     "article_id": "GNS111_U1_T7",
     "topic_id": "GNS111_U1_T7",
-    "question": "Down syndrome is clinically classified as which type of chromosomal abnormality?",
+    "difficulty": "understanding",
+    "question": "Which of the following terms describes a cell missing a single chromosome from its normal diploid complement?",
     "options": {
-      "A": "Monosomy 21",
-      "B": "Trisomy 21",
-      "C": "X-linked deletion",
-      "D": "Autosomal inversion"
+      "A": "Polyploidy",
+      "B": "Monosomy",
+      "C": "Translocation",
+      "D": "Trisomy"
     },
     "answer": "B",
-    "explanation": "Down syndrome is caused by the presence of an extra copy of chromosome 21, making it a trisomy condition. [learn more](GNS111_U1_T7#GNS111_U1_T7_h5)"
+    "explanation": "Monosomy refers to the state of having only one chromosome of a specific pair instead of the normal two. [learn more](GNS111_U1_T7#GNS111_U1_T7_h5)"
   },
   {
     "question_id": "GNS111_U1_T7_h6_q1",
     "heading_id": "GNS111_U1_T7_h6",
     "article_id": "GNS111_U1_T7",
     "topic_id": "GNS111_U1_T7",
-    "question": "What is the inheritance pattern of sickle cell disease?",
+    "difficulty": "recall",
+    "question": "Down syndrome is clinically classified as which type of chromosomal anomaly?",
     "options": {
-      "A": "Autosomal dominant",
-      "B": "Autosomal recessive",
-      "C": "X-linked recessive",
-      "D": "Mitochondrial"
+      "A": "Monosomy X",
+      "B": "Autosomal translocation",
+      "C": "X-linked deletion",
+      "D": "Trisomy 21"
     },
-    "answer": "B",
-    "explanation": "Sickle cell disease is inherited in an autosomal recessive pattern, meaning an individual must inherit two copies of the mutant gene to manifest the clinical condition. [learn more](GNS111_U1_T7#GNS111_U1_T7_h6)"
+    "answer": "D",
+    "explanation": "Down syndrome is caused by the presence of all or part of a third copy of chromosome 21. [learn more](GNS111_U1_T7#GNS111_U1_T7_h6)"
   },
   {
     "question_id": "GNS111_U1_T7_h6_q2",
     "heading_id": "GNS111_U1_T7_h6",
     "article_id": "GNS111_U1_T7",
     "topic_id": "GNS111_U1_T7",
-    "question": "Hemophilia A is primarily classified as which type of genetic disorder?",
+    "difficulty": "understanding",
+    "question": "A patient presents with recurrent respiratory infections and thick mucus secretions due to defective chloride transport. Which underlying genetic disorder is most likely?",
     "options": {
-      "A": "X-linked recessive bleeding disorder",
-      "B": "Autosomal dominant metabolic defect",
-      "C": "Trisomy chromosomal abnormality",
-      "D": "Polygenic pulmonary condition"
+      "A": "Sickle cell anemia",
+      "B": "Hemophilia A",
+      "C": "Turner syndrome",
+      "D": "Cystic fibrosis"
     },
-    "answer": "A",
-    "explanation": "Hemophilia A is an X-linked recessive disorder caused by a deficiency in clotting factor VIII, primarily affecting males who inherit the affected X chromosome. [learn more](GNS111_U1_T7#GNS111_U1_T7_h6)"
+    "answer": "D",
+    "explanation": "Cystic fibrosis is caused by mutations in the CFTR gene, disrupting chloride transport and producing thick mucus secretions. [learn more](GNS111_U1_T7#GNS111_U1_T7_h6)"
   },
   {
     "question_id": "GNS111_U1_T7_h7_q1",
     "heading_id": "GNS111_U1_T7_h7",
     "article_id": "GNS111_U1_T7",
     "topic_id": "GNS111_U1_T7",
-    "question": "What is a primary tool used by nurses during a genetic assessment to trace hereditary disease patterns across generations?",
+    "difficulty": "recall",
+    "question": "What is the primary purpose of constructing a pedigree chart during a nursing genetic assessment?",
     "options": {
-      "A": "Punnett square",
-      "B": "Pedigree chart",
-      "C": "Karyotype analysis",
-      "D": "Blood gas panel"
+      "A": "To screen newborn infants for metabolic blockages",
+      "B": "To calculate the exact chromosomal count of a developing fetus",
+      "C": "To measure the concentration of circulating serum proteins",
+      "D": "To map inheritance patterns of health conditions across multiple generations"
     },
-    "answer": "B",
-    "explanation": "A pedigree chart is a visual family tree used by healthcare providers to map out health conditions and inheritance patterns across multiple generations. [learn more](GNS111_U1_T7#GNS111_U1_T7_h7)"
+    "answer": "D",
+    "explanation": "A pedigree chart uses standardized symbols to trace family health history and identify inherited genetic disease patterns. [learn more](GNS111_U1_T7#GNS111_U1_T7_h7)"
   },
   {
     "question_id": "GNS111_U1_T7_h7_q2",
     "heading_id": "GNS111_U1_T7_h7",
     "article_id": "GNS111_U1_T7",
     "topic_id": "GNS111_U1_T7",
-    "question": "How should genetic counseling information ideally be communicated to patients and families?",
+    "difficulty": "understanding",
+    "question": "Which finding in a family health history would be considered a significant red flag prompting further genetic evaluation?",
     "options": {
-      "A": "In a directive manner insisting on specific medical choices",
-      "B": "In an understandable, empathetic, and non-directive manner",
-      "C": "Using highly technical medical jargon without explanation",
-      "D": "Exclusively through written pamphlets without verbal discussion"
+      "A": "An elderly family member developing osteoarthritis in their seventh decade",
+      "B": "Multiple close relatives diagnosed with cancer at unusually young ages",
+      "C": "A grandparent developing age-related sensorineural hearing loss",
+      "D": "A single family member experiencing seasonal allergic rhinitis"
     },
     "answer": "B",
-    "explanation": "Genetic counseling should be delivered in an empathetic, clear, and non-directive manner, allowing patients to make autonomous decisions regarding their health and reproduction. [learn more](GNS111_U1_T7#GNS111_U1_T7_h7)"
+    "explanation": "Early-onset disease across several family members strongly suggests an underlying hereditary cancer predisposition syndrome. [learn more](GNS111_U1_T7#GNS111_U1_T7_h7)"
   }
 ]

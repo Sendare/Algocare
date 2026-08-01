@@ -4,209 +4,223 @@
     "heading_id": "GNS113_U1_T3_h1",
     "article_id": "GNS113_U1_T3",
     "topic_id": "GNS113_U1_T3",
-    "question": "What three disciplines are integrated within the field of nursing informatics?",
+    "difficulty": "recall",
+    "question": "What three disciplines are integrated within nursing informatics?",
     "options": {
-      "A": "Nursing science, computer science, and information science",
-      "B": "Medicine, pharmacology, and computer engineering",
-      "C": "Nursing practice, hospital administration, and data privacy",
-      "D": "Information science, public health, and biological science"
+      "A": "Medicine, hardware engineering, and data analytics",
+      "B": "Clinical research, telecommunications, and biology",
+      "C": "Public health, statistics, and software development",
+      "D": "Nursing science, computer science, and information science"
     },
-    "answer": "A",
-    "explanation": "Nursing informatics specifically combines nursing science, computer science, and information science to manage data and knowledge in healthcare. [learn more](GNS113_U1_T3#GNS113_U1_T3_h1)"
+    "answer": "D",
+    "explanation": "Nursing informatics is explicitly defined by the combination of nursing science, computer science, and information science to manage health data. [learn more](GNS113_U1_T3#GNS113_U1_T3_h1)"
   },
   {
     "question_id": "GNS113_U1_T3_h1_q2",
     "heading_id": "GNS113_U1_T3_h1",
     "article_id": "GNS113_U1_T3",
     "topic_id": "GNS113_U1_T3",
-    "question": "Why is understanding nursing informatics particularly important for nursing students in Nigeria today?",
+    "difficulty": "understanding",
+    "question": "Why is nursing informatics considered more than just using computers in a hospital?",
     "options": {
-      "A": "It replaces clinical bedside nursing entirely with computer monitoring.",
-      "B": "It prepares them for the transition from paper-based charting to electronic health records.",
-      "C": "It focuses solely on hospital financial management and budgeting.",
-      "D": "It eliminates the need for interprofessional communication."
+      "A": "It requires advanced programming skills to build custom hospital software",
+      "B": "It focuses on how technology shapes clinical workflows and patient outcomes",
+      "C": "It is exclusively managed by hospital IT departments without clinical input",
+      "D": "It eliminates the need for any direct patient bedside interaction"
     },
     "answer": "B",
-    "explanation": "As healthcare systems transition to electronic health records, informatics provides the tools needed to navigate digital transformations and improve patient outcomes. [learn more](GNS113_U1_T3#GNS113_U1_T3_h1)"
+    "explanation": "Informatics goes beyond basic computer literacy by examining how digital systems interact with clinical judgment, workflows, and care quality. [learn more](GNS113_U1_T3#GNS113_U1_T3_h1)"
   },
   {
     "question_id": "GNS113_U1_T3_h2_q1",
     "heading_id": "GNS113_U1_T3_h2",
     "article_id": "GNS113_U1_T3",
     "topic_id": "GNS113_U1_T3",
-    "question": "How do clinical decision support tools integrated into electronic health systems help protect patients?",
+    "difficulty": "recall",
+    "question": "Which technology scans patient wristbands and medication packages to verify medication administration?",
     "options": {
-      "A": "By completely automating all nursing care without human oversight",
-      "B": "By automatically flagging drug-drug interactions and patient allergies",
-      "C": "By reducing the total number of nursing staff needed on a shift",
-      "D": "By replacing the need for physical patient assessments"
+      "A": "Bar Code Medication Administration",
+      "B": "Automated billing interfaces",
+      "C": "Electronic Health Record portals",
+      "D": "Clinical Decision Support Systems"
     },
-    "answer": "B",
-    "explanation": "Informatics tools like clinical decision support systems flag dangerous interactions and allergies to prevent medication errors before they happen. [learn more](GNS113_U1_T3#GNS113_U1_T3_h2)"
+    "answer": "A",
+    "explanation": "Bar Code Medication Administration directly verifies the right patient, drug, dose, route, and time right at the bedside. [learn more](GNS113_U1_T3#GNS113_U1_T3_h2)"
   },
   {
     "question_id": "GNS113_U1_T3_h2_q2",
     "heading_id": "GNS113_U1_T3_h2",
     "article_id": "GNS113_U1_T3",
     "topic_id": "GNS113_U1_T3",
-    "question": "What is a primary benefit of using barcode medication administration systems in clinical practice?",
+    "difficulty": "application",
+    "question": "A nurse receives an automated pop-up warning on the computer screen indicating that a prescribed drug interacts severely with the patient's documented allergy. What system generated this alert?",
     "options": {
-      "A": "They speed up hospital billing processes for pharmacy items.",
-      "B": "They ensure the correct medication is given to the correct patient at the correct time.",
-      "C": "They eliminate the requirement for nurses to check patient identification bands.",
-      "D": "They allow patients to self-administer medications without supervision."
+      "A": "Electronic billing software",
+      "B": "Clinical Decision Support Systems",
+      "C": "Laboratory information management",
+      "D": "Patient portal communication tool"
     },
     "answer": "B",
-    "explanation": "Barcode systems verify the 'rights' of medication administration, ensuring safety by matching the right patient, drug, dose, route, and time. [learn more](GNS113_U1_T3#GNS113_U1_T3_h2)"
+    "explanation": "Clinical Decision Support Systems analyze patient data against rules and guidelines to provide real-time safety alerts like allergy warnings. [learn more](GNS113_U1_T3#GNS113_U1_T3_h2)"
   },
   {
     "question_id": "GNS113_U1_T3_h3_q1",
     "heading_id": "GNS113_U1_T3_h3",
     "article_id": "GNS113_U1_T3",
     "topic_id": "GNS113_U1_T3",
-    "question": "What advantage do electronic documentation systems offer over traditional paper-based charting?",
+    "difficulty": "recall",
+    "question": "What is a major advantage of electronic documentation over traditional paper records?",
     "options": {
-      "A": "They eliminate the need for nurses to document patient care.",
-      "B": "They prevent data from ever being reviewed by other departments.",
-      "C": "They reduce illegibility, duplication, and time spent searching for records.",
-      "D": "They increase the physical storage space required in hospital wards."
+      "A": "Instant availability of data to authorized team members",
+      "B": "Automatic diagnosis of complex medical conditions",
+      "C": "No requirement for staff training or password security",
+      "D": "Complete elimination of clinical documentation errors"
     },
-    "answer": "C",
-    "explanation": "Electronic systems replace messy handwriting and misplaced folders with clear, easily accessible, and streamlined records. [learn more](GNS113_U1_T3#GNS113_U1_T3_h3)"
+    "answer": "A",
+    "explanation": "Digital charts allow multiple users across different units to view and update patient records simultaneously without physical transport delays. [learn more](GNS113_U1_T3#GNS113_U1_T3_h3)"
   },
   {
     "question_id": "GNS113_U1_T3_h3_q2",
     "heading_id": "GNS113_U1_T3_h3",
     "article_id": "GNS113_U1_T3",
     "topic_id": "GNS113_U1_T3",
-    "question": "How does workflow efficiency improve when data is entered into an electronic health record?",
+    "difficulty": "understanding",
+    "question": "How do structured templates and drop-down menus improve daily workflow efficiency for nurses?",
     "options": {
-      "A": "It allows authorized team members instant access across departments, minimizing redundant charting.",
-      "B": "It forces nurses to perform all administrative tasks at the end of their shifts.",
-      "C": "It completely removes the responsibility of charting from registered nurses.",
-      "D": "It slows down communication to ensure absolute perfection."
+      "A": "By preventing patients from accessing their own medical histories",
+      "B": "By standardizing data entry and reducing repetitive manual writing",
+      "C": "By replacing all critical thinking with automated nursing care",
+      "D": "By removing the need to record vital signs during night shifts"
     },
-    "answer": "A",
-    "explanation": "Entering data once makes it instantly available to the care team, reducing the need to repeat documentation across different departments. [learn more](GNS113_U1_T3#GNS113_U1_T3_h3)"
+    "answer": "B",
+    "explanation": "Structured data entry speeds up the charting process while keeping terminology consistent across the unit. [learn more](GNS113_U1_T3#GNS113_U1_T3_h3)"
   },
   {
     "question_id": "GNS113_U1_T3_h4_q1",
     "heading_id": "GNS113_U1_T3_h4",
     "article_id": "GNS113_U1_T3",
     "topic_id": "GNS113_U1_T3",
-    "question": "In what way does nursing informatics improve interprofessional communication?",
+    "difficulty": "recall",
+    "question": "What term describes the centralized digital record where all healthcare disciplines update patient findings simultaneously?",
     "options": {
-      "A": "By restricting patient information to the nursing department only",
-      "B": "Through centralized platforms and shared care plans that allow real-time updates",
-      "C": "By replacing all human interaction with automated phone calls",
-      "D": "By eliminating the need for interdisciplinary care meetings"
+      "A": "A static paper repository",
+      "B": "A single source of truth",
+      "C": "A departmental silo",
+      "D": "An offline backup archive"
     },
     "answer": "B",
-    "explanation": "Informatics provides shared platforms and real-time updates so all multidisciplinary team members stay fully informed. [learn more](GNS113_U1_T3#GNS113_U1_T3_h4)"
+    "explanation": "A centralized electronic record acts as a single source of truth, ensuring everyone views the most current patient information. [learn more](GNS113_U1_T3#GNS113_U1_T3_h4)"
   },
   {
     "question_id": "GNS113_U1_T3_h4_q2",
     "heading_id": "GNS113_U1_T3_h4",
     "article_id": "GNS113_U1_T3",
     "topic_id": "GNS113_U1_T3",
-    "question": "Why is digital collaboration particularly vital in modern healthcare settings?",
+    "difficulty": "understanding",
+    "question": "Why is real-time cross-disciplinary communication vital in clinical settings?",
     "options": {
-      "A": "It prevents misunderstandings and clinical delays by avoiding fragmented handovers.",
-      "B": "It ensures that only physicians are allowed to view nursing notes.",
-      "C": "It allows nurses to work completely independently of other professions.",
-      "D": "It reduces the total number of hospital departments."
+      "A": "It accelerates response times to critical results and prevents care fragmentation",
+      "B": "It eliminates the need for face-to-face shift change handovers entirely",
+      "C": "It allows nurses to override physician orders without consultation",
+      "D": "It ensures that patients never have to speak directly with doctors"
     },
     "answer": "A",
-    "explanation": "Real-time sharing of notes and results prevents the communication gaps often caused by traditional verbal handovers. [learn more](GNS113_U1_T3#GNS113_U1_T3_h4)"
+    "explanation": "Instant sharing of diagnostics and notes helps different teams coordinate interventions quickly and safely. [learn more](GNS113_U1_T3#GNS113_U1_T3_h4)"
   },
   {
     "question_id": "GNS113_U1_T3_h5_q1",
     "heading_id": "GNS113_U1_T3_h5",
     "article_id": "GNS113_U1_T3",
     "topic_id": "GNS113_U1_T3",
-    "question": "How does nursing informatics directly support evidence-based practice at the bedside?",
+    "difficulty": "recall",
+    "question": "How does informatics directly support evidence-based practice at the bedside?",
     "options": {
-      "A": "By blocking access to outside medical research to save time",
-      "B": "By providing rapid point-of-care access to online databases and clinical guidelines",
-      "C": "By forcing nurses to rely solely on traditional textbook memorization",
-      "D": "By automating clinical decisions without the need for research"
+      "A": "By providing instant digital access to clinical guidelines and research databases",
+      "B": "By restricting clinical data access to senior hospital administrators",
+      "C": "By mandating paper-based literature searches for every shift",
+      "D": "By replacing clinical judgment with rigid robotic algorithms"
     },
-    "answer": "B",
-    "explanation": "Informatics tools give nurses instant access to research databases and guidelines directly at the point of care. [learn more](GNS113_U1_T3#GNS113_U1_T3_h5)"
+    "answer": "A",
+    "explanation": "Workstation integration lets clinicians consult current evidence and protocols immediately while planning patient care. [learn more](GNS113_U1_T3#GNS113_U1_T3_h5)"
   },
   {
     "question_id": "GNS113_U1_T3_h5_q2",
     "heading_id": "GNS113_U1_T3_h5",
     "article_id": "GNS113_U1_T3",
     "topic_id": "GNS113_U1_T3",
-    "question": "What is one way aggregate data from electronic health records contributes to quality improvement?",
+    "difficulty": "understanding",
+    "question": "What is the benefit of aggregating large volumes of patient data within electronic health systems?",
     "options": {
-      "A": "It helps identify unit-specific trends like fall frequencies and infection rates.",
-      "B": "It hides hospital complication rates from regulatory bodies.",
-      "C": "It removes the need to evaluate nursing interventions.",
-      "D": "It increases the cost of healthcare delivery."
+      "A": "It guarantees that medical errors will never occur again",
+      "B": "It enables researchers to identify successful care trends and improve institutional protocols",
+      "C": "It reduces the total number of nursing staff required on duty",
+      "D": "It allows the hospital to sell patient information to commercial advertisers"
     },
-    "answer": "A",
-    "explanation": "Analyzing electronic health data helps units spot local trends and initiate targeted quality improvement projects. [learn more](GNS113_U1_T3#GNS113_U1_T3_h5)"
+    "answer": "B",
+    "explanation": "Large datasets reveal patterns that help healthcare facilities refine care bundles and elevate overall quality standards. [learn more](GNS113_U1_T3#GNS113_U1_T3_h5)"
   },
   {
     "question_id": "GNS113_U1_T3_h6_q1",
     "heading_id": "GNS113_U1_T3_h6",
     "article_id": "GNS113_U1_T3",
     "topic_id": "GNS113_U1_T3",
-    "question": "What is a primary purpose of role-based access controls in electronic health systems?",
+    "difficulty": "recall",
+    "question": "What mechanism restricts staff members to viewing only the patient records necessary for their specific job functions?",
     "options": {
-      "A": "To ensure that patient records are accessible to the general public",
-      "B": "To track record access and ensure information is only seen by authorized personnel",
-      "C": "To prevent nurses from documenting patient care",
-      "D": "To slow down hospital administrative processes"
+      "A": "Manual paper sign-out sheets",
+      "B": "Public internet firewalls",
+      "C": "Role-based access controls",
+      "D": "Universal open-access portals"
     },
-    "answer": "B",
-    "explanation": "Role-based access controls protect patient privacy by restricting record visibility strictly to authorized healthcare personnel. [learn more](GNS113_U1_T3#GNS113_U1_T3_h6)"
+    "answer": "C",
+    "explanation": "Role-based access controls limit system privileges based on a user's professional role, protecting patient confidentiality. [learn more](GNS113_U1_T3#GNS113_U1_T3_h6)"
   },
   {
     "question_id": "GNS113_U1_T3_h6_q2",
     "heading_id": "GNS113_U1_T3_h6",
     "article_id": "GNS113_U1_T3",
     "topic_id": "GNS113_U1_T3",
-    "question": "Why is regulatory compliance and data management important in nursing informatics?",
+    "difficulty": "understanding",
+    "question": "What purpose do digital audit logs serve in electronic health record systems?",
     "options": {
-      "A": "It maintains data security, protects patient confidentiality, and supports hospital accreditation.",
-      "B": "It allows nurses to share patient passwords freely.",
-      "C": "It eliminates the need for ethical guidelines in clinical practice.",
-      "D": "It guarantees that no data is ever stored electronically."
+      "A": "They delete old patient records after twenty-four hours",
+      "B": "They automatically calculate staff monthly salaries and overtime hours",
+      "C": "They measure the physical walking speed of nurses during their shifts",
+      "D": "They track who accessed a patient file and what changes were made, ensuring accountability"
     },
-    "answer": "A",
-    "explanation": "Compliance ensures patient confidentiality, protects against security breaches, and meets standards required for institutional accreditation. [learn more](GNS113_U1_T3#GNS113_U1_T3_h6)"
+    "answer": "D",
+    "explanation": "Audit logs record every interaction with a patient record, helping security teams monitor for unauthorized access. [learn more](GNS113_U1_T3#GNS113_U1_T3_h6)"
   },
   {
     "question_id": "GNS113_U1_T3_h7_q1",
     "heading_id": "GNS113_U1_T3_h7",
     "article_id": "GNS113_U1_T3",
     "topic_id": "GNS113_U1_T3",
-    "question": "What role do nurses play in the context of emerging digital health innovations like AI and telehealth?",
+    "difficulty": "understanding",
+    "question": "Why is direct nursing input crucial when designing and implementing new health technologies?",
     "options": {
-      "A": "They are passive observers who must avoid all technological tools.",
-      "B": "They act as active participants in designing, implementing, and evaluating solutions.",
-      "C": "They are solely responsible for manufacturing computer hardware.",
-      "D": "They are restricted from using mobile health applications."
+      "A": "Technology adoption is legally impossible without a nursing signature",
+      "B": "Nurses understand both technical system capabilities and real patient care needs",
+      "C": "Nurses are the only professionals permitted to purchase hospital software",
+      "D": "Software engineers cannot write code without nursing supervision"
     },
     "answer": "B",
-    "explanation": "Modern nurses actively participate in the design, implementation, and evaluation of digital health technologies. [learn more](GNS113_U1_T3#GNS113_U1_T3_h7)"
+    "explanation": "Clinical experience ensures that digital tools fit smoothly into actual bedside workflows instead of creating obstacles. [learn more](GNS113_U1_T3#GNS113_U1_T3_h7)"
   },
   {
     "question_id": "GNS113_U1_T3_h7_q2",
     "heading_id": "GNS113_U1_T3_h7",
     "article_id": "GNS113_U1_T3",
     "topic_id": "GNS113_U1_T3",
-    "question": "Why is developing digital literacy and leadership skills essential for nursing students today?",
+    "difficulty": "recall",
+    "question": "Which of the following is NOT a modern digital health trend mentioned in contemporary nursing practice?",
     "options": {
-      "A": "To prepare them to shape health policy, advocate for patient-centric tech, and drive future practice",
-      "B": "To replace clinical nursing skills with computer programming",
-      "C": "To ensure they never have to interact with patients in person again",
-      "D": "To comply with obsolete paper-based archiving rules"
+      "A": "Artificial intelligence and predictive analytics",
+      "B": "Manual carbon-paper duplication of all medical charts",
+      "C": "Telehealth and remote patient monitoring",
+      "D": "Wearable health tracking devices"
     },
-    "answer": "A",
-    "explanation": "Digital literacy prepares nursing graduates to lead technological advancements, advocate for patients, and influence health policies. [learn more](GNS113_U1_T3#GNS113_U1_T3_h7)"
+    "answer": "B",
+    "explanation": "Manual carbon-paper duplication represents outdated paper-based systems, whereas modern digital trends focus on automation, AI, and connectivity. [learn more](GNS113_U1_T3#GNS113_U1_T3_h7)"
   }
 ]

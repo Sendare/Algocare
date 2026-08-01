@@ -4,239 +4,255 @@
     "heading_id": "GNS113_U2_T7_h1",
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
-    "question": "What is the primary role of the nurse when dealing with raw patient facts at the bedside?",
+    "difficulty": "recall",
+    "question": "What term defines raw, uninterpreted clinical facts without immediate context?",
     "options": {
-      "A": "Primary data collector",
-      "B": "Software programmer",
-      "C": "Database administrator",
-      "D": "Hardware technician"
+      "A": "Wisdom",
+      "B": "Knowledge",
+      "C": "Information",
+      "D": "Data"
     },
-    "answer": "A",
-    "explanation": "Nurses act as primary data collectors at the bedside by gathering initial facts like vital signs and lab results. [learn more](GNS113_U2_T7#GNS113_U2_T7_h1)"
+    "answer": "D",
+    "explanation": "Data serves as the foundational level of the DIKW hierarchy, consisting of isolated, raw facts before they are organized or given clinical meaning. [learn more](GNS113_U2_T7#GNS113_U2_T7_h1)"
   },
   {
     "question_id": "GNS113_U2_T7_h1_q2",
     "heading_id": "GNS113_U2_T7_h1",
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
-    "question": "According to the text, what do unorganized facts and figures transform into when they are processed and contextualized?",
+    "difficulty": "understanding",
+    "question": "How does raw clinical data transform into useful healthcare information?",
     "options": {
-      "A": "Raw input",
-      "B": "Information",
-      "C": "System hardware",
-      "D": "Physical charts"
+      "A": "By organizing, structuring, and interpreting the raw facts",
+      "B": "By storing the numbers indefinitely in a physical filing cabinet",
+      "C": "By applying external philosophical frameworks to bedside care",
+      "D": "By discarding abnormal physiological measurements automatically"
     },
-    "answer": "B",
-    "explanation": "Raw, unorganized facts and figures become information when they are processed, structured, and contextualized. [learn more](GNS113_U2_T7#GNS113_U2_T7_h1)"
+    "answer": "A",
+    "explanation": "Data becomes information only when it is contextualized, structured, and interpreted to reveal clinical patterns. [learn more](GNS113_U2_T7#GNS113_U2_T7_h1)"
   },
   {
     "question_id": "GNS113_U2_T7_h2_q1",
     "heading_id": "GNS113_U2_T7_h2",
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
-    "question": "Which data quality attribute ensures that all mandatory fields in a health record are fully addressed?",
+    "difficulty": "recall",
+    "question": "Which data quality dimension ensures that all required fields in a nursing care plan are fully documented?",
     "options": {
       "A": "Accuracy",
-      "B": "Timeliness",
-      "C": "Completeness",
-      "D": "Validity"
+      "B": "Completeness",
+      "C": "Timeliness",
+      "D": "Consistency"
     },
-    "answer": "C",
-    "explanation": "Completeness means that all mandatory fields in a health record are filled with no critical gaps. [learn more](GNS113_U2_T7#GNS113_U2_T7_h2)"
+    "answer": "B",
+    "explanation": "Completeness ensures that no essential data elements or required documentation fields are left blank. [learn more](GNS113_U2_T7#GNS113_U2_T7_h2)"
   },
   {
     "question_id": "GNS113_U2_T7_h2_q2",
     "heading_id": "GNS113_U2_T7_h2",
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
-    "question": "Why is timeliness important in healthcare data management?",
+    "difficulty": "understanding",
+    "question": "A nurse notices that a patient's blood pressure recorded in the triage log differs significantly from the reading taken ten minutes later in the ward, with neither value being anomalous. Which data quality dimension is primarily compromised?",
     "options": {
-      "A": "It ensures uniform data across different software platforms.",
-      "B": "It provides healthcare providers with real-time information during emergencies.",
-      "C": "It reduces the total number of patients admitted to the ward.",
-      "D": "It automatically formats lab results into numerical values."
+      "A": "Consistency",
+      "B": "Completeness",
+      "C": "Validity",
+      "D": "Timeliness"
     },
-    "answer": "B",
-    "explanation": "Timeliness dictates that data is recorded promptly, providing real-time information during emergencies and shift handovers. [learn more](GNS113_U2_T7#GNS113_U2_T7_h2)"
+    "answer": "A",
+    "explanation": "Consistency refers to the absence of contradiction when the same data point or related metrics are compared across different systems or care points. [learn more](GNS113_U2_T7#GNS113_U2_T7_h2)"
   },
   {
     "question_id": "GNS113_U2_T7_h3_q1",
     "heading_id": "GNS113_U2_T7_h3",
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
-    "question": "What is a potential consequence of typographical errors in medication dosages?",
+    "difficulty": "understanding",
+    "question": "What is the most immediate clinical danger of a misplaced decimal point in a patient's medication dosage entry?",
     "options": {
-      "A": "Improved patient satisfaction scores",
-      "B": "Severe adverse drug events such as overdoses",
-      "C": "Faster laboratory processing times",
-      "D": "Decreased nurse-to-patient ratios"
+      "A": "Violation of national health information privacy laws",
+      "B": "Automatic shutdown of the electronic health record",
+      "C": "Immediate corruption of the hospital billing database",
+      "D": "Severe medication overdose or underdose"
     },
-    "answer": "B",
-    "explanation": "Typographical errors in medication dosages can lead to severe adverse drug events, including dangerous overdoses. [learn more](GNS113_U2_T7#GNS113_U2_T7_h3)"
+    "answer": "D",
+    "explanation": "A shifted decimal point drastically alters the numerical value, frequently leading to dangerous pharmacological errors at the bedside. [learn more](GNS113_U2_T7#GNS113_U2_T7_h3)"
   },
   {
     "question_id": "GNS113_U2_T7_h3_q2",
     "heading_id": "GNS113_U2_T7_h3",
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
-    "question": "How do omitted or delayed documentations negatively affect patient care?",
+    "difficulty": "recall",
+    "question": "Which factor commonly contributes to manual data entry errors in high-pressure clinical settings?",
     "options": {
-      "A": "They break the continuity of care by leaving oncoming shifts uninformed.",
-      "B": "They automatically update lab values to reflect correct data.",
-      "C": "They prevent any form of medication administration.",
-      "D": "They eliminate the need for patient identification wristbands."
+      "A": "Strict adherence to dual-signature policies",
+      "B": "High patient-to-nurse ratios and fatigue",
+      "C": "Excessive availability of electronic equipment",
+      "D": "Overly standardized nursing terminology frameworks"
     },
-    "answer": "A",
-    "explanation": "Omitted or delayed documentation breaks the continuity of care, leaving oncoming shifts unaware of crucial interventions or patient deterioration. [learn more](GNS113_U2_T7#GNS113_U2_T7_h3)"
+    "answer": "B",
+    "explanation": "Fatigue and heavy workloads reduce cognitive vigilance, increasing the likelihood of transcription and documentation mistakes. [learn more](GNS113_U2_T7#GNS113_U2_T7_h3)"
   },
   {
     "question_id": "GNS113_U2_T7_h4_q1",
     "heading_id": "GNS113_U2_T7_h4",
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
-    "question": "What is the primary function of data validation in a healthcare system?",
+    "difficulty": "recall",
+    "question": "What is the purpose of implementing range checks in a clinical documentation system?",
     "options": {
-      "A": "To ensure data input falls within logical parameters before acceptance",
-      "B": "To physically transport laboratory samples to the testing facility",
-      "C": "To print out physical copies of daily patient census reports",
-      "D": "To delete old patient records automatically after 24 hours"
+      "A": "To verify the legal identity of the attending physician",
+      "B": "To calculate the total cost of hospital stay automatically",
+      "C": "To restrict unauthorized physical access to the nursing station",
+      "D": "To flag values falling outside physiologically possible biological parameters"
     },
-    "answer": "A",
-    "explanation": "Data validation involves checks to ensure that data input falls within acceptable and logical parameters before it is accepted. [learn more](GNS113_U2_T7#GNS113_U2_T7_h4)"
+    "answer": "D",
+    "explanation": "Range checks act as an automated barrier against impossible entries, such as a heart rate of 999 beats per minute. [learn more](GNS113_U2_T7#GNS113_U2_T7_h4)"
   },
   {
     "question_id": "GNS113_U2_T7_h4_q2",
     "heading_id": "GNS113_U2_T7_h4",
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
-    "question": "Which of the following best describes data verification?",
+    "difficulty": "application",
+    "question": "A nurse is preparing to administer a high-risk intravenous medication to a neonate. Which validation strategy is most appropriate to prevent a dosing calculation error?",
     "options": {
-      "A": "Using free-text boxes for every clinical observation",
-      "B": "Cross-referencing data with reliable secondary sources like an ID band",
-      "C": "Ignoring error messages generated by electronic health record systems",
-      "D": "Recording vital signs from memory at the end of a shift"
+      "A": "Submitting the chart without checking physiological parameter ranges",
+      "B": "Waiting until the end of the shift to record the administration",
+      "C": "Performing an independent double-check with a colleague",
+      "D": "Relying solely on memory to verify the patient's exact weight"
     },
-    "answer": "B",
-    "explanation": "Data verification involves confirming data accuracy by cross-referencing it with reliable secondary sources like a patient identification band. [learn more](GNS113_U2_T7#GNS113_U2_T7_h4)"
+    "answer": "C",
+    "explanation": "Independent double-checks involving two separate clinicians provide a vital safety barrier for high-risk drug calculations. [learn more](GNS113_U2_T7#GNS113_U2_T7_h4)"
   },
   {
     "question_id": "GNS113_U2_T7_h5_q1",
     "heading_id": "GNS113_U2_T7_h5",
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
-    "question": "What does the term 'interoperability' mean in healthcare informatics?",
+    "difficulty": "recall",
+    "question": "Which standardized framework is primarily used to classify diseases and causes of mortality globally?",
     "options": {
-      "A": "The ability of different IT systems to communicate and exchange data accurately",
-      "B": "The physical movement of patients between different hospital wards",
-      "C": "The legal right of a nurse to prescribe medication independently",
-      "D": "The process of shredding paper records after a patient is discharged"
+      "A": "National Health Insurance Scheme Guidelines",
+      "B": "Hospital Accreditation Quality Matrix",
+      "C": "NANDA International Nursing Diagnoses",
+      "D": "International Classification of Diseases (ICD)"
     },
-    "answer": "A",
-    "explanation": "Interoperability refers to the ability of different information technology systems and software to communicate and exchange data accurately. [learn more](GNS113_U2_T7#GNS113_U2_T7_h5)"
+    "answer": "D",
+    "explanation": "The ICD system provides the universal standard diagnostic tool for epidemiology, health management, and clinical purposes worldwide. [learn more](GNS113_U2_T7#GNS113_U2_T7_h5)"
   },
   {
     "question_id": "GNS113_U2_T7_h5_q2",
     "heading_id": "GNS113_U2_T7_h5",
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
-    "question": "Which structured tool is commonly used by nurses for standardized clinical handover reporting?",
+    "difficulty": "understanding",
+    "question": "Why is the use of standardized nursing terminologies essential for healthcare reporting?",
     "options": {
-      "A": "ICD-11",
-      "B": "SBAR",
-      "C": "NANDA-I",
-      "D": "HMIS"
+      "A": "It restricts patient access to their own personal health information",
+      "B": "It eliminates the need for any physical patient assessment at the bedside",
+      "C": "It ensures uniform documentation and clear communication of patient care outcomes across systems",
+      "D": "It primarily serves to calculate monthly hospital staff salary structures"
     },
-    "answer": "B",
-    "explanation": "SBAR (Situation, Background, Assessment, Recommendation) is a structured handover tool used to communicate patient status clearly. [learn more](GNS113_U2_T7#GNS113_U2_T7_h5)"
+    "answer": "C",
+    "explanation": "Standardized nursing languages allow patient problems, interventions, and results to be understood universally by any healthcare provider. [learn more](GNS113_U2_T7#GNS113_U2_T7_h5)"
   },
   {
     "question_id": "GNS113_U2_T7_h6_q1",
     "heading_id": "GNS113_U2_T7_h6",
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
-    "question": "What professional body in Nigeria guides nursing conduct and the handling of patient information?",
+    "difficulty": "recall",
+    "question": "What core ethical principle supports a patient's right to control who views their personal health information?",
     "options": {
-      "A": "Medical and Dental Council of Nigeria",
-      "B": "Nursing and Midwifery Council of Nigeria",
-      "C": "Pharmacists Council of Nigeria",
-      "D": "Nigerian Medical Association"
+      "A": "Beneficence",
+      "B": "Maleficence",
+      "C": "Veracity",
+      "D": "Autonomy"
     },
-    "answer": "B",
-    "explanation": "The Nursing and Midwifery Council of Nigeria (NMCN) sets the codes of professional conduct for nurses, including patient information handling. [learn more](GNS113_U2_T7#GNS113_U2_T7_h6)"
+    "answer": "D",
+    "explanation": "Autonomy refers to the right of individuals to make decisions about their own lives and personal information, including medical data. [learn more](GNS113_U2_T7#GNS113_U2_T7_h6)"
   },
   {
     "question_id": "GNS113_U2_T7_h6_q2",
     "heading_id": "GNS113_U2_T7_h6",
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
-    "question": "Which of the following actions is a clear violation of legal and ethical patient data management?",
+    "difficulty": "understanding",
+    "question": "Which of the following actions represents an ethical violation in nursing data management?",
     "options": {
-      "A": "Accessing a patient's chart on a need-to-know basis for direct care",
-      "B": "Sharing patient photographs or details on social media platforms",
-      "C": "Using standardized nursing languages in documentation",
-      "D": "Participating in structured interdisciplinary handovers"
+      "A": "Discussing a patient's diagnosis in the hospital cafeteria with friends not involved in care",
+      "B": "Locking the computer terminal before stepping away from the nursing desk",
+      "C": "Reviewing a patient's lab results as part of assigned direct clinical care duties",
+      "D": "Reporting a notifiable infectious disease to public health authorities"
     },
-    "answer": "B",
-    "explanation": "Sharing patient photographs or details on social media is a severe breach of patient confidentiality, privacy, and professional ethics. [learn more](GNS113_U2_T7#GNS113_U2_T7_h6)"
+    "answer": "A",
+    "explanation": "Sharing patient details in public areas breaches confidentiality and violates professional ethical standards. [learn more](GNS113_U2_T7#GNS113_U2_T7_h6)"
   },
   {
     "question_id": "GNS113_U2_T7_h7_q1",
     "heading_id": "GNS113_U2_T7_h7",
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
-    "question": "How is 'privacy' defined in the context of patient health information?",
+    "difficulty": "recall",
+    "question": "What security mechanism ensures that clinical staff members only access patient records relevant to their specific job duties?",
     "options": {
-      "A": "The technical safeguards used to encrypt database servers",
-      "B": "The patient's right to control when and how their personal health info is shared",
-      "C": "The legal duty of a nurse to report infectious disease outbreaks",
-      "D": "The requirement to fill out all mandatory fields in an EHR"
+      "A": "Universal open-station login",
+      "B": "Role-based access control",
+      "C": "Public internet broadcasting",
+      "D": "Manual paper archiving"
     },
     "answer": "B",
-    "explanation": "Privacy refers to the patient's fundamental right to control how and when their personal health information is shared with others. [learn more](GNS113_U2_T7#GNS113_U2_T7_h7)"
+    "explanation": "Role-based access limits system permissions based on a user's specific professional role within the healthcare facility. [learn more](GNS113_U2_T7#GNS113_U2_T7_h7)"
   },
   {
     "question_id": "GNS113_U2_T7_h7_q2",
     "heading_id": "GNS113_U2_T7_h7",
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
-    "question": "Which of the following represents an administrative or technical data security safeguard?",
+    "difficulty": "understanding",
+    "question": "What is NOT a permitted practice regarding secure password management in clinical settings?",
     "options": {
-      "A": "Leaving computer workstations logged in and unattended at the nurse's station",
-      "B": "Sharing personal staff login passwords with incoming nursing students",
-      "C": "Using strong password management and role-based access controls",
-      "D": "Discarding patient care plans in open, public wastebaskets"
+      "A": "Sharing your active login password with a colleague who needs quick system access",
+      "B": "Logging out of the electronic health record terminal before leaving the desk",
+      "C": "Changing your system access password periodically according to hospital policy",
+      "D": "Keeping your personal login credentials strictly confidential"
     },
-    "answer": "C",
-    "explanation": "Strong password management and role-based access controls are essential technical and administrative safeguards for data security. [learn more](GNS113_U2_T7#GNS113_U2_T7_h7)"
+    "answer": "A",
+    "explanation": "Sharing passwords compromises audit trails and violates core data security protocols, as accountability for any record changes is lost. [learn more](GNS113_U2_T7#GNS113_U2_T7_h7)"
   },
   {
     "question_id": "GNS113_U2_T7_h8_q1",
     "heading_id": "GNS113_U2_T7_h8",
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
-    "question": "What is a major risk associated with a ransomware attack on a healthcare facility?",
+    "difficulty": "recall",
+    "question": "Which cyber threat involves malicious software encrypting hospital data and demanding payment to restore system access?",
     "options": {
-      "A": "It automatically updates all patient medication dosages.",
-      "B": "It locks facilities out of EHRs, paralyzing medication and diagnostic services.",
-      "C": "It improves the overall interoperability of hospital software.",
-      "D": "It guarantees 100% data completeness for nursing documentation."
+      "A": "Ransomware",
+      "B": "Phishing",
+      "C": "Firewall",
+      "D": "Encryption"
     },
-    "answer": "B",
-    "explanation": "Ransomware locks hospitals out of electronic health records, severely disrupting critical services like medication administration and diagnostics. [learn more](GNS113_U2_T7#GNS113_U2_T7_h8)"
+    "answer": "A",
+    "explanation": "Ransomware locks or encrypts organizational data systems until a ransom is paid, crippling hospital operations. [learn more](GNS113_U2_T7#GNS113_U2_T7_h8)"
   },
   {
     "question_id": "GNS113_U2_T7_h8_q2",
     "heading_id": "GNS113_U2_T7_h8",
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
-    "question": "How can nurses actively protect against social engineering tactics like phishing emails?",
+    "difficulty": "understanding",
+    "question": "Why is cybersecurity considered a direct patient safety issue for clinical nurses?",
     "options": {
-      "A": "By sharing their passwords freely with colleagues to speed up workflow",
-      "B": "By opening all incoming attachments regardless of the sender's identity",
-      "C": "By identifying suspicious emails and avoiding unknown links",
-      "D": "By turning off the computer firewall during every shift"
+      "A": "System lockouts or data breaches can delay critical treatments and compromise patient records",
+      "B": "IT security policies prevent nurses from speaking directly with patients",
+      "C": "Cyber attacks increase the financial cost of hospital meals for admitted patients",
+      "D": "Computers consume physical space at the nursing station and cause ergonomic strain"
     },
-    "answer": "C",
-    "explanation": "Nurses protect against phishing by remaining vigilant, recognizing suspicious emails, and avoiding unknown links that compromise credentials. [learn more](GNS113_U2_T7#GNS113_U2_T7_h8)"
+    "answer": "A",
+    "explanation": "When digital infrastructure fails due to cyber incidents, access to medication orders, lab results, and histories is lost, directly endangering patients. [learn more](GNS113_U2_T7#GNS113_U2_T7_h8)"
   }
 ]

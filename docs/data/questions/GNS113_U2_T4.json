@@ -4,239 +4,255 @@
     "heading_id": "GNS113_U2_T4_h1",
     "article_id": "GNS113_U2_T4",
     "topic_id": "GNS113_U2_T4",
-    "question": "What is a primary benefit of efficient healthcare data access for nurses?",
+    "difficulty": "recall",
+    "question": "What is the primary purpose of healthcare data access in clinical nursing?",
     "options": {
-      "A": "It increases the frequency of paper chart storage.",
-      "B": "It informs clinical decision-making and reduces medical errors.",
-      "C": "It eliminates the need for interprofessional communication.",
-      "D": "It replaces the role of physicians in diagnosis."
+      "A": "To retrieve patient information for safe clinical decision-making",
+      "B": "To fulfill mandatory pharmaceutical marketing requirements",
+      "C": "To simplify the hospital billing and revenue collection process",
+      "D": "To evaluate nursing staff performance during annual appraisals"
     },
-    "answer": "B",
-    "explanation": "Efficient healthcare data access allows nurses to quickly retrieve and use patient information to guide interventions and reduce medical errors. [learn more](GNS113_U2_T4#GNS113_U2_T4_h1)"
+    "answer": "A",
+    "explanation": "Access to patient data allows nurses to review history, labs, and medications, directly supporting safe clinical decisions. [learn more](GNS113_U2_T4#GNS113_U2_T4_h1)"
   },
   {
     "question_id": "GNS113_U2_T4_h1_q2",
     "heading_id": "GNS113_U2_T4_h1",
     "article_id": "GNS113_U2_T4",
     "topic_id": "GNS113_U2_T4",
-    "question": "How is patient data viewed in modern nursing practice according to the text?",
+    "difficulty": "understanding",
+    "question": "How does delayed or restricted access to patient health records directly impact patient care?",
     "options": {
-      "A": "As a static record of past events only",
-      "B": "As an unnecessary administrative burden",
-      "C": "As a dynamic tool that guides current interventions",
-      "D": "As exclusive property of the hospital management"
+      "A": "It accelerates the speed of inter-hospital patient transfers",
+      "B": "It automatically lowers the cost of hospitalization",
+      "C": "It improves the accuracy of physical bedside assessments",
+      "D": "It increases the risk of medication administration errors"
     },
-    "answer": "C",
-    "explanation": "Patient data is a dynamic tool that guides interventions, monitors treatment effectiveness, and facilitates care coordination. [learn more](GNS113_U2_T4#GNS113_U2_T4_h1)"
+    "answer": "D",
+    "explanation": "Without timely data on current medications and allergies, the likelihood of clinical errors and adverse drug events rises significantly. [learn more](GNS113_U2_T4#GNS113_U2_T4_h1)"
   },
   {
     "question_id": "GNS113_U2_T4_h2_q1",
     "heading_id": "GNS113_U2_T4_h2",
     "article_id": "GNS113_U2_T4",
     "topic_id": "GNS113_U2_T4",
-    "question": "What is the primary difference between an EMR and an EHR?",
+    "difficulty": "recall",
+    "question": "Which record type is primarily designed to serve as a comprehensive, longitudinal lifetime record of a patient's health across multiple providers?",
     "options": {
-      "A": "EMRs are digital, while EHRs are exclusively paper-based.",
-      "B": "EMRs are confined to a single facility, whereas EHRs share data across multiple organizations.",
-      "C": "EHRs are only used by physicians, while EMRs are used by nurses.",
-      "D": "There is no functional difference between the two systems."
+      "A": "Paper-based admission chart",
+      "B": "Electronic Health Record",
+      "C": "Electronic Medical Record",
+      "D": "Outpatient prescription log"
     },
     "answer": "B",
-    "explanation": "EMRs represent a single facility's digital chart, whereas EHRs are designed to share comprehensive health data across multiple organizations. [learn more](GNS113_U2_T4#GNS113_U2_T4_h2)"
+    "explanation": "Electronic Health Records are built to share information across various healthcare settings and providers over a lifetime. [learn more](GNS113_U2_T4#GNS113_U2_T4_h2)"
   },
   {
     "question_id": "GNS113_U2_T4_h2_q2",
     "heading_id": "GNS113_U2_T4_h2",
     "article_id": "GNS113_U2_T4",
     "topic_id": "GNS113_U2_T4",
-    "question": "Why is accurate real-time documentation in EHRs crucial for nurses?",
+    "difficulty": "understanding",
+    "question": "What distinguishes an Electronic Medical Record from an Electronic Health Record?",
     "options": {
-      "A": "It prevents financial audits from the government.",
-      "B": "It ensures that complete patient history is instantly available to authorized users, protecting patient safety.",
-      "C": "It eliminates the need for verbal shift handovers entirely.",
-      "D": "It guarantees that patients will never be readmitted."
+      "A": "An EMR can be accessed freely by the general public without restriction",
+      "B": "An EMR is maintained strictly on physical paper files rather than servers",
+      "C": "An EMR contains only financial billing records and demographic data",
+      "D": "An EMR is generally limited to a single clinical practice or hospital stay"
     },
-    "answer": "B",
-    "explanation": "Accurate real-time documentation ensures authorized users have access to correct history, preventing misinterpretations that could harm the patient. [learn more](GNS113_U2_T4#GNS113_U2_T4_h2)"
+    "answer": "D",
+    "explanation": "EMRs function largely as the digital equivalent of paper charts for a specific facility, whereas EHRs span multiple organizations. [learn more](GNS113_U2_T4#GNS113_U2_T4_h2)"
   },
   {
     "question_id": "GNS113_U2_T4_h3_q1",
     "heading_id": "GNS113_U2_T4_h3",
     "article_id": "GNS113_U2_T4",
     "topic_id": "GNS113_U2_T4",
-    "question": "What does patient ownership of health records legally allow them to do?",
+    "difficulty": "recall",
+    "question": "What constitutes an ethical and legal violation regarding electronic patient records?",
     "options": {
-      "A": "Alter hospital billing rates at will",
-      "B": "View their health records and request corrections",
-      "C": "Access other patients' confidential records",
-      "D": "Perform their own diagnostic laboratory tests"
+      "A": "Documenting a nursing intervention in the correct digital section",
+      "B": "Reviewing vital signs for an assigned patient during a shift",
+      "C": "Accessing the chart of a neighbor out of personal curiosity",
+      "D": "Sharing laboratory values with the primary attending physician"
     },
-    "answer": "B",
-    "explanation": "Patients have the legal right to view their own health records and request corrections to ensure accuracy. [learn more](GNS113_U2_T4#GNS113_U2_T4_h3)"
+    "answer": "C",
+    "explanation": "Browsing records without a direct, professional care relationship violates patient privacy laws and institutional policies. [learn more](GNS113_U2_T4#GNS113_U2_T4_h3)"
   },
   {
     "question_id": "GNS113_U2_T4_h3_q2",
     "heading_id": "GNS113_U2_T4_h3",
     "article_id": "GNS113_U2_T4",
     "topic_id": "GNS113_U2_T4",
-    "question": "Why is unauthorized browsing of patient records considered a serious violation?",
+    "difficulty": "understanding",
+    "question": "Why are legal frameworks like data protection regulations strictly enforced in healthcare environments?",
     "options": {
-      "A": "It slows down the computer network.",
-      "B": "It breaches patient trust, professional ethics, and privacy laws.",
-      "C": "It automatically deletes the electronic health record.",
-      "D": "It increases the cost of software licenses."
+      "A": "To allow pharmaceutical companies unrestricted access to patient trials",
+      "B": "To ensure that nurses spend more time completing computer paperwork",
+      "C": "To safeguard patient privacy and prevent unauthorized data exploitation",
+      "D": "To eliminate the need for physical paper charts in all rural clinics"
     },
-    "answer": "B",
-    "explanation": "Accessing records without a legitimate clinical need violates patient privacy laws, professional ethics, and trust. [learn more](GNS113_U2_T4#GNS113_U2_T4_h3)"
+    "answer": "C",
+    "explanation": "Data regulations protect sensitive health information from being misused, leaked, or accessed by unauthorized individuals. [learn more](GNS113_U2_T4#GNS113_U2_T4_h3)"
   },
   {
     "question_id": "GNS113_U2_T4_h4_q1",
     "heading_id": "GNS113_U2_T4_h4",
     "article_id": "GNS113_U2_T4",
     "topic_id": "GNS113_U2_T4",
-    "question": "How is data security best defined in the context of healthcare informatics?",
+    "difficulty": "recall",
+    "question": "What is the primary function of role-based access controls in a hospital information system?",
     "options": {
-      "A": "The patient's right to control their own personal data",
-      "B": "The moral obligation to keep patient secrets",
-      "C": "The technical, administrative, and physical safeguards protecting digital information",
-      "D": "The verbal agreement between a nurse and a patient"
+      "A": "Automatically printing daily shift reports for administrative review",
+      "B": "Restricting user access strictly to files necessary for their job duties",
+      "C": "Encrypting patient diagnostic images before sending them abroad",
+      "D": "Permitting all hospital employees to view any patient chart instantly"
     },
-    "answer": "C",
-    "explanation": "Data security refers specifically to the safeguards (technical, physical, administrative) used to protect digital health information. [learn more](GNS113_U2_T4#GNS113_U2_T4_h4)"
+    "answer": "B",
+    "explanation": "Role-based access ensures nurses, doctors, and clerks only see the data categories required to perform their specific roles. [learn more](GNS113_U2_T4#GNS113_U2_T4_h4)"
   },
   {
     "question_id": "GNS113_U2_T4_h4_q2",
     "heading_id": "GNS113_U2_T4_h4",
     "article_id": "GNS113_U2_T4",
     "topic_id": "GNS113_U2_T4",
-    "question": "Which of the following is a recommended practice for nurses to ensure EHR security?",
+    "difficulty": "application",
+    "question": "A nurse finishes documenting shift notes on a computer terminal at the nursing station and needs to respond to an urgent call in a patient room. What action should the nurse take first?",
     "options": {
-      "A": "Sharing passwords with trusted colleagues to speed up work",
-      "B": "Leaving workstations logged in while attending to emergencies",
-      "C": "Using unique user credentials and logging off when leaving a workstation",
-      "D": "Storing patient passwords on sticky notes attached to the monitor"
+      "A": "Log out of the workstation or lock the screen immediately",
+      "B": "Turn off the computer monitor using the power button",
+      "C": "Cover the keyboard with a protective plastic sheet",
+      "D": "Leave the charting software open so the next shift can use it"
     },
-    "answer": "C",
-    "explanation": "Using unique credentials and logging off unattended workstations are crucial technical safeguards to prevent unauthorized access. [learn more](GNS113_U2_T4#GNS113_U2_T4_h4)"
+    "answer": "A",
+    "explanation": "Locking or logging out prevents unauthorized individuals from viewing or altering patient records while the nurse is away. [learn more](GNS113_U2_T4#GNS113_U2_T4_h4)"
   },
   {
     "question_id": "GNS113_U2_T4_h5_q1",
     "heading_id": "GNS113_U2_T4_h5",
     "article_id": "GNS113_U2_T4",
     "topic_id": "GNS113_U2_T4",
-    "question": "What is the primary goal of interoperability in health information systems?",
+    "difficulty": "recall",
+    "question": "What is interoperability in the context of health information technology?",
     "options": {
-      "A": "To keep patient data restricted to a single hospital department",
-      "B": "To allow different systems to seamlessly exchange and use health data",
-      "C": "To replace electronic health records with paper documentation",
-      "D": "To increase the cost of healthcare software procurement"
+      "A": "The ability of different software systems to communicate and share data",
+      "B": "The financial cost of purchasing digital health software licenses",
+      "C": "The speed at which a printer produces paper copies of lab results",
+      "D": "The physical durability of computer hardware in humid hospital wards"
     },
-    "answer": "B",
-    "explanation": "Interoperability enables different information systems and devices to communicate and exchange data seamlessly across boundaries. [learn more](GNS113_U2_T4#GNS113_U2_T4_h5)"
+    "answer": "A",
+    "explanation": "Interoperability allows separate digital platforms to exchange and interpret patient information seamlessly. [learn more](GNS113_U2_T4#GNS113_U2_T4_h5)"
   },
   {
     "question_id": "GNS113_U2_T4_h5_q2",
     "heading_id": "GNS113_U2_T4_h5",
     "article_id": "GNS113_U2_T4",
     "topic_id": "GNS113_U2_T4",
-    "question": "Why are structured nursing terminologies important in health information systems?",
+    "difficulty": "understanding",
+    "question": "Why are universal data standards essential for electronic health records?",
     "options": {
-      "A": "They ensure clinical data is coded so other electronic systems can accurately interpret it.",
-      "B": "They eliminate the need for nurses to write patient assessments.",
-      "C": "They prevent patients from viewing their own medical records.",
-      "D": "They slow down the documentation process to reduce errors."
+      "A": "They ensure different software programs interpret shared medical terms identically",
+      "B": "They eliminate the requirement for healthcare staff to use passwords",
+      "C": "They automatically reduce the storage capacity needed on hospital servers",
+      "D": "They prevent hospital management from upgrading their computer networks"
     },
     "answer": "A",
-    "explanation": "Structured terminologies allow clinical concepts, diagnoses, and interventions to be shared and understood across different electronic systems. [learn more](GNS113_U2_T4#GNS113_U2_T4_h5)"
+    "explanation": "Standards like HL7 ensure that when one system transmits data, the receiving system understands the information without misinterpretation. [learn more](GNS113_U2_T4#GNS113_U2_T4_h5)"
   },
   {
     "question_id": "GNS113_U2_T4_h6_q1",
     "heading_id": "GNS113_U2_T4_h6",
     "article_id": "GNS113_U2_T4",
     "topic_id": "GNS113_U2_T4",
-    "question": "How does effective data retrieval assist nurses during clinical care?",
+    "difficulty": "recall",
+    "question": "Which group of healthcare professionals typically generates the largest volume of daily patient care data?",
     "options": {
-      "A": "It allows them to bypass physicians entirely.",
-      "B": "It helps them identify vital sign trends and anticipate patient deterioration.",
-      "C": "It removes the responsibility of administering medications.",
-      "D": "It automates the physical examination process."
+      "A": "Nurses",
+      "B": "Pharmacists",
+      "C": "Bio-engineers",
+      "D": "Hospital accountants"
     },
-    "answer": "B",
-    "explanation": "Retrieving and analyzing data helps nurses spot clinical trends and changes, allowing them to anticipate deterioration early. [learn more](GNS113_U2_T4#GNS113_U2_T4_h6)"
+    "answer": "A",
+    "explanation": "Nurses continuously record vital signs, assessments, and care interventions, making them primary generators of clinical data. [learn more](GNS113_U2_T4#GNS113_U2_T4_h6)"
   },
   {
     "question_id": "GNS113_U2_T4_h6_q2",
     "heading_id": "GNS113_U2_T4_h6",
     "article_id": "GNS113_U2_T4",
     "topic_id": "GNS113_U2_T4",
-    "question": "What is meant by the term 'data stewardship' in nursing?",
+    "difficulty": "understanding",
+    "question": "Why is accurate and timely nursing documentation critical for patient safety?",
     "options": {
-      "A": "Selling patient data to pharmaceutical companies",
-      "B": "Ensuring the accuracy, completeness, and timeliness of clinical data entries",
-      "C": "Physically guarding the hospital server room",
-      "D": "Translating paper charts into foreign languages"
+      "A": "It eliminates the need for verbal shift handover meetings entirely",
+      "B": "It guarantees that the hospital will receive full insurance reimbursement",
+      "C": "Subsequent healthcare providers rely on it to make ongoing clinical decisions",
+      "D": "It prevents the computer system from shutting down unexpectedly"
     },
-    "answer": "B",
-    "explanation": "Data stewardship involves taking responsibility for the quality, accuracy, and appropriate management of clinical data entries. [learn more](GNS113_U2_T4#GNS113_U2_T4_h6)"
+    "answer": "C",
+    "explanation": "Accurate, real-time documentation ensures the entire multidisciplinary team has reliable information for safe patient management. [learn more](GNS113_U2_T4#GNS113_U2_T4_h6)"
   },
   {
     "question_id": "GNS113_U2_T4_h7_q1",
     "heading_id": "GNS113_U2_T4_h7",
     "article_id": "GNS113_U2_T4",
     "topic_id": "GNS113_U2_T4",
-    "question": "Which of the following represents a technical barrier to healthcare data access in many resource-limited settings?",
+    "difficulty": "recall",
+    "question": "Which of the following is a common infrastructure barrier to digital health data access in many resource-limited settings?",
     "options": {
-      "A": "Excessive availability of high-speed fiber-optic internet",
-      "B": "Erratic power supply and poor internet connectivity",
-      "C": "Overabundance of fully compatible software applications",
-      "D": "Universal staff proficiency in advanced informatics"
+      "A": "Excessive uniformity among all competing software vendors",
+      "B": "An overabundance of high-speed computer terminals on every ward",
+      "C": "Complete lack of patient health records in any format",
+      "D": "Unreliable electricity supply and poor internet connectivity"
     },
-    "answer": "B",
-    "explanation": "Unreliable power supply and poor internet infrastructure are major technical barriers to accessing electronic health data in developing regions. [learn more](GNS113_U2_T4#GNS113_U2_T4_h7)"
+    "answer": "D",
+    "explanation": "Frequent power outages and weak network signals are major obstacles to maintaining functional electronic health record systems. [learn more](GNS113_U2_T4#GNS113_U2_T4_h7)"
   },
   {
     "question_id": "GNS113_U2_T4_h7_q2",
     "heading_id": "GNS113_U2_T4_h7",
     "article_id": "GNS113_U2_T4",
     "topic_id": "GNS113_U2_T4",
-    "question": "What is a common organizational hurdle when implementing electronic health records?",
+    "difficulty": "understanding",
+    "question": "What problem is created when hospital software systems operate in isolated proprietary silos?",
     "options": {
-      "A": "Instant acceptance and enthusiasm from all staff members",
-      "B": "Resistance to change and heavy workloads limiting documentation time",
-      "C": "Too many available training sessions for nurses",
-      "D": "Excessive funding allocated for IT maintenance"
+      "A": "Patient data becomes completely immune to unauthorized cyber attacks",
+      "B": "All physical paper charts are automatically deleted from storage",
+      "C": "The cost of purchasing computer hardware drops to zero",
+      "D": "Clinicians must manually transfer data between incompatible platforms"
     },
-    "answer": "B",
-    "explanation": "Resistance to workflow changes and heavy workloads that restrict training and documentation time are typical organizational hurdles. [learn more](GNS113_U2_T4#GNS113_U2_T4_h7)"
+    "answer": "D",
+    "explanation": "Silos prevent systems from communicating, often forcing staff to re-enter or transcribe data manually, increasing error risks. [learn more](GNS113_U2_T4#GNS113_U2_T4_h7)"
   },
   {
     "question_id": "GNS113_U2_T4_h8_q1",
     "heading_id": "GNS113_U2_T4_h8",
     "article_id": "GNS113_U2_T4",
     "topic_id": "GNS113_U2_T4",
-    "question": "How are Artificial Intelligence and machine learning utilized in modern health information systems?",
+    "difficulty": "recall",
+    "question": "What is a major advantage of cloud-based electronic health record systems in nursing practice?",
     "options": {
-      "A": "To replace the physical presence of nurses at the bedside",
-      "B": "To analyze large volumes of data and predict clinical risks like sepsis",
-      "C": "To automatically delete outdated patient records every night",
-      "D": "To eliminate the need for legal and ethical frameworks"
+      "A": "Automatic diagnosis and treatment prescription by computer algorithms",
+      "B": "Elimination of the need for patient confidentiality and privacy laws",
+      "C": "Secure access to patient data across multiple facilities using mobile devices",
+      "D": "Permanent storage of paper charts without requiring digital backups"
     },
-    "answer": "B",
-    "explanation": "AI and machine learning analyze complex datasets to help predict clinical risks and complications early. [learn more](GNS113_U2_T4#GNS113_U2_T4_h8)"
+    "answer": "C",
+    "explanation": "Cloud storage allows authorized personnel to retrieve records remotely and securely from different clinic or hospital locations. [learn more](GNS113_U2_T4#GNS113_U2_T4_h8)"
   },
   {
     "question_id": "GNS113_U2_T4_h8_q2",
     "heading_id": "GNS113_U2_T4_h8",
     "article_id": "GNS113_U2_T4",
     "topic_id": "GNS113_U2_T4",
-    "question": "What is a key benefit of cloud computing in healthcare data access?",
+    "difficulty": "understanding",
+    "question": "How can predictive analytics and artificial intelligence assist nurses in clinical settings?",
     "options": {
-      "A": "It removes all cybersecurity risks completely.",
-      "B": "It allows secure, remote retrieval of patient records across distributed networks.",
-      "C": "It requires every hospital to build massive local server rooms.",
-      "D": "It prevents patients from accessing their own data via mobile apps."
+      "A": "By automatically generating hospital financial audit statements",
+      "B": "By analyzing data streams to flag early signs of patient deterioration",
+      "C": "By replacing the need for physical bedside nursing assessments entirely",
+      "D": "By managing staff work schedules and annual leave requests"
     },
     "answer": "B",
-    "explanation": "Cloud computing enables secure and flexible remote access to health records across various care locations. [learn more](GNS113_U2_T4#GNS113_U2_T4_h8)"
+    "explanation": "Predictive tools review continuous data inputs to alert clinicians to emerging complications before clinical decline becomes severe. [learn more](GNS113_U2_T4#GNS113_U2_T4_h8)"
   }
 ]
