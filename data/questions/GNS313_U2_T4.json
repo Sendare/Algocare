@@ -4,239 +4,223 @@
     "heading_id": "GNS313_U2_T4_h1",
     "article_id": "GNS313_U2_T4",
     "topic_id": "GNS313_U2_T4",
-    "question": "What is the primary purpose of isolation in healthcare settings?",
+    "difficulty": "recall",
+    "question": "What is the primary purpose of isolating a patient in a healthcare facility?",
     "options": {
-      "A": "To punish patients who refuse medication",
-      "B": "To separate infected patients and prevent disease transmission",
-      "C": "To reduce the workload of nursing staff",
-      "D": "To increase the privacy of wealthy patients"
+      "A": "To interrupt the chain of infection",
+      "B": "To reduce hospital utility bills",
+      "C": "To punish non-compliant clients",
+      "D": "To shorten the duration of illness"
     },
-    "answer": "B",
-    "explanation": "Isolation separates infected or colonized individuals from susceptible ones to interrupt the chain of infection and prevent the spread of pathogens. [learn more](GNS313_U2_T4#GNS313_U2_T4_h1)"
+    "answer": "A",
+    "explanation": "Isolation physically separates infected individuals to prevent pathogens from spreading to other vulnerable patients and staff. [learn more](GNS313_U2_T4#GNS313_U2_T4_h1)"
   },
   {
     "question_id": "GNS313_U2_T4_h1_q2",
     "heading_id": "GNS313_U2_T4_h1",
     "article_id": "GNS313_U2_T4",
     "topic_id": "GNS313_U2_T4",
-    "question": "Which of the following diseases is specifically highlighted as a public health challenge in Nigeria requiring strict isolation protocols?",
+    "difficulty": "understanding",
+    "question": "Why are isolation protocols especially critical in resource-limited Nigerian clinical environments?",
     "options": {
-      "A": "Osteoarthritis",
-      "B": "Lassa fever",
-      "C": "Essential hypertension",
-      "D": "Iron-deficiency anemia"
+      "A": "Endemic outbreaks like Lassa fever require strict containment to prevent widespread nosocomial spread",
+      "B": "Diagnostic testing is completely unavailable without prior physical separation",
+      "C": "Hospital wards in the region are always constructed with negative pressure ventilation",
+      "D": "Patients prefer staying in private rooms rather than open-bay wards"
     },
-    "answer": "B",
-    "explanation": "Lassa fever is a viral hemorrhagic fever prevalent in the region that requires strict barrier nursing and isolation to prevent hospital outbreaks. [learn more](GNS313_U2_T4#GNS313_U2_T4_h1)"
+    "answer": "A",
+    "explanation": "High-consequence infectious diseases can rapidly overwhelm open-bay wards if strict containment measures are not initiated immediately. [learn more](GNS313_U2_T4#GNS313_U2_T4_h1)"
   },
   {
     "question_id": "GNS313_U2_T4_h2_q1",
     "heading_id": "GNS313_U2_T4_h2",
     "article_id": "GNS313_U2_T4",
     "topic_id": "GNS313_U2_T4",
-    "question": "What is the primary objective of patient isolation?",
+    "difficulty": "recall",
+    "question": "Which category of infection control applies to every patient receiving care, regardless of diagnosis?",
     "options": {
-      "A": "To break the chain of infection",
-      "B": "To accelerate wound healing",
-      "C": "To reduce hospital utility bills",
-      "D": "To test new laboratory equipment"
+      "A": "Airborne precautions",
+      "B": "Contact precautions",
+      "C": "Reverse isolation",
+      "D": "Standard precautions"
     },
-    "answer": "A",
-    "explanation": "Isolation aims to break the chain of infection, protecting patients, staff, and visitors from acquiring secondary infections. [learn more](GNS313_U2_T4#GNS313_U2_T4_h2)"
+    "answer": "D",
+    "explanation": "Standard precautions are universal measures applied to all patients because infection status is not always immediately known. [learn more](GNS313_U2_T4#GNS313_U2_T4_h2)"
   },
   {
     "question_id": "GNS313_U2_T4_h2_q2",
     "heading_id": "GNS313_U2_T4_h2",
     "article_id": "GNS313_U2_T4",
     "topic_id": "GNS313_U2_T4",
-    "question": "When should isolation protocols ideally be implemented for a patient with suspected infectious disease?",
+    "difficulty": "understanding",
+    "question": "When must transmission-based precautions be initiated for a hospitalized client?",
     "options": {
-      "A": "Only after the patient is discharged",
-      "B": "After laboratory confirmation is fully received",
-      "C": "Immediately upon clinical suspicion",
-      "D": "When the patient requests a private room"
+      "A": "When the patient requests a private room for personal comfort",
+      "B": "As soon as an infection with a specific route of spread is suspected or confirmed",
+      "C": "Immediately upon discharge from the emergency department",
+      "D": "Only after laboratory culture results return positive after seven days"
     },
-    "answer": "C",
-    "explanation": "Isolation should be initiated promptly upon clinical suspicion rather than waiting for laboratory confirmation to prevent ongoing transmission. [learn more](GNS313_U2_T4#GNS313_U2_T4_h2)"
+    "answer": "B",
+    "explanation": "Waiting for lab confirmation can cause delayed containment; precautions must start empirically based on clinical presentation and suspected pathogen. [learn more](GNS313_U2_T4#GNS313_U2_T4_h2)"
   },
   {
     "question_id": "GNS313_U2_T4_h3_q1",
     "heading_id": "GNS313_U2_T4_h3",
     "article_id": "GNS313_U2_T4",
     "topic_id": "GNS313_U2_T4",
-    "question": "Which type of precaution is required for pathogens transmitted through large respiratory droplets traveling short distances?",
+    "difficulty": "recall",
+    "question": "Which type of transmission-based precaution requires the use of a fitted N95 respirator mask?",
     "options": {
-      "A": "Contact precautions",
-      "B": "Droplet precautions",
+      "A": "Standard precautions",
+      "B": "Contact precautions",
       "C": "Airborne precautions",
-      "D": "Reverse precautions"
+      "D": "Droplet precautions"
     },
-    "answer": "B",
-    "explanation": "Droplet precautions are specifically designed for pathogens spread via large respiratory droplets generated by coughing, sneezing, or talking. [learn more](GNS313_U2_T4#GNS313_U2_T4_h3)"
+    "answer": "C",
+    "explanation": "Airborne pathogens travel via droplet nuclei that stay suspended in the air, necessitating high-efficiency particulate filtration masks like the N95. [learn more](GNS313_U2_T4#GNS313_U2_T4_h3)"
   },
   {
     "question_id": "GNS313_U2_T4_h3_q2",
     "heading_id": "GNS313_U2_T4_h3",
     "article_id": "GNS313_U2_T4",
     "topic_id": "GNS313_U2_T4",
-    "question": "Pulmonary tuberculosis requires which category of transmission-based precautions?",
+    "difficulty": "application",
+    "question": "A patient is admitted with active pulmonary tuberculosis. Which specific infection control measure is mandatory?",
     "options": {
-      "A": "Contact precautions",
-      "B": "Standard precautions only",
-      "C": "Airborne precautions",
-      "D": "Enteric precautions"
+      "A": "Putting a simple cloth mask on the nurse only during medication administration",
+      "B": "Placement in a negative pressure room with airborne precautions",
+      "C": "Isolating the client using contact precautions and sterile gloves",
+      "D": "Restricting all fluid intake to prevent droplet formation"
     },
-    "answer": "C",
-    "explanation": "Pulmonary tuberculosis spreads via small droplet nuclei that remain suspended in the air, necessitating airborne precautions and specialized ventilation. [learn more](GNS313_U2_T4#GNS313_U2_T4_h3)"
+    "answer": "B",
+    "explanation": "Active tuberculosis is airborne, requiring both a negative pressure environment and respiratory protection to safeguard staff and other patients. [learn more](GNS313_U2_T4#GNS313_U2_T4_h3)"
   },
   {
     "question_id": "GNS313_U2_T4_h4_q1",
     "heading_id": "GNS313_U2_T4_h4",
     "article_id": "GNS313_U2_T4",
     "topic_id": "GNS313_U2_T4",
-    "question": "To which group of patients should standard precautions be applied?",
+    "difficulty": "recall",
+    "question": "What is the very first item of personal protective equipment that should be removed during doffing?",
     "options": {
-      "A": "Only patients with confirmed infectious diseases",
-      "B": "All patients regardless of their infection status",
-      "C": "Only patients admitted to private isolation rooms",
-      "D": "Only surgical patients undergoing major operations"
+      "A": "Gloves",
+      "B": "Gown",
+      "C": "Respirator mask",
+      "D": "Face shield"
     },
-    "answer": "B",
-    "explanation": "Standard precautions are foundational practices applied universally to the care of all patients in all healthcare settings. [learn more](GNS313_U2_T4#GNS313_U2_T4_h4)"
+    "answer": "A",
+    "explanation": "Gloves are typically the most heavily contaminated item and must be peeled off first to prevent transferring pathogens to other parts of the body. [learn more](GNS313_U2_T4#GNS313_U2_T4_h4)"
   },
   {
     "question_id": "GNS313_U2_T4_h4_q2",
     "heading_id": "GNS313_U2_T4_h4",
     "article_id": "GNS313_U2_T4",
     "topic_id": "GNS313_U2_T4",
-    "question": "What distinguishes transmission-based precautions from standard precautions?",
+    "difficulty": "understanding",
+    "question": "Why is performing hand hygiene between removing individual pieces of personal protective equipment critical?",
     "options": {
-      "A": "They replace hand hygiene entirely",
-      "B": "They are only used in community health outreaches",
-      "C": "They provide additional controls for highly transmissible pathogens",
-      "D": "They are optional guidelines for nursing students"
+      "A": "It helps preserve the structural integrity of the remaining protective equipment",
+      "B": "It complies with facility laundering schedules for reusable gowns",
+      "C": "It prevents accidental self-contamination if hands touch a contaminated surface during removal",
+      "D": "It reduces skin dryness caused by prolonged glove wear"
     },
     "answer": "C",
-    "explanation": "Transmission-based precautions provide extra barriers and controls specifically tailored for patients with suspected or confirmed transmissible pathogens. [learn more](GNS313_U2_T4#GNS313_U2_T4_h4)"
+    "explanation": "Touching the outside of gowns or face shields during removal often transfers microbes to the hands, making intermediate hand hygiene essential. [learn more](GNS313_U2_T4#GNS313_U2_T4_h4)"
   },
   {
     "question_id": "GNS313_U2_T4_h5_q1",
     "heading_id": "GNS313_U2_T4_h5",
     "article_id": "GNS313_U2_T4",
     "topic_id": "GNS313_U2_T4",
-    "question": "When should personal protective equipment (PPE) typically be put on (donned)?",
+    "difficulty": "recall",
+    "question": "What is the direction of airflow when a negative pressure isolation room door is opened?",
     "options": {
-      "A": "After leaving the patient's isolation room",
-      "B": "Before entering the patient's room",
-      "C": "Only when performing surgical procedures",
-      "D": "During the debriefing session after shift change"
+      "A": "Inward from the hallway into the room",
+      "B": "Directly upward through the ceiling tiles",
+      "C": "Circular throughout the immediate doorway threshold",
+      "D": "Outward from the room into the hallway"
     },
-    "answer": "B",
-    "explanation": "PPE must be donned before entering the isolation room to ensure full barrier protection prior to any potential exposure. [learn more](GNS313_U2_T4#GNS313_U2_T4_h5)"
+    "answer": "A",
+    "explanation": "Negative pressure creates lower air pressure inside the room, causing air to rush inward and trap airborne pathogens inside. [learn more](GNS313_U2_T4#GNS313_U2_T4_h5)"
   },
   {
     "question_id": "GNS313_U2_T4_h5_q2",
     "heading_id": "GNS313_U2_T4_h5",
     "article_id": "GNS313_U2_T4",
     "topic_id": "GNS313_U2_T4",
-    "question": "Why is the correct sequence for doffing (taking off) PPE vital?",
+    "difficulty": "understanding",
+    "question": "For which type of patient is a positive pressure isolation room primarily indicated?",
     "options": {
-      "A": "To speed up the nurse's tea break",
-      "B": "To prevent self-contamination of the skin and clothing",
-      "C": "To keep the gowns clean for laundry washing",
-      "D": "To comply with hospital fashion codes"
+      "A": "An individual diagnosed with severe cholera",
+      "B": "A patient recovering from uncomplicated malaria",
+      "C": "A client with active pulmonary tuberculosis",
+      "D": "An immunocompromised transplant recipient"
     },
-    "answer": "B",
-    "explanation": "Following a precise doffing sequence prevents infectious agents on used PPE from transferring to the nurse's skin, mucous membranes, or scrubs. [learn more](GNS313_U2_T4#GNS313_U2_T4_h5)"
+    "answer": "D",
+    "explanation": "Positive pressure pushes air outward, preventing dust and airborne pathogens from entering the room and infecting a susceptible patient. [learn more](GNS313_U2_T4#GNS313_U2_T4_h5)"
   },
   {
     "question_id": "GNS313_U2_T4_h6_q1",
     "heading_id": "GNS313_U2_T4_h6",
     "article_id": "GNS313_U2_T4",
     "topic_id": "GNS313_U2_T4",
-    "question": "What type of air pressure is maintained in an Airborne Infection Isolation Room (AIIR) to prevent pathogen escape?",
+    "difficulty": "recall",
+    "question": "Which psychological response is most commonly observed in patients placed under strict isolation precautions?",
     "options": {
-      "A": "Negative pressure",
-      "B": "Positive pressure",
-      "C": "Neutral pressure",
-      "D": "Variable atmospheric pressure"
+      "A": "Anxiety and depression",
+      "B": "Euphoria and hyperactivity",
+      "C": "Aggression and hostility",
+      "D": "Amnesia and disorientation"
     },
     "answer": "A",
-    "explanation": "Negative pressure ensures that air flows into the room when doors are opened, trapping airborne pathogens inside rather than releasing them into hallways. [learn more](GNS313_U2_T4#GNS313_U2_T4_h6)"
+    "explanation": "Sensory deprivation and separation from loved ones frequently cause isolated patients to experience heightened anxiety and depressive symptoms. [learn more](GNS313_U2_T4#GNS313_U2_T4_h6)"
   },
   {
     "question_id": "GNS313_U2_T4_h6_q2",
     "heading_id": "GNS313_U2_T4_h6",
     "article_id": "GNS313_U2_T4",
     "topic_id": "GNS313_U2_T4",
-    "question": "How can nurses manage ventilation in resource-limited settings where mechanical negative pressure rooms are absent?",
+    "difficulty": "understanding",
+    "question": "How can a nurse best address the emotional needs of a patient experiencing prolonged isolation?",
     "options": {
-      "A": "Seal all windows tightly and turn off fans",
-      "B": "Utilize natural cross-ventilation by opening windows",
-      "C": "Spray heavy perfumes in the corridors",
-      "D": "Transfer all patients to the hospital lobby"
+      "A": "Provide regular communication, clear explanations, and facilitated contact with family",
+      "B": "Limit room entry entirely to prevent any conversation with the client",
+      "C": "Administer routine sedatives to keep the client asleep throughout the day",
+      "D": "Discourage visitors permanently to maintain absolute environmental sterility"
     },
-    "answer": "B",
-    "explanation": "In resource-constrained environments, natural cross-ventilation through open windows helps dilute and disperse airborne contaminants. [learn more](GNS313_U2_T4#GNS313_U2_T4_h6)"
+    "answer": "A",
+    "explanation": "Active engagement, reassurance, and alternative communication methods preserve mental well-being without compromising infection control. [learn more](GNS313_U2_T4#GNS313_U2_T4_h6)"
   },
   {
     "question_id": "GNS313_U2_T4_h7_q1",
     "heading_id": "GNS313_U2_T4_h7",
     "article_id": "GNS313_U2_T4",
     "topic_id": "GNS313_U2_T4",
-    "question": "What is a common psychological effect experienced by patients placed in strict isolation?",
+    "difficulty": "recall",
+    "question": "What is a key responsibility of the community health nurse during a suspected infectious disease outbreak?",
     "options": {
-      "A": "Euphoria and excitement",
-      "B": "Loneliness and anxiety",
-      "C": "Complete emotional numbness",
-      "D": "Enhanced physical strength"
+      "A": "Conducting contact tracing and community health education",
+      "B": "Closing all primary healthcare clinics indefinitely",
+      "C": "Constructing negative pressure ventilation systems in rural homes",
+      "D": "Manufacturing personal protective equipment locally without guidelines"
     },
-    "answer": "B",
-    "explanation": "Physical separation and lack of social interaction frequently lead to feelings of loneliness, anxiety, and depression in isolated patients. [learn more](GNS313_U2_T4#GNS313_U2_T4_h7)"
+    "answer": "A",
+    "explanation": "Community nurses track exposed individuals and educate the public on prevention, forming the backbone of local epidemic control. [learn more](GNS313_U2_T4#GNS313_U2_T4_h7)"
   },
   {
     "question_id": "GNS313_U2_T4_h7_q2",
     "heading_id": "GNS313_U2_T4_h7",
     "article_id": "GNS313_U2_T4",
     "topic_id": "GNS313_U2_T4",
-    "question": "How can nurses best support the psychosocial well-being of an isolated patient?",
+    "difficulty": "understanding",
+    "question": "Which action is MOST appropriate when advising a family caring for an infectious patient at home in a resource-limited setting?",
     "options": {
-      "A": "Limit communication to absolute medical necessities only",
-      "B": "Provide compassionate communication and facilitate alternative connections",
-      "C": "Discourage visits or calls from family members permanently",
-      "D": "Ignore emotional complaints since infection control is the only priority"
+      "A": "Advise the family to burn all contaminated linen and medical waste inside the living room",
+      "B": "Designate a specific separate room for the patient and educate caregivers on safe waste management",
+      "C": "Instruct all family members to share the same sleeping quarters to monitor symptoms closely",
+      "D": "Tell the caregivers that standard soap and water are completely ineffective for hand hygiene"
     },
     "answer": "B",
-    "explanation": "Nurses support mental well-being by communicating empathetically, offering reassurance, and helping patients connect with loved ones safely. [learn more](GNS313_U2_T4#GNS313_U2_T4_h7)"
-  },
-  {
-    "question_id": "GNS313_U2_T4_h8_q1",
-    "heading_id": "GNS313_U2_T4_h8",
-    "article_id": "GNS313_U2_T4",
-    "topic_id": "GNS313_U2_T4",
-    "question": "What is a key responsibility of the community health nurse when an infectious patient is discharged home?",
-    "options": {
-      "A": "Isolate the entire community immediately",
-      "B": "Establish home isolation protocols and educate family caregivers",
-      "C": "Destroy all personal belongings of the patient",
-      "D": "Prohibit any future medical follow-ups"
-    },
-    "answer": "B",
-    "explanation": "Community health nurses educate families on safe home isolation, hygiene, and waste disposal to ensure safe continuity of care. [learn more](GNS313_U2_T4#GNS313_U2_T4_h8)"
-  },
-  {
-    "question_id": "GNS313_U2_T4_h8_q2",
-    "heading_id": "GNS313_U2_T4_h8",
-    "article_id": "GNS313_U2_T4",
-    "topic_id": "GNS313_U2_T4",
-    "question": "How do community health nurses contribute during a disease outbreak in a rural Nigerian setting?",
-    "options": {
-      "A": "By closing down all local markets permanently",
-      "B": "By conducting active surveillance and contact tracing",
-      "C": "By ignoring local health practices",
-      "D": "By treating patients exclusively without recording data"
-    },
-    "answer": "B",
-    "explanation": "Active surveillance and contact tracing are essential community health nursing functions used to track and contain disease outbreaks at the grassroots level. [learn more](GNS313_U2_T4#GNS313_U2_T4_h8)"
+    "explanation": "Practical home isolation relies on spatial separation and clear instructions on safe handling of excretions and waste. [learn more](GNS313_U2_T4#GNS313_U2_T4_h7)"
   }
 ]
