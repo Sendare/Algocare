@@ -4,209 +4,223 @@
     "heading_id": "GNS215_U2_T5_h1",
     "article_id": "GNS215_U2_T5",
     "topic_id": "GNS215_U2_T5",
-    "question": "According to the World Health Organization, how is an Adverse Drug Reaction (ADR) defined?",
+    "difficulty": "recall",
+    "question": "What distinguishes an adverse drug reaction from accidental poisoning?",
     "options": {
-      "A": "A predictable side effect that is always beneficial to the patient",
-      "B": "A noxious and unintended response occurring at doses normally used in humans",
-      "C": "Any unintended effect caused exclusively by an intentional medication overdose",
-      "D": "A therapeutic failure resulting from a substandard counterfeit medication"
+      "A": "ADRs occur at doses normally used for treatment",
+      "B": "Poisoning is always managed with surgery",
+      "C": "ADRs never cause physical harm to tissues",
+      "D": "Poisoning only happens in outpatient settings"
     },
-    "answer": "B",
-    "explanation": "The WHO defines an ADR as a noxious and unintended response to a medicine occurring at normal doses used for prophylaxis, diagnosis, or therapy. [learn more](GNS215_U2_T5#GNS215_U2_T5_h1)"
+    "answer": "A",
+    "explanation": "Adverse drug reactions specifically happen at standard, therapeutic doses, whereas poisoning involves excessive or supratherapeutic doses. [learn more](GNS215_U2_T5#GNS215_U2_T5_h1)"
   },
   {
     "question_id": "GNS215_U2_T5_h1_q2",
     "heading_id": "GNS215_U2_T5_h1",
     "article_id": "GNS215_U2_T5",
     "topic_id": "GNS215_U2_T5",
-    "question": "What primary role do nurses play regarding adverse drug reactions in clinical practice?",
+    "difficulty": "understanding",
+    "question": "Why is it important to differentiate between a predictable side effect and an adverse drug reaction?",
     "options": {
-      "A": "Prescribing alternative medications to replace the offending drug",
-      "B": "Manufacturing safer pharmaceutical alternatives for hospital use",
-      "C": "Acting as a safety net through early recognition, monitoring, and reporting",
-      "D": "Diagnosing the root pathophysiological cause of the adverse reaction"
+      "A": "Adverse drug reactions involve unintended, harmful responses",
+      "B": "Side effects never require any clinical intervention",
+      "C": "Side effects only occur when combined with herbal remedies",
+      "D": "Adverse drug reactions are always mild and self-limiting"
     },
-    "answer": "C",
-    "explanation": "Nurses are on the frontline of medication administration and serve as a safety net by monitoring patients, recognizing ADRs early, and reporting them. [learn more](GNS215_U2_T5#GNS215_U2_T5_h1)"
+    "answer": "A",
+    "explanation": "While side effects are often anticipated secondary actions, ADRs focus on noxious and harmful bodily reactions that may require immediate intervention. [learn more](GNS215_U2_T5#GNS215_U2_T5_h1)"
   },
   {
     "question_id": "GNS215_U2_T5_h2_q1",
     "heading_id": "GNS215_U2_T5_h2",
     "article_id": "GNS215_U2_T5",
     "topic_id": "GNS215_U2_T5",
-    "question": "Which characteristic best describes a Type A (Augmented) Adverse Drug Reaction?",
+    "difficulty": "recall",
+    "question": "Which type of adverse drug reaction is dose-dependent and predictable based on pharmacology?",
     "options": {
-      "A": "It is completely unpredictable and immune-mediated",
-      "B": "It is dose-dependent and predictable based on pharmacology",
-      "C": "It occurs long after the drug therapy has been discontinued",
-      "D": "It represents complete failure of the medication to work"
+      "A": "Type F reactions",
+      "B": "Type B reactions",
+      "C": "Type D reactions",
+      "D": "Type A reactions"
     },
-    "answer": "B",
-    "explanation": "Type A reactions are dose-dependent and predictable because they stem from the exaggerated pharmacological action of the drug. [learn more](GNS215_U2_T5#GNS215_U2_T5_h2)"
+    "answer": "D",
+    "explanation": "Type A reactions represent an exaggeration of the standard pharmacological effects of a medication and are directly related to the dose given. [learn more](GNS215_U2_T5#GNS215_U2_T5_h2)"
   },
   {
     "question_id": "GNS215_U2_T5_h2_q2",
     "heading_id": "GNS215_U2_T5_h2",
     "article_id": "GNS215_U2_T5",
     "topic_id": "GNS215_U2_T5",
-    "question": "What is the appropriate initial nursing and medical management for a Type B (Bizarre) ADR such as anaphylaxis?",
+    "difficulty": "understanding",
+    "question": "A patient develops a sudden, severe anaphylactic shock after receiving an ordinary, low dose of an antibiotic they have tolerated before. What classification best fits this event?",
     "options": {
-      "A": "Reduce the drug dose by half and monitor vital signs",
-      "B": "Double the dose to build patient tolerance to the drug",
-      "C": "Immediately discontinue the drug and ensure lifelong avoidance",
-      "D": "Continue the medication while adding a prophylactic antihistamine"
+      "A": "Type E withdrawal reaction",
+      "B": "Type B bizarre reaction",
+      "C": "Type C chronic reaction",
+      "D": "Type A augmented reaction"
     },
-    "answer": "C",
-    "explanation": "Type B reactions are unpredictable and severe, requiring immediate discontinuation of the drug and permanent avoidance to prevent recurrence. [learn more](GNS215_U2_T5#GNS215_U2_T5_h2)"
+    "answer": "B",
+    "explanation": "Type B reactions are unpredictable, dose-independent, and often immune-mediated, making anaphylaxis a classic example. [learn more](GNS215_U2_T5#GNS215_U2_T5_h2)"
   },
   {
     "question_id": "GNS215_U2_T5_h3_q1",
     "heading_id": "GNS215_U2_T5_h3",
     "article_id": "GNS215_U2_T5",
     "topic_id": "GNS215_U2_T5",
-    "question": "How do pharmacokinetic mechanisms commonly contribute to adverse drug reactions?",
+    "difficulty": "recall",
+    "question": "What underlying mechanism causes drug accumulation and subsequent toxicity due to impaired elimination?",
     "options": {
-      "A": "By altering drug absorption, metabolism, or excretion, leading to drug accumulation",
-      "B": "By blocking normal receptor sites to intentionally cause therapeutic failure",
-      "C": "By triggering a Type I IgE-mediated immediate anaphylactic response",
-      "D": "By causing genetically determined enzyme deficiencies in red blood cells"
+      "A": "Pharmacodynamic receptor shift",
+      "B": "Idiosyncratic enzyme induction",
+      "C": "Pharmacokinetic alteration",
+      "D": "Immunological hypersensitivity"
     },
-    "answer": "A",
-    "explanation": "Pharmacokinetic mechanisms involve changes in ADME processes, which can cause the drug to accumulate in the body and result in toxicity. [learn more](GNS215_U2_T5#GNS215_U2_T5_h3)"
+    "answer": "C",
+    "explanation": "Pharmacokinetics involves how the body handles absorption, distribution, metabolism, and excretion; alterations here directly affect drug levels in the body. [learn more](GNS215_U2_T5#GNS215_U2_T5_h3)"
   },
   {
     "question_id": "GNS215_U2_T5_h3_q2",
     "heading_id": "GNS215_U2_T5_h3",
     "article_id": "GNS215_U2_T5",
     "topic_id": "GNS215_U2_T5",
-    "question": "What underlying mechanism causes hemolytic anemia in a G6PD-deficient patient given primaquine?",
+    "difficulty": "understanding",
+    "question": "An unexpected adverse reaction occurs in a patient due to a genetically inherited enzymatic deficiency. This phenomenon is best described as what?",
     "options": {
-      "A": "A predictable Type A pharmacological blood pressure drop",
-      "B": "An idiosyncratic, genetically determined abnormal reaction to the chemical",
-      "C": "A Type IV delayed contact dermatitis hypersensitivity reaction",
-      "D": "An intentional overdose of the prescribed antimalarial medication"
+      "A": "An allergic hypersensitivity",
+      "B": "An idiosyncratic reaction",
+      "C": "A secondary side effect",
+      "D": "A pharmacokinetic saturation"
     },
     "answer": "B",
-    "explanation": "Reactions like G6PD deficiency-related hemolysis are idiosyncratic, meaning they are abnormal and genetically determined responses to a drug. [learn more](GNS215_U2_T5#GNS215_U2_T5_h3)"
+    "explanation": "Idiosyncrasy refers to abnormal, unexpected reactivity to a drug caused by unique genetic traits or enzyme variations in an individual. [learn more](GNS215_U2_T5#GNS215_U2_T5_h3)"
   },
   {
     "question_id": "GNS215_U2_T5_h4_q1",
     "heading_id": "GNS215_U2_T5_h4",
     "article_id": "GNS215_U2_T5",
     "topic_id": "GNS215_U2_T5",
-    "question": "Why are older adults particularly susceptible to adverse drug reactions?",
+    "difficulty": "recall",
+    "question": "Which patient group is particularly vulnerable to adverse drug reactions due to decreased renal and hepatic clearance?",
     "options": {
-      "A": "They have enhanced liver enzyme activity and rapid renal elimination",
-      "B": "They experience physiological declines in renal and hepatic function alongside polypharmacy",
-      "C": "They are completely immune to Type B idiosyncratic drug reactions",
-      "D": "They lack cytochrome P450 enzymes entirely throughout their lifespan"
+      "A": "Pregnant women in their first trimester",
+      "B": "Athletic young adults",
+      "C": "Healthy adolescents",
+      "D": "Older adults"
     },
-    "answer": "B",
-    "explanation": "Older adults have reduced organ function (renal and hepatic) and often take multiple medications (polypharmacy), increasing their risk for ADRs. [learn more](GNS215_U2_T5#GNS215_U2_T5_h4)"
+    "answer": "D",
+    "explanation": "Aging is typically accompanied by a physiological decline in kidney and liver function, slowing down drug metabolism and clearance. [learn more](GNS215_U2_T5#GNS215_U2_T5_h4)"
   },
   {
     "question_id": "GNS215_U2_T5_h4_q2",
     "heading_id": "GNS215_U2_T5_h4",
     "article_id": "GNS215_U2_T5",
     "topic_id": "GNS215_U2_T5",
-    "question": "What is a major risk factor associated with polypharmacy in clinical nursing practice?",
+    "difficulty": "application",
+    "question": "A patient is prescribed five different medications for chronic conditions while also regularly taking local herbal mixtures. What is the primary risk introduced by this practice?",
     "options": {
-      "A": "Decreased likelihood of experiencing drug-drug interactions",
-      "B": "Exponentially increased risk of drug interactions and cumulative toxicity",
-      "C": "Complete elimination of genetic metabolic variations",
-      "D": "Guaranteed patient compliance with all prescribed drug regimens"
+      "A": "Decreased overall drug absorption",
+      "B": "Immediate development of drug tolerance",
+      "C": "Increased likelihood of drug interactions",
+      "D": "Complete elimination of side effects"
     },
-    "answer": "B",
-    "explanation": "Taking multiple medications concurrently (polypharmacy) raises the risk of adverse drug-drug interactions and toxicity. [learn more](GNS215_U2_T5#GNS215_U2_T5_h4)"
+    "answer": "C",
+    "explanation": "Polypharmacy, especially when combined with herbal supplements, greatly increases the risk of unpredictable pharmacokinetic and pharmacodynamic interactions. [learn more](GNS215_U2_T5#GNS215_U2_T5_h4)"
   },
   {
     "question_id": "GNS215_U2_T5_h5_q1",
     "heading_id": "GNS215_U2_T5_h5",
     "article_id": "GNS215_U2_T5",
     "topic_id": "GNS215_U2_T5",
-    "question": "What is the 'prescribing cascade' in the context of adverse drug reactions?",
+    "difficulty": "recall",
+    "question": "What term describes the clinical error of treating symptoms of an adverse drug reaction with a new medication?",
     "options": {
-      "A": "Stopping all medications immediately when an allergy occurs",
-      "B": "Misinterpreting an ADR as a new disease symptom and prescribing a new drug to treat it",
-      "C": "Gradually tapering a medication dose to avoid withdrawal symptoms",
-      "D": "Administering multiple incompatible drugs in a single intravenous line"
+      "A": "Idiosyncratic response",
+      "B": "Pharmacokinetic tolerance",
+      "C": "Therapeutic window",
+      "D": "Prescribing cascade"
     },
-    "answer": "B",
-    "explanation": "The prescribing cascade occurs when an ADR is mistaken for a new medical condition, resulting in an unnecessary new prescription to treat the reaction. [learn more](GNS215_U2_T5#GNS215_U2_T5_h5)"
+    "answer": "D",
+    "explanation": "A prescribing cascade occurs when an ADR is misinterpreted as a new medical condition, prompting the addition of another unnecessary drug. [learn more](GNS215_U2_T5#GNS215_U2_T5_h5)"
   },
   {
     "question_id": "GNS215_U2_T5_h5_q2",
     "heading_id": "GNS215_U2_T5_h5",
     "article_id": "GNS215_U2_T5",
     "topic_id": "GNS215_U2_T5",
-    "question": "Which action is a key component of clinical causality assessment for a suspected ADR?",
+    "difficulty": "understanding",
+    "question": "Why is taking a comprehensive medication history that includes herbal remedies crucial during nursing admission?",
     "options": {
-      "A": "Increasing the drug dosage to see if the symptoms become permanent",
-      "B": "Evaluating the temporal relationship between drug administration and symptom onset",
-      "C": "Ignoring baseline laboratory values and focusing solely on patient complaints",
-      "D": "Immediately discharging the patient without further observation"
+      "A": "It ensures compliance with hospital financial billing policies",
+      "B": "It replaces the need for monitoring vital signs during treatment",
+      "C": "It helps identify potential hidden contributions to adverse reactions",
+      "D": "It guarantees the patient will experience zero side effects"
     },
-    "answer": "B",
-    "explanation": "Evaluating the time elapsed between starting the drug and the onset of symptoms is a fundamental step in determining if the drug caused the reaction. [learn more](GNS215_U2_T5#GNS215_U2_T5_h5)"
+    "answer": "C",
+    "explanation": "Patients often omit herbal supplements from casual recall, yet these substances can actively interact with orthodox medications and trigger ADRs. [learn more](GNS215_U2_T5#GNS215_U2_T5_h5)"
   },
   {
     "question_id": "GNS215_U2_T5_h6_q1",
     "heading_id": "GNS215_U2_T5_h6",
     "article_id": "GNS215_U2_T5",
     "topic_id": "GNS215_U2_T5",
-    "question": "What is the immediate priority nursing action when a severe ADR is identified in a hospitalized patient?",
+    "difficulty": "recall",
+    "question": "What is the immediate priority nursing action when a severe adverse drug reaction is suspected?",
     "options": {
-      "A": "Increase the infusion rate of the suspected medication",
-      "B": "Withhold or stop the offending medication and notify the physician",
-      "C": "Wait for the scheduled pharmacy delivery time before taking action",
-      "D": "Document the incident in the nursing notes at the end of the shift"
+      "A": "Discharge the patient immediately",
+      "B": "Stop the offending medication",
+      "C": "Wait for laboratory confirmation",
+      "D": "Double the subsequent drug dose"
     },
     "answer": "B",
-    "explanation": "The first step in managing any suspected ADR is to immediately stop the offending drug to prevent further exposure and notify the doctor. [learn more](GNS215_U2_T5#GNS215_U2_T5_h6)"
+    "explanation": "The foundational step in managing any ADR is prompt cessation of exposure to the causative drug to halt further injury. [learn more](GNS215_U2_T5#GNS215_U2_T5_h6)"
   },
   {
     "question_id": "GNS215_U2_T5_h6_q2",
     "heading_id": "GNS215_U2_T5_h6",
     "article_id": "GNS215_U2_T5",
     "topic_id": "GNS215_U2_T5",
-    "question": "Which nursing intervention is most effective in preventing ADRs during care transitions?",
+    "difficulty": "understanding",
+    "question": "Which nursing intervention is essential after managing an acute adverse drug reaction to protect the patient during future healthcare encounters?",
     "options": {
-      "A": "Medication reconciliation to eliminate discrepancies and duplicate therapies",
-      "B": "Administering all oral medications through an intravenous line instead",
-      "C": "Avoiding patient education to prevent causing unnecessary anxiety",
-      "D": "Relying solely on verbal medication histories provided by family members"
+      "A": "Destroying all previous medication charts",
+      "B": "Instructing the patient never to visit a clinic again",
+      "C": "Prescribing an alternative herbal supplement",
+      "D": "Documenting the specific reaction clearly in the health record"
     },
-    "answer": "A",
-    "explanation": "Medication reconciliation across care transitions ensures accurate lists are maintained, preventing duplicate drugs and dosing errors. [learn more](GNS215_U2_T5#GNS215_U2_T5_h6)"
+    "answer": "D",
+    "explanation": "Clear documentation alerts all members of the healthcare team to avoid re-prescribing the offending agent, preventing recurrent harm. [learn more](GNS215_U2_T5#GNS215_U2_T5_h6)"
   },
   {
     "question_id": "GNS215_U2_T5_h7_q1",
     "heading_id": "GNS215_U2_T5_h7",
     "article_id": "GNS215_U2_T5",
     "topic_id": "GNS215_U2_T5",
-    "question": "Which agency in Nigeria is primarily responsible for post-marketing surveillance and pharmacovigilance?",
+    "difficulty": "recall",
+    "question": "What is the primary regulatory body responsible for drug safety and pharmacovigilance in Nigeria?",
     "options": {
-      "A": "Nursing and Midwifery Council of Nigeria (NMCN)",
-      "B": "National Agency for Food and Drug Administration and Control (NAFDAC)",
-      "C": "Pharmaceutical Society of Nigeria (PSN)",
-      "D": "Nigerian Medical Association (NMA)"
+      "A": "NAFDAC",
+      "B": "FMOH",
+      "C": "NMA",
+      "D": "NMCN"
     },
-    "answer": "B",
-    "explanation": "NAFDAC is the regulatory body tasked with drug safety monitoring, post-marketing surveillance, and pharmacovigilance in Nigeria. [learn more](GNS215_U2_T5#GNS215_U2_T5_h7)"
+    "answer": "A",
+    "explanation": "The National Agency for Food and Drug Administration and Control (NAFDAC) regulates and monitors drug safety across Nigeria. [learn more](GNS215_U2_T5#GNS215_U2_T5_h7)"
   },
   {
     "question_id": "GNS215_U2_T5_h7_q2",
     "heading_id": "GNS215_U2_T5_h7",
     "article_id": "GNS215_U2_T5",
     "topic_id": "GNS215_U2_T5",
-    "question": "What is the primary tool traditionally used by healthcare professionals in Nigeria to report adverse drug reactions to NAFDAC?",
+    "difficulty": "understanding",
+    "question": "What tool do Nigerian nurses use to report suspected adverse drug reactions to regulatory authorities?",
     "options": {
-      "A": "The Blue Prescription Pad",
-      "B": "The Green Surgical Safety Checklist",
-      "C": "The Yellow Form (ADR Reporting Form)",
-      "D": "The Red Incident Inpatient Logbook"
+      "A": "The Red Emergency Ledger",
+      "B": "The Blue Prescription Pad",
+      "C": "The Green Discharge Form",
+      "D": "The Yellow Card Scheme"
     },
-    "answer": "C",
-    "explanation": "NAFDAC utilizes the 'Yellow Form' for spontaneous reporting of adverse drug reactions by healthcare providers. [learn more](GNS215_U2_T5#GNS215_U2_T5_h7)"
+    "answer": "D",
+    "explanation": "The Yellow Card reporting system is the standard mechanism utilized by clinicians and nurses to report suspected ADRs to NAFDAC. [learn more](GNS215_U2_T5#GNS215_U2_T5_h7)"
   }
 ]
