@@ -4,209 +4,223 @@
     "heading_id": "GNS212_U4_T3_h1",
     "article_id": "GNS212_U4_T3",
     "topic_id": "GNS212_U4_T3",
-    "question": "What is the primary advantage of an infusion pump over a gravity-fed intravenous line?",
+    "difficulty": "recall",
+    "question": "What is the primary advantage of using an infusion pump over a standard gravity drip set?",
     "options": {
-      "A": "It completely eliminates the need for nursing documentation.",
-      "B": "It delivers fluids at a precisely regulated rate regardless of patient movement or bag height.",
-      "C": "It removes the need to monitor the intravenous insertion site.",
-      "D": "It prevents all forms of infiltration and phlebitis automatically."
+      "A": "It delivers fluids at a precise, mechanically controlled rate.",
+      "B": "It operates continuously without requiring an electrical power source.",
+      "C": "It automatically mixes IV medications without pharmacist intervention.",
+      "D": "It eliminates the need for peripheral venous access sites entirely."
     },
-    "answer": "B",
-    "explanation": "Infusion pumps utilize a mechanized system to maintain a precise flow rate, overcoming variables like patient movement and bag height that affect gravity drips. [learn more](GNS212_U4_T3#GNS212_U4_T3_h1)"
+    "answer": "A",
+    "explanation": "Mechanical regulation removes the variability of manual drop counting, ensuring steady and accurate fluid delivery. [learn more](GNS212_U4_T3#GNS212_U4_T3_h1)"
   },
   {
     "question_id": "GNS212_U4_T3_h1_q2",
     "heading_id": "GNS212_U4_T3_h1",
     "article_id": "GNS212_U4_T3",
     "topic_id": "GNS212_U4_T3",
-    "question": "Which category of medications makes the use of infusion pumps particularly critical in clinical practice?",
+    "difficulty": "understanding",
+    "question": "Why are infusion pumps particularly critical when administering drugs with a narrow therapeutic index?",
     "options": {
-      "A": "Oral vitamins and mineral supplements",
-      "B": "Topical barrier creams and ointments",
-      "C": "High-alert medications such as vasopressors and insulin",
-      "D": "Routine maintenance oral analgesics"
+      "A": "The chemical composition of these drugs destroys soft plastic gravity tubing.",
+      "B": "Gravity flow causes these specific medications to precipitate out of solution.",
+      "C": "These medications will crystallize instantly inside standard gravity administration sets.",
+      "D": "Small fluctuations in infusion speed can cause severe toxicity or treatment failure."
     },
-    "answer": "C",
-    "explanation": "High-alert medications require precise delivery because small fluctuations in the flow rate can lead to severe clinical complications like extreme blood pressure changes or hypoglycemia. [learn more](GNS212_U4_T3#GNS212_U4_T3_h1)"
+    "answer": "D",
+    "explanation": "Drugs with a narrow therapeutic index require exact dosing because the margin between a therapeutic effect and a dangerous adverse reaction is extremely slim. [learn more](GNS212_U4_T3#GNS212_U4_T3_h1)"
   },
   {
     "question_id": "GNS212_U4_T3_h2_q1",
     "heading_id": "GNS212_U4_T3_h2",
     "article_id": "GNS212_U4_T3",
     "topic_id": "GNS212_U4_T3",
-    "question": "Which type of infusion pump is best suited for delivering very small volumes of potent medication at low, continuous rates, such as in neonatal care?",
+    "difficulty": "recall",
+    "question": "Which type of infusion pump is most appropriate for delivering continuous micro-volumes of vasoactive drugs to a neonate?",
     "options": {
-      "A": "Volumetric infusion pump",
+      "A": "Elastomeric pump",
       "B": "Syringe pump",
-      "C": "Elastomeric pump",
-      "D": "Gravity roller clamp"
+      "C": "Gravity roller pump",
+      "D": "Enteral feeding pump"
     },
     "answer": "B",
-    "explanation": "Syringe pumps hold a syringe instead of a bag and are designed to deliver small volumes at precise, low rates, making them ideal for neonates and critical care titrations. [learn more](GNS212_U4_T3#GNS212_U4_T3_h2)"
+    "explanation": "Syringe pumps excel at delivering tiny volumes with high precision, making them the gold standard for neonatal critical care. [learn more](GNS212_U4_T3#GNS212_U4_T3_h2)"
   },
   {
     "question_id": "GNS212_U4_T3_h2_q2",
     "heading_id": "GNS212_U4_T3_h2",
     "article_id": "GNS212_U4_T3",
     "topic_id": "GNS212_U4_T3",
-    "question": "What is the specific safety feature of a Patient-Controlled Analgesia (PCA) pump that prevents a patient from overdosing?",
+    "difficulty": "understanding",
+    "question": "What is the primary purpose of the lockout interval on a Patient-Controlled Analgesia (PCA) pump?",
     "options": {
-      "A": "A built-in blood pressure monitor that stops the drug",
-      "B": "A lock-out interval that restricts continuous bolus delivery",
-      "C": "An audible alarm that sounds whenever the patient touches the button",
-      "D": "A maximum volume limit of 5 milliliters per day"
+      "A": "To conserve battery power during extended periods of patient sleep",
+      "B": "To force the patient to rest between periods of physical therapy and movement",
+      "C": "To allow the infusion tubing to automatically flush itself with normal saline",
+      "D": "To prevent the patient from administering another dose too soon and causing an overdose"
     },
-    "answer": "B",
-    "explanation": "PCA pumps use a programmed lock-out interval to prevent the patient from administering another dose too soon, thereby avoiding accidental drug overdose. [learn more](GNS212_U4_T3#GNS212_U4_T3_h2)"
+    "answer": "D",
+    "explanation": "The lockout mechanism introduces a mandatory waiting period after a dose is delivered, protecting the patient from cumulative opioid toxicity. [learn more](GNS212_U4_T3#GNS212_U4_T3_h2)"
   },
   {
     "question_id": "GNS212_U4_T3_h3_q1",
     "heading_id": "GNS212_U4_T3_h3",
     "article_id": "GNS212_U4_T3",
     "topic_id": "GNS212_U4_T3",
-    "question": "What is the primary function of a downstream sensor in an infusion pump?",
+    "difficulty": "recall",
+    "question": "What is the function of the air-in-line detector in an electronic infusion pump?",
     "options": {
-      "A": "To detect blockages located between the pump and the patient's vascular access site",
-      "B": "To measure the room temperature around the patient's bed",
-      "C": "To detect fluid shortages in the hanging IV bag",
-      "D": "To monitor the patient's heart rate and oxygen saturation"
+      "A": "It balances atmospheric pressure differences between the room and the IV bag.",
+      "B": "It purges the entire intravenous set automatically when a new bag is hung.",
+      "C": "It prevents gas bubbles from traveling down the tubing and entering the patient's bloodstream.",
+      "D": "It measures the exact concentration of oxygen dissolved in the IV fluid."
     },
-    "answer": "A",
-    "explanation": "Downstream sensors are specifically positioned to detect occlusions and blockages between the pump mechanism and the patient's IV insertion site. [learn more](GNS212_U4_T3#GNS212_U4_T3_h3)"
+    "answer": "C",
+    "explanation": "Ultrasound air detectors immediately halt infusion and trigger an alarm upon sensing gas pockets, preventing venous air embolisms. [learn more](GNS212_U4_T3#GNS212_U4_T3_h3)"
   },
   {
     "question_id": "GNS212_U4_T3_h3_q2",
     "heading_id": "GNS212_U4_T3_h3",
     "article_id": "GNS212_U4_T3",
     "topic_id": "GNS212_U4_T3",
-    "question": "How do standard peristaltic infusion pumps propel fluid through the intravenous tubing?",
+    "difficulty": "understanding",
+    "question": "How does a peristaltic infusion pump typically move fluid through the administration set?",
     "options": {
-      "A": "By applying continuous heat to expand the fluid molecules",
-      "B": "By using mechanical fingers that sequentially compress and relax the tubing",
-      "C": "By spinning the IV bag at high centrifugal speeds",
-      "D": "By relying solely on gravity to pull fluid past a magnetic valve"
+      "A": "By applying continuous negative pressure suction from a motorized vacuum chamber",
+      "B": "By spinning the intravenous bag rapidly inside a centrifuge drum",
+      "C": "By heating the fluid inside the chamber to create expanding steam pressure gradients",
+      "D": "By using rotating rollers that rhythmically compress and push fluid along the flexible tubing"
     },
-    "answer": "B",
-    "explanation": "Peristaltic pumps use mechanical fingers that compress and relax the specialized tubing in a wave-like motion to push fluid forward in precise amounts. [learn more](GNS212_U4_T3#GNS212_U4_T3_h3)"
+    "answer": "D",
+    "explanation": "Peristaltic action relies on sequential mechanical compression points that massage fluid forward in a controlled direction. [learn more](GNS212_U4_T3#GNS212_U4_T3_h3)"
   },
   {
     "question_id": "GNS212_U4_T3_h4_q1",
     "heading_id": "GNS212_U4_T3_h4",
     "article_id": "GNS212_U4_T3",
     "topic_id": "GNS212_U4_T3",
-    "question": "What is the standard unit of measurement typically programmed into a volumetric infusion pump for general fluid delivery?",
+    "difficulty": "application",
+    "question": "A medical order instructs to infuse 500 mL of normal saline over 4 hours. What rate should be programmed into the infusion pump?",
     "options": {
-      "A": "Milliliters per hour (mL/hr)",
-      "B": "Drops per minute (gtt/min)",
-      "C": "Liters per twenty-four hours (L/24hr)",
-      "D": "Milligrams per minute (mg/min)"
+      "A": "200 mL/hr",
+      "B": "50 mL/hr",
+      "C": "125 mL/hr",
+      "D": "250 mL/hr"
     },
-    "answer": "A",
-    "explanation": "Volumetric infusion pumps are digitally programmed to deliver fluids in exact milliliters per hour (mL/hr). [learn more](GNS212_U4_T3#GNS212_U4_T3_h4)"
+    "answer": "C",
+    "explanation": "Dividing the total volume of 500 mL by the total time of 4 hours yields a direct infusion rate of 125 mL/hr. [learn more](GNS212_U4_T3#GNS212_U4_T3_h4)"
   },
   {
     "question_id": "GNS212_U4_T3_h4_q2",
     "heading_id": "GNS212_U4_T3_h4",
     "article_id": "GNS212_U4_T3",
     "topic_id": "GNS212_U4_T3",
-    "question": "Why is an independent double-check by a second nurse especially important when programming high-alert medications?",
+    "difficulty": "understanding",
+    "question": "What is the clinical risk of failing to set the Volume To Be Infused (VTBI) limit on an infusion pump?",
     "options": {
-      "A": "It eliminates the need for any documentation in the patient chart.",
-      "B": "It prevents calculation and programming errors that could result in patient harm.",
-      "C": "it allows the primary nurse to leave the unit for a break.",
-      "D": "It automatically adjusts the pump pressure based on vein size."
+      "A": "The battery backup system will instantly drain and shut down.",
+      "B": "The electronic screen will lock out all further user adjustments.",
+      "C": "The pump will deliver medication at double the prescribed speed.",
+      "D": "The pump may continue running after the fluid bag empties, introducing air into the line."
     },
-    "answer": "B",
-    "explanation": "An independent double-check involving two nurses helps catch mathematical, decimal, or programming errors before high-alert medications are administered to the patient. [learn more](GNS212_U4_T3#GNS212_U4_T3_h4)"
+    "answer": "D",
+    "explanation": "Setting a VTBI parameter establishes a safety ceiling, stopping the pump or switching to a KVO rate once the designated volume has infused. [learn more](GNS212_U4_T3#GNS212_U4_T3_h4)"
   },
   {
     "question_id": "GNS212_U4_T3_h5_q1",
     "heading_id": "GNS212_U4_T3_h5",
     "article_id": "GNS212_U4_T3",
     "topic_id": "GNS212_U4_T3",
-    "question": "What is the primary action a nurse should take when an infusion pump alarm sounds?",
+    "difficulty": "understanding",
+    "question": "Why is hourly physical assessment of the IV insertion site especially crucial when using an electronic infusion pump?",
     "options": {
-      "A": "Unplug the pump from the wall outlet immediately",
-      "B": "Press the silence button and ignore it if the fluid is still dripping",
-      "C": "Investigate the cause of the alarm immediately and resolve the issue",
-      "D": "Turn off the pump and remove the intravenous catheter"
+      "A": "Cannulas routinely fall out of veins every hour due to pump vibration.",
+      "B": "Pumps can force fluid into subcutaneous tissue even if the vein infiltrates, due to positive pressure.",
+      "C": "Pumps automatically flush the cannula site with heparin every sixty minutes.",
+      "D": "The high voltage from the pump motor causes localized skin burns over time."
     },
-    "answer": "C",
-    "explanation": "Alarms indicate a disruption in the infusion system and must never be ignored; the nurse must investigate and resolve the underlying cause promptly. [learn more](GNS212_U4_T3#GNS212_U4_T3_h5)"
+    "answer": "B",
+    "explanation": "Because pumps use mechanical force rather than gentle gravity, fluid will keep pumping into surrounding tissue during an infiltration unless caught early. [learn more](GNS212_U4_T3#GNS212_U4_T3_h5)"
   },
   {
     "question_id": "GNS212_U4_T3_h5_q2",
     "heading_id": "GNS212_U4_T3_h5",
     "article_id": "GNS212_U4_T3",
     "topic_id": "GNS212_U4_T3",
-    "question": "How often should the nurse inspect the intravenous insertion site for signs of infiltration or phlebitis during pump-regulated therapy?",
+    "difficulty": "recall",
+    "question": "Which of the following is NOT a recommended safety action when managing a patient on an infusion pump?",
     "options": {
-      "A": "Only when the patient is discharged from the hospital",
-      "B": "Regularly per hospital policy and during routine assessments",
-      "C": "Once a week during routine dressing changes",
-      "D": "Only when the infusion bag is completely empty"
+      "A": "Keeping the pump plugged into an electrical mains outlet during bed rest",
+      "B": "Silencing an alarm and walking away without checking the tubing",
+      "C": "Performing an independent double-check for high-alert medications",
+      "D": "Inspecting the peripheral cannula insertion site for swelling or coolness"
     },
     "answer": "B",
-    "explanation": "Routine site assessments per hospital policy are necessary to catch early signs of complications like infiltration, extravasation, or phlebitis. [learn more](GNS212_U4_T3#GNS212_U4_T3_h5)"
+    "explanation": "Silencing an alarm without investigating and resolving the underlying problem leaves the patient vulnerable to interrupted therapy or complications. [learn more](GNS212_U4_T3#GNS212_U4_T3_h5)"
   },
   {
     "question_id": "GNS212_U4_T3_h6_q1",
     "heading_id": "GNS212_U4_T3_h6",
     "article_id": "GNS212_U4_T3",
     "topic_id": "GNS212_U4_T3",
-    "question": "What does an occlusion alarm on an infusion pump typically indicate?",
+    "difficulty": "application",
+    "question": "An infusion pump triggers a downstream occlusion alarm. What should be your very first troubleshooting step?",
     "options": {
-      "A": "The infusion bag is completely empty.",
-      "B": "There is a blockage or restriction somewhere in the fluid pathway.",
-      "C": "The battery is fully charged and functioning normally.",
-      "D": "The medication has finished infusing completely."
+      "A": "Turn off the device power switch for ten minutes to reset the internal software memory.",
+      "B": "Immediately remove the peripheral cannula and restart a new IV line in the opposite arm.",
+      "C": "Inspect the entire length of tubing from the pump to the patient for kinks, clogs, or closed clamps.",
+      "D": "Increase the occlusion pressure limit setting on the pump menu to bypass the restriction."
     },
-    "answer": "B",
-    "explanation": "An occlusion alarm signals a blockage in the system, which can be caused by kinked tubing, closed clamps, or a positional IV catheter. [learn more](GNS212_U4_T3#GNS212_U4_T3_h6)"
+    "answer": "C",
+    "explanation": "Systematic troubleshooting always begins with checking the physical path for simple mechanical obstructions like closed clamps or twisted tubing. [learn more](GNS212_U4_T3#GNS212_U4_T3_h6)"
   },
   {
     "question_id": "GNS212_U4_T3_h6_q2",
     "heading_id": "GNS212_U4_T3_h6",
     "article_id": "GNS212_U4_T3",
     "topic_id": "GNS212_U4_T3",
-    "question": "How should a nurse respond when an air-in-line alarm is triggered?",
+    "difficulty": "recall",
+    "question": "What does a low battery alarm on an infusion pump signify during clinical use?",
     "options": {
-      "A": "Disconnect the patient and discard the entire intravenous setup.",
-      "B": "Increase the flow rate to push the air through the vein quickly.",
-      "C": "Inspect the tubing, clear any bubbles according to safety protocols, and ensure no air enters the patient.",
-      "D": "Ignore the alarm because small amounts of air are harmless."
+      "A": "The backup battery is fully charged and ready for transport.",
+      "B": "The internal battery charge is critically depleted and requires immediate connection to mains power.",
+      "C": "The electrical wall outlet has experienced a power surge and short-circuited.",
+      "D": "The lithium backup battery has completely leaked and must be discarded."
     },
-    "answer": "C",
-    "explanation": "The nurse must inspect the line to locate and manage air bubbles safely, preventing them from reaching the patient's vascular system and causing an air embolism. [learn more](GNS212_U4_T3#GNS212_U4_T3_h6)"
+    "answer": "B",
+    "explanation": "A low battery warning alerts staff that stored power is running out and the device must be plugged in to avoid sudden shutdown. [learn more](GNS212_U4_T3#GNS212_U4_T3_h6)"
   },
   {
     "question_id": "GNS212_U4_T3_h7_q1",
     "heading_id": "GNS212_U4_T3_h7",
     "article_id": "GNS212_U4_T3",
     "topic_id": "GNS212_U4_T3",
-    "question": "How long should a nurse scrub a needleless connector with an antiseptic wipe before accessing an infusion line?",
+    "difficulty": "recall",
+    "question": "How long should a nurse scrub a needleless IV injection port with an antiseptic wipe before accessing it?",
     "options": {
-      "A": "2 seconds",
-      "B": "5 seconds",
-      "C": "15 seconds",
-      "D": "60 seconds"
+      "A": "At least 15 seconds",
+      "B": "Exactly 2 seconds",
+      "C": "Roughly 60 seconds",
+      "D": "No scrubbing is necessary if gloves are sterile"
     },
-    "answer": "C",
-    "explanation": "Standard infection control protocols recommend scrubbing needleless connectors with an antiseptic wipe for at least 15 seconds and allowing them to dry to ensure proper microbial decontamination. [learn more](GNS212_U4_T3#GNS212_U4_T3_h7)"
+    "answer": "A",
+    "explanation": "Friction scrubbing for a minimum of 15 seconds followed by complete air drying is necessary to effectively reduce microbial load on connector surfaces. [learn more](GNS212_U4_T3#GNS212_U4_T3_h7)"
   },
   {
     "question_id": "GNS212_U4_T3_h7_q2",
     "heading_id": "GNS212_U4_T3_h7",
     "article_id": "GNS212_U4_T3",
     "topic_id": "GNS212_U4_T3",
-    "question": "Why must infusion tubing used for total parenteral nutrition (TPN) or lipid emulsions be changed more frequently than standard crystalloid IV tubing?",
+    "difficulty": "understanding",
+    "question": "Why do infusion sets used for lipid emulsions or total parenteral nutrition require more frequent replacement than standard crystalloid IV sets?",
     "options": {
-      "A": "Lipids and TPN rapidly support bacterial and fungal growth.",
-      "B": "Lipid solutions dissolve the plastic material of the infusion tubing.",
-      "C": "TPN fluids stain the clear tubing and obscure air bubble detection.",
-      "D": "Manufacturers require daily replacement for warranty purposes."
+      "A": "These fluids leave sticky colored residues that obscure air bubbles.",
+      "B": "Lipids cause the electronic pump rollers to slip and lose calibration.",
+      "C": "Nutrient solutions chemically dissolve the plasticizers inside standard tubing.",
+      "D": "Lipids and nutrient-rich solutions support rapid bacterial and fungal growth."
     },
-    "answer": "A",
-    "explanation": "Nutrient-rich solutions like TPN and lipids provide an ideal medium for rapid microbial proliferation, necessitating more frequent tubing changes to prevent infection. [learn more](GNS212_U4_T3#GNS212_U4_T3_h7)"
+    "answer": "D",
+    "explanation": "The high nutrient content of parenteral nutrition and lipid emulsions creates an ideal medium for microorganisms, necessitating shorter change intervals to prevent infection. [learn more](GNS212_U4_T3#GNS212_U4_T3_h7)"
   }
 ]
