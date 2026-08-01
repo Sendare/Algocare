@@ -4,239 +4,223 @@
     "heading_id": "GNS215_U6_T2_h1",
     "article_id": "GNS215_U6_T2",
     "topic_id": "GNS215_U6_T2",
-    "question": "What is the primary pharmacological principle that allows antibacterial drugs to target bacteria without harming human cells?",
+    "difficulty": "recall",
+    "question": "What does the term selective toxicity mean in pharmacology?",
     "options": {
-      "A": "Broad-spectrum coverage",
-      "B": "Selective toxicity",
-      "C": "Bacteriostatic synergy",
-      "D": "Bacterial colonization"
+      "A": "Targeting only gram-negative organisms while completely ignoring gram-positive strains",
+      "B": "Administering multiple drugs simultaneously to reduce overall systemic toxicity",
+      "C": "The ability of a bacterium to survive exposure to a high dose of medication",
+      "D": "Harmful effects restricted only to bacterial target structures without harming host cells"
     },
-    "answer": "B",
-    "explanation": "Selective toxicity refers to the drug's ability to target structures or metabolic pathways essential to bacteria while leaving human host cells unharmed. [learn more](GNS215_U6_T2#GNS215_U6_T2_h1)"
+    "answer": "D",
+    "explanation": "Selective toxicity ensures that medications damage pathogen physiology while preserving host tissue integrity. [learn more](GNS215_U6_T2#GNS215_U6_T2_h1)"
   },
   {
     "question_id": "GNS215_U6_T2_h1_q2",
     "heading_id": "GNS215_U6_T2_h1",
     "article_id": "GNS215_U6_T2",
     "topic_id": "GNS215_U6_T2",
-    "question": "Which type of illness is completely ineffective when treated with standard antibacterial drugs?",
+    "difficulty": "understanding",
+    "question": "When is empiric antibiotic therapy typically initiated?",
     "options": {
-      "A": "Bacterial pneumonia",
-      "B": "Urinary tract infections",
-      "C": "Viral influenza",
-      "D": "Staphylococcal sepsis"
+      "A": "After completing a full course of narrow-spectrum prophylactic medications",
+      "B": "Immediately for acutely ill patients prior to receiving lab culture results",
+      "C": "Only after exact laboratory sensitivities identify the specific causative pathogen",
+      "D": "When a patient develops a severe hypersensitivity reaction to penicillin"
     },
-    "answer": "C",
-    "explanation": "Antibacterials are specifically designed to target bacteria and have no therapeutic effect against viral infections such as influenza. [learn more](GNS215_U6_T2#GNS215_U6_T2_h1)"
+    "answer": "B",
+    "explanation": "Empiric treatment provides immediate coverage based on clinical presentation while awaiting definitive laboratory data. [learn more](GNS215_U6_T2#GNS215_U6_T2_h1)"
   },
   {
     "question_id": "GNS215_U6_T2_h2_q1",
     "heading_id": "GNS215_U6_T2_h2",
     "article_id": "GNS215_U6_T2",
     "topic_id": "GNS215_U6_T2",
-    "question": "Which class of antibacterial drugs functions primarily by inhibiting bacterial cell wall synthesis?",
+    "difficulty": "recall",
+    "question": "Which cellular component is targeted by penicillin and cephalosporin medications?",
     "options": {
-      "A": "Aminoglycosides",
-      "B": "Beta-lactams",
-      "C": "Fluoroquinolones",
-      "D": "Sulfonamides"
+      "A": "50S ribosomal subunit",
+      "B": "Folic acid pathway",
+      "C": "Peptidoglycan cell wall",
+      "D": "DNA gyrase enzyme"
     },
-    "answer": "B",
-    "explanation": "Beta-lactams, such as penicillins and cephalosporins, inhibit cell wall synthesis, resulting in bacterial cell lysis. [learn more](GNS215_U6_T2#GNS215_U6_T2_h2)"
+    "answer": "C",
+    "explanation": "Beta-lactam drugs weaken the bacterial cell wall by binding to specific proteins, leading to cell lysis. [learn more](GNS215_U6_T2#GNS215_U6_T2_h2)"
   },
   {
     "question_id": "GNS215_U6_T2_h2_q2",
     "heading_id": "GNS215_U6_T2_h2",
     "article_id": "GNS215_U6_T2",
     "topic_id": "GNS215_U6_T2",
-    "question": "How do macrolides and tetracyclines primarily exert their antibacterial effects?",
+    "difficulty": "understanding",
+    "question": "How do fluoroquinolones exert their antibacterial effect?",
     "options": {
-      "A": "By disrupting the cell membrane permeability",
-      "B": "By blocking folic acid synthesis",
-      "C": "By inhibiting bacterial protein synthesis",
-      "D": "By preventing DNA replication via DNA gyrase"
+      "A": "By disrupting bacterial DNA replication through enzyme inhibition",
+      "B": "By acting as a competitive inhibitor in the folic acid synthesis pathway",
+      "C": "By binding directly to the 30S ribosomal subunit to stop translation",
+      "D": "By inserting themselves into the cell membrane to cause ion leakage"
     },
-    "answer": "C",
-    "explanation": "Macrolides and tetracyclines bind to bacterial ribosomal subunits to inhibit protein synthesis, preventing cell growth. [learn more](GNS215_U6_T2#GNS215_U6_T2_h2)"
+    "answer": "A",
+    "explanation": "Fluoroquinolones target DNA gyrase and topoisomerase IV, which are essential for bacterial DNA unwinding and replication. [learn more](GNS215_U6_T2#GNS215_U6_T2_h2)"
   },
   {
     "question_id": "GNS215_U6_T2_h3_q1",
     "heading_id": "GNS215_U6_T2_h3",
     "article_id": "GNS215_U6_T2",
     "topic_id": "GNS215_U6_T2",
-    "question": "Which structural class of antibacterial drugs is characterized by a distinct beta-lactam ring?",
+    "difficulty": "understanding",
+    "question": "Why are bactericidal drugs preferred over bacteriostatic drugs in severe infections affecting immunocompromised patients?",
     "options": {
-      "A": "Tetracyclines",
-      "B": "Macrolides",
-      "C": "Penicillins",
-      "D": "Aminoglycosides"
+      "A": "They actively kill the bacteria, requiring less reliance on host immune defenses",
+      "B": "They never cause allergic reactions or adverse gastrointestinal disturbances",
+      "C": "They penetrate the blood-brain barrier much faster than bacteriostatic options",
+      "D": "They can be safely combined with any other class without pharmacological antagonism"
     },
-    "answer": "C",
-    "explanation": "Penicillins, along with cephalosporins and carbapenems, belong to the beta-lactam class, which share a characteristic beta-lactam ring structure. [learn more](GNS215_U6_T2#GNS215_U6_T2_h3)"
+    "answer": "A",
+    "explanation": "Immunocompromised patients lack sufficient immune response to clear infections, making drugs that directly kill the pathogen essential. [learn more](GNS215_U6_T2#GNS215_U6_T2_h3)"
   },
   {
     "question_id": "GNS215_U6_T2_h3_q2",
     "heading_id": "GNS215_U6_T2_h3",
     "article_id": "GNS215_U6_T2",
     "topic_id": "GNS215_U6_T2",
-    "question": "Why is it important for nurses to understand the chemical structure classification of antibacterials regarding allergies?",
+    "difficulty": "recall",
+    "question": "What is the primary action of a bacteriostatic antibacterial drug?",
     "options": {
-      "A": "It dictates the exact milligram dosage for oral administration.",
-      "B": "It helps identify potential cross-reactivity and allergic sensitivities between related drugs.",
-      "C": "It determines whether the drug can be taken with food or milk.",
-      "D": "It guarantees the complete elimination of normal flora."
+      "A": "It stimulates phagocytosis by host neutrophils",
+      "B": "It destroys the peptidoglycan cell wall instantly",
+      "C": "It permanently dissolves bacterial nuclear material",
+      "D": "It inhibits bacterial growth and reproduction"
     },
-    "answer": "B",
-    "explanation": "Drugs within the same chemical class share structural similarities that can lead to allergic cross-reactivity, requiring careful nursing assessment. [learn more](GNS215_U6_T2#GNS215_U6_T2_h3)"
+    "answer": "D",
+    "explanation": "Bacteriostatic drugs halt replication, depending on the patient's immune system to eliminate the halted bacteria. [learn more](GNS215_U6_T2#GNS215_U6_T2_h3)"
   },
   {
     "question_id": "GNS215_U6_T2_h4_q1",
     "heading_id": "GNS215_U6_T2_h4",
     "article_id": "GNS215_U6_T2",
     "topic_id": "GNS215_U6_T2",
-    "question": "How do bacteriostatic antibacterial agents affect bacterial populations?",
+    "difficulty": "understanding",
+    "question": "What is a primary clinical advantage of using a narrow-spectrum antibiotic over a broad-spectrum one?",
     "options": {
-      "A": "They directly cause bacterial cell lysis and death.",
-      "B": "They inhibit bacterial growth and replication, relying on the host immune system.",
-      "C": "They permanently alter bacterial DNA transcription.",
-      "D": "They stimulate white blood cell production in the bone marrow."
+      "A": "It prevents the development of renal toxicity in elderly populations",
+      "B": "It completely eliminates the need for prior laboratory culture and sensitivity tests",
+      "C": "It preserves normal patient microflora and decreases superinfection risks",
+      "D": "It works faster against multiple polymicrobial infections simultaneously"
     },
-    "answer": "B",
-    "explanation": "Bacteriostatic drugs arrest bacterial growth and multiplication, depending on the patient's immune defenses to clear the infection. [learn more](GNS215_U6_T2#GNS215_U6_T2_h4)"
+    "answer": "C",
+    "explanation": "Narrow-spectrum drugs target specific pathogens, leaving beneficial commensal bacteria largely unharmed. [learn more](GNS215_U6_T2#GNS215_U6_T2_h4)"
   },
   {
     "question_id": "GNS215_U6_T2_h4_q2",
     "heading_id": "GNS215_U6_T2_h4",
     "article_id": "GNS215_U6_T2",
     "topic_id": "GNS215_U6_T2",
-    "question": "Why are bactericidal agents generally preferred over bacteriostatic drugs in severely immunocompromised patients?",
+    "difficulty": "recall",
+    "question": "Which condition is a frequent complication associated with broad-spectrum antibiotic therapy due to the disruption of normal flora?",
     "options": {
-      "A": "Bactericidal drugs are cheaper to manufacture.",
-      "B": "Bacteriostatic drugs cannot be administered intravenously.",
-      "C": "Immunocompromised patients lack the immune function needed to clear growth-arrested bacteria.",
-      "D": "Bactericidal drugs never cause adverse drug reactions."
+      "A": "Clostridioides difficile colitis",
+      "B": "Iron deficiency anemia",
+      "C": "Essential hypertension",
+      "D": "Type 2 diabetes mellitus"
     },
-    "answer": "C",
-    "explanation": "Because immunocompromised patients have weakened immune systems, they cannot rely on their own defenses to clear bacteria left alive by bacteriostatic agents, requiring direct killing by bactericidal drugs. [learn more](GNS215_U6_T2#GNS215_U6_T2_h4)"
+    "answer": "A",
+    "explanation": "Killing normal intestinal flora with broad-spectrum drugs allows resistant organisms like Clostridioides difficile to proliferate. [learn more](GNS215_U6_T2#GNS215_U6_T2_h4)"
   },
   {
     "question_id": "GNS215_U6_T2_h5_q1",
     "heading_id": "GNS215_U6_T2_h5",
     "article_id": "GNS215_U6_T2",
     "topic_id": "GNS215_U6_T2",
-    "question": "What is a major advantage of using narrow-spectrum antibacterial drugs over broad-spectrum drugs?",
+    "difficulty": "recall",
+    "question": "How do beta-lactamase enzymes protect bacteria from penicillin-class drugs?",
     "options": {
-      "A": "They treat all known viral and bacterial infections simultaneously.",
-      "B": "They minimize collateral damage to the patient's normal protective flora.",
-      "C": "They are always administered as a single-dose injection.",
-      "D": "They completely eliminate the need for culture and sensitivity testing."
+      "A": "By altering the outer membrane porins to block drug entry completely",
+      "B": "By chemically breaking down the antibiotic molecule before it reaches its target",
+      "C": "By thickening the peptidoglycan wall to prevent drug penetration",
+      "D": "By pumping the drug out of the cell cytoplasm via active transport channels"
     },
     "answer": "B",
-    "explanation": "Narrow-spectrum drugs target specific pathogens, which spares the body's beneficial resident flora and reduces the risk of superinfections. [learn more](GNS215_U6_T2#GNS215_U6_T2_h5)"
+    "explanation": "Beta-lactamases hydrolyze the beta-lactam ring, rendering the antibiotic inactive. [learn more](GNS215_U6_T2#GNS215_U6_T2_h5)"
   },
   {
     "question_id": "GNS215_U6_T2_h5_q2",
     "heading_id": "GNS215_U6_T2_h5",
     "article_id": "GNS215_U6_T2",
     "topic_id": "GNS215_U6_T2",
-    "question": "When are broad-spectrum antibacterial agents most appropriately utilized in clinical practice?",
+    "difficulty": "understanding",
+    "question": "What is the primary goal of antimicrobial stewardship programs in healthcare facilities?",
     "options": {
-      "A": "For the routine treatment of uncomplicated viral colds",
-      "B": "Empirically in severe infections before culture results are available",
-      "C": "Exclusively to prevent tooth discoloration in pediatric patients",
-      "D": "As a permanent substitute for patient hygiene practices"
+      "A": "To completely replace broad-spectrum drugs with herbal alternatives",
+      "B": "To optimize treatment outcomes and minimize the emergence of resistant strains",
+      "C": "To reduce hospital admission rates for patients with chronic viral infections",
+      "D": "To lower the financial cost of laboratory culture and sensitivity testing"
     },
     "answer": "B",
-    "explanation": "Broad-spectrum drugs are used empirically for severe infections when the specific causative pathogen is not yet identified, pending lab results. [learn more](GNS215_U6_T2#GNS215_U6_T2_h5)"
+    "explanation": "Stewardship ensures appropriate drug selection and duration to cure infections while preventing resistance. [learn more](GNS215_U6_T2#GNS215_U6_T2_h5)"
   },
   {
     "question_id": "GNS215_U6_T2_h6_q1",
     "heading_id": "GNS215_U6_T2_h6",
     "article_id": "GNS215_U6_T2",
     "topic_id": "GNS215_U6_T2",
-    "question": "Which of the following is a primary mechanism by which bacteria develop resistance to antibacterial drugs?",
+    "difficulty": "recall",
+    "question": "Which two major organ systems are most commonly monitored for toxicity when administering aminoglycoside antibiotics?",
     "options": {
-      "A": "Increasing human host immunity",
-      "B": "Producing enzymes like beta-lactamases to inactivate the drug",
-      "C": "Enhancing the patient's normal resident microflora",
-      "D": "Stimulating the production of red blood cells"
+      "A": "Kidneys and ears",
+      "B": "Heart and lungs",
+      "C": "Skin and liver",
+      "D": "Brain and spleen"
     },
-    "answer": "B",
-    "explanation": "Bacteria can produce specific enzymes, such as beta-lactamases, that chemically destroy or inactivate antibacterial drugs before they can work. [learn more](GNS215_U6_T2#GNS215_U6_T2_h6)"
+    "answer": "A",
+    "explanation": "Aminoglycosides carry a high risk of nephrotoxicity and ototoxicity, necessitating close monitoring. [learn more](GNS215_U6_T2#GNS215_U6_T2_h6)"
   },
   {
     "question_id": "GNS215_U6_T2_h6_q2",
     "heading_id": "GNS215_U6_T2_h6",
     "article_id": "GNS215_U6_T2",
     "topic_id": "GNS215_U6_T2",
-    "question": "What is the primary purpose of antimicrobial stewardship programs in healthcare facilities?",
+    "difficulty": "understanding",
+    "question": "A patient receiving intravenous penicillin develops sudden laryngeal edema, wheezing, and hives. What type of reaction is occurring?",
     "options": {
-      "A": "To increase overall antibiotic sales and hospital revenue",
-      "B": "To optimize antibacterial use and combat the rise of drug-resistant pathogens",
-      "C": "To ensure that patients receive broad-spectrum drugs indefinitely",
-      "D": "To eliminate the need for hand hygiene among nursing staff"
+      "A": "A normal secondary superinfection response",
+      "B": "Type IV delayed cell-mediated hypersensitivity",
+      "C": "Type I immediate IgE-mediated hypersensitivity",
+      "D": "Direct systemic organ-specific nephrotoxicity"
     },
-    "answer": "B",
-    "explanation": "Antimicrobial stewardship programs aim to optimize antibacterial prescribing, ensure appropriate dosing and duration, and slow down antimicrobial resistance. [learn more](GNS215_U6_T2#GNS215_U6_T2_h6)"
+    "answer": "C",
+    "explanation": "Anaphylaxis and acute hives following beta-lactam exposure are classic IgE-mediated allergic reactions. [learn more](GNS215_U6_T2#GNS215_U6_T2_h6)"
   },
   {
     "question_id": "GNS215_U6_T2_h7_q1",
     "heading_id": "GNS215_U6_T2_h7",
     "article_id": "GNS215_U6_T2",
     "topic_id": "GNS215_U6_T2",
-    "question": "Which specific organ toxicities are commonly associated with the administration of aminoglycosides and require careful lab monitoring?",
+    "difficulty": "understanding",
+    "question": "Why is it vital to collect laboratory culture specimens BEFORE starting the first dose of an antibacterial drug?",
     "options": {
-      "A": "Cardiotoxicity and neurotoxicity",
-      "B": "Nephrotoxicity and ototoxicity",
-      "C": "Hepatotoxicity and splenotoxicity",
-      "D": "Dermatological toxicity and osteotoxicity"
+      "A": "Cultures take several days to grow, and treatment should never be delayed for labs",
+      "B": "Baseline blood urea nitrogen levels will be altered if cultures are drawn too late",
+      "C": "The laboratory requires antibiotic residue in the sample to identify the organism",
+      "D": "Starting antibiotics beforehand can suppress the pathogen and yield false-negative cultures"
     },
-    "answer": "B",
-    "explanation": "Aminoglycosides are well known for causing damage to the kidneys (nephrotoxicity) and the inner ear (ototoxicity), necessitating close monitoring. [learn more](GNS215_U6_T2#GNS215_U6_T2_h7)"
+    "answer": "D",
+    "explanation": "Administering antibiotics first can kill or suppress the bacteria in the sample, leading to missed diagnoses. [learn more](GNS215_U6_T2#GNS215_U6_T2_h7)"
   },
   {
     "question_id": "GNS215_U6_T2_h7_q2",
     "heading_id": "GNS215_U6_T2_h7",
     "article_id": "GNS215_U6_T2",
     "topic_id": "GNS215_U6_T2",
-    "question": "What is the immediate nursing action if a patient exhibits signs of anaphylaxis during the intravenous infusion of an antibacterial drug?",
+    "difficulty": "recall",
+    "question": "What is a primary nursing instruction when educating a patient prescribed a 10-day course of oral antibiotics?",
     "options": {
-      "A": "Slow down the infusion rate and continue to monitor vital signs.",
-      "B": "Administer an oral antihistamine and wait for laboratory results.",
-      "C": "Immediately stop the infusion, maintain the airway, and notify the prescriber.",
-      "D": "Document the reaction and finish the remaining dose later in the shift."
-    },
-    "answer": "C",
-    "explanation": "Anaphylaxis is a medical emergency requiring immediate cessation of the drug, airway maintenance, prescriber notification, and emergency treatment. [learn more](GNS215_U6_T2#GNS215_U6_T2_h7)"
-  },
-  {
-    "question_id": "GNS215_U6_T2_h8_q1",
-    "heading_id": "GNS215_U6_T2_h8",
-    "article_id": "GNS215_U6_T2",
-    "topic_id": "GNS215_U6_T2",
-    "question": "Why is it important for a nurse to obtain microbiological cultures before administering the first dose of an antibacterial drug?",
-    "options": {
-      "A": "To lower the financial cost of the hospital laboratory tests",
-      "B": "To ensure accurate identification of the pathogen before antimicrobial exposure alters results",
-      "C": "To guarantee that the patient will not experience any gastrointestinal side effects",
-      "D": "To determine the exact height and weight of the patient for dosing"
+      "A": "Double the next scheduled dose if a single daily administration time is missed",
+      "B": "Complete the entire course of medication even if symptoms disappear after three days",
+      "C": "Store all unfinished tablets in the home medicine cabinet for future infections",
+      "D": "Stop taking the capsules immediately once the fever subsides to prevent liver strain"
     },
     "answer": "B",
-    "explanation": "Cultures must be drawn prior to starting antibiotics so that the true causative organism can be isolated before the drug kills or suppresses the bacteria. [learn more](GNS215_U6_T2#GNS215_U6_T2_h8)"
-  },
-  {
-    "question_id": "GNS215_U6_T2_h8_q2",
-    "heading_id": "GNS215_U6_T2_h8",
-    "article_id": "GNS215_U6_T2",
-    "topic_id": "GNS215_U6_T2",
-    "question": "What essential instruction should a nurse provide to a patient being discharged home with a 10-day course of oral antibiotics?",
-    "options": {
-      "A": "Stop taking the medication as soon as your fever subsides on day four.",
-      "B": "Double the dose if you miss a scheduled time to catch up quickly.",
-      "C": "Complete the entire 10-day course of therapy even if you feel completely better.",
-      "D": "Share remaining capsules with family members who develop similar symptoms."
-    },
-    "answer": "C",
-    "explanation": "Patients must finish the full course of prescribed antibiotics to ensure complete eradication of the infection and prevent the development of resistant bacteria. [learn more](GNS215_U6_T2#GNS215_U6_T2_h8)"
+    "explanation": "Patients must finish the full course to eradicate all bacteria and prevent resistant strain selection. [learn more](GNS215_U6_T2#GNS215_U6_T2_h7)"
   }
 ]

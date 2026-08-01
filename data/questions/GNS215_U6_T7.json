@@ -4,239 +4,255 @@
     "heading_id": "GNS215_U6_T7_h1",
     "article_id": "GNS215_U6_T7",
     "topic_id": "GNS215_U6_T7",
-    "question": "What is the primary cellular target of cytotoxic drugs in cancer treatment?",
+    "difficulty": "recall",
+    "question": "What is the primary cellular target of most cytotoxic drugs?",
     "options": {
-      "A": "Slowly dividing mature cells",
-      "B": "Rapidly dividing cells",
-      "C": "Dormant structural tissues",
-      "D": "Extracellular fluid proteins"
+      "A": "Mitochondrial lipid membranes",
+      "B": "Interstitial fluid volume",
+      "C": "Cellular DNA and replication processes",
+      "D": "Extracellular matrix proteins"
     },
-    "answer": "B",
-    "explanation": "Cytotoxic drugs are designed to target and destroy cells that are actively and rapidly dividing, which is a hallmark characteristic of cancer cells. [learn more](GNS215_U6_T7#GNS215_U6_T7_h1)"
+    "answer": "C",
+    "explanation": "Cytotoxic agents are specifically designed to disrupt rapid cellular division by targeting DNA replication pathways. [learn more](GNS215_U6_T7#GNS215_U6_T7_h1)"
   },
   {
     "question_id": "GNS215_U6_T7_h1_q2",
     "heading_id": "GNS215_U6_T7_h1",
     "article_id": "GNS215_U6_T7",
     "topic_id": "GNS215_U6_T7",
-    "question": "Why do patients receiving cytotoxic therapy commonly experience side effects in normal, healthy tissues?",
+    "difficulty": "understanding",
+    "question": "Why do cytotoxic drugs frequently cause damage to normal, healthy tissues?",
     "options": {
-      "A": "The drugs only target healthy cells and ignore cancer cells.",
-      "B": "The drugs completely lack any chemical properties.",
-      "C": "The drugs are non-selective and also affect normal rapidly dividing cells.",
-      "D": "Healthy cells multiply faster than cancerous tumors."
+      "A": "Normal cells actively absorb and accumulate excess drug molecules",
+      "B": "Antibodies mistakenly direct the drugs toward healthy organs",
+      "C": "Healthy tissues have rapid physiological cell turnover similar to cancer cells",
+      "D": "The drugs chemically alter blood pH throughout the entire circulatory system"
     },
     "answer": "C",
-    "explanation": "Because cytotoxic agents lack absolute selectivity, they also inadvertently damage normal healthy tissues that have rapid turnover rates, such as bone marrow and the GI tract. [learn more](GNS215_U6_T7#GNS215_U6_T7_h1)"
+    "explanation": "Tissues with high natural turnover rates, like bone marrow and gut lining, are affected because the drugs cannot completely distinguish between malignant and rapidly dividing healthy cells. [learn more](GNS215_U6_T7#GNS215_U6_T7_h1)"
   },
   {
     "question_id": "GNS215_U6_T7_h2_q1",
     "heading_id": "GNS215_U6_T7_h2",
     "article_id": "GNS215_U6_T7",
     "topic_id": "GNS215_U6_T7",
-    "question": "Which class of cytotoxic agents works primarily by cross-linking DNA strands to prevent replication?",
+    "difficulty": "recall",
+    "question": "Which class of cytotoxic drugs acts by adding alkyl groups to DNA strands to cause cross-linking?",
     "options": {
-      "A": "Antimetabolites",
-      "B": "Alkylating agents",
-      "C": "Plant alkaloids",
-      "D": "Antitumor antibiotics"
+      "A": "Antitumor antibiotics",
+      "B": "Plant alkaloids",
+      "C": "Antimetabolites",
+      "D": "Alkylating agents"
     },
-    "answer": "B",
-    "explanation": "Alkylating agents such as cyclophosphamide exert their cytotoxic effects by chemically altering and cross-linking DNA strands. [learn more](GNS215_U6_T7#GNS215_U6_T7_h2)"
+    "answer": "D",
+    "explanation": "Alkylating agents covalently bind alkyl groups to DNA, resulting in cross-linking that halts replication and transcription. [learn more](GNS215_U6_T7#GNS215_U6_T7_h2)"
   },
   {
     "question_id": "GNS215_U6_T7_h2_q2",
     "heading_id": "GNS215_U6_T7_h2",
     "article_id": "GNS215_U6_T7",
     "topic_id": "GNS215_U6_T7",
-    "question": "How do plant alkaloids like vincristine primarily interfere with the cell cycle?",
+    "difficulty": "understanding",
+    "question": "How do antimetabolites primarily interfere with cancer cell survival?",
     "options": {
-      "A": "By disrupting microtubule formation during mitosis",
-      "B": "By replacing essential metabolites in the S-phase",
-      "C": "By inhibiting topoisomerase enzymes directly",
-      "D": "By cross-linking RNA with proteins"
+      "A": "By stimulating the immune system to attack tumor blood vessels",
+      "B": "By substituting themselves for normal metabolites in biochemical reactions",
+      "C": "By permanently binding to circulating red blood cells",
+      "D": "By physically destroying the outer nuclear membrane of the cell"
     },
-    "answer": "A",
-    "explanation": "Plant alkaloids act as mitotic inhibitors by disrupting microtubule formation, which prevents chromosomes from separating properly during cell division. [learn more](GNS215_U6_T7#GNS215_U6_T7_h2)"
+    "answer": "B",
+    "explanation": "Antimetabolites closely resemble necessary cellular building blocks, tricking the cell into incorporating faulty components into its nucleic acids. [learn more](GNS215_U6_T7#GNS215_U6_T7_h2)"
   },
   {
     "question_id": "GNS215_U6_T7_h3_q1",
     "heading_id": "GNS215_U6_T7_h3",
     "article_id": "GNS215_U6_T7",
     "topic_id": "GNS215_U6_T7",
-    "question": "Why are cytotoxic drugs occasionally prescribed for patients with severe autoimmune disorders?",
+    "difficulty": "recall",
+    "question": "What is a major non-cancer clinical indication for using selected cytotoxic drugs like methotrexate?",
     "options": {
-      "A": "To accelerate normal cell division in joints",
-      "B": "To provide potent immunosuppressive and anti-inflammatory effects",
-      "C": "To cure bacterial infections in the blood",
-      "D": "To stimulate the bone marrow to produce more red blood cells"
+      "A": "Severe autoimmune disorders",
+      "B": "Acute bacterial pneumonia",
+      "C": "Essential hypertension",
+      "D": "Iron-deficiency anemia"
     },
-    "answer": "B",
-    "explanation": "In autoimmune diseases, cytotoxic agents are used in modulated doses to suppress a hyperactive immune system and reduce severe inflammation. [learn more](GNS215_U6_T7#GNS215_U6_T7_h3)"
+    "answer": "A",
+    "explanation": "Low-dose cytotoxic agents are frequently used to suppress overactive immune responses in conditions like rheumatoid arthritis. [learn more](GNS215_U6_T7#GNS215_U6_T7_h3)"
   },
   {
     "question_id": "GNS215_U6_T7_h3_q2",
     "heading_id": "GNS215_U6_T7_h3",
     "article_id": "GNS215_U6_T7",
     "topic_id": "GNS215_U6_T7",
-    "question": "In what non-malignant context might high-dose cytotoxic therapy be administered just before a medical procedure?",
+    "difficulty": "understanding",
+    "question": "Why are high-dose cytotoxic regimens administered prior to a bone marrow transplant?",
     "options": {
-      "A": "Prior to hematopoietic stem cell transplantation",
-      "B": "Before routine appendectomy surgery",
-      "C": "Prior to managing an acute asthma attack",
-      "D": "Before treating a simple bone fracture"
+      "A": "To prevent secondary bacterial infections in the sterile unit",
+      "B": "To eradicate diseased marrow and suppress the host immune system",
+      "C": "To permanently increase the patient's blood pressure during surgery",
+      "D": "To stimulate rapid production of platelets and red blood cells"
     },
-    "answer": "A",
-    "explanation": "High-dose cytotoxic drugs are given prior to bone marrow or stem cell transplants to destroy abnormal cells and ablate the immune system. [learn more](GNS215_U6_T7#GNS215_U6_T7_h3)"
+    "answer": "B",
+    "explanation": "Conditioning regimens destroy abnormal bone marrow and prevent the host from rejecting the incoming stem cell graft. [learn more](GNS215_U6_T7#GNS215_U6_T7_h3)"
   },
   {
     "question_id": "GNS215_U6_T7_h4_q1",
     "heading_id": "GNS215_U6_T7_h4",
     "article_id": "GNS215_U6_T7",
     "topic_id": "GNS215_U6_T7",
-    "question": "What is a major risk associated with intravenous vesicant cytotoxic drugs if proper line placement is lost?",
+    "difficulty": "recall",
+    "question": "What type of connection fitting must be used on all intravenous lines used for cytotoxic drug administration?",
     "options": {
-      "A": "Immediate systemic hypertension",
-      "B": "Severe local tissue necrosis and blistering",
-      "C": "Rapid hair growth at the injection site",
-      "D": "Complete elimination of nausea"
+      "A": "Slip-tip connections",
+      "B": "Luer-lock fittings",
+      "C": "Open-pour adapters",
+      "D": "Gravity-feed needles"
     },
     "answer": "B",
-    "explanation": "Vesicants cause severe tissue damage, ulceration, and necrosis if they leak out of the vein into the surrounding subcutaneous tissue. [learn more](GNS215_U6_T7#GNS215_U6_T7_h4)"
+    "explanation": "Luer-lock connections securely lock tubing components together, drastically reducing the risk of accidental separation and fluid leakage. [learn more](GNS215_U6_T7#GNS215_U6_T7_h4)"
   },
   {
     "question_id": "GNS215_U6_T7_h4_q2",
     "heading_id": "GNS215_U6_T7_h4",
     "article_id": "GNS215_U6_T7",
     "topic_id": "GNS215_U6_T7",
-    "question": "Which of the following is considered essential personal protective equipment (PPE) when preparing and administering cytotoxic drugs?",
+    "difficulty": "understanding",
+    "question": "Which of the following is NOT a required occupational safety measure when handling cytotoxic drugs?",
     "options": {
-      "A": "Standard sterile surgical gloves only",
-      "B": "Cloth face masks and cotton lab coats",
-      "C": "Chemotherapy-tested double gloves and an impermeable gown",
-      "D": "Latex gloves and open-toe footwear"
+      "A": "Utilizing eye and face protection if splashing is possible",
+      "B": "Wearing specialized low-permeability protective gowns",
+      "C": "Administering the drugs without gloves to maintain fine tactile sensitivity",
+      "D": "Using biological safety cabinets for drug preparation"
     },
     "answer": "C",
-    "explanation": "Safe handling protocols mandate the use of specialized chemotherapy-tested gloves (often doubled) and impermeable protective gowns to prevent skin contact and absorption. [learn more](GNS215_U6_T7#GNS215_U6_T7_h4)"
+    "explanation": "Gloves are mandatory during any handling of cytotoxic drugs to prevent direct skin absorption of hazardous chemical residues. [learn more](GNS215_U6_T7#GNS215_U6_T7_h4)"
   },
   {
     "question_id": "GNS215_U6_T7_h5_q1",
     "heading_id": "GNS215_U6_T7_h5",
     "article_id": "GNS215_U6_T7",
     "topic_id": "GNS215_U6_T7",
-    "question": "Which of the following conditions describes a decrease in blood platelets caused by bone marrow suppression from cytotoxic drugs?",
+    "difficulty": "recall",
+    "question": "What is the most common dose-limiting toxicity associated with systemic cytotoxic drug therapy?",
     "options": {
-      "A": "Neutropenia",
-      "B": "Anemia",
-      "C": "Thrombocytopenia",
-      "D": "Polycythemia"
+      "A": "Hepatic necrosis",
+      "B": "Pulmonary fibrosis",
+      "C": "Myelosuppression",
+      "D": "Cerebral edema"
     },
     "answer": "C",
-    "explanation": "Thrombocytopenia is the reduction in platelet count, which puts the patient at a heightened risk for bleeding and bruising. [learn more](GNS215_U6_T7#GNS215_U6_T7_h5)"
+    "explanation": "Suppression of bone marrow function is the most frequent and restrictive side effect encountered during chemotherapy. [learn more](GNS215_U6_T7#GNS215_U6_T7_h5)"
   },
   {
     "question_id": "GNS215_U6_T7_h5_q2",
     "heading_id": "GNS215_U6_T7_h5",
     "article_id": "GNS215_U6_T7",
     "topic_id": "GNS215_U6_T7",
-    "question": "An oncology patient receiving bleomycin therapy must be closely monitored for which type of serious organ toxicity?",
+    "difficulty": "understanding",
+    "question": "A patient receiving a specific antineoplastic regimen develops progressive hearing loss and declining renal function. Which drug class is most likely responsible?",
     "options": {
-      "A": "Cardiotoxicity",
-      "B": "Pulmonary toxicity",
-      "C": "Nephrotoxicity",
-      "D": "Hepatotoxicity"
+      "A": "Alkylating agents",
+      "B": "Antimetabolites",
+      "C": "Vinca plant alkaloids",
+      "D": "Platinum-based compounds"
     },
-    "answer": "B",
-    "explanation": "Bleomycin is well-known for causing pulmonary toxicity that can lead to severe lung damage and pulmonary fibrosis. [learn more](GNS215_U6_T7#GNS215_U6_T7_h5)"
+    "answer": "D",
+    "explanation": "Platinum agents, such as cisplatin, are well known for causing both nephrotoxicity and ototoxicity as cumulative side effects. [learn more](GNS215_U6_T7#GNS215_U6_T7_h5)"
   },
   {
     "question_id": "GNS215_U6_T7_h6_q1",
     "heading_id": "GNS215_U6_T7_h6",
     "article_id": "GNS215_U6_T7",
     "topic_id": "GNS215_U6_T7",
-    "question": "Why is calculating the patient's body surface area (BSA) essential prior to administering most cytotoxic drugs?",
+    "difficulty": "recall",
+    "question": "Which laboratory test is essential before every cycle of most cytotoxic drugs to check for bone marrow recovery?",
     "options": {
-      "A": "To determine the correct room temperature for infusion",
-      "B": "To ensure precise, individualized dosing and minimize toxicity",
-      "C": "To estimate the total duration of the cancer journey",
-      "D": "To calculate the appropriate dietary caloric intake"
+      "A": "Complete blood count",
+      "B": "Arterial blood gases",
+      "C": "Liver enzyme panel",
+      "D": "Serum lipid profile"
     },
-    "answer": "B",
-    "explanation": "Cytotoxic drug dosages are frequently calculated based on the patient's body surface area (BSA) to ensure therapeutic efficacy while preventing severe overdose toxicity. [learn more](GNS215_U6_T7#GNS215_U6_T7_h6)"
+    "answer": "A",
+    "explanation": "A complete blood count verifies that the patient's blood counts have recovered sufficiently from the previous cycle before administering a new dose. [learn more](GNS215_U6_T7#GNS215_U6_T7_h6)"
   },
   {
     "question_id": "GNS215_U6_T7_h6_q2",
     "heading_id": "GNS215_U6_T7_h6",
     "article_id": "GNS215_U6_T7",
     "topic_id": "GNS215_U6_T7",
-    "question": "Which baseline laboratory test is crucial to assess before administering a chemotherapy drug known for causing nephrotoxicity?",
+    "difficulty": "application",
+    "question": "A nurse is preparing to administer a cytotoxic agent known for cumulative cardiotoxicity. Which baseline diagnostic test is most critical to review first?",
     "options": {
-      "A": "Serum creatinine and blood urea nitrogen (BUN)",
-      "B": "Complete lipid profile",
-      "C": "Fasting blood glucose levels",
-      "D": "Thyroid-stimulating hormone (TSH)"
+      "A": "Pulmonary function spirometry",
+      "B": "Electroencephalogram tracing",
+      "C": "Echocardiogram or MUGA scan",
+      "D": "Upper gastrointestinal endoscopy"
     },
-    "answer": "A",
-    "explanation": "Renal function tests, specifically serum creatinine and BUN, are essential baseline parameters to monitor kidney function before giving nephrotoxic medications. [learn more](GNS215_U6_T7#GNS215_U6_T7_h6)"
+    "answer": "C",
+    "explanation": "Cardiac imaging assesses baseline left ventricular ejection fraction before starting agents like anthracyclines that pose heart failure risks. [learn more](GNS215_U6_T7#GNS215_U6_T7_h6)"
   },
   {
     "question_id": "GNS215_U6_T7_h7_q1",
     "heading_id": "GNS215_U6_T7_h7",
     "article_id": "GNS215_U6_T7",
     "topic_id": "GNS215_U6_T7",
-    "question": "What is a key nursing intervention when caring for a patient with severe neutropenia induced by cytotoxic drugs?",
+    "difficulty": "understanding",
+    "question": "When should antiemetic medications be scheduled in relation to emetogenic chemotherapy administration?",
     "options": {
-      "A": "Encouraging the consumption of raw salads and unwashed fruits",
-      "B": "Enforcing strict hand hygiene and neutropenic precautions",
-      "C": "Administering intramuscular injections frequently to boost immunity",
-      "D": "Placing the patient in a crowded ward to encourage socialization"
+      "A": "Only after the patient begins experiencing active vomiting",
+      "B": "Proactively before the chemotherapy infusion begins",
+      "C": "Exclusively on the second day following treatment",
+      "D": "Four hours after the completion of the infusion session"
     },
     "answer": "B",
-    "explanation": "Neutropenic precautions, rigorous hand hygiene, and infection control measures are essential to protect immunocompromised patients from life-threatening infections. [learn more](GNS215_U6_T7#GNS215_U6_T7_h7)"
+    "explanation": "Preventing nausea before it starts is far more effective than trying to suppress it once the emetic pathways have been triggered. [learn more](GNS215_U6_T7#GNS215_U6_T7_h7)"
   },
   {
     "question_id": "GNS215_U6_T7_h7_q2",
     "heading_id": "GNS215_U6_T7_h7",
     "article_id": "GNS215_U6_T7",
     "topic_id": "GNS215_U6_T7",
-    "question": "When is the most effective time to administer antiemetic medications for a patient receiving highly emetogenic chemotherapy?",
+    "difficulty": "recall",
+    "question": "What is the most critical infection-control teaching point for a patient experiencing chemotherapy-induced neutropenia?",
     "options": {
-      "A": "After the patient starts actively vomiting",
-      "B": "Prophylactically before the chemotherapy infusion begins",
-      "C": "Only at bedtime on the day following treatment",
-      "D": "When the patient reports mild loss of appetite"
+      "A": "Avoiding all physical movement to preserve white blood cells",
+      "B": "Taking daily prophylactic high-dose aspirin tablets",
+      "C": "Practicing rigorous hand hygiene and reporting any fever immediately",
+      "D": "Increasing dietary intake of fresh, unwashed garden vegetables"
     },
-    "answer": "B",
-    "explanation": "Antiemetics work best when given prophylactically before the cytotoxic infusion starts to prevent acute nausea and vomiting episodes entirely. [learn more](GNS215_U6_T7#GNS215_U6_T7_h7)"
+    "answer": "C",
+    "explanation": "Even a mild fever in a neutropenic patient represents a potential medical emergency requiring immediate evaluation and broad-spectrum antibiotics. [learn more](GNS215_U6_T7#GNS215_U6_T7_h7)"
   },
   {
     "question_id": "GNS215_U6_T7_h8_q1",
     "heading_id": "GNS215_U6_T7_h8",
     "article_id": "GNS215_U6_T7",
     "topic_id": "GNS215_U6_T7",
-    "question": "What critical temperature threshold must a patient and caregiver report immediately as a potential medical emergency during cytotoxic therapy?",
+    "difficulty": "recall",
+    "question": "For how many hours following many cytotoxic treatments do bodily excretions require special handling precautions?",
     "options": {
-      "A": "A oral temperature of 37.0°C (98.6°F)",
-      "B": "A fever of 38°C (100.4°F) or higher",
-      "C": "A slight chill without any temperature elevation",
-      "D": "A normal baseline temperature of 36.5°C"
+      "A": "48 hours",
+      "B": "12 hours",
+      "C": "6 hours",
+      "D": "7 days"
     },
-    "answer": "B",
-    "explanation": "A fever of 38°C or higher in an immunocompromised patient can indicate a severe, life-threatening infection requiring immediate medical evaluation. [learn more](GNS215_U6_T7#GNS215_U6_T7_h8)"
+    "answer": "A",
+    "explanation": "Most cytotoxic drugs and their active metabolites are cleared from the body within 48 hours, requiring temporary handling precautions for excretions. [learn more](GNS215_U6_T7#GNS215_U6_T7_h8)"
   },
   {
     "question_id": "GNS215_U6_T7_h8_q2",
     "heading_id": "GNS215_U6_T7_h8",
     "article_id": "GNS215_U6_T7",
     "topic_id": "GNS215_U6_T7",
-    "question": "Which home care instruction should be given to a family member caring for a patient who recently received cytotoxic drugs?",
+    "difficulty": "understanding",
+    "question": "What home-care instruction should be given to a caregiver handling bodily wastes of a patient recently treated with chemotherapy?",
     "options": {
-      "A": "Wash soiled linens together with regular family laundry without gloves.",
-      "B": "Wear disposable gloves and flush toilets twice with the lid closed when handling excreta.",
-      "C": "Encourage the patient to eat raw, unwashed street foods to build immunity.",
-      "D": "Stop all prescribed antiemetic medications as soon as the patient returns home."
+      "A": "Wash all contaminated clothing together with the family's regular laundry",
+      "B": "Use chemical disinfectants to scrub the bathroom floors daily",
+      "C": "Store soiled bed linens in an open container for air drying",
+      "D": "Wear disposable gloves and double-flush the toilet after use"
     },
-    "answer": "B",
-    "explanation": "Caregivers should wear disposable gloves when managing body fluids and flush toilets with the lid down to prevent accidental chemical or toxic exposure during the elimination phase. [learn more](GNS215_U6_T7#GNS215_U6_T7_h8)"
+    "answer": "D",
+    "explanation": "Gloves prevent direct skin contact with hazardous residues, and double-flushing prevents aerosolization and splash exposure. [learn more](GNS215_U6_T7#GNS215_U6_T7_h8)"
   }
 ]
