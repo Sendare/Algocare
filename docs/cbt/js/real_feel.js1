@@ -1,33 +1,13 @@
 const params = new URLSearchParams(window.location.search);
 const testNumber = params.get("test");
-const STORAGE_KEY = testNumber ? `algocare_realfeel_${testNumber}` : null;
 
 let config = { question_count: 250, seconds_per_question: 30, min_answered_to_submit: 125 };
 let questions = [];
 let current = 0;
 let answers = []; // answers[i] = "A" | "B" | ... | null (never marked correct/incorrect client-side)
-let endTime = null; // absolute timestamp (ms) - survives refresh/backgrounding, unlike a countdown int
+let timeRemaining = 0;
 let timerInterval = null;
 let finished = false;
-
-function saveState() {
-  if (!STORAGE_KEY || finished) return;
-  sessionStorage.setItem(STORAGE_KEY, JSON.stringify({ current, answers, endTime }));
-}
-
-function loadState() {
-  if (!STORAGE_KEY) return null;
-  try {
-    const raw = sessionStorage.getItem(STORAGE_KEY);
-    return raw ? JSON.parse(raw) : null;
-  } catch {
-    return null;
-  }
-}
-
-function clearState() {
-  if (STORAGE_KEY) sessionStorage.removeItem(STORAGE_KEY);
-}
 
 async function init() {
   if (!testNumber) {
@@ -55,23 +35,8 @@ async function init() {
     return;
   }
 
-  // Resume an in-progress attempt if this browser tab still has one for this test.
-  const saved = loadState();
-  if (saved && Array.isArray(saved.answers) && saved.answers.length === questions.length) {
-    current = saved.current;
-    answers = saved.answers;
-    endTime = saved.endTime;
-  } else {
-    answers = new Array(questions.length).fill(null);
-    endTime = Date.now() + questions.length * config.seconds_per_question * 1000;
-    saveState();
-  }
-
-  if (Date.now() >= endTime) {
-    finishExam();
-    return;
-  }
-
+  answers = new Array(questions.length).fill(null);
+  timeRemaining = questions.length * config.seconds_per_question;
   startTimer();
   render();
 }
@@ -79,30 +44,25 @@ async function init() {
 function startTimer() {
   updateTimerDisplay();
   timerInterval = setInterval(() => {
-    if (Date.now() >= endTime) {
+    timeRemaining--;
+    updateTimerDisplay();
+    if (timeRemaining <= 0) {
       clearInterval(timerInterval);
       finishExam();
-      return;
     }
-    updateTimerDisplay();
   }, 1000);
 }
 
-function timeRemainingSeconds() {
-  return Math.max(0, Math.round((endTime - Date.now()) / 1000));
-}
-
 function updateTimerDisplay() {
-  const remaining = timeRemainingSeconds();
-  const h = Math.floor(remaining / 3600);
-  const m = Math.floor((remaining % 3600) / 60).toString().padStart(2, "0");
-  const s = (remaining % 60).toString().padStart(2, "0");
+  const h = Math.floor(timeRemaining / 3600);
+  const m = Math.floor((timeRemaining % 3600) / 60).toString().padStart(2, "0");
+  const s = (timeRemaining % 60).toString().padStart(2, "0");
   document.getElementById("timerReadout").textContent = h > 0 ? `${h}:${m}:${s}` : `${m}:${s}`;
 
   const strip = document.getElementById("pulseStrip");
   strip.classList.remove("warning", "danger");
-  if (remaining <= 60) strip.classList.add("danger");
-  else if (remaining <= 300) strip.classList.add("warning");
+  if (timeRemaining <= 60) strip.classList.add("danger");
+  else if (timeRemaining <= 300) strip.classList.add("warning");
 }
 
 function answeredCount() {
@@ -123,8 +83,8 @@ function render() {
 
   const canSubmit = answeredCount() >= config.min_answered_to_submit;
 
-  // Question card first, nav grid below it - so the timer is visible while reading the question.
   document.getElementById("root").innerHTML = `
+    <div class="grid-nav" id="gridNav">${renderGridNav()}</div>
     <div class="test-card">
       <div class="question-number">Question ${current + 1} of ${questions.length} · ${answeredCount()} answered</div>
       <div class="question-text">${q.question}</div>
@@ -137,7 +97,6 @@ function render() {
         </button>
       </div>
     </div>
-    <div class="grid-nav" id="gridNav">${renderGridNav()}</div>
   `;
 
   attachHandlers();
@@ -156,7 +115,6 @@ function attachHandlers() {
   document.querySelectorAll(".option").forEach(btn => {
     btn.addEventListener("click", () => {
       answers[current] = btn.dataset.key;
-      saveState();
       render();
     });
   });
@@ -164,16 +122,15 @@ function attachHandlers() {
   document.querySelectorAll(".nav-tab").forEach(tab => {
     tab.addEventListener("click", () => {
       current = parseInt(tab.dataset.index, 10);
-      saveState();
       render();
     });
   });
 
   const prevBtn = document.getElementById("prevBtn");
-  if (prevBtn) prevBtn.addEventListener("click", () => { current--; saveState(); render(); });
+  if (prevBtn) prevBtn.addEventListener("click", () => { current--; render(); });
 
   const nextBtn = document.getElementById("nextBtn");
-  if (nextBtn) nextBtn.addEventListener("click", () => { current++; saveState(); render(); });
+  if (nextBtn) nextBtn.addEventListener("click", () => { current++; render(); });
 
   const submitBtn = document.getElementById("submitBtn");
   if (submitBtn) submitBtn.addEventListener("click", () => {
@@ -185,7 +142,6 @@ function finishExam() {
   if (finished) return;
   finished = true;
   clearInterval(timerInterval);
-  clearState();
 
   let correct = 0;
   questions.forEach((q, i) => {
@@ -197,9 +153,8 @@ function finishExam() {
   document.getElementById("root").innerHTML = `
     <div class="score-summary">
       <h2>Exam complete</h2>
-      <div class="big-score">${correct} out of ${total}</div>
-      <p style="color: var(--ink-soft); font-weight:600; font-size:1.1rem;">Score ${pct}%</p>
-      <p style="color: var(--ink-soft);">${answeredCount()} of ${total} questions answered</p>
+      <div class="big-score">${correct} / ${total}</div>
+      <p style="color: var(--ink-soft);">${pct}% · ${answeredCount()} of ${total} questions answered</p>
       <p style="color: var(--ink-soft); font-size: 0.85rem;">Answers and explanations are not shown for real-feel exams.</p>
       <a class="btn" href="index.html" style="text-decoration:none; display:inline-block; margin-top: 16px;">Back to practice tests</a>
     </div>

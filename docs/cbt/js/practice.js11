@@ -4,16 +4,13 @@ const topicId = params.get("topic");
 const requestedCount = parseInt(params.get("count"), 10) || null;
 const secondsPerQuestion = parseInt(params.get("spq"), 10) || 30;
 
-// Keyed on the full query string so different course/topic/count/spq combos
-// don't collide, but reloading the *same* URL resumes the *same* attempt.
-const STORAGE_KEY = `algocare_practice_${window.location.search}`;
-
 let questions = [];
 let siteIndex = [];
 let current = 0;
 let answers = []; // { selected, isCorrect, showExplanation }
-let endTime = null; // absolute timestamp (ms) - survives refresh/backgrounding, unlike a countdown int
+let timeRemaining = 0;
 let timerInterval = null;
+let timerPaused = false;
 
 function shuffle(arr) {
   const a = [...arr];
@@ -24,55 +21,26 @@ function shuffle(arr) {
   return a;
 }
 
-function saveState() {
-  sessionStorage.setItem(STORAGE_KEY, JSON.stringify({ questions, current, answers, endTime }));
-}
-
-function loadState() {
-  try {
-    const raw = sessionStorage.getItem(STORAGE_KEY);
-    return raw ? JSON.parse(raw) : null;
-  } catch {
-    return null;
-  }
-}
-
-function clearState() {
-  sessionStorage.removeItem(STORAGE_KEY);
-}
-
 async function init() {
   try {
     const siteRes = await fetch("../site_index.json");
     siteIndex = await siteRes.json();
 
-    // Resume an in-progress attempt for this exact URL if one exists in this tab.
-    const saved = loadState();
-    if (saved && Array.isArray(saved.questions) && saved.questions.length) {
-      questions = saved.questions;
-      current = saved.current;
-      answers = saved.answers;
-      endTime = saved.endTime;
+    let pool = [];
+    if (topicId) {
+      const qRes = await fetch(`../data/questions/${topicId}.json`);
+      pool = await qRes.json();
+    } else if (courseSlug) {
+      const qRes = await fetch(`../data/course_pools/${courseSlug}.json`);
+      pool = await qRes.json();
     } else {
-      let pool = [];
-      if (topicId) {
-        const qRes = await fetch(`../data/questions/${topicId}.json`);
-        pool = await qRes.json();
-      } else if (courseSlug) {
-        const qRes = await fetch(`../data/course_pools/${courseSlug}.json`);
-        pool = await qRes.json();
-      } else {
-        document.getElementById("root").innerHTML =
-          `<div class="empty-state">No course or topic specified. <a href="index.html">Go back</a>.</div>`;
-        return;
-      }
-
-      const count = requestedCount ? Math.min(requestedCount, pool.length) : pool.length;
-      questions = shuffle(pool).slice(0, count);
-      answers = new Array(questions.length).fill(null);
-      endTime = Date.now() + questions.length * secondsPerQuestion * 1000;
-      saveState();
+      document.getElementById("root").innerHTML =
+        `<div class="empty-state">No course or topic specified. <a href="index.html">Go back</a>.</div>`;
+      return;
     }
+
+    const count = requestedCount ? Math.min(requestedCount, pool.length) : pool.length;
+    questions = shuffle(pool).slice(0, count);
   } catch (err) {
     document.getElementById("root").innerHTML =
       `<div class="empty-state">Couldn't load this practice set. <a href="index.html">Go back</a>.</div>`;
@@ -85,56 +53,34 @@ async function init() {
     return;
   }
 
-  if (Date.now() >= endTime) {
-    finishTest(true);
-    return;
-  }
-
+  answers = new Array(questions.length).fill(null);
+  timeRemaining = questions.length * secondsPerQuestion;
   startTimer();
   render();
-}
-
-function isPaused() {
-  const a = answers[current];
-  return !!(a && a.showExplanation);
 }
 
 function startTimer() {
   updateTimerDisplay();
   timerInterval = setInterval(() => {
-    if (isPaused()) {
-      // Push the deadline forward each second spent reading an explanation,
-      // so open explanation time never eats into the exam clock - and this
-      // survives a refresh too, since endTime is persisted every tick.
-      endTime += 1000;
-      saveState();
-      updateTimerDisplay();
-      return;
-    }
-    if (Date.now() >= endTime) {
+    if (timerPaused) return;
+    timeRemaining--;
+    updateTimerDisplay();
+    if (timeRemaining <= 0) {
       clearInterval(timerInterval);
       finishTest(true);
-      return;
     }
-    updateTimerDisplay();
   }, 1000);
 }
 
-function timeRemainingSeconds() {
-  return Math.max(0, Math.round((endTime - Date.now()) / 1000));
-}
-
 function updateTimerDisplay() {
-  const remaining = timeRemainingSeconds();
-  const paused = isPaused();
-  const m = Math.floor(remaining / 60).toString().padStart(2, "0");
-  const s = (remaining % 60).toString().padStart(2, "0");
-  document.getElementById("timerReadout").textContent = paused ? "PAUSED" : `${m}:${s}`;
+  const m = Math.floor(timeRemaining / 60).toString().padStart(2, "0");
+  const s = (timeRemaining % 60).toString().padStart(2, "0");
+  document.getElementById("timerReadout").textContent = timerPaused ? "PAUSED" : `${m}:${s}`;
 
   const strip = document.getElementById("pulseStrip");
   strip.classList.remove("warning", "danger");
-  if (remaining <= 60) strip.classList.add("danger");
-  else if (remaining <= 180) strip.classList.add("warning");
+  if (timeRemaining <= 60) strip.classList.add("danger");
+  else if (timeRemaining <= 180) strip.classList.add("warning");
 }
 
 function render() {
@@ -142,6 +88,9 @@ function render() {
   const answer = answers[current];
   const optionKeys = Object.keys(q.options);
 
+  // Timer pauses exactly while an explanation is open - covers both reading
+  // the explanation itself and following a learn-more link from inside it.
+  timerPaused = !!(answer && answer.showExplanation);
   updateTimerDisplay();
 
   const optionsHtml = optionKeys.map(key => {
@@ -164,16 +113,15 @@ function render() {
     </div>
   ` : "";
 
-  // Question card first, nav tabs below it - so the timer is visible while reading the question.
   document.getElementById("root").innerHTML = `
     <div class="test-layout">
+      <div class="question-nav">${renderNavTabs()}</div>
       <div class="test-card">
         <div class="question-number">Question ${current + 1} of ${questions.length}</div>
         <div class="question-text">${q.question}</div>
         <div class="options-list">${optionsHtml}</div>
         ${explanationHtml}
       </div>
-      <div class="question-nav">${renderNavTabs()}</div>
     </div>
   `;
 
@@ -207,7 +155,6 @@ function attachHandlers() {
   document.querySelectorAll(".nav-tab").forEach(tab => {
     tab.addEventListener("click", () => {
       current = parseInt(tab.dataset.index, 10);
-      saveState();
       render();
     });
   });
@@ -216,7 +163,6 @@ function attachHandlers() {
   if (showExplanationBtn) {
     showExplanationBtn.addEventListener("click", () => {
       answers[current].showExplanation = true;
-      saveState();
       render();
     });
   }
@@ -226,7 +172,6 @@ function attachHandlers() {
     nextBtn.addEventListener("click", () => {
       if (current < questions.length - 1) {
         current++;
-        saveState();
         render();
       } else {
         finishTest(false);
@@ -243,22 +188,18 @@ function selectAnswer(key) {
     isCorrect: key === q.answer,
     showExplanation: false,
   };
-  saveState();
   render();
 }
 
 function finishTest(timedOut) {
   clearInterval(timerInterval);
-  clearState();
   const correctCount = answers.filter(a => a && a.isCorrect).length;
   const answeredCount = answers.filter(a => a).length;
-  const pct = Math.round((correctCount / questions.length) * 100);
 
   document.getElementById("root").innerHTML = `
     <div class="score-summary">
       <h2>${timedOut ? "Time's up" : "Practice complete"}</h2>
-      <div class="big-score">${correctCount} out of ${questions.length}</div>
-      <p style="color: var(--ink-soft); font-weight:600; font-size:1.1rem;">Score ${pct}%</p>
+      <div class="big-score">${correctCount} / ${questions.length}</div>
       <p style="color: var(--ink-soft);">${answeredCount} of ${questions.length} questions answered</p>
       <a class="btn" href="index.html" style="text-decoration:none; display:inline-block; margin-top: 16px;">Back to practice tests</a>
     </div>
