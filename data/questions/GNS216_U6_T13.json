@@ -4,239 +4,255 @@
     "heading_id": "GNS216_U6_T13_h1",
     "article_id": "GNS216_U6_T13",
     "topic_id": "GNS216_U6_T13",
-    "question": "Which specific immune cells are primarily targeted and destroyed by the Human Immunodeficiency Virus (HIV)?",
+    "difficulty": "recall",
+    "question": "What is the primary target cell type for the human immunodeficiency virus?",
     "options": {
-      "A": "CD8+ cytotoxic T-cells",
-      "B": "CD4+ T-lymphocytes",
-      "C": "B-lymphocytes",
-      "D": "Natural killer cells"
+      "A": "B-lymphocytes producing antibodies",
+      "B": "CD4-bearing T-lymphocytes",
+      "C": "Platelets involved in clotting",
+      "D": "Erythrocytes carrying oxygen"
     },
     "answer": "B",
-    "explanation": "HIV primarily targets and progressively destroys CD4+ T-lymphocytes, which are essential for coordinating the adaptive immune response. [learn more](GNS216_U6_T13#GNS216_U6_T13_h1)"
+    "explanation": "The virus primarily attacks and destroys cells expressing the CD4 receptor on their surface, notably helper T-cells. [learn more](GNS216_U6_T13#GNS216_U6_T13_h1)"
   },
   {
     "question_id": "GNS216_U6_T13_h1_q2",
     "heading_id": "GNS216_U6_T13_h1",
     "article_id": "GNS216_U6_T13",
     "topic_id": "GNS216_U6_T13",
-    "question": "At what specific CD4+ count threshold does an HIV infection typically progress to Acquired Immunodeficiency Syndrome (AIDS), assuming no other defining conditions are present?",
+    "difficulty": "understanding",
+    "question": "Why does a declining CD4+ T-cell count lead to widespread clinical vulnerability?",
     "options": {
-      "A": "Below 800 cells per microliter",
-      "B": "Below 500 cells per microliter",
-      "C": "Below 200 cells per microliter",
-      "D": "Below 1000 cells per microliter"
+      "A": "T-lymphocytes directly synthesize insulin to regulate cellular metabolism.",
+      "B": "CD4 cells produce the majority of circulating red blood cells in bone marrow.",
+      "C": "Depleted CD4 counts trigger immediate, irreversible kidney failure.",
+      "D": "Helper T-cells coordinate the overall adaptive immune response against pathogens."
     },
-    "answer": "C",
-    "explanation": "An HIV infection is classified as AIDS when the CD4+ cell count drops below 200 cells per microliter. [learn more](GNS216_U6_T13#GNS216_U6_T13_h1)"
+    "answer": "D",
+    "explanation": "Helper T-cells act as master regulators of the immune system, signaling other cells to fight off infections. [learn more](GNS216_U6_T13#GNS216_U6_T13_h1)"
   },
   {
     "question_id": "GNS216_U6_T13_h2_q1",
     "heading_id": "GNS216_U6_T13_h2",
     "article_id": "GNS216_U6_T13",
     "topic_id": "GNS216_U6_T13",
-    "question": "Which mycobacterial co-infection is particularly notorious for accelerating HIV disease progression, especially in regions like Nigeria?",
+    "difficulty": "recall",
+    "question": "Which fungal pathogen is responsible for causing Pneumocystis pneumonia in immunocompromised hosts?",
     "options": {
-      "A": "Leprosy",
-      "B": "Tuberculosis",
-      "C": "Tetanus",
-      "D": "Anthrax"
+      "A": "Pneumocystis jirovecii",
+      "B": "Aspergillus fumigatus",
+      "C": "Cryptococcus neoformans",
+      "D": "Candida albicans"
     },
-    "answer": "B",
-    "explanation": "Tuberculosis is a major co-infection that frequently accelerates HIV disease progression and complicates overall clinical management. [learn more](GNS216_U6_T13#GNS216_U6_T13_h2)"
+    "answer": "A",
+    "explanation": "Pneumocystis jirovecii is an opportunistic fungus that targets the lungs when cellular immunity is severely compromised. [learn more](GNS216_U6_T13#GNS216_U6_T13_h2)"
   },
   {
     "question_id": "GNS216_U6_T13_h2_q2",
     "heading_id": "GNS216_U6_T13_h2",
     "article_id": "GNS216_U6_T13",
     "topic_id": "GNS216_U6_T13",
-    "question": "What is the primary purpose of administering prophylactic cotrimoxazole to patients with advanced HIV?",
+    "difficulty": "application",
+    "question": "A patient with advanced HIV presents with a severe, persistent headache, fever, and neck stiffness. Which opportunistic infection is most likely responsible?",
     "options": {
-      "A": "To boost CD4+ cell production directly",
-      "B": "To prevent specific opportunistic infections",
-      "C": "To cure the underlying HIV infection",
-      "D": "To lower systemic blood pressure"
+      "A": "Cryptococcal meningitis",
+      "B": "Cutaneous Kaposi sarcoma",
+      "C": "Oral candidiasis",
+      "D": "Pneumocystis pneumonia"
     },
-    "answer": "B",
-    "explanation": "Prophylactic medications like cotrimoxazole are given to prevent vulnerable patients from developing dangerous opportunistic infections. [learn more](GNS216_U6_T13#GNS216_U6_T13_h2)"
+    "answer": "A",
+    "explanation": "Central nervous system symptoms like severe headache and meningeal signs in advanced HIV strongly point toward cryptococcal infection. [learn more](GNS216_U6_T13#GNS216_U6_T13_h2)"
   },
   {
     "question_id": "GNS216_U6_T13_h3_q1",
     "heading_id": "GNS216_U6_T13_h3",
     "article_id": "GNS216_U6_T13",
     "topic_id": "GNS216_U6_T13",
-    "question": "Which viral agent is primarily responsible for causing Kaposi's sarcoma in individuals with advanced HIV?",
+    "difficulty": "recall",
+    "question": "Which vascular tumor is frequently observed as purplish skin lesions in individuals with advanced HIV?",
     "options": {
-      "A": "Human Papillomavirus",
-      "B": "Epstein-Barr Virus",
-      "C": "Human Herpesvirus 8",
-      "D": "Cytomegalovirus"
+      "A": "Burkitt lymphoma",
+      "B": "Kaposi sarcoma",
+      "C": "Basal cell carcinoma",
+      "D": "Melanoma"
     },
-    "answer": "C",
-    "explanation": "Kaposi's sarcoma is driven by infection with human herpesvirus 8 (HHV-8) in the setting of immune suppression. [learn more](GNS216_U6_T13#GNS216_U6_T13_h3)"
+    "answer": "B",
+    "explanation": "Kaposi sarcoma is driven by human herpesvirus 8 and presents with characteristic vascular lesions on the skin or mucous membranes. [learn more](GNS216_U6_T13#GNS216_U6_T13_h3)"
   },
   {
     "question_id": "GNS216_U6_T13_h3_q2",
     "heading_id": "GNS216_U6_T13_h3",
     "article_id": "GNS216_U6_T13",
     "topic_id": "GNS216_U6_T13",
-    "question": "Why is invasive cervical cancer considered particularly significant in the context of HIV/AIDS?",
+    "difficulty": "understanding",
+    "question": "What is the primary factor linking HIV infection to an increased incidence of malignancies?",
     "options": {
-      "A": "It is classified as an AIDS-defining illness.",
-      "B": "It only occurs in men with HIV.",
-      "C": "It is completely resistant to all forms of chemotherapy.",
-      "D": "It prevents the transmission of HIV to partners."
+      "A": "Permanent suppression of the bone marrow's ability to produce platelets",
+      "B": "Direct viral integration into epithelial cells causing immediate mutations",
+      "C": "Loss of immune surveillance allowing uncontrolled abnormal cell proliferation",
+      "D": "Systemic dehydration leading to localized tissue hypoxia and necrosis"
     },
-    "answer": "A",
-    "explanation": "Invasive cervical cancer is recognized globally as an AIDS-defining illness in women living with HIV. [learn more](GNS216_U6_T13#GNS216_U6_T13_h3)"
+    "answer": "C",
+    "explanation": "A weakened immune system fails to detect and destroy malignant cells before they form tumors. [learn more](GNS216_U6_T13#GNS216_U6_T13_h3)"
   },
   {
     "question_id": "GNS216_U6_T13_h4_q1",
     "heading_id": "GNS216_U6_T13_h4",
     "article_id": "GNS216_U6_T13",
     "topic_id": "GNS216_U6_T13",
-    "question": "What is the term used to describe the spectrum of cognitive impairments directly or indirectly caused by HIV infection in the central nervous system?",
+    "difficulty": "recall",
+    "question": "What is the collective term for cognitive and neurological impairments directly linked to viral invasion of the central nervous system?",
     "options": {
-      "A": "Alzheimer's disease",
-      "B": "HIV-associated neurocognitive disorder",
-      "C": "Wernicke-Korsakoff syndrome",
-      "D": "Parkinsonian tremor"
+      "A": "Peripheral polyneuropathy syndrome",
+      "B": "Central nervous system vasculitis",
+      "C": "Acquired immune deficiency syndrome",
+      "D": "HIV-associated neurocognitive disorder"
     },
-    "answer": "B",
-    "explanation": "HIV-associated neurocognitive disorder (HAND) encompasses the range of cognitive deficits seen in patients with central nervous system involvement. [learn more](GNS216_U6_T13#GNS216_U6_T13_h4)"
+    "answer": "D",
+    "explanation": "HIV-associated neurocognitive disorder encompasses the range of cognitive, motor, and behavioral issues caused by brain involvement. [learn more](GNS216_U6_T13#GNS216_U6_T13_h4)"
   },
   {
     "question_id": "GNS216_U6_T13_h4_q2",
     "heading_id": "GNS216_U6_T13_h4",
     "article_id": "GNS216_U6_T13",
     "topic_id": "GNS216_U6_T13",
-    "question": "How does HIV typically gain entry into the central nervous system during the course of the infection?",
+    "difficulty": "understanding",
+    "question": "How does HIV typically enter the central nervous system during the course of infection?",
     "options": {
-      "A": "Through peripheral nerve endings in the skin",
-      "B": "Via infected monocytes and macrophages crossing the blood-brain barrier",
-      "C": "By direct airborne droplet inhalation into the sinuses",
-      "D": "Through retrograde flow from the gastrointestinal tract"
+      "A": "Via direct mechanical trauma during routine lumbar puncture procedures",
+      "B": "By direct inhalation of viral particles through the respiratory epithelium",
+      "C": "Carried across the blood-brain barrier inside infected monocytes and macrophages",
+      "D": "Through retrograde axonal transport along peripheral motor nerves"
     },
-    "answer": "B",
-    "explanation": "HIV enters the central nervous system early in infection by traveling within infected monocytes and macrophages that cross the blood-brain barrier. [learn more](GNS216_U6_T13#GNS216_U6_T13_h4)"
+    "answer": "C",
+    "explanation": "Trojan-horse mechanisms allow infected white blood cells to transport the virus across the blood-brain barrier into neural tissue. [learn more](GNS216_U6_T13#GNS216_U6_T13_h4)"
   },
   {
     "question_id": "GNS216_U6_T13_h5_q1",
     "heading_id": "GNS216_U6_T13_h5",
     "article_id": "GNS216_U6_T13",
     "topic_id": "GNS216_U6_T13",
-    "question": "Which of the following is a recognized long-term metabolic consequence associated with both HIV infection and certain antiretroviral drugs?",
+    "difficulty": "recall",
+    "question": "Which term describes the abnormal redistribution of body fat often seen in chronic HIV or antiretroviral therapy?",
     "options": {
-      "A": "Hypokalemia and muscle tetany",
-      "B": "Insulin resistance and dyslipidemia",
-      "C": "Hypersecretion of thyroid hormones",
-      "D": "Permanent bone marrow aplasia"
+      "A": "Anasarca",
+      "B": "Sarcopenia",
+      "C": "Lipodystrophy",
+      "D": "Cachexia"
     },
-    "answer": "B",
-    "explanation": "Insulin resistance and dyslipidemia are common metabolic complications seen in patients on long-term ART and chronic HIV infection. [learn more](GNS216_U6_T13#GNS216_U6_T13_h5)"
+    "answer": "C",
+    "explanation": "Lipodystrophy involves fat accumulation in some body areas and wasting in others, linked to both disease and medications. [learn more](GNS216_U6_T13#GNS216_U6_T13_h5)"
   },
   {
     "question_id": "GNS216_U6_T13_h5_q2",
     "heading_id": "GNS216_U6_T13_h5",
     "article_id": "GNS216_U6_T13",
     "topic_id": "GNS216_U6_T13",
-    "question": "What is the primary goal of nursing counseling regarding metabolic risks in HIV-positive patients on ART?",
+    "difficulty": "understanding",
+    "question": "Why do individuals living with long-term HIV face a higher risk of cardiovascular events like heart attacks?",
     "options": {
-      "A": "To immediately discontinue all antiretroviral medications",
-      "B": "To promote heart-healthy lifestyle modifications and monitor lab values",
-      "C": "To restrict fluid intake to prevent vascular congestion",
-      "D": "To replace ART entirely with herbal supplements"
+      "A": "Persistent systemic inflammation accelerates atherosclerotic plaque formation in arteries.",
+      "B": "Antiretroviral drugs immediately destroy the muscular walls of the heart chambers.",
+      "C": "Chronic low CD4 counts prevent adequate oxygenation of peripheral cardiac tissue.",
+      "D": "Platelet counts drop excessively, causing spontaneous internal hemorrhages."
     },
-    "answer": "B",
-    "explanation": "Nurses should encourage lifestyle modifications and monitor lab values, reinforcing that the benefits of ART outweigh metabolic risks. [learn more](GNS216_U6_T13#GNS216_U6_T13_h5)"
+    "answer": "A",
+    "explanation": "Ongoing immune activation and inflammation contribute to premature blood vessel damage and plaque buildup. [learn more](GNS216_U6_T13#GNS216_U6_T13_h5)"
   },
   {
     "question_id": "GNS216_U6_T13_h6_q1",
     "heading_id": "GNS216_U6_T13_h6",
     "article_id": "GNS216_U6_T13",
     "topic_id": "GNS216_U6_T13",
-    "question": "How can social stigma and discrimination directly impact a patient managing an HIV diagnosis?",
+    "difficulty": "understanding",
+    "question": "What is a primary clinical consequence of untreated depression in a patient managing HIV?",
     "options": {
-      "A": "It permanently cures the viral load in the bloodstream.",
-      "B": "It can lead to treatment concealment, poor adherence, and psychological distress.",
-      "C": "It enhances the effectiveness of antiretroviral medications.",
-      "D": "It eliminates the risk of opportunistic infections."
+      "A": "Complete resistance to opportunistic fungal infections",
+      "B": "An immediate rise in absolute CD4 cell counts",
+      "C": "Poor adherence to daily antiretroviral therapy schedules",
+      "D": "Spontaneous clearance of the viral load from blood"
     },
-    "answer": "B",
-    "explanation": "Stigma often causes patients to hide their status, skip treatments, and suffer from severe psychological distress like depression and anxiety. [learn more](GNS216_U6_T13#GNS216_U6_T13_h6)"
+    "answer": "C",
+    "explanation": "Depression and psychological distress often reduce a patient's motivation and capacity to maintain strict medication routines. [learn more](GNS216_U6_T13#GNS216_U6_T13_h6)"
   },
   {
     "question_id": "GNS216_U6_T13_h6_q2",
     "heading_id": "GNS216_U6_T13_h6",
     "article_id": "GNS216_U6_T13",
     "topic_id": "GNS216_U6_T13",
-    "question": "What is an important nursing intervention to help patients cope with the psychosocial challenges of HIV/AIDS?",
+    "difficulty": "recall",
+    "question": "Which factor most frequently contributes to social isolation and delayed care-seeking among newly diagnosed patients?",
     "options": {
-      "A": "Isolating the patient completely from family members",
-      "B": "Connecting the patient with peer support groups and counseling services",
-      "C": "Discouraging discussions about mental health during clinic visits",
-      "D": "Reporting the patient's status publicly to raise community awareness"
+      "A": "Mandatory quarantine imposed by public health laws",
+      "B": "Stigma and fear of societal discrimination",
+      "C": "Severe vitamin deficiencies causing visual loss",
+      "D": "Routine physical fatigue from daily exercise"
     },
     "answer": "B",
-    "explanation": "Connecting patients with peer support groups and professional counseling helps them navigate stigma, reduce depression, and improve coping skills. [learn more](GNS216_U6_T13#GNS216_U6_T13_h6)"
+    "explanation": "Social stigma surrounding the condition often deters individuals from seeking timely diagnosis and continuous support. [learn more](GNS216_U6_T13#GNS216_U6_T13_h6)"
   },
   {
     "question_id": "GNS216_U6_T13_h7_q1",
     "heading_id": "GNS216_U6_T13_h7",
     "article_id": "GNS216_U6_T13",
     "topic_id": "GNS216_U6_T13",
-    "question": "What does tracking a patient's plasma viral load primarily indicate to the healthcare team?",
+    "difficulty": "recall",
+    "question": "Which two laboratory values are essential for monitoring immune status and treatment response in HIV?",
     "options": {
-      "A": "The patient's daily caloric intake and nutritional status",
-      "B": "The effectiveness of antiretroviral therapy and treatment adherence",
-      "C": "The total number of functional red blood cells",
-      "D": "The presence of underlying congenital heart defects"
+      "A": "Liver enzymes and bilirubin",
+      "B": "CD4 count and viral load",
+      "C": "Serum creatinine and BUN",
+      "D": "Hemoglobin and platelet count"
     },
     "answer": "B",
-    "explanation": "Plasma viral load measurements reflect how well antiretroviral therapy is suppressing the virus and give insight into patient adherence. [learn more](GNS216_U6_T13#GNS216_U6_T13_h7)"
+    "explanation": "CD4 count measures immune strength, while viral load measures the amount of active virus circulating in the blood. [learn more](GNS216_U6_T13#GNS216_U6_T13_h7)"
   },
   {
     "question_id": "GNS216_U6_T13_h7_q2",
     "heading_id": "GNS216_U6_T13_h7",
     "article_id": "GNS216_U6_T13",
     "topic_id": "GNS216_U6_T13",
-    "question": "Why is monitoring CD4+ T-cell counts crucial in the ongoing nursing assessment of an HIV-positive patient?",
+    "difficulty": "application",
+    "question": "During a routine skin assessment of a patient with advanced HIV, a nurse notices several firm, purplish, non-blanching lesions. What condition should the nurse suspect?",
     "options": {
-      "A": "It measures the patient's blood clotting ability.",
-      "B": "It evaluates the status of the patient's immune recovery or decline.",
-      "C": "It diagnoses underlying kidney failure.",
-      "D": "It calculates the exact body mass index."
+      "A": "Kaposi sarcoma",
+      "B": "Disseminated candidiasis",
+      "C": "Allergic contact dermatitis",
+      "D": "Iron deficiency purpura"
     },
-    "answer": "B",
-    "explanation": "CD4+ cell counts directly reflect the health of the immune system, showing whether immune function is improving or deteriorating over time. [learn more](GNS216_U6_T13#GNS216_U6_T13_h7)"
+    "answer": "A",
+    "explanation": "Firm, purplish skin lesions are a classic clinical presentation of Kaposi sarcoma in immunocompromised patients. [learn more](GNS216_U6_T13#GNS216_U6_T13_h7)"
   },
   {
     "question_id": "GNS216_U6_T13_h8_q1",
     "heading_id": "GNS216_U6_T13_h8",
     "article_id": "GNS216_U6_T13",
     "topic_id": "GNS216_U6_T13",
-    "question": "What is the primary message a nurse should emphasize regarding antiretroviral therapy (ART) during patient education?",
+    "difficulty": "recall",
+    "question": "What is the primary goal of consistent adherence to antiretroviral therapy?",
     "options": {
-      "A": "Medications can be stopped once symptoms disappear completely.",
-      "B": "Lifelong, uninterrupted adherence is necessary to maintain viral suppression.",
-      "C": "ART should only be taken during winter months.",
-      "D": "Dosages can be altered freely based on daily mood."
+      "A": "Immediate restoration of lost body fat from lipodystrophy",
+      "B": "Permanent eradication of viral DNA from all body reservoirs",
+      "C": "Complete elimination of the need for future clinic visits",
+      "D": "Achieving and maintaining undetectable viral loads"
     },
-    "answer": "B",
-    "explanation": "Lifelong and consistent adherence to ART is essential to keep the virus suppressed, prevent resistance, and protect the immune system. [learn more](GNS216_U6_T13#GNS216_U6_T13_h8)"
+    "answer": "D",
+    "explanation": "Consistent ART suppresses viral replication to undetectable levels, protecting the immune system and preventing transmission. [learn more](GNS216_U6_T13#GNS216_U6_T13_h8)"
   },
   {
     "question_id": "GNS216_U6_T13_h8_q2",
     "heading_id": "GNS216_U6_T13_h8",
     "article_id": "GNS216_U6_T13",
     "topic_id": "GNS216_U6_T13",
-    "question": "Which of the following best describes the role of the nurse in coordinating multidisciplinary care for HIV/AIDS patients?",
+    "difficulty": "understanding",
+    "question": "Why is strict adherence to medication schedules emphasized during patient education?",
     "options": {
-      "A": "Working independently without consulting other healthcare professionals",
-      "B": "Collaborating with physicians, pharmacists, and social workers to meet patient needs",
-      "C": "Leaving all patient education exclusively to the hospital pharmacist",
-      "D": "Restricting patient access to social support services"
+      "A": "Irregular schedules reduce the risk of common metabolic side effects.",
+      "B": "Inconsistent dosing allows the virus to mutate and develop resistance to drugs.",
+      "C": "Skipping doses causes rapid regeneration of destroyed CD4 T-lymphocytes.",
+      "D": "Missing pills helps the liver metabolize the medications more efficiently."
     },
     "answer": "B",
-    "explanation": "Nurses coordinate multidisciplinary care by collaborating with various healthcare professionals to address the comprehensive medical and social needs of the patient. [learn more](GNS216_U6_T13#GNS216_U6_T13_h8)"
+    "explanation": "Sub-therapeutic drug levels give the virus an opportunity to replicate and develop mutations that render therapies ineffective. [learn more](GNS216_U6_T13#GNS216_U6_T13_h8)"
   }
 ]
