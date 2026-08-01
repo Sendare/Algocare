@@ -4,254 +4,255 @@
     "heading_id": "GNS223_U1_T5_h1",
     "article_id": "GNS223_U1_T5",
     "topic_id": "GNS223_U1_T5",
-    "question": "What is the primary mechanism of action of anticoagulants?",
+    "difficulty": "recall",
+    "question": "What is the primary pharmacological action of anticoagulant medications?",
     "options": {
-      "A": "Dissolving existing blood clots rapidly",
-      "B": "Interrupting the coagulation cascade to prevent clot formation",
-      "C": "Stimulating the production of red blood cells",
-      "D": "Constricting blood vessels to stop immediate bleeding"
+      "A": "Preventing the formation of new blood clots",
+      "B": "Dissolving existing thrombi in the blood vessels",
+      "C": "Neutralizing circulating fibrinolytic enzymes in plasma",
+      "D": "Stimulating the rapid aggregation of blood platelets"
     },
-    "answer": "B",
-    "explanation": "Anticoagulants work by interrupting the coagulation cascade to prevent the formation or growth of fibrin clots, rather than actively dissolving existing clots. [learn more](GNS223_U1_T5#GNS223_U1_T5_h1)"
+    "answer": "A",
+    "explanation": "Anticoagulants disrupt the coagulation cascade to stop new clots from forming or growing, whereas clot dissolution is handled by thrombolytic drugs. [learn more](GNS223_U1_T5#GNS223_U1_T5_h1)"
   },
   {
     "question_id": "GNS223_U1_T5_h1_q2",
     "heading_id": "GNS223_U1_T5_h1",
     "article_id": "GNS223_U1_T5",
     "topic_id": "GNS223_U1_T5",
-    "question": "How do anticoagulants affect the body's natural hemostatic balance?",
+    "difficulty": "understanding",
+    "question": "Which clotting factor is directly converted into insoluble strands during the final stages of the coagulation cascade?",
     "options": {
-      "A": "They tip the balance toward preventing clotting, increasing bleeding risk.",
-      "B": "They tip the balance toward rapid clotting, increasing thrombosis risk.",
-      "C": "They have no effect on the normal balance of hemostasis.",
-      "D": "They completely eliminate all clotting factors from the blood."
+      "A": "Antithrombin",
+      "B": "Prothrombin",
+      "C": "Fibrinogen",
+      "D": "Thromboplastin"
     },
-    "answer": "A",
-    "explanation": "Administering anticoagulants shifts the delicate hemostatic balance toward preventing clot formation, which inherently increases the patient's risk for bleeding complications. [learn more](GNS223_U1_T5#GNS223_U1_T5_h1)"
+    "answer": "C",
+    "explanation": "The coagulation cascade ultimately converts soluble fibrinogen into insoluble fibrin strands to form a stable clot matrix. [learn more](GNS223_U1_T5#GNS223_U1_T5_h1)"
   },
   {
     "question_id": "GNS223_U1_T5_h2_q1",
     "heading_id": "GNS223_U1_T5_h2",
     "article_id": "GNS223_U1_T5",
     "topic_id": "GNS223_U1_T5",
-    "question": "Which of the following represents a direct oral anticoagulant (DOAC) that inhibits factor Xa?",
+    "difficulty": "recall",
+    "question": "Which of the following drugs belongs to the class of Direct Oral Anticoagulants?",
     "options": {
-      "A": "Warfarin",
-      "B": "Unfractionated heparin",
+      "A": "Enoxaparin",
+      "B": "Warfarin",
       "C": "Rivaroxaban",
-      "D": "Enoxaparin"
+      "D": "Heparin"
     },
     "answer": "C",
-    "explanation": "Rivaroxaban is a direct oral anticoagulant that specifically acts as a direct factor Xa inhibitor. [learn more](GNS223_U1_T5#GNS223_U1_T5_h2)"
+    "explanation": "Rivaroxaban is a direct factor Xa inhibitor classified as a DOAC, while enoxaparin and heparin are parenteral, and warfarin is a VKA. [learn more](GNS223_U1_T5#GNS223_U1_T5_h2)"
   },
   {
     "question_id": "GNS223_U1_T5_h2_q2",
     "heading_id": "GNS223_U1_T5_h2",
     "article_id": "GNS223_U1_T5",
     "topic_id": "GNS223_U1_T5",
-    "question": "What is a notable characteristic of direct oral anticoagulants (DOACs)?",
+    "difficulty": "understanding",
+    "question": "What is the primary route of administration for unfractionated heparin in therapeutic clinical practice?",
     "options": {
-      "A": "They require mandatory daily blood tests to measure efficacy.",
-      "B": "They feature fixed dosing regimens and predictable pharmacokinetics.",
-      "C": "They are exclusively administered through the intravenous route.",
-      "D": "They function primarily by inhibiting vitamin K synthesis."
+      "A": "Oral tablets swallowed with water",
+      "B": "Intravenous or subcutaneous injection",
+      "C": "Intramuscular deep tissue injection",
+      "D": "Topical application over affected limbs"
     },
     "answer": "B",
-    "explanation": "DOACs are characterized by their predictable pharmacokinetics and fixed dosing regimens, eliminating the need for routine laboratory monitoring in standard cases. [learn more](GNS223_U1_T5#GNS223_U1_T5_h2)"
+    "explanation": "Heparin is not absorbed effectively through the gastrointestinal tract, necessitating parenteral routes like IV infusion or subcutaneous injection. [learn more](GNS223_U1_T5#GNS223_U1_T5_h2)"
   },
   {
     "question_id": "GNS223_U1_T5_h3_q1",
     "heading_id": "GNS223_U1_T5_h3",
     "article_id": "GNS223_U1_T5",
     "topic_id": "GNS223_U1_T5",
-    "question": "Which laboratory test is routinely used to monitor the therapeutic effectiveness of unfractionated heparin?",
+    "difficulty": "recall",
+    "question": "Which laboratory test is specifically used to monitor the therapeutic response of unfractionated heparin therapy?",
     "options": {
-      "A": "Prothrombin Time (PT)",
-      "B": "Activated Partial Thromboplastin Time (aPTT)",
-      "C": "International Normalized Ratio (INR)",
-      "D": "Complete Blood Count (CBC) without platelets"
+      "A": "Activated partial thromboplastin time",
+      "B": "Bleeding time and platelet count",
+      "C": "Prothrombin time and serum creatinine",
+      "D": "International normalized ratio"
     },
-    "answer": "B",
-    "explanation": "Unfractionated heparin requires frequent monitoring of the activated partial thromboplastin time (aPTT) due to its unpredictable pharmacokinetic profile. [learn more](GNS223_U1_T5#GNS223_U1_T5_h3)"
+    "answer": "A",
+    "explanation": "Unfractionated heparin therapy is monitored and titrated using the activated partial thromboplastin time (aPTT) to ensure patient safety. [learn more](GNS223_U1_T5#GNS223_U1_T5_h3)"
   },
   {
     "question_id": "GNS223_U1_T5_h3_q2",
     "heading_id": "GNS223_U1_T5_h3",
     "article_id": "GNS223_U1_T5",
     "topic_id": "GNS223_U1_T5",
-    "question": "What is heparin-induced thrombocytopenia (HIT)?",
+    "difficulty": "understanding",
+    "question": "Why are low-molecular-weight heparins often preferred over unfractionated heparin for outpatient therapy?",
     "options": {
-      "A": "A mild allergy causing localized skin rash at the injection site",
-      "B": "A severe immune-mediated drop in platelets accompanied by paradoxical thrombosis",
-      "C": "An overproduction of red blood cells caused by heparin toxicity",
-      "D": "A permanent cessation of blood clotting leading to continuous hemorrhage"
+      "A": "They completely dissolve established clots within hours",
+      "B": "They do not carry any risk of bleeding complications",
+      "C": "They can be taken orally as daily tablets with evening meals",
+      "D": "They have a predictable dose response that eliminates routine monitoring"
     },
-    "answer": "B",
-    "explanation": "Heparin-induced thrombocytopenia is a serious immune-mediated reaction involving a significant decrease in platelet count and a high risk of paradoxical blood clots. [learn more](GNS223_U1_T5#GNS223_U1_T5_h3)"
+    "answer": "D",
+    "explanation": "LMWHs offer high bioavailability and predictable pharmacokinetics, allowing subcutaneous administration without frequent aPTT lab draws. [learn more](GNS223_U1_T5#GNS223_U1_T5_h3)"
   },
   {
     "question_id": "GNS223_U1_T5_h4_q1",
     "heading_id": "GNS223_U1_T5_h4",
     "article_id": "GNS223_U1_T5",
     "topic_id": "GNS223_U1_T5",
-    "question": "Which laboratory parameter is used to monitor the therapeutic effectiveness of warfarin?",
+    "difficulty": "recall",
+    "question": "Which clotting factors are directly affected by the action of warfarin?",
     "options": {
-      "A": "Activated Partial Thromboplastin Time (aPTT)",
-      "B": "International Normalized Ratio (INR)",
-      "C": "Bleeding time",
-      "D": "Platelet aggregation assay"
+      "A": "Factors II, VII, IX, and X",
+      "B": "Factors I, III, V, and VIII",
+      "C": "Factors XI, XII, and XIII",
+      "D": "Factors V, VIII, and von Willebrand"
     },
-    "answer": "B",
-    "explanation": "Warfarin therapy is monitored using the International Normalized Ratio (INR), which standardizes the Prothrombin Time across laboratories. [learn more](GNS223_U1_T5#GNS223_U1_T5_h4)"
+    "answer": "A",
+    "explanation": "Warfarin inhibits vitamin K-dependent carboxylation of clotting factors II, VII, IX, and X in the liver. [learn more](GNS223_U1_T5#GNS223_U1_T5_h4)"
   },
   {
     "question_id": "GNS223_U1_T5_h4_q2",
     "heading_id": "GNS223_U1_T5_h4",
     "article_id": "GNS223_U1_T5",
     "topic_id": "GNS223_U1_T5",
-    "question": "Which clotting factors are inhibited by the action of vitamin K antagonists like warfarin?",
+    "difficulty": "understanding",
+    "question": "What is the primary reason for administering a parenteral anticoagulant alongside initial warfarin therapy?",
     "options": {
-      "A": "Factors I, V, VIII, and XIII",
-      "B": "Factors II, VII, IX, and X",
-      "C": "Factors XI, XII, and prekallikrein",
-      "D": "Platelet factor 3 and von Willebrand factor"
+      "A": "Warfarin is completely inactive unless combined with an initial dose of heparin",
+      "B": "Parenteral agents are required to reduce the gastrointestinal absorption of warfarin",
+      "C": "Initial heparin administration prevents the sudden drop in systemic blood pressure",
+      "D": "Warfarin has a delayed onset of action because existing clotting factors must first be depleted"
     },
-    "answer": "B",
-    "explanation": "Warfarin prevents the hepatic synthesis of vitamin K-dependent clotting factors, specifically factors II, VII, IX, and X. [learn more](GNS223_U1_T5#GNS223_U1_T5_h4)"
-  },
-  {
-    "question_id": "GNS223_U1_T5_h4_q3",
-    "heading_id": "GNS223_U1_T5_h4",
-    "article_id": "GNS223_U1_T5",
-    "topic_id": "GNS223_U1_T5",
-    "question": "What is the typical target INR range for a patient on warfarin for standard indications like atrial fibrillation?",
-    "options": {
-      "A": "0.5 to 1.0",
-      "B": "1.0 to 1.5",
-      "C": "2.0 to 3.0",
-      "D": "4.0 to 5.0"
-    },
-    "answer": "C",
-    "explanation": "The standard therapeutic INR range for most indications, such as atrial fibrillation or deep vein thrombosis, is maintained between 2.0 and 3.0. [learn more](GNS223_U1_T5#GNS223_U1_T5_h4)"
+    "answer": "D",
+    "explanation": "Full anticoagulation with warfarin takes several days, so rapid-acting parenteral agents are used as a bridge during initiation. [learn more](GNS223_U1_T5#GNS223_U1_T5_h4)"
   },
   {
     "question_id": "GNS223_U1_T5_h5_q1",
     "heading_id": "GNS223_U1_T5_h5",
     "article_id": "GNS223_U1_T5",
     "topic_id": "GNS223_U1_T5",
-    "question": "Which of the following is classified as a direct thrombin inhibitor among DOACs?",
+    "difficulty": "recall",
+    "question": "Which of the following is a primary clinical advantage of Direct Oral Anticoagulants over warfarin?",
     "options": {
-      "A": "Rivaroxaban",
-      "B": "Apixaban",
-      "C": "Dabigatran",
-      "D": "Edoxaban"
+      "A": "They are completely metabolized through the hepatic system",
+      "B": "They do not require routine laboratory monitoring of INR",
+      "C": "They completely lack any risk of bleeding complications",
+      "D": "They can be easily reversed using dietary vitamin K"
     },
-    "answer": "C",
-    "explanation": "Dabigatran is a direct thrombin inhibitor, whereas rivaroxaban, apixaban, and edoxaban are direct factor Xa inhibitors. [learn more](GNS223_U1_T5#GNS223_U1_T5_h5)"
+    "answer": "B",
+    "explanation": "DOACs feature predictable pharmacokinetics, eliminating the need for regular blood tests like the INR required by warfarin. [learn more](GNS223_U1_T5#GNS223_U1_T5_h5)"
   },
   {
     "question_id": "GNS223_U1_T5_h5_q2",
     "heading_id": "GNS223_U1_T5_h5",
     "article_id": "GNS223_U1_T5",
     "topic_id": "GNS223_U1_T5",
-    "question": "Why are periodic renal function tests necessary for patients taking most DOACs?",
+    "difficulty": "understanding",
+    "question": "Which organ function must be carefully evaluated before and during the administration of most DOACs?",
     "options": {
-      "A": "Because DOACs are primarily cleared through the kidneys and can accumulate if renal function declines",
-      "B": "To ensure the liver is producing enough vitamin K-dependent clotting factors",
-      "C": "Because renal cells actively synthesize the active metabolites of DOACs",
-      "D": "To monitor for the development of heparin-induced thrombocytopenia"
+      "A": "Gastric motility",
+      "B": "Pulmonary function",
+      "C": "Cardiac output",
+      "D": "Renal function"
     },
-    "answer": "A",
-    "explanation": "Most DOACs rely heavily on renal clearance, meaning decreased kidney function can cause drug accumulation and heighten the risk of bleeding. [learn more](GNS223_U1_T5#GNS223_U1_T5_h5)"
+    "answer": "D",
+    "explanation": "Because most DOACs are cleared renally, impaired kidney function can cause drug accumulation and significantly increase bleeding risks. [learn more](GNS223_U1_T5#GNS223_U1_T5_h5)"
   },
   {
     "question_id": "GNS223_U1_T5_h6_q1",
     "heading_id": "GNS223_U1_T5_h6",
     "article_id": "GNS223_U1_T5",
     "topic_id": "GNS223_U1_T5",
-    "question": "Which of the following is considered a primary contraindication for initiating anticoagulant therapy?",
+    "difficulty": "recall",
+    "question": "What is a primary baseline laboratory assessment required before initiating anticoagulant therapy?",
     "options": {
-      "A": "History of mild seasonal allergies",
-      "B": "Active major bleeding or severe uncontrolled hypertension",
-      "C": "Stable chronic hypertension controlled with medication",
-      "D": "History of uncomplicated deep vein thrombosis"
+      "A": "Thyroid stimulating hormone and lipid profile",
+      "B": "Fastin blood glucose and glycosylated hemoglobin",
+      "C": "Complete blood count and coagulation profile",
+      "D": "Liver enzyme panels and serum electrolyte levels"
     },
-    "answer": "B",
-    "explanation": "Active major bleeding and severe uncontrolled hypertension are major contraindications for anticoagulation because they drastically elevate the risk of fatal hemorrhage. [learn more](GNS223_U1_T5#GNS223_U1_T5_h6)"
+    "answer": "C",
+    "explanation": "Evaluating baseline platelet count, hemoglobin, and clotting parameters helps establish safety before starting anticoagulation. [learn more](GNS223_U1_T5#GNS223_U1_T5_h6)"
   },
   {
     "question_id": "GNS223_U1_T5_h6_q2",
     "heading_id": "GNS223_U1_T5_h6",
     "article_id": "GNS223_U1_T5",
     "topic_id": "GNS223_U1_T5",
-    "question": "What is an appropriate safety precaution for a hospitalized patient receiving anticoagulant therapy?",
+    "difficulty": "understanding",
+    "question": "Which clinical observation indicates potential internal bleeding in a patient receiving therapeutic anticoagulation?",
     "options": {
-      "A": "Using stiff-bristled toothbrushes to thoroughly clean the gums",
-      "B": "Encouraging the use of traditional straight razor blades for shaving",
-      "C": "Implementing fall prevention protocols to protect against traumatic injuries",
-      "D": "Performing frequent routine muscle injections for pain management"
+      "A": "Elevated resting heart rate and warm skin",
+      "B": "Increased urinary output and clear yellow color",
+      "C": "Dark, tarry stools and unexplained bruising",
+      "D": "Firm, non-tender abdomen with active bowel sounds"
     },
     "answer": "C",
-    "explanation": "Implementing fall precautions is vital to prevent traumatic head injuries and subsequent intracranial hemorrhage in anticoagulated patients. [learn more](GNS223_U1_T5#GNS223_U1_T5_h6)"
+    "explanation": "Melena (dark, tarry stools) suggests gastrointestinal bleeding, and unusual bruising points to abnormal bleeding tendencies. [learn more](GNS223_U1_T5#GNS223_U1_T5_h6)"
   },
   {
     "question_id": "GNS223_U1_T5_h7_q1",
     "heading_id": "GNS223_U1_T5_h7",
     "article_id": "GNS223_U1_T5",
     "topic_id": "GNS223_U1_T5",
-    "question": "Which medication serves as the specific reversal agent for unfractionated heparin overdose?",
+    "difficulty": "recall",
+    "question": "What is the specific pharmacological reversal agent used for unfractionated heparin overdose?",
     "options": {
-      "A": "Vitamin K",
+      "A": "Fresh frozen plasma",
       "B": "Protamine sulfate",
-      "C": "Idarucizumab",
-      "D": "Andexanet alfa"
+      "C": "Vitamin K phytonadione",
+      "D": "Idarucizumab injection"
     },
     "answer": "B",
-    "explanation": "Protamine sulfate binds to heparin to rapidly neutralize its anticoagulant effect and treat severe bleeding. [learn more](GNS223_U1_T5#GNS223_U1_T5_h7)"
+    "explanation": "Protamine sulfate chemically binds to heparin to neutralize its anticoagulant activity rapidly. [learn more](GNS223_U1_T5#GNS223_U1_T5_h7)"
   },
   {
     "question_id": "GNS223_U1_T5_h7_q2",
     "heading_id": "GNS223_U1_T5_h7",
     "article_id": "GNS223_U1_T5",
     "topic_id": "GNS223_U1_T5",
-    "question": "What is the specific reversal agent for the direct thrombin inhibitor dabigatran?",
+    "difficulty": "understanding",
+    "question": "How does vitamin K reverse the anticoagulant action of warfarin?",
     "options": {
-      "A": "Protamine sulfate",
-      "B": "Phytomenadione",
-      "C": "Idarucizumab",
-      "D": "Fresh frozen plasma"
+      "A": "By directly neutralizing circulating warfarin molecules in the bloodstream",
+      "B": "By accelerating the renal excretion of active metabolites from plasma",
+      "C": "By binding directly to free thrombin to promote rapid clot stabilization",
+      "D": "By bypassing the blocked enzyme to restore hepatic synthesis of clotting factors"
     },
-    "answer": "C",
-    "explanation": "Idarucizumab is a monoclonal antibody fragment specifically designed to bind to and reverse the anticoagulant effects of dabigatran. [learn more](GNS223_U1_T5#GNS223_U1_T5_h7)"
+    "answer": "D",
+    "explanation": "Vitamin K provides an alternate pathway for the liver to synthesize clotting factors despite the presence of warfarin. [learn more](GNS223_U1_T5#GNS223_U1_T5_h7)"
   },
   {
     "question_id": "GNS223_U1_T5_h8_q1",
     "heading_id": "GNS223_U1_T5_h8",
     "article_id": "GNS223_U1_T5",
     "topic_id": "GNS223_U1_T5",
-    "question": "What should a nurse teach a Nigerian patient taking warfarin regarding dietary vitamin K intake?",
+    "difficulty": "recall",
+    "question": "Which of the following local Nigerian vegetables is particularly rich in vitamin K and affects warfarin therapy?",
     "options": {
-      "A": "Completely eliminate all green leafy vegetables from the diet.",
-      "B": "Maintain a consistent daily intake of foods rich in vitamin K without drastic fluctuations.",
-      "C": "Consume massive amounts of vitamin K whenever bleeding occurs.",
-      "D": "Stop eating vegetables entirely while taking any blood thinner."
+      "A": "Yellow maize and sweet potatoes",
+      "B": "Ripe plantain and garden eggs",
+      "C": "Fluted pumpkin leaves (ugu)",
+      "D": "White yam and cassava tubers"
     },
-    "answer": "B",
-    "explanation": "Patients on warfarin should maintain a consistent and steady intake of vitamin K-rich foods rather than eliminating them, preventing sudden fluctuations in their INR levels. [learn more](GNS223_U1_T5#GNS223_U1_T5_h8)"
+    "answer": "C",
+    "explanation": "Dark green leafy vegetables like ugu contain high amounts of vitamin K, which antagonizes the therapeutic effect of warfarin. [learn more](GNS223_U1_T5#GNS223_U1_T5_h8)"
   },
   {
     "question_id": "GNS223_U1_T5_h8_q2",
     "heading_id": "GNS223_U1_T5_h8",
     "article_id": "GNS223_U1_T5",
     "topic_id": "GNS223_U1_T5",
-    "question": "Why is it important for patients on anticoagulants to avoid self-medicating with NSAIDs like ibuprofen?",
+    "difficulty": "understanding",
+    "question": "What dietary instruction should a nurse provide to a patient newly prescribed long-term warfarin therapy?",
     "options": {
-      "A": "NSAIDs neutralize the antidote effects of vitamin K.",
-      "B": "NSAIDs can cause gastrointestinal irritation and impair platelet function, increasing bleeding risk.",
-      "C": "NSAIDs immediately convert oral anticoagulants into inactive metabolites.",
-      "D": "NSAIDs cause severe allergic reactions when combined with heparin."
+      "A": "Maintain a consistent daily intake of vitamin K-rich foods without drastic fluctuations",
+      "B": "Avoid drinking clean water or local fruit juices for two hours after taking your pill",
+      "C": "Completely eliminate all green vegetables and traditional herbs from daily meals",
+      "D": "Double your vegetable intake on days when your INR laboratory results fall too low"
     },
-    "answer": "B",
-    "explanation": "NSAIDs inhibit platelet aggregation and can cause gastric mucosal damage, significantly compounding the bleeding risk when combined with anticoagulants. [learn more](GNS223_U1_T5#GNS223_U1_T5_h8)"
+    "answer": "A",
+    "explanation": "Consistency is key; sudden changes in vitamin K intake cause unpredictable shifts in INR control, whereas stable intake can be managed with steady doses. [learn more](GNS223_U1_T5#GNS223_U1_T5_h8)"
   }
 ]
