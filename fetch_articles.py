@@ -32,7 +32,8 @@ For EACH final heading, write:
 sections will be 80-350 words - a simple definition might be short, a \
 management section might be longer. Do not make every section a similar \
 length. Vary sentence length and rhythm. Avoid repetitive transitions like \
-"However," "In addition," "nurses should" "student nurses" "Furthermore," "It is important to..." appearing in \
+"However," "In addition," "Furthermore," "student nurses" "nurses" "It is important to..." appearing in \
+No fillar \
 almost every section. Do not end every section with a generic closer like \
 "nurses should provide emotional support" or "patient education is essential" \
 unless it's specifically relevant to THIS heading's content.
@@ -48,7 +49,7 @@ the same attributes.
 - Otherwise, write clear prose.
 
 Include practical clinical/exam-relevant observations where genuinely relevant \
-(a common misconception) - but \
+(a common misconception, an exam pitfall, a Nigerian clinical context) - but \
 don't force one into every heading if it doesn't fit naturally. Only mention \
 scientific uncertainty if it genuinely exists for this specific fact - do not \
 manufacture hedging language on settled topics.
@@ -63,7 +64,9 @@ roughly 65% straightforward recall, 30% basic understanding/reasoning, 5% \
 simple application (e.g. "a patient with X is most likely to..."). Avoid \
 narrow, obscure drug-specific edge-case recall (e.g. rare side effects of a \
 single named drug) for recall-tier questions - keep those approachable so \
-beginners aren't discouraged from daily practice. Questions should be exciting so any student will feel curious and happy to answer.
+beginners aren't discouraged from daily practice. \
+aavoid questions that need very deep or complex understanding 
+
 
 Vary question stems - do NOT start every question with "Which of the \
 following...". Mix in: "What is...", "The main cause of X is...", "A patient \
@@ -78,15 +81,20 @@ negation word MUST appear in full capitals in the question text itself (e.g. \
 For every question:
 - "difficulty": one of "recall", "understanding", "application"
 - "question": the question text
-- "options": an object with keys A, B, C, D - make all four options similar in \
-length and grammatical structure. Do NOT make the correct option noticeably \
-longer, more detailed, or more hedged than the distractors - that's a giveaway. \
-Vary which letter (A/B/C/D) is correct across different questions; don't \
-cluster correct answers on the same letter.
-- "answer": the correct option key
+- "options": an array of exactly 4 option strings, in any order - do NOT \
+label them A/B/C/D yourself, that is assigned programmatically afterward. \
+Make all four similar in length and grammatical structure. Do NOT make the \
+correct option noticeably longer, more detailed, or more hedged than the \
+others - that's a giveaway.
+- "answer": the correct option, copied EXACTLY (character-for-character) from \
+one of the 4 strings in "options" above - not a letter, not a paraphrase, the \
+literal matching text. This is verified programmatically, so it must match \
+one option exactly.
 - "explanation": 1-3 sentences, plain student-friendly language, explaining WHY \
-that answer is correct (not just restating it). End every explanation with \
-exactly this literal token on its own, nothing after it: [[LEARN_MORE]]
+that answer is correct (not just restating it). Do not refer to option \
+letters (A/B/C/D) anywhere in the explanation - letters don't exist yet at \
+generation time and are assigned after. End every explanation with exactly \
+this literal token on its own, nothing after it: [[LEARN_MORE]]
   Do not write an actual link yourself - the token is replaced programmatically.
 
 Return ONLY valid JSON, no markdown fences, no commentary, in exactly this \
@@ -98,8 +106,8 @@ schema:
       "title": "...",
       "content": "...",
       "questions": [
-        {"difficulty": "recall", "question": "...", "options": {"A": "...", "B": "...", "C": "...", "D": "..."}, "answer": "A", "explanation": "... [[LEARN_MORE]]"},
-        {"difficulty": "understanding", "question": "...", "options": {"A": "...", "B": "...", "C": "...", "D": "..."}, "answer": "B", "explanation": "... [[LEARN_MORE]]"}
+        {"difficulty": "recall", "question": "...", "options": ["...", "...", "...", "..."], "answer": "...", "explanation": "... [[LEARN_MORE]]"},
+        {"difficulty": "understanding", "question": "...", "options": ["...", "...", "...", "..."], "answer": "...", "explanation": "... [[LEARN_MORE]]"}
       ]
     }
   ]
@@ -134,29 +142,45 @@ def build_topic_lookup(curriculum):
     return lookup
 
 
-def shuffle_options(question):
-    """
-    Randomizes which letter (A-D) holds the correct answer. The AI is
-    instructed to vary this itself, but reliably does not (observed ~80%
-    clustering on one letter in testing) - this guarantees an even
-    distribution regardless of what the model does, tracking the correct
-    option by its original key (not its text) to avoid any risk of
-    mismatching two options that happen to have identical wording.
-    """
-    keys = ["A", "B", "C", "D"]
-    entries = [(k, question["options"][k], k == question["answer"]) for k in keys]
-    random.shuffle(entries)
+def _normalize(text):
+    """Whitespace/case-insensitive comparison, so a trivial formatting
+    difference doesn't cause a false mismatch - the displayed text still
+    uses the original, un-normalized string from the options list."""
+    return " ".join(str(text).strip().split()).lower()
 
-    new_options = {}
-    new_answer = None
-    for new_key, (_orig_key, value, is_correct) in zip(keys, entries):
-        new_options[new_key] = value
-        if is_correct:
-            new_answer = new_key
 
-    question["options"] = new_options
-    question["answer"] = new_answer
-    return question
+def finalize_options(raw_options, raw_answer):
+    """
+    Takes Gemini's unlabeled 4-option array + its stated answer TEXT, verifies
+    the answer matches exactly one option (catches the model mismapping its
+    own answer to the wrong option content), then shuffles and assigns A-D
+    itself - so letter position is never something Gemini has to get right,
+    and can never carry over an internal inconsistency undetected.
+
+    Returns (options_dict, answer_letter) on success, or None if the answer
+    text didn't match exactly one option (ambiguous or missing - the question
+    is discarded rather than silently trusting a broken mapping).
+    """
+    if not isinstance(raw_options, list) or len(raw_options) != 4:
+        return None
+
+    normalized_answer = _normalize(raw_answer)
+    matches = [opt for opt in raw_options if _normalize(opt) == normalized_answer]
+    if len(matches) != 1:
+        return None  # zero matches (hallucinated answer) or 2+ (duplicate options) - can't trust this
+
+    shuffled = raw_options[:]
+    random.shuffle(shuffled)
+
+    letters = ["A", "B", "C", "D"]
+    options_dict = {}
+    answer_letter = None
+    for letter, opt in zip(letters, shuffled):
+        options_dict[letter] = opt
+        if _normalize(opt) == normalized_answer:
+            answer_letter = letter
+
+    return options_dict, answer_letter
 
 
 def generate_article_and_questions(topic_id, headings_entry, topic_meta):
@@ -167,7 +191,7 @@ def generate_article_and_questions(topic_id, headings_entry, topic_meta):
     final order returned here - not from the original headings_entry - since
     the model is free to rename/reorder/add/remove headings.
 
-    Returns (article_dict, questions_list).
+    Returns (article_dict, questions_list, skipped_count).
     """
     proposed_headings = sorted(headings_entry["headings"], key=lambda h: h["order"])
     heading_lines = [f"{h['order']}. {h['title']}" for h in proposed_headings]
@@ -185,6 +209,7 @@ def generate_article_and_questions(topic_id, headings_entry, topic_meta):
 
     article_headings = []
     questions_list = []
+    skipped_count = 0
 
     for h in final_headings:
         order = h["order"]
@@ -200,19 +225,27 @@ def generate_article_and_questions(topic_id, headings_entry, topic_meta):
         learn_more_link = f"[learn more]({topic_id}#{heading_id})"
 
         for i, q in enumerate(h.get("questions", []), start=1):
+            finalized = finalize_options(q.get("options", []), q.get("answer", ""))
+            if finalized is None:
+                skipped_count += 1
+                print(f"   ⚠️  Skipped malformed question ({topic_id} h{order} q{i}): "
+                      f"answer text didn't match exactly one option.")
+                continue
+
+            options_dict, answer_letter = finalized
             explanation = q["explanation"].replace(LEARN_MORE_TOKEN, learn_more_link)
-            question_obj = {
+
+            questions_list.append({
                 "question_id": f"{topic_id}_h{order}_q{i}",
                 "heading_id": heading_id,
                 "article_id": topic_id,
                 "topic_id": topic_id,
                 "difficulty": q.get("difficulty", "recall"),
                 "question": q["question"],
-                "options": q["options"],
-                "answer": q["answer"],
+                "options": options_dict,
+                "answer": answer_letter,
                 "explanation": explanation,
-            }
-            questions_list.append(shuffle_options(question_obj))
+            })
 
     article_dict = {
         "article_id": topic_id,
@@ -222,7 +255,7 @@ def generate_article_and_questions(topic_id, headings_entry, topic_meta):
         "headings": article_headings,
     }
 
-    return article_dict, questions_list
+    return article_dict, questions_list, skipped_count
 
 
 def run():
@@ -249,6 +282,7 @@ def run():
         return
 
     processed_this_run = 0
+    total_skipped_questions = 0
 
     for topic_id in eligible_ids:
         elapsed = time.time() - start_time
@@ -262,12 +296,14 @@ def run():
             continue
 
         try:
-            article, questions = generate_article_and_questions(
+            article, questions, skipped = generate_article_and_questions(
                 topic_id, headings_data[topic_id], topic_meta
             )
         except Exception as e:
             print(f"⚠️  Failed on {topic_id}: {e}. Skipping for this run.")
             continue
+
+        total_skipped_questions += skipped
 
         # Save article + questions immediately - not batched. This overwrites
         # any previous version of this topic's files, which is intentional
@@ -280,10 +316,14 @@ def run():
         save_json(STATE_PATH, state)
 
         processed_this_run += 1
-        print(f"✅ [{processed_this_run}] {topic_id} - article + questions saved.")
+        print(f"✅ [{processed_this_run}] {topic_id} - article + {len(questions)} question(s) saved"
+              f"{f' ({skipped} skipped)' if skipped else ''}.")
 
     print(f"\n🏁 Run complete. Processed {processed_this_run} topic(s) this run.")
     print(f"   Total done: {len(state['articles_done'])}/{len(headings_data)}")
+    if total_skipped_questions:
+        print(f"   ⚠️  {total_skipped_questions} question(s) skipped this run "
+              f"(answer text didn't match exactly one option).")
 
 
 if __name__ == "__main__":
