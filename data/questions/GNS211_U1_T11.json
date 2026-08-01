@@ -4,209 +4,223 @@
     "heading_id": "GNS211_U1_T11_h1",
     "article_id": "GNS211_U1_T11",
     "topic_id": "GNS211_U1_T11",
-    "question": "Where are extracellular hormone receptors typically located?",
+    "difficulty": "recall",
+    "question": "What determines whether a circulating hormone will affect a specific cell?",
     "options": {
-      "A": "Inside the nucleus",
-      "B": "On the cell surface",
-      "C": "Within the mitochondria",
-      "D": "Freely floating in the cytoplasm"
+      "A": "The overall blood flow velocity to the local tissue",
+      "B": "The size of the hormone molecule relative to the cell",
+      "C": "The presence of matching receptors on or within the cell",
+      "D": "The concentration of glucose in the extracellular fluid"
     },
-    "answer": "B",
-    "explanation": "Extracellular receptors are situated on the cell surface to bind water-soluble hormones that cannot cross the lipid bilayer. [learn more](GNS211_U1_T11#GNS211_U1_T11_h1)"
+    "answer": "C",
+    "explanation": "Cells can only respond to a specific hormone if they express the correct receptor capable of binding that chemical messenger. [learn more](GNS211_U1_T11#GNS211_U1_T11_h1)"
   },
   {
     "question_id": "GNS211_U1_T11_h1_q2",
     "heading_id": "GNS211_U1_T11_h1",
     "article_id": "GNS211_U1_T11",
     "topic_id": "GNS211_U1_T11",
-    "question": "What type of hormones typically interact with intracellular receptors?",
+    "difficulty": "understanding",
+    "question": "Where are intracellular receptors typically located within a target cell?",
     "options": {
-      "A": "Protein hormones",
-      "B": "Peptide hormones",
-      "C": "Lipid-soluble steroid and thyroid hormones",
-      "D": "Water-soluble neurotransmitters"
+      "A": "Floating freely inside the extracellular matrix",
+      "B": "Within the cytoplasm or nucleus",
+      "C": "Attached to the exterior surface of the nuclear envelope",
+      "D": "Embedded directly in the outer plasma membrane"
     },
-    "answer": "C",
-    "explanation": "Lipid-soluble hormones can easily diffuse across the cell membrane to bind intracellular receptors that modulate transcription. [learn more](GNS211_U1_T11#GNS211_U1_T11_h1)"
+    "answer": "B",
+    "explanation": "Lipid-soluble hormones cross the cell membrane easily, allowing them to bind to receptors situated inside the cytoplasm or nucleus. [learn more](GNS211_U1_T11#GNS211_U1_T11_h1)"
   },
   {
     "question_id": "GNS211_U1_T11_h2_q1",
     "heading_id": "GNS211_U1_T11_h2",
     "article_id": "GNS211_U1_T11",
     "topic_id": "GNS211_U1_T11",
-    "question": "What triggers target cells to undergo upregulation of hormone receptors?",
+    "difficulty": "recall",
+    "question": "What is downregulation of hormone receptors?",
     "options": {
-      "A": "Chronically low concentrations of a specific hormone",
-      "B": "Extremely high circulating hormone levels",
-      "C": "Complete destruction of the cell membrane",
-      "D": "Immediate administration of receptor antagonists"
+      "A": "An increase in receptor production caused by a hormone deficit",
+      "B": "The immediate physical destruction of circulating hormone molecules",
+      "C": "A reduction in receptor number due to prolonged high hormone exposure",
+      "D": "The total genetic deletion of receptor genes within the nucleus"
     },
-    "answer": "A",
-    "explanation": "Upregulation occurs when cells increase their receptor numbers in response to chronically low hormone levels to enhance sensitivity. [learn more](GNS211_U1_T11#GNS211_U1_T11_h2)"
+    "answer": "C",
+    "explanation": "Cells decrease their receptor density in response to chronically elevated hormone levels to protect against excessive cellular stimulation. [learn more](GNS211_U1_T11#GNS211_U1_T11_h2)"
   },
   {
     "question_id": "GNS211_U1_T11_h2_q2",
     "heading_id": "GNS211_U1_T11_h2",
     "article_id": "GNS211_U1_T11",
     "topic_id": "GNS211_U1_T11",
-    "question": "Which of the following best describes the process of downregulation?",
+    "difficulty": "application",
+    "question": "A patient receives high-dose agonist therapy continuously for months, leading to a noticeable drop in drug efficacy. What cellular process most likely caused this change?",
     "options": {
-      "A": "An increase in receptor synthesis to boost energy",
-      "B": "A decrease in receptor number due to prolonged high hormone exposure",
-      "C": "The complete cessation of cellular division",
-      "D": "The physical relocation of receptors to the cell nucleus"
+      "A": "Receptor downregulation",
+      "B": "Receptor upregulation",
+      "C": "Enzymatic saturation",
+      "D": "Membrane stabilization"
     },
-    "answer": "B",
-    "explanation": "Downregulation is a protective mechanism where cells decrease their receptors following prolonged exposure to high hormone levels. [learn more](GNS211_U1_T11#GNS211_U1_T11_h2)"
+    "answer": "A",
+    "explanation": "Continuous exposure to high agonist levels causes target cells to internalize and degrade receptors, lowering responsiveness over time. [learn more](GNS211_U1_T11#GNS211_U1_T11_h2)"
   },
   {
     "question_id": "GNS211_U1_T11_h3_q1",
     "heading_id": "GNS211_U1_T11_h3",
     "article_id": "GNS211_U1_T11",
     "topic_id": "GNS211_U1_T11",
-    "question": "What is the result of a constitutive activation mutation in a hormone receptor?",
+    "difficulty": "understanding",
+    "question": "What characterizes a constitutively active receptor mutation?",
     "options": {
-      "A": "The receptor signals constantly without any hormone present",
-      "C": "The receptor is completely destroyed",
-      "B": "The cell undergoes immediate apoptosis",
-      "D": "Hormone production ceases entirely in the endocrine glands"
+      "A": "It signals continuously without requiring hormone binding",
+      "B": "It destroys the hormone before it reaches the cell",
+      "C": "It prevents the synthesis of any new cell proteins",
+      "D": "It blocks all intracellular signaling permanently"
     },
     "answer": "A",
-    "explanation": "Constitutive activation means the receptor continuously transmits signals even without the binding of a hormone. [learn more](GNS211_U1_T11#GNS211_U1_T11_h3)"
+    "explanation": "A constitutively active mutation locks the receptor into an 'on' shape, driving downstream cellular effects independently of the actual hormone. [learn more](GNS211_U1_T11#GNS211_U1_T11_h3)"
   },
   {
     "question_id": "GNS211_U1_T11_h3_q2",
     "heading_id": "GNS211_U1_T11_h3",
     "article_id": "GNS211_U1_T11",
     "topic_id": "GNS211_U1_T11",
-    "question": "What clinical state is typically produced by a loss-of-function mutation in a hormone receptor?",
+    "difficulty": "recall",
+    "question": "Which clinical scenario points toward a cellular receptor defect rather than a primary hormone deficiency?",
     "options": {
-      "A": "Permanent hormone resistance",
-      "B": "Instantaneous receptor upregulation",
-      "C": "Excessive metabolic overactivity",
-      "D": "Immediate cellular proliferation"
+      "A": "High blood levels of a hormone paired with signs of hormone unresponsiveness",
+      "B": "Complete absence of both the hormone and its target cell population",
+      "C": "Normal hormone levels accompanied by complete glandular atrophy",
+      "D": "Low hormone levels corrected immediately by dietary vitamin intake"
     },
     "answer": "A",
-    "explanation": "Loss-of-function mutations prevent the receptor from responding to hormones, resulting in a state of clinical hormone resistance. [learn more](GNS211_U1_T11#GNS211_U1_T11_h3)"
+    "explanation": "When hormone blood levels are high yet target tissues fail to respond, the fault typically lies with defective or missing cellular receptors. [learn more](GNS211_U1_T11#GNS211_U1_T11_h3)"
   },
   {
     "question_id": "GNS211_U1_T11_h4_q1",
     "heading_id": "GNS211_U1_T11_h4",
     "article_id": "GNS211_U1_T11",
     "topic_id": "GNS211_U1_T11",
-    "question": "What does a positive Estrogen Receptor (ER) status in a breast cancer biopsy indicate?",
+    "difficulty": "recall",
+    "question": "What does an ER-positive breast cancer classification mean?",
     "options": {
-      "A": "Tumor growth is driven by estrogen",
-      "B": "The tumor is completely immune to hormone therapy",
-      "C": "The patient has an excess of progesterone",
-      "D": "HER2 proteins are completely absent"
+      "A": "The tumor requires high levels of progesterone to survive",
+      "B": "The patient produces zero estrogen naturally in the ovaries",
+      "C": "The tumor cells express estrogen receptors that can drive growth",
+      "D": "The cancer is completely immune to any form of chemotherapy"
     },
-    "answer": "A",
-    "explanation": "An ER-positive status indicates that the tumor relies on estrogen to stimulate its growth and proliferation. [learn more](GNS211_U1_T11#GNS211_U1_T11_h4)"
+    "answer": "C",
+    "explanation": "ER-positive means the malignant cells carry estrogen receptors, making their proliferation responsive to hormonal stimulation. [learn more](GNS211_U1_T11#GNS211_U1_T11_h4)"
   },
   {
     "question_id": "GNS211_U1_T11_h4_q2",
     "heading_id": "GNS211_U1_T11_h4",
     "article_id": "GNS211_U1_T11",
     "topic_id": "GNS211_U1_T11",
-    "question": "Which biomarker represents a cell-surface receptor tyrosine kinase that promotes cell proliferation when overexpressed?",
+    "difficulty": "understanding",
+    "question": "Why are triple-negative breast cancers managed differently than ER-positive tumors?",
     "options": {
-      "A": "Progesterone receptor",
-      "B": "Estrogen receptor",
-      "C": "HER2",
-      "D": "Insulin receptor"
+      "A": "They lack estrogen, progesterone, and HER2 receptors, rendering hormone therapies useless",
+      "B": "They are exclusively caused by acute viral infections in tissue",
+      "C": "They absorb all oral medications too quickly for systemic effect",
+      "D": "They grow extremely slowly and never require surgical intervention"
     },
-    "answer": "C",
-    "explanation": "HER2 is a cell-surface receptor tyrosine kinase that drives aggressive cell proliferation when overexpressed in certain cancers. [learn more](GNS211_U1_T11#GNS211_U1_T11_h4)"
+    "answer": "A",
+    "explanation": "Because triple-negative tumors do not possess these receptors, targeted hormonal or anti-HER2 medications will fail, leaving chemotherapy as a main option. [learn more](GNS211_U1_T11#GNS211_U1_T11_h4)"
   },
   {
     "question_id": "GNS211_U1_T11_h5_q1",
     "heading_id": "GNS211_U1_T11_h5",
     "article_id": "GNS211_U1_T11",
     "topic_id": "GNS211_U1_T11",
-    "question": "How does a pharmacological agonist function at the cellular level?",
+    "difficulty": "recall",
+    "question": "What is the primary action of a receptor antagonist?",
     "options": {
-      "A": "It blocks the receptor completely without signaling",
-      "B": "It mimics the natural hormone to trigger a physiological response",
-      "C": "It destroys the target cell's nucleus",
-      "D": "It prevents the synthesis of all endogenous hormones"
+      "A": "It mimics the natural hormone to maximize cell activation",
+      "B": "It accelerates the breakdown of circulating hormone molecules",
+      "C": "It binds to the receptor and blocks natural hormones from attaching",
+      "D": "It physically destroys the target cell membrane entirely"
     },
-    "answer": "B",
-    "explanation": "Agonists bind to receptors and mimic the natural hormone, successfully activating intracellular signaling pathways. [learn more](GNS211_U1_T11#GNS211_U1_T11_h5)"
+    "answer": "C",
+    "explanation": "Antagonists occupy receptor sites without triggering activation, effectively preventing endogenous hormones from exerting their effects. [learn more](GNS211_U1_T11#GNS211_U1_T11_h5)"
   },
   {
     "question_id": "GNS211_U1_T11_h5_q2",
     "heading_id": "GNS211_U1_T11_h5",
     "article_id": "GNS211_U1_T11",
     "topic_id": "GNS211_U1_T11",
-    "question": "What is the primary action of a receptor antagonist?",
+    "difficulty": "understanding",
+    "question": "Which drug class is most appropriate when a patient has a severe hormone deficiency state?",
     "options": {
-      "A": "To bind the receptor and block endogenous hormones from activating it",
-      "B": "To permanently upregulate receptor production in all tissues",
-      "C": "To act as a direct replacement for thyroid hormones",
-      "D": "To stimulate rapid cell division in malignant tumors"
+      "A": "Enzyme inhibitor",
+      "B": "Agonist",
+      "C": "Monoclonal blocker",
+      "D": "Antagonist"
     },
-    "answer": "A",
-    "explanation": "Antagonists bind to receptors without activating them, thereby blocking natural hormones from exerting their effects. [learn more](GNS211_U1_T11#GNS211_U1_T11_h5)"
+    "answer": "B",
+    "explanation": "Agonists activate receptors to mimic the missing natural hormone, restoring normal downstream signaling in deficiency states. [learn more](GNS211_U1_T11#GNS211_U1_T11_h5)"
   },
   {
     "question_id": "GNS211_U1_T11_h6_q1",
     "heading_id": "GNS211_U1_T11_h6",
     "article_id": "GNS211_U1_T11",
     "topic_id": "GNS211_U1_T11",
-    "question": "What does endocrine resistance signify in a patient undergoing targeted therapy?",
+    "difficulty": "understanding",
+    "question": "What is the primary mechanism behind acquired endocrine resistance in tumor cells?",
     "options": {
-      "A": "The targeted therapy has permanently cured the disease",
-      "B": "Target tissues or cancer cells have adapted to bypass the drug blockade",
-      "C": "The patient's body has completely stopped producing all hormones",
-      "D": "Receptors have undergone immediate upregulation and normalization"
+      "A": "Cells alter signaling pathways or downregulate receptors to bypass the drug",
+      "B": "Healthy tissues absorb all circulating drug molecules instantly",
+      "C": "The liver metabolizes the therapeutic agent too slowly to be safe",
+      "D": "The patient stops producing antibodies against the medication"
     },
-    "answer": "B",
-    "explanation": "Endocrine resistance arises when cells adapt and find alternative ways to grow despite the presence of targeted blocking drugs. [learn more](GNS211_U1_T11#GNS211_U1_T11_h6)"
+    "answer": "A",
+    "explanation": "Tumor cells adapt to ongoing therapy by altering their receptors or activating alternative pathways, rendering the original drug ineffective. [learn more](GNS211_U1_T11#GNS211_U1_T11_h6)"
   },
   {
     "question_id": "GNS211_U1_T11_h6_q2",
     "heading_id": "GNS211_U1_T11_h6",
     "article_id": "GNS211_U1_T11",
     "topic_id": "GNS211_U1_T11",
-    "question": "Which of the following is a recognized mechanism of endocrine resistance?",
+    "difficulty": "recall",
+    "question": "Which clinical outcome indicates the development of treatment resistance in hormone-receptor-positive cancer?",
     "options": {
-      "A": "Secondary mutations in the receptor gene",
-      "B": "Increased sensitivity to standard agonist doses",
-      "C": "Permanent cessation of cellular replication",
-      "D": "Complete elimination of all cell surface proteins"
+      "A": "A sudden increase in overall cellular receptor density",
+      "B": "Immediate shrinkage of all lymph nodes within days of starting",
+      "C": "Tumor progression despite ongoing hormone-blocking therapy",
+      "D": "Complete normalization of white blood cell differential counts"
     },
-    "answer": "A",
-    "explanation": "Secondary mutations in the receptor can render blocking agents ineffective, contributing directly to drug resistance. [learn more](GNS211_U1_T11#GNS211_U1_T11_h6)"
+    "answer": "C",
+    "explanation": "Tumor growth occurring while a patient is actively receiving targeted blocking therapy is the hallmark sign of acquired resistance. [learn more](GNS211_U1_T11#GNS211_U1_T11_h6)"
   },
   {
     "question_id": "GNS211_U1_T11_h7_q1",
     "heading_id": "GNS211_U1_T11_h7",
     "article_id": "GNS211_U1_T11",
     "topic_id": "GNS211_U1_T11",
-    "question": "Why is routine bone density monitoring recommended for patients on certain sex hormone-blocking therapies?",
+    "difficulty": "understanding",
+    "question": "Why do patients receiving estrogen-blocking therapies frequently experience hot flashes and joint stiffness?",
     "options": {
-      "A": "To check for the development of bone cancer",
-      "B": "Because blocking sex hormones can increase the risk of bone density loss",
-      "C": "To measure the exact number of active cell surface receptors",
-      "D": "To replace standard blood pressure screenings"
+      "A": "The drug directly damages the structural integrity of peripheral joints",
+      "B": "The medication suppresses estrogen signaling across various normal body tissues",
+      "C": "It triggers an acute autoimmune response against bone marrow",
+      "D": "It causes an immediate, permanent spike in natural ovarian hormone synthesis"
     },
     "answer": "B",
-    "explanation": "Hormone-blocking therapies can lead to osteoporosis and bone loss, making routine density monitoring essential. [learn more](GNS211_U1_T11#GNS211_U1_T11_h7)"
+    "explanation": "Blocking estrogen receptors systemically produces symptoms resembling a sudden transition into menopause due to lack of hormonal stimulation in target tissues. [learn more](GNS211_U1_T11#GNS211_U1_T11_h7)"
   },
   {
     "question_id": "GNS211_U1_T11_h7_q2",
     "heading_id": "GNS211_U1_T11_h7",
     "article_id": "GNS211_U1_T11",
     "topic_id": "GNS211_U1_T11",
-    "question": "What is a key nursing responsibility regarding medication administration for receptor-targeted therapies?",
+    "difficulty": "application",
+    "question": "A patient on long-term oral endocrine therapy reports severe joint pain and fatigue, leading them to consider stopping the medication. What is the most appropriate nursing response?",
     "options": {
-      "A": "Prescribing alternative higher-dose regimens independently",
-      "B": "Emphasizing treatment adherence and educating patients on side effects",
-      "C": "Altering the chemical structure of antagonists before administration",
-      "D": "Stopping the medication immediately upon the first sign of a mild hot flash"
+      "A": "Instruct the patient to stop taking the drug immediately to prevent permanent joint damage",
+      "B": "Discuss side effect management strategies and coordinate with the physician before making changes",
+      "C": "Reassure the patient that these physical symptoms will resolve spontaneously within 24 hours",
+      "D": "Advise the patient to double their daily dose to build up a clinical tolerance"
     },
     "answer": "B",
-    "explanation": "Nurses play a vital role in educating patients on adherence and managing side effects safely during targeted therapy. [learn more](GNS211_U1_T11#GNS211_U1_T11_h7)"
+    "explanation": "Nurses should validate patient concerns, offer supportive management for side effects, and collaborate with the medical team rather than endorsing abrupt cessation. [learn more](GNS211_U1_T11#GNS211_U1_T11_h7)"
   }
 ]
