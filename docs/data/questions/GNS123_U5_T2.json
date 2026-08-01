@@ -4,179 +4,191 @@
     "heading_id": "GNS123_U5_T2_h1",
     "article_id": "GNS123_U5_T2",
     "topic_id": "GNS123_U5_T2",
-    "question": "What is the primary goal of the operating room environment?",
+    "difficulty": "recall",
+    "question": "What type of ventilation pressure is maintained inside an operating room to prevent outside air from entering?",
     "options": {
-      "A": "To provide a high-speed area for administrative work",
-      "B": "To provide an optimal sterile environment that minimizes infection and hazards",
-      "C": "To serve as a general recovery ward for non-surgical patients",
-      "D": "To allow unrestricted access for all hospital visitors"
+      "A": "Negative pressure ventilation",
+      "B": "Variable pressure ventilation",
+      "C": "Positive pressure ventilation",
+      "D": "Neutral pressure ventilation"
     },
-    "answer": "B",
-    "explanation": "The primary goal of the operating room is to offer a controlled, sterile space that supports surgery while minimizing risks like infections and hazards. [learn more](GNS123_U5_T2#GNS123_U5_T2_h1)"
+    "answer": "C",
+    "explanation": "Positive pressure pushes air outward when doors open, keeping airborne pathogens from entering the sterile field. [learn more](GNS123_U5_T2#GNS123_U5_T2_h1)"
   },
   {
     "question_id": "GNS123_U5_T2_h1_q2",
     "heading_id": "GNS123_U5_T2_h1",
     "article_id": "GNS123_U5_T2",
     "topic_id": "GNS123_U5_T2",
-    "question": "Which ventilation feature is typically incorporated into the OR design to inhibit microbial growth?",
+    "difficulty": "understanding",
+    "question": "Why does surgical suite design incorporate progressively restricted zones?",
     "options": {
-      "A": "Negative pressure ventilation with unfiltered outside air",
-      "B": "Positive pressure ventilation with HEPA filtration",
-      "C": "Uncontrolled natural window ventilation",
-      "D": "High-humidity static air circulation"
+      "A": "To reduce the overall electricity consumption of the facility",
+      "B": "To progressively lower the risk of microbial contamination",
+      "C": "To easily monitor the movement of equipment carts",
+      "D": "To separate surgical staff from administrative personnel"
     },
     "answer": "B",
-    "explanation": "Positive pressure ventilation combined with HEPA filtration helps prevent contaminated air from entering the sterile theatre environment. [learn more](GNS123_U5_T2#GNS123_U5_T2_h1)"
+    "explanation": "Restricting access and changing attire requirements at each zone boundary protects the patient from surgical site infections. [learn more](GNS123_U5_T2#GNS123_U5_T2_h1)"
   },
   {
     "question_id": "GNS123_U5_T2_h2_q1",
     "heading_id": "GNS123_U5_T2_h2",
     "article_id": "GNS123_U5_T2",
     "topic_id": "GNS123_U5_T2",
-    "question": "What characterizes a general operating theatre?",
+    "difficulty": "recall",
+    "question": "Which surgical procedure is most typically performed in a general operating theatre?",
     "options": {
-      "A": "It is exclusively used for neurosurgery",
-      "B": "It is a versatile, multipurpose space for standard procedures",
-      "C": "It requires specialized laminar flow for every case",
-      "D": "It lacks standard anesthesia equipment"
+      "A": "Open heart valve replacement",
+      "B": "Orthopedic spinal fusion",
+      "C": "Complex intracranial tumor resection",
+      "D": "Routine hernia repair"
     },
-    "answer": "B",
-    "explanation": "General operating theatres are multipurpose rooms equipped to handle a wide variety of standard, non-specialized surgical procedures. [learn more](GNS123_U5_T2#GNS123_U5_T2_h2)"
+    "answer": "D",
+    "explanation": "Hernia repairs are standard general surgical procedures that do not require specialized sub-specialty infrastructure. [learn more](GNS123_U5_T2#GNS123_U5_T2_h2)"
   },
   {
     "question_id": "GNS123_U5_T2_h2_q2",
     "heading_id": "GNS123_U5_T2_h2",
     "article_id": "GNS123_U5_T2",
     "topic_id": "GNS123_U5_T2",
-    "question": "Why might an orthopedic theatre incorporate laminar air flow systems?",
+    "difficulty": "understanding",
+    "question": "What is the primary design requirement for equipment inside a general operating theatre?",
     "options": {
-      "A": "To keep the room warm for the patient",
-      "B": "To drastically reduce particulate contamination during joint replacements",
-      "C": "To increase the humidity levels in the room",
-      "D": "To allow unrestricted visitor access"
+      "A": "It should remain identical for every single specialty",
+      "B": "It must be powered exclusively by backup generators",
+      "C": "It must be permanently bolted to the floor",
+      "D": "It should be mobile and easily reconfigured"
     },
-    "answer": "B",
-    "explanation": "Specialized orthopedic theatres use laminar flow to minimize airborne particles, which is vital during infection-sensitive joint replacement surgeries. [learn more](GNS123_U5_T2#GNS123_U5_T2_h2)"
+    "answer": "D",
+    "explanation": "Because general theatres serve multiple disciplines, equipment must be portable to adapt quickly between different types of operations. [learn more](GNS123_U5_T2#GNS123_U5_T2_h2)"
   },
   {
     "question_id": "GNS123_U5_T2_h3_q1",
     "heading_id": "GNS123_U5_T2_h3",
     "article_id": "GNS123_U5_T2",
     "topic_id": "GNS123_U5_T2",
-    "question": "What is a primary construction feature of a modular theatre?",
+    "difficulty": "recall",
+    "question": "Which piece of equipment is most characteristic of a cardiothoracic operating theatre?",
     "options": {
-      "A": "Traditional porous brick and mortar walls",
-      "B": "Pre-fabricated, non-porous panels that reduce dust accumulation",
-      "C": "Open-air architectural design with natural ventilation",
-      "D": "Carpeted flooring for sound absorption"
+      "A": "Heart-lung bypass machine hookups",
+      "B": "Stereotactic frame systems",
+      "C": "Delicate ophthalmic microscopes",
+      "D": "Heavy orthopedic traction equipment"
     },
-    "answer": "B",
-    "explanation": "Modular theatres use pre-fabricated, seamless, non-porous panels that minimize crevices and facilitate superior cleaning and infection control. [learn more](GNS123_U5_T2#GNS123_U5_T2_h3)"
+    "answer": "A",
+    "explanation": "Cardiothoracic surgeries frequently require cardiopulmonary bypass, necessitating specialized utility connections built into the room. [learn more](GNS123_U5_T2#GNS123_U5_T2_h3)"
   },
   {
     "question_id": "GNS123_U5_T2_h3_q2",
     "heading_id": "GNS123_U5_T2_h3",
     "article_id": "GNS123_U5_T2",
     "topic_id": "GNS123_U5_T2",
-    "question": "How do integrated wall panels and ceiling pendants benefit nursing staff in a modular theatre?",
+    "difficulty": "application",
+    "question": "A nurse is preparing a theatre for a scheduled spinal fusion procedure. Which specialized operating environment is most appropriate?",
     "options": {
-      "A": "They eliminate tangled floor cords and reduce tripping hazards",
-      "B": "They allow patients to control their own anesthesia levels",
-      "C": "They replace the need for an anesthesia machine",
-      "D": "They eliminate the requirement for surgical hand scrubs"
+      "A": "A casualty theatre designed for rapid triage procedures",
+      "B": "An orthopedic theatre with radiolucent tables and power tools",
+      "C": "A general operating theatre with standard mobile stretchers",
+      "D": "An ophthalmic theatre with microscopic fixation devices"
     },
-    "answer": "A",
-    "explanation": "Integrating medical gases, power, and lighting into pendants and panels keeps cords off the floor, improving safety and workflow for nurses. [learn more](GNS123_U5_T2#GNS123_U5_T2_h3)"
+    "answer": "B",
+    "explanation": "Spinal fusions require orthopedic instruments and imaging tables that allow fluoroscopy, fitting the orthopedic suite profile. [learn more](GNS123_U5_T2#GNS123_U5_T2_h3)"
   },
   {
     "question_id": "GNS123_U5_T2_h4_q1",
     "heading_id": "GNS123_U5_T2_h4",
     "article_id": "GNS123_U5_T2",
     "topic_id": "GNS123_U5_T2",
-    "question": "What is the primary function of a casualty theatre?",
+    "difficulty": "recall",
+    "question": "What is a primary structural advantage of modular operating theatres?",
     "options": {
-      "A": "Performing scheduled, elective cosmetic surgeries",
-      "B": "Handling immediate, life-saving minor interventions and trauma stabilization",
-      "C": "Serving as a long-term inpatient recovery ward",
-      "D": "Conducting long research-based surgical procedures"
+      "A": "They feature open-air windows for natural ventilation",
+      "B": "They require permanent masonry walls for maximum radiation shielding",
+      "C": "They use pre-fabricated antimicrobial wall panels to reduce crevices",
+      "D": "They rely on wooden framing for flexible room expansion"
     },
-    "answer": "B",
-    "explanation": "Casualty theatres are designed for immediate, urgent interventions, wound management, and trauma stabilization in emergency departments. [learn more](GNS123_U5_T2#GNS123_U5_T2_h4)"
+    "answer": "C",
+    "explanation": "Seamless panel construction minimizes microbial growth sites and facilitates thorough cleaning and disinfection. [learn more](GNS123_U5_T2#GNS123_U5_T2_h4)"
   },
   {
     "question_id": "GNS123_U5_T2_h4_q2",
     "heading_id": "GNS123_U5_T2_h4",
     "article_id": "GNS123_U5_T2",
     "topic_id": "GNS123_U5_T2",
-    "question": "Which skill is particularly crucial for nurses working in a casualty theatre environment?",
+    "difficulty": "understanding",
+    "question": "How do flush-mounted service panels benefit infection control in a modular theatre?",
     "options": {
-      "A": "Slow, unhurried scheduling of elective cases weeks in advance",
-      "B": "Rapid assessment, high-stress adaptability, and triage proficiency",
-      "C": "Avoiding contact with emergency resuscitation equipment",
-      "D": "Performing major neurosurgery without assistance"
+      "A": "By increasing the room temperature to kill airborne spores",
+      "B": "By allowing patients to control their own environmental settings",
+      "C": "By eliminating protruding joints and dust-collecting ledges",
+      "D": "By preventing electrical surges during high-risk procedures"
     },
-    "answer": "B",
-    "explanation": "The unpredictable and high-acuity nature of casualty theatres requires nurses to be agile, quick at assessing patients, and skilled in triage. [learn more](GNS123_U5_T2#GNS123_U5_T2_h4)"
+    "answer": "C",
+    "explanation": "Flush surfaces prevent dust accumulation and make routine wipe-downs far more effective. [learn more](GNS123_U5_T2#GNS123_U5_T2_h4)"
   },
   {
     "question_id": "GNS123_U5_T2_h5_q1",
     "heading_id": "GNS123_U5_T2_h5",
     "article_id": "GNS123_U5_T2",
     "topic_id": "GNS123_U5_T2",
-    "question": "Why are emergency and trauma operating suites typically located close to blood banks and emergency departments?",
+    "difficulty": "recall",
+    "question": "What is the primary surgical goal during damage control surgery in a trauma suite?",
     "options": {
-      "A": "To reduce transit time and save critical moments for unstable patients",
-      "B": "To store administrative files and nursing textbooks",
-      "C": "To allow visitors easy access to the surgical patient",
-      "D": "To decrease the need for cleaning staff"
+      "A": "Elective tumor staging and biopsy collection",
+      "B": "Hemorrhage control and contamination containment",
+      "C": "Cosmetic closure of superficial skin lacerations",
+      "D": "Definitive anatomical reconstruction of bone fractures"
     },
-    "answer": "A",
-    "explanation": "Proximity to emergency departments and blood banks minimizes transit time, which is vital for survival during critical surgical emergencies. [learn more](GNS123_U5_T2#GNS123_U5_T2_h5)"
+    "answer": "B",
+    "explanation": "Damage control prioritizes stopping bleeding and preventing infection to save a critically unstable patient before definitive repair. [learn more](GNS123_U5_T2#GNS123_U5_T2_h5)"
   },
   {
     "question_id": "GNS123_U5_T2_h5_q2",
     "heading_id": "GNS123_U5_T2_h5",
     "article_id": "GNS123_U5_T2",
     "topic_id": "GNS123_U5_T2",
-    "question": "What is meant by the 'golden hour' in the context of emergency and trauma surgery?",
+    "difficulty": "understanding",
+    "question": "Why are emergency operating suites typically located in close physical proximity to the emergency department?",
     "options": {
-      "A": "The first hour after surgery dedicated to patient feeding",
-      "B": "The critical initial period where rapid surgical intervention significantly reduces mortality",
-      "C": "The time of day when elective surgeries are most successfully scheduled",
-      "D": "The required duration for scrubbing hands before a trauma case"
+      "A": "To share sterile instrument sterilization autoclaves easily",
+      "B": "To allow nursing students quick access for observational study",
+      "C": "To minimize transit time for critically unstable patients",
+      "D": "To reduce the cost of medical gas pipeline installations"
     },
-    "answer": "B",
-    "explanation": "The 'golden hour' emphasizes that prompt surgical hemostasis and intervention within the first hour of trauma greatly decrease mortality risk. [learn more](GNS123_U5_T2#GNS123_U5_T2_h5)"
+    "answer": "C",
+    "explanation": "Short transit distances reduce the window of vulnerability for patients suffering from acute, life-threatening internal bleeding. [learn more](GNS123_U5_T2#GNS123_U5_T2_h5)"
   },
   {
     "question_id": "GNS123_U5_T2_h6_q1",
     "heading_id": "GNS123_U5_T2_h6",
     "article_id": "GNS123_U5_T2",
     "topic_id": "GNS123_U5_T2",
-    "question": "Which OR zone requires the strictest attire, including surgical masks, caps, scrub suits, and sterile barriers for direct patient care?",
+    "difficulty": "recall",
+    "question": "Which zone within the surgical suite requires personnel to wear surgical masks and eye protection?",
     "options": {
-      "A": "Unrestricted zone",
-      "B": "Semi-restricted zone",
-      "C": "Restricted zone",
-      "D": "Administrative zone"
+      "A": "Semi-Restricted Zone",
+      "B": "Administrative Zone",
+      "C": "Unrestricted Zone",
+      "D": "Restricted Zone"
     },
-    "answer": "C",
-    "explanation": "The restricted zone includes the actual operating theatres where full surgical attire, masks, and sterile techniques are strictly mandatory. [learn more](GNS123_U5_T2#GNS123_U5_T2_h6)"
+    "answer": "D",
+    "explanation": "The restricted zone includes operating theatres where active surgeries occur, requiring masks and full surgical attire. [learn more](GNS123_U5_T2#GNS123_U5_T2_h6)"
   },
   {
     "question_id": "GNS123_U5_T2_h6_q2",
     "heading_id": "GNS123_U5_T2_h6",
     "article_id": "GNS123_U5_T2",
     "topic_id": "GNS123_U5_T2",
-    "question": "What is the primary purpose of positive pressure ventilation in the operating room?",
+    "difficulty": "understanding",
+    "question": "Which of the following areas is NOT considered part of the restricted or semi-restricted surgical suite?",
     "options": {
-      "A": "To push air outward from the sterile theatre to prevent contaminated air from entering",
-      "B": "To cool down the surgical team during long operations",
-      "C": "To draw outside dust and particles directly into the operating table area",
-      "D": "To increase the humidity inside the surgical suite"
+      "A": "The corridors connecting scrub rooms to theatres",
+      "B": "The hospital cafeteria and main reception lobby",
+      "C": "The sterile core holding packaged surgical supplies",
+      "D": "The instrument processing and sterilization area"
     },
-    "answer": "A",
-    "explanation": "Positive pressure ensures air flows from clean to less clean areas when doors open, stopping external pathogens from contaminating the sterile field. [learn more](GNS123_U5_T2#GNS123_U5_T2_h6)"
+    "answer": "B",
+    "explanation": "Cafeterias and main lobbies are public, unrestricted spaces outside the controlled surgical suite perimeter. [learn more](GNS123_U5_T2#GNS123_U5_T2_h6)"
   }
 ]

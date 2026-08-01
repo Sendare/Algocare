@@ -4,209 +4,223 @@
     "heading_id": "GNS123_U5_T1_h1",
     "article_id": "GNS123_U5_T1",
     "topic_id": "GNS123_U5_T1",
-    "question": "What is the primary purpose of a unidirectional workflow in the operating room environment?",
+    "difficulty": "recall",
+    "question": "What is a primary characteristic of operating room walls and floors?",
     "options": {
-      "A": "To speed up the movement of surgical instruments",
-      "B": "To prevent cross-contamination between clean and contaminated areas",
-      "C": "To ensure patients spend less time in the surgical suite",
-      "D": "To reduce the electricity consumption of the surgical lights"
+      "A": "Covered with textured fabric to absorb sound",
+      "B": "Built using treated wooden panels for flexibility",
+      "C": "Painted with high-gloss organic plant-based finishes",
+      "D": "Constructed from non-porous and seamless materials"
     },
-    "answer": "B",
-    "explanation": "A unidirectional workflow organizes the movement of staff, patients, and supplies to prevent cross-contamination and maintain safety. [learn more](GNS123_U5_T1#GNS123_U5_T1_h1)"
+    "answer": "D",
+    "explanation": "Non-porous and seamless surfaces prevent dust accumulation and withstand repeated chemical disinfection, which is vital for infection control. [learn more](GNS123_U5_T1#GNS123_U5_T1_h1)"
   },
   {
     "question_id": "GNS123_U5_T1_h1_q2",
     "heading_id": "GNS123_U5_T1_h1",
     "article_id": "GNS123_U5_T1",
     "topic_id": "GNS123_U5_T1",
-    "question": "Why are operating room walls, floors, and ceilings designed with non-porous surfaces?",
+    "difficulty": "understanding",
+    "question": "Why is the surgical suite typically located in a low-traffic area of the hospital?",
     "options": {
-      "A": "To withstand frequent and rigorous disinfection",
-      "B": "To improve the acoustic quality for music playing",
-      "C": "To reflect maximum light into the surgical wound",
-      "D": "To lower the cost of initial facility construction"
+      "A": "To allow natural sunlight to illuminate the sterile instrument tables",
+      "B": "To reduce ambient noise and lower the risk of airborne contamination",
+      "C": "To keep surgical supplies closer to the central hospital pharmacy",
+      "D": "To make it easier for visiting family members to access the recovery area"
     },
-    "answer": "A",
-    "explanation": "Non-porous surfaces are used because they do not absorb moisture and can withstand rigorous cleaning and disinfection. [learn more](GNS123_U5_T1#GNS123_U5_T1_h1)"
+    "answer": "B",
+    "explanation": "Isolating the OR suite away from general hospital traffic restricts the movement of dust and microbes into the sterile core. [learn more](GNS123_U5_T1#GNS123_U5_T1_h1)"
   },
   {
     "question_id": "GNS123_U5_T1_h2_q1",
     "heading_id": "GNS123_U5_T1_h2",
     "article_id": "GNS123_U5_T1",
     "topic_id": "GNS123_U5_T1",
-    "question": "Which operating theatre zone permits the wearing of ordinary street clothes?",
+    "difficulty": "recall",
+    "question": "In which zone of the operating theatre are staff permitted to wear ordinary street clothes?",
     "options": {
-      "A": "Restricted area",
-      "B": "Semi-restricted area",
-      "C": "Unrestricted area",
-      "D": "Scrub sink alcove"
+      "A": "Unrestricted zone",
+      "B": "Sterile core zone",
+      "C": "Restricted zone",
+      "D": "Semi-restricted zone"
     },
-    "answer": "C",
-    "explanation": "The unrestricted area acts as a transition zone where street clothes are permitted before entering the scrub and changing areas. [learn more](GNS123_U5_T1#GNS123_U5_T1_h2)"
+    "answer": "A",
+    "explanation": "The unrestricted zone acts as the outer gateway where street clothes are allowed before personnel transition into scrub attire. [learn more](GNS123_U5_T1#GNS123_U5_T1_h2)"
   },
   {
     "question_id": "GNS123_U5_T1_h2_q2",
     "heading_id": "GNS123_U5_T1_h2",
     "article_id": "GNS123_U5_T1",
     "topic_id": "GNS123_U5_T1",
-    "question": "What attire is mandatory when entering the semi-restricted area of the surgical suite?",
+    "difficulty": "understanding",
+    "question": "Which of the following activities or areas belongs in the semi-restricted zone?",
     "options": {
-      "A": "Complete sterile surgical gown and gloves",
-      "B": "Surgical scrubs, dedicated footwear, and hair covers",
-      "C": "Ordinary street clothes with a lab coat",
-      "D": "Heavy lead aprons and sterile shoe covers"
+      "A": "Direct scrubbing at sinks right before entering the theatre",
+      "B": "Patient reception and administrative paperwork desks",
+      "C": "Instrument processing and storage corridors",
+      "D": "Active surgical procedures involving open wounds"
     },
-    "answer": "B",
-    "explanation": "Personnel in the semi-restricted area must wear surgical scrubs, dedicated footwear, and hair covers to minimize contaminants. [learn more](GNS123_U5_T1#GNS123_U5_T1_h2)"
+    "answer": "C",
+    "explanation": "Service corridors, equipment storage, and instrument processing areas require scrub attire but not full sterile masking, placing them in the semi-restricted zone. [learn more](GNS123_U5_T1#GNS123_U5_T1_h2)"
   },
   {
     "question_id": "GNS123_U5_T1_h3_q1",
     "heading_id": "GNS123_U5_T1_h3",
     "article_id": "GNS123_U5_T1",
     "topic_id": "GNS123_U5_T1",
-    "question": "What type of air pressure is maintained inside the operating room relative to the surrounding corridors?",
+    "difficulty": "recall",
+    "question": "What type of air pressure is maintained inside the operating room relative to the outside corridors?",
     "options": {
-      "A": "Negative pressure",
-      "B": "Positive pressure",
-      "C": "Neutral atmospheric pressure",
-      "D": "Fluctuating variable pressure"
+      "A": "Fluctuating pressure",
+      "B": "Neutral pressure",
+      "C": "Negative pressure",
+      "D": "Positive pressure"
     },
-    "answer": "B",
-    "explanation": "Positive pressure ensures air flows outward from the OR into corridors, preventing contaminated air from entering the sterile space. [learn more](GNS123_U5_T1#GNS123_U5_T1_h3)"
+    "answer": "D",
+    "explanation": "Positive room pressure forces air outward when doors open, preventing external dust and microbes from entering the surgical space. [learn more](GNS123_U5_T1#GNS123_U5_T1_h3)"
   },
   {
     "question_id": "GNS123_U5_T1_h3_q2",
     "heading_id": "GNS123_U5_T1_h3",
     "article_id": "GNS123_U5_T1",
     "topic_id": "GNS123_U5_T1",
-    "question": "What is the primary function of HEPA filters in the operating room HVAC system?",
+    "difficulty": "understanding",
+    "question": "What is the primary function of High-Efficiency Particulate Air (HEPA) filters in an HVAC system?",
     "options": {
-      "A": "To humidify the dry air entering the surgical suite",
-      "B": "To remove microscopic particles, dust, and airborne microorganisms",
-      "C": "To cool down the surgical lights during long procedures",
-      "D": "To increase the concentration of oxygen in the room"
+      "A": "Regulating the speed at which air changes occur in the room",
+      "B": "Warming the surgical suite during lengthy procedures",
+      "C": "Removing microscopic particles and microorganisms from incoming air",
+      "D": "Adjusting the humidity levels to prevent patient hypothermia"
     },
-    "answer": "B",
-    "explanation": "HEPA filters are designed to capture microscopic particles, dust, and airborne microorganisms to maintain high air purity. [learn more](GNS123_U5_T1#GNS123_U5_T1_h3)"
+    "answer": "C",
+    "explanation": "HEPA filtration traps tiny airborne particles and pathogens, ensuring that the air delivered into the surgical suite is ultra-clean. [learn more](GNS123_U5_T1#GNS123_U5_T1_h3)"
   },
   {
     "question_id": "GNS123_U5_T1_h4_q1",
     "heading_id": "GNS123_U5_T1_h4",
     "article_id": "GNS123_U5_T1",
     "topic_id": "GNS123_U5_T1",
-    "question": "Why must an operating table often be radiolucent during certain procedures?",
+    "difficulty": "recall",
+    "question": "What is a major advantage of ceiling-mounted service booms in the operating room?",
     "options": {
-      "A": "To prevent electrical shocks from the electrosurgical unit",
-      "B": "To allow intraoperative imaging such as X-rays to pass through",
-      "C": "To keep the patient warm during long surgeries",
-      "D": "to repel airborne dust particles from settling"
+      "A": "Eliminating the need for electrical safety checks",
+      "B": "Eliminating tangled floor cords and tripping hazards",
+      "C": "Providing natural lighting for delicate eye procedures",
+      "D": "Reducing the cost of surgical gas maintenance"
     },
     "answer": "B",
-    "explanation": "Radiolucent operating tables allow imaging equipment like X-ray machines to capture images without obstruction from the table material. [learn more](GNS123_U5_T1#GNS123_U5_T1_h4)"
+    "explanation": "Ceiling booms suspend power cables and gas hoses above the floor, keeping walkways clear for rapid staff movement and equipment rolling. [learn more](GNS123_U5_T1#GNS123_U5_T1_h4)"
   },
   {
     "question_id": "GNS123_U5_T1_h4_q2",
     "heading_id": "GNS123_U5_T1_h4",
     "article_id": "GNS123_U5_T1",
     "topic_id": "GNS123_U5_T1",
-    "question": "What is a crucial safety precaution when using an electrosurgical unit (diathermy) in the OR?",
+    "difficulty": "understanding",
+    "question": "Why are cool-beam technology surgical lights used in modern operating theatres?",
     "options": {
-      "A": "Ensuring the correct placement of the patient grounding pad",
-      "B": "Turning off all overhead surgical lights",
-      "C": "Connecting the unit to a portable oxygen cylinder",
-      "D": "Using ungrounded power outlets for the device"
+      "A": "To reduce the overall electrical voltage consumption of the hospital",
+      "B": "To illuminate deep surgical cavities without drying exposed patient tissues",
+      "C": "To allow the surgical team to operate in total darkness",
+      "D": "To prevent the operating table from overheating during long procedures"
     },
-    "answer": "A",
-    "explanation": "Correct placement of the patient grounding pad prevents electrical current from causing patient burns during electrosurgery. [learn more](GNS123_U5_T1#GNS123_U5_T1_h4)"
+    "answer": "B",
+    "explanation": "Surgical lamps generate intense illumination, and cool-beam technology prevents excessive thermal radiation from damaging or drying delicate open tissues. [learn more](GNS123_U5_T1#GNS123_U5_T1_h4)"
   },
   {
     "question_id": "GNS123_U5_T1_h5_q1",
     "heading_id": "GNS123_U5_T1_h5",
     "article_id": "GNS123_U5_T1",
     "topic_id": "GNS123_U5_T1",
-    "question": "What action should be taken if there is any doubt about the sterility of an item in the operating room?",
+    "difficulty": "recall",
+    "question": "Where should scrubbed personnel keep their hands after performing a surgical hand scrub?",
     "options": {
-      "A": "Wipe it down with alcohol and use it immediately",
-      "B": "Assume it is contaminated and discard or re-sterilize it",
-      "C": "Ask the surgeon if it looks safe to use",
-      "D": "Place it on the edge of the sterile field"
+      "A": "Resting directly on their surgical masks",
+      "B": "Hanging loosely down near their knees",
+      "C": "Above the waist and away from their clothing",
+      "D": "Folded tightly against their trouser pockets"
     },
-    "answer": "B",
-    "explanation": "If there is any doubt regarding the sterility of an item, it must be considered contaminated and discarded to protect the patient. [learn more](GNS123_U5_T1#GNS123_U5_T1_h5)"
+    "answer": "C",
+    "explanation": "Keeping hands above the waist and away from non-sterile scrubs prevents accidental contamination of the sterile gown and gloves. [learn more](GNS123_U5_T1#GNS123_U5_T1_h5)"
   },
   {
     "question_id": "GNS123_U5_T1_h5_q2",
     "heading_id": "GNS123_U5_T1_h5",
     "article_id": "GNS123_U5_T1",
     "topic_id": "GNS123_U5_T1",
-    "question": "How should sterile team members pass each other within the sterile area to maintain sterility?",
+    "difficulty": "understanding",
+    "question": "What should an unscrubbed team member do when moving near a sterile instrument table?",
     "options": {
-      "A": "Back-to-back or face-to-face",
-      "B": "Side-to-side with arms touching",
-      "C": "Facing away from each other",
-      "D": "Underneath the instrument table"
+      "A": "Maintain a safe distance of at least one foot and never reach across it",
+      "B": "Touch the edges of the table to steady themselves in tight spaces",
+      "C": "Wear sterile gloves just while handing items across the surface",
+      "D": "Lean across the table as long as they do not touch the instruments"
     },
     "answer": "A",
-    "explanation": "Sterile personnel should always pass back-to-back or face-to-face to avoid accidental contamination of sterile gowns. [learn more](GNS123_U5_T1#GNS123_U5_T1_h5)"
+    "explanation": "Unscrubbed personnel must respect the boundaries of sterile fields to avoid dropping unsterile particles or clothing onto sterile supplies. [learn more](GNS123_U5_T1#GNS123_U5_T1_h5)"
   },
   {
     "question_id": "GNS123_U5_T1_h6_q1",
     "heading_id": "GNS123_U5_T1_h6",
     "article_id": "GNS123_U5_T1",
     "topic_id": "GNS123_U5_T1",
-    "question": "What three elements make up the surgical fire triad present in many operating rooms?",
+    "difficulty": "recall",
+    "question": "Which three elements form the surgical fire triad present in many operating rooms?",
     "options": {
-      "A": "Water, electricity, and ventilation",
+      "A": "Anesthetic gas, humidity, and pressure",
       "B": "Ignition source, oxidizer, and fuel",
-      "C": "Anesthetic gas, sterile drape, and patient blood",
-      "D": "Surgeon, nurse, and patient"
+      "C": "Electricity, water, and flammable vapor",
+      "D": "Heat, cold air, and surgical instruments"
     },
     "answer": "B",
-    "explanation": "A surgical fire requires an ignition source, an oxidizer (like oxygen), and fuel (like drapes) to occur simultaneously. [learn more](GNS123_U5_T1#GNS123_U5_T1_h6)"
+    "explanation": "A surgical fire requires an ignition source, an oxidizer like oxygen, and a fuel source such as skin prep or drapes to sustain combustion. [learn more](GNS123_U5_T1#GNS123_U5_T1_h6)"
   },
   {
     "question_id": "GNS123_U5_T1_h6_q2",
     "heading_id": "GNS123_U5_T1_h6",
     "article_id": "GNS123_U5_T1",
     "topic_id": "GNS123_U5_T1",
-    "question": "Which medication is critical for the immediate emergency treatment of malignant hyperthermia in the OR?",
+    "difficulty": "understanding",
+    "question": "What is the purpose of scavenger systems in the operating room environment?",
     "options": {
-      "A": "Adrenaline",
-      "B": "Atropine",
-      "C": "Dantrolene",
-      "D": "Heparin"
+      "A": "Clearing surgical smoke generated by electrosurgery",
+      "B": "Suctioning blood and fluids directly from the surgical wound",
+      "C": "Removing waste anesthetic gases to protect healthcare staff",
+      "D": "Filtering dust particles from the air conditioning ducts"
     },
     "answer": "C",
-    "explanation": "Dantrolene is the specific muscle relaxant and antidote used to treat life-threatening malignant hyperthermia crises. [learn more](GNS123_U5_T1#GNS123_U5_T1_h6)"
+    "explanation": "Scavenging systems capture and exhaust waste anesthetic gases safely outside the building, preventing chronic occupational exposure among OR personnel. [learn more](GNS123_U5_T1#GNS123_U5_T1_h6)"
   },
   {
     "question_id": "GNS123_U5_T1_h7_q1",
     "heading_id": "GNS123_U5_T1_h7",
     "article_id": "GNS123_U5_T1",
     "topic_id": "GNS123_U5_T1",
-    "question": "What is the primary role of the scrub nurse within the operating room?",
+    "difficulty": "recall",
+    "question": "Which perioperative nursing role operates primarily within the sterile field during a procedure?",
     "options": {
-      "A": "Managing the non-sterile environment and documentation",
-      "B": "Operating within the sterile field to handle instruments and assist the surgeon",
-      "C": "Administering general anesthesia to the patient",
-      "D": "Transporting the patient to and from the recovery ward"
+      "A": "Post-anesthesia recovery nurse",
+      "B": "Scrub nurse",
+      "C": "Administrative nurse manager",
+      "D": "Circulating nurse"
     },
     "answer": "B",
-    "explanation": "The scrub nurse works in the sterile field, handing instruments to the surgeon and keeping track of counts. [learn more](GNS123_U5_T1#GNS123_U5_T1_h7)"
+    "explanation": "The scrub nurse wears sterile gown and gloves, remaining within the sterile field to handle instruments and assist the surgical team directly. [learn more](GNS123_U5_T1#GNS123_U5_T1_h7)"
   },
   {
     "question_id": "GNS123_U5_T1_h7_q2",
     "heading_id": "GNS123_U5_T1_h7",
     "article_id": "GNS123_U5_T1",
     "topic_id": "GNS123_U5_T1",
-    "question": "Which team member functions in a non-sterile role outside the sterile boundary to coordinate the overall OR environment?",
+    "difficulty": "understanding",
+    "question": "Which of the following responsibilities belongs primarily to the circulating nurse?",
     "options": {
-      "A": "The lead surgeon",
-      "B": "The scrub nurse",
-      "C": "The circulating nurse",
-      "D": "The surgical assistant"
+      "A": "Managing room traffic, documentation, and conducting safety counts",
+      "B": "Closing the subcutaneous skin layers with absorbable sutures",
+      "C": "Selecting and handing specialized clamps directly to the operating surgeon",
+      "D": "Maintaining the sterility of instrument trays on the Mayo stand"
     },
-    "answer": "C",
-    "explanation": "The circulating nurse works outside the sterile field to monitor the environment, document care, and coordinate communication. [learn more](GNS123_U5_T1#GNS123_U5_T1_h7)"
+    "answer": "A",
+    "explanation": "The circulating nurse remains unscrubbed to document care, coordinate room activities, manage supplies, and participate in sponge and instrument counts. [learn more](GNS123_U5_T1#GNS123_U5_T1_h7)"
   }
 ]

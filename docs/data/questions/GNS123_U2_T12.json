@@ -4,209 +4,223 @@
     "heading_id": "GNS123_U2_T12_h1",
     "article_id": "GNS123_U2_T12",
     "topic_id": "GNS123_U2_T12",
-    "question": "What is a primary difference between MRI and conventional X-ray or CT imaging?",
+    "difficulty": "recall",
+    "question": "What primary form of energy is utilized by MRI to generate diagnostic images?",
     "options": {
-      "A": "MRI uses ionizing radiation, while CT scans do not.",
-      "B": "MRI does not use ionizing radiation.",
-      "C": "MRI relies exclusively on ultrasound waves.",
-      "D": "MRI only visualizes bone density."
+      "A": "Gamma ray emissions",
+      "B": "X-ray radiation",
+      "C": "High-frequency ultrasound",
+      "D": "Radiofrequency waves"
     },
-    "answer": "B",
-    "explanation": "MRI generates images using strong magnetic fields and radiofrequency waves rather than harmful ionizing radiation. [learn more](GNS123_U2_T12#GNS123_U2_T12_h1)"
+    "answer": "D",
+    "explanation": "MRI combines a strong magnetic field with radiofrequency waves to manipulate hydrogen protons and produce detailed images. [learn more](GNS123_U2_T12#GNS123_U2_T12_h1)"
   },
   {
     "question_id": "GNS123_U2_T12_h1_q2",
     "heading_id": "GNS123_U2_T12_h1",
     "article_id": "GNS123_U2_T12",
     "topic_id": "GNS123_U2_T12",
-    "question": "Which atomic nuclei are primarily exploited in clinical magnetic resonance imaging?",
+    "difficulty": "understanding",
+    "question": "Why is MRI preferred over standard computed tomography when imaging soft tissue structures like the spinal cord?",
     "options": {
-      "A": "Carbon atoms",
-      "B": "Calcium atoms",
-      "C": "Hydrogen atoms",
-      "D": "Sodium atoms"
+      "A": "It delivers a lower financial cost to the hospital",
+      "B": "It provides superior differentiation of soft tissue detail",
+      "C": "It requires zero preparation or patient screening",
+      "D": "It operates significantly faster in emergency scenarios"
     },
-    "answer": "C",
-    "explanation": "MRI exploits the magnetic properties of hydrogen atoms, which are abundantly found in the water and fat molecules of the human body. [learn more](GNS123_U2_T12#GNS123_U2_T12_h1)"
+    "answer": "B",
+    "explanation": "The interaction of magnetic fields and hydrogen protons yields exceptional contrast resolution, making soft tissues far easier to visualize than on standard X-ray-based scans. [learn more](GNS123_U2_T12#GNS123_U2_T12_h1)"
   },
   {
     "question_id": "GNS123_U2_T12_h2_q1",
     "heading_id": "GNS123_U2_T12_h2",
     "article_id": "GNS123_U2_T12",
     "topic_id": "GNS123_U2_T12",
-    "question": "What happens to the hydrogen protons in the body when they are placed inside the MRI scanner's magnetic field?",
+    "difficulty": "recall",
+    "question": "Which atomic nucleus is primarily targeted during a standard clinical MRI scan?",
     "options": {
-      "A": "They dissolve into the bloodstream.",
-      "B": "They align parallel or anti-parallel to the magnetic field.",
-      "C": "They completely stop spinning.",
-      "D": "They emit high levels of ionizing radiation."
+      "A": "Sodium",
+      "B": "Carbon",
+      "C": "Calcium",
+      "D": "Hydrogen"
     },
-    "answer": "B",
-    "explanation": "When exposed to the scanner's magnetic field, the body's hydrogen protons align themselves either parallel or anti-parallel to the direction of the field. [learn more](GNS123_U2_T12#GNS123_U2_T12_h2)"
+    "answer": "D",
+    "explanation": "Because the human body has a high water content, hydrogen protons are abundant and highly responsive to magnetic manipulation. [learn more](GNS123_U2_T12#GNS123_U2_T12_h2)"
   },
   {
     "question_id": "GNS123_U2_T12_h2_q2",
     "heading_id": "GNS123_U2_T12_h2",
     "article_id": "GNS123_U2_T12",
     "topic_id": "GNS123_U2_T12",
-    "question": "What is the function of the radiofrequency pulse applied during an MRI scan?",
+    "difficulty": "understanding",
+    "question": "What physical event occurs immediately after the radiofrequency pulse is turned off during an MRI scan?",
     "options": {
-      "A": "To freeze all cellular activity in the target organ",
-      "B": "To knock the aligned protons out of equilibrium",
-      "C": "To generate ionizing radiation for tissue penetration",
-      "D": "To cool down the superconducting magnet"
+      "A": "Tissue temperature rises significantly due to friction",
+      "B": "Protons permanently stop spinning within the tissue",
+      "C": "The primary magnetic field shuts down automatically",
+      "D": "Protons release energy as they return to alignment"
     },
-    "answer": "B",
-    "explanation": "The radiofrequency pulse temporarily knocks the aligned protons out of equilibrium, putting them into a high-energy state before they relax and emit signals. [learn more](GNS123_U2_T12#GNS123_U2_T12_h2)"
+    "answer": "D",
+    "explanation": "Relaxation is the process where protons realign with the main magnetic field, emitting radio signals that the scanner captures to build the image. [learn more](GNS123_U2_T12#GNS123_U2_T12_h2)"
   },
   {
     "question_id": "GNS123_U2_T12_h3_q1",
     "heading_id": "GNS123_U2_T12_h3",
     "article_id": "GNS123_U2_T12",
     "topic_id": "GNS123_U2_T12",
-    "question": "Which clinical specialty considers MRI to be the gold standard for diagnosing conditions like multiple sclerosis and brain tumors?",
+    "difficulty": "recall",
+    "question": "Which clinical condition is MRI exceptionally sensitive for detecting in its earliest stages?",
     "options": {
-      "A": "Neurology",
-      "B": "Gastroenterology",
-      "C": "Pulmonology",
-      "D": "Dermatology"
+      "A": "Obstructive bowel gas",
+      "B": "Simple bone fractures",
+      "C": "Acute cerebral ischemia",
+      "D": "Simple kidney stones"
     },
-    "answer": "A",
-    "explanation": "MRI is the gold standard for imaging the brain and spinal cord, making it crucial for diagnosing neurological conditions such as multiple sclerosis and tumors. [learn more](GNS123_U2_T12#GNS123_U2_T12_h3)"
+    "answer": "C",
+    "explanation": "Diffusion-weighted MRI can identify ischemic changes in brain tissue within minutes of a stroke onset, far quicker than standard computed tomography. [learn more](GNS123_U2_T12#GNS123_U2_T12_h3)"
   },
   {
     "question_id": "GNS123_U2_T12_h3_q2",
     "heading_id": "GNS123_U2_T12_h3",
     "article_id": "GNS123_U2_T12",
     "topic_id": "GNS123_U2_T12",
-    "question": "Why is MRI frequently chosen for evaluating orthopedic conditions like ligament tears?",
+    "difficulty": "understanding",
+    "question": "A patient with a suspected ligamentous knee injury is sent for imaging. Why is MRI chosen over a routine X-ray?",
     "options": {
-      "A": "It provides superior visualization of hard bone fractures exclusively.",
-      "B": "It offers exceptional soft tissue contrast for structures like ligaments and cartilage.",
-      "C": "It requires the immediate removal of all patient joints.",
-      "D": "It relies on high-dose radiation to burn away scar tissue."
+      "A": "MRI takes less than thirty seconds to complete in outpatient clinics",
+      "B": "X-rays expose the patient to massive doses of radioactive material",
+      "C": "X-rays cannot visualize any part of the lower extremity",
+      "D": "MRI clearly displays soft tissues like cartilage and ligaments"
     },
-    "answer": "B",
-    "explanation": "MRI provides superior soft tissue contrast, allowing clinicians to clearly evaluate non-bony structures like ligaments, tendons, cartilage, and menisci. [learn more](GNS123_U2_T12#GNS123_U2_T12_h3)"
+    "answer": "D",
+    "explanation": "Routine X-rays primarily capture dense bone structures, whereas MRI excels at imaging soft tissue components like menisci and ligaments. [learn more](GNS123_U2_T12#GNS123_U2_T12_h3)"
   },
   {
     "question_id": "GNS123_U2_T12_h4_q1",
     "heading_id": "GNS123_U2_T12_h4",
     "article_id": "GNS123_U2_T12",
     "topic_id": "GNS123_U2_T12",
-    "question": "What is the primary reason patients must remove all metallic jewelry and accessories before entering the MRI suite?",
+    "difficulty": "recall",
+    "question": "When is the primary magnetic field of an MRI machine active?",
     "options": {
-      "A": "To prevent metals from blocking the room's Wi-Fi signal",
-      "B": "To prevent metallic objects from becoming dangerous projectiles in the magnetic field",
-      "C": "To ensure the patient loses weight before the scan",
-      "D": "To prevent the jewelry from melting from radioactive heat"
+      "A": "Only during the actual image acquisition phase",
+      "B": "Continuously, twenty-four hours a day",
+      "C": "Only after the radiologist injects contrast dye",
+      "D": "Only when the computer workstation is turned on"
     },
     "answer": "B",
-    "explanation": "The powerful magnetic field can attract ferromagnetic objects, turning them into dangerous projectiles that can injure the patient or staff. [learn more](GNS123_U2_T12#GNS123_U2_T12_h4)"
+    "explanation": "Superconducting magnets remain fully energized at all times, making the scanning room a permanent magnetic hazard zone. [learn more](GNS123_U2_T12#GNS123_U2_T12_h4)"
   },
   {
     "question_id": "GNS123_U2_T12_h4_q2",
     "heading_id": "GNS123_U2_T12_h4",
     "article_id": "GNS123_U2_T12",
     "topic_id": "GNS123_U2_T12",
-    "question": "Which nursing intervention helps manage patient anxiety and discomfort caused by the scanner environment?",
+    "difficulty": "understanding",
+    "question": "Why must a nurse screen a patient for a history of working with metal before an MRI scan?",
     "options": {
-      "A": "Administering general anesthesia to every patient routinely",
-      "B": "Providing earplugs or headphones to block out loud tapping sounds",
-      "C": "Allowing the patient to keep their mobile phone inside the machine",
-      "D": "Telling the patient they can move around freely during the scan"
+      "A": "Metal fragments interfere with the hospital's electrical grid",
+      "B": "Unnoticed metallic splinters in the eye can shift and cause blindness",
+      "C": "Any metallic trace causes the contrast dye to become toxic",
+      "D": "Retained metal automatically shuts down the cooling system"
     },
     "answer": "B",
-    "explanation": "Providing earplugs or headphones helps mitigate the loud acoustic noise produced by the scanner, reducing patient stress and discomfort. [learn more](GNS123_U2_T12#GNS123_U2_T12_h4)"
+    "explanation": "Ferromagnetic fragments lodged in sensitive areas like the eye can move or heat up when exposed to the magnetic field, causing severe tissue damage. [learn more](GNS123_U2_T12#GNS123_U2_T12_h4)"
   },
   {
     "question_id": "GNS123_U2_T12_h5_q1",
     "heading_id": "GNS123_U2_T12_h5",
     "article_id": "GNS123_U2_T12",
     "topic_id": "GNS123_U2_T12",
+    "difficulty": "recall",
     "question": "Which of the following is considered an absolute contraindication for an MRI scan?",
     "options": {
-      "A": "A history of seasonal allergies",
-      "B": "An implanted cardiac pacemaker",
-      "C": "Mild claustrophobia",
-      "D": "A previous bone fracture healed with a cast"
+      "A": "An implanted cardiac pacemaker",
+      "B": "Controlled essential hypertension",
+      "C": "A history of mild seasonal allergies",
+      "D": "A healed tibia fracture with internal plates"
     },
-    "answer": "B",
-    "explanation": "Cardiac pacemakers are absolute contraindications because the magnetic field can cause them to malfunction, threatening the patient's life. [learn more](GNS123_U2_T12#GNS123_U2_T12_h5)"
+    "answer": "A",
+    "explanation": "Traditional pacemakers contain metallic components and circuitry that malfunction or displace in a strong magnetic field, posing a life-threatening hazard. [learn more](GNS123_U2_T12#GNS123_U2_T12_h5)"
   },
   {
     "question_id": "GNS123_U2_T12_h5_q2",
     "heading_id": "GNS123_U2_T12_h5",
     "article_id": "GNS123_U2_T12",
     "topic_id": "GNS123_U2_T12",
-    "question": "What severe condition is linked to the administration of gadolinium-based contrast agents in patients with impaired renal function?",
+    "difficulty": "understanding",
+    "question": "Nephrogenic systemic fibrosis is a severe medical complication linked to the administration of which substance in vulnerable patients?",
     "options": {
-      "A": "Nephrogenic systemic fibrosis",
-      "B": "Acute radiation syndrome",
-      "C": "Hypertensive crisis",
-      "D": "Pulmonary embolism"
+      "A": "Conscious sedation medications",
+      "B": "Local anesthetic lidocaine",
+      "C": "Intravenous iodinated dye",
+      "D": "Gadolinium-based contrast agents"
     },
-    "answer": "A",
-    "explanation": "Gadolinium contrast in patients with severe kidney disease is linked to nephrogenic systemic fibrosis, a debilitating fibrosing condition. [learn more](GNS123_U2_T12#GNS123_U2_T12_h5)"
+    "answer": "D",
+    "explanation": "Patients with severe renal impairment can develop nephrogenic systemic fibrosis when exposed to gadolinium contrast agents used to enhance MRI clarity. [learn more](GNS123_U2_T12#GNS123_U2_T12_h5)"
   },
   {
     "question_id": "GNS123_U2_T12_h6_q1",
     "heading_id": "GNS123_U2_T12_h6",
     "article_id": "GNS123_U2_T12",
     "topic_id": "GNS123_U2_T12",
-    "question": "What critical item should the nurse ensure the patient holds during the MRI procedure?",
+    "difficulty": "recall",
+    "question": "What is the primary reason for securing a patient's position with cushions and instructing them not to move during an MRI?",
     "options": {
-      "A": "An emergency call buzzer",
-      "B": "A metallic tracking device",
-      "C": "A portable oxygen tank",
-      "D": "A glass of water"
+      "A": "To prevent the patient from falling off the narrow table",
+      "B": "To ensure the contrast dye circulates evenly",
+      "C": "To prevent motion artifact from blurring the images",
+      "D": "To keep the patient's heart rate artificially lowered"
     },
-    "answer": "A",
-    "explanation": "Patients are given an emergency call buzzer so they can alert staff if they experience distress or panic while inside the scanner bore. [learn more](GNS123_U2_T12#GNS123_U2_T12_h6)"
+    "answer": "C",
+    "explanation": "Patient movement disrupts the spatial encoding of signals, resulting in blurry, diagnostically useless scans that must be repeated. [learn more](GNS123_U2_T12#GNS123_U2_T12_h6)"
   },
   {
     "question_id": "GNS123_U2_T12_h6_q2",
     "heading_id": "GNS123_U2_T12_h6",
     "article_id": "GNS123_U2_T12",
     "topic_id": "GNS123_U2_T12",
-    "question": "What nursing action is required if a patient receives conscious sedation for an MRI scan due to severe anxiety?",
+    "difficulty": "understanding",
+    "question": "A patient expresses alarm over the loud, rhythmic knocking sounds coming from the scanner during the procedure. What is the best nursing action?",
     "options": {
-      "A": "Leaving the patient completely unattended in the waiting room",
-      "B": "Continuously monitoring vital signs, consciousness, and oxygen saturation",
-      "C": "Encouraging the patient to move around frequently to stay awake",
-      "D": "Removing all intravenous lines immediately"
+      "A": "Immediately halt the scan because the machine is malfunctioning",
+      "B": "Remove the patient from the room to check for equipment damage",
+      "C": "Reassure the patient that this loud acoustic noise is completely normal",
+      "D": "Administer an emergency dose of intravenous muscle relaxants"
     },
-    "answer": "B",
-    "explanation": "Sedated patients require continuous monitoring of vital signs, respiratory status, and level of consciousness to ensure patient safety. [learn more](GNS123_U2_T12#GNS123_U2_T12_h6)"
+    "answer": "C",
+    "explanation": "The knocking sounds are produced by gradient coils rapidly switching electrical currents during imaging, which is an expected part of operation. [learn more](GNS123_U2_T12#GNS123_U2_T12_h6)"
   },
   {
     "question_id": "GNS123_U2_T12_h7_q1",
     "heading_id": "GNS123_U2_T12_h7",
     "article_id": "GNS123_U2_T12",
     "topic_id": "GNS123_U2_T12",
-    "question": "What instruction should a nurse give to a patient who received intravenous gadolinium contrast during their MRI?",
+    "difficulty": "recall",
+    "question": "What primary instruction should be given to a patient who received gadolinium contrast during an outpatient MRI?",
     "options": {
-      "A": "Restrict fluid intake for 24 hours.",
-      "B": "Increase fluid intake to help excrete the contrast agent.",
-      "C": "Avoid urination for the rest of the day.",
-      "D": "Take a hot bath immediately."
+      "A": "Take a strong diuretic medication immediately upon returning home",
+      "B": "Avoid eating dairy products for the rest of the day",
+      "C": "Maintain high fluid intake to help clear the contrast agent",
+      "D": "Remain on bed rest for the next twenty-four hours"
     },
-    "answer": "B",
-    "explanation": "Increasing fluid intake helps flush the gadolinium contrast agent out of the patient's renal system rapidly and safely. [learn more](GNS123_U2_T12#GNS123_U2_T12_h7)"
+    "answer": "C",
+    "explanation": "Encouraging fluids helps the kidneys excrete the gadolinium contrast efficiently, reducing retention time in the body. [learn more](GNS123_U2_T12#GNS123_U2_T12_h7)"
   },
   {
     "question_id": "GNS123_U2_T12_h7_q2",
     "heading_id": "GNS123_U2_T12_h7",
     "article_id": "GNS123_U2_T12",
     "topic_id": "GNS123_U2_T12",
-    "question": "Why must a patient who received sedative medications for an MRI be monitored before discharge?",
+    "difficulty": "understanding",
+    "question": "A patient who received procedural sedation for severe claustrophobia during an MRI is ready for discharge. Which assessment finding is most crucial before sending them home?",
     "options": {
-      "A": "To ensure vital signs return to baseline and they are fully alert",
-      "B": "To check if they remember the images taken",
-      "C": "To administer another dose of sedation",
-      "D": "To perform an immediate follow-up CT scan"
+      "A": "Their vital signs have returned to baseline and they can walk steadily",
+      "B": "They remember every detail of the imaging procedure",
+      "C": "They have completely finished a heavy meal",
+      "D": "Their blood glucose level is within the normal fasting range"
     },
     "answer": "A",
-    "explanation": "Sedated patients need monitoring until their vital signs stabilize and they are fully alert to prevent falls and complications. [learn more](GNS123_U2_T12#GNS123_U2_T12_h7)"
+    "explanation": "Sedatives impair motor coordination and respiratory drive, requiring stable vital signs and safe ambulation before unsupervised discharge. [learn more](GNS123_U2_T12#GNS123_U2_T12_h7)"
   }
 ]

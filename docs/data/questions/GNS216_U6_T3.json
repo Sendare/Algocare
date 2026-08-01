@@ -4,179 +4,191 @@
     "heading_id": "GNS216_U6_T3_h1",
     "article_id": "GNS216_U6_T3",
     "topic_id": "GNS216_U6_T3",
-    "question": "Which specific cells are primarily targeted and destroyed by the Human Immunodeficiency Virus?",
+    "difficulty": "recall",
+    "question": "What is the primary cellular receptor targeted by the Human Immunodeficiency Virus during infection?",
     "options": {
-      "A": "Red blood cells",
-      "B": "CD4+ T-helper cells",
-      "C": "Platelets",
-      "D": "Neutrophils"
+      "A": "Beta-2 microglobulin",
+      "B": "CD8 receptors",
+      "C": "Immunoglobulin M",
+      "D": "CD4 receptors"
     },
-    "answer": "B",
-    "explanation": "HIV specifically targets and destroys CD4+ T-helper cells, which are crucial for coordinating the body's adaptive immune response. [learn more](GNS216_U6_T3#GNS216_U6_T3_h1)"
+    "answer": "D",
+    "explanation": "HIV specifically targets and binds to CD4 receptors found primarily on helper T-lymphocytes, leading to their eventual destruction. [learn more](GNS216_U6_T3#GNS216_U6_T3_h1)"
   },
   {
     "question_id": "GNS216_U6_T3_h1_q2",
     "heading_id": "GNS216_U6_T3_h1",
     "article_id": "GNS216_U6_T3",
     "topic_id": "GNS216_U6_T3",
-    "question": "What is the primary function of the viral enzyme reverse transcriptase during the HIV life cycle?",
+    "difficulty": "understanding",
+    "question": "Why is reverse transcriptase a critical enzyme for the Human Immunodeficiency Virus life cycle?",
     "options": {
-      "A": "It converts viral RNA into viral DNA.",
-      "B": "It fuses the viral membrane to the host cell.",
-      "C": "It destroys the host cell's nucleus.",
-      "D": "It releases antibodies into the bloodstream."
+      "A": "It cleaves precursor proteins during viral maturation",
+      "B": "It fuses the viral envelope with the host membrane",
+      "C": "It converts viral RNA into double-stranded DNA",
+      "D": "It integrates viral DNA into the host genome"
     },
-    "answer": "A",
-    "explanation": "Reverse transcriptase is responsible for converting the single-stranded viral RNA into double-stranded viral DNA inside the host cell. [learn more](GNS216_U6_T3#GNS216_U6_T3_h1)"
+    "answer": "C",
+    "explanation": "Reverse transcriptase allows the single-stranded RNA genetic material of the virus to be transcribed into a DNA format that the host cell can process. [learn more](GNS216_U6_T3#GNS216_U6_T3_h1)"
   },
   {
     "question_id": "GNS216_U6_T3_h2_q1",
     "heading_id": "GNS216_U6_T3_h2",
     "article_id": "GNS216_U6_T3",
     "topic_id": "GNS216_U6_T3",
-    "question": "What clinical feature typically defines the transition from chronic HIV infection to AIDS based on immunological criteria?",
+    "difficulty": "recall",
+    "question": "What clinical threshold defines the transition from chronic HIV infection to AIDS based on immunological parameters?",
     "options": {
-      "A": "A CD4+ count below 200 cells/mm3",
-      "B": "A sudden spike in red blood cell count",
-      "C": "Complete clearance of the virus from blood",
-      "D": "Normalization of white blood cell differentials"
+      "A": "CD4 count below 500 cells/mm3",
+      "B": "Viral load dropping to zero copies/mL",
+      "C": "Total lymphocyte count above 4000 cells/mm3",
+      "D": "CD4 count below 200 cells/mm3"
     },
-    "answer": "A",
-    "explanation": "AIDS is clinically defined when the absolute CD4+ T-cell count falls below 200 cells/mm3 or when an AIDS-defining illness develops. [learn more](GNS216_U6_T3#GNS216_U6_T3_h2)"
+    "answer": "D",
+    "explanation": "A CD4+ T-lymphocyte count dropping below 200 cells/mm³ is a standard diagnostic criterion for defining AIDS, indicating profound immunosuppression. [learn more](GNS216_U6_T3#GNS216_U6_T3_h2)"
   },
   {
     "question_id": "GNS216_U6_T3_h2_q2",
     "heading_id": "GNS216_U6_T3_h2",
     "article_id": "GNS216_U6_T3",
     "topic_id": "GNS216_U6_T3",
-    "question": "Which symptom is most commonly associated with the acute stage of HIV infection shortly after initial transmission?",
+    "difficulty": "application",
+    "question": "A patient presents with a fever, generalized rash, and sore throat occurring two weeks after potential exposure to HIV. This presentation is most characteristic of which stage?",
     "options": {
-      "A": "Severe chronic kidney failure",
-      "B": "A flu-like illness with fever and rash",
-      "C": "Paralysis of the lower extremities",
-      "D": "Uncontrolled bleeding disorders"
+      "A": "Acute HIV infection",
+      "B": "Advanced AIDS dementia",
+      "C": "Asymptomatic carrier state",
+      "D": "Clinical latency stage"
     },
-    "answer": "B",
-    "explanation": "The acute infection stage frequently presents with a self-limiting, flu-like syndrome that includes fever, fatigue, rash, and swollen lymph nodes. [learn more](GNS216_U6_T3#GNS216_U6_T3_h2)"
+    "answer": "A",
+    "explanation": "The initial weeks following infection often present with acute retroviral syndrome symptoms resembling infectious mononucleosis. [learn more](GNS216_U6_T3#GNS216_U6_T3_h2)"
   },
   {
     "question_id": "GNS216_U6_T3_h3_q1",
     "heading_id": "GNS216_U6_T3_h3",
     "article_id": "GNS216_U6_T3",
     "topic_id": "GNS216_U6_T3",
-    "question": "Which of the following is a classic example of an opportunistic infection commonly seen in advanced HIV/AIDS?",
+    "difficulty": "recall",
+    "question": "Which fungal pathogen is the most frequent cause of interstitial pneumonia in patients with advanced AIDS?",
     "options": {
-      "A": "Streptococcal pharyngitis",
-      "B": "Pneumocystis jirovecii pneumonia",
-      "C": "Iron deficiency anemia",
-      "D": "Essential hypertension"
+      "A": "Pneumocystis jirovecii",
+      "B": "Cryptococcus neoformans",
+      "C": "Candida albicans",
+      "D": "Aspergillus fumigatus"
     },
-    "answer": "B",
-    "explanation": "Pneumocystis jirovecii pneumonia is a classic opportunistic infection that severely affects immunocompromised patients with advanced HIV. [learn more](GNS216_U6_T3#GNS216_U6_T3_h3)"
+    "answer": "A",
+    "explanation": "Pneumocystis jirovecii pneumonia is a hallmark opportunistic infection seen when CD4 counts drop significantly. [learn more](GNS216_U6_T3#GNS216_U6_T3_h3)"
   },
   {
     "question_id": "GNS216_U6_T3_h3_q2",
     "heading_id": "GNS216_U6_T3_h3",
     "article_id": "GNS216_U6_T3",
     "topic_id": "GNS216_U6_T3",
-    "question": "Which malignancy is widely recognized as an AIDS-defining cancer?",
+    "difficulty": "understanding",
+    "question": "Which of the following conditions is NOT a classic opportunistic infection or malignancy associated with advanced AIDS?",
     "options": {
-      "A": "Kaposi's sarcoma",
-      "B": "Basal cell carcinoma",
-      "C": "Chronic lymphocytic leukemia",
-      "D": "Osteosarcoma"
+      "A": "Cryptococcal meningitis",
+      "B": "Kaposi sarcoma",
+      "C": "Oral candidiasis",
+      "D": "Pernicious anemia"
     },
-    "answer": "A",
-    "explanation": "Kaposi's sarcoma is an opportunistic malignancy frequently diagnosed in individuals living with advanced AIDS due to severe immune suppression. [learn more](GNS216_U6_T3#GNS216_U6_T3_h3)"
+    "answer": "D",
+    "explanation": "Pernicious anemia is an autoimmune condition affecting vitamin B12 absorption, not an opportunistic infection or AIDS-defining malignancy. [learn more](GNS216_U6_T3#GNS216_U6_T3_h3)"
   },
   {
     "question_id": "GNS216_U6_T3_h4_q1",
     "heading_id": "GNS216_U6_T3_h4",
     "article_id": "GNS216_U6_T3",
     "topic_id": "GNS216_U6_T3",
-    "question": "What is the primary advantage of fourth-generation HIV screening assays over older antibody-only tests?",
+    "difficulty": "recall",
+    "question": "What viral component is detected alongside antibodies in fourth-generation HIV screening assays to shorten the window period?",
     "options": {
-      "A": "They can completely cure the infection during testing.",
-      "B": "They detect both antibodies and the p24 antigen, shortening the window period.",
-      "C": "They only require a urine sample instead of blood.",
-      "D": "They eliminate the need for any confirmatory testing."
+      "A": "Integrase enzyme",
+      "B": "gp120 envelope glycoprotein",
+      "C": "Reverse transcriptase enzyme",
+      "D": "p24 capsid antigen"
     },
-    "answer": "B",
-    "explanation": "Fourth-generation assays detect the p24 antigen alongside antibodies, allowing for earlier detection of recent infections by shortening the diagnostic window period. [learn more](GNS216_U6_T3#GNS216_U6_T3_h4)"
+    "answer": "D",
+    "explanation": "Fourth-generation tests detect the p24 antigen, which appears in the blood earlier than antibodies during acute infection. [learn more](GNS216_U6_T3#GNS216_U6_T3_h4)"
   },
   {
     "question_id": "GNS216_U6_T3_h4_q2",
     "heading_id": "GNS216_U6_T3_h4",
     "article_id": "GNS216_U6_T3",
     "topic_id": "GNS216_U6_T3",
-    "question": "What action must be taken immediately following a reactive initial rapid HIV screening test?",
+    "difficulty": "understanding",
+    "question": "Why is a nucleic acid test particularly valuable during the acute phase of an HIV infection?",
     "options": {
-      "A": "Start antiretroviral therapy without further tests.",
-      "B": "Perform a confirmatory test to establish a definitive diagnosis.",
-      "C": "Discard the result as a false positive automatically.",
-      "D": "Discharge the patient with no follow-up required."
+      "A": "It measures the absolute CD4 lymphocyte count in the blood",
+      "B": "It directly detects circulating viral RNA before antibodies develop",
+      "C": "It confirms the presence of opportunistic fungal infections",
+      "D": "It evaluates liver enzyme function prior to starting therapy"
     },
     "answer": "B",
-    "explanation": "A reactive screening test must always be followed by a confirmatory test using a different assay or method to confirm the diagnosis definitively. [learn more](GNS216_U6_T3#GNS216_U6_T3_h4)"
+    "explanation": "NAT assays measure viral RNA directly, making them effective for diagnosing infection during the early window period before the body mounts an antibody response. [learn more](GNS216_U6_T3#GNS216_U6_T3_h4)"
   },
   {
     "question_id": "GNS216_U6_T3_h5_q1",
     "heading_id": "GNS216_U6_T3_h5",
     "article_id": "GNS216_U6_T3",
     "topic_id": "GNS216_U6_T3",
-    "question": "What is the primary clinical purpose of monitoring HIV RNA viral load levels in a patient on antiretroviral therapy?",
+    "difficulty": "recall",
+    "question": "What does a plasma viral load test measure in the management of an infected patient?",
     "options": {
-      "A": "To measure the patient's red blood cell volume",
-      "B": "To evaluate the efficacy and suppression success of antiretroviral therapy",
-      "C": "To diagnose acute bacterial pneumonia",
-      "D": "To calculate the patient's daily caloric requirement"
+      "A": "The total white blood cell count minus neutrophils",
+      "B": "The volume of antibodies produced against the p24 antigen",
+      "C": "The percentage of functional CD4+ T-lymphocytes remaining",
+      "D": "The concentration of viral RNA copies per milliliter of blood"
     },
-    "answer": "B",
-    "explanation": "Viral load testing measures the quantity of HIV RNA in plasma, serving as the most direct indicator of how effectively antiretroviral therapy is suppressing viral replication. [learn more](GNS216_U6_T3#GNS216_U6_T3_h5)"
+    "answer": "D",
+    "explanation": "Viral load quantification measures the actual amount of circulating viral RNA, indicating the speed of viral replication and treatment success. [learn more](GNS216_U6_T3#GNS216_U6_T3_h5)"
   },
   {
     "question_id": "GNS216_U6_T3_h5_q2",
     "heading_id": "GNS216_U6_T3_h5",
     "article_id": "GNS216_U6_T3",
     "topic_id": "GNS216_U6_T3",
-    "question": "What does a rising absolute CD4+ T-cell count generally signify in an HIV-positive patient receiving care?",
+    "difficulty": "understanding",
+    "question": "How does an undetectable viral load result impact clinical decision-making and patient counseling?",
     "options": {
-      "A": "Immune recovery and strengthening",
-      "B": "Rapid disease progression to AIDS",
-      "C": "Total resistance to all medications",
-      "D": "Failure of the bone marrow"
+      "A": "It means the CD4 count has returned to normal without medication",
+      "B": "It signals that opportunistic infection prophylaxis can be doubled",
+      "C": "It proves the patient has completely cleared the virus from their body",
+      "D": "It indicates effective viral suppression from antiretroviral therapy"
     },
-    "answer": "A",
-    "explanation": "An increasing CD4+ count indicates that the immune system is recovering and rebuilding its helper T-cell population, typically as a result of effective ART. [learn more](GNS216_U6_T3#GNS216_U6_T3_h5)"
+    "answer": "D",
+    "explanation": "An undetectable viral load means the medication is working well to suppress replication, though the virus remains latent within reservoirs. [learn more](GNS216_U6_T3#GNS216_U6_T3_h5)"
   },
   {
     "question_id": "GNS216_U6_T3_h6_q1",
     "heading_id": "GNS216_U6_T3_h6",
     "article_id": "GNS216_U6_T3",
     "topic_id": "GNS216_U6_T3",
-    "question": "Why is a holistic nursing assessment that includes psychosocial and emotional evaluation essential for patients with HIV/AIDS?",
+    "difficulty": "understanding",
+    "question": "What constellation of constitutional symptoms is commonly referred to as HIV wasting syndrome during clinical evaluation?",
     "options": {
-      "A": "Psychosocial factors like stigma and anxiety significantly impact medication adherence and quality of life.",
-      "B": "Emotional assessments replace the need for laboratory viral load testing.",
-      "C": "Psychological evaluations can cure the underlying viral infection.",
-      "D": "Emotional status has no bearing on physical health outcomes."
+      "A": "Jaundice, right upper quadrant pain, pruritus, and dark urine",
+      "B": "Severe headache, photophobia, nuchal rigidity, and confusion",
+      "C": "Hypertension, peripheral edema, shortness of breath, and fatigue",
+      "D": "Fever, chronic diarrhea, night sweats, and significant weight loss"
     },
-    "answer": "A",
-    "explanation": "Holistic assessment addresses mental health and social challenges, such as stigma and anxiety, which directly influence how well patients adhere to lifelong treatments. [learn more](GNS216_U6_T3#GNS216_U6_T3_h6)"
+    "answer": "D",
+    "explanation": "HIV wasting syndrome is characterized by involuntary weight loss greater than ten percent of baseline body weight, accompanied by chronic diarrhea or weakness and fever. [learn more](GNS216_U6_T3#GNS216_U6_T3_h6)"
   },
   {
     "question_id": "GNS216_U6_T3_h6_q2",
     "heading_id": "GNS216_U6_T3_h6",
     "article_id": "GNS216_U6_T3",
     "topic_id": "GNS216_U6_T3",
-    "question": "What is a key nursing responsibility when caring for a patient initiated on antiretroviral therapy?",
+    "difficulty": "application",
+    "question": "A nurse is performing an initial physical assessment on a newly diagnosed patient. Which finding requires immediate further investigation for an opportunistic infection?",
     "options": {
-      "A": "Prescribing higher doses of medication when symptoms worsen",
-      "B": "Assessing for drug side effects and monitoring therapeutic adherence",
-      "C": "Restricting all physical activity and visitors",
-      "D": "Avoiding discussions about medication schedules"
+      "A": "Healed scars from a childhood varicella infection",
+      "B": "White plaques on the buccal mucosa that scrape off",
+      "C": "Mild localized erythema around a recent venipuncture site",
+      "D": "Asymptomatic baseline seasonal allergic rhinitis"
     },
     "answer": "B",
-    "explanation": "Nurses must actively monitor patients for adverse drug reactions and provide support to ensure high adherence rates, which are critical for treatment success. [learn more](GNS216_U6_T3#GNS216_U6_T3_h6)"
+    "explanation": "Oral candidiasis (thrush) indicated by scrapable white plaques suggests underlying immunosuppression requiring prompt antifungal therapy evaluation. [learn more](GNS216_U6_T3#GNS216_U6_T3_h6)"
   }
 ]

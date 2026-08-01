@@ -4,209 +4,207 @@
     "heading_id": "GNS214_U1_T65_h1",
     "article_id": "GNS214_U1_T65",
     "topic_id": "GNS214_U1_T65",
+    "difficulty": "recall",
     "question": "What is the primary purpose of the cold chain system in healthcare?",
     "options": {
-      "A": "To reduce the cost of manufacturing vaccines",
-      "B": "To ensure vaccines are kept within recommended temperature ranges from manufacture to administration",
-      "C": "To accelerate the distribution speed of expired drugs",
-      "D": "To replace the need for community health extension workers"
+      "A": "To guarantee uninterrupted potency of thermolabile products",
+      "B": "To reduce the financial cost of purchasing bulk vaccines",
+      "C": "To simplify inventory documentation at primary health centers",
+      "D": "To accelerate the distribution speed of oral medications"
     },
-    "answer": "B",
-    "explanation": "The cold chain system is designed specifically to maintain vaccines within safe temperature limits from the manufacturer all the way to the final recipient. [learn more](GNS214_U1_T65#GNS214_U1_T65_h1)"
+    "answer": "A",
+    "explanation": "The cold chain exists specifically to keep temperature-sensitive biologicals within safe limits so they do not lose their effectiveness. [learn more](GNS214_U1_T65#GNS214_U1_T65_h1)"
   },
   {
     "question_id": "GNS214_U1_T65_h1_q2",
     "heading_id": "GNS214_U1_T65_h1",
     "article_id": "GNS214_U1_T65",
     "topic_id": "GNS214_U1_T65",
-    "question": "What happens when vaccines are exposed to temperatures outside their recommended range within the cold chain?",
+    "difficulty": "understanding",
+    "question": "What happens when a vaccine experiences a severe break in the cold chain?",
     "options": {
-      "A": "They become more potent and effective",
-      "B": "They lose their potency and fail to protect against disease",
-      "C": "They change color to indicate expiration",
-      "D": "They transform into oral medications"
+      "A": "Its expiration date is automatically extended by two weeks",
+      "B": "Its antigen structure is permanently altered and loses potency",
+      "C": "It transforms into a live attenuated viral particle",
+      "D": "It temporarily becomes inactive until it is refrigerated again"
     },
     "answer": "B",
-    "explanation": "Vaccines are sensitive biological products that lose their potency and fail to stimulate the proper immune response when exposed to improper temperatures. [learn more](GNS214_U1_T65#GNS214_U1_T65_h1)"
+    "explanation": "Thermal damage to vaccines is irreversible; once exposed to improper temperatures, the active components break down permanently. [learn more](GNS214_U1_T65#GNS214_U1_T65_h1)"
   },
   {
     "question_id": "GNS214_U1_T65_h2_q1",
     "heading_id": "GNS214_U1_T65_h2",
     "article_id": "GNS214_U1_T65",
     "topic_id": "GNS214_U1_T65",
-    "question": "Can the potency of a heat-damaged vaccine be restored?",
+    "difficulty": "recall",
+    "question": "Which cold chain equipment is typically found at the community or primary health facility level for daily immunization?",
     "options": {
-      "A": "Yes, by placing it in a deep freezer immediately",
-      "B": "Yes, by exposing it to sunlight",
-      "C": "No, the loss of potency is irreversible",
-      "D": "Yes, by adding sterile water"
+      "A": "Cryogenic liquid nitrogen tanks",
+      "B": "High-capacity commercial deep freezers",
+      "C": "Ice-lined refrigerators and vaccine carriers",
+      "D": "Walk-in industrial cold rooms"
     },
     "answer": "C",
-    "explanation": "Once a vaccine loses its potency due to temperature breaches, the damage is permanent and cannot be reversed. [learn more](GNS214_U1_T65#GNS214_U1_T65_h2)"
+    "explanation": "Primary health clinics use smaller, reliable units like ice-lined refrigerators and portable vaccine carriers suited for local outreach. [learn more](GNS214_U1_T65#GNS214_U1_T65_h2)"
   },
   {
     "question_id": "GNS214_U1_T65_h2_q2",
     "heading_id": "GNS214_U1_T65_h2",
     "article_id": "GNS214_U1_T65",
     "topic_id": "GNS214_U1_T65",
-    "question": "What is a major consequence of administering vaccines that have suffered cold chain breaches?",
+    "difficulty": "understanding",
+    "question": "Why is the cold chain structured in a hierarchical pyramid system?",
     "options": {
-      "A": "Patients develop immediate immunity",
-      "B": "Recipients are left unprotected against vaccine-preventable diseases",
-      "C": "Vaccines become cheaper to purchase",
-      "D": "Immunization coverage rates automatically increase"
+      "A": "To prevent rural health facilities from holding any emergency vaccine stock",
+      "B": "To distribute bulk vaccine volumes down to localized community distribution points",
+      "C": "To eliminate the need for temperature monitoring in remote areas",
+      "D": "To ensure that vaccines are frozen solid at every single level of transit"
     },
     "answer": "B",
-    "explanation": "Compromised vaccines fail to provide the necessary immune response, leaving individuals vulnerable to infectious diseases. [learn more](GNS214_U1_T65#GNS214_U1_T65_h2)"
+    "explanation": "The multi-tiered structure allows massive central shipments to be broken down into manageable batches for regional and local administration. [learn more](GNS214_U1_T65#GNS214_U1_T65_h2)"
   },
   {
     "question_id": "GNS214_U1_T65_h3_q1",
     "heading_id": "GNS214_U1_T65_h3",
     "article_id": "GNS214_U1_T65",
     "topic_id": "GNS214_U1_T65",
-    "question": "What is the recommended temperature range for vaccine storage in standard refrigerators at health facilities?",
+    "difficulty": "recall",
+    "question": "What is the standard safe temperature range for storing most routine immunizations like pentavalent and measles vaccines?",
     "options": {
-      "A": "-20°C to -10°C",
-      "B": "+2°C to +8°C",
-      "C": "+10°C to +15°C",
-      "D": "+18°C to +25°C"
+      "A": "Plus 15 degrees Celsius to plus 25 degrees Celsius",
+      "B": "Plus 2 degrees Celsius to plus 8 degrees Celsius",
+      "C": "Minus 15 degrees Celsius to minus 25 degrees Celsius",
+      "D": "Minus 2 degrees Celsius to minus 8 degrees Celsius"
     },
     "answer": "B",
-    "explanation": "Standard vaccine refrigerators must be maintained between +2°C and +8°C to safely store most routine immunizations. [learn more](GNS214_U1_T65#GNS214_U1_T65_h3)"
+    "explanation": "The standard refrigeration range for most routine vaccines is between +2°C and +8°C to prevent both freezing and heat damage. [learn more](GNS214_U1_T65#GNS214_U1_T65_h3)"
   },
   {
     "question_id": "GNS214_U1_T65_h3_q2",
     "heading_id": "GNS214_U1_T65_h3",
     "article_id": "GNS214_U1_T65",
     "topic_id": "GNS214_U1_T65",
-    "question": "Which equipment is best suited for transporting vaccines to remote community outreach sites?",
+    "difficulty": "understanding",
+    "question": "Which of the following describes a major hidden risk regarding freeze-sensitive vaccines in standard refrigerators?",
     "options": {
-      "A": "Walk-in cold rooms",
-      "B": "Domestic food refrigerators",
-      "C": "Vaccine carriers and cold boxes",
-      "D": "Deep industrial freezers"
+      "A": "They can be ruined if placed too close to the freezing compartment of an ice-lined refrigerator",
+      "B": "They become highly toxic if their storage temperature drops below zero",
+      "C": "They spontaneously melt if exposed to low humidity during the rainy season",
+      "D": "They lose all potency instantly if removed from the box for more than ten seconds"
     },
-    "answer": "C",
-    "explanation": "Vaccine carriers and cold boxes lined with conditioned ice packs are specifically designed to safely transport vaccines during outreach sessions. [learn more](GNS214_U1_T65#GNS214_U1_T65_h3)"
+    "answer": "A",
+    "explanation": "Freeze-sensitive vaccines form microscopic precipitates and lose efficacy permanently if allowed to freeze against cooling plates. [learn more](GNS214_U1_T65#GNS214_U1_T65_h3)"
   },
   {
     "question_id": "GNS214_U1_T65_h4_q1",
     "heading_id": "GNS214_U1_T65_h4",
     "article_id": "GNS214_U1_T65",
     "topic_id": "GNS214_U1_T65",
-    "question": "What does a Vaccine Vial Monitor (VVM) indicate?",
+    "difficulty": "recall",
+    "question": "What does a Vaccine Vial Monitor (VVM) actually measure on a vaccine vial?",
     "options": {
-      "A": "The exact expiration date set by the manufacturer",
-      "B": "Cumulative heat exposure over time",
-      "C": "The level of liquid remaining in the vial",
-      "D": "Whether the vaccine has been frozen"
+      "A": "Microbial contamination levels on the outer packaging",
+      "B": "The exact freezing point reached inside the cold box",
+      "C": "The remaining fluid volume left inside the glass vial",
+      "D": "Cumulative heat exposure over a period of time"
     },
-    "answer": "B",
-    "explanation": "A VVM changes color progressively to show cumulative heat exposure, helping health workers determine if a vaccine has been overheated. [learn more](GNS214_U1_T65#GNS214_U1_T65_h4)"
+    "answer": "D",
+    "explanation": "The VVM changes color progressively based on how much heat the vial has experienced over its lifespan. [learn more](GNS214_U1_T65#GNS214_U1_T65_h4)"
   },
   {
     "question_id": "GNS214_U1_T65_h4_q2",
     "heading_id": "GNS214_U1_T65_h4",
     "article_id": "GNS214_U1_T65",
     "topic_id": "GNS214_U1_T65",
-    "question": "Which of the following vaccines is sensitive to freezing and must never be stored in the freezer compartment?",
+    "difficulty": "understanding",
+    "question": "A nurse checks a vaccine vial and notices the inner square of the VVM is darker than the outer circle. What action should be taken?",
     "options": {
-      "A": "Oral Polio Vaccine",
-      "B": "Measles Vaccine",
-      "C": "Pentavalent Vaccine",
-      "D": "BCG Vaccine"
+      "A": "Place the vial in the deep freezer overnight to reset the color",
+      "B": "Administer the vaccine quickly before the expiration date arrives",
+      "C": "Shake the vial vigorously to redistribute the active ingredients",
+      "D": "Discard the vial immediately because heat damage has occurred"
     },
-    "answer": "C",
-    "explanation": "Pentavalent vaccine, along with other adjuvanted vaccines like tetanus toxoid and hepatitis B, is freeze-sensitive and loses potency if frozen. [learn more](GNS214_U1_T65#GNS214_U1_T65_h4)"
+    "answer": "D",
+    "explanation": "A darkened inner square indicates the vaccine has absorbed too much heat and is no longer safe or potent for use. [learn more](GNS214_U1_T65#GNS214_U1_T65_h4)"
   },
   {
     "question_id": "GNS214_U1_T65_h5_q1",
     "heading_id": "GNS214_U1_T65_h5",
     "article_id": "GNS214_U1_T65",
     "topic_id": "GNS214_U1_T65",
-    "question": "What inventory management principle should be applied when organizing vaccines in a refrigerator?",
+    "difficulty": "recall",
+    "question": "Why must ice packs be conditioned before being placed inside a vaccine carrier for outreach?",
     "options": {
-      "A": "First-Expiry, First-Out (FEFO)",
-      "B": "Last-In, First-Out (LIFO)",
-      "C": "Random selection based on package color",
-      "D": "Using newest stock first"
+      "A": "To activate the chemical cooling agents inside the insulated walls",
+      "B": "To prevent the frozen ice packs from freezing and ruining heat-sensitive vaccines",
+      "C": "To melt all the ice completely so the carrier stays at room temperature",
+      "D": "To ensure the carrier remains as heavy as possible during transport"
     },
-    "answer": "A",
-    "explanation": "The FEFO (First-Expiry, First-Out) principle ensures that vaccines expiring sooner are used before those with later expiration dates, minimizing wastage. [learn more](GNS214_U1_T65#GNS214_U1_T65_h5)"
+    "answer": "B",
+    "explanation": "Conditioned ice packs have warmed slightly to 0°C, preventing them from dropping below freezing inside the insulated carrier. [learn more](GNS214_U1_T65#GNS214_U1_T65_h5)"
   },
   {
     "question_id": "GNS214_U1_T65_h5_q2",
     "heading_id": "GNS214_U1_T65_h5",
     "article_id": "GNS214_U1_T65",
     "topic_id": "GNS214_U1_T65",
-    "question": "Why is ice pack conditioning important when packing vaccine carriers?",
+    "difficulty": "understanding",
+    "question": "Which storage practice is critical when organizing vaccines inside a facility refrigerator?",
     "options": {
-      "A": "To make the carrier heavier for transport",
-      "B": "To prevent freezing of heat-sensitive vaccines",
-      "C": "To freeze the liquid vaccines instantly",
-      "D": "To melt the ice completely before leaving"
+      "A": "Placing all liquid vaccines directly on the floor of the freezing compartment",
+      "B": "Storing diluents at room temperature on an open shelf outside the fridge",
+      "C": "Leaving adequate space between boxes to allow free air circulation",
+      "D": "Packing all vaccine boxes tightly against the cooling plates to save space"
     },
-    "answer": "B",
-    "explanation": "Conditioned ice packs prevent the accidental freezing of freeze-sensitive vaccines during transport in carriers. [learn more](GNS214_U1_T65#GNS214_U1_T65_h5)"
-  },
-  {
-    "question_id": "GNS214_U1_T65_h6_q1",
-    "heading_id": "GNS214_U1_T65_h6",
-    "article_id": "GNS214_U1_T65",
-    "topic_id": "GNS214_U1_T65",
-    "question": "What immediate action should a nurse take when a cold chain breach is suspected?",
-    "options": {
-      "A": "Administer the vaccines quickly before they spoil further",
-      "B": "Isolate the affected vaccines, label them 'Do Not Use', and report the incident",
-      "C": "Place the vaccines in direct sunlight to warm them up",
-      "D": "Throw them away without recording the incident"
-    },
-    "answer": "B",
-    "explanation": "Suspected vaccines must be isolated, clearly labeled to prevent accidental use, and reported to superiors for further evaluation. [learn more](GNS214_U1_T65#GNS214_U1_T65_h6)"
+    "answer": "C",
+    "explanation": "Airflow is necessary to maintain an even, uniform temperature throughout the interior cabinet of the storage unit. [learn more](GNS214_U1_T65#GNS214_U1_T65_h5)"
   },
   {
     "question_id": "GNS214_U1_T65_h6_q2",
     "heading_id": "GNS214_U1_T65_h6",
     "article_id": "GNS214_U1_T65",
     "topic_id": "GNS214_U1_T65",
-    "question": "Which of the following is a direct consequence of a cold chain breach?",
+    "difficulty": "recall",
+    "question": "Which action is NOT recommended when a suspected cold chain breach occurs in a clinic?",
     "options": {
-      "A": "Increased vaccine potency",
-      "B": "Wastage of vaccines and potential outbreaks of diseases",
-      "C": "Faster reconstitution of lyophilized vaccines",
-      "D": "Extended vaccine expiration dates"
+      "A": "Checking the temperature logs and data loggers for duration",
+      "B": "Immediately administering the suspected stock before checking logs",
+      "C": "Inspecting the Vaccine Vial Monitors on the compromised batches",
+      "D": "Quarantining the affected vials in a separate labeled container"
     },
     "answer": "B",
-    "explanation": "Cold chain breaches ruin vaccine potency, leading to vaccine wastage and the risk of disease outbreaks among unprotected recipients. [learn more](GNS214_U1_T65#GNS214_U1_T65_h6)"
+    "explanation": "Compromised stock must never be given out until a thorough assessment confirms whether the items are still viable. [learn more](GNS214_U1_T65#GNS214_U1_T65_h6)"
   },
   {
     "question_id": "GNS214_U1_T65_h7_q1",
     "heading_id": "GNS214_U1_T65_h7",
     "article_id": "GNS214_U1_T65",
     "topic_id": "GNS214_U1_T65",
-    "question": "What is the first step a nurse should take when a vaccine refrigerator shows rising temperatures during a power failure?",
+    "difficulty": "recall",
+    "question": "What is the first step healthcare staff should take when a vaccine refrigerator stops working?",
     "options": {
-      "A": "Open the door frequently to check the inside air",
-      "B": "Check power sources, ensure doors are tightly closed, and implement contingency plans",
-      "C": "Discard all vaccines immediately",
-      "D": "Turn off the refrigerator permanently"
+      "A": "Unscrew the cooling compressor to inspect internal mechanical parts",
+      "B": "Check the power source, electrical connections, and fuse integrity",
+      "C": "Call the national vaccine manufacturer in another country for advice",
+      "D": "Immediately dispose of all vaccine vials into the general waste bin"
     },
     "answer": "B",
-    "explanation": "Checking power sources and keeping doors closed helps maintain internal temperature while activating emergency backup plans. [learn more](GNS214_U1_T65#GNS214_U1_T65_h7)"
+    "explanation": "Simple electrical issues or unplugged cords are the most frequent causes of sudden refrigerator shutdowns and should be checked first. [learn more](GNS214_U1_T65#GNS214_U1_T65_h7)"
   },
   {
     "question_id": "GNS214_U1_T65_h7_q2",
     "heading_id": "GNS214_U1_T65_h7",
     "article_id": "GNS214_U1_T65",
     "topic_id": "GNS214_U1_T65",
-    "question": "What is a key component of a facility's cold chain contingency plan?",
+    "difficulty": "application",
+    "question": "A primary health clinic experiences a total power outage that is projected to last for several days. What is the most appropriate immediate nursing action?",
     "options": {
-      "A": "Pre-arranged backup storage agreements with neighboring facilities",
-      "B": "Storing all vaccines at room temperature",
-      "C": "Stopping all immunization activities permanently",
-      "D": "Depending solely on erratic electrical grids"
+      "A": "Administer all remaining doses immediately to any passing adult in the community",
+      "B": "Activate the facility contingency plan to transfer vaccines to a pre-arranged backup storage site",
+      "C": "Leave the refrigerator door closed and wait patiently for the grid power to return spontaneously",
+      "D": "Move all vaccine vials out into the open room air to let them cool down naturally"
     },
-    "answer": "A",
-    "explanation": "Having pre-arranged backup storage with nearby health facilities ensures vaccines can be quickly rescued during equipment failures. [learn more](GNS214_U1_T65#GNS214_U1_T65_h7)"
+    "answer": "B",
+    "explanation": "A contingency plan provides clear steps to relocate stock safely to an operational backup facility before internal temperatures rise. [learn more](GNS214_U1_T65#GNS214_U1_T65_h7)"
   }
 ]

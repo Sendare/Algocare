@@ -15,6 +15,8 @@ let answers = []; // { selected, isCorrect, showExplanation }
 let endTime = null; // absolute timestamp (ms) - survives refresh/backgrounding
 let pauseStartedAt = null; // timestamp (ms) when the current pause began, or null
 let timerInterval = null;
+let attemptId = null;
+let markTestFinished = () => {};
 
 function shuffle(arr) {
   const a = [...arr];
@@ -27,7 +29,7 @@ function shuffle(arr) {
 
 function saveState() {
   sessionStorage.setItem(STORAGE_KEY, JSON.stringify({
-    questions, current, answers, endTime, pauseStartedAt,
+    questions, current, answers, endTime, pauseStartedAt, attemptId,
   }));
 }
 
@@ -57,6 +59,7 @@ async function init() {
       answers = saved.answers;
       endTime = saved.endTime;
       pauseStartedAt = saved.pauseStartedAt ?? null;
+      attemptId = saved.attemptId;
     } else {
       let pool = [];
       if (topicId) {
@@ -76,7 +79,10 @@ async function init() {
       answers = new Array(questions.length).fill(null);
       endTime = Date.now() + questions.length * secondsPerQuestion * 1000;
       pauseStartedAt = null;
+      attemptId = generateAttemptId();
       saveState();
+
+      logTestStarted(attemptId, "practice", topicId || courseSlug, questions.length);
     }
   } catch (err) {
     document.getElementById("root").innerHTML =
@@ -90,10 +96,13 @@ async function init() {
     return;
   }
 
+  markTestFinished = trackAbandonment(
+    attemptId, "practice", topicId || courseSlug, questions.length,
+    () => answers.filter(a => a).length
+  );
+
   // Reconcile any pause that was active across a reload/background before
-  // checking whether time's up - otherwise a long background gap while
-  // paused could be wrongly read as "time expired" even though that whole
-  // gap should have been excluded from the countdown.
+  // checking whether time's up.
   reconcilePause();
 
   if (Date.now() >= endTime) {
@@ -110,13 +119,6 @@ function isPaused() {
   return !!(a && a.showExplanation);
 }
 
-/**
- * Single source of truth for pause bookkeeping. Call at the start of every
- * render() and once in init() after restoring state. Uses real timestamps
- * (not per-tick increments), so it's correct even if setInterval ticks get
- * throttled or dropped entirely while the tab is backgrounded - the elapsed
- * pause duration is always (now - pauseStartedAt), measured directly.
- */
 function reconcilePause() {
   if (isPaused()) {
     if (pauseStartedAt === null) {
@@ -134,7 +136,7 @@ function startTimer() {
   updateTimerDisplay();
   timerInterval = setInterval(() => {
     if (isPaused()) {
-      updateTimerDisplay(); // shows "PAUSED" - no countdown/expiry check while paused
+      updateTimerDisplay();
       return;
     }
     if (Date.now() >= endTime) {
@@ -192,7 +194,6 @@ function render() {
     </div>
   ` : "";
 
-  // Question card first, nav tabs below it - so the timer is visible while reading the question.
   document.getElementById("root").innerHTML = `
     <div class="test-layout">
       <div class="test-card">
@@ -218,11 +219,9 @@ function renderNavTabs() {
 }
 
 function parseExplanation(text, ownTopicId) {
-  // Explanation strings contain [learn more](topic_id#heading_id). Resolve
-  // topic_id to the real published article URL via site_index.
   return text.replace(/\[([^\]]+)\]\(([^)#]+)#([^)]+)\)/g, (match, label, tId, headingId) => {
     const entry = siteIndex.find(item => item.topic_id === tId);
-    if (!entry) return label; // fall back to plain text if not found
+    if (!entry) return label;
     return `<a href="../${entry.url}#${headingId}">${label}</a>`;
   });
 }
@@ -277,13 +276,16 @@ function selectAnswer(key) {
 
 function finishTest(timedOut) {
   clearInterval(timerInterval);
-  clearState();
 
   const total = questions.length;
   const attempted = answers.filter(a => a).length;
   const correct = answers.filter(a => a && a.isCorrect).length;
   const pctOfAttempted = attempted > 0 ? Math.round((correct / attempted) * 100) : 0;
   const pctOfTotal = Math.round((correct / total) * 100);
+
+  markTestFinished();
+  logTestFinished(attemptId, "practice", topicId || courseSlug, total, attempted, correct);
+  clearState();
 
   document.getElementById("root").innerHTML = `
     <div class="score-summary">
@@ -295,9 +297,12 @@ function finishTest(timedOut) {
         <p style="margin: 4px 0;">Score (of attempted): ${correct} out of ${attempted} · ${pctOfAttempted}%</p>
         <p style="margin: 4px 0;">Score (of all ${total}): ${correct} out of ${total} · ${pctOfTotal}%</p>
       </div>
+      <div id="reviewWidgetContainer"></div>
       <a class="btn" href="index.html" style="text-decoration:none; display:inline-block; margin-top: 16px;">Back to practice tests</a>
     </div>
   `;
+
+  attachReviewWidget("reviewWidgetContainer", "practice");
 }
 
 init();

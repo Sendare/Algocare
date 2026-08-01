@@ -4,239 +4,223 @@
     "heading_id": "GNS216_U6_T4_h1",
     "article_id": "GNS216_U6_T4",
     "topic_id": "GNS216_U6_T4",
-    "question": "What is the primary target of the Human Immunodeficiency Virus (HIV) within the human immune system?",
+    "difficulty": "recall",
+    "question": "What is the primary biological goal of antiretroviral therapy in HIV management?",
     "options": {
-      "A": "Red blood cells",
-      "B": "CD4+ T helper lymphocytes",
-      "C": "Platelets",
-      "D": "Neutrophils"
+      "A": "Complete eradication of the viral reservoir from the body",
+      "B": "Permanent stimulation of bone marrow cell production",
+      "C": "Neutralization of circulating antibodies in the blood",
+      "D": "Suppression of viral replication to undetectable levels"
     },
-    "answer": "B",
-    "explanation": "HIV specifically targets and destroys CD4+ T helper lymphocytes, which are essential for coordinating the body's immune response against infections. [learn more](GNS216_U6_T4#GNS216_U6_T4_h1)"
+    "answer": "D",
+    "explanation": "Current antiretroviral drugs cannot completely eradicate latent viral reservoirs, so the realistic primary goal is maximum and sustained suppression of viral replication. [learn more](GNS216_U6_T4#GNS216_U6_T4_h1)"
   },
   {
     "question_id": "GNS216_U6_T4_h1_q2",
     "heading_id": "GNS216_U6_T4_h1",
     "article_id": "GNS216_U6_T4",
     "topic_id": "GNS216_U6_T4",
-    "question": "What significant public health benefit is achieved when a patient on ART maintains an undetectable viral load?",
+    "difficulty": "understanding",
+    "question": "How does achieving sustained viral suppression directly benefit a patient's immune system?",
     "options": {
-      "A": "They become completely immune to all bacterial infections.",
-      "B": "They can safely stop taking their medication permanently.",
-      "C": "They cannot sexually transmit the virus to others.",
-      "D": "They will never experience any drug side effects."
+      "A": "It triggers immediate destruction of all dormant viral particles.",
+      "B": "It allows the CD4 cell count to gradually recover and increase.",
+      "C": "It eliminates the need for baseline kidney function testing.",
+      "D": "It permanently repairs damaged lymph node architecture."
     },
-    "answer": "C",
-    "explanation": "Achieving and maintaining an undetectable viral load through ART means the virus cannot be sexually transmitted to others, encapsulated by U=U. [learn more](GNS216_U6_T4#GNS216_U6_T4_h1)"
+    "answer": "B",
+    "explanation": "When active viral replication is halted, the ongoing destruction of helper T-cells stops, enabling the immune system to rebuild its CD4 counts over time. [learn more](GNS216_U6_T4#GNS216_U6_T4_h1)"
   },
   {
     "question_id": "GNS216_U6_T4_h2_q1",
     "heading_id": "GNS216_U6_T4_h2",
     "article_id": "GNS216_U6_T4",
     "topic_id": "GNS216_U6_T4",
-    "question": "What is considered a successful clinical outcome in terms of plasma HIV RNA viral load while on ART?",
+    "difficulty": "recall",
+    "question": "Which drug class prevents viral DNA from being inserted into the host cell chromosome?",
     "options": {
-      "A": "Below the limits of detection (fewer than 50 copies/mL)",
-      "B": "Exactly 10,000 copies/mL",
-      "C": "Fluctuating between 50,000 and 100,000 copies/mL",
-      "D": "Equal to the baseline pre-treatment level"
+      "A": "Non-nucleoside reverse transcriptase inhibitors",
+      "B": "Protease inhibitors",
+      "C": "Nucleoside reverse transcriptase inhibitors",
+      "D": "Integrase strand transfer inhibitors"
     },
-    "answer": "A",
-    "explanation": "The primary clinical goal is to suppress viral replication below the limits of detection, usually fewer than 50 copies per milliliter. [learn more](GNS216_U6_T4#GNS216_U6_T4_h2)"
+    "answer": "D",
+    "explanation": "Integrase inhibitors specifically block the enzyme integrase, which is responsible for splicing the genetic material of HIV into the host cell's own DNA. [learn more](GNS216_U6_T4#GNS216_U6_T4_h2)"
   },
   {
     "question_id": "GNS216_U6_T4_h2_q2",
     "heading_id": "GNS216_U6_T4_h2",
     "article_id": "GNS216_U6_T4",
     "topic_id": "GNS216_U6_T4",
-    "question": "How does ART contribute to prevention during pregnancy and breastfeeding?",
+    "difficulty": "understanding",
+    "question": "Why is combination therapy using multiple drug classes standard practice for HIV treatment?",
     "options": {
-      "A": "It induces permanent genetic immunity in the newborn.",
-      "B": "It prevents vertical transmission from mother to child.",
-      "C": "It eliminates the need for infant HIV testing entirely.",
-      "D": "It replaces the need for infant antiretroviral prophylaxis."
+      "A": "It bypasses the need for routine laboratory viral load testing.",
+      "B": "It forces the virus to mutate faster into milder strains.",
+      "C": "It interrupts several distinct stages of the viral life cycle simultaneously.",
+      "D": "It completely prevents any potential adverse metabolic side effects."
     },
-    "answer": "B",
-    "explanation": "ART utilization during pregnancy, labor, and breastfeeding is a core component of PMTCT, effectively preventing vertical transmission to infants. [learn more](GNS216_U6_T4#GNS216_U6_T4_h2)"
+    "answer": "C",
+    "explanation": "Attacking the virus at multiple different steps of its replication cycle overwhelms its mutation capacity and prevents rapid drug resistance. [learn more](GNS216_U6_T4#GNS216_U6_T4_h2)"
   },
   {
     "question_id": "GNS216_U6_T4_h3_q1",
     "heading_id": "GNS216_U6_T4_h3",
     "article_id": "GNS216_U6_T4",
     "topic_id": "GNS216_U6_T4",
-    "question": "How do Nucleoside/Nucleotide Reverse Transcriptase Inhibitors (NRTIs) primarily function?",
+    "difficulty": "recall",
+    "question": "What is the preferred anchor drug in current standard first-line ART regimens in Nigeria?",
     "options": {
-      "A": "They block the integration of viral DNA into host cell DNA.",
-      "B": "They act as faulty building blocks that terminate the viral DNA chain.",
-      "C": "They prevent the HIV virus from binding to host cell receptors.",
-      "D": "They inhibit the protease enzyme from cutting viral proteins."
+      "A": "Lopinavir",
+      "B": "Nevirapine",
+      "C": "Dolutegravir",
+      "D": "Efavirenz"
     },
-    "answer": "B",
-    "explanation": "NRTIs act as faulty building blocks that cause premature termination of the DNA chain being synthesized by the reverse transcriptase enzyme. [learn more](GNS216_U6_T4#GNS216_U6_T4_h3)"
+    "answer": "C",
+    "explanation": "Dolutegravir is an integrase inhibitor that is currently favored in national guidelines due to its high efficacy, rapid viral suppression, and high barrier to drug resistance. [learn more](GNS216_U6_T4#GNS216_U6_T4_h3)"
   },
   {
     "question_id": "GNS216_U6_T4_h3_q2",
     "heading_id": "GNS216_U6_T4_h3",
     "article_id": "GNS216_U6_T4",
     "topic_id": "GNS216_U6_T4",
-    "question": "What is the primary function of Integrase Strand Transfer Inhibitors (INSTIs)?",
+    "difficulty": "application",
+    "question": "A patient on a first-line TDF/3TC/DTG regimen experiences confirmed treatment failure due to viral rebound. What class of drug is typically introduced in the second-line regimen?",
     "options": {
-      "A": "They prevent viral genetic material from inserting into host cell DNA.",
-      "B": "They destroy mature viral capsids in the bloodstream.",
-      "C": "They stimulate the immediate production of CD4 cells.",
-      "D": "They block the entry of the virus through the mucous membranes."
+      "A": "Boosted protease inhibitors",
+      "B": "CCR5 co-receptor antagonists",
+      "C": "Non-nucleoside reverse transcriptase inhibitors",
+      "D": "Unboosted integrase strand transfer inhibitors"
     },
     "answer": "A",
-    "explanation": "INSTIs block the integrase enzyme, which stops HIV from inserting its genetic material into the human host cell's DNA. [learn more](GNS216_U6_T4#GNS216_U6_T4_h3)"
+    "explanation": "Second-line regimens typically switch the primary drug class to a ritonavir-boosted protease inhibitor combined with a fresh NRTI backbone after first-line failure. [learn more](GNS216_U6_T4#GNS216_U6_T4_h3)"
   },
   {
     "question_id": "GNS216_U6_T4_h4_q1",
     "heading_id": "GNS216_U6_T4_h4",
     "article_id": "GNS216_U6_T4",
     "topic_id": "GNS216_U6_T4",
-    "question": "What is the preferred first-line ART regimen for adults and adolescents in Nigeria?",
+    "difficulty": "recall",
+    "question": "Which baseline laboratory test is specifically required before prescribing a Tenofovir-containing regimen to protect patient safety?",
     "options": {
-      "A": "Zidovudine + Lamivudine + Efavirenz",
-      "B": "Tenofovir + Lamivudine + Dolutegravir",
-      "C": "Abacavir + Zidovudine + Lopinavir/ritonavir",
-      "D": "Tenofovir + Emtricitabine + Nevirapine"
+      "A": "Thyroid stimulating hormone",
+      "B": "Renal function tests",
+      "C": "Serum lipid profile",
+      "D": "Fast blood glucose"
     },
     "answer": "B",
-    "explanation": "The standard preferred first-line regimen in Nigeria combines Tenofovir Disoproxil Fumarate, Lamivudine, and Dolutegravir (TDF + 3TC + DTG). [learn more](GNS216_U6_T4#GNS216_U6_T4_h4)"
+    "explanation": "Tenofovir can cause nephrotoxicity, making baseline and ongoing assessment of kidney function via serum creatinine and calculated clearance critical. [learn more](GNS216_U6_T4#GNS216_U6_T4_h4)"
   },
   {
     "question_id": "GNS216_U6_T4_h4_q2",
     "heading_id": "GNS216_U6_T4_h4",
     "article_id": "GNS216_U6_T4",
     "topic_id": "GNS216_U6_T4",
-    "question": "When should a patient be switched to a second-line ART regimen?",
+    "difficulty": "understanding",
+    "question": "What is the clinical purpose of performing a baseline CD4 cell count prior to starting ART?",
     "options": {
-      "A": "Immediately after one month of starting first-line therapy.",
-      "B": "When persistent viral load rebound occurs despite good adherence.",
-      "C": "As soon as the patient reports mild transient nausea.",
-      "D": "Every six months regardless of viral load results."
+      "A": "To confirm the specific viral subtype infecting the patient",
+      "B": "To evaluate the current degree of immune system compromise",
+      "C": "To determine the precise dosing schedule of protease inhibitors",
+      "D": "To measure the metabolic clearance rate of the drugs"
     },
     "answer": "B",
-    "explanation": "Patients are transitioned to second-line regimens when first-line treatment fails, confirmed by persistent viral load rebound despite good adherence. [learn more](GNS216_U6_T4#GNS216_U6_T4_h4)"
+    "explanation": "The CD4 count measures helper T-lymphocyte levels, revealing how severely the immune system has been damaged and indicating risks for specific opportunistic infections. [learn more](GNS216_U6_T4#GNS216_U6_T4_h4)"
   },
   {
     "question_id": "GNS216_U6_T4_h5_q1",
     "heading_id": "GNS216_U6_T4_h5",
     "article_id": "GNS216_U6_T4",
     "topic_id": "GNS216_U6_T4",
-    "question": "What is the current policy regarding the timing of ART initiation in Nigeria?",
+    "difficulty": "recall",
+    "question": "What threshold of plasma viral load generally defines clinical treatment failure requiring intensive adherence counseling or regimen switch?",
     "options": {
-      "A": "Initiation immediately upon diagnosis regardless of CD4 count",
-      "B": "Waiting until the CD4 count drops below 200 cells/mm3",
-      "C": "Delaying treatment until WHO clinical stage 4 is reached",
-      "D": "Starting therapy only after treating all opportunistic infections for six months"
+      "A": "Above 10,000 copies/mL",
+      "B": "Above 50 copies/mL",
+      "C": "Above 500 copies/mL",
+      "D": "Above 1,000 copies/mL"
     },
-    "answer": "A",
-    "explanation": "Under the 'Test and Treat' policy, ART is initiated immediately upon HIV diagnosis regardless of clinical stage or CD4 count. [learn more](GNS216_U6_T4#GNS216_U6_T4_h5)"
+    "answer": "D",
+    "explanation": "National and international guidelines define virological failure as a viral load persistently above 1,000 copies/mL after at least six months of continuous therapy. [learn more](GNS216_U6_T4#GNS216_U6_T4_h5)"
   },
   {
     "question_id": "GNS216_U6_T4_h5_q2",
     "heading_id": "GNS216_U6_T4_h5",
     "article_id": "GNS216_U6_T4",
     "topic_id": "GNS216_U6_T4",
-    "question": "Which baseline laboratory investigation is essential to evaluate renal function before prescribing Tenofovir?",
+    "difficulty": "understanding",
+    "question": "A patient newly started on a regimen containing efavirenz reports vivid dreams and mild dizziness. What is the most appropriate initial nursing action?",
     "options": {
-      "A": "Serum electrolyte and creatinine clearance tests",
-      "B": "Sputum smear microscopy",
-      "C": "C-reactive protein level",
-      "D": "Hepatitis C viral load assay"
+      "A": "Reassure the patient that these central nervous system symptoms often subside within a few weeks.",
+      "B": "Immediately stop all antiretroviral medications permanently.",
+      "C": "Switch the patient immediately to a second-line protease inhibitor regimen.",
+      "D": "Double the dose of the medication to accelerate drug tolerance."
     },
     "answer": "A",
-    "explanation": "Renal function tests, including serum creatinine and creatinine clearance, are vital baseline evaluations, especially before starting Tenofovir-based regimens. [learn more](GNS216_U6_T4#GNS216_U6_T4_h5)"
+    "explanation": "Central nervous system side effects from efavirenz are common during the first few weeks of therapy and typically resolve on their own without requiring drug discontinuation. [learn more](GNS216_U6_T4#GNS216_U6_T4_h5)"
   },
   {
     "question_id": "GNS216_U6_T4_h6_q1",
     "heading_id": "GNS216_U6_T4_h6",
     "article_id": "GNS216_U6_T4",
     "topic_id": "GNS216_U6_T4",
-    "question": "What is considered the gold standard for monitoring the efficacy of ART in clinical practice?",
+    "difficulty": "understanding",
+    "question": "Why is concurrent administration of rifampicin for tuberculosis and certain antiretroviral drugs clinically challenging?",
     "options": {
-      "A": "Routine CD4 cell count testing every month",
-      "B": "Plasma viral load testing",
-      "C": "Measurement of erythrocyte sedimentation rate",
-      "D": "Regular body weight and BMI tracking"
+      "A": "Antiretroviral drugs completely neutralize the bactericidal action of rifampicin.",
+      "B": "Rifampicin alters liver enzymes and can lower antiretroviral blood concentrations.",
+      "C": "The combination causes immediate, irreversible renal failure.",
+      "D": "Rifampicin drastically increases bone marrow suppression."
     },
     "answer": "B",
-    "explanation": "Plasma viral load testing is the gold standard for monitoring ART efficacy and determining whether viral suppression has been achieved. [learn more](GNS216_U6_T4#GNS216_U6_T4_h6)"
+    "explanation": "Rifampicin is a potent hepatic enzyme inducer that accelerates the metabolism of various antiretrovirals, potentially reducing them to sub-therapeutic levels. [learn more](GNS216_U6_T4#GNS216_U6_T4_h6)"
   },
   {
     "question_id": "GNS216_U6_T4_h6_q2",
     "heading_id": "GNS216_U6_T4_h6",
     "article_id": "GNS216_U6_T4",
     "topic_id": "GNS216_U6_T4",
-    "question": "When is the first routine viral load test typically scheduled after initiating ART?",
+    "difficulty": "application",
+    "question": "A patient taking a protease inhibitor complains of persistent nausea after morning doses. What simple management strategy can a nurse suggest?",
     "options": {
-      "A": "At one month post-initiation",
-      "B": "At six months post-initiation",
-      "C": "At two years post-initiation",
-      "D": "Only when the patient develops opportunistic infections"
+      "A": "Skip the morning dose and take a double dose in the evening.",
+      "B": "Crush the tablets to speed up gastric emptying.",
+      "C": "Take the medication with food to decrease gastrointestinal irritation.",
+      "D": "Stop the medication for one week until nausea resolves."
     },
-    "answer": "B",
-    "explanation": "Routine viral load testing is generally scheduled at six months after initiating ART, at twelve months, and annually thereafter if stable. [learn more](GNS216_U6_T4#GNS216_U6_T4_h6)"
+    "answer": "C",
+    "explanation": "Many antiretroviral medications can be taken with food to alleviate mild gastrointestinal upset, improving overall patient comfort and adherence. [learn more](GNS216_U6_T4#GNS216_U6_T4_h6)"
   },
   {
     "question_id": "GNS216_U6_T4_h7_q1",
     "heading_id": "GNS216_U6_T4_h7",
     "article_id": "GNS216_U6_T4",
     "topic_id": "GNS216_U6_T4",
-    "question": "What is a key nursing strategy for managing mild, transient side effects experienced in the first few weeks of ART?",
+    "difficulty": "recall",
+    "question": "What is the approximate minimum level of medication adherence generally required to maintain viral suppression and prevent resistance?",
     "options": {
-      "A": "Advise the patient to stop taking all drugs immediately.",
-      "B": "Provide anticipatory guidance and practical tips like taking medications with food or at bedtime.",
-      "C": "Double the next dose to build tolerance.",
-      "D": "Switch the patient to a second-line regimen without consulting a doctor."
+      "A": "At least 85%",
+      "B": "At least 50%",
+      "C": "At least 95%",
+      "D": "At least 70%"
     },
-    "answer": "B",
-    "explanation": "Giving anticipatory guidance and practical strategies, such as timing doses with food or bedtime, helps patients manage mild early side effects effectively. [learn more](GNS216_U6_T4#GNS216_U6_T4_h7)"
+    "answer": "C",
+    "explanation": "Antiretroviral therapy requires near-perfect adherence—typically defined as taking at least 95% of doses on schedule—to prevent the virus from mutating and developing resistance. [learn more](GNS216_U6_T4#GNS216_U6_T4_h7)"
   },
   {
     "question_id": "GNS216_U6_T4_h7_q2",
     "heading_id": "GNS216_U6_T4_h7",
     "article_id": "GNS216_U6_T4",
     "topic_id": "GNS216_U6_T4",
-    "question": "Why is medication reconciliation important for patients taking Antiretroviral Therapy?",
+    "difficulty": "understanding",
+    "question": "What is the primary danger of chronic, low-level non-adherence to antiretroviral therapy?",
     "options": {
-      "A": "To identify and prevent harmful drug-drug interactions with TB meds, herbs, or other drugs",
-      "B": "To calculate the exact financial cost of the drugs",
-      "C": "To determine the patient's blood type",
-      "D": "To replace laboratory viral load testing"
-    },
-    "answer": "A",
-    "explanation": "Medication reconciliation ensures that harmful interactions between ART and other treatments, such as anti-TB drugs or herbal remedies, are identified and prevented. [learn more](GNS216_U6_T4#GNS216_U6_T4_h7)"
-  },
-  {
-    "question_id": "GNS216_U6_T4_h8_q1",
-    "heading_id": "GNS216_U6_T4_h8",
-    "article_id": "GNS216_U6_T4",
-    "topic_id": "GNS216_U6_T4",
-    "question": "What level of adherence is typically required to ensure continuous viral suppression and prevent drug resistance?",
-    "options": {
-      "A": "At least 50% of prescribed doses",
-      "B": "Taking medication only when symptoms appear",
-      "C": "At least 95% of prescribed doses correctly on time",
-      "D": "Taking double doses once a week"
+      "A": "Permanent physical tolerance to all drug classes",
+      "B": "Complete elimination of latent viral reservoirs",
+      "C": "Development of drug-resistant viral mutations",
+      "D": "Rapid healing of damaged CD4 receptors"
     },
     "answer": "C",
-    "explanation": "High adherence, defined as taking at least 95% of prescribed doses correctly on time, is necessary to maintain viral suppression and prevent resistance. [learn more](GNS216_U6_T4#GNS216_U6_T4_h8)"
-  },
-  {
-    "question_id": "GNS216_U6_T4_h8_q2",
-    "heading_id": "GNS216_U6_T4_h8",
-    "article_id": "GNS216_U6_T4",
-    "topic_id": "GNS216_U6_T4",
-    "question": "What is a major consequence of suboptimal or poor ART adherence?",
-    "options": {
-      "A": "Rapid clearance of the virus from the body",
-      "B": "Development of drug-resistant viral strains and treatment failure",
-      "C": "Permanent immunity to all other infections",
-      "D": "Automatic weight gain and increased energy"
-    },
-    "answer": "B",
-    "explanation": "Inconsistent medication intake allows viral replication under drug pressure, directly leading to drug-resistant viral strains and treatment failure. [learn more](GNS216_U6_T4#GNS216_U6_T4_h8)"
+    "explanation": "Incomplete adherence creates low drug concentrations in the blood that fail to suppress replication, giving the virus an opportunity to mutate and evade the drugs. [learn more](GNS216_U6_T4#GNS216_U6_T4_h7)"
   }
 ]

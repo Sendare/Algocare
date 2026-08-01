@@ -4,239 +4,223 @@
     "heading_id": "GNS125_U4_T5_h1",
     "article_id": "GNS125_U4_T5",
     "topic_id": "GNS125_U4_T5",
-    "question": "What primary position does the nurse hold in the medication administration process according to the text?",
+    "difficulty": "recall",
+    "question": "What is the minimum number of patient identifiers a nurse must use before administering any medication?",
     "options": {
-      "A": "The primary prescriber",
-      "B": "The final safeguard",
-      "C": "The sole manufacturer",
-      "D": "The financial auditor"
+      "A": "At least two unique identifiers",
+      "B": "Only the patient room number",
+      "C": "A single verbal confirmation of first name",
+      "D": "Checking the bed frame label"
     },
-    "answer": "B",
-    "explanation": "The text states that the nurse serves as the final safeguard between the prescribed drug and the patient. [learn more](GNS125_U4_T5#GNS125_U4_T5_h1)"
+    "answer": "A",
+    "explanation": "Relying on room numbers or bed labels leads to severe identification errors, making the use of at least two unique identifiers like name and date of birth mandatory. [learn more](GNS125_U4_T5#GNS125_U4_T5_h1)"
   },
   {
     "question_id": "GNS125_U4_T5_h1_q2",
     "heading_id": "GNS125_U4_T5_h1",
     "article_id": "GNS125_U4_T5",
     "topic_id": "GNS125_U4_T5",
-    "question": "Why is patient education considered an essential component of the nurse's role in drug administration?",
+    "difficulty": "understanding",
+    "question": "When is the correct time for a nurse to document a medication in the patient record?",
     "options": {
-      "A": "It replaces the need for doctors' prescriptions",
-      "B": "It empowers the patient and encourages adherence to the therapeutic regimen",
-      "C": "It reduces hospital billing costs",
-      "D": "It allows patients to prescribe their own drugs"
+      "A": "Immediately after the medication is given",
+      "B": "At the very end of the working shift",
+      "C": "Before the patient swallows the dose",
+      "D": "Right before leaving the medication room"
     },
-    "answer": "B",
-    "explanation": "Explaining the medication empowers the patient and encourages adherence to the therapeutic regimen. [learn more](GNS125_U4_T5#GNS125_U4_T5_h1)"
+    "answer": "A",
+    "explanation": "Documenting administration immediately after delivery ensures accuracy and prevents another healthcare worker from accidentally administering a duplicate dose. [learn more](GNS125_U4_T5#GNS125_U4_T5_h1)"
   },
   {
     "question_id": "GNS125_U4_T5_h2_q1",
     "heading_id": "GNS125_U4_T5_h2",
     "article_id": "GNS125_U4_T5",
     "topic_id": "GNS125_U4_T5",
-    "question": "How many times must the nurse compare the drug label against the medication administration record (MAR) during preparation?",
+    "difficulty": "recall",
+    "question": "Which vital sign must a nurse assess prior to administering a dose of digoxin?",
     "options": {
-      "A": "At least one time",
-      "B": "At least two times",
-      "C": "At least three times",
-      "D": "At least four times"
+      "A": "Peripheral oxygen saturation",
+      "B": "Respiratory depth",
+      "C": "Body temperature",
+      "D": "Apical pulse rate"
     },
-    "answer": "C",
-    "explanation": "The text specifies comparing the drug label against the MAR at least three times before administration. [learn more](GNS125_U4_T5#GNS125_U4_T5_h2)"
+    "answer": "D",
+    "explanation": "Digoxin slows conduction through the heart and can cause dangerous bradycardia, requiring a baseline apical pulse check to ensure safety before administration. [learn more](GNS125_U4_T5#GNS125_U4_T5_h2)"
   },
   {
     "question_id": "GNS125_U4_T5_h2_q2",
     "heading_id": "GNS125_U4_T5_h2",
     "article_id": "GNS125_U4_T5",
     "topic_id": "GNS125_U4_T5",
-    "question": "When should the nurse document the administration of a medication?",
+    "difficulty": "application",
+    "question": "A patient with a documented allergy to penicillin is prescribed ampicillin by the physician. What is the most appropriate immediate nursing action?",
     "options": {
-      "A": "Immediately before preparing the drug",
-      "B": "At the end of the shift from memory",
-      "C": "Immediately after it occurs",
-      "D": "Before handing out the morning medications"
+      "A": "Give half the prescribed dose to test for a reaction",
+      "B": "Hold the medication and notify the prescriber of the allergy",
+      "C": "Proceed with administration since ampicillin is a different drug",
+      "D": "Administer the drug alongside an antihistamine just in case"
     },
-    "answer": "C",
-    "explanation": "The right documentation mandates recording the administration immediately after it occurs, never before. [learn more](GNS125_U4_T5#GNS125_U4_T5_h2)"
+    "answer": "B",
+    "explanation": "Ampicillin belongs to the penicillin class, meaning cross-reactivity is extremely high; the nurse must protect the patient by withholding the drug and clarifying the order. [learn more](GNS125_U4_T5#GNS125_U4_T5_h2)"
   },
   {
     "question_id": "GNS125_U4_T5_h3_q1",
     "heading_id": "GNS125_U4_T5_h3",
     "article_id": "GNS125_U4_T5",
     "topic_id": "GNS125_U4_T5",
-    "question": "What specific assessment is necessary before administering the cardiac medication digoxin?",
+    "difficulty": "understanding",
+    "question": "What is the primary reason a nurse must perform an independent double-check for high-alert medications?",
     "options": {
-      "A": "Respiratory rate",
-      "B": "Apical pulse rate",
-      "C": "Body temperature",
-      "D": "Blood glucose level"
+      "A": "To comply with insurance requirements for hospital billing",
+      "B": "To catch potential calculation or dosing errors before administration",
+      "C": "To speed up the medication distribution process on busy wards",
+      "D": "To ensure the medication packaging is free of dust"
     },
     "answer": "B",
-    "explanation": "The text notes that administering digoxin requires checking the apical pulse rate beforehand. [learn more](GNS125_U4_T5#GNS125_U4_T5_h3)"
+    "explanation": "High-alert medications carry a high risk of causing significant patient harm if misused, making a second set of eyes a crucial safety barrier. [learn more](GNS125_U4_T5#GNS125_U4_T5_h3)"
   },
   {
     "question_id": "GNS125_U4_T5_h3_q2",
     "heading_id": "GNS125_U4_T5_h3",
     "article_id": "GNS125_U4_T5",
     "topic_id": "GNS125_U4_T5",
-    "question": "What is the correct physical positioning for a patient receiving oral medications to prevent aspiration?",
+    "difficulty": "recall",
+    "question": "What action should a nurse take when discovering a medication vial has an illegible expiration date?",
     "options": {
-      "A": "Sitting upright",
-      "B": "Flat on the back",
-      "C": "In the Trendelenburg position",
-      "D": "Lying strictly on the left side"
+      "A": "Store it in the refrigerator to prolong its shelf life safely",
+      "B": "Discard the medication and obtain a fresh, clearly labeled vial",
+      "C": "Use the medication if it appears clear and normal in color",
+      "D": "Ask a colleague to guess the expiration date based on stock arrival"
     },
-    "answer": "A",
-    "explanation": "Patient preparation involves positioning the patient correctly, such as sitting upright for oral medications to prevent aspiration. [learn more](GNS125_U4_T5#GNS125_U4_T5_h3)"
+    "answer": "B",
+    "explanation": "Compromised or unreadable labels make drug integrity unverifyable, requiring immediate disposal to protect patient safety. [learn more](GNS125_U4_T5#GNS125_U4_T5_h3)"
   },
   {
     "question_id": "GNS125_U4_T5_h4_q1",
     "heading_id": "GNS125_U4_T5_h4",
     "article_id": "GNS125_U4_T5",
     "topic_id": "GNS125_U4_T5",
-    "question": "Which types of medications often require a mandatory independent double-check by two nurses?",
+    "difficulty": "understanding",
+    "question": "Why must enteric-coated tablets never be crushed prior to oral administration?",
     "options": {
-      "A": "Over-the-counter vitamins",
-      "B": "High-alert medications like insulin and heparin",
-      "C": "Topical moisturizing lotions",
-      "D": "Normal saline flushes"
+      "A": "It turns the active chemical compound into an unstable precipitate",
+      "B": "It alters the flavor profile of the medication, making it unpalatable for the patient to swallow",
+      "C": "Crushing destroys the coating designed to protect the stomach lining or prevent stomach acid from destroying the drug",
+      "D": "Powdered tablets dissolve too slowly in the mouth to produce any therapeutic effect"
     },
-    "answer": "B",
-    "explanation": "The text states that high-alert medications, such as insulin, heparin, and opioids, often require a mandatory double-check system. [learn more](GNS125_U4_T5#GNS125_U4_T5_h4)"
+    "answer": "C",
+    "explanation": "Enteric coatings are engineered to withstand acidic gastric environments, and crushing them causes premature release that can irritate tissue or destroy the active ingredient. [learn more](GNS125_U4_T5#GNS125_U4_T5_h4)"
   },
   {
     "question_id": "GNS125_U4_T5_h4_q2",
     "heading_id": "GNS125_U4_T5_h4",
     "article_id": "GNS125_U4_T5",
     "topic_id": "GNS125_U4_T5",
-    "question": "What device should a nurse use to measure liquid medications accurately?",
+    "difficulty": "recall",
+    "question": "Which injection technique is commonly recommended for intramuscular injections to prevent tracking of irritating medications into subcutaneous tissue?",
     "options": {
-      "A": "Standard household kitchen spoons",
-      "B": "A regular dining fork",
-      "C": "Standardized measuring devices like oral syringes or calibrated cups",
-      "D": "Any available drinking glass"
+      "A": "Z-track technique",
+      "B": "Rapid dart insertion without stabilization",
+      "C": "Air-lock exclusion method",
+      "D": "Circular friction massage"
     },
-    "answer": "C",
-    "explanation": "Liquid medications must be measured using standardized measuring devices, such as oral syringes or calibrated medicine cups. [learn more](GNS125_U4_T5#GNS125_U4_T5_h4)"
+    "answer": "A",
+    "explanation": "The Z-track method displaces skin and tissue laterally before needle insertion, sealing the medication deep within the muscle upon release. [learn more](GNS125_U4_T5#GNS125_U4_T5_h4)"
   },
   {
     "question_id": "GNS125_U4_T5_h5_q1",
     "heading_id": "GNS125_U4_T5_h5",
     "article_id": "GNS125_U4_T5",
     "topic_id": "GNS125_U4_T5",
-    "question": "Which anatomical landmark is recommended for administering an intramuscular injection safely?",
+    "difficulty": "application",
+    "question": "An opioid analgesic was administered to a patient for severe postoperative pain. Which post-administration evaluation is most critical for the nurse to perform within an hour?",
     "options": {
-      "A": "The inner wrist",
-      "B": "The ventrogluteal or vastus lateralis site",
-      "C": "The upper chest wall",
-      "D": "The palm of the hand"
+      "A": "Measuring the patient's daily fluid intake and output balance",
+      "B": "Checking the surgical wound for signs of delayed healing",
+      "C": "Evaluating the patient's long-term dietary nutritional intake",
+      "D": "Reassessing the pain score and monitoring respiratory rate"
     },
-    "answer": "B",
-    "explanation": "When administering intramuscular injections, nurses must select appropriate anatomical landmarks, such as the ventrogluteal or vastus lateralis sites. [learn more](GNS125_U4_T5#GNS125_U4_T5_h5)"
+    "answer": "D",
+    "explanation": "Opioids effectively relieve pain but carry a primary risk of respiratory depression, making both pain reduction and respiratory monitoring essential safety priorities. [learn more](GNS125_U4_T5#GNS125_U4_T5_h5)"
   },
   {
     "question_id": "GNS125_U4_T5_h5_q2",
     "heading_id": "GNS125_U4_T5_h5",
     "article_id": "GNS125_U4_T5",
     "topic_id": "GNS125_U4_T5",
-    "question": "What is a primary requirement when administering medications via enteral tubes?",
+    "difficulty": "recall",
+    "question": "What is the correct nursing action if a patient vomits ten minutes after swallowing an oral medication?",
     "options": {
-      "A": "Mixing all drugs together into a paste",
-      "B": "Proper flushing before and after administration",
-      "C": "Crushing all enteric-coated tablets",
-      "D": "Injecting the drugs rapidly without dilution"
+      "A": "Immediately administer a duplicate dose without checking with anyone",
+      "B": "Document that the medication was fully absorbed before the vomiting occurred",
+      "C": "Inspect the vomitus for pill fragments, notify the prescriber, and document the event",
+      "D": "Wait until the next scheduled dose time to make up for the lost medication"
     },
-    "answer": "B",
-    "explanation": "Enteral tubes require proper flushing before and after administration to prevent clogging and ensure delivery. [learn more](GNS125_U4_T5#GNS125_U4_T5_h5)"
+    "answer": "C",
+    "explanation": "Checking vomitus helps determine if the drug was expelled, guiding the physician on whether a replacement dose is clinically safe and necessary. [learn more](GNS125_U4_T5#GNS125_U4_T5_h5)"
   },
   {
     "question_id": "GNS125_U4_T5_h6_q1",
     "heading_id": "GNS125_U4_T5_h6",
     "article_id": "GNS125_U4_T5",
     "topic_id": "GNS125_U4_T5",
-    "question": "What factor primarily determines the timeframe for post-administration monitoring?",
+    "difficulty": "understanding",
+    "question": "What is the immediate priority action a nurse must take upon discovering a medication error has occurred?",
     "options": {
-      "A": "The hospital's financial budget",
-      "B": "The pharmacokinetics of the drug",
-      "C": "The personal preference of the patient",
-      "D": "The availability of nursing staff"
+      "A": "Complete the institutional incident report form immediately",
+      "B": "Search for the colleague who prepared the medication",
+      "C": "Assess and monitor the patient's clinical condition",
+      "D": "Call the hospital legal department to report the incident"
     },
-    "answer": "B",
-    "explanation": "The text states that the timeframe for monitoring depends on the pharmacokinetics of the drug. [learn more](GNS125_U4_T5#GNS125_U4_T5_h6)"
+    "answer": "C",
+    "explanation": "Patient safety is always the primary concern, requiring immediate clinical assessment and stabilization before any administrative paperwork is completed. [learn more](GNS125_U4_T5#GNS125_U4_T5_h6)"
   },
   {
     "question_id": "GNS125_U4_T5_h6_q2",
     "heading_id": "GNS125_U4_T5_h6",
     "article_id": "GNS125_U4_T5",
     "topic_id": "GNS125_U4_T5",
-    "question": "What should be documented alongside the administration details to evaluate treatment effectiveness?",
+    "difficulty": "recall",
+    "question": "Which of the following describes the primary purpose of completing a medication incident report?",
     "options": {
-      "A": "The patient's insurance details",
-      "B": "The patient's post-administration response",
-      "C": "The cost of the medication",
-      "D": "The name of the manufacturing company"
+      "A": "To satisfy insurance claim adjustments for hospital costs",
+      "B": "To create permanent legal evidence for terminating staff",
+      "C": "To document nursing performance evaluations for promotion",
+      "D": "To identify systemic workflow issues and prevent future errors"
     },
-    "answer": "B",
-    "explanation": "Documenting the patient's post-administration response evaluates the effectiveness of the treatment. [learn more](GNS125_U4_T5#GNS125_U4_T5_h6)"
+    "answer": "D",
+    "explanation": "Incident reports serve as non-punitive quality improvement tools that help analyze underlying system failures to enhance safety protocols. [learn more](GNS125_U4_T5#GNS125_U4_T5_h6)"
   },
   {
     "question_id": "GNS125_U4_T5_h7_q1",
     "heading_id": "GNS125_U4_T5_h7",
     "article_id": "GNS125_U4_T5",
     "topic_id": "GNS125_U4_T5",
-    "question": "What is the nurse's immediate priority when a medication error is identified?",
+    "difficulty": "understanding",
+    "question": "A competent adult patient refuses to take a prescribed life-saving antibiotic. What is the nurse's primary ethical and legal obligation?",
     "options": {
-      "A": "Hiding the mistake from the team",
-      "B": "The patient's safety and well-being",
-      "C": "Filling out the insurance paperwork",
-      "D": "Writing an apology letter to the hospital management"
+      "A": "Crush the medication and mix it into food to ensure the patient receives it",
+      "B": "Ask family members to force the patient to swallow the tablets",
+      "C": "Persuade the patient by telling them they will certainly die without it",
+      "D": "Respect the patient's autonomy, document the refusal, and notify the physician"
     },
-    "answer": "B",
-    "explanation": "When an error is identified, the nurse's immediate priority is the patient's safety and well-being. [learn more](GNS125_U4_T5#GNS125_U4_T5_h7)"
+    "answer": "D",
+    "explanation": "Competent adults have the legal right to refuse treatment, and overriding this autonomy constitutes battery, making thorough documentation and physician notification the correct pathway. [learn more](GNS125_U4_T5#GNS125_U4_T5_h7)"
   },
   {
     "question_id": "GNS125_U4_T5_h7_q2",
     "heading_id": "GNS125_U4_T5_h7",
     "article_id": "GNS125_U4_T5",
     "topic_id": "GNS125_U4_T5",
-    "question": "What is the primary purpose of institutional incident or error-reporting forms?",
+    "difficulty": "recall",
+    "question": "Which statement best describes the legal liability of a nurse who administers an obviously lethal medication dose written by a physician?",
     "options": {
-      "A": "To punish staff members publicly",
-      "B": "For quality improvement and root-cause analysis",
-      "C": "To decrease nursing salaries",
-      "D": "To increase pharmaceutical sales"
+      "A": "The nurse is entirely blameless because they followed a doctor's order",
+      "B": "The hospital administration assumes total legal responsibility",
+      "C": "The pharmacist takes the blame for failing to intercept the order",
+      "D": "The nurse shares legal liability for administering the dangerous dose"
     },
-    "answer": "B",
-    "explanation": "Incident reports are designed for quality improvement and root-cause analysis, not for punitive actions. [learn more](GNS125_U4_T5#GNS125_U4_T5_h7)"
-  },
-  {
-    "question_id": "GNS125_U4_T5_h8_q1",
-    "heading_id": "GNS125_U4_T5_h8",
-    "article_id": "GNS125_U4_T5",
-    "topic_id": "GNS125_U4_T5",
-    "question": "What action should a nurse take if they believe a prescribed medication will harm the patient?",
-    "options": {
-      "A": "Administer it anyway to avoid conflict",
-      "B": "Refuse to administer it, communicate with the prescriber, and document the refusal",
-      "C": "Give half the dose quietly",
-      "D": "Ask another patient to take it"
-    },
-    "answer": "B",
-    "explanation": "Nurses have the responsibility to refuse a harmful medication, communicate with the prescriber, and document the refusal. [learn more](GNS125_U4_T5#GNS125_U4_T5_h8)"
-  },
-  {
-    "question_id": "GNS125_U4_T5_h8_q2",
-    "heading_id": "GNS125_U4_T5_h8",
-    "article_id": "GNS125_U4_T5",
-    "topic_id": "GNS125_U4_T5",
-    "question": "Which ethical principle supports a patient's right to refuse medication after being informed of the risks?",
-    "options": {
-      "A": "Autonomy",
-      "B": "Paternalism",
-      "C": "Veracity",
-      "D": "Fidelity"
-    },
-    "answer": "A",
-    "explanation": "Autonomy is respected by allowing patients to make educated decisions regarding treatment, including the right to refuse medication. [learn more](GNS125_U4_T5#GNS125_U4_T5_h8)"
+    "answer": "D",
+    "explanation": "Nurses act as independent legal agents in medication administration and are held accountable for recognizing and refusing clearly unsafe orders. [learn more](GNS125_U4_T5#GNS125_U4_T5_h7)"
   }
 ]
