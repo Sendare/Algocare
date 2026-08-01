@@ -4,209 +4,223 @@
     "heading_id": "GNS217_U4_T14_h1",
     "article_id": "GNS217_U4_T14",
     "topic_id": "GNS217_U4_T14",
-    "question": "What is the primary purpose of a t-test in nursing research?",
+    "difficulty": "recall",
+    "question": "What is the primary purpose of a t-test in quantitative research?",
     "options": {
-      "A": "To summarize demographic data using percentages",
-      "B": "To determine if there is a significant difference between the means of two groups",
-      "C": "To measure the exact incidence of a disease in a population",
-      "D": "To replace qualitative research methods entirely"
+      "A": "Measuring the correlation between variables",
+      "B": "Summarizing demographic characteristics",
+      "C": "Comparing the means of two groups",
+      "D": "Determining the frequency of categorical data"
     },
-    "answer": "B",
-    "explanation": "A t-test is specifically an inferential statistic used to evaluate whether the means of two groups are statistically significantly different from one another. [learn more](GNS217_U4_T14#GNS217_U4_T14_h1)"
+    "answer": "C",
+    "explanation": "A t-test specifically evaluates whether the average values of a numerical variable differ significantly between two conditions or groups. [learn more](GNS217_U4_T14#GNS217_U4_T14_h1)"
   },
   {
     "question_id": "GNS217_U4_T14_h1_q2",
     "heading_id": "GNS217_U4_T14_h1",
     "article_id": "GNS217_U4_T14",
     "topic_id": "GNS217_U4_T14",
-    "question": "How do inferential statistics, such as the t-test, differ from descriptive statistics?",
+    "difficulty": "understanding",
+    "question": "Why do nurse researchers use inferential statistics like the t-test instead of relying solely on descriptive statistics?",
     "options": {
-      "A": "They allow researchers to draw conclusions and generalize beyond the immediate sample data.",
-      "B": "They are only used in qualitative nursing studies.",
-      "C": "They are too complex to be applied in clinical settings.",
-      "D": "They only calculate simple averages and standard deviations."
+      "A": "To calculate exact percentages and demographic distributions of a study sample",
+      "B": "To eliminate the need for random sampling in clinical trials",
+      "C": "To convert qualitative interview transcripts into numerical data",
+      "D": "To test if observed differences between groups likely reflect true population effects"
     },
-    "answer": "A",
-    "explanation": "While descriptive statistics summarize data, inferential statistics allow researchers to make broader inferences and generalizations about a larger population. [learn more](GNS217_U4_T14#GNS217_U4_T14_h1)"
+    "answer": "D",
+    "explanation": "Descriptive statistics only describe the immediate sample, whereas inferential tests like the t-test help determine if findings can be generalized beyond that sample. [learn more](GNS217_U4_T14#GNS217_U4_T14_h1)"
   },
   {
     "question_id": "GNS217_U4_T14_h2_q1",
     "heading_id": "GNS217_U4_T14_h2",
     "article_id": "GNS217_U4_T14",
     "topic_id": "GNS217_U4_T14",
-    "question": "What does the null hypothesis (H0) typically state in a t-test analysis?",
+    "difficulty": "recall",
+    "question": "What does a null hypothesis typically propose about two groups being compared?",
     "options": {
-      "A": "There is a massive and undeniable difference between the groups.",
-      "B": "There is no significant difference or effect between the groups being studied.",
-      "C": "The sample size chosen by the researcher is too small.",
-      "D": "The alternative hypothesis is always proven correct."
+      "A": "There is a direct correlation between the variables",
+      "B": "There is no significant difference between their means",
+      "C": "The experimental group will have a higher mean",
+      "D": "The control group will have a lower mean"
     },
     "answer": "B",
-    "explanation": "The null hypothesis specifically assumes that there is no true difference or effect between the groups being compared. [learn more](GNS217_U4_T14#GNS217_U4_T14_h2)"
+    "explanation": "The null hypothesis serves as a baseline assumption that any observed difference is purely due to chance rather than an intervention. [learn more](GNS217_U4_T14#GNS217_U4_T14_h2)"
   },
   {
     "question_id": "GNS217_U4_T14_h2_q2",
     "heading_id": "GNS217_U4_T14_h2",
     "article_id": "GNS217_U4_T14",
     "topic_id": "GNS217_U4_T14",
-    "question": "What is the primary goal of performing a t-test in relation to the hypotheses?",
+    "difficulty": "understanding",
+    "question": "A researcher predicts that a structured exercise program will increase patient mobility scores, without specifying how much the increase will be. What type of hypothesis is this?",
     "options": {
-      "A": "To prove the null hypothesis beyond any doubt",
-      "B": "To evaluate evidence against the null hypothesis and decide whether to reject it",
-      "C": "To create new hypotheses for future qualitative studies",
-      "D": "To eliminate the need for sample data collection"
+      "A": "Directional alternative hypothesis",
+      "B": "Non-directional alternative hypothesis",
+      "C": "Null hypothesis",
+      "D": "Descriptive research question"
     },
-    "answer": "B",
-    "explanation": "The t-test provides statistical evidence that helps researchers determine if the data is strong enough to reject the null hypothesis in favor of the alternative. [learn more](GNS217_U4_T14#GNS217_U4_T14_h2)"
+    "answer": "A",
+    "explanation": "Predicting a specific direction of change, such as an increase in scores, constitutes a directional or one-tailed alternative hypothesis. [learn more](GNS217_U4_T14#GNS217_U4_T14_h2)"
   },
   {
     "question_id": "GNS217_U4_T14_h3_q1",
     "heading_id": "GNS217_U4_T14_h3",
     "article_id": "GNS217_U4_T14",
     "topic_id": "GNS217_U4_T14",
-    "question": "What level of measurement is typically required for the dependent variable in a t-test?",
+    "difficulty": "recall",
+    "question": "Which of the following is NOT an assumption required for a standard t-test?",
     "options": {
-      "A": "Nominal level only",
-      "B": "Ordinal level with only two categories",
-      "C": "Continuous scale, such as interval or ratio level",
-      "D": "Categorical ranking scale"
+      "A": "Observations within independent groups must be unrelated",
+      "B": "The dependent variable must be nominal categorical data",
+      "C": "The data should follow an approximately normal distribution",
+      "D": "The variances within each group should be roughly equal"
     },
-    "answer": "C",
-    "explanation": "T-tests require continuous dependent variables, such as blood pressure or weight, measured at the interval or ratio level. [learn more](GNS217_U4_T14#GNS217_U4_T14_h3)"
+    "answer": "B",
+    "explanation": "T-tests require continuous numerical data, not nominal categorical data like gender or blood type. [learn more](GNS217_U4_T14#GNS217_U4_T14_h3)"
   },
   {
     "question_id": "GNS217_U4_T14_h3_q2",
     "heading_id": "GNS217_U4_T14_h3",
     "article_id": "GNS217_U4_T14",
     "topic_id": "GNS217_U4_T14",
-    "question": "What does the assumption of homogeneity of variance mean?",
+    "difficulty": "understanding",
+    "question": "What statistical issue arises if the assumption of homogeneity of variance is severely violated in an independent samples t-test?",
     "options": {
-      "A": "The sample sizes of both groups must be identical.",
-      "B": "The variance of data in the two comparison groups should be roughly equal.",
-      "C": "The data must not follow a normal distribution curve.",
-      "D": "All participants must have the exact same clinical diagnosis."
+      "A": "The risk of a false positive conclusion increases",
+      "B": "The dependent variable becomes continuous",
+      "C": "The sample size automatically doubles",
+      "D": "The null hypothesis is automatically proven true"
     },
-    "answer": "B",
-    "explanation": "Homogeneity of variance refers to the condition where the spread or variance of data points is similar across the groups being compared. [learn more](GNS217_U4_T14#GNS217_U4_T14_h3)"
+    "answer": "A",
+    "explanation": "When variances are unequal and ignored, standard t-tests can yield inaccurate p-values, often inflating Type I error rates. [learn more](GNS217_U4_T14#GNS217_U4_T14_h3)"
   },
   {
     "question_id": "GNS217_U4_T14_h4_q1",
     "heading_id": "GNS217_U4_T14_h4",
     "article_id": "GNS217_U4_T14",
     "topic_id": "GNS217_U4_T14",
-    "question": "When should a nurse researcher use an independent samples t-test?",
+    "difficulty": "recall",
+    "question": "When is an independent samples t-test appropriate to use?",
     "options": {
-      "A": "When comparing two separate, unrelated groups of participants",
-      "B": "When measuring the same group of patients before and after an intervention",
-      "C": "When analyzing categorical demographic data like gender or blood type",
-      "D": "When there are more than three comparison groups in the study"
+      "A": "When measuring the same patient cohort at two different time points",
+      "B": "When analyzing three or more experimental groups simultaneously",
+      "C": "When evaluating categorical frequency distributions",
+      "D": "When comparing two separate, unrelated groups of participants"
     },
-    "answer": "A",
-    "explanation": "An independent samples t-test is designed to compare the means of two distinct, unrelated groups of subjects. [learn more](GNS217_U4_T14#GNS217_U4_T14_h4)"
+    "answer": "D",
+    "explanation": "An independent t-test is designed specifically for situations where two distinct groups provide separate sets of scores. [learn more](GNS217_U4_T14#GNS217_U4_T14_h4)"
   },
   {
     "question_id": "GNS217_U4_T14_h4_q2",
     "heading_id": "GNS217_U4_T14_h4",
     "article_id": "GNS217_U4_T14",
     "topic_id": "GNS217_U4_T14",
-    "question": "Which of the following scenarios best describes the use of a paired samples t-test?",
+    "difficulty": "application",
+    "question": "A nurse researcher measures the fasting blood glucose levels of patients before starting a low-carbohydrate diet and again after six weeks on the diet. Which statistical test should be used to analyze this data?",
     "options": {
-      "A": "Comparing the average blood loss of surgical patients in Lagos versus patients in Abuja",
-      "B": "Comparing diabetic patients' blood glucose levels upon hospital admission and again at discharge",
-      "C": "Comparing the staffing levels of night shift nurses versus day shift nurses",
-      "D": "Comparing patient satisfaction scores across four different hospital wards"
+      "A": "Paired samples t-test",
+      "B": "Chi-square test of independence",
+      "C": "Analysis of variance (ANOVA)",
+      "D": "Independent samples t-test"
     },
-    "answer": "B",
-    "explanation": "Measuring the same patients at two different times (admission and discharge) involves paired or dependent samples where each person acts as their own control. [learn more](GNS217_U4_T14#GNS217_U4_T14_h4)"
+    "answer": "A",
+    "explanation": "Because the same individuals are measured twice (before and after an intervention), their data points are paired, requiring a paired samples t-test. [learn more](GNS217_U4_T14#GNS217_U4_T14_h4)"
   },
   {
     "question_id": "GNS217_U4_T14_h5_q1",
     "heading_id": "GNS217_U4_T14_h5",
     "article_id": "GNS217_U4_T14",
     "topic_id": "GNS217_U4_T14",
-    "question": "What does a t-statistic of zero indicate about two groups being compared?",
+    "difficulty": "recall",
+    "question": "What does the numerator of the t-statistic formula represent?",
     "options": {
-      "A": "The sample means are identical with no observed difference.",
-      "B": "The study has achieved statistical significance.",
-      "C": "The sample size is too large to analyze.",
-      "D": "The null hypothesis should be automatically rejected."
+      "A": "The difference between the two group means",
+      "B": "The standard error of the sample",
+      "C": "The total number of study participants",
+      "D": "The established significance threshold"
     },
     "answer": "A",
-    "explanation": "A t-statistic of zero means there is no difference between the sample means being compared in the numerator of the formula. [learn more](GNS217_U4_T14#GNS217_U4_T14_h5)"
+    "explanation": "The numerator measures the actual observed difference between the averages of the two groups being evaluated. [learn more](GNS217_U4_T14#GNS217_U4_T14_h5)"
   },
   {
     "question_id": "GNS217_U4_T14_h5_q2",
     "heading_id": "GNS217_U4_T14_h5",
     "article_id": "GNS217_U4_T14",
     "topic_id": "GNS217_U4_T14",
-    "question": "How does an increase in the difference between group means affect the t-statistic?",
+    "difficulty": "understanding",
+    "question": "How does an increase in sample variability (noise) affect the resulting t-statistic, assuming the difference between means remains constant?",
     "options": {
-      "A": "It drives the t-statistic closer to zero.",
-      "B": "It makes the t-statistic larger in absolute value.",
-      "C": "It eliminates the need for degrees of freedom.",
-      "D": "It forces the null hypothesis to be accepted."
+      "A": "It has no impact on the t-statistic calculation",
+      "B": "It decreases the absolute value of the t-statistic",
+      "C": "It increases the absolute value of the t-statistic",
+      "D": "It automatically changes the degrees of freedom to zero"
     },
     "answer": "B",
-    "explanation": "A larger difference between group means increases the numerator of the t-formula, resulting in a larger absolute t-statistic value. [learn more](GNS217_U4_T14#GNS217_U4_T14_h5)"
+    "explanation": "Because variability sits in the denominator, larger variance increases the denominator, which drives the overall t-value down. [learn more](GNS217_U4_T14#GNS217_U4_T14_h5)"
   },
   {
     "question_id": "GNS217_U4_T14_h6_q1",
     "heading_id": "GNS217_U4_T14_h6",
     "article_id": "GNS217_U4_T14",
     "topic_id": "GNS217_U4_T14",
-    "question": "What does a p-value of 0.03 indicate in a nursing research study using an alpha level of 0.05?",
+    "difficulty": "recall",
+    "question": "What does a p-value of 0.03 indicate in the context of a nursing research study using an alpha level of 0.05?",
     "options": {
-      "A": "The results are statistically significant, so the null hypothesis can be rejected.",
-      "B": "The results are not statistically significant, so the null hypothesis must be retained.",
-      "C": "There is a 97% chance that the study was conducted incorrectly.",
-      "D": "The sample size was definitely too small to yield valid conclusions."
+      "A": "The null hypothesis is definitely proven true",
+      "B": "There is a 97% chance the intervention failed",
+      "C": "The result is statistically significant",
+      "D": "The sample size was too small to be valid"
     },
-    "answer": "A",
-    "explanation": "Because 0.03 is less than the alpha threshold of 0.05, the finding is statistically significant, allowing the researcher to reject the null hypothesis. [learn more](GNS217_U4_T14#GNS217_U4_T14_h6)"
+    "answer": "C",
+    "explanation": "A p-value below the standard 0.05 threshold falls below the cutoff for statistical significance, leading researchers to reject the null hypothesis. [learn more](GNS217_U4_T14#GNS217_U4_T14_h6)"
   },
   {
     "question_id": "GNS217_U4_T14_h6_q2",
     "heading_id": "GNS217_U4_T14_h6",
     "article_id": "GNS217_U4_T14",
     "topic_id": "GNS217_U4_T14",
-    "question": "What is the critical difference between statistical significance and clinical significance?",
+    "difficulty": "understanding",
+    "question": "What is the correct interpretation of a p-value?",
     "options": {
-      "A": "Statistical significance guarantees that patients will experience dramatic health improvements.",
-      "B": "Clinical significance refers to the practical, real-world value of a finding, whereas statistical significance only indicates likelihood against chance.",
-      "C": "Clinical significance is calculated using p-values, while statistical significance uses t-statistics.",
-      "D": "There is no difference; the terms are completely interchangeable in nursing."
+      "A": "The magnitude of the clinical effect produced by the nursing intervention",
+      "B": "The exact probability that the alternative hypothesis is completely false",
+      "C": "The probability of obtaining the observed results by chance if the null hypothesis is true",
+      "D": "The percentage of patients who experienced a positive clinical outcome"
     },
-    "answer": "B",
-    "explanation": "A result can be statistically significant due to mathematical probability or large sample size, but it may lack meaningful impact in actual patient care (clinical significance). [learn more](GNS217_U4_T14#GNS217_U4_T14_h6)"
+    "answer": "C",
+    "explanation": "The p-value measures how compatible the data are with the assumption that no real difference or effect exists in the wider population. [learn more](GNS217_U4_T14#GNS217_U4_T14_h6)"
   },
   {
     "question_id": "GNS217_U4_T14_h7_q1",
     "heading_id": "GNS217_U4_T14_h7",
     "article_id": "GNS217_U4_T14",
     "topic_id": "GNS217_U4_T14",
-    "question": "How might a public health nurse utilize an independent t-test in community practice?",
+    "difficulty": "understanding",
+    "question": "Why must nurse researchers look beyond a statistically significant p-value when evaluating a new clinical intervention?",
     "options": {
-      "A": "To track daily weather patterns affecting local clinics",
-      "B": "To compare infant birth weights between mothers who received prenatal nutrition counseling and those who did not",
-      "C": "To calculate the exact operating budget required for a rural health center",
-      "D": "To diagnose infectious diseases in individual patients"
+      "A": "A low p-value automatically proves that the intervention has zero side effects",
+      "B": "Statistical significance only matters when sample sizes are extremely small",
+      "C": "A statistically significant result may still represent a clinically trivial effect size",
+      "D": "Clinical relevance is completely unrelated to data analysis and p-values"
     },
-    "answer": "B",
-    "explanation": "Comparing two separate groups of mothers (counseling vs. no counseling) using birth weight as a continuous variable is a classic application for an independent t-test. [learn more](GNS217_U4_T14#GNS217_U4_T14_h7)"
+    "answer": "C",
+    "explanation": "Large sample sizes can yield significant p-values for very minor, clinically meaningless differences, requiring careful evaluation of practical impact. [learn more](GNS217_U4_T14#GNS217_U4_T14_h7)"
   },
   {
     "question_id": "GNS217_U4_T14_h7_q2",
     "heading_id": "GNS217_U4_T14_h7",
     "article_id": "GNS217_U4_T14",
     "topic_id": "GNS217_U4_T14",
-    "question": "Why is it important for clinical nurses to understand t-test results in published research?",
+    "difficulty": "application",
+    "question": "A study comparing two wound-care dressings reports a t-test result with p = 0.42. What should be the clinical takeaway for the nurse manager?",
     "options": {
-      "A": "It allows them to perform complex surgical procedures independently.",
-      "B": "It helps them evaluate the empirical basis of new interventions and apply them to bedside care.",
-      "C": "It replaces the need for clinical nursing judgment.",
-      "D": "It is only required for passing board examinations and has no practical use."
+      "A": "The traditional dressing is dangerous and should be banned immediately",
+      "B": "There is insufficient evidence to claim one dressing performs better than the other",
+      "C": "The new dressing is proven to accelerate wound healing significantly",
+      "D": "The study suffered from a severe lack of continuous numerical data"
     },
     "answer": "B",
-    "explanation": "Understanding t-tests enables nurses to critically appraise research literature and confidently adopt evidence-based practices that improve patient outcomes. [learn more](GNS217_U4_T14#GNS217_U4_T14_h7)"
+    "explanation": "A p-value of 0.42 is well above the 0.05 threshold, meaning any observed performance difference is likely due to chance rather than the dressings themselves. [learn more](GNS217_U4_T14#GNS217_U4_T14_h7)"
   }
 ]

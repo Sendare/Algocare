@@ -4,209 +4,223 @@
     "heading_id": "GNS217_U4_T12_h1",
     "article_id": "GNS217_U4_T12",
     "topic_id": "GNS217_U4_T12",
-    "question": "What is the primary definition of bivariate data in the context of a scatter diagram?",
+    "difficulty": "recall",
+    "question": "What type of data is primarily displayed using a scatter diagram?",
     "options": {
-      "A": "Data collected from two different healthcare facilities",
-      "B": "A set of data that has two different variables measured for each observation",
-      "C": "Data categorized into two distinct qualitative groups",
-      "D": "Measurements taken at two different times of the day"
+      "A": "Bivariate data",
+      "B": "Time-series aggregate data",
+      "C": "Nominal categorical data",
+      "D": "Univariate categorical data"
     },
-    "answer": "B",
-    "explanation": "Bivariate data refers specifically to data where two distinct variables are recorded for every individual subject or observation in a study. [learn more](GNS217_U4_T12#GNS217_U4_T12_h1)"
+    "answer": "A",
+    "explanation": "Scatter diagrams are specifically designed to plot pairs of continuous numerical variables to examine potential relationships between them. [learn more](GNS217_U4_T12#GNS217_U4_T12_h1)"
   },
   {
     "question_id": "GNS217_U4_T12_h1_q2",
     "heading_id": "GNS217_U4_T12_h1",
     "article_id": "GNS217_U4_T12",
     "topic_id": "GNS217_U4_T12",
-    "question": "How do scatter diagrams primarily differ from histograms or bar charts?",
+    "difficulty": "understanding",
+    "question": "On which axis is the independent variable conventionally placed in a standard scatter diagram?",
     "options": {
-      "A": "Scatter diagrams display single variables to show frequencies.",
-      "B": "Scatter diagrams are exclusively used for qualitative data analysis.",
-      "C": "Scatter diagrams are designed to evaluate the covariation and relationship between two paired numerical variables.",
-      "D": "Scatter diagrams cannot be used in nursing research."
+      "A": "The secondary legend axis",
+      "B": "The diagonal z-axis",
+      "C": "The vertical y-axis",
+      "D": "The horizontal x-axis"
     },
-    "answer": "C",
-    "explanation": "While histograms and bar charts display single variables, scatter diagrams are uniquely built to show the relationship between two paired numerical variables. [learn more](GNS217_U4_T12#GNS217_U4_T12_h1)"
+    "answer": "D",
+    "explanation": "Standard convention dictates that the predictor or independent variable is mapped along the horizontal axis, while the outcome variable is placed on the vertical axis. [learn more](GNS217_U4_T12#GNS217_U4_T12_h1)"
   },
   {
     "question_id": "GNS217_U4_T12_h2_q1",
     "heading_id": "GNS217_U4_T12_h2",
     "article_id": "GNS217_U4_T12",
     "topic_id": "GNS217_U4_T12",
-    "question": "Which of the following is a practical clinical use of a scatter diagram in a hospital setting?",
+    "difficulty": "recall",
+    "question": "What is the primary visual purpose of using a scatter diagram in healthcare research?",
     "options": {
-      "A": "Tracking daily medication administration schedules",
-      "B": "Evaluating the correlation between nurse-to-patient ratios and patient fall rates",
-      "C": "Counting the total number of hospital beds available",
-      "D": "Writing a patient discharge summary note"
+      "A": "To compare categorical disease frequencies across regions",
+      "B": "To evaluate potential relationships between two variables",
+      "C": "To track single-patient medication adherence over time",
+      "D": "To calculate exact hospital bed occupancy rates"
     },
     "answer": "B",
-    "explanation": "Scatter diagrams help evaluate relationships between two variables, such as staffing ratios and fall rates, supporting quality improvement initiatives. [learn more](GNS217_U4_T12#GNS217_U4_T12_h2)"
+    "explanation": "Scatter diagrams allow researchers to visually inspect whether and how two continuous variables move together before running statistical tests. [learn more](GNS217_U4_T12#GNS217_U4_T12_h2)"
   },
   {
     "question_id": "GNS217_U4_T12_h2_q2",
     "heading_id": "GNS217_U4_T12_h2",
     "article_id": "GNS217_U4_T12",
     "topic_id": "GNS217_U4_T12",
-    "question": "Why is it beneficial for nurses to understand scatter diagrams when reading research articles?",
+    "difficulty": "application",
+    "question": "A nurse researcher wants to quickly check if higher patient fluid intake relates to higher hourly urine output. Which graphical tool is best suited for this initial check?",
     "options": {
-      "A": "To accurately write patient prescriptions",
-      "B": "To critically appraise whether claimed correlations between clinical interventions and outcomes are sound",
-      "C": "To calculate hospital financial budgets",
-      "D": "To replace the need for clinical nursing judgment"
+      "A": "Scatter diagram",
+      "B": "Survival curve",
+      "C": "Pareto chart",
+      "D": "Pie chart"
     },
-    "answer": "B",
-    "explanation": "Understanding scatter plots enables nurses to critically evaluate research findings and determine if reported correlations are visually and statistically credible. [learn more](GNS217_U4_T12#GNS217_U4_T12_h2)"
+    "answer": "A",
+    "explanation": "Because fluid intake and urine output are two continuous variables measured on the same patients, a scatter diagram is the ideal tool to visualize their relationship. [learn more](GNS217_U4_T12#GNS217_U4_T12_h2)"
   },
   {
     "question_id": "GNS217_U4_T12_h3_q1",
     "heading_id": "GNS217_U4_T12_h3",
     "article_id": "GNS217_U4_T12",
     "topic_id": "GNS217_U4_T12",
-    "question": "Which axis conventionally represents the independent or presumed causal variable in a scatter diagram?",
+    "difficulty": "recall",
+    "question": "What do the individual plotted dots on a scatter diagram represent?",
     "options": {
-      "A": "The y-axis",
-      "B": "The diagonal axis",
-      "C": "The x-axis",
-      "D": "The center axis"
+      "A": "Average values calculated across multiple years",
+      "B": "Paired measurements for a single subject",
+      "C": "Cumulative totals for an entire hospital ward",
+      "D": "Categorical groupings of patient diagnoses"
     },
-    "answer": "C",
-    "explanation": "The horizontal x-axis is conventionally used to plot the independent or explanatory variable. [learn more](GNS217_U4_T12#GNS217_U4_T12_h3)"
+    "answer": "B",
+    "explanation": "Each point corresponds to one observation or study participant, showing their specific value on both the x and y variables. [learn more](GNS217_U4_T12#GNS217_U4_T12_h3)"
   },
   {
     "question_id": "GNS217_U4_T12_h3_q2",
     "heading_id": "GNS217_U4_T12_h3",
     "article_id": "GNS217_U4_T12",
     "topic_id": "GNS217_U4_T12",
-    "question": "Why is it important to use consistent and properly labeled scales on both axes of a scatter diagram?",
+    "difficulty": "understanding",
+    "question": "Why are consistent and equal numerical intervals essential when marking the axes of a scatter diagram?",
     "options": {
-      "A": "To prevent visual distortion of the data and ensure accurate interpretation",
-      "B": "To make the graph take up less physical space",
-      "C": "To hide extreme outliers from reviewers",
-      "D": "To eliminate the need for an independent variable"
+      "A": "To reduce the total number of required data points",
+      "B": "To eliminate the need for labeling measurement units",
+      "C": "To ensure the graph always forms a straight diagonal line",
+      "D": "To prevent visual distortion of the data relationship"
     },
-    "answer": "A",
-    "explanation": "Consistent scaling and clear labeling prevent visual distortion and allow for accurate interpretation of the plotted data points. [learn more](GNS217_U4_T12#GNS217_U4_T12_h3)"
+    "answer": "D",
+    "explanation": "Unequal or irregular axis scaling can falsely stretch or compress the visual pattern, leading to incorrect interpretations of correlation strength. [learn more](GNS217_U4_T12#GNS217_U4_T12_h3)"
   },
   {
     "question_id": "GNS217_U4_T12_h4_q1",
     "heading_id": "GNS217_U4_T12_h4",
     "article_id": "GNS217_U4_T12",
     "topic_id": "GNS217_U4_T12",
-    "question": "What is the very first step in constructing a scatter diagram?",
+    "difficulty": "recall",
+    "question": "What is the very first step required before plotting data points on a scatter diagram?",
     "options": {
-      "A": "Drawing the title at the top of the page",
-      "B": "Gathering a complete set of paired numerical data",
-      "C": "Calculating the correlation coefficient",
-      "D": "Erasing any abnormal data points"
+      "A": "Gathering valid paired numerical data for each subject",
+      "B": "Calculating the final correlation coefficient",
+      "C": "Removing all extreme outliers from the dataset",
+      "D": "Drawing a trend line through the center of the graph"
     },
-    "answer": "B",
-    "explanation": "Construction begins by collecting the paired bivariate data that will be analyzed and plotted on the grid. [learn more](GNS217_U4_T12#GNS217_U4_T12_h4)"
+    "answer": "A",
+    "explanation": "You must have paired observations for both variables before you can determine scales, draw axes, or plot coordinates. [learn more](GNS217_U4_T12#GNS217_U4_T12_h4)"
   },
   {
     "question_id": "GNS217_U4_T12_h4_q2",
     "heading_id": "GNS217_U4_T12_h4",
     "article_id": "GNS217_U4_T12",
     "topic_id": "GNS217_U4_T12",
-    "question": "How should the scale and range for the axes of a scatter diagram be determined?",
+    "difficulty": "understanding",
+    "question": "When plotting an individual coordinate point $(x, y)$, what action should be taken after locating the x-value on the horizontal axis?",
     "options": {
-      "A": "By randomly guessing numbers that fit on the paper",
-      "B": "By looking at the minimum and maximum values of the dataset",
-      "C": "By always making both axes range from 0 to 100",
-      "D": "By matching the scale used in the previous month's report"
+      "A": "Calculate the mean of all other y-values",
+      "B": "Shift the point to the nearest categorical grouping",
+      "C": "Move vertically upward or downward to the matching y-value",
+      "D": "Draw a horizontal line across the entire grid"
     },
-    "answer": "B",
-    "explanation": "Axes ranges are established by examining the minimum and maximum values of the dataset to ensure proper proportions and fit. [learn more](GNS217_U4_T12#GNS217_U4_T12_h4)"
+    "answer": "C",
+    "explanation": "Plotting requires finding the position on the horizontal axis and then moving perpendicular along the grid to meet the corresponding vertical measurement. [learn more](GNS217_U4_T12#GNS217_U4_T12_h4)"
   },
   {
     "question_id": "GNS217_U4_T12_h5_q1",
     "heading_id": "GNS217_U4_T12_h5",
     "article_id": "GNS217_U4_T12",
     "topic_id": "GNS217_U4_T12",
-    "question": "What does a negative correlation look like on a scatter diagram?",
+    "difficulty": "recall",
+    "question": "What pattern on a scatter diagram indicates a negative correlation between two variables?",
     "options": {
-      "A": "Data points trending upward from left to right",
-      "B": "Data points trending downward from left to right",
-      "C": "Data points forming a perfect circle",
-      "D": "Data points forming a horizontal straight line"
+      "A": "Points sloping downward from top-left to bottom-right",
+      "B": "Points arranged in a horizontal line parallel to the x-axis",
+      "C": "Points scattered randomly across the entire grid with no slope",
+      "D": "Points forming a tightly clustered upward diagonal line"
     },
-    "answer": "B",
-    "explanation": "A negative correlation is represented by points trending downward from left to right, showing that one variable decreases as the other increases. [learn more](GNS217_U4_T12#GNS217_U4_T12_h5)"
+    "answer": "A",
+    "explanation": "A downward slope indicates an inverse relationship where higher values on one axis correspond to lower values on the other. [learn more](GNS217_U4_T12#GNS217_U4_T12_h5)"
   },
   {
     "question_id": "GNS217_U4_T12_h5_q2",
     "heading_id": "GNS217_U4_T12_h5",
     "article_id": "GNS217_U4_T12",
     "topic_id": "GNS217_U4_T12",
-    "question": "How is a strong correlation visually represented on a scatter plot?",
+    "difficulty": "understanding",
+    "question": "How can a nurse researcher visually determine that two variables have a very strong correlation on a scatter plot?",
     "options": {
-      "A": "Data points are spread widely and randomly across the entire grid.",
-      "B": "Data points form a vertical line parallel to the y-axis.",
-      "C": "Data points cluster closely together around a narrow imaginary line.",
-      "D": "Data points are entirely missing from the center of the graph."
+      "A": "The data points cluster tightly around an imaginary straight line",
+      "B": "The points are spread evenly across all four quadrants",
+      "C": "The plotted points form a wide, dispersed cloud shape",
+      "D": "There are exactly equal numbers of points above and below the median"
     },
-    "answer": "C",
-    "explanation": "Strong correlations show data points tightly clustered around an imaginary trend line, indicating a consistent and predictable relationship. [learn more](GNS217_U4_T12#GNS217_U4_T12_h5)"
+    "answer": "A",
+    "explanation": "Tight clustering signifies a consistent, predictable relationship where knowing one variable allows for very accurate estimation of the other. [learn more](GNS217_U4_T12#GNS217_U4_T12_h5)"
   },
   {
     "question_id": "GNS217_U4_T12_h6_q1",
     "heading_id": "GNS217_U4_T12_h6",
     "article_id": "GNS217_U4_T12",
     "topic_id": "GNS217_U4_T12",
-    "question": "What defines an outlier on a scatter diagram?",
+    "difficulty": "recall",
+    "question": "What is an outlier in the context of a scatter diagram?",
     "options": {
-      "A": "A data point that lies abnormally far away from the general trend of the other points",
-      "B": "The central data point that sits directly on the intersection of the x and y axes",
-      "C": "Any data point plotted in the upper right quadrant",
-      "D": "A data point representing the average of all variables"
+      "A": "The central point where the x-axis and y-axis intersect",
+      "B": "A data point that perfectly touches the trend line",
+      "C": "A data point that lies far away from the main trend of points",
+      "D": "The highest numerical value recorded on the vertical axis"
     },
-    "answer": "A",
-    "explanation": "Outliers are data points that deviate significantly from the overall pattern or trend displayed by the rest of the dataset. [learn more](GNS217_U4_T12#GNS217_U4_T12_h6)"
+    "answer": "C",
+    "explanation": "Outliers are isolated data points that do not follow the general trend established by the rest of the bivariate observations. [learn more](GNS217_U4_T12#GNS217_U4_T12_h6)"
   },
   {
     "question_id": "GNS217_U4_T12_h6_q2",
     "heading_id": "GNS217_U4_T12_h6",
     "article_id": "GNS217_U4_T12",
     "topic_id": "GNS217_U4_T12",
-    "question": "Why is it necessary for nurse researchers to investigate identified outliers rather than immediately ignoring them?",
+    "difficulty": "understanding",
+    "question": "Why is it important for researchers to investigate identified outliers in health data before running statistical tests?",
     "options": {
-      "A": "To increase the total sample size of the study",
-      "B": "To determine if the outlier is a data entry error or a genuine, valuable clinical anomaly",
-      "C": "To ensure every patient has the same clinical outcome",
-      "D": "To eliminate the need for drawing axes on the scatter plot"
+      "A": "They guarantee that the sample size is large enough",
+      "B": "They are required to calculate the exact median of the x-axis",
+      "C": "They prove that the two variables have a negative correlation",
+      "D": "They may represent dangerous data entry errors or equipment faults"
     },
-    "answer": "B",
-    "explanation": "Investigating outliers helps distinguish between recording errors that need correction and genuine clinical anomalies that provide unique insights. [learn more](GNS217_U4_T12#GNS217_U4_T12_h6)"
+    "answer": "D",
+    "explanation": "Outliers can stem from simple clerical mistakes or faulty instruments, which would distort findings if left uncorrected. [learn more](GNS217_U4_T12#GNS217_U4_T12_h6)"
   },
   {
     "question_id": "GNS217_U4_T12_h7_q1",
     "heading_id": "GNS217_U4_T12_h7",
     "article_id": "GNS217_U4_T12",
     "topic_id": "GNS217_U4_T12",
-    "question": "What critical principle must nursing students remember when interpreting correlations on a scatter diagram?",
+    "difficulty": "recall",
+    "question": "Which of the following is NOT true regarding the interpretation of scatter diagrams?",
     "options": {
-      "A": "Correlation always proves direct causation.",
-      "B": "Correlation does not equal causation.",
-      "C": "Scatter diagrams eliminate the need for clinical judgment.",
-      "D": "Outliers always indicate equipment failure."
+      "A": "A clear visual pattern definitively proves direct causation",
+      "B": "Visual inspection should precede formal statistical calculations",
+      "C": "Non-linear patterns may be missed if only looking for straight lines",
+      "D": "Confounding variables can influence the observed relationship"
     },
-    "answer": "B",
-    "explanation": "A visible correlation on a scatter plot shows a relationship between variables, but it does not prove that one variable caused the other. [learn more](GNS217_U4_T12#GNS217_U4_T12_h7)"
+    "answer": "A",
+    "explanation": "Correlation shown on a scatter diagram indicates association between variables, but correlation does not equal causation. [learn more](GNS217_U4_T12#GNS217_U4_T12_h7)"
   },
   {
     "question_id": "GNS217_U4_T12_h7_q2",
     "heading_id": "GNS217_U4_T12_h7",
     "article_id": "GNS217_U4_T12",
     "topic_id": "GNS217_U4_T12",
-    "question": "How do scatter diagrams assist multidisciplinary healthcare teams in clinical settings?",
+    "difficulty": "application",
+    "question": "A scatter diagram shows a distinct U-shaped curve linking body temperature to a physiological response, but a straight trend line fails to show any correlation. What does this situation illustrate?",
     "options": {
-      "A": "By replacing all written patient nursing care plans",
-      "B": "By communicating complex health data and associations effectively",
-      "C": "By diagnosing infectious diseases automatically without laboratory tests",
-      "D": "By prescribing correct medication dosages directly"
+      "A": "The limitation of assuming only linear relationships",
+      "B": "The need to remove all outlying points from the sample",
+      "C": "The presence of a data entry error in the y-axis",
+      "D": "The total absence of any relationship between the variables"
     },
-    "answer": "B",
-    "explanation": "Scatter diagrams provide visual representations that help communicate complex health data and relationships clearly to healthcare teams. [learn more](GNS217_U4_T12#GNS217_U4_T12_h7)"
+    "answer": "A",
+    "explanation": "When variables share a non-linear or curvilinear pattern, standard linear checks can fail to capture the true relationship displayed on the plot. [learn more](GNS217_U4_T12#GNS217_U4_T12_h7)"
   }
 ]

@@ -4,179 +4,191 @@
     "heading_id": "GNS217_U4_T4_h1",
     "article_id": "GNS217_U4_T4",
     "topic_id": "GNS217_U4_T4",
-    "question": "What is the primary purpose of measures of central tendency in nursing research?",
+    "difficulty": "recall",
+    "question": "What is the primary purpose of descriptive statistics in healthcare research?",
     "options": {
-      "A": "To prove causation in clinical trials",
-      "B": "To provide a single representative value for a dataset",
-      "C": "To replace the need for data collection entirely",
-      "D": "To eliminate all variables in a study"
+      "A": "To prove a definitive causal link between two medical interventions",
+      "B": "To calculate the exact financial cost of a hospital ward",
+      "C": "To summarize and simplify large sets of numerical data",
+      "D": "To replace the need for direct patient observation and charting"
     },
-    "answer": "B",
-    "explanation": "Measures of central tendency are designed to summarize a dataset by providing a single, representative value that pinpoints the center of the scores. [learn more](GNS217_U4_T4#GNS217_U4_T4_h1)"
+    "answer": "C",
+    "explanation": "Descriptive statistics take raw, unorganized numbers and convert them into understandable summaries like averages or percentages. [learn more](GNS217_U4_T4#GNS217_U4_T4_h1)"
   },
   {
     "question_id": "GNS217_U4_T4_h1_q2",
     "heading_id": "GNS217_U4_T4_h1",
     "article_id": "GNS217_U4_T4",
     "topic_id": "GNS217_U4_T4",
-    "question": "Why is it important for nursing students to understand descriptive statistics?",
+    "difficulty": "understanding",
+    "question": "Why is relying solely on raw, unorganized clinical data usually impractical for hospital management?",
     "options": {
-      "A": "To perform surgical procedures independently",
-      "B": "To evaluate baseline patient characteristics and evidence-based guidelines",
-      "C": "To diagnose complex medical disorders without labs",
-      "D": "To replace hospital administrative staff"
+      "A": "Ethical guidelines prohibit the storage of unaggregated numerical figures",
+      "B": "Individual data points are too numerous to reveal overarching patterns easily",
+      "C": "Raw data prevents any form of clinical intervention from taking place",
+      "D": "Raw data automatically introduces calculation errors into the patient record"
     },
     "answer": "B",
-    "explanation": "Understanding descriptive statistics helps nurses evaluate baseline patient characteristics and accurately interpret evidence-based practice guidelines and research findings. [learn more](GNS217_U4_T4#GNS217_U4_T4_h1)"
+    "explanation": "Summarizing data allows administrators and researchers to grasp trends and typical values without getting overwhelmed by hundreds of individual figures. [learn more](GNS217_U4_T4#GNS217_U4_T4_h1)"
   },
   {
     "question_id": "GNS217_U4_T4_h2_q1",
     "heading_id": "GNS217_U4_T4_h2",
     "article_id": "GNS217_U4_T4",
     "topic_id": "GNS217_U4_T4",
-    "question": "How is the arithmetic mean calculated in a dataset?",
+    "difficulty": "recall",
+    "question": "How is the arithmetic mean of a dataset calculated?",
     "options": {
-      "A": "By finding the middle value after sorting the data",
-      "B": "By summing all individual values and dividing by the number of observations",
-      "C": "By identifying the most frequently occurring value",
-      "D": "By subtracting the lowest value from the highest value"
+      "A": "Subtracting the lowest value from the highest value in the set",
+      "B": "Finding the single data point that appears with the highest frequency",
+      "C": "Summing all values and dividing by the total number of observations",
+      "D": "Identifying the exact physical midpoint after ordering the values"
     },
-    "answer": "B",
-    "explanation": "The mean is calculated by adding up all the values in a dataset and then dividing that sum by the total number of observations. [learn more](GNS217_U4_T4#GNS217_U4_T4_h2)"
+    "answer": "C",
+    "explanation": "The mean is found by adding all the numbers together and dividing by how many numbers there are in the dataset. [learn more](GNS217_U4_T4#GNS217_U4_T4_h2)"
   },
   {
     "question_id": "GNS217_U4_T4_h2_q2",
     "heading_id": "GNS217_U4_T4_h2",
     "article_id": "GNS217_U4_T4",
     "topic_id": "GNS217_U4_T4",
-    "question": "What is a major limitation of using the mean in nursing research?",
+    "difficulty": "understanding",
+    "question": "A patient recovery ward records lengths of stay with one extremely long stay due to a rare infection. Which measure of central tendency will be most distorted by this extreme value?",
     "options": {
-      "A": "It cannot be calculated using a calculator",
-      "B": "It is completely unaffected by sample size",
-      "C": "It is highly sensitive to extreme outliers that can distort the average",
-      "D": "It can only be used for categorical data"
+      "A": "The mode",
+      "B": "The median",
+      "C": "The mean",
+      "D": "The range"
     },
     "answer": "C",
-    "explanation": "Because the mean includes every data point in its calculation, extreme values or outliers can skew the result, making it less representative of a typical patient experience. [learn more](GNS217_U4_T4#GNS217_U4_T4_h2)"
+    "explanation": "Because the mean factors in every single numerical value, an outlier or extreme score will pull the average significantly in its direction. [learn more](GNS217_U4_T4#GNS217_U4_T4_h2)"
   },
   {
     "question_id": "GNS217_U4_T4_h3_q1",
     "heading_id": "GNS217_U4_T4_h3",
     "article_id": "GNS217_U4_T4",
     "topic_id": "GNS217_U4_T4",
+    "difficulty": "recall",
     "question": "What is the median of a dataset?",
     "options": {
-      "A": "The most frequently occurring value",
-      "B": "The exact middle value when data is ordered numerically",
+      "A": "The most frequently occurring observation in the sample",
+      "B": "The middle value when the data is arranged in numerical order",
       "C": "The difference between the maximum and minimum values",
-      "D": "The sum of all values divided by two"
+      "D": "The sum of all values divided by the total number of items"
     },
     "answer": "B",
-    "explanation": "The median is defined as the middle value in a dataset that has been arranged in order from lowest to highest. [learn more](GNS217_U4_T4#GNS217_U4_T4_h3)"
+    "explanation": "The median splits the ordered dataset precisely in half, with fifty percent of the values falling above it and fifty percent falling below it. [learn more](GNS217_U4_T4#GNS217_U4_T4_h3)"
   },
   {
     "question_id": "GNS217_U4_T4_h3_q2",
     "heading_id": "GNS217_U4_T4_h3",
     "article_id": "GNS217_U4_T4",
     "topic_id": "GNS217_U4_T4",
-    "question": "Why is the median preferred over the mean when analyzing emergency department waiting times?",
+    "difficulty": "understanding",
+    "question": "Why is the median preferred over the mean when analyzing emergency department waiting times that include a few extremely long delays?",
     "options": {
-      "A": "Emergency wait times are always normally distributed",
-      "B": "The median is immune to extreme outliers like very long wait times",
-      "C": "The median is easier to calculate manually",
-      "D": "The mean cannot be used for time-based data"
+      "A": "The median is easier to calculate without a scientific calculator",
+      "B": "The median incorporates every single data point into the final sum",
+      "C": "The median is completely unaffected by extreme outlier values",
+      "D": "The median always results in a higher numerical value than the mean"
     },
-    "answer": "B",
-    "explanation": "Wait times are often skewed by a few patients who wait a long time; the median is robust against these outliers and provides a better typical value. [learn more](GNS217_U4_T4#GNS217_U4_T4_h3)"
+    "answer": "C",
+    "explanation": "Skewed data with extreme outliers distorts averages, whereas the median focuses purely on the positional center, ignoring the magnitude of extreme scores. [learn more](GNS217_U4_T4#GNS217_U4_T4_h3)"
   },
   {
     "question_id": "GNS217_U4_T4_h4_q1",
     "heading_id": "GNS217_U4_T4_h4",
     "article_id": "GNS217_U4_T4",
     "topic_id": "GNS217_U4_T4",
-    "question": "How is the mode defined in descriptive statistics?",
+    "difficulty": "recall",
+    "question": "What does the mode represent in a set of data?",
     "options": {
-      "A": "The value that occurs most frequently in a dataset",
-      "B": "The exact middle value of an ordered dataset",
-      "C": "The average of the highest and lowest scores",
-      "D": "The total sum of all categorical variables"
+      "A": "The value that sits directly in the center of an ordered list",
+      "B": "The spread between the highest and lowest recorded figures",
+      "C": "The exact mathematical average of all recorded scores",
+      "D": "The observation that occurs with the highest frequency"
     },
-    "answer": "A",
-    "explanation": "The mode is simply the value or category that appears with the highest frequency in the dataset. [learn more](GNS217_U4_T4#GNS217_U4_T4_h4)"
+    "answer": "D",
+    "explanation": "The mode looks at repetition, identifying which category or number shows up most often among the observations. [learn more](GNS217_U4_T4#GNS217_U4_T4_h4)"
   },
   {
     "question_id": "GNS217_U4_T4_h4_q2",
     "heading_id": "GNS217_U4_T4_h4",
     "article_id": "GNS217_U4_T4",
     "topic_id": "GNS217_U4_T4",
-    "question": "In which type of nursing data is the mode most uniquely useful?",
+    "difficulty": "application",
+    "question": "A community health nurse records the primary marital status of patients attending an antenatal clinic as single, married, or divorced. Which measure of central tendency is appropriate to report for this variable?",
     "options": {
-      "A": "Ratio data with continuous decimal points",
-      "B": "Nominal and categorical data like blood types or diagnoses",
-      "C": "Data with extreme outliers",
-      "D": "Interval data requiring precise mathematical calculation"
+      "A": "Mode",
+      "B": "Median",
+      "C": "Mean",
+      "D": "Variance"
     },
-    "answer": "B",
-    "explanation": "The mode is essential for nominal and categorical data—such as blood types or diagnoses—where mathematical operations like addition or division cannot be performed. [learn more](GNS217_U4_T4#GNS217_U4_T4_h4)"
+    "answer": "A",
+    "explanation": "Marital status is nominal categorical data, meaning it cannot be averaged or ranked, leaving the mode as the only valid measure of central tendency. [learn more](GNS217_U4_T4#GNS217_U4_T4_h4)"
   },
   {
     "question_id": "GNS217_U4_T4_h5_q1",
     "heading_id": "GNS217_U4_T4_h5",
     "article_id": "GNS217_U4_T4",
     "topic_id": "GNS217_U4_T4",
-    "question": "What is true about the mean, median, and mode in a perfectly normal, symmetrical distribution?",
+    "difficulty": "understanding",
+    "question": "In a positively skewed distribution, how do the mean and median typically relate to one another?",
     "options": {
-      "A": "They are all located at the exact same central point",
-      "B": "The mean is always higher than the median",
-      "C": "The mode is zero",
-      "D": "They cannot be calculated simultaneously"
+      "A": "The median is greater than the mean because low values anchor the center",
+      "B": "The mean and median remain identical regardless of data tailing",
+      "C": "The mean is greater than the median because high outliers pull it upward",
+      "D": "The median drops to zero while the mean rises to maximum capacity"
     },
-    "answer": "A",
-    "explanation": "In a symmetrical normal distribution, the mean, median, and mode coincide at the exact center of the dataset. [learn more](GNS217_U4_T4#GNS217_U4_T4_h5)"
+    "answer": "C",
+    "explanation": "Positive skewness features a tail of high values that mathematically drags the arithmetic mean higher than the positional median. [learn more](GNS217_U4_T4#GNS217_U4_T4_h5)"
   },
   {
     "question_id": "GNS217_U4_T4_h5_q2",
     "heading_id": "GNS217_U4_T4_h5",
     "article_id": "GNS217_U4_T4",
     "topic_id": "GNS217_U4_T4",
-    "question": "In a positively (right) skewed distribution, how do the mean and median typically relate to one another?",
+    "difficulty": "recall",
+    "question": "Which statement best describes a perfectly symmetrical, normal distribution of data?",
     "options": {
-      "A": "The mean is lower than the median",
-      "B": "The mean and median are identical",
-      "C": "The mean is higher than the median due to high outliers",
-      "D": "Both the mean and median equal the mode"
+      "A": "There is no mathematical relationship between the three metrics",
+      "B": "The mean, median, and mode are virtually identical values",
+      "C": "The mean sits well above the median due to extreme outliers",
+      "D": "The mode is always higher than both the mean and median"
     },
-    "answer": "C",
-    "explanation": "High outliers in a positively skewed distribution pull the arithmetic mean higher than the median. [learn more](GNS217_U4_T4#GNS217_U4_T4_h5)"
+    "answer": "B",
+    "explanation": "In a classic bell-shaped normal curve, the center of gravity aligns perfectly, placing the mean, median, and mode at the exact same point. [learn more](GNS217_U4_T4#GNS217_U4_T4_h5)"
   },
   {
     "question_id": "GNS217_U4_T4_h6_q1",
     "heading_id": "GNS217_U4_T4_h6",
     "article_id": "GNS217_U4_T4",
     "topic_id": "GNS217_U4_T4",
-    "question": "Which measure(s) of central tendency can be used for nominal data like blood groups or ward units?",
+    "difficulty": "understanding",
+    "question": "Why is calculating the mathematical mean of ordinal pain scores (where 1 = mild, 2 = moderate, 3 = severe) considered statistically invalid?",
     "options": {
-      "A": "Mean only",
-      "B": "Median only",
-      "C": "Mode only",
-      "D": "Mean and median"
+      "A": "Calculators are programmed to reject non-numerical categorical labels",
+      "B": "Severe pain automatically distorts the sample size calculation",
+      "C": "Ordinal data can only ever have a single mode representing the sample",
+      "D": "The intervals between ordinal ranks are not necessarily equal or quantifiable"
     },
-    "answer": "C",
-    "explanation": "Nominal data represents unordered categories, meaning arithmetic calculations cannot be performed, making the mode the only appropriate central tendency measure. [learn more](GNS217_U4_T4#GNS217_U4_T4_h6)"
+    "answer": "D",
+    "explanation": "Ordinal data shows order, but the distance between 'mild' and 'moderate' may not equal the distance between 'moderate' and 'severe', making addition and division meaningless. [learn more](GNS217_U4_T4#GNS217_U4_T4_h6)"
   },
   {
     "question_id": "GNS217_U4_T4_h6_q2",
     "heading_id": "GNS217_U4_T4_h6",
     "article_id": "GNS217_U4_T4",
     "topic_id": "GNS217_U4_T4",
-    "question": "Why is it mathematically inappropriate to calculate the mean for purely ordinal data, such as satisfaction rankings?",
+    "difficulty": "recall",
+    "question": "Which level of measurement allows for the use of ALL THREE measures of central tendency (mean, median, and mode)?",
     "options": {
-      "A": "Ordinal data has no categories",
-      "B": "The mathematical distance between ordinal ranking categories is not necessarily equal",
-      "C": "Ordinal data always contains extreme outliers",
-      "D": "Computers cannot process ordinal numbers"
+      "A": "Interval or ratio scale",
+      "B": "Ordinal scale only",
+      "C": "Nominal scale only",
+      "D": "Categorical scale only"
     },
-    "answer": "B",
-    "explanation": "Because the intervals between ranked categories in ordinal data are not guaranteed to be equal, computing an arithmetic mean is statistically invalid. [learn more](GNS217_U4_T4#GNS217_U4_T4_h6)"
+    "answer": "A",
+    "explanation": "True numerical data with equal intervals (interval and ratio scales) permits the calculation of modes, medians, and means. [learn more](GNS217_U4_T4#GNS217_U4_T4_h6)"
   }
 ]
