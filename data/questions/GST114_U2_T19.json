@@ -4,239 +4,191 @@
     "heading_id": "GST114_U2_T19_h1",
     "article_id": "GST114_U2_T19",
     "topic_id": "GST114_U2_T19",
-    "question": "What is the primary direction of inquiry in a case-control study?",
+    "difficulty": "recall",
+    "question": "What direction of inquiry best describes a case-control study?",
     "options": {
-      "A": "Forward from exposure to outcome",
-      "B": "Backward from outcome to exposure",
-      "C": "Experimental manipulation of variables",
-      "D": "Concurrent tracking of disease incidence"
+      "A": "Prospective inquiry moving from cause to effect",
+      "B": "Experimental inquiry manipulating the exposure status",
+      "C": "Retrospective inquiry moving from effect to cause",
+      "D": "Cross-sectional inquiry measuring exposure and outcome simultaneously"
     },
-    "answer": "B",
-    "explanation": "Case-control studies are retrospective, starting with individuals who have the outcome (cases) and looking backward to determine their past exposures compared to controls. [learn more](GST114_U2_T19#GST114_U2_T19_h1)"
+    "answer": "C",
+    "explanation": "Case-control studies begin with individuals who already have the disease or outcome and look backward in time to determine their prior exposure history. [learn more](GST114_U2_T19#GST114_U2_T19_h1)"
   },
   {
     "question_id": "GST114_U2_T19_h1_q2",
     "heading_id": "GST114_U2_T19_h1",
     "article_id": "GST114_U2_T19",
     "topic_id": "GST114_U2_T19",
-    "question": "Why are case-control studies particularly valuable in microbiological investigations?",
+    "difficulty": "understanding",
+    "question": "Why are case-control designs particularly useful during acute disease outbreaks in resource-limited settings?",
     "options": {
-      "A": "They prove definitive causation without bias",
-      "B": "They are expensive and require long follow-up periods",
-      "C": "They offer a rapid way to identify risk factors during outbreaks",
-      "D": "They replace the need for laboratory culture tests"
+      "A": "They can be conducted quickly with relatively small sample sizes",
+      "B": "They prove the absolute biological mechanism of pathogen transmission",
+      "C": "They require long-term follow-up of healthy populations",
+      "D": "They completely eliminate all forms of measurement bias"
     },
-    "answer": "C",
-    "explanation": "Case-control studies allow researchers to quickly investigate infectious outbreaks by comparing affected and unaffected individuals to find the source. [learn more](GST114_U2_T19#GST114_U2_T19_h1)"
+    "answer": "A",
+    "explanation": "Because cases are already identified and available, retrospective designs save time and financial resources during public health emergencies. [learn more](GST114_U2_T19#GST114_U2_T19_h1)"
   },
   {
     "question_id": "GST114_U2_T19_h2_q1",
     "heading_id": "GST114_U2_T19_h2",
     "article_id": "GST114_U2_T19",
     "topic_id": "GST114_U2_T19",
-    "question": "What is a mandatory characteristic of the control group in a case-control study?",
+    "difficulty": "recall",
+    "question": "What primary characteristic must a control group possess in a valid case-control study?",
     "options": {
-      "A": "They must have already recovered from the disease",
-      "B": "They must be at risk of developing the disease",
-      "C": "They must have a higher exposure rate than the cases",
-      "D": "They must be selected from a different geographical region"
+      "A": "They must have a higher socioeconomic status than the cases",
+      "B": "They must already show early, subclinical signs of the disease",
+      "C": "They must be completely immune to the infectious agent",
+      "D": "They must come from the same source population as the cases"
     },
-    "answer": "B",
-    "explanation": "Controls must originate from the same source population and be at risk of developing the outcome of interest to ensure a valid comparison. [learn more](GST114_U2_T19#GST114_U2_T19_h2)"
+    "answer": "D",
+    "explanation": "Controls must be representative of the population that generated the cases to prevent selection bias from distorting the association. [learn more](GST114_U2_T19#GST114_U2_T19_h2)"
   },
   {
     "question_id": "GST114_U2_T19_h2_q2",
     "heading_id": "GST114_U2_T19_h2",
     "article_id": "GST114_U2_T19",
     "topic_id": "GST114_U2_T19",
-    "question": "How are exposure histories typically gathered in a retrospective case-control design?",
+    "difficulty": "understanding",
+    "question": "A researcher selects hospital patients with severe malaria as cases and healthy neighborhood volunteers as controls. What major methodological pitfall does this introduce?",
     "options": {
-      "A": "By randomly assigning microbial pathogens to participants",
-      "B": "By observing participants prospectively over ten years",
-      "C": "Through medical records, interviews, or past laboratory logs",
-      "D": "By mathematically predicting future infection rates"
+      "A": "Reverse causality where the outcome causes the exposure",
+      "B": "Information bias resulting from inaccurate laboratory equipment",
+      "C": "Selection bias due to differing baseline health-seeking behaviors",
+      "D": "Confounding by age and sex in every participant"
     },
     "answer": "C",
-    "explanation": "Because case-control studies look backward, exposure data is gathered retrospectively using existing records, interviews, or lab results. [learn more](GST114_U2_T19#GST114_U2_T19_h2)"
+    "explanation": "Hospital cases and community controls often differ systematically in healthcare access and underlying health status, threatening study validity. [learn more](GST114_U2_T19#GST114_U2_T19_h2)"
   },
   {
     "question_id": "GST114_U2_T19_h3_q1",
     "heading_id": "GST114_U2_T19_h3",
     "article_id": "GST114_U2_T19",
     "topic_id": "GST114_U2_T19",
-    "question": "What is the primary danger of poor case definition in a microbiological study?",
+    "difficulty": "recall",
+    "question": "What is the primary danger of recall bias in retrospective exposure assessment?",
     "options": {
-      "A": "It speeds up the data collection process",
-      "B": "It leads to misclassification and distorted study results",
-      "C": "It eliminates the need for a control group",
-      "D": "It guarantees a statistically significant odds ratio"
+      "A": "Cases remember past exposures differently than healthy controls",
+      "B": "Researchers accidentally reveal group allocations to participants",
+      "C": "Study subjects refuse to participate in hospital interviews",
+      "D": "Laboratory instruments misidentify the causative microorganism"
     },
-    "answer": "B",
-    "explanation": "An unclear case definition can lead to misclassification, where healthy people are grouped as cases or vice versa, ruining study validity. [learn more](GST114_U2_T19#GST114_U2_T19_h3)"
+    "answer": "A",
+    "explanation": "Individuals suffering from a serious illness often search their memories more intensively for causes, leading to differential reporting compared to healthy controls. [learn more](GST114_U2_T19#GST114_U2_T19_h3)"
   },
   {
     "question_id": "GST114_U2_T19_h3_q2",
     "heading_id": "GST114_U2_T19_h3",
     "article_id": "GST114_U2_T19",
     "topic_id": "GST114_U2_T19",
-    "question": "Why is matching used when selecting controls in case-control studies?",
+    "difficulty": "understanding",
+    "question": "How do researchers best protect against interviewer bias during data collection in a case-control study?",
     "options": {
-      "A": "To ensure cases and controls are similar regarding key confounding variables",
-      "B": "To ensure that all participants develop the infection",
-      "C": "To eliminate the need for statistical data analysis",
-      "D": "To guarantee that the study is conducted prospectively"
+      "A": "Providing leading questions to ensure participants remember the exposure",
+      "B": "Conducting interviews only after the data analysis phase is completed",
+      "C": "Allowing interviewers to choose which patients fit the diagnostic criteria",
+      "D": "Using blinded interviewers who do not know whether a participant is a case or a control"
     },
-    "answer": "A",
-    "explanation": "Matching helps control for confounding variables by ensuring that both groups share similar baseline characteristics like age or ward placement. [learn more](GST114_U2_T19#GST114_U2_T19_h3)"
+    "answer": "D",
+    "explanation": "Blinding the personnel collecting data prevents them from subconsciously guiding or probing cases and controls differently. [learn more](GST114_U2_T19#GST114_U2_T19_h3)"
   },
   {
     "question_id": "GST114_U2_T19_h4_q1",
     "heading_id": "GST114_U2_T19_h4",
     "article_id": "GST114_U2_T19",
     "topic_id": "GST114_U2_T19",
-    "question": "What is recall bias in the context of case-control exposure assessment?",
+    "difficulty": "recall",
+    "question": "What does an odds ratio of 1.0 signify in a case-control study?",
     "options": {
-      "A": "The tendency of laboratories to misidentify bacterial strains",
-      "B": "When cases remember past exposures differently or more intensely than controls",
-      "C": "The complete loss of participant records over time",
-      "D": "When researchers intentionally alter exposure data"
+      "A": "The exposure is a major protective factor against illness",
+      "B": "The study sample size is too small to yield results",
+      "C": "The researchers made an error in diagnostic classification",
+      "D": "The exposure has no association with the disease"
     },
-    "answer": "B",
-    "explanation": "Recall bias happens when sick individuals (cases) search their memory more thoroughly for exposures than healthy controls, skewing results. [learn more](GST114_U2_T19#GST114_U2_T19_h4)"
+    "answer": "D",
+    "explanation": "An odds ratio of 1 means the odds of exposure among cases are identical to the odds of exposure among controls. [learn more](GST114_U2_T19#GST114_U2_T19_h4)"
   },
   {
     "question_id": "GST114_U2_T19_h4_q2",
     "heading_id": "GST114_U2_T19_h4",
     "article_id": "GST114_U2_T19",
     "topic_id": "GST114_U2_T19",
-    "question": "Why is objective documentation preferred over self-reporting in exposure assessment?",
+    "difficulty": "application",
+    "question": "In a study investigating a foodborne bacterial outbreak, the calculated odds ratio for eating contaminated egg salad is 4.5. What is the correct interpretation?",
     "options": {
-      "A": "It completely eliminates the need for statistical calculations",
-      "B": "It reduces reliance on patient memory and minimizes bias",
-      "C": "It is always cheaper to obtain than interviews",
-      "D": "It ensures that the study becomes a randomized controlled trial"
+      "A": "People who ate the egg salad had 4.5 times higher odds of developing the illness",
+      "B": "There is a 4.5 percent chance that the outbreak was caused by bacteria",
+      "C": "The controls were 4.5 times more likely to be exposed than the cases",
+      "D": "The incidence rate of the disease in the population is exactly 4.5 percent"
     },
-    "answer": "B",
-    "explanation": "Using medical charts and lab records provides verifiable data that is not dependent on a patient's memory or subjective recall. [learn more](GST114_U2_T19#GST114_U2_T19_h4)"
+    "answer": "A",
+    "explanation": "An odds ratio of 4.5 indicates that the exposure is strongly associated with higher odds of contracting the condition. [learn more](GST114_U2_T19#GST114_U2_T19_h4)"
   },
   {
     "question_id": "GST114_U2_T19_h5_q1",
     "heading_id": "GST114_U2_T19_h5",
     "article_id": "GST114_U2_T19",
     "topic_id": "GST114_U2_T19",
-    "question": "What does an odds ratio (OR) of 1.0 indicate in a case-control study?",
+    "difficulty": "recall",
+    "question": "What defines a confounding variable in an epidemiological study?",
     "options": {
-      "A": "The exposure is a strong protective factor against the disease",
-      "B": "The exposure is strongly associated with the disease",
-      "C": "There is no association between the exposure and the disease",
-      "D": "The study results are completely invalid"
+      "A": "An error made by the laboratory technician when reading diagnostic plates",
+      "B": "A measurement tool that yields different values on repeated testing",
+      "C": "A factor associated with both the exposure and the outcome, distorting the true association",
+      "D": "A deliberate intervention introduced by the investigator to change outcomes"
     },
     "answer": "C",
-    "explanation": "An odds ratio of 1.0 means the odds of exposure are identical in both cases and controls, showing no association. [learn more](GST114_U2_T19#GST114_U2_T19_h5)"
+    "explanation": "Confounders create a false association or mask a real one because they independently relate to both the suspected risk factor and the disease. [learn more](GST114_U2_T19#GST114_U2_T19_h5)"
   },
   {
     "question_id": "GST114_U2_T19_h5_q2",
     "heading_id": "GST114_U2_T19_h5",
     "article_id": "GST114_U2_T19",
     "topic_id": "GST114_U2_T19",
-    "question": "Why is the odds ratio used instead of relative risk in case-control studies?",
+    "difficulty": "understanding",
+    "question": "Which strategy is most effective for controlling for known confounding variables during the design phase of a case-control study?",
     "options": {
-      "A": "Because total population incidence cannot be directly measured",
-      "B": "Because relative risk can only be calculated in laboratory settings",
-      "C": "Because the odds ratio eliminates all forms of confounding bias",
-      "D": "Because case-control studies always use prospective data collection"
+      "A": "Switching the study design from retrospective to prospective cohort",
+      "B": "Increasing the overall sample size by a factor of ten",
+      "C": "Matching controls to cases based on confounding characteristics like age and sex",
+      "D": "Excluding all participants who develop symptoms during the study"
     },
-    "answer": "A",
-    "explanation": "Since case-control studies select participants based on disease status rather than sampling the whole population, true incidence and relative risk cannot be directly calculated. [learn more](GST114_U2_T19#GST114_U2_T19_h5)"
+    "answer": "C",
+    "explanation": "Matching ensures that the case and control groups are comparable regarding potential confounders, neutralizing their distorting effect. [learn more](GST114_U2_T19#GST114_U2_T19_h5)"
   },
   {
     "question_id": "GST114_U2_T19_h6_q1",
     "heading_id": "GST114_U2_T19_h6",
     "article_id": "GST114_U2_T19",
     "topic_id": "GST114_U2_T19",
-    "question": "What defines a confounding variable in a case-control study?",
+    "difficulty": "recall",
+    "question": "Which of the following is NOT a recognized advantage of a case-control study?",
     "options": {
-      "A": "A variable that is unrelated to both disease and exposure",
-      "B": "A factor associated with both the exposure and the disease",
-      "C": "An error made by the laboratory technician during culture",
-      "D": "A deliberate experimental intervention implemented by the nurse"
+      "A": "They can definitively establish the exact incidence rate of a disease",
+      "B": "They require fewer study participants than large cohort studies",
+      "C": "They are relatively inexpensive and quick to conduct",
+      "D": "They are excellent for studying rare diseases with long latency periods"
     },
-    "answer": "B",
-    "explanation": "A confounder is linked to both the exposure and the outcome, creating a false association or masking the true relationship. [learn more](GST114_U2_T19#GST114_U2_T19_h6)"
+    "answer": "A",
+    "explanation": "Because case-control studies start with diseased and non-diseased groups, they cannot calculate absolute disease incidence or prevalence. [learn more](GST114_U2_T19#GST114_U2_T19_h6)"
   },
   {
     "question_id": "GST114_U2_T19_h6_q2",
     "heading_id": "GST114_U2_T19_h6",
     "article_id": "GST114_U2_T19",
     "topic_id": "GST114_U2_T19",
-    "question": "How can researchers control for confounding during the design phase of a study?",
+    "difficulty": "understanding",
+    "question": "Why is establishing a clear temporal sequence often challenging in a retrospective case-control design?",
     "options": {
-      "A": "By ignoring extraneous variables",
-      "B": "Through matching or restriction",
-      "C": "By increasing recall bias among cases",
-      "D": "By altering the odds ratio calculation"
+      "A": "Laboratory tests take too long to process in rural health clinics",
+      "B": "Participants change their residential addresses during the investigation",
+      "C": "Exposure and disease status are assessed after both have already occurred",
+      "D": "Control subjects refuse to answer questions about their medical history"
     },
-    "answer": "B",
-    "explanation": "Matching and restriction are classic design-phase techniques used to ensure cases and controls are comparable regarding potential confounders. [learn more](GST114_U2_T19#GST114_U2_T19_h6)"
-  },
-  {
-    "question_id": "GST114_U2_T19_h7_q1",
-    "heading_id": "GST114_U2_T19_h7",
-    "article_id": "GST114_U2_T19",
-    "topic_id": "GST114_U2_T19",
-    "question": "What is a major advantage of case-control studies in microbiology?",
-    "options": {
-      "A": "They are ideal for studying rare diseases and outbreaks",
-      "B": "They completely eliminate all types of research bias",
-      "C": "They can directly calculate the true incidence of a disease",
-      "D": "They always use prospective data collection methods"
-    },
-    "answer": "A",
-    "explanation": "Case-control studies are highly efficient and cost-effective for investigating rare conditions or unexpected infectious disease outbreaks. [learn more](GST114_U2_T19#GST114_U2_T19_h7)"
-  },
-  {
-    "question_id": "GST114_U2_T19_h7_q2",
-    "heading_id": "GST114_U2_T19_h7",
-    "article_id": "GST114_U2_T19",
-    "topic_id": "GST114_U2_T19",
-    "question": "What is a primary limitation associated with case-control study designs?",
-    "options": {
-      "A": "They require extremely large sample sizes and decades of follow-up",
-      "B": "They are highly susceptible to recall and selection bias",
-      "C": "They cannot calculate an odds ratio",
-      "D": "They are only useful for non-infectious chronic illnesses"
-    },
-    "answer": "B",
-    "explanation": "Because they rely on retrospective data collection, case-control studies struggle with recall and selection biases. [learn more](GST114_U2_T19#GST114_U2_T19_h7)"
-  },
-  {
-    "question_id": "GST114_U2_T19_h8_q1",
-    "heading_id": "GST114_U2_T19_h8",
-    "article_id": "GST114_U2_T19",
-    "topic_id": "GST114_U2_T19",
-    "question": "How are case-control studies utilized during a hospital outbreak investigation?",
-    "options": {
-      "A": "To wait patiently for new cases to develop over the next ten years",
-      "B": "To compare infected patients with uninfected patients to find transmission sources",
-      "C": "To test experimental drugs on healthy volunteer control subjects",
-      "D": "To replace standard microbiological laboratory culture techniques"
-    },
-    "answer": "B",
-    "explanation": "Outbreak investigations use case-control studies to compare cases and controls to pinpoint infection sources and risk factors quickly. [learn more](GST114_U2_T19#GST114_U2_T19_h8)"
-  },
-  {
-    "question_id": "GST114_U2_T19_h8_q2",
-    "heading_id": "GST114_U2_T19_h8",
-    "article_id": "GST114_U2_T19",
-    "topic_id": "GST114_U2_T19",
-    "question": "What is the ultimate goal of identifying a risk factor through an outbreak case-control study?",
-    "options": {
-      "A": "To implement targeted infection control interventions and stop transmission",
-      "B": "To increase hospital admission rates for research purposes",
-      "C": "To eliminate the need for hospital hand hygiene protocols",
-      "D": "To prove that infectious diseases never recur"
-    },
-    "answer": "A",
-    "explanation": "Pinpointing the risk factor allows healthcare teams to execute precise interventions to halt the outbreak and protect patient safety. [learn more](GST114_U2_T19#GST114_U2_T19_h8)"
+    "answer": "C",
+    "explanation": "Looking backward makes it difficult at times to prove conclusively whether the exposure preceded the onset of disease or resulted from early subclinical changes. [learn more](GST114_U2_T19#GST114_U2_T19_h6)"
   }
 ]
