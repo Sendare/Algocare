@@ -4,209 +4,223 @@
     "heading_id": "GNS224_U1_T18_h1",
     "article_id": "GNS224_U1_T18",
     "topic_id": "GNS224_U1_T18",
-    "question": "Why is sampling typically used in nursing research instead of studying an entire population?",
+    "difficulty": "recall",
+    "question": "What is the primary purpose of sampling in nursing research?",
     "options": {
-      "A": "It is always mandated by hospital boards.",
-      "B": "It is rarely feasible, cost-effective, or time-efficient to study everyone.",
-      "C": "Entire populations never want to participate in research.",
-      "D": "Sampling eliminates the need for data analysis."
+      "A": "To eliminate all possible forms of error in a clinical trial",
+      "B": "To select a manageable subset of a population for study",
+      "C": "To avoid dealing with institutional review boards entirely",
+      "D": "To increase the total financial cost of a research project"
     },
     "answer": "B",
-    "explanation": "Studying an entire population is usually impractical due to high costs, time constraints, and logistical challenges, making sampling a necessary approach. [learn more](GNS224_U1_T18#GNS224_U1_T18_h1)"
+    "explanation": "Studying an entire population is usually impractical, so researchers select a smaller, representative subset to make data collection feasible. [learn more](GNS224_U1_T18#GNS224_U1_T18_h1)"
   },
   {
     "question_id": "GNS224_U1_T18_h1_q2",
     "heading_id": "GNS224_U1_T18_h1",
     "article_id": "GNS224_U1_T18",
     "topic_id": "GNS224_U1_T18",
-    "question": "What is the primary consequence of using a poorly chosen sample in nursing research?",
+    "difficulty": "understanding",
+    "question": "Why is the quality of a research sample critical to clinical findings?",
     "options": {
-      "A": "Skewed results that can lead to flawed clinical interventions.",
-      "B": "Instant approval by the ethical review board.",
-      "C": "A significant increase in available research funding.",
-      "D": "Elimination of all sampling errors."
+      "A": "It completely prevents patients from dropping out of longitudinal studies",
+      "B": "It guarantees that every participant will complete the experimental intervention",
+      "C": "It determines whether the study results can be validly applied to the broader population",
+      "D": "It removes the need for statistical tests during data analysis"
     },
-    "answer": "A",
-    "explanation": "A poorly chosen sample can yield biased or skewed results, which compromises the validity of the study and may lead to flawed clinical practices. [learn more](GNS224_U1_T18#GNS224_U1_T18_h1)"
+    "answer": "C",
+    "explanation": "A well-drawn sample accurately reflects the wider target population, allowing researchers to generalize their findings safely to clinical practice. [learn more](GNS224_U1_T18#GNS224_U1_T18_h1)"
   },
   {
     "question_id": "GNS224_U1_T18_h2_q1",
     "heading_id": "GNS224_U1_T18_h2",
     "article_id": "GNS224_U1_T18",
     "topic_id": "GNS224_U1_T18",
-    "question": "What term defines the entire aggregation of cases or individuals meeting a researcher's specific criteria?",
+    "difficulty": "recall",
+    "question": "What term describes the actual physical or digital list of all elements from which a study sample is drawn?",
     "options": {
-      "A": "Sample",
-      "B": "Population",
-      "C": "Sampling frame",
-      "D": "Variable"
+      "A": "Sampling frame",
+      "B": "Sample aggregate",
+      "C": "Target population",
+      "D": "Accessible variable"
     },
-    "answer": "B",
-    "explanation": "The population represents the complete set of individuals or cases that fit the researcher's defined criteria. [learn more](GNS224_U1_T18#GNS224_U1_T18_h2)"
+    "answer": "A",
+    "explanation": "A sampling frame serves as the concrete operational roster, such as a hospital admission register, used to identify and select study participants. [learn more](GNS224_U1_T18#GNS224_U1_T18_h2)"
   },
   {
     "question_id": "GNS224_U1_T18_h2_q2",
     "heading_id": "GNS224_U1_T18_h2",
     "article_id": "GNS224_U1_T18",
     "topic_id": "GNS224_U1_T18",
-    "question": "What is the primary purpose of a sampling frame in research?",
+    "difficulty": "understanding",
+    "question": "How does an accessible population differ from a target population?",
     "options": {
-      "A": "To analyze the final statistical data",
-      "B": "To provide a concrete list of accessible population elements to draw the sample from",
-      "C": "To outline the ethical guidelines of the study",
-      "D": "To replace the need for a target population"
+      "A": "The accessible population is always larger than the global target population",
+      "B": "There is no practical difference between the two terms in nursing literature",
+      "C": "The accessible population is the realistic subset of the target group available to the researcher",
+      "D": "The target population includes only hospitalized patients while the accessible includes outpatients"
     },
-    "answer": "B",
-    "explanation": "The sampling frame is the actual list or database of accessible population members used to select the sample. [learn more](GNS224_U1_T18#GNS224_U1_T18_h2)"
+    "answer": "C",
+    "explanation": "While the target population represents every ideal subject globally, the accessible population consists of those individuals the researcher can actually reach and recruit. [learn more](GNS224_U1_T18#GNS224_U1_T18_h2)"
   },
   {
     "question_id": "GNS224_U1_T18_h3_q1",
     "heading_id": "GNS224_U1_T18_h3",
     "article_id": "GNS224_U1_T18",
     "topic_id": "GNS224_U1_T18",
-    "question": "Why is probability sampling considered the gold standard in quantitative nursing research?",
+    "difficulty": "recall",
+    "question": "Which sampling method involves dividing the population into homogeneous subgroups and drawing random samples from each?",
     "options": {
-      "A": "It requires no planning or effort.",
-      "B": "Every population member has a known, non-zero chance of selection.",
-      "C": "It completely eliminates all types of human error.",
-      "D": "It guarantees that the sample size will exceed one thousand participants."
+      "A": "Snowball sampling",
+      "B": "Convenience sampling",
+      "C": "Quota sampling",
+      "D": "Stratified random sampling"
     },
-    "answer": "B",
-    "explanation": "Probability sampling ensures random selection where every member has a known chance of being chosen, reducing bias and supporting statistical generalization. [learn more](GNS224_U1_T18#GNS224_U1_T18_h3)"
+    "answer": "D",
+    "explanation": "Stratified sampling ensures adequate representation of key subgroups by dividing the population into strata before random selection. [learn more](GNS224_U1_T18#GNS224_U1_T18_h3)"
   },
   {
     "question_id": "GNS224_U1_T18_h3_q2",
     "heading_id": "GNS224_U1_T18_h3",
     "article_id": "GNS224_U1_T18",
     "topic_id": "GNS224_U1_T18",
-    "question": "In which sampling technique is a population divided into distinct subgroups and participants randomly drawn proportionally from each?",
+    "difficulty": "application",
+    "question": "A researcher wants to survey nurses across a state by randomly selecting entire hospitals rather than individual nurses. Which sampling technique is being used?",
     "options": {
-      "A": "Simple random sampling",
-      "B": "Convenience sampling",
-      "C": "Stratified random sampling",
-      "D": "Quota sampling"
+      "A": "Systematic sampling",
+      "B": "Simple random sampling",
+      "C": "Convenience sampling",
+      "D": "Cluster sampling"
     },
-    "answer": "C",
-    "explanation": "Stratified random sampling ensures key subgroups are adequately represented by dividing the population into strata and randomly sampling from each. [learn more](GNS224_U1_T18#GNS224_U1_T18_h3)"
+    "answer": "D",
+    "explanation": "Selecting intact groups or clusters, such as hospitals or health districts, is characteristic of cluster sampling. [learn more](GNS224_U1_T18#GNS224_U1_T18_h3)"
   },
   {
     "question_id": "GNS224_U1_T18_h4_q1",
     "heading_id": "GNS224_U1_T18_h4",
     "article_id": "GNS224_U1_T18",
     "topic_id": "GNS224_U1_T18",
-    "question": "When is a non-probability sampling technique most appropriately utilized in nursing research?",
+    "difficulty": "recall",
+    "question": "What is the primary characteristic of non-probability sampling techniques?",
     "options": {
-      "A": "When absolute statistical generalization to the entire global population is required",
-      "B": "In qualitative studies, pilot projects, or when no complete sampling frame exists",
-      "C": "Only when funding exceeds millions of dollars",
-      "D": "To completely eliminate sampling error"
+      "A": "Sampling error cannot exist under any circumstances",
+      "B": "Every member of the population has an equal chance of selection",
+      "C": "A complete sampling frame is always required to begin",
+      "D": "Participants are chosen without random selection methods"
     },
-    "answer": "B",
-    "explanation": "Non-probability methods are practical and often necessary when exploring qualitative phenomena, conducting pilot studies, or lacking a formal sampling frame. [learn more](GNS224_U1_T18#GNS224_U1_T18_h4)"
+    "answer": "D",
+    "explanation": "Non-probability techniques rely on subjective methods or availability rather than random chance. [learn more](GNS224_U1_T18#GNS224_U1_T18_h4)"
   },
   {
     "question_id": "GNS224_U1_T18_h4_q2",
     "heading_id": "GNS224_U1_T18_h4",
     "article_id": "GNS224_U1_T18",
     "topic_id": "GNS224_U1_T18",
-    "question": "Which non-probability sampling method relies on current participants referring additional eligible study subjects?",
+    "difficulty": "understanding",
+    "question": "When is snowball sampling most appropriately utilized in healthcare research?",
     "options": {
-      "A": "Quota sampling",
-      "B": "Simple random sampling",
-      "C": "Snowball sampling",
-      "D": "Systematic sampling"
+      "A": "When selecting patients using a strictly randomized computer-generated list",
+      "B": "When conducting a mandatory census of all registered nurses in a country",
+      "C": "When studying hard-to-reach or hidden populations through participant referrals",
+      "D": "When every single patient record in a national database is readily accessible"
     },
     "answer": "C",
-    "explanation": "Snowball sampling uses participant referrals to access hidden or hard-to-reach populations through established networks. [learn more](GNS224_U1_T18#GNS224_U1_T18_h4)"
+    "explanation": "Snowball sampling leverages initial participants to help recruit other members of hard-to-reach communities. [learn more](GNS224_U1_T18#GNS224_U1_T18_h4)"
   },
   {
     "question_id": "GNS224_U1_T18_h5_q1",
     "heading_id": "GNS224_U1_T18_h5",
     "article_id": "GNS224_U1_T18",
     "topic_id": "GNS224_U1_T18",
-    "question": "What is a major risk of conducting a nursing study with an inadequate sample size?",
+    "difficulty": "understanding",
+    "question": "Why must researchers factor anticipated attrition into their initial sample size calculation?",
     "options": {
-      "A": "Type II errors due to insufficient statistical power",
-      "B": "Excessive wasting of institutional funds",
-      "C": "Guaranteed 100% statistical significance",
-      "D": "Elimination of all population variance"
+      "A": "To guarantee that non-probability sampling becomes completely random",
+      "B": "To ensure enough participants complete the study even if some drop out",
+      "C": "To reduce the financial cost of purchasing clinical testing kits",
+      "D": "To completely eliminate the possibility of human measurement error"
     },
-    "answer": "A",
-    "explanation": "Too small of a sample size reduces statistical power, increasing the likelihood of failing to detect a real effect (Type II error). [learn more](GNS224_U1_T18#GNS224_U1_T18_h5)"
+    "answer": "B",
+    "explanation": "Anticipating participant dropouts allows researchers to inflate the recruitment target so the final analyzed sample retains adequate statistical power. [learn more](GNS224_U1_T18#GNS224_U1_T18_h5)"
   },
   {
     "question_id": "GNS224_U1_T18_h5_q2",
     "heading_id": "GNS224_U1_T18_h5",
     "article_id": "GNS224_U1_T18",
     "topic_id": "GNS224_U1_T18",
-    "question": "Why do researchers often inflate their calculated sample size prior to recruitment?",
+    "difficulty": "recall",
+    "question": "Which population characteristic generally requires a larger sample size to achieve accurate representation?",
     "options": {
-      "A": "To increase administrative paperwork",
-      "B": "To account for expected participant attrition or dropout rates",
-      "C": "To comply with qualitative saturation rules",
-      "D": "To ensure zero data variability"
+      "A": "Small accessible size",
+      "B": "Low clinical variance",
+      "C": "Uniform homogeneity",
+      "D": "High heterogeneity"
     },
-    "answer": "B",
-    "explanation": "Inflating the initial sample size compensates for anticipated participant dropouts, ensuring enough data is retained for valid analysis. [learn more](GNS224_U1_T18#GNS224_U1_T18_h5)"
+    "answer": "D",
+    "explanation": "When a population is highly diverse or heterogeneous, a larger sample is necessary to capture that wide range of variation. [learn more](GNS224_U1_T18#GNS224_U1_T18_h5)"
   },
   {
     "question_id": "GNS224_U1_T18_h6_q1",
     "heading_id": "GNS224_U1_T18_h6",
     "article_id": "GNS224_U1_T18",
     "topic_id": "GNS224_U1_T18",
-    "question": "What is the difference between sampling error and sampling bias?",
+    "difficulty": "recall",
+    "question": "What distinguishes sampling error from sampling bias?",
     "options": {
-      "A": "Sampling error is systematic, while sampling bias is due to random chance.",
-      "B": "Sampling error is natural random discrepancy, while sampling bias is systematic distortion favoring certain outcomes.",
-      "C": "Sampling bias only occurs in qualitative studies, while sampling error occurs in quantitative studies.",
-      "D": "There is no difference between the two terms."
+      "A": "Sampling error is natural random variation, whereas sampling bias is a systematic flaw in selection",
+      "B": "There is no practical difference between the two research concepts",
+      "C": "Sampling bias only occurs in quantitative studies, while error affects qualitative work",
+      "D": "Sampling error can be completely prevented, whereas sampling bias is unavoidable"
     },
-    "answer": "B",
-    "explanation": "Sampling error is the expected chance variation between sample and population, whereas sampling bias is a systematic error that skews representativeness. [learn more](GNS224_U1_T18#GNS224_U1_T18_h6)"
+    "answer": "A",
+    "explanation": "Sampling error stems from natural chance differences, while sampling bias skews results through systematic exclusion or overrepresentation. [learn more](GNS224_U1_T18#GNS224_U1_T18_h6)"
   },
   {
     "question_id": "GNS224_U1_T18_h6_q2",
     "heading_id": "GNS224_U1_T18_h6",
     "article_id": "GNS224_U1_T18",
     "topic_id": "GNS224_U1_T18",
-    "question": "How can researchers best minimize natural sampling error in a quantitative nursing study?",
+    "difficulty": "understanding",
+    "question": "Which of the following is NOT a strategy to minimize sampling bias?",
     "options": {
-      "A": "By using convenience sampling exclusively",
-      "B": "By hiding the sampling frame from reviewers",
-      "C": "By increasing sample size and using random selection methods",
-      "D": "By excluding all participants with chronic illnesses"
+      "A": "Expanding the sampling frame to capture a broader group",
+      "B": "Using convenience sampling exclusively for data collection",
+      "C": "Utilizing random selection methods whenever feasible",
+      "D": "Establishing rigorous and transparent inclusion criteria"
     },
-    "answer": "C",
-    "explanation": "Increasing sample size and implementing random selection techniques help reduce the margin of sampling error. [learn more](GNS224_U1_T18#GNS224_U1_T18_h6)"
+    "answer": "B",
+    "explanation": "Convenience sampling actually increases the risk of systematic selection bias rather than minimizing it. [learn more](GNS224_U1_T18#GNS224_U1_T18_h6)"
   },
   {
     "question_id": "GNS224_U1_T18_h7_q1",
     "heading_id": "GNS224_U1_T18_h7",
     "article_id": "GNS224_U1_T18",
     "topic_id": "GNS224_U1_T18",
-    "question": "Why is recruitment ethics particularly sensitive when nurses recruit patients or subordinates for research?",
+    "difficulty": "recall",
+    "question": "What foundational ethical requirement must be fulfilled before enrolling a participant in a nursing study?",
     "options": {
-      "A": "Nurses occupy positions of trust and authority that could inadvertently coerce participation.",
-      "B": "Patients are legally required to participate in hospital studies.",
-      "C": "Ethical boards do not review nursing studies.",
-      "D": "Informed consent is optional for clinical staff."
+      "A": "Financial compensation",
+      "B": "Informed consent",
+      "C": "Institutional employment",
+      "D": "Peer review approval"
     },
-    "answer": "A",
-    "explanation": "The power dynamic between nurses and patients or subordinates can create subtle pressure to participate, making voluntary recruitment safeguards essential. [learn more](GNS224_U1_T18#GNS224_U1_T18_h7)"
+    "answer": "B",
+    "explanation": "Informed consent ensures participants understand the study details and voluntarily agree to take part without coercion. [learn more](GNS224_U1_T18#GNS224_U1_T18_h7)"
   },
   {
     "question_id": "GNS224_U1_T18_h7_q2",
     "heading_id": "GNS224_U1_T18_h7",
     "article_id": "GNS224_U1_T18",
     "topic_id": "GNS224_U1_T18",
-    "question": "What core principle allows participants to stop engaging in a study at any point without negative consequences?",
+    "difficulty": "understanding",
+    "question": "Why is special care required when recruiting hospitalized patients for clinical research?",
     "options": {
-      "A": "Mandatory compliance",
-      "B": "Voluntary participation and the right to withdraw",
-      "C": "Cluster randomization",
-      "D": "Purposive quota allocation"
+      "A": "Ethical review boards do not require documentation for inpatient settings",
+      "B": "Patients may feel vulnerable or fear that refusing could affect their clinical care",
+      "C": "Patients in wards have unrestricted access to legal representation",
+      "D": "Hospitalized individuals always possess higher educational levels than outpatients"
     },
     "answer": "B",
-    "explanation": "Voluntary participation guarantees that subjects can freely choose to enter a study or withdraw at any time without facing penalties. [learn more](GNS224_U1_T18#GNS224_U1_T18_h7)"
+    "explanation": "The power dynamic in healthcare settings can make patients feel coerced, necessitating explicit reassurance that declining will not alter their treatment. [learn more](GNS224_U1_T18#GNS224_U1_T18_h7)"
   }
 ]
