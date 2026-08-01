@@ -4,239 +4,191 @@
     "heading_id": "GNS223_U5_T5_h1",
     "article_id": "GNS223_U5_T5",
     "topic_id": "GNS223_U5_T5",
-    "question": "What neurotransmitter is primarily responsible for transmitting nerve signals across the neuromuscular junction to initiate skeletal muscle contraction?",
+    "difficulty": "recall",
+    "question": "What is the primary neurotransmitter released at the neuromuscular junction to initiate muscle contraction?",
     "options": {
       "A": "Norepinephrine",
-      "B": "Acetylcholine",
-      "C": "Dopamine",
-      "D": "Serotonin"
+      "B": "Dopamine",
+      "C": "Gamma-aminobutyric acid",
+      "D": "Acetylcholine"
     },
-    "answer": "B",
-    "explanation": "Acetylcholine is released from the motor neuron terminal into the synaptic cleft where it binds to postsynaptic nicotinic receptors to trigger muscle depolarization. [learn more](GNS223_U5_T5#GNS223_U5_T5_h1)"
+    "answer": "D",
+    "explanation": "Acetylcholine is stored in vesicles at the motor neuron terminal and released into the synaptic cleft to bind post-junctional receptors. [learn more](GNS223_U5_T5#GNS223_U5_T5_h1)"
   },
   {
     "question_id": "GNS223_U5_T5_h1_q2",
     "heading_id": "GNS223_U5_T5_h1",
     "article_id": "GNS223_U5_T5",
     "topic_id": "GNS223_U5_T5",
-    "question": "Which enzyme is responsible for the rapid degradation of acetylcholine within the synaptic cleft to terminate its action?",
+    "difficulty": "understanding",
+    "question": "How do neuromuscular blocking agents affect a patient's level of consciousness during surgical procedures?",
     "options": {
-      "A": "Monoamine oxidase",
-      "B": "Cholinesterase",
-      "C": "Acetylcholinesterase",
-      "D": "Pseudocholinesterase"
+      "A": "They block pain pathways while leaving motor function intact",
+      "B": "They induce a deep state of general anesthesia alongside paralysis",
+      "C": "They cause mild sedation followed by progressive sensory loss",
+      "D": "They produce complete paralysis without altering awareness or sensation"
     },
-    "answer": "C",
-    "explanation": "Acetylcholinesterase rapidly breaks down acetylcholine in the synaptic cleft, terminating the signal and allowing the muscle fiber to relax. [learn more](GNS223_U5_T5#GNS223_U5_T5_h1)"
+    "answer": "D",
+    "explanation": "NMBs only affect skeletal muscle tone at the junction and possess zero anesthetic, hypnotic, or analgesic properties, requiring concurrent sedation. [learn more](GNS223_U5_T5#GNS223_U5_T5_h1)"
   },
   {
     "question_id": "GNS223_U5_T5_h2_q1",
     "heading_id": "GNS223_U5_T5_h2",
     "article_id": "GNS223_U5_T5",
     "topic_id": "GNS223_U5_T5",
-    "question": "Which of the following describes the mechanism of action of depolarizing neuromuscular blockers like succinylcholine?",
+    "difficulty": "recall",
+    "question": "Which medication is classified as a depolarizing neuromuscular blocker?",
     "options": {
-      "A": "They act as competitive antagonists and prevent receptor binding without causing depolarization.",
-      "B": "They act as agonists, binding to receptors to cause initial depolarization and subsequent fasciculations.",
-      "C": "They permanently destroy acetylcholinesterase enzymes in the synaptic cleft.",
-      "D": "They directly block calcium channels within the presynaptic nerve terminal."
+      "A": "Rocuronium",
+      "B": "Atracurium",
+      "C": "Succinylcholine",
+      "D": "Vecuronium"
     },
-    "answer": "B",
-    "explanation": "Depolarizing agents like succinylcholine act as receptor agonists, causing initial depolarization and visible fasciculations before inducing paralysis. [learn more](GNS223_U5_T5#GNS223_U5_T5_h2)"
+    "answer": "C",
+    "explanation": "Succinylcholine mimics acetylcholine to depolarize the motor end-plate, whereas the other options are competitive antagonists. [learn more](GNS223_U5_T5#GNS223_U5_T5_h2)"
   },
   {
     "question_id": "GNS223_U5_T5_h2_q2",
     "heading_id": "GNS223_U5_T5_h2",
     "article_id": "GNS223_U5_T5",
     "topic_id": "GNS223_U5_T5",
-    "question": "What is the primary pharmacological characteristic of nondepolarizing neuromuscular blockers such as rocuronium?",
+    "difficulty": "understanding",
+    "question": "What is the primary mechanism by which nondepolarizing agents prevent muscle contraction?",
     "options": {
-      "A": "They produce prominent muscle fasciculations upon administration.",
-      "B": "They are rapidly metabolized by plasma pseudocholinesterase.",
-      "C": "They act as competitive antagonists by occupying receptors without causing depolarization.",
-      "D": "They stimulate the excessive release of acetylcholine from the nerve terminal."
+      "A": "They competitively occupy postsynaptic receptors without triggering depolarization",
+      "B": "They permanently destroy stored acetylcholine vesicles in the nerve terminal",
+      "C": "They inhibit the enzyme acetylcholinesterase within the synaptic cleft",
+      "D": "They cause continuous excessive depolarization until muscle stores deplete"
     },
-    "answer": "C",
-    "explanation": "Nondepolarizing agents are competitive antagonists that bind to nicotinic receptors without activating them, thereby preventing acetylcholine from initiating depolarization. [learn more](GNS223_U5_T5#GNS223_U5_T5_h2)"
+    "answer": "A",
+    "explanation": "Nondepolarizing blockers sit on the receptor and block access for acetylcholine, stopping the end-plate potential from reaching threshold. [learn more](GNS223_U5_T5#GNS223_U5_T5_h2)"
   },
   {
     "question_id": "GNS223_U5_T5_h3_q1",
     "heading_id": "GNS223_U5_T5_h3",
     "article_id": "GNS223_U5_T5",
     "topic_id": "GNS223_U5_T5",
-    "question": "Which group of muscles is typically paralyzed first following the administration of a nondepolarizing neuromuscular blocker?",
+    "difficulty": "application",
+    "question": "A patient with severe acute respiratory distress syndrome is violently fighting the mechanical ventilator despite heavy sedation. Which intervention is most appropriate to improve oxygenation?",
     "options": {
-      "A": "The diaphragm and intercostal muscles",
-      "B": "The muscles of the abdomen and lower limbs",
-      "C": "The extraocular muscles of the eye and the face",
-      "D": "The large muscles of the thigh and back"
+      "A": "Immediately extubating the patient to allow spontaneous breathing",
+      "B": "Applying physical restraints to all four extremities to limit movement",
+      "C": "Administering a short course of a neuromuscular blocking agent",
+      "D": "Increasing the baseline fractional inspired oxygen concentration to maximum"
     },
     "answer": "C",
-    "explanation": "Small, rapidly moving muscles such as the extraocular and facial muscles are affected first by neuromuscular blockers due to high blood flow and motor unit density. [learn more](GNS223_U5_T5#GNS223_U5_T5_h3)"
+    "explanation": "Paralytics are used in severe ventilator dyssynchrony to eliminate patient respiratory effort and reduce barotrauma risk. [learn more](GNS223_U5_T5#GNS223_U5_T5_h3)"
   },
   {
     "question_id": "GNS223_U5_T5_h3_q2",
     "heading_id": "GNS223_U5_T5_h3",
     "article_id": "GNS223_U5_T5",
     "topic_id": "GNS223_U5_T5",
-    "question": "Which of the following statements is true regarding the pharmacological properties of neuromuscular blocking agents?",
+    "difficulty": "recall",
+    "question": "What is a primary clinical reason for administering a neuromuscular blocker prior to endotracheal intubation?",
     "options": {
-      "A": "They provide excellent analgesia and mild sedation alongside muscle relaxation.",
-      "B": "They possess no sedative, amnestic, or analgesic properties, requiring concurrent sedation.",
-      "C": "They act as profound central nervous system depressants to induce unconsciousness.",
-      "D": "They eliminate the sensation of pain while leaving conscious awareness intact."
+      "A": "To stimulate spontaneous coughing and clear lower airway secretions",
+      "B": "To provide profound systemic analgesia and pain relief",
+      "C": "To prevent sudden drops in systemic blood pressure",
+      "D": "To relax the vocal cords and facilitate safe airway insertion"
     },
-    "answer": "B",
-    "explanation": "Neuromuscular blockers paralyze skeletal muscles but do not affect the brain; patients remain fully conscious and must receive concurrent sedatives and analgesics. [learn more](GNS223_U5_T5#GNS223_U5_T5_h3)"
+    "answer": "D",
+    "explanation": "Relaxing skeletal and laryngeal muscles prevents laryngeal spasm and allows smooth, atraumatic placement of the endotracheal tube. [learn more](GNS223_U5_T5#GNS223_U5_T5_h3)"
   },
   {
     "question_id": "GNS223_U5_T5_h4_q1",
     "heading_id": "GNS223_U5_T5_h4",
     "article_id": "GNS223_U5_T5",
     "topic_id": "GNS223_U5_T5",
-    "question": "What is the primary clinical advantage of succinylcholine that makes it frequently chosen for rapid sequence intubation (RSI)?",
+    "difficulty": "recall",
+    "question": "Which rare, life-threatening complication is uniquely associated with the administration of succinylcholine?",
     "options": {
-      "A": "It has an extremely rapid onset of 30 to 60 seconds and a very short duration.",
-      "B": "It is easily reversed within seconds using standard anticholinesterase medications.",
-      "C": "It provides deep sedation and pain relief along with muscle relaxation.",
-      "D": "It undergoes Hofmann elimination, making it safe for patients with liver failure."
+      "A": "Pulmonary hypertension",
+      "B": "Delayed hypoglycemia",
+      "C": "Severe metabolic alkalosis",
+      "D": "Malignant hyperthermia"
     },
-    "answer": "A",
-    "explanation": "Succinylcholine is prized for rapid sequence intubation because of its fast onset (30-60 seconds) and short duration of action (5-10 minutes). [learn more](GNS223_U5_T5#GNS223_U5_T5_h4)"
+    "answer": "D",
+    "explanation": "Succinylcholine, alongside volatile anesthetic agents, can trigger malignant hyperthermia in susceptible individuals. [learn more](GNS223_U5_T5#GNS223_U5_T5_h4)"
   },
   {
     "question_id": "GNS223_U5_T5_h4_q2",
     "heading_id": "GNS223_U5_T5_h4",
     "article_id": "GNS223_U5_T5",
     "topic_id": "GNS223_U5_T5",
-    "question": "Which neuromuscular blocking agent undergoes organ-independent degradation via Hofmann elimination, making it ideal for patients with renal or hepatic impairment?",
+    "difficulty": "understanding",
+    "question": "Why is succinylcholine strictly contraindicated in patients with extensive third-degree burns or severe crush injuries?",
     "options": {
-      "A": "Succinylcholine",
-      "B": "Pancuronium",
-      "C": "Atracurium",
-      "D": "Vecuronium"
+      "A": "It induces immediate renal failure by precipitating myoglobin in the tubules",
+      "B": "It provokes a massive efflux of potassium leading to life-threatening cardiac arrest",
+      "C": "It causes an intracellular shift of sodium resulting in severe hyponatremia",
+      "D": "It triggers massive histamine release leading to anaphylactic shock"
     },
-    "answer": "C",
-    "explanation": "Atracurium undergoes spontaneous non-enzymatic breakdown called Hofmann elimination in plasma and tissue, independent of kidney or liver function. [learn more](GNS223_U5_T5#GNS223_U5_T5_h4)"
+    "answer": "B",
+    "explanation": "Burn and trauma injuries cause extrajunctional receptor proliferation; when succinylcholine opens these channels, potassium pours out into the bloodstream. [learn more](GNS223_U5_T5#GNS223_U5_T5_h4)"
   },
   {
     "question_id": "GNS223_U5_T5_h5_q1",
     "heading_id": "GNS223_U5_T5_h5",
     "article_id": "GNS223_U5_T5",
     "topic_id": "GNS223_U5_T5",
-    "question": "What is the primary clinical indication for administering neuromuscular blocking agents during emergency airway management?",
+    "difficulty": "recall",
+    "question": "Which drug acts by chemically encapsulating rocuronium or vecuronium molecules to rapidly reverse neuromuscular blockade?",
     "options": {
-      "A": "To treat underlying bronchospasm and reduce airway inflammation",
-      "B": "To facilitate endotracheal intubation and minimize the risk of aspiration",
-      "C": "To provide primary pain relief and induce unconsciousness",
-      "D": "To reverse respiratory depression caused by opioid analgesics"
+      "A": "Glycopyrrolate",
+      "B": "Atropine",
+      "C": "Neostigmine",
+      "D": "Sugammadex"
     },
-    "answer": "B",
-    "explanation": "Paralytics relax upper airway and jaw muscles to facilitate smooth endotracheal intubation and protect against pulmonary aspiration. [learn more](GNS223_U5_T5#GNS223_U5_T5_h5)"
+    "answer": "D",
+    "explanation": "Sugammadex is a modified gamma-cyclodextrin designed specifically to bind steroidal blockers and render them inactive. [learn more](GNS223_U5_T5#GNS223_U5_T5_h5)"
   },
   {
     "question_id": "GNS223_U5_T5_h5_q2",
     "heading_id": "GNS223_U5_T5_h5",
     "article_id": "GNS223_U5_T5",
     "topic_id": "GNS223_U5_T5",
-    "question": "Why might a critically ill patient with severe Acute Respiratory Distress Syndrome (ARDS) receive a neuromuscular blocker in the intensive care unit?",
+    "difficulty": "understanding",
+    "question": "Why must an anticholinergic drug like glycopyrrolate or atropine be given concurrently with neostigmine during reversal?",
     "options": {
-      "A": "To treat bacterial pneumonia and lower systemic blood pressure",
-      "B": "To reduce oxygen consumption and resolve severe patient-ventilator dyssynchrony",
-      "C": "To induce permanent sedation and eliminate the need for mechanical ventilation",
-      "D": "To stimulate spontaneous diaphragmatic breathing and wean off the ventilator"
+      "A": "To prevent life-threatening tachycardia and systemic hypertension",
+      "B": "To enhance the binding affinity of the paralytic agent to the receptor",
+      "C": "To counteract unwanted parasympathetic side effects such as severe bradycardia",
+      "D": "To accelerate the renal clearance of the encapsulated drug complex"
     },
-    "answer": "B",
-    "explanation": "In severe ARDS, paralytics eliminate patient-ventilator dyssynchrony, optimize gas exchange, and decrease overall metabolic and oxygen consumption. [learn more](GNS223_U5_T5#GNS223_U5_T5_h5)"
+    "answer": "C",
+    "explanation": "Neostigmine floods the body with acetylcholine, stimulating muscarinic receptors and causing profound slowing of the heart rate unless blocked by an anticholinergic. [learn more](GNS223_U5_T5#GNS223_U5_T5_h5)"
   },
   {
     "question_id": "GNS223_U5_T5_h6_q1",
     "heading_id": "GNS223_U5_T5_h6",
     "article_id": "GNS223_U5_T5",
     "topic_id": "GNS223_U5_T5",
-    "question": "Which life-threatening pharmacogenetic condition can be triggered by the administration of succinylcholine, presenting with muscle rigidity and rapid temperature spikes?",
+    "difficulty": "recall",
+    "question": "What is the name of the monitoring device used to objectively assess the depth of neuromuscular blockade at the bedside?",
     "options": {
-      "A": "Serotonin syndrome",
-      "B": "Malignant hyperthermia",
-      "C": "Neuroleptic malignant syndrome",
-      "D": "Adrenal crisis"
+      "A": "Central venous catheter",
+      "B": "Capnography sensor",
+      "C": "Peripheral nerve stimulator",
+      "D": "Pulse oximeter transducer"
     },
-    "answer": "B",
-    "explanation": "Succinylcholine can trigger malignant hyperthermia, a hypermetabolic crisis featuring rapid hyperthermia, severe muscle rigidity, and acidosis. [learn more](GNS223_U5_T5#GNS223_U5_T5_h6)"
+    "answer": "C",
+    "explanation": "The peripheral nerve stimulator delivers electrical current to gauge neuromuscular function using train-of-four responses. [learn more](GNS223_U5_T5#GNS223_U5_T5_h6)"
   },
   {
     "question_id": "GNS223_U5_T5_h6_q2",
     "heading_id": "GNS223_U5_T5_h6",
     "article_id": "GNS223_U5_T5",
     "topic_id": "GNS223_U5_T5",
-    "question": "Why is succinylcholine contraindicated in patients with severe burn injuries or extensive skeletal muscle trauma?",
+    "difficulty": "understanding",
+    "question": "Which clinical observation indicates that a patient has sufficiently recovered from neuromuscular blockade prior to extubation?",
     "options": {
-      "A": "It causes profound hypokalemia leading to cardiac asystole.",
-      "B": "It triggers massive release of intracellular potassium, causing severe hyperkalemia and arrhythmias.",
-      "C": "It causes immediate and permanent liver necrosis.",
-      "D": "It induces severe, irreversible bronchospasm through massive histamine release."
-    },
-    "answer": "B",
-    "explanation": "Burns and major trauma cause upregulation of extrajunctional receptors, leading to massive potassium efflux and dangerous hyperkalemia when succinylcholine is given. [learn more](GNS223_U5_T5#GNS223_U5_T5_h6)"
-  },
-  {
-    "question_id": "GNS223_U5_T5_h7_q1",
-    "heading_id": "GNS223_U5_T5_h7",
-    "article_id": "GNS223_U5_T5",
-    "topic_id": "GNS223_U5_T5",
-    "question": "Why must an anticholinergic agent such as atropine or glycopyrrolate be administered concurrently with neostigmine when reversing a nondepolarizing block?",
-    "options": {
-      "A": "To accelerate the direct breakdown of rocuronium molecules in the plasma",
-      "B": "To prevent dangerous muscarinic side effects like severe bradycardia and excessive secretions",
-      "C": "To maintain deep surgical anesthesia and prevent patient awareness",
-      "D": "To stimulate direct skeletal muscle contraction independently of acetylcholine"
-    },
-    "answer": "B",
-    "explanation": "Neostigmine increases acetylcholine systemically, causing unwanted muscarinic effects (like bradycardia) that must be blocked by atropine or glycopyrrolate. [learn more](GNS223_U5_T5#GNS223_U5_T5_h7)"
-  },
-  {
-    "question_id": "GNS223_U5_T5_h7_q2",
-    "heading_id": "GNS223_U5_T5_h7",
-    "article_id": "GNS223_U5_T5",
-    "topic_id": "GNS223_U5_T5",
-    "question": "What is the unique mechanism by which sugammadex reverses rocuronium-induced neuromuscular blockade?",
-    "options": {
-      "A": "It inhibits acetylcholinesterase enzymes to flood the junction with acetylcholine.",
-      "B": "It acts as a direct agonist at the postsynaptic nicotinic receptors.",
-      "C": "It encapsulates and binds the relaxant molecules in a tight complex, removing them from circulation.",
-      "D": "It stimulates rapid hepatic metabolism and biliary excretion of the paralytic drug."
+      "A": "The train-of-four monitor shows exactly zero twitches",
+      "B": "The patient opens their eyes spontaneously for two seconds",
+      "C": "The patient is able to sustain a 5-second head lift on command",
+      "D": "The patient responds to painful stimuli by grimacing"
     },
     "answer": "C",
-    "explanation": "Sugammadex is a selective binding agent that encapsulates rocuronium molecules, forming a complex that inactivates the drug and reverses paralysis rapidly. [learn more](GNS223_U5_T5#GNS223_U5_T5_h7)"
-  },
-  {
-    "question_id": "GNS223_U5_T5_h8_q1",
-    "heading_id": "GNS223_U5_T5_h8",
-    "article_id": "GNS223_U5_T5",
-    "topic_id": "GNS223_U5_T5",
-    "question": "What clinical device is standard for objectively assessing the depth of neuromuscular blockade at the bedside?",
-    "options": {
-      "A": "Pulse oximeter",
-      "B": "Peripheral nerve stimulator",
-      "C": "Capnograph",
-      "D": "Bispectral index (BIS) monitor"
-    },
-    "answer": "B",
-    "explanation": "A peripheral nerve stimulator is used to deliver train-of-four (TOF) electrical impulses to assess muscle twitches and quantify the level of neuromuscular blockade. [learn more](GNS223_U5_T5#GNS223_U5_T5_h8)"
-  },
-  {
-    "question_id": "GNS223_U5_T5_h8_q2",
-    "heading_id": "GNS223_U5_T5_h8",
-    "article_id": "GNS223_U5_T5",
-    "topic_id": "GNS223_U5_T5",
-    "question": "Why is routine eye care, including the application of lubricating ointment and taping the eyelids shut, an essential nursing responsibility for paralyzed patients?",
-    "options": {
-      "A": "To prevent malignant hyperthermia from occurring in the ocular muscles",
-      "B": "To prevent corneal drying, abrasion, and ulceration resulting from loss of the blink reflex",
-      "C": "To stimulate the oculocardiac reflex and maintain stable blood pressure",
-      "D": "To prevent the systemic absorption of topical anesthetics through the conjunctiva"
-    },
-    "answer": "B",
-    "explanation": "Paralytics paralyze the orbicularis oculi muscle and abolish the blink reflex, placing the cornea at high risk of drying and injury without protective lubrication and taping. [learn more](GNS223_U5_T5#GNS223_U5_T5_h8)"
+    "explanation": "Sustained head lift and strong hand grips prove that adequate muscle strength and upper airway tone have returned. [learn more](GNS223_U5_T5#GNS223_U5_T5_h6)"
   }
 ]

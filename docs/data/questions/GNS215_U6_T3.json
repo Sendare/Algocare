@@ -4,209 +4,191 @@
     "heading_id": "GNS215_U6_T3_h1",
     "article_id": "GNS215_U6_T3",
     "topic_id": "GNS215_U6_T3",
-    "question": "Why is the development of selective antifungal therapy considered particularly difficult?",
+    "difficulty": "recall",
+    "question": "What is the primary reason antifungal drugs often produce more adverse effects than antibacterial agents?",
     "options": {
-      "A": "Fungi lack a cellular membrane entirely.",
-      "B": "Fungal cells are eukaryotic and closely resemble human host cells.",
-      "C": "Fungi reproduce at a much slower rate than human cells.",
-      "D": "Antibiotics always destroy antifungal medications."
+      "A": "Fungi are eukaryotic and share cellular similarities with human hosts",
+      "B": "Fungal cell walls are composed of thick peptidoglycan layers",
+      "C": "Fungi multiply at a significantly faster rate than bacteria",
+      "D": "Antifungal medications are exclusively administered through the intravenous route"
     },
-    "answer": "B",
-    "explanation": "Because fungal cells are eukaryotic, their structure closely resembles human cells, making it challenging to target them without harming the host. [learn more](GNS215_U6_T3#GNS215_U6_T3_h1)"
+    "answer": "A",
+    "explanation": "Because fungi are eukaryotic like human cells, finding targets that harm the fungus without damaging host tissue is biochemically difficult, reducing selective toxicity. [learn more](GNS215_U6_T3#GNS215_U6_T3_h1)"
   },
   {
     "question_id": "GNS215_U6_T3_h1_q2",
     "heading_id": "GNS215_U6_T3_h1",
     "article_id": "GNS215_U6_T3",
     "topic_id": "GNS215_U6_T3",
-    "question": "Which of the following is a major risk factor for opportunistic fungal infections mentioned in the text?",
+    "difficulty": "understanding",
+    "question": "Which environmental factor heavily contributes to the high prevalence of superficial fungal infections in tropical regions such as Nigeria?",
     "options": {
-      "A": "Regular physical exercise",
-      "B": "Prolonged broad-spectrum antibiotic use",
-      "C": "Consuming a high-protein diet",
-      "D": "Living in a cold climate"
+      "A": "Widespread soil acidification",
+      "B": "Low barometric pressure",
+      "C": "High ambient humidity and heat",
+      "D": "Frequent exposure to cold winds"
     },
-    "answer": "B",
-    "explanation": "Prolonged use of broad-spectrum antibiotics disrupts normal bacterial flora, creating an environment that favors opportunistic fungal overgrowth. [learn more](GNS215_U6_T3#GNS215_U6_T3_h1)"
+    "answer": "C",
+    "explanation": "Dermatophytes and yeasts thrive in warm, moist environments, making tropical climates exceptionally favorable for superficial fungal proliferation. [learn more](GNS215_U6_T3#GNS215_U6_T3_h1)"
   },
   {
     "question_id": "GNS215_U6_T3_h2_q1",
     "heading_id": "GNS215_U6_T3_h2",
     "article_id": "GNS215_U6_T3",
     "topic_id": "GNS215_U6_T3",
-    "question": "What is the primary target of azole antifungal medications?",
+    "difficulty": "recall",
+    "question": "Which class of antifungal medications acts by inhibiting the synthesis of beta-1,3-D-glucan in the fungal cell wall?",
     "options": {
-      "A": "Beta-1,3-D-glucan synthesis in the cell wall",
-      "B": "Lanosterol 14-alpha-demethylase enzyme",
-      "C": "Direct binding to human cholesterol",
-      "D": "RNA synthesis inside the nucleus"
+      "A": "Polyenes",
+      "B": "Azoles",
+      "C": "Echinocandins",
+      "D": "Allylamines"
     },
-    "answer": "B",
-    "explanation": "Azoles inhibit lanosterol 14-alpha-demethylase, an enzyme necessary for ergosterol synthesis, which disrupts the fungal cell membrane. [learn more](GNS215_U6_T3#GNS215_U6_T3_h2)"
+    "answer": "C",
+    "explanation": "Echinocandins target the fungal cell wall by blocking beta-1,3-D-glucan synthesis, causing osmotic instability and cell lysis. [learn more](GNS215_U6_T3#GNS215_U6_T3_h2)"
   },
   {
     "question_id": "GNS215_U6_T3_h2_q2",
     "heading_id": "GNS215_U6_T3_h2",
     "article_id": "GNS215_U6_T3",
     "topic_id": "GNS215_U6_T3",
-    "question": "How do echinocandins exert their antifungal effect?",
+    "difficulty": "understanding",
+    "question": "How do azole antifungal agents primarily disrupt fungal cellular integrity?",
     "options": {
-      "A": "By inhibiting beta-1,3-D-glucan synthesis in the cell wall",
-      "B": "By binding directly to ergosterol to create pores",
-      "C": "By blocking squalene epoxidase in the cytoplasm",
-      "D": "By dissolving the human host cell membrane"
+      "A": "By blocking lanosterol 14-alpha-demethylase to prevent ergosterol production",
+      "B": "By entering the fungal nucleus and permanently alkylating DNA strands",
+      "C": "By degrading chitin fibers located within the outer capsule",
+      "D": "By physically binding directly to existing ergosterol molecules to form pores"
     },
     "answer": "A",
-    "explanation": "Echinocandins uniquely target the fungal cell wall by inhibiting the synthesis of beta-1,3-D-glucan, causing structural fragility. [learn more](GNS215_U6_T3#GNS215_U6_T3_h2)"
+    "explanation": "Azoles inhibit the fungal cytochrome P450 enzyme responsible for synthesizing ergosterol, leading to defective, leaky cell membranes. [learn more](GNS215_U6_T3#GNS215_U6_T3_h2)"
   },
   {
     "question_id": "GNS215_U6_T3_h3_q1",
     "heading_id": "GNS215_U6_T3_h3",
     "article_id": "GNS215_U6_T3",
     "topic_id": "GNS215_U6_T3",
-    "question": "Which medication is considered the gold standard polyene for severe, life-threatening systemic mycoses?",
+    "difficulty": "recall",
+    "question": "What is the primary dose-limiting toxicity associated with conventional Amphotericin B administration?",
     "options": {
-      "A": "Fluconazole",
-      "B": "Terbinafine",
-      "C": "Amphotericin B",
-      "D": "Caspofungin"
+      "A": "Ototoxicity",
+      "B": "Hepatotoxicity",
+      "C": "Nephrotoxicity",
+      "D": "Cardiotoxicity"
     },
     "answer": "C",
-    "explanation": "Amphotericin B is the gold standard polyene for severe systemic fungal infections, though it requires careful monitoring due to toxicity. [learn more](GNS215_U6_T3#GNS215_U6_T3_h3)"
+    "explanation": "Amphotericin B causes vasoconstriction of renal blood vessels and direct tubular injury, making kidney damage its most concerning side effect. [learn more](GNS215_U6_T3#GNS215_U6_T3_h3)"
   },
   {
     "question_id": "GNS215_U6_T3_h3_q2",
     "heading_id": "GNS215_U6_T3_h3",
     "article_id": "GNS215_U6_T3",
     "topic_id": "GNS215_U6_T3",
-    "question": "Why is fluconazole frequently utilized in treating cryptococcal meningitis in HIV-positive patients?",
+    "difficulty": "application",
+    "question": "A patient with a confirmed Cryptococcus neoformans meningitis infection requires a systemic antifungal drug known for excellent penetration into the cerebrospinal fluid. Which medication is most appropriate?",
     "options": {
-      "A": "It only works topically on the skin surface.",
-      "B": "It has excellent oral bioavailability and cerebrospinal fluid penetration.",
-      "C": "It exclusively targets bacterial cell walls.",
-      "D": "It has zero adverse effects on the liver and kidneys."
+      "A": "Fluconazole",
+      "B": "Nystatin",
+      "C": "Caspofungin",
+      "D": "Terbinafine"
     },
-    "answer": "B",
-    "explanation": "Fluconazole is favored because it is well-absorbed orally and penetrates effectively into the cerebrospinal fluid to fight central nervous system infections. [learn more](GNS215_U6_T3#GNS215_U6_T3_h3)"
+    "answer": "A",
+    "explanation": "Fluconazole has unique pharmacokinetic properties that allow it to cross the blood-brain barrier effectively, making it ideal for central nervous system fungal infections. [learn more](GNS215_U6_T3#GNS215_U6_T3_h3)"
   },
   {
     "question_id": "GNS215_U6_T3_h4_q1",
     "heading_id": "GNS215_U6_T3_h4",
     "article_id": "GNS215_U6_T3",
     "topic_id": "GNS215_U6_T3",
-    "question": "What is the primary clinical indication for oral or topical terbinafine?",
+    "difficulty": "recall",
+    "question": "Which cellular enzyme is specifically inhibited by allylamine antifungals like terbinafine?",
     "options": {
-      "A": "Cryptococcal meningitis",
-      "B": "Dermatophytic infections of the skin, hair, and nails",
-      "C": "Invasive aspergillosis of the lungs",
-      "D": "Systemic candidemia in intensive care units"
+      "A": "Lanosterol demethylase",
+      "B": "Squalene epoxidase",
+      "C": "Beta-1,3-glucan synthase",
+      "D": "DNA polymerase"
     },
     "answer": "B",
-    "explanation": "Terbinafine is an allylamine primarily used to treat dermatophytosis affecting superficial structures like skin, hair, and nails. [learn more](GNS215_U6_T3#GNS215_U6_T3_h4)"
+    "explanation": "Allylamines block squalene epoxidase, preventing the conversion of squalene to ergosterol and causing intracellular toxicity from squalene buildup. [learn more](GNS215_U6_T3#GNS215_U6_T3_h4)"
   },
   {
     "question_id": "GNS215_U6_T3_h4_q2",
     "heading_id": "GNS215_U6_T3_h4",
     "article_id": "GNS215_U6_T3",
     "topic_id": "GNS215_U6_T3",
-    "question": "How do allylamines like terbinafine achieve their antifungal effect?",
+    "difficulty": "understanding",
+    "question": "Why is nystatin administered as an oral suspension for local thrush rather than an intravenous injection?",
     "options": {
-      "A": "By binding to human cholesterol exclusively",
-      "B": "By inhibiting squalene epoxidase and causing squalene accumulation",
-      "C": "By dissolving the human host cell membrane",
-      "D": "By stopping protein synthesis at the ribosomal subunit"
+      "A": "It is poorly absorbed from the gastrointestinal tract into the bloodstream",
+      "B": "It is rapidly destroyed by gastric acid before reaching the stomach",
+      "C": "It is extremely toxic to the liver when given parenterally",
+      "D": "It precipitates immediately when mixed with human blood plasma"
     },
-    "answer": "B",
-    "explanation": "Allylamines inhibit squalene epoxidase, leading to a toxic buildup of squalene and a deficiency of ergosterol in the fungal cell. [learn more](GNS215_U6_T3#GNS215_U6_T3_h4)"
+    "answer": "A",
+    "explanation": "Nystatin's systemic toxicity is too high for safe injection, but its poor GI absorption makes it safe and effective for topical treatment of mucosal surfaces. [learn more](GNS215_U6_T3#GNS215_U6_T3_h4)"
   },
   {
     "question_id": "GNS215_U6_T3_h5_q1",
     "heading_id": "GNS215_U6_T3_h5",
     "article_id": "GNS215_U6_T3",
     "topic_id": "GNS215_U6_T3",
-    "question": "What environmental factor heavily contributes to the high prevalence of superficial fungal infections in Nigeria?",
+    "difficulty": "understanding",
+    "question": "How do systemic azole antifungals typically alter the plasma concentrations of concurrently administered drugs like warfarin?",
     "options": {
-      "A": "Low atmospheric pressure",
-      "B": "Hot and humid tropical climate",
-      "C": "Widespread indoor heating systems",
-      "D": "Extreme sub-zero winter temperatures"
+      "A": "They displace the drugs from renal tubules, increasing urinary excretion speed",
+      "B": "They induce liver enzymes, causing faster elimination and lower drug levels",
+      "C": "On the contrary, they inhibit hepatic enzymes, raising drug levels and toxicity risk",
+      "D": "They bind directly to the drugs in the stomach, preventing all absorption"
     },
-    "answer": "B",
-    "explanation": "The hot and humid tropical climate in Nigeria fosters an environment where superficial dermatophytes and fungi thrive easily. [learn more](GNS215_U6_T3#GNS215_U6_T3_h5)"
+    "answer": "C",
+    "explanation": "Azoles inhibit hepatic cytochrome P450 enzymes, slowing down the metabolism of companion drugs and leading to toxic accumulation in the bloodstream. [learn more](GNS215_U6_T3#GNS215_U6_T3_h5)"
   },
   {
     "question_id": "GNS215_U6_T3_h5_q2",
     "heading_id": "GNS215_U6_T3_h5",
     "article_id": "GNS215_U6_T3",
     "topic_id": "GNS215_U6_T3",
-    "question": "Which systemic fungal infection is frequently managed in HIV-positive patients in Nigerian tertiary hospitals using fluconazole?",
+    "difficulty": "application",
+    "question": "A patient scheduled for an intravenous infusion of Amphotericin B is at high risk for acute infusion-related rigors and fever. What preventive measure should the nurse anticipate?",
     "options": {
-      "A": "Cryptococcal meningitis",
-      "B": "Onychomycosis",
-      "C": "Tinea pedis",
-      "D": "Contact dermatitis"
+      "A": "Refrigerating the intravenous bag to near-freezing temperatures",
+      "B": "Administering a prophylactic dose of a rapid-acting loop diuretic",
+      "C": "Diluting the medication in 500 mL of 0.9% normal saline exclusively",
+      "D": "Pre-medicating with antipyretics, antihistamines, or hydrocortisone"
     },
-    "answer": "A",
-    "explanation": "Cryptococcal meningitis is a major systemic opportunistic infection in HIV/AIDS patients and is commonly treated with fluconazole. [learn more](GNS215_U6_T3#GNS215_U6_T3_h5)"
+    "answer": "D",
+    "explanation": "Infusion reactions caused by cytokine release from amphotericin B are commonly managed with prophylactic anti-inflammatory and antipyretic medications. [learn more](GNS215_U6_T3#GNS215_U6_T3_h5)"
   },
   {
     "question_id": "GNS215_U6_T3_h6_q1",
     "heading_id": "GNS215_U6_T3_h6",
     "article_id": "GNS215_U6_T3",
     "topic_id": "GNS215_U6_T3",
-    "question": "Which of the following is a classic infusion-related reaction associated with conventional amphotericin B administration?",
+    "difficulty": "understanding",
+    "question": "What is a critical electrolyte disturbance commonly associated with intravenous polyene therapy that requires active nursing surveillance?",
     "options": {
-      "A": "Severe hypertension and tachycardia",
-      "B": "Fever, chills, rigors, and hypotension",
-      "C": "Uncontrolled bleeding gums",
-      "D": "Sudden hair loss and skin blistering"
+      "A": "Hypoglycemia and hyperkalemia",
+      "B": "Hyponatremia and hyperchloremia",
+      "C": "Hypokalemia and hypomagnesemia",
+      "D": "Hypercalcemia and hyperphosphatemia"
     },
-    "answer": "B",
-    "explanation": "Conventional amphotericin B frequently causes 'shake and bake' infusion reactions, which include fever, chills, rigors, and hypotension. [learn more](GNS215_U6_T3#GNS215_U6_T3_h6)"
+    "answer": "C",
+    "explanation": "Polyenes alter distal renal tubule permeability, causing renal wasting of potassium and magnesium, which necessitates frequent electrolyte monitoring. [learn more](GNS215_U6_T3#GNS215_U6_T3_h6)"
   },
   {
     "question_id": "GNS215_U6_T3_h6_q2",
     "heading_id": "GNS215_U6_T3_h6",
     "article_id": "GNS215_U6_T3",
     "topic_id": "GNS215_U6_T3",
-    "question": "Why do azole antifungals pose a high risk for significant drug-drug interactions?",
+    "difficulty": "recall",
+    "question": "What instruction is essential when educating a patient who has been prescribed a topical antifungal cream for a skin dermatophyte infection?",
     "options": {
-      "A": "They bind irreversibly to red blood cells.",
-      "B": "They stimulate the rapid excretion of all other drugs.",
-      "C": "They inhibit hepatic cytochrome P450 enzymes like CYP3A4.",
-      "D": "They destroy the renal glomeruli completely."
+      "A": "Wash the skin with harsh antiseptic soap immediately before every application",
+      "B": "Stop applying the cream the exact day the visible rash completely disappears",
+      "C": "Apply a thick, occlusive plastic bandage over the cream to speed up absorption",
+      "D": "Continue applying the medication for a week after lesions clear to prevent relapse"
     },
-    "answer": "C",
-    "explanation": "Azoles inhibit the cytochrome P450 enzyme system, which decreases the metabolism of co-administered drugs and leads to toxic accumulation. [learn more](GNS215_U6_T3#GNS215_U6_T3_h6)"
-  },
-  {
-    "question_id": "GNS215_U6_T3_h7_q1",
-    "heading_id": "GNS215_U6_T3_h7",
-    "article_id": "GNS215_U6_T3",
-    "topic_id": "GNS215_U6_T3",
-    "question": "What is a vital instruction a nurse must give to a patient prescribed a course of antifungal medication?",
-    "options": {
-      "A": "Stop taking the medication immediately when itching goes away.",
-      "B": "Complete the full course of therapy even if symptoms improve.",
-      "C": "Double the dose if a single daily application is missed.",
-      "D": "Share personal towels with family members to speed recovery."
-    },
-    "answer": "B",
-    "explanation": "Patients must be educated to complete the entire prescribed course of therapy to prevent recurrence and treatment failure, even if symptoms subside. [learn more](GNS215_U6_T3#GNS215_U6_T3_h7)"
-  },
-  {
-    "question_id": "GNS215_U6_T3_h7_q2",
-    "heading_id": "GNS215_U6_T3_h7",
-    "article_id": "GNS215_U6_T3",
-    "topic_id": "GNS215_U6_T3",
-    "question": "Which symptoms should a nurse instruct a patient to report immediately as possible indicators of hepatotoxicity?",
-    "options": {
-      "A": "Yellowing of the eyes and dark urine",
-      "B": "Mild dryness of the skin and lips",
-      "C": "Increased appetite and weight gain",
-      "D": "Temporary joint stiffness in the morning"
-    },
-    "answer": "A",
-    "explanation": "Yellowing of the eyes (jaundice) and dark urine are classic signs of liver stress or hepatotoxicity, which must be reported promptly. [learn more](GNS215_U6_T3#GNS215_U6_T3_h7)"
+    "answer": "D",
+    "explanation": "Fungal spores often persist on the skin even after visual signs of infection vanish; continuing treatment prevents early recurrence. [learn more](GNS215_U6_T3#GNS215_U6_T3_h6)"
   }
 ]
