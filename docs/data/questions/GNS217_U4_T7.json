@@ -4,209 +4,207 @@
     "heading_id": "GNS217_U4_T7_h1",
     "article_id": "GNS217_U4_T7",
     "topic_id": "GNS217_U4_T7",
-    "question": "What primary type of data is represented using a bar chart?",
+    "difficulty": "recall",
+    "question": "What type of data is primarily displayed using a bar chart?",
     "options": {
-      "A": "Continuous time-series data",
+      "A": "Individual patient narratives",
       "B": "Categorical data",
-      "C": "Individual patient heart rates over seconds",
-      "D": "Correlational scatter plots"
+      "C": "Continuous time-series data",
+      "D": "Bivariate correlation data"
     },
     "answer": "B",
-    "explanation": "Bar charts are specifically designed to represent categorical data, such as departments, marital status, or nursing units. [learn more](GNS217_U4_T7#GNS217_U4_T7_h1)"
+    "explanation": "Bar charts are specifically designed to represent discrete categories and their corresponding frequencies or values. [learn more](GNS217_U4_T7#GNS217_U4_T7_h1)"
   },
   {
     "question_id": "GNS217_U4_T7_h1_q2",
     "heading_id": "GNS217_U4_T7_h1",
     "article_id": "GNS217_U4_T7",
     "topic_id": "GNS217_U4_T7",
-    "question": "Why are bar charts particularly useful for nursing students and healthcare professionals?",
+    "difficulty": "understanding",
+    "question": "Why are bar charts commonly utilized in public health reports and nursing research?",
     "options": {
-      "A": "They completely replace the need for written patient records.",
-      "B": "They transform dry numerical tables into intuitive visual stories for quick comparison.",
-      "C": "They are exclusively used for complex genetic sequencing.",
-      "D": "They track individual patient vital signs continuously."
+      "A": "They provide a mathematical proof for randomized controlled trials.",
+      "B": "They transform complex numerical spreadsheets into accessible visual evidence.",
+      "C": "They calculate exact statistical p-values automatically without software.",
+      "D": "They replace the need for written methodology sections entirely."
     },
     "answer": "B",
-    "explanation": "Bar charts use proportional rectangular bars to transform tables of numbers into intuitive visual comparisons between discrete groups. [learn more](GNS217_U4_T7#GNS217_U4_T7_h1)"
+    "explanation": "Visualizing data allows clinicians and policymakers to grasp epidemiological trends and categorical differences quickly without analyzing raw numbers. [learn more](GNS217_U4_T7#GNS217_U4_T7_h1)"
   },
   {
     "question_id": "GNS217_U4_T7_h2_q1",
     "heading_id": "GNS217_U4_T7_h2",
     "article_id": "GNS217_U4_T7",
     "topic_id": "GNS217_U4_T7",
-    "question": "What does the y-axis typically represent in a standard vertical bar chart?",
+    "difficulty": "recall",
+    "question": "What does the vertical axis (y-axis) typically represent in a standard clinical bar chart?",
     "options": {
-      "A": "The discrete categories being compared",
-      "B": "The scale of values such as frequencies or percentages",
-      "C": "The chronological years of a study",
-      "D": "The names of the researchers"
+      "A": "Chronological sequence of calendar years",
+      "B": "Qualitative patient interview transcripts",
+      "C": "Numerical scale of frequency or percentage",
+      "D": "Discrete categories of healthcare workers"
     },
-    "answer": "B",
-    "explanation": "The y-axis represents the numerical scale of values, such as frequencies, counts, or percentages, corresponding to the category heights. [learn more](GNS217_U4_T7#GNS217_U4_T7_h2)"
+    "answer": "C",
+    "explanation": "The y-axis provides the quantitative scale against which the height of each category bar is measured. [learn more](GNS217_U4_T7#GNS217_U4_T7_h2)"
   },
   {
     "question_id": "GNS217_U4_T7_h2_q2",
     "heading_id": "GNS217_U4_T7_h2",
     "article_id": "GNS217_U4_T7",
     "topic_id": "GNS217_U4_T7",
-    "question": "Why are spaces or gaps typically maintained between adjacent bars in a bar chart?",
+    "difficulty": "understanding",
+    "question": "Why must all individual bars within a bar chart maintain a uniform width?",
     "options": {
-      "A": "To save printing ink",
-      "B": "To emphasize that the categories are discrete and separate",
-      "C": "To indicate that the data is continuous over time",
-      "D": "To hide missing data points"
+      "A": "Narrower bars represent smaller sample sizes automatically.",
+      "B": "Wider bars indicate statistical significance in hypothesis testing.",
+      "C": "Varying widths create a false visual impression of greater magnitude for wider bars.",
+      "D": "Journal publishing guidelines strictly mandate equal printer ink consumption."
     },
-    "answer": "B",
-    "explanation": "Gaps between bars visually emphasize that the data categories are discrete and separate, distinguishing bar charts from histograms. [learn more](GNS217_U4_T7#GNS217_U4_T7_h2)"
+    "answer": "C",
+    "explanation": "Consistency in bar width ensures that the viewer's eye relies solely on height or length to judge magnitude, avoiding visual distortion. [learn more](GNS217_U4_T7#GNS217_U4_T7_h2)"
   },
   {
     "question_id": "GNS217_U4_T7_h3_q1",
     "heading_id": "GNS217_U4_T7_h3",
     "article_id": "GNS217_U4_T7",
     "topic_id": "GNS217_U4_T7",
-    "question": "Which type of bar chart places multiple bars side-by-side for each primary category to compare subgroups?",
+    "difficulty": "recall",
+    "question": "Which bar chart variation places multiple bars side-by-side within a single category to compare sub-categories?",
     "options": {
       "A": "Simple bar chart",
-      "B": "Grouped bar chart",
-      "C": "Stacked bar chart",
-      "D": "Histogram"
+      "B": "Histographic bar chart",
+      "C": "Grouped bar chart",
+      "D": "Stacked bar chart"
     },
-    "answer": "B",
-    "explanation": "Grouped bar charts place multiple bars side-by-side for each main category, making it easy to compare subgroups directly. [learn more](GNS217_U4_T7#GNS217_U4_T7_h3)"
+    "answer": "C",
+    "explanation": "Grouped bar charts position related sub-category bars directly next to each other to facilitate direct comparison within each primary group. [learn more](GNS217_U4_T7#GNS217_U4_T7_h3)"
   },
   {
     "question_id": "GNS217_U4_T7_h3_q2",
     "heading_id": "GNS217_U4_T7_h3",
     "article_id": "GNS217_U4_T7",
     "topic_id": "GNS217_U4_T7",
-    "question": "When would a horizontal bar chart be preferred over a vertical bar chart?",
+    "difficulty": "application",
+    "question": "A nurse researcher wants to show both the total patient admissions per ward and the breakdown of insured versus uninsured patients within each ward in a single graphic. Which chart type is most appropriate?",
     "options": {
-      "A": "When displaying continuous time-series data",
-      "B": "When category labels are long or numerous",
-      "C": "When you want to hide the y-axis values",
-      "D": "When data points are less than five"
+      "A": "Stacked bar chart",
+      "B": "Line graph",
+      "C": "Scatter plot",
+      "D": "Simple bar chart"
     },
-    "answer": "B",
-    "explanation": "Horizontal bar charts are ideal when category text labels are long or when there are many categories, ensuring readability. [learn more](GNS217_U4_T7#GNS217_U4_T7_h3)"
+    "answer": "A",
+    "explanation": "Stacked bar charts display the total height of a category while simultaneously showing the proportional breakdown of sub-components within that total. [learn more](GNS217_U4_T7#GNS217_U4_T7_h3)"
   },
   {
     "question_id": "GNS217_U4_T7_h4_q1",
     "heading_id": "GNS217_U4_T7_h4",
     "article_id": "GNS217_U4_T7",
     "topic_id": "GNS217_U4_T7",
-    "question": "What is a key structural difference between a bar chart and a histogram?",
+    "difficulty": "recall",
+    "question": "What structural feature visually distinguishes a histogram from a traditional bar chart?",
     "options": {
-      "A": "Bar charts have gaps between bars, whereas histograms have no gaps because data is continuous.",
-      "B": "Histograms are used only for categorical data.",
-      "C": "Bar charts use lines instead of rectangular shapes.",
-      "D": "Histograms cannot display percentages."
+      "A": "Bar charts display continuous time intervals on the horizontal axis.",
+      "B": "Histograms are restricted to exactly four categories.",
+      "C": "Histograms use circular sectors instead of rectangular bars.",
+      "D": "The bars in a histogram touch each other with no gaps because data is continuous."
     },
-    "answer": "A",
-    "explanation": "Bar charts have spaces between bars for discrete categories, whereas histograms have touching bars because they represent continuous intervals. [learn more](GNS217_U4_T7#GNS217_U4_T7_h4)"
+    "answer": "D",
+    "explanation": "Histograms represent continuous frequency distributions where touching bars reflect continuous numerical scales, unlike discrete categorical bar charts which feature gaps. [learn more](GNS217_U4_T7#GNS217_U4_T7_h4)"
   },
   {
     "question_id": "GNS217_U4_T7_h4_q2",
     "heading_id": "GNS217_U4_T7_h4",
     "article_id": "GNS217_U4_T7",
     "topic_id": "GNS217_U4_T7",
-    "question": "When should a line graph be used instead of a bar chart?",
+    "difficulty": "understanding",
+    "question": "When should a nurse select a line graph instead of a bar chart?",
     "options": {
-      "A": "When comparing independent hospital departments",
-      "B": "When displaying trends over continuous time periods",
-      "C": "When showing parts of a whole percentage",
-      "D": "When analyzing categorical demographic data"
+      "A": "When displaying data points that change continuously over a period of time",
+      "B": "When analyzing nominal data without numerical values",
+      "C": "When showing the proportion of a single whole dataset",
+      "D": "When comparing independent categories like different clinical departments"
     },
-    "answer": "B",
-    "explanation": "Line graphs are specifically designed to display trends and changes over continuous time periods. [learn more](GNS217_U4_T7#GNS217_U4_T7_h4)"
+    "answer": "A",
+    "explanation": "Line graphs excel at demonstrating trends, trajectories, and progressions across continuous chronological intervals. [learn more](GNS217_U4_T7#GNS217_U4_T7_h4)"
   },
   {
     "question_id": "GNS217_U4_T7_h5_q1",
     "heading_id": "GNS217_U4_T7_h5",
     "article_id": "GNS217_U4_T7",
     "topic_id": "GNS217_U4_T7",
-    "question": "What is the critical rule regarding the y-axis scale when constructing a bar chart?",
+    "difficulty": "recall",
+    "question": "Where must the numerical scale on the vertical axis of a standard bar chart always begin?",
     "options": {
-      "A": "It must start at zero to prevent visual distortion.",
-      "B": "It must always end at 100.",
-      "C": "It should start at the lowest data point to save space.",
-      "D": "It must use logarithmic increments only."
+      "A": "Zero",
+      "B": "Ten percent",
+      "C": "The lowest data value in the dataset",
+      "D": "The median value of the categories"
     },
     "answer": "A",
-    "explanation": "The y-axis must start at zero to ensure that bar heights are proportional to the data and do not visually distort differences. [learn more](GNS217_U4_T7#GNS217_U4_T7_h5)"
+    "explanation": "Starting the vertical axis at zero is essential for maintaining accurate visual proportions and preventing exaggerated differences between bars. [learn more](GNS217_U4_T7#GNS217_U4_T7_h5)"
   },
   {
     "question_id": "GNS217_U4_T7_h5_q2",
     "heading_id": "GNS217_U4_T7_h5",
     "article_id": "GNS217_U4_T7",
     "topic_id": "GNS217_U4_T7",
-    "question": "What should be done after organizing raw data into a frequency table and drawing the axes?",
+    "difficulty": "understanding",
+    "question": "What is the very first practical step a researcher must take before drawing a bar chart?",
     "options": {
-      "A": "Immediately publish the research without reviewing.",
-      "B": "Plot the data by drawing rectangular bars of equal width with consistent gaps.",
-      "C": "Convert the bar chart into a pie chart.",
-      "D": "Remove all axis labels to make the chart look clean."
+      "A": "Tally raw data into a frequency table to determine category counts",
+      "B": "Select aesthetically pleasing color schemes for the bars",
+      "C": "Write an extensive discussion section explaining the findings",
+      "D": "Calculate the p-value using inferential statistics software"
     },
-    "answer": "B",
-    "explanation": "The next step is plotting the data by drawing bars whose heights match the values, maintaining equal width and gaps. [learn more](GNS217_U4_T7#GNS217_U4_T7_h5)"
+    "answer": "A",
+    "explanation": "Before graphical representation can occur, raw observations must be summarized into organized frequency categories. [learn more](GNS217_U4_T7#GNS217_U4_T7_h5)"
   },
   {
     "question_id": "GNS217_U4_T7_h6_q1",
     "heading_id": "GNS217_U4_T7_h6",
     "article_id": "GNS217_U4_T7",
     "topic_id": "GNS217_U4_T7",
-    "question": "What is the first step when interpreting a bar chart in a research article?",
+    "difficulty": "recall",
+    "question": "What term describes the category on a bar chart with the tallest bar representing the highest frequency?",
     "options": {
-      "A": "Calculate the exact mean of the data",
-      "B": "Examine the title and axis labels to understand variables and units",
-      "C": "Assume a causal relationship between variables",
-      "D": "Ignore the legend"
+      "A": "Mode",
+      "B": "Variance",
+      "C": "Range",
+      "D": "Median"
     },
-    "answer": "B",
-    "explanation": "You must first examine the title and axis labels to comprehend what variables and units are being measured before drawing conclusions. [learn more](GNS217_U4_T7#GNS217_U4_T7_h6)"
-  },
-  {
-    "question_id": "GNS217_U4_T7_h6_q2",
-    "heading_id": "GNS217_U4_T7_h6",
-    "article_id": "GNS217_U4_T7",
-    "topic_id": "GNS217_U4_T7",
-    "question": "What type of relationship do bar charts primarily display, which readers must be careful not to misinterpret?",
-    "options": {
-      "A": "Strictly causal relationships",
-      "B": "Descriptive data and frequencies",
-      "C": "Continuous genetic mutations over time",
-      "D": "Individual patient psychiatric diagnoses"
-    },
-    "answer": "B",
-    "explanation": "Bar charts display descriptive data and frequencies, meaning readers should not assume cause and effect from them alone. [learn more](GNS217_U4_T7#GNS217_U4_T7_h6)"
+    "answer": "A",
+    "explanation": "In frequency distributions and visual charts, the mode represents the most frequently occurring category or value. [learn more](GNS217_U4_T7#GNS217_U4_T7_h6)"
   },
   {
     "question_id": "GNS217_U4_T7_h7_q1",
     "heading_id": "GNS217_U4_T7_h7",
     "article_id": "GNS217_U4_T7",
     "topic_id": "GNS217_U4_T7",
-    "question": "What is the danger of truncating the y-axis in a bar chart?",
+    "difficulty": "recall",
+    "question": "Which of the following is NOT a recommended design practice when creating a clear bar chart?",
     "options": {
-      "A": "It makes the chart completely invisible.",
-      "B": "It exaggerates small differences between categories, leading to false impressions.",
-      "C": "It changes categorical data into continuous data.",
-      "D": "It forces the bars to change from vertical to horizontal."
+      "A": "Maintaining uniform width across all rectangular bars",
+      "B": "Starting the vertical frequency axis at zero",
+      "C": "Using excessive 3D effects and distracting background colors",
+      "D": "Including clear labels and units of measurement on both axes"
     },
-    "answer": "B",
-    "explanation": "Starting the y-axis at a number other than zero exaggerates differences between categories, making minor variations look deceptively massive. [learn more](GNS217_U4_T7#GNS217_U4_T7_h7)"
+    "answer": "C",
+    "explanation": "Unnecessary 3D effects and decorative clutter distort visual perception and distract from the actual data being presented. [learn more](GNS217_U4_T7#GNS217_U4_T7_h7)"
   },
   {
     "question_id": "GNS217_U4_T7_h7_q2",
     "heading_id": "GNS217_U4_T7_h7",
     "article_id": "GNS217_U4_T7",
     "topic_id": "GNS217_U4_T7",
-    "question": "Why must all bars in a bar chart maintain identical widths?",
+    "difficulty": "understanding",
+    "question": "Why does overcrowding the horizontal axis with too many categories damage the effectiveness of a bar chart?",
     "options": {
-      "A": "So visual emphasis is based strictly on height rather than area",
-      "B": "To ensure the chart takes up less space on the page",
-      "C": "To allow the bars to touch each other like a histogram",
-      "D": "To hide missing data points"
+      "A": "It prevents the calculation of standard deviation.",
+      "B": "It automatically converts the chart into a stacked format.",
+      "C": "It forces text to become unreadable and obscures comparative patterns.",
+      "D": "It changes the underlying data from categorical to continuous."
     },
-    "answer": "A",
-    "explanation": "Consistent bar widths ensure that viewers judge values based on height, as varying widths would distort the visual area of the bars. [learn more](GNS217_U4_T7#GNS217_U4_T7_h7)"
+    "answer": "C",
+    "explanation": "When too many categories are crammed into a single graph, labels overlap and the visual clarity necessary for quick interpretation is lost. [learn more](GNS217_U4_T7#GNS217_U4_T7_h7)"
   }
 ]

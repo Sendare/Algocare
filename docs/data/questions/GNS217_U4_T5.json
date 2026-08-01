@@ -4,149 +4,159 @@
     "heading_id": "GNS217_U4_T5_h1",
     "article_id": "GNS217_U4_T5",
     "topic_id": "GNS217_U4_T5",
-    "question": "What do measures of variability primarily describe in nursing research data?",
+    "difficulty": "recall",
+    "question": "What do measures of variability primarily describe in a dataset?",
     "options": {
-      "A": "The exact middle point of a dataset",
-      "B": "How spread out or dispersed data points are around a central value",
-      "C": "The most frequently occurring value in a patient cohort",
-      "D": "The total sum of all patient measurements combined"
+      "A": "The single most frequent observation",
+      "B": "The exact middle point of the data",
+      "C": "The total sum of all recorded numbers",
+      "D": "The spread or dispersion of data values"
     },
-    "answer": "B",
-    "explanation": "Measures of variability specifically describe the dispersion or spread of data points away from a central value like the mean or median. [learn more](GNS217_U4_T5#GNS217_U4_T5_h1)"
+    "answer": "D",
+    "explanation": "Variability specifically measures how scattered or dispersed data points are relative to each other or a central value. [learn more](GNS217_U4_T5#GNS217_U4_T5_h1)"
   },
   {
     "question_id": "GNS217_U4_T5_h1_q2",
     "heading_id": "GNS217_U4_T5_h1",
     "article_id": "GNS217_U4_T5",
     "topic_id": "GNS217_U4_T5",
-    "question": "What does a high level of variability in a patient dataset typically indicate?",
+    "difficulty": "understanding",
+    "question": "Why is analyzing data variability important when comparing two different clinical wards with identical average patient outcomes?",
     "options": {
-      "A": "High homogeneity and tight clustering of data",
-      "B": "Identical responses from every patient in the study",
-      "C": "Wide scattering and significant differences among individual measurements",
-      "D": "An error in the calculation of the central tendency"
+      "A": "It eliminates the need to look at any other statistical tests in the study.",
+      "B": "It guarantees that all patients in both wards received identical medical interventions.",
+      "C": "It proves that one of the two wards calculated their mathematical averages incorrectly.",
+      "D": "It reveals differences in the consistency and predictability of patient care experiences."
     },
-    "answer": "C",
-    "explanation": "High variability means the data points are widely scattered, indicating significant differences or heterogeneity among individuals in the dataset. [learn more](GNS217_U4_T5#GNS217_U4_T5_h1)"
+    "answer": "D",
+    "explanation": "Identical averages can mask vastly different patient experiences; variability shows whether outcomes are tightly clustered or widely spread out. [learn more](GNS217_U4_T5#GNS217_U4_T5_h1)"
   },
   {
     "question_id": "GNS217_U4_T5_h2_q1",
     "heading_id": "GNS217_U4_T5_h2",
     "article_id": "GNS217_U4_T5",
     "topic_id": "GNS217_U4_T5",
-    "question": "How is the range of a dataset calculated?",
+    "difficulty": "recall",
+    "question": "What is the primary limitation of using the range as a measure of variability?",
     "options": {
-      "A": "By subtracting the minimum value from the maximum value",
-      "B": "By finding the difference between the third and first quartiles",
-      "C": "By dividing the sum of all values by the total number of observations",
-      "D": "By identifying the most frequent measurement in the dataset"
+      "A": "It requires complex calculus to compute accurately.",
+      "B": "It can only be used with normally distributed data.",
+      "C": "It ignores all values except the median.",
+      "D": "It is easily distorted by extreme outlier values."
     },
-    "answer": "A",
-    "explanation": "The range is calculated simply as the difference between the highest (maximum) and lowest (minimum) values in a dataset. [learn more](GNS217_U4_T5#GNS217_U4_T5_h2)"
+    "answer": "D",
+    "explanation": "Because the range relies solely on the absolute minimum and maximum values, a single extreme score will drastically alter the result. [learn more](GNS217_U4_T5#GNS217_U4_T5_h2)"
   },
   {
     "question_id": "GNS217_U4_T5_h2_q2",
     "heading_id": "GNS217_U4_T5_h2",
     "article_id": "GNS217_U4_T5",
     "topic_id": "GNS217_U4_T5",
-    "question": "What proportion of a dataset does the interquartile range (IQR) measure?",
+    "difficulty": "understanding",
+    "question": "What portion of a dataset does the interquartile range actually capture?",
     "options": {
-      "A": "The entire dataset from minimum to maximum",
-      "B": "The middle 50% of the data",
-      "C": "The top 10% of extreme outlier values",
-      "D": "The lower 25% of the distribution"
+      "A": "The entire dataset minus the mean",
+      "B": "The upper 75 percent",
+      "C": "The middle 50 percent",
+      "D": "The lower 25 percent"
     },
-    "answer": "B",
-    "explanation": "The interquartile range measures the statistical spread of the middle 50% of the data, lying between the first and third quartiles. [learn more](GNS217_U4_T5#GNS217_U4_T5_h2)"
+    "answer": "C",
+    "explanation": "The interquartile range covers the span between the first quartile and the third quartile, capturing the central half of the observations. [learn more](GNS217_U4_T5#GNS217_U4_T5_h2)"
   },
   {
     "question_id": "GNS217_U4_T5_h3_q1",
     "heading_id": "GNS217_U4_T5_h3",
     "article_id": "GNS217_U4_T5",
     "topic_id": "GNS217_U4_T5",
-    "question": "Why is the standard deviation often preferred over the variance in clinical interpretation?",
+    "difficulty": "recall",
+    "question": "What mathematical relationship exists between variance and standard deviation?",
     "options": {
-      "A": "It is completely unaffected by extreme outlier values",
-      "B": "It is measured in the original units of the data rather than squared units",
-      "C": "It is always a smaller number than the variance",
-      "D": "It can be calculated without knowing the arithmetic mean"
+      "A": "Variance is the square root of the standard deviation.",
+      "B": "Standard deviation is twice the value of the variance.",
+      "C": "Standard deviation is the square root of the variance.",
+      "D": "Variance and standard deviation always equal the exact same number."
     },
-    "answer": "B",
-    "explanation": "Standard deviation is the square root of the variance, which brings the unit of measurement back to the original units of the data for easier interpretation. [learn more](GNS217_U4_T5#GNS217_U4_T5_h3)"
+    "answer": "C",
+    "explanation": "Taking the square root of the squared units in the variance brings the dispersion value back to the original unit of measurement as the standard deviation. [learn more](GNS217_U4_T5#GNS217_U4_T5_h3)"
   },
   {
     "question_id": "GNS217_U4_T5_h3_q2",
     "heading_id": "GNS217_U4_T5_h3",
     "article_id": "GNS217_U4_T5",
     "topic_id": "GNS217_U4_T5",
-    "question": "In a normal distribution, approximately what percentage of data falls within two standard deviations of the mean?",
+    "difficulty": "understanding",
+    "question": "Why is standard deviation generally preferred over variance when discussing findings in a clinical research paper?",
     "options": {
-      "A": "50 percent",
-      "B": "68 percent",
-      "C": "95 percent",
-      "D": "99.7 percent"
+      "A": "It is expressed in the original units of measurement rather than squared units.",
+      "B": "It completely removes the mathematical effect of any present outliers.",
+      "C": "It can be calculated without needing to find the arithmetic mean first.",
+      "D": "It always yields a smaller numerical value than the variance."
     },
-    "answer": "C",
-    "explanation": "According to the empirical rule for normal distributions, roughly 95% of data points fall within two standard deviations of the mean. [learn more](GNS217_U4_T5#GNS217_U4_T5_h3)"
+    "answer": "A",
+    "explanation": "Squaring distances in variance changes the unit scale, whereas standard deviation uses the original units, making it intuitive to interpret alongside the mean. [learn more](GNS217_U4_T5#GNS217_U4_T5_h3)"
   },
   {
     "question_id": "GNS217_U4_T5_h4_q1",
     "heading_id": "GNS217_U4_T5_h4",
     "article_id": "GNS217_U4_T5",
     "topic_id": "GNS217_U4_T5",
-    "question": "When is the coefficient of variation (CV) most useful in nursing research?",
+    "difficulty": "recall",
+    "question": "What is the primary purpose of calculating the coefficient of variation?",
     "options": {
-      "A": "When calculating the exact median of a single skewed dataset",
-      "B": "When comparing variability between datasets with different units or means",
-      "C": "When determining the absolute minimum and maximum patient values",
-      "D": "When finding the sum of squared differences from the mean"
+      "A": "To identify the exact numerical value of the upper and lower quartiles",
+      "B": "To determine the mathematical probability of a type I research error",
+      "C": "To compare the relative variability of datasets with different units or scales",
+      "D": "To convert non-parametric skewed data into a normal distribution curve"
     },
-    "answer": "B",
-    "explanation": "The coefficient of variation is a relative measure that allows researchers to compare variability across datasets with different units or different means. [learn more](GNS217_U4_T5#GNS217_U4_T5_h4)"
+    "answer": "C",
+    "explanation": "The coefficient of variation removes units by creating a percentage ratio, enabling fair comparison between completely different types of clinical data. [learn more](GNS217_U4_T5#GNS217_U4_T5_h4)"
   },
   {
     "question_id": "GNS217_U4_T5_h4_q2",
     "heading_id": "GNS217_U4_T5_h4",
     "article_id": "GNS217_U4_T5",
     "topic_id": "GNS217_U4_T5",
-    "question": "How is the coefficient of variation calculated?",
+    "difficulty": "application",
+    "question": "A researcher wants to compare the dispersion of patient body weights measured in kilograms with resting pulse rates measured in beats per minute. Which statistical measure is most appropriate?",
     "options": {
-      "A": "By subtracting the mean from the standard deviation",
-      "B": "By dividing the standard deviation by the mean and multiplying by 100",
-      "C": "By adding the range to the interquartile range and dividing by two",
-      "D": "By taking the square root of the total sample variance"
+      "A": "Simple sample range",
+      "B": "Interquartile range",
+      "C": "Coefficient of variation",
+      "D": "Unadjusted variance"
     },
-    "answer": "B",
-    "explanation": "The CV is expressed as a percentage and is calculated by dividing the standard deviation by the mean, then multiplying by 100. [learn more](GNS217_U4_T5#GNS217_U4_T5_h4)"
+    "answer": "C",
+    "explanation": "Because weight and pulse rate use different units and scales, a relative measure like the coefficient of variation is required for a valid comparison. [learn more](GNS217_U4_T5#GNS217_U4_T5_h4)"
   },
   {
     "question_id": "GNS217_U4_T5_h5_q1",
     "heading_id": "GNS217_U4_T5_h5",
     "article_id": "GNS217_U4_T5",
     "topic_id": "GNS217_U4_T5",
-    "question": "What might high variability in patient recovery times across different hospital wards indicate?",
+    "difficulty": "understanding",
+    "question": "What does high variability in a patient's continuous vital sign monitoring typically indicate in a clinical setting?",
     "options": {
-      "A": "Perfect adherence to standardized clinical practice guidelines",
-      "B": "Inconsistencies in care delivery or differences in clinical protocols",
-      "C": "An error in calculating the arithmetic mean of the dataset",
-      "D": "That all patients experienced identical clinical outcomes"
+      "A": "Exceptional physical fitness and high physiological reserve",
+      "B": "Improper calibration of the electronic monitoring equipment only",
+      "C": "Complete stabilization of the underlying disease process",
+      "D": "Potential physiological instability or fluctuating clinical status"
     },
-    "answer": "B",
-    "explanation": "High variability in outcomes like recovery times often highlights inconsistencies in care delivery, resource availability, or protocol adherence across units. [learn more](GNS217_U4_T5#GNS217_U4_T5_h5)"
+    "answer": "D",
+    "explanation": "Wild swings in parameters like blood pressure or heart rate often serve as early warning signs of clinical deterioration. [learn more](GNS217_U4_T5#GNS217_U4_T5_h5)"
   },
   {
     "question_id": "GNS217_U4_T5_h5_q2",
     "heading_id": "GNS217_U4_T5_h5",
     "article_id": "GNS217_U4_T5",
     "topic_id": "GNS217_U4_T5",
-    "question": "Why must professional nurses understand the difference between normal physiological variability and pathological instability?",
+    "difficulty": "recall",
+    "question": "Which of the following is NOT a typical implication of low variability when evaluating specific laboratory assays or medication administration?",
     "options": {
-      "A": "To ensure accurate calculation of variance in published research papers",
-      "B": "To recognize true clinical deterioration versus normal fluctuations in patient parameters",
-      "C": "To eliminate all forms of variation in hospital vital sign charting",
-      "D": "To replace the need for regular nursing assessments and physical examinations"
+      "A": "Widespread random measurement errors across samples",
+      "B": "Consistent dosing delivery matching clinical standards",
+      "C": "High precision and reliability in the testing process",
+      "D": "Predictable and repeatable analytical outcomes"
     },
-    "answer": "B",
-    "explanation": "Understanding normal physiological fluctuation versus pathology allows nurses to identify genuine clinical instability and respond appropriately with patient care. [learn more](GNS217_U4_T5#GNS217_U4_T5_h5)"
+    "answer": "A",
+    "explanation": "Low variability denotes consistency and precision, whereas random measurement errors would increase variability rather than reduce it. [learn more](GNS217_U4_T5#GNS217_U4_T5_h5)"
   }
 ]

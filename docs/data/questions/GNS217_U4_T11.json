@@ -4,179 +4,191 @@
     "heading_id": "GNS217_U4_T11_h1",
     "article_id": "GNS217_U4_T11",
     "topic_id": "GNS217_U4_T11",
-    "question": "What does an ogive represent in nursing research and healthcare statistics?",
+    "difficulty": "recall",
+    "question": "What does the vertical axis of an ogive typically represent?",
     "options": {
-      "A": "The individual frequency of each data point",
-      "B": "The cumulative frequencies of a dataset",
-      "C": "The causal relationship between two clinical variables",
-      "D": "The daily fluctuation of a patient's vital signs"
+      "A": "Absolute deviation",
+      "B": "Cumulative frequency",
+      "C": "Class midpoint",
+      "D": "Individual frequency"
     },
     "answer": "B",
-    "explanation": "An ogive is specifically defined as a graphical representation used to depict cumulative frequencies of a dataset, showing how values accumulate. [learn more](GNS217_U4_T11#GNS217_U4_T11_h1)"
+    "explanation": "The vertical axis on an ogive always tracks the running total of frequencies, known as cumulative frequency. [learn more](GNS217_U4_T11#GNS217_U4_T11_h1)"
   },
   {
     "question_id": "GNS217_U4_T11_h1_q2",
     "heading_id": "GNS217_U4_T11_h1",
     "article_id": "GNS217_U4_T11",
     "topic_id": "GNS217_U4_T11",
-    "question": "What is typically displayed on the vertical axis (y-axis) of an ogive?",
+    "difficulty": "understanding",
+    "question": "Why do nursing researchers prefer using an ogive over a standard frequency polygon when analyzing large datasets?",
     "options": {
-      "A": "Class boundaries",
-      "B": "Cumulative frequency",
-      "C": "Individual patient names",
-      "D": "Time of day"
+      "A": "It prevents errors during raw data collection in hospital wards",
+      "B": "It eliminates the need to calculate class boundaries",
+      "C": "It makes it easy to estimate values falling above or below a specific threshold",
+      "D": "It calculates exact p-values without statistical software"
     },
-    "answer": "B",
-    "explanation": "The vertical axis of an ogive displays the cumulative frequency or cumulative relative frequency, while the horizontal axis shows class boundaries. [learn more](GNS217_U4_T11#GNS217_U4_T11_h1)"
+    "answer": "C",
+    "explanation": "The cumulative nature of an ogive allows researchers to quickly determine how many data points lie above or below a given value. [learn more](GNS217_U4_T11#GNS217_U4_T11_h1)"
   },
   {
     "question_id": "GNS217_U4_T11_h2_q1",
     "heading_id": "GNS217_U4_T11_h2",
     "article_id": "GNS217_U4_T11",
     "topic_id": "GNS217_U4_T11",
-    "question": "How is cumulative frequency defined in a statistical dataset?",
+    "difficulty": "recall",
+    "question": "What statistical value is plotted against the upper class boundary in a 'less than' cumulative frequency table?",
     "options": {
-      "A": "The frequency of a single class interval",
-      "B": "The running total of frequencies up to the current interval",
-      "C": "The difference between the highest and lowest values",
-      "D": "The average of all recorded frequencies"
+      "A": "Cumulative frequency",
+      "B": "Class midpoint",
+      "C": "Relative frequency",
+      "D": "Standard deviation"
     },
-    "answer": "B",
-    "explanation": "Cumulative frequency is the running total of frequencies from the lowest class interval up to the current class interval, showing accumulated totals. [learn more](GNS217_U4_T11#GNS217_U4_T11_h2)"
+    "answer": "A",
+    "explanation": "When constructing an ogive, the cumulative frequency is paired directly with the upper class boundary of each interval. [learn more](GNS217_U4_T11#GNS217_U4_T11_h2)"
   },
   {
     "question_id": "GNS217_U4_T11_h2_q2",
     "heading_id": "GNS217_U4_T11_h2",
     "article_id": "GNS217_U4_T11",
     "topic_id": "GNS217_U4_T11",
-    "question": "Why are true class boundaries used when plotting an ogive for continuous healthcare data?",
+    "difficulty": "understanding",
+    "question": "How is cumulative frequency calculated for a specific class interval in a frequency distribution?",
     "options": {
-      "A": "To eliminate gaps between continuous data intervals",
-      "B": "To increase the total number of patients in the study",
-      "C": "To change the mean value of the dataset",
-      "D": "To ensure every patient has an identical score"
+      "A": "By adding the frequency of the current class to the sum of all previous frequencies",
+      "B": "By finding the difference between the upper and lower class limits",
+      "C": "By dividing the class frequency by the total number of observations",
+      "D": "By multiplying the class midpoint by the total sample size"
     },
     "answer": "A",
-    "explanation": "Class boundaries are used to separate data without gaps, ensuring continuous data like blood pressure or weight are plotted accurately without missing fractions. [learn more](GNS217_U4_T11#GNS217_U4_T11_h2)"
+    "explanation": "Cumulative frequency accumulates sequentially, meaning each row includes the current frequency plus all preceding counts. [learn more](GNS217_U4_T11#GNS217_U4_T11_h2)"
   },
   {
     "question_id": "GNS217_U4_T11_h3_q1",
     "heading_id": "GNS217_U4_T11_h3",
     "article_id": "GNS217_U4_T11",
     "topic_id": "GNS217_U4_T11",
-    "question": "What does a 'less than' ogive use on the horizontal axis for plotting points?",
+    "difficulty": "recall",
+    "question": "What is the characteristic visual direction of a standard less than ogive when plotted on a graph?",
     "options": {
-      "A": "Lower class boundaries",
-      "B": "Upper class boundaries",
-      "C": "Midpoints only",
-      "D": "Cumulative percentages"
+      "A": "Remains a flat horizontal line",
+      "B": "Slopes downward from left to right",
+      "C": "Slopes upward from left to right",
+      "D": "Fluctuates randomly up and down"
     },
-    "answer": "B",
-    "explanation": "A 'less than' ogive is plotted by matching cumulative frequencies against the upper class boundaries of each interval. [learn more](GNS217_U4_T11#GNS217_U4_T11_h3)"
+    "answer": "C",
+    "explanation": "Because a less than ogive accumulates values progressively from lowest to highest, the curve continuously rises from left to right. [learn more](GNS217_U4_T11#GNS217_U4_T11_h3)"
   },
   {
     "question_id": "GNS217_U4_T11_h3_q2",
     "heading_id": "GNS217_U4_T11_h3",
     "article_id": "GNS217_U4_T11",
     "topic_id": "GNS217_U4_T11",
-    "question": "Which of the following describes the visual trend of a 'greater than' ogive from left to right?",
+    "difficulty": "understanding",
+    "question": "A public health nurse wants to determine the exact number of children in a clinic whose weight exceeds a specific nutritional cutoff point. Which graph should be utilized?",
     "options": {
-      "A": "It rises steadily upward from zero",
-      "B": "It remains completely horizontal",
-      "C": "It slopes downward from the total sample size to zero",
-      "D": "It fluctuates randomly without a pattern"
+      "A": "Simple bar chart",
+      "B": "Less than ogive",
+      "C": "Greater than ogive",
+      "D": "Standard pie chart"
     },
     "answer": "C",
-    "explanation": "A 'greater than' ogive starts at the total sample size at the lowest boundary and slopes downward to zero at the highest upper boundary. [learn more](GNS217_U4_T11#GNS217_U4_T11_h3)"
+    "explanation": "A greater than ogive accumulates data in reverse to show values exceeding specific upper thresholds. [learn more](GNS217_U4_T11#GNS217_U4_T11_h3)"
   },
   {
     "question_id": "GNS217_U4_T11_h4_q1",
     "heading_id": "GNS217_U4_T11_h4",
     "article_id": "GNS217_U4_T11",
     "topic_id": "GNS217_U4_T11",
-    "question": "What is the first step in constructing an ogive from raw healthcare data?",
+    "difficulty": "recall",
+    "question": "What value should the cumulative frequency start with on the Y-axis when plotting the very first point of a less than ogive?",
     "options": {
-      "A": "Drawing straight lines between random points",
-      "B": "Organizing raw data into logical class intervals",
-      "C": "Calculating the median percentage",
-      "D": "Labeling the vertical axis with patient names"
+      "A": "The midpoint of the first class",
+      "B": "Zero",
+      "C": "The total sample size",
+      "D": "One"
     },
     "answer": "B",
-    "explanation": "The first step is to collect and organize the raw healthcare data into logical class intervals before calculating frequencies and boundaries. [learn more](GNS217_U4_T11#GNS217_U4_T11_h4)"
+    "explanation": "A less than ogive always begins on the X-axis at the lower boundary of the first class where the cumulative frequency is zero. [learn more](GNS217_U4_T11#GNS217_U4_T11_h4)"
   },
   {
     "question_id": "GNS217_U4_T11_h4_q2",
     "heading_id": "GNS217_U4_T11_h4",
     "article_id": "GNS217_U4_T11",
     "topic_id": "GNS217_U4_T11",
-    "question": "Where should a 'less than' ogive be anchored on the x-axis at the starting point?",
+    "difficulty": "understanding",
+    "question": "Which procedural error is most likely to result in an incorrectly shaped less than ogive curve?",
     "options": {
-      "A": "At the upper boundary of the last class",
-      "B": "At the lower boundary of the first class with a frequency of zero",
-      "C": "At the exact median of the dataset",
-      "D": "At the maximum sample size"
+      "A": "Plotting cumulative frequencies against upper class boundaries instead of lower ones",
+      "B": "Ensuring equal spacing between class intervals on the horizontal axis",
+      "C": "Starting the Y-axis scale at zero and ending above the total sample size",
+      "D": "Using a continuous smooth curve to connect the coordinate points"
     },
-    "answer": "B",
-    "explanation": "A 'less than' ogive must be anchored to the x-axis at the lower boundary of the first class where the cumulative frequency is zero. [learn more](GNS217_U4_T11#GNS217_U4_T11_h4)"
+    "answer": "A",
+    "explanation": "Less than ogives require pairing cumulative frequencies specifically with upper class boundaries to accurately reflect the accumulated totals. [learn more](GNS217_U4_T11#GNS217_U4_T11_h4)"
   },
   {
     "question_id": "GNS217_U4_T11_h5_q1",
     "heading_id": "GNS217_U4_T11_h5",
     "article_id": "GNS217_U4_T11",
     "topic_id": "GNS217_U4_T11",
-    "question": "To find the median using a 'less than' ogive, what value is first located on the vertical y-axis?",
+    "difficulty": "recall",
+    "question": "Where on the vertical axis do you begin when using a less than ogive to find the median of a dataset?",
     "options": {
-      "A": "The total sample size (N)",
-      "B": "Half of the total cumulative frequency (N/2)",
-      "C": "The maximum class boundary",
-      "D": "The standard deviation"
+      "A": "At the maximum total frequency (N)",
+      "B": "At half of the total frequency (N/2)",
+      "C": "At the 75th percentile mark",
+      "D": "At the zero baseline"
     },
     "answer": "B",
-    "explanation": "To find the median, you locate the 50th percentile or half of the total cumulative frequency (N/2) on the vertical y-axis and project it to the curve. [learn more](GNS217_U4_T11#GNS217_U4_T11_h5)"
+    "explanation": "The median divides the dataset in half, so you start at N/2 on the vertical axis and trace horizontally to the curve. [learn more](GNS217_U4_T11#GNS217_U4_T11_h5)"
   },
   {
     "question_id": "GNS217_U4_T11_h5_q2",
     "heading_id": "GNS217_U4_T11_h5",
     "article_id": "GNS217_U4_T11",
     "topic_id": "GNS217_U4_T11",
-    "question": "How is the third quartile (75th percentile) determined from a cumulative frequency ogive?",
+    "difficulty": "understanding",
+    "question": "After locating the 75th percentile on the vertical axis of an ogive and finding its intersection on the curve, what is the next step to determine the score?",
     "options": {
-      "A": "By locating 3N/4 on the y-axis and projecting it to the curve and down to the x-axis",
-      "B": "By finding the lowest lower boundary on the x-axis",
-      "C": "By multiplying the median by two",
-      "D": "By adding all class frequencies together"
+      "A": "Drop a vertical line straight down to read the value on the X-axis",
+      "B": "Multiply the intersection value by the total sample size",
+      "C": "Trace back to the left until you hit the origin",
+      "D": "Add the class interval width to the Y-axis coordinate"
     },
     "answer": "A",
-    "explanation": "The third quartile is found by locating 3N/4 on the vertical axis, moving horizontally to the ogive curve, and reading the corresponding value on the x-axis. [learn more](GNS217_U4_T11#GNS217_U4_T11_h5)"
+    "explanation": "To find the corresponding data value for any percentile, you move from the curve down to read the measurement on the horizontal axis. [learn more](GNS217_U4_T11#GNS217_U4_T11_h5)"
   },
   {
     "question_id": "GNS217_U4_T11_h6_q1",
     "heading_id": "GNS217_U4_T11_h6",
     "article_id": "GNS217_U4_T11",
     "topic_id": "GNS217_U4_T11",
-    "question": "How might hospital administrators use an ogive in emergency department management?",
+    "difficulty": "understanding",
+    "question": "A hospital quality improvement committee wants to check if 80% of surgical patients are discharged within 5 days of surgery. Which analytical approach is most appropriate?",
     "options": {
-      "A": "To track patient waiting times and check compliance with benchmark standards",
-      "B": "To prescribe medications to individual patients",
-      "C": "To schedule nursing shift rosters for the month",
-      "D": "To diagnose acute infectious diseases"
+      "A": "Locating 80% on the vertical axis of a less than ogive and reading the corresponding day value on the horizontal axis",
+      "B": "Drawing a simple pie chart showing the percentage of male versus female patients",
+      "C": "Calculating the arithmetic mean of all patient ages in the surgical ward",
+      "D": "Comparing the raw daily bed occupancy rates using a standard bar graph"
     },
     "answer": "A",
-    "explanation": "Hospital managers use ogives to evaluate patient flow metrics like emergency waiting times to ensure they meet healthcare quality standards. [learn more](GNS217_U4_T11#GNS217_U4_T11_h6)"
+    "explanation": "An ogive allows administrators to locate specific percentage thresholds on the Y-axis and determine the corresponding time or measurement on the X-axis. [learn more](GNS217_U4_T11#GNS217_U4_T11_h6)"
   },
   {
     "question_id": "GNS217_U4_T11_h6_q2",
     "heading_id": "GNS217_U4_T11_h6",
     "article_id": "GNS217_U4_T11",
     "topic_id": "GNS217_U4_T11",
-    "question": "In community health nursing, what is a potential application of cumulative frequency ogives?",
+    "difficulty": "recall",
+    "question": "Which of the following clinical scenarios is NOT typically evaluated using a cumulative frequency ogive?",
     "options": {
-      "A": "Analyzing vaccination coverage rates across different age groups",
-      "B": "Repairing medical equipment in the clinic",
-      "C": "Performing surgical operations",
-      "D": "Writing hospital admission policies"
+      "A": "Evaluating emergency department waiting time compliance targets",
+      "B": "Assessing infant growth percentiles in a community immunization clinic",
+      "C": "Tracking individual daily mood fluctuations of a single psychiatric patient over time",
+      "D": "Determining the proportion of hypertensive patients exceeding a specific blood pressure limit"
     },
-    "answer": "A",
-    "explanation": "Community health nurses use ogives to analyze public health metrics like vaccination coverage rates to help allocate healthcare resources. [learn more](GNS217_U4_T11#GNS217_U4_T11_h6)"
+    "answer": "C",
+    "explanation": "Individual longitudinal tracking of a single patient is better represented with a simple time-series line graph, not an ogive, which analyzes grouped population distributions. [learn more](GNS217_U4_T11#GNS217_U4_T11_h6)"
   }
 ]

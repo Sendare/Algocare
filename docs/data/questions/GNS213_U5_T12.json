@@ -4,239 +4,255 @@
     "heading_id": "GNS213_U5_T12_h1",
     "article_id": "GNS213_U5_T12",
     "topic_id": "GNS213_U5_T12",
-    "question": "What does a positive Mantoux test primarily indicate?",
+    "difficulty": "recall",
+    "question": "What primary condition does the Mantoux test screen for in patients?",
     "options": {
-      "A": "Confirmed active pulmonary tuberculosis disease",
-      "B": "An immune response and exposure to Mycobacterium tuberculosis",
-      "C": "Permanent immunity against all forms of bacterial pneumonia",
-      "D": "Immediate resistance to BCG vaccination complications"
+      "A": "Streptococcus pneumoniae pneumonia",
+      "B": "Plasmodium falciparum malaria",
+      "C": "Human immunodeficiency virus",
+      "D": "Mycobacterium tuberculosis infection"
     },
-    "answer": "B",
-    "explanation": "The Mantoux test indicates whether an individual has been exposed to the bacteria and mounted a cell-mediated immune response, though it does not differentiate between latent and active infection. [learn more](GNS213_U5_T12#GNS213_U5_T12_h1)"
+    "answer": "D",
+    "explanation": "The Mantoux test specifically identifies whether an individual has been infected with the tuberculosis bacterium by measuring an immune response. [learn more](GNS213_U5_T12#GNS213_U5_T12_h1)"
   },
   {
     "question_id": "GNS213_U5_T12_h1_q2",
     "heading_id": "GNS213_U5_T12_h1",
     "article_id": "GNS213_U5_T12",
     "topic_id": "GNS213_U5_T12",
-    "question": "Which of the following groups is routinely targeted for Mantoux screening in Nigerian clinical settings?",
+    "difficulty": "understanding",
+    "question": "Why is the Mantoux test unable to confirm active tuberculosis disease on its own?",
     "options": {
-      "A": "Healthy infants receiving routine measles immunizations",
-      "B": "Healthcare workers and individuals living with HIV",
-      "C": "Patients recovering from uncomplicated bone fractures",
-      "D": "Pregnant women in their first trimester for routine vitamins"
+      "A": "Bacterial shedding must be confirmed via stool microscopy first",
+      "B": "Blood antibodies neutralize the tuberculin before symptoms appear",
+      "C": "It only measures immune hypersensitivity rather than disease state",
+      "D": "The injection site reacts identically in latent and active cases"
     },
-    "answer": "B",
-    "explanation": "Healthcare workers and immunocompromised individuals, such as those living with HIV, are high-risk groups routinely targeted for TB screening to prevent transmission and disease progression. [learn more](GNS213_U5_T12#GNS213_U5_T12_h1)"
+    "answer": "C",
+    "explanation": "A positive reaction demonstrates that the immune system has been exposed to the organism, but further diagnostic evaluations like chest radiography and sputum microscopy are required to rule out active disease. [learn more](GNS213_U5_T12#GNS213_U5_T12_h1)"
   },
   {
     "question_id": "GNS213_U5_T12_h2_q1",
     "heading_id": "GNS213_U5_T12_h2",
     "article_id": "GNS213_U5_T12",
     "topic_id": "GNS213_U5_T12",
-    "question": "What type of hypersensitivity reaction is responsible for the Mantoux test result?",
+    "difficulty": "recall",
+    "question": "Which type of hypersensitivity reaction is responsible for a positive Mantoux test?",
     "options": {
-      "A": "Type I immediate hypersensitivity",
-      "B": "Type II cytotoxic hypersensitivity",
-      "C": "Type III immune complex-mediated hypersensitivity",
-      "D": "Type IV delayed-type hypersensitivity"
+      "A": "Type II cytotoxic antibody reaction",
+      "B": "Type III immune complex-mediated response",
+      "C": "Type IV delayed-type hypersensitivity",
+      "D": "Type I immediate IgE-mediated reaction"
     },
-    "answer": "D",
-    "explanation": "The Mantoux test is a classic example of a Type IV delayed-type hypersensitivity reaction driven by sensitized T-lymphocytes. [learn more](GNS213_U5_T12#GNS213_U5_T12_h2)"
+    "answer": "C",
+    "explanation": "The skin reaction is cell-mediated, involving T-lymphocytes migrating to the injection site days after exposure rather than a rapid antibody-driven response. [learn more](GNS213_U5_T12#GNS213_U5_T12_h2)"
   },
   {
     "question_id": "GNS213_U5_T12_h2_q2",
     "heading_id": "GNS213_U5_T12_h2",
     "article_id": "GNS213_U5_T12",
     "topic_id": "GNS213_U5_T12",
-    "question": "When reading a Mantoux test, what specific physical characteristic is measured?",
+    "difficulty": "understanding",
+    "question": "What physiological process actually causes the palpable swelling at a positive PPD injection site?",
     "options": {
-      "A": "The diameter of surface erythema",
-      "B": "The degree of localized pain",
-      "C": "The diameter of palpable induration",
-      "D": "The presence of local skin hyperpigmentation"
+      "A": "Rapid replication of live bacteria injected into the dermis",
+      "B": "Immediate accumulation of circulating blood plasma",
+      "C": "Infiltration of inflammatory cells and local edema",
+      "D": "Chemical irritation from the preservative in the vial"
     },
     "answer": "C",
-    "explanation": "Induration, which is the hard, raised area felt beneath the skin, is the only physical feature measured during result reading. [learn more](GNS213_U5_T12#GNS213_U5_T12_h2)"
+    "explanation": "Sensitized T-cells release substances that recruit other white blood cells and fluid to the area, resulting in the firm swelling known as induration. [learn more](GNS213_U5_T12#GNS213_U5_T12_h2)"
   },
   {
     "question_id": "GNS213_U5_T12_h3_q1",
     "heading_id": "GNS213_U5_T12_h3",
     "article_id": "GNS213_U5_T12",
     "topic_id": "GNS213_U5_T12",
-    "question": "What is the standard dosage of tuberculin PPD administered in a Mantoux test?",
+    "difficulty": "recall",
+    "question": "What is the standard volume and concentration of PPD used for a routine Mantoux test?",
     "options": {
-      "A": "0.1 mL containing 5 Tuberculin Units",
-      "B": "0.5 mL containing 10 Tuberculin Units",
-      "C": "1.0 mL containing 50 Tuberculin Units",
-      "D": "0.2 mL containing 2 Tuberculin Units"
+      "A": "0.05 mL containing 1 tuberculin unit",
+      "B": "0.1 mL containing 5 tuberculin units",
+      "C": "1.0 mL containing 2 tuberculin units",
+      "D": "0.5 mL containing 10 tuberculin units"
     },
-    "answer": "A",
-    "explanation": "The standard diagnostic dose for a Mantoux test is 0.1 mL of PPD solution containing 5 Tuberculin Units. [learn more](GNS213_U5_T12#GNS213_U5_T12_h3)"
+    "answer": "B",
+    "explanation": "The exact diagnostic dose recommended internationally is 0.1 mL of PPD solution delivering 5 tuberculin units. [learn more](GNS213_U5_T12#GNS213_U5_T12_h3)"
   },
   {
     "question_id": "GNS213_U5_T12_h3_q2",
     "heading_id": "GNS213_U5_T12_h3",
     "article_id": "GNS213_U5_T12",
     "topic_id": "GNS213_U5_T12",
-    "question": "How should PPD vials be stored to prevent protein denaturation?",
+    "difficulty": "understanding",
+    "question": "Why is a 27-gauge, short needle selected for administering the tuberculin skin test?",
     "options": {
-      "A": "Frozen at temperatures below -20°C",
-      "B": "Stored in a warm incubator at 37°C",
-      "C": "Refrigerated between 2°C and 8°C and protected from light",
-      "D": "Kept at room temperature exposed to indirect sunlight"
+      "A": "To minimize pain during deep intramuscular drug delivery",
+      "B": "To facilitate precise intradermal deposition of the fluid",
+      "C": "To allow rapid aspiration of blood before pushing the antigen",
+      "D": "To prevent the fluid from entering subcutaneous fat layers"
     },
-    "answer": "C",
-    "explanation": "PPD must be refrigerated between 2°C and 8°C and protected from light to maintain its chemical stability and potency. [learn more](GNS213_U5_T12#GNS213_U5_T12_h3)"
+    "answer": "B",
+    "explanation": "A fine, short needle allows the nurse to enter the superficial skin layers precisely without accidentally sliding into the subcutaneous tissue. [learn more](GNS213_U5_T12#GNS213_U5_T12_h3)"
   },
   {
     "question_id": "GNS213_U5_T12_h4_q1",
     "heading_id": "GNS213_U5_T12_h4",
     "article_id": "GNS213_U5_T12",
     "topic_id": "GNS213_U5_T12",
-    "question": "At what angle should the tuberculin needle be inserted into the forearm?",
+    "difficulty": "recall",
+    "question": "What visual confirmation immediately follows a correctly administered intradermal PPD injection?",
     "options": {
-      "A": "45 degrees",
-      "B": "90 degrees",
-      "C": "5 to 15 degrees",
-      "D": "30 to 45 degrees"
+      "A": "Complete absorption of the fluid within two seconds",
+      "B": "A pale, raised wheal or bleb on the skin surface",
+      "C": "A deep reddish bruise forming underneath the skin",
+      "D": "Immediate local bleeding from punctured dermal capillaries"
     },
-    "answer": "C",
-    "explanation": "The needle is inserted almost parallel to the skin at a 5 to 15-degree angle to ensure the injection remains strictly intradermal. [learn more](GNS213_U5_T12#GNS213_U5_T12_h4)"
+    "answer": "B",
+    "explanation": "A proper intradermal injection creates a distinct, tight blister on the surface of the skin, indicating the fluid is trapped in the dermal layer. [learn more](GNS213_U5_T12#GNS213_U5_T12_h4)"
   },
   {
     "question_id": "GNS213_U5_T12_h4_q2",
     "heading_id": "GNS213_U5_T12_h4",
     "article_id": "GNS213_U5_T12",
     "topic_id": "GNS213_U5_T12",
-    "question": "What immediate physical sign confirms that the PPD has been correctly injected intradermally?",
+    "difficulty": "application",
+    "question": "A student nurse inserts the needle at a 45-degree angle and injects the PPD, resulting in no surface bleb and rapid fluid loss. What went wrong?",
     "options": {
-      "A": "A deep subcutaneous hematoma",
-      "B": "A pale skin wheal or bleb measuring 6 to 10 mm",
-      "C": "Immediate localized bleeding at the puncture point",
-      "D": "A large area of bright red erythema"
+      "A": "The skin was not cleaned properly with an antiseptic alcohol swab",
+      "B": "The needle gauge was too small to retain fluid in the barrel",
+      "C": "The injection was placed too deep into the subcutaneous tissue",
+      "D": "The concentration of the tuberculin antigen was far too high"
     },
-    "answer": "B",
-    "explanation": "A correct intradermal injection immediately produces a pale skin wheal or bleb measuring 6 to 10 mm in diameter. [learn more](GNS213_U5_T12#GNS213_U5_T12_h4)"
+    "answer": "C",
+    "explanation": "A 45-degree or 90-degree angle enters the subcutaneous fat layer rather than the dermis, causing the solution to disperse internally without forming the required skin bleb. [learn more](GNS213_U5_T12#GNS213_U5_T12_h4)"
   },
   {
     "question_id": "GNS213_U5_T12_h5_q1",
     "heading_id": "GNS213_U5_T12_h5",
     "article_id": "GNS213_U5_T12",
     "topic_id": "GNS213_U5_T12",
-    "question": "What is the mandatory timeframe within which a Mantoux test must be read?",
+    "difficulty": "recall",
+    "question": "Within what timeframe must the Mantoux test reaction be read for accurate clinical interpretation?",
     "options": {
-      "A": "12 to 24 hours",
+      "A": "5 to 7 days",
       "B": "48 to 72 hours",
-      "C": "5 to 7 days",
-      "D": "24 to 36 hours"
+      "C": "Immediately after injection",
+      "D": "12 to 24 hours"
     },
     "answer": "B",
-    "explanation": "The test must be read between 48 and 72 hours post-administration to capture the peak of the hypersensitivity reaction. [learn more](GNS213_U5_T12#GNS213_U5_T12_h5)"
+    "explanation": "Cell-mediated immune reactions reach their maximum intensity during this specific two-to-three-day window. [learn more](GNS213_U5_T12#GNS213_U5_T12_h5)"
   },
   {
     "question_id": "GNS213_U5_T12_h5_q2",
     "heading_id": "GNS213_U5_T12_h5",
     "article_id": "GNS213_U5_T12",
     "topic_id": "GNS213_U5_T12",
-    "question": "When measuring the reaction, what component should the nurse measure?",
+    "difficulty": "understanding",
+    "question": "What specific physical characteristic of the skin reaction is measured when reading a Mantoux test?",
     "options": {
-      "A": "The total span of surface redness",
-      "B": "The width of the ecchymosis or bruising",
-      "C": "The transverse diameter of palpable induration",
-      "D": "The circumference of the entire forearm"
+      "A": "Ecchymosis",
+      "B": "Urticaria",
+      "C": "Induration",
+      "D": "Erythema"
     },
     "answer": "C",
-    "explanation": "Only the transverse diameter of palpable induration is measured in millimeters, ignoring any surrounding redness. [learn more](GNS213_U5_T12#GNS213_U5_T12_h5)"
+    "explanation": "The hard, raised, palpable swelling represents cellular infiltration and is the only dimension recorded for diagnostic interpretation, ignoring simple surface redness. [learn more](GNS213_U5_T12#GNS213_U5_T12_h5)"
   },
   {
     "question_id": "GNS213_U5_T12_h6_q1",
     "heading_id": "GNS213_U5_T12_h6",
     "article_id": "GNS213_U5_T12",
     "topic_id": "GNS213_U5_T12",
-    "question": "What is the minimum induration measurement considered positive for an individual living with HIV?",
+    "difficulty": "understanding",
+    "question": "Which induration measurement is considered positive for a patient with human immunodeficiency virus infection?",
     "options": {
-      "A": "5 mm",
-      "B": "10 mm",
-      "C": "15 mm",
-      "D": "20 mm"
+      "A": "10 millimeters or greater",
+      "B": "15 millimeters or greater",
+      "C": "20 millimeters or greater",
+      "D": "5 millimeters or greater"
     },
-    "answer": "A",
-    "explanation": "An induration of 5 mm or greater is the positive cutoff threshold for high-risk groups, including immunocompromised individuals and people living with HIV. [learn more](GNS213_U5_T12#GNS213_U5_T12_h6)"
+    "answer": "D",
+    "explanation": "Immunocompromised individuals like those with HIV have a blunted immune response, so a smaller induration threshold is clinically significant. [learn more](GNS213_U5_T12#GNS213_U5_T12_h6)"
   },
   {
     "question_id": "GNS213_U5_T12_h6_q2",
     "heading_id": "GNS213_U5_T12_h6",
     "article_id": "GNS213_U5_T12",
     "topic_id": "GNS213_U5_T12",
-    "question": "For a healthy adult with no known risk factors for tuberculosis, what induration size indicates a positive result?",
+    "difficulty": "application",
+    "question": "A healthy adult with no known risk factors or occupational exposures presents with an induration of 12 millimeters. How should this result be interpreted?",
     "options": {
-      "A": "Equal to or greater than 5 mm",
-      "B": "Equal to or greater than 10 mm",
-      "C": "Equal to or greater than 15 mm",
-      "D": "Any palpable induration greater than 1 mm"
+      "A": "Negative",
+      "B": "Indeterminate",
+      "C": "Borderline",
+      "D": "Positive"
     },
-    "answer": "C",
-    "explanation": "Individuals with no known risk factors require an induration of 15 mm or greater to be classified as a positive Mantoux test. [learn more](GNS213_U5_T12#GNS213_U5_T12_h6)"
+    "answer": "A",
+    "explanation": "For individuals with no known risk factors, a cut-off of 15 millimeters or greater is required to classify the test as positive. [learn more](GNS213_U5_T12#GNS213_U5_T12_h6)"
   },
   {
     "question_id": "GNS213_U5_T12_h7_q1",
     "heading_id": "GNS213_U5_T12_h7",
     "article_id": "GNS213_U5_T12",
     "topic_id": "GNS213_U5_T12",
-    "question": "What is a common cause of a false-positive Mantoux test result in countries with routine childhood vaccination programs?",
+    "difficulty": "recall",
+    "question": "What is a frequent cause of a false-positive Mantoux test result in populations receiving routine childhood vaccinations?",
     "options": {
-      "A": "Prior administration of the BCG vaccine",
-      "B": "Malnutrition and severe protein deficiency",
-      "C": "Reading the test after 96 hours",
-      "D": "Subcutaneous injection error"
+      "A": "Prior BCG vaccination",
+      "B": "Reading the test after 72 hours",
+      "C": "Subcutaneous injection technique",
+      "D": "Nutritional vitamin deficiencies"
     },
     "answer": "A",
-    "explanation": "Prior vaccination with BCG can cause individuals to mount an immune response to PPD, resulting in a false-positive test. [learn more](GNS213_U5_T12#GNS213_U5_T12_h7)"
+    "explanation": "The Bacillus Calmette-Guérin vaccine shares antigens with tuberculosis, often causing cross-reactivity that results in skin induration. [learn more](GNS213_U5_T12#GNS213_U5_T12_h7)"
   },
   {
     "question_id": "GNS213_U5_T12_h7_q2",
     "heading_id": "GNS213_U5_T12_h7",
     "article_id": "GNS213_U5_T12",
     "topic_id": "GNS213_U5_T12",
-    "question": "Which of the following factors can lead to a false-negative Mantoux result in an infected patient?",
+    "difficulty": "understanding",
+    "question": "Which factor is most likely to produce a false-negative Mantoux test in an infected individual?",
     "options": {
-      "A": "Exposure to non-tuberculous mycobacteria",
-      "B": "Severe immunosuppression or advanced HIV infection",
-      "C": "Having no known risk factors for tuberculosis",
-      "D": "Measurement of the induration at exactly 48 hours"
+      "A": "Mild skin erythema",
+      "B": "Prior exposure to BCG",
+      "C": "Severe immunosuppression",
+      "D": "Measurement using a ruler"
     },
-    "answer": "B",
-    "explanation": "Severe immunosuppression impairs the patient's cell-mediated immune response, preventing the formation of induration and leading to a false-negative result. [learn more](GNS213_U5_T12#GNS213_U5_T12_h7)"
+    "answer": "C",
+    "explanation": "A compromised immune system cannot mount an adequate inflammatory response to produce palpable induration, even when tuberculosis bacteria are present. [learn more](GNS213_U5_T12#GNS213_U5_T12_h7)"
   },
   {
     "question_id": "GNS213_U5_T12_h8_q1",
     "heading_id": "GNS213_U5_T12_h8",
     "article_id": "GNS213_U5_T12",
     "topic_id": "GNS213_U5_T12",
-    "question": "What essential care instruction should the nurse give to the patient regarding the injection site?",
+    "difficulty": "recall",
+    "question": "What critical instruction must a nurse give a patient after administering a Mantoux test?",
     "options": {
-      "A": "Apply a warm compress continuously for 24 hours",
-      "B": "Keep the site clean and dry without scratching or applying creams",
-      "C": "Cover the site tightly with an adhesive bandage to protect the bleb",
-      "D": "Scrub the area vigorously with soap twice daily"
+      "A": "Apply a warm antiseptic compress to the site immediately",
+      "B": "Take prophylactic antibiotics for two weeks following the test",
+      "C": "Scrub the injection site daily with antibacterial soap",
+      "D": "Return in 48 to 72 hours for the result reading"
     },
-    "answer": "B",
-    "explanation": "Patients should keep the site clean and dry, avoiding scratching, bandages, or topical ointments that could irritate the skin or alter the reaction. [learn more](GNS213_U5_T12#GNS213_U5_T12_h8)"
+    "answer": "D",
+    "explanation": "Patient compliance with the follow-up appointment is essential because the delayed hypersensitivity reaction must be evaluated within a specific timeframe. [learn more](GNS213_U5_T12#GNS213_U5_T12_h8)"
   },
   {
     "question_id": "GNS213_U5_T12_h8_q2",
     "heading_id": "GNS213_U5_T12_h8",
     "article_id": "GNS213_U5_T12",
     "topic_id": "GNS213_U5_T12",
-    "question": "What is a key nursing responsibility if a patient's Mantoux test result is positive?",
+    "difficulty": "understanding",
+    "question": "Why is it important for the nurse to ask about a history of severe reactions before performing a repeat Mantoux test?",
     "options": {
-      "A": "Immediately discharge the patient without further follow-up",
-      "B": "Initiate broad-spectrum intravenous antibiotic therapy",
-      "C": "Prepare the patient for further diagnostic evaluations like chest radiography",
-      "D": "Revaccinate the patient with BCG on the opposite arm"
+      "A": "To prevent severe local inflammation or necrosis",
+      "B": "To calculate the exact millimeter cut-off required",
+      "C": "To verify whether the patient received the BCG vaccine",
+      "D": "To determine if the patient has active lung disease"
     },
-    "answer": "C",
-    "explanation": "A positive screening test requires further diagnostic evaluation, such as a chest X-ray and clinical assessment, to rule out active TB disease. [learn more](GNS213_U5_T12#GNS213_U5_T12_h8)"
+    "answer": "A",
+    "explanation": "Re-testing a patient who already has high cellular immunity can trigger an exaggerated Arthus-like reaction characterized by blistering, ulceration, and necrosis at the site. [learn more](GNS213_U5_T12#GNS213_U5_T12_h8)"
   }
 ]

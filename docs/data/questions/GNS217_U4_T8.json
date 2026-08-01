@@ -4,209 +4,223 @@
     "heading_id": "GNS217_U4_T8_h1",
     "article_id": "GNS217_U4_T8",
     "topic_id": "GNS217_U4_T8",
-    "question": "What is the primary purpose of data presentation in nursing and healthcare?",
+    "difficulty": "recall",
+    "question": "What does the entire circle of a pie chart represent?",
     "options": {
-      "A": "To make raw numerical data overwhelming and complex",
-      "B": "To transform raw numbers into understandable formats for decision-making",
-      "C": "To replace the need for patient medical records completely",
-      "D": "To eliminate the need for any statistical calculations"
+      "A": "The median value of the clinical data",
+      "B": "The total dataset equal to 100 percent",
+      "C": "The average frequency distribution",
+      "D": "The baseline sample size minus dropouts"
     },
     "answer": "B",
-    "explanation": "Data presentation transforms complex raw data into clear visual formats that guide clinical decisions and policy formulation. [learn more](GNS217_U4_T8#GNS217_U4_T8_h1)"
+    "explanation": "A pie chart uses a complete circle to illustrate the entirety of a collected dataset, which equals 100 percent or the complete sum of the frequencies. [learn more](GNS217_U4_T8#GNS217_U4_T8_h1)"
   },
   {
     "question_id": "GNS217_U4_T8_h1_q2",
     "heading_id": "GNS217_U4_T8_h1",
     "article_id": "GNS217_U4_T8",
     "topic_id": "GNS217_U4_T8",
-    "question": "In a pie chart, what do the arc length, central angle, and area of each slice represent?",
+    "difficulty": "understanding",
+    "question": "Why is raw clinical data typically converted into visual formats like pie charts?",
     "options": {
-      "A": "Randomly assigned values without meaning",
-      "B": "The total population size of the study",
-      "C": "Values proportional to the quantity each slice represents",
-      "D": "The chronological order in which data was collected"
+      "A": "To eliminate the need for calculating standard deviations",
+      "B": "To convert qualitative observations into continuous variables",
+      "C": "To hide outlier values that could skew research findings",
+      "D": "To make numerical proportions easier to interpret at a glance"
     },
-    "answer": "C",
-    "explanation": "The geometric properties of each slice in a pie chart are directly proportional to the specific quantity it represents. [learn more](GNS217_U4_T8#GNS217_U4_T8_h1)"
+    "answer": "D",
+    "explanation": "Visual graphics transform dense numerical figures into intuitive representations so healthcare workers can quickly grasp proportions. [learn more](GNS217_U4_T8#GNS217_U4_T8_h1)"
   },
   {
     "question_id": "GNS217_U4_T8_h2_q1",
     "heading_id": "GNS217_U4_T8_h2",
     "article_id": "GNS217_U4_T8",
     "topic_id": "GNS217_U4_T8",
-    "question": "What does a proportion represent in nursing and healthcare data analysis?",
+    "difficulty": "recall",
+    "question": "How is a proportion converted into a percentage?",
     "options": {
-      "A": "The exact total number of patients in a hospital",
-      "B": "The relationship between a specific subset and the total population",
-      "C": "The time of day when data collection took place",
-      "D": "The statistical error margin of a research study"
+      "A": "By dividing the total population by the subset",
+      "B": "By squaring the decimal value",
+      "C": "By multiplying the fraction by 100",
+      "D": "By adding the sample size to the frequency"
     },
-    "answer": "B",
-    "explanation": "A proportion expresses the relationship between a specific part or subset and the total population, usually as a fraction or decimal. [learn more](GNS217_U4_T8#GNS217_U4_T8_h2)"
+    "answer": "C",
+    "explanation": "Multiplying the decimal proportion by 100 scales the value up to a percentage base of 100. [learn more](GNS217_U4_T8#GNS217_U4_T8_h2)"
   },
   {
     "question_id": "GNS217_U4_T8_h2_q2",
     "heading_id": "GNS217_U4_T8_h2",
     "article_id": "GNS217_U4_T8",
     "topic_id": "GNS217_U4_T8",
-    "question": "In the context of a pie chart, what does the entire circular graph represent?",
+    "difficulty": "understanding",
+    "question": "What does a part-to-whole relationship demonstrate in a healthcare audit?",
     "options": {
-      "A": "50% of the dataset and 180 degrees",
-      "B": "10% of the dataset and 36 degrees",
-      "C": "100% of the dataset and 360 degrees",
-      "D": "200% of the dataset and 720 degrees"
+      "A": "How a specific clinical subset compares to the entire patient population",
+      "B": "The correlation between patient age and length of stay",
+      "C": "The statistical variance between two separate hospital wards",
+      "D": "The exact timing of medication administration errors"
     },
-    "answer": "C",
-    "explanation": "The entire pie chart represents the complete dataset, which equals 100% of the values and a full 360-degree circle. [learn more](GNS217_U4_T8#GNS217_U4_T8_h2)"
+    "answer": "A",
+    "explanation": "Part-to-whole relationships show the relative size of a specific category compared to the sum of all categories combined. [learn more](GNS217_U4_T8#GNS217_U4_T8_h2)"
   },
   {
     "question_id": "GNS217_U4_T8_h3_q1",
     "heading_id": "GNS217_U4_T8_h3",
     "article_id": "GNS217_U4_T8",
     "topic_id": "GNS217_U4_T8",
-    "question": "When is it appropriate to use a pie chart in healthcare research?",
+    "difficulty": "recall",
+    "question": "What is the recommended maximum number of categories for a clear pie chart?",
     "options": {
-      "A": "When displaying continuous temperature readings over time",
-      "B": "When showing categorical data where all categories add up to a whole",
-      "C": "When comparing two variables over a fifty-year timeline",
-      "D": "When analyzing the exact mean and median of continuous lab values"
+      "A": "Twenty or more",
+      "B": "Five or fewer",
+      "C": "Ten to fifteen",
+      "D": "Exactly eight"
     },
     "answer": "B",
-    "explanation": "Pie charts are specifically designed for categorical data where individual parts combine to form a complete 100% whole. [learn more](GNS217_U4_T8#GNS217_U4_T8_h3)"
+    "explanation": "Keeping categories to five or fewer prevents the chart from becoming cluttered and difficult for readers to differentiate by slice size. [learn more](GNS217_U4_T8#GNS217_U4_T8_h3)"
   },
   {
     "question_id": "GNS217_U4_T8_h3_q2",
     "heading_id": "GNS217_U4_T8_h3",
     "article_id": "GNS217_U4_T8",
     "topic_id": "GNS217_U4_T8",
-    "question": "What is a general guideline regarding the number of categories displayed in a pie chart?",
+    "difficulty": "application",
+    "question": "A nurse researcher wants to display the percentage budget allocation across four different community health centers. Which data display method is most appropriate?",
     "options": {
-      "A": "It should have at least twenty categories for accuracy",
-      "B": "It should ideally have a small number, typically three to seven slices",
-      "C": "It must always have exactly two categories",
-      "D": "The number of categories does not affect readability"
+      "A": "Line graph",
+      "B": "Scatter plot",
+      "C": "Pie chart",
+      "D": "Histogram"
     },
-    "answer": "B",
-    "explanation": "Pie charts remain clear and readable when limited to a small number of categories, usually between three and seven slices. [learn more](GNS217_U4_T8#GNS217_U4_T8_h3)"
+    "answer": "C",
+    "explanation": "A pie chart is ideal for showing percentage shares of a whole budget across a small number of distinct categories. [learn more](GNS217_U4_T8#GNS217_U4_T8_h3)"
   },
   {
     "question_id": "GNS217_U4_T8_h4_q1",
     "heading_id": "GNS217_U4_T8_h4",
     "article_id": "GNS217_U4_T8",
     "topic_id": "GNS217_U4_T8",
-    "question": "What is the degree equivalent of 1% when calculating slices for a pie chart?",
+    "difficulty": "recall",
+    "question": "How many total degrees make up a complete pie chart circle?",
     "options": {
-      "A": "1.0 degree",
-      "B": "3.6 degrees",
-      "C": "10.0 degrees",
-      "D": "36.0 degrees"
+      "A": "180 degrees",
+      "B": "100 degrees",
+      "C": "360 degrees",
+      "D": "90 degrees"
     },
-    "answer": "B",
-    "explanation": "Since a full circle is 360 degrees and represents 100%, 1% is equal to 360 divided by 100, which is 3.6 degrees. [learn more](GNS217_U4_T8#GNS217_U4_T8_h4)"
+    "answer": "C",
+    "explanation": "A circle contains 360 degrees, which serves as the base number when calculating the exact slice angles for proportional data. [learn more](GNS217_U4_T8#GNS217_U4_T8_h4)"
   },
   {
     "question_id": "GNS217_U4_T8_h4_q2",
     "heading_id": "GNS217_U4_T8_h4",
     "article_id": "GNS217_U4_T8",
     "topic_id": "GNS217_U4_T8",
-    "question": "How do you calculate the central angle for a category with a frequency of 15 in a total dataset of 60?",
+    "difficulty": "understanding",
+    "question": "What calculation determines the exact angular size of a pie chart slice?",
     "options": {
-      "A": "(15 / 60) × 360°",
-      "B": "(60 / 15) × 100°",
-      "C": "(15 / 100) × 360°",
-      "D": "(60 / 360) × 15°"
+      "A": "Dividing the total degrees by the category percentage",
+      "B": "Multiplying the total sample size by 50",
+      "C": "Subtracting the category frequency from 180",
+      "D": "Multiplying the decimal proportion by 360"
     },
-    "answer": "A",
-    "explanation": "The central angle is calculated by dividing the category frequency by the total frequency and multiplying by 360 degrees. [learn more](GNS217_U4_T8#GNS217_U4_T8_h4)"
+    "answer": "D",
+    "explanation": "Multiplying the decimal representation of the proportion by 360 yields the correct angle for drawing that specific sector. [learn more](GNS217_U4_T8#GNS217_U4_T8_h4)"
   },
   {
     "question_id": "GNS217_U4_T8_h5_q1",
     "heading_id": "GNS217_U4_T8_h5",
     "article_id": "GNS217_U4_T8",
     "topic_id": "GNS217_U4_T8",
-    "question": "What tool is essential for accurately measuring the central angles when drawing a pie chart manually?",
+    "difficulty": "recall",
+    "question": "What tool is traditionally used to measure slice angles when drawing a pie chart by hand?",
     "options": {
-      "A": "A stethoscope",
-      "B": "A thermometer",
-      "C": "A protractor",
-      "D": "A sphygmomanometer"
+      "A": "Protractor",
+      "B": "Sphygmomanometer",
+      "C": "Stethoscope",
+      "D": "Scalpel"
     },
-    "answer": "C",
-    "explanation": "A protractor is the standard geometric instrument used to measure and draw accurate central angles for each pie slice. [learn more](GNS217_U4_T8#GNS217_U4_T8_h5)"
+    "answer": "A",
+    "explanation": "A protractor is the standard geometric instrument used to measure degrees accurately when constructing manual charts. [learn more](GNS217_U4_T8#GNS217_U4_T8_h5)"
   },
   {
     "question_id": "GNS217_U4_T8_h5_q2",
     "heading_id": "GNS217_U4_T8_h5",
     "article_id": "GNS217_U4_T8",
     "topic_id": "GNS217_U4_T8",
-    "question": "Why is it important to include a legend or direct labels on a constructed pie chart?",
+    "difficulty": "understanding",
+    "question": "Why must the sum of all percentages in a pie chart equal 100?",
     "options": {
-      "A": "To make the chart look decorative for hospital walls",
-      "B": "To clearly explain what each colored or shaded segment represents",
-      "C": "To hide the mathematical errors made during calculations",
-      "D": "To increase the total number of degrees beyond 360"
+      "A": "To simplify the calculation of standard error in research",
+      "B": "To ensure the chart fits standard paper dimensions during printing",
+      "C": "To confirm that the entire dataset has been accounted for without gaps",
+      "D": "To prove that the sample size was large enough for publication"
     },
-    "answer": "B",
-    "explanation": "A legend or direct labeling is crucial so that readers can easily identify which category corresponds to each specific slice. [learn more](GNS217_U4_T8#GNS217_U4_T8_h5)"
+    "answer": "C",
+    "explanation": "A complete dataset represents a whole entity, meaning all constituent parts combined must equal 100 percent. [learn more](GNS217_U4_T8#GNS217_U4_T8_h5)"
   },
   {
     "question_id": "GNS217_U4_T8_h6_q1",
     "heading_id": "GNS217_U4_T8_h6",
     "article_id": "GNS217_U4_T8",
     "topic_id": "GNS217_U4_T8",
-    "question": "What is one of the primary advantages of using a pie chart in healthcare communication?",
+    "difficulty": "recall",
+    "question": "What is a major limitation of using pie charts in research?",
     "options": {
-      "A": "They allow for extremely precise comparison of very similar data values",
-      "B": "They are intuitive and easily understood by people without advanced statistics training",
-      "C": "They can effortlessly display hundreds of categories at once",
-      "D": "They are the best tool for showing patient vital signs changing over time"
+      "A": "They can only be generated using specialized software",
+      "B": "Human eyes struggle to accurately compare slice areas and angles",
+      "C": "They cannot display percentages greater than ten",
+      "D": "They require complex calculus formulas to construct"
     },
     "answer": "B",
-    "explanation": "Pie charts are popular because their 'parts of a whole' format is intuitive and easily understood by a wide, non-technical audience. [learn more](GNS217_U4_T8#GNS217_U4_T8_h6)"
+    "explanation": "Unlike bar charts that rely on linear length, pie charts require the human eye to judge angular areas, which is notoriously difficult for subtle differences. [learn more](GNS217_U4_T8#GNS217_U4_T8_h6)"
   },
   {
     "question_id": "GNS217_U4_T8_h6_q2",
     "heading_id": "GNS217_U4_T8_h6",
     "article_id": "GNS217_U4_T8",
     "topic_id": "GNS217_U4_T8",
-    "question": "What is a major limitation of pie charts regarding data interpretation?",
+    "difficulty": "understanding",
+    "question": "Which scenario represents an appropriate use case for a pie chart despite its limitations?",
     "options": {
-      "A": "They cannot be printed in color",
-      "B": "The human eye struggles to accurately compare slice areas of very similar sizes",
-      "C": "They always require specialized computer software to view",
-      "D": "They restrict datasets to exactly 100 data points"
+      "A": "Comparing blood pressure changes across fifty different patients",
+      "B": "Correlating body mass index with blood glucose levels",
+      "C": "Tracking patient recovery trends across twelve consecutive months",
+      "D": "Displaying the breakdown of four primary nurse staffing shifts"
     },
-    "answer": "B",
-    "explanation": "Human visual perception is poor at comparing angles and areas, making it hard to differentiate slices with very close percentage values. [learn more](GNS217_U4_T8#GNS217_U4_T8_h6)"
+    "answer": "D",
+    "explanation": "A small number of distinct categories makes a pie chart effective and easy to interpret. [learn more](GNS217_U4_T8#GNS217_U4_T8_h6)"
   },
   {
     "question_id": "GNS217_U4_T8_h7_q1",
     "heading_id": "GNS217_U4_T8_h7",
     "article_id": "GNS217_U4_T8",
     "topic_id": "GNS217_U4_T8",
-    "question": "What is a major visual pitfall that can distort proportions in a pie chart?",
+    "difficulty": "recall",
+    "question": "Which design practice distorts the visual representation of data in a pie chart?",
     "options": {
-      "A": "Using a simple 2D format with clear labels",
-      "B": "Applying 3D effects or excessive 'exploding' slices",
-      "C": "Ensuring all percentages add up to exactly 100%",
-      "D": "Ordering the slices in descending order of size"
+      "A": "Adding three-dimensional tilt and perspective effects",
+      "B": "Limiting the total number of categories to five",
+      "C": "Using a simple flat design with clean labels",
+      "D": "Ordering slices from largest to smallest"
     },
-    "answer": "B",
-    "explanation": "3D effects and exploding slices distort perspective, making it difficult for viewers to accurately judge the true size of each category. [learn more](GNS217_U4_T8#GNS217_U4_T8_h7)"
+    "answer": "A",
+    "explanation": "Three-dimensional tilting distorts proportions by making slices closer to the viewer look larger than they actually are. [learn more](GNS217_U4_T8#GNS217_U4_T8_h7)"
   },
   {
     "question_id": "GNS217_U4_T8_h7_q2",
     "heading_id": "GNS217_U4_T8_h7",
     "article_id": "GNS217_U4_T8",
     "topic_id": "GNS217_U4_T8",
-    "question": "Why is it important to consider color choices, such as using color-blind-friendly palettes, in nursing presentations?",
+    "difficulty": "understanding",
+    "question": "What is the primary reason to avoid relying on a separate color legend placed far away from the pie slices?",
     "options": {
-      "A": "To make the chart mathematically accurate to 360 degrees",
-      "B": "To ensure readers with common vision conditions like red-green color blindness can interpret the data",
-      "C": "To guarantee that the total percentage equals more than 100%",
-      "D": "To prevent the need for data labels and legends"
+      "A": "It automatically changes the mathematical values of the percentages",
+      "B": "It prevents the chart from being printed in black and white",
+      "C": "It violates international statistical publishing guidelines",
+      "D": "It forces the reader to continuously look back and forth, increasing cognitive load"
     },
-    "answer": "B",
-    "explanation": "Considering color blindness ensures that all stakeholders, including those with visual deficiencies, can accurately distinguish chart categories. [learn more](GNS217_U4_T8#GNS217_U4_T8_h7)"
+    "answer": "D",
+    "explanation": "Direct labeling on or near the slices improves readability by eliminating the need for eye movement between a distant legend and the chart. [learn more](GNS217_U4_T8#GNS217_U4_T8_h7)"
   }
 ]

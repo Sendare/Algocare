@@ -4,209 +4,191 @@
     "heading_id": "GNS212_U4_T1_h1",
     "article_id": "GNS212_U4_T1",
     "topic_id": "GNS212_U4_T1",
-    "question": "Why are electronic blood pressure devices increasingly favored over traditional mercury sphygmomanometers in modern nursing?",
+    "difficulty": "recall",
+    "question": "What primary method do electronic blood pressure devices use to measure arterial pressure?",
     "options": {
-      "A": "They completely eliminate the need for any patient preparation.",
-      "B": "They use automated oscillometric technology and support global safety trends by avoiding mercury.",
-      "C": "They are exclusively used by physicians and require no nursing training.",
-      "D": "They never require calibration or maintenance throughout their lifespan."
+      "A": "Palpation of radial pulses",
+      "B": "Auscultation of Korotkoff sounds",
+      "C": "Oscillometric measurement",
+      "D": "Direct intra-arterial catheterization"
     },
-    "answer": "B",
-    "explanation": "Electronic monitors use automated oscillometric technology and align with global safety initiatives to phase out hazardous mercury devices. [learn more](GNS212_U4_T1#GNS212_U4_T1_h1)"
+    "answer": "C",
+    "explanation": "Electronic monitors detect pressure oscillations in the cuff caused by blood flow rather than listening for physical sounds through a stethoscope. [learn more](GNS212_U4_T1#GNS212_U4_T1_h1)"
   },
   {
     "question_id": "GNS212_U4_T1_h1_q2",
     "heading_id": "GNS212_U4_T1_h1",
     "article_id": "GNS212_U4_T1",
     "topic_id": "GNS212_U4_T1",
-    "question": "What primary skill required for manual blood pressure measurement is bypassed by electronic blood pressure devices?",
+    "difficulty": "understanding",
+    "question": "Which specific pressure point do electronic algorithms calculate directly from the maximum oscillation amplitude?",
     "options": {
-      "A": "Auscultation of Korotkoff sounds using a stethoscope",
-      "B": "Palpation of the radial pulse for heart rate",
-      "C": "Estimation of systolic pressure by touch",
-      "D": "Calculation of the mean arterial pressure manually"
+      "A": "Diastolic blood pressure",
+      "B": "Mean arterial pressure",
+      "C": "Pulse pressure",
+      "D": "Systolic blood pressure"
     },
-    "answer": "A",
-    "explanation": "Electronic monitors detect pressure changes automatically, removing the need for the nurse to listen for Korotkoff sounds with a stethoscope. [learn more](GNS212_U4_T1#GNS212_U4_T1_h1)"
+    "answer": "B",
+    "explanation": "The point of maximum oscillation corresponds to the mean arterial pressure, from which systolic and diastolic values are mathematically derived. [learn more](GNS212_U4_T1#GNS212_U4_T1_h1)"
   },
   {
     "question_id": "GNS212_U4_T1_h2_q1",
     "heading_id": "GNS212_U4_T1_h2",
     "article_id": "GNS212_U4_T1",
     "topic_id": "GNS212_U4_T1",
-    "question": "What physiological phenomenon do electronic blood pressure monitors detect to calculate blood pressure?",
+    "difficulty": "recall",
+    "question": "What is a major advantage of electronic blood pressure monitors over manual auscultation?",
     "options": {
-      "A": "Changes in skin temperature beneath the cuff",
-      "B": "Oscillations or pressure pulses in the cuff caused by arterial wall movement",
-      "C": "Electrical impulses traveling directly from the myocardium",
-      "D": "Acoustic Korotkoff sounds heard through a specialized microphone"
+      "A": "Absolute immunity to motion artifact and patient movement",
+      "B": "Flawless accuracy during severe cardiac arrhythmias",
+      "C": "Elimination of operator dependency on hearing Korotkoff sounds",
+      "D": "Inability to ever require maintenance or recalibration"
     },
-    "answer": "B",
-    "explanation": "Electronic monitors use oscillometry, sensing rhythmic pressure oscillations created by arterial wall pulsations against the deflating cuff. [learn more](GNS212_U4_T1#GNS212_U4_T1_h2)"
+    "answer": "C",
+    "explanation": "Automated devices remove the need for the user to interpret sounds via a stethoscope, reducing human error related to hearing acuity. [learn more](GNS212_U4_T1#GNS212_U4_T1_h2)"
   },
   {
     "question_id": "GNS212_U4_T1_h2_q2",
     "heading_id": "GNS212_U4_T1_h2",
     "article_id": "GNS212_U4_T1",
     "topic_id": "GNS212_U4_T1",
-    "question": "Which internal component of the electronic monitor is responsible for analyzing signal oscillations and calculating systolic and diastolic values?",
+    "difficulty": "understanding",
+    "question": "Why might an electronic blood pressure monitor fail to provide a reading in a patient with severe atrial fibrillation?",
     "options": {
-      "A": "The inflatable rubber bladder",
-      "B": "The manual inflation bulb",
-      "C": "The internal microprocessor",
-      "D": "The mercury reservoir column"
+      "A": "The irregular pulse amplitude confuses the algorithmic pulse wave detection",
+      "B": "The device automatically locks when it detects a fast heart rate",
+      "C": "The stethoscope connection port becomes blocked by electrical signals",
+      "D": "Atrial fibrillation causes the cuff material to degrade rapidly"
     },
-    "answer": "C",
-    "explanation": "The internal microprocessor processes the filtered signals received from the pressure transducer to compute the final blood pressure and heart rate values. [learn more](GNS212_U4_T1#GNS212_U4_T1_h2)"
+    "answer": "A",
+    "explanation": "Oscillometric algorithms rely on steady, predictable pulse amplitude changes during deflation, which irregular rhythms disrupt. [learn more](GNS212_U4_T1#GNS212_U4_T1_h2)"
   },
   {
     "question_id": "GNS212_U4_T1_h3_q1",
     "heading_id": "GNS212_U4_T1_h3",
     "article_id": "GNS212_U4_T1",
     "topic_id": "GNS212_U4_T1",
-    "question": "What is a significant advantage of electronic blood pressure devices over manual methods in clinical settings?",
+    "difficulty": "recall",
+    "question": "What effect does using a blood pressure cuff that is too small have on the resulting reading?",
     "options": {
-      "A": "They are completely immune to patient movement artifacts.",
-      "B": "They eliminate observer bias and hearing discrepancies among healthcare providers.",
-      "C": "They are always accurate even during severe cardiac arrhythmias.",
-      "D": "They require no power source or battery maintenance."
+      "A": "It falsely elevates the blood pressure reading",
+      "B": "It keeps the blood pressure reading completely normal",
+      "C": "It prevents the electronic device from turning on",
+      "D": "It falsely lowers the blood pressure reading"
     },
-    "answer": "B",
-    "explanation": "Electronic devices provide digital readouts that remove subjective human interpretation, thereby reducing observer bias and hearing discrepancies. [learn more](GNS212_U4_T1#GNS212_U4_T1_h3)"
+    "answer": "A",
+    "explanation": "A narrow cuff requires higher pressure to occlude the brachial artery, resulting in falsely high systolic and diastolic numbers. [learn more](GNS212_U4_T1#GNS212_U4_T1_h3)"
   },
   {
     "question_id": "GNS212_U4_T1_h3_q2",
     "heading_id": "GNS212_U4_T1_h3",
     "article_id": "GNS212_U4_T1",
     "topic_id": "GNS212_U4_T1",
-    "question": "In which clinical situation might a nurse prefer manual blood pressure measurement over an electronic device?",
+    "difficulty": "application",
+    "question": "A patient arrives at the clinic running late and immediately sits down for a blood pressure check. What is the most appropriate nursing action?",
     "options": {
-      "A": "Routine vital sign screening in a busy outpatient clinic",
-      "B": "When a patient exhibits severe cardiac arrhythmias",
-      "C": "When the nurse wants to save time during a quick morning shift round",
-      "D": "When the patient is completely still and resting comfortably"
+      "A": "Use a manual cuff immediately because electronic devices require no rest period",
+      "B": "Take the blood pressure on the lower leg instead to avoid resting time",
+      "C": "Proceed immediately with the measurement since time is limited in the clinic",
+      "D": "Allow the patient to rest quietly for five minutes before taking the measurement"
     },
-    "answer": "B",
-    "explanation": "Severe arrhythmias can confuse the algorithmic sensors of electronic monitors, making manual auscultation the preferred choice for accuracy. [learn more](GNS212_U4_T1#GNS212_U4_T1_h3)"
+    "answer": "D",
+    "explanation": "Physical activity and rushing elevate blood pressure; resting for five minutes ensures a baseline reading rather than an artifactual elevation. [learn more](GNS212_U4_T1#GNS212_U4_T1_h3)"
   },
   {
     "question_id": "GNS212_U4_T1_h4_q1",
     "heading_id": "GNS212_U4_T1_h4",
     "article_id": "GNS212_U4_T1",
     "topic_id": "GNS212_U4_T1",
-    "question": "What is the consequence of using a blood pressure cuff that is too small for a patient's arm?",
+    "difficulty": "understanding",
+    "question": "Why does a patient talking or moving during an automated blood pressure measurement cause an inaccurate reading?",
     "options": {
-      "A": "It will produce falsely low blood pressure readings.",
-      "B": "It will have no effect on the blood pressure values.",
-      "C": "It will produce falsely high blood pressure readings.",
-      "D": "It will automatically deflate before reaching peak pressure."
+      "A": "Speech patterns generate sound waves that interfere with the digital screen",
+      "B": "Movement causes the internal battery to lose electrical charge rapidly",
+      "C": "Talking increases the patient's height instantly and alters hydrostatic pressure",
+      "D": "Muscle movement creates physical artifacts that distort the oscillation signals"
     },
-    "answer": "C",
-    "explanation": "An undersized cuff requires excessive pressure to occlude the artery, resulting in falsely elevated blood pressure readings. [learn more](GNS212_U4_T1#GNS212_U4_T1_h4)"
+    "answer": "D",
+    "explanation": "Body movement creates random pressure changes in the cuff that the microprocessor mistakes for arterial pulsations. [learn more](GNS212_U4_T1#GNS212_U4_T1_h4)"
   },
   {
     "question_id": "GNS212_U4_T1_h4_q2",
     "heading_id": "GNS212_U4_T1_h4",
     "article_id": "GNS212_U4_T1",
     "topic_id": "GNS212_U4_T1",
-    "question": "Where should the lower edge of the blood pressure cuff be positioned on the arm?",
+    "difficulty": "recall",
+    "question": "Which of the following conditions is NOT typically a primary cause of interference with electronic blood pressure readings?",
     "options": {
-      "A": "Directly over the wrist joint",
-      "B": "About one inch above the antecubital fossa",
-      "C": "Tightly against the shoulder joint",
-      "D": "Halfway down the forearm"
+      "A": "Severe muscle tremors or shivering",
+      "B": "Advanced peripheral vascular disease",
+      "C": "Incorrect cuff sizing for the limb",
+      "D": "Relaxed posture in a quiet room"
     },
-    "answer": "B",
-    "explanation": "Proper placement requires the lower edge of the cuff to be approximately one inch above the bend of the elbow (antecubital fossa). [learn more](GNS212_U4_T1#GNS212_U4_T1_h4)"
+    "answer": "D",
+    "explanation": "A relaxed posture in a quiet environment is the ideal condition for obtaining an accurate measurement, not a source of interference. [learn more](GNS212_U4_T1#GNS212_U4_T1_h4)"
   },
   {
     "question_id": "GNS212_U4_T1_h5_q1",
     "heading_id": "GNS212_U4_T1_h5",
     "article_id": "GNS212_U4_T1",
     "topic_id": "GNS212_U4_T1",
-    "question": "How does talking or moving during an electronic blood pressure measurement typically affect the process?",
+    "difficulty": "recall",
+    "question": "How often should electronic blood pressure monitors typically undergo professional biomedical calibration?",
     "options": {
-      "A": "It lowers the diastolic pressure reading significantly.",
-      "B": "It creates artifacts that interfere with the device's algorithm, causing errors or inaccurate readings.",
-      "C": "It helps the internal microprocessor calibrate faster.",
-      "D": "It has no impact on digital blood pressure monitors."
+      "A": "Only when the outer casing looks dirty",
+      "B": "Annually or after physical impact",
+      "C": "After every single patient measurement",
+      "D": "Every ten years regardless of usage"
     },
     "answer": "B",
-    "explanation": "Movement and talking generate physical artifacts that disrupt the oscillometric detection of arterial pulsations, leading to erroneous results. [learn more](GNS212_U4_T1#GNS212_U4_T1_h5)"
+    "explanation": "Routine annual checks and recalibrations after drops ensure the internal pressure sensors remain accurate over time. [learn more](GNS212_U4_T1#GNS212_U4_T1_h5)"
   },
   {
     "question_id": "GNS212_U4_T1_h5_q2",
     "heading_id": "GNS212_U4_T1_h5",
     "article_id": "GNS212_U4_T1",
     "topic_id": "GNS212_U4_T1",
-    "question": "Which of the following patient positioning errors will result in an artificially elevated blood pressure reading?",
+    "difficulty": "application",
+    "question": "An electronic blood pressure machine repeatedly stops inflating halfway and displays an error code. What is the most logical initial troubleshooting step?",
     "options": {
-      "A": "Allowing the patient's arm to hang unsupported below the level of the heart",
-      "B": "Having the patient sit quietly with feet flat on the floor",
-      "C": "Supporting the bare arm properly on a table at heart level",
-      "D": "Ensuring the patient's bladder is empty prior to measurement"
+      "A": "Check for air leaks in the tubing and verify secure connections",
+      "B": "Discard the entire device and purchase a brand new model",
+      "C": "Immerse the electronic monitor in water to clean internal valves",
+      "D": "Increase the blood pressure cuff inflation pressure manually with a bulb"
     },
     "answer": "A",
-    "explanation": "An unsupported arm hanging below heart level increases hydrostatic pressure, leading to falsely elevated blood pressure readings. [learn more](GNS212_U4_T1#GNS212_U4_T1_h5)"
+    "explanation": "Incomplete inflation and error codes are frequently caused by loose tubing connections or air leaks preventing pressure build-up. [learn more](GNS212_U4_T1#GNS212_U4_T1_h5)"
   },
   {
     "question_id": "GNS212_U4_T1_h6_q1",
     "heading_id": "GNS212_U4_T1_h6",
     "article_id": "GNS212_U4_T1",
     "topic_id": "GNS212_U4_T1",
-    "question": "How often should electronic blood pressure monitors typically undergo formal biomedical calibration and inspection?",
+    "difficulty": "understanding",
+    "question": "What is the appropriate nursing action when an electronic blood pressure monitor yields an unexpectedly critical or abnormal reading?",
     "options": {
-      "A": "Every single time a patient's blood pressure is measured",
-      "B": "At least annually or according to manufacturer specifications",
-      "C": "Only when the device completely stops turning on",
-      "D": "Every decade as part of general hospital restructuring"
+      "A": "Wait twenty-four hours before checking the patient again",
+      "B": "Ignore the reading entirely and document normal blood pressure",
+      "C": "Assume the machine is always correct and immediately administer drugs",
+      "D": "Verify the finding by performing a manual auscultated measurement"
     },
-    "answer": "B",
-    "explanation": "Regular calibration checks, usually done at least once a year by biomedical engineering, ensure ongoing accuracy and reliability. [learn more](GNS212_U4_T1#GNS212_U4_T1_h6)"
+    "answer": "D",
+    "explanation": "Unexpectedly abnormal automated readings should be cross-checked manually to rule out device malfunction or artifact before clinical intervention. [learn more](GNS212_U4_T1#GNS212_U4_T1_h6)"
   },
   {
     "question_id": "GNS212_U4_T1_h6_q2",
     "heading_id": "GNS212_U4_T1_h6",
     "article_id": "GNS212_U4_T1",
     "topic_id": "GNS212_U4_T1",
-    "question": "What is the appropriate first step a nurse should take when an electronic monitor displays an unexpected error code?",
+    "difficulty": "recall",
+    "question": "What key detail must be included when documenting a blood pressure measurement in the clinical record?",
     "options": {
-      "A": "Discard the device immediately into biohazard waste",
-      "B": "Check battery power, tubing connections, and cuff placement",
-      "C": "Increase the inflation pressure manually using a bulb",
-      "D": "Ignore the error and record the estimated blood pressure"
+      "A": "The specific limb and patient position used",
+      "B": "The brand name of the electronic battery used",
+      "C": "The room temperature at the time of the check",
+      "D": "The serial number of the stethoscope"
     },
-    "answer": "B",
-    "explanation": "Checking basic components like batteries, tubing, and cuff fit resolves most common minor troubleshooting errors before seeking professional repair. [learn more](GNS212_U4_T1#GNS212_U4_T1_h6)"
-  },
-  {
-    "question_id": "GNS212_U4_T1_h7_q1",
-    "heading_id": "GNS212_U4_T1_h7",
-    "article_id": "GNS212_U4_T1",
-    "topic_id": "GNS212_U4_T1",
-    "question": "What should a nurse do if an electronic blood pressure reading is inconsistent with the patient's clinical presentation?",
-    "options": {
-      "A": "Document the electronic reading and ignore the patient's symptoms",
-      "B": "Re-measure the blood pressure manually using a stethoscope to verify the finding",
-      "C": "Turn off the electronic device and never use it again on that ward",
-      "D": "Administer emergency antihypertensive medication immediately"
-    },
-    "answer": "B",
-    "explanation": "Cross-checking unexpected electronic readings with a manual measurement ensures patient safety and prevents clinical errors. [learn more](GNS212_U4_T1#GNS212_U4_T1_h7)"
-  },
-  {
-    "question_id": "GNS212_U4_T1_h7_q2",
-    "heading_id": "GNS212_U4_T1_h7",
-    "article_id": "GNS212_U4_T1",
-    "topic_id": "GNS212_U4_T1",
-    "question": "Beyond taking measurements, what is a crucial nursing responsibility regarding home electronic blood pressure monitors?",
-    "options": {
-      "A": "Manufacturing the digital microprocessors for patients",
-      "B": "Educating patients and families on proper device use, selection, and maintenance",
-      "C": "Calibrating home devices using hospital mercury columns",
-      "D": "Selling certified medical devices directly from the nursing station"
-    },
-    "answer": "B",
-    "explanation": "Nurses educate patients on correct home monitoring techniques to support effective chronic hypertension management. [learn more](GNS212_U4_T1#GNS212_U4_T1_h7)"
+    "answer": "A",
+    "explanation": "Documenting the anatomical site, position, and method ensures future measurements are taken under consistent, comparable conditions. [learn more](GNS212_U4_T1#GNS212_U4_T1_h6)"
   }
 ]

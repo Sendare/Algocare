@@ -4,209 +4,223 @@
     "heading_id": "GNS212_U4_T15_h1",
     "article_id": "GNS212_U4_T15",
     "topic_id": "GNS212_U4_T15",
-    "question": "What is the primary function of a mechanical ventilator?",
+    "difficulty": "recall",
+    "question": "What is the primary physiological goal of mechanical ventilation?",
     "options": {
-      "A": "To cure the underlying respiratory disease",
-      "B": "To support or completely take over respiratory function",
-      "C": "To permanently replace native lung tissue",
-      "D": "To administer intravenous medications directly to the alveoli"
+      "A": "Accelerating renal drug clearance rates",
+      "B": "Lowering systemic arterial blood pressure",
+      "C": "Maintaining adequate arterial blood gases",
+      "D": "Increasing red blood cell production"
     },
-    "answer": "B",
-    "explanation": "A mechanical ventilator does not cure the underlying disease but rather provides critical support or takes over breathing to ensure gas exchange. [learn more](GNS212_U4_T15#GNS212_U4_T15_h1)"
+    "answer": "C",
+    "explanation": "Mechanical ventilation primarily aims to support or replace failing respiratory function to ensure proper oxygenation and carbon dioxide elimination. [learn more](GNS212_U4_T15#GNS212_U4_T15_h1)"
   },
   {
     "question_id": "GNS212_U4_T15_h1_q2",
     "heading_id": "GNS212_U4_T15_h1",
     "article_id": "GNS212_U4_T15",
     "topic_id": "GNS212_U4_T15",
-    "question": "Which of the following is an example of invasive mechanical ventilation?",
+    "difficulty": "understanding",
+    "question": "Why is mechanical ventilation considered a supportive rather than a curative intervention?",
     "options": {
-      "A": "Continuous positive airway pressure via nasal mask",
-      "B": "Bilevel positive airway pressure via face mask",
-      "C": "Ventilation delivered via an endotracheal tube",
-      "D": "Oxygen administration via nasal cannula"
+      "A": "It assists breathing while the underlying disease is treated",
+      "B": "It permanently alters native lung tissue structure",
+      "C": "It prevents medications from reaching the lower airways",
+      "D": "It completely replaces all metabolic functions of the kidneys"
     },
-    "answer": "C",
-    "explanation": "Invasive mechanical ventilation involves an artificial airway that enters the trachea, such as an endotracheal tube or tracheostomy tube. [learn more](GNS212_U4_T15#GNS212_U4_T15_h1)"
+    "answer": "A",
+    "explanation": "Ventilators buy time by managing gas exchange while primary medical therapies address the root cause of respiratory failure. [learn more](GNS212_U4_T15#GNS212_U4_T15_h1)"
   },
   {
     "question_id": "GNS212_U4_T15_h2_q1",
     "heading_id": "GNS212_U4_T15_h2",
     "article_id": "GNS212_U4_T15",
     "topic_id": "GNS212_U4_T15",
-    "question": "Which condition is a classic example of hypoxemic (type 1) respiratory failure requiring mechanical ventilation?",
+    "difficulty": "recall",
+    "question": "What Glasgow Coma Scale score threshold is widely used to indicate the need for elective airway protection via intubation?",
     "options": {
-      "A": "Acute respiratory distress syndrome",
-      "B": "Opioid drug overdose",
-      "C": "Myasthenia gravis crisis",
-      "D": "Chronic hypercapnic COPD"
+      "A": "Score of 15 exactly",
+      "B": "Score of 12 or less",
+      "C": "Score between 13 and 14",
+      "D": "Score of 8 or less"
     },
-    "answer": "A",
-    "explanation": "Hypoxemic respiratory failure is characterized by inadequate oxygenation, which is a hallmark of acute respiratory distress syndrome and severe pneumonia. [learn more](GNS212_U4_T15#GNS212_U4_T15_h2)"
+    "answer": "D",
+    "explanation": "A Glasgow Coma Scale score of 8 or lower generally indicates a compromised ability to protect the airway, prompting mechanical ventilation. [learn more](GNS212_U4_T15#GNS212_U4_T15_h2)"
   },
   {
     "question_id": "GNS212_U4_T15_h2_q2",
     "heading_id": "GNS212_U4_T15_h2",
     "article_id": "GNS212_U4_T15",
     "topic_id": "GNS212_U4_T15",
-    "question": "What is a key clinical sign indicating that a patient may soon require mechanical ventilation?",
+    "difficulty": "understanding",
+    "question": "A patient with a severe chronic obstructive pulmonary disease exacerbation is struggling to eliminate carbon dioxide. What category of respiratory failure does this represent?",
     "options": {
-      "A": "Calm demeanor and slow, even breathing",
-      "B": "Use of accessory muscles and severe tachypnea",
-      "C": "Elevated oxygen saturation of 99% on room air",
-      "D": "Normal arterial blood gas pH values"
+      "A": "Hypoxemic respiratory failure",
+      "B": "Hypercapnic respiratory failure",
+      "C": "Obstructive metabolic acidosis",
+      "D": "Cardiogenic circulatory collapse"
     },
     "answer": "B",
-    "explanation": "Accessory muscle use and severe tachypnea indicate respiratory fatigue and impending failure, often prompting the need for mechanical ventilation. [learn more](GNS212_U4_T15#GNS212_U4_T15_h2)"
+    "explanation": "An inability to effectively clear carbon dioxide results in elevated arterial carbon dioxide levels, defining hypercapnic respiratory failure. [learn more](GNS212_U4_T15#GNS212_U4_T15_h2)"
   },
   {
     "question_id": "GNS212_U4_T15_h3_q1",
     "heading_id": "GNS212_U4_T15_h3",
     "article_id": "GNS212_U4_T15",
     "topic_id": "GNS212_U4_T15",
-    "question": "In which ventilator mode does the machine deliver a set breath in response to the patient's inspiratory effort, but deliver a timed mandatory breath if the patient does not initiate one?",
+    "difficulty": "recall",
+    "question": "Which ventilator mode allows the patient to take spontaneous breaths between machine-delivered mandatory breaths?",
     "options": {
-      "A": "Assist-Control (AC) mode",
-      "B": "Continuous Positive Airway Pressure (CPAP)",
-      "C": "Pure Controlled Mechanical Ventilation (CMV)",
-      "D": "Pressure Support Ventilation (PSV) alone"
+      "A": "Total Intravenous Anesthesia Mode",
+      "B": "Synchronized Intermittent Mandatory Ventilation",
+      "C": "Controlled Mechanical Ventilation",
+      "D": "Continuous Positive Airway Pressure alone"
     },
-    "answer": "A",
-    "explanation": "Assist-Control mode allows the patient to trigger breaths, but guarantees a minimum respiratory rate by delivering machine breaths if the patient fails to initiate them. [learn more](GNS212_U4_T15#GNS212_U4_T15_h3)"
+    "answer": "B",
+    "explanation": "SIMV delivers preset mandatory breaths synchronized with patient effort while permitting unassisted spontaneous breaths in between. [learn more](GNS212_U4_T15#GNS212_U4_T15_h3)"
   },
   {
     "question_id": "GNS212_U4_T15_h3_q2",
     "heading_id": "GNS212_U4_T15_h3",
     "article_id": "GNS212_U4_T15",
     "topic_id": "GNS212_U4_T15",
-    "question": "What is the primary purpose of Positive End-Expiratory Pressure (PEEP)?",
+    "difficulty": "understanding",
+    "question": "Why is Pressure Support Ventilation commonly utilized during the weaning phase?",
     "options": {
-      "A": "To completely paralyze the respiratory muscles",
-      "B": "To keep alveoli open at the end of expiration and improve oxygenation",
-      "C": "To flush carbon dioxide out of the ventilator tubing",
-      "D": "To rapidly lower the patient's blood pressure"
+      "A": "It assists spontaneous breaths to help overcome the resistance of the breathing circuit",
+      "B": "It humidifies medical gases before they reach the endotracheal tube",
+      "C": "It completely paralyzes the diaphragm to rest respiratory muscles",
+      "D": "It delivers fixed volume breaths regardless of patient breathing efforts"
     },
-    "answer": "B",
-    "explanation": "PEEP applies positive pressure at the end of exhalation to prevent alveolar collapse, thereby improving lung compliance and oxygenation. [learn more](GNS212_U4_T15#GNS212_U4_T15_h3)"
+    "answer": "A",
+    "explanation": "Pressure support gives a targeted boost to each spontaneous breath, reducing the work required to pull air through narrow ventilator tubing. [learn more](GNS212_U4_T15#GNS212_U4_T15_h3)"
   },
   {
     "question_id": "GNS212_U4_T15_h4_q1",
     "heading_id": "GNS212_U4_T15_h4",
     "article_id": "GNS212_U4_T15",
     "topic_id": "GNS212_U4_T15",
-    "question": "What is the most immediate clinical check a nurse should perform after an endotracheal tube is secured and connected to a ventilator?",
+    "difficulty": "recall",
+    "question": "What immediate action should a nurse take when a high-pressure ventilator alarm sounds and the patient shows signs of distress?",
     "options": {
-      "A": "Measure the patient's daily caloric intake",
-      "B": "Auscultate bilateral breath sounds and check chest symmetry",
-      "C": "Obtain a 12-lead electrocardiogram",
-      "D": "Check the patient's deep tendon reflexes"
+      "A": "Turn off the ventilator power switch to reset the computer",
+      "B": "Disconnect the patient from the ventilator and bag manually",
+      "C": "Silence the alarm and wait for the respiratory therapist",
+      "D": "Increase the baseline fraction of inspired oxygen immediately"
     },
     "answer": "B",
-    "explanation": "Auscultating bilateral breath sounds and observing chest symmetry ensures the endotracheal tube is correctly placed in the trachea and not inadvertently in the right mainstem bronchus or esophagus. [learn more](GNS212_U4_T15#GNS212_U4_T15_h4)"
+    "explanation": "If ventilator malfunction or severe distress occurs, ensuring immediate ventilation via a manual resuscitation bag takes priority over troubleshooting the machine. [learn more](GNS212_U4_T15#GNS212_U4_T15_h4)"
   },
   {
     "question_id": "GNS212_U4_T15_h4_q2",
     "heading_id": "GNS212_U4_T15_h4",
     "article_id": "GNS212_U4_T15",
     "topic_id": "GNS212_U4_T15",
-    "question": "Why is continuous hemodynamic monitoring important when a patient is placed on mechanical ventilation?",
+    "difficulty": "understanding",
+    "question": "A nurse auscultating the chest of a newly intubated patient hears breath sounds over the right lung but diminished sounds on the left. What complication is most likely occurring?",
     "options": {
-      "A": "Positive pressure ventilation can decrease venous return and impact cardiac output",
-      "B": "Ventilators automatically induce severe hypertension",
-      "C": "Mechanical ventilation has no effect on the cardiovascular system",
-      "D": "It prevents the patient from moving their arms"
+      "A": "Complete displacement of the endotracheal tube into the esophagus",
+      "B": "Severe accumulation of secretions in the left main bronchus",
+      "C": "Accidental mainstem bronchial intubation of the right lung",
+      "D": "Spontaneous tension pneumothorax of the left lung"
     },
-    "answer": "A",
-    "explanation": "Positive pressure inside the chest increases intrathoracic pressure, which can reduce venous return to the heart and cause hypotension or decreased cardiac output. [learn more](GNS212_U4_T15#GNS212_U4_T15_h4)"
+    "answer": "C",
+    "explanation": "Because the right main bronchus is straighter and wider, endotracheal tubes frequently slip into it, resulting in unilateral ventilation of the right side and absent sounds on the left. [learn more](GNS212_U4_T15#GNS212_U4_T15_h4)"
   },
   {
     "question_id": "GNS212_U4_T15_h5_q1",
     "heading_id": "GNS212_U4_T15_h5",
     "article_id": "GNS212_U4_T15",
     "topic_id": "GNS212_U4_T15",
-    "question": "How often should routine oral care using chlorhexidine be performed for a mechanically ventilated patient to help prevent complications?",
+    "difficulty": "recall",
+    "question": "How should endotracheal suctioning be scheduled for a mechanically ventilated patient?",
     "options": {
-      "A": "Once a week",
-      "B": "Only when family members request it",
-      "C": "Regularly as part of standard bundled ventilator care",
-      "D": "Never, as it increases the risk of extubation"
+      "A": "Executed only when family members request it",
+      "B": "Scheduled every two hours around the clock",
+      "C": "Performed strictly on an as-needed basis",
+      "D": "Carried out immediately following every meal"
     },
     "answer": "C",
-    "explanation": "Regular oral care with chlorhexidine is a core element of ventilator care bundles designed to reduce bacterial colonization and prevent infections like VAP. [learn more](GNS212_U4_T15#GNS212_U4_T15_h5)"
+    "explanation": "Routine suctioning causes unnecessary mucosal trauma and hypoxia, so it should only be performed when clinical indicators like secretions or coarse breath sounds are present. [learn more](GNS212_U4_T15#GNS212_U4_T15_h5)"
   },
   {
     "question_id": "GNS212_U4_T15_h5_q2",
     "heading_id": "GNS212_U4_T15_h5",
     "article_id": "GNS212_U4_T15",
     "topic_id": "GNS212_U4_T15",
-    "question": "Why is eye care essential for a heavily sedated, mechanically ventilated patient?",
+    "difficulty": "understanding",
+    "question": "Why is regular application of eye ointment necessary for heavily sedated, mechanically ventilated patients?",
     "options": {
-      "A": "To improve visual acuity after extubation",
-      "B": "To prevent corneal ulceration due to absent blinking reflexes",
-      "C": "To lower intraocular pressure caused by ventilator pressures",
-      "D": "To check for neurological pupil reactivity every hour"
+      "A": "Sedative medications directly increase intraocular fluid production",
+      "B": "Bright lights in intensive care units cause permanent retinal damage",
+      "C": "Loss of the normal blink reflex leads to corneal drying and ulceration",
+      "D": "Systemic dehydration universally affects lacrimal gland function"
     },
-    "answer": "B",
-    "explanation": "Sedated patients often lose their normal blink reflex and incomplete eyelid closure can lead to corneal drying and ulceration, making eye care essential. [learn more](GNS212_U4_T15#GNS212_U4_T15_h5)"
+    "answer": "C",
+    "explanation": "Sedatives and neuromuscular blockers inhibit blinking and eyelid closure, leaving corneas exposed to air and vulnerable to severe damage. [learn more](GNS212_U4_T15#GNS212_U4_T15_h5)"
   },
   {
     "question_id": "GNS212_U4_T15_h6_q1",
     "heading_id": "GNS212_U4_T15_h6",
     "article_id": "GNS212_U4_T15",
     "topic_id": "GNS212_U4_T15",
-    "question": "What is the recommended angle for elevating the head of the bed for a mechanically ventilated patient to help prevent Ventilator-Associated Pneumonia?",
+    "difficulty": "recall",
+    "question": "At what angle should the head of the bed be maintained to help prevent ventilator-associated pneumonia?",
     "options": {
-      "A": "Flat at 0 degrees",
-      "B": "10 to 15 degrees",
-      "C": "30 to 45 degrees",
-      "D": "90 degrees fully upright"
+      "A": "At a slight Trendelenburg tilt",
+      "B": "Flat at zero degrees horizontally",
+      "C": "Between 30 and 45 degrees",
+      "D": "Between 75 and 90 degrees fully upright"
     },
     "answer": "C",
-    "explanation": "Elevating the head of the bed to 30 to 45 degrees helps prevent the aspiration of oral and gastric secretions into the lower respiratory tract. [learn more](GNS212_U4_T15#GNS212_U4_T15_h6)"
+    "explanation": "Elevating the head of the bed significantly reduces the aspiration of gastric and oral secretions into the lower respiratory tract. [learn more](GNS212_U4_T15#GNS212_U4_T15_h6)"
   },
   {
     "question_id": "GNS212_U4_T15_h6_q2",
     "heading_id": "GNS212_U4_T15_h6",
     "article_id": "GNS212_U4_T15",
     "topic_id": "GNS212_U4_T15",
-    "question": "What is the target range for endotracheal tube cuff pressure to prevent both tracheal tissue damage and micro-aspiration?",
+    "difficulty": "understanding",
+    "question": "Which of the following is NOT a standard component of VAP prevention bundles?",
     "options": {
-      "A": "5 to 10 cmH2O",
-      "B": "20 to 30 cmH2O",
-      "C": "40 to 50 cmH2O",
-      "D": "60 to 70 cmH2O"
+      "A": "Maintaining head of bed elevation between 30 and 45 degrees",
+      "B": "Daily assessments of readiness to extubate and trial of spontaneous breathing",
+      "C": "Routine changes of the ventilator breathing circuit every 24 hours",
+      "D": "Regular oral care utilizing antiseptic solutions like chlorhexidine"
     },
-    "answer": "B",
-    "explanation": "Maintaining cuff pressure between 20 and 30 cmH2O seals the airway effectively against aspiration while avoiding excessive pressure that can cause tracheal necrosis. [learn more](GNS212_U4_T15#GNS212_U4_T15_h6)"
+    "answer": "C",
+    "explanation": "Current infection control guidelines advise against routine circuit changes every 24 hours, as frequent breaking of the circuit actually increases infection risks. [learn more](GNS212_U4_T15#GNS212_U4_T15_h6)"
   },
   {
     "question_id": "GNS212_U4_T15_h7_q1",
     "heading_id": "GNS212_U4_T15_h7",
     "article_id": "GNS212_U4_T15",
     "topic_id": "GNS212_U4_T15",
-    "question": "What is a primary clinical indicator that a patient is ready to begin the weaning process from mechanical ventilation?",
+    "difficulty": "recall",
+    "question": "What type of trial is commonly conducted to assess a patient's readiness to breathe completely on their own?",
     "options": {
-      "A": "Requirement of high-dose vasopressor medications",
-      "B": "Improvement in the underlying condition and stable hemodynamics",
-      "C": "Complete absence of any cough reflex",
-      "D": "Continuous deep sedation with high-dose paralytics"
+      "A": "Forced Vital Capacity Maneuver",
+      "B": "Continuous Paralysis Challenge",
+      "C": "Spontaneous Breathing Trial",
+      "D": "High Pressure Recruitment Test"
     },
-    "answer": "B",
-    "explanation": "Patients are candidates for weaning when their primary illness has improved, hemodynamics are stable, and they meet specific respiratory and neurological criteria. [learn more](GNS212_U4_T15#GNS212_U4_T15_h7)"
+    "answer": "C",
+    "explanation": "A Spontaneous Breathing Trial evaluates whether a patient can sustain adequate breathing and gas exchange without mechanical assistance before extubation. [learn more](GNS212_U4_T15#GNS212_U4_T15_h7)"
   },
   {
     "question_id": "GNS212_U4_T15_h7_q2",
     "heading_id": "GNS212_U4_T15_h7",
     "article_id": "GNS212_U4_T15",
     "topic_id": "GNS212_U4_T15",
-    "question": "Which finding during a Spontaneous Breathing Trial (SBT) indicates that the patient is failing the test and weaning should be stopped?",
+    "difficulty": "understanding",
+    "question": "A patient has just been extubated following a successful weaning trial. Which clinical sign requires immediate notification of the medical team?",
     "options": {
-      "A": "Stable heart rate and blood pressure",
-      "B": "Relaxed facial expression and normal respiratory rate",
-      "C": "Severe tachypnea, diaphoresis, and oxygen desaturation",
-      "D": "Ability to follow commands and communicate"
+      "A": "Audible high-pitched inspiratory stridor",
+      "B": "Low-grade fatigue after the procedure",
+      "C": "Mild hoarseness when speaking softly",
+      "D": "Normal heart rate and blood pressure"
     },
-    "answer": "C",
-    "explanation": "Signs of respiratory fatigue such as tachypnea, diaphoresis, and desaturation indicate the patient cannot tolerate independent breathing and the SBT should be halted. [learn more](GNS212_U4_T15#GNS212_U4_T15_h7)"
+    "answer": "A",
+    "explanation": "Inspiratory stridor indicates laryngeal edema and upper airway narrowing, which can rapidly progress to complete airway obstruction requiring immediate re-intubation. [learn more](GNS212_U4_T15#GNS212_U4_T15_h7)"
   }
 ]

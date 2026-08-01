@@ -4,209 +4,223 @@
     "heading_id": "GNS217_U4_T2_h1",
     "article_id": "GNS217_U4_T2",
     "topic_id": "GNS217_U4_T2",
+    "difficulty": "recall",
     "question": "What is the primary purpose of descriptive statistics in nursing research?",
     "options": {
-      "A": "To predict future patient mortality rates using complex algorithms",
-      "B": "To organize, summarize, and present complex patient data meaningfully",
-      "C": "To prove causal relationships between experimental drugs and recovery",
-      "D": "To replace clinical judgment with automated computer decisions"
+      "A": "To prove causal relationships between variables",
+      "B": "To organize and summarize raw clinical data",
+      "C": "To test complex hypotheses about large populations",
+      "D": "To replace clinical judgment with mathematical models"
     },
     "answer": "B",
-    "explanation": "Descriptive statistics are used primarily to organize, summarize, and present raw data so that healthcare professionals can understand and interpret patient information clearly. [learn more](GNS217_U4_T2#GNS217_U4_T2_h1)"
+    "explanation": "Descriptive statistics are strictly used to describe and summarize the basic features of a dataset rather than test hypotheses or prove causation. [learn more](GNS217_U4_T2#GNS217_U4_T2_h1)"
   },
   {
     "question_id": "GNS217_U4_T2_h1_q2",
     "heading_id": "GNS217_U4_T2_h1",
     "article_id": "GNS217_U4_T2",
     "topic_id": "GNS217_U4_T2",
-    "question": "Why must nursing students learn descriptive statistics according to the text?",
+    "difficulty": "understanding",
+    "question": "Why must nurse researchers calculate descriptive statistics before using inferential statistics?",
     "options": {
-      "A": "To independently conduct advanced surgical procedures",
-      "B": "To design new hospital architectural layouts",
-      "C": "To critically appraise published research articles and evaluate study samples",
-      "D": "To manage hospital financial budgets and payroll systems"
+      "A": "To understand the basic characteristics and patterns of the sample data",
+      "B": "To eliminate all potential sources of measurement bias in the study",
+      "C": "To comply with mandatory ethical review board requirements",
+      "D": "To convert qualitative interview transcripts into numerical scores"
     },
-    "answer": "C",
-    "explanation": "Mastering descriptive statistics helps nursing students critically appraise published research to determine if sample populations and outcomes are accurately portrayed. [learn more](GNS217_U4_T2#GNS217_U4_T2_h1)"
+    "answer": "A",
+    "explanation": "Reviewing descriptive statistics gives researchers an initial look at data distributions and potential errors before moving on to advanced inferential analysis. [learn more](GNS217_U4_T2#GNS217_U4_T2_h1)"
   },
   {
     "question_id": "GNS217_U4_T2_h2_q1",
     "heading_id": "GNS217_U4_T2_h2",
     "article_id": "GNS217_U4_T2",
     "topic_id": "GNS217_U4_T2",
-    "question": "Which level of measurement is exemplified by blood type or patient gender?",
+    "difficulty": "recall",
+    "question": "A patient's blood type is classified under which level of measurement?",
     "options": {
-      "A": "Nominal",
+      "A": "Interval",
       "B": "Ordinal",
-      "C": "Interval",
-      "D": "Ratio"
+      "C": "Ratio",
+      "D": "Nominal"
     },
-    "answer": "A",
-    "explanation": "Nominal data consists of categories or labels with no inherent quantitative ranking or value, such as blood type or gender. [learn more](GNS217_U4_T2#GNS217_U4_T2_h2)"
+    "answer": "D",
+    "explanation": "Blood types represent distinct, unordered categories without numerical value, making them nominal data. [learn more](GNS217_U4_T2#GNS217_U4_T2_h2)"
   },
   {
     "question_id": "GNS217_U4_T2_h2_q2",
     "heading_id": "GNS217_U4_T2_h2",
     "article_id": "GNS217_U4_T2",
     "topic_id": "GNS217_U4_T2",
-    "question": "What unique characteristic distinguishes ratio data from interval data?",
+    "difficulty": "understanding",
+    "question": "What distinguishes a ratio scale from an interval scale?",
     "options": {
-      "A": "Categories that can be placed in rank order",
-      "B": "Equal and standardized intervals between adjacent values",
-      "C": "An absolute and non-arbitrary zero point representing complete absence",
-      "D": "The inability to calculate mathematical averages"
+      "A": "The restriction to non-parametric statistical testing",
+      "B": "The presence of a true, absolute zero point",
+      "C": "The use of standardized, equal intervals between units",
+      "D": "The ability to categorize data into named groups"
     },
-    "answer": "C",
-    "explanation": "Ratio data features an absolute zero point representing the complete absence of the measured attribute, which interval data lacks. [learn more](GNS217_U4_T2#GNS217_U4_T2_h2)"
+    "answer": "B",
+    "explanation": "A ratio scale features a true zero representing complete absence of the variable, whereas an interval zero is arbitrary. [learn more](GNS217_U4_T2#GNS217_U4_T2_h2)"
   },
   {
     "question_id": "GNS217_U4_T2_h3_q1",
     "heading_id": "GNS217_U4_T2_h3",
     "article_id": "GNS217_U4_T2",
     "topic_id": "GNS217_U4_T2",
-    "question": "Which measure of central tendency is most severely affected by extreme outliers in a dataset?",
+    "difficulty": "recall",
+    "question": "Which measure of central tendency is most affected by extreme outliers in a dataset?",
     "options": {
-      "A": "Mode",
-      "B": "Median",
+      "A": "Median",
+      "B": "Mode",
       "C": "Mean",
-      "D": "Frequency"
+      "D": "Range"
     },
     "answer": "C",
-    "explanation": "The mean is calculated using every data value, making it highly sensitive to extreme outliers that can pull the average up or down. [learn more](GNS217_U4_T2#GNS217_U4_T2_h3)"
+    "explanation": "Because the mean factors in the exact numerical value of every single data point, exceptionally high or low outliers pull the average toward them. [learn more](GNS217_U4_T2#GNS217_U4_T2_h3)"
   },
   {
     "question_id": "GNS217_U4_T2_h3_q2",
     "heading_id": "GNS217_U4_T2_h3",
     "article_id": "GNS217_U4_T2",
     "topic_id": "GNS217_U4_T2",
-    "question": "When is the median preferred over the mean as a measure of central tendency?",
+    "difficulty": "application",
+    "question": "A nurse researcher is analyzing patient length of stay in days, where a few patients stayed for over a hundred days while most stayed under five. Which central tendency metric is best to report?",
     "options": {
-      "A": "When dealing with nominal data like blood types",
-      "B": "When the dataset contains extreme outliers or is skewed",
-      "C": "When the sample size is extremely small",
-      "D": "When every value in the dataset occurs with equal frequency"
+      "A": "Mode",
+      "B": "Mean",
+      "C": "Median",
+      "D": "Variance"
     },
-    "answer": "B",
-    "explanation": "The median is the middle value and remains unaffected by extreme outliers, making it ideal for skewed datasets like length of hospital stay. [learn more](GNS217_U4_T2#GNS217_U4_T2_h3)"
+    "answer": "C",
+    "explanation": "When data are heavily skewed by extreme values like long hospital stays, the median provides a more accurate representation of the typical patient experience. [learn more](GNS217_U4_T2#GNS217_U4_T2_h3)"
   },
   {
     "question_id": "GNS217_U4_T2_h4_q1",
     "heading_id": "GNS217_U4_T2_h4",
     "article_id": "GNS217_U4_T2",
     "topic_id": "GNS217_U4_T2",
-    "question": "How is the range calculated in a set of numerical data?",
+    "difficulty": "recall",
+    "question": "What is the mathematical relationship between variance and standard deviation?",
     "options": {
-      "A": "By dividing the sum of all values by the number of observations",
-      "B": "By finding the difference between the maximum and minimum values",
-      "C": "By taking the square root of the variance",
-      "D": "By identifying the most frequently occurring data point"
+      "A": "Standard deviation is the square root of the variance",
+      "B": "Standard deviation is variance multiplied by the sample size",
+      "C": "Variance is standard deviation divided by the mean",
+      "D": "Variance is the square root of the standard deviation"
     },
-    "answer": "B",
-    "explanation": "The range is calculated simply by subtracting the minimum value from the maximum value in the dataset. [learn more](GNS217_U4_T2#GNS217_U4_T2_h4)"
+    "answer": "A",
+    "explanation": "Standard deviation is derived directly by taking the square root of the variance value to restore the original unit of measurement. [learn more](GNS217_U4_T2#GNS217_U4_T2_h4)"
   },
   {
     "question_id": "GNS217_U4_T2_h4_q2",
     "heading_id": "GNS217_U4_T2_h4",
     "article_id": "GNS217_U4_T2",
     "topic_id": "GNS217_U4_T2",
-    "question": "Why is the standard deviation often preferred over variance in clinical research reports?",
+    "difficulty": "understanding",
+    "question": "What does a very small standard deviation indicate about a set of clinical measurements?",
     "options": {
-      "A": "It is completely unaffected by extreme outliers",
-      "B": "It always equals zero in normal distributions",
-      "C": "It returns the measure of dispersion to the original unit of measurement",
-      "D": "It is much easier to calculate manually without a formula"
+      "A": "The measurements are tightly clustered close to the mean",
+      "B": "The data contains numerous extreme errors and outliers",
+      "C": "The sample size was too small to calculate reliable results",
+      "D": "The dataset is measured on a nominal or ordinal scale"
     },
-    "answer": "C",
-    "explanation": "Standard deviation is the square root of variance, which brings the unit of measurement back to the original units (like years or mmHg) for easier clinical interpretation. [learn more](GNS217_U4_T2#GNS217_U4_T2_h4)"
+    "answer": "A",
+    "explanation": "Low standard deviation signifies minimal variability, meaning individual readings closely hover around the calculated average. [learn more](GNS217_U4_T2#GNS217_U4_T2_h4)"
   },
   {
     "question_id": "GNS217_U4_T2_h5_q1",
     "heading_id": "GNS217_U4_T2_h5",
     "article_id": "GNS217_U4_T2",
     "topic_id": "GNS217_U4_T2",
-    "question": "What characterizes a positively skewed distribution in healthcare data?",
+    "difficulty": "recall",
+    "question": "In a perfectly normal distribution curve, what is the relationship between the mean, median, and mode?",
     "options": {
-      "A": "A long tail extending toward higher values on the right",
-      "B": "A symmetrical bell shape where mean, median, and mode are equal",
-      "C": "A long tail extending toward lower values on the left",
-      "D": "A completely flat distribution with no identifiable peak"
+      "A": "The mode is at one end and the median is at the other",
+      "B": "They bear no mathematical relationship to each other",
+      "C": "The mean is always higher than the median",
+      "D": "They are all equal and located at the center"
     },
-    "answer": "A",
-    "explanation": "A positively skewed distribution is characterized by a long tail stretching toward the higher numerical values on the right side of the graph. [learn more](GNS217_U4_T2#GNS217_U4_T2_h5)"
+    "answer": "D",
+    "explanation": "A symmetrical bell curve shares the exact same center point for the mean, median, and mode. [learn more](GNS217_U4_T2#GNS217_U4_T2_h5)"
   },
   {
     "question_id": "GNS217_U4_T2_h5_q2",
     "heading_id": "GNS217_U4_T2_h5",
     "article_id": "GNS217_U4_T2",
     "topic_id": "GNS217_U4_T2",
-    "question": "What does kurtosis measure in a statistical data distribution?",
+    "difficulty": "understanding",
+    "question": "Which characteristic defines a positively skewed distribution?",
     "options": {
-      "A": "The exact center point where the median lies",
-      "B": "The degree of skewness toward the left or right tail",
-      "C": "The peakedness or tailedness of the distribution relative to normal",
-      "D": "The total number of nominal categories in a study"
+      "A": "A mirror-symmetrical shape identical to a normal curve",
+      "B": "A flat peak with no discernible central tendency",
+      "C": "A long tail stretching toward lower numerical values",
+      "D": "A long tail extending toward higher numerical values"
     },
-    "answer": "C",
-    "explanation": "Kurtosis measures how peaked or flat a distribution is, along with the weight of its tails, compared to a standard normal distribution. [learn more](GNS217_U4_T2#GNS217_U4_T2_h5)"
+    "answer": "D",
+    "explanation": "Positive skewness means the tail points to the right (higher values), driven by a small number of unusually high scores. [learn more](GNS217_U4_T2#GNS217_U4_T2_h5)"
   },
   {
     "question_id": "GNS217_U4_T2_h6_q1",
     "heading_id": "GNS217_U4_T2_h6",
     "article_id": "GNS217_U4_T2",
     "topic_id": "GNS217_U4_T2",
-    "question": "Which graphical tool is specifically designed for continuous numerical data where the bars touch each other?",
+    "difficulty": "recall",
+    "question": "Which graphical format is best suited for displaying continuous numerical data where the bars touch?",
     "options": {
-      "A": "Pie chart",
-      "B": "Bar chart",
+      "A": "Bar chart",
+      "B": "Pie chart",
       "C": "Histogram",
       "D": "Flowchart"
     },
     "answer": "C",
-    "explanation": "Histograms are used for continuous or interval-ratio data, featuring touching bars to show the continuous nature of the numerical scale. [learn more](GNS217_U4_T2#GNS217_U4_T2_h6)"
+    "explanation": "Histograms display continuous data grouped into intervals, with adjacent bars touching to reflect the continuous nature of the scale. [learn more](GNS217_U4_T2#GNS217_U4_T2_h6)"
   },
   {
     "question_id": "GNS217_U4_T2_h6_q2",
     "heading_id": "GNS217_U4_T2_h6",
     "article_id": "GNS217_U4_T2",
     "topic_id": "GNS217_U4_T2",
-    "question": "What is the primary clinical use of a line graph in nursing practice?",
+    "difficulty": "application",
+    "question": "A nurse manager wants to track a ward's monthly fall rates over a two-year period. Which visual tool should be selected?",
     "options": {
-      "A": "Comparing categorical blood types among emergency patients",
-      "B": "Tracking patient physiological parameters, like hourly blood pressure, over time",
-      "C": "Displaying percentage proportions of hospital budget allocations",
-      "D": "Presenting demographic tables in a research manuscript"
+      "A": "Bar chart",
+      "B": "Line graph",
+      "C": "Pie chart",
+      "D": "Box plot"
     },
     "answer": "B",
-    "explanation": "Line graphs are indispensable for tracking trends over time, such as monitoring a patient's vital signs across hourly intervals. [learn more](GNS217_U4_T2#GNS217_U4_T2_h6)"
+    "explanation": "Line graphs excel at illustrating trends and changes across continuous time intervals. [learn more](GNS217_U4_T2#GNS217_U4_T2_h6)"
   },
   {
     "question_id": "GNS217_U4_T2_h7_q1",
     "heading_id": "GNS217_U4_T2_h7",
     "article_id": "GNS217_U4_T2",
     "topic_id": "GNS217_U4_T2",
-    "question": "How do nurse managers utilize descriptive statistics in clinical settings?",
+    "difficulty": "understanding",
+    "question": "How do descriptive statistics directly improve daily nursing care and unit management?",
     "options": {
-      "A": "To diagnose complex psychiatric disorders in individual patients",
-      "B": "To evaluate unit performance by tracking metrics like monthly fall rates and wait times",
-      "C": "To prescribe pharmacological treatments during physician shortages",
-      "D": "To perform invasive surgical procedures independently"
+      "A": "By eliminating the need for ongoing nursing documentation and audits",
+      "B": "By guaranteeing that all patients will experience identical recovery times",
+      "C": "By providing objective data on patient outcomes and unit trends to guide decisions",
+      "D": "By replacing bedside clinical assessment with automated computer diagnostics"
     },
-    "answer": "B",
-    "explanation": "Nurse managers use descriptive statistics like monthly fall rates and wait times to evaluate unit performance and assess quality improvement initiatives. [learn more](GNS217_U4_T2#GNS217_U4_T2_h7)"
+    "answer": "C",
+    "explanation": "Descriptive metrics give managers and staff clear insight into operational and clinical trends, supporting evidence-based adjustments. [learn more](GNS217_U4_T2#GNS217_U4_T2_h7)"
   },
   {
     "question_id": "GNS217_U4_T2_h7_q2",
     "heading_id": "GNS217_U4_T2_h7",
     "article_id": "GNS217_U4_T2",
     "topic_id": "GNS217_U4_T2",
-    "question": "What risk does a nurse researcher face if they report only a mean score without checking the standard deviation?",
+    "difficulty": "recall",
+    "question": "What is NOT a valid use of descriptive statistics in a clinical setting?",
     "options": {
-      "A": "They may violate patient confidentiality regulations",
-      "B": "They might completely miscalculate the nominal data categories",
-      "C": "They could mask significant variability or hidden dissatisfaction within the group",
-      "D": "They will automatically convert ratio data into ordinal data"
+      "A": "Proving definitive cause-and-effect relationships between new drugs and cures",
+      "B": "Tracking the average length of stay on a surgical unit using the median",
+      "C": "Summarizing patient satisfaction survey results using percentages and modes",
+      "D": "Displaying vital sign trends over time using line graphs"
     },
-    "answer": "C",
-    "explanation": "Reporting only a mean without dispersion measures like standard deviation can hide important variations, such as a dissatisfied minority within a generally high-scoring group. [learn more](GNS217_U4_T2#GNS217_U4_T2_h7)"
+    "answer": "A",
+    "explanation": "Descriptive statistics summarize data but cannot prove causation; inferential statistics and experimental designs are required for causal claims. [learn more](GNS217_U4_T2#GNS217_U4_T2_h7)"
   }
 ]

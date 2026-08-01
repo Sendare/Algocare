@@ -4,239 +4,223 @@
     "heading_id": "GNS214_U1_T86_h1",
     "article_id": "GNS214_U1_T86",
     "topic_id": "GNS214_U1_T86",
-    "question": "Why is epidemiology important for nurses working in primary health care settings?",
+    "difficulty": "recall",
+    "question": "What does disease incidence specifically measure in a population?",
     "options": {
-      "A": "It helps nurses care exclusively for individual hospital patients.",
-      "B": "It allows nurses to quantify health events and evaluate community interventions.",
-      "C": "It eliminates the need for multidisciplinary healthcare teams.",
-      "D": "It focuses solely on managing hospital administrative budgets."
+      "A": "The number of new cases developing over a specified period",
+      "B": "The proportion of people who die from a specific condition",
+      "C": "The historical average of chronic illness over a decade",
+      "D": "The total number of existing cases at a single point in time"
     },
-    "answer": "B",
-    "explanation": "Epidemiological terms and concepts allow primary health care nurses to quantify health events, measure disease burden, and evaluate community-level interventions. [learn more](GNS214_U1_T86#GNS214_U1_T86_h1)"
+    "answer": "A",
+    "explanation": "Incidence counts only newly diagnosed or newly occurring cases during a defined timeframe. [learn more](GNS214_U1_T86#GNS214_U1_T86_h1)"
   },
   {
     "question_id": "GNS214_U1_T86_h1_q2",
     "heading_id": "GNS214_U1_T86_h1",
     "article_id": "GNS214_U1_T86",
     "topic_id": "GNS214_U1_T86",
-    "question": "What is a primary benefit of understanding epidemiological terms for a public health nurse in Nigeria?",
+    "difficulty": "understanding",
+    "question": "Why is tracking disease incidence crucial for community health workers?",
     "options": {
-      "A": "Identifying vulnerable groups and allocating healthcare resources efficiently",
-      "B": "Replacing the need for direct patient bedside care",
-      "C": "Preventing patients from visiting secondary healthcare facilities",
-      "D": "Automatically curing chronic communicable diseases"
+      "A": "It determines the exact number of hospital beds required for chronic care",
+      "B": "It calculates the total mortality rate of an entire region",
+      "C": "It measures the total economic cost of long-term chronic illnesses",
+      "D": "It helps evaluate how rapidly a health condition is spreading among people"
     },
-    "answer": "A",
-    "explanation": "Mastering these terms helps nurses identify vulnerable populations and efficiently allocate limited healthcare resources for targeted interventions. [learn more](GNS214_U1_T86#GNS214_U1_T86_h1)"
+    "answer": "D",
+    "explanation": "By observing the rate at which new cases appear, healthcare personnel can gauge transmission speed and direct resources accordingly. [learn more](GNS214_U1_T86#GNS214_U1_T86_h1)"
   },
   {
     "question_id": "GNS214_U1_T86_h2_q1",
     "heading_id": "GNS214_U1_T86_h2",
     "article_id": "GNS214_U1_T86",
     "topic_id": "GNS214_U1_T86",
-    "question": "What does incidence specifically measure in a population?",
+    "difficulty": "recall",
+    "question": "Which epidemiological measure includes both old and existing cases of a disease?",
     "options": {
-      "A": "The total number of all existing disease cases",
-      "B": "The occurrence of new cases of a disease",
-      "C": "The proportion of individuals who have died from a disease",
-      "D": "The financial cost of treating a chronic condition"
+      "A": "Incidence density",
+      "B": "Cumulative incidence",
+      "C": "Prevalence",
+      "D": "Transmission rate"
     },
-    "answer": "B",
-    "explanation": "Incidence focuses strictly on counting the number of new cases of a disease that develop within a specified population over a given time period. [learn more](GNS214_U1_T86#GNS214_U1_T86_h2)"
+    "answer": "C",
+    "explanation": "Prevalence measures the total burden of a disease by counting all current cases, regardless of when they first appeared. [learn more](GNS214_U1_T86#GNS214_U1_T86_h2)"
   },
   {
     "question_id": "GNS214_U1_T86_h2_q2",
     "heading_id": "GNS214_U1_T86_h2",
     "article_id": "GNS214_U1_T86",
     "topic_id": "GNS214_U1_T86",
-    "question": "What is a critical requirement for individuals included when calculating the incidence of a disease?",
+    "difficulty": "understanding",
+    "question": "A chronic disease has declining numbers of new infections each year, yet the total number of people living with the condition remains high. What explains this scenario?",
     "options": {
-      "A": "They must already be receiving treatment in a tertiary hospital.",
-      "B": "They must be immune to all known strains of the pathogen.",
-      "C": "They must be initially free of the disease in question.",
-      "D": "They must be over the age of eighteen years."
+      "A": "The disease has a very short duration and high mortality",
+      "B": "Prevalence is high while incidence is dropping",
+      "C": "No new cases are being diagnosed anywhere",
+      "D": "Incidence is higher than prevalence"
     },
-    "answer": "C",
-    "explanation": "To measure new cases accurately, every individual included in the study population must be initially free of the disease being investigated. [learn more](GNS214_U1_T86#GNS214_U1_T86_h2)"
+    "answer": "B",
+    "explanation": "If treatments keep patients alive longer, the total pool of existing cases stays large even if fewer people contract the illness annually. [learn more](GNS214_U1_T86#GNS214_U1_T86_h2)"
   },
   {
     "question_id": "GNS214_U1_T86_h3_q1",
     "heading_id": "GNS214_U1_T86_h3",
     "article_id": "GNS214_U1_T86",
     "topic_id": "GNS214_U1_T86",
-    "question": "How does incidence differ fundamentally from prevalence?",
+    "difficulty": "recall",
+    "question": "What must be excluded from the denominator when calculating disease incidence?",
     "options": {
-      "A": "Incidence measures all existing cases, while prevalence measures only new cases.",
-      "B": "Incidence measures new cases, while prevalence measures all existing cases.",
-      "C": "Incidence applies only to chronic illnesses, while prevalence applies to acute illnesses.",
-      "D": "Incidence includes deaths, while prevalence excludes deaths."
+      "A": "Patients who recovered completely from the illness",
+      "B": "Healthcare workers administering treatments",
+      "C": "Individuals who have already contracted the disease",
+      "D": "Healthy infants born during the study period"
     },
-    "answer": "B",
-    "explanation": "Incidence tracks the development of new cases, whereas prevalence accounts for all existing cases (both old and new) in a population at a given time. [learn more](GNS214_U1_T86#GNS214_U1_T86_h3)"
+    "answer": "C",
+    "explanation": "The denominator must only include people at risk of developing the condition, meaning those who do not already have it. [learn more](GNS214_U1_T86#GNS214_U1_T86_h3)"
   },
   {
     "question_id": "GNS214_U1_T86_h3_q2",
     "heading_id": "GNS214_U1_T86_h3",
     "article_id": "GNS214_U1_T86",
     "topic_id": "GNS214_U1_T86",
-    "question": "Why is prevalence typically much higher than incidence for chronic conditions like hypertension?",
+    "difficulty": "application",
+    "question": "A rural clinic records 25 new cases of Lassa fever out of a susceptible population of 50,000 residents over one year. What is the incidence proportion per 1,000 population?",
     "options": {
-      "A": "Because patients live with the condition for many years, accumulating existing cases",
-      "B": "Because hypertension spreads rapidly like an acute viral infection",
-      "C": "Because new cases of hypertension are rarely ever recorded",
-      "D": "Because prevalence only counts patients who are completely cured"
+      "A": "50.0 per 1,000",
+      "B": "25.0 per 1,000",
+      "C": "0.5 per 1,000",
+      "D": "5.0 per 1,000"
     },
-    "answer": "A",
-    "explanation": "Chronic diseases last a long time, meaning existing cases accumulate over the years, leading to a high prevalence compared to the annual rate of new cases. [learn more](GNS214_U1_T86#GNS214_U1_T86_h3)"
+    "answer": "C",
+    "explanation": "Dividing 25 by 50,000 gives 0.0005, which when multiplied by 1,000 yields 0.5 cases per 1,000 people. [learn more](GNS214_U1_T86#GNS214_U1_T86_h3)"
   },
   {
     "question_id": "GNS214_U1_T86_h4_q1",
     "heading_id": "GNS214_U1_T86_h4",
     "article_id": "GNS214_U1_T86",
     "topic_id": "GNS214_U1_T86",
-    "question": "What represents the denominator when calculating the standard incidence proportion?",
+    "difficulty": "recall",
+    "question": "What is another common name for incidence density?",
     "options": {
-      "A": "The total number of deaths recorded in the entire country",
-      "B": "The total number of persons at risk of developing the disease in the population",
-      "C": "The total number of individuals who already have the chronic disease",
-      "D": "The number of healthcare workers employed in local clinics"
+      "A": "Person-time rate",
+      "B": "Cumulative risk",
+      "C": "Attack proportion",
+      "D": "Point prevalence"
     },
-    "answer": "B",
-    "explanation": "The denominator for incidence calculations must include only the individuals in the population who are at risk of developing the disease during the specified period. [learn more](GNS214_U1_T86#GNS214_U1_T86_h4)"
+    "answer": "A",
+    "explanation": "Incidence density is calculated using person-time units in the denominator, making person-time rate an alternative term. [learn more](GNS214_U1_T86#GNS214_U1_T86_h4)"
   },
   {
     "question_id": "GNS214_U1_T86_h4_q2",
     "heading_id": "GNS214_U1_T86_h4",
     "article_id": "GNS214_U1_T86",
     "topic_id": "GNS214_U1_T86",
-    "question": "Why is a standard multiplier (like 1,000 or 100,000) used when reporting incidence rates?",
+    "difficulty": "understanding",
+    "question": "When is cumulative incidence most appropriate to use as a statistical measure?",
     "options": {
-      "A": "To inflate the numbers so the government allocates more funding",
-      "B": "To convert decimal fractions into easily understandable whole numbers per population base",
-      "C": "To account for patients who migrated out of the country",
-      "D": "To eliminate the need for counting new cases accurately"
+      "A": "When every member of a fixed population is tracked for the entire study period",
+      "B": "When individuals are followed for varying, unpredictable lengths of time",
+      "C": "When study participants migrate in and out of the community constantly",
+      "D": "When calculating the total financial cost of a chronic healthcare program"
     },
-    "answer": "B",
-    "explanation": "Multipliers are used to transform small decimal values into readable whole numbers representing disease frequency per standard population size. [learn more](GNS214_U1_T86#GNS214_U1_T86_h4)"
+    "answer": "A",
+    "explanation": "Cumulative incidence requires a closed population where all individuals are observed across the same complete duration. [learn more](GNS214_U1_T86#GNS214_U1_T86_h4)"
   },
   {
     "question_id": "GNS214_U1_T86_h5_q1",
     "heading_id": "GNS214_U1_T86_h5",
     "article_id": "GNS214_U1_T86",
     "topic_id": "GNS214_U1_T86",
-    "question": "What is the primary characteristic of cumulative incidence?",
+    "difficulty": "recall",
+    "question": "Which factor is classified as an environmental determinant of disease incidence?",
     "options": {
-      "A": "It measures the speed of disease using person-years.",
-      "B": "It measures the risk of developing a disease over a defined time period in a closed population.",
-      "C": "It requires individuals to enter and leave the study at varying unpredictable times.",
-      "D": "It calculates the total number of existing chronic cases."
+      "A": "Availability of clean drinking water",
+      "B": "Total number of existing chronic cases",
+      "C": "Age distribution of the community",
+      "D": "Genetic makeup of an individual"
     },
-    "answer": "B",
-    "explanation": "Cumulative incidence represents the risk or probability of disease development over a set period, assuming all participants are followed continuously in a closed population. [learn more](GNS214_U1_T86#GNS214_U1_T86_h5)"
+    "answer": "A",
+    "explanation": "Environmental determinants encompass external conditions like water quality, sanitation, and climate that impact disease transmission. [learn more](GNS214_U1_T86#GNS214_U1_T86_h5)"
   },
   {
     "question_id": "GNS214_U1_T86_h5_q2",
     "heading_id": "GNS214_U1_T86_h5",
     "article_id": "GNS214_U1_T86",
     "topic_id": "GNS214_U1_T86",
-    "question": "When is incidence density (incidence rate) preferred over cumulative incidence?",
+    "difficulty": "understanding",
+    "question": "Why do seasonal weather changes often trigger a spike in malaria incidence in tropical areas?",
     "options": {
-      "A": "When studying dynamic populations where individuals enter, leave, or migrate at different times",
-      "B": "When working with a fixed group of school children who never move away",
-      "C": "When calculating the overall prevalence of a long-term chronic condition",
-      "D": "When it is impossible to count the number of new disease cases"
+      "A": "High temperatures destroy existing immunity in adults",
+      "B": "Monsoons eliminate all preventative healthcare clinics",
+      "C": "Rainfall creates more breeding sites for vector mosquitoes",
+      "D": "Cold weather forces people to stay indoors in crowded rooms"
     },
-    "answer": "A",
-    "explanation": "Incidence density uses person-time in the denominator, making it the preferred measure for open or dynamic populations with migration or loss to follow-up. [learn more](GNS214_U1_T86#GNS214_U1_T86_h5)"
+    "answer": "C",
+    "explanation": "Rain provides standing water where mosquitoes reproduce rapidly, directly increasing transmission rates and new infection numbers. [learn more](GNS214_U1_T86#GNS214_U1_T86_h5)"
   },
   {
     "question_id": "GNS214_U1_T86_h6_q1",
     "heading_id": "GNS214_U1_T86_h6",
     "article_id": "GNS214_U1_T86",
     "topic_id": "GNS214_U1_T86",
-    "question": "How do environmental factors like seasonal rains and poor sanitation impact disease incidence in Nigeria?",
+    "difficulty": "recall",
+    "question": "What is the primary purpose of monitoring incidence data in public health surveillance?",
     "options": {
-      "A": "They decrease the transmission of all known infectious diseases.",
-      "B": "They heavily influence the incidence of waterborne and vector-borne diseases like cholera and malaria.",
-      "C": "They prevent microorganisms from multiplying in the environment.",
-      "D": "They eliminate the need for community health education."
+      "A": "To measure the exact percentage of people cured by traditional medicine",
+      "B": "To calculate the total lifetime medical costs of hospitalized patients",
+      "C": "To determine the retirement age of healthcare workers",
+      "D": "To detect sudden increases or outbreaks of new infections"
     },
-    "answer": "B",
-    "explanation": "Poor sanitation and seasonal changes create breeding grounds and transmission pathways that increase the incidence of diseases like cholera and malaria. [learn more](GNS214_U1_T86#GNS214_U1_T86_h6)"
+    "answer": "D",
+    "explanation": "Tracking new cases allows surveillance officers to spot unusual spikes and declare outbreaks early. [learn more](GNS214_U1_T86#GNS214_U1_T86_h6)"
   },
   {
     "question_id": "GNS214_U1_T86_h6_q2",
     "heading_id": "GNS214_U1_T86_h6",
     "article_id": "GNS214_U1_T86",
     "topic_id": "GNS214_U1_T86",
-    "question": "What is the direct public health consequence of low immunization coverage in a rural Nigerian community?",
+    "difficulty": "understanding",
+    "question": "Which action is most appropriate when surveillance data shows an unexpected surge in disease incidence?",
     "options": {
-      "A": "A decrease in the prevalence of chronic illnesses",
-      "B": "A spike in the incidence of vaccine-preventable diseases like measles",
-      "C": "An immediate eradication of bacterial pathogens",
-      "D": "An increase in life expectancy among infants"
+      "A": "Discontinue all data collection until the following year",
+      "B": "Mobilize rapid response teams to investigate and contain the spread",
+      "C": "Wait for chronic prevalence rates to naturally balance out",
+      "D": "Assume the reporting software has a minor technical error"
     },
     "answer": "B",
-    "explanation": "Low immunization coverage leaves populations unprotected, directly resulting in an increased incidence of vaccine-preventable diseases such as measles. [learn more](GNS214_U1_T86#GNS214_U1_T86_h6)"
+    "explanation": "A sudden surge in new cases demands immediate public health action to identify the source and halt further transmission. [learn more](GNS214_U1_T86#GNS214_U1_T86_h6)"
   },
   {
     "question_id": "GNS214_U1_T86_h7_q1",
     "heading_id": "GNS214_U1_T86_h7",
     "article_id": "GNS214_U1_T86",
     "topic_id": "GNS214_U1_T86",
-    "question": "What is the primary role of incidence data within a disease surveillance system?",
+    "difficulty": "recall",
+    "question": "Which Nigerian national agency primarily relies on incidence data for disease outbreak management?",
     "options": {
-      "A": "To calculate the total number of historical deaths from decades ago",
-      "B": "To detect early outbreaks and unusual deviations from baseline disease patterns",
-      "C": "To determine the monthly salaries of public health nurses",
-      "D": "To replace the need for clinical diagnosis in hospitals"
+      "A": "National Agency for Food and Drug Administration and Control",
+      "B": "Nigeria Centre for Disease Control",
+      "C": "National Population Commission",
+      "D": "Federal Ministry of Education"
     },
     "answer": "B",
-    "explanation": "Incidence data allows health authorities to monitor new cases continuously and identify outbreaks early by spotting unusual deviations from baseline patterns. [learn more](GNS214_U1_T86#GNS214_U1_T86_h7)"
+    "explanation": "The Nigeria Centre for Disease Control coordinates national surveillance and outbreak responses using real-time incidence tracking. [learn more](GNS214_U1_T86#GNS214_U1_T86_h7)"
   },
   {
     "question_id": "GNS214_U1_T86_h7_q2",
     "heading_id": "GNS214_U1_T86_h7",
     "article_id": "GNS214_U1_T86",
     "topic_id": "GNS214_U1_T86",
-    "question": "What does a declining incidence rate following a public health intervention indicate?",
+    "difficulty": "application",
+    "question": "A primary health clinic in a rural community notices a sharp rise in new cholera cases during the rainy season. What is the most effective immediate nursing action based on this incidence trend?",
     "options": {
-      "A": "That the intervention or control program is succeeding",
-      "B": "That healthcare workers have stopped reporting new cases completely",
-      "C": "That the causative pathogen has become completely immune to treatment",
-      "D": "That the population size has become infinitely large"
+      "A": "Transfer all pregnant women to tertiary urban hospitals",
+      "B": "Focus exclusively on treating patients with chronic hypertension",
+      "C": "Conduct community health education on water sanitation and hygiene",
+      "D": "Wait for the rainy season to end without taking any action"
     },
-    "answer": "A",
-    "explanation": "A downward trend in incidence following an intervention provides clear evidence that the public health control measures are effective. [learn more](GNS214_U1_T86#GNS214_U1_T86_h7)"
-  },
-  {
-    "question_id": "GNS214_U1_T86_h8_q1",
-    "heading_id": "GNS214_U1_T86_h8",
-    "article_id": "GNS214_U1_T86",
-    "topic_id": "GNS214_U1_T86",
-    "question": "How do community health nurses in Nigeria use local incidence data at the primary care level?",
-    "options": {
-      "A": "To identify high-incidence zones and direct outreach teams for targeted interventions",
-      "B": "To calculate hospital profits and manage private sector investments",
-      "C": "To diagnose complex surgical emergencies in tertiary centers",
-      "D": "To eliminate the requirement for community health registers"
-    },
-    "answer": "A",
-    "explanation": "Nurses use local incidence data to spot high-risk zones and deploy outreach teams for vaccinations, distributions, and targeted health education. [learn more](GNS214_U1_T86#GNS214_U1_T86_h8)"
-  },
-  {
-    "question_id": "GNS214_U1_T86_h8_q2",
-    "heading_id": "GNS214_U1_T86_h8",
-    "article_id": "GNS214_U1_T86",
-    "topic_id": "GNS214_U1_T86",
-    "question": "Why is the aggregation of incidence data from primary health centers important for national bodies like the NCDC?",
-    "options": {
-      "A": "It allows national agencies to deploy resources and emergency response teams to high-risk areas.",
-      "B": "It proves that infectious diseases no longer exist in the country.",
-      "C": "It removes all responsibilities from local state health ministries.",
-      "D": "It replaces clinical treatment guidelines with statistical charts."
-    },
-    "answer": "A",
-    "explanation": "Aggregated incidence data helps national bodies like the NCDC see the bigger picture and direct medical supplies and response teams to areas with high transmission risk. [learn more](GNS214_U1_T86#GNS214_U1_T86_h8)"
+    "answer": "C",
+    "explanation": "Addressing the root cause of waterborne infection spikes through community education and hygiene promotion helps curb new cases. [learn more](GNS214_U1_T86#GNS214_U1_T86_h7)"
   }
 ]

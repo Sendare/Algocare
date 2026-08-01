@@ -4,179 +4,223 @@
     "heading_id": "GNS212_U4_T9_h1",
     "article_id": "GNS212_U4_T9",
     "topic_id": "GNS212_U4_T9",
-    "question": "What is the primary function of an Electronic Medical Record (EMR) in a healthcare setting?",
+    "difficulty": "recall",
+    "question": "What is the primary purpose of an Electronic Medical Record?",
     "options": {
-      "A": "To completely replace all bedside nursing care",
-      "B": "To serve as a digital collection of a patient's health information within a single organization",
-      "C": "To automatically prescribe medications without physician oversight",
-      "D": "To share confidential patient data publicly on social media"
+      "A": "To replace paper charts with digital patient histories",
+      "B": "To eliminate the need for any nursing documentation",
+      "C": "To provide patients with direct billing control",
+      "D": "To share patient data automatically across global networks"
     },
-    "answer": "B",
-    "explanation": "An EMR functions primarily as a systematic collection of a patient's health information stored in a digital format within a single healthcare organization. [learn more](GNS212_U4_T9#GNS212_U4_T9_h1)"
+    "answer": "A",
+    "explanation": "EMRs serve as the digital equivalent of paper charts used within a specific clinical practice to document patient care. [learn more](GNS212_U4_T9#GNS212_U4_T9_h1)"
   },
   {
     "question_id": "GNS212_U4_T9_h1_q2",
     "heading_id": "GNS212_U4_T9_h1",
     "article_id": "GNS212_U4_T9",
     "topic_id": "GNS212_U4_T9",
-    "question": "Which of the following is a major advantage of EMRs over traditional paper charts?",
+    "difficulty": "understanding",
+    "question": "What makes digital records superior to traditional paper charts regarding legibility?",
     "options": {
-      "A": "They are completely immune to cyber threats",
-      "B": "They eliminate the need for any nursing documentation",
-      "C": "They ensure records are neat, standardized, and easily retrievable",
-      "D": "They can be edited by anyone without authorization"
+      "A": "Paper charts are automatically scanned into voice formats",
+      "B": "Computer screens use special fonts that correct spelling",
+      "C": "Typed entries eliminate problems caused by poor handwriting",
+      "D": "Digital systems do not require any manual data entry"
     },
     "answer": "C",
-    "explanation": "Unlike paper charts that can be illegible, EMRs ensure that client records are neat, standardized, and immediately retrievable. [learn more](GNS212_U4_T9#GNS212_U4_T9_h1)"
+    "explanation": "Typed or structured digital entries remove the ambiguities often created by illegible handwritten notes in patient charts. [learn more](GNS212_U4_T9#GNS212_U4_T9_h1)"
   },
   {
     "question_id": "GNS212_U4_T9_h2_q1",
     "heading_id": "GNS212_U4_T9_h2",
     "article_id": "GNS212_U4_T9",
     "topic_id": "GNS212_U4_T9",
-    "question": "What is the primary purpose of a Clinical Decision Support System (CDSS) within an EMR?",
+    "difficulty": "recall",
+    "question": "What does CPOE stand for in health informatics?",
     "options": {
-      "A": "To automatically discharge patients when they recover",
-      "B": "To provide automated alerts, reminders, and evidence-based guidelines",
-      "C": "To replace the nurse during physical assessments",
-      "D": "To manage the hospital's financial billing and accounting"
+      "A": "Certified Practical Operations Expert",
+      "B": "Clinical Protocol and Outcome Examination",
+      "C": "Clinical Patient Online Evaluation",
+      "D": "Computerized Provider Order Entry"
     },
-    "answer": "B",
-    "explanation": "CDSS tools provide automated alerts, reminders, and evidence-based clinical guidelines to assist healthcare providers in making safe care decisions. [learn more](GNS212_U4_T9#GNS212_U4_T9_h2)"
+    "answer": "D",
+    "explanation": "CPOE is the system clinicians use to input medical orders directly into the computer network. [learn more](GNS212_U4_T9#GNS212_U4_T9_h2)"
   },
   {
     "question_id": "GNS212_U4_T9_h2_q2",
     "heading_id": "GNS212_U4_T9_h2",
     "article_id": "GNS212_U4_T9",
     "topic_id": "GNS212_U4_T9",
-    "question": "How does Barcode Medication Administration (BCMA) enhance client safety when integrated with an EMR?",
+    "difficulty": "understanding",
+    "question": "How does Clinical Decision Support function within an EMR?",
     "options": {
-      "A": "It allows patients to self-administer medications without supervision",
-      "B": "It verifies the five rights of medication administration at the bedside by scanning barcodes",
-      "C": "It manufactures medications directly at the nursing station",
-      "D": "It eliminates the need for nurses to check client identification"
+      "A": "By automatically discharging patients when lab values stabilize",
+      "B": "By calculating hospital staff shift schedules and payrolls",
+      "C": "By providing automated alerts for potential medication errors or allergies",
+      "D": "By replacing the need for professional nursing clinical judgment"
+    },
+    "answer": "C",
+    "explanation": "Clinical Decision Support tools use built-in rules to warn staff about safety issues like drug interactions or abnormal lab results. [learn more](GNS212_U4_T9#GNS212_U4_T9_h2)"
+  },
+  {
+    "question_id": "GNS212_U4_T9_h3_q1",
+    "heading_id": "GNS212_U4_T9_h3",
+    "article_id": "GNS212_U4_T9",
+    "topic_id": "GNS212_U4_T9",
+    "difficulty": "understanding",
+    "question": "Why do EMRs improve patient safety during medication administration?",
+    "options": {
+      "A": "They allow electronic verification and reduce transcription errors",
+      "B": "They completely eliminate the need for the nurse to verify identity",
+      "C": "They automatically administer intravenous drugs without human intervention",
+      "D": "They prevent doctors from prescribing any high-risk medications"
+    },
+    "answer": "A",
+    "explanation": "Digital ordering and barcoding minimize the mistakes that happen when reading handwritten prescriptions or transcribing orders. [learn more](GNS212_U4_T9#GNS212_U4_T9_h3)"
+  },
+  {
+    "question_id": "GNS212_U4_T9_h3_q2",
+    "heading_id": "GNS212_U4_T9_h3",
+    "article_id": "GNS212_U4_T9",
+    "topic_id": "GNS212_U4_T9",
+    "difficulty": "application",
+    "question": "A nurse needs to track a patient's blood pressure trend over the last 48 hours. What is the advantage of using an EMR for this task?",
+    "options": {
+      "A": "The nurse no longer needs to measure the blood pressure manually",
+      "B": "The system can generate a graphical trend line instantly",
+      "C": "The computer automatically diagnoses the cause of hypertension",
+      "D": "Paper charts are legally prohibited from storing historical vitals"
     },
     "answer": "B",
-    "explanation": "BCMA systems work with EMRs to verify the five rights of medication administration at the client's bedside by scanning the client's wristband and the medication barcode. [learn more](GNS212_U4_T9#GNS212_U4_T9_h2)"
+    "explanation": "EMRs compile numerical data over time, allowing nurses to view graphs and trends rapidly without manually plotting charts. [learn more](GNS212_U4_T9#GNS212_U4_T9_h3)"
   },
   {
     "question_id": "GNS212_U4_T9_h4_q1",
     "heading_id": "GNS212_U4_T9_h4",
     "article_id": "GNS212_U4_T9",
     "topic_id": "GNS212_U4_T9",
-    "question": "What is a common infrastructural challenge to EMR implementation in resource-constrained settings?",
+    "difficulty": "recall",
+    "question": "What is 'alert fatigue' in the context of EMR usage?",
     "options": {
-      "A": "An excess of reliable power supply and high-speed internet",
-      "B": "Unreliable power supply and unstable internet connectivity",
-      "C": "A complete lack of computers in the entire country",
-      "D": "Mandatory use of paper charts by international law"
+      "A": "Slow system response times during peak hospital hours",
+      "B": "Battery failure on mobile workstation computers during shifts",
+      "C": "Physical exhaustion from staring at computer screens all night",
+      "D": "Desensitization caused by an excessive number of pop-up warnings"
     },
-    "answer": "B",
-    "explanation": "Unreliable power supply and unstable internet connectivity frequently disrupt workflow and pose major barriers to EMR implementation. [learn more](GNS212_U4_T9#GNS212_U4_T9_h4)"
+    "answer": "D",
+    "explanation": "When systems trigger too many non-urgent alerts, users begin ignoring them, which can lead to missing critical safety warnings. [learn more](GNS212_U4_T9#GNS212_U4_T9_h4)"
   },
   {
     "question_id": "GNS212_U4_T9_h4_q2",
     "heading_id": "GNS212_U4_T9_h4",
     "article_id": "GNS212_U4_T9",
     "topic_id": "GNS212_U4_T9",
-    "question": "What phenomenon can occur when nurses are exposed to excessive automated warnings from poorly designed EMR software?",
+    "difficulty": "understanding",
+    "question": "Which of the following is NOT a common infrastructural challenge for EMRs in developing regions?",
     "options": {
-      "A": "Alert fatigue",
-      "B": "System burnout syndrome",
-      "C": "Digital amnesia",
-      "D": "Data migration failure"
+      "A": "Resistance to workflow changes among traditional staff",
+      "B": "Unstable electrical power supply and frequent grid failures",
+      "C": "High financial costs for software licensing and hardware",
+      "D": "Excessive availability of continuous high-speed fiber internet"
     },
-    "answer": "A",
-    "explanation": "Inadequate training and poor design can lead to 'alert fatigue,' where nurses become desensitized to excessive automated warnings. [learn more](GNS212_U4_T9#GNS212_U4_T9_h4)"
+    "answer": "D",
+    "explanation": "Reliable high-speed internet is typically scarce rather than excessively available in resource-constrained environments. [learn more](GNS212_U4_T9#GNS212_U4_T9_h4)"
   },
   {
     "question_id": "GNS212_U4_T9_h5_q1",
     "heading_id": "GNS212_U4_T9_h5",
     "article_id": "GNS212_U4_T9",
     "topic_id": "GNS212_U4_T9",
-    "question": "What is the purpose of role-based access control in an EMR system?",
+    "difficulty": "recall",
+    "question": "What security practice should a nurse follow when stepping away from an active EMR workstation?",
     "options": {
-      "A": "To allow all hospital staff to view every patient record freely",
-      "B": "To restrict staff access only to the specific client files necessary for their professional duties",
-      "C": "To automatically determine the salary of nurses and doctors",
-      "D": "To prevent patients from ever seeing their own medical notes"
+      "A": "Cover the monitor with a piece of paper or clipboard",
+      "B": "Leave the patient chart open for the next shift nurse",
+      "C": "Share the temporary password with a nearby ward clerk",
+      "D": "Log out or lock the computer screen immediately"
     },
-    "answer": "B",
-    "explanation": "Role-based access control ensures that personnel are only granted access to the specific patient files necessary to perform their professional duties. [learn more](GNS212_U4_T9#GNS212_U4_T9_h5)"
+    "answer": "D",
+    "explanation": "Locking the screen prevents unauthorized individuals from viewing or altering patient records while the nurse is away. [learn more](GNS212_U4_T9#GNS212_U4_T9_h5)"
   },
   {
     "question_id": "GNS212_U4_T9_h5_q2",
     "heading_id": "GNS212_U4_T9_h5",
     "article_id": "GNS212_U4_T9",
     "topic_id": "GNS212_U4_T9",
-    "question": "Which of the following represents a breach of EMR data security by a nurse?",
+    "difficulty": "understanding",
+    "question": "How do role-based access controls protect patient data in an EMR?",
     "options": {
-      "A": "Logging out of the workstation immediately after finishing documentation",
-      "B": "Sharing personal login credentials with a colleague to help them chart faster",
-      "C": "Accessing records only for clients assigned to their direct care",
-      "D": "Reporting a system glitch to the IT department"
+      "A": "By limiting a user's system access strictly to what is needed for their job",
+      "B": "By encrypting all computer monitors so patients cannot see them",
+      "C": "By automatically deleting clinical notes after twenty-four hours",
+      "D": "By requiring patients to approve every staff member who opens their chart"
     },
-    "answer": "B",
-    "explanation": "Sharing personal login credentials compromises security and is a direct violation of data privacy and professional codes of conduct. [learn more](GNS212_U4_T9#GNS212_U4_T9_h5)"
+    "answer": "A",
+    "explanation": "Role-based security ensures that staff members only view information relevant to their specific clinical duties. [learn more](GNS212_U4_T9#GNS212_U4_T9_h5)"
   },
   {
     "question_id": "GNS212_U4_T9_h6_q1",
     "heading_id": "GNS212_U4_T9_h6",
     "article_id": "GNS212_U4_T9",
     "topic_id": "GNS212_U4_T9",
-    "question": "Why is the practice of copy-pasting (cloning) previous nursing notes into a current EMR assessment considered hazardous?",
+    "difficulty": "understanding",
+    "question": "Why is charting under another nurse's login credentials considered a legal and ethical violation?",
     "options": {
-      "A": "It saves too much time and reduces computer processing speed",
-      "B": "It can perpetuate outdated or inaccurate data, compromising client safety and leading to negligence charges",
-      "C": "It is automatically blocked by all hospital firewalls",
-      "D": "It prevents audit trails from recording user activity"
+      "A": "It falsifies accountability by attributing actions to the wrong person",
+      "B": "It automatically locks the patient chart from physician review",
+      "C": "It slows down the computer processor by creating duplicate sessions",
+      "D": "It violates hospital copyright agreements with software vendors"
     },
-    "answer": "B",
-    "explanation": "Copy-pasting old notes is a hazard because it perpetuates inaccurate data, compromising client safety and risking charges of negligence. [learn more](GNS212_U4_T9#GNS212_U4_T9_h6)"
+    "answer": "A",
+    "explanation": "Audit trails link every action to a specific login; sharing credentials destroys the legal reliability of who performed care. [learn more](GNS212_U4_T9#GNS212_U4_T9_h6)"
   },
   {
     "question_id": "GNS212_U4_T9_h6_q2",
     "heading_id": "GNS212_U4_T9_h6",
     "article_id": "GNS212_U4_T9",
     "topic_id": "GNS212_U4_T9",
-    "question": "What role do audit trails play in EMR systems from a legal perspective?",
+    "difficulty": "application",
+    "question": "A nurse realizes an assessment was missed on an EMR chart from two hours ago and decides to enter a late entry. What happens in the system?",
     "options": {
-      "A": "They delete records after 24 hours to save storage space",
-      "B": "They permanently track every keystroke, login, and record modification",
-      "C": "They automatically write nursing care plans for the user",
-      "D": "They block patients from viewing their own diagnostic test results"
+      "A": "The system blocks any entry made past thirty minutes",
+      "B": "The entry is timestamped to show it was added later",
+      "C": "The original chart time is automatically overwritten to look normal",
+      "D": "The computer flags the nurse's license for immediate suspension"
     },
     "answer": "B",
-    "explanation": "Audit trails are features that permanently track every keystroke, login, and record modification made within the EMR system. [learn more](GNS212_U4_T9#GNS212_U4_T9_h6)"
+    "explanation": "EMR systems preserve transparency by recording the exact time a late entry is typed alongside the original event time. [learn more](GNS212_U4_T9#GNS212_U4_T9_h6)"
   },
   {
     "question_id": "GNS212_U4_T9_h7_q1",
     "heading_id": "GNS212_U4_T9_h7",
     "article_id": "GNS212_U4_T9",
     "topic_id": "GNS212_U4_T9",
-    "question": "How are artificial intelligence and machine learning expected to impact EMR platforms in nursing?",
+    "difficulty": "recall",
+    "question": "What is the primary purpose of predictive analytics integrated into modern EMRs?",
     "options": {
-      "A": "By completely replacing bedside nurses with robotic units",
-      "B": "By predicting patient deterioration, sepsis risks, and readmission rates",
-      "C": "By increasing hospital billing errors and administrative overhead",
-      "D": "By eliminating the need for patient confidentiality"
+      "A": "To automatically write nursing care plans without human input",
+      "B": "To help identify patients at risk of complications before they deteriorate",
+      "C": "To calculate monthly hospital electricity and water bills",
+      "D": "To replace the clinical judgment of experienced physicians"
     },
     "answer": "B",
-    "explanation": "AI and machine learning are integrated into EMRs to help predict conditions like patient deterioration and sepsis risks before they become critical. [learn more](GNS212_U4_T9#GNS212_U4_T9_h7)"
+    "explanation": "Predictive analytics analyze trends in patient data to flag early warning signs of conditions like sepsis or clinical decline. [learn more](GNS212_U4_T9#GNS212_U4_T9_h7)"
   },
   {
     "question_id": "GNS212_U4_T9_h7_q2",
     "heading_id": "GNS212_U4_T9_h7",
     "article_id": "GNS212_U4_T9",
     "topic_id": "GNS212_U4_T9",
-    "question": "What is a major advantage of telehealth and mHealth integrations within modern health informatics?",
+    "difficulty": "understanding",
+    "question": "How does telehealth integration impact electronic health records?",
     "options": {
-      "A": "They allow nurses to monitor chronic disease clients remotely, bridging care gaps",
-      "B": "They require patients to visit the hospital every single day",
-      "C": "They eliminate all requirements for physical nursing assessments",
-      "D": "They prevent the use of electronic medical records in rural areas"
+      "A": "By converting all hospital records into video-only formats",
+      "B": "By eliminating the need for any in-person physical examinations",
+      "C": "By feeding remote patient monitoring data directly into the digital chart",
+      "D": "By allowing patients to edit their own lab results from home"
     },
-    "answer": "A",
-    "explanation": "Telehealth and mHealth integrations allow nurses to monitor chronic clients remotely, bridging the gap between hospital and community settings. [learn more](GNS212_U4_T9#GNS212_U4_T9_h7)"
+    "answer": "C",
+    "explanation": "Telehealth tools capture vital signs and assessments from remote locations and upload them directly into the central EMR system. [learn more](GNS212_U4_T9#GNS212_U4_T9_h7)"
   }
 ]

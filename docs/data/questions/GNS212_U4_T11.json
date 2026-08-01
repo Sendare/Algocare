@@ -4,239 +4,255 @@
     "heading_id": "GNS212_U4_T11_h1",
     "article_id": "GNS212_U4_T11",
     "topic_id": "GNS212_U4_T11",
-    "question": "What is a primary clinical advantage of healthcare wearable devices for patients?",
+    "difficulty": "recall",
+    "question": "What is the primary shift in healthcare delivery enabled by wearable devices?",
     "options": {
-      "A": "They completely eliminate the need for physical hospital visits",
-      "B": "They allow continuous tracking of health metrics outside the hospital",
-      "C": "They diagnose complex diseases without requiring laboratory tests",
-      "D": "They replace the need for professional nursing assessments"
+      "A": "Reducing the cost of pharmaceutical manufacturing significantly",
+      "B": "Replacing all bedside nursing documentation with automated logs",
+      "C": "Moving from episodic clinic visits to continuous health intelligence",
+      "D": "Eliminating the need for physical diagnostic laboratories entirely"
     },
-    "answer": "B",
-    "explanation": "Wearables bridge the gap between hospital visits by allowing continuous surveillance of a patient's health status in their natural home environment. [learn more](GNS212_U4_T11#GNS212_U4_T11_h1)"
+    "answer": "C",
+    "explanation": "Wearables allow ongoing physiological data collection outside traditional appointments, changing care from periodic checks to continuous monitoring. [learn more](GNS212_U4_T11#GNS212_U4_T11_h1)"
   },
   {
     "question_id": "GNS212_U4_T11_h1_q2",
     "heading_id": "GNS212_U4_T11_h1",
     "article_id": "GNS212_U4_T11",
     "topic_id": "GNS212_U4_T11",
-    "question": "How do wearable devices shift the model of healthcare delivery?",
+    "difficulty": "understanding",
+    "question": "Why has the perception of consumer wearable technology changed among clinical professionals?",
     "options": {
-      "A": "From proactive care to purely reactive treatment",
-      "B": "From preventative care to emergency interventions only",
-      "C": "From reactive treatment models to proactive, preventative care",
-      "D": "From patient-centered care to entirely automated care"
+      "A": "Devices have advanced from simple fitness trackers to multi-sensor clinical tools",
+      "B": "Patients refuse to visit clinics without wearing a digital wristband",
+      "C": "Governments now mandate that every citizen wear a certified health monitor",
+      "D": "Hospitals no longer use traditional diagnostic machines like ECGs"
     },
-    "answer": "C",
-    "explanation": "By capturing real-time data continuously, wearables empower healthcare professionals to transition from reactive treatment models to proactive, preventative care. [learn more](GNS212_U4_T11#GNS212_U4_T11_h1)"
+    "answer": "A",
+    "explanation": "Modern wearables measure advanced parameters like ECG and oxygen saturation, bridging the gap between consumer gadgets and clinical equipment. [learn more](GNS212_U4_T11#GNS212_U4_T11_h1)"
   },
   {
     "question_id": "GNS212_U4_T11_h2_q1",
     "heading_id": "GNS212_U4_T11_h2",
     "article_id": "GNS212_U4_T11",
     "topic_id": "GNS212_U4_T11",
-    "question": "What is a primary distinction between consumer-grade and medical-grade wearables?",
+    "difficulty": "recall",
+    "question": "Where is the sensing filament of a continuous glucose monitor typically placed?",
     "options": {
-      "A": "Consumer-grade wearables are strictly regulated for diagnostic purposes",
-      "B": "Medical-grade wearables are designed for clinical diagnostic and therapeutic use",
-      "C": "Consumer-grade wearables cannot track any physiological parameters",
-      "D": "Medical-grade wearables are only used for step counting and physical fitness"
+      "A": "Intramuscular muscle",
+      "B": "Intravenous vessel",
+      "C": "Subcutaneous tissue",
+      "D": "Superficial epidermis"
     },
-    "answer": "B",
-    "explanation": "Medical-grade wearables are strictly regulated devices specifically designed for diagnostic and therapeutic purposes, unlike general consumer fitness bands. [learn more](GNS212_U4_T11#GNS212_U4_T11_h2)"
+    "answer": "C",
+    "explanation": "CGMs use a small sensor inserted just beneath the skin to measure glucose concentrations in the interstitial fluid. [learn more](GNS212_U4_T11#GNS212_U4_T11_h2)"
   },
   {
     "question_id": "GNS212_U4_T11_h2_q2",
     "heading_id": "GNS212_U4_T11_h2",
     "article_id": "GNS212_U4_T11",
     "topic_id": "GNS212_U4_T11",
-    "question": "Which of the following is an example of a patch-based wearable device?",
+    "difficulty": "understanding",
+    "question": "What distinguishes smart textiles from traditional wrist-worn fitness bands?",
     "options": {
-      "A": "A standard smartphone fitness application",
-      "B": "An adhesive sensor stuck to the skin to monitor ECG rhythms",
-      "C": "A manual mercury sphygmomanometer",
-      "D": "A wall-mounted electronic thermometer"
+      "A": "Smart textiles only function when submerged in sterile liquid solutions",
+      "B": "Smart textiles are strictly regulated as surgical implants",
+      "C": "Smart textiles weave conductive sensors directly into clothing fabric",
+      "D": "Smart textiles do not require any form of battery power to operate"
     },
-    "answer": "B",
-    "explanation": "Patch-based wearables are adhesive sensors that stick directly to the skin to monitor parameters like ECG rhythms or body temperature over extended periods. [learn more](GNS212_U4_T11#GNS212_U4_T11_h2)"
+    "answer": "C",
+    "explanation": "These garments integrate monitoring capabilities into everyday clothing to capture data like respiration and posture seamlessly. [learn more](GNS212_U4_T11#GNS212_U4_T11_h2)"
   },
   {
     "question_id": "GNS212_U4_T11_h3_q1",
     "heading_id": "GNS212_U4_T11_h3",
     "article_id": "GNS212_U4_T11",
     "topic_id": "GNS212_U4_T11",
-    "question": "Which physiological parameter do continuous glucose monitoring (CGM) systems track?",
+    "difficulty": "recall",
+    "question": "Which technology do optical wearable sensors use to estimate heart rate and blood oxygen?",
     "options": {
-      "A": "Interstitial glucose levels in real-time",
-      "B": "Blood oxygen saturation levels",
-      "C": "Cardiovascular electrical impulses",
-      "D": "Core body temperature trends"
+      "A": "Photoplethysmography",
+      "B": "Ultrasound doppler",
+      "C": "Spirometry analysis",
+      "D": "Electroencephalography"
     },
     "answer": "A",
-    "explanation": "Continuous glucose monitoring (CGM) systems track interstitial glucose levels in real-time to display glycemic trends and alert users to highs and lows. [learn more](GNS212_U4_T11#GNS212_U4_T11_h3)"
+    "explanation": "Optical sensors shine light through the skin and measure changes in light absorption caused by pulsating blood volume, known as photoplethysmography. [learn more](GNS212_U4_T11#GNS212_U4_T11_h3)"
   },
   {
     "question_id": "GNS212_U4_T11_h3_q2",
     "heading_id": "GNS212_U4_T11_h3",
     "article_id": "GNS212_U4_T11",
     "topic_id": "GNS212_U4_T11",
-    "question": "Why is monitoring blood oxygen saturation (SpO2) via wearables particularly important for respiratory patients?",
+    "difficulty": "understanding",
+    "question": "How do accelerometer sensors contribute to patient health assessments?",
     "options": {
-      "A": "It measures their daily step count and physical activity",
-      "B": "It detects early signs of hypoxemia and respiratory distress",
-      "C": "It accurately calculates their total caloric expenditure",
-      "D": "It monitors their interstitial fluid glucose concentrations"
+      "A": "By analyzing chemical markers present in the patient's sweat",
+      "B": "By measuring physical movement, gait patterns, and activity levels",
+      "C": "By recording electrical impulses generated by cardiac muscle fibers",
+      "D": "By detecting micro-fluctuations in blood glucose concentrations"
     },
     "answer": "B",
-    "explanation": "Blood oxygen saturation tracking is critical for respiratory patients because it helps detect early signs of hypoxemia and declining respiratory function. [learn more](GNS212_U4_T11#GNS212_U4_T11_h3)"
+    "explanation": "Accelerometers track motion and spatial orientation, helping nurses evaluate a patient's physical activity, mobility, and fall risks. [learn more](GNS212_U4_T11#GNS212_U4_T11_h3)"
   },
   {
     "question_id": "GNS212_U4_T11_h4_q1",
     "heading_id": "GNS212_U4_T11_h4",
     "article_id": "GNS212_U4_T11",
     "topic_id": "GNS212_U4_T11",
-    "question": "How do wearables differ from traditional hospital vital sign measurements?",
+    "difficulty": "recall",
+    "question": "What is the primary advantage of ambulatory wearable monitoring over a standard clinic checkup?",
     "options": {
-      "A": "Wearables provide intermittent snapshots every eight hours",
-      "B": "Wearables provide continuous streams of physiological data",
-      "C": "Traditional measurements always capture nocturnal arrhythmias",
-      "D": "Traditional measurements are superior for catching transient anomalies"
+      "A": "Reducing hospital admission rates to exactly zero percent",
+      "B": "Eliminating the need for professional nursing clinical judgment",
+      "C": "Capturing transient, intermittent events during daily life activities",
+      "D": "Guaranteeing zero false-positive readings during diagnostic screening"
     },
-    "answer": "B",
-    "explanation": "Wearables transform traditional intermittent assessments by providing continuous streams of physiological data to catch transient anomalies. [learn more](GNS212_U4_T11#GNS212_U4_T11_h4)"
+    "answer": "C",
+    "explanation": "Many conditions occur unpredictably; continuous ambulatory monitoring catches these episodic events outside the clinical environment. [learn more](GNS212_U4_T11#GNS212_U4_T11_h4)"
   },
   {
     "question_id": "GNS212_U4_T11_h4_q2",
     "heading_id": "GNS212_U4_T11_h4",
     "article_id": "GNS212_U4_T11",
     "topic_id": "GNS212_U4_T11",
-    "question": "What is a major advantage of automated threshold alerts on wearable devices?",
+    "difficulty": "understanding",
+    "question": "A patient experiences infrequent heart palpitations that never appear during routine ECGs. What is the clinical benefit of using a wearable heart monitor in this scenario?",
     "options": {
-      "A": "They notify nursing staff when vital signs fall outside safe parameters",
-      "B": "They automatically administer emergency medications to the patient",
-      "C": "They eliminate the need for nurses to document patient data",
-      "D": "They replace the physician's role in diagnosing medical conditions"
+      "A": "It automatically cures the underlying arrhythmia using low-frequency electrical impulses",
+      "B": "It records continuous data over weeks, capturing the palpitations when they happen",
+      "C": "It permanently stops the patient from feeling any further physical discomfort",
+      "D": "It transmits an electric shock to reset the heart rhythm safely at home"
     },
-    "answer": "A",
-    "explanation": "Automated threshold alerts notify both patients and nursing staff when vital signs fall outside safe parameters, enabling rapid intervention. [learn more](GNS212_U4_T11#GNS212_U4_T11_h4)"
+    "answer": "B",
+    "explanation": "Longitudinal monitoring increases the likelihood of capturing irregular rhythms that escape detection during brief snapshot assessments. [learn more](GNS212_U4_T11#GNS212_U4_T11_h4)"
   },
   {
     "question_id": "GNS212_U4_T11_h5_q1",
     "heading_id": "GNS212_U4_T11_h5",
     "article_id": "GNS212_U4_T11",
     "topic_id": "GNS212_U4_T11",
-    "question": "What is a key responsibility of the nurse when a patient is assigned a wearable device?",
+    "difficulty": "recall",
+    "question": "What is an important responsibility of the nurse when managing data from patient wearables?",
     "options": {
-      "A": "Manufacturing the device components locally in the hospital",
-      "B": "Explaining proper application, calibration, and maintenance to the patient",
-      "C": "Rewriting the device software code for electronic health records",
-      "D": "Disabling all automated threshold alerts to prevent patient anxiety"
+      "A": "Writing proprietary software code to update the wearable's internal operating system",
+      "B": "Manually calibrating every microchip component within the sensor hardware",
+      "C": "Replacing the physical battery packs inside sealed consumer wristbands",
+      "D": "Triaging data streams to separate genuine physiological alerts from movement artifacts"
     },
-    "answer": "B",
-    "explanation": "The nurse plays a pivotal role in explaining the proper application, calibration, and maintenance of the device to ensure accurate data collection. [learn more](GNS212_U4_T11#GNS212_U4_T11_h5)"
+    "answer": "D",
+    "explanation": "Nurses must review incoming data critically, filtering out false alarms caused by motion or poor skin contact before notifying physicians. [learn more](GNS212_U4_T11#GNS212_U4_T11_h5)"
   },
   {
     "question_id": "GNS212_U4_T11_h5_q2",
     "heading_id": "GNS212_U4_T11_h5",
     "article_id": "GNS212_U4_T11",
     "topic_id": "GNS212_U4_T11",
-    "question": "How should nurses handle false alarms caused by poor sensor contact or movement?",
+    "difficulty": "understanding",
+    "question": "Why is patient education regarding skin hygiene important for individuals using adhesive patch wearables?",
     "options": {
-      "A": "Ignore all device readings as completely untrustworthy",
-      "B": "Immediately discharge the patient from the monitoring program",
-      "C": "Use critical thinking to discern between genuine changes and artifact readings",
-      "D": "Permanently remove the wearable device from the patient"
+      "A": "To ensure the device transmits data at a faster wireless frequency",
+      "B": "To prevent moisture accumulation and localized skin irritation or breakdown",
+      "C": "To prevent the sensor from picking up ambient room temperature",
+      "D": "To keep the internal battery fully charged throughout the week"
     },
-    "answer": "C",
-    "explanation": "Nurses must apply critical thinking and digital literacy to filter out noise and artifact readings, distinguishing them from genuine physiological changes. [learn more](GNS212_U4_T11#GNS212_U4_T11_h5)"
+    "answer": "B",
+    "explanation": "Prolonged contact with adhesive patches and trapped sweat can lead to contact dermatitis or skin breakdown if hygiene is neglected. [learn more](GNS212_U4_T11#GNS212_U4_T11_h5)"
   },
   {
     "question_id": "GNS212_U4_T11_h6_q1",
     "heading_id": "GNS212_U4_T11_h6",
     "article_id": "GNS212_U4_T11",
     "topic_id": "GNS212_U4_T11",
-    "question": "How do wearables help prevent acute exacerbations in chronic disease patients?",
+    "difficulty": "recall",
+    "question": "How do continuous glucose monitors improve the daily management routine for diabetic patients?",
     "options": {
-      "A": "By providing real-time feedback and detecting early signs of complications",
-      "B": "By automatically curing chronic illnesses without medical supervision",
-      "C": "By restricting all physical movement to protect the patient",
-      "D": "By eliminating the need for any lifestyle modifications"
+      "A": "By restricting the patient's daily carbohydrate intake automatically",
+      "B": "By automatically injecting precise doses of intravenous insulin",
+      "C": "By eliminating the need for frequent painful finger-prick blood tests",
+      "D": "By curing the underlying pancreatic beta-cell autoimmune destruction"
     },
-    "answer": "A",
-    "explanation": "Wearables provide real-time feedback and detect early signs of complications, allowing for preemptive interventions before acute exacerbations occur. [learn more](GNS212_U4_T11#GNS212_U4_T11_h6)"
+    "answer": "C",
+    "explanation": "CGMs provide ongoing interstitial glucose readings, sparing patients from frequent manual lancet pricks while offering real-time trend arrows. [learn more](GNS212_U4_T11#GNS212_U4_T11_h6)"
   },
   {
     "question_id": "GNS212_U4_T11_h6_q2",
     "heading_id": "GNS212_U4_T11_h6",
     "article_id": "GNS212_U4_T11",
     "topic_id": "GNS212_U4_T11",
-    "question": "Which chronic condition benefits from wearables that detect early fluid retention?",
+    "difficulty": "understanding",
+    "question": "What is the psychological and behavioral benefit of real-time physiological feedback from wearables in chronic illness?",
     "options": {
-      "A": "Type 1 Diabetes Mellitus",
-      "B": "Heart Failure",
-      "C": "Iron Deficiency Anemia",
-      "D": "Rheumatoid Arthritis"
+      "A": "It removes all personal responsibility for health management from the patient",
+      "B": "It fosters self-efficacy by showing patients how lifestyle choices directly affect their health",
+      "C": "It induces chronic anxiety that forces patients to rest constantly",
+      "D": "It completely replaces the need for professional clinical consultations"
     },
     "answer": "B",
-    "explanation": "Heart failure patients benefit from devices that detect early fluid retention before overt symptoms like dyspnea or peripheral edema appear. [learn more](GNS212_U4_T11#GNS212_U4_T11_h6)"
+    "explanation": "Seeing direct correlations between daily habits and physiological data motivates patients to adhere to treatment plans and adopt healthier lifestyles. [learn more](GNS212_U4_T11#GNS212_U4_T11_h6)"
   },
   {
     "question_id": "GNS212_U4_T11_h7_q1",
     "heading_id": "GNS212_U4_T11_h7",
     "article_id": "GNS212_U4_T11",
     "topic_id": "GNS212_U4_T11",
-    "question": "What is an important ethical consideration regarding wearable health data collection?",
+    "difficulty": "recall",
+    "question": "Which of the following is NOT a major ethical concern associated with consumer health wearables?",
     "options": {
-      "A": "Patients must be fully informed through consent about data access and storage",
-      "B": "All patient data must be openly published on public social media platforms",
-      "C": "Third-party vendors should have unrestricted access to patient medical histories",
-      "D": "Nurses are exempt from maintaining confidentiality of digital health records"
+      "A": "Risk of health insurance discrimination based on activity tracking",
+      "B": "Potential unauthorized access to sensitive biological data by third parties",
+      "C": "Widening healthcare disparities due to unequal device affordability",
+      "D": "Guaranteed elimination of all chronic illnesses in the population"
     },
-    "answer": "A",
-    "explanation": "Informed consent is an ethical requirement ensuring patients understand what data is collected, who accesses it, and how it is stored or shared. [learn more](GNS212_U4_T11#GNS212_U4_T11_h7)"
+    "answer": "D",
+    "explanation": "Wearables help monitor and manage conditions, but they do not guarantee the elimination of chronic illness. [learn more](GNS212_U4_T11#GNS212_U4_T11_h7)"
   },
   {
     "question_id": "GNS212_U4_T11_h7_q2",
     "heading_id": "GNS212_U4_T11_h7",
     "article_id": "GNS212_U4_T11",
     "topic_id": "GNS212_U4_T11",
-    "question": "Why is cybersecurity and encryption crucial for wearable health devices?",
+    "difficulty": "understanding",
+    "question": "Why are commercial cloud servers used by some consumer wearables considered a security vulnerability?",
     "options": {
-      "A": "To prevent cyber threats and unauthorized access to sensitive health metrics",
-      "B": "To increase the battery life and processing speed of the device",
-      "C": "To ensure the device is completely waterproof during swimming",
-      "D": "To eliminate the need for patient password authentication"
+      "A": "They prevent nurses from accessing local hospital intranet systems",
+      "B": "They may lack the stringent privacy protections required for traditional medical health records",
+      "C": "They operate without any electricity or backup power generation",
+      "D": "They automatically delete all patient physiological data every twenty-four hours"
     },
-    "answer": "A",
-    "explanation": "Robust encryption and cybersecurity protocols protect sensitive health data, location details, and identifiers from cyber threats and data breaches. [learn more](GNS212_U4_T11#GNS212_U4_T11_h7)"
+    "answer": "B",
+    "explanation": "Consumer-grade apps and cloud storage often fall outside strict medical privacy regulations, leaving personal health data vulnerable to breaches. [learn more](GNS212_U4_T11#GNS212_U4_T11_h7)"
   },
   {
     "question_id": "GNS212_U4_T11_h8_q1",
     "heading_id": "GNS212_U4_T11_h8",
     "article_id": "GNS212_U4_T11",
     "topic_id": "GNS212_U4_T11",
-    "question": "What is a major infrastructural challenge to using wearables in parts of Nigeria?",
+    "difficulty": "recall",
+    "question": "What is a primary infrastructural barrier to using rechargeable medical wearables in many Nigerian rural primary health centers?",
     "options": {
-      "A": "An overabundance of free electrical power stations",
-      "B": "Erratic power supply and unreliable internet connectivity",
-      "C": "An absolute lack of any mobile phones nationwide",
-      "D": "Strict laws banning all electronic devices in hospitals"
+      "A": "Unreliable electrical power grids and frequent blackouts",
+      "B": "Strict government bans on wireless radio frequency devices",
+      "C": "A complete absence of mobile cellular telephone towers",
+      "D": "Excessive humidity freezing the electronic components instantly"
     },
-    "answer": "B",
-    "explanation": "Major barriers in the Nigerian context include infrastructural deficits such as erratic power supply and unreliable internet connectivity, especially in rural areas. [learn more](GNS212_U4_T11#GNS212_U4_T11_h8)"
+    "answer": "A",
+    "explanation": "Consistent electricity is essential for charging monitoring hardware and maintaining server connections, making power instability a major hurdle. [learn more](GNS212_U4_T11#GNS212_U4_T11_h8)"
   },
   {
     "question_id": "GNS212_U4_T11_h8_q2",
     "heading_id": "GNS212_U4_T11_h8",
     "article_id": "GNS212_U4_T11",
     "topic_id": "GNS212_U4_T11",
-    "question": "How are future trends expected to enhance wearable technology in healthcare?",
+    "difficulty": "understanding",
+    "question": "How do economic factors primarily influence the adoption of wearable health devices in low-resource settings?",
     "options": {
-      "A": "Through the integration of artificial intelligence to predict health crises",
-      "B": "By completely banning mobile health innovations across all regions",
-      "C": "By removing all requirements for patient consent and data privacy",
-      "D": "By replacing all human nurses with automated wearable machines"
+      "A": "Patients prefer expensive imported devices over locally manufactured alternatives",
+      "B": "High out-of-pocket costs make advanced monitoring tools unaffordable for the average citizen",
+      "C": "Free government distribution leads to massive device hoarding in urban warehouses",
+      "D": "Commercial manufacturers provide unlimited free replacements for lost equipment"
     },
-    "answer": "A",
-    "explanation": "Future trends point toward combining artificial intelligence with wearable data streams to accurately predict health crises before they occur. [learn more](GNS212_U4_T11#GNS212_U4_T11_h8)"
+    "answer": "B",
+    "explanation": "Because health financing relies heavily on out-of-pocket spending, expensive wearable technology remains out of reach for vulnerable populations. [learn more](GNS212_U4_T11#GNS212_U4_T11_h8)"
   }
 ]
