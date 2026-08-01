@@ -4,239 +4,255 @@
     "heading_id": "GNS125_U5_T3_h1",
     "article_id": "GNS125_U5_T3",
     "topic_id": "GNS125_U5_T3",
-    "question": "What is the primary objective of drug metabolism or biotransformation in the human body?",
+    "difficulty": "recall",
+    "question": "What is the primary biochemical goal of drug metabolism in the human body?",
     "options": {
-      "A": "To increase the lipid solubility of drug molecules",
-      "B": "To convert lipid-soluble drugs into hydrophilic, water-soluble metabolites for excretion",
-      "C": "To ensure drugs remain trapped in adipose tissue indefinitely",
-      "D": "To prevent prodrugs from ever becoming active"
+      "A": "To transform hydrophilic drugs into fat-soluble storage molecules",
+      "B": "To increase the molecular weight of the drug for cellular absorption",
+      "C": "To prevent the kidneys from filtering any circulating pharmaceutical agents",
+      "D": "To convert lipophilic compounds into water-soluble metabolites for excretion"
     },
-    "answer": "B",
-    "explanation": "The primary objective of biotransformation is to convert lipid-soluble drugs into water-soluble metabolites so they can be easily excreted by the kidneys or biliary tract. [learn more](GNS125_U5_T3#GNS125_U5_T3_h1)"
+    "answer": "D",
+    "explanation": "Lipophilic drugs easily cross cell membranes and would remain in the body indefinitely if not converted into water-soluble forms that the kidneys can excrete. [learn more](GNS125_U5_T3#GNS125_U5_T3_h1)"
   },
   {
     "question_id": "GNS125_U5_T3_h1_q2",
     "heading_id": "GNS125_U5_T3_h1",
     "article_id": "GNS125_U5_T3",
     "topic_id": "GNS125_U5_T3",
-    "question": "How are inactive precursor molecules that require metabolic conversion to become therapeutically active termed?",
+    "difficulty": "understanding",
+    "question": "How do prodrugs behave differently compared to standard active medications during biotransformation?",
     "options": {
-      "A": "Metabolites",
-      "B": "Hydrophilic agents",
-      "C": "Prodrugs",
-      "D": "Lipophilic compounds"
+      "A": "Prodrugs undergo Phase II conjugation reactions before ever experiencing Phase I oxidation.",
+      "B": "Prodrugs bypass the liver entirely and are excreted unchanged through sweat glands.",
+      "C": "Prodrugs require metabolic conversion inside the body to become pharmacologically active.",
+      "D": "Prodrugs resist all enzymatic breakdown and remain permanently bound to plasma proteins."
     },
     "answer": "C",
-    "explanation": "Prodrugs are inactive precursor molecules that are administered and subsequently metabolized into their active therapeutic forms within the body. [learn more](GNS125_U5_T3#GNS125_U5_T3_h1)"
+    "explanation": "Unlike standard drugs that are administered in their active form, prodrugs are intentionally given as inactive precursors that rely on the body's metabolic enzymes to unlock their therapeutic properties. [learn more](GNS125_U5_T3#GNS125_U5_T3_h1)"
   },
   {
     "question_id": "GNS125_U5_T3_h2_q1",
     "heading_id": "GNS125_U5_T3_h2",
     "article_id": "GNS125_U5_T3",
     "topic_id": "GNS125_U5_T3",
-    "question": "Which organ is recognized as the major site of drug metabolism in the human body?",
+    "difficulty": "recall",
+    "question": "Which organ functions as the primary and most significant site for drug metabolism in the human body?",
     "options": {
-      "A": "Kidneys",
-      "B": "Liver",
-      "C": "Lungs",
-      "D": "Skin"
+      "A": "The liver",
+      "B": "The stomach",
+      "C": "The spleen",
+      "D": "The kidneys"
     },
-    "answer": "B",
-    "explanation": "The liver is the primary organ of drug metabolism because hepatocytes contain a high concentration of enzymes necessary for biotransformation reactions. [learn more](GNS125_U5_T3#GNS125_U5_T3_h2)"
+    "answer": "A",
+    "explanation": "The liver contains the highest concentration and greatest variety of drug-metabolizing enzymes, making it the central hub for biotransformation. [learn more](GNS125_U5_T3#GNS125_U5_T3_h2)"
   },
   {
     "question_id": "GNS125_U5_T3_h2_q2",
     "heading_id": "GNS125_U5_T3_h2",
     "article_id": "GNS125_U5_T3",
     "topic_id": "GNS125_U5_T3",
-    "question": "Why is the liver considered a biochemical gatekeeper for orally administered drugs?",
+    "difficulty": "understanding",
+    "question": "Which of the following body sites contributes to pre-systemic drug extraction alongside the liver?",
     "options": {
-      "A": "It receives blood directly from the portal vein draining the gastrointestinal tract before systemic circulation",
-      "B": "It completely prevents all drugs from entering the bloodstream",
-      "C": "It produces all plasma esterases found in the body",
-      "D": "It stores all lipophilic drugs in adipose tissue permanently"
+      "A": "The white blood cells in systemic circulation",
+      "B": "The skeletal muscle fiber membranes",
+      "C": "The distal convoluted tubules of the kidney",
+      "D": "The intestinal wall enterocytes"
     },
-    "answer": "A",
-    "explanation": "Blood returning from the GI tract via the portal vein passes directly through the liver, allowing hepatic enzymes to process absorbed drugs before they reach the rest of the body. [learn more](GNS125_U5_T3#GNS125_U5_T3_h2)"
+    "answer": "D",
+    "explanation": "Enterocytes lining the gastrointestinal tract express enzymes and transporters that metabolize drugs before they even reach the hepatic portal system. [learn more](GNS125_U5_T3#GNS125_U5_T3_h2)"
   },
   {
     "question_id": "GNS125_U5_T3_h3_q1",
     "heading_id": "GNS125_U5_T3_h3",
     "article_id": "GNS125_U5_T3",
     "topic_id": "GNS125_U5_T3",
+    "difficulty": "recall",
     "question": "What is the primary chemical outcome of Phase I drug metabolism reactions?",
     "options": {
-      "A": "The complete elimination of the drug through sweat",
-      "B": "The introduction or uncovering of a polar functional group on the drug molecule",
-      "C": "The direct attachment of a large hydrophilic molecule like glucuronic acid",
-      "D": "The immediate storage of the drug in fat tissue"
+      "A": "Immediate precipitation of the drug compound within the renal glomerulus",
+      "B": "Complete destruction of the chemical structure into elemental carbon and nitrogen",
+      "C": "Attachment of a large endogenous molecule like glucuronic acid to the drug",
+      "D": "Introduction or unmasking of a polar functional group on the drug molecule"
     },
-    "answer": "B",
-    "explanation": "Phase I reactions alter chemical structures by introducing or uncovering polar functional groups like hydroxyl or amino groups, increasing water solubility slightly. [learn more](GNS125_U5_T3#GNS125_U5_T3_h3)"
+    "answer": "D",
+    "explanation": "Phase I reactions slightly alter the drug by adding or exposing functional groups, creating a handle for Phase II enzymes. [learn more](GNS125_U5_T3#GNS125_U5_T3_h3)"
   },
   {
     "question_id": "GNS125_U5_T3_h3_q2",
     "heading_id": "GNS125_U5_T3_h3",
     "article_id": "GNS125_U5_T3",
     "topic_id": "GNS125_U5_T3",
-    "question": "Which of the following describes the process of hydrolysis in Phase I metabolism?",
+    "difficulty": "understanding",
+    "question": "Which enzymatic process involves the chemical splitting of ester or amide bonds through the incorporation of a water molecule?",
     "options": {
-      "A": "The addition of oxygen or removal of hydrogen",
-      "B": "The addition of hydrogen or removal of oxygen",
-      "C": "The cleavage of chemical bonds through the addition of water molecules",
-      "D": "The conjugation of a drug with sulfate"
+      "A": "Glucuronidation",
+      "B": "Oxidation",
+      "C": "Acetylation",
+      "D": "Hydrolysis"
     },
-    "answer": "C",
-    "explanation": "Hydrolysis involves splitting chemical bonds through the addition of water, a process catalyzed by enzymes such as esterases and amidases. [learn more](GNS125_U5_T3#GNS125_U5_T3_h3)"
+    "answer": "D",
+    "explanation": "Hydrolysis literally means water-splitting, where esterases and similar enzymes use water to cleave bonds within the drug structure. [learn more](GNS125_U5_T3#GNS125_U5_T3_h3)"
   },
   {
     "question_id": "GNS125_U5_T3_h4_q1",
     "heading_id": "GNS125_U5_T3_h4",
     "article_id": "GNS125_U5_T3",
     "topic_id": "GNS125_U5_T3",
-    "question": "Where are Cytochrome P450 (CYP450) enzymes primarily located within the hepatocyte?",
+    "difficulty": "recall",
+    "question": "Where are Cytochrome P450 enzymes primarily localized within the cell?",
     "options": {
-      "A": "In the cell nucleus",
-      "B": "In the smooth endoplasmic reticulum",
-      "C": "Within the cell membrane",
-      "D": "Inside the lysosomes"
+      "A": "The outer mitochondrial boundary",
+      "B": "The nuclear membrane matrix",
+      "C": "The intracellular fluid cytosol",
+      "D": "The smooth endoplasmic reticulum"
     },
-    "answer": "B",
-    "explanation": "CYP450 enzymes are predominantly bound to the smooth endoplasmic reticulum of hepatocytes, which is frequently termed the microsomal fraction. [learn more](GNS125_U5_T3#GNS125_U5_T3_h4)"
+    "answer": "D",
+    "explanation": "CYP450 enzymes are membrane-bound proteins located predominantly in the endoplasmic reticulum of hepatocytes. [learn more](GNS125_U5_T3#GNS125_U5_T3_h4)"
   },
   {
     "question_id": "GNS125_U5_T3_h4_q2",
     "heading_id": "GNS125_U5_T3_h4",
     "article_id": "GNS125_U5_T3",
     "topic_id": "GNS125_U5_T3",
-    "question": "Which specific CYP450 isoenzyme is known to metabolize the largest proportion of clinically prescribed drugs?",
+    "difficulty": "understanding",
+    "question": "Why is the CYP3A4 enzyme particularly significant in clinical pharmacology?",
     "options": {
-      "A": "CYP2D6",
-      "B": "CYP1A2",
-      "C": "CYP3A4",
-      "D": "CYP2C9"
+      "A": "It bypasses Phase I reactions and directly executes Phase II conjugation steps.",
+      "B": "It operates entirely independently of genetic variations across different human populations.",
+      "C": "It exclusively processes water-soluble vitamins without touching lipid-soluble medications.",
+      "D": "It is responsible for metabolizing the largest variety of clinically prescribed drugs."
     },
-    "answer": "C",
-    "explanation": "CYP3A4 is the most abundant and versatile isoenzyme in the liver, responsible for processing a vast percentage of medications used in clinical practice. [learn more](GNS125_U5_T3#GNS125_U5_T3_h4)"
+    "answer": "D",
+    "explanation": "CYP3A4 handles a massive share of drug interactions and biotransformations, making its inhibition or induction clinically critical. [learn more](GNS125_U5_T3#GNS125_U5_T3_h4)"
   },
   {
     "question_id": "GNS125_U5_T3_h5_q1",
     "heading_id": "GNS125_U5_T3_h5",
     "article_id": "GNS125_U5_T3",
     "topic_id": "GNS125_U5_T3",
-    "question": "What is the primary purpose of Phase II conjugation reactions in drug metabolism?",
+    "difficulty": "recall",
+    "question": "What happens to a drug molecule during a Phase II conjugation reaction?",
     "options": {
-      "A": "To increase lipid solubility so drugs cross the blood-brain barrier faster",
-      "B": "To covalently attach a polar endogenous substance, making the metabolite water-soluble for excretion",
-      "C": "To convert inactive prodrugs into active therapeutic compounds",
-      "D": "To destroy all enzymes in the liver"
+      "A": "A heavy metal ion is bound to the structure to prevent renal excretion.",
+      "B": "An oxygen atom is removed to make the compound completely lipid-soluble.",
+      "C": "The drug molecule is cleaved into two separate pharmacologically active halves.",
+      "D": "A small endogenous polar molecule is covalently attached to the drug."
     },
-    "answer": "B",
-    "explanation": "Phase II reactions attach a polar endogenous substance to the drug or its Phase I metabolite, creating a large, hydrophilic molecule that is easily excreted. [learn more](GNS125_U5_T3#GNS125_U5_T3_h5)"
+    "answer": "D",
+    "explanation": "Phase II pathways link endogenous polar substances like glucuronic acid or sulfate to the drug to ensure rapid excretion. [learn more](GNS125_U5_T3#GNS125_U5_T3_h5)"
   },
   {
     "question_id": "GNS125_U5_T3_h5_q2",
     "heading_id": "GNS125_U5_T3_h5",
     "article_id": "GNS125_U5_T3",
     "topic_id": "GNS125_U5_T3",
-    "question": "Which enzyme family catalyzes the process of glucuronidation, the most common Phase II conjugation pathway?",
+    "difficulty": "understanding",
+    "question": "What is the typical pharmacological profile of a drug molecule that has successfully completed Phase II conjugation?",
     "options": {
-      "A": "Cytochrome P450 reductases",
-      "B": "Esterases and amidases",
-      "C": "Uridine diphosphate glucuronosyltransferases (UGTs)",
-      "D": "Sulfotransferases"
+      "A": "It binds permanently to plasma albumin and remains in the blood indefinitely.",
+      "B": "It is rendered pharmacologically inactive and easily excreted.",
+      "C": "It gains the ability to cross the blood-brain barrier with high efficiency.",
+      "D": "It becomes a highly potent prodrug awaiting further hepatic activation."
     },
-    "answer": "C",
-    "explanation": "Glucuronidation is mediated by uridine diphosphate glucuronosyltransferases (UGTs), which attach glucuronic acid to various drug substrates. [learn more](GNS125_U5_T3#GNS125_U5_T3_h5)"
+    "answer": "B",
+    "explanation": "Conjugation generally neutralizes the drug's activity completely, transforming it into a safe, water-soluble waste product. [learn more](GNS125_U5_T3#GNS125_U5_T3_h5)"
   },
   {
     "question_id": "GNS125_U5_T3_h6_q1",
     "heading_id": "GNS125_U5_T3_h6",
     "article_id": "GNS125_U5_T3",
     "topic_id": "GNS125_U5_T3",
-    "question": "What is the clinical consequence of enzyme induction on co-administered substrate drugs?",
+    "difficulty": "recall",
+    "question": "What is the clinical consequence of enzyme induction on co-administered medications?",
     "options": {
-      "A": "Increased plasma drug levels and heightened risk of toxicity",
-      "B": "Accelerated metabolism leading to subtherapeutic drug concentrations and treatment failure",
-      "C": "Permanent cessation of all hepatic blood flow",
-      "D": "Immediate conversion of the drug into a toxic prodrug"
+      "A": "Immediate blockade of renal excretion and prolonged drug half-life",
+      "B": "Decreased clearance resulting in severe drug toxicity and accumulation",
+      "C": "Instant conversion of active drugs into irreversible toxic metabolites",
+      "D": "Accelerated metabolism leading to reduced drug plasma concentrations"
     },
-    "answer": "B",
-    "explanation": "Enzyme induction increases metabolic enzyme synthesis, causing co-administered substrate drugs to break down faster, resulting in subtherapeutic levels and treatment failure. [learn more](GNS125_U5_T3#GNS125_U5_T3_h6)"
+    "answer": "D",
+    "explanation": "Induction increases enzyme levels, clearing co-administered drugs faster and potentially causing therapeutic failure. [learn more](GNS125_U5_T3#GNS125_U5_T3_h6)"
   },
   {
     "question_id": "GNS125_U5_T3_h6_q2",
     "heading_id": "GNS125_U5_T3_h6",
     "article_id": "GNS125_U5_T3",
     "topic_id": "GNS125_U5_T3",
-    "question": "How do enzyme inhibitors typically affect the clearance of victim drugs in the body?",
+    "difficulty": "understanding",
+    "question": "A patient taking a stable maintenance dose of a medication experiences severe toxicity after a second drug is introduced that blocks CYP enzyme activity. What phenomenon explains this?",
     "options": {
-      "A": "They increase drug clearance and lower blood levels",
-      "B": "They decrease drug clearance, leading to elevated plasma concentrations and potential toxicity",
-      "C": "They have no effect on drug clearance",
-      "D": "They stimulate renal excretion without affecting metabolism"
+      "A": "Enzyme induction",
+      "B": "First-pass bypassing",
+      "C": "Enzyme inhibition",
+      "D": "Phase II conjugation"
     },
-    "answer": "B",
-    "explanation": "Enzyme inhibitors reduce the catalytic activity of metabolic enzymes, which decreases drug clearance, leading to drug accumulation and toxicity. [learn more](GNS125_U5_T3#GNS125_U5_T3_h6)"
+    "answer": "C",
+    "explanation": "When an enzyme is inhibited, the clearance of the first drug drops, causing it to accumulate in the bloodstream to toxic levels. [learn more](GNS125_U5_T3#GNS125_U5_T3_h6)"
   },
   {
     "question_id": "GNS125_U5_T3_h7_q1",
     "heading_id": "GNS125_U5_T3_h7",
     "article_id": "GNS125_U5_T3",
     "topic_id": "GNS125_U5_T3",
-    "question": "What is the primary cause of the first-pass effect for orally administered medications?",
+    "difficulty": "recall",
+    "question": "What term describes the fraction of an administered drug dose that successfully reaches the systemic circulation unchanged?",
     "options": {
-      "A": "Rapid excretion of the drug by the kidneys before absorption",
-      "B": "Metabolism by intestinal and hepatic enzymes before the drug reaches systemic circulation",
-      "C": "Immediate binding of the drug to red blood cells in peripheral capillaries",
-      "D": "Destruction of the drug by stomach acid and pepsin alone"
+      "A": "Renal clearance",
+      "B": "Bioavailability",
+      "C": "Volume of distribution",
+      "D": "Metabolic induction"
     },
     "answer": "B",
-    "explanation": "The first-pass effect occurs because absorbed drugs pass through the gut wall and liver via the portal vein, where enzymes metabolize a portion of the drug before it reaches systemic circulation. [learn more](GNS125_U5_T3#GNS125_U5_T3_h7)"
+    "explanation": "Bioavailability measures the rate and extent to which the active drug reaches the systemic circulation to produce an effect. [learn more](GNS125_U5_T3#GNS125_U5_T3_h7)"
   },
   {
     "question_id": "GNS125_U5_T3_h7_q2",
     "heading_id": "GNS125_U5_T3_h7",
     "article_id": "GNS125_U5_T3",
     "topic_id": "GNS125_U5_T3",
-    "question": "How is oral bioavailability defined in clinical pharmacology?",
+    "difficulty": "understanding",
+    "question": "Why does a drug experiencing a high first-pass effect require a substantially larger oral dose compared to an intravenous dose?",
     "options": {
-      "A": "The total amount of drug excreted unchanged in the urine",
-      "B": "The speed at which a drug dissolves in the stomach",
-      "C": "The fraction of an unchanged drug that reaches the systemic circulation following administration",
-      "D": "The rate at which a drug binds to plasma proteins"
+      "A": "Oral medications lack the necessary chemical weight to dissolve in the blood without liver priming.",
+      "B": "Intravenous drugs are too concentrated and would instantly precipitate in the hepatic portal vein.",
+      "C": "Intravenous administration bypasses the kidneys, forcing the liver to destroy the entire dose.",
+      "D": "A large portion of the oral dose is metabolized in the gut wall and liver before reaching systemic circulation."
     },
-    "answer": "C",
-    "explanation": "Bioavailability measures the percentage or fraction of the administered dose that successfully reaches the systemic circulation in an active, unchanged form. [learn more](GNS125_U5_T3#GNS125_U5_T3_h7)"
+    "answer": "D",
+    "explanation": "The first-pass effect strips away a major percentage of oral medications before they ever get a chance to work systemically, necessitating higher dosing. [learn more](GNS125_U5_T3#GNS125_U5_T3_h7)"
   },
   {
     "question_id": "GNS125_U5_T3_h8_q1",
     "heading_id": "GNS125_U5_T3_h8",
     "article_id": "GNS125_U5_T3",
     "topic_id": "GNS125_U5_T3",
-    "question": "How do genetic polymorphisms in metabolic enzymes like CYP2D6 and NAT2 affect Nigerian and other diverse patient populations?",
+    "difficulty": "recall",
+    "question": "Which of the following factors can influence drug metabolism by altering hepatic enzyme expression in clinical practice?",
     "options": {
-      "A": "They ensure every patient metabolizes drugs at the exact same rate",
-      "B": "They cause variations in metabolic phenotypes, leading to differences in drug response, efficacy, and toxicity risk",
-      "C": "They completely eliminate the need for Phase II conjugation",
-      "D": "They prevent all forms of first-pass metabolism"
+      "A": "The patient's preferred time of day for eating breakfast",
+      "B": "The physical room temperature of the hospital ward",
+      "C": "The specific brand of sterile syringe used for intravenous access",
+      "D": "Concurrent use of herbal remedies and traditional preparations"
     },
-    "answer": "B",
-    "explanation": "Genetic polymorphisms create diverse metabolic phenotypes—such as poor or ultrarapid metabolizers—which directly impact how individuals process and respond to medications. [learn more](GNS125_U5_T3#GNS125_U5_T3_h8)"
+    "answer": "D",
+    "explanation": "Herbal products often contain active chemical compounds that induce or inhibit CYP450 enzymes, altering orthodox drug levels. [learn more](GNS125_U5_T3#GNS125_U5_T3_h8)"
   },
   {
     "question_id": "GNS125_U5_T3_h8_q2",
     "heading_id": "GNS125_U5_T3_h8",
     "article_id": "GNS125_U5_T3",
     "topic_id": "GNS125_U5_T3",
-    "question": "Why is taking a thorough history regarding traditional herbal remedies important for nurses practicing in Nigeria?",
+    "difficulty": "understanding",
+    "question": "What is NOT a primary reason why genetic polymorphisms in CYP enzymes matter when prescribing medications in diverse populations?",
     "options": {
-      "A": "Herbs have no chemical properties and cannot interact with drugs",
-      "B": "Traditional remedies can induce or inhibit hepatic enzymes, causing unexpected herb-drug interactions and altering drug metabolism",
-      "C": "Herbs automatically increase the oral bioavailability of all orthodox drugs",
-      "D": "Traditional preparations are always metabolized exclusively by the kidneys"
+      "A": "They guarantee that all patients will experience identical drug plasma concentrations regardless of dose.",
+      "B": "They explain why standard drug doses can cause therapeutic failure in fast metabolizers.",
+      "C": "They influence how efficiently the liver processes specific antimalarials and antiretrovirals.",
+      "D": "They account for unexpected drug toxicities occurring in slow metabolizers receiving normal doses."
     },
-    "answer": "B",
-    "explanation": "Herbal medicines and local concoctions can alter metabolic enzyme activity through induction or inhibition, leading to treatment failure or toxicity when combined with orthodox medications. [learn more](GNS125_U5_T3#GNS125_U5_T3_h8)"
+    "answer": "A",
+    "explanation": "Genetic polymorphisms mean patients will NOT experience identical concentrations; instead, variability in enzyme activity creates wide ranges in drug levels. [learn more](GNS125_U5_T3#GNS125_U5_T3_h8)"
   }
 ]
