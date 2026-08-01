@@ -4,239 +4,223 @@
     "heading_id": "GST114_U2_T18_h1",
     "article_id": "GST114_U2_T18",
     "topic_id": "GST114_U2_T18",
-    "question": "What is the primary goal of contact tracing in public health?",
+    "difficulty": "recall",
+    "question": "What is the primary public health goal of contact tracing during an infectious disease outbreak?",
     "options": {
-      "A": "To treat patients with chronic illnesses",
-      "B": "To break the chain of transmission of infectious diseases",
-      "C": "To replace standard hospital admission procedures",
-      "D": "To collect taxes for healthcare funding"
+      "A": "To enforce legal penalties on individuals who fail to report symptoms",
+      "B": "To conduct mass vaccination campaigns across urban populations",
+      "C": "To replace hospital-based care with community-managed isolation",
+      "D": "To break transmission chains by locating and managing exposed individuals"
     },
-    "answer": "B",
-    "explanation": "The core purpose of contact tracing is to identify, assess, and manage exposed individuals to stop further disease spread in the community. [learn more](GST114_U2_T18#GST114_U2_T18_h1)"
+    "answer": "D",
+    "explanation": "Contact tracing focuses on finding people exposed to an infected person so they can be monitored and managed before spreading the disease further. [learn more](GST114_U2_T18#GST114_U2_T18_h1)"
   },
   {
     "question_id": "GST114_U2_T18_h1_q2",
     "heading_id": "GST114_U2_T18_h1",
     "article_id": "GST114_U2_T18",
     "topic_id": "GST114_U2_T18",
-    "question": "Which organization does Nigerian nursing professionals typically collaborate with during disease outbreak responses?",
+    "difficulty": "understanding",
+    "question": "Why does contact tracing represent a shift from passive to active healthcare management?",
     "options": {
-      "A": "World Bank",
-      "B": "Nigeria Centre for Disease Control (NCDC)",
-      "C": "Federal Ministry of Education",
-      "D": "Nigerian Medical Association Council"
+      "A": "It brings health workers into the community to find cases rather than waiting for sick people to arrive at hospitals",
+      "B": "It eliminates the need for laboratory diagnostic confirmation during outbreaks",
+      "C": "It transfers clinical decision-making authority entirely from doctors to community leaders",
+      "D": "It relies on automated digital tracking systems instead of human interaction"
     },
-    "answer": "B",
-    "explanation": "Nurses work closely with public health agencies like the NCDC to coordinate effective disease surveillance and outbreak responses. [learn more](GST114_U2_T18#GST114_U2_T18_h1)"
+    "answer": "A",
+    "explanation": "Active surveillance involves health personnel proactively seeking out potential cases in the community instead of waiting passively for patients to present at clinics. [learn more](GST114_U2_T18#GST114_U2_T18_h1)"
   },
   {
     "question_id": "GST114_U2_T18_h2_q1",
     "heading_id": "GST114_U2_T18_h2",
     "article_id": "GST114_U2_T18",
     "topic_id": "GST114_U2_T18",
-    "question": "Which two links in the chain of infection does contact tracing primarily target?",
+    "difficulty": "recall",
+    "question": "Which link in the chain of infection is directly targeted and interrupted by contact tracing?",
     "options": {
-      "A": "Reservoir and portal of exit",
-      "B": "Infectious agent and portal of entry",
-      "C": "Mode of transmission and susceptible host",
-      "D": "Infectious agent and reservoir"
+      "A": "Mode of transmission",
+      "B": "Infectious agent",
+      "C": "Reservoir",
+      "D": "Portal of entry"
     },
-    "answer": "C",
-    "explanation": "Contact tracing focuses on intercepting the mode of transmission and managing susceptible hosts who have been exposed. [learn more](GST114_U2_T18#GST114_U2_T18_h2)"
+    "answer": "A",
+    "explanation": "By identifying and separating exposed individuals before they become infectious, contact tracing stops the pathogen from transmitting to a new host. [learn more](GST114_U2_T18#GST114_U2_T18_h2)"
   },
   {
     "question_id": "GST114_U2_T18_h2_q2",
     "heading_id": "GST114_U2_T18_h2",
     "article_id": "GST114_U2_T18",
     "topic_id": "GST114_U2_T18",
-    "question": "What does the incubation period refer to in epidemiological terms?",
+    "difficulty": "understanding",
+    "question": "What role does the incubation period play in planning a contact tracing protocol?",
     "options": {
-      "A": "The time a pathogen survives on inanimate surfaces",
-      "B": "The time from exposure to the development of symptoms",
-      "C": "The duration a patient remains contagious after recovery",
-      "D": "The time it takes for laboratory tests to yield results"
+      "A": "It calculates the total number of hospital beds needed during a surge",
+      "B": "It determines the duration for which identified contacts must be monitored or quarantined",
+      "C": "It establishes the geographical boundaries of the affected community",
+      "D": "It identifies the exact laboratory test required to confirm the pathogen"
     },
     "answer": "B",
-    "explanation": "The incubation period is defined as the time interval between initial exposure to an infectious agent and the appearance of the first symptoms. [learn more](GST114_U2_T18#GST114_U2_T18_h2)"
+    "explanation": "The incubation period dictates the maximum time window a person might develop symptoms, which defines how long they need active monitoring. [learn more](GST114_U2_T18#GST114_U2_T18_h2)"
   },
   {
     "question_id": "GST114_U2_T18_h3_q1",
     "heading_id": "GST114_U2_T18_h3",
     "article_id": "GST114_U2_T18",
     "topic_id": "GST114_U2_T18",
-    "question": "What is the very first step in the contact tracing process?",
+    "difficulty": "recall",
+    "question": "Which criterion typically defines a high-risk or close contact during an outbreak investigation?",
     "options": {
-      "A": "Notifying community leaders",
-      "B": "Case confirmation",
-      "C": "Quarantining the entire neighborhood",
-      "D": "Issuing travel bans"
+      "A": "Face-to-face interaction within one meter for more than 15 minutes",
+      "B": "Residing in the same municipal local government area as the case",
+      "C": "Passing by the infected person briefly in an open outdoor corridor",
+      "D": "Working in the same large multi-story commercial building"
     },
-    "answer": "B",
-    "explanation": "Contact tracing officially begins with confirming that an index case has the target infectious disease through testing or epidemiological links. [learn more](GST114_U2_T18#GST114_U2_T18_h3)"
+    "answer": "A",
+    "explanation": "Close contact definitions generally rely on physical proximity and duration of exposure, which substantially raise the likelihood of pathogen transmission. [learn more](GST114_U2_T18#GST114_U2_T18_h3)"
   },
   {
     "question_id": "GST114_U2_T18_h3_q2",
     "heading_id": "GST114_U2_T18_h3",
     "article_id": "GST114_U2_T18",
     "topic_id": "GST114_U2_T18",
-    "question": "During the notification step of contact tracing, what crucial rule must the nurse follow regarding the index case?",
+    "difficulty": "understanding",
+    "question": "Why is it clinically necessary to categorize contacts into high-risk and low-risk tiers?",
     "options": {
-      "A": "Publish the index case's name on social media",
-      "B": "Reveal the exact address of the index case",
-      "C": "Maintain confidentiality without revealing the identity of the index case",
-      "D": "Charge the contacts a fee for the notification service"
+      "A": "To assign legal liability for the initial transmission event within the community",
+      "B": "To determine whether the index case requires surgical or medical intervention",
+      "C": "To simplify the statistical data entry required for national health bulletins",
+      "D": "To optimize the allocation of limited public health resources toward individuals most likely to develop disease"
     },
-    "answer": "C",
-    "explanation": "Nurses must protect patient privacy by notifying contacts of their exposure risk without disclosing the personal identity of the index case. [learn more](GST114_U2_T18#GST114_U2_T18_h3)"
+    "answer": "D",
+    "explanation": "Categorization allows health teams to focus intensive monitoring, testing, and quarantine enforcement where the risk of secondary transmission is highest. [learn more](GST114_U2_T18#GST114_U2_T18_h3)"
   },
   {
     "question_id": "GST114_U2_T18_h4_q1",
     "heading_id": "GST114_U2_T18_h4",
     "article_id": "GST114_U2_T18",
     "topic_id": "GST114_U2_T18",
-    "question": "Which of the following describes a high-risk or close contact?",
+    "difficulty": "recall",
+    "question": "What is the most effective approach when interviewing an index case about their daily movements?",
     "options": {
-      "A": "Passing an infected person briefly in an open hallway",
-      "B": "Providing direct care to the patient without adequate PPE",
-      "C": "Living in the same town as the index case",
-      "D": "Riding in a separate vehicle with closed windows away from the patient"
+      "A": "Demanding a written log before beginning any verbal conversation",
+      "B": "Involving local law enforcement officers to compel truthful answers",
+      "C": "Employing a strict interrogative tone to ensure the patient does not lie",
+      "D": "Using a supportive tone with open-ended questions to encourage open recall"
     },
-    "answer": "B",
-    "explanation": "Providing direct nursing care or interacting without proper PPE places an individual in the high-risk exposure category. [learn more](GST114_U2_T18#GST114_U2_T18_h4)"
+    "answer": "D",
+    "explanation": "A supportive, non-judgmental approach builds trust and helps patients remember details they might otherwise hide out of fear or stigma. [learn more](GST114_U2_T18#GST114_U2_T18_h4)"
   },
   {
     "question_id": "GST114_U2_T18_h4_q2",
     "heading_id": "GST114_U2_T18_h4",
     "article_id": "GST114_U2_T18",
     "topic_id": "GST114_U2_T18",
-    "question": "Why is risk categorization of contacts essential for public health nurses?",
+    "difficulty": "understanding",
+    "question": "A patient appears defensive and expresses fear that their employer will find out about their diagnosis. What should the nurse do first?",
     "options": {
-      "A": "It dictates whether the patient requires surgery",
-      "B": "It prevents the misallocation of scarce resources and guides management strategies",
-      "C": "It determines the hospital billing structure",
-      "D": "It replaces the need for laboratory testing"
+      "A": "Reassure the patient regarding strict confidentiality protocols and privacy protections",
+      "B": "Explain that the employer must be notified immediately by law to protect coworkers",
+      "C": "Threaten mandatory institutional quarantine if they refuse to cooperate",
+      "D": "Postpone the interview indefinitely until the patient calms down on their own"
     },
-    "answer": "B",
-    "explanation": "Accurate categorization ensures that high-risk contacts receive intensive monitoring while preserving resources by assigning lighter protocols to low-risk contacts. [learn more](GST114_U2_T18#GST114_U2_T18_h4)"
+    "answer": "A",
+    "explanation": "Addressing fears of stigma and reassuring patients about confidentiality is essential to secure their cooperation during contact tracing interviews. [learn more](GST114_U2_T18#GST114_U2_T18_h4)"
   },
   {
     "question_id": "GST114_U2_T18_h5_q1",
     "heading_id": "GST114_U2_T18_h5",
     "article_id": "GST114_U2_T18",
     "topic_id": "GST114_U2_T18",
-    "question": "What is an effective technique a nurse can use to help an index case recall contacts?",
+    "difficulty": "recall",
+    "question": "What is the primary operational difference between quarantine and isolation?",
     "options": {
-      "A": "Threatening legal action if they forget details",
-      "B": "Using memory joggers such as reviewing daily schedules and phone logs",
-      "C": "Demanding they remember every person they saw in the last year",
-      "D": "Relying solely on social media algorithms"
+      "A": "Quarantine is voluntary, whereas isolation requires a court order in every instance",
+      "B": "Quarantine applies only to bacterial infections, while isolation applies only to viral pathogens",
+      "C": "Quarantine restricts exposed individuals who are not yet sick, while isolation separates sick individuals who are infectious",
+      "D": "Quarantine is managed in a hospital setting, while isolation is managed exclusively at home"
     },
-    "answer": "B",
-    "explanation": "Reviewing daily routines, calendars, and phone logs helps jog the index case's memory for accurate contact listing. [learn more](GST114_U2_T18#GST114_U2_T18_h5)"
+    "answer": "C",
+    "explanation": "Quarantine is for healthy people who had exposure, while isolation is for those who have confirmed or suspected active illness. [learn more](GST114_U2_T18#GST114_U2_T18_h5)"
   },
   {
     "question_id": "GST114_U2_T18_h5_q2",
     "heading_id": "GST114_U2_T18_h5",
     "article_id": "GST114_U2_T18",
     "topic_id": "GST114_U2_T18",
-    "question": "Why is empathy and cultural sensitivity crucial during a contact tracing interview?",
+    "difficulty": "understanding",
+    "question": "Why is providing logistical support such as food and communication credit essential for successful home quarantine?",
     "options": {
-      "A": "To increase patient anxiety and compliance",
-      "B": "To overcome fear, stigma, and resistance while building trust",
-      "C": "To shorten the duration of the nursing shift",
-      "D": "To eliminate the need for PPE"
+      "A": "It removes the necessity for individuals to leave their homes for basic supplies, ensuring compliance",
+      "B": "It guarantees that the patient will recover from the illness without requiring medication",
+      "C": "It replaces the need for daily temperature checks and symptom reporting",
+      "D": "It fulfills legal requirements mandated by international trade organizations"
     },
-    "answer": "B",
-    "explanation": "Empathy and cultural competence reduce fear and stigma, fostering trust and honest communication between the nurse and the client. [learn more](GST114_U2_T18#GST114_U2_T18_h5)"
+    "answer": "A",
+    "explanation": "People cannot successfully stay home if they lack food or water; supporting their basic needs makes adherence to quarantine feasible. [learn more](GST114_U2_T18#GST114_U2_T18_h5)"
   },
   {
     "question_id": "GST114_U2_T18_h6_q1",
     "heading_id": "GST114_U2_T18_h6",
     "article_id": "GST114_U2_T18",
     "topic_id": "GST114_U2_T18",
-    "question": "What is the key difference between quarantine and isolation?",
+    "difficulty": "recall",
+    "question": "What is the primary ethical risk of breaching a patient's confidentiality during contact tracing?",
     "options": {
-      "A": "Quarantine is for sick people, and isolation is for healthy exposed people",
-      "B": "Quarantine restricts healthy exposed individuals, while isolation separates sick infectious individuals",
-      "C": "Isolation is voluntary, while quarantine is always enforced by police",
-      "D": "Quarantine takes place in hospitals, and isolation takes place outdoors"
+      "A": "It automatically invalidates all laboratory test results in the affected region",
+      "B": "It destroys community trust, causing people to hide symptoms and avoid public health workers",
+      "C": "It increases the biological mutation rate of the infectious pathogen",
+      "D": "It prevents health workers from accessing essential medical supplies from the government"
     },
     "answer": "B",
-    "explanation": "Quarantine is applied to healthy people who were exposed, whereas isolation is meant for individuals who are confirmed sick and contagious. [learn more](GST114_U2_T18#GST114_U2_T18_h6)"
+    "explanation": "When confidentiality is broken, fear of stigma causes individuals to conceal illnesses, which undermines entire disease control efforts. [learn more](GST114_U2_T18#GST114_U2_T18_h6)"
   },
   {
     "question_id": "GST114_U2_T18_h6_q2",
     "heading_id": "GST114_U2_T18_h6",
     "article_id": "GST114_U2_T18",
     "topic_id": "GST114_U2_T18",
-    "question": "What is the primary purpose of monitoring contacts during their quarantine period?",
+    "difficulty": "understanding",
+    "question": "Which of the following is NOT an acceptable ethical practice for nurses engaged in contact tracing?",
     "options": {
-      "A": "To collect research fees",
-      "B": "To assess for early signs and symptoms of the disease",
-      "C": "To deliver daily mail and packages",
-      "D": "To test new pharmaceutical drugs"
+      "A": "Explaining the rationale for quarantine clearly before enforcing restrictions",
+      "B": "Disclosing the name of the index case to contacts to convince them of the exposure risk",
+      "C": "Balancing community safety needs with respect for individual autonomy",
+      "D": "Protecting patient health records from unauthorized viewing by coworkers or neighbors"
     },
     "answer": "B",
-    "explanation": "Regular monitoring allows nurses to catch early symptoms promptly, ensuring rapid clinical evaluation and care if the contact falls ill. [learn more](GST114_U2_T18#GST114_U2_T18_h6)"
+    "explanation": "Nurses must never reveal the identity of the index case; contacts can be warned of exposure without knowing who infected them. [learn more](GST114_U2_T18#GST114_U2_T18_h6)"
   },
   {
     "question_id": "GST114_U2_T18_h7_q1",
     "heading_id": "GST114_U2_T18_h7",
     "article_id": "GST114_U2_T18",
     "topic_id": "GST114_U2_T18",
-    "question": "What professional obligation does a nurse have regarding the identity of an index case?",
+    "difficulty": "recall",
+    "question": "What is a primary logistical challenge to contact tracing in many urban Nigerian settings?",
     "options": {
-      "A": "Share it freely with community gossips to warn neighbors",
-      "B": "Maintain strict confidentiality and protect patient privacy",
-      "C": "Publish it on local bulletin boards",
-      "D": "Disclose it to any family member who asks"
+      "A": "Excessive availability of private vehicle transport for all residents",
+      "B": "Imprecise residential addresses and high population mobility",
+      "C": "A complete absence of mobile telecommunication networks",
+      "D": "Mandatory international travel restrictions between states"
     },
     "answer": "B",
-    "explanation": "Nurses are ethically and legally bound to maintain patient confidentiality and protect the identity of index cases at all times. [learn more](GST114_U2_T18#GST114_U2_T18_h7)"
+    "explanation": "In many dense areas, lack of formal street naming and frequent movement make physically locating contacts difficult. [learn more](GST114_U2_T18#GST114_U2_T18_h7)"
   },
   {
     "question_id": "GST114_U2_T18_h7_q2",
     "heading_id": "GST114_U2_T18_h7",
     "article_id": "GST114_U2_T18",
     "topic_id": "GST114_U2_T18",
-    "question": "How do public health emergency laws in Nigeria balance individual rights with community safety?",
+    "difficulty": "understanding",
+    "question": "Why is collaborating with local leaders and traditional rulers essential for successful outbreak control in Nigeria?",
     "options": {
-      "A": "They completely abolish all human rights during any health event",
-      "B": "They permit carefully balanced interventions like quarantine when necessary to safeguard public health",
-      "C": "They prevent nurses from providing any form of care",
-      "D": "They make disease reporting completely voluntary with no legal backing"
+      "A": "They hold community trust and help reduce suspicion and resistance against health workers",
+      "B": "They are legally mandated to replace government nurses during a crisis",
+      "C": "They manage the financial budget for international health organizations",
+      "D": "They possess formal medical degrees required to diagnose infectious diseases"
     },
-    "answer": "B",
-    "explanation": "Public health laws allow for measured restrictions, such as quarantine, to protect the community while respecting individual dignity as much as possible. [learn more](GST114_U2_T18#GST114_U2_T18_h7)"
-  },
-  {
-    "question_id": "GST114_U2_T18_h8_q1",
-    "heading_id": "GST114_U2_T18_h8",
-    "article_id": "GST114_U2_T18",
-    "topic_id": "GST114_U2_T18",
-    "question": "Which of the following is a structural challenge to contact tracing in parts of Nigeria?",
-    "options": {
-      "A": "Excessive availability of digital tracking devices",
-      "B": "Poor transportation networks and inaccurate addressing systems",
-      "C": "Overabundance of modern hospitals in rural areas",
-      "D": "Complete absence of infectious diseases"
-    },
-    "answer": "B",
-    "explanation": "Inadequate infrastructure, transport hurdles, and addressing difficulties often complicate tracking mobile populations in Nigeria. [learn more](GST114_U2_T18#GST114_U2_T18_h8)"
-  },
-  {
-    "question_id": "GST114_U2_T18_h8_q2",
-    "heading_id": "GST114_U2_T18_h8",
-    "article_id": "GST114_U2_T18",
-    "topic_id": "GST114_U2_T18",
-    "question": "Why is collaboration with traditional and religious leaders crucial for successful contact tracing in Nigeria?",
-    "options": {
-      "A": "They provide legal representation in court",
-      "B": "They help foster local trust, overcome resistance, and promote community ownership",
-      "C": "They manufacture personal protective equipment",
-      "D": "They prescribe antibiotics to infected community members"
-    },
-    "answer": "B",
-    "explanation": "Engaging respected local leaders helps build community trust, reduces fear or stigma, and ensures better cooperation during health outbreaks. [learn more](GST114_U2_T18#GST114_U2_T18_h8)"
+    "answer": "A",
+    "explanation": "Involving respected community figures bridges the gap between public health teams and local residents, securing cooperation and dispelling rumors. [learn more](GST114_U2_T18#GST114_U2_T18_h7)"
   }
 ]
