@@ -4,239 +4,255 @@
     "heading_id": "GST114_U2_T10_h1",
     "article_id": "GST114_U2_T10",
     "topic_id": "GST114_U2_T10",
-    "question": "What is the primary difference between disinfection and sterilization?",
+    "difficulty": "recall",
+    "question": "What is the primary objective of the disinfection process in a healthcare facility?",
     "options": {
-      "A": "Disinfection eliminates all forms of microbial life including bacterial spores.",
-      "B": "Sterilization destroys vegetative pathogens only, while disinfection destroys spores.",
-      "C": "Disinfection eliminates pathogenic microorganisms excluding bacterial spores, whereas sterilization destroys all microbial life including spores.",
-      "D": "Sterilization is performed on inanimate objects, while disinfection is strictly for human skin."
+      "A": "To completely eliminate all bacterial spores",
+      "B": "To sterilize surgical instruments for immediate use",
+      "C": "To reduce pathogens on inanimate objects to safe levels",
+      "D": "To remove organic soil from human skin surfaces"
     },
     "answer": "C",
-    "explanation": "Disinfection targets pathogenic microorganisms excluding bacterial spores, whereas sterilization destroys all forms of microbial life including spores. [learn more](GST114_U2_T10#GST114_U2_T10_h1)"
+    "explanation": "Disinfection focuses on lowering the microbial load on inanimate surfaces rather than achieving total sterility. [learn more](GST114_U2_T10#GST114_U2_T10_h1)"
   },
   {
     "question_id": "GST114_U2_T10_h1_q2",
     "heading_id": "GST114_U2_T10_h1",
     "article_id": "GST114_U2_T10",
     "topic_id": "GST114_U2_T10",
-    "question": "Why is pre-cleaning required before applying a chemical disinfectant?",
+    "difficulty": "understanding",
+    "question": "Why is it clinically incorrect to refer to a disinfected surface as sterile?",
     "options": {
-      "A": "Organic matter like blood and sputum can shield microorganisms from the chemical agent.",
-      "B": "Detergents automatically sterilize the equipment without needing a disinfectant.",
-      "C": "Pre-cleaning reduces the required contact time to zero seconds.",
-      "D": "Organic matter enhances the potency of chemical disinfectants."
+      "A": "Disinfection destroys vegetative bacteria but often leaves behind resistant spores",
+      "B": "Sterile items are restricted exclusively to operating theatre environments",
+      "C": "Disinfected surfaces always retain a thin layer of chemical residue",
+      "D": "Sterilization can only be performed using physical methods like boiling water"
     },
     "answer": "A",
-    "explanation": "Organic matter such as blood and feces can protect microorganisms from chemical agents, making cleaning a mandatory prerequisite. [learn more](GST114_U2_T10#GST114_U2_T10_h1)"
+    "explanation": "Sterilization requires the complete destruction of all forms of microbial life, including highly resistant bacterial endospores, which standard disinfection does not achieve. [learn more](GST114_U2_T10#GST114_U2_T10_h1)"
   },
   {
     "question_id": "GST114_U2_T10_h2_q1",
     "heading_id": "GST114_U2_T10_h2",
     "article_id": "GST114_U2_T10",
     "topic_id": "GST114_U2_T10",
-    "question": "Which level of disinfection is capable of inactivating Mycobacterium tuberculosis and most viruses, but not necessarily bacterial spores?",
+    "difficulty": "recall",
+    "question": "Which level of disinfection is required to inactivate Mycobacterium tuberculosis?",
     "options": {
       "A": "Low-level disinfection",
-      "B": "Intermediate-level disinfection",
+      "B": "Routine surface sanitization",
       "C": "High-level disinfection",
-      "D": "Ultra-level disinfection"
+      "D": "Intermediate-level disinfection"
     },
-    "answer": "B",
-    "explanation": "Intermediate-level disinfection destroys vegetative bacteria including Mycobacterium tuberculosis and most viruses, but it does not reliably kill bacterial spores. [learn more](GST114_U2_T10#GST114_U2_T10_h2)"
+    "answer": "D",
+    "explanation": "Mycobacterium tuberculosis serves as the benchmark organism for intermediate-level disinfectants, proving their potency against tough, non-lipid vegetative pathogens. [learn more](GST114_U2_T10#GST114_U2_T10_h2)"
   },
   {
     "question_id": "GST114_U2_T10_h2_q2",
     "heading_id": "GST114_U2_T10_h2",
     "article_id": "GST114_U2_T10",
     "topic_id": "GST114_U2_T10",
-    "question": "Semi-critical items such as gastrointestinal endoscopes typically require which level of disinfection?",
+    "difficulty": "understanding",
+    "question": "A student nurse is preparing a chemical bath for semi-critical instruments that touch mucous membranes. Which performance tier must the chosen disinfectant achieve?",
     "options": {
-      "A": "Low-level disinfection",
-      "B": "Sterilization only",
-      "C": "High-level disinfection",
-      "D": "Routine soap and water washing"
+      "A": "High-level",
+      "B": "Low-level",
+      "C": "Intermediate-level",
+      "D": "Ultra-level"
     },
-    "answer": "C",
-    "explanation": "Semi-critical items touch mucous membranes or non-intact skin and require high-level disinfection to eliminate vegetative bacteria, mycobacteria, fungi, and viruses. [learn more](GST114_U2_T10#GST114_U2_T10_h2)"
+    "answer": "A",
+    "explanation": "Semi-critical items require high-level disinfection because they come into contact with non-intact skin or mucous membranes and need virtually all microbial life eliminated short of high spore counts. [learn more](GST114_U2_T10#GST114_U2_T10_h2)"
   },
   {
     "question_id": "GST114_U2_T10_h3_q1",
     "heading_id": "GST114_U2_T10_h3",
     "article_id": "GST114_U2_T10",
     "topic_id": "GST114_U2_T10",
-    "question": "What is the primary distinction between an antiseptic and a disinfectant?",
+    "difficulty": "recall",
+    "question": "Which process is specifically designed to be safe for application on living human tissue?",
     "options": {
-      "A": "Antiseptics are applied to living tissue, whereas disinfectants are used on inanimate objects.",
-      "B": "Disinfectants destroy spores, while antiseptics destroy only viruses.",
-      "C": "Antiseptics are much harsher and more toxic than disinfectants.",
-      "D": "Disinfectants are used exclusively on human skin."
+      "A": "Sterilization",
+      "B": "Antisepsis",
+      "C": "Incineration",
+      "D": "Disinfection"
     },
-    "answer": "A",
-    "explanation": "Antiseptics are safe for application on living tissue like skin, whereas disinfectants are formulated for use on inanimate objects and surfaces. [learn more](GST114_U2_T10#GST114_U2_T10_h3)"
+    "answer": "B",
+    "explanation": "Antiseptics are chemical agents formulated specifically for use on skin and living tissues to reduce infection risks without causing severe cellular damage. [learn more](GST114_U2_T10#GST114_U2_T10_h3)"
   },
   {
     "question_id": "GST114_U2_T10_h3_q2",
     "heading_id": "GST114_U2_T10_h3",
     "article_id": "GST114_U2_T10",
     "topic_id": "GST114_U2_T10",
-    "question": "How is decontamination defined in the context of infection control?",
+    "difficulty": "understanding",
+    "question": "What is the primary operational difference between decontamination and sterilization?",
     "options": {
-      "A": "The complete destruction of bacterial spores using steam under pressure",
-      "B": "The process of rendering a device or surface safe by removing organic debris and reducing microbial load",
-      "C": "The chemical treatment of drinking water to kill parasites",
-      "D": "The application of antibiotics to a surgical wound"
+      "A": "Sterilization is the first step before any physical cleaning can take place",
+      "B": "Decontamination uses chemical agents exclusively, whereas sterilization uses heat",
+      "C": "Decontamination removes dirt and pathogens, while sterilization achieves total microbial eradication",
+      "D": "Sterilization can only be performed in hospital laboratories, unlike decontamination"
     },
-    "answer": "B",
-    "explanation": "Decontamination is a broad term describing any process that removes debris and reduces microbial load to render an item safe to handle. [learn more](GST114_U2_T10#GST114_U2_T10_h3)"
+    "answer": "C",
+    "explanation": "Decontamination makes an item safe by cleaning away organic matter and reducing hazards, whereas sterilization eliminates every single microbial entity present. [learn more](GST114_U2_T10#GST114_U2_T10_h3)"
   },
   {
     "question_id": "GST114_U2_T10_h4_q1",
     "heading_id": "GST114_U2_T10_h4",
     "article_id": "GST114_U2_T10",
     "topic_id": "GST114_U2_T10",
-    "question": "What is a major limitation of alcohols when used as surface disinfectants?",
+    "difficulty": "recall",
+    "question": "Which chemical compound is most commonly prepared daily for cleaning blood spills on hospital floors?",
     "options": {
-      "A": "They corrode all types of stainless steel instantly.",
-      "B": "Their rapid evaporation rate can make it difficult to maintain the required wet contact time.",
-      "C": "They are classified as high-level sterilants for surgical instruments.",
-      "D": "They leave a sticky, toxic residue on all surfaces."
+      "A": "Sodium hypochlorite",
+      "B": "Hydrogen peroxide",
+      "C": "Glutaraldehyde",
+      "D": "Isopropyl alcohol"
     },
-    "answer": "B",
-    "explanation": "Alcohols evaporate very quickly, which can hinder the maintenance of the required wet contact time needed for effective disinfection. [learn more](GST114_U2_T10#GST114_U2_T10_h4)"
+    "answer": "A",
+    "explanation": "Chlorine-releasing agents like sodium hypochlorite are the standard choice for blood and body fluid spill management because they rapidly inactivate bloodborne pathogens. [learn more](GST114_U2_T10#GST114_U2_T10_h4)"
   },
   {
     "question_id": "GST114_U2_T10_h4_q2",
     "heading_id": "GST114_U2_T10_h4",
     "article_id": "GST114_U2_T10",
     "topic_id": "GST114_U2_T10",
-    "question": "Which chemical class of disinfectants is commonly used for routine environmental sanitation of floors and furniture due to low toxicity and good cleaning properties?",
+    "difficulty": "understanding",
+    "question": "A ward nurse notes that alcohol-based surface wipes evaporate quickly without leaving a film. What is a key practical limitation of this property?",
     "options": {
-      "A": "Aldehydes",
-      "B": "Quaternary ammonium compounds (quats)",
-      "C": "Concentrated glutaraldehydes",
-      "D": "Strong concentrated acids"
+      "A": "They damage stainless steel medical instruments instantly",
+      "B": "They cannot kill any vegetative bacteria",
+      "C": "They require high temperatures to activate their ingredients",
+      "D": "They lack residual antimicrobial action on the surface"
     },
-    "answer": "B",
-    "explanation": "Quaternary ammonium compounds are low-level disinfectants widely used for general environmental cleaning because of low toxicity and good detergent properties. [learn more](GST114_U2_T10#GST114_U2_T10_h4)"
+    "answer": "D",
+    "explanation": "Because alcohols evaporate quickly, they do not leave behind a persistent chemical residue to prevent subsequent microbial contamination. [learn more](GST114_U2_T10#GST114_U2_T10_h4)"
   },
   {
     "question_id": "GST114_U2_T10_h5_q1",
     "heading_id": "GST114_U2_T10_h5",
     "article_id": "GST114_U2_T10",
     "topic_id": "GST114_U2_T10",
-    "question": "How does organic load negatively impact disinfection efficacy?",
+    "difficulty": "recall",
+    "question": "What is the primary reason for thoroughly washing a dirty instrument before applying a chemical disinfectant?",
     "options": {
-      "A": "It accelerates the evaporation of alcohol-based disinfectants.",
-      "B": "It acts as a physical barrier and can bind or neutralize disinfectant molecules.",
-      "C": "It increases the pH of the water, turning low-level disinfectants into high-level sterilants.",
-      "D": "It eliminates the need for any contact time."
+      "A": "Water speeds up the evaporation rate of the disinfectant",
+      "B": "Soap enhances the pleasant fragrance of the disinfectant",
+      "C": "Washing prevents the metal from rusting during disinfection",
+      "D": "Organic matter can shield microbes and neutralize the chemical agent"
     },
-    "answer": "B",
-    "explanation": "Organic load creates a protective barrier and can bind or inactivate the chemical molecules of the disinfectant. [learn more](GST114_U2_T10#GST114_U2_T10_h5)"
+    "answer": "D",
+    "explanation": "Organic material like blood or protein creates a physical barrier that protects underlying pathogens and inactivates many chemical disinfectants. [learn more](GST114_U2_T10#GST114_U2_T10_h5)"
   },
   {
     "question_id": "GST114_U2_T10_h5_q2",
     "heading_id": "GST114_U2_T10_h5",
     "article_id": "GST114_U2_T10",
     "topic_id": "GST114_U2_T10",
-    "question": "Which group of microorganisms exhibits the highest resistance to chemical disinfectants?",
+    "difficulty": "understanding",
+    "question": "A nurse wipes a treatment trolley quickly with a disinfectant wipe, drying it immediately with a paper towel. What clinical mistake was made?",
     "options": {
-      "A": "Lipid-enveloped viruses",
-      "B": "Vegetative bacteria",
-      "C": "Bacterial spores",
-      "D": "Fungi"
+      "A": "Using a low-level disinfectant on a critical item",
+      "B": "Omitting the pre-cleaning soap wash stage",
+      "C": "Ignoring the manufacturer's required contact time",
+      "D": "Failing to use an alcohol-based solution"
     },
     "answer": "C",
-    "explanation": "Bacterial spores possess tough protective coats making them the most resistant microorganisms to chemical disinfection processes. [learn more](GST114_U2_T10#GST114_U2_T10_h5)"
+    "explanation": "Disinfectants require a specific duration of uninterrupted wet contact time to successfully destroy target pathogens. [learn more](GST114_U2_T10#GST114_U2_T10_h5)"
   },
   {
     "question_id": "GST114_U2_T10_h6_q1",
     "heading_id": "GST114_U2_T10_h6",
     "article_id": "GST114_U2_T10",
     "topic_id": "GST114_U2_T10",
-    "question": "According to the Spaulding Classification, how must a critical medical device be processed?",
+    "difficulty": "recall",
+    "question": "According to the Spaulding classification, what level of processing is required for a stethoscope touching intact skin?",
     "options": {
-      "A": "Low-level disinfection",
-      "B": "Sterilization",
-      "C": "High-level disinfection only",
-      "D": "Washing with soap and tap water"
+      "A": "Sterilization",
+      "B": "High-level disinfection",
+      "C": "Aseptic incineration",
+      "D": "Low-level disinfection"
     },
-    "answer": "B",
-    "explanation": "Critical items enter sterile tissues or the vascular system and must undergo complete sterilization to prevent severe infection. [learn more](GST114_U2_T10#GST114_U2_T10_h6)"
+    "answer": "D",
+    "explanation": "Stethoscopes are classified as non-critical items because they only contact intact skin, requiring basic low-level disinfection between patients. [learn more](GST114_U2_T10#GST114_U2_T10_h6)"
   },
   {
     "question_id": "GST114_U2_T10_h6_q2",
     "heading_id": "GST114_U2_T10_h6",
     "article_id": "GST114_U2_T10",
     "topic_id": "GST114_U2_T10",
-    "question": "Which of the following best describes a semi-critical item under the Spaulding Classification?",
+    "difficulty": "application",
+    "question": "A nurse is reprocessing a flexible gastrointestinal endoscope after a diagnostic procedure. Based on the Spaulding system, how should this device be treated?",
     "options": {
-      "A": "An item that touches intact skin only",
-      "B": "An item that enters the vascular system",
-      "C": "An item that comes into contact with non-intact skin or mucous membranes",
-      "D": "An item used exclusively for cleaning floors"
+      "A": "Wrapped in cloth and autoclaved at high heat",
+      "B": "Processed using standard low-level wipes",
+      "C": "Subjected to high-level disinfection",
+      "D": "Cleaned with soap and water only"
     },
     "answer": "C",
-    "explanation": "Semi-critical items touch mucous membranes or non-intact skin and require at least high-level disinfection. [learn more](GST114_U2_T10#GST114_U2_T10_h6)"
+    "explanation": "Endoscopes contact mucous membranes and are categorized as semi-critical devices, necessitating high-level disinfection to prevent cross-infection. [learn more](GST114_U2_T10#GST114_U2_T10_h6)"
   },
   {
     "question_id": "GST114_U2_T10_h7_q1",
     "heading_id": "GST114_U2_T10_h7",
     "article_id": "GST114_U2_T10",
     "topic_id": "GST114_U2_T10",
-    "question": "What is the recommended cleaning direction when disinfecting environmental surfaces in a hospital ward?",
+    "difficulty": "understanding",
+    "question": "Why is the top-to-bottom cleaning technique strictly enforced during ward environmental disinfection?",
     "options": {
-      "A": "From dirtiest areas to cleanest areas, and from bottom to top",
-      "B": "From cleanest areas to dirtiest areas, and from top to bottom",
-      "C": "In random circular motions across the entire room",
-      "D": "From the center of the floor outward to the hallways"
+      "A": "It prevents staff from missing corners of the room during the shift",
+      "B": "It allows the chemical solutions to evaporate faster on lower shelves",
+      "C": "It ensures that dust and debris fall onto uncleaned areas to be wiped last",
+      "D": "It reduces the physical exertion required by domestic cleaning staff"
     },
-    "answer": "B",
-    "explanation": "Cleaning should always proceed systematically from cleanest to dirtiest areas and from top to bottom to prevent re-contaminating clean surfaces. [learn more](GST114_U2_T10#GST114_U2_T10_h7)"
+    "answer": "C",
+    "explanation": "Gravity causes particles and contaminated debris to drop downward, meaning cleaning from high to low prevents newly cleaned surfaces from becoming soiled again. [learn more](GST114_U2_T10#GST114_U2_T10_h7)"
   },
   {
     "question_id": "GST114_U2_T10_h7_q2",
     "heading_id": "GST114_U2_T10_h7",
     "article_id": "GST114_U2_T10",
     "topic_id": "GST114_U2_T10",
-    "question": "Which of the following is classified as a high-touch surface requiring frequent disinfection?",
+    "difficulty": "recall",
+    "question": "Which group of hospital surfaces typically demands the highest frequency of routine cleaning and disinfection?",
     "options": {
-      "A": "The center of a high ceiling",
-      "B": "Bed rails and call buttons",
-      "C": "The underside of a heavy ward wardrobe",
-      "D": "Internal plumbing pipes"
+      "A": "Storage shelves in the central supply room",
+      "B": "High-touch environmental surfaces",
+      "C": "Exterior corridor windows and frames",
+      "D": "Ceiling corners and light fixtures"
     },
     "answer": "B",
-    "explanation": "Bed rails and call buttons are frequently touched by patients and staff, making them high-touch surfaces prone to harboring and spreading pathogens. [learn more](GST114_U2_T10#GST114_U2_T10_h7)"
+    "explanation": "Frequently touched items like bed rails and door handles harbor transient pathogens and require regular disinfection because hands touch them constantly. [learn more](GST114_U2_T10#GST114_U2_T10_h7)"
   },
   {
     "question_id": "GST114_U2_T10_h8_q1",
     "heading_id": "GST114_U2_T10_h8",
     "article_id": "GST114_U2_T10",
     "topic_id": "GST114_U2_T10",
-    "question": "What document provides essential information regarding chemical hazards, safe handling, and spill response for disinfectants?",
+    "difficulty": "recall",
+    "question": "What is the primary reason for wearing utility gloves and eye protection when diluting concentrated disinfectants?",
     "options": {
-      "A": "The Patient Admission Chart",
-      "B": "The Safety Data Sheet (SDS)",
-      "C": "The Hospital Dietary Menu",
-      "D": "The National Pharmacopoeia"
+      "A": "To comply with fire safety regulations in the hospital",
+      "B": "To prevent chemical splashes and skin irritation",
+      "C": "To eliminate the need for hand hygiene afterwards",
+      "D": "To maintain a sterile surgical field in the ward"
     },
     "answer": "B",
-    "explanation": "Safety Data Sheets (SDSs) contain critical information on chemical hazards, protective measures, and emergency first aid for specific products. [learn more](GST114_U2_T10#GST114_U2_T10_h8)"
+    "explanation": "Concentrated chemical disinfectants are caustic and can cause severe skin irritation, burns, or eye damage upon direct contact. [learn more](GST114_U2_T10#GST114_U2_T10_h8)"
   },
   {
     "question_id": "GST114_U2_T10_h8_q2",
     "heading_id": "GST114_U2_T10_h8",
     "article_id": "GST114_U2_T10",
     "topic_id": "GST114_U2_T10",
-    "question": "What immediate action should a student nurse take if a chemical disinfectant accidentally splashes into their eyes?",
+    "difficulty": "understanding",
+    "question": "Which of the following actions is NOT recommended when handling chemical disinfectants in a clinical unit?",
     "options": {
-      "A": "Rub the eyes vigorously with a dry cloth",
-      "B": "Apply an alcohol-based hand sanitizer directly to the eyelids",
-      "C": "Flush the eyes copiously with water at an eye-wash station",
-      "D": "Wait until the end of the shift to report it"
+      "A": "Mixing different chemical solutions together in a bucket to boost cleaning power",
+      "B": "Ensuring the utility room has adequate ventilation during use",
+      "C": "Checking the manufacturer instructions for proper dilution ratios",
+      "D": "Wearing appropriate protective gear while wiping contaminated equipment"
     },
-    "answer": "C",
-    "explanation": "Copious flushing with water at an eye-wash station is the immediate and correct first-aid response for chemical exposure to the eyes. [learn more](GST114_U2_T10#GST114_U2_T10_h8)"
+    "answer": "A",
+    "explanation": "Mixing cleaning chemicals is dangerous because it can neutralize their active properties or release toxic, life-threatening gases such as chlorine fumes. [learn more](GST114_U2_T10#GST114_U2_T10_h8)"
   }
 ]
