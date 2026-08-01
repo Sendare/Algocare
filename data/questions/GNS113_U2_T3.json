@@ -4,269 +4,287 @@
     "heading_id": "GNS113_U2_T3_h1",
     "article_id": "GNS113_U2_T3",
     "topic_id": "GNS113_U2_T3",
-    "question": "What is the primary purpose of an Electronic Health Record (EHR) in nursing practice?",
+    "difficulty": "recall",
+    "question": "What is the primary purpose of an Electronic Health Record in a healthcare setting?",
     "options": {
-      "A": "To completely eliminate the need for interprofessional communication",
-      "B": "To provide real-time, patient-centered digital records accessible to authorized users",
-      "C": "To serve solely as a billing tool for hospital administration",
-      "D": "To replace the clinical judgment of registered nurses"
+      "A": "To calculate monthly billing statements for hospital administration",
+      "B": "To provide a real-time, digital version of a patient's medical history",
+      "C": "To replace the need for physical diagnostic laboratories",
+      "D": "To store insurance policies for corporate health coverage"
     },
     "answer": "B",
-    "explanation": "An EHR functions as a real-time, patient-centered digital record that makes comprehensive health information instantly available to authorized healthcare providers. [learn more](GNS113_U2_T3#GNS113_U2_T3_h1)"
+    "explanation": "EHRs serve as comprehensive digital repositories of patient health information accessible instantly to authorized clinical staff. [learn more](GNS113_U2_T3#GNS113_U2_T3_h1)"
   },
   {
     "question_id": "GNS113_U2_T3_h1_q2",
     "heading_id": "GNS113_U2_T3_h1",
     "article_id": "GNS113_U2_T3",
     "topic_id": "GNS113_U2_T3",
-    "question": "Why is it essential for nursing students in Nigeria to understand electronic health records?",
+    "difficulty": "understanding",
+    "question": "Why are Nigerian healthcare facilities progressively adopting electronic health records over traditional paper charts?",
     "options": {
-      "A": "Documentation directly influences patient safety, continuity of care, and legal accountability.",
-      "B": "Nurses are required to write computer code for the hospital software.",
-      "C": "Paper charts are completely illegal in all global healthcare settings.",
-      "D": "EHRs reduce the need for direct patient assessment and physical touch."
+      "A": "To completely eliminate the need for nursing documentation duties",
+      "B": "To reduce medication errors and improve legibility of clinical notes",
+      "C": "To ensure patients no longer require face-to-face clinical consultations",
+      "D": "To bypass regulatory oversight from the Ministry of Health"
     },
-    "answer": "A",
-    "explanation": "Understanding EHRs is critical because accurate digital documentation directly impacts patient safety, ensures continuity of care, and maintains professional legal accountability. [learn more](GNS113_U2_T3#GNS113_U2_T3_h1)"
+    "answer": "B",
+    "explanation": "Digital charting eliminates illegible handwriting issues common in paper records and incorporates safety alerts that lower medication error rates. [learn more](GNS113_U2_T3#GNS113_U2_T3_h1)"
   },
   {
     "question_id": "GNS113_U2_T3_h2_q1",
     "heading_id": "GNS113_U2_T3_h2",
     "article_id": "GNS113_U2_T3",
     "topic_id": "GNS113_U2_T3",
-    "question": "Which EHR component specifically assists nurses in verifying the correct administration of medications using barcodes?",
+    "difficulty": "recall",
+    "question": "What function does a Clinical Decision Support module perform within an EHR system?",
     "options": {
-      "A": "Computerized Provider Order Entry (CPOE)",
-      "B": "Electronic Medication Administration Record (eMAR)",
-      "C": "Clinical Decision Support (CDS)",
-      "D": "Patient Demographics Module"
+      "A": "Provides alerts and reminders regarding potential drug interactions",
+      "B": "Tracks the physical location of mobile nursing workstations",
+      "C": "Manages the procurement schedule for hospital pharmaceuticals",
+      "D": "Automates hospital billing based on length of stay"
     },
-    "answer": "B",
-    "explanation": "The electronic medication administration record (eMAR) links patient identification barcodes with medication doses to ensure safe administration practices. [learn more](GNS113_U2_T3#GNS113_U2_T3_h2)"
+    "answer": "A",
+    "explanation": "Clinical Decision Support tools actively assist nurses and doctors by flagging abnormal values, allergies, and contraindications during care delivery. [learn more](GNS113_U2_T3#GNS113_U2_T3_h2)"
   },
   {
     "question_id": "GNS113_U2_T3_h2_q2",
     "heading_id": "GNS113_U2_T3_h2",
     "article_id": "GNS113_U2_T3",
     "topic_id": "GNS113_U2_T3",
-    "question": "What is the primary clinical benefit of Clinical Decision Support (CDS) tools within an EHR?",
+    "difficulty": "understanding",
+    "question": "How does Computerized Provider Order Entry improve inpatient safety compared to verbal or handwritten orders?",
     "options": {
-      "A": "They automate the hospital billing process for insurance companies.",
-      "B": "They provide automated alerts, allergy warnings, and evidence-based guidelines at the point of care.",
-      "C": "They schedule staff shifts and manage nurse-to-patient ratios.",
-      "D": "They replace the need for physical nursing assessments."
+      "A": "It prevents physicians from prescribing expensive brand-name drugs",
+      "B": "It automatically administers the prescribed medication without human intervention",
+      "C": "It restricts access to patient charts exclusively to senior consultants",
+      "D": "It eliminates transcription errors caused by poor handwriting or miscommunication"
     },
-    "answer": "B",
-    "explanation": "Clinical Decision Support systems enhance patient safety by offering automated alerts, allergy warnings, and evidence-based guidance directly when clinicians are making decisions. [learn more](GNS113_U2_T3#GNS113_U2_T3_h2)"
+    "answer": "D",
+    "explanation": "Direct electronic entry by the prescriber removes the risk of nurses misinterpreting handwritten text or verbal instructions. [learn more](GNS113_U2_T3#GNS113_U2_T3_h2)"
   },
   {
     "question_id": "GNS113_U2_T3_h3_q1",
     "heading_id": "GNS113_U2_T3_h3",
     "article_id": "GNS113_U2_T3",
     "topic_id": "GNS113_U2_T3",
-    "question": "What is a primary focus of an acute care EHR system compared to an ambulatory system?",
+    "difficulty": "recall",
+    "question": "Which clinical environment is primarily associated with an acute care EHR system?",
     "options": {
-      "A": "Long-term episodic chronic disease tracking over several years",
-      "B": "Rapid medication workflows, intensive monitoring integration, and shift handovers",
-      "C": "Outpatient appointment scheduling and routine community health screenings",
-      "D": "Patient-managed portal updates outside the hospital"
+      "A": "A hospital emergency department and inpatient ward",
+      "B": "A remote village primary health care post",
+      "C": "A specialized standalone physiotherapy center",
+      "D": "A community-based general practitioner clinic"
     },
-    "answer": "B",
-    "explanation": "Acute care EHRs are designed for high-acuity hospital environments, prioritizing intensive monitoring, rapid medication workflows, and continuous inpatient management. [learn more](GNS113_U2_T3#GNS113_U2_T3_h3)"
+    "answer": "A",
+    "explanation": "Acute care systems are built for fast-paced, high-acuity hospital environments dealing with sudden illnesses and injuries. [learn more](GNS113_U2_T3#GNS113_U2_T3_h3)"
   },
   {
     "question_id": "GNS113_U2_T3_h3_q2",
     "heading_id": "GNS113_U2_T3_h3",
     "article_id": "GNS113_U2_T3",
     "topic_id": "GNS113_U2_T3",
-    "question": "How do ambulatory EHR systems differ in their core clinical emphasis?",
+    "difficulty": "understanding",
+    "question": "What is a major functional difference between an ambulatory EHR and an acute care EHR?",
     "options": {
-      "A": "They focus on longitudinal patient histories, chronic disease management, and preventive care.",
-      "B": "They are exclusively used for emergency trauma resuscitations.",
-      "C": "They require minute-by-minute surgical suite documentation.",
-      "D": "They eliminate the need for patient appointments and scheduling."
+      "A": "Ambulatory systems focus heavily on long-term wellness and chronic disease tracking over multiple visits",
+      "B": "Acute care systems never include medication administration records",
+      "C": "Ambulatory systems are exclusively designed for surgical intervention scheduling",
+      "D": "Acute care systems lack any form of nursing documentation modules"
     },
     "answer": "A",
-    "explanation": "Ambulatory EHRs are tailored for outpatient settings, focusing on longitudinal patient tracking, chronic disease management, and routine preventive consultations. [learn more](GNS113_U2_T3#GNS113_U2_T3_h3)"
+    "explanation": "Outpatient or ambulatory settings prioritize longitudinal health trends and routine follow-ups rather than immediate, round-the-clock hospital interventions. [learn more](GNS113_U2_T3#GNS113_U2_T3_h3)"
   },
   {
     "question_id": "GNS113_U2_T3_h4_q1",
     "heading_id": "GNS113_U2_T3_h4",
     "article_id": "GNS113_U2_T3",
     "topic_id": "GNS113_U2_T3",
-    "question": "What is a major advantage of an enterprise EHR system in a large healthcare network?",
+    "difficulty": "recall",
+    "question": "What is the primary characteristic of an Enterprise EHR system?",
     "options": {
-      "A": "It restricts patient data to a single physical clinic to protect privacy.",
-      "B": "It unifies diverse clinical and administrative departments, allowing seamless record access across multiple facilities.",
-      "C": "It eliminates the need for any nursing documentation.",
-      "D": "It operates independently without requiring IT support or training."
+      "A": "It is designed exclusively for billing and health insurance claims",
+      "B": "It unifies multiple departments and facilities across a large healthcare network",
+      "C": "It operates entirely offline without requiring network connectivity",
+      "D": "It is restricted solely to outpatient pediatric clinics"
     },
     "answer": "B",
-    "explanation": "Enterprise EHRs unify data across large networks, enabling providers at different facilities to access and update a single centralized patient record seamlessly. [learn more](GNS113_U2_T3#GNS113_U2_T3_h4)"
+    "explanation": "Enterprise platforms integrate data from various hospital departments and satellite clinics into one cohesive central database. [learn more](GNS113_U2_T3#GNS113_U2_T3_h4)"
   },
   {
     "question_id": "GNS113_U2_T3_h4_q2",
     "heading_id": "GNS113_U2_T3_h4",
     "article_id": "GNS113_U2_T3",
     "topic_id": "GNS113_U2_T3",
-    "question": "What is a primary challenge associated with the implementation of enterprise EHR systems?",
+    "difficulty": "understanding",
+    "question": "A patient is transferred from a rural clinic to a large tertiary teaching hospital using an enterprise EHR. What is the main clinical advantage for the nursing staff?",
     "options": {
-      "A": "They are inexpensive and require minimal staff training.",
-      "B": "They lack any capability for financial or administrative tracking.",
-      "C": "They require immense financial investment, rigorous IT support, and extensive staff training.",
-      "D": "They prevent nurses from communicating with multidisciplinary teams."
+      "A": "The transfer paperwork must be hand-carried by the patient's relatives",
+      "B": "The patient must repeat all laboratory investigations upon arrival",
+      "C": "The patient's complete diagnostic and treatment record is immediately accessible across campuses",
+      "D": "The nursing staff can completely disregard the patient's previous medical history"
     },
     "answer": "C",
-    "explanation": "Enterprise EHRs are massive technological projects that demand significant financial resources, robust IT infrastructure, and comprehensive training for all staff. [learn more](GNS113_U2_T3#GNS113_U2_T3_h4)"
+    "explanation": "Unified enterprise systems allow instant chart visibility across different facilities within the same network, preventing redundant tests. [learn more](GNS113_U2_T3#GNS113_U2_T3_h4)"
   },
   {
     "question_id": "GNS113_U2_T3_h5_q1",
     "heading_id": "GNS113_U2_T3_h5",
     "article_id": "GNS113_U2_T3",
     "topic_id": "GNS113_U2_T3",
-    "question": "Why are specialty-specific EHR solutions necessary in clinical practice?",
+    "difficulty": "recall",
+    "question": "Why are specialty-specific EHR solutions developed for units like obstetrics or intensive care?",
     "options": {
-      "A": "They are legally required to be identical to general outpatient charts.",
-      "B": "They accommodate unique workflows, specialized terminology, and distinct patient assessment parameters.",
-      "C": "They prevent nurses from recording vital signs.",
-      "D": "They are exclusively designed for hospital billing departments."
+      "A": "To prevent nurses from accessing patient records outside their department",
+      "B": "To eliminate the need for computer hardware in specialized operating theatres",
+      "C": "To ensure that patient billing is calculated using different currency rates",
+      "D": "To capture unique clinical data and workflows that generic systems cannot efficiently manage"
     },
-    "answer": "B",
-    "explanation": "Specialty EHRs are tailored to unique clinical workflows, specialized terminologies, and specific assessment tools needed for particular patient populations like pediatrics or psychiatry. [learn more](GNS113_U2_T3#GNS113_U2_T3_h5)"
+    "answer": "D",
+    "explanation": "Specialized units require customized fields, such as fetal monitoring in obstetrics, which standard hospital templates lack. [learn more](GNS113_U2_T3#GNS113_U2_T3_h5)"
   },
   {
     "question_id": "GNS113_U2_T3_h5_q2",
     "heading_id": "GNS113_U2_T3_h5",
     "article_id": "GNS113_U2_T3",
     "topic_id": "GNS113_U2_T3",
-    "question": "What specific feature would you expect to find in a pediatric EHR module?",
+    "difficulty": "understanding",
+    "question": "Which feature would a nurse most expect to find in a specialty EHR designed for an obstetric ward?",
     "options": {
-      "A": "Adult geriatric functional independence scales",
-      "B": "Weight-based medication dosage calculators and immunization tracking schedules",
-      "C": "Fetal heart rate monitoring curves for labor and delivery",
-      "D": "Inpatient surgical suite billing codes"
+      "A": "Complex psychiatric involuntary admission legal forms",
+      "B": "Integrated partograph tracking and antenatal booking metrics",
+      "C": "High-frequency ventilator setting adjustment logs",
+      "D": "Detailed orthopedic range-of-motion joint measurement grids"
     },
     "answer": "B",
-    "explanation": "Pediatric EHR modules include specialized tools like weight-based dosing calculators and immunization schedules tailored to children's healthcare needs. [learn more](GNS113_U2_T3#GNS113_U2_T3_h5)"
+    "explanation": "Obstetric systems focus heavily on maternal-fetal health parameters and labor progression tools like the partograph. [learn more](GNS113_U2_T3#GNS113_U2_T3_h5)"
   },
   {
     "question_id": "GNS113_U2_T3_h6_q1",
     "heading_id": "GNS113_U2_T3_h6",
     "article_id": "GNS113_U2_T3",
     "topic_id": "GNS113_U2_T3",
-    "question": "What is the primary function of a patient portal connected to a hospital's EHR?",
+    "difficulty": "recall",
+    "question": "What is the key difference between an EHR and a Personal Health Record (PHR)?",
     "options": {
-      "A": "To allow patients to view lab results, request refills, and communicate with their healthcare team",
-      "B": "To replace the primary EHR used by physicians and nurses during surgeries",
-      "C": "To serve as an administrative database exclusively for hospital financial billing",
-      "D": "To allow the general public to view confidential records of all hospital patients"
+      "A": "PHRs are illegal to use in acute care hospital settings",
+      "B": "PHRs can only be accessed using desktop computers inside a hospital",
+      "C": "PHRs are managed directly by the patient, whereas EHRs are managed by healthcare providers",
+      "D": "EHRs contain no clinical data regarding medications or diagnoses"
     },
-    "answer": "A",
-    "explanation": "Patient portals give patients secure access to view their lab results, request medication refills, schedule appointments, and communicate with their providers. [learn more](GNS113_U2_T3#GNS113_U2_T3_h6)"
+    "answer": "C",
+    "explanation": "Ownership and control define the difference; patients maintain and update PHRs, while institutions maintain EHRs. [learn more](GNS113_U2_T3#GNS113_U2_T3_h6)"
   },
   {
     "question_id": "GNS113_U2_T3_h6_q2",
     "heading_id": "GNS113_U2_T3_h6",
     "article_id": "GNS113_U2_T3",
     "topic_id": "GNS113_U2_T3",
-    "question": "How do Personal Health Records (PHRs) differ from patient portals?",
+    "difficulty": "understanding",
+    "question": "How do patient portals actively support nursing care goals for individuals with chronic illnesses?",
     "options": {
-      "A": "PHRs are controlled entirely by the hospital IT department.",
-      "B": "PHRs are managed by the patient, who compiles health data from multiple sources.",
-      "C": "PHRs cannot be viewed by nurses or doctors under any circumstances.",
-      "D": "PHRs only contain acute inpatient surgical notes."
+      "A": "By allowing patients to override physician medication orders independently",
+      "B": "By automatically generating discharge summaries without nurse input",
+      "C": "By enabling patients to view test results and communicate securely with their care team",
+      "D": "By replacing all face-to-face nursing assessments with automated software"
     },
-    "answer": "B",
-    "explanation": "Unlike patient portals tethered to a single EHR system, Personal Health Records are managed by the patient, compiling health information from various providers and personal tracking. [learn more](GNS113_U2_T3#GNS113_U2_T3_h6)"
+    "answer": "C",
+    "explanation": "Portals empower patients to engage with their health data, improving adherence to treatment plans and strengthening communication with nurses. [learn more](GNS113_U2_T3#GNS113_U2_T3_h6)"
   },
   {
     "question_id": "GNS113_U2_T3_h7_q1",
     "heading_id": "GNS113_U2_T3_h7",
     "article_id": "GNS113_U2_T3",
     "topic_id": "GNS113_U2_T3",
-    "question": "What is a primary characteristic of an on-premise EHR infrastructure?",
+    "difficulty": "recall",
+    "question": "Where is patient data stored in an on-premise EHR infrastructure?",
     "options": {
-      "A": "Data is hosted on remote third-party servers accessible only via the internet.",
-      "B": "Physical servers and local data storage hardware are housed directly within the healthcare facility.",
-      "C": "It requires zero IT personnel and eliminates hardware maintenance costs.",
-      "D": "It automatically updates software without any local administrative oversight."
+      "A": "Exclusively on individual mobile phones carried by clinical staff",
+      "B": "On magnetic tape backups stored off-site in government archives",
+      "C": "On physical servers housed within the healthcare facility itself",
+      "D": "On decentralized cloud servers maintained by third-party international vendors"
     },
-    "answer": "B",
-    "explanation": "On-premise EHR systems rely on physical servers and hardware located directly within the healthcare facility, giving the organization direct control over its data storage. [learn more](GNS113_U2_T3#GNS113_U2_T3_h7)"
+    "answer": "C",
+    "explanation": "On-premise systems require local server hardware installed, maintained, and secured directly inside the hospital building. [learn more](GNS113_U2_T3#GNS113_U2_T3_h7)"
   },
   {
     "question_id": "GNS113_U2_T3_h7_q2",
     "heading_id": "GNS113_U2_T3_h7",
     "article_id": "GNS113_U2_T3",
     "topic_id": "GNS113_U2_T3",
-    "question": "What is a major benefit of cloud-based EHR infrastructure for healthcare organizations?",
+    "difficulty": "understanding",
+    "question": "What is a primary benefit of adopting a cloud-based EHR system for a small primary healthcare clinic?",
     "options": {
-      "A": "Complete independence from internet connectivity requirements",
-      "B": "Lower upfront capital costs, automatic software updates, and remote accessibility",
-      "C": "Total physical ownership of server hardware on hospital grounds",
-      "D": "Elimination of all cybersecurity risks and data breach vulnerabilities"
+      "A": "It eliminates the need for any form of internet connection or power supply",
+      "B": "It prevents the hospital from ever experiencing software updates",
+      "C": "It guarantees that patient data can never be accessed by unauthorized hackers",
+      "D": "It provides remote accessibility and reduces the need for expensive local server hardware"
     },
-    "answer": "B",
-    "explanation": "Cloud-based EHRs provide scalability, remote accessibility, automatic updates, and reduced initial capital investment for hardware installation. [learn more](GNS113_U2_T3#GNS113_U2_T3_h7)"
+    "answer": "D",
+    "explanation": "Cloud solutions shift infrastructure management to the vendor, lowering upfront costs and allowing flexible access from multiple devices. [learn more](GNS113_U2_T3#GNS113_U2_T3_h7)"
   },
   {
     "question_id": "GNS113_U2_T3_h8_q1",
     "heading_id": "GNS113_U2_T3_h8",
     "article_id": "GNS113_U2_T3",
     "topic_id": "GNS113_U2_T3",
-    "question": "What does EHR interoperability refer to in healthcare technology?",
+    "difficulty": "recall",
+    "question": "What does EHR interoperability achieve in a healthcare system?",
     "options": {
-      "A": "The ability of different software systems to communicate, exchange, and use data accurately",
-      "B": "The physical durability of computer screens in intensive care units",
-      "C": "The speed at which a nurse can type clinical notes into a single workstation",
-      "D": "The financial cost of purchasing hardware from a single software vendor"
+      "A": "It converts spoken nursing notes into typed billing codes",
+      "B": "It restricts patient records to a single proprietary software vendor",
+      "C": "It enables different software systems to securely exchange and use patient data",
+      "D": "It automatically encrypts paper charts into microfilm archives"
     },
-    "answer": "A",
-    "explanation": "Interoperability is the capacity of disparate health IT systems to seamlessly exchange and interpret patient data across different platforms and facilities. [learn more](GNS113_U2_T3#GNS113_U2_T3_h8)"
+    "answer": "C",
+    "explanation": "Interoperability is the seamless sharing of health information across disparate software platforms and organizations. [learn more](GNS113_U2_T3#GNS113_U2_T3_h8)"
   },
   {
     "question_id": "GNS113_U2_T3_h8_q2",
     "heading_id": "GNS113_U2_T3_h8",
     "article_id": "GNS113_U2_T3",
     "topic_id": "GNS113_U2_T3",
-    "question": "Why are standardized medical terminologies like SNOMED-CT and ICD important in EHR systems?",
+    "difficulty": "understanding",
+    "question": "Why are standardized protocols like HL7 and FHIR essential for modern nursing informatics?",
     "options": {
-      "A": "They encrypt patient passwords to prevent cyberattacks.",
-      "B": "They ensure clinical concepts and diagnoses have a consistent meaning across different software applications.",
-      "C": "They automatically schedule nurse shift rotations.",
-      "D": "They replace the need for professional nursing clinical judgment."
+      "A": "They dictate the exact physical dimensions of computer workstations at the bedside",
+      "B": "They replace the need for clinical nursing judgment during patient assessments",
+      "C": "They ensure that different hospital EHR brands can talk to each other without data corruption",
+      "D": "They determine the monthly salary scale for nursing informatics specialists"
     },
-    "answer": "B",
-    "explanation": "Standardized terminologies ensure that clinical diagnoses and interventions are interpreted identically across various healthcare systems and vendor platforms. [learn more](GNS113_U2_T3#GNS113_U2_T3_h8)"
+    "answer": "C",
+    "explanation": "Universal technical standards provide a common language so separate software systems can interpret shared clinical data correctly. [learn more](GNS113_U2_T3#GNS113_U2_T3_h8)"
   },
   {
     "question_id": "GNS113_U2_T3_h9_q1",
     "heading_id": "GNS113_U2_T3_h9",
     "article_id": "GNS113_U2_T3",
     "topic_id": "GNS113_U2_T3",
-    "question": "What is 'alert fatigue' in the context of EHR usage and nursing practice?",
+    "difficulty": "recall",
+    "question": "What safety hazard can occur when an EHR system generates excessive, repetitive warning alerts?",
     "options": {
-      "A": "Physical exhaustion experienced by nurses working night shifts",
-      "B": "Desensitization to safety warnings caused by an excessive volume of pop-up alerts, leading to missed warnings",
-      "C": "The slowing down of computer processing speeds during peak hospital hours",
-      "D": "Battery depletion on mobile nursing workstations"
+      "A": "Immediate physical shutdown of the hospital electrical grid",
+      "B": "Permanent locking of medication dispensing cabinets",
+      "C": "Alert fatigue, causing nurses to overlook critical safety notifications",
+      "D": "Automatic deletion of all previous patient laboratory results"
     },
-    "answer": "B",
-    "explanation": "Alert fatigue occurs when clinicians become desensitized to frequent system warnings, increasing the risk that critical safety alerts will be overlooked. [learn more](GNS113_U2_T3#GNS113_U2_T3_h9)"
+    "answer": "C",
+    "explanation": "When software bombards clinicians with too many low-priority warnings, staff may become desensitized and miss vital safety alerts. [learn more](GNS113_U2_T3#GNS113_U2_T3_h9)"
   },
   {
     "question_id": "GNS113_U2_T3_h9_q2",
     "heading_id": "GNS113_U2_T3_h9",
     "article_id": "GNS113_U2_T3",
     "topic_id": "GNS113_U2_T3",
-    "question": "Why is the practice of 'copy-pasting' clinical notes in an EHR discouraged in nursing?",
+    "difficulty": "understanding",
+    "question": "Which of the following is NOT a recommended nursing practice when facing unexpected EHR system downtime?",
     "options": {
-      "A": "It permanently deletes patient lab results from the system database.",
-      "B": "It can perpetuate outdated clinical information and compromise accurate documentation and legal accountability.",
-      "C": "It automatically transmits patient records to external insurance companies.",
-      "D": "It prevents multidisciplinary team members from viewing progress notes."
+      "A": "Switching immediately to established emergency paper charting protocols",
+      "B": "Relying entirely on memory to administer medications without documentation",
+      "C": "Communicating critical patient status changes verbally during handovers",
+      "D": "Recording vital signs manually until digital systems are restored"
     },
     "answer": "B",
-    "explanation": "Copy-pasting notes often carries forward stale or inaccurate data, which can compromise patient safety and legal documentation integrity. [learn more](GNS113_U2_T3#GNS113_U2_T3_h9)"
+    "explanation": "Administering medications from memory without any documentation violates core safety principles; paper backup logs must always be used during downtime. [learn more](GNS113_U2_T3#GNS113_U2_T3_h9)"
   }
 ]
