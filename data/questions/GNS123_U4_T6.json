@@ -4,269 +4,223 @@
     "heading_id": "GNS123_U4_T6_h1",
     "article_id": "GNS123_U4_T6",
     "topic_id": "GNS123_U4_T6",
-    "question": "Which specific cellular receptor does the SARS-CoV-2 virus primarily bind to via its spike glycoproteins?",
+    "difficulty": "recall",
+    "question": "What is the primary human cellular receptor utilized by SARS-CoV-2 for viral entry?",
     "options": {
-      "A": "Beta-2 adrenergic receptors",
-      "B": "Angiotensin-Converting Enzyme 2 (ACE2) receptors",
-      "C": "Insulin receptors",
-      "D": "Cholinergic receptors"
+      "A": "CD4 helper T-lymphocyte surface antigen",
+      "B": "Angiotensin-converting enzyme 2",
+      "C": "Beta-2 adrenergic receptor site",
+      "D": "C-reactive protein binding domain"
     },
     "answer": "B",
-    "explanation": "SARS-CoV-2 uses its spike glycoproteins to bind to ACE2 receptors, which are densely populated on respiratory epithelial cells and other tissues. [learn more](GNS123_U4_T6#GNS123_U4_T6_h1)"
+    "explanation": "The spike glycoprotein of the virus binds specifically to angiotensin-converting enzyme 2 receptors found on host cells in the respiratory tract and other organs. [learn more](GNS123_U4_T6#GNS123_U4_T6_h1)"
   },
   {
     "question_id": "GNS123_U4_T6_h1_q2",
     "heading_id": "GNS123_U4_T6_h1",
     "article_id": "GNS123_U4_T6",
     "topic_id": "GNS123_U4_T6",
-    "question": "What is the primary driver of severe multi-organ damage and acute respiratory distress syndrome (ARDS) in COVID-19 patients?",
+    "difficulty": "understanding",
+    "question": "The clinical deterioration seen in severe COVID-19 pneumonia is primarily driven by which bodily mechanism?",
     "options": {
-      "A": "Bacterial coinfection in the gut",
-      "B": "Excessive production of insulin",
-      "C": "A dysregulated cytokine storm causing widespread inflammation",
-      "D": "Rapid depletion of red blood cells"
+      "A": "Bacterial superinfection of the pleural space",
+      "B": "A massive systemic cytokine release syndrome",
+      "C": "Rapid depletion of circulating iron stores",
+      "D": "Permanent destruction of the bone marrow"
     },
-    "answer": "C",
-    "explanation": "A severe cytokine storm leads to a hyperinflammatory response, resulting in endothelial injury, microvascular thrombosis, and multi-organ failure. [learn more](GNS123_U4_T6#GNS123_U4_T6_h1)"
+    "answer": "B",
+    "explanation": "An overactive and dysregulated immune response releases high levels of inflammatory cytokines that damage lung tissue and cause severe fluid accumulation. [learn more](GNS123_U4_T6#GNS123_U4_T6_h1)"
   },
   {
     "question_id": "GNS123_U4_T6_h2_q1",
     "heading_id": "GNS123_U4_T6_h2",
     "article_id": "GNS123_U4_T6",
     "topic_id": "GNS123_U4_T6",
-    "question": "What is the primary mode of transmission for the SARS-CoV-2 virus?",
+    "difficulty": "recall",
+    "question": "Which symptom is considered a particularly characteristic early neurological finding of COVID-19 infection?",
     "options": {
-      "A": "Vector-borne transmission via mosquitoes",
-      "B": "Respiratory droplets and aerosols",
-      "C": "Fecal-oral route through contaminated food",
-      "D": "Direct contact with intact skin"
+      "A": "Severe ascending muscle weakness",
+      "B": "Sudden loss of taste and smell",
+      "C": "Unilateral facial nerve paralysis",
+      "D": "Generalized tonic-clonic seizures"
     },
     "answer": "B",
-    "explanation": "SARS-CoV-2 spreads primarily when an infected person expels respiratory droplets and aerosols through breathing, talking, coughing, or sneezing. [learn more](GNS123_U4_T6#GNS123_U4_T6_h2)"
+    "explanation": "Anosmia and ageusia frequently present early in the clinical course, sometimes before respiratory symptoms appear. [learn more](GNS123_U4_T6#GNS123_U4_T6_h2)"
   },
   {
     "question_id": "GNS123_U4_T6_h2_q2",
     "heading_id": "GNS123_U4_T6_h2",
     "article_id": "GNS123_U4_T6",
     "topic_id": "GNS123_U4_T6",
-    "question": "Which level of personal protective equipment (PPE) is mandatory for healthcare workers performing aerosol-generating procedures (AGPs) on COVID-19 patients?",
+    "difficulty": "understanding",
+    "question": "A patient diagnosed with COVID-19 presents with a respiratory rate of 34 breaths per minute and an oxygen saturation of 91% on room air. How should this clinical presentation be classified?",
     "options": {
-      "A": "Simple cloth mask and gloves",
-      "B": "N95 or FFP2 respirator with eye protection, gown, and gloves",
-      "C": "Surgical mask only",
-      "D": "Heavy-duty rubber apron and boots"
+      "A": "Severe disease",
+      "B": "Mild infection",
+      "C": "Moderate illness",
+      "D": "Asymptomatic carrier"
     },
-    "answer": "B",
-    "explanation": "Airborne precautions during AGPs require an N95 or equivalent respirator, eye protection, gown, and gloves to protect against high-risk aerosol exposure. [learn more](GNS123_U4_T6#GNS123_U4_T6_h2)"
+    "answer": "A",
+    "explanation": "A respiratory rate above thirty breaths per minute and an oxygen saturation below 94% on room air fall squarely into the severe disease classification. [learn more](GNS123_U4_T6#GNS123_U4_T6_h2)"
   },
   {
     "question_id": "GNS123_U4_T6_h3_q1",
     "heading_id": "GNS123_U4_T6_h3",
     "article_id": "GNS123_U4_T6",
     "topic_id": "GNS123_U4_T6",
-    "question": "What oxygen saturation (SpO2) threshold on room air helps distinguish moderate COVID-19 from severe COVID-19 disease?",
+    "difficulty": "recall",
+    "question": "Which laboratory marker is most commonly monitored to assess hypercoagulability and clotting risks in severe COVID-19?",
     "options": {
-      "A": "Less than 93%",
-      "B": "Exactly 95%",
-      "C": "Greater than 98%",
-      "D": "Between 99% and 100%"
+      "A": "D-dimer",
+      "B": "Creatinine kinase",
+      "C": "Serum amylase",
+      "D": "Total bilirubin"
     },
     "answer": "A",
-    "explanation": "An SpO2 of less than 93% on room air is a key clinical indicator of severe COVID-19 requiring supplemental oxygen therapy. [learn more](GNS123_U4_T6#GNS123_U4_T6_h3)"
+    "explanation": "D-dimer levels rise when blood clots are actively forming and breaking down, signaling an increased risk of thromboembolic complications in COVID-19. [learn more](GNS123_U4_T6#GNS123_U4_T6_h3)"
   },
   {
     "question_id": "GNS123_U4_T6_h3_q2",
     "heading_id": "GNS123_U4_T6_h3",
     "article_id": "GNS123_U4_T6",
     "topic_id": "GNS123_U4_T6",
-    "question": "Which of the following defines critical COVID-19 illness?",
+    "difficulty": "understanding",
+    "question": "A complete blood count drawn for a patient with acute COVID-19 infection is most likely to display which hematological finding?",
     "options": {
-      "A": "Mild upper respiratory symptoms and normal chest X-ray",
-      "B": "Fever and fatigue without any respiratory distress",
-      "C": "Presence of ARDS, septic shock, or multi-organ failure",
-      "D": "Loss of taste and smell without fever"
+      "A": "Thrombocytosis",
+      "B": "Polycythemia vera",
+      "C": "Lymphopenia",
+      "D": "Eosinophilia"
     },
     "answer": "C",
-    "explanation": "Critical illness involves life-threatening complications such as ARDS, septic shock, and multi-organ dysfunction requiring ICU-level care. [learn more](GNS123_U4_T6#GNS123_U4_T6_h3)"
+    "explanation": "Viral infections frequently suppress lymphocyte production or accelerate their destruction, making low lymphocyte counts a hallmark lab finding in COVID-19. [learn more](GNS123_U4_T6#GNS123_U4_T6_h3)"
   },
   {
     "question_id": "GNS123_U4_T6_h4_q1",
     "heading_id": "GNS123_U4_T6_h4",
     "article_id": "GNS123_U4_T6",
     "topic_id": "GNS123_U4_T6",
-    "question": "What is considered the gold standard diagnostic test for detecting active SARS-CoV-2 infection?",
+    "difficulty": "understanding",
+    "question": "What is the primary reason regular pulse oximetry monitoring remains critical for patients with seemingly stable COVID-19?",
     "options": {
-      "A": "Complete Blood Count (CBC)",
-      "B": "Reverse Transcription-Polymerase Chain Reaction (RT-PCR)",
-      "C": "Chest X-ray",
-      "D": "Rapid antibody blood test"
+      "A": "Pulse oximeters also measure circulating inflammatory cytokine levels directly.",
+      "B": "Visual inspection of the skin reliably detects early hypoxia before meters do.",
+      "C": "Silent hypoxemia always causes immediate cardiac arrest if undetected.",
+      "D": "Patients can develop dangerously low oxygen levels without feeling short of breath."
     },
-    "answer": "B",
-    "explanation": "RT-PCR testing on respiratory specimens is the gold standard due to its high sensitivity and specificity in detecting viral RNA. [learn more](GNS123_U4_T6#GNS123_U4_T6_h4)"
+    "answer": "D",
+    "explanation": "Silent hypoxemia causes profound drops in blood oxygen without the expected distressing sensation of breathlessness, requiring objective meter checks. [learn more](GNS123_U4_T6#GNS123_U4_T6_h4)"
   },
   {
     "question_id": "GNS123_U4_T6_h4_q2",
     "heading_id": "GNS123_U4_T6_h4",
     "article_id": "GNS123_U4_T6",
     "topic_id": "GNS123_U4_T6",
-    "question": "Which laboratory finding is commonly associated with a hypercoagulable state and increased thrombosis risk in severe COVID-19 patients?",
+    "difficulty": "recall",
+    "question": "Which personal protective equipment item is specifically required when entering the room of a patient undergoing aerosol-generating procedures?",
     "options": {
-      "A": "Elevated D-dimer",
-      "B": "High platelet count",
-      "C": "Low serum creatinine",
-      "D": "Elevated white blood cell count"
+      "A": "Fit-tested N95 respirator",
+      "B": "Industrial chemical respirator",
+      "C": "Standard surgical paper mask",
+      "D": "Plain cotton face covering"
     },
     "answer": "A",
-    "explanation": "Elevated D-dimer levels indicate ongoing fibrin degradation and reflect the heightened risk of blood clots in severe COVID-19 cases. [learn more](GNS123_U4_T6#GNS123_U4_T6_h4)"
+    "explanation": "Aerosol-generating procedures release tiny infectious droplets that stay suspended in the air, requiring an N95 or higher-level respirator for protection. [learn more](GNS123_U4_T6#GNS123_U4_T6_h4)"
   },
   {
     "question_id": "GNS123_U4_T6_h5_q1",
     "heading_id": "GNS123_U4_T6_h5",
     "article_id": "GNS123_U4_T6",
     "topic_id": "GNS123_U4_T6",
-    "question": "What is 'happy hypoxemia' in the context of COVID-19 nursing assessment?",
+    "difficulty": "recall",
+    "question": "What is the primary therapeutic goal of administering systemic corticosteroids like dexamethasone in hospitalized COVID-19 patients?",
     "options": {
-      "A": "A patient who is extremely anxious and hyperventilating",
-      "B": "A patient with dangerously low oxygen saturation who reports no severe shortness of breath",
-      "C": "A patient whose fever resolves spontaneously",
-      "D": "A patient who experiences euphoria from oxygen therapy"
+      "A": "Permanently dilating the lower bronchial airway passages",
+      "B": "Directly killing the intracellular viral RNA strands",
+      "C": "Suppressing the damaging hyper-inflammatory immune response",
+      "D": "Stimulating red blood cell production in the marrow"
     },
-    "answer": "B",
-    "explanation": "Happy hypoxemia refers to patients who have critically low blood oxygen levels without displaying typical distress or shortness of breath. [learn more](GNS123_U4_T6#GNS123_U4_T6_h5)"
+    "answer": "C",
+    "explanation": "Corticosteroids reduce the overactive immune response and systemic inflammation responsible for acute lung injury in severe COVID-19. [learn more](GNS123_U4_T6#GNS123_U4_T6_h5)"
   },
   {
     "question_id": "GNS123_U4_T6_h5_q2",
     "heading_id": "GNS123_U4_T6_h5",
     "article_id": "GNS123_U4_T6",
     "topic_id": "GNS123_U4_T6",
-    "question": "Why is precise fluid balance charting important when monitoring hospitalized COVID-19 patients?",
+    "difficulty": "understanding",
+    "question": "When are direct antiviral medications most clinically effective in the management of COVID-19?",
     "options": {
-      "A": "To calculate the exact caloric intake required",
-      "B": "To prevent both fluid overload and dehydration",
-      "C": "To determine the need for immediate blood transfusions",
-      "D": "To monitor liver enzyme production"
+      "A": "Only when the patient requires mechanical ventilation",
+      "B": "During the late recovery phase of long COVID",
+      "C": "During the early phase following symptom onset",
+      "D": "After the patient has developed multi-organ failure"
     },
-    "answer": "B",
-    "explanation": "Strict monitoring of intake and output prevents fluid overload (which can worsen pulmonary edema) and dehydration. [learn more](GNS123_U4_T6#GNS123_U4_T6_h5)"
+    "answer": "C",
+    "explanation": "Antivirals work by stopping viral replication, which is most active early in the illness before the inflammatory phase takes over. [learn more](GNS123_U4_T6#GNS123_U4_T6_h5)"
   },
   {
     "question_id": "GNS123_U4_T6_h6_q1",
     "heading_id": "GNS123_U4_T6_h6",
     "article_id": "GNS123_U4_T6",
     "topic_id": "GNS123_U4_T6",
-    "question": "Which pharmacological agent is routinely administered to hospitalized COVID-19 patients requiring supplemental oxygen to reduce mortality by dampening inflammation?",
+    "difficulty": "recall",
+    "question": "What is the primary physiological benefit of placing an awake, non-intubated COVID-19 patient in the prone position?",
     "options": {
-      "A": "Dexamethasone",
-      "B": "Aspirin",
-      "C": "Amoxicillin",
-      "D": "Ibuprofen"
+      "A": "Completely preventing the need for future intubation",
+      "B": "Decreasing the production of gastric acid secretions",
+      "C": "Lowering systemic blood pressure through gravity",
+      "D": "Improving ventilation-perfusion matching in the lungs"
     },
-    "answer": "A",
-    "explanation": "Dexamethasone is a corticosteroid proven to decrease mortality in patients needing oxygen by reducing harmful systemic inflammation. [learn more](GNS123_U4_T6#GNS123_U4_T6_h6)"
+    "answer": "D",
+    "explanation": "Prone positioning allows gravity to help open up collapsed air sacs in the back of the lungs, improving how well oxygen gets into the bloodstream. [learn more](GNS123_U4_T6#GNS123_U4_T6_h6)"
   },
   {
     "question_id": "GNS123_U4_T6_h6_q2",
     "heading_id": "GNS123_U4_T6_h6",
     "article_id": "GNS123_U4_T6",
     "topic_id": "GNS123_U4_T6",
-    "question": "Why is low-molecular-weight heparin (LMWH) commonly prescribed for hospitalized COVID-19 patients?",
+    "difficulty": "understanding",
+    "question": "Which respiratory support device delivers heated and humidified oxygen at high flow rates while providing mild positive airway pressure?",
     "options": {
-      "A": "To lower elevated blood glucose levels",
-      "B": "To prevent venous thromboembolism and blood clots",
-      "C": "To stimulate red blood cell production",
-      "D": "To act as a direct antiviral agent"
+      "A": "Non-rebreather face mask",
+      "B": "Standard nasal prongs",
+      "C": "Simple Venturi apparatus",
+      "D": "High-flow nasal cannula"
     },
-    "answer": "B",
-    "explanation": "COVID-19 creates a hypercoagulable state, making thromboprophylaxis with LMWH essential to prevent dangerous blood clots. [learn more](GNS123_U4_T6#GNS123_U4_T6_h6)"
+    "answer": "D",
+    "explanation": "High-flow nasal cannula systems deliver precise, high-velocity gas flows that flush upper airway dead space and provide minimal positive pressure. [learn more](GNS123_U4_T6#GNS123_U4_T6_h6)"
   },
   {
     "question_id": "GNS123_U4_T6_h7_q1",
     "heading_id": "GNS123_U4_T6_h7",
     "article_id": "GNS123_U4_T6",
     "topic_id": "GNS123_U4_T6",
-    "question": "What is a primary clinical benefit of High-Flow Nasal Cannula (HFNC) therapy in COVID-19 management?",
+    "difficulty": "recall",
+    "question": "What term is used to describe persistent health symptoms that continue for months after recovering from initial COVID-19?",
     "options": {
-      "A": "It completely replaces the need for nursing monitoring.",
-      "B": "It delivers heated and humidified oxygen at high rates, often reducing the need for invasive intubation.",
-      "C": "It acts as a broad-spectrum antibiotic.",
-      "D": "It permanently cures the underlying viral infection."
+      "A": "Acute bronchitis",
+      "B": "Long COVID",
+      "C": "Transient hyperoxia",
+      "D": "Secondary pneumonia"
     },
     "answer": "B",
-    "explanation": "HFNC provides high-flow, conditioned oxygen that supports breathing and can prevent the need for mechanical ventilation in moderate-to-severe cases. [learn more](GNS123_U4_T6#GNS123_U4_T6_h7)"
+    "explanation": "Long COVID refers to the lingering physical and cognitive symptoms that persist long after the acute viral phase has resolved. [learn more](GNS123_U4_T6#GNS123_U4_T6_h7)"
   },
   {
     "question_id": "GNS123_U4_T6_h7_q2",
     "heading_id": "GNS123_U4_T6_h7",
     "article_id": "GNS123_U4_T6",
     "topic_id": "GNS123_U4_T6",
-    "question": "For how many hours a day is prone positioning typically recommended for mechanically ventilated COVID-19 patients with refractory hypoxemia?",
+    "difficulty": "understanding",
+    "question": "Which clinical manifestation is frequently reported by individuals experiencing Long COVID cognitive changes?",
     "options": {
-      "A": "1 to 2 hours",
-      "B": "4 to 6 hours",
-      "C": "12 to 16 hours",
-      "D": "24 continuous hours"
+      "A": "Permanent total paralysis of all four limbs",
+      "B": "Uncontrollable involuntary rhythmic tremors",
+      "C": "Brain fog with memory and concentration deficits",
+      "D": "Complete bilateral loss of hearing sensitivity"
     },
     "answer": "C",
-    "explanation": "Proning patients for 12 to 16 hours daily improves ventilation-perfusion matching and oxygenation in acute respiratory distress. [learn more](GNS123_U4_T6#GNS123_U4_T6_h7)"
-  },
-  {
-    "question_id": "GNS123_U4_T6_h8_q1",
-    "heading_id": "GNS123_U4_T6_h8",
-    "article_id": "GNS123_U4_T6",
-    "topic_id": "GNS123_U4_T6",
-    "question": "What term describes the condition where patients experience persistent symptoms weeks or months after recovering from acute COVID-19?",
-    "options": {
-      "A": "Acute respiratory distress syndrome",
-      "B": "Long COVID or post-COVID-19 condition",
-      "C": "Cytokine storm syndrome",
-      "D": "Transient ischemic attack"
-    },
-    "answer": "B",
-    "explanation": "Long COVID refers to ongoing physical and cognitive symptoms that linger long after the initial acute phase of the infection has passed. [learn more](GNS123_U4_T6#GNS123_U4_T6_h8)"
-  },
-  {
-    "question_id": "GNS123_U4_T6_h8_q2",
-    "heading_id": "GNS123_U4_T6_h8",
-    "article_id": "GNS123_U4_T6",
-    "topic_id": "GNS123_U4_T6",
-    "question": "Which of the following is a common manifestation of Long COVID affecting cognitive function?",
-    "options": {
-      "A": "Acute renal failure",
-      "B": "Brain fog and difficulty concentrating",
-      "C": "Uncontrolled hypertension",
-      "D": "Spontaneous bone fractures"
-    },
-    "answer": "B",
-    "explanation": "Cognitive symptoms such as 'brain fog,' memory issues, and difficulty concentrating are frequently reported by individuals with long COVID. [learn more](GNS123_U4_T6#GNS123_U4_T6_h8)"
-  },
-  {
-    "question_id": "GNS123_U4_T6_h9_q1",
-    "heading_id": "GNS123_U4_T6_h9",
-    "article_id": "GNS123_U4_T6",
-    "topic_id": "GNS123_U4_T6",
-    "question": "What is considered the most effective public health measure for preventing severe illness, hospitalization, and death from COVID-19?",
-    "options": {
-      "A": "Regular use of herbal steam inhalations",
-      "B": "Widespread vaccination and booster doses",
-      "C": "Complete isolation of entire cities indefinitely",
-      "D": "Taking prophylactic broad-spectrum antibiotics daily"
-    },
-    "answer": "B",
-    "explanation": "Vaccination is scientifically proven to be the most effective intervention for preventing severe COVID-19 disease and reducing mortality. [learn more](GNS123_U4_T6#GNS123_U4_T6_h9)"
-  },
-  {
-    "question_id": "GNS123_U4_T6_h9_q2",
-    "heading_id": "GNS123_U4_T6_h9",
-    "article_id": "GNS123_U4_T6",
-    "topic_id": "GNS123_U4_T6",
-    "question": "What is an essential educational responsibility for nurses when communicating with community members about COVID-19 prevention?",
-    "options": {
-      "A": "Discouraging hand hygiene to build natural tolerance",
-      "B": "Debunking health misinformation and explaining correct mask usage",
-      "C": "Instructing patients to ignore mild symptoms completely",
-      "D": "Advocating against the use of any protective guidelines"
-    },
-    "answer": "B",
-    "explanation": "Nurses play a key role in providing accurate information, promoting correct preventive habits like mask usage, and dispelling dangerous myths. [learn more](GNS123_U4_T6#GNS123_U4_T6_h9)"
+    "explanation": "Many long-haul COVID patients report cognitive difficulties, often described as brain fog, affecting their memory and daily focus. [learn more](GNS123_U4_T6#GNS123_U4_T6_h7)"
   }
 ]
