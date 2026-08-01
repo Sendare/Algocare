@@ -4,239 +4,255 @@
     "heading_id": "GST114_U4_T8_h1",
     "article_id": "GST114_U4_T8",
     "topic_id": "GST114_U4_T8",
-    "question": "What primary process prevents the immune system from attacking the body's own tissues under normal conditions?",
+    "difficulty": "recall",
+    "question": "What is the primary function of self-tolerance in the human immune system?",
     "options": {
-      "A": "Clonal expansion",
-      "B": "Self-tolerance",
-      "C": "Antigen presentation",
-      "D": "Phagocytosis"
+      "A": "To destroy foreign pathogens within the bloodstream",
+      "B": "To accelerate the production of red blood cells",
+      "C": "To recognize and ignore the body's own healthy cells",
+      "D": "To stimulate antibody creation during acute infections"
     },
-    "answer": "B",
-    "explanation": "Self-tolerance is the normal physiological state where the immune system remains unresponsive to self-antigens, preventing autoimmune attacks. [learn more](GST114_U4_T8#GST114_U4_T8_h1)"
+    "answer": "C",
+    "explanation": "Self-tolerance prevents the immune system from attacking host tissues by ensuring lymphocytes do not react against native self-antigens. [learn more](GST114_U4_T8#GST114_U4_T8_h1)"
   },
   {
     "question_id": "GST114_U4_T8_h1_q2",
     "heading_id": "GST114_U4_T8_h1",
     "article_id": "GST114_U4_T8",
     "topic_id": "GST114_U4_T8",
-    "question": "Where does central tolerance primarily eliminate autoreactive T and B cells during their development?",
+    "difficulty": "understanding",
+    "question": "Where does central tolerance primarily take place during lymphocyte development?",
     "options": {
-      "A": "Lymph nodes and spleen",
-      "B": "Liver and kidneys",
-      "C": "Thymus and bone marrow",
-      "D": "Circulating bloodstream"
+      "A": "Peripheral blood vessels",
+      "B": "Liver and gastrointestinal tract",
+      "C": "Lymph nodes and spleen",
+      "D": "Thymus and bone marrow"
     },
-    "answer": "C",
-    "explanation": "Central tolerance occurs in primary lymphoid organs, specifically the thymus for T cells and the bone marrow for B cells, through negative selection. [learn more](GST114_U4_T8#GST114_U4_T8_h1)"
+    "answer": "D",
+    "explanation": "Central tolerance occurs in primary lymphoid organs, specifically the thymus for T cells and the bone marrow for B cells, where self-reactive cells are eliminated. [learn more](GST114_U4_T8#GST114_U4_T8_h1)"
   },
   {
     "question_id": "GST114_U4_T8_h2_q1",
     "heading_id": "GST114_U4_T8_h2",
     "article_id": "GST114_U4_T8",
     "topic_id": "GST114_U4_T8",
-    "question": "Which mechanism describes a situation where an infectious agent shares structural similarities with self-antigens, leading to cross-reactivity?",
+    "difficulty": "understanding",
+    "question": "Which mechanism describes an immune reaction triggered by infectious agents sharing structural similarities with host proteins?",
     "options": {
-      "A": "Epitope spreading",
-      "B": "Molecular mimicry",
-      "C": "Central tolerance",
-      "D": "Antigen sequestration"
+      "A": "Sequestered antigen release",
+      "B": "Epitope spreading",
+      "C": "Molecular mimicry",
+      "D": "Central clonal deletion"
     },
-    "answer": "B",
-    "explanation": "Molecular mimicry occurs when foreign antigens resemble self-antigens, causing immune cells to mistakenly attack host tissues after fighting an infection. [learn more](GST114_U4_T8#GST114_U4_T8_h2)"
+    "answer": "C",
+    "explanation": "Molecular mimicry occurs when microbial antigens closely resemble self-antigens, leading cross-reactive antibodies to attack healthy host tissues. [learn more](GST114_U4_T8#GST114_U4_T8_h2)"
   },
   {
     "question_id": "GST114_U4_T8_h2_q2",
     "heading_id": "GST114_U4_T8_h2",
     "article_id": "GST114_U4_T8",
     "topic_id": "GST114_U4_T8",
-    "question": "What occurs during the process of epitope spreading in autoimmune diseases?",
+    "difficulty": "recall",
+    "question": "What is the primary reason sequestered antigens are normally ignored by the immune system?",
     "options": {
-      "A": "Pathogens are immediately neutralized by normal flora",
-      "B": "Cryptic self-antigens are released due to tissue damage and expand the autoimmune response",
-      "C": "Regulatory T cells permanently suppress all B cell activation",
-      "D": "The thymus increases production of naïve lymphocytes"
+      "A": "They lack any chemical structures recognizable by T cells",
+      "B": "They are hidden behind anatomical barriers during lymphocyte development",
+      "C": "They actively suppress all local inflammatory cytokine production",
+      "D": "They are continuously cleared by the hepatic filtration system"
     },
     "answer": "B",
-    "explanation": "Epitope spreading happens when chronic tissue damage exposes hidden self-antigens, prompting the immune system to broaden its attack against the host. [learn more](GST114_U4_T8#GST114_U4_T8_h2)"
+    "explanation": "Sequestered antigens reside in immunologically privileged sites away from circulating lymphocytes, preventing normal tolerance induction. [learn more](GST114_U4_T8#GST114_U4_T8_h2)"
   },
   {
     "question_id": "GST114_U4_T8_h3_q1",
     "heading_id": "GST114_U4_T8_h3",
     "article_id": "GST114_U4_T8",
     "topic_id": "GST114_U4_T8",
-    "question": "Which genetic complex is most strongly associated with an increased susceptibility to autoimmune diseases?",
+    "difficulty": "recall",
+    "question": "Which genetic complex on chromosome 6 is most strongly associated with susceptibility to autoimmune diseases?",
     "options": {
-      "A": "ABO blood group system",
-      "B": "Human Leukocyte Antigen (HLA) complex",
-      "C": "Cytochrome P450 enzyme system",
-      "D": "Rhesus factor genes"
+      "A": "Immunoglobulin Heavy Chain",
+      "B": "Major Histocompatibility Factor",
+      "C": "Human Leukocyte Antigen",
+      "D": "Complement Cascade Locus"
     },
-    "answer": "B",
-    "explanation": "The HLA complex encodes MHC molecules and plays a central role in genetic susceptibility to various autoimmune disorders. [learn more](GST114_U4_T8#GST114_U4_T8_h3)"
+    "answer": "C",
+    "explanation": "The HLA gene complex plays a central role in antigen presentation and possesses the strongest statistical link to inherited autoimmune risks. [learn more](GST114_U4_T8#GST114_U4_T8_h3)"
   },
   {
     "question_id": "GST114_U4_T8_h3_q2",
     "heading_id": "GST114_U4_T8_h3",
     "article_id": "GST114_U4_T8",
     "topic_id": "GST114_U4_T8",
-    "question": "Why are environmental triggers necessary in individuals with genetic predisposition to autoimmunity?",
+    "difficulty": "understanding",
+    "question": "Why is the higher prevalence of autoimmune conditions among biological females partially attributed to environmental and physiological factors?",
     "options": {
-      "A": "They completely replace the need for functional T cells",
-      "B": "They accelerate the clearance of circulating autoantibodies",
-      "C": "They can act as catalysts to precipitate the autoimmune cascade",
-      "D": "They permanently alter the HLA gene sequence"
+      "A": "Estrogen influences immune cell activity and inflammatory pathways",
+      "B": "X-linked genes exclusively code for aggressive autoantibodies",
+      "C": "Females possess double the number of autosomal chromosomes",
+      "D": "Progesterone directly destroys circulating regulatory T cells"
     },
-    "answer": "C",
-    "explanation": "Environmental factors like infections or toxins act as catalysts that trigger the onset of autoimmune responses in people who are already genetically vulnerable. [learn more](GST114_U4_T8#GST114_U4_T8_h3)"
+    "answer": "A",
+    "explanation": "Hormones like estrogen modulate immune responses, often enhancing humoral immunity and increasing susceptibility to autoreactive processes. [learn more](GST114_U4_T8#GST114_U4_T8_h3)"
   },
   {
     "question_id": "GST114_U4_T8_h4_q1",
     "heading_id": "GST114_U4_T8_h4",
     "article_id": "GST114_U4_T8",
     "topic_id": "GST114_U4_T8",
-    "question": "Which of the following is classified as an organ-specific autoimmune disease?",
+    "difficulty": "recall",
+    "question": "Type 1 Diabetes Mellitus is classified as which type of autoimmune condition?",
     "options": {
-      "A": "Systemic Lupus Erythematosus",
-      "B": "Rheumatoid Arthritis",
-      "C": "Hashimoto's thyroiditis",
-      "D": "Sjogren's syndrome"
+      "A": "Systemic diffuse",
+      "B": "Hematologic malignant",
+      "C": "Idiopathic infectious",
+      "D": "Organ-specific"
     },
-    "answer": "C",
-    "explanation": "Hashimoto's thyroiditis is an organ-specific autoimmune disease where the immune response is targeted specifically at the thyroid gland. [learn more](GST114_U4_T8#GST114_U4_T8_h4)"
+    "answer": "D",
+    "explanation": "Type 1 diabetes specifically targets and destroys insulin-producing beta cells within the pancreas, making it an organ-specific autoimmune disease. [learn more](GST114_U4_T8#GST114_U4_T8_h4)"
   },
   {
     "question_id": "GST114_U4_T8_h4_q2",
     "heading_id": "GST114_U4_T8_h4",
     "article_id": "GST114_U4_T8",
     "topic_id": "GST114_U4_T8",
-    "question": "What is a characteristic feature of systemic autoimmune diseases like Systemic Lupus Erythematosus?",
+    "difficulty": "understanding",
+    "question": "What is a defining characteristic of systemic autoimmune disorders compared to organ-specific ones?",
     "options": {
-      "A": "Involvement of multiple organ systems due to widespread autoantibodies",
-      "B": "Strict restriction of symptoms to a single localized gland",
-      "C": "Total absence of inflammatory flares or remissions",
-      "D": "Immune attack exclusively limited to neuromuscular junctions"
+      "A": "They involve widespread inflammation affecting multiple organ systems",
+      "B": "They are exclusively triggered by viral respiratory infections",
+      "C": "They present with permanent, non-fluctuating clinical symptoms",
+      "D": "They respond only to surgical removal of affected lymph nodes"
     },
     "answer": "A",
-    "explanation": "Systemic autoimmune diseases affect multiple organ systems because the autoantibodies and immune complexes target widespread antigens throughout the body. [learn more](GST114_U4_T8#GST114_U4_T8_h4)"
+    "explanation": "Systemic autoimmune diseases cause generalized immune attacks against widely distributed connective tissues and blood vessels across the entire body. [learn more](GST114_U4_T8#GST114_U4_T8_h4)"
   },
   {
     "question_id": "GST114_U4_T8_h5_q1",
     "heading_id": "GST114_U4_T8_h5",
     "article_id": "GST114_U4_T8",
     "topic_id": "GST114_U4_T8",
-    "question": "Which laboratory test is frequently used as a broad screening tool for systemic connective tissue and autoimmune diseases?",
+    "difficulty": "recall",
+    "question": "What does an elevated Antinuclear Antibody (ANA) test primarily screen for?",
     "options": {
-      "A": "Full blood count with differential",
-      "B": "Antinuclear Antibody (ANA) test",
-      "C": "Fasting blood glucose test",
-      "D": "Serum electrolyte panel"
+      "A": "Primary bone marrow malignancies",
+      "B": "Systemic autoimmune disorders like lupus",
+      "C": "Severe nutritional deficiencies",
+      "D": "Acute bacterial blood infections"
     },
     "answer": "B",
-    "explanation": "The ANA test is a common broad screening tool often elevated in individuals with systemic autoimmune and connective tissue disorders. [learn more](GST114_U4_T8#GST114_U4_T8_h5)"
+    "explanation": "The ANA test detects antibodies directed against components of the cell nucleus and serves as a primary screening tool for systemic autoimmune diseases. [learn more](GST114_U4_T8#GST114_U4_T8_h5)"
   },
   {
     "question_id": "GST114_U4_T8_h5_q2",
     "heading_id": "GST114_U4_T8_h5",
     "article_id": "GST114_U4_T8",
     "topic_id": "GST114_U4_T8",
-    "question": "What is the primary clinical purpose of measuring Erythrocyte Sedimentation Rate (ESR) and C-Reactive Protein (CRP) in autoimmune evaluations?",
+    "difficulty": "application",
+    "question": "A client presents with chronic joint pain, fatigue, and a butterfly-shaped facial rash. Which diagnostic blood test is most appropriate to order first?",
     "options": {
-      "A": "To measure specific autoantibody titers",
-      "B": "To assess the presence and level of systemic inflammation",
-      "C": "To diagnose exact organ-specific destruction",
-      "D": "To evaluate genetic HLA allele presence"
+      "A": "Serum electrolyte and BUN levels",
+      "B": "Fast blood glucose determination",
+      "C": "Antinuclear antibody panel",
+      "D": "Stool culture for ova and parasites"
     },
-    "answer": "B",
-    "explanation": "ESR and CRP are general markers used to detect and monitor the level of inflammation occurring throughout the body in autoimmune diseases. [learn more](GST114_U4_T8#GST114_U4_T8_h5)"
+    "answer": "C",
+    "explanation": "The clinical presentation strongly suggests systemic lupus erythematosus, making an antinuclear antibody panel the key initial screening test. [learn more](GST114_U4_T8#GST114_U4_T8_h5)"
   },
   {
     "question_id": "GST114_U4_T8_h6_q1",
     "heading_id": "GST114_U4_T8_h6",
     "article_id": "GST114_U4_T8",
     "topic_id": "GST114_U4_T8",
-    "question": "What is a primary focus of nursing interventions for patients experiencing chronic autoimmune diseases?",
+    "difficulty": "understanding",
+    "question": "Why is monitoring body temperature particularly important for clients managing autoimmune disorders?",
     "options": {
-      "A": "Inducing permanent immunosuppression through diet alone",
-      "B": "Promoting comfort, reducing inflammation, and supporting quality of life",
-      "C": "Completely eliminating environmental triggers from the atmosphere",
-      "D": "Performing surgical debridement of affected joints"
+      "A": "To confirm the complete cessation of inflammatory cytokines",
+      "B": "To detect early signs of opportunistic infections related to treatment",
+      "C": "To evaluate the immediate efficacy of topical cold compresses",
+      "D": "To measure basal metabolic rate changes during joint rest"
     },
     "answer": "B",
-    "explanation": "Nursing care focuses on holistic management, which includes easing symptoms, minimizing inflammation, and helping patients maintain a good quality of life. [learn more](GST114_U4_T8#GST114_U4_T8_h6)"
+    "explanation": "Many therapeutic regimens suppress the immune system, making clients highly vulnerable to infections where fever may be the primary warning sign. [learn more](GST114_U4_T8#GST114_U4_T8_h6)"
   },
   {
     "question_id": "GST114_U4_T8_h6_q2",
     "heading_id": "GST114_U4_T8_h6",
     "article_id": "GST114_U4_T8",
     "topic_id": "GST114_U4_T8",
-    "question": "Why is patient education regarding environmental triggers, such as sun exposure, crucial in conditions like systemic lupus erythematosus?",
+    "difficulty": "recall",
+    "question": "Which nursing intervention is most effective for managing morning joint stiffness in a client with an inflammatory arthritis?",
     "options": {
-      "A": "It prevents vitamin deficiency",
-      "B": "It helps prevent the onset of acute disease flares",
-      "C": "It cures the underlying genetic mutation",
-      "D": "It enhances the absorption of anti-inflammatory medications"
+      "A": "Encouraging high-impact aerobic exercise",
+      "B": "Applying warm compresses",
+      "C": "Applying prolonged ice immersion",
+      "D": "Administering intravenous diuretics"
     },
     "answer": "B",
-    "explanation": "Avoiding known triggers like ultraviolet light helps prevent the stimulation of the immune system that leads to acute disease flares. [learn more](GST114_U4_T8#GST114_U4_T8_h6)"
+    "explanation": "Heat therapy promotes vasodilation and relaxes surrounding muscles, effectively easing joint stiffness common in the morning hours. [learn more](GST114_U4_T8#GST114_U4_T8_h6)"
   },
   {
     "question_id": "GST114_U4_T8_h7_q1",
     "heading_id": "GST114_U4_T8_h7",
     "article_id": "GST114_U4_T8",
     "topic_id": "GST114_U4_T8",
-    "question": "What is a major nursing consideration for patients taking long-term immunosuppressive or corticosteroid therapy for an autoimmune disease?",
+    "difficulty": "recall",
+    "question": "What is the primary pharmacological purpose of administering Disease-Modifying Antirheumatic Drugs (DMARDs)?",
     "options": {
-      "A": "Monitoring for an increased risk of opportunistic infections",
-      "B": "Encouraging the intake of live attenuated vaccines",
-      "C": "Anticipating permanent hyper-immunity",
-      "D": "Preventing hypoglycemia through high sugar diets"
+      "A": "To slow overall disease progression and prevent joint destruction",
+      "B": "To permanently cure the underlying genetic defect causing the illness",
+      "C": "To rapidly destroy all active pathogens circulating in the blood",
+      "D": "To provide immediate short-term pain relief during a severe flare"
     },
     "answer": "A",
-    "explanation": "Because these medications suppress the immune system, patients are at a heightened risk for infections, requiring vigilant nursing assessment and education. [learn more](GST114_U4_T8#GST114_U4_T8_h7)"
+    "explanation": "DMARDs alter the underlying immune-mediated inflammatory process to slow structural damage to joints and tissues over time. [learn more](GST114_U4_T8#GST114_U4_T8_h7)"
   },
   {
     "question_id": "GST114_U4_T8_h7_q2",
     "heading_id": "GST114_U4_T8_h7",
     "article_id": "GST114_U4_T8",
     "topic_id": "GST114_U4_T8",
-    "question": "Why are disease-modifying antirheumatic drugs (DMARDs) or biologic agents often introduced in chronic autoimmune management?",
+    "difficulty": "understanding",
+    "question": "Which complication is most associated with the long-term systemic use of corticosteroid therapy?",
     "options": {
-      "A": "To completely cure the genetic predisposition",
-      "B": "To reduce dependency on long-term corticosteroids and target specific pathways",
-      "C": "To stimulate antibody production against pathogens",
-      "D": "To permanently eliminate normal flora"
+      "A": "Rapid enhancement of renal filtration",
+      "B": "Massive red blood cell proliferation",
+      "C": "Osteoporosis and bone demineralization",
+      "D": "Permanent hypertension and tachycardia"
     },
-    "answer": "B",
-    "explanation": "DMARDs and biologics help control inflammation and limit tissue damage while minimizing the heavy long-term side effects associated with corticosteroids. [learn more](GST114_U4_T8#GST114_U4_T8_h7)"
+    "answer": "C",
+    "explanation": "Prolonged corticosteroid use interferes with calcium absorption and bone formation, significantly increasing the risk of osteoporosis and fractures. [learn more](GST114_U4_T8#GST114_U4_T8_h7)"
   },
   {
     "question_id": "GST114_U4_T8_h8_q1",
     "heading_id": "GST114_U4_T8_h8",
     "article_id": "GST114_U4_T8",
     "topic_id": "GST114_U4_T8",
-    "question": "What is a major long-term consequence of persistent systemic inflammation in autoimmune diseases?",
+    "difficulty": "understanding",
+    "question": "What is a major long-term cardiovascular risk associated with chronic systemic inflammatory autoimmune diseases?",
     "options": {
-      "A": "Permanent enhancement of immune surveillance",
-      "B": "Irreversible organ damage such as renal failure or joint deformity",
-      "C": "Complete spontaneous remission without medical intervention",
-      "D": "Regeneration of damaged endocrine tissue"
+      "A": "Spontaneous rupture of heart valves",
+      "B": "Accelerated atherosclerosis and heart disease",
+      "C": "Massive hypertrophy of the right ventricle",
+      "D": "Complete degeneration of the sinoatrial node"
     },
     "answer": "B",
-    "explanation": "Chronic inflammation progressively attacks host tissues, leading to permanent structural damage and loss of function in organs like the kidneys and joints. [learn more](GST114_U4_T8#GST114_U4_T8_h8)"
+    "explanation": "Persistent systemic inflammation damages blood vessel linings and accelerates plaque buildup, significantly raising the risk of cardiovascular complications. [learn more](GST114_U4_T8#GST114_U4_T8_h8)"
   },
   {
     "question_id": "GST114_U4_T8_h8_q2",
     "heading_id": "GST114_U4_T8_h8",
     "article_id": "GST114_U4_T8",
     "topic_id": "GST114_U4_T8",
-    "question": "Which intervention is vital when providing long-term care to a patient on chronic immunosuppressive therapy?",
+    "difficulty": "recall",
+    "question": "Which prophylactic measure is NOT recommended for clients receiving long-term immunosuppressive therapy?",
     "options": {
-      "A": "Routine surveillance of organ function and regular follow-up evaluations",
-      "B": "Discontinuing all medications once symptoms briefly subside",
-      "C": "Avoiding blood tests to prevent vascular damage",
-      "D": "Discouraging lifestyle changes to reduce patient stress"
+      "A": "Routine monitoring of renal function panels",
+      "B": "Administration of live attenuated vaccines",
+      "C": "Annual influenza and pneumococcal vaccination",
+      "D": "Regular screening for opportunistic infections"
     },
-    "answer": "A",
-    "explanation": "Routine laboratory monitoring and regular follow-up visits are essential to catch early signs of organ damage, drug toxicity, or secondary complications. [learn more](GST114_U4_T8#GST114_U4_T8_h8)"
+    "answer": "B",
+    "explanation": "Live vaccines pose a severe risk of causing active, widespread infection in immunocompromised individuals and are generally contraindicated. [learn more](GST114_U4_T8#GST114_U4_T8_h8)"
   }
 ]
