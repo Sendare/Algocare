@@ -4,239 +4,255 @@
     "heading_id": "GST114_U4_T11_h1",
     "article_id": "GST114_U4_T11",
     "topic_id": "GST114_U4_T11",
-    "question": "How do acquired immune deficiencies primarily differ from primary immunodeficiencies?",
+    "difficulty": "recall",
+    "question": "What is the primary difference between primary and acquired immune deficiencies?",
     "options": {
-      "A": "Acquired deficiencies are present at birth.",
-      "B": "Acquired deficiencies develop after birth due to external factors or secondary conditions.",
-      "C": "Primary deficiencies are caused exclusively by severe malnutrition.",
-      "D": "Primary deficiencies only affect elderly populations."
+      "A": "Primary deficiencies involve T-lymphocytes, whereas acquired deficiencies strictly impact B-cell antibody production.",
+      "B": "Primary deficiencies are inherited genetically, whereas acquired deficiencies develop later in life from external factors.",
+      "C": "Primary deficiencies only affect children under five, whereas acquired deficiencies exclusively target older adults.",
+      "D": "Primary deficiencies are caused by viral infections, whereas acquired deficiencies stem from bacterial overgrowth."
     },
     "answer": "B",
-    "explanation": "Acquired immune deficiencies occur after birth due to external factors, whereas primary immunodeficiencies are typically genetic conditions present from birth. [learn more](GST114_U4_T11#GST114_U4_T11_h1)"
+    "explanation": "Primary immune deficiencies are congenital and rooted in genetic anomalies, whereas acquired types occur due to external insults or environmental influences after a period of normal immune function. [learn more](GST114_U4_T11#GST114_U4_T11_h1)"
   },
   {
     "question_id": "GST114_U4_T11_h1_q2",
     "heading_id": "GST114_U4_T11_h1",
     "article_id": "GST114_U4_T11",
     "topic_id": "GST114_U4_T11",
-    "question": "What is a common clinical presentation for patients suffering from acquired immune deficiencies?",
+    "difficulty": "understanding",
+    "question": "Which clinical scenario best exemplifies an acquired immune deficiency?",
     "options": {
-      "A": "Recurrent, severe, and unusual infections",
-      "B": "Permanent lifelong immunity to common pathogens",
-      "C": "Rapid increase in T-helper cell production",
-      "D": "Absence of any susceptibility to neoplasms"
+      "A": "An older patient with an inherited X-linked agammaglobulinemia presenting with recurrent otitis media.",
+      "B": "A young adult who develops progressive immune system decline following a viral infection.",
+      "C": "A child experiencing transient immune suppression secondary to severe protein-energy malnutrition.",
+      "D": "An infant born with missing thymic tissue and severe combined immunodeficiency."
     },
-    "answer": "A",
-    "explanation": "Due to a compromised immune system, patients frequently present with recurrent, severe, and unusual infections that are difficult to treat. [learn more](GST114_U4_T11#GST114_U4_T11_h1)"
+    "answer": "C",
+    "explanation": "Malnutrition is a classic external factor causing secondary or acquired immune deficiency in an individual born with a normal immune system. [learn more](GST114_U4_T11#GST114_U4_T11_h1)"
   },
   {
     "question_id": "GST114_U4_T11_h2_q1",
     "heading_id": "GST114_U4_T11_h2",
     "article_id": "GST114_U4_T11",
     "topic_id": "GST114_U4_T11",
-    "question": "Which specific cells play a central coordinating role in both cellular and humoral immunity and are often targeted in immune decline?",
+    "difficulty": "recall",
+    "question": "Which specific cell type is primarily targeted and depleted in many acquired immune deficiencies?",
     "options": {
-      "A": "Erythrocytes",
-      "B": "Platelets",
-      "C": "CD4+ T-helper lymphocytes",
-      "D": "Neutrophils"
+      "A": "Neutrophils in bone marrow stroma",
+      "B": "Erythrocytes in peripheral blood",
+      "C": "Platelets within the vascular sinusoids",
+      "D": "CD4+ helper T-lymphocytes"
     },
-    "answer": "C",
-    "explanation": "CD4+ T-helper lymphocytes are crucial coordinators of the immune response, and their impairment leads to a collapse in both cellular and humoral immunity. [learn more](GST114_U4_T11#GST114_U4_T11_h2)"
+    "answer": "D",
+    "explanation": "CD4+ helper T-cells act as master regulators of the immune response, making their depletion devastating to both cellular and humoral immunity. [learn more](GST114_U4_T11#GST114_U4_T11_h2)"
   },
   {
     "question_id": "GST114_U4_T11_h2_q2",
     "heading_id": "GST114_U4_T11_h2",
     "article_id": "GST114_U4_T11",
     "topic_id": "GST114_U4_T11",
-    "question": "What is a direct consequence of chronic immune activation and persistent systemic inflammation in acquired immune deficiencies?",
+    "difficulty": "understanding",
+    "question": "Why does the depletion of regulatory immune cells lead to opportunistic infections?",
     "options": {
-      "A": "Enhanced production of naive immune cells",
-      "B": "Exhaustion and senescence of remaining immune cells",
-      "C": "Immediate restoration of lymphoid tissue architecture",
-      "D": "Permanent elimination of opportunistic pathogens"
+      "A": "Because the body lacks sufficient white blood cells to create physical barriers.",
+      "B": "Because normal flora transform directly into malignant tumor cells within tissues.",
+      "C": "Because coordinated immune signaling and pathogen recognition pathways fail.",
+      "D": "Because pathogens mutate rapidly in the absence of normal antibody binding sites."
     },
-    "answer": "B",
-    "explanation": "Continuous immune activation without adequate regulation leads to exhaustion and senescence of the remaining immune cells, damaging lymphoid tissues over time. [learn more](GST114_U4_T11#GST114_U4_T11_h2)"
+    "answer": "C",
+    "explanation": "Without helper T-cells and proper signaling cascades, the immune system cannot mount an effective, coordinated attack against low-virulence microbes. [learn more](GST114_U4_T11#GST114_U4_T11_h2)"
   },
   {
     "question_id": "GST114_U4_T11_h3_q1",
     "heading_id": "GST114_U4_T11_h3",
     "article_id": "GST114_U4_T11",
     "topic_id": "GST114_U4_T11",
-    "question": "Which specific host cells are primarily targeted and destroyed by the Human Immunodeficiency Virus (HIV)?",
+    "difficulty": "recall",
+    "question": "What is the specific cell surface receptor bound by the HIV surface glycoprotein gp120?",
     "options": {
-      "A": "CD8+ cytotoxic T cells",
-      "B": "CD4+ T-lymphocytes and macrophages",
-      "C": "B-lymphocytes exclusively",
-      "D": "Red blood cells"
+      "A": "CD8 receptor",
+      "B": "MHC Class I",
+      "C": "CD4 receptor",
+      "D": "Complement C3"
     },
-    "answer": "B",
-    "explanation": "HIV selectively targets and destroys cells bearing CD4 receptors, primarily CD4+ T-lymphocytes, macrophages, and dendritic cells. [learn more](GST114_U4_T11#GST114_U4_T11_h3)"
+    "answer": "C",
+    "explanation": "The gp120 protein on the HIV envelope has a high affinity for the CD4 receptor found primarily on helper T-cells, macrophages, and dendritic cells. [learn more](GST114_U4_T11#GST114_U4_T11_h3)"
   },
   {
     "question_id": "GST114_U4_T11_h3_q2",
     "heading_id": "GST114_U4_T11_h3",
     "article_id": "GST114_U4_T11",
     "topic_id": "GST114_U4_T11",
-    "question": "What laboratory threshold or clinical milestone defines the progression from HIV infection to AIDS?",
+    "difficulty": "application",
+    "question": "A patient with HIV is classified as having progressed to AIDS when their CD4 count falls below which threshold?",
     "options": {
-      "A": "A CD4+ T-cell count dropping below 200 cells/mm3",
-      "B": "A viral load dropping to zero",
-      "C": "An increase in CD4+ cell count above 1000 cells/mm3",
-      "D": "The complete absence of antibodies"
+      "A": "500 cells per microliter",
+      "B": "800 cells per microliter",
+      "C": "200 cells per microliter",
+      "D": "1,200 cells per microliter"
     },
-    "answer": "A",
-    "explanation": "AIDS is clinically defined by a CD4+ T-cell count falling below 200 cells/mm3 or the presence of specific AIDS-defining illnesses. [learn more](GST114_U4_T11#GST114_U4_T11_h3)"
+    "answer": "C",
+    "explanation": "A CD4 count dropping below 200 cells/uL marks the clinical threshold for Acquired Immunodeficiency Syndrome (AIDS), indicating severe immunosuppression. [learn more](GST114_U4_T11#GST114_U4_T11_h3)"
   },
   {
     "question_id": "GST114_U4_T11_h4_q1",
     "heading_id": "GST114_U4_T11_h4",
     "article_id": "GST114_U4_T11",
     "topic_id": "GST114_U4_T11",
-    "question": "How does severe acute malnutrition directly impact the immune system?",
+    "difficulty": "recall",
+    "question": "What structural organ undergoes atrophy during severe protein-energy malnutrition, directly impacting immune function?",
     "options": {
-      "A": "It accelerates thymic hypertrophy and antibody production.",
-      "B": "It deprives the body of essential nutrients, leading to thymic atrophy and reduced leukocyte function.",
-      "C": "It permanently boosts phagocytic activity in macrophages.",
-      "D": "It prevents any future exposure to infectious agents."
+      "A": "Thyroid gland",
+      "B": "Adrenal cortex",
+      "C": "Pancreatic islets",
+      "D": "Thymus gland"
     },
-    "answer": "B",
-    "explanation": "Malnutrition starves the body of essential nutrients needed for immune cell production, causing thymic atrophy, reduced complement proteins, and depressed phagocytosis. [learn more](GST114_U4_T11#GST114_U4_T11_h4)"
+    "answer": "D",
+    "explanation": "Protein-energy malnutrition causes marked thymic atrophy, severely reducing the maturation and output of functional T-lymphocytes. [learn more](GST114_U4_T11#GST114_U4_T11_h4)"
   },
   {
     "question_id": "GST114_U4_T11_h4_q2",
     "heading_id": "GST114_U4_T11_h4",
     "article_id": "GST114_U4_T11",
     "topic_id": "GST114_U4_T11",
-    "question": "What phenomenon is commonly associated with measles infection regarding the immune system?",
+    "difficulty": "understanding",
+    "question": "How do recurring systemic infections contribute to secondary immune dysfunction?",
     "options": {
-      "A": "Immune amnesia that destroys previously acquired immunological memory",
-      "B": "A permanent doubling of CD4+ T-cell counts",
-      "C": "Complete resistance to bacterial coinfections",
-      "D": "Enhanced antibody production for unrelated pathogens"
+      "A": "By constantly consuming metabolic resources and exhausting immune cell reserves.",
+      "B": "by blocking the absorption of dietary fats and fat-soluble vitamins.",
+      "C": "by completely destroying the production of red blood cells in the spleen.",
+      "D": "permanently altering the genetic code of bone marrow stem cells."
     },
     "answer": "A",
-    "explanation": "Measles induces immune amnesia by wiping out previously acquired immunological memory cells, leaving the host vulnerable to secondary infections. [learn more](GST114_U4_T11#GST114_U4_T11_h4)"
+    "explanation": "Persistent immune activation and nutritional drain from chronic infections deplete the body's reserves needed to maintain robust immune defenses. [learn more](GST114_U4_T11#GST114_U4_T11_h4)"
   },
   {
     "question_id": "GST114_U4_T11_h5_q1",
     "heading_id": "GST114_U4_T11_h5",
     "article_id": "GST114_U4_T11",
     "topic_id": "GST114_U4_T11",
-    "question": "What defines iatrogenic acquired immune deficiencies?",
+    "difficulty": "recall",
+    "question": "Which of the following is an example of an iatrogenic cause of immune deficiency?",
     "options": {
-      "A": "Deficiencies caused strictly by genetic mutations inherited from parents",
-      "B": "Deficiencies induced directly by medical treatments, interventions, or medications",
-      "C": "Deficiencies resulting exclusively from severe childhood malnutrition",
-      "D": "Deficiencies caused by untreated waterborne parasites"
+      "A": "Genetic mutation on the X chromosome",
+      "B": "Spontaneous thymic aplasia during embryonic development",
+      "C": "Chemotherapy-induced bone marrow suppression",
+      "D": "Congenital enzyme deficiency of adenosine deaminase"
     },
-    "answer": "B",
-    "explanation": "Iatrogenic causes refer to immune suppression that is directly induced by medical interventions, such as immunosuppressive drugs, chemotherapy, or surgery. [learn more](GST114_U4_T11#GST114_U4_T11_h5)"
+    "answer": "C",
+    "explanation": "Iatrogenic immune deficiencies are caused directly by medical treatments, such as cytotoxic chemotherapy or immunosuppressive drugs. [learn more](GST114_U4_T11#GST114_U4_T11_h5)"
   },
   {
     "question_id": "GST114_U4_T11_h5_q2",
     "heading_id": "GST114_U4_T11_h5",
     "article_id": "GST114_U4_T11",
     "topic_id": "GST114_U4_T11",
-    "question": "How do cytotoxic chemotherapeutic agents contribute to acquired immune deficiency?",
+    "difficulty": "understanding",
+    "question": "Why do patients receiving long-term high-dose corticosteroid therapy face an increased risk of infection?",
     "options": {
-      "A": "By stimulating excess production of mature T cells",
-      "B": "By indiscriminately destroying rapidly dividing cells, including bone marrow precursors",
-      "C": "By enhancing the complement cascade beyond normal levels",
-      "D": "By thickening mucosal barriers against pathogens"
+      "A": "Corticosteroids accelerate the renal excretion of protective serum antibodies.",
+      "B": "Corticosteroids permanently bind to viral particles in the bloodstream.",
+      "C": "Corticosteroids physically destroy mucosal barriers in the gastrointestinal tract.",
+      "D": "Corticosteroids suppress the inflammatory response and reduce white blood cell activity."
     },
-    "answer": "B",
-    "explanation": "Chemotherapy targets rapidly dividing cells, which includes bone marrow precursors, leading to decreased white blood cell counts and lowered immunity. [learn more](GST114_U4_T11#GST114_U4_T11_h5)"
+    "answer": "D",
+    "explanation": "Steroids exert potent anti-inflammatory and immunosuppressive effects, blunting leukocyte migration, proliferation, and cytokine release. [learn more](GST114_U4_T11#GST114_U4_T11_h5)"
   },
   {
     "question_id": "GST114_U4_T11_h6_q1",
     "heading_id": "GST114_U4_T11_h6",
     "article_id": "GST114_U4_T11",
     "topic_id": "GST114_U4_T11",
-    "question": "What is a key component of the physical examination for a patient suspected of having an acquired immune deficiency?",
+    "difficulty": "recall",
+    "question": "Which laboratory test is essential for tracking immune system decline in patients with HIV?",
     "options": {
-      "A": "Measuring visual acuity and eye movement",
-      "B": "Inspecting the oral cavity for candidiasis and lymph nodes for lymphadenopathy",
-      "C": "Testing deep tendon reflexes in the lower extremities",
-      "D": "Checking for symmetrical peripheral pulses"
+      "A": "CD4 T-cell count",
+      "B": "Liver function enzyme test",
+      "C": "Erythrocyte sedimentation rate",
+      "D": "Serum electrolyte panel"
     },
-    "answer": "B",
-    "explanation": "Physical exams for immune-compromised patients specifically look for signs of opportunistic infections and immune response, such as oral candidiasis and lymphadenopathy. [learn more](GST114_U4_T11#GST114_U4_T11_h6)"
+    "answer": "A",
+    "explanation": "Monitoring CD4 T-cell counts provides a direct measurement of the immune system's structural integrity and disease progression. [learn more](GST114_U4_T11#GST114_U4_T11_h6)"
   },
   {
     "question_id": "GST114_U4_T11_h6_q2",
     "heading_id": "GST114_U4_T11_h6",
     "article_id": "GST114_U4_T11",
     "topic_id": "GST114_U4_T11",
-    "question": "Which laboratory test is essential for staging the severity of immune decline in HIV-positive patients?",
+    "difficulty": "understanding",
+    "question": "Which clinical finding is considered a hallmark warning sign of an underlying acquired immune deficiency?",
     "options": {
-      "A": "CD4+ T-lymphocyte subset enumeration",
-      "B": "Serum electrolyte panel",
-      "C": "Urinalysis for protein content",
-      "D": "Erythrocyte sedimentation rate alone"
+      "A": "Recurrent, unusual infections that respond poorly to standard antimicrobial therapy",
+      "B": "Sudden onset of hypertension accompanied by peripheral edema",
+      "C": "Elevated red blood cell count with increased hemoglobin levels",
+      "D": "Localized joint stiffness that improves noticeably with physical exercise"
     },
     "answer": "A",
-    "explanation": "CD4+ T-lymphocyte subset enumeration measures the specific immune cells depleted by HIV, directly staging the severity of the immune decline. [learn more](GST114_U4_T11#GST114_U4_T11_h6)"
+    "explanation": "An inability to clear routine pathogens or frequent bouts of opportunistic infections signal a failing immune surveillance network. [learn more](GST114_U4_T11#GST114_U4_T11_h6)"
   },
   {
     "question_id": "GST114_U4_T11_h7_q1",
     "heading_id": "GST114_U4_T11_h7",
     "article_id": "GST114_U4_T11",
     "topic_id": "GST114_U4_T11",
-    "question": "What is a primary reason why medication adherence counseling is critical for patients on Antiretroviral Therapy (ART)?",
+    "difficulty": "understanding",
+    "question": "What is the primary rationale for enforcing strict infection control practices around immunocompromised patients?",
     "options": {
-      "A": "To completely eliminate the need for future clinic visits",
-      "B": "To prevent treatment failure, drug resistance, and disease progression",
-      "C": "To ensure the patient gains excessive body weight rapidly",
-      "D": "To replace the need for nutritional counseling"
+      "A": "To enhance the systemic absorption of prescribed oral antimicrobial medications.",
+      "B": "To accelerate the regeneration of damaged bone marrow stem cells in peripheral blood.",
+      "C": "To prevent the patient from transmitting their underlying viral infection to other hospital rooms.",
+      "D": "To shield them from acquiring opportunistic pathogens from the environment and healthcare staff."
     },
-    "answer": "B",
-    "explanation": "Strict adherence to ART is essential to prevent viral replication, avoid drug resistance, and keep the disease from progressing. [learn more](GST114_U4_T11#GST114_U4_T11_h7)"
+    "answer": "D",
+    "explanation": "Compromised patients lack the immune defenses to fight off everyday environmental microbes, making strict environmental protection essential. [learn more](GST114_U4_T11#GST114_U4_T11_h7)"
   },
   {
     "question_id": "GST114_U4_T11_h7_q2",
     "heading_id": "GST114_U4_T11_h7",
     "article_id": "GST114_U4_T11",
     "topic_id": "GST114_U4_T11",
-    "question": "Which of the following interventions represents an effective environmental infection control strategy for an immune-compromised patient?",
+    "difficulty": "recall",
+    "question": "Why is medication adherence counseling particularly crucial for patients taking antiretroviral therapy?",
     "options": {
-      "A": "Encouraging the consumption of raw, unwashed vegetables",
-      "B": "Educating the patient to avoid large crowds and practice meticulous hand hygiene",
-      "C": "Recommending frequent visits to crowded enclosed spaces",
-      "D": "Discontinuing all routine hygiene practices"
+      "A": "To ensure the medication tastes acceptable to the patient.",
+      "B": "To reduce the financial cost of purchasing prescription refills.",
+      "C": "To prevent the development of drug-resistant viral strains.",
+      "D": "To eliminate all potential gastrointestinal side effects entirely."
     },
-    "answer": "B",
-    "explanation": "Avoiding crowds and practicing good hand hygiene reduce the exposure of immune-compromised patients to infectious pathogens. [learn more](GST114_U4_T11#GST114_U4_T11_h7)"
+    "answer": "C",
+    "explanation": "Inconsistent or partial adherence to antiretroviral regimens allows the virus to mutate, leading to treatment failure and resistant strains. [learn more](GST114_U4_T11#GST114_U4_T11_h7)"
   },
   {
     "question_id": "GST114_U4_T11_h8_q1",
     "heading_id": "GST114_U4_T11_h8",
     "article_id": "GST114_U4_T11",
     "topic_id": "GST114_U4_T11",
-    "question": "What is a primary public health strategy utilized in Nigeria to prevent vertical transmission of HIV?",
+    "difficulty": "recall",
+    "question": "What does the public health acronym PMTCT stand for in the context of HIV management?",
     "options": {
-      "A": "Prevention of mother-to-child transmission (PMTCT) programs",
-      "B": "Mandatory quarantine of all infected individuals",
-      "C": "Complete cessation of breastfeeding without nutritional replacement",
-      "D": "Restricting ART distribution exclusively to tertiary hospitals"
+      "A": "Prevention of Mother-to-Child Transmission",
+      "B": "Primary Medical Treatment and Care Tracking",
+      "C": "Pediatric Malnutrition and Tuberculosis Control",
+      "D": "Post-Mortem Tissue Culture Testing"
     },
     "answer": "A",
-    "explanation": "PMTCT programs are vital public health strategies designed to prevent the transmission of HIV from mothers to their infants during pregnancy, labor, or breastfeeding. [learn more](GST114_U4_T11#GST114_U4_T11_h8)"
+    "explanation": "PMTCT programs use screening, antiretroviral prophylaxis, and infant feeding counseling to prevent vertical transmission of HIV. [learn more](GST114_U4_T11#GST114_U4_T11_h8)"
   },
   {
     "question_id": "GST114_U4_T11_h8_q2",
     "heading_id": "GST114_U4_T11_h8",
     "article_id": "GST114_U4_T11",
     "topic_id": "GST114_U4_T11",
-    "question": "How do nurses function as frontline public health advocates in Nigerian communities regarding acquired immune deficiencies?",
+    "difficulty": "understanding",
+    "question": "How does widespread access to antiretroviral therapy impact public health on a national scale?",
     "options": {
-      "A": "By discouraging patients from seeking formal medical treatment",
-      "B": "By delivering health education, promoting testing, and facilitating linkage-to-care systems",
-      "C": "By focusing solely on surgical interventions in tertiary care",
-      "D": "By ignoring cultural beliefs and socio-economic barriers"
+      "A": "It permanently eradicates the viral pathogen from every infected individual within two years.",
+      "B": "It eliminates all secondary opportunistic infections without the need for antimicrobial prophylaxis.",
+      "C": "It replaces the need for nutritional supplementation programs in rural communities.",
+      "D": "It suppresses viral loads in the population, improving life expectancy and reducing transmission rates."
     },
-    "answer": "B",
-    "explanation": "Nurses educate communities, promote voluntary counseling and testing, and connect diagnosed patients to ongoing medical care and support services. [learn more](GST114_U4_T11#GST114_U4_T11_h8)"
+    "answer": "D",
+    "explanation": "Effective ART lowers viral replication to undetectable levels, which restores immune health for the individual and dramatically cuts community transmission. [learn more](GST114_U4_T11#GST114_U4_T11_h8)"
   }
 ]

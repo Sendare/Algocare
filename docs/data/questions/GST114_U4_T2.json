@@ -4,239 +4,255 @@
     "heading_id": "GST114_U4_T2_h1",
     "article_id": "GST114_U4_T2",
     "topic_id": "GST114_U4_T2",
-    "question": "What is the primary defining characteristic of an antigen?",
+    "difficulty": "recall",
+    "question": "What is the original definition-based root of the word antigen?",
     "options": {
-      "A": "It must always cause severe disease.",
-      "B": "It can bind specifically to an antibody or T-cell receptor.",
-      "C": "It is exclusively produced by human cells.",
-      "D": "It cannot be recognized by the immune system."
+      "A": "Affinity glycoprotein",
+      "B": "Antitoxin producer",
+      "C": "Antibody generator",
+      "D": "Active globulin network"
     },
-    "answer": "B",
-    "explanation": "An antigen is formally defined by its ability to bind specifically to an antibody or a T-cell receptor, regardless of whether it causes disease. [learn more](GST114_U4_T2#GST114_U4_T2_h1)"
+    "answer": "C",
+    "explanation": "The word antigen is a portmanteau derived from antibody generator, reflecting its historical discovery as a substance that stimulates antibody production. [learn more](GST114_U4_T2#GST114_U4_T2_h1)"
   },
   {
     "question_id": "GST114_U4_T2_h1_q2",
     "heading_id": "GST114_U4_T2_h1",
     "article_id": "GST114_U4_T2",
     "topic_id": "GST114_U4_T2",
-    "question": "Which of the following describes an endogenous antigen?",
+    "difficulty": "understanding",
+    "question": "Why are all immunogens classified as antigens, but not all antigens are classified as immunogens?",
     "options": {
-      "A": "A bacteria entering through a wound",
-      "B": "A parasite ingested in contaminated water",
-      "C": "An antigen generated within the host cell",
-      "D": "A vaccine administered intramuscularly"
+      "A": "Immunogens only exist within viral pathogens rather than bacterial cells.",
+      "B": "Immunogens lack the necessary molecular weight to interact with B-cells.",
+      "C": "Antigens can bind immune receptors without always prompting an immune response.",
+      "D": "Antigens are exclusively manufactured by synthetic pharmacological agents."
     },
     "answer": "C",
-    "explanation": "Endogenous antigens are generated within host cells, typically as a result of normal cellular metabolism or viral replication inside the cell. [learn more](GST114_U4_T2#GST114_U4_T2_h1)"
+    "explanation": "Binding capability defines an antigen, whereas the specific ability to stimulate a full immune response distinguishes an immunogen. [learn more](GST114_U4_T2#GST114_U4_T2_h1)"
   },
   {
     "question_id": "GST114_U4_T2_h2_q1",
     "heading_id": "GST114_U4_T2_h2",
     "article_id": "GST114_U4_T2",
     "topic_id": "GST114_U4_T2",
-    "question": "Which molecular property generally increases the immunogenicity of a substance?",
+    "difficulty": "recall",
+    "question": "What is the typical minimum molecular weight threshold for a substance to act as a potent immunogen?",
     "options": {
-      "A": "Low molecular weight",
-      "B": "Simple chemical structure",
-      "C": "High molecular weight and complexity",
-      "D": "Complete lack of foreignness"
+      "A": "500 daltons",
+      "B": "50,000 daltons",
+      "C": "10,000 daltons",
+      "D": "1,000 daltons"
     },
     "answer": "C",
-    "explanation": "High molecular weight and chemical complexity provide the structural diversity needed to strongly stimulate the immune system. [learn more](GST114_U4_T2#GST114_U4_T2_h2)"
+    "explanation": "Molecules with a molecular mass above 10,000 daltons generally possess the structural complexity required to prompt an adaptive immune response. [learn more](GST114_U4_T2#GST114_U4_T2_h2)"
   },
   {
     "question_id": "GST114_U4_T2_h2_q2",
     "heading_id": "GST114_U4_T2_h2",
     "article_id": "GST114_U4_T2",
     "topic_id": "GST114_U4_T2",
-    "question": "Why are adjuvants sometimes added to vaccines?",
+    "difficulty": "understanding",
+    "question": "Why are large proteins typically much stronger immunogens than simple repeating lipid chains?",
     "options": {
-      "A": "To decrease the shelf life of the vaccine",
-      "B": "To enhance the immunogenicity of the vaccine antigens",
-      "C": "To neutralize the target pathogen directly",
-      "D": "To eliminate all potential side effects"
+      "A": "Proteins contain no carbon bonds that can be broken down.",
+      "B": "Lipids dissolve instantly in normal human blood plasma.",
+      "C": "Proteins offer greater structural and chemical complexity.",
+      "D": "Lipids are completely invisible to lymphatic circulating cells."
     },
-    "answer": "B",
-    "explanation": "Adjuvants are added to vaccines specifically to boost or enhance the immunogenicity of the enclosed antigens, resulting in a stronger immune response. [learn more](GST114_U4_T2#GST114_U4_T2_h2)"
+    "answer": "C",
+    "explanation": "Chemical complexity allows for a wider array of distinct binding sites, greatly increasing the likelihood of recognition by diverse lymphocyte receptors. [learn more](GST114_U4_T2#GST114_U4_T2_h2)"
   },
   {
     "question_id": "GST114_U4_T2_h3_q1",
     "heading_id": "GST114_U4_T2_h3",
     "article_id": "GST114_U4_T2",
     "topic_id": "GST114_U4_T2",
-    "question": "Which type of antigen is responsible for triggering transfusion reactions due to genetic differences within the same species?",
+    "difficulty": "recall",
+    "question": "Which category of antigens includes self-molecules that mistakenly trigger an immune response in autoimmune diseases?",
     "options": {
-      "A": "Autoantigens",
-      "B": "Exogenous antigens",
-      "C": "Alloantigens",
-      "D": "Xenogens"
+      "A": "Heterophile antigens",
+      "B": "Alloantigens",
+      "C": "Autoantigens",
+      "D": "Exogenous antigens"
     },
     "answer": "C",
-    "explanation": "Alloantigens are found in individuals of the same species but differ genetically, which is why they are critical considerations in blood transfusions and organ transplants. [learn more](GST114_U4_T2#GST114_U4_T2_h3)"
+    "explanation": "Autoantigens are normal host constituents that lose immune tolerance, leading to self-directed attacks by the immune system. [learn more](GST114_U4_T2#GST114_U4_T2_h3)"
   },
   {
     "question_id": "GST114_U4_T2_h3_q2",
     "heading_id": "GST114_U4_T2_h3",
     "article_id": "GST114_U4_T2",
     "topic_id": "GST114_U4_T2",
-    "question": "What defines an autoantigen?",
+    "difficulty": "understanding",
+    "question": "A patient experiencing a transfusion reaction after receiving mismatched blood is reacting to which type of antigen?",
     "options": {
-      "A": "An antigen originating from a bacterial infection",
-      "B": "A normal body component mistakenly targeted by the immune system",
-      "C": "A synthetic chemical used in medication",
-      "D": "An antigen shared between humans and animals"
+      "A": "Endogenous antigens",
+      "B": "Exogenous antigens",
+      "C": "Autoantigens",
+      "D": "Alloantigens"
     },
-    "answer": "B",
-    "explanation": "Autoantigens are normal constituents of the host's own tissues that become the targets of an aberrant immune response in autoimmune disorders. [learn more](GST114_U4_T2#GST114_U4_T2_h3)"
+    "answer": "D",
+    "explanation": "Alloantigens vary among members of the same species, making them the primary drivers of immune rejection during blood transfusions and organ transplants. [learn more](GST114_U4_T2#GST114_U4_T2_h3)"
   },
   {
     "question_id": "GST114_U4_T2_h4_q1",
     "heading_id": "GST114_U4_T2_h4",
     "article_id": "GST114_U4_T2",
     "topic_id": "GST114_U4_T2",
-    "question": "What is another term for an antigenic determinant?",
+    "difficulty": "recall",
+    "question": "What is another accepted medical term for an antigenic determinant?",
     "options": {
-      "A": "Hapten",
-      "B": "Adjuvant",
-      "C": "Epitope",
-      "D": "MHC molecule"
+      "A": "Paratope",
+      "B": "Hapten",
+      "C": "Adjuvant",
+      "D": "Epitope"
     },
-    "answer": "C",
-    "explanation": "An epitope is synonymous with an antigenic determinant, representing the precise region of the antigen recognized by immune receptors. [learn more](GST114_U4_T2#GST114_U4_T2_h4)"
+    "answer": "D",
+    "explanation": "An epitope is the precise molecular site on an antigen that binds directly to an antibody or lymphocyte receptor. [learn more](GST114_U4_T2#GST114_U4_T2_h4)"
   },
   {
     "question_id": "GST114_U4_T2_h4_q2",
     "heading_id": "GST114_U4_T2_h4",
     "article_id": "GST114_U4_T2",
     "topic_id": "GST114_U4_T2",
-    "question": "How do conformational epitopes differ from linear epitopes?",
+    "difficulty": "understanding",
+    "question": "How do T-cell epitopes differ fundamentally from many B-cell epitopes regarding protein structure?",
     "options": {
-      "A": "Conformational epitopes are formed by amino acids brought together by three-dimensional protein folding.",
-      "B": "Conformational epitopes consist only of continuous stretches of carbohydrates.",
-      "C": "Conformational epitopes can only be recognized by T cells.",
-      "D": "Conformational epitopes are identical across all known pathogens."
+      "A": "T-cell epitopes are composed strictly of repeating carbohydrate units.",
+      "B": "T-cell epitopes are almost exclusively short linear peptide sequences.",
+      "C": "T-cell epitopes only bind to free floating antibodies in serum.",
+      "D": "T-cell epitopes require fully folded three-dimensional protein structures."
     },
-    "answer": "A",
-    "explanation": "Conformational epitopes are formed when amino acid residues from different parts of the chain are brought into close proximity through the folding of the protein. [learn more](GST114_U4_T2#GST114_U4_T2_h4)"
+    "answer": "B",
+    "explanation": "Because T-cells recognize processed antigens presented on MHC proteins, their epitopes must be linearized peptide fragments rather than folded surface shapes. [learn more](GST114_U4_T2#GST114_U4_T2_h4)"
   },
   {
     "question_id": "GST114_U4_T2_h5_q1",
     "heading_id": "GST114_U4_T2_h5",
     "article_id": "GST114_U4_T2",
     "topic_id": "GST114_U4_T2",
-    "question": "Why are haptens unable to trigger an immune response by themselves?",
+    "difficulty": "recall",
+    "question": "What missing property prevents a hapten from triggering an immune response on its own?",
     "options": {
-      "A": "They are too large and get trapped in tissues.",
-      "B": "They lack sufficient molecular weight and immunogenicity.",
-      "C": "They are always destroyed by stomach acid.",
-      "D": "They can only bind to T cells, never B cells."
+      "A": "Immunogenicity",
+      "B": "Solubility",
+      "C": "Reactivity",
+      "D": "Stability"
     },
-    "answer": "B",
-    "explanation": "Haptens are small molecules lacking the necessary size and immunogenicity to stimulate an immune response independently. [learn more](GST114_U4_T2#GST114_U4_T2_h5)"
+    "answer": "A",
+    "explanation": "Haptens are reactive but lack immunogenicity until they bind to a larger carrier molecule. [learn more](GST114_U4_T2#GST114_U4_T2_h5)"
   },
   {
     "question_id": "GST114_U4_T2_h5_q2",
     "heading_id": "GST114_U4_T2_h5",
     "article_id": "GST114_U4_T2",
     "topic_id": "GST114_U4_T2",
-    "question": "What role does a carrier molecule play when bound to a hapten?",
+    "difficulty": "application",
+    "question": "A patient develops a severe allergic skin reaction after taking penicillin. Why does this small drug molecule act as an antigen in the body?",
     "options": {
-      "A": "It neutralizes the hapten to prevent all immune activity.",
-      "B": "It provides the molecular size and immunogenicity needed to elicit an immune response.",
-      "C": "It breaks down the hapten into harmless amino acids.",
-      "D": "It prevents the hapten from entering the bloodstream."
+      "A": "It binds to larger endogenous serum proteins acting as a carrier.",
+      "B": "It inactivates circulating regulatory macrophages in the spleen.",
+      "C": "It directly stimulates helper T-cells without requiring processing.",
+      "D": "It converts into a large carbohydrate polymer within the bloodstream."
     },
-    "answer": "B",
-    "explanation": "Coupling a hapten to a large carrier molecule provides the necessary immunogenicity and size for the immune system to mount a response against the hapten. [learn more](GST114_U4_T2#GST114_U4_T2_h5)"
+    "answer": "A",
+    "explanation": "Penicillin acts as a hapten, binding to host carrier proteins to form an immunogenic complex that triggers hypersensitivity. [learn more](GST114_U4_T2#GST114_U4_T2_h5)"
   },
   {
     "question_id": "GST114_U4_T2_h6_q1",
     "heading_id": "GST114_U4_T2_h6",
     "article_id": "GST114_U4_T2",
     "topic_id": "GST114_U4_T2",
-    "question": "What is a primary characteristic of T-dependent antigens?",
+    "difficulty": "recall",
+    "question": "What primary class of biological molecules makes up most T-independent antigens?",
     "options": {
-      "A": "They are usually simple lipids with no protein content.",
-      "B": "They require helper T-cell collaboration to stimulate effective B cell responses.",
-      "C": "They can trigger robust antibody production without any cellular help.",
-      "D": "They never generate immunological memory."
+      "A": "Steroid hormones",
+      "B": "Globular enzymes",
+      "C": "Single-stranded lipids",
+      "D": "Repeating carbohydrates"
     },
-    "answer": "B",
-    "explanation": "T-dependent antigens require direct cooperation from CD4+ helper T cells to stimulate B cells to undergo class switching and produce high-affinity antibodies. [learn more](GST114_U4_T2#GST114_U4_T2_h6)"
+    "answer": "D",
+    "explanation": "Polysaccharide capsules on bacteria often act as T-independent antigens due to their repetitive structural arrays. [learn more](GST114_U4_T2#GST114_U4_T2_h6)"
   },
   {
     "question_id": "GST114_U4_T2_h6_q2",
     "heading_id": "GST114_U4_T2_h6",
     "article_id": "GST114_U4_T2",
     "topic_id": "GST114_U4_T2",
-    "question": "Why are polysaccharide vaccines conjugated with protein carriers for infants?",
+    "difficulty": "understanding",
+    "question": "What is a major immunological consequence of an antigen being classified as T-independent?",
     "options": {
-      "A": "To turn a T-independent antigen into a T-dependent antigen for better memory",
-      "B": "To make the vaccine completely inert and non-reactive",
-      "C": "To shorten the manufacturing process",
-      "D": "To prevent the vaccine from dissolving in the vial"
+      "A": "It induces massive high-affinity IgG production immediately.",
+      "B": "It triggers immediate destruction of all naive helper T-cells.",
+      "C": "It generates weak immunological memory and primarily produces IgM.",
+      "D": "It requires direct presentation by professional dendritic cells."
     },
-    "answer": "A",
-    "explanation": "Conjugating polysaccharides to proteins converts a T-independent response into a T-dependent one, ensuring strong immune memory in young infants. [learn more](GST114_U4_T2#GST114_U4_T2_h6)"
+    "answer": "C",
+    "explanation": "Because helper T-cells are not involved, isotype switching and robust immunological memory are largely absent during T-independent responses. [learn more](GST114_U4_T2#GST114_U4_T2_h6)"
   },
   {
     "question_id": "GST114_U4_T2_h7_q1",
     "heading_id": "GST114_U4_T2_h7",
     "article_id": "GST114_U4_T2",
     "topic_id": "GST114_U4_T2",
-    "question": "How do superantigens differ from conventional antigens?",
+    "difficulty": "recall",
+    "question": "What is the primary mechanism by which superantigens differ from conventional antigens?",
     "options": {
-      "A": "They activate a massive percentage of the total T-cell population non-specifically.",
-      "B": "They only stimulate B cells and completely ignore T cells.",
-      "C": "They suppress the immune system to prevent inflammation.",
-      "D": "They require extensive processing before receptor binding."
+      "A": "They bind T-cell receptors and MHC molecules nonspecifically without normal processing.",
+      "B": "They suppress all immune activity to induce complete cellular tolerance.",
+      "C": "They require higher molecular weights exceeding 100,000 daltons to function.",
+      "D": "They exclusively target B-lymphocytes while ignoring all T-cell lines."
     },
     "answer": "A",
-    "explanation": "Superantigens bypass normal antigen presentation and non-specifically activate a huge percentage of the T-cell population, causing a massive cytokine release. [learn more](GST114_U4_T2#GST114_U4_T2_h7)"
+    "explanation": "Superantigens crosslink MHC II and T-cell receptors directly outside the normal peptide-binding groove, activating vast numbers of T-cells. [learn more](GST114_U4_T2#GST114_U4_T2_h7)"
   },
   {
     "question_id": "GST114_U4_T2_h7_q2",
     "heading_id": "GST114_U4_T2_h7",
     "article_id": "GST114_U4_T2",
     "topic_id": "GST114_U4_T2",
-    "question": "What is a dangerous clinical consequence of a superantigen-induced cytokine storm?",
+    "difficulty": "understanding",
+    "question": "What clinical complication is most directly driven by the massive cytokine release caused by superantigens?",
     "options": {
-      "A": "Permanent immunity to all bacterial infections",
-      "B": "Systemic shock and potential multiple organ failure",
-      "C": "Immediate cessation of all inflammatory processes",
-      "D": "Enhanced blood clotting throughout the body"
+      "A": "Systemic shock and vascular collapse",
+      "B": "Widespread localized tissue fibrosis",
+      "C": "Profound permanent immunosuppression",
+      "D": "Complete failure of antibody synthesis"
     },
-    "answer": "B",
-    "explanation": "The unregulated flooding of pro-inflammatory cytokines can lead to severe systemic shock and multiple organ failure. [learn more](GST114_U4_T2#GST114_U4_T2_h7)"
+    "answer": "A",
+    "explanation": "The massive flood of inflammatory cytokines causes widespread vasodilation and capillary leakage, culminating in toxic shock. [learn more](GST114_U4_T2#GST114_U4_T2_h7)"
   },
   {
     "question_id": "GST114_U4_T2_h8_q1",
     "heading_id": "GST114_U4_T2_h8",
     "article_id": "GST114_U4_T2",
     "topic_id": "GST114_U4_T2",
-    "question": "What is a key nursing responsibility when administering blood transfusions to prevent adverse antigen reactions?",
+    "difficulty": "recall",
+    "question": "Which nursing action is vital for preventing acute hemolytic reactions related to alloantigens before blood administration?",
     "options": {
-      "A": "Diluting the blood with sterile water",
-      "B": "Meticulously verifying patient identity and blood type compatibility",
-      "C": "Warming the blood to body temperature in a microwave",
-      "D": "Administering antibiotics prior to the transfusion"
+      "A": "Warming the infusion line to precisely normal body temperature",
+      "B": "Administering high-dose prophylactic broad-spectrum antibiotics",
+      "C": "Meticulous verification of donor and recipient blood compatibility",
+      "D": "Checking the patient for a history of seasonal pollen allergies"
     },
-    "answer": "B",
-    "explanation": "Meticulous verification of patient identity and blood type prevents fatal hemolytic reactions caused by mismatched alloantigens. [learn more](GST114_U4_T2#GST114_U4_T2_h8)"
+    "answer": "C",
+    "explanation": "Checking blood compatibility ensures that mismatched red blood cell alloantigens do not trigger a severe immune attack. [learn more](GST114_U4_T2#GST114_U4_T2_h8)"
   },
   {
     "question_id": "GST114_U4_T2_h8_q2",
     "heading_id": "GST114_U4_T2_h8",
     "article_id": "GST114_U4_T2",
     "topic_id": "GST114_U4_T2",
-    "question": "How do rapid diagnostic tests for infections typically function in clinical practice?",
+    "difficulty": "understanding",
+    "question": "How do standard vaccines utilize the basic principles of immunology to protect patients?",
     "options": {
-      "A": "By measuring white blood cell counts",
-      "B": "By utilizing antibodies to detect specific pathogen antigens",
-      "C": "By destroying the patient's red blood cells",
-      "D": "By measuring electrical activity in the heart"
+      "A": "They inhibit all T-dependent pathways to prevent any future hypersensitivity reactions.",
+      "B": "They supply ready-made exogenous antibodies to permanently replace the patient's bone marrow.",
+      "C": "They introduce safe microbial antigens to stimulate immunological memory without causing active disease.",
+      "D": "They act as synthetic haptens that destroy circulating autoantigens in the bloodstream."
     },
-    "answer": "B",
-    "explanation": "Rapid diagnostic tests utilize specific antibodies to detect the presence of pathogen antigens in patient samples, yielding fast results. [learn more](GST114_U4_T2#GST114_U4_T2_h8)"
+    "answer": "C",
+    "explanation": "Vaccines rely on immunogenic parts of pathogens to safely train the adaptive immune system for rapid defense upon future exposure. [learn more](GST114_U4_T2#GST114_U4_T2_h8)"
   }
 ]
