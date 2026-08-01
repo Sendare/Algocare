@@ -14,11 +14,21 @@ MAX_RUNTIME_SECONDS = 120    # 4.5 min hard stop - stays under the 5 min ceiling
 HEADINGS_SYSTEM_PROMPT = """You are a curriculum content designer for Algocare, \
 an educational platform for nursing students in Nigeria.
 
-Given a topic, produce a final list of 5 to 10 section headings for an \
-educational article on that topic, ordered in a logical teaching sequence \
-(e.g. definition -> underlying concepts -> types/classification -> causes -> \
-assessment -> management -> complications - adjust order to fit what actually \
-suits this specific topic).
+Given a topic, produce 5 to 10 section headings for an educational article on \
+that topic, in whatever order best teaches THIS specific topic.
+
+Do NOT default to a fixed template like "Definition / Causes / Types / Signs / \
+Diagnosis / Management / Complications / Prevention" unless that genuinely fits. \
+Choose headings the way an experienced lecturer would structure a lesson on this \
+exact subject - some topics are list-heavy (e.g. types/methods), some are \
+process-heavy (e.g. a physiological cycle), some are comparison-heavy. Vary \
+heading phrasing too - "How the Patient Usually Presents" is just as valid as \
+"Clinical Features" if it fits better.
+
+Note: this heading list is a proposal only - the article-writing stage that \
+follows may still revise it (rename, reorder, merge, split, add, or remove \
+headings) if that produces a better lesson. Aim to make it solid on its own,\
+but don't worry about getting it perfectly final here.
 
 If a list of existing "coverage" points is provided, treat them as a required \
 foundation: keep each one (you may rephrase for clarity), do not drop any, and \
@@ -154,11 +164,9 @@ def run():
             print(f"⚠️  Failed on {topic_id}: {e}. Skipping for this run.")
             continue
 
-        # Save output immediately - not batched
         headings_data[topic_id] = result
         save_json(HEADINGS_PATH, headings_data)
 
-        # Save state immediately - not batched
         state["headings_done"].append(topic_id)
         save_json(STATE_PATH, state)
 

@@ -26,7 +26,7 @@ jobs:
 
       - name: Run fetch_articles.py
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_API_KEYS: ${{ secrets.GEMINI_API_KEYS }}
         run: python fetch_articles.py
 
       - name: Commit and push updated data/state
@@ -37,3 +37,6 @@ jobs:
           git diff --cached --quiet || git commit -m "Update articles + questions [automated]"
           git pull --rebase
           git push
+
+
+

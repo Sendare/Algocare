@@ -12,7 +12,8 @@ let questions = [];
 let siteIndex = [];
 let current = 0;
 let answers = []; // { selected, isCorrect, showExplanation }
-let endTime = null; // absolute timestamp (ms) - survives refresh/backgrounding, unlike a countdown int
+let endTime = null; // absolute timestamp (ms) - survives refresh/backgrounding
+let pauseStartedAt = null; // timestamp (ms) when the current pause began, or null
 let timerInterval = null;
 
 function shuffle(arr) {
@@ -25,7 +26,9 @@ function shuffle(arr) {
 }
 
 function saveState() {
-  sessionStorage.setItem(STORAGE_KEY, JSON.stringify({ questions, current, answers, endTime }));
+  sessionStorage.setItem(STORAGE_KEY, JSON.stringify({
+    questions, current, answers, endTime, pauseStartedAt,
+  }));
 }
 
 function loadState() {
@@ -53,6 +56,7 @@ async function init() {
       current = saved.current;
       answers = saved.answers;
       endTime = saved.endTime;
+      pauseStartedAt = saved.pauseStartedAt ?? null;
     } else {
       let pool = [];
       if (topicId) {
@@ -71,6 +75,7 @@ async function init() {
       questions = shuffle(pool).slice(0, count);
       answers = new Array(questions.length).fill(null);
       endTime = Date.now() + questions.length * secondsPerQuestion * 1000;
+      pauseStartedAt = null;
       saveState();
     }
   } catch (err) {
@@ -84,6 +89,12 @@ async function init() {
     document.getElementById("root").innerHTML = `<div class="empty-state">No questions available.</div>`;
     return;
   }
+
+  // Reconcile any pause that was active across a reload/background before
+  // checking whether time's up - otherwise a long background gap while
+  // paused could be wrongly read as "time expired" even though that whole
+  // gap should have been excluded from the countdown.
+  reconcilePause();
 
   if (Date.now() >= endTime) {
     finishTest(true);
@@ -99,16 +110,31 @@ function isPaused() {
   return !!(a && a.showExplanation);
 }
 
+/**
+ * Single source of truth for pause bookkeeping. Call at the start of every
+ * render() and once in init() after restoring state. Uses real timestamps
+ * (not per-tick increments), so it's correct even if setInterval ticks get
+ * throttled or dropped entirely while the tab is backgrounded - the elapsed
+ * pause duration is always (now - pauseStartedAt), measured directly.
+ */
+function reconcilePause() {
+  if (isPaused()) {
+    if (pauseStartedAt === null) {
+      pauseStartedAt = Date.now();
+      saveState();
+    }
+  } else if (pauseStartedAt !== null) {
+    endTime += Date.now() - pauseStartedAt;
+    pauseStartedAt = null;
+    saveState();
+  }
+}
+
 function startTimer() {
   updateTimerDisplay();
   timerInterval = setInterval(() => {
     if (isPaused()) {
-      // Push the deadline forward each second spent reading an explanation,
-      // so open explanation time never eats into the exam clock - and this
-      // survives a refresh too, since endTime is persisted every tick.
-      endTime += 1000;
-      saveState();
-      updateTimerDisplay();
+      updateTimerDisplay(); // shows "PAUSED" - no countdown/expiry check while paused
       return;
     }
     if (Date.now() >= endTime) {
@@ -138,6 +164,8 @@ function updateTimerDisplay() {
 }
 
 function render() {
+  reconcilePause();
+
   const q = questions[current];
   const answer = answers[current];
   const optionKeys = Object.keys(q.options);
@@ -250,16 +278,23 @@ function selectAnswer(key) {
 function finishTest(timedOut) {
   clearInterval(timerInterval);
   clearState();
-  const correctCount = answers.filter(a => a && a.isCorrect).length;
-  const answeredCount = answers.filter(a => a).length;
-  const pct = Math.round((correctCount / questions.length) * 100);
+
+  const total = questions.length;
+  const attempted = answers.filter(a => a).length;
+  const correct = answers.filter(a => a && a.isCorrect).length;
+  const pctOfAttempted = attempted > 0 ? Math.round((correct / attempted) * 100) : 0;
+  const pctOfTotal = Math.round((correct / total) * 100);
 
   document.getElementById("root").innerHTML = `
     <div class="score-summary">
       <h2>${timedOut ? "Time's up" : "Practice complete"}</h2>
-      <div class="big-score">${correctCount} out of ${questions.length}</div>
-      <p style="color: var(--ink-soft); font-weight:600; font-size:1.1rem;">Score ${pct}%</p>
-      <p style="color: var(--ink-soft);">${answeredCount} of ${questions.length} questions answered</p>
+      <div class="big-score">${correct} out of ${total}</div>
+      <div style="color: var(--ink-soft); margin-top: 8px;">
+        <p style="margin: 4px 0;">Attempted: ${attempted} out of ${total}</p>
+        <p style="margin: 4px 0;">Correct answers: ${correct}</p>
+        <p style="margin: 4px 0;">Score (of attempted): ${correct} out of ${attempted} · ${pctOfAttempted}%</p>
+        <p style="margin: 4px 0;">Score (of all ${total}): ${correct} out of ${total} · ${pctOfTotal}%</p>
+      </div>
       <a class="btn" href="index.html" style="text-decoration:none; display:inline-block; margin-top: 16px;">Back to practice tests</a>
     </div>
   `;

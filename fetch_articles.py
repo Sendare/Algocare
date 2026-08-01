@@ -1,4 +1,5 @@
 import json
+import random
 import time
 import sys
 from pathlib import Path
@@ -11,36 +12,82 @@ ARTICLES_DIR = "data/articles"
 QUESTIONS_DIR = "data/questions"
 STATE_PATH = "state/generation_state.json"
 
-MAX_RUNTIME_SECONDS =  180 
-
-   # 4.5 min hard stop - stays under the 5 min ceiling
+MAX_RUNTIME_SECONDS = 180    # 4.5 min hard stop - stays under the 5 min ceiling
 
 # The AI never constructs the learn-more link itself - it just marks where one
 # goes with this literal token, which the script replaces deterministically.
 LEARN_MORE_TOKEN = "[[LEARN_MORE]]"
 
-ARTICLE_SYSTEM_PROMPT = """You are an expert nursing educator writing study \
-content for Algocare, an educational platform for nursing students in Nigeria.
+ARTICLE_SYSTEM_PROMPT = """You are an experienced nursing lecturer writing study \
+content for Algocare, an educational platform for nursing students in Nigeria \
 
-You will be given a topic and its ordered list of section headings. For EACH \
-heading, write:
+You will be given a topic and a proposed list of section headings. You may use \
+these headings as-is, OR revise them: rename, reorder, merge, split, add, or \
+remove headings if that produces a better lesson on this specific topic. Return \
+5 to 10 final headings either way.
 
-1. "content": clear, accurate educational text (150-300 words) suitable for \
-nursing students preparing for exams.
+For EACH final heading, write:
 
-2. "questions": exactly 2 multiple-choice questions based ONLY on the content \
-you just wrote for that heading (not on outside knowledge), so a student who \
-read that heading could answer them.
+1. "content": Write only as much as the heading naturally requires. Most \
+sections will be 80-350 words - a simple definition might be short, a \
+management section might be longer. Do not make every section a similar \
+length. Vary sentence length and rhythm. Avoid repetitive transitions like \
+"However," "In addition," "nurses should" "student nurses" "Furthermore," "It is important to..." appearing in \
+almost every section. Do not end every section with a generic closer like \
+"nurses should provide emotional support" or "patient education is essential" \
+unless it's specifically relevant to THIS heading's content.
 
-Each question needs:
+Choose the format that best teaches the concept - not everything needs to be a \
+paragraph:
+- If the heading is naturally a list (types, methods, causes, steps), write it \
+as an actual markdown list: "1. **Name**: description" for ordered, or \
+"- **Name**: description" for unordered.
+- Use **bold** for key terms.
+- Use a markdown table (| col | col |) only if comparing multiple items across \
+the same attributes.
+- Otherwise, write clear prose.
+
+Include practical clinical/exam-relevant observations where genuinely relevant \
+(a common misconception) - but \
+don't force one into every heading if it doesn't fit naturally. Only mention \
+scientific uncertainty if it genuinely exists for this specific fact - do not \
+manufacture hedging language on settled topics.
+
+2. "questions": exactly 2 multiple-choice questions per heading that test the \
+underlying nursing CONCEPT that heading covers - not the specific wording of \
+the paragraph you just wrote. A student who studied this same concept from a \
+different textbook or article should still be able to answer correctly.
+
+Question difficulty mix across the whole set (not necessarily each heading): \
+roughly 65% straightforward recall, 30% basic understanding/reasoning, 5% \
+simple application (e.g. "a patient with X is most likely to..."). Avoid \
+narrow, obscure drug-specific edge-case recall (e.g. rare side effects of a \
+single named drug) for recall-tier questions - keep those approachable so \
+beginners aren't discouraged from daily practice. Questions should be exciting so any student will feel curious and happy to answer.
+
+Vary question stems - do NOT start every question with "Which of the \
+following...". Mix in: "What is...", "The main cause of X is...", "A patient \
+with [scenario] is most likely to...", "Which symptom is most characteristic \
+of...", etc.
+
+You may occasionally (roughly 2 in 10 questions, not more) use a \
+negative-framed question (NOT / EXCEPT / all BUT one). When you do, the \
+negation word MUST appear in full capitals in the question text itself (e.g. \
+"Which of the following is NOT a symptom of...") so it can't be skimmed past.
+
+For every question:
+- "difficulty": one of "recall", "understanding", "application"
 - "question": the question text
-- "options": an object with keys A, B, C, D
-- "answer": the correct option key (one of A/B/C/D)
-- "explanation": 1-3 sentences in plain, student-friendly language explaining \
-why that answer is correct. End every explanation with exactly this literal \
-token on its own, with nothing after it: [[LEARN_MORE]]
-  Do not attempt to write an actual link or heading reference yourself - the \
-token is a placeholder that will be replaced programmatically.
+- "options": an object with keys A, B, C, D - make all four options similar in \
+length and grammatical structure. Do NOT make the correct option noticeably \
+longer, more detailed, or more hedged than the distractors - that's a giveaway. \
+Vary which letter (A/B/C/D) is correct across different questions; don't \
+cluster correct answers on the same letter.
+- "answer": the correct option key
+- "explanation": 1-3 sentences, plain student-friendly language, explaining WHY \
+that answer is correct (not just restating it). End every explanation with \
+exactly this literal token on its own, nothing after it: [[LEARN_MORE]]
+  Do not write an actual link yourself - the token is replaced programmatically.
 
 Return ONLY valid JSON, no markdown fences, no commentary, in exactly this \
 schema:
@@ -48,10 +95,11 @@ schema:
   "headings": [
     {
       "order": 1,
+      "title": "...",
       "content": "...",
       "questions": [
-        {"question": "...", "options": {"A": "...", "B": "...", "C": "...", "D": "..."}, "answer": "A", "explanation": "... [[LEARN_MORE]]"},
-        {"question": "...", "options": {"A": "...", "B": "...", "C": "...", "D": "..."}, "answer": "B", "explanation": "... [[LEARN_MORE]]"}
+        {"difficulty": "recall", "question": "...", "options": {"A": "...", "B": "...", "C": "...", "D": "..."}, "answer": "A", "explanation": "... [[LEARN_MORE]]"},
+        {"difficulty": "understanding", "question": "...", "options": {"A": "...", "B": "...", "C": "...", "D": "..."}, "answer": "B", "explanation": "... [[LEARN_MORE]]"}
       ]
     }
   ]
@@ -86,57 +134,85 @@ def build_topic_lookup(curriculum):
     return lookup
 
 
+def shuffle_options(question):
+    """
+    Randomizes which letter (A-D) holds the correct answer. The AI is
+    instructed to vary this itself, but reliably does not (observed ~80%
+    clustering on one letter in testing) - this guarantees an even
+    distribution regardless of what the model does, tracking the correct
+    option by its original key (not its text) to avoid any risk of
+    mismatching two options that happen to have identical wording.
+    """
+    keys = ["A", "B", "C", "D"]
+    entries = [(k, question["options"][k], k == question["answer"]) for k in keys]
+    random.shuffle(entries)
+
+    new_options = {}
+    new_answer = None
+    for new_key, (_orig_key, value, is_correct) in zip(keys, entries):
+        new_options[new_key] = value
+        if is_correct:
+            new_answer = new_key
+
+    question["options"] = new_options
+    question["answer"] = new_answer
+    return question
+
+
 def generate_article_and_questions(topic_id, headings_entry, topic_meta):
     """
-    Calls Gemini ONCE for this topic, sending all its headings together, and
-    gets back content + 2 MCQs per heading - generated from the same content,
-    so the learn-more link always points to material that answers the question.
+    Calls Gemini ONCE for this topic, sending the proposed headings, and gets
+    back a FINAL set of headings (which may differ from the proposal) plus
+    content + 2 MCQs per heading. Heading IDs are derived fresh from the
+    final order returned here - not from the original headings_entry - since
+    the model is free to rename/reorder/add/remove headings.
 
     Returns (article_dict, questions_list).
     """
-    headings = headings_entry["headings"]  # [{heading_id, order, title}, ...]
-
-    heading_lines = [f"{h['order']}. {h['title']}" for h in headings]
+    proposed_headings = sorted(headings_entry["headings"], key=lambda h: h["order"])
+    heading_lines = [f"{h['order']}. {h['title']}" for h in proposed_headings]
     user_prompt = (
         f"Topic: {topic_meta['title']}\n"
-        f"Headings:\n" + "\n".join(heading_lines)
+        f"Proposed headings (feel free to revise - rename, reorder, merge, "
+        f"split, add, or remove as needed):\n" + "\n".join(heading_lines)
     )
 
     result = call_gemini(ARTICLE_SYSTEM_PROMPT, user_prompt)
-    ai_headings = {h["order"]: h for h in result.get("headings", [])}
+    final_headings = sorted(result.get("headings", []), key=lambda h: h["order"])
+
+    if not (5 <= len(final_headings) <= 10):
+        raise ValueError(f"Expected 5-10 final headings, got {len(final_headings)} for {topic_id}")
 
     article_headings = []
     questions_list = []
 
-    for h in headings:
+    for h in final_headings:
         order = h["order"]
-        heading_id = h["heading_id"]
-        ai_heading = ai_headings.get(order)
-
-        if ai_heading is None:
-            raise ValueError(f"AI response missing heading order {order} for {topic_id}")
+        heading_id = f"{topic_id}_h{order}"
 
         article_headings.append({
             "heading_id": heading_id,
             "order": order,
             "title": h["title"],
-            "content": ai_heading["content"],
+            "content": h["content"],
         })
 
         learn_more_link = f"[learn more]({topic_id}#{heading_id})"
 
-        for i, q in enumerate(ai_heading.get("questions", []), start=1):
+        for i, q in enumerate(h.get("questions", []), start=1):
             explanation = q["explanation"].replace(LEARN_MORE_TOKEN, learn_more_link)
-            questions_list.append({
+            question_obj = {
                 "question_id": f"{topic_id}_h{order}_q{i}",
                 "heading_id": heading_id,
                 "article_id": topic_id,
                 "topic_id": topic_id,
+                "difficulty": q.get("difficulty", "recall"),
                 "question": q["question"],
                 "options": q["options"],
                 "answer": q["answer"],
                 "explanation": explanation,
-            })
+            }
+            questions_list.append(shuffle_options(question_obj))
 
     article_dict = {
         "article_id": topic_id,
@@ -193,7 +269,9 @@ def run():
             print(f"⚠️  Failed on {topic_id}: {e}. Skipping for this run.")
             continue
 
-        # Save article + questions immediately - not batched
+        # Save article + questions immediately - not batched. This overwrites
+        # any previous version of this topic's files, which is intentional
+        # during a full regeneration pass.
         save_json(f"{ARTICLES_DIR}/{topic_id}.json", article)
         save_json(f"{QUESTIONS_DIR}/{topic_id}.json", questions)
 
@@ -210,3 +288,4 @@ def run():
 
 if __name__ == "__main__":
     run()
+
