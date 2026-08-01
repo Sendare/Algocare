@@ -4,239 +4,255 @@
     "heading_id": "GNS224_U2_T2_h1",
     "article_id": "GNS224_U2_T2",
     "topic_id": "GNS224_U2_T2",
-    "question": "What is the primary purpose of data organization in nursing research?",
+    "difficulty": "recall",
+    "question": "What is the primary purpose of organizing raw research data in nursing?",
     "options": {
-      "A": "To make raw data completely unreadable",
-      "B": "To transform raw clinical observations into a structured format for analysis",
-      "C": "To eliminate the need for patient consent",
-      "D": "To increase the cost of conducting community health outreaches"
+      "A": "To eliminate the need for statistical software entirely",
+      "B": "To prepare unstructured records for systematic analysis",
+      "C": "To increase the total number of study participants",
+      "D": "To make patient health records completely public"
     },
     "answer": "B",
-    "explanation": "Data organization systematically arranges raw information so that statistical analysis and clinical interpretation become straightforward and accurate. [learn more](GNS224_U2_T2#GNS224_U2_T2_h1)"
+    "explanation": "Organizing raw data transforms chaotic, unstructured observations into a systematic format that makes statistical analysis and accurate interpretation possible. [learn more](GNS224_U2_T2#GNS224_U2_T2_h1)"
   },
   {
     "question_id": "GNS224_U2_T2_h1_q2",
     "heading_id": "GNS224_U2_T2_h1",
     "article_id": "GNS224_U2_T2",
     "topic_id": "GNS224_U2_T2",
-    "question": "Why is mastering data organization important for nursing students in Nigeria?",
+    "difficulty": "understanding",
+    "question": "How are individual research participants typically represented in a structured data table?",
     "options": {
-      "A": "It bridges the gap between bedside data collection and evidence-based practice",
-      "B": "It replaces the need for clinical nursing procedures entirely",
-      "C": "It is only required for hospital administrative accounting",
-      "D": "It prevents nurses from working in multidisciplinary teams"
+      "A": "As separate database files",
+      "B": "As individual rows",
+      "C": "As random text blocks",
+      "D": "As individual columns"
     },
-    "answer": "A",
-    "explanation": "Mastering data organization helps nursing students link everyday bedside or community data collection directly to evidence-based nursing practice. [learn more](GNS224_U2_T2#GNS224_U2_T2_h1)"
+    "answer": "B",
+    "explanation": "In standard research matrices, each row corresponds to a unique participant or subject, while each column represents a specific measured variable. [learn more](GNS224_U2_T2#GNS224_U2_T2_h1)"
   },
   {
     "question_id": "GNS224_U2_T2_h2_q1",
     "heading_id": "GNS224_U2_T2_h2",
     "article_id": "GNS224_U2_T2",
     "topic_id": "GNS224_U2_T2",
-    "question": "Which measurement scale classifies categories without any natural order, such as blood type?",
+    "difficulty": "recall",
+    "question": "Which measurement scale features a true, absolute zero point indicating the total absence of the measured property?",
     "options": {
       "A": "Ordinal scale",
       "B": "Interval scale",
       "C": "Nominal scale",
       "D": "Ratio scale"
     },
-    "answer": "C",
-    "explanation": "Nominal scales deal with qualitative categories that do not have a natural mathematical order, such as blood type or gender. [learn more](GNS224_U2_T2#GNS224_U2_T2_h2)"
+    "answer": "D",
+    "explanation": "The ratio scale is unique because it includes a true zero, allowing for statements about absolute proportions, such as weighing twice as much. [learn more](GNS224_U2_T2#GNS224_U2_T2_h2)"
   },
   {
     "question_id": "GNS224_U2_T2_h2_q2",
     "heading_id": "GNS224_U2_T2_h2",
     "article_id": "GNS224_U2_T2",
     "topic_id": "GNS224_U2_T2",
-    "question": "What distinguishes a ratio scale from an interval scale?",
+    "difficulty": "understanding",
+    "question": "A patient rates their postoperative pain on a scale from 'no pain' to 'severe pain'. What type of measurement scale does this represent?",
     "options": {
-      "A": "Ratio scales have a true, absolute zero point",
-      "B": "Interval scales cannot be used for numerical data",
-      "C": "Ratio scales only apply to qualitative research",
-      "D": "Interval scales possess a true zero point"
+      "A": "Nominal",
+      "B": "Ratio",
+      "C": "Interval",
+      "D": "Ordinal"
     },
-    "answer": "A",
-    "explanation": "Ratio scales feature an absolute, true zero point (like weight or pulse rate), whereas interval scales do not have a true zero. [learn more](GNS224_U2_T2#GNS224_U2_T2_h2)"
+    "answer": "D",
+    "explanation": "Pain severity categories show a clear ranking order, but the exact mathematical distance between 'mild' and 'moderate' pain cannot be precisely quantified, making it ordinal. [learn more](GNS224_U2_T2#GNS224_U2_T2_h2)"
   },
   {
     "question_id": "GNS224_U2_T2_h3_q1",
     "heading_id": "GNS224_U2_T2_h3",
     "article_id": "GNS224_U2_T2",
     "topic_id": "GNS224_U2_T2",
-    "question": "What is the primary purpose of data cleaning in nursing research?",
+    "difficulty": "recall",
+    "question": "What is the process of translating qualitative research responses into numerical values called?",
     "options": {
-      "A": "To sterilize clinical equipment used in the study",
-      "B": "To screen completed research instruments for errors and inconsistencies",
-      "C": "To assign numerical symbols to qualitative responses",
-      "D": "To input data directly into statistical software"
+      "A": "Sampling",
+      "B": "Cleaning",
+      "C": "Ranking",
+      "D": "Coding"
     },
-    "answer": "B",
-    "explanation": "Data cleaning involves meticulously checking raw research instruments to catch errors, omissions, and inconsistencies before analysis. [learn more](GNS224_U2_T2#GNS224_U2_T2_h3)"
+    "answer": "D",
+    "explanation": "Coding is the systematic assignment of numbers or symbols to categorical data so that statistical software can process the information efficiently. [learn more](GNS224_U2_T2#GNS224_U2_T2_h3)"
   },
   {
     "question_id": "GNS224_U2_T2_h3_q2",
     "heading_id": "GNS224_U2_T2_h3",
     "article_id": "GNS224_U2_T2",
     "topic_id": "GNS224_U2_T2",
-    "question": "What does data coding involve in the data preparation process?",
+    "difficulty": "understanding",
+    "question": "A researcher notices a patient's pulse rate recorded as 850 beats per minute in the spreadsheet. Which phase of data management should catch and resolve this error?",
     "options": {
-      "A": "Translating the research paper into a foreign language",
-      "B": "Assigning numerical or alphanumeric symbols to qualitative responses",
-      "C": "Encrypting patient files for cyber security",
-      "D": "Physically destroying old clinical charts"
+      "A": "Random sampling",
+      "B": "Hypothesis testing",
+      "C": "Data cleaning",
+      "D": "Data coding"
     },
-    "answer": "B",
-    "explanation": "Coding is the process of assigning specific numbers or codes to qualitative categories to facilitate computer processing and data entry. [learn more](GNS224_U2_T2#GNS224_U2_T2_h3)"
+    "answer": "C",
+    "explanation": "Data cleaning specifically screens for impossible or out-of-range values, such as an impossible pulse rate, before analysis begins. [learn more](GNS224_U2_T2#GNS224_U2_T2_h3)"
   },
   {
     "question_id": "GNS224_U2_T2_h4_q1",
     "heading_id": "GNS224_U2_T2_h4",
     "article_id": "GNS224_U2_T2",
     "topic_id": "GNS224_U2_T2",
-    "question": "What does the frequency in a frequency distribution table represent?",
+    "difficulty": "recall",
+    "question": "What does the relative frequency in a distribution table represent?",
     "options": {
-      "A": "The monetary cost of the research study",
-      "B": "The count of how many times a value or category appears",
-      "C": "The time of day data was collected",
-      "D": "The number of patients who refused to participate"
+      "A": "The absolute total number of participants in the study",
+      "B": "The proportion or percentage of the total observations",
+      "C": "The exact difference between the highest and lowest score",
+      "D": "The cumulative running total of numerical values"
     },
     "answer": "B",
-    "explanation": "Frequency refers to the exact count or number of times a specific data value or category occurs within the dataset. [learn more](GNS224_U2_T2#GNS224_U2_T2_h4)"
+    "explanation": "Relative frequency converts raw counts into percentages or proportions, showing how a specific category relates to the whole dataset. [learn more](GNS224_U2_T2#GNS224_U2_T2_h4)"
   },
   {
     "question_id": "GNS224_U2_T2_h4_q2",
     "heading_id": "GNS224_U2_T2_h4",
     "article_id": "GNS224_U2_T2",
     "topic_id": "GNS224_U2_T2",
-    "question": "When organizing continuous numerical data into a table, what are the grouped numerical ranges called?",
+    "difficulty": "understanding",
+    "question": "When is it most appropriate to group continuous numerical data into class intervals within a frequency table?",
     "options": {
-      "A": "Nominal categories",
-      "B": "Class intervals",
-      "C": "Qualitative markers",
-      "D": "Coding sheets"
+      "A": "When the sample size is extremely small and manageable",
+      "B": "When the dataset contains a wide range of unique numerical values",
+      "C": "When every participant shares the exact same measurement score",
+      "D": "When the variable being measured is purely nominal"
     },
     "answer": "B",
-    "explanation": "Continuous numerical data is grouped into structured ranges known as class intervals to simplify large datasets. [learn more](GNS224_U2_T2#GNS224_U2_T2_h4)"
+    "explanation": "Grouping data into class intervals prevents frequency tables from becoming too long and unreadable when dealing with a large spread of continuous values. [learn more](GNS224_U2_T2#GNS224_U2_T2_h4)"
   },
   {
     "question_id": "GNS224_U2_T2_h5_q1",
     "heading_id": "GNS224_U2_T2_h5",
     "article_id": "GNS224_U2_T2",
     "topic_id": "GNS224_U2_T2",
-    "question": "Why are spaces left between the rectangular bars in a bar chart for categorical data?",
+    "difficulty": "recall",
+    "question": "Why are spaces maintained between the bars in a bar chart representing categorical data?",
     "options": {
-      "A": "To make the chart look decorative",
-      "B": "To indicate that the categories are distinct and separate",
-      "C": "To represent continuous numerical progression",
-      "D": "To hide missing data points"
+      "A": "To allow room for written patient names beneath each bar",
+      "B": "To emphasize that each category is distinct and separate",
+      "C": "To indicate that the underlying data scale is continuous",
+      "D": "To comply with outdated computer printing restrictions"
     },
     "answer": "B",
-    "explanation": "Spaces between bars in a bar chart emphasize that the data categories are discrete and distinct from one another. [learn more](GNS224_U2_T2#GNS224_U2_T2_h5)"
+    "explanation": "Unlike histograms for numerical data, bar charts feature gaps between bars to visually reinforce that the categories are separate and non-continuous. [learn more](GNS224_U2_T2#GNS224_U2_T2_h5)"
   },
   {
     "question_id": "GNS224_U2_T2_h5_q2",
     "heading_id": "GNS224_U2_T2_h5",
     "article_id": "GNS224_U2_T2",
     "topic_id": "GNS224_U2_T2",
-    "question": "Which graphical method is best suited for showing categories as proportions of a whole circle?",
+    "difficulty": "understanding",
+    "question": "A nurse researcher wants to display the proportion of patients belonging to four different blood groups in a ward. Which graphical tool is most appropriate?",
     "options": {
-      "A": "Histogram",
-      "B": "Pie chart",
+      "A": "Pie chart",
+      "B": "Line graph",
       "C": "Scatter plot",
-      "D": "Line graph"
+      "D": "Histogram"
     },
-    "answer": "B",
-    "explanation": "A pie chart displays data as proportional slices of a circle, illustrating how parts relate to the whole. [learn more](GNS224_U2_T2#GNS224_U2_T2_h5)"
+    "answer": "A",
+    "explanation": "Pie charts excel at illustrating parts of a whole for a small number of discrete categories like blood groups. [learn more](GNS224_U2_T2#GNS224_U2_T2_h5)"
   },
   {
     "question_id": "GNS224_U2_T2_h6_q1",
     "heading_id": "GNS224_U2_T2_h6",
     "article_id": "GNS224_U2_T2",
     "topic_id": "GNS224_U2_T2",
-    "question": "What is a key difference between a bar chart and a histogram?",
+    "difficulty": "recall",
+    "question": "Which graphical method uses bars that touch each other to represent the distribution of continuous numerical data?",
     "options": {
-      "A": "Histograms have spaces between bars, while bar charts touch",
-      "B": "Bar charts have spaces between distinct categories, while histogram bars touch for continuous data",
-      "C": "Histograms are only used for qualitative nominal data",
-      "D": "Bar charts cannot display frequencies"
+      "A": "Bar chart",
+      "B": "Line graph",
+      "C": "Pie chart",
+      "D": "Histogram"
     },
-    "answer": "B",
-    "explanation": "Histograms feature touching bars to represent continuous numerical intervals, whereas bar charts have spaces between distinct categorical bars. [learn more](GNS224_U2_T2#GNS224_U2_T2_h6)"
+    "answer": "D",
+    "explanation": "Histograms display continuous numerical data where touching bars signify an unbroken numerical continuum along the axis. [learn more](GNS224_U2_T2#GNS224_U2_T2_h6)"
   },
   {
     "question_id": "GNS224_U2_T2_h6_q2",
     "heading_id": "GNS224_U2_T2_h6",
     "article_id": "GNS224_U2_T2",
     "topic_id": "GNS224_U2_T2",
-    "question": "Which graphical tool is best for showing trends in numerical data over a period of time?",
+    "difficulty": "understanding",
+    "question": "What key structural feature does a box plot use to display data spread and central tendency?",
     "options": {
-      "A": "Pie chart",
-      "B": "Line graph",
-      "C": "Bar chart",
-      "D": "Nominal table"
+      "A": "Individual dots for every single data point collected",
+      "B": "Connected percentage lines across multiple pie slices",
+      "C": "Separate floating bars with spaces between categories",
+      "D": "Five summary statistics including quartiles and median"
     },
-    "answer": "B",
-    "explanation": "Line graphs are designed to track changes and trends in numerical data over sequential time points. [learn more](GNS224_U2_T2#GNS224_U2_T2_h6)"
+    "answer": "D",
+    "explanation": "Box plots rely on the five-number summary (minimum, Q1, median, Q3, maximum) to visualize data distribution and spot outliers. [learn more](GNS224_U2_T2#GNS224_U2_T2_h6)"
   },
   {
     "question_id": "GNS224_U2_T2_h7_q1",
     "heading_id": "GNS224_U2_T2_h7",
     "article_id": "GNS224_U2_T2",
     "topic_id": "GNS224_U2_T2",
-    "question": "What is data imputation?",
+    "difficulty": "recall",
+    "question": "What is an outlier in a research dataset?",
     "options": {
-      "A": "Physically deleting all research participants who missed a visit",
-      "B": "Replacing missing values with estimated statistical averages like the mean",
-      "C": "Intentionally fabricating fake clinical data to fit a hypothesis",
-      "D": "Converting nominal data into ratio data"
+      "A": "A missing data point caused by a participant dropping out",
+      "B": "An extreme value that falls far outside the range of the rest of the data",
+      "C": "A variable measured on a nominal rather than ordinal scale",
+      "D": "A software glitch that prevents data entry into a spreadsheet"
     },
     "answer": "B",
-    "explanation": "Imputation involves substituting estimated values, such as the dataset's mean or median, for missing data points. [learn more](GNS224_U2_T2#GNS224_U2_T2_h7)"
+    "explanation": "Outliers are numerical observations that are unusually high or low compared to the bulk of the measurements in the dataset. [learn more](GNS224_U2_T2#GNS224_U2_T2_h7)"
   },
   {
     "question_id": "GNS224_U2_T2_h7_q2",
     "heading_id": "GNS224_U2_T2_h7",
     "article_id": "GNS224_U2_T2",
     "topic_id": "GNS224_U2_T2",
-    "question": "How should a researcher handle an outlier that is clearly caused by a typographical data entry error?",
+    "difficulty": "understanding",
+    "question": "Why should a researcher exercise caution before deleting an outlier from a clinical dataset?",
     "options": {
-      "A": "Ignore it and publish the skewed results",
-      "B": "Investigate, correct, or remove the erroneous data point",
-      "C": "Multiply the value by ten to make it larger",
-      "D": "Change all other data points to match the error"
+      "A": "Deleting data is illegal under international healthcare regulations",
+      "B": "Outliers always improve the accuracy of the final statistical average",
+      "C": "Statistical software automatically prevents the deletion of extreme values",
+      "D": "It might represent a genuine, important clinical finding rather than an error"
     },
-    "answer": "B",
-    "explanation": "Typos and entry errors causing extreme outliers should be investigated and either corrected or removed to preserve data integrity. [learn more](GNS224_U2_T2#GNS224_U2_T2_h7)"
+    "answer": "D",
+    "explanation": "While some outliers are typos, others reflect rare, true physiological responses that hold immense clinical significance. [learn more](GNS224_U2_T2#GNS224_U2_T2_h7)"
   },
   {
     "question_id": "GNS224_U2_T2_h8_q1",
     "heading_id": "GNS224_U2_T2_h8",
     "article_id": "GNS224_U2_T2",
     "topic_id": "GNS224_U2_T2",
-    "question": "What is the purpose of anonymizing or de-identifying research datasets?",
+    "difficulty": "recall",
+    "question": "What is the primary method used to protect participant confidentiality during data management?",
     "options": {
-      "A": "To make the data impossible to analyze",
-      "B": "To remove personal identifiers and protect participant confidentiality",
-      "C": "To increase the numerical value of test scores",
-      "D": "To bypass the need for institutional ethical approval"
+      "A": "Publishing participant names alongside their clinical test scores",
+      "B": "Sharing raw patient databases openly across social media platforms",
+      "C": "Storing physical research files in unlocked bedside cabinets",
+      "D": "Removing direct personal identifiers and using coded ID numbers"
     },
-    "answer": "B",
-    "explanation": "Anonymizing data removes personal identifiers like names and hospital numbers, ensuring participant confidentiality and privacy are protected. [learn more](GNS224_U2_T2#GNS224_U2_T2_h8)"
+    "answer": "D",
+    "explanation": "De-identifying datasets by stripping names and replacing them with code numbers ensures participant anonymity and protects privacy. [learn more](GNS224_U2_T2#GNS224_U2_T2_h8)"
   },
   {
     "question_id": "GNS224_U2_T2_h8_q2",
     "heading_id": "GNS224_U2_T2_h8",
     "article_id": "GNS224_U2_T2",
     "topic_id": "GNS224_U2_T2",
-    "question": "What constitutes academic misconduct and professional negligence in nursing data management?",
+    "difficulty": "understanding",
+    "question": "Which of the following actions represents a serious breach of research integrity during data organization?",
     "options": {
-      "A": "Double-entry data verification",
-      "B": "Using secure, password-protected electronic files",
-      "C": "Falsifying, fabricating, or selectively altering data",
-      "D": "Obtaining informed consent prior to data collection"
+      "A": "Removing a verified data entry typographical error",
+      "B": "Grouping continuous age data into standard class intervals",
+      "C": "Using encrypted software programs to store research files",
+      "D": "Fabricating or altering data values to fit a preferred hypothesis"
     },
-    "answer": "C",
-    "explanation": "Falsifying, fabricating, or altering data to achieve desired results is a serious breach of research ethics and professional integrity. [learn more](GNS224_U2_T2#GNS224_U2_T2_h8)"
+    "answer": "D",
+    "explanation": "Fabricating or falsifying data undermines scientific integrity, misleads clinical practice, and violates fundamental research ethics. [learn more](GNS224_U2_T2#GNS224_U2_T2_h8)"
   }
 ]
