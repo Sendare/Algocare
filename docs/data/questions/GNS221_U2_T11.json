@@ -4,239 +4,223 @@
     "heading_id": "GNS221_U2_T11_h1",
     "article_id": "GNS221_U2_T11",
     "topic_id": "GNS221_U2_T11",
-    "question": "What is the primary purpose of Liver Function Tests (LFTs) in clinical practice?",
+    "difficulty": "recall",
+    "question": "What do the majority of standard liver function tests actually measure?",
     "options": {
-      "A": "To directly measure the liver's metabolic rate",
-      "B": "To assess overall liver health, detect damage, and monitor medications",
-      "C": "To diagnose kidney failure and urinary tract infections",
-      "D": "To measure the exact blood volume in the hepatic portal system"
+      "A": "Direct rates of drug metabolism",
+      "B": "Cellular integrity and synthetic capacity",
+      "C": "Total daily bile acid production",
+      "D": "Hepatic blood flow velocity"
     },
     "answer": "B",
-    "explanation": "LFTs are used to screen for liver diseases, monitor disease progression, and evaluate hepatotoxic side effects from medications. [learn more](GNS221_U2_T11#GNS221_U2_T11_h1)"
+    "explanation": "Rather than testing every metabolic chore, standard panels focus on enzymes indicating cell damage, excretory products, and proteins made by the liver. [learn more](GNS221_U2_T11#GNS221_U2_T11_h1)"
   },
   {
     "question_id": "GNS221_U2_T11_h1_q2",
     "heading_id": "GNS221_U2_T11_h1",
     "article_id": "GNS221_U2_T11",
     "topic_id": "GNS221_U2_T11",
-    "question": "Which of the following describes the nature of most tests included in an LFT panel?",
+    "difficulty": "understanding",
+    "question": "Why is the term 'liver function tests' considered slightly misleading by clinicians?",
     "options": {
-      "A": "They measure the exact metabolic capacity of hepatocytes",
-      "B": "They detect enzymes and proteins indicating inflammation or damage",
-      "C": "They exclusively measure red blood cell production in the liver",
-      "D": "They assess the electrical conductivity of hepatic tissue"
+      "A": "They cannot be performed on outpatient populations",
+      "B": "Most markers reflect damage or synthesis rather than overall organ performance",
+      "C": "Liver enzymes fluctuate every hour independently of disease",
+      "D": "They only measure kidney filtration rates affecting the liver"
     },
     "answer": "B",
-    "explanation": "Many LFTs do not measure direct function, but rather detect enzymes or proteins in the blood that suggest liver inflammation, damage, or obstruction. [learn more](GNS221_U2_T11#GNS221_U2_T11_h1)"
+    "explanation": "Many tests in the panel gauge cell injury or protein synthesis rather than dynamic metabolic processes. [learn more](GNS221_U2_T11#GNS221_U2_T11_h1)"
   },
   {
     "question_id": "GNS221_U2_T11_h2_q1",
     "heading_id": "GNS221_U2_T11_h2",
     "article_id": "GNS221_U2_T11",
     "topic_id": "GNS221_U2_T11",
-    "question": "Which two blood vessels supply the liver with its unique dual blood supply?",
+    "difficulty": "recall",
+    "question": "Which hepatic enzyme is considered more specific to the liver than the others?",
     "options": {
-      "A": "The renal artery and the renal vein",
-      "B": "The hepatic artery and the hepatic portal vein",
-      "C": "The superior vena cava and the inferior vena cava",
-      "D": "The splenic artery and the mesenteric vein"
+      "A": "Creatine kinase",
+      "B": "Aspartate aminotransferase",
+      "C": "Amylase",
+      "D": "Alanine aminotransferase"
     },
-    "answer": "B",
-    "explanation": "The liver receives oxygen-rich blood from the hepatic artery and nutrient-rich blood from the hepatic portal vein. [learn more](GNS221_U2_T11#GNS221_U2_T11_h2)"
+    "answer": "D",
+    "explanation": "ALT is heavily concentrated in the liver cytoplasm, making elevations a more direct indicator of hepatocellular damage than AST, which is found in multiple other tissues. [learn more](GNS221_U2_T11#GNS221_U2_T11_h2)"
   },
   {
     "question_id": "GNS221_U2_T11_h2_q2",
     "heading_id": "GNS221_U2_T11_h2",
     "article_id": "GNS221_U2_T11",
     "topic_id": "GNS221_U2_T11",
-    "question": "What are the primary functional cells of the liver located within the hepatic lobules?",
+    "difficulty": "understanding",
+    "question": "An AST-to-ALT ratio that exceeds 2:1 is most characteristic of which underlying condition?",
     "options": {
-      "A": "Nephrons",
-      "B": "Hepatocytes",
-      "C": "Alveoli",
-      "D": "Osteocytes"
+      "A": "Biliary tract obstruction",
+      "B": "Alcoholic liver disease",
+      "C": "Acute viral hepatitis",
+      "D": "Obstructive jaundice"
     },
     "answer": "B",
-    "explanation": "Hepatocytes are the specialized epithelial cells that make up the vast majority of the liver and carry out its metabolic, synthetic, and excretory functions. [learn more](GNS221_U2_T11#GNS221_U2_T11_h2)"
+    "explanation": "Chronic alcohol-induced hepatic injury typically presents with a distinct elevation of AST over ALT, yielding a ratio greater than two to one. [learn more](GNS221_U2_T11#GNS221_U2_T11_h2)"
   },
   {
     "question_id": "GNS221_U2_T11_h3_q1",
     "heading_id": "GNS221_U2_T11_h3",
     "article_id": "GNS221_U2_T11",
     "topic_id": "GNS221_U2_T11",
-    "question": "Which of the following markers is used to evaluate the liver's synthetic capacity?",
+    "difficulty": "recall",
+    "question": "Elevated alkaline phosphatase can originate from the liver and which other primary body tissue?",
     "options": {
-      "A": "Alanine Aminotransferase (ALT)",
-      "B": "Serum albumin and Prothrombin Time (PT)",
-      "C": "Gamma-Glutamyl Transferase (GGT)",
-      "D": "Unconjugated bilirubin"
+      "A": "Bone tissue",
+      "B": "Gastric mucosa",
+      "C": "Pulmonary tissue",
+      "D": "Skeletal muscle"
     },
-    "answer": "B",
-    "explanation": "Serum albumin and prothrombin time (PT) assess the liver's ability to synthesize proteins and clotting factors, indicating its synthetic function. [learn more](GNS221_U2_T11#GNS221_U2_T11_h3)"
+    "answer": "A",
+    "explanation": "Alkaline phosphatase is heavily concentrated in both liver and bone, meaning bone growth or pathology can also elevate circulating levels. [learn more](GNS221_U2_T11#GNS221_U2_T11_h3)"
   },
   {
     "question_id": "GNS221_U2_T11_h3_q2",
     "heading_id": "GNS221_U2_T11_h3",
     "article_id": "GNS221_U2_T11",
     "topic_id": "GNS221_U2_T11",
-    "question": "Alkaline Phosphatase (ALP) and Gamma-Glutamyl Transferase (GGT) are most commonly elevated in which type of condition?",
+    "difficulty": "understanding",
+    "question": "Why is gamma-glutamyl transferase (GGT) frequently measured alongside alkaline phosphatase?",
     "options": {
-      "A": "Renal glomerular damage",
-      "B": "Biliary tract disease and cholestasis",
-      "C": "Erythrocyte destruction",
-      "D": "Skeletal muscle breakdown"
+      "A": "It rules out viral infections before other tests are ordered",
+      "B": "It directly measures the exact daily volume of bile produced",
+      "C": "It confirms whether an elevated alkaline phosphatase originates from the liver",
+      "D": "It acts as a primary substitute for alanine aminotransferase"
     },
-    "answer": "B",
-    "explanation": "ALP and GGT are primary indicators that are predominantly elevated when there is obstruction of the biliary tract or cholestasis. [learn more](GNS221_U2_T11#GNS221_U2_T11_h3)"
+    "answer": "C",
+    "explanation": "Since GGT is not found in bone, a concurrent elevation with alkaline phosphatase confirms the hepatic origin of the problem. [learn more](GNS221_U2_T11#GNS221_U2_T11_h3)"
   },
   {
     "question_id": "GNS221_U2_T11_h4_q1",
     "heading_id": "GNS221_U2_T11_h4",
     "article_id": "GNS221_U2_T11",
     "topic_id": "GNS221_U2_T11",
-    "question": "Why is Alanine Aminotransferase (ALT) considered more liver-specific than Aspartate Aminotransferase (AST)?",
+    "difficulty": "recall",
+    "question": "What is the primary clinical implication of a persistently low serum albumin level in liver disease?",
     "options": {
-      "A": "ALT is exclusively found in red blood cells and bone tissue.",
-      "B": "ALT is primarily localized in the liver cytosol, whereas AST is also found in cardiac and skeletal muscle.",
-      "C": "ALT is excreted directly through the kidneys without touching the liver.",
-      "D": "AST concentrations only rise during kidney failure, never during liver injury."
+      "A": "Immediate spontaneous hemorrhage from mucosal sites",
+      "B": "Compensatory spikes in bone-derived alkaline phosphatase",
+      "C": "Rapid elevation of direct bilirubin in urine",
+      "D": "Reduced plasma oncotic pressure leading to edema"
     },
-    "answer": "B",
-    "explanation": "While AST is found in cardiac muscle, skeletal muscle, and kidneys, ALT is predominantly localized within liver tissue, making it a more specific marker for hepatic injury. [learn more](GNS221_U2_T11#GNS221_U2_T11_h4)"
+    "answer": "D",
+    "explanation": "Albumin maintains intravascular oncotic pressure; when synthesis drops due to liver failure, fluid leaks into interstitial spaces causing ascites and edema. [learn more](GNS221_U2_T11#GNS221_U2_T11_h4)"
   },
   {
     "question_id": "GNS221_U2_T11_h4_q2",
     "heading_id": "GNS221_U2_T11_h4",
     "article_id": "GNS221_U2_T11",
     "topic_id": "GNS221_U2_T11",
-    "question": "An AST-to-ALT ratio greater than 2:1 is most commonly suggestive of which of the following conditions?",
+    "difficulty": "application",
+    "question": "A patient with acute liver failure shows a rapidly rising prothrombin time (INR). What does this specific change indicate?",
     "options": {
-      "A": "Acute viral hepatitis A",
-      "B": "Alcoholic liver disease",
-      "C": "Obstructive gallstones",
-      "D": "Iron-deficiency anemia"
+      "A": "A rapid decline in hepatic synthetic function for clotting factors",
+      "B": "A normal physiological response to high protein diets",
+      "C": "Massive hemolysis of red blood cells in the spleen",
+      "D": "An acute blockage of the common bile duct by gallstones"
     },
-    "answer": "B",
-    "explanation": "A ratio where AST is more than double ALT is a classic laboratory finding associated with alcoholic liver disease. [learn more](GNS221_U2_T11#GNS221_U2_T11_h4)"
+    "answer": "A",
+    "explanation": "Clotting factors have short half-lives, making a prolonged prothrombin time one of the earliest signs of failing liver synthesis. [learn more](GNS221_U2_T11#GNS221_U2_T11_h4)"
   },
   {
     "question_id": "GNS221_U2_T11_h5_q1",
     "heading_id": "GNS221_U2_T11_h5",
     "article_id": "GNS221_U2_T11",
     "topic_id": "GNS221_U2_T11",
-    "question": "Why is serum albumin useful for evaluating chronic rather than acute liver disease?",
+    "difficulty": "understanding",
+    "question": "Which scenario represents a primary pharmacological reason for ordering baseline and serial LFTs?",
     "options": {
-      "A": "Albumin has a long half-life of about 20 days, so levels drop slowly during chronic dysfunction.",
-      "B": "Albumin is only produced by the kidneys when the liver completely fails.",
-      "C": "Albumin levels fluctuate hourly based on fluid intake.",
-      "D": "Albumin is an enzyme that breaks down rapidly during acute inflammation."
+      "A": "Assessing bone density changes during long-term steroid use",
+      "B": "Checking for renal clearance efficiency before giving analgesics",
+      "C": "Monitoring therapeutic blood levels of water-soluble antibiotics",
+      "D": "Initiating therapy with medications known for hepatotoxicity"
     },
-    "answer": "A",
-    "explanation": "Because albumin has a long half-life of approximately 20 days, its levels decrease slowly, making it a marker for chronic liver issues rather than rapid acute damage. [learn more](GNS221_U2_T11#GNS221_U2_T11_h5)"
+    "answer": "D",
+    "explanation": "Drugs that undergo extensive hepatic processing require baseline and follow-up liver tests to catch early drug-induced liver injury. [learn more](GNS221_U2_T11#GNS221_U2_T11_h5)"
   },
   {
     "question_id": "GNS221_U2_T11_h5_q2",
     "heading_id": "GNS221_U2_T11_h5",
     "article_id": "GNS221_U2_T11",
     "topic_id": "GNS221_U2_T11",
-    "question": "What does an elevation in conjugated (direct) bilirubin primarily suggest?",
+    "difficulty": "recall",
+    "question": "Which symptom combination strongly prompts a nurse or doctor to suspect acute liver involvement?",
     "options": {
-      "A": "Massive red blood cell hemolysis",
-      "B": "Biliary obstruction or hepatocellular disease",
-      "C": "Decreased production of hemoglobin",
-      "D": "Excessive vitamin C intake"
+      "A": "Frequent urination and excessive nocturnal thirst",
+      "B": "Severe lower leg cramping and dry cough",
+      "C": "Epigastric burning relieved immediately by food",
+      "D": "Scleral icterus and dark tea-colored urine"
     },
-    "answer": "B",
-    "explanation": "Conjugated bilirubin has already been processed by the liver, so its elevation in the blood indicates that excretion is blocked (biliary obstruction) or liver cells cannot excrete it properly. [learn more](GNS221_U2_T11#GNS221_U2_T11_h5)"
+    "answer": "D",
+    "explanation": "Yellowing of the eyes and dark urine are classic physical signs of elevated bilirubin resulting from hepatic or biliary issues. [learn more](GNS221_U2_T11#GNS221_U2_T11_h5)"
   },
   {
     "question_id": "GNS221_U2_T11_h6_q1",
     "heading_id": "GNS221_U2_T11_h6",
     "article_id": "GNS221_U2_T11",
     "topic_id": "GNS221_U2_T11",
-    "question": "Which of the following clinical signs is a primary indicator for ordering Liver Function Tests?",
+    "difficulty": "understanding",
+    "question": "What defines a cholestatic liver injury pattern on a biochemical report?",
     "options": {
-      "A": "Peripheral edema in the lower extremities due to heart failure",
-      "B": "Jaundice, dark urine, and right upper quadrant abdominal pain",
-      "C": "Frequent urination and excessive thirst",
-      "D": "Chronic dry cough and wheezing"
+      "A": "Massive elevation of ALT and AST with normal alkaline phosphatase",
+      "B": "Disproportionately elevated alkaline phosphatase and GGT compared to transaminases",
+      "C": "Isolated drops in serum albumin without changes in bilirubin",
+      "D": "Normal enzyme levels accompanied by severe coagulopathy"
     },
     "answer": "B",
-    "explanation": "Jaundice, dark urine, pale stools, and right upper quadrant pain are classic signs of liver and biliary dysfunction that prompt the ordering of LFTs. [learn more](GNS221_U2_T11#GNS221_U2_T11_h6)"
+    "explanation": "Biliary obstruction or stasis primarily drives up canalicular enzymes like alkaline phosphatase and GGT far more than the cellular transaminases. [learn more](GNS221_U2_T11#GNS221_U2_T11_h6)"
   },
   {
     "question_id": "GNS221_U2_T11_h6_q2",
     "heading_id": "GNS221_U2_T11_h6",
     "article_id": "GNS221_U2_T11",
     "topic_id": "GNS221_U2_T11",
-    "question": "Why are baseline and serial LFTs required when a patient is started on anti-tuberculosis drugs or statins?",
+    "difficulty": "application",
+    "question": "A laboratory report shows extreme elevations in ALT and AST with only minimal changes in alkaline phosphatase. Which condition is most consistent with this pattern?",
     "options": {
-      "A": "To monitor for potential drug-induced hepatotoxicity",
-      "B": "To ensure the kidneys are producing enough urine",
-      "C": "To check for elevated red blood cell counts",
-      "D": "To measure blood glucose fluctuations"
+      "A": "Advanced bone metastasis",
+      "B": "Isolated hemolytic anemia",
+      "C": "Acute viral hepatitis",
+      "D": "Extrahepatic gallstone obstruction"
     },
-    "answer": "A",
-    "explanation": "Many medications are metabolized by the liver and carry a risk of drug-induced liver injury, making LFT monitoring necessary to catch toxicity early. [learn more](GNS221_U2_T11#GNS221_U2_T11_h6)"
+    "answer": "C",
+    "explanation": "A predominant hepatocellular pattern with soaring transaminases points directly to widespread injury of liver cells, as seen in acute viral infections. [learn more](GNS221_U2_T11#GNS221_U2_T11_h6)"
   },
   {
     "question_id": "GNS221_U2_T11_h7_q1",
     "heading_id": "GNS221_U2_T11_h7",
     "article_id": "GNS221_U2_T11",
     "topic_id": "GNS221_U2_T11",
-    "question": "What characterizes a hepatocellular pattern of liver injury on an LFT panel?",
+    "difficulty": "recall",
+    "question": "What is a major consequence of traumatic venipuncture resulting in sample hemolysis during LFT collection?",
     "options": {
-      "A": "Disproportionately elevated ALT and AST compared to ALP",
-      "B": "Normal transaminases with severely elevated lipase and amylase",
-      "C": "Elevated ALP and conjugated bilirubin with normal transaminases",
-      "D": "High serum albumin and shortened prothrombin time"
+      "A": "Complete destruction of serum albumin molecules",
+      "B": "Falsely elevated levels of aspartate aminotransferase",
+      "C": "Artificially reduced levels of direct bilirubin",
+      "D": "Immediate neutralization of alkaline phosphatase activity"
     },
-    "answer": "A",
-    "explanation": "A hepatocellular pattern shows a primary elevation in transaminases (ALT and AST) relative to ALP, indicating direct damage to liver cells. [learn more](GNS221_U2_T11#GNS221_U2_T11_h7)"
+    "answer": "B",
+    "explanation": "AST is present in red blood cells; when cells rupture during a rough draw, the enzyme spills into the serum and skews test results. [learn more](GNS221_U2_T11#GNS221_U2_T11_h7)"
   },
   {
     "question_id": "GNS221_U2_T11_h7_q2",
     "heading_id": "GNS221_U2_T11_h7",
     "article_id": "GNS221_U2_T11",
     "topic_id": "GNS221_U2_T11",
-    "question": "A patient presents with elevated Alkaline Phosphatase (ALP) and conjugated bilirubin, but only mildly elevated transaminases. What pattern does this represent?",
+    "difficulty": "understanding",
+    "question": "Why is prolonged pressure application at the venipuncture site especially crucial for patients with severe liver disease?",
     "options": {
-      "A": "Hepatocellular pattern",
-      "B": "Cholestatic pattern",
-      "C": "Hemolytic pattern",
-      "D": "Renal failure pattern"
+      "A": "They experience rapid localized tissue swelling from high systemic albumin",
+      "B": "Their elevated bilirubin levels prevent normal local vasoconstriction",
+      "C": "Their fragile peripheral veins collapse permanently under minimal pressure",
+      "D": "Their synthesis of clotting factors is often impaired, increasing bleeding risks"
     },
-    "answer": "B",
-    "explanation": "An elevation in ALP and conjugated bilirubin points toward a cholestatic pattern, which signifies impaired bile flow or biliary obstruction. [learn more](GNS221_U2_T11#GNS221_U2_T11_h7)"
-  },
-  {
-    "question_id": "GNS221_U2_T11_h8_q1",
-    "heading_id": "GNS221_U2_T11_h8",
-    "article_id": "GNS221_U2_T11",
-    "topic_id": "GNS221_U2_T11",
-    "question": "Why is proper venipuncture technique crucial when collecting blood samples for Liver Function Tests?",
-    "options": {
-      "A": "To prevent sample hemolysis, which can falsely elevate certain enzyme levels like AST",
-      "B": "To ensure that the patient's blood pressure does not drop during the procedure",
-      "C": "To prevent the patient from developing an allergy to the antiseptic wipe",
-      "D": "To guarantee that the blood sample clots immediately in the collection tube"
-    },
-    "answer": "A",
-    "explanation": "Hemolysis causes red blood cells to rupture, releasing intracellular enzymes such as AST into the serum and leading to false-positive elevations. [learn more](GNS221_U2_T11#GNS221_U2_T11_h8)"
-  },
-  {
-    "question_id": "GNS221_U2_T11_h8_q2",
-    "heading_id": "GNS221_U2_T11_h8",
-    "article_id": "GNS221_U2_T11",
-    "topic_id": "GNS221_U2_T11",
-    "question": "What is an essential post-test nursing consideration for a patient with advanced liver disease undergoing venipuncture?",
-    "options": {
-      "A": "Restricting all fluid intake for 12 hours following the blood draw",
-      "B": "Applying prolonged pressure to the puncture site to prevent hematoma due to poor clotting",
-      "C": "Administering oral anticoagulants immediately after the test",
-      "D": "Encouraging strenuous upper body exercise to stimulate circulation"
-    },
-    "answer": "B",
-    "explanation": "Patients with liver disease often have impaired synthesis of clotting factors, making them prone to prolonged bleeding and requiring extended site pressure. [learn more](GNS221_U2_T11#GNS221_U2_T11_h8)"
+    "answer": "D",
+    "explanation": "Failing livers struggle to produce adequate coagulation proteins, making post-procedural bleeding and hematoma formation much more likely. [learn more](GNS221_U2_T11#GNS221_U2_T11_h7)"
   }
 ]

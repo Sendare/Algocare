@@ -4,239 +4,255 @@
     "heading_id": "GNS215_U6_T13_h1",
     "article_id": "GNS215_U6_T13",
     "topic_id": "GNS215_U6_T13",
-    "question": "Which primary host cell receptor is targeted by the Human Immunodeficiency Virus (HIV)?",
+    "difficulty": "recall",
+    "question": "Which specific host cell type is the primary target for human immunodeficiency virus infection?",
     "options": {
-      "A": "CD8 receptors",
-      "B": "CD4 receptors",
-      "C": "Beta receptors",
-      "D": "Alpha receptors"
+      "A": "Erythrocytes",
+      "B": "Neutrophils",
+      "C": "CD4+ T-lymphocytes",
+      "D": "B-lymphocytes"
     },
-    "answer": "B",
-    "explanation": "HIV primarily targets and infects cells bearing CD4 receptors, such as helper T-lymphocytes, monocytes, and macrophages. [learn more](GNS215_U6_T13#GNS215_U6_T13_h1)"
+    "answer": "C",
+    "explanation": "HIV specifically binds to and destroys CD4+ T-lymphocytes, compromising the cell-mediated immune response of the host. [learn more](GNS215_U6_T13#GNS215_U6_T13_h1)"
   },
   {
     "question_id": "GNS215_U6_T13_h1_q2",
     "heading_id": "GNS215_U6_T13_h1",
     "article_id": "GNS215_U6_T13",
     "topic_id": "GNS215_U6_T13",
-    "question": "What is the primary goal of Antiretroviral Therapy (ART) in managing HIV?",
+    "difficulty": "understanding",
+    "question": "What is the primary function of the viral enzyme reverse transcriptase during the HIV replication cycle?",
     "options": {
-      "A": "To completely eradicate the virus from the body",
-      "B": "To convert double-stranded RNA into single-stranded DNA",
-      "C": "To suppress viral replication to undetectable levels and preserve immune function",
-      "D": "To stimulate the rapid destruction of CD4+ T-cells"
+      "A": "Cleaving large viral polyproteins into functional units",
+      "B": "Transcribing viral RNA into double-stranded DNA",
+      "C": "Integrating viral DNA into the host human genome",
+      "D": "Binding directly to the host cell CD4 receptor"
     },
-    "answer": "C",
-    "explanation": "ART suppresses viral replication to undetectable levels, which halts CD4+ T-cell destruction and allows the immune system to recover. [learn more](GNS215_U6_T13#GNS215_U6_T13_h1)"
+    "answer": "B",
+    "explanation": "Reverse transcriptase is responsible for converting the single-stranded viral RNA into double-stranded viral DNA inside the host cell cytoplasm. [learn more](GNS215_U6_T13#GNS215_U6_T13_h1)"
   },
   {
     "question_id": "GNS215_U6_T13_h2_q1",
     "heading_id": "GNS215_U6_T13_h2",
     "article_id": "GNS215_U6_T13",
     "topic_id": "GNS215_U6_T13",
-    "question": "How do Nucleoside and Nucleotide Reverse Transcriptase Inhibitors (NRTIs) primarily function?",
+    "difficulty": "recall",
+    "question": "How do nucleoside reverse transcriptase inhibitors primarily exert their antiviral effect?",
     "options": {
-      "A": "By blocking viral entry into the host cell",
-      "B": "By acting as decoy substrates that terminate the viral DNA chain",
-      "C": "By inhibiting the viral protease enzyme cleavage process",
-      "D": "By directly integrating into the host cell's chromosome"
+      "A": "Act as faulty building blocks to terminate viral DNA chains",
+      "B": "Bind directly to the active site of the protease enzyme",
+      "C": "Inhibit the integration of viral DNA into human chromosomes",
+      "D": "Block the cellular chemokine co-receptors on the host membrane"
     },
-    "answer": "B",
-    "explanation": "NRTIs act as decoy substrates that cause premature termination of the viral DNA chain synthesized by reverse transcriptase. [learn more](GNS215_U6_T13#GNS215_U6_T13_h2)"
+    "answer": "A",
+    "explanation": "NRTIs mimic natural nucleosides, causing premature termination of the growing viral DNA chain during reverse transcription. [learn more](GNS215_U6_T13#GNS215_U6_T13_h2)"
   },
   {
     "question_id": "GNS215_U6_T13_h2_q2",
     "heading_id": "GNS215_U6_T13_h2",
     "article_id": "GNS215_U6_T13",
     "topic_id": "GNS215_U6_T13",
-    "question": "What is the specific mechanism of action of Protease Inhibitors (PIs)?",
+    "difficulty": "understanding",
+    "question": "Which drug class prevents the final maturation of viral particles by blocking the cleavage of polyproteins?",
     "options": {
-      "A": "They prevent the viral protease from cleaving polyproteins into mature functional units",
-      "B": "They bind directly to the reverse transcriptase enzyme to alter its conformation",
-      "C": "They prevent the viral DNA from entering the nucleus of the host cell",
-      "D": "They block CD4 receptors on helper T-lymphocytes"
+      "A": "Integrase inhibitors",
+      "B": "Non-nucleoside reverse transcriptase inhibitors",
+      "C": "Fusion inhibitors",
+      "D": "Protease inhibitors"
     },
-    "answer": "A",
-    "explanation": "PIs inhibit the viral protease enzyme, preventing it from cleaving polyproteins into mature, infectious virions. [learn more](GNS215_U6_T13#GNS215_U6_T13_h2)"
+    "answer": "D",
+    "explanation": "Protease inhibitors bind to the viral protease enzyme, stopping it from cutting polyproteins into the functional components needed for a mature virion. [learn more](GNS215_U6_T13#GNS215_U6_T13_h2)"
   },
   {
     "question_id": "GNS215_U6_T13_h3_q1",
     "heading_id": "GNS215_U6_T13_h3",
     "article_id": "GNS215_U6_T13",
     "topic_id": "GNS215_U6_T13",
-    "question": "What is the preferred first-line ART backbone combination in Nigeria for treatment-naive adults?",
+    "difficulty": "recall",
+    "question": "What is the preferred first-line antiretroviral fixed-dose combination for treatment-naive adults in Nigeria?",
     "options": {
-      "A": "Zidovudine plus Nevirapine",
-      "B": "Tenofovir Disoproxil Fumarate plus Lamivudine or Emtricitabine",
-      "C": "Abacavir plus Efavirenz",
-      "D": "Lopinavir plus Ritonavir"
+      "A": "Zidovudine, lamivudine, and nevirapine",
+      "B": "Tenofovir, lamivudine, and dolutegravir",
+      "C": "Abacavir, lamivudine, and efavirenz",
+      "D": "Tenofovir, emtricitabine, and ritonavir"
     },
     "answer": "B",
-    "explanation": "Tenofovir Disoproxil Fumarate (TDF) combined with Lamivudine (3TC) or Emtricitabine (FTC) forms the preferred NRTI backbone for first-line regimens in Nigeria. [learn more](GNS215_U6_T13#GNS215_U6_T13_h3)"
+    "explanation": "National guidelines in Nigeria recommend TDF/3TC/DTG as the preferred first-line option due to its high efficacy and strong barrier to resistance. [learn more](GNS215_U6_T13#GNS215_U6_T13_h3)"
   },
   {
     "question_id": "GNS215_U6_T13_h3_q2",
     "heading_id": "GNS215_U6_T13_h3",
     "article_id": "GNS215_U6_T13",
     "topic_id": "GNS215_U6_T13",
-    "question": "When is a second-line antiretroviral regimen typically initiated in a patient?",
+    "difficulty": "understanding",
+    "question": "When is a patient transitioned to a second-line antiretroviral regimen in clinical practice?",
     "options": {
-      "A": "Immediately upon the initial diagnosis of HIV",
-      "B": "When the patient reports minor gastrointestinal side effects",
-      "C": "When there is confirmed treatment failure and persistent viral load rebound",
-      "D": "After the patient successfully completes six months of first-line therapy"
+      "A": "At the routine annual clinical review regardless of viral load",
+      "B": "After confirmed treatment failure on the first-line regimen",
+      "C": "When the patient experiences mild gastrointestinal side effects",
+      "D": "Immediately following the diagnosis of pulmonary tuberculosis"
     },
-    "answer": "C",
-    "explanation": "Second-line regimens are deployed when a patient experiences confirmed treatment failure indicated by persistent viral load rebound. [learn more](GNS215_U6_T13#GNS215_U6_T13_h3)"
+    "answer": "B",
+    "explanation": "Second-line regimens are reserved for situations where viral load testing confirms that the current first-line combination has failed. [learn more](GNS215_U6_T13#GNS215_U6_T13_h3)"
   },
   {
     "question_id": "GNS215_U6_T13_h4_q1",
     "heading_id": "GNS215_U6_T13_h4",
     "article_id": "GNS215_U6_T13",
     "topic_id": "GNS215_U6_T13",
-    "question": "What level of patient adherence is typically required for successful long-term antiretroviral therapy?",
+    "difficulty": "understanding",
+    "question": "What is the primary clinical consequence of frequent, sub-optimal adherence to antiretroviral therapy?",
     "options": {
-      "A": "At least 50% of prescribed doses",
-      "B": "At least 75% of prescribed doses",
-      "C": "At least 95% of prescribed doses",
-      "D": "100% adherence without any missing doses ever"
+      "A": "Immediate renal failure and bone demineralization",
+      "B": "Development of drug-resistant viral mutations",
+      "C": "Complete eradication of latent viral reservoirs",
+      "D": "Permanent elevation of CD4+ lymphocyte counts"
     },
-    "answer": "C",
-    "explanation": "Strict patient adherence of at least 95% of prescribed doses on time is essential to maintain viral suppression and prevent resistance. [learn more](GNS215_U6_T13#GNS215_U6_T13_h4)"
+    "answer": "B",
+    "explanation": "Inconsistent drug levels allow viral replication to continue in the presence of sub-therapeutic drug concentrations, rapidly selecting for resistant viral strains. [learn more](GNS215_U6_T13#GNS215_U6_T13_h4)"
   },
   {
     "question_id": "GNS215_U6_T13_h4_q2",
     "heading_id": "GNS215_U6_T13_h4",
     "article_id": "GNS215_U6_T13",
     "topic_id": "GNS215_U6_T13",
-    "question": "What is the primary consequence of poor or suboptimal patient adherence to antiretroviral therapy?",
+    "difficulty": "recall",
+    "question": "Which strategy is most effective for reducing pill burden and simplifying daily medication administration?",
     "options": {
-      "A": "Immediate hepatic failure",
-      "B": "Development of drug-resistant viral strains and viral rebound",
-      "C": "Enhanced absorption of the medication",
-      "D": "Permanent cure of the HIV infection"
+      "A": "Splitting individual tablets into smaller doses",
+      "B": "Taking medications only on alternate days",
+      "C": "Using fixed-dose combination tablets",
+      "D": "Crushing all pills into liquid suspensions"
     },
-    "answer": "B",
-    "explanation": "Poor adherence leads to viral rebound and is the primary driver behind the development of drug-resistant viral strains. [learn more](GNS215_U6_T13#GNS215_U6_T13_h4)"
+    "answer": "C",
+    "explanation": "Fixed-dose combinations combine multiple active drugs into a single pill, significantly lowering pill burden and improving compliance. [learn more](GNS215_U6_T13#GNS215_U6_T13_h4)"
   },
   {
     "question_id": "GNS215_U6_T13_h5_q1",
     "heading_id": "GNS215_U6_T13_h5",
     "article_id": "GNS215_U6_T13",
     "topic_id": "GNS215_U6_T13",
-    "question": "Which organ system is primarily monitored for long-term toxicity when a patient is prescribed Tenofovir Disoproxil Fumarate?",
+    "difficulty": "recall",
+    "question": "Which routine laboratory test is essential for monitoring potential renal toxicity in patients receiving tenofovir?",
     "options": {
-      "A": "The renal system",
-      "B": "The pulmonary system",
-      "C": "The cardiovascular system",
-      "D": "The integumentary system"
+      "A": "Complete blood count with differential white cells",
+      "B": "Serum creatinine and estimated glomerular filtration rate",
+      "C": "Fasting blood glucose and glycated hemoglobin",
+      "D": "Erythrocyte sedimentation rate and C-reactive protein"
     },
-    "answer": "A",
-    "explanation": "Tenofovir Disoproxil Fumarate is associated with renal impairment and bone mineral density loss, making kidney function monitoring essential. [learn more](GNS215_U6_T13#GNS215_U6_T13_h5)"
+    "answer": "B",
+    "explanation": "Tenofovir can cause renal tubular damage, making baseline and ongoing monitoring of serum creatinine and eGFR critical for safety. [learn more](GNS215_U6_T13#GNS215_U6_T13_h5)"
   },
   {
     "question_id": "GNS215_U6_T13_h5_q2",
     "heading_id": "GNS215_U6_T13_h5",
     "article_id": "GNS215_U6_T13",
     "topic_id": "GNS215_U6_T13",
-    "question": "What is a major hypersensitivity screening consideration before initiating Abacavir therapy?",
+    "difficulty": "understanding",
+    "question": "A patient started on efavirenz reports experiencing vivid dreams and dizziness at night. What is the most appropriate clinical action?",
     "options": {
-      "A": "Testing for the HLA-B*5701 allele",
-      "B": "Checking fasting blood glucose levels",
-      "C": "Performing a baseline CD4 cell count",
-      "D": "Measuring liver transaminases"
+      "A": "Add a therapeutic dose of a broad-spectrum antibiotic to manage the symptoms",
+      "B": "Discontinue all antiretroviral therapy immediately and switch to a second-line regimen",
+      "C": "Reassure the patient that these central nervous system effects often diminish over time",
+      "D": "Refer the patient for urgent psychiatric admission due to severe drug toxicity"
     },
-    "answer": "A",
-    "explanation": "Baseline genetic testing for the HLA-B*5701 allele is recommended before starting Abacavir to prevent severe hypersensitivity reactions. [learn more](GNS215_U6_T13#GNS215_U6_T13_h5)"
+    "answer": "C",
+    "explanation": "CNS symptoms from efavirenz are common in the first few weeks of treatment and usually resolve spontaneously without requiring regimen changes. [learn more](GNS215_U6_T13#GNS215_U6_T13_h5)"
   },
   {
     "question_id": "GNS215_U6_T13_h6_q1",
     "heading_id": "GNS215_U6_T13_h6",
     "article_id": "GNS215_U6_T13",
     "topic_id": "GNS215_U6_T13",
-    "question": "Which enzyme system is primarily responsible for the pharmacokinetic interactions seen with many antiretroviral drugs?",
+    "difficulty": "understanding",
+    "question": "Why does co-administering rifampicin with certain antiretroviral drugs require careful clinical management?",
     "options": {
-      "A": "Hepatic cytochrome P450 enzyme system",
-      "B": "Renal tubular secretion system",
-      "C": "Gastric acid secretory pathways",
-      "D": "Pancreatic amylase enzyme system"
+      "A": "Rifampicin binds directly to viral protease and deactivates its therapeutic properties",
+      "B": "Rifampicin neutralizes the absorption of all oral medications in the stomach",
+      "C": "Rifampicin alters hepatic enzyme activity and can significantly lower antiretroviral drug levels",
+      "D": "The combination causes immediate and irreversible renal failure within twenty-four hours"
     },
-    "answer": "A",
-    "explanation": "Many antiretrovirals interact with hepatic cytochrome P450 enzymes, leading to significant potential for drug-drug interactions. [learn more](GNS215_U6_T13#GNS215_U6_T13_h6)"
+    "answer": "C",
+    "explanation": "Rifampicin is a potent hepatic enzyme inducer that accelerates the metabolism of various antiretrovirals, potentially reducing their efficacy. [learn more](GNS215_U6_T13#GNS215_U6_T13_h6)"
   },
   {
     "question_id": "GNS215_U6_T13_h6_q2",
     "heading_id": "GNS215_U6_T13_h6",
     "article_id": "GNS215_U6_T13",
     "topic_id": "GNS215_U6_T13",
-    "question": "What is the primary cause of drug resistance in patients taking antiretroviral therapy?",
+    "difficulty": "recall",
+    "question": "What is the primary mechanism leading to acquired antiretroviral drug resistance in patients?",
     "options": {
-      "A": "Consuming a high-fat diet with every meal",
-      "B": "Viral replication occurring in the presence of suboptimal drug levels",
-      "C": "Taking too many medications from different classes simultaneously",
-      "D": "Natural genetic immunity of the host cell"
+      "A": "Direct antagonism between nucleoside and non-nucleoside drug classes",
+      "B": "Natural genetic mutation occurring exclusively in uninfected host cells",
+      "C": "Allergic hypersensitivity reactions driven by hepatic enzyme deficiencies",
+      "D": "Continued viral replication during periods of sub-therapeutic drug concentrations"
     },
-    "answer": "B",
-    "explanation": "Drug resistance emerges when mutations occur during ongoing viral replication while drug levels are suboptimal due to poor adherence or interactions. [learn more](GNS215_U6_T13#GNS215_U6_T13_h6)"
+    "answer": "D",
+    "explanation": "When drug levels are too low to stop replication, resistant viral strains survive and become the dominant population. [learn more](GNS215_U6_T13#GNS215_U6_T13_h6)"
   },
   {
     "question_id": "GNS215_U6_T13_h7_q1",
     "heading_id": "GNS215_U6_T13_h7",
     "article_id": "GNS215_U6_T13",
     "topic_id": "GNS215_U6_T13",
-    "question": "Why is achieving rapid viral suppression vital for pregnant women living with HIV?",
+    "difficulty": "recall",
+    "question": "What is the primary objective of initiating antiretroviral therapy in pregnant women diagnosed with HIV?",
     "options": {
-      "A": "To prevent mother-to-child transmission of the virus",
-      "B": "To completely eliminate the need for infant prophylaxis",
-      "C": "To prevent gestational diabetes mellitus",
-      "D": "To avoid the need for hepatic function testing"
+      "A": "Eliminating the need for infant prophylaxis after birth",
+      "B": "Preventing vertical transmission to the infant during pregnancy, labor, and breastfeeding",
+      "C": "Preventing the development of gestational diabetes mellitus",
+      "D": "Eradicating the latent viral reservoir completely from maternal lymph nodes"
     },
-    "answer": "A",
-    "explanation": "Rapid and sustained viral suppression in pregnant women is essential to prevent mother-to-child transmission during gestation, labor, and breastfeeding. [learn more](GNS215_U6_T13#GNS215_U6_T13_h7)"
+    "answer": "B",
+    "explanation": "Rapid viral suppression in the mother via ART is the most effective intervention to prevent transmission of HIV to the child. [learn more](GNS215_U6_T13#GNS215_U6_T13_h7)"
   },
   {
     "question_id": "GNS215_U6_T13_h7_q2",
     "heading_id": "GNS215_U6_T13_h7",
     "article_id": "GNS215_U6_T13",
     "topic_id": "GNS215_U6_T13",
-    "question": "What is a major management consideration when treating an HIV-infected patient who has a co-infection with Tuberculosis?",
+    "difficulty": "understanding",
+    "question": "Which factor is most critical when calculating and dispensing antiretroviral doses for pediatric patients?",
     "options": {
-      "A": "Rifampicin acts as an enzyme inducer that can significantly lower antiretroviral drug concentrations",
-      "B": "Anti-TB drugs completely eliminate the need for antiretroviral therapy",
-      "C": "Pediatric liquid formulations must be used for all adult co-infected patients",
-      "D": "Viral load monitoring is completely unnecessary during TB treatment"
+      "A": "The seasonal variation in local malaria transmission rates",
+      "B": "The child's biological sex and school attendance status",
+      "C": "Standard adult dosing guidelines adjusted for height",
+      "D": "Accurate body weight and appropriate dispersible formulations"
     },
-    "answer": "A",
-    "explanation": "Rifampicin is a potent enzyme inducer that lowers antiretroviral concentrations, requiring careful regimen adjustments and timing. [learn more](GNS215_U6_T13#GNS215_U6_T13_h7)"
+    "answer": "D",
+    "explanation": "Pediatric dosing must be calculated strictly by weight using child-friendly liquid or dispersible tablets to ensure therapeutic blood levels. [learn more](GNS215_U6_T13#GNS215_U6_T13_h7)"
   },
   {
     "question_id": "GNS215_U6_T13_h8_q1",
     "heading_id": "GNS215_U6_T13_h8",
     "article_id": "GNS215_U6_T13",
     "topic_id": "GNS215_U6_T13",
-    "question": "What is a key nursing responsibility when educating a patient newly initiated on antiretroviral therapy?",
+    "difficulty": "understanding",
+    "question": "What is an essential nursing action during ongoing clinical follow-up for a patient on antiretroviral therapy?",
     "options": {
-      "A": "Emphasizing the critical importance of lifelong adherence to the treatment regimen",
-      "B": "Instructing the patient to stop taking medications once viral load becomes undetectable",
-      "C": "Ensuring the patient diagnoses their own drug resistance mutations",
-      "D": "Prescribing alternative second-line regimens independently"
+      "A": "Focusing solely on physical vitals while ignoring social challenges",
+      "B": "Withholding medications until the patient reports complete symptom resolution",
+      "C": "Independently altering prescribed drug dosages based on patient preference",
+      "D": "Regularly assessing adherence barriers and providing supportive counseling"
     },
-    "answer": "A",
-    "explanation": "Nurses must educate patients thoroughly on the critical importance of lifelong adherence to maintain viral suppression and health. [learn more](GNS215_U6_T13#GNS215_U6_T13_h8)"
+    "answer": "D",
+    "explanation": "Ongoing assessment of adherence challenges allows nurses to provide targeted support and interventions to maintain viral suppression. [learn more](GNS215_U6_T13#GNS215_U6_T13_h8)"
   },
   {
     "question_id": "GNS215_U6_T13_h8_q2",
     "heading_id": "GNS215_U6_T13_h8",
     "article_id": "GNS215_U6_T13",
     "topic_id": "GNS215_U6_T13",
-    "question": "How can nurses best help patients manage minor adverse effects like nausea caused by their medications?",
+    "difficulty": "recall",
+    "question": "Which of the following is NOT a core component of effective patient education regarding antiretroviral therapy?",
     "options": {
-      "A": "Advise the patient to abruptly discontinue all treatment",
-      "B": "Provide practical guidance such as taking specific medications with food",
-      "C": "Recommend doubling the next dose to build tolerance",
-      "D": "Instruct the patient to avoid reporting symptoms to the clinic"
+      "A": "Emphasizing the critical importance of lifelong, uninterrupted adherence",
+      "B": "Explaining the exact daily dosing schedule and administration instructions",
+      "C": "Instructing the patient to stop therapy whenever they feel completely healthy",
+      "D": "Highlighting common side effects and when to seek immediate medical help"
     },
-    "answer": "B",
-    "explanation": "Nurses provide practical advice, such as taking certain medications with food, to help patients manage minor gastrointestinal side effects. [learn more](GNS215_U6_T13#GNS215_U6_T13_h8)"
+    "answer": "C",
+    "explanation": "Stopping antiretroviral therapy when feeling healthy leads to viral rebound and drug resistance; therapy must be lifelong. [learn more](GNS215_U6_T13#GNS215_U6_T13_h8)"
   }
 ]

@@ -4,179 +4,191 @@
     "heading_id": "GNS227_U1_T015_h1",
     "article_id": "GNS227_U1_T015",
     "topic_id": "GNS227_U1_T015",
-    "question": "What is the primary clinical purpose of using Body Mass Index (BMI) in nursing practice?",
+    "difficulty": "recall",
+    "question": "What is the primary purpose of calculating a patient's Body Mass Index in clinical practice?",
     "options": {
-      "A": "To directly measure the exact percentage of total body fat",
-      "B": "To serve as a screening tool to evaluate weight relative to height",
-      "C": "To diagnose chronic lifestyle diseases definitively",
-      "D": "To calculate the precise metabolic rate of a patient"
+      "A": "To diagnose specific cardiovascular diseases",
+      "B": "To screen for weight categories linked to health risks",
+      "C": "To measure direct body fat percentage",
+      "D": "To calculate exact basal metabolic rate"
     },
     "answer": "B",
-    "explanation": "BMI is a simple screening tool used to evaluate an individual's weight relative to their height, rather than directly measuring body fat or providing a definitive disease diagnosis. [learn more](GNS227_U1_T015#GNS227_U1_T015_h1)"
+    "explanation": "BMI acts as a practical screening metric rather than a direct measurement of body fat or a definitive diagnostic tool for specific diseases. [learn more](GNS227_U1_T015#GNS227_U1_T015_h1)"
   },
   {
     "question_id": "GNS227_U1_T015_h1_q2",
     "heading_id": "GNS227_U1_T015_h1",
     "article_id": "GNS227_U1_T015",
     "topic_id": "GNS227_U1_T015",
-    "question": "Who originally developed the mathematical concept that forms the basis of modern BMI?",
+    "difficulty": "understanding",
+    "question": "Why is BMI widely utilized in busy outpatient clinics and triage settings?",
     "options": {
-      "A": "Florence Nightingale",
-      "B": "Adolphe Quetelet",
-      "C": "Hippocrates",
-      "D": "Louis Pasteur"
+      "A": "It accounts for individual bone density variations automatically",
+      "B": "It requires expensive laboratory equipment to perform accurately",
+      "C": "It directly evaluates muscle mass distribution across limbs",
+      "D": "It provides a rapid and inexpensive initial nutritional status snapshot"
     },
-    "answer": "B",
-    "explanation": "BMI was developed in the 19th century by Adolphe Quetelet as an index to evaluate weight relative to height. [learn more](GNS227_U1_T015#GNS227_U1_T015_h1)"
+    "answer": "D",
+    "explanation": "The simplicity of requiring only height and weight measurements makes BMI an efficient tool for quick patient assessments in high-volume environments. [learn more](GNS227_U1_T015#GNS227_U1_T015_h1)"
   },
   {
     "question_id": "GNS227_U1_T015_h2_q1",
     "heading_id": "GNS227_U1_T015_h2",
     "article_id": "GNS227_U1_T015",
     "topic_id": "GNS227_U1_T015",
-    "question": "What are the two specific measurements required to calculate a patient's Body Mass Index?",
+    "difficulty": "recall",
+    "question": "What are the two specific units of measurement required to calculate BMI using the standard metric system?",
     "options": {
-      "A": "Weight in pounds and height in centimeters",
-      "B": "Weight in kilograms and height in meters squared",
-      "C": "Weight in grams and height in millimeters",
-      "D": "Weight in kilograms and height in meters"
+      "A": "Weight in grams and height in centimeters",
+      "B": "Weight in pounds and height in inches squared",
+      "C": "Weight in kilograms and height in centimeters",
+      "D": "Weight in kilograms and height in meters squared"
     },
     "answer": "D",
-    "explanation": "The formula requires weight measured in kilograms and height measured in meters before the height is squared. [learn more](GNS227_U1_T015#GNS227_U1_T015_h2)"
+    "explanation": "The standard metric formula divides weight measured in kilograms by height measured in meters squared. [learn more](GNS227_U1_T015#GNS227_U1_T015_h2)"
   },
   {
     "question_id": "GNS227_U1_T015_h2_q2",
     "heading_id": "GNS227_U1_T015_h2",
     "article_id": "GNS227_U1_T015",
     "topic_id": "GNS227_U1_T015",
-    "question": "How is the denominator of the BMI equation structured mathematically?",
+    "difficulty": "application",
+    "question": "A patient weighs 70 kg and has a height of 175 cm. What is the correct intermediate step for their height before calculating the BMI?",
     "options": {
-      "A": "Height in meters multiplied by two",
-      "B": "Height in meters squared",
-      "C": "Height in centimeters divided by weight",
-      "D": "Square root of the height in meters"
+      "A": "Divide 175 by 10 and keep it un-squared",
+      "B": "Square 175 directly to get 30,625",
+      "C": "Multiply 175 by 703 to find the denominator",
+      "D": "Convert 175 cm to 1.75 meters, then square it"
     },
-    "answer": "B",
-    "explanation": "The formula divides weight by height in meters squared (m²). [learn more](GNS227_U1_T015#GNS227_U1_T015_h2)"
+    "answer": "D",
+    "explanation": "Centimeters must first be converted into meters by dividing by 100 before the value can be squared for the denominator. [learn more](GNS227_U1_T015#GNS227_U1_T015_h2)"
   },
   {
     "question_id": "GNS227_U1_T015_h3_q1",
     "heading_id": "GNS227_U1_T015_h3",
     "article_id": "GNS227_U1_T015",
     "topic_id": "GNS227_U1_T015",
-    "question": "Which BMI value range represents the WHO classification for a normal, healthy weight?",
+    "difficulty": "recall",
+    "question": "What is the lower threshold for a normal, healthy adult BMI according to World Health Organization classifications?",
     "options": {
-      "A": "15.0 to 18.4 kg/m²",
-      "B": "18.5 to 24.9 kg/m²",
-      "C": "25.0 to 29.9 kg/m²",
-      "D": "30.0 to 34.9 kg/m²"
+      "A": "20.0 kg/m²",
+      "B": "16.0 kg/m²",
+      "C": "18.5 kg/m²",
+      "D": "25.0 kg/m²"
     },
-    "answer": "B",
-    "explanation": "The WHO defines the normal, healthy weight range as a BMI between 18.5 kg/m² and 24.9 kg/m². [learn more](GNS227_U1_T015#GNS227_U1_T015_h3)"
+    "answer": "C",
+    "explanation": "The WHO defines the normal weight range as starting at 18.5 up to 24.9 kg/m². [learn more](GNS227_U1_T015#GNS227_U1_T015_h3)"
   },
   {
     "question_id": "GNS227_U1_T015_h3_q2",
     "heading_id": "GNS227_U1_T015_h3",
     "article_id": "GNS227_U1_T015",
     "topic_id": "GNS227_U1_T015",
-    "question": "A patient presents with a calculated BMI of 36.5 kg/m². According to WHO classifications, how should this be categorized?",
+    "difficulty": "understanding",
+    "question": "A patient has a calculated BMI of 32.5 kg/m². How should this result be classified?",
     "options": {
       "A": "Overweight",
-      "B": "Obesity Class I",
-      "C": "Obesity Class II",
-      "D": "Obesity Class III"
+      "B": "Class 1 Obesity",
+      "C": "Class 3 Obesity",
+      "D": "Normal weight"
     },
-    "answer": "C",
-    "explanation": "A BMI between 35.0 kg/m² and 39.9 kg/m² falls into the category of Obesity Class II. [learn more](GNS227_U1_T015#GNS227_U1_T015_h3)"
+    "answer": "B",
+    "explanation": "A BMI between 30.0 and 34.9 kg/m² falls squarely into the Class 1 Obesity classification category. [learn more](GNS227_U1_T015#GNS227_U1_T015_h3)"
   },
   {
     "question_id": "GNS227_U1_T015_h4_q1",
     "heading_id": "GNS227_U1_T015_h4",
     "article_id": "GNS227_U1_T015",
     "topic_id": "GNS227_U1_T015",
-    "question": "What is a primary clinical risk associated with an abnormally low BMI (underweight)?",
+    "difficulty": "understanding",
+    "question": "What chronic metabolic condition is most directly associated with long-term elevated BMI values above 30 kg/m²?",
     "options": {
-      "A": "Systemic hypertension",
-      "B": "Compromised immune function and delayed wound healing",
+      "A": "Osteogenesis imperfecta",
+      "B": "Iron deficiency anemia",
       "C": "Type 2 diabetes mellitus",
-      "D": "Obstructive sleep apnea"
+      "D": "Chronic obstructive pulmonary disease"
     },
-    "answer": "B",
-    "explanation": "Being underweight can impair the immune system, weaken the body, and lead to delayed wound healing and higher infection risks. [learn more](GNS227_U1_T015#GNS227_U1_T015_h4)"
+    "answer": "C",
+    "explanation": "Excess adipose tissue promotes insulin resistance, making type 2 diabetes a primary metabolic risk of elevated BMI. [learn more](GNS227_U1_T015#GNS227_U1_T015_h4)"
   },
   {
     "question_id": "GNS227_U1_T015_h4_q2",
     "heading_id": "GNS227_U1_T015_h4",
     "article_id": "GNS227_U1_T015",
     "topic_id": "GNS227_U1_T015",
-    "question": "How does excessive visceral fat associated with high BMI primarily contribute to metabolic disease?",
+    "difficulty": "recall",
+    "question": "Which complication is primarily associated with an abnormally low BMI below 18.5 kg/m²?",
     "options": {
-      "A": "By increasing bone mineral density rapidly",
-      "B": "By secreting inflammatory cytokines that cause insulin resistance",
-      "C": "By enhancing red blood cell production",
-      "D": "By decreasing cardiac workload"
+      "A": "Obstructive sleep apnea",
+      "B": "Hypertension and stroke",
+      "C": "Systemic fat embolism",
+      "D": "Immune suppression and delayed healing"
     },
-    "answer": "B",
-    "explanation": "Excess adipose tissue secretes inflammatory cytokines that promote insulin resistance, which is a major factor in developing type 2 diabetes. [learn more](GNS227_U1_T015#GNS227_U1_T015_h4)"
+    "answer": "D",
+    "explanation": "Undernutrition compromises immune function, decreases muscle mass, and significantly impairs the body's ability to heal wounds. [learn more](GNS227_U1_T015#GNS227_U1_T015_h4)"
   },
   {
     "question_id": "GNS227_U1_T015_h5_q1",
     "heading_id": "GNS227_U1_T015_h5",
     "article_id": "GNS227_U1_T015",
     "topic_id": "GNS227_U1_T015",
-    "question": "Why might a well-trained athlete be misclassified as overweight or obese when using standard BMI charts?",
+    "difficulty": "understanding",
+    "question": "Why might a professional bodybuilder with a muscular physique be inaccurately categorized as overweight using standard BMI?",
     "options": {
-      "A": "Because athletes have higher bone density and less body water",
-      "B": "Because BMI cannot distinguish between heavy lean muscle mass and fat tissue",
-      "C": "Because athletes typically have shorter heights than average adults",
-      "D": "Because the formula does not apply to individuals under 25 years old"
+      "A": "Height measurements are systematically skewed in active adults",
+      "B": "Muscle tissue is much denser than adipose tissue",
+      "C": "Athletes always retain higher levels of extracellular fluid",
+      "D": "The imperial conversion formula applies poorly to athletes"
     },
     "answer": "B",
-    "explanation": "BMI measures total body weight relative to height, failing to differentiate whether that weight comes from heavy muscle or adipose tissue. [learn more](GNS227_U1_T015#GNS227_U1_T015_h5)"
+    "explanation": "Because muscle weighs significantly more than fat per unit of volume, high muscle mass inflates the weight component of the BMI equation without indicating excess fat. [learn more](GNS227_U1_T015#GNS227_U1_T015_h5)"
   },
   {
     "question_id": "GNS227_U1_T015_h5_q2",
     "heading_id": "GNS227_U1_T015_h5",
     "article_id": "GNS227_U1_T015",
     "topic_id": "GNS227_U1_T015",
-    "question": "What condition in elderly patients can cause a falsely normal BMI while hiding an unhealthy amount of body fat?",
+    "difficulty": "recall",
+    "question": "What is the primary risk of relying on BMI when assessing elderly patients who have lost significant muscle mass?",
     "options": {
-      "A": "Sarcopenia (muscle wasting)",
-      "B": "Polycythemia vera",
-      "C": "Osteoporosis",
-      "D": "Hypernatremia"
+      "A": "It will consistently overestimate their actual body fat percentage",
+      "B": "It prevents accurate measurement of their standing height",
+      "C": "It may show a normal reading while masking hidden visceral fat and muscle wasting",
+      "D": "It automatically classifies them as severely underweight regardless of height"
     },
-    "answer": "A",
-    "explanation": "Sarcopenia involves the loss of muscle mass, which can lower total weight and mask high body fat percentages, leading to a normal BMI reading. [learn more](GNS227_U1_T015#GNS227_U1_T015_h5)"
+    "answer": "C",
+    "explanation": "Sarcopenia replaces active muscle tissue with fat, but overall weight may remain stable, leaving a dangerous metabolic risk undetected by BMI alone. [learn more](GNS227_U1_T015#GNS227_U1_T015_h5)"
   },
   {
     "question_id": "GNS227_U1_T015_h6_q1",
     "heading_id": "GNS227_U1_T015_h6",
     "article_id": "GNS227_U1_T015",
     "topic_id": "GNS227_U1_T015",
-    "question": "What is the primary advantage of measuring Waist Circumference (WC) compared to relying solely on BMI?",
+    "difficulty": "understanding",
+    "question": "Which anthropometric measurement is specifically valuable for identifying visceral fat accumulation and central obesity independently of overall weight?",
     "options": {
-      "A": "It measures exact bone density in the lower extremities",
-      "B": "It specifically evaluates abdominal visceral adiposity and metabolic risk",
-      "C": "It is calculated using total body water percentage",
-      "D": "It eliminates the need to measure patient height"
+      "A": "Height-to-weight ratio",
+      "B": "Mid-upper arm circumference",
+      "C": "Waist circumference",
+      "D": "Total body weight"
     },
-    "answer": "B",
-    "explanation": "Waist circumference directly assesses central fat distribution around the abdomen, which is a strong predictor of metabolic and cardiovascular diseases. [learn more](GNS227_U1_T015#GNS227_U1_T015_h6)"
+    "answer": "C",
+    "explanation": "Waist circumference directly measures abdominal fat distribution, capturing metabolic risks associated with visceral adiposity that BMI might miss. [learn more](GNS227_U1_T015#GNS227_U1_T015_h6)"
   },
   {
     "question_id": "GNS227_U1_T015_h6_q2",
     "heading_id": "GNS227_U1_T015_h6",
     "article_id": "GNS227_U1_T015",
     "topic_id": "GNS227_U1_T015",
-    "question": "How is the Waist-to-Hip Ratio (WHR) calculated in clinical assessments?",
+    "difficulty": "recall",
+    "question": "What is a primary clinical use of Mid-Upper Arm Circumference in community nursing settings across Nigeria?",
     "options": {
-      "A": "By multiplying waist circumference by height in meters",
-      "B": "By dividing the waist circumference measurement by the hip measurement",
-      "C": "By adding the weight in kilograms to the hip circumference",
-      "D": "By dividing height by waist circumference squared"
+      "A": "Determining exact skeletal bone density scores",
+      "B": "Calculating precise adult basal metabolic rate",
+      "C": "Diagnosing underlying adult congenital heart defects",
+      "D": "Screening rapidly for acute malnutrition in vulnerable groups"
     },
-    "answer": "B",
-    "explanation": "WHR is determined by taking the waist measurement and dividing it by the hip measurement to assess fat distribution patterns. [learn more](GNS227_U1_T015#GNS227_U1_T015_h6)"
+    "answer": "D",
+    "explanation": "MUAC tapes provide a quick, reliable method for community health nurses to screen children and pregnant women for acute malnutrition where scales are unavailable. [learn more](GNS227_U1_T015#GNS227_U1_T015_h6)"
   }
 ]

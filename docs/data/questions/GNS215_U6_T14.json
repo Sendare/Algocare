@@ -4,239 +4,255 @@
     "heading_id": "GNS215_U6_T14_h1",
     "article_id": "GNS215_U6_T14",
     "topic_id": "GNS215_U6_T14",
-    "question": "What is the primary pharmacological action of anticoagulants?",
+    "difficulty": "recall",
+    "question": "What is the primary action of anticoagulant medications in the body?",
     "options": {
-      "A": "To actively dissolve already formed blood clots",
-      "B": "To disrupt the coagulation cascade and prevent new clot formation",
-      "C": "To stimulate platelet aggregation and primary hemostasis",
-      "D": "To increase the concentration of circulating fibrinogen"
+      "A": "Accelerating the natural breakdown of cellular debris",
+      "B": "Stopping initial platelet adhesion at vessel sites",
+      "C": "Dissolving existing blood clots in the vasculature",
+      "D": "Preventing the formation of new fibrin clots"
     },
-    "answer": "B",
-    "explanation": "Anticoagulants work by slowing down the clotting process and disrupting the coagulation cascade, which prevents new clots from forming or existing ones from growing, unlike thrombolytics which dissolve clots. [learn more](GNS215_U6_T14#GNS215_U6_T14_h1)"
+    "answer": "D",
+    "explanation": "Anticoagulants target the clotting cascade to halt fibrin production, stopping new clots from forming rather than dissolving old ones. [learn more](GNS215_U6_T14#GNS215_U6_T14_h1)"
   },
   {
     "question_id": "GNS215_U6_T14_h1_q2",
     "heading_id": "GNS215_U6_T14_h1",
     "article_id": "GNS215_U6_T14",
     "topic_id": "GNS215_U6_T14",
-    "question": "Which phase of hemostasis involves the conversion of soluble fibrinogen into insoluble fibrin strands?",
+    "difficulty": "understanding",
+    "question": "How do anticoagulants differ fundamentally in their mechanism compared to antiplatelet drugs?",
     "options": {
-      "A": "Primary hemostasis",
-      "B": "Secondary hemostasis",
-      "C": "Vasoconstriction phase",
-      "D": "Fibrinolysis phase"
+      "A": "Antiplatelets inhibit the liver synthesis of vitamin K dependent proteins",
+      "B": "Antiplatelets work exclusively in veins whereas anticoagulants target arteries",
+      "C": "Anticoagulants dissolve thrombi directly while antiplatelets prevent plaque buildup",
+      "D": "Anticoagulants target clotting factors while antiplatelets target cellular aggregation"
     },
-    "answer": "B",
-    "explanation": "Secondary hemostasis involves the activation of the coagulation cascade, which ultimately converts soluble fibrinogen into insoluble fibrin to stabilize the platelet plug. [learn more](GNS215_U6_T14#GNS215_U6_T14_h1)"
+    "answer": "D",
+    "explanation": "The key distinction lies in targeting the chemical cascade of coagulation factors versus inhibiting the clumping function of blood platelets. [learn more](GNS215_U6_T14#GNS215_U6_T14_h1)"
   },
   {
     "question_id": "GNS215_U6_T14_h2_q1",
     "heading_id": "GNS215_U6_T14_h2",
     "article_id": "GNS215_U6_T14",
     "topic_id": "GNS215_U6_T14",
-    "question": "How do indirect anticoagulants like heparins primarily exert their anticoagulant effect?",
+    "difficulty": "recall",
+    "question": "Which clotting factors are dependent on vitamin K for hepatic synthesis?",
     "options": {
-      "A": "By directly binding to and neutralizing Factor Xa without any cofactors",
-      "B": "By inhibiting vitamin K epoxide reductase in the liver",
-      "C": "By potentiating antithrombin III to neutralize clotting factors like thrombin and Factor Xa",
-      "D": "By directly dissolving existing fibrin strands in the blood vessel"
+      "A": "Factors I, III, V, and VIII",
+      "B": "Factors XI, XII, and XIII",
+      "C": "Factors II, VII, IX, and X",
+      "D": "Factors IV, VI, and VIII"
     },
     "answer": "C",
-    "explanation": "Heparins act indirectly by binding to and potentiating antithrombin III, which then rapidly inactivates clotting factors such as thrombin (Factor IIa) and Factor Xa. [learn more](GNS215_U6_T14#GNS215_U6_T14_h2)"
+    "explanation": "Warfarin and other vitamin K antagonists specifically depress factors II, VII, IX, and X by blocking the vitamin K epoxide reductase enzyme. [learn more](GNS215_U6_T14#GNS215_U6_T14_h2)"
   },
   {
     "question_id": "GNS215_U6_T14_h2_q2",
     "heading_id": "GNS215_U6_T14_h2",
     "article_id": "GNS215_U6_T14",
     "topic_id": "GNS215_U6_T14",
-    "question": "Which of the following describes the mechanism of action of vitamin K antagonists like warfarin?",
+    "difficulty": "understanding",
+    "question": "What makes direct oral anticoagulants different from traditional vitamin K antagonists?",
     "options": {
-      "A": "Potentiation of antithrombin III activity",
-      "B": "Inhibition of vitamin K epoxide reductase, preventing activation of specific clotting factors",
-      "C": "Direct and selective inhibition of free thrombin",
-      "D": "Direct stimulation of fibrinolytic pathways"
+      "A": "They require daily routine laboratory monitoring for safety",
+      "B": "They are exclusively administered through continuous intravenous infusion",
+      "C": "They target specific single clotting factors without antithrombin cofactor",
+      "D": "They have no known reversal agents available in clinical practice"
     },
-    "answer": "B",
-    "explanation": "Warfarin works by inhibiting the enzyme vitamin K epoxide reductase, which prevents the activation of vitamin K-dependent clotting factors II, VII, IX, and X in the liver. [learn more](GNS215_U6_T14#GNS215_U6_T14_h2)"
+    "answer": "C",
+    "explanation": "DOACs inhibit specific targets like thrombin or Factor Xa directly, bypassing the multi-factor vitamin K pathway entirely. [learn more](GNS215_U6_T14#GNS215_U6_T14_h2)"
   },
   {
     "question_id": "GNS215_U6_T14_h3_q1",
     "heading_id": "GNS215_U6_T14_h3",
     "article_id": "GNS215_U6_T14",
     "topic_id": "GNS215_U6_T14",
-    "question": "Which laboratory test is routinely used to monitor the therapeutic effect of unfractionated heparin (UFH)?",
+    "difficulty": "recall",
+    "question": "Which laboratory test is primarily used to monitor the therapeutic effect of unfractionated heparin?",
     "options": {
-      "A": "Prothrombin Time (PT)",
-      "B": "Activated Partial Thromboplastin Time (aPTT)",
-      "C": "International Normalized Ratio (INR)",
-      "D": "Complete Blood Count (platelets only)"
+      "A": "Activated Partial Thromboplastin Time",
+      "B": "International Normalized Ratio",
+      "C": "Prothrombin time and fibrinogen level",
+      "D": "Bleeding time and platelet function assay"
     },
-    "answer": "B",
-    "explanation": "Unfractionated heparin therapy is routinely monitored using the activated partial thromboplastin time (aPTT) to ensure the patient is within the therapeutic range. [learn more](GNS215_U6_T14#GNS215_U6_T14_h3)"
+    "answer": "A",
+    "explanation": "Unfractionated heparin prolongs the aPTT, making it the standard assay to adjust intravenous drip rates safely. [learn more](GNS215_U6_T14#GNS215_U6_T14_h3)"
   },
   {
     "question_id": "GNS215_U6_T14_h3_q2",
     "heading_id": "GNS215_U6_T14_h3",
     "article_id": "GNS215_U6_T14",
     "topic_id": "GNS215_U6_T14",
-    "question": "What is heparin-induced thrombocytopenia (HIT)?",
+    "difficulty": "understanding",
+    "question": "What is the primary clinical advantage of low molecular weight heparin over unfractionated heparin?",
     "options": {
-      "A": "An allergic skin rash caused by subcutaneous LMWH injections",
-      "B": "An immune-mediated reaction causing a drop in platelets and high thrombosis risk",
-      "C": "A genetic condition causing resistance to heparin therapy",
-      "D": "A permanent destruction of red blood cells caused by high-dose UFH"
+      "A": "It can be safely administered orally once daily at home",
+      "B": "It eliminates all risk of systemic bleeding complications",
+      "C": "It provides predictable pharmacokinetics without routine aPTT monitoring",
+      "D": "It does not interact with any other cardiovascular medications"
     },
-    "answer": "B",
-    "explanation": "HIT is an immune-mediated adverse reaction to heparin characterized by a paradoxical drop in platelet counts alongside a significantly increased risk of developing dangerous blood clots. [learn more](GNS215_U6_T14#GNS215_U6_T14_h3)"
+    "answer": "C",
+    "explanation": "LMWH binds less to plasma proteins and cells, yielding a predictable dose response that allows subcutaneous administration without continuous lab titration. [learn more](GNS215_U6_T14#GNS215_U6_T14_h3)"
   },
   {
     "question_id": "GNS215_U6_T14_h4_q1",
     "heading_id": "GNS215_U6_T14_h4",
     "article_id": "GNS215_U6_T14",
     "topic_id": "GNS215_U6_T14",
-    "question": "What standardized laboratory measure is used to monitor a patient taking warfarin?",
+    "difficulty": "recall",
+    "question": "Why is warfarin initiated concurrently with an injectable anticoagulant like heparin for the first few days?",
     "options": {
-      "A": "Activated Partial Thromboplastin Time (aPTT)",
-      "B": "International Normalized Ratio (INR)",
-      "C": "Bleeding time",
-      "D": "Platelet aggregation assay"
+      "A": "To immediately reverse any pre-existing bleeding tendencies",
+      "B": "To prevent the rapid clearance of warfarin by the kidneys",
+      "C": "To bridge the gap until vitamin K-dependent factors are depleted",
+      "D": "To enhance the intestinal absorption of oral medication"
     },
-    "answer": "B",
-    "explanation": "The International Normalized Ratio (INR) is the standardized laboratory measure used globally to monitor and adjust warfarin therapy safety. [learn more](GNS215_U6_T14#GNS215_U6_T14_h4)"
+    "answer": "C",
+    "explanation": "Warfarin causes an initial drop in natural anticoagulants (Protein C and S) before clotting factors drop, creating a temporary clotting risk that requires bridging. [learn more](GNS215_U6_T14#GNS215_U6_T14_h4)"
   },
   {
     "question_id": "GNS215_U6_T14_h4_q2",
     "heading_id": "GNS215_U6_T14_h4",
     "article_id": "GNS215_U6_T14",
     "topic_id": "GNS215_U6_T14",
-    "question": "Why must patients on warfarin maintain consistent dietary intake of vitamin K?",
+    "difficulty": "application",
+    "question": "A patient stabilized on long-term warfarin therapy suddenly increases their daily intake of dark green leafy vegetables. What effect is this dietary change most likely to have?",
     "options": {
-      "A": "Vitamin K increases the risk of heparin-induced thrombocytopenia",
-      "B": "Fluctuations in vitamin K can drastically alter the anticoagulant effect and INR levels",
-      "C": "Vitamin K serves as the primary reversal agent to be taken daily with the medication",
-      "D": "Vitamin K deficiency causes immediate destruction of mechanical heart valves"
+      "A": "Have no measurable impact on coagulation lab parameters",
+      "B": "Increase the INR and significantly elevate bleeding risks",
+      "C": "Trigger an immediate episode of heparin-induced thrombocytopenia",
+      "D": "Decrease the INR and potentially reduce therapeutic efficacy"
     },
-    "answer": "B",
-    "explanation": "Since warfarin works by antagonizing vitamin K, sudden changes in dietary vitamin K intake can destabilize the patient's anticoagulation level and make INR control difficult. [learn more](GNS215_U6_T14#GNS215_U6_T14_h4)"
+    "answer": "D",
+    "explanation": "Green leafy vegetables are rich in vitamin K, which counteracts warfarin's mechanism, leading to a lowered INR and increased clotting risk. [learn more](GNS215_U6_T14#GNS215_U6_T14_h4)"
   },
   {
     "question_id": "GNS215_U6_T14_h5_q1",
     "heading_id": "GNS215_U6_T14_h5",
     "article_id": "GNS215_U6_T14",
     "topic_id": "GNS215_U6_T14",
-    "question": "Which of the following drugs is classified as a direct oral anticoagulant (DOAC) that inhibits Factor Xa?",
+    "difficulty": "recall",
+    "question": "Which medication is classified as a direct thrombin inhibitor among the DOACs?",
     "options": {
-      "A": "Warfarin",
-      "B": "Unfractionated Heparin",
-      "C": "Apixaban",
-      "D": "Dabigatran"
+      "A": "Edoxaban",
+      "B": "Apixaban",
+      "C": "Dabigatran",
+      "D": "Rivaroxaban"
     },
     "answer": "C",
-    "explanation": "Apixaban is a direct oral anticoagulant that specifically targets and inhibits Factor Xa, whereas dabigatran is a direct thrombin inhibitor. [learn more](GNS215_U6_T14#GNS215_U6_T14_h5)"
+    "explanation": "Dabigatran directly inhibits thrombin (Factor IIa), whereas rivaroxaban, apixaban, and edoxaban target Factor Xa. [learn more](GNS215_U6_T14#GNS215_U6_T14_h5)"
   },
   {
     "question_id": "GNS215_U6_T14_h5_q2",
     "heading_id": "GNS215_U6_T14_h5",
     "article_id": "GNS215_U6_T14",
     "topic_id": "GNS215_U6_T14",
-    "question": "What is a major advantage of DOACs compared to traditional vitamin K antagonists like warfarin?",
+    "difficulty": "understanding",
+    "question": "What is a major clinical benefit of direct oral anticoagulants compared to warfarin?",
     "options": {
-      "A": "They require lifelong daily intravenous administration",
-      "B": "They do not require routine coagulation monitoring like INR checks and have fewer food interactions",
-      "C": "They have an infinite half-life making missed doses completely inconsequential",
-      "D": "They are completely independent of renal function for elimination"
+      "A": "They require no routine laboratory monitoring for dose adjustment",
+      "B": "They can be easily reversed using simple dietary modifications",
+      "C": "They are completely unaffected by renal impairment or liver disease",
+      "D": "They dissolve existing blood thrombi within hours of administration"
     },
-    "answer": "B",
-    "explanation": "DOACs offer predictable pharmacokinetics, fewer food interactions, and eliminate the need for routine INR monitoring, which simplifies long-term therapy. [learn more](GNS215_U6_T14#GNS215_U6_T14_h5)"
+    "answer": "A",
+    "explanation": "DOACs feature predictable pharmacokinetic profiles that eliminate the need for frequent blood tests like the INR. [learn more](GNS215_U6_T14#GNS215_U6_T14_h5)"
   },
   {
     "question_id": "GNS215_U6_T14_h6_q1",
     "heading_id": "GNS215_U6_T14_h6",
     "article_id": "GNS215_U6_T14",
     "topic_id": "GNS215_U6_T14",
-    "question": "Why are anticoagulants prescribed for patients with atrial fibrillation?",
+    "difficulty": "recall",
+    "question": "What is the primary objective of prescribing anticoagulants to a patient diagnosed with atrial fibrillation?",
     "options": {
-      "A": "To normalize the electrical heart rhythm and eliminate ectopic pacemakers",
-      "B": "To prevent cardioembolic stroke caused by blood stasis and clot formation in the atria",
-      "C": "To actively dissolve atherosclerotic plaques in the coronary arteries",
-      "D": "To permanently lower systemic blood pressure in hypertensive crisis"
+      "A": "Restoring normal sinus rhythm within the cardiac chambers",
+      "B": "Lowering systemic blood pressure to protect kidney function",
+      "C": "Preventing thromboembolic stroke caused by atrial blood stasis",
+      "D": "Reducing ventricular heart rate during periods of physical exertion"
     },
-    "answer": "B",
-    "explanation": "Atrial fibrillation causes irregular contractions and blood stasis in the heart chambers, increasing clot formation risk; anticoagulants prevent these clots from traveling to the brain as a stroke. [learn more](GNS215_U6_T14#GNS215_U6_T14_h6)"
+    "answer": "C",
+    "explanation": "Irregular atrial contractions cause blood to pool, increasing clot formation risk that can travel to cerebral vessels and cause a stroke. [learn more](GNS215_U6_T14#GNS215_U6_T14_h6)"
   },
   {
     "question_id": "GNS215_U6_T14_h6_q2",
     "heading_id": "GNS215_U6_T14_h6",
     "article_id": "GNS215_U6_T14",
     "topic_id": "GNS215_U6_T14",
-    "question": "Which of the following is a common postoperative indication for prophylactic anticoagulants?",
+    "difficulty": "understanding",
+    "question": "Why are prophylactic anticoagulants routinely initiated following major orthopedic joint replacement surgeries?",
     "options": {
-      "A": "Total knee or hip replacement surgery",
-      "B": "Routine uncomplicated appendectomy",
-      "C": "Superficial skin laceration repair",
-      "D": "Cataract extraction surgery"
+      "A": "Anesthetic agents directly cause irreversible platelet aggregation in peripheral arteries",
+      "B": "Postoperative pain medications destroy circulating natural clotting factors",
+      "C": "Surgical trauma and postoperative immobility sharply increase venous stasis and clot risk",
+      "D": "Bone cement used during joint placement triggers systemic vitamin K synthesis"
     },
-    "answer": "A",
-    "explanation": "Orthopedic surgeries like total hip or knee replacements significantly increase the risk of venous thromboembolism, making postoperative prophylactic anticoagulation essential. [learn more](GNS215_U6_T14#GNS215_U6_T14_h6)"
+    "answer": "C",
+    "explanation": "Venous thromboembolism is a major risk following lower limb surgeries due to vessel injury and prolonged bed rest, necessitating preventative anticoagulation. [learn more](GNS215_U6_T14#GNS215_U6_T14_h6)"
   },
   {
     "question_id": "GNS215_U6_T14_h7_q1",
     "heading_id": "GNS215_U6_T14_h7",
     "article_id": "GNS215_U6_T14",
     "topic_id": "GNS215_U6_T14",
-    "question": "What is the specific pharmacological reversal agent for unfractionated heparin?",
+    "difficulty": "recall",
+    "question": "Which agent is used to rapidly reverse a severe bleeding crisis induced by unfractionated heparin?",
     "options": {
-      "A": "Vitamin K",
+      "A": "Fresh frozen plasma",
       "B": "Protamine sulfate",
-      "C": "Idarucizumab",
-      "D": "Fresh frozen plasma"
+      "C": "Vitamin K injection",
+      "D": "Idarucizumab"
     },
     "answer": "B",
-    "explanation": "Protamine sulfate is the specific antidote that binds to and neutralizes unfractionated heparin, rapidly reversing its anticoagulant effects. [learn more](GNS215_U6_T14#GNS215_U6_T14_h7)"
+    "explanation": "Protamine sulfate binds to heparin to form a stable salt complex, neutralizing its anticoagulant activity almost immediately. [learn more](GNS215_U6_T14#GNS215_U6_T14_h7)"
   },
   {
     "question_id": "GNS215_U6_T14_h7_q2",
     "heading_id": "GNS215_U6_T14_h7",
     "article_id": "GNS215_U6_T14",
     "topic_id": "GNS215_U6_T14",
-    "question": "Which reversal agent is specifically used to neutralize the direct thrombin inhibitor dabigatran?",
+    "difficulty": "understanding",
+    "question": "What is the specific reversal agent indicated for a patient experiencing major bleeding while taking dabigatran?",
     "options": {
-      "A": "Andexanet alfa",
+      "A": "Vitamin K phytomenadione",
       "B": "Protamine sulfate",
-      "C": "Idarucizumab",
-      "D": "Vitamin K"
+      "C": "Andexanet alfa",
+      "D": "Idarucizumab"
     },
-    "answer": "C",
-    "explanation": "Idarucizumab is a specific monoclonal antibody fragment approved to rapidly reverse the anticoagulant effect of dabigatran in emergency situations. [learn more](GNS215_U6_T14#GNS215_U6_T14_h7)"
+    "answer": "D",
+    "explanation": "Idarucizumab is a specific monoclonal antibody fragment designed to bind to dabigatran and neutralize its direct thrombin-inhibiting effects. [learn more](GNS215_U6_T14#GNS215_U6_T14_h7)"
   },
   {
     "question_id": "GNS215_U6_T14_h8_q1",
     "heading_id": "GNS215_U6_T14_h8",
     "article_id": "GNS215_U6_T14",
     "topic_id": "GNS215_U6_T14",
-    "question": "What lifestyle or hygiene adjustment should a nurse recommend to a patient on anticoagulant therapy?",
+    "difficulty": "recall",
+    "question": "Which nursing assessment finding indicates potential internal bleeding in a patient receiving anticoagulant therapy?",
     "options": {
-      "A": "Use stiff-bristled toothbrushes to thoroughly clean the gums",
-      "B": "Use an electric razor instead of a traditional blade to prevent skin cuts",
-      "C": "Engage in high-contact sports to maintain cardiovascular fitness",
-      "D": "Stop all physical exercise immediately and remain on strict bed rest"
+      "A": "Black, tarry stools and decreasing hemoglobin levels",
+      "B": "Elevated blood pressure and flushed warm skin",
+      "C": "Increased urinary output and clear yellow color",
+      "D": "Rapid healing of minor skin abrasions"
     },
-    "answer": "B",
-    "explanation": "Using an electric razor minimizes the risk of accidental skin nicks and cuts, which can lead to prolonged bleeding in patients taking anticoagulants. [learn more](GNS215_U6_T14#GNS215_U6_T14_h8)"
+    "answer": "A",
+    "explanation": "Melena (black, tarry stools) signals gastrointestinal bleeding, which combined with dropping hemoglobin values points to internal hemorrhage. [learn more](GNS215_U6_T14#GNS215_U6_T14_h8)"
   },
   {
     "question_id": "GNS215_U6_T14_h8_q2",
     "heading_id": "GNS215_U6_T14_h8",
     "article_id": "GNS215_U6_T14",
     "topic_id": "GNS215_U6_T14",
-    "question": "Which of the following symptoms reported by a patient on anticoagulation therapy requires immediate medical attention?",
+    "difficulty": "understanding",
+    "question": "What precautionary advice should be given to a patient discharged on long-term anticoagulant medication regarding daily hygiene?",
     "options": {
-      "A": "Mild fatigue after normal daily activities",
-      "B": "Dark, tarry stools (melena) or blood in the urine",
-      "C": "Transient mild bruising on the forearm after minor bumping",
-      "D": "Slight metallic taste in the mouth"
+      "A": "Use a soft-bristled toothbrush and switch to an electric razor",
+      "B": "Stop all flossing and completely avoid brushing back teeth",
+      "C": "Scrub the skin vigorously during baths to stimulate circulation",
+      "D": "Take aspirin daily to protect against gum inflammation"
     },
-    "answer": "B",
-    "explanation": "Dark, tarry stools (melena) and hematuria are signs of gastrointestinal or urinary tract bleeding, which are serious adverse events requiring immediate intervention. [learn more](GNS215_U6_T14#GNS215_U6_T14_h8)"
+    "answer": "A",
+    "explanation": "Minimizing minor skin and mucosal trauma with electric razors and soft brushes prevents accidental bleeding episodes. [learn more](GNS215_U6_T14#GNS215_U6_T14_h8)"
   }
 ]

@@ -4,269 +4,255 @@
     "heading_id": "GNS223_U5_T3_h1",
     "article_id": "GNS223_U5_T3",
     "topic_id": "GNS223_U5_T3",
-    "question": "What is the primary cellular mechanism by which corticosteroids reduce inflammation?",
+    "difficulty": "recall",
+    "question": "What is the primary cellular enzyme inhibited by corticosteroids to stop the arachidonic acid cascade?",
     "options": {
-      "A": "Stimulating the production of prostaglandins and leukotrienes",
-      "B": "Inhibiting phospholipase A2 through the induction of lipocortin-1",
-      "C": "Enhancing the proliferation of T-lymphocytes and B-lymphocytes",
-      "D": "Increasing capillary permeability to promote white blood cell migration"
+      "A": "Lipoxygenase",
+      "B": "Protein kinase C",
+      "C": "Phospholipase A2",
+      "D": "Cyclooxygenase-2"
     },
-    "answer": "B",
-    "explanation": "Corticosteroids induce lipocortin-1, which inhibits phospholipase A2, thereby blocking the arachidonic acid cascade that produces inflammatory mediators like prostaglandins and leukotrienes. [learn more](GNS223_U5_T3#GNS223_U5_T3_h1)"
+    "answer": "C",
+    "explanation": "Corticosteroids inhibit phospholipase A2, which prevents the release of arachidonic acid from cell membranes and subsequently halts the production of both prostaglandins and leukotrienes. [learn more](GNS223_U5_T3#GNS223_U5_T3_h1)"
   },
   {
     "question_id": "GNS223_U5_T3_h1_q2",
     "heading_id": "GNS223_U5_T3_h1",
     "article_id": "GNS223_U5_T3",
     "topic_id": "GNS223_U5_T3",
-    "question": "Which of the following cellular components do corticosteroids directly suppress or reduce in function?",
+    "difficulty": "understanding",
+    "question": "Why do genomic actions of corticosteroids take hours or days to manifest clinically?",
     "options": {
-      "A": "Eosinophils and T-lymphocytes",
-      "B": "Lipocortin-1 proteins",
-      "C": "Intracellular glucocorticoid receptors",
-      "D": "Adrenal cortical hormones"
+      "A": "They accumulate slowly within the lipid layers of target cell membranes.",
+      "B": "They depend on altering gene transcription and protein synthesis.",
+      "C": "They require slow hepatic biotransformation into active metabolites.",
+      "D": "They are bound extensively to plasma carrier proteins in circulation."
     },
-    "answer": "A",
-    "explanation": "Corticosteroids suppress the proliferation, differentiation, and overall function of immune cells, including T-lymphocytes, B-lymphocytes, monocytes, and eosinophils. [learn more](GNS223_U5_T3#GNS223_U5_T3_h1)"
+    "answer": "B",
+    "explanation": "Genomic effects involve the steroid-receptor complex binding to DNA to upregulate or downregulate specific genes, which inherently requires time for transcription and translation processes. [learn more](GNS223_U5_T3#GNS223_U5_T3_h1)"
   },
   {
     "question_id": "GNS223_U5_T3_h2_q1",
     "heading_id": "GNS223_U5_T3_h2",
     "article_id": "GNS223_U5_T3",
     "topic_id": "GNS223_U5_T3",
-    "question": "Which of the following describes a key characteristic of long-acting corticosteroids like dexamethasone?",
+    "difficulty": "recall",
+    "question": "Which corticosteroid is classified as long-acting and possesses virtually no mineralocorticoid activity?",
     "options": {
-      "A": "High mineralocorticoid activity and short biological half-life",
-      "B": "Negligible mineralocorticoid activity and high anti-inflammatory potency",
-      "C": "Low anti-inflammatory potency and duration of action under 12 hours",
-      "D": "Equipotent to hydrocortisone with severe electrolyte imbalances"
+      "A": "Dexamethasone",
+      "B": "Fludrocortisone",
+      "C": "Hydrocortisone",
+      "D": "Prednisone"
     },
-    "answer": "B",
-    "explanation": "Long-acting agents like dexamethasone have immense anti-inflammatory potency and virtually negligible mineralocorticoid activity. [learn more](GNS223_U5_T3#GNS223_U5_T3_h2)"
+    "answer": "A",
+    "explanation": "Dexamethasone has a long biological half-life exceeding 36 hours and potent anti-inflammatory effects without significant salt-retaining mineralocorticoid action. [learn more](GNS223_U5_T3#GNS223_U5_T3_h2)"
   },
   {
     "question_id": "GNS223_U5_T3_h2_q2",
     "heading_id": "GNS223_U5_T3_h2",
     "article_id": "GNS223_U5_T3",
     "topic_id": "GNS223_U5_T3",
-    "question": "What is the biological half-life range for intermediate-acting corticosteroids such as prednisolone?",
+    "difficulty": "understanding",
+    "question": "A patient requires a corticosteroid with high mineralocorticoid activity for primary adrenal insufficiency. Which drug is the most appropriate choice?",
     "options": {
-      "A": "2 to 4 hours",
-      "B": "8 to 12 hours",
-      "C": "12 to 36 hours",
-      "D": "36 to 72 hours"
+      "A": "Methylprednisolone",
+      "B": "Betamethasone",
+      "C": "Dexamethasone",
+      "D": "Hydrocortisone"
     },
-    "answer": "C",
-    "explanation": "Intermediate-acting agents like prednisolone and prednisone have a biological half-life ranging from 12 to 36 hours. [learn more](GNS223_U5_T3#GNS223_U5_T3_h2)"
+    "answer": "D",
+    "explanation": "Hydrocortisone mirrors natural cortisol, providing both glucocorticoid coverage and the necessary mineralocorticoid activity to manage sodium and water balance in adrenal insufficiency. [learn more](GNS223_U5_T3#GNS223_U5_T3_h2)"
   },
   {
     "question_id": "GNS223_U5_T3_h3_q1",
     "heading_id": "GNS223_U5_T3_h3",
     "article_id": "GNS223_U5_T3",
     "topic_id": "GNS223_U5_T3",
-    "question": "Which administration route is most appropriate for delivering a rapid systemic response in a life-threatening emergency such as status asthmaticus?",
+    "difficulty": "recall",
+    "question": "What is the primary enzymatic system responsible for the hepatic metabolism of systemic corticosteroids?",
     "options": {
-      "A": "Topical cream",
-      "B": "Inhaled powder",
-      "C": "Intravenous injection",
-      "D": "Oral tablet"
+      "A": "Cytochrome P450 3A4",
+      "B": "N-acetyltransferase enzyme",
+      "C": "Monoamine oxidase system",
+      "D": "UDP-glucuronosyltransferase"
     },
-    "answer": "C",
-    "explanation": "Intravenous injection provides rapid systemic bioavailability, making it essential for life-threatening acute emergencies. [learn more](GNS223_U5_T3#GNS223_U5_T3_h3)"
+    "answer": "A",
+    "explanation": "Systemic corticosteroids are primarily metabolized in the liver by the cytochrome P450 enzyme system, specifically the CYP3A4 isoenzyme. [learn more](GNS223_U5_T3#GNS223_U5_T3_h3)"
   },
   {
     "question_id": "GNS223_U5_T3_h3_q2",
     "heading_id": "GNS223_U5_T3_h3",
     "article_id": "GNS223_U5_T3",
     "topic_id": "GNS223_U5_T3",
-    "question": "How are corticosteroids primarily transported once they are absorbed into the bloodstream?",
+    "difficulty": "understanding",
+    "question": "Why are inhaled corticosteroids preferred over oral formulations for the long-term management of mild persistent asthma?",
     "options": {
-      "A": "Bound extensively to plasma proteins like transcortin and albumin",
-      "B": "Dissolved freely in plasma water without any protein binding",
-      "C": "Encapsulated inside red blood cells for systemic transport",
-      "D": "Attached exclusively to white blood cells to target infection sites"
+      "A": "Inhaled preparations do not undergo any hepatic first-pass metabolism.",
+      "B": "Inhaled delivery minimizes systemic adverse effects by targeting the lungs directly.",
+      "C": "Inhaled agents completely avoid stimulating systemic glucocorticoid receptors.",
+      "D": "Inhaled drugs are metabolized much faster in the bloodstream."
     },
-    "answer": "A",
-    "explanation": "Once absorbed, corticosteroids bind extensively to plasma proteins, specifically corticosteroid-binding globulin (transcortin) and albumin. [learn more](GNS223_U5_T3#GNS223_U5_T3_h3)"
+    "answer": "B",
+    "explanation": "Inhalation deposits the drug directly at the site of airway inflammation, achieving high local therapeutic concentrations while reducing systemic exposure and adverse reactions. [learn more](GNS223_U5_T3#GNS223_U5_T3_h3)"
   },
   {
     "question_id": "GNS223_U5_T3_h4_q1",
     "heading_id": "GNS223_U5_T3_h4",
     "article_id": "GNS223_U5_T3",
     "topic_id": "GNS223_U5_T3",
-    "question": "Why are corticosteroids indicated in the management of systemic lupus erythematosus (SLE)?",
+    "difficulty": "recall",
+    "question": "Which medical condition is a primary therapeutic indication for high-dose intravenous corticosteroid therapy in emergency care?",
     "options": {
-      "A": "To stimulate antibody production against pathogens",
-      "B": "To control life-threatening manifestations like nephritis and vasculitis",
-      "C": "To permanently cure the underlying genetic defect",
-      "D": "To prevent joint cartilage regeneration"
+      "A": "Iron deficiency anemia",
+      "B": "Acute cerebral edema",
+      "C": "Bacterial gastroenteritis",
+      "D": "Uncomplicated hypertension"
     },
     "answer": "B",
-    "explanation": "Corticosteroids are used in SLE to control severe, life-threatening inflammatory manifestations such as nephritis, vasculitis, and serositis. [learn more](GNS223_U5_T3#GNS223_U5_T3_h4)"
+    "explanation": "High-dose corticosteroids, particularly dexamethasone, are routinely administered to reduce brain swelling associated with tumors, trauma, or infections. [learn more](GNS223_U5_T3#GNS223_U5_T3_h4)"
   },
   {
     "question_id": "GNS223_U5_T3_h4_q2",
     "heading_id": "GNS223_U5_T3_h4",
     "article_id": "GNS223_U5_T3",
     "topic_id": "GNS223_U5_T3",
-    "question": "What is the specific neurological indication for high-dose dexamethasone therapy?",
+    "difficulty": "understanding",
+    "question": "How do corticosteroids function when utilized in solid organ transplantation protocols?",
     "options": {
-      "A": "To treat acute ischemic stroke by dissolving blood clots",
-      "B": "To reduce vasogenic cerebral edema associated with brain tumors",
-      "C": "To prevent primary epileptic seizures in healthy patients",
-      "D": "To enhance neurotransmitter synthesis in neurodegenerative diseases"
+      "A": "They stimulate the bone marrow to produce mature erythrocytes.",
+      "B": "They permanently destroy circulating memory B-lymphocytes.",
+      "C": "They suppress immune cell activation to prevent graft rejection.",
+      "D": "They enhance the metabolic clearance of foreign antigens."
     },
-    "answer": "B",
-    "explanation": "High-dose dexamethasone is prescribed in neurology specifically to reduce vasogenic cerebral edema associated with brain tumors or bacterial meningitis. [learn more](GNS223_U5_T3#GNS223_U5_T3_h4)"
+    "answer": "C",
+    "explanation": "In transplantation, corticosteroids act as powerful immunosuppressants that inhibit cytokine production and lymphocyte proliferation, lowering the risk of organ rejection. [learn more](GNS223_U5_T3#GNS223_U5_T3_h4)"
   },
   {
     "question_id": "GNS223_U5_T3_h5_q1",
     "heading_id": "GNS223_U5_T3_h5",
     "article_id": "GNS223_U5_T3",
     "topic_id": "GNS223_U5_T3",
-    "question": "Which chronic complication is directly caused by corticosteroid-induced changes in bone metabolism?",
+    "difficulty": "recall",
+    "question": "Which laboratory abnormality is most commonly observed immediately following the initiation of systemic corticosteroid therapy?",
     "options": {
-      "A": "Osteoporosis and pathological fractures",
-      "B": "Truncal obesity and moon face",
-      "C": "Posterior subcapsular cataracts",
-      "D": "Acute hyperglycemia and psychosis"
+      "A": "Hyponatremia",
+      "B": "Hypoglycemia",
+      "C": "Hyperglycemia",
+      "D": "Hypokalemia"
     },
-    "answer": "A",
-    "explanation": "Corticosteroids compromise bone metabolism by decreasing calcium absorption and suppressing osteoblasts, leading to osteoporosis and pathological fractures. [learn more](GNS223_U5_T3#GNS223_U5_T3_h5)"
+    "answer": "C",
+    "explanation": "Corticosteroids stimulate hepatic gluconeogenesis and induce peripheral insulin resistance, frequently leading to elevated blood glucose levels. [learn more](GNS223_U5_T3#GNS223_U5_T3_h5)"
   },
   {
     "question_id": "GNS223_U5_T3_h5_q2",
     "heading_id": "GNS223_U5_T3_h5",
     "article_id": "GNS223_U5_T3",
     "topic_id": "GNS223_U5_T3",
-    "question": "How do corticosteroids affect a patient's susceptibility to infections?",
+    "difficulty": "understanding",
+    "question": "A patient on long-term oral prednisone therapy is at the greatest risk for developing which musculoskeletal complication?",
     "options": {
-      "A": "They stimulate white blood cell production to fight off all bacteria instantly",
-      "B": "They mask classical signs of infection and increase vulnerability to pathogens",
-      "C": "They completely eradicate the risk of opportunistic fungal infections",
-      "D": "They enhance fever responses to make infections easily detectable"
+      "A": "Osteoporosis",
+      "B": "Myasthenia gravis",
+      "C": "Rheumatoid arthritis",
+      "D": "Septic bursitis"
     },
-    "answer": "B",
-    "explanation": "The immunosuppressive actions of corticosteroids mask classical signs of infection, making patients highly vulnerable to various pathogens. [learn more](GNS223_U5_T3#GNS223_U5_T3_h5)"
+    "answer": "A",
+    "explanation": "Chronic glucocorticoid use inhibits osteoblast activity, decreases intestinal calcium absorption, and increases renal calcium excretion, significantly raising the risk of bone demineralization and fractures. [learn more](GNS223_U5_T3#GNS223_U5_T3_h5)"
   },
   {
     "question_id": "GNS223_U5_T3_h6_q1",
     "heading_id": "GNS223_U5_T3_h6",
     "article_id": "GNS223_U5_T3",
     "topic_id": "GNS223_U5_T3",
-    "question": "Which of the following represents an absolute contraindication for systemic corticosteroid therapy?",
+    "difficulty": "recall",
+    "question": "Which condition represents an absolute contraindication to the administration of systemic corticosteroids?",
     "options": {
-      "A": "Controlled mild hypertension",
-      "B": "Active, untreated systemic fungal infections",
-      "C": "Stable type 2 diabetes mellitus",
-      "D": "Mild osteoarthritis of the knee"
+      "A": "History of uncomplicated appendectomy",
+      "B": "Active untreated systemic fungal infection",
+      "C": "Controlled stage two hypertension",
+      "D": "Mild chronic stable plaque psoriasis"
     },
     "answer": "B",
-    "explanation": "Active, untreated systemic fungal infections are an absolute contraindication because immunosuppressive steroids will cause the infection to spread unchecked. [learn more](GNS223_U5_T3#GNS223_U5_T3_h6)"
+    "explanation": "Because corticosteroids profoundly suppress cell-mediated immunity, giving them in the presence of an untreated systemic fungal infection can lead to rapid, fatal dissemination of the pathogen. [learn more](GNS223_U5_T3#GNS223_U5_T3_h6)"
   },
   {
     "question_id": "GNS223_U5_T3_h6_q2",
     "heading_id": "GNS223_U5_T3_h6",
     "article_id": "GNS223_U5_T3",
     "topic_id": "GNS223_U5_T3",
-    "question": "What is a major clinical risk when corticosteroids are co-administered with non-steroidal anti-inflammatory drugs (NSAIDs)?",
+    "difficulty": "understanding",
+    "question": "What is the primary clinical concern when a patient takes oral NSAIDs concurrently with systemic corticosteroids?",
     "options": {
-      "A": "Severe hypoglycemia and tremors",
-      "B": "Exponentially increased risk of GI ulceration and hemorrhage",
-      "C": "Rapid renal failure due to increased potassium retention",
-      "D": "Complete neutralization of both drug actions"
+      "A": "Enhanced risk of gastrointestinal ulceration",
+      "B": "Life-threatening hepatic necrosis",
+      "C": "Severe systemic hypotension",
+      "D": "Rapid development of drug tolerance"
     },
-    "answer": "B",
-    "explanation": "Combining corticosteroids with NSAIDs multiplies the risk of developing gastrointestinal ulceration and bleeding. [learn more](GNS223_U5_T3#GNS223_U5_T3_h6)"
+    "answer": "A",
+    "explanation": "Both NSAIDs and corticosteroids compromise the protective mucosal lining of the gastrointestinal tract and inhibit prostaglandin synthesis, multiplying the danger of ulceration and bleeding when combined. [learn more](GNS223_U5_T3#GNS223_U5_T3_h6)"
   },
   {
     "question_id": "GNS223_U5_T3_h7_q1",
     "heading_id": "GNS223_U5_T3_h7",
     "article_id": "GNS223_U5_T3",
     "topic_id": "GNS223_U5_T3",
-    "question": "Which baseline and ongoing diagnostic assessment is specifically required for pediatric patients on chronic corticosteroid therapy?",
+    "difficulty": "recall",
+    "question": "What is the primary danger associated with abruptly stopping chronic systemic corticosteroid therapy?",
     "options": {
-      "A": "Monitoring of linear growth and developmental milestones",
-      "B": "Routine testing for cognitive IQ scores",
-      "C": "Daily electrocardiograms to measure heart rate",
-      "D": "Weekly urinalysis for protein excretion"
+      "A": "Acute adrenal crisis",
+      "B": "Acute renal failure",
+      "C": "Rebound hypoglycemia",
+      "D": "Malignant hypertension"
     },
     "answer": "A",
-    "explanation": "Pediatric patients require regular monitoring of growth and developmental milestones because chronic corticosteroids can suppress linear bone growth. [learn more](GNS223_U5_T3#GNS223_U5_T3_h7)"
+    "explanation": "Abrupt withdrawal after prolonged HPA axis suppression leaves the body without endogenous cortisol or exogenous replacement during stress, leading to life-threatening circulatory shock and adrenal crisis. [learn more](GNS223_U5_T3#GNS223_U5_T3_h7)"
   },
   {
     "question_id": "GNS223_U5_T3_h7_q2",
     "heading_id": "GNS223_U5_T3_h7",
     "article_id": "GNS223_U5_T3",
     "topic_id": "GNS223_U5_T3",
-    "question": "What is the clinical rationale for performing regular eye examinations during long-term corticosteroid therapy?",
+    "difficulty": "understanding",
+    "question": "Why is a slow, gradual dosage taper prescribed when discontinuing long-term corticosteroid therapy?",
     "options": {
-      "A": "To detect early signs of posterior subcapsular cataracts and glaucoma",
-      "B": "To measure visual acuity changes caused by diabetic retinopathy",
-      "C": "To assess intraocular pressure reductions caused by hypotension",
-      "D": "To check for conjunctival hemorrhage resulting from fragile blood vessels"
+      "A": "To ensure steady plasma concentrations while preventing allergic skin reactions.",
+      "B": "To allow the atrophied adrenal cortex time to resume endogenous hormone synthesis.",
+      "C": "To prevent the sudden return of the original underlying autoimmune disease.",
+      "D": "To prevent hepatic enzyme saturation and drug accumulation in fatty tissues."
     },
-    "answer": "A",
-    "explanation": "Long-term corticosteroid use is associated with ophthalmic complications like posterior subcapsular cataracts and elevated intraocular pressure, necessitating regular eye exams. [learn more](GNS223_U5_T3#GNS223_U5_T3_h7)"
+    "answer": "B",
+    "explanation": "Prolonged negative feedback puts the adrenal glands in a quiescent, atrophied state; tapering gives them time to recover normal function and start producing cortisol again. [learn more](GNS223_U5_T3#GNS223_U5_T3_h7)"
   },
   {
     "question_id": "GNS223_U5_T3_h8_q1",
     "heading_id": "GNS223_U5_T3_h8",
     "article_id": "GNS223_U5_T3",
     "topic_id": "GNS223_U5_T3",
-    "question": "What is the primary physiological cause of HPA axis suppression during prolonged corticosteroid therapy?",
+    "difficulty": "understanding",
+    "question": "A nurse is caring for a patient on long-term prednisone therapy. Which clinical finding requires immediate notification of the healthcare provider?",
     "options": {
-      "A": "Direct destruction of the adrenal cortex by the drug molecules",
-      "B": "Negative feedback inhibition of the hypothalamus and pituitary gland by exogenous steroids",
-      "C": "Excessive renal excretion of corticotropin-releasing hormone",
-      "D": "Permanent autoimmune attack on adrenal tissue triggered by synthetic hormones"
+      "A": "A fasting blood glucose reading of 110 mg/dL",
+      "B": "A low-grade fever with subtle throat discomfort",
+      "C": "A mild weight gain of one kilogram over a single week",
+      "D": "Mild mood swings reported by family members"
     },
     "answer": "B",
-    "explanation": "High circulating levels of exogenous corticosteroids exert negative feedback inhibition on the hypothalamus and pituitary gland, reducing CRH and ACTH production. [learn more](GNS223_U5_T3#GNS223_U5_T3_h8)"
+    "explanation": "Because corticosteroids suppress the immune system and mask classic signs of inflammation, even a minor infection or subtle fever can rapidly progress to a severe systemic infection requiring prompt intervention. [learn more](GNS223_U5_T3#GNS223_U5_T3_h8)"
   },
   {
     "question_id": "GNS223_U5_T3_h8_q2",
     "heading_id": "GNS223_U5_T3_h8",
     "article_id": "GNS223_U5_T3",
     "topic_id": "GNS223_U5_T3",
-    "question": "What life-threatening clinical event can occur if prolonged systemic corticosteroid therapy is abruptly stopped?",
+    "difficulty": "recall",
+    "question": "Which instruction is most important for a nurse to emphasize when educating a patient starting oral corticosteroid therapy?",
     "options": {
-      "A": "Acute adrenal insufficiency or Addisonian crisis",
-      "B": "Cushing's syndrome with rapid weight gain",
-      "C": "Severe hyperglycemia and diabetic ketoacidosis",
-      "D": "Hypertensive emergency with cerebral hemorrhage"
-    },
-    "answer": "A",
-    "explanation": "Abrupt discontinuation after prolonged use prevents the atrophied adrenal glands from producing cortisol, precipitating acute adrenal insufficiency. [learn more](GNS223_U5_T3#GNS223_U5_T3_h8)"
-  },
-  {
-    "question_id": "GNS223_U5_T3_h9_q1",
-    "heading_id": "GNS223_U5_T3_h9",
-    "article_id": "GNS223_U5_T3",
-    "topic_id": "GNS223_U5_T3",
-    "question": "Why are single daily doses of oral corticosteroids recommended to be taken in the morning?",
-    "options": {
-      "A": "To maximize gastrointestinal absorption and prevent nausea at night",
-      "B": "To mimic the body's natural circadian rhythm of cortisol secretion and reduce HPA axis suppression",
-      "C": "To ensure maximum sedation and help the patient sleep throughout the day",
-      "D": "To prevent sudden drops in blood pressure during nighttime hours"
+      "A": "Discontinue the drug immediately if muscle weakness develops.",
+      "B": "Never stop taking the medication abruptly without medical guidance.",
+      "C": "Take the medication on an empty stomach with a full glass of water.",
+      "D": "Restrict all dietary sodium and water intake completely."
     },
     "answer": "B",
-    "explanation": "Taking single daily doses in the morning mimics the natural circadian rhythm of cortisol release, helping to minimize suppression of the HPA axis. [learn more](GNS223_U5_T3#GNS223_U5_T3_h9)"
-  },
-  {
-    "question_id": "GNS223_U5_T3_h9_q2",
-    "heading_id": "GNS223_U5_T3_h9",
-    "article_id": "GNS223_U5_T3",
-    "topic_id": "GNS223_U5_T3",
-    "question": "What practical dietary guidance should a nurse provide to a patient on long-term corticosteroid therapy?",
-    "options": {
-      "A": "A diet high in sodium and low in protein",
-      "B": "A diet high in calcium, vitamin D, and protein",
-      "C": "A strictly fat-free and carbohydrate-free diet",
-      "D": "A high-potassium-restriction diet with added refined sugars"
-    },
-    "answer": "B",
-    "explanation": "Patients should consume a diet high in calcium, vitamin D, and protein to combat bone demineralization and muscle catabolism caused by steroids. [learn more](GNS223_U5_T3#GNS223_U5_T3_h9)"
+    "explanation": "Abrupt cessation of corticosteroids can trigger acute adrenal insufficiency; patients must be thoroughly educated on safe adherence and tapering guidelines. [learn more](GNS223_U5_T3#GNS223_U5_T3_h8)"
   }
 ]
