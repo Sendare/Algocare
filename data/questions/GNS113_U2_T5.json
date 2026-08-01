@@ -4,239 +4,255 @@
     "heading_id": "GNS113_U2_T5_h1",
     "article_id": "GNS113_U2_T5",
     "topic_id": "GNS113_U2_T5",
-    "question": "What is the primary purpose of nursing data integration in healthcare informatics?",
+    "difficulty": "recall",
+    "question": "What is the primary purpose of nursing data integration?",
     "options": {
-      "A": "To completely eliminate the need for nursing documentation",
-      "B": "To combine data from multiple clinical sources into a unified view of patient health",
-      "C": "To restrict patient information access exclusively to hospital administrators",
-      "D": "To replace direct bedside nursing care with automated software programs"
+      "A": "Eliminating the need for verbal communication during patient handovers",
+      "B": "Reducing the total number of hospital staff required for night shifts",
+      "C": "Replacing the nursing care plan with automated computer algorithms",
+      "D": "Combining clinical information from multiple sources into a unified framework"
     },
-    "answer": "B",
-    "explanation": "Data integration specifically involves combining data from multiple clinical sources to provide a unified, comprehensive view of a patient's health status. [learn more](GNS113_U2_T5#GNS113_U2_T5_h1)"
+    "answer": "D",
+    "explanation": "Data integration focuses on bringing scattered clinical details together so healthcare providers can access a complete picture of the patient's health status. [learn more](GNS113_U2_T5#GNS113_U2_T5_h1)"
   },
   {
     "question_id": "GNS113_U2_T5_h1_q2",
     "heading_id": "GNS113_U2_T5_h1",
     "article_id": "GNS113_U2_T5",
     "topic_id": "GNS113_U2_T5",
-    "question": "How does data integration directly benefit daily nursing workflows?",
+    "difficulty": "understanding",
+    "question": "How does siloed clinical information negatively impact patient care?",
     "options": {
-      "A": "It increases the time spent searching for missing paper records",
-      "B": "It decreases the need for shift handovers between nurses",
-      "C": "It reduces time spent looking for missing records so nurses can focus on patient care",
-      "D": "It eliminates the requirement to record vital signs and fluid balances"
+      "A": "It forces nurses to spend more time performing physical assessments",
+      "B": "It causes electronic health records to run at slower speeds",
+      "C": "It automatically invalidates previous laboratory test results",
+      "D": "It increases the risk of fragmented care and clinical errors"
     },
-    "answer": "C",
-    "explanation": "When data flows seamlessly between departments, nurses spend less time searching for missing records and more time delivering direct patient care. [learn more](GNS113_U2_T5#GNS113_U2_T5_h1)"
+    "answer": "D",
+    "explanation": "When information is trapped in separate systems without integration, vital clues about a patient's condition can be missed, leading to fragmented and potentially unsafe care. [learn more](GNS113_U2_T5#GNS113_U2_T5_h1)"
   },
   {
     "question_id": "GNS113_U2_T5_h2_q1",
     "heading_id": "GNS113_U2_T5_h2",
     "article_id": "GNS113_U2_T5",
     "topic_id": "GNS113_U2_T5",
-    "question": "In the context of the DIKW hierarchy, what best describes a raw patient temperature reading of 38.5°柏?",
+    "difficulty": "recall",
+    "question": "Which of the following best describes raw, unorganized clinical facts without context?",
     "options": {
-      "A": "Knowledge",
-      "B": "Information",
+      "A": "Information",
+      "B": "Knowledge",
       "C": "Data",
       "D": "Wisdom"
     },
     "answer": "C",
-    "explanation": "Data represents raw, uninterpreted facts or observations, such as a single temperature reading before it is contextualized. [learn more](GNS113_U2_T5#GNS113_U2_T5_h2)"
+    "explanation": "Data refers to the basic, unorganized facts and figures collected before they are analyzed or given clinical context. [learn more](GNS113_U2_T5#GNS113_U2_T5_h2)"
   },
   {
     "question_id": "GNS113_U2_T5_h2_q2",
     "heading_id": "GNS113_U2_T5_h2",
     "article_id": "GNS113_U2_T5",
     "topic_id": "GNS113_U2_T5",
-    "question": "Why is a data dictionary important in healthcare information systems?",
+    "difficulty": "understanding",
+    "question": "What is a major characteristic of unstructured healthcare data?",
     "options": {
-      "A": "It provides standardized definitions so terms mean the same thing across all clinical units",
-      "B": "It translates medical terminology into foreign languages for international patients",
-      "C": "It stores historical patient billing records for insurance companies",
-      "D": "It automatically prescribes medications based on patient vital signs"
+      "A": "It can only be stored using rigid numerical ranges and mandatory checkboxes",
+      "B": "It is captured in free-text narrative notes and is difficult for software to parse automatically",
+      "C": "It is completely devoid of any useful clinical meaning for healthcare providers",
+      "D": "It automatically converts itself into standardized nursing classifications"
     },
-    "answer": "A",
-    "explanation": "A data dictionary ensures that every term used across a health system has a standardized definition, preventing miscommunication between different clinical units. [learn more](GNS113_U2_T5#GNS113_U2_T5_h2)"
+    "answer": "B",
+    "explanation": "Unstructured data includes free-text notes and documents that capture rich narrative details but lack the standardized structure required for easy computer processing. [learn more](GNS113_U2_T5#GNS113_U2_T5_h2)"
   },
   {
     "question_id": "GNS113_U2_T5_h3_q1",
     "heading_id": "GNS113_U2_T5_h3",
     "article_id": "GNS113_U2_T5",
     "topic_id": "GNS113_U2_T5",
-    "question": "What is the primary purpose of standardized nursing terminologies in electronic health records?",
+    "difficulty": "recall",
+    "question": "Which standardized terminology specifically focuses on classifying nursing diagnoses?",
     "options": {
-      "A": "To replace physician diagnoses with nursing diagnoses entirely",
-      "B": "To capture nursing diagnoses, interventions, and outcomes systematically and make nursing work visible",
-      "C": "To increase the amount of time spent writing unstructured narrative notes",
-      "D": "To eliminate the need for patient assessment and vital sign documentation"
+      "A": "NANDA-I",
+      "B": "NOC",
+      "C": "ICD-10",
+      "D": "NIC"
     },
-    "answer": "B",
-    "explanation": "Standardized terminologies provide structured, coded vocabularies specifically designed to capture nursing diagnoses, interventions, and outcomes systematically, making nursing contributions visible. [learn more](GNS113_U2_T5#GNS113_U2_T5_h3)"
+    "answer": "A",
+    "explanation": "NANDA-International provides the universally recognized classification system for defining and categorizing nursing diagnoses. [learn more](GNS113_U2_T5#GNS113_U2_T5_h3)"
   },
   {
     "question_id": "GNS113_U2_T5_h3_q2",
     "heading_id": "GNS113_U2_T5_h3",
     "article_id": "GNS113_U2_T5",
     "topic_id": "GNS113_U2_T5",
-    "question": "Which of the following is a widely recognized classification system specifically used for nursing diagnoses?",
+    "difficulty": "understanding",
+    "question": "Why are standardized nursing terminologies essential for electronic health record integration?",
     "options": {
-      "A": "ICD-10",
-      "B": "NANDA-International (NANDA-I)",
-      "C": "DSM-5",
-      "D": "CPT Codes"
+      "A": "They ensure that hospital billing departments receive higher insurance payouts",
+      "B": "They completely eliminate the need for nurses to document vital signs",
+      "C": "They allow different software systems to accurately interpret and share nursing care data",
+      "D": "They replace medical diagnoses with nursing-specific terminology in physician orders"
     },
-    "answer": "B",
-    "explanation": "NANDA-International (NANDA-I) is the leading recognized terminology framework specifically utilized for identifying and classifying nursing diagnoses. [learn more](GNS113_U2_T5#GNS113_U2_T5_h3)"
+    "answer": "C",
+    "explanation": "Standardized terminologies ensure that when one system records a nursing diagnosis or intervention, another system interprets that exact same meaning without ambiguity. [learn more](GNS113_U2_T5#GNS113_U2_T5_h3)"
   },
   {
     "question_id": "GNS113_U2_T5_h4_q1",
     "heading_id": "GNS113_U2_T5_h4",
     "article_id": "GNS113_U2_T5",
     "topic_id": "GNS113_U2_T5",
-    "question": "What is the primary role of interoperability standards in healthcare data systems?",
+    "difficulty": "recall",
+    "question": "What does semantic interoperability achieve in healthcare systems?",
     "options": {
-      "A": "To ensure that software from different vendors can securely communicate and share data",
-      "B": "To restrict patient data exchange exclusively to paper-based transmission",
-      "C": "To increase the cost of purchasing electronic health record software",
-      "D": "To prevent nurses from accessing laboratory and pharmacy records"
+      "A": "Computers automatically print out physical paper charts for backup storage",
+      "B": "The receiving system fully understands the exact clinical meaning of the exchanged data",
+      "C": "Patients can access their medical records without needing a secure password",
+      "D": "Hospital equipment manufacturers are forced to use identical hardware components"
     },
-    "answer": "A",
-    "explanation": "Interoperability standards allow disparate health information systems from different vendors to communicate, share, and interpret data seamlessly. [learn more](GNS113_U2_T5#GNS113_U2_T5_h4)"
+    "answer": "B",
+    "explanation": "Semantic interoperability ensures that data is not only transmitted successfully, but its precise clinical intent and meaning are preserved and understood by the recipient. [learn more](GNS113_U2_T5#GNS113_U2_T5_h4)"
   },
   {
     "question_id": "GNS113_U2_T5_h4_q2",
     "heading_id": "GNS113_U2_T5_h4",
     "article_id": "GNS113_U2_T5",
     "topic_id": "GNS113_U2_T5",
-    "question": "Which level of interoperability ensures that the clinical meaning of exchanged data is fully understood by both receiving and sending systems?",
+    "difficulty": "understanding",
+    "question": "Which data exchange standard uses lightweight, web-friendly application programming interfaces to share clinical information?",
     "options": {
-      "A": "Foundational interoperability",
-      "B": "Structural interoperability",
-      "C": "Semantic interoperability",
-      "D": "Physical interoperability"
+      "A": "NANDA",
+      "B": "FHIR",
+      "C": "DICOM",
+      "D": "ICD-11"
     },
-    "answer": "C",
-    "explanation": "Semantic interoperability ensures that the meaning of the exchanged data is shared and correctly interpreted by both participating systems. [learn more](GNS113_U2_T5#GNS113_U2_T5_h4)"
+    "answer": "B",
+    "explanation": "Fast Healthcare Interoperability Resources is a modern standard designed to make clinical data exchange quick and accessible via web-based programming interfaces. [learn more](GNS113_U2_T5#GNS113_U2_T5_h4)"
   },
   {
     "question_id": "GNS113_U2_T5_h5_q1",
     "heading_id": "GNS113_U2_T5_h5",
     "article_id": "GNS113_U2_T5",
     "topic_id": "GNS113_U2_T5",
-    "question": "What is a major benefit of embedded Clinical Decision Support (CDS) tools within an EHR system?",
+    "difficulty": "recall",
+    "question": "What is a primary function of clinical decision support tools embedded within an EHR?",
     "options": {
-      "A": "They completely automate all physical nursing assessments without human input",
-      "B": "They provide real-time alerts and prompts, such as sepsis screening or drug-allergy warnings",
-      "C": "They restrict nurses from accessing patient medication administration histories",
-      "D": "They replace the need for standardized nursing terminologies and classifications"
+      "A": "Alerting nurses to critical lab values or medication conflicts",
+      "B": "Scheduling routine maintenance for hospital computer hardware",
+      "C": "Replacing the clinical judgment of the attending physician",
+      "D": "Automatically generating hospital discharge financial invoices"
     },
-    "answer": "B",
-    "explanation": "Clinical Decision Support tools provide real-time alerts and safety prompts, such as drug-allergy warnings or sepsis screening reminders, directly within the EHR. [learn more](GNS113_U2_T5#GNS113_U2_T5_h5)"
+    "answer": "A",
+    "explanation": "Embedded decision support tools analyze real-time data to warn clinicians about potential safety hazards like abnormal lab results or drug interactions. [learn more](GNS113_U2_T5#GNS113_U2_T5_h5)"
   },
   {
     "question_id": "GNS113_U2_T5_h5_q2",
     "heading_id": "GNS113_U2_T5_h5",
     "article_id": "GNS113_U2_T5",
     "topic_id": "GNS113_U2_T5",
-    "question": "How does proper EHR data architecture directly impact the nursing workflow?",
+    "difficulty": "understanding",
+    "question": "How can a poorly structured EHR data architecture negatively affect nursing practice?",
     "options": {
-      "A": "By organizing information logically so nurses can quickly retrieve vital sign trends and patient histories",
-      "B": "By hiding patient laboratory results to protect hospital privacy policies",
-      "C": "By requiring nurses to document the same patient assessment in three different formats",
-      "D": "By slowing down computer processing speeds during emergency admissions"
+      "A": "It can cause documentation fatigue and increase administrative burnout",
+      "B": "It permanently deletes patient history files every twelve hours",
+      "C": "It forces hospitals to revert entirely to manual paper record keeping",
+      "D": "It prevents nurses from administering oral medications without a password"
     },
     "answer": "A",
-    "explanation": "A well-organized data architecture determines how quickly and efficiently a nurse can retrieve vital sign trends, medication histories, and lab results. [learn more](GNS113_U2_T5#GNS113_U2_T5_h5)"
+    "explanation": "Excessive, redundant clicks and poorly organized screens frustrate nurses, drawing precious time away from direct bedside patient care. [learn more](GNS113_U2_T5#GNS113_U2_T5_h5)"
   },
   {
     "question_id": "GNS113_U2_T5_h6_q1",
     "heading_id": "GNS113_U2_T5_h6",
     "article_id": "GNS113_U2_T5",
     "topic_id": "GNS113_U2_T5",
-    "question": "What does data integrity primarily ensure within an electronic health record system?",
+    "difficulty": "recall",
+    "question": "Which of the following is an example of a point-of-entry data validation check?",
     "options": {
-      "A": "That data remains unaltered, uncorrupted, and reliable throughout its lifecycle",
-      "B": "That all patient records are permanently deleted after discharge",
-      "C": "That only hospital administrators have permission to read nursing notes",
-      "D": "That patient data can be freely shared on public social media platforms"
+      "A": "An administrator reviewing monthly hospital infection rates",
+      "B": "A system rejecting an implausible heart rate entry",
+      "C": "A nurse verbally confirming a patient identity at the bedside",
+      "D": "A pharmacist ordering stock supplies based on inventory reports"
     },
-    "answer": "A",
-    "explanation": "Data integrity ensures that information remains uncorrupted, reliable, and unaltered throughout storage, transmission, and retrieval. [learn more](GNS113_U2_T5#GNS113_U2_T5_h6)"
+    "answer": "B",
+    "explanation": "Point-of-entry validation rules catch impossible or erroneous values immediately when someone attempts to type them into the system. [learn more](GNS113_U2_T5#GNS113_U2_T5_h6)"
   },
   {
     "question_id": "GNS113_U2_T5_h6_q2",
     "heading_id": "GNS113_U2_T5_h6",
     "article_id": "GNS113_U2_T5",
     "topic_id": "GNS113_U2_T5",
-    "question": "Which of the following represents an automated data validation technique used to prevent documentation errors?",
+    "difficulty": "understanding",
+    "question": "What is the primary danger of delayed, batch documentation by nursing staff?",
     "options": {
-      "A": "Allowing nurses to copy and paste previous patient notes without review",
-      "B": "Range checks that prevent entering impossible physiological values, such as a heart rate of 900 bpm",
-      "C": "Delaying the documentation of vital signs until the end of a 12-hour shift",
-      "D": "Removing all drop-down menus in favor of unstructured narrative text"
+      "A": "It automatically increases the financial cost of patient hospitalization",
+      "B": "It violates international copyright laws governing health software",
+      "C": "It prevents laboratory technicians from processing blood specimens",
+      "D": "It degrades data accuracy and compromises downstream clinical decision-making"
     },
-    "answer": "B",
-    "explanation": "Automated range checks act as validation safeguards that prevent clinicians from entering physically impossible physiological values into the system. [learn more](GNS113_U2_T5#GNS113_U2_T5_h6)"
+    "answer": "D",
+    "explanation": "Documentation done long after an event relies heavily on memory and can introduce significant errors, putting subsequent care providers at risk of acting on flawed information. [learn more](GNS113_U2_T5#GNS113_U2_T5_h6)"
   },
   {
     "question_id": "GNS113_U2_T5_h7_q1",
     "heading_id": "GNS113_U2_T5_h7",
     "article_id": "GNS113_U2_T5",
     "topic_id": "GNS113_U2_T5",
-    "question": "What is the primary purpose of role-based access control (RBAC) in electronic health record systems?",
+    "difficulty": "recall",
+    "question": "What is the purpose of role-based access control in healthcare data systems?",
     "options": {
-      "A": "To ensure nurses only access patient records relevant to their specific care duties",
-      "B": "To grant every hospital employee unrestricted access to all patient charts",
-      "C": "To allow patients to edit their own medical diagnoses and laboratory results",
-      "D": "To prevent physicians from documenting patient care plans in the EHR"
+      "A": "Limiting user access to only the specific data necessary for their job duties",
+      "B": "Ensuring that all hospital employees have identical administrative privileges",
+      "C": "Speedup network connection speeds for mobile nursing workstations",
+      "D": "Allowing patients to modify their own electronic medical diagnoses"
     },
     "answer": "A",
-    "explanation": "Role-based access control restricts system access so that healthcare workers, including nurses, can only view records necessary for their specific clinical responsibilities. [learn more](GNS113_U2_T5#GNS113_U2_T5_h7)"
+    "explanation": "Role-based access protects patient privacy by restricting record visibility strictly to the information required for a user's professional role. [learn more](GNS113_U2_T5#GNS113_U2_T5_h7)"
   },
   {
     "question_id": "GNS113_U2_T5_h7_q2",
     "heading_id": "GNS113_U2_T5_h7",
     "article_id": "GNS113_U2_T5",
     "topic_id": "GNS113_U2_T5",
-    "question": "Why are system audit trails important in maintaining healthcare data security?",
+    "difficulty": "understanding",
+    "question": "Which principle is most directly upheld when healthcare systems protect patient data during integration?",
     "options": {
-      "A": "They automatically prescribe medications based on audit findings",
-      "B": "They track and record every instance a user views, edits, or deletes a patient record to ensure accountability",
-      "C": "They permanently erase patient history after every shift change",
-      "D": "They replace the need for passwords and secure login credentials"
+      "A": "Rapid hospital financial reimbursement",
+      "B": "Confidentiality and patient privacy",
+      "C": "Elimination of physical paper records",
+      "D": "Standardized nursing diagnosis selection"
     },
     "answer": "B",
-    "explanation": "Audit trails record every user interaction with patient records, providing accountability and helping detect unauthorized access or snooping. [learn more](GNS113_U2_T5#GNS113_U2_T5_h7)"
+    "explanation": "Protecting integrated data streams prevents unauthorized breaches, directly upholding the ethical duty of patient confidentiality. [learn more](GNS113_U2_T5#GNS113_U2_T5_h7)"
   },
   {
     "question_id": "GNS113_U2_T5_h8_q1",
     "heading_id": "GNS113_U2_T5_h8",
     "article_id": "GNS113_U2_T5",
     "topic_id": "GNS113_U2_T5",
-    "question": "How does integrated nursing data directly contribute to enhanced patient safety?",
+    "difficulty": "recall",
+    "question": "How does data integration directly benefit daily nursing workflow?",
     "options": {
-      "A": "By allowing earlier detection of clinical deterioration and reducing medication administration errors",
-      "B": "By increasing the frequency of redundant charting across multiple paper logs",
-      "C": "By removing clinical decision support tools from the electronic health record",
-      "D": "By limiting communication between nurses and physicians during emergencies"
+      "A": "By reducing time spent searching for records and re-entering duplicate information",
+      "B": "By allowing nurses to automatically prescribe routine medications",
+      "C": "By eliminating the need to perform physical head-to-toe assessments",
+      "D": "By shortening the required duration of clinical shift handovers"
     },
     "answer": "A",
-    "explanation": "Holistic, integrated data provides real-time visibility that allows for earlier detection of clinical deterioration and helps reduce medication errors. [learn more](GNS113_U2_T5#GNS113_U2_T5_h8)"
+    "explanation": "Seamless data integration cuts down on administrative friction, freeing nurses from repetitive paperwork and manual transcription tasks. [learn more](GNS113_U2_T5#GNS113_U2_T5_h8)"
   },
   {
     "question_id": "GNS113_U2_T5_h8_q2",
     "heading_id": "GNS113_U2_T5_h8",
     "article_id": "GNS113_U2_T5",
     "topic_id": "GNS113_U2_T5",
-    "question": "What is a major workflow benefit experienced by nurses when patient data is effectively integrated?",
+    "difficulty": "understanding",
+    "question": "What is a major clinical advantage of automated early warning scores driven by integrated data?",
     "options": {
-      "A": "An increase in administrative paperwork and duplicate documentation",
-      "B": "Elimination of redundant charting and reduced time spent hunting for scattered information",
-      "C": "The complete removal of shift handovers and verbal communication",
-      "D": "Mandatory reliance on manual paper-based vital sign tracking"
+      "A": "Detecting signs of patient deterioration early to prompt rapid intervention",
+      "B": "Eliminating all hospital readmissions within thirty days",
+      "C": "Automatically discharging patients who no longer require acute care",
+      "D": "Removing the need for nurses to monitor vital signs manually"
     },
-    "answer": "B",
-    "explanation": "Effective data integration eliminates redundant charting and reduces time spent searching for scattered information, allowing more time for direct patient care. [learn more](GNS113_U2_T5#GNS113_U2_T5_h8)"
+    "answer": "A",
+    "explanation": "Integrated data allows systems to track subtle trends across multiple parameters, warning the clinical team before a patient suffers catastrophic decline. [learn more](GNS113_U2_T5#GNS113_U2_T5_h8)"
   }
 ]

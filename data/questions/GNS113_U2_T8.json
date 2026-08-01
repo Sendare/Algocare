@@ -4,239 +4,223 @@
     "heading_id": "GNS113_U2_T8_h1",
     "article_id": "GNS113_U2_T8",
     "topic_id": "GNS113_U2_T8",
-    "question": "What is the primary function of an Information Retrieval System in healthcare?",
+    "difficulty": "recall",
+    "question": "What is the primary function of an Information Retrieval system in healthcare?",
     "options": {
-      "A": "To diagnose patients without physical examinations",
-      "B": "To store, organize, and provide access to biomedical and clinical data",
-      "C": "To automatically prescribe medications based on symptoms",
-      "D": "To replace electronic health record charting systems entirely"
+      "A": "To manage the billing and financial records of hospital patients",
+      "B": "To store, organize, and provide access to relevant literature and documents",
+      "C": "To track daily staff attendance and shift rosters in the ward",
+      "D": "To monitor real-time vital signs of patients in the intensive care unit"
     },
     "answer": "B",
-    "explanation": "An information retrieval system is designed specifically to store, organize, and grant users access to large repositories of clinical and biomedical data. [learn more](GNS113_U2_T8#GNS113_U2_T8_h1)"
+    "explanation": "Information Retrieval systems are specifically built to manage and retrieve documents or data that match a user's information need, rather than handling transactional hospital data. [learn more](GNS113_U2_T8#GNS113_U2_T8_h1)"
   },
   {
     "question_id": "GNS113_U2_T8_h1_q2",
     "heading_id": "GNS113_U2_T8_h1",
     "article_id": "GNS113_U2_T8",
     "topic_id": "GNS113_U2_T8",
-    "question": "Why is mastering information retrieval systems important for nursing students?",
+    "difficulty": "understanding",
+    "question": "Why must contemporary nursing professionals become proficient in using digital IR systems?",
     "options": {
-      "A": "It supports evidence-based care and clinical decision-making",
-      "B": "It eliminates the need for clinical rotations",
-      "C": "It is only required for hospital administrative staff",
-      "D": "It prevents the need to ever read textbooks"
+      "A": "To bypass the need for clinical supervision during ward procedures",
+      "B": "To automate the diagnosis of complex medical conditions without physicians",
+      "C": "To replace traditional nursing care plans with computerized documentation",
+      "D": "To bridge the gap between clinical dilemmas and current peer-reviewed evidence"
     },
-    "answer": "A",
-    "explanation": "Nurses use IR systems to find research and guidelines that support clinical decision-making and evidence-based practice. [learn more](GNS113_U2_T8#GNS113_U2_T8_h1)"
+    "answer": "D",
+    "explanation": "Proficiency in IR systems enables nurses to quickly access current research, supporting evidence-based practice and improving patient care quality. [learn more](GNS113_U2_T8#GNS113_U2_T8_h1)"
   },
   {
     "question_id": "GNS113_U2_T8_h2_q1",
     "heading_id": "GNS113_U2_T8_h2",
     "article_id": "GNS113_U2_T8",
     "topic_id": "GNS113_U2_T8",
-    "question": "Which component of an IR system architecture maps search terms to their locations in documents for rapid searching?",
+    "difficulty": "recall",
+    "question": "Which component of an IR system is primarily responsible for analyzing raw documents and building a searchable index?",
     "options": {
-      "A": "Document ingestion",
-      "B": "Inverted index",
-      "C": "Stop word removal",
-      "D": "Physical storage"
+      "A": "The document corpus",
+      "B": "The query engine",
+      "C": "The user interface",
+      "D": "The indexer"
     },
-    "answer": "B",
-    "explanation": "The indexing component creates an inverted index that maps terms to their exact document locations, allowing for fast retrieval. [learn more](GNS113_U2_T8#GNS113_U2_T8_h2)"
+    "answer": "D",
+    "explanation": "The indexer processes incoming documents and structures them into an easily searchable format before queries are even entered. [learn more](GNS113_U2_T8#GNS113_U2_T8_h2)"
   },
   {
     "question_id": "GNS113_U2_T8_h2_q2",
     "heading_id": "GNS113_U2_T8_h2",
     "article_id": "GNS113_U2_T8",
     "topic_id": "GNS113_U2_T8",
-    "question": "What is the purpose of document preprocessing in an IR system?",
+    "difficulty": "understanding",
+    "question": "What is the specific function of the query engine during an information search?",
     "options": {
-      "A": "To print physical copies of all articles",
-      "B": "To clean text by removing stop words and applying stemming",
-      "C": "To charge users fees for downloading research papers",
-      "D": "To translate nursing articles into local languages"
+      "A": "It physically prints out hard copies of selected research papers for the user",
+      "B": "It stores the raw text files of every journal article in the database repository",
+      "C": "It interprets user inputs, matches them against the index, and calculates relevance scores",
+      "D": "It designs the visual layout and buttons seen on the database homepage"
     },
-    "answer": "B",
-    "explanation": "Document preprocessing cleans the text through tokenization, removing stop words, and stemming to prepare it for efficient indexing. [learn more](GNS113_U2_T8#GNS113_U2_T8_h2)"
+    "answer": "C",
+    "explanation": "The query engine acts as the processing hub that takes what the user typed, compares it to the index database, and ranks the results by relevance. [learn more](GNS113_U2_T8#GNS113_U2_T8_h2)"
   },
   {
     "question_id": "GNS113_U2_T8_h3_q1",
     "heading_id": "GNS113_U2_T8_h3",
     "article_id": "GNS113_U2_T8",
     "topic_id": "GNS113_U2_T8",
-    "question": "Which IR model relies strictly on exact matches using logical operators without generating a ranked list of results?",
+    "difficulty": "recall",
+    "question": "What is the primary effect of using the Boolean operator AND in a literature search?",
     "options": {
-      "A": "Vector Space model",
-      "B": "Probabilistic model",
-      "C": "Boolean model",
-      "D": "Neural network model"
+      "A": "It broadens the search to include synonyms and alternate spellings",
+      "B": "It excludes irrelevant geographical locations from the result list",
+      "C": "It automatically translates foreign language articles into English",
+      "D": "It narrows the search to retrieve records containing all specified terms"
     },
-    "answer": "C",
-    "explanation": "The Boolean model uses exact matching with logical operators and treats documents as either relevant or irrelevant without ranking them. [learn more](GNS113_U2_T8#GNS113_U2_T8_h3)"
+    "answer": "D",
+    "explanation": "The AND operator intersects search terms, ensuring only documents containing every single keyword appear in the final results. [learn more](GNS113_U2_T8#GNS113_U2_T8_h3)"
   },
   {
     "question_id": "GNS113_U2_T8_h3_q2",
     "heading_id": "GNS113_U2_T8_h3",
     "article_id": "GNS113_U2_T8",
     "topic_id": "GNS113_U2_T8",
-    "question": "How does the Vector Space model determine document relevance?",
+    "difficulty": "application",
+    "question": "A nurse researcher wants to find articles that mention either 'elderly' or 'geriatric' in a database. Which Boolean operator should be used?",
     "options": {
-      "A": "By calculating the mathematical similarity between document and query vectors",
-      "B": "By flipping a coin based on article publication year",
-      "C": "By asking the original author if the paper is useful",
-      "D": "By counting the physical page length of the journal"
+      "A": "OR",
+      "B": "AND",
+      "C": "NOT",
+      "D": "WITH"
     },
     "answer": "A",
-    "explanation": "The Vector Space model represents queries and documents as vectors and calculates their geometric similarity to produce ranked results. [learn more](GNS113_U2_T8#GNS113_U2_T8_h3)"
+    "explanation": "The OR operator is used to combine synonyms or related terms, broadening the search to catch documents containing either word. [learn more](GNS113_U2_T8#GNS113_U2_T8_h3)"
   },
   {
     "question_id": "GNS113_U2_T8_h4_q1",
     "heading_id": "GNS113_U2_T8_h4",
     "article_id": "GNS113_U2_T8",
     "topic_id": "GNS113_U2_T8",
-    "question": "Which Boolean operator should a nursing student use to broaden their search to include synonyms like 'pain relief OR analgesia'?",
+    "difficulty": "recall",
+    "question": "What is the primary purpose of Medical Subject Headings (MeSH) in healthcare databases?",
     "options": {
-      "A": "AND",
-      "B": "OR",
-      "C": "NOT",
-      "D": "WITH"
+      "A": "To rank the popularity of medical journals based on daily citation counts",
+      "B": "To provide a standardized controlled vocabulary for consistent indexing and searching",
+      "C": "To calculate the financial cost of purchasing full-text journal subscriptions",
+      "D": "To automatically check the grammatical correctness of article abstracts"
     },
     "answer": "B",
-    "explanation": "The OR operator broadens a search by retrieving records containing either of the search terms, which is perfect for synonyms. [learn more](GNS113_U2_T8#GNS113_U2_T8_h4)"
+    "explanation": "MeSH provides a uniform, controlled set of terms that overcomes the problem of authors using varying synonyms for the same medical concept. [learn more](GNS113_U2_T8#GNS113_U2_T8_h4)"
   },
   {
     "question_id": "GNS113_U2_T8_h4_q2",
     "heading_id": "GNS113_U2_T8_h4",
     "article_id": "GNS113_U2_T8",
     "topic_id": "GNS113_U2_T8",
-    "question": "What is the primary purpose of using truncation symbols (such as an asterisk) in database queries?",
+    "difficulty": "understanding",
+    "question": "How does searching with a MeSH term differ from standard keyword searching?",
     "options": {
-      "A": "To delete unwanted articles automatically",
-      "B": "To capture word variations and roots (e.g., nurs* for nurse or nursing)",
-      "C": "To hide search history from other users",
-      "D": "To force the database to charge no fees"
+      "A": "It retrieves articles tagged with that concept even if the authors used different synonyms in the text",
+      "B": "It prevents the user from applying any Boolean operators to their query string",
+      "C": "It restricts the search exclusively to articles published within the last twelve months",
+      "D": "It limits search results only to textbooks published in North America"
     },
-    "answer": "B",
-    "explanation": "Truncation allows search engines to look for multiple variations of a root word, ensuring no relevant articles are missed due to phrasing. [learn more](GNS113_U2_T8#GNS113_U2_T8_h4)"
+    "answer": "A",
+    "explanation": "Because indexers manually tag articles with standardized MeSH terms, the search bypasses variations in author wording to find relevant papers. [learn more](GNS113_U2_T8#GNS113_U2_T8_h4)"
   },
   {
     "question_id": "GNS113_U2_T8_h5_q1",
     "heading_id": "GNS113_U2_T8_h5",
     "article_id": "GNS113_U2_T8",
     "topic_id": "GNS113_U2_T8",
-    "question": "What is the primary benefit of using Medical Subject Headings (MeSH) in healthcare literature searches?",
+    "difficulty": "recall",
+    "question": "What does the term 'precision' measure in the context of an Information Retrieval search?",
     "options": {
-      "A": "They automatically translate articles into local Nigerian languages",
-      "B": "They standardize terminology to capture all relevant papers regardless of author phrasing",
-      "C": "They eliminate the need to use Boolean operators entirely",
-      "D": "They guarantee that every search result is free of charge"
+      "A": "The speed at which the query engine processes complex Boolean strings",
+      "B": "The proportion of retrieved documents that are actually relevant to the user's query",
+      "C": "The total number of articles stored inside the entire database archive",
+      "D": "The exact year of publication for the highest-ranking journal article"
     },
     "answer": "B",
-    "explanation": "MeSH terms provide a standardized vocabulary that groups different synonyms under one heading, preventing missed literature due to varying author terminology. [learn more](GNS113_U2_T8#GNS113_U2_T8_h5)"
+    "explanation": "Precision evaluates the accuracy of the search by looking at how many of the papers brought back are truly useful versus how many are irrelevant noise. [learn more](GNS113_U2_T8#GNS113_U2_T8_h5)"
   },
   {
     "question_id": "GNS113_U2_T8_h5_q2",
     "heading_id": "GNS113_U2_T8_h5",
     "article_id": "GNS113_U2_T8",
     "topic_id": "GNS113_U2_T8",
-    "question": "How are MeSH terms typically organized within biomedical databases?",
+    "difficulty": "understanding",
+    "question": "Why is achieving high recall particularly critical when conducting a systematic review on a clinical safety topic?",
     "options": {
-      "A": "In a chronological timeline based on publication date",
-      "B": "In alphabetical order by the author's last name",
-      "C": "In a hierarchical tree structure ranging from broad categories to specific subtopics",
-      "D": "By the geographical location of the research institution"
+      "A": "To ensure that no vital published study or safety guideline is accidentally missed",
+      "B": "To eliminate the need for using any controlled vocabulary terms like MeSH",
+      "C": "To keep the total number of retrieved search results as small as possible",
+      "D": "To guarantee that the search finishes processing within a few seconds"
     },
-    "answer": "C",
-    "explanation": "MeSH terms are structured in a hierarchical tree format, allowing researchers to explore broad categories or drill down into specific subtopics. [learn more](GNS113_U2_T8#GNS113_U2_T8_h5)"
+    "answer": "A",
+    "explanation": "High recall means capturing the vast majority of relevant literature, which is essential for comprehensive research syntheses where missing a paper introduces bias. [learn more](GNS113_U2_T8#GNS113_U2_T8_h5)"
   },
   {
     "question_id": "GNS113_U2_T8_h6_q1",
     "heading_id": "GNS113_U2_T8_h6",
     "article_id": "GNS113_U2_T8",
     "topic_id": "GNS113_U2_T8",
-    "question": "What does precision measure in the context of information retrieval systems?",
+    "difficulty": "recall",
+    "question": "What does the letter 'P' stand for in the PICO framework used to formulate clinical search queries?",
     "options": {
-      "A": "The total number of articles stored in the database",
-      "B": "The proportion of retrieved documents that are actually relevant to the query",
-      "C": "The speed at which the search engine processes queries",
-      "D": "The financial cost of accessing full-text journal articles"
+      "A": "Population or Patient",
+      "B": "Probability or Power",
+      "C": "Protocol or Procedure",
+      "D": "Pathology or Prognosis"
     },
-    "answer": "B",
-    "explanation": "Precision evaluates how well a search filters out noise by measuring the ratio of truly relevant documents among all retrieved documents. [learn more](GNS113_U2_T8#GNS113_U2_T8_h6)"
+    "answer": "A",
+    "explanation": "In evidence-based practice, the P in PICO represents the target patient group or population affected by the clinical condition being investigated. [learn more](GNS113_U2_T8#GNS113_U2_T8_h6)"
   },
   {
     "question_id": "GNS113_U2_T8_h6_q2",
     "heading_id": "GNS113_U2_T8_h6",
     "article_id": "GNS113_U2_T8",
     "topic_id": "GNS113_U2_T8",
-    "question": "What is the typical relationship between precision and recall in database searching?",
+    "difficulty": "application",
+    "question": "A nurse wants to find evidence comparing two wound dressings for pressure ulcers. Which action represents the first step in using an IR system for this task?",
     "options": {
-      "A": "They always increase together at the exact same rate",
-      "B": "There is an inverse relationship where broadening a search increases recall but often decreases precision",
-      "C": "They are completely unrelated mathematical concepts",
-      "D": "Increasing precision always decreases the total number of documents in the database"
+      "A": "Structuring the clinical question using the PICO framework to identify key search concepts",
+      "B": "Downloading every available textbook on dermatology from commercial websites",
+      "C": "Submitting a formal request to the hospital ethics committee for clinical trial approval",
+      "D": "Immediately clicking the first search result that appears on a generic search engine"
     },
-    "answer": "B",
-    "explanation": "Precision and recall have an inverse relationship; making a search broader to catch everything (high recall) often brings in unrelated results (low precision). [learn more](GNS113_U2_T8#GNS113_U2_T8_h6)"
+    "answer": "A",
+    "explanation": "Formulating a clear clinical question using PICO is the essential starting point for translating a practical dilemma into targeted database search terms. [learn more](GNS113_U2_T8#GNS113_U2_T8_h6)"
   },
   {
     "question_id": "GNS113_U2_T8_h7_q1",
     "heading_id": "GNS113_U2_T8_h7",
     "article_id": "GNS113_U2_T8",
     "topic_id": "GNS113_U2_T8",
-    "question": "What is the first step when integrating IR systems into evidence-based nursing using the PICO framework?",
+    "difficulty": "recall",
+    "question": "What is a major ethical risk associated with inputting clinical case details into public search or AI retrieval tools?",
     "options": {
-      "A": "Printing out textbooks for every hospital ward",
-      "B": "Formulating a structured clinical question identifying Population, Intervention, Comparison, and Outcome",
-      "C": "Asking senior doctors for permission to use computers",
-      "D": "Writing a patient discharge summary"
+      "A": "Causing the search engine server to crash due to excessive data volume",
+      "B": "Automatically increasing the financial cost of patient drug prescriptions",
+      "C": "Permanently deleting the original hospital electronic health record database",
+      "D": "Breaching patient data privacy by exposing identifiable health information"
     },
-    "answer": "B",
-    "explanation": "Evidence-based practice begins by formulating a clear clinical question using the PICO framework to guide the subsequent database search. [learn more](GNS113_U2_T8#GNS113_U2_T8_h7)"
+    "answer": "D",
+    "explanation": "Entering specific patient details into public or external search interfaces compromises confidentiality and violates data protection standards. [learn more](GNS113_U2_T8#GNS113_U2_T8_h7)"
   },
   {
     "question_id": "GNS113_U2_T8_h7_q2",
     "heading_id": "GNS113_U2_T8_h7",
     "article_id": "GNS113_U2_T8",
     "topic_id": "GNS113_U2_T8",
-    "question": "How does regular use of IR systems benefit clinical nursing practice?",
+    "difficulty": "understanding",
+    "question": "Why is information overload considered a significant challenge when using modern healthcare IR systems?",
     "options": {
-      "A": "It replaces direct physical assessments of patients",
-      "B": "It promotes scientifically validated interventions that improve patient safety and care quality",
-      "C": "It increases the paperwork burden on ward nurses",
-      "D": "It eliminates the need for professional nursing licensure exams"
+      "A": "It permanently blocks users from accessing subscription-based medical journals",
+      "B": "It prevents search engines from utilizing Boolean operators effectively",
+      "C": "It overwhelms clinicians with massive result volumes, making high-quality evidence hard to find",
+      "D": "It forces databases to shut down their servers during peak operational hours"
     },
-    "answer": "B",
-    "explanation": "Using IR systems helps nurses find current research, moving them away from outdated habits toward scientifically proven, safe patient care. [learn more](GNS113_U2_T8#GNS113_U2_T8_h7)"
-  },
-  {
-    "question_id": "GNS113_U2_T8_h8_q1",
-    "heading_id": "GNS113_U2_T8_h8",
-    "article_id": "GNS113_U2_T8",
-    "topic_id": "GNS113_U2_T8",
-    "question": "What is a major challenge associated with health information retrieval systems in clinical practice?",
-    "options": {
-      "A": "A total lack of available literature on any topic",
-      "B": "Information overload, where clinicians are overwhelmed by thousands of results",
-      "C": "Computers physically breaking down whenever a nurse logs in",
-      "D": "The complete absence of search engines in modern hospitals"
-    },
-    "answer": "B",
-    "explanation": "Information overload is a common hurdle, as database searches often yield massive numbers of results that are difficult to sift through quickly. [learn more](GNS113_U2_T8#GNS113_U2_T8_h8)"
-  },
-  {
-    "question_id": "GNS113_U2_T8_h8_q2",
-    "heading_id": "GNS113_U2_T8_h8",
-    "article_id": "GNS113_U2_T8",
-    "topic_id": "GNS113_U2_T8",
-    "question": "Why must nurses be cautious about data privacy when interacting with digital health information systems?",
-    "options": {
-      "A": "To prevent unauthorized uploading or exposure of identifiable patient health information",
-      "B": "To avoid paying high internet subscription fees",
-      "C": "To ensure search engines load results faster",
-      "D": "To keep their personal social media accounts secure"
-    },
-    "answer": "A",
-    "explanation": "Nurses must adhere to strict data protection regulations to ensure patient confidentiality is never compromised during digital documentation or searches. [learn more](GNS113_U2_T8#GNS113_U2_T8_h8)"
+    "answer": "C",
+    "explanation": "When thousands of results are generated, busy clinicians face the daunting task of filtering through noise and low-quality studies to find actionable evidence. [learn more](GNS113_U2_T8#GNS113_U2_T8_h7)"
   }
 ]
