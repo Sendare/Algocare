@@ -310,6 +310,28 @@ def word_count(text):
     return len(text.split())
 
 
+def safe_preview(content):
+    """Terminal-friendly preview. A raw markdown table row can be a single
+    150-200+ character unbroken line - some mobile terminals (Termux
+    included) visibly lag trying to wrap/redraw that on a narrow screen.
+    This never prints a raw table line - just the intro text plus a row
+    count, with the actual rendering still verified separately below."""
+    lines = content.split("\n")
+    table_row_count = sum(1 for l in lines if l.strip().startswith("|"))
+
+    if table_row_count > 0:
+        intro_lines = []
+        for l in lines:
+            if l.strip().startswith("|"):
+                break
+            intro_lines.append(l)
+        intro = " ".join(intro_lines).strip()
+        preview = intro[:200] + ("..." if len(intro) > 200 else "")
+        return f"{preview}\n  [table with {table_row_count} row(s) follows - not printed raw to avoid terminal lag]"
+
+    return content[:250] + ("..." if len(content) > 250 else "")
+
+
 def flag_complexity_issues(question_text):
     """Content-agnostic heuristics only - NOT a real readability judgment.
     Flags the two specific patterns called out: long stems and 'rather than'
@@ -356,11 +378,13 @@ def generate_for_topic(topic):
         word_counts.append(wc)
 
         print(f"\n--- Heading {order}: {h['title']} ({wc} words) ---")
-        print(content[:250] + ("..." if len(content) > 250 else ""))
+        print(safe_preview(content))
 
         rendered_html = markdown_to_html(content)
         if "<ol>" in rendered_html or "<ul>" in rendered_html:
             print("  [renders as a real list, not flat text]")
+        if "<table>" in rendered_html:
+            print("  [table renders correctly as real <table> HTML]")
 
         learn_more_link = f"[learn more]({topic['topic_id']}#{heading_id})"
         for i, q in enumerate(h.get("questions", []), start=1):
