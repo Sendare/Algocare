@@ -4,239 +4,255 @@
     "heading_id": "GNS321_U2_T9_h1",
     "article_id": "GNS321_U2_T9",
     "topic_id": "GNS321_U2_T9",
-    "question": "What is the primary indication for the insertion of a permanent cardiac pacemaker?",
+    "difficulty": "recall",
+    "question": "What is the primary clinical indication for inserting a permanent cardiac pacemaker?",
     "options": {
-      "A": "Symptomatic tachyarrhythmias",
-      "B": "Symptomatic bradyarrhythmias",
-      "C": "Acute hypertension",
-      "D": "Severe pulmonary embolism"
+      "A": "Symptomatic bradycardia",
+      "B": "Unstable angina pectoris",
+      "C": "Essential systemic hypertension",
+      "D": "Acute myocardial infarction"
     },
-    "answer": "B",
-    "explanation": "Permanent pacemakers are primarily indicated for symptomatic bradyarrhythmias like sick sinus syndrome and complete heart block where the heart rate is too slow to maintain adequate cardiac output. [learn more](GNS321_U2_T9#GNS321_U2_T9_h1)"
+    "answer": "A",
+    "explanation": "Pacemakers are primarily indicated when the heart rate drops too low to maintain adequate blood flow, causing symptoms like dizziness and fatigue. [learn more](GNS321_U2_T9#GNS321_U2_T9_h1)"
   },
   {
     "question_id": "GNS321_U2_T9_h1_q2",
     "heading_id": "GNS321_U2_T9_h1",
     "article_id": "GNS321_U2_T9",
     "topic_id": "GNS321_U2_T9",
-    "question": "Which of the following clinical manifestations is commonly associated with a significantly decreased heart rate due to conduction defects?",
+    "difficulty": "understanding",
+    "question": "Why is a biventricular pacemaker utilized in patients with advanced heart failure?",
     "options": {
-      "A": "Syncope and dizziness",
-      "B": "Flushed skin and fever",
-      "C": "Rapid bounding pulses",
-      "D": "Hypertensive crisis"
+      "A": "To continuously monitor daily fluid retention levels",
+      "B": "To coordinate the contraction timing of both ventricles",
+      "C": "To permanently terminate chronic atrial fibrillation",
+      "D": "To deliver high-energy shocks for ventricular tachycardia"
     },
-    "answer": "A",
-    "explanation": "When heart rates drop too low, decreased perfusion to the brain causes symptoms such as dizziness, fatigue, and syncope. [learn more](GNS321_U2_T9#GNS321_U2_T9_h1)"
+    "answer": "B",
+    "explanation": "Biventricular pacemakers provide cardiac resynchronization therapy by pacing both ventricles simultaneously to improve pumping efficiency. [learn more](GNS321_U2_T9#GNS321_U2_T9_h1)"
   },
   {
     "question_id": "GNS321_U2_T9_h2_q1",
     "heading_id": "GNS321_U2_T9_h2",
     "article_id": "GNS321_U2_T9",
     "topic_id": "GNS321_U2_T9",
-    "question": "Which type of pacemaker utilizes leads in both the right atrium and right ventricle to maintain physiological synchrony?",
+    "difficulty": "recall",
+    "question": "What does a dual-chamber pacemaker system require to function properly?",
     "options": {
-      "A": "Single-chamber pacemaker",
-      "B": "Dual-chamber pacemaker",
-      "C": "Biventricular pacemaker",
-      "D": "External transcutaneous pacemaker"
+      "A": "Two distinct battery generators implanted on both sides of the chest",
+      "B": "Two leads placed in the right atrium and right ventricle",
+      "C": "External pacing pads attached continuously to the anterior chest wall",
+      "D": "One lead threaded directly through the aorta into the left ventricle"
     },
     "answer": "B",
-    "explanation": "Dual-chamber pacemakers use two leads placed in the right atrium and right ventricle to achieve sequential, synchronized contraction. [learn more](GNS321_U2_T9#GNS321_U2_T9_h2)"
+    "explanation": "Dual-chamber systems use two leads to monitor and pace both the upper and lower chambers of the heart. [learn more](GNS321_U2_T9#GNS321_U2_T9_h2)"
   },
   {
     "question_id": "GNS321_U2_T9_h2_q2",
     "heading_id": "GNS321_U2_T9_h2",
     "article_id": "GNS321_U2_T9",
     "topic_id": "GNS321_U2_T9",
-    "question": "In the standard pacemaker identification code, what does the first letter represent?",
+    "difficulty": "understanding",
+    "question": "In a VVI pacemaker mode, what happens when the device senses an intrinsic ventricular beat?",
     "options": {
-      "A": "The chamber sensed",
-      "B": "The response to sensing",
-      "C": "The chamber paced",
-      "D": "Rate-modulation capabilities"
+      "A": "An immediate backup shock is delivered",
+      "B": "Atrial contraction is forced to occur",
+      "C": "The scheduled pacing stimulus is inhibited",
+      "D": "The heart rate accelerates automatically"
     },
     "answer": "C",
-    "explanation": "The first letter in the NASPE/BPEG code indicates the specific heart chamber that is being paced by the device. [learn more](GNS321_U2_T9#GNS321_U2_T9_h2)"
+    "explanation": "Inhibit modes withhold the pacing impulse if the heart beats on its own within the programmed time window, preventing competition with native rhythms. [learn more](GNS321_U2_T9#GNS321_U2_T9_h2)"
   },
   {
     "question_id": "GNS321_U2_T9_h3_q1",
     "heading_id": "GNS321_U2_T9_h3",
     "article_id": "GNS321_U2_T9",
     "topic_id": "GNS321_U2_T9",
-    "question": "Why is it important to review a patient's medication history regarding anticoagulants before pacemaker insertion?",
+    "difficulty": "recall",
+    "question": "Why is hair clipping preferred over shaving at the surgical site before pacemaker insertion?",
     "options": {
-      "A": "To prevent allergic reactions to antibiotics",
-      "B": "To prevent excessive bleeding and hematoma formation",
-      "C": "To ensure the heart rate remains elevated",
-      "D": "To replace lost electrolytes"
+      "A": "Clipping prevents microscopic skin abrasions that harbor bacteria",
+      "B": "Shaving interferes with the adhesive properties of surgical drapes",
+      "C": "Clipping takes significantly less time for operating theatre staff",
+      "D": "Shaving permanently damages the underlying superficial nerve pathways"
     },
-    "answer": "B",
-    "explanation": "Anticoagulants increase the risk of bleeding during surgery, so they are often managed carefully before pacemaker implantation to prevent hematomas. [learn more](GNS321_U2_T9#GNS321_U2_T9_h3)"
+    "answer": "A",
+    "explanation": "Razors cause tiny cuts in the skin where bacteria can multiply, increasing the risk of pocket site infection. [learn more](GNS321_U2_T9#GNS321_U2_T9_h3)"
   },
   {
     "question_id": "GNS321_U2_T9_h3_q2",
     "heading_id": "GNS321_U2_T9_h3",
     "article_id": "GNS321_U2_T9",
     "topic_id": "GNS321_U2_T9",
-    "question": "What is the preferred method for managing hair at the surgical insertion site during pre-procedural preparation?",
+    "difficulty": "understanding",
+    "question": "What is a primary responsibility of the nurse during pre-procedural medication reconciliation?",
     "options": {
-      "A": "Shaving with a razor",
-      "B": "Clipping the hair",
-      "C": "Applying a chemical depilatory cream",
-      "D": "Leaving the hair untouched"
+      "A": "Stopping all oral cardiac medications permanently prior to surgery",
+      "B": "Ensuring all routine daily antibiotics are doubled in dosage",
+      "C": "Administering high-dose sedatives on the general medical ward",
+      "D": "Checking for anticoagulants that might increase bleeding risks"
     },
-    "answer": "B",
-    "explanation": "Clipping hair is preferred over shaving with a razor because it minimizes micro-abrasions on the skin that can harbor bacteria and lead to infection. [learn more](GNS321_U2_T9#GNS321_U2_T9_h3)"
+    "answer": "D",
+    "explanation": "Anticoagulants and antiplatelet agents must be identified because they increase the risk of hematoma formation at the surgical pocket site. [learn more](GNS321_U2_T9#GNS321_U2_T9_h3)"
   },
   {
     "question_id": "GNS321_U2_T9_h4_q1",
     "heading_id": "GNS321_U2_T9_h4",
     "article_id": "GNS321_U2_T9",
     "topic_id": "GNS321_U2_T9",
-    "question": "What is a primary diagnostic test that should be performed immediately after pacemaker insertion to check device function?",
+    "difficulty": "recall",
+    "question": "Which diagnostic imaging test is routinely ordered immediately after pacemaker insertion to check for complications?",
     "options": {
-      "A": "Echocardiogram",
-      "B": "12-lead ECG",
-      "C": "Chest CT scan",
-      "D": "Stress test"
+      "A": "Magnetic resonance imaging",
+      "B": "Computed tomography scan",
+      "C": "Chest X-ray",
+      "D": "Echocardiogram"
     },
-    "answer": "B",
-    "explanation": "A 12-lead ECG is obtained immediately post-procedure to verify that the pacemaker is capturing the heart rhythm and sensing properly. [learn more](GNS321_U2_T9#GNS321_U2_T9_h4)"
+    "answer": "C",
+    "explanation": "A chest radiograph is performed immediately post-procedure to verify lead placement and ensure a pneumothorax did not occur during insertion. [learn more](GNS321_U2_T9#GNS321_U2_T9_h4)"
   },
   {
     "question_id": "GNS321_U2_T9_h4_q2",
     "heading_id": "GNS321_U2_T9_h4",
     "article_id": "GNS321_U2_T9",
     "topic_id": "GNS321_U2_T9",
-    "question": "Which complication should the nurse specifically monitor for when a subclavian approach is used for pacemaker lead placement?",
+    "difficulty": "application",
+    "question": "A patient returns to the ward after pacemaker insertion. Which nursing action is most critical for preventing lead dislodgement?",
     "options": {
-      "A": "Pneumothorax",
-      "B": "Renal failure",
-      "C": "Hypoglycemia",
-      "D": "Pulmonary embolism"
+      "A": "Encouraging immediate range-of-motion exercises for both upper extremities",
+      "B": "Massaging the subcutaneous pocket site gently every four hours",
+      "C": "Restricting movement of the affected arm and avoiding elevation above the shoulder",
+      "D": "Positioning the patient flat on their back with the head completely lowered"
     },
-    "answer": "A",
-    "explanation": "The proximity of the subclavian vein to the pleura creates a risk of puncturing the lung during insertion, leading to a pneumothorax. [learn more](GNS321_U2_T9#GNS321_U2_T9_h4)"
+    "answer": "C",
+    "explanation": "Limiting movement of the arm on the operative side prevents pulling on the newly placed leads before tissue ingrowth secures them. [learn more](GNS321_U2_T9#GNS321_U2_T9_h4)"
   },
   {
     "question_id": "GNS321_U2_T9_h5_q1",
     "heading_id": "GNS321_U2_T9_h5",
     "article_id": "GNS321_U2_T9",
     "topic_id": "GNS321_U2_T9",
-    "question": "What activity restriction is typically enforced for the affected upper extremity following pacemaker insertion?",
+    "difficulty": "recall",
+    "question": "How long must a patient generally avoid lifting the affected arm above shoulder level after pacemaker insertion?",
     "options": {
-      "A": "Avoid lifting heavy objects and raising the arm above shoulder level",
-      "B": "Keep the arm completely immobile in a rigid cast for six weeks",
-      "C": "Perform heavy weightlifting exercises to strengthen the shoulder",
-      "D": "Avoid using the arm entirely for any light daily tasks forever"
+      "A": "4 to 6 weeks",
+      "B": "3 to 6 months",
+      "C": "24 to 48 hours",
+      "D": "1 to 2 weeks"
     },
     "answer": "A",
-    "explanation": "Patients must avoid raising the arm above shoulder level or lifting heavy weights to prevent dislodgement of the pacemaker leads. [learn more](GNS321_U2_T9#GNS321_U2_T9_h5)"
+    "explanation": "It takes several weeks for the pacemaker leads to become firmly anchored by scar tissue inside the heart wall. [learn more](GNS321_U2_T9#GNS321_U2_T9_h5)"
   },
   {
     "question_id": "GNS321_U2_T9_h5_q2",
     "heading_id": "GNS321_U2_T9_h5",
     "article_id": "GNS321_U2_T9",
     "topic_id": "GNS321_U2_T9",
-    "question": "Which of the following findings at the pacemaker insertion site should be reported immediately as a sign of potential infection?",
+    "difficulty": "understanding",
+    "question": "Why should a patient avoid soaking the surgical incision in water during the initial post-operative healing phase?",
     "options": {
-      "A": "Mild bruising around the incision",
-      "B": "Purulent drainage and increasing warmth",
-      "C": "A small firm knot under the skin",
-      "D": "Itching as the skin heals"
+      "A": "Moisture softens the incision line and promotes bacterial migration",
+      "B": "Moisture neutralizes the antiseptic ointment applied in theater",
+      "C": "Submersion causes the titanium casing to rust and corrode rapidly",
+      "D": "Water pressure can instantly reprogram the device generator settings"
     },
-    "answer": "B",
-    "explanation": "Purulent drainage, increasing warmth, and spreading redness are classic signs of a surgical site infection that require immediate medical attention. [learn more](GNS321_U2_T9#GNS321_U2_T9_h5)"
+    "answer": "A",
+    "explanation": "Keeping the wound dry prevents infection and protects the integrity of the closing skin sutures or staples. [learn more](GNS321_U2_T9#GNS321_U2_T9_h5)"
   },
   {
     "question_id": "GNS321_U2_T9_h6_q1",
     "heading_id": "GNS321_U2_T9_h6",
     "article_id": "GNS321_U2_T9",
     "topic_id": "GNS321_U2_T9",
-    "question": "What electrocardiographic finding characterizes pacemaker failure to capture?",
+    "difficulty": "understanding",
+    "question": "What electrocardiographic pattern defines pacemaker failure to capture?",
     "options": {
-      "A": "Pacing spikes that are completely absent",
-      "B": "Pacing spikes that are not followed by myocardial depolarization waveforms",
-      "C": "Pacing spikes occurring too close to the T wave",
-      "D": "A heart rate exceeding 150 beats per minute"
+      "A": "Pacing spikes visible without a resulting myocardial depolarization complex",
+      "B": "Continuous firing of rapid pacing spikes at rates exceeding 200 beats per minute",
+      "C": "Pacing spikes landing directly on top of native T waves",
+      "D": "Complete absence of any visible electrical pacing spikes on the monitor"
     },
-    "answer": "B",
-    "explanation": "Failure to capture is identified when pacing spikes appear on the monitor but are not followed by a P wave or QRS complex, meaning the heart did not respond. [learn more](GNS321_U2_T9#GNS321_U2_T9_h6)"
+    "answer": "A",
+    "explanation": "Failure to capture means the electrical energy delivered by the generator is not strong enough or the lead is displaced, resulting in a spike without a heartbeat. [learn more](GNS321_U2_T9#GNS321_U2_T9_h6)"
   },
   {
     "question_id": "GNS321_U2_T9_h6_q2",
     "heading_id": "GNS321_U2_T9_h6",
     "article_id": "GNS321_U2_T9",
     "topic_id": "GNS321_U2_T9",
-    "question": "What is the primary danger associated with pacemaker undersensing (failure to sense)?",
+    "difficulty": "recall",
+    "question": "Which complication occurs when a pacemaker mistakenly identifies skeletal muscle electrical activity as a natural heartbeat and withholds pacing?",
     "options": {
-      "A": "Inappropriate firing during the vulnerable cardiac refractory period, risking serious arrhythmias",
-      "B": "Total battery depletion within twenty-four hours",
-      "C": "Complete cessation of all electrical activity in the device",
-      "D": "Severe infection of the subcutaneous pocket"
+      "A": "Threshold exhaustion",
+      "B": "Undersensing",
+      "C": "Loss of capture",
+      "D": "Oversensing"
     },
-    "answer": "A",
-    "explanation": "Undersensing means the pacemaker ignores the heart's natural beats and may fire inappropriately during the T wave (refractory period), potentially triggering ventricular fibrillation. [learn more](GNS321_U2_T9#GNS321_U2_T9_h6)"
+    "answer": "D",
+    "explanation": "Oversensing happens when extraneous electrical signals are interpreted as native heartbeats, causing the pacemaker to inappropriately skip programmed pacing. [learn more](GNS321_U2_T9#GNS321_U2_T9_h6)"
   },
   {
     "question_id": "GNS321_U2_T9_h7_q1",
     "heading_id": "GNS321_U2_T9_h7",
     "article_id": "GNS321_U2_T9",
     "topic_id": "GNS321_U2_T9",
-    "question": "How should a patient with a pacemaker interact with airport security checkpoints?",
+    "difficulty": "recall",
+    "question": "How should a patient with a pacemaker navigate airport security screening safely?",
     "options": {
-      "A": "Walk rapidly through standard metal detectors without informing anyone",
-      "B": "Show their device ID card and request a manual hand screening instead of wanding over the device",
-      "C": "Turn the pacemaker completely off before entering the screening area",
-      "D": "Avoid all air travel permanently"
+      "A": "Show the device ID card and request a manual hand-wand or pat-down search",
+      "B": "Remove the implanted device temporarily and place it in carry-on luggage",
+      "C": "Turn off the pacemaker generator completely before entering the security queue",
+      "D": "Walk rapidly through standard magnetic archway detectors without stopping"
     },
-    "answer": "B",
-    "explanation": "Patients should show their identification card and ask for manual screening to avoid placing security wands directly over the generator, which can disrupt device programming. [learn more](GNS321_U2_T9#GNS321_U2_T9_h7)"
+    "answer": "A",
+    "explanation": "Airport security metal detectors and wands can temporarily interfere with pacemaker settings, so manual screening is recommended. [learn more](GNS321_U2_T9#GNS321_U2_T9_h7)"
   },
   {
     "question_id": "GNS321_U2_T9_h7_q2",
     "heading_id": "GNS321_U2_T9_h7",
     "article_id": "GNS321_U2_T9",
     "topic_id": "GNS321_U2_T9",
-    "question": "What is the recommended safe distance for holding a mobile phone away from a pacemaker insertion site?",
+    "difficulty": "understanding",
+    "question": "Which of the following household items poses the least risk of interference to a modern pacemaker?",
     "options": {
-      "A": "At least 2 centimeters",
-      "B": "At least 15 centimeters",
-      "C": "At least 1 meter",
-      "D": "Distance does not matter with modern phones"
+      "A": "Industrial generator",
+      "B": "High-power radar tower",
+      "C": "Microwave oven",
+      "D": "Arc welding machine"
     },
-    "answer": "B",
-    "explanation": "Patients are advised to keep cellular phones at least 15 centimeters away from their pacemaker site to prevent electromagnetic interference. [learn more](GNS321_U2_T9#GNS321_U2_T9_h7)"
+    "answer": "C",
+    "explanation": "Modern microwave ovens are well-shielded and do not emit electromagnetic fields strong enough to interfere with properly functioning pacemakers. [learn more](GNS321_U2_T9#GNS321_U2_T9_h7)"
   },
   {
     "question_id": "GNS321_U2_T9_h8_q1",
     "heading_id": "GNS321_U2_T9_h8",
     "article_id": "GNS321_U2_T9",
     "topic_id": "GNS321_U2_T9",
-    "question": "What is the main purpose of regular pacemaker interrogations during follow-up visits?",
+    "difficulty": "recall",
+    "question": "What is the primary purpose of routine pacemaker interrogation during follow-up visits?",
     "options": {
-      "A": "To replace the surgical incision dressing",
-      "B": "To assess battery longevity, lead integrity, and device settings",
-      "C": "To administer prophylactic intravenous antibiotics",
-      "D": "To adjust the patient's blood pressure medications automatically"
+      "A": "Surgically replacing the entire generator unit during an outpatient visit",
+      "B": "Clearing scar tissue buildup surrounding the subcutaneous pocket",
+      "C": "Checking battery status, lead impedance, and device programming",
+      "D": "Reprogramming the heart muscle to beat at a permanently fixed rate"
     },
-    "answer": "B",
-    "explanation": "Interrogations evaluate battery status, lead function, and device programming to ensure the pacemaker continues to operate safely and effectively. [learn more](GNS321_U2_T9#GNS321_U2_T9_h8)"
+    "answer": "C",
+    "explanation": "Interrogation evaluates technical performance parameters like battery life and lead integrity to ensure the device is working optimally. [learn more](GNS321_U2_T9#GNS321_U2_T9_h8)"
   },
   {
     "question_id": "GNS321_U2_T9_h8_q2",
     "heading_id": "GNS321_U2_T9_h8",
     "article_id": "GNS321_U2_T9",
     "topic_id": "GNS321_U2_T9",
-    "question": "Which of the following psychological challenges is commonly experienced by patients following pacemaker implantation?",
+    "difficulty": "understanding",
+    "question": "Which intervention best addresses the emotional and psychosocial needs of a patient newly fitted with a pacemaker?",
     "options": {
-      "A": "Anxiety and fear of device malfunction",
-      "B": "Complete loss of long-term memory",
-      "C": "Euphoria and hyperactivity",
-      "D": "Aggressive behavioral outbursts"
+      "A": "Focusing exclusively on technical maintenance while ignoring emotional cues",
+      "B": "Discouraging the patient from discussing their device fears with family members",
+      "C": "Assuring the patient that lifestyle restrictions will remain permanent and strict",
+      "D": "Providing structured education, active listening, and referral to support resources"
     },
-    "answer": "A",
-    "explanation": "Living with an implanted cardiac device often brings emotional adjustments, leading to anxiety, fear of failure, and body image concerns that require nursing support. [learn more](GNS321_U2_T9#GNS321_U2_T9_h8)"
+    "answer": "D",
+    "explanation": "Addressing anxiety and body image concerns through supportive counseling aids successful psychological adjustment to the device. [learn more](GNS321_U2_T9#GNS321_U2_T9_h8)"
   }
 ]

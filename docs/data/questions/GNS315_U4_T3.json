@@ -4,239 +4,255 @@
     "heading_id": "GNS315_U4_T3_h1",
     "article_id": "GNS315_U4_T3",
     "topic_id": "GNS315_U4_T3",
-    "question": "What is the primary function of an Automated External Defibrillator (AED)?",
+    "difficulty": "recall",
+    "question": "What is the primary function of an automated external defibrillator?",
     "options": {
-      "A": "To manually pump blood for a patient in cardiac arrest",
-      "B": "To analyze heart rhythm and deliver an electrical shock if needed",
-      "C": "To provide continuous mechanical chest compressions",
-      "D": "To monitor blood pressure and oxygen saturation levels"
+      "A": "Administer emergency intravenous cardiac medications automatically",
+      "B": "Provide mechanical chest compressions during cardiac arrest",
+      "C": "Analyze heart rhythms and deliver a therapeutic electrical shock",
+      "D": "Measure continuous blood pressure and oxygen saturation levels"
     },
-    "answer": "B",
-    "explanation": "An AED is specifically designed to analyze the heart rhythm and deliver a therapeutic electrical shock if a shockable rhythm is detected. [learn more](GNS315_U4_T3#GNS315_U4_T3_h1)"
+    "answer": "C",
+    "explanation": "An AED is specifically designed to detect shockable cardiac rhythms and deliver an electric current to reset the heart's electrical system. [learn more](GNS315_U4_T3#GNS315_U4_T3_h1)"
   },
   {
     "question_id": "GNS315_U4_T3_h1_q2",
     "heading_id": "GNS315_U4_T3_h1",
     "article_id": "GNS315_U4_T3",
     "topic_id": "GNS315_U4_T3",
-    "question": "Approximately by how much does a victim's chance of survival decline for every minute that passes without defibrillation and CPR?",
+    "difficulty": "understanding",
+    "question": "Why are public access defibrillators placed in high-traffic community areas?",
     "options": {
-      "A": "1 to 3 percent",
-      "B": "7 to 10 percent",
-      "C": "15 to 20 percent",
-      "D": "25 to 30 percent"
+      "A": "To monitor resting heart rates of healthy individuals walking past",
+      "B": "To reduce the time interval between collapse and initial rhythm analysis",
+      "C": "To replace the need for emergency medical ambulance dispatch services",
+      "D": "To serve as storage cabinets for routine first aid supplies and bandages"
     },
     "answer": "B",
-    "explanation": "Survival rates drop rapidly by about 7 to 10 percent for every minute that passes without intervention, emphasizing the urgency of early AED use. [learn more](GNS315_U4_T3#GNS315_U4_T3_h1)"
+    "explanation": "Early defibrillation is the single most critical factor in surviving sudden cardiac arrest, making rapid availability essential. [learn more](GNS315_U4_T3#GNS315_U4_T3_h1)"
   },
   {
     "question_id": "GNS315_U4_T3_h2_q1",
     "heading_id": "GNS315_U4_T3_h2",
     "article_id": "GNS315_U4_T3",
     "topic_id": "GNS315_U4_T3",
-    "question": "What are the primary clinical indicators that warrant the immediate use of an AED?",
+    "difficulty": "recall",
+    "question": "Which clinical presentation indicates the immediate need for an AED?",
     "options": {
-      "A": "Chest pain, dizziness, and a weak pulse",
-      "B": "Unresponsiveness, absence of normal breathing, and no pulse",
-      "C": "High blood pressure, confusion, and flushed skin",
-      "D": "A conscious patient experiencing a generalized seizure"
+      "A": "Rapid breathing accompanied by high blood pressure",
+      "B": "Dizziness and nausea following physical exertion",
+      "C": "Unresponsiveness and absence of normal breathing",
+      "D": "Severe chest pain with a strong, bounding pulse"
     },
-    "answer": "B",
-    "explanation": "An AED is indicated when a patient is unresponsive, not breathing normally, and lacks a detectable pulse. [learn more](GNS315_U4_T3#GNS315_U4_T3_h2)"
+    "answer": "C",
+    "explanation": "An AED is strictly indicated for victims of cardiac arrest who are completely unresponsive and not breathing normally. [learn more](GNS315_U4_T3#GNS315_U4_T3_h2)"
   },
   {
     "question_id": "GNS315_U4_T3_h2_q2",
     "heading_id": "GNS315_U4_T3_h2",
     "article_id": "GNS315_U4_T3",
     "topic_id": "GNS315_U4_T3",
-    "question": "What action should a nurse take if an AED is brought to a patient who is conscious and breathing normally?",
+    "difficulty": "application",
+    "question": "A patient collapses in the hospital corridor, is completely unresponsive, and makes occasional gasping sounds. What is the appropriate initial action regarding the AED?",
     "options": {
-      "A": "Apply the AED pads immediately just in case",
-      "B": "Do not apply the AED and monitor the patient's condition",
-      "C": "Turn on the AED and force an analysis",
-      "D": "Administer a shock manually through the device"
+      "A": "Retrieve and apply the AED immediately to check the rhythm",
+      "B": "Check the blood pressure before opening the device carrying case",
+      "C": "Administer oxygen via a non-rebreather mask for five minutes",
+      "D": "Wait for a physician to confirm the arrest via electrocardiogram"
     },
-    "answer": "B",
-    "explanation": "AEDs are never indicated for conscious patients who are breathing normally, as the device will not deliver a shock and it wastes time. [learn more](GNS315_U4_T3#GNS315_U4_T3_h2)"
+    "answer": "A",
+    "explanation": "Agonal gasps are not normal breathing and indicate cardiac arrest, requiring immediate activation of the emergency response and AED use. [learn more](GNS315_U4_T3#GNS315_U4_T3_h2)"
   },
   {
     "question_id": "GNS315_U4_T3_h3_q1",
     "heading_id": "GNS315_U4_T3_h3",
     "article_id": "GNS315_U4_T3",
     "topic_id": "GNS315_U4_T3",
-    "question": "Which of the following are considered shockable rhythms that an AED will treat?",
+    "difficulty": "recall",
+    "question": "Which two cardiac rhythms are classified as shockable by an AED?",
     "options": {
-      "A": "Asystole and Pulseless Electrical Activity",
-      "B": "Ventricular Fibrillation and Pulseless Ventricular Tachycardia",
-      "C": "Sinus bradycardia and First-degree heart block",
-      "D": "Atrial fibrillation and Supraventricular tachycardia"
+      "A": "Atrial flutter and supraventricular tachycardia",
+      "B": "Ventricular fibrillation and pulseless ventricular tachycardia",
+      "C": "Sinus bradycardia and premature atrial contractions",
+      "D": "Asystole and pulseless electrical activity"
     },
     "answer": "B",
-    "explanation": "Ventricular Fibrillation (VF) and Pulseless Ventricular Tachycardia (VT) are the two primary shockable rhythms recognized and treated by an AED. [learn more](GNS315_U4_T3#GNS315_U4_T3_h3)"
+    "explanation": "AEDs are programmed to recognize and deliver shocks only for ventricular fibrillation and pulseless ventricular tachycardia. [learn more](GNS315_U4_T3#GNS315_U4_T3_h3)"
   },
   {
     "question_id": "GNS315_U4_T3_h3_q2",
     "heading_id": "GNS315_U4_T3_h3",
     "article_id": "GNS315_U4_T3",
     "topic_id": "GNS315_U4_T3",
-    "question": "How does an AED respond if it detects a non-shockable rhythm like Asystole?",
+    "difficulty": "understanding",
+    "question": "What happens physiologically during ventricular fibrillation?",
     "options": {
-      "A": "It delivers a low-energy shock automatically",
-      "B": "It advises 'no shock advised' and instructs the resumption of CPR",
-      "C": "It shuts down permanently to prevent user error",
-      "D": "It sounds a continuous alarm until manual override is used"
+      "A": "The heart beats with extreme regularity at a very rapid resting rate",
+      "B": "Electrical impulses cease entirely throughout the myocardial muscle layers",
+      "C": "The atria contract faster than the ventricles can accommodate",
+      "D": "The ventricles quiver chaotically without generating effective cardiac output"
     },
-    "answer": "B",
-    "explanation": "For non-shockable rhythms, the AED will state 'no shock advised' and direct the rescuer to immediately resume chest compressions. [learn more](GNS315_U4_T3#GNS315_U4_T3_h3)"
+    "answer": "D",
+    "explanation": "Ventricular fibrillation causes ineffective quivering of the heart muscle, preventing blood from being pumped to vital organs. [learn more](GNS315_U4_T3#GNS315_U4_T3_h3)"
   },
   {
     "question_id": "GNS315_U4_T3_h4_q1",
     "heading_id": "GNS315_U4_T3_h4",
     "article_id": "GNS315_U4_T3",
     "topic_id": "GNS315_U4_T3",
-    "question": "Where should the upper right adult AED pad be placed on the patient's chest?",
+    "difficulty": "recall",
+    "question": "Where should the upper right AED pad be placed on an adult patient?",
     "options": {
-      "A": "On the left side of the chest over the apex",
-      "B": "On the upper right chest directly below the collarbone",
-      "C": "In the center of the chest over the sternum",
-      "D": "On the lower right abdomen"
+      "A": "In the center of the back",
+      "B": "Over the left breast apex",
+      "C": "Directly over the sternum",
+      "D": "Below the right clavicle"
     },
-    "answer": "B",
-    "explanation": "The standard adult placement requires the first pad to be on the upper right chest directly below the right clavicle. [learn more](GNS315_U4_T3#GNS315_U4_T3_h4)"
+    "answer": "D",
+    "explanation": "The standard anterolateral placement requires the first pad to be placed on the upper right chest below the clavicle. [learn more](GNS315_U4_T3#GNS315_U4_T3_h4)"
   },
   {
     "question_id": "GNS315_U4_T3_h4_q2",
     "heading_id": "GNS315_U4_T3_h4",
     "article_id": "GNS315_U4_T3",
     "topic_id": "GNS315_U4_T3",
-    "question": "Why is it important to wipe a patient's wet chest dry before applying AED pads?",
+    "difficulty": "understanding",
+    "question": "Why is it vital to ensure that no one touches the patient during rhythm analysis?",
     "options": {
-      "A": "To prevent the AED from experiencing a short circuit",
-      "B": "To prevent the electrical current from arcing across the skin instead of the heart",
-      "C": "To ensure the adhesive glue does not dissolve in water",
-      "D": "To lower the patient's body temperature during resuscitation"
+      "A": "Movement and contact can cause artifact interference, leading to misdiagnosis",
+      "B": "Rescuers can receive a severe electrical shock from the analytical sensors",
+      "C": "Continuous pressure on the chest stops the internal pacemaker cells",
+      "D": "Physical touch alters the natural core body temperature of the victim"
     },
-    "answer": "B",
-    "explanation": "Moisture on the chest can cause the electrical shock to arc across the skin surface rather than traveling through the heart muscle. [learn more](GNS315_U4_T3#GNS315_U4_T3_h4)"
+    "answer": "A",
+    "explanation": "Rescuer movement or breathing artifacts can be misinterpreted by the AED as cardiac activity or shockable rhythms. [learn more](GNS315_U4_T3#GNS315_U4_T3_h4)"
   },
   {
     "question_id": "GNS315_U4_T3_h5_q1",
     "heading_id": "GNS315_U4_T3_h5",
     "article_id": "GNS315_U4_T3",
     "topic_id": "GNS315_U4_T3",
-    "question": "What is the primary reason for minimizing interruptions in chest compressions during AED use?",
+    "difficulty": "understanding",
+    "question": "When should chest compressions be resumed after an AED delivers a shock?",
     "options": {
-      "A": "To prevent the AED battery from draining too quickly",
-      "B": "To maintain coronary perfusion pressure and improve survival chances",
-      "C": "To allow the machine to calibrate its voice prompts accurately",
-      "D": "To ensure the rescuer does not become fatigued"
+      "A": "After checking the carotid pulse for two minutes",
+      "B": "Only after the device indicates asystole",
+      "C": "Once emergency medical services arrive on scene",
+      "D": "Immediately without waiting for a rhythm check"
     },
-    "answer": "B",
-    "explanation": "Minimizing pauses in chest compressions preserves coronary perfusion pressure, which is vital for effective resuscitation. [learn more](GNS315_U4_T3#GNS315_U4_T3_h5)"
+    "answer": "D",
+    "explanation": "Rescuers should resume chest compressions immediately after a shock is delivered, following the device prompts for a two-minute cycle before the next analysis. [learn more](GNS315_U4_T3#GNS315_U4_T3_h5)"
   },
   {
     "question_id": "GNS315_U4_T3_h5_q2",
     "heading_id": "GNS315_U4_T3_h5",
     "article_id": "GNS315_U4_T3",
     "topic_id": "GNS315_U4_T3",
-    "question": "What action must be taken immediately after the AED delivers a shock?",
+    "difficulty": "application",
+    "question": "During a resuscitation attempt, a colleague wants to stop compressions to stare at the AED screen while it charges. What is the correct nursing intervention?",
     "options": {
-      "A": "Check for a carotid pulse for at least 30 seconds",
-      "B": "Wait for the physician to evaluate the heart rhythm",
-      "C": "Immediately resume high-quality CPR starting with chest compressions",
-      "D": "Remove the AED pads and prepare the patient for transport"
+      "A": "Instruct them to continue compressions until the device explicitly tells everyone to clear",
+      "B": "Turn off the AED power switch until the two-minute compression timer expires",
+      "C": "Administer rescue breaths instead of compressions while waiting for the shock",
+      "D": "Allow them to watch the screen while you take over chest compressions entirely"
     },
-    "answer": "C",
-    "explanation": "Rescuers must immediately resume high-quality CPR right after a shock is delivered, without waiting for additional prompts. [learn more](GNS315_U4_T3#GNS315_U4_T3_h5)"
+    "answer": "A",
+    "explanation": "Compressions should continue during charging up until the AED instructs rescuers to clear the patient for analysis or shock delivery. [learn more](GNS315_U4_T3#GNS315_U4_T3_h5)"
   },
   {
     "question_id": "GNS315_U4_T3_h6_q1",
     "heading_id": "GNS315_U4_T3_h6",
     "article_id": "GNS315_U4_T3",
     "topic_id": "GNS315_U4_T3",
-    "question": "How should a rescuer handle an implanted pacemaker when applying AED pads?",
+    "difficulty": "recall",
+    "question": "What is the correct action if a patient has an implanted pacemaker visible on the upper chest?",
     "options": {
-      "A": "Place the AED pad directly over the pacemaker to enhance the shock",
-      "B": "Avoid placing the AED pad directly over the device by shifting it at least one inch away",
-      "C": "Disable the pacemaker using a magnet before applying the pads",
-      "D": "Refuse to use the AED because pacemakers make shocks completely ineffective"
+      "A": "Refuse to use the AED because it will explode",
+      "B": "Remove the pacemaker surgically before applying the electrodes",
+      "C": "Place the pad directly over the pacemaker to boost the shock",
+      "D": "Place the AED pad at least one inch away from the device"
     },
-    "answer": "B",
-    "explanation": "Pads should be placed at least one inch away from implanted devices to prevent blocking energy transfer or damaging the hardware. [learn more](GNS315_U4_T3#GNS315_U4_T3_h6)"
+    "answer": "D",
+    "explanation": "Pads should not be placed directly over implanted medical devices, as this can block the delivery of energy or damage the device. [learn more](GNS315_U4_T3#GNS315_U4_T3_h6)"
   },
   {
     "question_id": "GNS315_U4_T3_h6_q2",
     "heading_id": "GNS315_U4_T3_h6",
     "article_id": "GNS315_U4_T3",
     "topic_id": "GNS315_U4_T3",
-    "question": "What action is required if a transdermal medication patch is located where an AED pad needs to be placed?",
+    "difficulty": "understanding",
+    "question": "Why must a wet chest be dried thoroughly before applying AED electrode pads?",
     "options": {
-      "A": "Leave the patch in place and apply the AED pad directly over it",
-      "B": "Remove the patch with gloved hands and wipe the skin clean before pad application",
-      "C": "Pierce the patch with a needle to let the medication drain out",
-      "D": "Move the AED pad to the patient's forehead instead"
+      "A": "Fluid absorption prevents the voice prompts from being heard clearly",
+      "B": "Water causes the adhesive gel on the electrode pads to dissolve completely",
+      "C": "Moisture creates an alternate electrical pathway across the skin surface",
+      "D": "Wet skin increases the battery consumption of the AED internal computer"
     },
-    "answer": "B",
-    "explanation": "Transdermal patches must be removed and the skin wiped clean to prevent burns, electrical interference, and blocked energy delivery. [learn more](GNS315_U4_T3#GNS315_U4_T3_h6)"
+    "answer": "C",
+    "explanation": "Excessive moisture on the skin can cause the electrical current to arc between the pads rather than traveling through the heart muscle. [learn more](GNS315_U4_T3#GNS315_U4_T3_h6)"
   },
   {
     "question_id": "GNS315_U4_T3_h7_q1",
     "heading_id": "GNS315_U4_T3_h7",
     "article_id": "GNS315_U4_T3",
     "topic_id": "GNS315_U4_T3",
-    "question": "Why should AED pads remain attached to the patient immediately after achieving ROSC?",
+    "difficulty": "understanding",
+    "question": "What should be done with the AED pads after spontaneous circulation is restored?",
     "options": {
-      "A": "To continue delivering low-voltage maintenance shocks continuously",
-      "B": "Because the patient may relapse into cardiac arrest or a shockable rhythm",
-      "C": "To measure the patient's daily electrolyte balance",
-      "D": "To automatically transmit vital signs to the national health registry"
+      "A": "Cut the adhesive wires to prevent accidental shocks during transport",
+      "B": "Remove the pads immediately and wipe the skin with alcohol swabs",
+      "C": "Leave the pads attached to the patient's chest in case the arrest recurs",
+      "D": "Disconnect the cables and store the entire device back in the cabinet"
     },
-    "answer": "B",
-    "explanation": "Pads remain on because patients who achieve ROSC are at high risk of relapsing into cardiac arrest and needing rapid re-analysis. [learn more](GNS315_U4_T3#GNS315_U4_T3_h7)"
+    "answer": "C",
+    "explanation": "Leaving the pads attached allows for immediate rhythm monitoring and rapid re-analysis if the patient experiences another arrest. [learn more](GNS315_U4_T3#GNS315_U4_T3_h7)"
   },
   {
     "question_id": "GNS315_U4_T3_h7_q2",
     "heading_id": "GNS315_U4_T3_h7",
     "article_id": "GNS315_U4_T3",
     "topic_id": "GNS315_U4_T3",
-    "question": "What is the purpose of conducting a team debriefing session following a resuscitation event?",
+    "difficulty": "recall",
+    "question": "Which detail is most important to include during the handover of a resuscitated patient?",
     "options": {
-      "A": "To assign disciplinary blame if mistakes were made during CPR",
-      "B": "To discuss performance, identify areas for improvement, and support team wellbeing",
-      "C": "To complete billing and insurance paperwork for the hospital",
-      "D": "To test the battery life of the AED device"
+      "A": "Name of the bystander who initially dialed emergency services",
+      "B": "Total number of shocks delivered and the overall resuscitation timeline",
+      "C": "The exact brand name and serial number of the AED utilized",
+      "D": "Personal background history and occupation of the patient"
     },
     "answer": "B",
-    "explanation": "Debriefing allows the team to review their performance, learn from the event, and address psychological stress after a cardiac arrest. [learn more](GNS315_U4_T3#GNS315_U4_T3_h7)"
+    "explanation": "Advanced teams need to know the clinical interventions performed, including shock count and downtime, to guide ongoing management. [learn more](GNS315_U4_T3#GNS315_U4_T3_h7)"
   },
   {
     "question_id": "GNS315_U4_T3_h8_q1",
     "heading_id": "GNS315_U4_T3_h8",
     "article_id": "GNS315_U4_T3",
     "topic_id": "GNS315_U4_T3",
-    "question": "What is the primary indicator that an AED is functional during routine daily checks?",
+    "difficulty": "recall",
+    "question": "What is a primary responsibility of nursing staff regarding AED readiness?",
     "options": {
-      "A": "A continuous loud alarm sounding in the hallway",
-      "B": "A blinking status indicator light showing readiness",
-      "C": "The screen displaying the manufacturer's logo and software version",
-      "D": "A warm casing indicating the internal heater is working"
+      "A": "Recalibrate the voice prompt volume levels on a daily basis",
+      "B": "Conduct regular routine checks of battery expiry and pad integrity",
+      "C": "Manually test the internal high-voltage capacitor using a multimeter",
+      "D": "Replace the internal motherboard circuitry every six months"
     },
     "answer": "B",
-    "explanation": "A blinking green status indicator light typically signals that the AED has passed its self-test and is ready for use. [learn more](GNS315_U4_T3#GNS315_U4_T3_h8)"
+    "explanation": "Routine nursing checks ensure that consumables like pads and batteries are unexpired and the unit is ready for use. [learn more](GNS315_U4_T3#GNS315_U4_T3_h8)"
   },
   {
     "question_id": "GNS315_U4_T3_h8_q2",
     "heading_id": "GNS315_U4_T3_h8",
     "article_id": "GNS315_U4_T3",
     "topic_id": "GNS315_U4_T3",
-    "question": "Why must nurses regularly check the expiration dates on AED electrode pads?",
+    "difficulty": "understanding",
+    "question": "What indicates that an AED has passed its automated internal self-test?",
     "options": {
-      "A": "Expired pads expire because the conductive gel dries out, preventing proper shock delivery",
-      "B": "Expired pads will cause the AED to deliver an incorrect voltage level",
-      "C": "The adhesive glue becomes toxic to human skin over time",
-      "D": "Expired pads will trigger the fire alarm system in the hospital"
+      "A": "An automatic printout detailing system diagnostics",
+      "B": "A flashing green status indicator light or ready symbol",
+      "C": "A continuous audible alarm sounding every ten seconds",
+      "D": "The device power screen remaining permanently illuminated"
     },
-    "answer": "A",
-    "explanation": "Over time, the conductive gel on AED pads dries out, compromising adhesion and the ability to effectively deliver an electrical shock. [learn more](GNS315_U4_T3#GNS315_U4_T3_h8)"
+    "answer": "B",
+    "explanation": "A visual indicator, typically a blinking green light, confirms the AED has successfully passed its diagnostic self-test. [learn more](GNS315_U4_T3#GNS315_U4_T3_h8)"
   }
 ]

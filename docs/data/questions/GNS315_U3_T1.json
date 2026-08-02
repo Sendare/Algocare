@@ -4,239 +4,191 @@
     "heading_id": "GNS315_U3_T1_h1",
     "article_id": "GNS315_U3_T1",
     "topic_id": "GNS315_U3_T1",
-    "question": "What is the primary purpose of a triage system in an emergency department?",
+    "difficulty": "recall",
+    "question": "What is the primary purpose of the triage process in a healthcare setting?",
     "options": {
-      "A": "To collect financial information from patients",
-      "B": "To sort and prioritize patients based on clinical severity",
-      "C": "To discharge patients who have minor complaints",
-      "D": "To replace the need for physician consultations"
+      "A": "Registering demographic data for hospital administrative records",
+      "B": "Prioritizing patients based on clinical urgency and resource availability",
+      "C": "Discharging stable patients to free up beds for incoming admissions",
+      "D": "Billing patients accurately according to the severity of their diagnosis"
     },
     "answer": "B",
-    "explanation": "Triage involves the systematic sorting and prioritization of patients based on their condition severity to ensure critical cases get immediate care. [learn more](GNS315_U3_T1#GNS315_U3_T1_h1)"
+    "explanation": "Triage is fundamentally designed to sort and prioritize individuals so that those with the most critical, life-threatening conditions receive immediate medical attention. [learn more](GNS315_U3_T1#GNS315_U3_T1_h1)"
   },
   {
     "question_id": "GNS315_U3_T1_h1_q2",
     "heading_id": "GNS315_U3_T1_h1",
     "article_id": "GNS315_U3_T1",
     "topic_id": "GNS315_U3_T1",
-    "question": "Which of the following best describes triage?",
+    "difficulty": "understanding",
+    "question": "Why is triage particularly vital in busy emergency departments experiencing overcrowding?",
     "options": {
-      "A": "A single static event performed upon hospital entry",
-      "B": "A continuous, dynamic process requiring ongoing re-evaluation",
-      "C": "A nursing procedure restricted only to surgical units",
-      "D": "A method used exclusively during mass casualty incidents"
+      "A": "It completely prevents any waiting time for individuals with minor injuries",
+      "B": "It eliminates the need for detailed medical documentation by physicians",
+      "C": "It ensures patients with hidden instabilities are identified before they deteriorate",
+      "D": "It guarantees that surgical theatres remain vacant for major trauma cases"
     },
-    "answer": "B",
-    "explanation": "Triage is a continuous process because a patient's condition can change while waiting, requiring ongoing assessment. [learn more](GNS315_U3_T1#GNS315_U3_T1_h1)"
+    "answer": "C",
+    "explanation": "Overcrowded waiting rooms present a major safety risk; systematic sorting catches deteriorating patients who might otherwise be overlooked among a large crowd. [learn more](GNS315_U3_T1#GNS315_U3_T1_h1)"
   },
   {
     "question_id": "GNS315_U3_T1_h2_q1",
     "heading_id": "GNS315_U3_T1_h2",
     "article_id": "GNS315_U3_T1",
     "topic_id": "GNS315_U3_T1",
-    "question": "Where did the fundamental concepts of modern triage originate?",
+    "difficulty": "understanding",
+    "question": "How does disaster triage differ fundamentally from routine emergency department triage?",
     "options": {
-      "A": "Pediatric outpatient clinics",
-      "B": "Military battlefield medicine",
-      "C": "Surgical operating theatres",
-      "D": "Community health centers"
+      "A": "It focuses on maximizing survival for the largest group rather than treating every individual equally",
+      "B": "It gives absolute priority to patients with the most severe, irreversible injuries",
+      "C": "It relies entirely on advanced laboratory investigations before making any categorization decision",
+      "D": "It permits family members to determine the priority level of injured victims"
     },
-    "answer": "B",
-    "explanation": "Triage originated in military medicine where surgeons needed to rapidly sort wounded soldiers based on survival and treatment urgency. [learn more](GNS315_U3_T1#GNS315_U3_T1_h2)"
+    "answer": "A",
+    "explanation": "During mass casualty events, resource scarcity forces a shift from individual-centered care to population-centered care, prioritizing those most likely to survive with minimal intervention. [learn more](GNS315_U3_T1#GNS315_U3_T1_h2)"
   },
   {
     "question_id": "GNS315_U3_T1_h2_q2",
     "heading_id": "GNS315_U3_T1_h2",
     "article_id": "GNS315_U3_T1",
     "topic_id": "GNS315_U3_T1",
-    "question": "Why did civilian emergency departments transition away from informal sorting methods?",
+    "difficulty": "recall",
+    "question": "Which objective is considered a core principle of effective triage operations?",
     "options": {
-      "A": "To increase administrative paperwork",
-      "B": "To reduce subjectivity and improve patient safety",
-      "C": "To eliminate the need for emergency nurses",
-      "D": "To slow down patient processing times"
+      "A": "Guaranteeing complete hospital admission for every presenting case",
+      "B": "Eliminating all waiting times across all clinical severity levels",
+      "C": "Ensuring rapid initial assessment and objective categorization",
+      "D": "Providing immediate surgical intervention at the registration desk"
     },
-    "answer": "B",
-    "explanation": "Standardized scales were introduced to replace subjective guesswork with objective criteria, thereby improving overall patient safety. [learn more](GNS315_U3_T1#GNS315_U3_T1_h2)"
+    "answer": "C",
+    "explanation": "Triage must be fast and objective, utilizing standardized criteria to categorize patients accurately without unnecessary delays. [learn more](GNS315_U3_T1#GNS315_U3_T1_h2)"
   },
   {
     "question_id": "GNS315_U3_T1_h3_q1",
     "heading_id": "GNS315_U3_T1_h3",
     "article_id": "GNS315_U3_T1",
     "topic_id": "GNS315_U3_T1",
-    "question": "What is the foremost objective of triage?",
+    "difficulty": "recall",
+    "question": "What does the START triage protocol utilize to categorize victims during a mass casualty incident?",
     "options": {
-      "A": "Rapid identification of high-acuity patients requiring life-saving interventions",
-      "B": "Minimizing the number of patients admitted to the hospital",
-      "C": "Ensuring all patients are seen within exactly ten minutes",
-      "D": "Reducing the workload of attending physicians"
+      "A": "Respiration, perfusion, and mental status",
+      "B": "Body mass index and past surgical history",
+      "C": "Complete blood count and serum electrolytes",
+      "D": "Insurance status and employment history"
     },
     "answer": "A",
-    "explanation": "The primary objective of triage is preserving life by quickly identifying and treating patients with high-acuity, life-threatening conditions. [learn more](GNS315_U3_T1#GNS315_U3_T1_h3)"
+    "explanation": "The Simple Triage and Rapid Treatment (START) method evaluates three specific physiological indicators to quickly sort disaster victims into color-coded categories. [learn more](GNS315_U3_T1#GNS315_U3_T1_h3)"
   },
   {
     "question_id": "GNS315_U3_T1_h3_q2",
     "heading_id": "GNS315_U3_T1_h3",
     "article_id": "GNS315_U3_T1",
     "topic_id": "GNS315_U3_T1",
-    "question": "How do triage principles assist in resource-constrained healthcare environments?",
+    "difficulty": "understanding",
+    "question": "Why are physiological scoring systems like the South African Triage Scale favored in many African clinical settings?",
     "options": {
-      "A": "By completely eliminating waiting times for non-urgent cases",
-      "B": "By ensuring equipment and staff time are utilized for maximum clinical benefit",
-      "C": "By restricting hospital entry to only surgical patients",
-      "D": "By shifting all clinical assessments to administrative staff"
+      "A": "They automatically schedule surgical procedures without physician approval",
+      "B": "They focus exclusively on administrative billing categories",
+      "C": "They rely on objective vital signs rather than expensive diagnostic equipment",
+      "D": "They eliminate the need for any nursing staff involvement in the emergency unit"
     },
-    "answer": "B",
-    "explanation": "Triage optimizes resource allocation so that available staff and equipment are directed where they provide the greatest clinical benefit. [learn more](GNS315_U3_T1#GNS315_U3_T1_h3)"
+    "answer": "C",
+    "explanation": "Physiological scales use accessible markers like pulse, breathing rate, and mental status, making them highly effective in resource-constrained environments. [learn more](GNS315_U3_T1#GNS315_U3_T1_h3)"
   },
   {
     "question_id": "GNS315_U3_T1_h4_q1",
     "heading_id": "GNS315_U3_T1_h4",
     "article_id": "GNS315_U3_T1",
     "topic_id": "GNS315_U3_T1",
-    "question": "What is the primary focus of routine emergency department triage?",
+    "difficulty": "recall",
+    "question": "What is a primary clinical responsibility of the triage nurse upon a patient's arrival?",
     "options": {
-      "A": "Managing mass casualty incidents with scarce resources",
-      "B": "Prioritizing individual patients relative to one another based on clinical urgency",
-      "C": "Providing immediate palliative care to all arriving visitors",
-      "D": "Fulfilling administrative quotas for hospital admissions"
+      "A": "Ordering all inpatient room assignments for the entire hospital",
+      "B": "Performing a rapid primary survey and assigning an urgency category",
+      "C": "Completing comprehensive financial discharge summaries",
+      "D": "Performing definitive surgical procedures in the emergency bay"
     },
     "answer": "B",
-    "explanation": "Routine triage focuses on evaluating and prioritizing individual patients based on clinical urgency during normal day-to-day operations. [learn more](GNS315_U3_T1#GNS315_U3_T1_h4)"
+    "explanation": "The core duty of the triage nurse is to quickly evaluate the patient's presenting condition and assign an appropriate triage category to guide subsequent care. [learn more](GNS315_U3_T1#GNS315_U3_T1_h4)"
   },
   {
     "question_id": "GNS315_U3_T1_h4_q2",
     "heading_id": "GNS315_U3_T1_h4",
     "article_id": "GNS315_U3_T1",
     "topic_id": "GNS315_U3_T1",
-    "question": "How does disaster triage differ fundamentally from routine triage?",
+    "difficulty": "understanding",
+    "question": "Why are strong de-escalation and communication skills essential for a triage nurse?",
     "options": {
-      "A": "It focuses on doing the greatest good for the greatest number of survivors under resource scarcity.",
-      "B": "It requires detailed laboratory investigations for every casualty.",
-      "C": "It is exclusively performed by attending physicians.",
-      "D": "It eliminates the need for any physical assessment of the victims."
+      "A": "They replace the need for taking vital signs during patient assessment",
+      "B": "They ensure that administrative billing is completed without error",
+      "C": "They allow the nurse to bypass institutional hospital bylaws safely",
+      "D": "They help manage anxious relatives and tense waiting room environments"
     },
-    "answer": "A",
-    "explanation": "Disaster triage shifts the goal from individual optimization to achieving the greatest good for the greatest number when resources are overwhelmed. [learn more](GNS315_U3_T1#GNS315_U3_T1_h4)"
+    "answer": "D",
+    "explanation": "Emergency settings are often high-stress environments where clear communication and de-escalation prevent conflict with patients and families waiting for care. [learn more](GNS315_U3_T1#GNS315_U3_T1_h4)"
   },
   {
     "question_id": "GNS315_U3_T1_h5_q1",
     "heading_id": "GNS315_U3_T1_h5",
     "article_id": "GNS315_U3_T1",
     "topic_id": "GNS315_U3_T1",
-    "question": "How many levels are typically featured in contemporary standardized triage scales like ESI and CTAS?",
+    "difficulty": "understanding",
+    "question": "What clinical pitfall occurs when a nurse focuses on an obvious minor injury while missing a more severe, underlying condition?",
     "options": {
-      "A": "Three levels",
-      "B": "Four levels",
-      "C": "Five levels",
-      "D": "Seven levels"
+      "A": "Physiological scoring",
+      "B": "Anchoring bias",
+      "C": "Premature closure",
+      "D": "Routine categorization"
     },
     "answer": "C",
-    "explanation": "Contemporary scales like the ESI and CTAS use a 5-level categorization protocol ranging from resuscitation to non-urgent care. [learn more](GNS315_U3_T1#GNS315_U3_T1_h5)"
+    "explanation": "Premature closure happens when an evaluator stops searching for alternative diagnoses too early after spotting an obvious, superficial symptom. [learn more](GNS315_U3_T1#GNS315_U3_T1_h5)"
   },
   {
     "question_id": "GNS315_U3_T1_h5_q2",
     "heading_id": "GNS315_U3_T1_h5",
     "article_id": "GNS315_U3_T1",
     "topic_id": "GNS315_U3_T1",
-    "question": "Which triage category is assigned to a patient presenting with an immediate, life-threatening condition such as cardiac arrest?",
+    "difficulty": "recall",
+    "question": "Which systematic approach is commonly applied during rapid triage evaluation to check vital physiological functions?",
     "options": {
-      "A": "Level 1 (Resuscitation)",
-      "B": "Level 3 (Urgent)",
-      "C": "Level 4 (Semi-urgent)",
-      "D": "Level 5 (Non-urgent)"
+      "A": "GORDON functional health pattern",
+      "B": "SOAP note method",
+      "C": "NANDA diagnostic framework",
+      "D": "ABCDE approach"
     },
-    "answer": "A",
-    "explanation": "Level 1 is reserved for resuscitation cases involving immediate threats to life that require instant intervention. [learn more](GNS315_U3_T1#GNS315_U3_T1_h5)"
+    "answer": "D",
+    "explanation": "The ABCDE (Airway, Breathing, Circulation, Disability, Exposure) framework is the universal standard for rapidly identifying life threats during initial assessment. [learn more](GNS315_U3_T1#GNS315_U3_T1_h5)"
   },
   {
     "question_id": "GNS315_U3_T1_h6_q1",
     "heading_id": "GNS315_U3_T1_h6",
     "article_id": "GNS315_U3_T1",
     "topic_id": "GNS315_U3_T1",
-    "question": "What is a primary responsibility of the triage nurse in the emergency department?",
+    "difficulty": "understanding",
+    "question": "Which ethical principle primarily guides the fair allocation of scarce medical resources during triage?",
     "options": {
-      "A": "Performing definitive surgical procedures independently",
-      "B": "Conducting rapid patient assessment and accurate categorization",
-      "C": "Handling all hospital financial transactions and billing",
-      "D": "Discharging patients without medical consultation"
+      "A": "Absolute confidentiality",
+      "B": "Paternalistic beneficence",
+      "C": "Distributive justice",
+      "D": "Informed autonomy"
     },
-    "answer": "B",
-    "explanation": "The triage nurse is primarily responsible for rapidly assessing arriving patients and accurately categorizing their clinical acuity. [learn more](GNS315_U3_T1#GNS315_U3_T1_h6)"
+    "answer": "C",
+    "explanation": "Distributive justice concerns the fair and equitable distribution of healthcare resources among members of a population, especially when supplies are limited. [learn more](GNS315_U3_T1#GNS315_U3_T1_h6)"
   },
   {
     "question_id": "GNS315_U3_T1_h6_q2",
     "heading_id": "GNS315_U3_T1_h6",
     "article_id": "GNS315_U3_T1",
     "topic_id": "GNS315_U3_T1",
-    "question": "Why are strong communication and de-escalation skills essential for a triage nurse?",
+    "difficulty": "recall",
+    "question": "What legal implication is established the moment a patient undergoes triage assessment in a facility?",
     "options": {
-      "A": "To perform advanced laboratory analyses at the desk",
-      "B": "To manage anxious relatives, control crowd flow, and handle difficult behaviors safely",
-      "C": "To replace the need for written medical documentation",
-      "D": "To diagnose psychiatric disorders definitively"
-    },
-    "answer": "B",
-    "explanation": "Triage nurses interact with stressed patients and families, requiring strong interpersonal skills to manage crowds and de-escalate tension. [learn more](GNS315_U3_T1#GNS315_U3_T1_h6)"
-  },
-  {
-    "question_id": "GNS315_U3_T1_h7_q1",
-    "heading_id": "GNS315_U3_T1_h7",
-    "article_id": "GNS315_U3_T1",
-    "topic_id": "GNS315_U3_T1",
-    "question": "Approximately how long does an initial triage assessment typically last in a busy emergency department?",
-    "options": {
-      "A": "Two to five minutes",
-      "B": "Thirty to forty-five minutes",
-      "C": "One to two hours",
-      "D": "Entire duration of the hospital stay"
+      "A": "A duty of care is established between the healthcare institution and the patient",
+      "B": "The patient automatically forfeits the right to refuse medical treatment",
+      "C": "All financial charges for hospitalization are immediately waived",
+      "D": "The attending physician assumes total liability for prior community care"
     },
     "answer": "A",
-    "explanation": "The initial triage encounter is rapid, usually lasting between two to five minutes to quickly sort and prioritize the patient. [learn more](GNS315_U3_T1#GNS315_U3_T1_h7)"
-  },
-  {
-    "question_id": "GNS315_U3_T1_h7_q2",
-    "heading_id": "GNS315_U3_T1_h7",
-    "article_id": "GNS315_U3_T1",
-    "topic_id": "GNS315_U3_T1",
-    "question": "Which of the following elements is essential in substantiating clinical categorization during triage?",
-    "options": {
-      "A": "Patient's employment history",
-      "B": "Objective vital signs and primary survey findings",
-      "C": "Previous year's tax returns",
-      "D": "Insurance policy provider details"
-    },
-    "answer": "B",
-    "explanation": "Objective vital signs and primary survey findings (ABCDE) are critical indicators used alongside subjective data to assign the correct triage level. [learn more](GNS315_U3_T1#GNS315_U3_T1_h7)"
-  },
-  {
-    "question_id": "GNS315_U3_T1_h8_q1",
-    "heading_id": "GNS315_U3_T1_h8",
-    "article_id": "GNS315_U3_T1",
-    "topic_id": "GNS315_U3_T1",
-    "question": "Which ethical principle ensures that patients are triaged and treated strictly based on clinical need rather than social status?",
-    "options": {
-      "A": "Autonomy",
-      "B": "Justice",
-      "C": "Veracity",
-      "D": "Paternalism"
-    },
-    "answer": "B",
-    "explanation": "The principle of justice ensures fair and equitable treatment based strictly on clinical need, avoiding discrimination based on wealth or status. [learn more](GNS315_U3_T1#GNS315_U3_T1_h8)"
-  },
-  {
-    "question_id": "GNS315_U3_T1_h8_q2",
-    "heading_id": "GNS315_U3_T1_h8",
-    "article_id": "GNS315_U3_T1",
-    "topic_id": "GNS315_U3_T1",
-    "question": "What is the primary legal significance of thorough documentation during the triage process?",
-    "options": {
-      "A": "It replaces the need for verbal communication with physicians.",
-      "B": "It serves as vital legal protection demonstrating that the standard of care was met.",
-      "C": "It guarantees complete financial reimbursement from health insurers.",
-      "D": "It eliminates all risks of patient deterioration in the waiting room."
-    },
-    "answer": "B",
-    "explanation": "Accurate documentation of assessment findings, times, and categories provides crucial legal protection by proving the nurse adhered to professional standards. [learn more](GNS315_U3_T1#GNS315_U3_T1_h8)"
+    "explanation": "Assessing a patient initiates a formal legal relationship, obligating the facility to provide appropriate monitoring and treatment according to established standards. [learn more](GNS315_U3_T1#GNS315_U3_T1_h6)"
   }
 ]
