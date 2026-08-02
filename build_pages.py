@@ -1,4 +1,5 @@
 import json
+import random
 import re
 import shutil
 import time
@@ -45,6 +46,65 @@ def write_html(path, html):
     Path(path).parent.mkdir(parents=True, exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
         f.write(html)
+
+
+def _inline_md(text):
+    return re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", text)
+
+
+def markdown_to_html(text):
+    """Converts the limited markdown the AI is instructed to use (bold,
+    numbered/bulleted lists, simple tables) into real HTML. Anything else
+    is treated as plain prose and wrapped in <p>."""
+    lines = text.strip().split("\n")
+    html_parts = []
+    i = 0
+    while i < len(lines):
+        line = lines[i].strip()
+        if not line:
+            i += 1
+            continue
+        if re.match(r"^\d+\.\s+", line):
+            items = []
+            while i < len(lines) and re.match(r"^\d+\.\s+", lines[i].strip()):
+                item_text = re.sub(r"^\d+\.\s+", "", lines[i].strip())
+                items.append(f"<li>{_inline_md(item_text)}</li>")
+                i += 1
+            html_parts.append("<ol>" + "".join(items) + "</ol>")
+            continue
+        if re.match(r"^[-*]\s+", line):
+            items = []
+            while i < len(lines) and re.match(r"^[-*]\s+", lines[i].strip()):
+                item_text = re.sub(r"^[-*]\s+", "", lines[i].strip())
+                items.append(f"<li>{_inline_md(item_text)}</li>")
+                i += 1
+            html_parts.append("<ul>" + "".join(items) + "</ul>")
+            continue
+        if line.startswith("|"):
+            table_lines = []
+            while i < len(lines) and lines[i].strip().startswith("|"):
+                table_lines.append(lines[i].strip())
+                i += 1
+            rows = [
+                [c.strip() for c in l.strip("|").split("|")]
+                for l in table_lines
+                if not re.match(r"^[\s|:-]+$", l)
+            ]
+            if rows:
+                head, *body = rows
+                thead = "<tr>" + "".join(f"<th>{_inline_md(c)}</th>" for c in head) + "</tr>"
+                tbody = "".join(
+                    "<tr>" + "".join(f"<td>{_inline_md(c)}</td>" for c in r) + "</tr>"
+                    for r in body
+                )
+                html_parts.append(f"<table>{thead}{tbody}</table>")
+            continue
+        para_lines = []
+        while i < len(lines) and lines[i].strip() and not re.match(r"^(\d+\.\s+|[-*]\s+|\|)", lines[i].strip()):
+            para_lines.append(lines[i].strip())
+            i += 1
+        html_parts.append(f"<p>{_inline_md(' '.join(para_lines))}</p>")
+    return "\n".join(html_parts)
 
 
 def build_context_lookup(curriculum):
@@ -117,7 +177,7 @@ def breadcrumb(rel, crumbs):
 
 def render_article_page(article, ctx):
     headings_html = "".join(
-        f'<div class="article-heading" id="{h["heading_id"]}"><h2>{h["title"]}</h2><p>{h["content"]}</p></div>'
+        f'<div class="article-heading" id="{h["heading_id"]}"><h2>{h["title"]}</h2>{markdown_to_html(h["content"])}</div>'
         for h in sorted(article["headings"], key=lambda x: x["order"])
     )
     crumbs = breadcrumb("../../", [
@@ -235,6 +295,8 @@ def build_real_feel_tests(course_pools):
     while len(pool) >= question_count:
         selected = sample_without_replacement(pool, question_count)
         selected_ids = {q["question_id"] for q in selected}
+
+        random.shuffle(selected)  # guarantee no residual course/unit clustering in presentation order
 
         rf_state["tests_built"] += 1
         test_number = rf_state["tests_built"]
@@ -393,4 +455,3 @@ def run():
 
 if __name__ == "__main__":
     run()
-		
