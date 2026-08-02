@@ -1,899 +1,227 @@
 [
   {
-    "question_id": "GNS315_U2_T3_h1_q1",
-    "heading_id": "GNS315_U2_T3_h1",
-    "article_id": "GNS315_U2_T3",
-    "topic_id": "GNS315_U2_T3",
+    "question_id": "GNS315_U1_T1_h1_q1",
+    "heading_id": "GNS315_U1_T1_h1",
+    "article_id": "GNS315_U1_T1",
+    "topic_id": "GNS315_U1_T1",
     "difficulty": "recall",
-    "question": "An acute myocardial infarction is classified as which type of emergency?",
+    "question": "What is the primary goal of emergency nursing care?",
     "options": {
-      "A": "Medical emergency",
-      "B": "Environmental emergency",
-      "C": "Traumatic emergency",
-      "D": "Iatrogenic emergency"
+      "A": "Long-term rehabilitation planning",
+      "B": "Routine diagnostic testing and screening",
+      "C": "Immediate stabilization and prevention of secondary injury",
+      "D": "Terminal illness counseling and palliative support"
     },
-    "answer": "A",
-    "explanation": "Medical emergencies originate from internal disease processes and systemic pathophysiological failures rather than external physical forces. [learn more](GNS315_U2_T3#GNS315_U2_T3_h1)"
+    "answer": "C",
+    "explanation": "Emergency care focuses on acute stabilization and stopping further harm before moving the patient to definitive treatment areas. [learn more](GNS315_U1_T1#GNS315_U1_T1_h1)"
   },
   {
-    "question_id": "GNS315_U2_T3_h1_q2",
-    "heading_id": "GNS315_U2_T3_h1",
-    "article_id": "GNS315_U2_T3",
-    "topic_id": "GNS315_U2_T3",
+    "question_id": "GNS315_U1_T1_h1_q2",
+    "heading_id": "GNS315_U1_T1_h1",
+    "article_id": "GNS315_U1_T1",
+    "topic_id": "GNS315_U1_T1",
     "difficulty": "understanding",
-    "question": "What is the primary difference in management focus between traumatic and medical emergencies?",
+    "question": "Why is the emergency care environment considered unique compared to general hospital wards?",
     "options": {
-      "A": "Medical emergencies never require pharmacological intervention",
-      "B": "Traumatic emergencies require hemorrhage control and structural assessment",
-      "C": "Medical emergencies are caused entirely by external physical forces",
-      "D": "Traumatic emergencies exclusively occur in hospital settings"
+      "A": "It deals exclusively with chronic, predictable medical conditions.",
+      "B": "It eliminates the need for physical assessments.",
+      "C": "It requires rapid decision-making under intense time pressure and uncertainty.",
+      "D": "It relies entirely on delayed, scheduled interventions."
+    },
+    "answer": "C",
+    "explanation": "The unpredictable influx of acute cases and tight time constraints define the chaotic nature of emergency nursing. [learn more](GNS315_U1_T1#GNS315_U1_T1_h1)"
+  },
+  {
+    "question_id": "GNS315_U1_T1_h2_q1",
+    "heading_id": "GNS315_U1_T1_h2",
+    "article_id": "GNS315_U1_T1",
+    "topic_id": "GNS315_U1_T1",
+    "difficulty": "recall",
+    "question": "Which of the following is NOT a pillar of the philosophy of emergency care?",
+    "options": {
+      "A": "Efficient patient flow",
+      "B": "Elective scheduling",
+      "C": "Universal access",
+      "D": "Rapid intervention"
     },
     "answer": "B",
-    "explanation": "External physical forces in trauma necessitate prioritizing physical stability, bleeding cessation, and structural injury identification. [learn more](GNS315_U2_T3#GNS315_U2_T3_h1)"
+    "explanation": "Emergency departments handle unscheduled, acute crises rather than elective, pre-planned appointments. [learn more](GNS315_U1_T1#GNS315_U1_T1_h2)"
   },
   {
-    "question_id": "GNS315_U2_T3_h2_q1",
-    "heading_id": "GNS315_U2_T3_h2",
-    "article_id": "GNS315_U2_T3",
-    "topic_id": "GNS315_U2_T3",
-    "difficulty": "recall",
-    "question": "A core body temperature exceeding 40 degrees Celsius accompanied by altered mental status is characteristic of which environmental crisis?",
+    "question_id": "GNS315_U1_T1_h2_q2",
+    "heading_id": "GNS315_U1_T1_h2",
+    "article_id": "GNS315_U1_T1",
+    "topic_id": "GNS315_U1_T1",
+    "difficulty": "understanding",
+    "question": "How does the principle of universal access manifest in the emergency department?",
     "options": {
-      "A": "Hypothermia",
-      "B": "Heat exhaustion",
-      "C": "Dehydration",
-      "D": "Heatstroke"
+      "A": "Admitting only patients who have pre-booked appointments with specialists",
+      "B": "Refusing care to individuals who arrive without police clearance",
+      "C": "Treating patients based strictly on their health insurance coverage",
+      "D": "Providing immediate medical evaluation to anyone presenting with a crisis regardless of payment"
     },
     "answer": "D",
-    "explanation": "Heatstroke is a severe medical emergency defined by a dangerous rise in core body temperature coupled with neurological symptoms. [learn more](GNS315_U2_T3#GNS315_U2_T3_h2)"
+    "explanation": "Emergency departments are legally and ethically mandated to assess and stabilize all emergency presentations without upfront financial barriers. [learn more](GNS315_U1_T1#GNS315_U1_T1_h2)"
   },
   {
-    "question_id": "GNS315_U2_T3_h2_q2",
-    "heading_id": "GNS315_U2_T3_h2",
-    "article_id": "GNS315_U2_T3",
-    "topic_id": "GNS315_U2_T3",
-    "difficulty": "understanding",
-    "question": "Why do flooding events frequently lead to sharp increases in waterborne diseases?",
-    "options": {
-      "A": "Floods directly deactivate oral rehydration therapy stocks",
-      "B": "Rainwater alters the chemical pH of human bloodstreams",
-      "C": "Floodwaters easily contaminate public and private drinking water sources",
-      "D": "Standing water causes immediate hypothermia in affected populations"
-    },
-    "answer": "C",
-    "explanation": "Overflowing sewage systems and surface run-off mix with clean water supplies during floods, spreading pathogens rapidly. [learn more](GNS315_U2_T3#GNS315_U2_T3_h2)"
-  },
-  {
-    "question_id": "GNS315_U2_T3_h3_q1",
-    "heading_id": "GNS315_U2_T3_h3",
-    "article_id": "GNS315_U2_T3",
-    "topic_id": "GNS315_U2_T3",
+    "question_id": "GNS315_U1_T1_h3_q1",
+    "heading_id": "GNS315_U1_T1_h3",
+    "article_id": "GNS315_U1_T1",
+    "topic_id": "GNS315_U1_T1",
     "difficulty": "recall",
-    "question": "What is the single most common man-made cause of severe polytrauma in Nigeria?",
+    "question": "What does the term 'Golden Hour' refer to in emergency trauma care?",
     "options": {
-      "A": "Industrial chemical spills",
-      "B": "Structural building collapses",
-      "C": "Road traffic crashes",
-      "D": "Electrical power surges"
+      "A": "The time it takes for a patient to be discharged from the emergency unit",
+      "B": "The duration of a standard nursing shift in the emergency department",
+      "C": "The first sixty minutes after injury where intervention yields the highest survival rate",
+      "D": "The period of time families must wait before visiting a trauma patient"
     },
     "answer": "C",
-    "explanation": "High rates of vehicular transit incidents make road traffic crashes a primary driver of traumatic emergency admissions. [learn more](GNS315_U2_T3#GNS315_U2_T3_h3)"
+    "explanation": "Swift medical and surgical action within this vital sixty-minute window drastically reduces trauma mortality. [learn more](GNS315_U1_T1#GNS315_U1_T1_h3)"
   },
   {
-    "question_id": "GNS315_U2_T3_h3_q2",
-    "heading_id": "GNS315_U2_T3_h3",
-    "article_id": "GNS315_U2_T3",
-    "topic_id": "GNS315_U2_T3",
+    "question_id": "GNS315_U1_T1_h3_q2",
+    "heading_id": "GNS315_U1_T1_h3",
+    "article_id": "GNS315_U1_T1",
+    "topic_id": "GNS315_U1_T1",
     "difficulty": "understanding",
-    "question": "Why is inducing vomiting contraindicated when a child accidentally swallows kerosene?",
+    "question": "A patient arrives at the emergency department with sudden, severe chest pain starting twenty minutes ago. How would you classify this onset?",
     "options": {
-      "A": "It immediately precipitates acute renal failure",
-      "B": "It lowers the patient's core body temperature dangerously",
-      "C": "It causes further chemical damage to the esophageal mucosa",
-      "D": "It neutralizes the systemic absorption of the hydrocarbon"
+      "A": "Terminal",
+      "B": "Elective",
+      "C": "Acute",
+      "D": "Chronic"
     },
     "answer": "C",
-    "explanation": "Passing corrosive or hydrocarbon agents back up the esophagus exposes delicate tissues to a second round of chemical burns. [learn more](GNS315_U2_T3#GNS315_U2_T3_h3)"
+    "explanation": "An acute condition features sudden onset and intense symptoms requiring immediate attention. [learn more](GNS315_U1_T1#GNS315_U1_T1_h3)"
   },
   {
-    "question_id": "GNS315_U2_T3_h4_q1",
-    "heading_id": "GNS315_U2_T3_h4",
-    "article_id": "GNS315_U2_T3",
-    "topic_id": "GNS315_U2_T3",
+    "question_id": "GNS315_U1_T1_h4_q1",
+    "heading_id": "GNS315_U1_T1_h4",
+    "article_id": "GNS315_U1_T1",
+    "topic_id": "GNS315_U1_T1",
     "difficulty": "recall",
-    "question": "An insufficient supply of oxygen to body tissues resulting from respiratory failure is known as what?",
+    "question": "What is the primary purpose of emergency triage?",
     "options": {
-      "A": "Hypovolemia",
-      "B": "Hyperglycemia",
-      "C": "Hypoxia",
-      "D": "Hyperkalemia"
+      "A": "To assign patients to specific medical doctors randomly",
+      "B": "To immediately discharge patients with minor ailments",
+      "C": "To prioritize patients based on clinical urgency and severity",
+      "D": "To collect insurance and billing information from relatives"
     },
     "answer": "C",
-    "explanation": "Hypoxia is the pathological state wherein tissues lack adequate oxygenation to sustain normal cellular function. [learn more](GNS315_U2_T3#GNS315_U2_T3_h4)"
+    "explanation": "Triage sorts incoming patients so those with life-threatening conditions receive immediate care. [learn more](GNS315_U1_T1#GNS315_U1_T1_h4)"
   },
   {
-    "question_id": "GNS315_U2_T3_h4_q2",
-    "heading_id": "GNS315_U2_T3_h4",
-    "article_id": "GNS315_U2_T3",
-    "topic_id": "GNS315_U2_T3",
-    "difficulty": "understanding",
-    "question": "What is the primary danger associated with severe hyperkalemia during an acute medical crisis?",
-    "options": {
-      "A": "It completely stops the production of red blood cells",
-      "B": "It destabilizes cardiac cell membranes and triggers lethal arrhythmias",
-      "C": "It causes immediate and irreversible pulmonary edema",
-      "D": "It induces profound peripheral vasoconstriction and hypertension"
-    },
-    "answer": "B",
-    "explanation": "Elevated extracellular potassium alters the resting membrane potential of heart muscle, putting the patient at high risk for cardiac arrest. [learn more](GNS315_U2_T3#GNS315_U2_T3_h4)"
-  },
-  {
-    "question_id": "GNS315_U2_T3_h5_q1",
-    "heading_id": "GNS315_U2_T3_h5",
-    "article_id": "GNS315_U2_T3",
-    "topic_id": "GNS315_U2_T3",
-    "difficulty": "recall",
-    "question": "Which group is particularly vulnerable to severe dehydration resulting from acute gastroenteritis?",
-    "options": {
-      "A": "Trained military personnel",
-      "B": "Young adult athletes",
-      "C": "Pediatric patients",
-      "D": "Middle-aged males"
-    },
-    "answer": "C",
-    "explanation": "Infants and young children have high body water turnover rates, making them rapidly susceptible to life-threatening fluid loss. [learn more](GNS315_U2_T3#GNS315_U2_T3_h5)"
-  },
-  {
-    "question_id": "GNS315_U2_T3_h5_q2",
-    "heading_id": "GNS315_U2_T3_h5",
-    "article_id": "GNS315_U2_T3",
-    "topic_id": "GNS315_U2_T3",
-    "difficulty": "understanding",
-    "question": "How does chronic poverty indirectly contribute to a higher incidence of acute medical emergencies?",
-    "options": {
-      "A": "It increases the biological half-life of all therapeutic drugs",
-      "B": "It permanently alters human hemoglobin structures to resist oxygen",
-      "C": "It prevents the body from mounting a normal inflammatory response",
-      "D": "It delays access to routine healthcare, letting chronic conditions deteriorate unchecked"
-    },
-    "answer": "D",
-    "explanation": "Financial and infrastructural barriers often prevent early diagnosis and management of conditions like high blood pressure, leading to sudden crises. [learn more](GNS315_U2_T3#GNS315_U2_T3_h5)"
-  },
-  {
-    "question_id": "GNS315_U2_T3_h6_q1",
-    "heading_id": "GNS315_U2_T3_h6",
-    "article_id": "GNS315_U2_T3",
-    "topic_id": "GNS315_U2_T3",
-    "difficulty": "recall",
-    "question": "In the standard emergency nursing assessment framework, what does the letter 'C' represent in the primary survey?",
-    "options": {
-      "A": "Circulation",
-      "B": "Capillary refill",
-      "C": "Cerebral function",
-      "D": "Cardiac output"
-    },
-    "answer": "A",
-    "explanation": "The primary survey prioritizes Airway, Breathing, and Circulation as the foundational triad of life support. [learn more](GNS315_U2_T3#GNS315_U2_T3_h6)"
-  },
-  {
-    "question_id": "GNS315_U2_T3_h6_q2",
-    "heading_id": "GNS315_U2_T3_h6",
-    "article_id": "GNS315_U2_T3",
-    "topic_id": "GNS315_U2_T3",
+    "question_id": "GNS315_U1_T1_h4_q2",
+    "heading_id": "GNS315_U1_T1_h4",
+    "article_id": "GNS315_U1_T1",
+    "topic_id": "GNS315_U1_T1",
     "difficulty": "application",
-    "question": "A patient presents to the emergency department with acute altered mental status. Which immediate bedside check is essential to rule out a common metabolic cause?",
+    "question": "A patient with severe respiratory distress arrives at the same time as a patient with a mild sprained ankle. According to triage principles, what should happen?",
     "options": {
-      "A": "Capillary blood glucose test",
-      "B": "Full 12-lead electrocardiogram",
-      "C": "Complete blood cell count",
-      "D": "Serum electrolyte panel"
-    },
-    "answer": "A",
-    "explanation": "Hypoglycemia is a rapid, life-threatening, and easily reversible cause of altered mental status that must be checked instantly. [learn more](GNS315_U2_T3#GNS315_U2_T3_h6)"
-  },
-  {
-    "question_id": "GNS315_U2_T3_h7_q1",
-    "heading_id": "GNS315_U2_T3_h7",
-    "article_id": "GNS315_U2_T3",
-    "topic_id": "GNS315_U2_T3",
-    "difficulty": "understanding",
-    "question": "What is the primary management risk if intravenous fluid boluses are mistakenly given to a patient in acute heart failure?",
-    "options": {
-      "A": "Sudden and permanent peripheral vasoconstriction",
-      "B": "Worsening pulmonary edema and respiratory failure",
-      "C": "Rapid onset of severe metabolic alkalosis",
-      "D": "Immediate development of profound hypoglycemia"
+      "A": "The patient with the sprained ankle should be seen first because it is easier to fix.",
+      "B": "The patient in respiratory distress must be prioritized for immediate resuscitation.",
+      "C": "The patients should draw lots to see who is seen first.",
+      "D": "Both patients should be treated together in the same bay."
     },
     "answer": "B",
-    "explanation": "Failing hearts cannot handle extra volume; adding fluids increases hydrostatic pressure, flooding the alveoli with fluid. [learn more](GNS315_U2_T3#GNS315_U2_T3_h7)"
+    "explanation": "Airway and breathing threats represent the highest acuity level and always supersede non-life-threatening injuries. [learn more](GNS315_U1_T1#GNS315_U1_T1_h4)"
   },
   {
-    "question_id": "GNS315_U2_T3_h7_q2",
-    "heading_id": "GNS315_U2_T3_h7",
-    "article_id": "GNS315_U2_T3",
-    "topic_id": "GNS315_U2_T3",
-    "difficulty": "application",
-    "question": "A patient arrives with signs of profound hemorrhagic shock from a deep laceration. Which nursing action is most critical?",
-    "options": {
-      "A": "Administering high-dose oral rehydration salt solution",
-      "B": "Initiating immediate chest compressions and artificial ventilation",
-      "C": "Securing large-bore intravenous access for volume replacement",
-      "D": "Placing the patient flat in a reverse Trendelenburg position"
-    },
-    "answer": "C",
-    "explanation": "Hemorrhagic shock requires rapid restoration of circulating blood volume to maintain tissue perfusion. [learn more](GNS315_U2_T3#GNS315_U2_T3_h7)"
-  },
-  {
-    "question_id": "GNS315_U2_T2_h1_q1",
-    "heading_id": "GNS315_U2_T2_h1",
-    "article_id": "GNS315_U2_T2",
-    "topic_id": "GNS315_U2_T2",
+    "question_id": "GNS315_U1_T1_h5_q1",
+    "heading_id": "GNS315_U1_T1_h5",
+    "article_id": "GNS315_U1_T1",
+    "topic_id": "GNS315_U1_T1",
     "difficulty": "recall",
-    "question": "What is the primary objective of triage in emergency nursing?",
+    "question": "What does the letter 'C' stand for in the primary survey ABCDE framework?",
     "options": {
-      "A": "To administer routine analgesia to every arriving patient",
-      "B": "To document complete biographical data prior to physical assessment",
-      "C": "To discharge ambulatory patients within thirty minutes of arrival",
-      "D": "To rapidly allocate care based on the severity of clinical instability"
-    },
-    "answer": "D",
-    "explanation": "Triage structures patient flow by identifying those whose lives are in immediate danger so critical care starts without delay. [learn more](GNS315_U2_T2#GNS315_U2_T2_h1)"
-  },
-  {
-    "question_id": "GNS315_U2_T2_h1_q2",
-    "heading_id": "GNS315_U2_T2_h1",
-    "article_id": "GNS315_U2_T2",
-    "topic_id": "GNS315_U2_T2",
-    "difficulty": "understanding",
-    "question": "Why must emergency nurses monitor subtle compensatory mechanisms in acutely ill patients?",
-    "options": {
-      "A": "Compensatory signs mask rapid progression toward sudden physiological decompensation",
-      "B": "Compensatory mechanisms eliminate the need for ongoing laboratory testing",
-      "C": "Early clinical indicators always point toward chronic rather than acute illness",
-      "D": "Vital signs remain entirely normal throughout all stages of severe hemorrhage"
-    },
-    "answer": "A",
-    "explanation": "The body maintains normal parameters through intense physiological adjustments until sudden, catastrophic collapse occurs if the underlying cause is untreated. [learn more](GNS315_U2_T2#GNS315_U2_T2_h1)"
-  },
-  {
-    "question_id": "GNS315_U2_T2_h2_q1",
-    "heading_id": "GNS315_U2_T2_h2",
-    "article_id": "GNS315_U2_T2",
-    "topic_id": "GNS315_U2_T2",
-    "difficulty": "recall",
-    "question": "Which component of the primary survey evaluates the Glasgow Coma Scale?",
-    "options": {
-      "A": "Disability",
-      "B": "Exposure",
-      "C": "Airway",
+      "A": "Confusion",
+      "B": "Cardiac",
+      "C": "Cough",
       "D": "Circulation"
     },
-    "answer": "A",
-    "explanation": "The disability step assesses neurological function, level of consciousness, and pupillary response using tools like AVPU or the Glasgow Coma Scale. [learn more](GNS315_U2_T2#GNS315_U2_T2_h2)"
+    "answer": "D",
+    "explanation": "C stands for circulation, which involves evaluating pulses, bleeding, and perfusion status. [learn more](GNS315_U1_T1#GNS315_U1_T1_h5)"
   },
   {
-    "question_id": "GNS315_U2_T2_h2_q2",
-    "heading_id": "GNS315_U2_T2_h2",
-    "article_id": "GNS315_U2_T2",
-    "topic_id": "GNS315_U2_T2",
+    "question_id": "GNS315_U1_T1_h5_q2",
+    "heading_id": "GNS315_U1_T1_h5",
+    "article_id": "GNS315_U1_T1",
+    "topic_id": "GNS315_U1_T1",
     "difficulty": "understanding",
-    "question": "Why is the ABCDE sequence performed in a strict, unvarying order during emergencies?",
+    "question": "During the primary survey, when should a nurse proceed from checking the Airway to checking Breathing?",
     "options": {
-      "A": "It ensures that diagnostic blood tests are ordered before physical examination",
-      "B": "It is an administrative guideline without direct physiological rationale",
-      "C": "Airway failure causes rapid brain death faster than isolated circulatory compromise",
-      "D": "Circulatory assessments require prior completion of full neurological scoring"
+      "A": "After ensuring the airway is clear and patent",
+      "B": "At the exact two-minute mark regardless of findings",
+      "C": "Only after the entire secondary survey is completed",
+      "D": "Only after the physician arrives at the bedside"
+    },
+    "answer": "A",
+    "explanation": "The ABCDE approach requires sequential steps; you fix what you find at each letter before advancing to the next. [learn more](GNS315_U1_T1#GNS315_U1_T1_h5)"
+  },
+  {
+    "question_id": "GNS315_U1_T1_h6_q1",
+    "heading_id": "GNS315_U1_T1_h6",
+    "article_id": "GNS315_U1_T1",
+    "topic_id": "GNS315_U1_T1",
+    "difficulty": "recall",
+    "question": "What does the 'M' in the AMPLE history mnemonic stand for?",
+    "options": {
+      "A": "Mobility",
+      "B": "Mental status",
+      "C": "Medications",
+      "D": "Muscle tone"
     },
     "answer": "C",
-    "explanation": "Addressing the airway first prevents immediate asphyxiation, as an uninterrupted oxygen supply is required before treating subsequent organ systems. [learn more](GNS315_U2_T2#GNS315_U2_T2_h2)"
+    "explanation": "M represents current medications, which helps identify potential drug interactions or underlying chronic disease management. [learn more](GNS315_U1_T1#GNS315_U1_T1_h6)"
   },
   {
-    "question_id": "GNS315_U2_T2_h3_q1",
-    "heading_id": "GNS315_U2_T2_h3",
-    "article_id": "GNS315_U2_T2",
-    "topic_id": "GNS315_U2_T2",
-    "difficulty": "recall",
-    "question": "What is a primary clinical indicator of inadequate tissue perfusion during a cardiovascular emergency?",
+    "question_id": "GNS315_U1_T1_h6_q2",
+    "heading_id": "GNS315_U1_T1_h6",
+    "article_id": "GNS315_U1_T1",
+    "topic_id": "GNS315_U1_T1",
+    "difficulty": "understanding",
+    "question": "When is the appropriate time to initiate the secondary survey?",
     "options": {
-      "A": "Elevated serum potassium",
-      "B": "Altered mental status",
-      "C": "Increased urine output",
-      "D": "Bilateral pedal edema"
+      "A": "After life-threatening conditions have been identified and managed in the primary survey",
+      "B": "Immediately upon arrival before checking the airway",
+      "C": "Before the patient even enters the emergency department doors",
+      "D": "Only after the patient has been transferred to the general medical ward"
     },
-    "answer": "B",
-    "explanation": "When blood pressure and cardiac output drop, cerebral hypoperfusion quickly manifests as confusion, lethargy, or unresponsiveness. [learn more](GNS315_U2_T2#GNS315_U2_T2_h3)"
+    "answer": "A",
+    "explanation": "The secondary survey is a detailed physical examination performed only after ABCDE stabilization is achieved. [learn more](GNS315_U1_T1#GNS315_U1_T1_h6)"
   },
   {
-    "question_id": "GNS315_U2_T2_h3_q2",
-    "heading_id": "GNS315_U2_T2_h3",
-    "article_id": "GNS315_U2_T2",
-    "topic_id": "GNS315_U2_T2",
-    "difficulty": "application",
-    "question": "A patient presents with sudden severe chest pain, diaphoresis, and a blood pressure of 80/50 mmHg. Which immediate action aligns with hemodynamic crisis management?",
+    "question_id": "GNS315_U1_T1_h7_q1",
+    "heading_id": "GNS315_U1_T1_h7",
+    "article_id": "GNS315_U1_T1",
+    "topic_id": "GNS315_U1_T1",
+    "difficulty": "recall",
+    "question": "What legal concept allows emergency nurses to treat an unconscious trauma patient without explicit verbal consent?",
     "options": {
-      "A": "Initiating passive range of motion exercises to improve venous return",
-      "B": "Administering oral antacids for suspected primary gastrointestinal reflux",
-      "C": "Discharging the patient with instructions to follow up at a general clinic",
-      "D": "Establishing intravenous access and preparing for emergent resuscitation"
+      "A": "Vicarious liability",
+      "B": "Informed waiver",
+      "C": "Expressed consent",
+      "D": "Implied consent"
     },
     "answer": "D",
-    "explanation": "Hypotension combined with cardiac chest pain indicates cardiogenic instability requiring immediate vascular access and critical care intervention. [learn more](GNS315_U2_T2#GNS315_U2_T2_h3)"
+    "explanation": "Implied consent operates on the legal assumption that an incapacitated person would want emergency life-saving interventions. [learn more](GNS315_U1_T1#GNS315_U1_T1_h7)"
   },
   {
-    "question_id": "GNS315_U2_T2_h4_q1",
-    "heading_id": "GNS315_U2_T2_h4",
-    "article_id": "GNS315_U2_T2",
-    "topic_id": "GNS315_U2_T2",
-    "difficulty": "recall",
-    "question": "Which physical finding is most characteristic of a tension pneumothorax?",
-    "options": {
-      "A": "Symmetrical bilateral chest wall expansion",
-      "B": "Bradycardia and elevated blood pressure",
-      "C": "Tracheal deviation away from the affected side",
-      "D": "Loud vesicular breath sounds across both lungs"
-    },
-    "answer": "C",
-    "explanation": "Increasing intrapleural pressure in a tension pneumothorax pushes mediastinal structures, causing the trachea to shift toward the unaffected side. [learn more](GNS315_U2_T2#GNS315_U2_T2_h4)"
-  },
-  {
-    "question_id": "GNS315_U2_T2_h4_q2",
-    "heading_id": "GNS315_U2_T2_h4",
-    "article_id": "GNS315_U2_T2",
-    "topic_id": "GNS315_U2_T2",
+    "question_id": "GNS315_U1_T1_h7_q2",
+    "heading_id": "GNS315_U1_T1_h7",
+    "article_id": "GNS315_U1_T1",
+    "topic_id": "GNS315_U1_T1",
     "difficulty": "understanding",
-    "question": "Why is a silent chest during an acute asthma exacerbation considered an ominous sign?",
+    "question": "How should an emergency nurse handle a gunshot victim brought to the facility without a police report?",
     "options": {
-      "A": "It indicates that bronchodilator therapy has completely resolved the bronchospasm",
-      "B": "Secretions have cleared from the major bronchi, improving air entry",
-      "C": "Air movement is so severely restricted that wheezing can no longer be generated",
-      "D": "The patient has transitioned from respiratory distress to normal ventilation"
-    },
-    "answer": "C",
-    "explanation": "A silent chest means airflow is virtually absent, signaling imminent respiratory arrest rather than clinical improvement. [learn more](GNS315_U2_T2#GNS315_U2_T2_h4)"
-  },
-  {
-    "question_id": "GNS315_U2_T2_h5_q1",
-    "heading_id": "GNS315_U2_T2_h5",
-    "article_id": "GNS315_U2_T2",
-    "topic_id": "GNS315_U2_T2",
-    "difficulty": "recall",
-    "question": "What is the initial bedside test required for any patient presenting with acute altered mental status?",
-    "options": {
-      "A": "Cerebrospinal fluid protein assay",
-      "B": "Complete blood cell count analysis",
-      "C": "Electrocardiogram rhythm strip",
-      "D": "Capillary blood glucose measurement"
+      "A": "Refuse treatment until police officers arrive with formal clearance.",
+      "B": "Delay all clinical care while waiting for administrative paperwork.",
+      "C": "Discharge the patient immediately to avoid legal complications.",
+      "D": "Prioritize immediate life-saving medical care and report to authorities afterward."
     },
     "answer": "D",
-    "explanation": "Hypoglycemia mimics many primary neurological emergencies and must be immediately identified and treated at the bedside. [learn more](GNS315_U2_T2#GNS315_U2_T2_h5)"
-  },
-  {
-    "question_id": "GNS315_U2_T2_h5_q2",
-    "heading_id": "GNS315_U2_T2_h5",
-    "article_id": "GNS315_U2_T2",
-    "topic_id": "GNS315_U2_T2",
-    "difficulty": "understanding",
-    "question": "What is the primary danger associated with prolonged status epilepticus?",
-    "options": {
-      "A": "Permanent neuronal injury caused by sustained metabolic exhaustion",
-      "B": "Immediate development of chronic peripheral neuropathy",
-      "C": "Rapid onset of severe iron deficiency anemia",
-      "D": "Sudden permanent paralysis of the upper extremities"
-    },
-    "answer": "A",
-    "explanation": "Continuous seizure activity deprives the brain of oxygen and glucose while increasing metabolic demand, leading to irreversible cellular death. [learn more](GNS315_U2_T2#GNS315_U2_T2_h5)"
-  },
-  {
-    "question_id": "GNS315_U2_T2_h6_q1",
-    "heading_id": "GNS315_U2_T2_h6",
-    "article_id": "GNS315_U2_T2",
-    "topic_id": "GNS315_U2_T2",
-    "difficulty": "recall",
-    "question": "Which type of shock is primarily caused by acute, massive internal or external blood loss?",
-    "options": {
-      "A": "Cardiogenic shock",
-      "B": "Anaphylactic shock",
-      "C": "Neurogenic shock",
-      "D": "Hypovolemic shock"
-    },
-    "answer": "D",
-    "explanation": "Hypovolemic shock occurs when intravascular volume drops significantly, failing to maintain adequate cardiac preload and tissue perfusion. [learn more](GNS315_U2_T2#GNS315_U2_T2_h6)"
-  },
-  {
-    "question_id": "GNS315_U2_T2_h6_q2",
-    "heading_id": "GNS315_U2_T2_h6",
-    "article_id": "GNS315_U2_T2",
-    "topic_id": "GNS315_U2_T2",
-    "difficulty": "understanding",
-    "question": "How does distributive shock fundamentally differ from hypovolemic shock?",
-    "options": {
-      "A": "Distributive shock involves inappropriate peripheral vasodilation rather than actual fluid loss",
-      "B": "Hypovolemic shock results from primary myocardial pump failure",
-      "C": "Distributive shock is exclusively caused by blunt mechanical trauma",
-      "D": "Hypovolemic shock responds better to systemic antibiotic therapy"
-    },
-    "answer": "A",
-    "explanation": "In distributive shock, fluid is maldistributed due to massive vasodilation, creating relative hypovolemia despite normal total body fluid volume. [learn more](GNS315_U2_T2#GNS315_U2_T2_h6)"
-  },
-  {
-    "question_id": "GNS315_U2_T2_h7_q1",
-    "heading_id": "GNS315_U2_T2_h7",
-    "article_id": "GNS315_U2_T2",
-    "topic_id": "GNS315_U2_T2",
-    "difficulty": "recall",
-    "question": "Which electrolyte disturbance is most notorious for causing life-threatening cardiac arrhythmias?",
-    "options": {
-      "A": "Hypermagnesemia",
-      "B": "Hyponatremia",
-      "C": "Hypocalcemia",
-      "D": "Hyperkalemia"
-    },
-    "answer": "D",
-    "explanation": "Elevated serum potassium levels significantly alter cardiac membrane potentials, leading to dangerous conduction blocks and fatal arrhythmias. [learn more](GNS315_U2_T2#GNS315_U2_T2_h7)"
-  },
-  {
-    "question_id": "GNS315_U2_T2_h7_q2",
-    "heading_id": "GNS315_U2_T2_h7",
-    "article_id": "GNS315_U2_T2",
-    "topic_id": "GNS315_U2_T2",
-    "difficulty": "understanding",
-    "question": "What is the primary physiological consequence of untreated diabetic ketoacidosis?",
-    "options": {
-      "A": "Severe metabolic acidosis driven by unbuffered ketone accumulation",
-      "B": "Massive systemic vasoconstriction leading to immediate hypertension",
-      "C": "Excessive retention of serum potassium within the intracellular space",
-      "D": "Rapid proliferation of anaerobic bacteria in the bloodstream"
-    },
-    "answer": "A",
-    "explanation": "Insulin deficiency forces lipolysis, producing acidic ketone bodies that overwhelm blood buffering systems and trigger profound metabolic acidosis. [learn more](GNS315_U2_T2#GNS315_U2_T2_h7)"
-  },
-  {
-    "question_id": "GNS315_U2_T2_h8_q1",
-    "heading_id": "GNS315_U2_T2_h8",
-    "article_id": "GNS315_U2_T2",
-    "topic_id": "GNS315_U2_T2",
-    "difficulty": "recall",
-    "question": "When managing multiple critically ill patients simultaneously, what guides the nurse's order of intervention?",
-    "options": {
-      "A": "Prioritizing individuals who have family members present at the bedside",
-      "B": "Focusing exclusively on patients who require minor diagnostic laboratory tests",
-      "C": "Treating patients in the exact chronological order of their hospital arrival",
-      "D": "Addressing conditions that pose an immediate threat to life first"
-    },
-    "answer": "D",
-    "explanation": "Emergency nursing prioritization dictates that life-threatening airway, breathing, or circulation failures are always managed before stable or non-urgent problems. [learn more](GNS315_U2_T2#GNS315_U2_T2_h8)"
-  },
-  {
-    "question_id": "GNS315_U2_T2_h8_q2",
-    "heading_id": "GNS315_U2_T2_h8",
-    "article_id": "GNS315_U2_T2",
-    "topic_id": "GNS315_U2_T2",
-    "difficulty": "understanding",
-    "question": "Why is continuous reassessment essential following an initial emergency nursing intervention?",
-    "options": {
-      "A": "Initial assessment findings are generally unreliable and must be completely replaced",
-      "B": "Clinical status can rapidly deteriorate or fail to respond to the initial therapy",
-      "C": "It eliminates the need for physician notification during critical care shifts",
-      "D": "Hospital accreditation standards require hourly vital sign documentation"
-    },
-    "answer": "B",
-    "explanation": "Dynamic critical conditions require ongoing evaluation to verify that interventions are working and to catch sudden secondary declines early. [learn more](GNS315_U2_T2#GNS315_U2_T2_h8)"
-  },
-  {
-    "question_id": "GNS315_U2_T1_h1_q1",
-    "heading_id": "GNS315_U2_T1_h1",
-    "article_id": "GNS315_U2_T1",
-    "topic_id": "GNS315_U2_T1",
-    "difficulty": "recall",
-    "question": "What is the primary purpose of emergency classification in a clinical setting?",
-    "options": {
-      "A": "Organizing patient records strictly by chronological arrival time",
-      "B": "Determining the financial cost of hospital admission",
-      "C": "Allocating clinical interventions based on pathophysiological urgency",
-      "D": "Assigning specific medical personnel to administrative shifts"
-    },
-    "answer": "C",
-    "explanation": "Emergency classification exists solely to prioritize care according to how rapidly a patient's condition can cause death or permanent disability. [learn more](GNS315_U2_T1#GNS315_U2_T1_h1)"
-  },
-  {
-    "question_id": "GNS315_U2_T1_h1_q2",
-    "heading_id": "GNS315_U2_T1_h1",
-    "article_id": "GNS315_U2_T1",
-    "topic_id": "GNS315_U2_T1",
-    "difficulty": "understanding",
-    "question": "Why is chronological arrival time considered an ineffective method for prioritizing emergency patients?",
-    "options": {
-      "A": "It fails to account for hidden internal deterioration or life-threatening instability",
-      "B": "It prevents medical doctors from participating in the initial triage phase",
-      "C": "It is illegal under standard healthcare regulations in most countries",
-      "D": "It requires excessive paperwork that delays the initial registration process"
-    },
-    "answer": "A",
-    "explanation": "A patient who arrived last may have a completely obstructed airway, whereas an earlier arrival might only have a minor sprain, making clinical urgency the only safe metric for prioritization. [learn more](GNS315_U2_T1#GNS315_U2_T1_h1)"
-  },
-  {
-    "question_id": "GNS315_U2_T1_h2_q1",
-    "heading_id": "GNS315_U2_T1_h2",
-    "article_id": "GNS315_U2_T1",
-    "topic_id": "GNS315_U2_T1",
-    "difficulty": "recall",
-    "question": "Which triage priority color is assigned to a patient who requires instant resuscitation for a blocked airway?",
-    "options": {
-      "A": "Yellow",
-      "B": "Red",
-      "C": "Green",
-      "D": "Black"
-    },
-    "answer": "B",
-    "explanation": "The red category denotes immediate, life-threatening emergencies that demand instant intervention to prevent death. [learn more](GNS315_U2_T1#GNS315_U2_T1_h2)"
-  },
-  {
-    "question_id": "GNS315_U2_T1_h2_q2",
-    "heading_id": "GNS315_U2_T1_h2",
-    "article_id": "GNS315_U2_T1",
-    "topic_id": "GNS315_U2_T1",
-    "difficulty": "application",
-    "question": "A patient arrives at the emergency department walking unaided with a closed fracture of the radius, stable vital signs, and minimal pain. Which triage category fits best?",
-    "options": {
-      "A": "Expectant",
-      "B": "Delayed",
-      "C": "Immediate",
-      "D": "Resuscitation"
-    },
-    "answer": "B",
-    "explanation": "Stable fractures require treatment but can wait safely while red-category patients are stabilized, placing them in the yellow or delayed tier. [learn more](GNS315_U2_T1#GNS315_U2_T1_h2)"
-  },
-  {
-    "question_id": "GNS315_U2_T1_h3_q1",
-    "heading_id": "GNS315_U2_T1_h3",
-    "article_id": "GNS315_U2_T1",
-    "topic_id": "GNS315_U2_T1",
-    "difficulty": "understanding",
-    "question": "What is the primary distinguishing feature of a surgical emergency compared to a medical emergency?",
-    "options": {
-      "A": "It requires immediate operative intervention to correct structural failure",
-      "B": "It never involves alterations in systemic blood pressure",
-      "C": "It always presents with elevated body temperature and chills",
-      "D": "It responds exclusively to high-dose oral antibiotic therapies"
-    },
-    "answer": "A",
-    "explanation": "Surgical emergencies are characterized by physical disruption or organ pathology that demands mechanical or operative correction rather than medical management alone. [learn more](GNS315_U2_T1#GNS315_U2_T1_h3)"
-  },
-  {
-    "question_id": "GNS315_U2_T1_h3_q2",
-    "heading_id": "GNS315_U2_T1_h3",
-    "article_id": "GNS315_U2_T1",
-    "topic_id": "GNS315_U2_T1",
-    "difficulty": "recall",
-    "question": "Which of the following conditions is classified as a classic medical emergency?",
-    "options": {
-      "A": "Acute appendicitis",
-      "B": "Diabetic ketoacidosis",
-      "C": "Ruptured spleen",
-      "D": "Strangulated inguinal hernia"
-    },
-    "answer": "B",
-    "explanation": "Diabetic ketoacidosis is a metabolic crisis managed primarily through fluid resuscitation and insulin therapy, making it a medical emergency. [learn more](GNS315_U2_T1#GNS315_U2_T1_h3)"
-  },
-  {
-    "question_id": "GNS315_U2_T1_h4_q1",
-    "heading_id": "GNS315_U2_T1_h4",
-    "article_id": "GNS315_U2_T1",
-    "topic_id": "GNS315_U2_T1",
-    "difficulty": "recall",
-    "question": "In the ABCDE trauma assessment framework, what does the letter 'C' primarily address?",
-    "options": {
-      "A": "Circulation and hemorrhage control",
-      "B": "Cardiac rhythm analysis only",
-      "C": "Cranial nerve function testing",
-      "D": "Cervical collar application exclusively"
-    },
-    "answer": "A",
-    "explanation": "The letter C stands for circulation, which involves evaluating pulse, perfusion, and actively managing major sources of bleeding. [learn more](GNS315_U2_T1#GNS315_U2_T1_h4)"
-  },
-  {
-    "question_id": "GNS315_U2_T1_h4_q2",
-    "heading_id": "GNS315_U2_T1_h4",
-    "article_id": "GNS315_U2_T1",
-    "topic_id": "GNS315_U2_T1",
-    "difficulty": "understanding",
-    "question": "Why is airway management prioritized over the treatment of minor extremity fractures in a trauma patient?",
-    "options": {
-      "A": "Surgical teams refuse to touch bone injuries if the patient is breathing normally",
-      "B": "Fractures heal faster when the airway is secured first",
-      "C": "Airway obstruction leads to rapid brain death within minutes, whereas fractures do not",
-      "D": "An open airway automatically stops all internal bleeding in the body"
-    },
-    "answer": "C",
-    "explanation": "Hypoxia kills faster than bleeding or broken bones, making airway patency the absolute first priority in emergency resuscitation. [learn more](GNS315_U2_T1#GNS315_U2_T1_h4)"
-  },
-  {
-    "question_id": "GNS315_U2_T1_h5_q1",
-    "heading_id": "GNS315_U2_T1_h5",
-    "article_id": "GNS315_U2_T1",
-    "topic_id": "GNS315_U2_T1",
-    "difficulty": "recall",
-    "question": "What makes obstetric emergencies uniquely complex compared to general medical emergencies?",
-    "options": {
-      "A": "They never require surgical intervention or blood transfusions",
-      "B": "They threaten the lives of both the mother and the fetus simultaneously",
-      "C": "They only occur during routine outpatient clinic visits",
-      "D": "They are entirely preventable with simple dietary modifications"
-    },
-    "answer": "B",
-    "explanation": "Obstetric crises involve a maternal-fetal dyad, requiring the clinical team to monitor and treat two patients at the same time. [learn more](GNS315_U2_T1#GNS315_U2_T1_h5)"
-  },
-  {
-    "question_id": "GNS315_U2_T1_h5_q2",
-    "heading_id": "GNS315_U2_T1_h5",
-    "article_id": "GNS315_U2_T1",
-    "topic_id": "GNS315_U2_T1",
-    "difficulty": "understanding",
-    "question": "Which clinical pattern is most characteristic of pediatric respiratory distress compared to adults?",
-    "options": {
-      "A": "A prolonged period of stable breathing before sudden, rapid collapse",
-      "B": "Gradual weight loss over several weeks without other symptoms",
-      "C": "Instantaneous loss of consciousness without any warning signs",
-      "D": "An inability to produce any audible sounds when crying"
-    },
-    "answer": "A",
-    "explanation": "Children compensate well for respiratory distress until their physiological reserves are completely exhausted, leading to precipitous decompensation. [learn more](GNS315_U2_T1#GNS315_U2_T1_h5)"
-  },
-  {
-    "question_id": "GNS315_U2_T1_h6_q1",
-    "heading_id": "GNS315_U2_T1_h6",
-    "article_id": "GNS315_U2_T1",
-    "topic_id": "GNS315_U2_T1",
-    "difficulty": "recall",
-    "question": "What defines a mass casualty incident in a healthcare facility?",
-    "options": {
-      "A": "Any situation involving more than two medical doctors on duty",
-      "B": "A structural fire that forces the total evacuation of the hospital",
-      "C": "An event where patient volume overwhelms available facility resources",
-      "D": "The arrival of patients suffering exclusively from infectious diseases"
-    },
-    "answer": "C",
-    "explanation": "A mass casualty event is defined by the mismatch between the sheer number of injured victims and the capacity of the local healthcare infrastructure to treat them normally. [learn more](GNS315_U2_T1#GNS315_U2_T1_h6)"
-  },
-  {
-    "question_id": "GNS315_U2_T1_h6_q2",
-    "heading_id": "GNS315_U2_T1_h6",
-    "article_id": "GNS315_U2_T1",
-    "topic_id": "GNS315_U2_T1",
-    "difficulty": "understanding",
-    "question": "How does disaster triage fundamentally differ from routine emergency department triage?",
-    "options": {
-      "A": "It eliminates the need for any documentation or patient identification",
-      "B": "It shifts resources away from unsalvageable cases to maximize total lives saved with limited supplies",
-      "C": "It relies entirely on computerized blood tests rather than physical examinations",
-      "D": "It prioritizes dying patients over those with minor injuries"
-    },
-    "answer": "B",
-    "explanation": "In a disaster, the goal changes from saving every individual to achieving the greatest good for the greatest number, meaning severe non-survivable cases receive expectant care rather than resource-heavy resuscitation. [learn more](GNS315_U2_T1#GNS315_U2_T1_h6)"
-  },
-  {
-    "question_id": "GNS315_U2_T4_h1_q1",
-    "heading_id": "GNS315_U2_T4_h1",
-    "article_id": "GNS315_U2_T4",
-    "topic_id": "GNS315_U2_T4",
-    "difficulty": "recall",
-    "question": "What is the primary objective of immediate nursing intervention in life-threatening conditions?",
-    "options": {
-      "A": "Obtaining routine diagnostic blood profiles",
-      "B": "Scheduling long-term rehabilitative care",
-      "C": "Preventing irreversible organ damage or death",
-      "D": "Completing detailed historical documentation"
-    },
-    "answer": "C",
-    "explanation": "Critical emergencies carry a high risk of rapid collapse, making the halting of tissue injury and preservation of life the absolute priority of emergency interventions. [learn more](GNS315_U2_T4#GNS315_U2_T4_h1)"
-  },
-  {
-    "question_id": "GNS315_U2_T4_h1_q2",
-    "heading_id": "GNS315_U2_T4_h1",
-    "article_id": "GNS315_U2_T4",
-    "topic_id": "GNS315_U2_T4",
-    "difficulty": "understanding",
-    "question": "Why is categorizing the origin of a critical emergency essential during initial contact?",
-    "options": {
-      "A": "It guarantees complete recovery without surgical intervention",
-      "B": "It reduces the financial burden of hospital admission",
-      "C": "It eliminates the need for continuous physiological monitoring",
-      "D": "It dictates the immediate trajectory of acute resuscitation"
-    },
-    "answer": "D",
-    "explanation": "Identifying whether a crisis is traumatic, medical, or environmental guides specific, time-sensitive resuscitation protocols required for that category. [learn more](GNS315_U2_T4#GNS315_U2_T4_h1)"
-  },
-  {
-    "question_id": "GNS315_U2_T4_h2_q1",
-    "heading_id": "GNS315_U2_T4_h2",
-    "article_id": "GNS315_U2_T4",
-    "topic_id": "GNS315_U2_T4",
-    "difficulty": "recall",
-    "question": "Which traumatic mechanism involves high-velocity impacts that compress internal organs without breaking the skin?",
-    "options": {
-      "A": "Thermal injury",
-      "B": "Blast cavitation",
-      "C": "Blunt force trauma",
-      "D": "Penetrating trauma"
-    },
-    "answer": "C",
-    "explanation": "Blunt force trauma transfers kinetic energy through the body surface, damaging deep organs while leaving the skin intact, making internal bleeding harder to detect. [learn more](GNS315_U2_T4#GNS315_U2_T4_h2)"
-  },
-  {
-    "question_id": "GNS315_U2_T4_h2_q2",
-    "heading_id": "GNS315_U2_T4_h2",
-    "article_id": "GNS315_U2_T4",
-    "topic_id": "GNS315_U2_T4",
-    "difficulty": "understanding",
-    "question": "What makes penetrating trauma particularly dangerous compared to superficial soft tissue damage?",
-    "options": {
-      "A": "It completely eliminates the risk of systemic infection",
-      "B": "It prevents any form of localized external bleeding",
-      "C": "It creates high-risk internal tracks that jeopardize major blood vessels",
-      "D": "It exclusively affects the peripheral nervous system"
-    },
-    "answer": "C",
-    "explanation": "Projectiles or sharp objects pierce body cavities and tissue planes, causing unseen structural damage and rapid hemorrhagic shock along their path. [learn more](GNS315_U2_T4#GNS315_U2_T4_h2)"
-  },
-  {
-    "question_id": "GNS315_U2_T4_h3_q1",
-    "heading_id": "GNS315_U2_T4_h3",
-    "article_id": "GNS315_U2_T4",
-    "topic_id": "GNS315_U2_T4",
-    "difficulty": "recall",
-    "question": "What is the primary physiological consequence of malignant cardiac arrhythmias during a medical emergency?",
-    "options": {
-      "A": "Immediate increase in peripheral oxygen saturation",
-      "B": "Rapid stabilization of blood pressure parameters",
-      "C": "Abrupt halt of effective systemic perfusion",
-      "D": "Enhancement of myocardial contractility"
-    },
-    "answer": "C",
-    "explanation": "Malignant arrhythmias disrupt the heart's electrical coordination, preventing it from pumping blood effectively to vital organs. [learn more](GNS315_U2_T4#GNS315_U2_T4_h3)"
-  },
-  {
-    "question_id": "GNS315_U2_T4_h3_q2",
-    "heading_id": "GNS315_U2_T4_h3",
-    "article_id": "GNS315_U2_T4",
-    "topic_id": "GNS315_U2_T4",
-    "difficulty": "understanding",
-    "question": "A patient presents with acute target organ damage caused by severely elevated blood pressure. What condition is most likely occurring?",
-    "options": {
-      "A": "Hypertensive emergency",
-      "B": "Vasovagal syncope",
-      "C": "Hypovolemic shock",
-      "D": "Chronic orthostatic hypotension"
-    },
-    "answer": "A",
-    "explanation": "A hypertensive emergency is defined by extremely high blood pressure accompanied by acute damage to target organs like the brain, heart, or kidneys. [learn more](GNS315_U2_T4#GNS315_U2_T4_h3)"
-  },
-  {
-    "question_id": "GNS315_U2_T4_h4_q1",
-    "heading_id": "GNS315_U2_T4_h4",
-    "article_id": "GNS315_U2_T4",
-    "topic_id": "GNS315_U2_T4",
-    "difficulty": "recall",
-    "question": "Which of the following is NOT a common mechanism of upper airway obstruction?",
-    "options": {
-      "A": "Foreign bodies",
-      "B": "Angioedema",
-      "C": "Severe laryngospasm",
-      "D": "Status asthmaticus"
-    },
-    "answer": "D",
-    "explanation": "Status asthmaticus affects the lower airways through severe bronchospasm and mucus plugging, whereas foreign bodies, angioedema, and laryngospasm obstruct the upper airway. [learn more](GNS315_U2_T4#GNS315_U2_T4_h4)"
-  },
-  {
-    "question_id": "GNS315_U2_T4_h4_q2",
-    "heading_id": "GNS315_U2_T4_h4",
-    "article_id": "GNS315_U2_T4",
-    "topic_id": "GNS315_U2_T4",
-    "difficulty": "understanding",
-    "question": "What clinical outcome directly follows prolonged hypercapnia and severe hypoxemia caused by respiratory failure?",
-    "options": {
-      "A": "Immediate normalization of blood pH",
-      "B": "Enhanced physical endurance",
-      "C": "Central nervous system depression",
-      "D": "Hyperactive neuromuscular reflexes"
-    },
-    "answer": "C",
-    "explanation": "An excess of carbon dioxide and lack of oxygen depress brain function, leading to lethargy, altered consciousness, and loss of airway protective reflexes. [learn more](GNS315_U2_T4#GNS315_U2_T4_h4)"
-  },
-  {
-    "question_id": "GNS315_U2_T4_h5_q1",
-    "heading_id": "GNS315_U2_T4_h5",
-    "article_id": "GNS315_U2_T4",
-    "topic_id": "GNS315_U2_T4",
-    "difficulty": "recall",
-    "question": "What is a primary effect of venom from certain snakebites in tropical clinical environments?",
-    "options": {
-      "A": "Instantaneous recovery of normal body temperature",
-      "B": "Systemic coagulation failure or neuromuscular paralysis",
-      "C": "Permanent stabilization of cardiac output",
-      "D": "Immediate enhancement of respiratory volume"
-    },
-    "answer": "B",
-    "explanation": "Many snake venoms contain potent hemotoxins or neurotoxins that disrupt clotting mechanisms or block nerve transmission, causing life-threatening paralysis or hemorrhage. [learn more](GNS315_U2_T4#GNS315_U2_T4_h5)"
-  },
-  {
-    "question_id": "GNS315_U2_T4_h5_q2",
-    "heading_id": "GNS315_U2_T4_h5",
-    "article_id": "GNS315_U2_T4",
-    "topic_id": "GNS315_U2_T4",
-    "difficulty": "understanding",
-    "question": "How do severe environmental extremes like heatstroke primarily threaten human survival?",
-    "options": {
-      "A": "By increasing peripheral oxygen binding capacity",
-      "B": "By accelerating normal renal filtration rates",
-      "C": "By derailing enzymatic reactions and cellular metabolism",
-      "D": "By stabilizing core neurological feedback loops"
-    },
-    "answer": "C",
-    "explanation": "Extreme heat alters protein structures and disrupts vital chemical reactions required for basic cellular function across all organ systems. [learn more](GNS315_U2_T4#GNS315_U2_T4_h5)"
-  },
-  {
-    "question_id": "GNS315_U2_T4_h6_q1",
-    "heading_id": "GNS315_U2_T4_h6",
-    "article_id": "GNS315_U2_T4",
-    "topic_id": "GNS315_U2_T4",
-    "difficulty": "recall",
-    "question": "What metabolic byproduct accumulates when cells are forced into anaerobic metabolism due to hypoxia?",
-    "options": {
-      "A": "Lactic acid",
-      "B": "Potassium",
-      "C": "Bicarbonate",
-      "D": "Glucose"
-    },
-    "answer": "A",
-    "explanation": "Without adequate oxygen, cells switch to anaerobic glycolysis, which generates lactic acid as a primary byproduct and leads to metabolic acidosis. [learn more](GNS315_U2_T4#GNS315_U2_T4_h6)"
-  },
-  {
-    "question_id": "GNS315_U2_T4_h6_q2",
-    "heading_id": "GNS315_U2_T4_h6",
-    "article_id": "GNS315_U2_T4",
-    "topic_id": "GNS315_U2_T4",
-    "difficulty": "understanding",
-    "question": "What is the direct consequence of cellular energy depletion on membrane ion pumps during shock?",
-    "options": {
-      "A": "Cellular edema and membrane lysis",
-      "B": "Enhanced electrical stability of neurons",
-      "C": "Rapid clearing of circulating toxins",
-      "D": "Increased production of cellular proteins"
-    },
-    "answer": "A",
-    "explanation": "Without ATP to run sodium-potassium pumps, sodium and water flood into the cell, causing swelling, rupture, and generalized tissue destruction. [learn more](GNS315_U2_T4#GNS315_U2_T4_h6)"
-  },
-  {
-    "question_id": "GNS315_U2_T4_h7_q1",
-    "heading_id": "GNS315_U2_T4_h7",
-    "article_id": "GNS315_U2_T4",
-    "topic_id": "GNS315_U2_T4",
-    "difficulty": "recall",
-    "question": "What does the letter 'D' stand for in the emergency ABCDE assessment framework?",
-    "options": {
-      "A": "Diagnosis",
-      "B": "Disability",
-      "C": "Diuresis",
-      "D": "Decontamination"
-    },
-    "answer": "B",
-    "explanation": "In emergency assessment protocols, D stands for Disability, evaluating neurological status, pupil response, and level of consciousness. [learn more](GNS315_U2_T4#GNS315_U2_T4_h7)"
-  },
-  {
-    "question_id": "GNS315_U2_T4_h7_q2",
-    "heading_id": "GNS315_U2_T4_h7",
-    "article_id": "GNS315_U2_T4",
-    "topic_id": "GNS315_U2_T4",
-    "difficulty": "understanding",
-    "question": "Why is immediate stabilization prioritized over deep investigative history-taking during initial emergency care?",
-    "options": {
-      "A": "History-taking always takes longer than surgical procedures",
-      "B": "Diagnostic tests are entirely unnecessary in emergency units",
-      "C": "Immediate threats to life must be managed before investigating causes",
-      "D": "Patients with critical conditions never remember their medical history"
-    },
-    "answer": "C",
-    "explanation": "The primary survey focuses purely on life-saving interventions for compromised airway, breathing, or circulation before searching for background causes. [learn more](GNS315_U2_T4#GNS315_U2_T4_h7)"
+    "explanation": "Ethical and professional standards dictate that preserving human life takes precedence over administrative or police formalities. [learn more](GNS315_U1_T1#GNS315_U1_T1_h7)"
   },
   {
     "question_id": "GNS315_U1_T10_h1_q1",
@@ -1150,6 +478,486 @@
     },
     "answer": "A",
     "explanation": "Empowering local healthcare personnel ensures continuity of care and builds long-term community resilience once foreign aid organizations withdraw. [learn more](GNS315_U1_T10#GNS315_U1_T10_h8)"
+  },
+  {
+    "question_id": "GNS315_U1_T11_h1_q1",
+    "heading_id": "GNS315_U1_T11_h1",
+    "article_id": "GNS315_U1_T11",
+    "topic_id": "GNS315_U1_T11",
+    "difficulty": "recall",
+    "question": "What defines a disaster in the context of global health?",
+    "options": {
+      "A": "An event that overwhelms local coping capacity and causes widespread disruption",
+      "B": "An isolated medical emergency affecting a single hospital ward",
+      "C": "Any weather pattern that produces more than ten inches of rainfall",
+      "D": "A structural fire contained by a local fire department"
+    },
+    "answer": "A",
+    "explanation": "A situation is classified as a disaster precisely when the local infrastructure and resources are insufficient to manage the resulting disruption and human impact without external assistance. [learn more](GNS315_U1_T11#GNS315_U1_T11_h1)"
+  },
+  {
+    "question_id": "GNS315_U1_T11_h1_q2",
+    "heading_id": "GNS315_U1_T11_h1",
+    "article_id": "GNS315_U1_T11",
+    "topic_id": "GNS315_U1_T11",
+    "difficulty": "understanding",
+    "question": "Why is the distinction between natural hazards and vulnerabilities crucial for public health?",
+    "options": {
+      "A": "Natural hazards only cause harm when they intersect with vulnerable populations",
+      "B": "Natural hazards are entirely preventable if communities relocate away from rivers",
+      "C": "Vulnerability assessments replace the need for emergency medical stockpiles",
+      "D": "Vulnerabilities can be completely eliminated through modern meteorological forecasting"
+    },
+    "answer": "A",
+    "explanation": "An earthquake in an uninhabited desert is a natural hazard, but the exact same earthquake striking a densely populated city becomes a disaster due to existing structural and human vulnerabilities. [learn more](GNS315_U1_T11#GNS315_U1_T11_h1)"
+  },
+  {
+    "question_id": "GNS315_U1_T11_h2_q1",
+    "heading_id": "GNS315_U1_T11_h2",
+    "article_id": "GNS315_U1_T11",
+    "topic_id": "GNS315_U1_T11",
+    "difficulty": "recall",
+    "question": "Which category of natural disasters has shown the most significant increase in frequency over recent decades?",
+    "options": {
+      "A": "Major tectonic plate shifts and deep-fault earthquakes",
+      "B": "Climate-related events such as floods and storms",
+      "C": "Meteorite impacts and geomagnetic storms",
+      "D": "Deep-ocean volcanic eruptions and tsunamis"
+    },
+    "answer": "B",
+    "explanation": "Global epidemiological tracking demonstrates that weather and climate-related hazards are multiplying rapidly, largely driven by environmental changes and warming global temperatures. [learn more](GNS315_U1_T11#GNS315_U1_T11_h2)"
+  },
+  {
+    "question_id": "GNS315_U1_T11_h2_q2",
+    "heading_id": "GNS315_U1_T11_h2",
+    "article_id": "GNS315_U1_T11",
+    "topic_id": "GNS315_U1_T11",
+    "difficulty": "understanding",
+    "question": "What characterizes a complex humanitarian emergency?",
+    "options": {
+      "A": "A single acute industrial explosion occurring in an urban chemical plant",
+      "B": "The combination of natural hazards and prolonged civil conflict or political collapse",
+      "C": "An infectious disease outbreak that remains contained within a single hospital",
+      "D": "A localized earthquake followed immediately by an effective national rescue response"
+    },
+    "answer": "B",
+    "explanation": "Complex emergencies involve multiple systemic failures, often combining environmental shocks with ongoing warfare or institutional breakdown, making relief efforts exceptionally difficult. [learn more](GNS315_U1_T11#GNS315_U1_T11_h2)"
+  },
+  {
+    "question_id": "GNS315_U1_T11_h3_q1",
+    "heading_id": "GNS315_U1_T11_h3",
+    "article_id": "GNS315_U1_T11",
+    "topic_id": "GNS315_U1_T11",
+    "difficulty": "recall",
+    "question": "Which condition is classified as an indirect health impact of a flood disaster?",
+    "options": {
+      "A": "A waterborne disease outbreak from contaminated drinking supplies",
+      "B": "Acute traumatic amputations from structural machinery failure",
+      "C": "Crush injuries sustained from a collapsing concrete ceiling",
+      "D": "Immediate lacerations caused by flying debris during a hurricane"
+    },
+    "answer": "A",
+    "explanation": "Direct impacts happen at the moment of the event, whereas indirect impacts develop afterward as a secondary consequence of damaged infrastructure and environmental changes. [learn more](GNS315_U1_T11#GNS315_U1_T11_h3)"
+  },
+  {
+    "question_id": "GNS315_U1_T11_h3_q2",
+    "heading_id": "GNS315_U1_T11_h3",
+    "article_id": "GNS315_U1_T11",
+    "topic_id": "GNS315_U1_T11",
+    "difficulty": "application",
+    "question": "A community displaced by an earthquake is living in an overcrowded temporary camp with limited sanitation. Which health threat should the nursing team prioritize monitoring?",
+    "options": {
+      "A": "Degenerative neurological conditions and dementia",
+      "B": "Occupational repetitive strain injuries",
+      "C": "Genetic disorders and congenital birth defects",
+      "D": "Diarrheal diseases and acute respiratory infections"
+    },
+    "answer": "D",
+    "explanation": "Overcrowded displacement settings with compromised sanitation create prime conditions for the rapid spread of waterborne pathogens and airborne respiratory infections. [learn more](GNS315_U1_T11#GNS315_U1_T11_h3)"
+  },
+  {
+    "question_id": "GNS315_U1_T11_h4_q1",
+    "heading_id": "GNS315_U1_T11_h4",
+    "article_id": "GNS315_U1_T11",
+    "topic_id": "GNS315_U1_T11",
+    "difficulty": "recall",
+    "question": "Which factor is a primary driver of high disaster mortality in low-resource settings?",
+    "options": {
+      "A": "Fragile physical infrastructure and scarce emergency medical services",
+      "B": "Abundant financial reserves held by municipal governments",
+      "C": "An excess of highly specialized tertiary care intensive care units",
+      "D": "Strict enforcement of modern building safety codes"
+    },
+    "answer": "A",
+    "explanation": "Limited structural integrity in housing and roads combined with weak healthcare systems significantly increases the risk of severe injury and death during emergencies. [learn more](GNS315_U1_T11#GNS315_U1_T11_h4)"
+  },
+  {
+    "question_id": "GNS315_U1_T11_h4_q2",
+    "heading_id": "GNS315_U1_T11_h4",
+    "article_id": "GNS315_U1_T11",
+    "topic_id": "GNS315_U1_T11",
+    "difficulty": "understanding",
+    "question": "Why are marginalized populations disproportionately affected by disasters?",
+    "options": {
+      "A": "Governments always prioritize urban elite populations during relief operations",
+      "B": "They lack the financial and social resources needed to evacuate, rebuild, or access care",
+      "C": "They possess higher physiological resistance to infectious disease outbreaks",
+      "D": "They deliberately choose to live in high-risk disaster zones for cultural reasons"
+    },
+    "answer": "B",
+    "explanation": "Socioeconomic marginalization strips individuals of the safety nets, savings, and alternative housing options required to withstand and recover from environmental shocks. [learn more](GNS315_U1_T11#GNS315_U1_T11_h4)"
+  },
+  {
+    "question_id": "GNS315_U1_T11_h5_q1",
+    "heading_id": "GNS315_U1_T11_h5",
+    "article_id": "GNS315_U1_T11",
+    "topic_id": "GNS315_U1_T11",
+    "difficulty": "recall",
+    "question": "What is a primary economic consequence of a major disaster for affected households?",
+    "options": {
+      "A": "Enhanced job security across all employment sectors",
+      "B": "Immediate increases in median household savings rates",
+      "C": "Impoverishment resulting from asset loss and medical expenditures",
+      "D": "A permanent surplus in local agricultural production"
+    },
+    "answer": "C",
+    "explanation": "Families frequently lose their homes, livelihoods, and savings, while simultaneously facing high costs for emergency medical care and temporary shelter. [learn more](GNS315_U1_T11#GNS315_U1_T11_h5)"
+  },
+  {
+    "question_id": "GNS315_U1_T11_h5_q2",
+    "heading_id": "GNS315_U1_T11_h5",
+    "article_id": "GNS315_U1_T11",
+    "topic_id": "GNS315_U1_T11",
+    "difficulty": "understanding",
+    "question": "How do disasters impact community social structures?",
+    "options": {
+      "A": "By causing family separation, school closures, and the breakdown of local support networks",
+      "B": "By immediately strengthening local governance and municipal institutions",
+      "C": "By eliminating social inequality and establishing permanent economic parity",
+      "D": "By increasing civic engagement through uninterrupted daily routines"
+    },
+    "answer": "A",
+    "explanation": "The chaos of displacement and infrastructure destruction tears apart the social fabric and support systems that communities rely on for daily survival and psychological well-being. [learn more](GNS315_U1_T11#GNS315_U1_T11_h5)"
+  },
+  {
+    "question_id": "GNS315_U1_T11_h6_q1",
+    "heading_id": "GNS315_U1_T11_h6",
+    "article_id": "GNS315_U1_T11",
+    "topic_id": "GNS315_U1_T11",
+    "difficulty": "recall",
+    "question": "What is the primary shift in modern international disaster management strategies?",
+    "options": {
+      "A": "Eliminating all international humanitarian aid organizations entirely",
+      "B": "Focusing exclusively on post-disaster financial reimbursement",
+      "C": "Moving from purely reactive relief to proactive disaster risk reduction",
+      "D": "Relying solely on military intervention during health crises"
+    },
+    "answer": "C",
+    "explanation": "Modern global frameworks prioritize anticipation, mitigation, and preparedness to prevent hazards from escalating into full-scale catastrophic emergencies. [learn more](GNS315_U1_T11#GNS315_U1_T11_h6)"
+  },
+  {
+    "question_id": "GNS315_U1_T11_h6_q2",
+    "heading_id": "GNS315_U1_T11_h6",
+    "article_id": "GNS315_U1_T11",
+    "topic_id": "GNS315_U1_T11",
+    "difficulty": "understanding",
+    "question": "Which intervention best exemplifies Disaster Risk Reduction (DRR) in a healthcare setting?",
+    "options": {
+      "A": "Reducing the number of nursing staff on duty during rainy seasons",
+      "B": "Relying entirely on foreign NGOs for local emergency planning",
+      "C": "Waiting for a flood to occur before ordering emergency medical supplies",
+      "D": "Retrofitting a district hospital to withstand high-magnitude earthquakes"
+    },
+    "answer": "D",
+    "explanation": "Reinforcing health infrastructure before a disaster strikes ensures that facilities remain operational to treat the injured when an emergency actually occurs. [learn more](GNS315_U1_T11#GNS315_U1_T11_h6)"
+  },
+  {
+    "question_id": "GNS315_U1_T11_h7_q1",
+    "heading_id": "GNS315_U1_T11_h7",
+    "article_id": "GNS315_U1_T11",
+    "topic_id": "GNS315_U1_T11",
+    "difficulty": "recall",
+    "question": "Which clinical skill is essential for nurses during the immediate response phase of a disaster?",
+    "options": {
+      "A": "International border policy negotiation",
+      "B": "Long-term macroeconomic impact forecasting",
+      "C": "Mass casualty triage and rapid injury assessment",
+      "D": "Architectural structural engineering design"
+    },
+    "answer": "C",
+    "explanation": "During mass casualty events, nurses must quickly prioritize patients based on injury severity to allocate scarce medical resources effectively and save maximum lives. [learn more](GNS315_U1_T11#GNS315_U1_T11_h7)"
+  },
+  {
+    "question_id": "GNS315_U1_T11_h7_q2",
+    "heading_id": "GNS315_U1_T11_h7",
+    "article_id": "GNS315_U1_T11",
+    "topic_id": "GNS315_U1_T11",
+    "difficulty": "understanding",
+    "question": "Why is disaster preparedness training considered a core competency for modern nursing practice?",
+    "options": {
+      "A": "Clinical nursing duties never involve public health or community outreach",
+      "B": "Nurses are frontline responders who must manage clinical surges and maintain care continuity",
+      "C": "Nurses are legally required to fund local emergency response shelters",
+      "D": "Disasters only affect isolated rural clinics rather than urban hospitals"
+    },
+    "answer": "B",
+    "explanation": "Because nurses make up the largest segment of the healthcare workforce, their preparedness directly determines how effectively a health system responds to sudden shocks and protects community health. [learn more](GNS315_U1_T11#GNS315_U1_T11_h7)"
+  },
+  {
+    "question_id": "GNS315_U1_T12_h1_q1",
+    "heading_id": "GNS315_U1_T12_h1",
+    "article_id": "GNS315_U1_T12",
+    "topic_id": "GNS315_U1_T12",
+    "difficulty": "recall",
+    "question": "What primary condition distinguishes a disaster from a routine local emergency?",
+    "options": {
+      "A": "It requires military intervention rather than medical care",
+      "B": "It exceeds the coping capacity of the affected community",
+      "C": "It strictly involves large-scale industrial machinery failures",
+      "D": "It only occurs during the rainy season in rural regions"
+    },
+    "answer": "B",
+    "explanation": "A disaster is officially defined by its ability to overwhelm local resources and coping mechanisms, requiring external assistance. [learn more](GNS315_U1_T12#GNS315_U1_T12_h1)"
+  },
+  {
+    "question_id": "GNS315_U1_T12_h1_q2",
+    "heading_id": "GNS315_U1_T12_h1",
+    "article_id": "GNS315_U1_T12",
+    "topic_id": "GNS315_U1_T12",
+    "difficulty": "understanding",
+    "question": "Why is examining underlying structural weaknesses essential for understanding local disasters in Nigeria?",
+    "options": {
+      "A": "Structural weaknesses transform normal hazards into catastrophic events",
+      "B": "Building codes are uniformly enforced across all rural and urban zones",
+      "C": "Natural hazards never cause severe damage without human sabotage",
+      "D": "Economic factors have little influence on how communities face hazards"
+    },
+    "answer": "A",
+    "explanation": "Vulnerabilities such as poor infrastructure and poverty turn environmental hazards into full-scale disasters by reducing community resilience. [learn more](GNS315_U1_T12#GNS315_U1_T12_h1)"
+  },
+  {
+    "question_id": "GNS315_U1_T12_h2_q1",
+    "heading_id": "GNS315_U1_T12_h2",
+    "article_id": "GNS315_U1_T12",
+    "topic_id": "GNS315_U1_T12",
+    "difficulty": "recall",
+    "question": "Which natural hazard is the most geographically widespread across Nigeria?",
+    "options": {
+      "A": "Tsunami",
+      "B": "Tornado",
+      "C": "Flooding",
+      "D": "Volcanic eruption"
+    },
+    "answer": "C",
+    "explanation": "Annual heavy rainfall and overflow of major river basins make widespread flooding the most common natural disaster in Nigeria. [learn more](GNS315_U1_T12#GNS315_U1_T12_h2)"
+  },
+  {
+    "question_id": "GNS315_U1_T12_h2_q2",
+    "heading_id": "GNS315_U1_T12_h2",
+    "article_id": "GNS315_U1_T12",
+    "topic_id": "GNS315_U1_T12",
+    "difficulty": "understanding",
+    "question": "A patient arrives at a tertiary hospital following a major highway collision. What category of disaster burden does this incident represent?",
+    "options": {
+      "A": "A complex geological hazard",
+      "B": "A biological pandemic outbreak",
+      "C": "A human-induced mass casualty incident",
+      "D": "A slow-onset climatic drought"
+    },
+    "answer": "C",
+    "explanation": "Road traffic accidents resulting from infrastructure failures and human error are classified as human-induced mass casualty events. [learn more](GNS315_U1_T12#GNS315_U1_T12_h2)"
+  },
+  {
+    "question_id": "GNS315_U1_T12_h3_q1",
+    "heading_id": "GNS315_U1_T12_h3",
+    "article_id": "GNS315_U1_T12",
+    "topic_id": "GNS315_U1_T12",
+    "difficulty": "recall",
+    "question": "Petroleum pipeline explosions and industrial chemical spills belong to which disaster category?",
+    "options": {
+      "A": "Climatic droughts",
+      "B": "Geological hazards",
+      "C": "Technological disasters",
+      "D": "Biological outbreaks"
+    },
+    "answer": "C",
+    "explanation": "Technological or human-made disasters involve industrial accidents, structural failures, and hazardous material spills. [learn more](GNS315_U1_T12#GNS315_U1_T12_h3)"
+  },
+  {
+    "question_id": "GNS315_U1_T12_h3_q2",
+    "heading_id": "GNS315_U1_T12_h3",
+    "article_id": "GNS315_U1_T12",
+    "topic_id": "GNS315_U1_T12",
+    "difficulty": "understanding",
+    "question": "Which of the following scenarios is categorized as a conflict-induced crisis?",
+    "options": {
+      "A": "Severe agricultural loss caused by prolonged seasonal drought",
+      "B": "A sudden outbreak of Lassa fever in a rural health center",
+      "C": "Displacement resulting from violent communal clashes over grazing land",
+      "D": "A structural collapse of an uncompleted multi-story commercial building"
+    },
+    "answer": "C",
+    "explanation": "Communal clashes and insurgency represent human conflicts that directly cause displacement and societal disruption. [learn more](GNS315_U1_T12#GNS315_U1_T12_h3)"
+  },
+  {
+    "question_id": "GNS315_U1_T12_h4_q1",
+    "heading_id": "GNS315_U1_T12_h4",
+    "article_id": "GNS315_U1_T12",
+    "topic_id": "GNS315_U1_T12",
+    "difficulty": "recall",
+    "question": "What is an immediate effect of disasters on local healthcare facilities?",
+    "options": {
+      "A": "Healthcare workers experience a permanent reduction in daily workloads",
+      "B": "They are frequently damaged, looted, or overwhelmed by trauma cases",
+      "C": "They automatically receive an excess of specialized medical supplies",
+      "D": "Routine immunization coverage immediately triples in the affected zone"
+    },
+    "answer": "B",
+    "explanation": "Disasters strain healthcare infrastructure by destroying physical facilities and overwhelming staff with sudden patient surges. [learn more](GNS315_U1_T12#GNS315_U1_T12_h4)"
+  },
+  {
+    "question_id": "GNS315_U1_T12_h4_q2",
+    "heading_id": "GNS315_U1_T12_h4",
+    "article_id": "GNS315_U1_T12",
+    "topic_id": "GNS315_U1_T12",
+    "difficulty": "understanding",
+    "question": "Why do maternal and child health outcomes worsen significantly following a major community disaster?",
+    "options": {
+      "A": "Nutritional supplies automatically increase beyond normal community demand",
+      "B": "Pregnant women are universally relocated to fully equipped urban centers",
+      "C": "Essential supply chains break down and routine care services collapse",
+      "D": "Traditional birth attendants take over all obstetric hospital services"
+    },
+    "answer": "C",
+    "explanation": "The destruction of health infrastructure and disrupted supply chains cut off access to vital antenatal and emergency obstetric care. [learn more](GNS315_U1_T12#GNS315_U1_T12_h4)"
+  },
+  {
+    "question_id": "GNS315_U1_T12_h5_q1",
+    "heading_id": "GNS315_U1_T12_h5",
+    "article_id": "GNS315_U1_T12",
+    "topic_id": "GNS315_U1_T12",
+    "difficulty": "recall",
+    "question": "Which group faces heightened safety risks and unique caregiving burdens during displacement crises?",
+    "options": {
+      "A": "Wealthy urban elites",
+      "B": "Private security contractors",
+      "C": "Federal disaster officials",
+      "D": "Women and girls"
+    },
+    "answer": "D",
+    "explanation": "Women and girls frequently shoulder heavy caregiving responsibilities and experience increased exposure to protection risks during crises. [learn more](GNS315_U1_T12#GNS315_U1_T12_h5)"
+  },
+  {
+    "question_id": "GNS315_U1_T12_h5_q2",
+    "heading_id": "GNS315_U1_T12_h5",
+    "article_id": "GNS315_U1_T12",
+    "topic_id": "GNS315_U1_T12",
+    "difficulty": "understanding",
+    "question": "Why are impoverished populations living in informal urban settlements disproportionately affected by natural hazards?",
+    "options": {
+      "A": "They are legally mandated by local authorities to settle in high-risk zones",
+      "B": "They lack the financial resources to relocate or structurally reinforce their homes",
+      "C": "They possess advanced technology that attracts severe environmental storms",
+      "D": "They receive exclusive priority during post-disaster governmental relief"
+    },
+    "answer": "B",
+    "explanation": "Poverty forces vulnerable groups into hazardous environments without the means to protect their dwellings or evacuate safely. [learn more](GNS315_U1_T12#GNS315_U1_T12_h5)"
+  },
+  {
+    "question_id": "GNS315_U1_T12_h6_q1",
+    "heading_id": "GNS315_U1_T12_h6",
+    "article_id": "GNS315_U1_T12",
+    "topic_id": "GNS315_U1_T12",
+    "difficulty": "recall",
+    "question": "What is the primary national body responsible for coordinating disaster management policies in Nigeria?",
+    "options": {
+      "A": "National Emergency Management Agency",
+      "B": "Primary Health Care Development Agency",
+      "C": "Nigerian Medical Association",
+      "D": "Nigerian Red Cross Society"
+    },
+    "answer": "A",
+    "explanation": "NEMA is the federal agency mandated to establish disaster management policies and coordinate national response operations. [learn more](GNS315_U1_T12#GNS315_U1_T12_h6)"
+  },
+  {
+    "question_id": "GNS315_U1_T12_h6_q2",
+    "heading_id": "GNS315_U1_T12_h6",
+    "article_id": "GNS315_U1_T12",
+    "topic_id": "GNS315_U1_T12",
+    "difficulty": "understanding",
+    "question": "What is a frequent operational challenge faced by emergency management frameworks at the grassroots level in Nigeria?",
+    "options": {
+      "A": "Delayed funding disbursement and poor inter-agency communication",
+      "B": "Excessive infrastructural funding provided directly to villages",
+      "C": "Instantaneous electronic communication across all rural districts",
+      "D": "An overwhelming surplus of highly trained volunteer rescue personnel"
+    },
+    "answer": "A",
+    "explanation": "Bureaucratic bottlenecks, communication gaps, and funding delays often hinder rapid responses at local government levels. [learn more](GNS315_U1_T12#GNS315_U1_T12_h6)"
+  },
+  {
+    "question_id": "GNS315_U1_T12_h7_q1",
+    "heading_id": "GNS315_U1_T12_h7",
+    "article_id": "GNS315_U1_T12",
+    "topic_id": "GNS315_U1_T12",
+    "difficulty": "recall",
+    "question": "During which phase of the disaster management cycle do nurses actively conduct community vulnerability assessments and training?",
+    "options": {
+      "A": "Long-term economic auditing",
+      "B": "Mitigation and preparedness",
+      "C": "Post-disaster structural demolition",
+      "D": "Immediate mass evacuation"
+    },
+    "answer": "B",
+    "explanation": "Preparation and mitigation involve proactive risk assessment, community education, and training before a disaster occurs. [learn more](GNS315_U1_T12#GNS315_U1_T12_h7)"
+  },
+  {
+    "question_id": "GNS315_U1_T12_h7_q2",
+    "heading_id": "GNS315_U1_T12_h7",
+    "article_id": "GNS315_U1_T12",
+    "topic_id": "GNS315_U1_T12",
+    "difficulty": "understanding",
+    "question": "A community health nurse organizes a workshop to teach villagers basic triage and first aid before the rainy season. Which concept does this activity best demonstrate?",
+    "options": {
+      "A": "Building community resilience through disaster preparedness",
+      "B": "Conducting forensic investigations into industrial disasters",
+      "C": "Treating acute trauma during the peak of an active flood",
+      "D": "Managing bureaucratic funding delays within state agencies"
+    },
+    "answer": "A",
+    "explanation": "Proactive community education and training enhance local coping capacity and resilience ahead of anticipated hazards. [learn more](GNS315_U1_T12#GNS315_U1_T12_h7)"
+  },
+  {
+    "question_id": "GNS315_U1_T12_h8_q1",
+    "heading_id": "GNS315_U1_T12_h8",
+    "article_id": "GNS315_U1_T12",
+    "topic_id": "GNS315_U1_T12",
+    "difficulty": "recall",
+    "question": "Which clinical condition is a nurse most likely to manage among survivors residing in crowded post-disaster displacement camps?",
+    "options": {
+      "A": "Congenital metabolic disorders",
+      "B": "Chronic autoimmune neuro-degeneration",
+      "C": "Acute altitude sickness",
+      "D": "Waterborne diseases like cholera"
+    },
+    "answer": "D",
+    "explanation": "Crowded living conditions and compromised sanitation systems in displacement camps frequently spark outbreaks of waterborne infections. [learn more](GNS315_U1_T12#GNS315_U1_T12_h8)"
+  },
+  {
+    "question_id": "GNS315_U1_T12_h8_q2",
+    "heading_id": "GNS315_U1_T12_h8",
+    "article_id": "GNS315_U1_T12",
+    "topic_id": "GNS315_U1_T12",
+    "difficulty": "understanding",
+    "question": "What is NOT a typical challenge faced by nurses providing care during the recovery phase of a disaster?",
+    "options": {
+      "A": "Addressing psychological trauma and post-traumatic stress symptoms",
+      "B": "Management of chronic disease relapses due to lost medication",
+      "C": "Overcoming logistical delays in infrastructure rehabilitation",
+      "D": "An instant surplus of permanent housing and modern medical facilities"
+    },
+    "answer": "D",
+    "explanation": "Post-disaster recovery is characterized by severe resource scarcity and delayed rehabilitation, not an instant surplus of modern facilities. [learn more](GNS315_U1_T12#GNS315_U1_T12_h8)"
   },
   {
     "question_id": "GNS315_U1_T2_h1_q1",
@@ -3232,708 +3040,900 @@
     "explanation": "Camp health nursing focuses heavily on preventing communicable disease outbreaks, ensuring safe sanitation, and addressing psychological trauma among displaced populations. [learn more](GNS315_U1_T9#GNS315_U1_T9_h8)"
   },
   {
-    "question_id": "GNS315_U1_T1_h1_q1",
-    "heading_id": "GNS315_U1_T1_h1",
-    "article_id": "GNS315_U1_T1",
-    "topic_id": "GNS315_U1_T1",
+    "question_id": "GNS315_U2_T1_h1_q1",
+    "heading_id": "GNS315_U2_T1_h1",
+    "article_id": "GNS315_U2_T1",
+    "topic_id": "GNS315_U2_T1",
     "difficulty": "recall",
-    "question": "What is the primary goal of emergency nursing care?",
+    "question": "What is the primary purpose of emergency classification in a clinical setting?",
     "options": {
-      "A": "Long-term rehabilitation planning",
-      "B": "Routine diagnostic testing and screening",
-      "C": "Immediate stabilization and prevention of secondary injury",
-      "D": "Terminal illness counseling and palliative support"
+      "A": "Organizing patient records strictly by chronological arrival time",
+      "B": "Determining the financial cost of hospital admission",
+      "C": "Allocating clinical interventions based on pathophysiological urgency",
+      "D": "Assigning specific medical personnel to administrative shifts"
     },
     "answer": "C",
-    "explanation": "Emergency care focuses on acute stabilization and stopping further harm before moving the patient to definitive treatment areas. [learn more](GNS315_U1_T1#GNS315_U1_T1_h1)"
+    "explanation": "Emergency classification exists solely to prioritize care according to how rapidly a patient's condition can cause death or permanent disability. [learn more](GNS315_U2_T1#GNS315_U2_T1_h1)"
   },
   {
-    "question_id": "GNS315_U1_T1_h1_q2",
-    "heading_id": "GNS315_U1_T1_h1",
-    "article_id": "GNS315_U1_T1",
-    "topic_id": "GNS315_U1_T1",
+    "question_id": "GNS315_U2_T1_h1_q2",
+    "heading_id": "GNS315_U2_T1_h1",
+    "article_id": "GNS315_U2_T1",
+    "topic_id": "GNS315_U2_T1",
     "difficulty": "understanding",
-    "question": "Why is the emergency care environment considered unique compared to general hospital wards?",
+    "question": "Why is chronological arrival time considered an ineffective method for prioritizing emergency patients?",
     "options": {
-      "A": "It deals exclusively with chronic, predictable medical conditions.",
-      "B": "It eliminates the need for physical assessments.",
-      "C": "It requires rapid decision-making under intense time pressure and uncertainty.",
-      "D": "It relies entirely on delayed, scheduled interventions."
+      "A": "It fails to account for hidden internal deterioration or life-threatening instability",
+      "B": "It prevents medical doctors from participating in the initial triage phase",
+      "C": "It is illegal under standard healthcare regulations in most countries",
+      "D": "It requires excessive paperwork that delays the initial registration process"
     },
-    "answer": "C",
-    "explanation": "The unpredictable influx of acute cases and tight time constraints define the chaotic nature of emergency nursing. [learn more](GNS315_U1_T1#GNS315_U1_T1_h1)"
+    "answer": "A",
+    "explanation": "A patient who arrived last may have a completely obstructed airway, whereas an earlier arrival might only have a minor sprain, making clinical urgency the only safe metric for prioritization. [learn more](GNS315_U2_T1#GNS315_U2_T1_h1)"
   },
   {
-    "question_id": "GNS315_U1_T1_h2_q1",
-    "heading_id": "GNS315_U1_T1_h2",
-    "article_id": "GNS315_U1_T1",
-    "topic_id": "GNS315_U1_T1",
+    "question_id": "GNS315_U2_T1_h2_q1",
+    "heading_id": "GNS315_U2_T1_h2",
+    "article_id": "GNS315_U2_T1",
+    "topic_id": "GNS315_U2_T1",
     "difficulty": "recall",
-    "question": "Which of the following is NOT a pillar of the philosophy of emergency care?",
+    "question": "Which triage priority color is assigned to a patient who requires instant resuscitation for a blocked airway?",
     "options": {
-      "A": "Efficient patient flow",
-      "B": "Elective scheduling",
-      "C": "Universal access",
-      "D": "Rapid intervention"
+      "A": "Yellow",
+      "B": "Red",
+      "C": "Green",
+      "D": "Black"
     },
     "answer": "B",
-    "explanation": "Emergency departments handle unscheduled, acute crises rather than elective, pre-planned appointments. [learn more](GNS315_U1_T1#GNS315_U1_T1_h2)"
+    "explanation": "The red category denotes immediate, life-threatening emergencies that demand instant intervention to prevent death. [learn more](GNS315_U2_T1#GNS315_U2_T1_h2)"
   },
   {
-    "question_id": "GNS315_U1_T1_h2_q2",
-    "heading_id": "GNS315_U1_T1_h2",
-    "article_id": "GNS315_U1_T1",
-    "topic_id": "GNS315_U1_T1",
-    "difficulty": "understanding",
-    "question": "How does the principle of universal access manifest in the emergency department?",
+    "question_id": "GNS315_U2_T1_h2_q2",
+    "heading_id": "GNS315_U2_T1_h2",
+    "article_id": "GNS315_U2_T1",
+    "topic_id": "GNS315_U2_T1",
+    "difficulty": "application",
+    "question": "A patient arrives at the emergency department walking unaided with a closed fracture of the radius, stable vital signs, and minimal pain. Which triage category fits best?",
     "options": {
-      "A": "Admitting only patients who have pre-booked appointments with specialists",
-      "B": "Refusing care to individuals who arrive without police clearance",
-      "C": "Treating patients based strictly on their health insurance coverage",
-      "D": "Providing immediate medical evaluation to anyone presenting with a crisis regardless of payment"
+      "A": "Expectant",
+      "B": "Delayed",
+      "C": "Immediate",
+      "D": "Resuscitation"
+    },
+    "answer": "B",
+    "explanation": "Stable fractures require treatment but can wait safely while red-category patients are stabilized, placing them in the yellow or delayed tier. [learn more](GNS315_U2_T1#GNS315_U2_T1_h2)"
+  },
+  {
+    "question_id": "GNS315_U2_T1_h3_q1",
+    "heading_id": "GNS315_U2_T1_h3",
+    "article_id": "GNS315_U2_T1",
+    "topic_id": "GNS315_U2_T1",
+    "difficulty": "understanding",
+    "question": "What is the primary distinguishing feature of a surgical emergency compared to a medical emergency?",
+    "options": {
+      "A": "It requires immediate operative intervention to correct structural failure",
+      "B": "It never involves alterations in systemic blood pressure",
+      "C": "It always presents with elevated body temperature and chills",
+      "D": "It responds exclusively to high-dose oral antibiotic therapies"
+    },
+    "answer": "A",
+    "explanation": "Surgical emergencies are characterized by physical disruption or organ pathology that demands mechanical or operative correction rather than medical management alone. [learn more](GNS315_U2_T1#GNS315_U2_T1_h3)"
+  },
+  {
+    "question_id": "GNS315_U2_T1_h3_q2",
+    "heading_id": "GNS315_U2_T1_h3",
+    "article_id": "GNS315_U2_T1",
+    "topic_id": "GNS315_U2_T1",
+    "difficulty": "recall",
+    "question": "Which of the following conditions is classified as a classic medical emergency?",
+    "options": {
+      "A": "Acute appendicitis",
+      "B": "Diabetic ketoacidosis",
+      "C": "Ruptured spleen",
+      "D": "Strangulated inguinal hernia"
+    },
+    "answer": "B",
+    "explanation": "Diabetic ketoacidosis is a metabolic crisis managed primarily through fluid resuscitation and insulin therapy, making it a medical emergency. [learn more](GNS315_U2_T1#GNS315_U2_T1_h3)"
+  },
+  {
+    "question_id": "GNS315_U2_T1_h4_q1",
+    "heading_id": "GNS315_U2_T1_h4",
+    "article_id": "GNS315_U2_T1",
+    "topic_id": "GNS315_U2_T1",
+    "difficulty": "recall",
+    "question": "In the ABCDE trauma assessment framework, what does the letter 'C' primarily address?",
+    "options": {
+      "A": "Circulation and hemorrhage control",
+      "B": "Cardiac rhythm analysis only",
+      "C": "Cranial nerve function testing",
+      "D": "Cervical collar application exclusively"
+    },
+    "answer": "A",
+    "explanation": "The letter C stands for circulation, which involves evaluating pulse, perfusion, and actively managing major sources of bleeding. [learn more](GNS315_U2_T1#GNS315_U2_T1_h4)"
+  },
+  {
+    "question_id": "GNS315_U2_T1_h4_q2",
+    "heading_id": "GNS315_U2_T1_h4",
+    "article_id": "GNS315_U2_T1",
+    "topic_id": "GNS315_U2_T1",
+    "difficulty": "understanding",
+    "question": "Why is airway management prioritized over the treatment of minor extremity fractures in a trauma patient?",
+    "options": {
+      "A": "Surgical teams refuse to touch bone injuries if the patient is breathing normally",
+      "B": "Fractures heal faster when the airway is secured first",
+      "C": "Airway obstruction leads to rapid brain death within minutes, whereas fractures do not",
+      "D": "An open airway automatically stops all internal bleeding in the body"
+    },
+    "answer": "C",
+    "explanation": "Hypoxia kills faster than bleeding or broken bones, making airway patency the absolute first priority in emergency resuscitation. [learn more](GNS315_U2_T1#GNS315_U2_T1_h4)"
+  },
+  {
+    "question_id": "GNS315_U2_T1_h5_q1",
+    "heading_id": "GNS315_U2_T1_h5",
+    "article_id": "GNS315_U2_T1",
+    "topic_id": "GNS315_U2_T1",
+    "difficulty": "recall",
+    "question": "What makes obstetric emergencies uniquely complex compared to general medical emergencies?",
+    "options": {
+      "A": "They never require surgical intervention or blood transfusions",
+      "B": "They threaten the lives of both the mother and the fetus simultaneously",
+      "C": "They only occur during routine outpatient clinic visits",
+      "D": "They are entirely preventable with simple dietary modifications"
+    },
+    "answer": "B",
+    "explanation": "Obstetric crises involve a maternal-fetal dyad, requiring the clinical team to monitor and treat two patients at the same time. [learn more](GNS315_U2_T1#GNS315_U2_T1_h5)"
+  },
+  {
+    "question_id": "GNS315_U2_T1_h5_q2",
+    "heading_id": "GNS315_U2_T1_h5",
+    "article_id": "GNS315_U2_T1",
+    "topic_id": "GNS315_U2_T1",
+    "difficulty": "understanding",
+    "question": "Which clinical pattern is most characteristic of pediatric respiratory distress compared to adults?",
+    "options": {
+      "A": "A prolonged period of stable breathing before sudden, rapid collapse",
+      "B": "Gradual weight loss over several weeks without other symptoms",
+      "C": "Instantaneous loss of consciousness without any warning signs",
+      "D": "An inability to produce any audible sounds when crying"
+    },
+    "answer": "A",
+    "explanation": "Children compensate well for respiratory distress until their physiological reserves are completely exhausted, leading to precipitous decompensation. [learn more](GNS315_U2_T1#GNS315_U2_T1_h5)"
+  },
+  {
+    "question_id": "GNS315_U2_T1_h6_q1",
+    "heading_id": "GNS315_U2_T1_h6",
+    "article_id": "GNS315_U2_T1",
+    "topic_id": "GNS315_U2_T1",
+    "difficulty": "recall",
+    "question": "What defines a mass casualty incident in a healthcare facility?",
+    "options": {
+      "A": "Any situation involving more than two medical doctors on duty",
+      "B": "A structural fire that forces the total evacuation of the hospital",
+      "C": "An event where patient volume overwhelms available facility resources",
+      "D": "The arrival of patients suffering exclusively from infectious diseases"
+    },
+    "answer": "C",
+    "explanation": "A mass casualty event is defined by the mismatch between the sheer number of injured victims and the capacity of the local healthcare infrastructure to treat them normally. [learn more](GNS315_U2_T1#GNS315_U2_T1_h6)"
+  },
+  {
+    "question_id": "GNS315_U2_T1_h6_q2",
+    "heading_id": "GNS315_U2_T1_h6",
+    "article_id": "GNS315_U2_T1",
+    "topic_id": "GNS315_U2_T1",
+    "difficulty": "understanding",
+    "question": "How does disaster triage fundamentally differ from routine emergency department triage?",
+    "options": {
+      "A": "It eliminates the need for any documentation or patient identification",
+      "B": "It shifts resources away from unsalvageable cases to maximize total lives saved with limited supplies",
+      "C": "It relies entirely on computerized blood tests rather than physical examinations",
+      "D": "It prioritizes dying patients over those with minor injuries"
+    },
+    "answer": "B",
+    "explanation": "In a disaster, the goal changes from saving every individual to achieving the greatest good for the greatest number, meaning severe non-survivable cases receive expectant care rather than resource-heavy resuscitation. [learn more](GNS315_U2_T1#GNS315_U2_T1_h6)"
+  },
+  {
+    "question_id": "GNS315_U2_T2_h1_q1",
+    "heading_id": "GNS315_U2_T2_h1",
+    "article_id": "GNS315_U2_T2",
+    "topic_id": "GNS315_U2_T2",
+    "difficulty": "recall",
+    "question": "What is the primary objective of triage in emergency nursing?",
+    "options": {
+      "A": "To administer routine analgesia to every arriving patient",
+      "B": "To document complete biographical data prior to physical assessment",
+      "C": "To discharge ambulatory patients within thirty minutes of arrival",
+      "D": "To rapidly allocate care based on the severity of clinical instability"
     },
     "answer": "D",
-    "explanation": "Emergency departments are legally and ethically mandated to assess and stabilize all emergency presentations without upfront financial barriers. [learn more](GNS315_U1_T1#GNS315_U1_T1_h2)"
+    "explanation": "Triage structures patient flow by identifying those whose lives are in immediate danger so critical care starts without delay. [learn more](GNS315_U2_T2#GNS315_U2_T2_h1)"
   },
   {
-    "question_id": "GNS315_U1_T1_h3_q1",
-    "heading_id": "GNS315_U1_T1_h3",
-    "article_id": "GNS315_U1_T1",
-    "topic_id": "GNS315_U1_T1",
-    "difficulty": "recall",
-    "question": "What does the term 'Golden Hour' refer to in emergency trauma care?",
-    "options": {
-      "A": "The time it takes for a patient to be discharged from the emergency unit",
-      "B": "The duration of a standard nursing shift in the emergency department",
-      "C": "The first sixty minutes after injury where intervention yields the highest survival rate",
-      "D": "The period of time families must wait before visiting a trauma patient"
-    },
-    "answer": "C",
-    "explanation": "Swift medical and surgical action within this vital sixty-minute window drastically reduces trauma mortality. [learn more](GNS315_U1_T1#GNS315_U1_T1_h3)"
-  },
-  {
-    "question_id": "GNS315_U1_T1_h3_q2",
-    "heading_id": "GNS315_U1_T1_h3",
-    "article_id": "GNS315_U1_T1",
-    "topic_id": "GNS315_U1_T1",
+    "question_id": "GNS315_U2_T2_h1_q2",
+    "heading_id": "GNS315_U2_T2_h1",
+    "article_id": "GNS315_U2_T2",
+    "topic_id": "GNS315_U2_T2",
     "difficulty": "understanding",
-    "question": "A patient arrives at the emergency department with sudden, severe chest pain starting twenty minutes ago. How would you classify this onset?",
+    "question": "Why must emergency nurses monitor subtle compensatory mechanisms in acutely ill patients?",
     "options": {
-      "A": "Terminal",
-      "B": "Elective",
-      "C": "Acute",
-      "D": "Chronic"
+      "A": "Compensatory signs mask rapid progression toward sudden physiological decompensation",
+      "B": "Compensatory mechanisms eliminate the need for ongoing laboratory testing",
+      "C": "Early clinical indicators always point toward chronic rather than acute illness",
+      "D": "Vital signs remain entirely normal throughout all stages of severe hemorrhage"
     },
-    "answer": "C",
-    "explanation": "An acute condition features sudden onset and intense symptoms requiring immediate attention. [learn more](GNS315_U1_T1#GNS315_U1_T1_h3)"
+    "answer": "A",
+    "explanation": "The body maintains normal parameters through intense physiological adjustments until sudden, catastrophic collapse occurs if the underlying cause is untreated. [learn more](GNS315_U2_T2#GNS315_U2_T2_h1)"
   },
   {
-    "question_id": "GNS315_U1_T1_h4_q1",
-    "heading_id": "GNS315_U1_T1_h4",
-    "article_id": "GNS315_U1_T1",
-    "topic_id": "GNS315_U1_T1",
+    "question_id": "GNS315_U2_T2_h2_q1",
+    "heading_id": "GNS315_U2_T2_h2",
+    "article_id": "GNS315_U2_T2",
+    "topic_id": "GNS315_U2_T2",
     "difficulty": "recall",
-    "question": "What is the primary purpose of emergency triage?",
+    "question": "Which component of the primary survey evaluates the Glasgow Coma Scale?",
     "options": {
-      "A": "To assign patients to specific medical doctors randomly",
-      "B": "To immediately discharge patients with minor ailments",
-      "C": "To prioritize patients based on clinical urgency and severity",
-      "D": "To collect insurance and billing information from relatives"
-    },
-    "answer": "C",
-    "explanation": "Triage sorts incoming patients so those with life-threatening conditions receive immediate care. [learn more](GNS315_U1_T1#GNS315_U1_T1_h4)"
-  },
-  {
-    "question_id": "GNS315_U1_T1_h4_q2",
-    "heading_id": "GNS315_U1_T1_h4",
-    "article_id": "GNS315_U1_T1",
-    "topic_id": "GNS315_U1_T1",
-    "difficulty": "application",
-    "question": "A patient with severe respiratory distress arrives at the same time as a patient with a mild sprained ankle. According to triage principles, what should happen?",
-    "options": {
-      "A": "The patient with the sprained ankle should be seen first because it is easier to fix.",
-      "B": "The patient in respiratory distress must be prioritized for immediate resuscitation.",
-      "C": "The patients should draw lots to see who is seen first.",
-      "D": "Both patients should be treated together in the same bay."
-    },
-    "answer": "B",
-    "explanation": "Airway and breathing threats represent the highest acuity level and always supersede non-life-threatening injuries. [learn more](GNS315_U1_T1#GNS315_U1_T1_h4)"
-  },
-  {
-    "question_id": "GNS315_U1_T1_h5_q1",
-    "heading_id": "GNS315_U1_T1_h5",
-    "article_id": "GNS315_U1_T1",
-    "topic_id": "GNS315_U1_T1",
-    "difficulty": "recall",
-    "question": "What does the letter 'C' stand for in the primary survey ABCDE framework?",
-    "options": {
-      "A": "Confusion",
-      "B": "Cardiac",
-      "C": "Cough",
+      "A": "Disability",
+      "B": "Exposure",
+      "C": "Airway",
       "D": "Circulation"
     },
-    "answer": "D",
-    "explanation": "C stands for circulation, which involves evaluating pulses, bleeding, and perfusion status. [learn more](GNS315_U1_T1#GNS315_U1_T1_h5)"
-  },
-  {
-    "question_id": "GNS315_U1_T1_h5_q2",
-    "heading_id": "GNS315_U1_T1_h5",
-    "article_id": "GNS315_U1_T1",
-    "topic_id": "GNS315_U1_T1",
-    "difficulty": "understanding",
-    "question": "During the primary survey, when should a nurse proceed from checking the Airway to checking Breathing?",
-    "options": {
-      "A": "After ensuring the airway is clear and patent",
-      "B": "At the exact two-minute mark regardless of findings",
-      "C": "Only after the entire secondary survey is completed",
-      "D": "Only after the physician arrives at the bedside"
-    },
     "answer": "A",
-    "explanation": "The ABCDE approach requires sequential steps; you fix what you find at each letter before advancing to the next. [learn more](GNS315_U1_T1#GNS315_U1_T1_h5)"
+    "explanation": "The disability step assesses neurological function, level of consciousness, and pupillary response using tools like AVPU or the Glasgow Coma Scale. [learn more](GNS315_U2_T2#GNS315_U2_T2_h2)"
   },
   {
-    "question_id": "GNS315_U1_T1_h6_q1",
-    "heading_id": "GNS315_U1_T1_h6",
-    "article_id": "GNS315_U1_T1",
-    "topic_id": "GNS315_U1_T1",
-    "difficulty": "recall",
-    "question": "What does the 'M' in the AMPLE history mnemonic stand for?",
+    "question_id": "GNS315_U2_T2_h2_q2",
+    "heading_id": "GNS315_U2_T2_h2",
+    "article_id": "GNS315_U2_T2",
+    "topic_id": "GNS315_U2_T2",
+    "difficulty": "understanding",
+    "question": "Why is the ABCDE sequence performed in a strict, unvarying order during emergencies?",
     "options": {
-      "A": "Mobility",
-      "B": "Mental status",
-      "C": "Medications",
-      "D": "Muscle tone"
+      "A": "It ensures that diagnostic blood tests are ordered before physical examination",
+      "B": "It is an administrative guideline without direct physiological rationale",
+      "C": "Airway failure causes rapid brain death faster than isolated circulatory compromise",
+      "D": "Circulatory assessments require prior completion of full neurological scoring"
     },
     "answer": "C",
-    "explanation": "M represents current medications, which helps identify potential drug interactions or underlying chronic disease management. [learn more](GNS315_U1_T1#GNS315_U1_T1_h6)"
+    "explanation": "Addressing the airway first prevents immediate asphyxiation, as an uninterrupted oxygen supply is required before treating subsequent organ systems. [learn more](GNS315_U2_T2#GNS315_U2_T2_h2)"
   },
   {
-    "question_id": "GNS315_U1_T1_h6_q2",
-    "heading_id": "GNS315_U1_T1_h6",
-    "article_id": "GNS315_U1_T1",
-    "topic_id": "GNS315_U1_T1",
-    "difficulty": "understanding",
-    "question": "When is the appropriate time to initiate the secondary survey?",
-    "options": {
-      "A": "After life-threatening conditions have been identified and managed in the primary survey",
-      "B": "Immediately upon arrival before checking the airway",
-      "C": "Before the patient even enters the emergency department doors",
-      "D": "Only after the patient has been transferred to the general medical ward"
-    },
-    "answer": "A",
-    "explanation": "The secondary survey is a detailed physical examination performed only after ABCDE stabilization is achieved. [learn more](GNS315_U1_T1#GNS315_U1_T1_h6)"
-  },
-  {
-    "question_id": "GNS315_U1_T1_h7_q1",
-    "heading_id": "GNS315_U1_T1_h7",
-    "article_id": "GNS315_U1_T1",
-    "topic_id": "GNS315_U1_T1",
+    "question_id": "GNS315_U2_T2_h3_q1",
+    "heading_id": "GNS315_U2_T2_h3",
+    "article_id": "GNS315_U2_T2",
+    "topic_id": "GNS315_U2_T2",
     "difficulty": "recall",
-    "question": "What legal concept allows emergency nurses to treat an unconscious trauma patient without explicit verbal consent?",
+    "question": "What is a primary clinical indicator of inadequate tissue perfusion during a cardiovascular emergency?",
     "options": {
-      "A": "Vicarious liability",
-      "B": "Informed waiver",
-      "C": "Expressed consent",
-      "D": "Implied consent"
-    },
-    "answer": "D",
-    "explanation": "Implied consent operates on the legal assumption that an incapacitated person would want emergency life-saving interventions. [learn more](GNS315_U1_T1#GNS315_U1_T1_h7)"
-  },
-  {
-    "question_id": "GNS315_U1_T1_h7_q2",
-    "heading_id": "GNS315_U1_T1_h7",
-    "article_id": "GNS315_U1_T1",
-    "topic_id": "GNS315_U1_T1",
-    "difficulty": "understanding",
-    "question": "How should an emergency nurse handle a gunshot victim brought to the facility without a police report?",
-    "options": {
-      "A": "Refuse treatment until police officers arrive with formal clearance.",
-      "B": "Delay all clinical care while waiting for administrative paperwork.",
-      "C": "Discharge the patient immediately to avoid legal complications.",
-      "D": "Prioritize immediate life-saving medical care and report to authorities afterward."
-    },
-    "answer": "D",
-    "explanation": "Ethical and professional standards dictate that preserving human life takes precedence over administrative or police formalities. [learn more](GNS315_U1_T1#GNS315_U1_T1_h7)"
-  },
-  {
-    "question_id": "GNS315_U1_T11_h1_q1",
-    "heading_id": "GNS315_U1_T11_h1",
-    "article_id": "GNS315_U1_T11",
-    "topic_id": "GNS315_U1_T11",
-    "difficulty": "recall",
-    "question": "What defines a disaster in the context of global health?",
-    "options": {
-      "A": "An event that overwhelms local coping capacity and causes widespread disruption",
-      "B": "An isolated medical emergency affecting a single hospital ward",
-      "C": "Any weather pattern that produces more than ten inches of rainfall",
-      "D": "A structural fire contained by a local fire department"
-    },
-    "answer": "A",
-    "explanation": "A situation is classified as a disaster precisely when the local infrastructure and resources are insufficient to manage the resulting disruption and human impact without external assistance. [learn more](GNS315_U1_T11#GNS315_U1_T11_h1)"
-  },
-  {
-    "question_id": "GNS315_U1_T11_h1_q2",
-    "heading_id": "GNS315_U1_T11_h1",
-    "article_id": "GNS315_U1_T11",
-    "topic_id": "GNS315_U1_T11",
-    "difficulty": "understanding",
-    "question": "Why is the distinction between natural hazards and vulnerabilities crucial for public health?",
-    "options": {
-      "A": "Natural hazards only cause harm when they intersect with vulnerable populations",
-      "B": "Natural hazards are entirely preventable if communities relocate away from rivers",
-      "C": "Vulnerability assessments replace the need for emergency medical stockpiles",
-      "D": "Vulnerabilities can be completely eliminated through modern meteorological forecasting"
-    },
-    "answer": "A",
-    "explanation": "An earthquake in an uninhabited desert is a natural hazard, but the exact same earthquake striking a densely populated city becomes a disaster due to existing structural and human vulnerabilities. [learn more](GNS315_U1_T11#GNS315_U1_T11_h1)"
-  },
-  {
-    "question_id": "GNS315_U1_T11_h2_q1",
-    "heading_id": "GNS315_U1_T11_h2",
-    "article_id": "GNS315_U1_T11",
-    "topic_id": "GNS315_U1_T11",
-    "difficulty": "recall",
-    "question": "Which category of natural disasters has shown the most significant increase in frequency over recent decades?",
-    "options": {
-      "A": "Major tectonic plate shifts and deep-fault earthquakes",
-      "B": "Climate-related events such as floods and storms",
-      "C": "Meteorite impacts and geomagnetic storms",
-      "D": "Deep-ocean volcanic eruptions and tsunamis"
+      "A": "Elevated serum potassium",
+      "B": "Altered mental status",
+      "C": "Increased urine output",
+      "D": "Bilateral pedal edema"
     },
     "answer": "B",
-    "explanation": "Global epidemiological tracking demonstrates that weather and climate-related hazards are multiplying rapidly, largely driven by environmental changes and warming global temperatures. [learn more](GNS315_U1_T11#GNS315_U1_T11_h2)"
+    "explanation": "When blood pressure and cardiac output drop, cerebral hypoperfusion quickly manifests as confusion, lethargy, or unresponsiveness. [learn more](GNS315_U2_T2#GNS315_U2_T2_h3)"
   },
   {
-    "question_id": "GNS315_U1_T11_h2_q2",
-    "heading_id": "GNS315_U1_T11_h2",
-    "article_id": "GNS315_U1_T11",
-    "topic_id": "GNS315_U1_T11",
-    "difficulty": "understanding",
-    "question": "What characterizes a complex humanitarian emergency?",
-    "options": {
-      "A": "A single acute industrial explosion occurring in an urban chemical plant",
-      "B": "The combination of natural hazards and prolonged civil conflict or political collapse",
-      "C": "An infectious disease outbreak that remains contained within a single hospital",
-      "D": "A localized earthquake followed immediately by an effective national rescue response"
-    },
-    "answer": "B",
-    "explanation": "Complex emergencies involve multiple systemic failures, often combining environmental shocks with ongoing warfare or institutional breakdown, making relief efforts exceptionally difficult. [learn more](GNS315_U1_T11#GNS315_U1_T11_h2)"
-  },
-  {
-    "question_id": "GNS315_U1_T11_h3_q1",
-    "heading_id": "GNS315_U1_T11_h3",
-    "article_id": "GNS315_U1_T11",
-    "topic_id": "GNS315_U1_T11",
-    "difficulty": "recall",
-    "question": "Which condition is classified as an indirect health impact of a flood disaster?",
-    "options": {
-      "A": "A waterborne disease outbreak from contaminated drinking supplies",
-      "B": "Acute traumatic amputations from structural machinery failure",
-      "C": "Crush injuries sustained from a collapsing concrete ceiling",
-      "D": "Immediate lacerations caused by flying debris during a hurricane"
-    },
-    "answer": "A",
-    "explanation": "Direct impacts happen at the moment of the event, whereas indirect impacts develop afterward as a secondary consequence of damaged infrastructure and environmental changes. [learn more](GNS315_U1_T11#GNS315_U1_T11_h3)"
-  },
-  {
-    "question_id": "GNS315_U1_T11_h3_q2",
-    "heading_id": "GNS315_U1_T11_h3",
-    "article_id": "GNS315_U1_T11",
-    "topic_id": "GNS315_U1_T11",
+    "question_id": "GNS315_U2_T2_h3_q2",
+    "heading_id": "GNS315_U2_T2_h3",
+    "article_id": "GNS315_U2_T2",
+    "topic_id": "GNS315_U2_T2",
     "difficulty": "application",
-    "question": "A community displaced by an earthquake is living in an overcrowded temporary camp with limited sanitation. Which health threat should the nursing team prioritize monitoring?",
+    "question": "A patient presents with sudden severe chest pain, diaphoresis, and a blood pressure of 80/50 mmHg. Which immediate action aligns with hemodynamic crisis management?",
     "options": {
-      "A": "Degenerative neurological conditions and dementia",
-      "B": "Occupational repetitive strain injuries",
-      "C": "Genetic disorders and congenital birth defects",
-      "D": "Diarrheal diseases and acute respiratory infections"
+      "A": "Initiating passive range of motion exercises to improve venous return",
+      "B": "Administering oral antacids for suspected primary gastrointestinal reflux",
+      "C": "Discharging the patient with instructions to follow up at a general clinic",
+      "D": "Establishing intravenous access and preparing for emergent resuscitation"
     },
     "answer": "D",
-    "explanation": "Overcrowded displacement settings with compromised sanitation create prime conditions for the rapid spread of waterborne pathogens and airborne respiratory infections. [learn more](GNS315_U1_T11#GNS315_U1_T11_h3)"
+    "explanation": "Hypotension combined with cardiac chest pain indicates cardiogenic instability requiring immediate vascular access and critical care intervention. [learn more](GNS315_U2_T2#GNS315_U2_T2_h3)"
   },
   {
-    "question_id": "GNS315_U1_T11_h4_q1",
-    "heading_id": "GNS315_U1_T11_h4",
-    "article_id": "GNS315_U1_T11",
-    "topic_id": "GNS315_U1_T11",
+    "question_id": "GNS315_U2_T2_h4_q1",
+    "heading_id": "GNS315_U2_T2_h4",
+    "article_id": "GNS315_U2_T2",
+    "topic_id": "GNS315_U2_T2",
     "difficulty": "recall",
-    "question": "Which factor is a primary driver of high disaster mortality in low-resource settings?",
+    "question": "Which physical finding is most characteristic of a tension pneumothorax?",
     "options": {
-      "A": "Fragile physical infrastructure and scarce emergency medical services",
-      "B": "Abundant financial reserves held by municipal governments",
-      "C": "An excess of highly specialized tertiary care intensive care units",
-      "D": "Strict enforcement of modern building safety codes"
-    },
-    "answer": "A",
-    "explanation": "Limited structural integrity in housing and roads combined with weak healthcare systems significantly increases the risk of severe injury and death during emergencies. [learn more](GNS315_U1_T11#GNS315_U1_T11_h4)"
-  },
-  {
-    "question_id": "GNS315_U1_T11_h4_q2",
-    "heading_id": "GNS315_U1_T11_h4",
-    "article_id": "GNS315_U1_T11",
-    "topic_id": "GNS315_U1_T11",
-    "difficulty": "understanding",
-    "question": "Why are marginalized populations disproportionately affected by disasters?",
-    "options": {
-      "A": "Governments always prioritize urban elite populations during relief operations",
-      "B": "They lack the financial and social resources needed to evacuate, rebuild, or access care",
-      "C": "They possess higher physiological resistance to infectious disease outbreaks",
-      "D": "They deliberately choose to live in high-risk disaster zones for cultural reasons"
-    },
-    "answer": "B",
-    "explanation": "Socioeconomic marginalization strips individuals of the safety nets, savings, and alternative housing options required to withstand and recover from environmental shocks. [learn more](GNS315_U1_T11#GNS315_U1_T11_h4)"
-  },
-  {
-    "question_id": "GNS315_U1_T11_h5_q1",
-    "heading_id": "GNS315_U1_T11_h5",
-    "article_id": "GNS315_U1_T11",
-    "topic_id": "GNS315_U1_T11",
-    "difficulty": "recall",
-    "question": "What is a primary economic consequence of a major disaster for affected households?",
-    "options": {
-      "A": "Enhanced job security across all employment sectors",
-      "B": "Immediate increases in median household savings rates",
-      "C": "Impoverishment resulting from asset loss and medical expenditures",
-      "D": "A permanent surplus in local agricultural production"
+      "A": "Symmetrical bilateral chest wall expansion",
+      "B": "Bradycardia and elevated blood pressure",
+      "C": "Tracheal deviation away from the affected side",
+      "D": "Loud vesicular breath sounds across both lungs"
     },
     "answer": "C",
-    "explanation": "Families frequently lose their homes, livelihoods, and savings, while simultaneously facing high costs for emergency medical care and temporary shelter. [learn more](GNS315_U1_T11#GNS315_U1_T11_h5)"
+    "explanation": "Increasing intrapleural pressure in a tension pneumothorax pushes mediastinal structures, causing the trachea to shift toward the unaffected side. [learn more](GNS315_U2_T2#GNS315_U2_T2_h4)"
   },
   {
-    "question_id": "GNS315_U1_T11_h5_q2",
-    "heading_id": "GNS315_U1_T11_h5",
-    "article_id": "GNS315_U1_T11",
-    "topic_id": "GNS315_U1_T11",
+    "question_id": "GNS315_U2_T2_h4_q2",
+    "heading_id": "GNS315_U2_T2_h4",
+    "article_id": "GNS315_U2_T2",
+    "topic_id": "GNS315_U2_T2",
     "difficulty": "understanding",
-    "question": "How do disasters impact community social structures?",
+    "question": "Why is a silent chest during an acute asthma exacerbation considered an ominous sign?",
     "options": {
-      "A": "By causing family separation, school closures, and the breakdown of local support networks",
-      "B": "By immediately strengthening local governance and municipal institutions",
-      "C": "By eliminating social inequality and establishing permanent economic parity",
-      "D": "By increasing civic engagement through uninterrupted daily routines"
-    },
-    "answer": "A",
-    "explanation": "The chaos of displacement and infrastructure destruction tears apart the social fabric and support systems that communities rely on for daily survival and psychological well-being. [learn more](GNS315_U1_T11#GNS315_U1_T11_h5)"
-  },
-  {
-    "question_id": "GNS315_U1_T11_h6_q1",
-    "heading_id": "GNS315_U1_T11_h6",
-    "article_id": "GNS315_U1_T11",
-    "topic_id": "GNS315_U1_T11",
-    "difficulty": "recall",
-    "question": "What is the primary shift in modern international disaster management strategies?",
-    "options": {
-      "A": "Eliminating all international humanitarian aid organizations entirely",
-      "B": "Focusing exclusively on post-disaster financial reimbursement",
-      "C": "Moving from purely reactive relief to proactive disaster risk reduction",
-      "D": "Relying solely on military intervention during health crises"
+      "A": "It indicates that bronchodilator therapy has completely resolved the bronchospasm",
+      "B": "Secretions have cleared from the major bronchi, improving air entry",
+      "C": "Air movement is so severely restricted that wheezing can no longer be generated",
+      "D": "The patient has transitioned from respiratory distress to normal ventilation"
     },
     "answer": "C",
-    "explanation": "Modern global frameworks prioritize anticipation, mitigation, and preparedness to prevent hazards from escalating into full-scale catastrophic emergencies. [learn more](GNS315_U1_T11#GNS315_U1_T11_h6)"
+    "explanation": "A silent chest means airflow is virtually absent, signaling imminent respiratory arrest rather than clinical improvement. [learn more](GNS315_U2_T2#GNS315_U2_T2_h4)"
   },
   {
-    "question_id": "GNS315_U1_T11_h6_q2",
-    "heading_id": "GNS315_U1_T11_h6",
-    "article_id": "GNS315_U1_T11",
-    "topic_id": "GNS315_U1_T11",
-    "difficulty": "understanding",
-    "question": "Which intervention best exemplifies Disaster Risk Reduction (DRR) in a healthcare setting?",
+    "question_id": "GNS315_U2_T2_h5_q1",
+    "heading_id": "GNS315_U2_T2_h5",
+    "article_id": "GNS315_U2_T2",
+    "topic_id": "GNS315_U2_T2",
+    "difficulty": "recall",
+    "question": "What is the initial bedside test required for any patient presenting with acute altered mental status?",
     "options": {
-      "A": "Reducing the number of nursing staff on duty during rainy seasons",
-      "B": "Relying entirely on foreign NGOs for local emergency planning",
-      "C": "Waiting for a flood to occur before ordering emergency medical supplies",
-      "D": "Retrofitting a district hospital to withstand high-magnitude earthquakes"
+      "A": "Cerebrospinal fluid protein assay",
+      "B": "Complete blood cell count analysis",
+      "C": "Electrocardiogram rhythm strip",
+      "D": "Capillary blood glucose measurement"
     },
     "answer": "D",
-    "explanation": "Reinforcing health infrastructure before a disaster strikes ensures that facilities remain operational to treat the injured when an emergency actually occurs. [learn more](GNS315_U1_T11#GNS315_U1_T11_h6)"
+    "explanation": "Hypoglycemia mimics many primary neurological emergencies and must be immediately identified and treated at the bedside. [learn more](GNS315_U2_T2#GNS315_U2_T2_h5)"
   },
   {
-    "question_id": "GNS315_U1_T11_h7_q1",
-    "heading_id": "GNS315_U1_T11_h7",
-    "article_id": "GNS315_U1_T11",
-    "topic_id": "GNS315_U1_T11",
-    "difficulty": "recall",
-    "question": "Which clinical skill is essential for nurses during the immediate response phase of a disaster?",
-    "options": {
-      "A": "International border policy negotiation",
-      "B": "Long-term macroeconomic impact forecasting",
-      "C": "Mass casualty triage and rapid injury assessment",
-      "D": "Architectural structural engineering design"
-    },
-    "answer": "C",
-    "explanation": "During mass casualty events, nurses must quickly prioritize patients based on injury severity to allocate scarce medical resources effectively and save maximum lives. [learn more](GNS315_U1_T11#GNS315_U1_T11_h7)"
-  },
-  {
-    "question_id": "GNS315_U1_T11_h7_q2",
-    "heading_id": "GNS315_U1_T11_h7",
-    "article_id": "GNS315_U1_T11",
-    "topic_id": "GNS315_U1_T11",
+    "question_id": "GNS315_U2_T2_h5_q2",
+    "heading_id": "GNS315_U2_T2_h5",
+    "article_id": "GNS315_U2_T2",
+    "topic_id": "GNS315_U2_T2",
     "difficulty": "understanding",
-    "question": "Why is disaster preparedness training considered a core competency for modern nursing practice?",
+    "question": "What is the primary danger associated with prolonged status epilepticus?",
     "options": {
-      "A": "Clinical nursing duties never involve public health or community outreach",
-      "B": "Nurses are frontline responders who must manage clinical surges and maintain care continuity",
-      "C": "Nurses are legally required to fund local emergency response shelters",
-      "D": "Disasters only affect isolated rural clinics rather than urban hospitals"
-    },
-    "answer": "B",
-    "explanation": "Because nurses make up the largest segment of the healthcare workforce, their preparedness directly determines how effectively a health system responds to sudden shocks and protects community health. [learn more](GNS315_U1_T11#GNS315_U1_T11_h7)"
-  },
-  {
-    "question_id": "GNS315_U1_T12_h1_q1",
-    "heading_id": "GNS315_U1_T12_h1",
-    "article_id": "GNS315_U1_T12",
-    "topic_id": "GNS315_U1_T12",
-    "difficulty": "recall",
-    "question": "What primary condition distinguishes a disaster from a routine local emergency?",
-    "options": {
-      "A": "It requires military intervention rather than medical care",
-      "B": "It exceeds the coping capacity of the affected community",
-      "C": "It strictly involves large-scale industrial machinery failures",
-      "D": "It only occurs during the rainy season in rural regions"
-    },
-    "answer": "B",
-    "explanation": "A disaster is officially defined by its ability to overwhelm local resources and coping mechanisms, requiring external assistance. [learn more](GNS315_U1_T12#GNS315_U1_T12_h1)"
-  },
-  {
-    "question_id": "GNS315_U1_T12_h1_q2",
-    "heading_id": "GNS315_U1_T12_h1",
-    "article_id": "GNS315_U1_T12",
-    "topic_id": "GNS315_U1_T12",
-    "difficulty": "understanding",
-    "question": "Why is examining underlying structural weaknesses essential for understanding local disasters in Nigeria?",
-    "options": {
-      "A": "Structural weaknesses transform normal hazards into catastrophic events",
-      "B": "Building codes are uniformly enforced across all rural and urban zones",
-      "C": "Natural hazards never cause severe damage without human sabotage",
-      "D": "Economic factors have little influence on how communities face hazards"
+      "A": "Permanent neuronal injury caused by sustained metabolic exhaustion",
+      "B": "Immediate development of chronic peripheral neuropathy",
+      "C": "Rapid onset of severe iron deficiency anemia",
+      "D": "Sudden permanent paralysis of the upper extremities"
     },
     "answer": "A",
-    "explanation": "Vulnerabilities such as poor infrastructure and poverty turn environmental hazards into full-scale disasters by reducing community resilience. [learn more](GNS315_U1_T12#GNS315_U1_T12_h1)"
+    "explanation": "Continuous seizure activity deprives the brain of oxygen and glucose while increasing metabolic demand, leading to irreversible cellular death. [learn more](GNS315_U2_T2#GNS315_U2_T2_h5)"
   },
   {
-    "question_id": "GNS315_U1_T12_h2_q1",
-    "heading_id": "GNS315_U1_T12_h2",
-    "article_id": "GNS315_U1_T12",
-    "topic_id": "GNS315_U1_T12",
+    "question_id": "GNS315_U2_T2_h6_q1",
+    "heading_id": "GNS315_U2_T2_h6",
+    "article_id": "GNS315_U2_T2",
+    "topic_id": "GNS315_U2_T2",
     "difficulty": "recall",
-    "question": "Which natural hazard is the most geographically widespread across Nigeria?",
+    "question": "Which type of shock is primarily caused by acute, massive internal or external blood loss?",
     "options": {
-      "A": "Tsunami",
-      "B": "Tornado",
-      "C": "Flooding",
-      "D": "Volcanic eruption"
-    },
-    "answer": "C",
-    "explanation": "Annual heavy rainfall and overflow of major river basins make widespread flooding the most common natural disaster in Nigeria. [learn more](GNS315_U1_T12#GNS315_U1_T12_h2)"
-  },
-  {
-    "question_id": "GNS315_U1_T12_h2_q2",
-    "heading_id": "GNS315_U1_T12_h2",
-    "article_id": "GNS315_U1_T12",
-    "topic_id": "GNS315_U1_T12",
-    "difficulty": "understanding",
-    "question": "A patient arrives at a tertiary hospital following a major highway collision. What category of disaster burden does this incident represent?",
-    "options": {
-      "A": "A complex geological hazard",
-      "B": "A biological pandemic outbreak",
-      "C": "A human-induced mass casualty incident",
-      "D": "A slow-onset climatic drought"
-    },
-    "answer": "C",
-    "explanation": "Road traffic accidents resulting from infrastructure failures and human error are classified as human-induced mass casualty events. [learn more](GNS315_U1_T12#GNS315_U1_T12_h2)"
-  },
-  {
-    "question_id": "GNS315_U1_T12_h3_q1",
-    "heading_id": "GNS315_U1_T12_h3",
-    "article_id": "GNS315_U1_T12",
-    "topic_id": "GNS315_U1_T12",
-    "difficulty": "recall",
-    "question": "Petroleum pipeline explosions and industrial chemical spills belong to which disaster category?",
-    "options": {
-      "A": "Climatic droughts",
-      "B": "Geological hazards",
-      "C": "Technological disasters",
-      "D": "Biological outbreaks"
-    },
-    "answer": "C",
-    "explanation": "Technological or human-made disasters involve industrial accidents, structural failures, and hazardous material spills. [learn more](GNS315_U1_T12#GNS315_U1_T12_h3)"
-  },
-  {
-    "question_id": "GNS315_U1_T12_h3_q2",
-    "heading_id": "GNS315_U1_T12_h3",
-    "article_id": "GNS315_U1_T12",
-    "topic_id": "GNS315_U1_T12",
-    "difficulty": "understanding",
-    "question": "Which of the following scenarios is categorized as a conflict-induced crisis?",
-    "options": {
-      "A": "Severe agricultural loss caused by prolonged seasonal drought",
-      "B": "A sudden outbreak of Lassa fever in a rural health center",
-      "C": "Displacement resulting from violent communal clashes over grazing land",
-      "D": "A structural collapse of an uncompleted multi-story commercial building"
-    },
-    "answer": "C",
-    "explanation": "Communal clashes and insurgency represent human conflicts that directly cause displacement and societal disruption. [learn more](GNS315_U1_T12#GNS315_U1_T12_h3)"
-  },
-  {
-    "question_id": "GNS315_U1_T12_h4_q1",
-    "heading_id": "GNS315_U1_T12_h4",
-    "article_id": "GNS315_U1_T12",
-    "topic_id": "GNS315_U1_T12",
-    "difficulty": "recall",
-    "question": "What is an immediate effect of disasters on local healthcare facilities?",
-    "options": {
-      "A": "Healthcare workers experience a permanent reduction in daily workloads",
-      "B": "They are frequently damaged, looted, or overwhelmed by trauma cases",
-      "C": "They automatically receive an excess of specialized medical supplies",
-      "D": "Routine immunization coverage immediately triples in the affected zone"
-    },
-    "answer": "B",
-    "explanation": "Disasters strain healthcare infrastructure by destroying physical facilities and overwhelming staff with sudden patient surges. [learn more](GNS315_U1_T12#GNS315_U1_T12_h4)"
-  },
-  {
-    "question_id": "GNS315_U1_T12_h4_q2",
-    "heading_id": "GNS315_U1_T12_h4",
-    "article_id": "GNS315_U1_T12",
-    "topic_id": "GNS315_U1_T12",
-    "difficulty": "understanding",
-    "question": "Why do maternal and child health outcomes worsen significantly following a major community disaster?",
-    "options": {
-      "A": "Nutritional supplies automatically increase beyond normal community demand",
-      "B": "Pregnant women are universally relocated to fully equipped urban centers",
-      "C": "Essential supply chains break down and routine care services collapse",
-      "D": "Traditional birth attendants take over all obstetric hospital services"
-    },
-    "answer": "C",
-    "explanation": "The destruction of health infrastructure and disrupted supply chains cut off access to vital antenatal and emergency obstetric care. [learn more](GNS315_U1_T12#GNS315_U1_T12_h4)"
-  },
-  {
-    "question_id": "GNS315_U1_T12_h5_q1",
-    "heading_id": "GNS315_U1_T12_h5",
-    "article_id": "GNS315_U1_T12",
-    "topic_id": "GNS315_U1_T12",
-    "difficulty": "recall",
-    "question": "Which group faces heightened safety risks and unique caregiving burdens during displacement crises?",
-    "options": {
-      "A": "Wealthy urban elites",
-      "B": "Private security contractors",
-      "C": "Federal disaster officials",
-      "D": "Women and girls"
+      "A": "Cardiogenic shock",
+      "B": "Anaphylactic shock",
+      "C": "Neurogenic shock",
+      "D": "Hypovolemic shock"
     },
     "answer": "D",
-    "explanation": "Women and girls frequently shoulder heavy caregiving responsibilities and experience increased exposure to protection risks during crises. [learn more](GNS315_U1_T12#GNS315_U1_T12_h5)"
+    "explanation": "Hypovolemic shock occurs when intravascular volume drops significantly, failing to maintain adequate cardiac preload and tissue perfusion. [learn more](GNS315_U2_T2#GNS315_U2_T2_h6)"
   },
   {
-    "question_id": "GNS315_U1_T12_h5_q2",
-    "heading_id": "GNS315_U1_T12_h5",
-    "article_id": "GNS315_U1_T12",
-    "topic_id": "GNS315_U1_T12",
+    "question_id": "GNS315_U2_T2_h6_q2",
+    "heading_id": "GNS315_U2_T2_h6",
+    "article_id": "GNS315_U2_T2",
+    "topic_id": "GNS315_U2_T2",
     "difficulty": "understanding",
-    "question": "Why are impoverished populations living in informal urban settlements disproportionately affected by natural hazards?",
+    "question": "How does distributive shock fundamentally differ from hypovolemic shock?",
     "options": {
-      "A": "They are legally mandated by local authorities to settle in high-risk zones",
-      "B": "They lack the financial resources to relocate or structurally reinforce their homes",
-      "C": "They possess advanced technology that attracts severe environmental storms",
-      "D": "They receive exclusive priority during post-disaster governmental relief"
-    },
-    "answer": "B",
-    "explanation": "Poverty forces vulnerable groups into hazardous environments without the means to protect their dwellings or evacuate safely. [learn more](GNS315_U1_T12#GNS315_U1_T12_h5)"
-  },
-  {
-    "question_id": "GNS315_U1_T12_h6_q1",
-    "heading_id": "GNS315_U1_T12_h6",
-    "article_id": "GNS315_U1_T12",
-    "topic_id": "GNS315_U1_T12",
-    "difficulty": "recall",
-    "question": "What is the primary national body responsible for coordinating disaster management policies in Nigeria?",
-    "options": {
-      "A": "National Emergency Management Agency",
-      "B": "Primary Health Care Development Agency",
-      "C": "Nigerian Medical Association",
-      "D": "Nigerian Red Cross Society"
+      "A": "Distributive shock involves inappropriate peripheral vasodilation rather than actual fluid loss",
+      "B": "Hypovolemic shock results from primary myocardial pump failure",
+      "C": "Distributive shock is exclusively caused by blunt mechanical trauma",
+      "D": "Hypovolemic shock responds better to systemic antibiotic therapy"
     },
     "answer": "A",
-    "explanation": "NEMA is the federal agency mandated to establish disaster management policies and coordinate national response operations. [learn more](GNS315_U1_T12#GNS315_U1_T12_h6)"
+    "explanation": "In distributive shock, fluid is maldistributed due to massive vasodilation, creating relative hypovolemia despite normal total body fluid volume. [learn more](GNS315_U2_T2#GNS315_U2_T2_h6)"
   },
   {
-    "question_id": "GNS315_U1_T12_h6_q2",
-    "heading_id": "GNS315_U1_T12_h6",
-    "article_id": "GNS315_U1_T12",
-    "topic_id": "GNS315_U1_T12",
-    "difficulty": "understanding",
-    "question": "What is a frequent operational challenge faced by emergency management frameworks at the grassroots level in Nigeria?",
-    "options": {
-      "A": "Delayed funding disbursement and poor inter-agency communication",
-      "B": "Excessive infrastructural funding provided directly to villages",
-      "C": "Instantaneous electronic communication across all rural districts",
-      "D": "An overwhelming surplus of highly trained volunteer rescue personnel"
-    },
-    "answer": "A",
-    "explanation": "Bureaucratic bottlenecks, communication gaps, and funding delays often hinder rapid responses at local government levels. [learn more](GNS315_U1_T12#GNS315_U1_T12_h6)"
-  },
-  {
-    "question_id": "GNS315_U1_T12_h7_q1",
-    "heading_id": "GNS315_U1_T12_h7",
-    "article_id": "GNS315_U1_T12",
-    "topic_id": "GNS315_U1_T12",
+    "question_id": "GNS315_U2_T2_h7_q1",
+    "heading_id": "GNS315_U2_T2_h7",
+    "article_id": "GNS315_U2_T2",
+    "topic_id": "GNS315_U2_T2",
     "difficulty": "recall",
-    "question": "During which phase of the disaster management cycle do nurses actively conduct community vulnerability assessments and training?",
+    "question": "Which electrolyte disturbance is most notorious for causing life-threatening cardiac arrhythmias?",
     "options": {
-      "A": "Long-term economic auditing",
-      "B": "Mitigation and preparedness",
-      "C": "Post-disaster structural demolition",
-      "D": "Immediate mass evacuation"
-    },
-    "answer": "B",
-    "explanation": "Preparation and mitigation involve proactive risk assessment, community education, and training before a disaster occurs. [learn more](GNS315_U1_T12#GNS315_U1_T12_h7)"
-  },
-  {
-    "question_id": "GNS315_U1_T12_h7_q2",
-    "heading_id": "GNS315_U1_T12_h7",
-    "article_id": "GNS315_U1_T12",
-    "topic_id": "GNS315_U1_T12",
-    "difficulty": "understanding",
-    "question": "A community health nurse organizes a workshop to teach villagers basic triage and first aid before the rainy season. Which concept does this activity best demonstrate?",
-    "options": {
-      "A": "Building community resilience through disaster preparedness",
-      "B": "Conducting forensic investigations into industrial disasters",
-      "C": "Treating acute trauma during the peak of an active flood",
-      "D": "Managing bureaucratic funding delays within state agencies"
-    },
-    "answer": "A",
-    "explanation": "Proactive community education and training enhance local coping capacity and resilience ahead of anticipated hazards. [learn more](GNS315_U1_T12#GNS315_U1_T12_h7)"
-  },
-  {
-    "question_id": "GNS315_U1_T12_h8_q1",
-    "heading_id": "GNS315_U1_T12_h8",
-    "article_id": "GNS315_U1_T12",
-    "topic_id": "GNS315_U1_T12",
-    "difficulty": "recall",
-    "question": "Which clinical condition is a nurse most likely to manage among survivors residing in crowded post-disaster displacement camps?",
-    "options": {
-      "A": "Congenital metabolic disorders",
-      "B": "Chronic autoimmune neuro-degeneration",
-      "C": "Acute altitude sickness",
-      "D": "Waterborne diseases like cholera"
+      "A": "Hypermagnesemia",
+      "B": "Hyponatremia",
+      "C": "Hypocalcemia",
+      "D": "Hyperkalemia"
     },
     "answer": "D",
-    "explanation": "Crowded living conditions and compromised sanitation systems in displacement camps frequently spark outbreaks of waterborne infections. [learn more](GNS315_U1_T12#GNS315_U1_T12_h8)"
+    "explanation": "Elevated serum potassium levels significantly alter cardiac membrane potentials, leading to dangerous conduction blocks and fatal arrhythmias. [learn more](GNS315_U2_T2#GNS315_U2_T2_h7)"
   },
   {
-    "question_id": "GNS315_U1_T12_h8_q2",
-    "heading_id": "GNS315_U1_T12_h8",
-    "article_id": "GNS315_U1_T12",
-    "topic_id": "GNS315_U1_T12",
+    "question_id": "GNS315_U2_T2_h7_q2",
+    "heading_id": "GNS315_U2_T2_h7",
+    "article_id": "GNS315_U2_T2",
+    "topic_id": "GNS315_U2_T2",
     "difficulty": "understanding",
-    "question": "What is NOT a typical challenge faced by nurses providing care during the recovery phase of a disaster?",
+    "question": "What is the primary physiological consequence of untreated diabetic ketoacidosis?",
     "options": {
-      "A": "Addressing psychological trauma and post-traumatic stress symptoms",
-      "B": "Management of chronic disease relapses due to lost medication",
-      "C": "Overcoming logistical delays in infrastructure rehabilitation",
-      "D": "An instant surplus of permanent housing and modern medical facilities"
+      "A": "Severe metabolic acidosis driven by unbuffered ketone accumulation",
+      "B": "Massive systemic vasoconstriction leading to immediate hypertension",
+      "C": "Excessive retention of serum potassium within the intracellular space",
+      "D": "Rapid proliferation of anaerobic bacteria in the bloodstream"
+    },
+    "answer": "A",
+    "explanation": "Insulin deficiency forces lipolysis, producing acidic ketone bodies that overwhelm blood buffering systems and trigger profound metabolic acidosis. [learn more](GNS315_U2_T2#GNS315_U2_T2_h7)"
+  },
+  {
+    "question_id": "GNS315_U2_T2_h8_q1",
+    "heading_id": "GNS315_U2_T2_h8",
+    "article_id": "GNS315_U2_T2",
+    "topic_id": "GNS315_U2_T2",
+    "difficulty": "recall",
+    "question": "When managing multiple critically ill patients simultaneously, what guides the nurse's order of intervention?",
+    "options": {
+      "A": "Prioritizing individuals who have family members present at the bedside",
+      "B": "Focusing exclusively on patients who require minor diagnostic laboratory tests",
+      "C": "Treating patients in the exact chronological order of their hospital arrival",
+      "D": "Addressing conditions that pose an immediate threat to life first"
     },
     "answer": "D",
-    "explanation": "Post-disaster recovery is characterized by severe resource scarcity and delayed rehabilitation, not an instant surplus of modern facilities. [learn more](GNS315_U1_T12#GNS315_U1_T12_h8)"
+    "explanation": "Emergency nursing prioritization dictates that life-threatening airway, breathing, or circulation failures are always managed before stable or non-urgent problems. [learn more](GNS315_U2_T2#GNS315_U2_T2_h8)"
+  },
+  {
+    "question_id": "GNS315_U2_T2_h8_q2",
+    "heading_id": "GNS315_U2_T2_h8",
+    "article_id": "GNS315_U2_T2",
+    "topic_id": "GNS315_U2_T2",
+    "difficulty": "understanding",
+    "question": "Why is continuous reassessment essential following an initial emergency nursing intervention?",
+    "options": {
+      "A": "Initial assessment findings are generally unreliable and must be completely replaced",
+      "B": "Clinical status can rapidly deteriorate or fail to respond to the initial therapy",
+      "C": "It eliminates the need for physician notification during critical care shifts",
+      "D": "Hospital accreditation standards require hourly vital sign documentation"
+    },
+    "answer": "B",
+    "explanation": "Dynamic critical conditions require ongoing evaluation to verify that interventions are working and to catch sudden secondary declines early. [learn more](GNS315_U2_T2#GNS315_U2_T2_h8)"
+  },
+  {
+    "question_id": "GNS315_U2_T3_h1_q1",
+    "heading_id": "GNS315_U2_T3_h1",
+    "article_id": "GNS315_U2_T3",
+    "topic_id": "GNS315_U2_T3",
+    "difficulty": "recall",
+    "question": "An acute myocardial infarction is classified as which type of emergency?",
+    "options": {
+      "A": "Medical emergency",
+      "B": "Environmental emergency",
+      "C": "Traumatic emergency",
+      "D": "Iatrogenic emergency"
+    },
+    "answer": "A",
+    "explanation": "Medical emergencies originate from internal disease processes and systemic pathophysiological failures rather than external physical forces. [learn more](GNS315_U2_T3#GNS315_U2_T3_h1)"
+  },
+  {
+    "question_id": "GNS315_U2_T3_h1_q2",
+    "heading_id": "GNS315_U2_T3_h1",
+    "article_id": "GNS315_U2_T3",
+    "topic_id": "GNS315_U2_T3",
+    "difficulty": "understanding",
+    "question": "What is the primary difference in management focus between traumatic and medical emergencies?",
+    "options": {
+      "A": "Medical emergencies never require pharmacological intervention",
+      "B": "Traumatic emergencies require hemorrhage control and structural assessment",
+      "C": "Medical emergencies are caused entirely by external physical forces",
+      "D": "Traumatic emergencies exclusively occur in hospital settings"
+    },
+    "answer": "B",
+    "explanation": "External physical forces in trauma necessitate prioritizing physical stability, bleeding cessation, and structural injury identification. [learn more](GNS315_U2_T3#GNS315_U2_T3_h1)"
+  },
+  {
+    "question_id": "GNS315_U2_T3_h2_q1",
+    "heading_id": "GNS315_U2_T3_h2",
+    "article_id": "GNS315_U2_T3",
+    "topic_id": "GNS315_U2_T3",
+    "difficulty": "recall",
+    "question": "A core body temperature exceeding 40 degrees Celsius accompanied by altered mental status is characteristic of which environmental crisis?",
+    "options": {
+      "A": "Hypothermia",
+      "B": "Heat exhaustion",
+      "C": "Dehydration",
+      "D": "Heatstroke"
+    },
+    "answer": "D",
+    "explanation": "Heatstroke is a severe medical emergency defined by a dangerous rise in core body temperature coupled with neurological symptoms. [learn more](GNS315_U2_T3#GNS315_U2_T3_h2)"
+  },
+  {
+    "question_id": "GNS315_U2_T3_h2_q2",
+    "heading_id": "GNS315_U2_T3_h2",
+    "article_id": "GNS315_U2_T3",
+    "topic_id": "GNS315_U2_T3",
+    "difficulty": "understanding",
+    "question": "Why do flooding events frequently lead to sharp increases in waterborne diseases?",
+    "options": {
+      "A": "Floods directly deactivate oral rehydration therapy stocks",
+      "B": "Rainwater alters the chemical pH of human bloodstreams",
+      "C": "Floodwaters easily contaminate public and private drinking water sources",
+      "D": "Standing water causes immediate hypothermia in affected populations"
+    },
+    "answer": "C",
+    "explanation": "Overflowing sewage systems and surface run-off mix with clean water supplies during floods, spreading pathogens rapidly. [learn more](GNS315_U2_T3#GNS315_U2_T3_h2)"
+  },
+  {
+    "question_id": "GNS315_U2_T3_h3_q1",
+    "heading_id": "GNS315_U2_T3_h3",
+    "article_id": "GNS315_U2_T3",
+    "topic_id": "GNS315_U2_T3",
+    "difficulty": "recall",
+    "question": "What is the single most common man-made cause of severe polytrauma in Nigeria?",
+    "options": {
+      "A": "Industrial chemical spills",
+      "B": "Structural building collapses",
+      "C": "Road traffic crashes",
+      "D": "Electrical power surges"
+    },
+    "answer": "C",
+    "explanation": "High rates of vehicular transit incidents make road traffic crashes a primary driver of traumatic emergency admissions. [learn more](GNS315_U2_T3#GNS315_U2_T3_h3)"
+  },
+  {
+    "question_id": "GNS315_U2_T3_h3_q2",
+    "heading_id": "GNS315_U2_T3_h3",
+    "article_id": "GNS315_U2_T3",
+    "topic_id": "GNS315_U2_T3",
+    "difficulty": "understanding",
+    "question": "Why is inducing vomiting contraindicated when a child accidentally swallows kerosene?",
+    "options": {
+      "A": "It immediately precipitates acute renal failure",
+      "B": "It lowers the patient's core body temperature dangerously",
+      "C": "It causes further chemical damage to the esophageal mucosa",
+      "D": "It neutralizes the systemic absorption of the hydrocarbon"
+    },
+    "answer": "C",
+    "explanation": "Passing corrosive or hydrocarbon agents back up the esophagus exposes delicate tissues to a second round of chemical burns. [learn more](GNS315_U2_T3#GNS315_U2_T3_h3)"
+  },
+  {
+    "question_id": "GNS315_U2_T3_h4_q1",
+    "heading_id": "GNS315_U2_T3_h4",
+    "article_id": "GNS315_U2_T3",
+    "topic_id": "GNS315_U2_T3",
+    "difficulty": "recall",
+    "question": "An insufficient supply of oxygen to body tissues resulting from respiratory failure is known as what?",
+    "options": {
+      "A": "Hypovolemia",
+      "B": "Hyperglycemia",
+      "C": "Hypoxia",
+      "D": "Hyperkalemia"
+    },
+    "answer": "C",
+    "explanation": "Hypoxia is the pathological state wherein tissues lack adequate oxygenation to sustain normal cellular function. [learn more](GNS315_U2_T3#GNS315_U2_T3_h4)"
+  },
+  {
+    "question_id": "GNS315_U2_T3_h4_q2",
+    "heading_id": "GNS315_U2_T3_h4",
+    "article_id": "GNS315_U2_T3",
+    "topic_id": "GNS315_U2_T3",
+    "difficulty": "understanding",
+    "question": "What is the primary danger associated with severe hyperkalemia during an acute medical crisis?",
+    "options": {
+      "A": "It completely stops the production of red blood cells",
+      "B": "It destabilizes cardiac cell membranes and triggers lethal arrhythmias",
+      "C": "It causes immediate and irreversible pulmonary edema",
+      "D": "It induces profound peripheral vasoconstriction and hypertension"
+    },
+    "answer": "B",
+    "explanation": "Elevated extracellular potassium alters the resting membrane potential of heart muscle, putting the patient at high risk for cardiac arrest. [learn more](GNS315_U2_T3#GNS315_U2_T3_h4)"
+  },
+  {
+    "question_id": "GNS315_U2_T3_h5_q1",
+    "heading_id": "GNS315_U2_T3_h5",
+    "article_id": "GNS315_U2_T3",
+    "topic_id": "GNS315_U2_T3",
+    "difficulty": "recall",
+    "question": "Which group is particularly vulnerable to severe dehydration resulting from acute gastroenteritis?",
+    "options": {
+      "A": "Trained military personnel",
+      "B": "Young adult athletes",
+      "C": "Pediatric patients",
+      "D": "Middle-aged males"
+    },
+    "answer": "C",
+    "explanation": "Infants and young children have high body water turnover rates, making them rapidly susceptible to life-threatening fluid loss. [learn more](GNS315_U2_T3#GNS315_U2_T3_h5)"
+  },
+  {
+    "question_id": "GNS315_U2_T3_h5_q2",
+    "heading_id": "GNS315_U2_T3_h5",
+    "article_id": "GNS315_U2_T3",
+    "topic_id": "GNS315_U2_T3",
+    "difficulty": "understanding",
+    "question": "How does chronic poverty indirectly contribute to a higher incidence of acute medical emergencies?",
+    "options": {
+      "A": "It increases the biological half-life of all therapeutic drugs",
+      "B": "It permanently alters human hemoglobin structures to resist oxygen",
+      "C": "It prevents the body from mounting a normal inflammatory response",
+      "D": "It delays access to routine healthcare, letting chronic conditions deteriorate unchecked"
+    },
+    "answer": "D",
+    "explanation": "Financial and infrastructural barriers often prevent early diagnosis and management of conditions like high blood pressure, leading to sudden crises. [learn more](GNS315_U2_T3#GNS315_U2_T3_h5)"
+  },
+  {
+    "question_id": "GNS315_U2_T3_h6_q1",
+    "heading_id": "GNS315_U2_T3_h6",
+    "article_id": "GNS315_U2_T3",
+    "topic_id": "GNS315_U2_T3",
+    "difficulty": "recall",
+    "question": "In the standard emergency nursing assessment framework, what does the letter 'C' represent in the primary survey?",
+    "options": {
+      "A": "Circulation",
+      "B": "Capillary refill",
+      "C": "Cerebral function",
+      "D": "Cardiac output"
+    },
+    "answer": "A",
+    "explanation": "The primary survey prioritizes Airway, Breathing, and Circulation as the foundational triad of life support. [learn more](GNS315_U2_T3#GNS315_U2_T3_h6)"
+  },
+  {
+    "question_id": "GNS315_U2_T3_h6_q2",
+    "heading_id": "GNS315_U2_T3_h6",
+    "article_id": "GNS315_U2_T3",
+    "topic_id": "GNS315_U2_T3",
+    "difficulty": "application",
+    "question": "A patient presents to the emergency department with acute altered mental status. Which immediate bedside check is essential to rule out a common metabolic cause?",
+    "options": {
+      "A": "Capillary blood glucose test",
+      "B": "Full 12-lead electrocardiogram",
+      "C": "Complete blood cell count",
+      "D": "Serum electrolyte panel"
+    },
+    "answer": "A",
+    "explanation": "Hypoglycemia is a rapid, life-threatening, and easily reversible cause of altered mental status that must be checked instantly. [learn more](GNS315_U2_T3#GNS315_U2_T3_h6)"
+  },
+  {
+    "question_id": "GNS315_U2_T3_h7_q1",
+    "heading_id": "GNS315_U2_T3_h7",
+    "article_id": "GNS315_U2_T3",
+    "topic_id": "GNS315_U2_T3",
+    "difficulty": "understanding",
+    "question": "What is the primary management risk if intravenous fluid boluses are mistakenly given to a patient in acute heart failure?",
+    "options": {
+      "A": "Sudden and permanent peripheral vasoconstriction",
+      "B": "Worsening pulmonary edema and respiratory failure",
+      "C": "Rapid onset of severe metabolic alkalosis",
+      "D": "Immediate development of profound hypoglycemia"
+    },
+    "answer": "B",
+    "explanation": "Failing hearts cannot handle extra volume; adding fluids increases hydrostatic pressure, flooding the alveoli with fluid. [learn more](GNS315_U2_T3#GNS315_U2_T3_h7)"
+  },
+  {
+    "question_id": "GNS315_U2_T3_h7_q2",
+    "heading_id": "GNS315_U2_T3_h7",
+    "article_id": "GNS315_U2_T3",
+    "topic_id": "GNS315_U2_T3",
+    "difficulty": "application",
+    "question": "A patient arrives with signs of profound hemorrhagic shock from a deep laceration. Which nursing action is most critical?",
+    "options": {
+      "A": "Administering high-dose oral rehydration salt solution",
+      "B": "Initiating immediate chest compressions and artificial ventilation",
+      "C": "Securing large-bore intravenous access for volume replacement",
+      "D": "Placing the patient flat in a reverse Trendelenburg position"
+    },
+    "answer": "C",
+    "explanation": "Hemorrhagic shock requires rapid restoration of circulating blood volume to maintain tissue perfusion. [learn more](GNS315_U2_T3#GNS315_U2_T3_h7)"
+  },
+  {
+    "question_id": "GNS315_U2_T4_h1_q1",
+    "heading_id": "GNS315_U2_T4_h1",
+    "article_id": "GNS315_U2_T4",
+    "topic_id": "GNS315_U2_T4",
+    "difficulty": "recall",
+    "question": "What is the primary objective of immediate nursing intervention in life-threatening conditions?",
+    "options": {
+      "A": "Obtaining routine diagnostic blood profiles",
+      "B": "Scheduling long-term rehabilitative care",
+      "C": "Preventing irreversible organ damage or death",
+      "D": "Completing detailed historical documentation"
+    },
+    "answer": "C",
+    "explanation": "Critical emergencies carry a high risk of rapid collapse, making the halting of tissue injury and preservation of life the absolute priority of emergency interventions. [learn more](GNS315_U2_T4#GNS315_U2_T4_h1)"
+  },
+  {
+    "question_id": "GNS315_U2_T4_h1_q2",
+    "heading_id": "GNS315_U2_T4_h1",
+    "article_id": "GNS315_U2_T4",
+    "topic_id": "GNS315_U2_T4",
+    "difficulty": "understanding",
+    "question": "Why is categorizing the origin of a critical emergency essential during initial contact?",
+    "options": {
+      "A": "It guarantees complete recovery without surgical intervention",
+      "B": "It reduces the financial burden of hospital admission",
+      "C": "It eliminates the need for continuous physiological monitoring",
+      "D": "It dictates the immediate trajectory of acute resuscitation"
+    },
+    "answer": "D",
+    "explanation": "Identifying whether a crisis is traumatic, medical, or environmental guides specific, time-sensitive resuscitation protocols required for that category. [learn more](GNS315_U2_T4#GNS315_U2_T4_h1)"
+  },
+  {
+    "question_id": "GNS315_U2_T4_h2_q1",
+    "heading_id": "GNS315_U2_T4_h2",
+    "article_id": "GNS315_U2_T4",
+    "topic_id": "GNS315_U2_T4",
+    "difficulty": "recall",
+    "question": "Which traumatic mechanism involves high-velocity impacts that compress internal organs without breaking the skin?",
+    "options": {
+      "A": "Thermal injury",
+      "B": "Blast cavitation",
+      "C": "Blunt force trauma",
+      "D": "Penetrating trauma"
+    },
+    "answer": "C",
+    "explanation": "Blunt force trauma transfers kinetic energy through the body surface, damaging deep organs while leaving the skin intact, making internal bleeding harder to detect. [learn more](GNS315_U2_T4#GNS315_U2_T4_h2)"
+  },
+  {
+    "question_id": "GNS315_U2_T4_h2_q2",
+    "heading_id": "GNS315_U2_T4_h2",
+    "article_id": "GNS315_U2_T4",
+    "topic_id": "GNS315_U2_T4",
+    "difficulty": "understanding",
+    "question": "What makes penetrating trauma particularly dangerous compared to superficial soft tissue damage?",
+    "options": {
+      "A": "It completely eliminates the risk of systemic infection",
+      "B": "It prevents any form of localized external bleeding",
+      "C": "It creates high-risk internal tracks that jeopardize major blood vessels",
+      "D": "It exclusively affects the peripheral nervous system"
+    },
+    "answer": "C",
+    "explanation": "Projectiles or sharp objects pierce body cavities and tissue planes, causing unseen structural damage and rapid hemorrhagic shock along their path. [learn more](GNS315_U2_T4#GNS315_U2_T4_h2)"
+  },
+  {
+    "question_id": "GNS315_U2_T4_h3_q1",
+    "heading_id": "GNS315_U2_T4_h3",
+    "article_id": "GNS315_U2_T4",
+    "topic_id": "GNS315_U2_T4",
+    "difficulty": "recall",
+    "question": "What is the primary physiological consequence of malignant cardiac arrhythmias during a medical emergency?",
+    "options": {
+      "A": "Immediate increase in peripheral oxygen saturation",
+      "B": "Rapid stabilization of blood pressure parameters",
+      "C": "Abrupt halt of effective systemic perfusion",
+      "D": "Enhancement of myocardial contractility"
+    },
+    "answer": "C",
+    "explanation": "Malignant arrhythmias disrupt the heart's electrical coordination, preventing it from pumping blood effectively to vital organs. [learn more](GNS315_U2_T4#GNS315_U2_T4_h3)"
+  },
+  {
+    "question_id": "GNS315_U2_T4_h3_q2",
+    "heading_id": "GNS315_U2_T4_h3",
+    "article_id": "GNS315_U2_T4",
+    "topic_id": "GNS315_U2_T4",
+    "difficulty": "understanding",
+    "question": "A patient presents with acute target organ damage caused by severely elevated blood pressure. What condition is most likely occurring?",
+    "options": {
+      "A": "Hypertensive emergency",
+      "B": "Vasovagal syncope",
+      "C": "Hypovolemic shock",
+      "D": "Chronic orthostatic hypotension"
+    },
+    "answer": "A",
+    "explanation": "A hypertensive emergency is defined by extremely high blood pressure accompanied by acute damage to target organs like the brain, heart, or kidneys. [learn more](GNS315_U2_T4#GNS315_U2_T4_h3)"
+  },
+  {
+    "question_id": "GNS315_U2_T4_h4_q1",
+    "heading_id": "GNS315_U2_T4_h4",
+    "article_id": "GNS315_U2_T4",
+    "topic_id": "GNS315_U2_T4",
+    "difficulty": "recall",
+    "question": "Which of the following is NOT a common mechanism of upper airway obstruction?",
+    "options": {
+      "A": "Foreign bodies",
+      "B": "Angioedema",
+      "C": "Severe laryngospasm",
+      "D": "Status asthmaticus"
+    },
+    "answer": "D",
+    "explanation": "Status asthmaticus affects the lower airways through severe bronchospasm and mucus plugging, whereas foreign bodies, angioedema, and laryngospasm obstruct the upper airway. [learn more](GNS315_U2_T4#GNS315_U2_T4_h4)"
+  },
+  {
+    "question_id": "GNS315_U2_T4_h4_q2",
+    "heading_id": "GNS315_U2_T4_h4",
+    "article_id": "GNS315_U2_T4",
+    "topic_id": "GNS315_U2_T4",
+    "difficulty": "understanding",
+    "question": "What clinical outcome directly follows prolonged hypercapnia and severe hypoxemia caused by respiratory failure?",
+    "options": {
+      "A": "Immediate normalization of blood pH",
+      "B": "Enhanced physical endurance",
+      "C": "Central nervous system depression",
+      "D": "Hyperactive neuromuscular reflexes"
+    },
+    "answer": "C",
+    "explanation": "An excess of carbon dioxide and lack of oxygen depress brain function, leading to lethargy, altered consciousness, and loss of airway protective reflexes. [learn more](GNS315_U2_T4#GNS315_U2_T4_h4)"
+  },
+  {
+    "question_id": "GNS315_U2_T4_h5_q1",
+    "heading_id": "GNS315_U2_T4_h5",
+    "article_id": "GNS315_U2_T4",
+    "topic_id": "GNS315_U2_T4",
+    "difficulty": "recall",
+    "question": "What is a primary effect of venom from certain snakebites in tropical clinical environments?",
+    "options": {
+      "A": "Instantaneous recovery of normal body temperature",
+      "B": "Systemic coagulation failure or neuromuscular paralysis",
+      "C": "Permanent stabilization of cardiac output",
+      "D": "Immediate enhancement of respiratory volume"
+    },
+    "answer": "B",
+    "explanation": "Many snake venoms contain potent hemotoxins or neurotoxins that disrupt clotting mechanisms or block nerve transmission, causing life-threatening paralysis or hemorrhage. [learn more](GNS315_U2_T4#GNS315_U2_T4_h5)"
+  },
+  {
+    "question_id": "GNS315_U2_T4_h5_q2",
+    "heading_id": "GNS315_U2_T4_h5",
+    "article_id": "GNS315_U2_T4",
+    "topic_id": "GNS315_U2_T4",
+    "difficulty": "understanding",
+    "question": "How do severe environmental extremes like heatstroke primarily threaten human survival?",
+    "options": {
+      "A": "By increasing peripheral oxygen binding capacity",
+      "B": "By accelerating normal renal filtration rates",
+      "C": "By derailing enzymatic reactions and cellular metabolism",
+      "D": "By stabilizing core neurological feedback loops"
+    },
+    "answer": "C",
+    "explanation": "Extreme heat alters protein structures and disrupts vital chemical reactions required for basic cellular function across all organ systems. [learn more](GNS315_U2_T4#GNS315_U2_T4_h5)"
+  },
+  {
+    "question_id": "GNS315_U2_T4_h6_q1",
+    "heading_id": "GNS315_U2_T4_h6",
+    "article_id": "GNS315_U2_T4",
+    "topic_id": "GNS315_U2_T4",
+    "difficulty": "recall",
+    "question": "What metabolic byproduct accumulates when cells are forced into anaerobic metabolism due to hypoxia?",
+    "options": {
+      "A": "Lactic acid",
+      "B": "Potassium",
+      "C": "Bicarbonate",
+      "D": "Glucose"
+    },
+    "answer": "A",
+    "explanation": "Without adequate oxygen, cells switch to anaerobic glycolysis, which generates lactic acid as a primary byproduct and leads to metabolic acidosis. [learn more](GNS315_U2_T4#GNS315_U2_T4_h6)"
+  },
+  {
+    "question_id": "GNS315_U2_T4_h6_q2",
+    "heading_id": "GNS315_U2_T4_h6",
+    "article_id": "GNS315_U2_T4",
+    "topic_id": "GNS315_U2_T4",
+    "difficulty": "understanding",
+    "question": "What is the direct consequence of cellular energy depletion on membrane ion pumps during shock?",
+    "options": {
+      "A": "Cellular edema and membrane lysis",
+      "B": "Enhanced electrical stability of neurons",
+      "C": "Rapid clearing of circulating toxins",
+      "D": "Increased production of cellular proteins"
+    },
+    "answer": "A",
+    "explanation": "Without ATP to run sodium-potassium pumps, sodium and water flood into the cell, causing swelling, rupture, and generalized tissue destruction. [learn more](GNS315_U2_T4#GNS315_U2_T4_h6)"
+  },
+  {
+    "question_id": "GNS315_U2_T4_h7_q1",
+    "heading_id": "GNS315_U2_T4_h7",
+    "article_id": "GNS315_U2_T4",
+    "topic_id": "GNS315_U2_T4",
+    "difficulty": "recall",
+    "question": "What does the letter 'D' stand for in the emergency ABCDE assessment framework?",
+    "options": {
+      "A": "Diagnosis",
+      "B": "Disability",
+      "C": "Diuresis",
+      "D": "Decontamination"
+    },
+    "answer": "B",
+    "explanation": "In emergency assessment protocols, D stands for Disability, evaluating neurological status, pupil response, and level of consciousness. [learn more](GNS315_U2_T4#GNS315_U2_T4_h7)"
+  },
+  {
+    "question_id": "GNS315_U2_T4_h7_q2",
+    "heading_id": "GNS315_U2_T4_h7",
+    "article_id": "GNS315_U2_T4",
+    "topic_id": "GNS315_U2_T4",
+    "difficulty": "understanding",
+    "question": "Why is immediate stabilization prioritized over deep investigative history-taking during initial emergency care?",
+    "options": {
+      "A": "History-taking always takes longer than surgical procedures",
+      "B": "Diagnostic tests are entirely unnecessary in emergency units",
+      "C": "Immediate threats to life must be managed before investigating causes",
+      "D": "Patients with critical conditions never remember their medical history"
+    },
+    "answer": "C",
+    "explanation": "The primary survey focuses purely on life-saving interventions for compromised airway, breathing, or circulation before searching for background causes. [learn more](GNS315_U2_T4#GNS315_U2_T4_h7)"
   },
   {
     "question_id": "GNS315_U3_T1_h1_q1",
