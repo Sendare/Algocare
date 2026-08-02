@@ -1,0 +1,94 @@
+"""
+Reads your actual data/questions/*.json files, groups question counts by
+course (same logic build_pages.py uses), applies config/weights.json, and
+shows the REAL predicted share of real-feel exam questions per course -
+so you can see the actual outcome of your weights, not just guess at it.
+
+Run from the repo root: python check_weight_balance.py
+"""
+import json
+import re
+from collections import defaultdict
+from pathlib import Path
+
+from utils.course_branch_map import COURSE_BRANCH_MAP, get_course_id_from_topic_id
+
+QUESTIONS_DIR = Path("data/questions")
+WEIGHTS_PATH = Path("config/weights.json")
+
+
+def slugify(text):
+    text = text.lower().strip()
+    text = re.sub(r"[^a-z0-9]+", "-", text)
+    return text.strip("-")
+
+
+def load_json(path, default):
+    p = Path(path)
+    if not p.exists():
+        return default
+    with open(p, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def run():
+    if not QUESTIONS_DIR.exists():
+        print(f"❌ {QUESTIONS_DIR} not found - run this from the Algocare repo root.")
+        return
+
+    weights_config = load_json(WEIGHTS_PATH, {"courses": {}, "units": {}})
+    course_weights = weights_config.get("courses", {})
+
+    counts = defaultdict(int)   # course_slug -> question count
+    names = {}                  # course_slug -> display name
+
+    for qfile in QUESTIONS_DIR.glob("*.json"):
+        topic_id = qfile.stem
+        course_id = get_course_id_from_topic_id(topic_id)
+        course_name = COURSE_BRANCH_MAP.get(course_id, course_id)
+        slug = slugify(course_name)
+
+        try:
+            questions = json.load(open(qfile, "r", encoding="utf-8"))
+        except Exception:
+            continue
+
+        counts[slug] += len(questions)
+        names[slug] = course_name
+
+    if not counts:
+        print("❌ No question files found - has fetch_articles.py generated anything yet?")
+        return
+
+    total_raw = sum(counts.values())
+    effective = {slug: counts[slug] * course_weights.get(slug, 1.0) for slug in counts}
+    total_effective = sum(effective.values())
+
+    rows = []
+    for slug in counts:
+        raw_pct = 100 * counts[slug] / total_raw
+        weighted_pct = 100 * effective[slug] / total_effective
+        weight = course_weights.get(slug, 1.0)
+        rows.append((slug, names[slug], counts[slug], weight, raw_pct, weighted_pct))
+
+    rows.sort(key=lambda r: r[5], reverse=True)
+
+    print(f"{'Course':<42} {'Questions':>10} {'Weight':>8} {'Raw %':>8} {'Weighted %':>11}")
+    print("-" * 82)
+    for slug, name, qcount, weight, raw_pct, weighted_pct in rows:
+        flag = " ⚠️ unweighted (defaults to 1.0)" if slug not in course_weights else ""
+        print(f"{name:<42} {qcount:>10} {weight:>8} {raw_pct:>7.1f}% {weighted_pct:>10.1f}%{flag}")
+
+    print(f"\nTotal questions: {total_raw}")
+
+    # Flag any weights.json entries that don't match a real course found on disk
+    unmatched = [slug for slug in course_weights if slug not in counts]
+    if unmatched:
+        print("\n⚠️  These weights.json course keys don't match any course found in your data")
+        print("   (likely a typo in the slug - check against the names printed above):")
+        for slug in unmatched:
+            print(f"   - {slug}")
+
+
+if __name__ == "__main__":
+    run()

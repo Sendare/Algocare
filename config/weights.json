@@ -1,5 +1,23 @@
 {
-  "_readme": "Course/unit weights control how often real-feel exam questions are drawn from each. Any course_slug or unit key NOT listed here defaults to 1.0 (equal weight). Unit keys are 'course-slug|unit-slug'. Edit these once you have real NMCN exam blueprint percentages - values are relative, not required to sum to 100.",
-  "courses": {},
+  "_readme": "Course/unit weights control how often real-feel exam questions are drawn from each. Any course_slug or unit key NOT listed here defaults to 1.0 (equal weight). Unit keys are 'course-slug|unit-slug'. These values are volume-corrected: divided by each course's actual question count so the real appearance percentage matches the intended target share (computed from the original 40-80 scale given), not skewed by which course happens to have more generated content. Regenerate with check_weight_balance.py after any major content regeneration, since question counts per course will shift.",
+  "courses": {
+    "anatomy-and-physiology": 0.835,
+    "foundation-of-nursing": 0.508,
+    "nursing-informatics": 4.732,
+    "microbiology": 1.843,
+    "medical-surgical-nursing": 0.407,
+    "primary-health-care": 1.208,
+    "pharmacology": 0.712,
+    "reproductive-health": 0.581,
+    "research-and-statistics": 1.495,
+    "community-health-nursing": 0.902,
+    "nutrition-and-dietetics": 1.126,
+    "mental-health-nursing": 2.885,
+    "quality-improvement-and-patient-safety": 2.811,
+    "emergency-and-disaster-nursing": 2.844,
+    "home-healthcare-nursing": 0.982,
+    "management-and-teaching": 1.099,
+    "health-economics": 2.428
+  },
   "units": {}
 }
