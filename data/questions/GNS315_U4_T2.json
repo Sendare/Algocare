@@ -4,209 +4,223 @@
     "heading_id": "GNS315_U4_T2_h1",
     "article_id": "GNS315_U4_T2",
     "topic_id": "GNS315_U4_T2",
-    "question": "What is a primary benefit of using electronic monitoring devices in emergency care settings?",
+    "difficulty": "recall",
+    "question": "What is the primary purpose of electronic monitoring devices in emergency care?",
     "options": {
-      "A": "They completely replace the need for physical assessments by nurses",
-      "B": "They provide continuous, real-time physiological data to detect early clinical deterioration",
-      "C": "They eliminate the occurrence of false alarm fatigue in the clinical unit",
-      "D": "They diagnose complex medical conditions without requiring diagnostic imaging"
+      "A": "Automatic administration of emergency medications",
+      "B": "Continuous tracking of physiological parameters",
+      "C": "Elimination of the need for clinical assessments",
+      "D": "Permanent replacement of manual vital signs"
     },
     "answer": "B",
-    "explanation": "Electronic monitoring devices offer continuous objective metrics that allow nurses to detect subtle clinical deteriorations long before overt crises occur. [learn more](GNS315_U4_T2#GNS315_U4_T2_h1)"
+    "explanation": "Monitors provide real-time observation of vital signs to detect early signs of clinical deterioration. [learn more](GNS315_U4_T2#GNS315_U4_T2_h1)"
   },
   {
     "question_id": "GNS315_U4_T2_h1_q2",
     "heading_id": "GNS315_U4_T2_h1",
     "article_id": "GNS315_U4_T2",
     "topic_id": "GNS315_U4_T2",
-    "question": "Besides technical proficiency, what else is required of nurses when utilizing electronic monitoring systems?",
+    "difficulty": "understanding",
+    "question": "Why are electronic monitors especially valuable in under-resourced emergency departments?",
     "options": {
-      "A": "Clinical acumen to distinguish true emergencies from artifact interference",
-      "B": "The ability to repair internal electronic circuit boards",
-      "C": "Exclusive reliance on automated algorithms for all treatment decisions",
-      "D": "Manual calibration of the device every five minutes"
+      "A": "They reduce the need for routine equipment maintenance",
+      "B": "They completely remove human error from clinical care",
+      "C": "They function reliably without any electrical power source",
+      "D": "They act as safety nets when staff ratios are stretched"
     },
-    "answer": "A",
-    "explanation": "Proper utilization requires clinical acumen to differentiate between actual life-threatening physiological changes and false readings caused by artifact interference. [learn more](GNS315_U4_T2#GNS315_U4_T2_h1)"
+    "answer": "D",
+    "explanation": "Continuous tracking systems help bridge the gap when nursing staff must manage multiple critical patients at once. [learn more](GNS315_U4_T2#GNS315_U4_T2_h1)"
   },
   {
     "question_id": "GNS315_U4_T2_h2_q1",
     "heading_id": "GNS315_U4_T2_h2",
     "article_id": "GNS315_U4_T2",
     "topic_id": "GNS315_U4_T2",
-    "question": "What is the primary function of a cardiac monitor in an emergency setting?",
+    "difficulty": "recall",
+    "question": "Which part of the ECG waveform represents ventricular depolarization?",
     "options": {
-      "A": "To continuously track and display the electrical activity of the heart",
-      "B": "To deliver automatic synchronized shocks for all heart rates",
-      "C": "To measure the exact cardiac output and stroke volume",
-      "D": "To replace manual palpation of peripheral pulses entirely"
+      "A": "U wave",
+      "B": "QRS complex",
+      "C": "T wave",
+      "D": "P wave"
     },
-    "answer": "A",
-    "explanation": "Cardiac monitors continuously track the heart's electrical activity via electrodes, displaying waveforms to help nurses identify rhythm disturbances. [learn more](GNS315_U4_T2#GNS315_U4_T2_h2)"
+    "answer": "B",
+    "explanation": "The QRS complex corresponds to the electrical spread through the ventricles, triggering ventricular contraction. [learn more](GNS315_U4_T2#GNS315_U4_T2_h2)"
   },
   {
     "question_id": "GNS315_U4_T2_h2_q2",
     "heading_id": "GNS315_U4_T2_h2",
     "article_id": "GNS315_U4_T2",
     "topic_id": "GNS315_U4_T2",
-    "question": "Why is proper ECG lead placement crucial for the nurse operating a cardiac monitor?",
+    "difficulty": "understanding",
+    "question": "Why is proper skin preparation necessary before placing cardiac monitor electrodes?",
     "options": {
-      "A": "It ensures clear signal transmission and minimizes artifact interference",
-      "B": "It automatically charges the internal defibrillator capacitor",
-      "C": "It measures the patient's exact core body temperature",
-      "D": "It prevents skin breakdown on the patient's chest"
+      "A": "It increases the patient's overall body temperature",
+      "B": "It prevents skin breakdown from prolonged pressure",
+      "C": "It eliminates the need for daily electrode replacement",
+      "D": "It reduces electrical interference and ensures adhesion"
     },
-    "answer": "A",
-    "explanation": "Accurately placing ECG leads is essential for ensuring clear signal transmission and reducing artifacts that could mimic dangerous arrhythmias. [learn more](GNS315_U4_T2#GNS315_U4_T2_h2)"
+    "answer": "D",
+    "explanation": "Removing oils, sweat, and hair ensures a strong conductive contact between the skin and the electrode, minimizing artifacts. [learn more](GNS315_U4_T2#GNS315_U4_T2_h2)"
   },
   {
     "question_id": "GNS315_U4_T2_h3_q1",
     "heading_id": "GNS315_U4_T2_h3",
     "article_id": "GNS315_U4_T2",
     "topic_id": "GNS315_U4_T2",
-    "question": "What does pulse oximetry primarily measure in a patient?",
+    "difficulty": "recall",
+    "question": "What physiological parameter does a pulse oximeter measure directly?",
     "options": {
-      "A": "The concentration of carbon dioxide in exhaled breath",
-      "B": "The functional oxygen saturation of arterial hemoglobin",
-      "C": "The exact cardiac output per minute",
-      "D": "The partial pressure of oxygen in arterial blood gases"
+      "A": "Partial pressure of oxygen in blood",
+      "B": "Total hemoglobin concentration",
+      "C": "Exhaled carbon dioxide levels",
+      "D": "Arterial oxygen saturation"
     },
-    "answer": "B",
-    "explanation": "Pulse oximetry measures functional oxygen saturation of arterial hemoglobin (SpO2) using light absorption principles through a sensor. [learn more](GNS315_U4_T2#GNS315_U4_T2_h3)"
+    "answer": "D",
+    "explanation": "Pulse oximetry estimates the percentage of hemoglobin binding sites occupied by oxygen in the bloodstream. [learn more](GNS315_U4_T2#GNS315_U4_T2_h3)"
   },
   {
     "question_id": "GNS315_U4_T2_h3_q2",
     "heading_id": "GNS315_U4_T2_h3",
     "article_id": "GNS315_U4_T2",
     "topic_id": "GNS315_U4_T2",
-    "question": "What is a major clinical utility of capnography (EtCO2) in emergency care?",
+    "difficulty": "understanding",
+    "question": "Which clinical condition is most likely to cause an inaccurate or weak pulse oximetry reading?",
     "options": {
-      "A": "It verifies correct endotracheal tube placement and monitors ventilation adequacy",
-      "B": "It replaces the need for a pulse oximeter in all clinical scenarios",
-      "C": "It measures peripheral blood pressure continuously",
-      "D": "It detects systemic venous thromboembolism instantaneously"
+      "A": "High systemic blood pressure",
+      "B": "Severe peripheral vasoconstriction",
+      "C": "Mild baseline anxiety",
+      "D": "Elevated body temperature"
     },
-    "answer": "A",
-    "explanation": "Capnography provides continuous EtCO2 monitoring and is the gold standard for verifying correct endotracheal tube placement and monitoring ventilation. [learn more](GNS315_U4_T2#GNS315_U4_T2_h3)"
+    "answer": "B",
+    "explanation": "Poor peripheral blood flow restricts the pulsatile blood volume needed for the sensor to accurately calculate oxygen saturation. [learn more](GNS315_U4_T2#GNS315_U4_T2_h3)"
   },
   {
     "question_id": "GNS315_U4_T2_h4_q1",
     "heading_id": "GNS315_U4_T2_h4",
     "article_id": "GNS315_U4_T2",
     "topic_id": "GNS315_U4_T2",
-    "question": "What is a primary advantage of using an arterial line over intermittent non-invasive blood pressure cuffs?",
+    "difficulty": "recall",
+    "question": "What is the primary function of the pressurized flush system connected to an arterial line?",
     "options": {
-      "A": "It provides continuous, beat-to-beat blood pressure monitoring",
-      "B": "It completely eliminates the risk of vascular infection",
-      "C": "It measures the patient's exact intracranial pressure",
-      "D": "It removes the need for transducer calibration and leveling"
+      "A": "To automatically administer vasopressor drugs",
+      "B": "To measure the patient's core body temperature",
+      "C": "To prevent blood from clotting in the catheter",
+      "D": "To deliver rapid intravenous fluid boluses"
     },
-    "answer": "A",
-    "explanation": "Arterial lines allow continuous, beat-to-beat blood pressure monitoring and easy arterial blood sampling without repeated punctures. [learn more](GNS315_U4_T2#GNS315_U4_T2_h4)"
+    "answer": "C",
+    "explanation": "Continuous low-volume flushing driven by pressure keeps the small lumen of an arterial catheter patent and clear of clots. [learn more](GNS315_U4_T2#GNS315_U4_T2_h4)"
   },
   {
     "question_id": "GNS315_U4_T2_h4_q2",
     "heading_id": "GNS315_U4_T2_h4",
     "article_id": "GNS315_U4_T2",
     "topic_id": "GNS315_U4_T2",
-    "question": "To ensure accurate readings from an invasive hemodynamic monitoring system, where should the pressure transducer be leveled?",
+    "difficulty": "understanding",
+    "question": "What clinical parameter does central venous pressure (CVP) primarily reflect?",
     "options": {
-      "A": "At the level of the patient's earlobe",
-      "B": "At the level of the phlebostatic axis",
-      "C": "At the level of the patient's umbilicus",
-      "D": "At the highest point of the intravenous pole"
+      "A": "Systemic arterial oxygen content",
+      "B": "Right ventricular preload and fluid status",
+      "C": "Peripheral vascular resistance",
+      "D": "Left ventricular ejection fraction"
     },
     "answer": "B",
-    "explanation": "Leveling the transducer to the phlebostatic axis is essential to ensure accurate pressure measurements in hemodynamic monitoring. [learn more](GNS315_U4_T2#GNS315_U4_T2_h4)"
+    "explanation": "CVP measures the pressure in the thoracic vena cava, providing a direct estimation of how much blood returns to the right side of the heart. [learn more](GNS315_U4_T2#GNS315_U4_T2_h4)"
   },
   {
     "question_id": "GNS315_U4_T2_h5_q1",
     "heading_id": "GNS315_U4_T2_h5",
     "article_id": "GNS315_U4_T2",
     "topic_id": "GNS315_U4_T2",
-    "question": "What parameter should nurses closely track on a mechanical ventilator to detect issues like mucus plugging or decreased lung compliance?",
+    "difficulty": "recall",
+    "question": "What does a high-pressure alarm on a mechanical ventilator typically indicate?",
     "options": {
-      "A": "Airway pressures, such as peak inspiratory pressure (PIP)",
-      "B": "The ambient room temperature around the ventilator",
-      "C": "The total weight of the mechanical ventilator unit",
-      "D": "The baseline electrical grid voltage frequency"
+      "A": "An empty oxygen source tank in the hospital",
+      "B": "A sudden increase in ambient room temperature",
+      "C": "A complete disconnection of the ventilator tubing",
+      "D": "An obstruction or decreased lung compliance"
     },
-    "answer": "A",
-    "explanation": "Tracking airway pressures like peak inspiratory pressure helps nurses identify complications such as mucus plugging, bronchospasm, or reduced compliance. [learn more](GNS315_U4_T2#GNS315_U4_T2_h5)"
+    "answer": "D",
+    "explanation": "Increased resistance or stiff lungs require higher pressure to deliver the set volume, triggering the high-pressure safety alarm. [learn more](GNS315_U4_T2#GNS315_U4_T2_h5)"
   },
   {
     "question_id": "GNS315_U4_T2_h5_q2",
     "heading_id": "GNS315_U4_T2_h5",
     "article_id": "GNS315_U4_T2",
     "topic_id": "GNS315_U4_T2",
-    "question": "Which nursing intervention is essential when caring for a patient on a mechanical ventilator to prevent ventilator-associated pneumonia (VAP)?",
+    "difficulty": "understanding",
+    "question": "A patient on a mechanical ventilator suddenly triggers a low-pressure alarm. What is the immediate nursing priority?",
     "options": {
-      "A": "Executing regular ventilator bundle protocols and hygiene measures",
-      "B": "Keeping the head of the bed completely flat at zero degrees",
-      "C": "Deflating the endotracheal tube cuff every hour continuously",
-      "D": "Limiting oral suctioning to once every 24 hours"
+      "A": "Check the ventilator circuit for a disconnection",
+      "B": "Manually increase the fraction of inspired oxygen",
+      "C": "Suction thick secretions from the artificial airway",
+      "D": "Administer a prescribed sedative medication"
     },
     "answer": "A",
-    "explanation": "Nurses perform regular ventilator bundle protocols, such as oral care and head-of-bed elevation, to prevent ventilator-associated pneumonia. [learn more](GNS315_U4_T2#GNS315_U4_T2_h5)"
+    "explanation": "A low-pressure alarm means the air is meeting little resistance, which usually happens when the tubing has detached or leaked. [learn more](GNS315_U4_T2#GNS315_U4_T2_h5)"
   },
   {
     "question_id": "GNS315_U4_T2_h6_q1",
     "heading_id": "GNS315_U4_T2_h6",
     "article_id": "GNS315_U4_T2",
     "topic_id": "GNS315_U4_T2",
-    "question": "What is the primary danger associated with excessive and unmanaged clinical alarms in a healthcare unit?",
+    "difficulty": "recall",
+    "question": "What is the very first action a nurse should take when a bedside monitor alarm sounds?",
     "options": {
-      "A": "Alarm fatigue, leading staff to become desensitized and miss critical warnings",
-      "B": "Immediate electrical power grid failure throughout the hospital",
-      "C": "Permanent damage to the internal memory storage of the monitor",
-      "D": "Automatic shutdown of all connected therapeutic devices"
+      "A": "Silence the audible alarm tone",
+      "B": "Call the attending physician",
+      "C": "Assess the patient directly",
+      "D": "Turn off the monitoring device"
     },
-    "answer": "A",
-    "explanation": "Excessive unmanaged alarms cause alarm fatigue, where staff become desensitized and risk missing important clinical warnings. [learn more](GNS315_U4_T2#GNS315_U4_T2_h6)"
+    "answer": "C",
+    "explanation": "Patient safety always comes first; verifying the patient's condition takes precedence over examining the equipment. [learn more](GNS315_U4_T2#GNS315_U4_T2_h6)"
   },
   {
     "question_id": "GNS315_U4_T2_h6_q2",
     "heading_id": "GNS315_U4_T2_h6",
     "article_id": "GNS315_U4_T2",
     "topic_id": "GNS315_U4_T2",
-    "question": "What is the first and most important action a nurse should take when an electronic monitor alarm sounds during a crisis?",
+    "difficulty": "understanding",
+    "question": "Which of the following is NOT an acceptable practice regarding clinical monitor alarms?",
     "options": {
-      "A": "Immediately assess the patient's clinical stability and physiological status",
-      "B": "Unplug the monitor from the wall outlet to silence the sound",
-      "C": "Call the biomedical engineering department to replace the unit",
-      "D": "Turn off all alarm limits permanently to maintain a quiet environment"
+      "A": "Responding promptly to physiological warning signals",
+      "B": "Checking all cable and sensor connections",
+      "C": "Permanently silencing alarms to reduce noise",
+      "D": "Customizing alarm limits for individual patients"
     },
-    "answer": "A",
-    "explanation": "Nurses must always prioritize patient assessment over the monitor screen, following the rule to 'treat the patient, not the monitor.' [learn more](GNS315_U4_T2#GNS315_U4_T2_h6)"
+    "answer": "C",
+    "explanation": "Permanently disabling alarms creates a lethal environment where sudden patient deterioration will go completely unnoticed. [learn more](GNS315_U4_T2#GNS315_U4_T2_h6)"
   },
   {
     "question_id": "GNS315_U4_T2_h7_q1",
     "heading_id": "GNS315_U4_T2_h7",
     "article_id": "GNS315_U4_T2",
     "topic_id": "GNS315_U4_T2",
-    "question": "Why is synthesizing data from multiple electronic monitoring devices important for the nurse?",
+    "difficulty": "understanding",
+    "question": "Why is synthesizing monitor data with physical assessment essential in clinical practice?",
     "options": {
-      "A": "It allows the nurse to correlate findings and form a comprehensive view of the patient's status",
-      "B": "It ensures that the patient's medical chart is filled with maximum numbers",
-      "C": "It removes the need to document vital signs in the patient's physical record",
-      "D": "It guarantees that no equipment alarms will ever sound again"
+      "A": "Physical assessments are legally required to replace electronic monitoring",
+      "B": "Machines are completely incapable of measuring vital signs accurately",
+      "C": "Physicians do not rely on numerical monitor data for treatment plans",
+      "D": "Monitors can display false readings caused by artifact or equipment failure"
     },
-    "answer": "A",
-    "explanation": "Synthesizing data from multiple devices helps nurses correlate findings, differentiate artifacts, and understand the patient's true clinical status. [learn more](GNS315_U4_T2#GNS315_U4_T2_h7)"
+    "answer": "D",
+    "explanation": "Clinical correlation prevents inappropriate treatments triggered by technical errors, loose sensors, or patient movement. [learn more](GNS315_U4_T2#GNS315_U4_T2_h7)"
   },
   {
     "question_id": "GNS315_U4_T2_h7_q2",
     "heading_id": "GNS315_U4_T2_h7",
     "article_id": "GNS315_U4_T2",
     "topic_id": "GNS315_U4_T2",
-    "question": "What communication tool can nurses use effectively to report synthesized monitoring data and recommendations to physicians?",
+    "difficulty": "application",
+    "question": "A patient's cardiac monitor shows a sudden flatline, yet the patient is awake, talking, and breathing comfortably. What is the most likely explanation?",
     "options": {
-      "A": "SBAR (Situation, Background, Assessment, Recommendation)",
-      "B": "A random text message without patient identifiers",
-      "C": "A complete rewrit of the nursing textbook",
-      "D": "Manual sketching of ECG waveforms on paper"
+      "A": "Sudden respiratory arrest requiring intubation",
+      "B": "An acute, life-threatening cardiac arrest",
+      "C": "Complete failure of the central nursing station",
+      "D": "A loose or disconnected ECG electrode lead"
     },
-    "answer": "A",
-    "explanation": "Structured reporting tools like SBAR facilitate clear and effective communication of critical patient data and nursing recommendations to the medical team. [learn more](GNS315_U4_T2#GNS315_U4_T2_h7)"
+    "answer": "D",
+    "explanation": "A stable, conscious patient contradicts a true cardiac arrest, pointing directly to a technical issue like a detached lead. [learn more](GNS315_U4_T2#GNS315_U4_T2_h7)"
   }
 ]

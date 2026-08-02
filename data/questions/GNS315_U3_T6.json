@@ -4,239 +4,255 @@
     "heading_id": "GNS315_U3_T6_h1",
     "article_id": "GNS315_U3_T6",
     "topic_id": "GNS315_U3_T6",
-    "question": "Which of the following best describes hypoxemic respiratory failure?",
+    "difficulty": "recall",
+    "question": "What is the primary physiological goal of mechanical ventilation?",
     "options": {
-      "A": "A dangerous buildup of carbon dioxide due to alveolar hypoventilation",
-      "B": "The failure of the lungs to adequately oxygenate arterial blood despite supplemental oxygen",
-      "C": "Complete exhaustion of the upper airway muscles preventing speech",
-      "D": "A temporary cessation of breathing caused by metabolic alkalosis"
+      "A": "Normalizing arterial blood gases and resting respiratory muscles",
+      "B": "Replacing the need for continuous hemodynamic monitoring",
+      "C": "Permanently curing chronic obstructive pulmonary disease",
+      "D": "Increasing systemic blood pressure through positive fluid balance"
     },
-    "answer": "B",
-    "explanation": "Hypoxemic respiratory failure occurs when the lungs cannot properly oxygenate arterial blood, even when the patient is receiving supplemental oxygen. [learn more](GNS315_U3_T6#GNS315_U3_T6_h1)"
+    "answer": "A",
+    "explanation": "Mechanical ventilation provides life support by taking over the work of breathing, which corrects abnormal oxygen and carbon dioxide levels while allowing exhausted respiratory muscles to recover. [learn more](GNS315_U3_T6#GNS315_U3_T6_h1)"
   },
   {
     "question_id": "GNS315_U3_T6_h1_q2",
     "heading_id": "GNS315_U3_T6_h1",
     "article_id": "GNS315_U3_T6",
     "topic_id": "GNS315_U3_T6",
-    "question": "Why might a patient with a severe head injury and depressed mental status require mechanical ventilation?",
+    "difficulty": "understanding",
+    "question": "A patient with a severe drug overdose and a Glasgow Coma Scale score of 6 is placed on a mechanical ventilator primarily for which reason?",
     "options": {
-      "A": "To treat underlying hypercapnia caused by metabolic acidosis",
-      "B": "To increase their spontaneous respiratory rate",
-      "C": "To protect their upper airway against aspiration and secure gas exchange",
-      "D": "To prevent the development of chronic bronchitis"
+      "A": "Hypoxemic failure",
+      "B": "Hypercapnic failure",
+      "C": "Airway protection",
+      "D": "Metabolic alkalosis"
     },
     "answer": "C",
-    "explanation": "Patients with a depressed level of consciousness cannot protect their upper airways from aspiration, making airway protection and mechanical support essential. [learn more](GNS315_U3_T6#GNS315_U3_T6_h1)"
+    "explanation": "Patients with severely depressed mental status lose their protective airway reflexes, risking aspiration, which necessitates intubation and mechanical ventilation regardless of initial blood gas values. [learn more](GNS315_U3_T6#GNS315_U3_T6_h1)"
   },
   {
     "question_id": "GNS315_U3_T6_h2_q1",
     "heading_id": "GNS315_U3_T6_h2",
     "article_id": "GNS315_U3_T6",
     "topic_id": "GNS315_U3_T6",
-    "question": "How does normal spontaneous breathing differ fundamentally from mechanical ventilation regarding pressure?",
+    "difficulty": "recall",
+    "question": "How does normal spontaneous breathing primarily draw air into the lungs?",
     "options": {
-      "A": "Spontaneous breathing uses positive pressure, while mechanical ventilation uses negative pressure.",
-      "B": "Spontaneous breathing uses negative pressure, while mechanical ventilation uses positive pressure.",
-      "C": "Both systems rely exclusively on positive pressure gradients.",
-      "D": "Both systems rely exclusively on negative intrapleural pressures."
+      "A": "Using mechanical bellows attached to the chest wall",
+      "B": "Generating positive pressure via the diaphragm",
+      "C": "Compressing the abdominal aorta during inhalation",
+      "D": "Creating negative pressure within the thoracic cavity"
     },
-    "answer": "B",
-    "explanation": "Normal breathing draws air in using negative intrapleural pressure, whereas mechanical ventilators push air in using positive pressure. [learn more](GNS315_U3_T6#GNS315_U3_T6_h2)"
+    "answer": "D",
+    "explanation": "Spontaneous breathing relies on the contraction of respiratory muscles to expand the chest, lowering intrathoracic pressure below atmospheric pressure so air flows inward naturally. [learn more](GNS315_U3_T6#GNS315_U3_T6_h2)"
   },
   {
     "question_id": "GNS315_U3_T6_h2_q2",
     "heading_id": "GNS315_U3_T6_h2",
     "article_id": "GNS315_U3_T6",
     "topic_id": "GNS315_U3_T6",
-    "question": "What is a potential hemodynamic consequence of positive pressure ventilation on the cardiovascular system?",
+    "difficulty": "understanding",
+    "question": "What is a direct hemodynamic consequence of high positive pressure ventilation on the cardiovascular system?",
     "options": {
-      "A": "Increased venous return and elevated cardiac output",
-      "B": "Decreased venous return and potential reduction in cardiac output",
-      "C": "Immediate cessation of left ventricular contraction",
-      "D": "Permanent stabilization of systemic arterial blood pressure"
+      "A": "Decreased venous return leading to reduced cardiac output",
+      "B": "Enhanced perfusion of the coronary arteries during systole",
+      "C": "Significant increase in systemic arterial blood pressure",
+      "D": "Immediate hypertrophy of the left ventricular myocardium"
     },
-    "answer": "B",
-    "explanation": "Increased intrathoracic pressure from positive pressure ventilation can impede venous return (preload) to the heart, potentially reducing cardiac output. [learn more](GNS315_U3_T6#GNS315_U3_T6_h2)"
+    "answer": "A",
+    "explanation": "Positive pressure inside the chest increases overall intrathoracic pressure, which squeezes the great veins and impairs blood return to the heart, thereby lowering overall cardiac output. [learn more](GNS315_U3_T6#GNS315_U3_T6_h2)"
   },
   {
     "question_id": "GNS315_U3_T6_h3_q1",
     "heading_id": "GNS315_U3_T6_h3",
     "article_id": "GNS315_U3_T6",
     "topic_id": "GNS315_U3_T6",
-    "question": "Which ventilation mode delivers a preset respiratory rate and tidal volume regardless of the patient's own breathing efforts, often used in paralyzed patients?",
+    "difficulty": "recall",
+    "question": "Which ventilator mode delivers a preset volume or pressure for every breath, whether machine-triggered or patient-triggered?",
     "options": {
-      "A": "Pressure Support Ventilation (PSV)",
-      "B": "Controlled Mandatory Ventilation (CMV)",
-      "C": "Synchronized Intermittent Mandatory Ventilation (SIMV)",
-      "D": "Continuous Positive Airway Pressure (CPAP)"
+      "A": "Pressure Support Ventilation",
+      "B": "Continuous Positive Airway Pressure",
+      "C": "High-Frequency Oscillation",
+      "D": "Assist-Control Ventilation"
     },
-    "answer": "B",
-    "explanation": "CMV delivers mandatory breaths at set intervals regardless of patient effort, making it suitable for heavily sedated or paralyzed individuals. [learn more](GNS315_U3_T6#GNS315_U3_T6_h3)"
+    "answer": "D",
+    "explanation": "In Assist-Control mode, the machine guarantees that every single breath—whether initiated by the patient's trigger or the machine's timer—receives full mechanical support. [learn more](GNS315_U3_T6#GNS315_U3_T6_h3)"
   },
   {
     "question_id": "GNS315_U3_T6_h3_q2",
     "heading_id": "GNS315_U3_T6_h3",
     "article_id": "GNS315_U3_T6",
     "topic_id": "GNS315_U3_T6",
-    "question": "What is the primary characteristic of Synchronized Intermittent Mandatory Ventilation (SIMV)?",
+    "difficulty": "understanding",
+    "question": "A patient is breathing spontaneously between mandatory machine-delivered breaths while using a ventilator. Which mode is active?",
     "options": {
-      "A": "It paralyzes the diaphragm completely during expiration.",
-      "B": "It delivers only high-pressure alarms without gas delivery.",
-      "C": "It provides synchronized mandatory breaths while allowing spontaneous breathing between them.",
-      "D": "It completely replaces spontaneous breathing with high-frequency oscillations."
+      "A": "Controlled Mandatory Ventilation",
+      "B": "Synchronized Intermittent Mandatory Ventilation",
+      "C": "Apnea Ventilation",
+      "D": "Inverse Ratio Ventilation"
     },
-    "answer": "C",
-    "explanation": "SIMV delivers synchronized mandatory breaths while letting the patient breathe spontaneously on their own between those cycles. [learn more](GNS315_U3_T6#GNS315_U3_T6_h3)"
+    "answer": "B",
+    "explanation": "SIMV allows the patient to take unassisted or pressure-supported spontaneous breaths between the mandatory breaths delivered by the ventilator. [learn more](GNS315_U3_T6#GNS315_U3_T6_h3)"
   },
   {
     "question_id": "GNS315_U3_T6_h4_q1",
     "heading_id": "GNS315_U3_T6_h4",
     "article_id": "GNS315_U3_T6",
     "topic_id": "GNS315_U3_T6",
-    "question": "Why is tidal volume calculated using the patient's predicted body weight rather than their actual weight?",
+    "difficulty": "recall",
+    "question": "What is the standard initial calculation used to determine a safe tidal volume for an adult patient?",
     "options": {
-      "A": "To ensure the patient receives maximum physical sedation",
-      "B": "To prevent volutrauma and overdistension of fragile lung alveoli",
-      "C": "To keep the machine from displaying high-pressure alarm warnings",
-      "D": "To match the exact fluid volume of the patient's blood circulation"
+      "A": "6 to 8 mL/kg of ideal body weight",
+      "B": "15 to 20 mL/kg of actual body weight",
+      "C": "10 to 12 mL/kg of lean muscle mass",
+      "D": "2 to 4 mL/kg of total body surface area"
     },
-    "answer": "B",
-    "explanation": "Using predicted body weight prevents setting excessive tidal volumes that could lead to volutrauma and lung injury. [learn more](GNS315_U3_T6#GNS315_U3_T6_h4)"
+    "answer": "A",
+    "explanation": "Lung-protective ventilation guidelines recommend calculating tidal volume based on ideal body weight rather than actual weight to prevent overdistension of alveoli. [learn more](GNS315_U3_T6#GNS315_U3_T6_h4)"
   },
   {
     "question_id": "GNS315_U3_T6_h4_q2",
     "heading_id": "GNS315_U3_T6_h4",
     "article_id": "GNS315_U3_T6",
     "topic_id": "GNS315_U3_T6",
-    "question": "What is the primary physiological purpose of applying PEEP during mechanical ventilation?",
+    "difficulty": "understanding",
+    "question": "Why is PEEP typically set at a baseline of at least 5 cmH2O upon initial setup?",
     "options": {
-      "A": "To flush carbon dioxide out of the endotracheal tube",
-      "B": "To keep alveoli open at the end of expiration and improve oxygenation",
-      "C": "To decrease the patient's heart rate automatically",
-      "D": "To eliminate the need for humidified oxygen delivery"
+      "A": "To prevent alveolar collapse at the end of expiration",
+      "B": "To maximize the FiO2 delivered to the tissues",
+      "C": "To completely eliminate the work of breathing",
+      "D": "To reduce systemic blood pressure in hypertensive crises"
     },
-    "answer": "B",
-    "explanation": "PEEP maintains positive pressure at the end of expiration, preventing alveolar collapse and improving functional residual capacity. [learn more](GNS315_U3_T6#GNS315_U3_T6_h4)"
+    "answer": "A",
+    "explanation": "PEEP maintains positive pressure in the airways at the end of exhalation, keeping fragile alveoli open and improving overall oxygenation. [learn more](GNS315_U3_T6#GNS315_U3_T6_h4)"
   },
   {
     "question_id": "GNS315_U3_T6_h5_q1",
     "heading_id": "GNS315_U3_T6_h5",
     "article_id": "GNS315_U3_T6",
     "topic_id": "GNS315_U3_T6",
-    "question": "What does a high-pressure alarm on a mechanical ventilator typically indicate?",
+    "difficulty": "recall",
+    "question": "Which diagnostic tool provides immediate, continuous confirmation of correct endotracheal tube placement and ventilation efficacy?",
     "options": {
-      "A": "A disconnection in the ventilator tubing circuit",
-      "B": "An accidental self-extubation by the patient",
-      "C": "Increased airway resistance, coughing, or decreased lung compliance",
-      "D": "A sudden normalization of arterial blood gas values"
+      "A": "Daily complete blood count",
+      "B": "Bilateral upper limb blood pressure",
+      "C": "End-tidal carbon dioxide monitoring",
+      "D": "Routine serum electrolyte panel"
     },
     "answer": "C",
-    "explanation": "High-pressure alarms are triggered by anything that increases resistance to airflow or reduces lung stretch, such as secretions, coughing, or bronchospasm. [learn more](GNS315_U3_T6#GNS315_U3_T6_h5)"
+    "explanation": "Capnography measures exhaled carbon dioxide, giving instant confirmation that the endotracheal tube is correctly positioned in the trachea rather than the esophagus. [learn more](GNS315_U3_T6#GNS315_U3_T6_h5)"
   },
   {
     "question_id": "GNS315_U3_T6_h5_q2",
     "heading_id": "GNS315_U3_T6_h5",
     "article_id": "GNS315_U3_T6",
     "topic_id": "GNS315_U3_T6",
-    "question": "Why is immediate auscultation of bilateral breath sounds important after intubation and during mechanical ventilation?",
+    "difficulty": "understanding",
+    "question": "What does a sudden high-pressure alarm on the mechanical ventilator typically indicate?",
     "options": {
-      "A": "To assess bowel sounds in the upper abdomen",
-      "B": "To confirm correct endotracheal tube placement and rule out mainstem intubation",
-      "C": "To determine the exact cardiac ejection fraction",
-      "D": "To check for accumulation of pleural fluid in the bases"
+      "A": "A sudden drop in the patient's core body temperature",
+      "B": "A disconnection of the ventilator tubing from the airway",
+      "C": "An obstruction in the circuit or increased airway resistance",
+      "D": "Complete failure of the internal gas blender"
     },
-    "answer": "B",
-    "explanation": "Auscultating bilateral breath sounds verifies that the tube is placed correctly in the trachea rather than slipping into the right mainstem bronchus. [learn more](GNS315_U3_T6#GNS315_U3_T6_h5)"
+    "answer": "C",
+    "explanation": "High-pressure alarms sound when the ventilator encounters resistance pushing air in, which can be caused by biting the tube, secretions, coughing, or bronchospasm. [learn more](GNS315_U3_T6#GNS315_U3_T6_h5)"
   },
   {
     "question_id": "GNS315_U3_T6_h6_q1",
     "heading_id": "GNS315_U3_T6_h6",
     "article_id": "GNS315_U3_T6",
     "topic_id": "GNS315_U3_T6",
-    "question": "What is a key component of the Ventilator-Associated Pneumonia (VAP) bundle implemented by critical care nurses?",
+    "difficulty": "recall",
+    "question": "What is the recommended angle for elevating the head of the bed for a mechanically ventilated patient to prevent aspiration?",
     "options": {
-      "A": "Keeping the head of the bed flat at 0 degrees",
-      "B": "Elevating the head of the bed between 30 and 45 degrees",
-      "C": "Performing routine tracheal suctioning every hour regardless of symptoms",
-      "D": "Avoiding oral hygiene to prevent mucosal irritation"
+      "A": "90 degrees upright",
+      "B": "60 to 75 degrees",
+      "C": "0 to 10 degrees",
+      "D": "30 to 45 degrees"
     },
-    "answer": "B",
-    "explanation": "Elevating the head of the bed to 30-45 degrees helps prevent the aspiration of gastric contents and reduces the risk of VAP. [learn more](GNS315_U3_T6#GNS315_U3_T6_h6)"
+    "answer": "D",
+    "explanation": "Keeping the head of the bed elevated between 30 and 45 degrees is a core bundle intervention that prevents micro-aspiration of gastric contents and reduces the incidence of ventilator-associated pneumonia. [learn more](GNS315_U3_T6#GNS315_U3_T6_h6)"
   },
   {
     "question_id": "GNS315_U3_T6_h6_q2",
     "heading_id": "GNS315_U3_T6_h6",
     "article_id": "GNS315_U3_T6",
     "topic_id": "GNS315_U3_T6",
-    "question": "What is the recommended range for maintaining endotracheal tube cuff pressure to prevent complications?",
+    "difficulty": "understanding",
+    "question": "How should endotracheal suctioning be managed in a mechanically ventilated patient?",
     "options": {
-      "A": "5 to 10 cmH2O",
-      "B": "10 to 15 cmH2O",
-      "C": "20 to 30 cmH2O",
-      "D": "40 to 50 cmH2O"
+      "A": "Done using clean technique without personal protective equipment",
+      "B": "Accompanied by routine normal saline instillation to thin mucus",
+      "C": "Performed strictly based on clinical indicators rather than a fixed schedule",
+      "D": "Executed routinely every two hours regardless of breath sounds"
     },
     "answer": "C",
-    "explanation": "Maintaining cuff pressure between 20 and 30 cmH2O ensures a proper seal without causing tracheal mucosal ischemia or allowing microaspiration. [learn more](GNS315_U3_T6#GNS315_U3_T6_h6)"
+    "explanation": "Routine suctioning causes unnecessary mucosal trauma and hypoxia, so it should only be done when clinical signs like secretions or coughing are observed. [learn more](GNS315_U3_T6#GNS315_U3_T6_h6)"
   },
   {
     "question_id": "GNS315_U3_T6_h7_q1",
     "heading_id": "GNS315_U3_T6_h7",
     "article_id": "GNS315_U3_T6",
     "topic_id": "GNS315_U3_T6",
-    "question": "What are barotrauma and volutrauma primarily caused by during mechanical ventilation?",
+    "difficulty": "recall",
+    "question": "What is the immediate priority action if a mechanically ventilated patient suddenly deteriorates and the cause of the alarm cannot be quickly identified?",
     "options": {
-      "A": "Inadequate humidification of inspired air circuits",
-      "B": "Excessive positive pressure or over-distension of lung alveoli",
-      "C": "Frequent suctioning of the endotracheal tube",
-      "D": "Infection with Gram-negative bacterial pathogens"
+      "A": "Administer a rapid intravenous dose of a neuromuscular blocker",
+      "B": "Disconnect the patient and manually ventilate with a bag-valve-mask",
+      "C": "Silence the alarm and wait for the respiratory therapist to arrive",
+      "D": "Increase the FiO2 dial on the ventilator console to 100%"
     },
     "answer": "B",
-    "explanation": "Barotrauma and volutrauma result from excessive pressures and volumes that rupture over-distended alveoli, potentially causing a pneumothorax. [learn more](GNS315_U3_T6#GNS315_U3_T6_h7)"
+    "explanation": "Manual bag-valve-mask ventilation bypasses ventilator machine malfunction or complex circuit problems, ensuring immediate oxygen delivery while troubleshooting occurs. [learn more](GNS315_U3_T6#GNS315_U3_T6_h7)"
   },
   {
     "question_id": "GNS315_U3_T6_h7_q2",
     "heading_id": "GNS315_U3_T6_h7",
     "article_id": "GNS315_U3_T6",
     "topic_id": "GNS315_U3_T6",
-    "question": "What is the immediate nursing action if a mechanically ventilated patient suddenly experiences severe respiratory distress and equipment failure is suspected?",
+    "difficulty": "understanding",
+    "question": "Which complication is characterized by alveolar rupture resulting from high airway pressures?",
     "options": {
-      "A": "Silence the alarm and wait for the respiratory therapist",
-      "B": "Disconnect the patient from the ventilator and manually ventilate with a bag-valve-mask",
-      "C": "Immediately extubate the patient at the bedside",
-      "D": "Increase the PEEP setting to maximum capacity"
+      "A": "Metabolic alkalosis",
+      "B": "Oxygen toxicity",
+      "C": "Barotrauma",
+      "D": "Atelectasis"
     },
-    "answer": "B",
-    "explanation": "If mechanical failure or severe distress occurs, immediately disconnecting the patient and using a bag-valve-mask ensures continuous oxygenation while troubleshooting. [learn more](GNS315_U3_T6#GNS315_U3_T6_h7)"
+    "answer": "C",
+    "explanation": "Barotrauma refers to tissue injury and alveolar rupture caused by high pressure gradients, which can manifest as a pneumothorax or pneumomediastinum. [learn more](GNS315_U3_T6#GNS315_U3_T6_h7)"
   },
   {
     "question_id": "GNS315_U3_T6_h8_q1",
     "heading_id": "GNS315_U3_T6_h8",
     "article_id": "GNS315_U3_T6",
     "topic_id": "GNS315_U3_T6",
-    "question": "What is a key prerequisite criterion that indicates a patient may be ready to begin weaning from mechanical ventilation?",
+    "difficulty": "recall",
+    "question": "What clinical assessment is commonly used to evaluate a patient's readiness for extubation?",
     "options": {
-      "A": "Complete dependence on high doses of vasopressor medications",
-      "B": "Resolution or significant improvement of the underlying condition and stable hemodynamics",
-      "C": "Total absence of any gag reflex or cough",
-      "D": "Prolonged deep sedation and neuromuscular blockade"
+      "A": "Pulmonary artery catheterization",
+      "B": "Spontaneous Breathing Trial",
+      "C": "Continuous renal replacement therapy",
+      "D": "Routine 12-lead electrocardiogram"
     },
     "answer": "B",
-    "explanation": "Weaning can safely begin once the original cause of respiratory failure is improving and the patient is hemodynamically stable. [learn more](GNS315_U3_T6#GNS315_U3_T6_h8)"
+    "explanation": "A Spontaneous Breathing Trial assesses whether a patient can sustain independent breathing without significant mechanical support before the endotracheal tube is removed. [learn more](GNS315_U3_T6#GNS315_U3_T6_h8)"
   },
   {
     "question_id": "GNS315_U3_T6_h8_q2",
     "heading_id": "GNS315_U3_T6_h8",
     "article_id": "GNS315_U3_T6",
     "topic_id": "GNS315_U3_T6",
-    "question": "What critical clinical sign should the nurse monitor for immediately after extubation that may indicate upper airway edema?",
+    "difficulty": "understanding",
+    "question": "Which clinical sign observed immediately after extubation warrants urgent medical notification regarding possible upper airway obstruction?",
     "options": {
-      "A": "Inspiratory stridor",
-      "B": "Bradycardia",
-      "C": "Metabolic alkalosis",
-      "D": "Generalized peripheral edema"
+      "A": "Mild hoarseness of voice",
+      "B": "Inspiratory stridor",
+      "C": "Productive cough reflex",
+      "D": "Normal resting heart rate"
     },
-    "answer": "A",
-    "explanation": "Inspiratory stridor after extubation is a classic sign of laryngeal edema and upper airway narrowing, which requires urgent medical evaluation. [learn more](GNS315_U3_T6#GNS315_U3_T6_h8)"
+    "answer": "B",
+    "explanation": "Inspiratory stridor indicates laryngeal edema and narrowing of the upper airway post-extubation, which can rapidly progress to complete airway obstruction. [learn more](GNS315_U3_T6#GNS315_U3_T6_h8)"
   }
 ]
