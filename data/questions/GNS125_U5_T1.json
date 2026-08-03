@@ -5,15 +5,15 @@
     "article_id": "GNS125_U5_T1",
     "topic_id": "GNS125_U5_T1",
     "difficulty": "recall",
-    "question": "What is the primary definition of drug absorption in pharmacokinetics?",
+    "question": "In pharmacokinetics, what does the letter 'A' stand for in the famous ADME acronym?",
     "options": {
-      "A": "The filtration and elimination of waste products through the kidneys",
-      "B": "The movement of a drug from its administration site into the systemic circulation",
-      "C": "The permanent storage of medicine inside fatty adipose tissue",
-      "D": "The chemical breakdown of pharmaceutical agents by liver enzymes"
+      "A": "Acidification",
+      "B": "Absorption",
+      "C": "Anabolism",
+      "D": "Agglutination"
     },
     "answer": "B",
-    "explanation": "Absorption specifically describes how a pharmaceutical agent crosses biological barriers to enter the bloodstream from where it was given. [learn more](GNS125_U5_T1#GNS125_U5_T1_h1)"
+    "explanation": "Think of ADME as the journey of a drug in the body: Absorption, Distribution, Metabolism, and Excretion. You've got this!"
   },
   {
     "question_id": "GNS125_U5_T1_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GNS125_U5_T1",
     "topic_id": "GNS125_U5_T1",
     "difficulty": "understanding",
-    "question": "Why is understanding the pharmacokinetics of absorption critical for safe patient care?",
+    "question": "What is the main purpose of drug absorption in our bodies?",
     "options": {
-      "A": "It helps predict whether a drug will reach the bloodstream fast enough to work or too quickly and cause toxicity",
-      "B": "It guarantees that all medications will bypass the liver completely without degradation",
-      "C": "It determines the exact rate at which the kidneys will filter out cellular waste products",
-      "D": "It prevents pharmaceutical agents from binding to circulating plasma proteins"
+      "A": "Filtering the drug through the kidneys",
+      "B": "Breaking down the drug in the liver",
+      "C": "Sticking the drug to cell receptors",
+      "D": "Moving the drug into the bloodstream"
     },
-    "answer": "A",
-    "explanation": "Knowing absorption patterns allows healthcare providers to anticipate the onset of therapeutic action and avoid dangerous adverse peaks. [learn more](GNS125_U5_T1#GNS125_U5_T1_h1)"
+    "answer": "D",
+    "explanation": "Absorption is simply how a drug gets from the place you took it (like your mouth or muscle) into your blood so it can go to work."
   },
   {
     "question_id": "GNS125_U5_T1_h2_q1",
@@ -37,15 +37,15 @@
     "article_id": "GNS125_U5_T1",
     "topic_id": "GNS125_U5_T1",
     "difficulty": "recall",
-    "question": "Which membrane transport mechanism requires the direct expenditure of cellular energy?",
+    "question": "Which way of moving drugs across cell membranes needs the body to spend actual energy (ATP)?",
     "options": {
-      "A": "Active transport",
-      "B": "Simple filtration",
-      "C": "Passive diffusion",
-      "D": "Facilitated diffusion"
+      "A": "Passive diffusion",
+      "B": "Facilitated diffusion",
+      "C": "Simple filtration",
+      "D": "Active transport"
     },
-    "answer": "A",
-    "explanation": "Active transport utilizes ATP to move molecules across cellular barriers against an established concentration gradient. [learn more](GNS125_U5_T1#GNS125_U5_T1_h2)"
+    "answer": "D",
+    "explanation": "Just like climbing a hill requires energy, 'active' transport uses cellular energy to pump substances across membranes, often against a flow."
   },
   {
     "question_id": "GNS125_U5_T1_h2_q2",
@@ -53,15 +53,15 @@
     "article_id": "GNS125_U5_T1",
     "topic_id": "GNS125_U5_T1",
     "difficulty": "understanding",
-    "question": "What characteristic makes passive diffusion the predominant pathway for most lipid-soluble medications?",
+    "question": "How do most common drugs cross cell membranes during absorption without using up energy?",
     "options": {
-      "A": "They require specialized carrier proteins to shuttle them across aqueous extracellular fluid",
-      "B": "They are too large to fit through microscopic pores and must rely on cellular engulfment",
-      "C": "They actively pump themselves uphill against existing concentration gradients",
-      "D": "They dissolve easily into the hydrophobic lipid bilayer of the cell membrane without needing energy"
+      "A": "By endocytosis through the engulfing of large molecules",
+      "B": "By active transport using cellular energy stores",
+      "C": "By passive diffusion along a concentration gradient",
+      "D": "By pinocytosis through fluid uptake channels"
     },
-    "answer": "D",
-    "explanation": "Because biological membranes are fundamentally composed of lipids, fat-soluble compounds pass right through them freely. [learn more](GNS125_U5_T1#GNS125_U5_T1_h2)"
+    "answer": "C",
+    "explanation": "Passive diffusion is the easy route! Drugs just naturally flow from an area of high concentration to low concentration without needing any energy."
   },
   {
     "question_id": "GNS125_U5_T1_h3_q1",
@@ -69,15 +69,15 @@
     "article_id": "GNS125_U5_T1",
     "topic_id": "GNS125_U5_T1",
     "difficulty": "recall",
-    "question": "Which administration route bypasses the absorption phase entirely because the medication is placed directly into the bloodstream?",
+    "question": "Which method of giving a medication skips the absorption process completely?",
     "options": {
-      "A": "Intramuscular",
-      "B": "Intravenous",
-      "C": "Oral",
-      "D": "Subcutaneous"
+      "A": "Intravenous injection",
+      "B": "Oral tablet ingestion",
+      "C": "Sublingual placement",
+      "D": "Subcutaneous injection"
     },
-    "answer": "B",
-    "explanation": "Intravenous administration deposits the pharmaceutical agent straight into a vein, resulting in instantaneous systemic availability with zero absorption barrier. [learn more](GNS125_U5_T1#GNS125_U5_T1_h3)"
+    "answer": "A",
+    "explanation": "When you give a drug IV (intravenous), it goes straight into the vein. It's already in the blood, so it doesn't need to be absorbed!"
   },
   {
     "question_id": "GNS125_U5_T1_h3_q2",
@@ -85,47 +85,47 @@
     "article_id": "GNS125_U5_T1",
     "topic_id": "GNS125_U5_T1",
     "difficulty": "application",
-    "question": "A patient arrives in the emergency department in severe anaphylactic shock requiring immediate circulatory stabilization. Which route of administration should be prioritized?",
+    "question": "Why do intramuscular (IM) injections usually absorb faster than subcutaneous (SC) shots?",
     "options": {
-      "A": "Intravenous",
-      "B": "Intramuscular",
-      "C": "Oral ingestion",
-      "D": "Subcutaneous"
+      "A": "Muscles are located closer to the major organs of the body.",
+      "B": "Skeletal muscle tissue has a richer blood supply than fat tissue.",
+      "C": "Subcutaneous fat layers actively repel water-soluble medications.",
+      "D": "Muscle tissue contains more digestive enzymes to break down tablets."
     },
-    "answer": "A",
-    "explanation": "Emergencies demand immediate therapeutic plasma concentrations, making the intravenous route essential because it eliminates absorption delays. [learn more](GNS125_U5_T1#GNS125_U5_T1_h3)"
+    "answer": "B",
+    "explanation": "Muscles have lots of blood vessels (a rich blood supply) which quickly wash the medication away into circulation. Fat tissue has less blood flow."
   },
   {
     "question_id": "GNS125_U5_T1_h4_q1",
     "heading_id": "GNS125_U5_T1_h4",
     "article_id": "GNS125_U5_T1",
     "topic_id": "GNS125_U5_T1",
-    "difficulty": "recall",
-    "question": "How does ionization status generally affect the ability of a drug molecule to cross a cell membrane?",
+    "difficulty": "understanding",
+    "question": "Why do fat-soluble (lipid-soluble) drugs cross cell membranes much easier than water-soluble ones?",
     "options": {
-      "A": "Ionization status has no impact on how quickly a medication is absorbed",
-      "B": "Un-ionized molecules cross lipid membranes much more easily than ionized molecules",
-      "C": "Ionized molecules dissolve rapidly through hydrophobic fatty tissues",
-      "D": "Un-ionized molecules are instantly repelled by cellular phospholipid layers"
+      "A": "Cell membranes are made of a lipid bilayer.",
+      "B": "Fat-soluble drugs refuse to dissolve in body fluids.",
+      "C": "Water-soluble drugs require active ATP energy pumps.",
+      "D": "Lipid drugs are always smaller in molecular weight."
     },
-    "answer": "B",
-    "explanation": "Neutral, un-ionized drug forms are lipid-soluble and pass freely through the hydrophobic cellular membrane, whereas charged particles cannot. [learn more](GNS125_U5_T1#GNS125_U5_T1_h4)"
+    "answer": "A",
+    "explanation": "Like dissolves like! Since cell membranes are made of fat (lipids), fat-soluble drugs slip right through them easily."
   },
   {
     "question_id": "GNS125_U5_T1_h4_q2",
     "heading_id": "GNS125_U5_T1_h4",
     "article_id": "GNS125_U5_T1",
     "topic_id": "GNS125_U5_T1",
-    "difficulty": "understanding",
-    "question": "Where are weakly acidic drugs, such as aspirin, primarily absorbed in the gastrointestinal tract?",
+    "difficulty": "recall",
+    "question": "Which form of a drug molecule passes most easily across biological cell membranes?",
     "options": {
-      "A": "Stomach",
-      "B": "Large colon",
-      "C": "Esophagus",
-      "D": "Rectum"
+      "A": "Ionized",
+      "B": "Conjugated",
+      "C": "Unionized",
+      "D": "Protein-bound"
     },
-    "answer": "A",
-    "explanation": "In the acidic environment of the stomach, weak acids remain un-ionized, which enhances their lipid solubility and promotes rapid mucosal absorption. [learn more](GNS125_U5_T1#GNS125_U5_T1_h4)"
+    "answer": "C",
+    "explanation": "Unionized (un-charged) drug molecules are more fat-friendly (lipophilic), helping them slip smoothly across cell membranes."
   },
   {
     "question_id": "GNS125_U5_T1_h5_q1",
@@ -133,15 +133,15 @@
     "article_id": "GNS125_U5_T1",
     "topic_id": "GNS125_U5_T1",
     "difficulty": "recall",
-    "question": "Which anatomical structure provides the greatest surface area for oral drug absorption in the human body?",
+    "question": "Which part of our digestive tract is the main site for drug absorption because of its huge surface area?",
     "options": {
-      "A": "Buccal mucosa",
+      "A": "Esophagus",
       "B": "Small intestine",
-      "C": "Large intestine",
-      "D": "Stomach lining"
+      "C": "Stomach lining",
+      "D": "Large colon"
     },
     "answer": "B",
-    "explanation": "The presence of circular folds, villi, and microvilli grants the small intestine an enormous surface area, optimizing the uptake of ingested substances. [learn more](GNS125_U5_T1#GNS125_U5_T1_h5)"
+    "explanation": "The small intestine is packed with tiny finger-like folds (villi) that create a massive surface area, perfect for absorbing nutrients and drugs!"
   },
   {
     "question_id": "GNS125_U5_T1_h5_q2",
@@ -149,15 +149,15 @@
     "article_id": "GNS125_U5_T1",
     "topic_id": "GNS125_U5_T1",
     "difficulty": "understanding",
-    "question": "What is the physiological effect of high local blood perfusion on drug absorption?",
+    "question": "How does poor blood flow to an area where a drug was given affect how it works?",
     "options": {
-      "A": "It traps the medication permanently inside the extracellular interstitial spaces",
-      "B": "It cools the local tissue down and stops cellular membrane transport channels",
-      "C": "It maintains a steep concentration gradient, accelerating the rate of absorption",
-      "D": "It increases gastric acidity and destroys the drug before absorption occurs"
+      "A": "It slows down the rate at which the drug enters circulation.",
+      "B": "It forces the drug to skip first-pass metabolism entirely.",
+      "C": "It increases the total amount of drug absorbed by the tissues.",
+      "D": "It completely stops the liver from breaking down the drug."
     },
-    "answer": "C",
-    "explanation": "Constant blood flow sweeps absorbed molecules away, ensuring the concentration inside the tissue remains lower than at the administration site. [learn more](GNS125_U5_T1#GNS125_U5_T1_h5)"
+    "answer": "A",
+    "explanation": "Blood flow acts like a delivery van. If blood flow is sluggish, the drug sits there longer instead of getting carried into the body quickly."
   },
   {
     "question_id": "GNS125_U5_T1_h6_q1",
@@ -165,15 +165,15 @@
     "article_id": "GNS125_U5_T1",
     "topic_id": "GNS125_U5_T1",
     "difficulty": "recall",
-    "question": "What term describes the fraction of an administered drug dose that successfully reaches the systemic circulation in an active, unchanged form?",
+    "question": "What do we call the fraction of a drug that successfully reaches the bloodstream in an active, unchanged form?",
     "options": {
-      "A": "Volume of distribution",
-      "B": "Clearance rate",
-      "C": "Half-life",
-      "D": "Bioavailability"
+      "A": "Clearance rate",
+      "B": "Half-life",
+      "C": "Bioavailability",
+      "D": "Volume of distribution"
     },
-    "answer": "D",
-    "explanation": "Bioavailability quantifies the exact proportion of a medication that escapes degradation and enters the systemic circulation to produce an effect. [learn more](GNS125_U5_T1#GNS125_U5_T1_h6)"
+    "answer": "C",
+    "explanation": "Bioavailability simply means 'how much active drug is actually available' to your body to do its job after the journey."
   },
   {
     "question_id": "GNS125_U5_T1_h6_q2",
@@ -181,15 +181,15 @@
     "article_id": "GNS125_U5_T1",
     "topic_id": "GNS125_U5_T1",
     "difficulty": "understanding",
-    "question": "Why do some medications require a much higher oral dose than their intravenous dosage to produce the same clinical effect?",
+    "question": "Why do some drugs need a much higher dose when swallowed as pills compared to being given through an injection?",
     "options": {
-      "A": "Extensive first-pass hepatic metabolism destroys a large portion of the oral dose before it reaches the bloodstream",
-      "B": "The stomach acid increases the molecular weight of oral medications beyond the absorption threshold",
-      "C": "Intravenous drugs undergo rapid enzymatic breakdown inside skeletal muscle tissue beds",
-      "D": "Oral medications precipitate into solid crystals within the portal vein before reaching liver tissue"
+      "A": "Intravenous drugs take longer to dissolve than liquid syrups or crushed pills.",
+      "B": "First-pass metabolism in the liver inactivates a large portion of the oral dose.",
+      "C": "Oral tablets contain inactive fillers that block the active ingredient completely.",
+      "D": "The stomach acid destroys all intravenous drugs before they enter the arm veins."
     },
-    "answer": "A",
-    "explanation": "Portal circulation routes drugs straight through the liver, where metabolizing enzymes can inactivate a major percentage of an oral dose. [learn more](GNS125_U5_T1#GNS125_U5_T1_h6)"
+    "answer": "B",
+    "explanation": "When you swallow a pill, it goes straight to the liver via the gut first. The liver breaks a lot of it down before it even reaches the rest of the body!"
   },
   {
     "question_id": "GNS125_U5_T1_h7_q1",
@@ -197,15 +197,15 @@
     "article_id": "GNS125_U5_T1",
     "topic_id": "GNS125_U5_T1",
     "difficulty": "application",
-    "question": "A patient with a history of dysphagia is prescribed a sustained-release antihypertensive medication formulated as a scored tablet. What is the most appropriate action for the nurse to take?",
+    "question": "What happens if a nurse crushes an enteric-coated tablet before giving it to a patient?",
     "options": {
-      "A": "Crush the pill into a fine powder and dissolve it in sterile water for nasogastric tube administration",
-      "B": "Crush the tablet thoroughly and mix it into applesauce to make it safe for the patient to swallow",
-      "C": "Consult the pharmacist or prescriber to check if an alternative liquid or transdermal formulation is available",
-      "D": "Administer the medication with a cold beverage to speed up gastric dissolution and absorption"
+      "A": "The tablet turns into a liquid suspension that is easier to give via feeding tube.",
+      "B": "The medication bypasses first-pass metabolism and increases systemic toxicity.",
+      "C": "The protective coating is ruined, which can cause stomach irritation or destroy the drug.",
+      "D": "The drug absorbs twice as fast because stomach acid helps break down the core."
     },
     "answer": "C",
-    "explanation": "Crushing sustained-release medications destroys their matrix, causing an immediate dump of the entire drug dose and risking severe toxicity. [learn more](GNS125_U5_T1#GNS125_U5_T1_h7)"
+    "explanation": "Enteric coatings are specially designed to protect the drug from stomach acid (and protect your stomach from harsh drugs). Never crush them!"
   },
   {
     "question_id": "GNS125_U5_T1_h7_q2",
@@ -213,14 +213,14 @@
     "article_id": "GNS125_U5_T1",
     "topic_id": "GNS125_U5_T1",
     "difficulty": "understanding",
-    "question": "Which nursing assessment is NOT necessary when evaluating factors that could alter oral drug absorption?",
+    "question": "Why is it important for a nurse to check food and diet instructions before giving an oral medication?",
     "options": {
-      "A": "Assessing the presence of nausea, vomiting, or abnormal bowel motility",
-      "B": "Checking the patient's visual acuity and ability to read medication labels",
-      "C": "Reviewing concurrent dietary intake and timing with meals",
-      "D": "Evaluating baseline gastrointestinal history and surgical resections"
+      "A": "Eating food stops the liver from performing any first-pass metabolism.",
+      "B": "Food increases the patient's blood pressure and blocks drug excretion.",
+      "C": "Food can bind to certain drugs or alter stomach emptying, changing absorption.",
+      "D": "All oral medications must be mixed with food to prevent severe nausea."
     },
-    "answer": "B",
-    "explanation": "While important for general medication administration safety, visual acuity does not directly influence the physiological or physicochemical process of drug absorption. [learn more](GNS125_U5_T1#GNS125_U5_T1_h7)"
+    "answer": "C",
+    "explanation": "Food can sometimes block a drug from being absorbed properly or bind to it chemically, making the medicine less effective."
   }
 ]
