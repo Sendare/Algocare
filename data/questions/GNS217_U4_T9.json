@@ -5,15 +5,15 @@
     "article_id": "GNS217_U4_T9",
     "topic_id": "GNS217_U4_T9",
     "difficulty": "recall",
-    "question": "What type of data is primarily displayed using a histogram?",
+    "question": "What type of data is best shown using a histogram?",
     "options": {
-      "A": "Continuous numerical data",
-      "B": "Nominal categorical data",
-      "C": "Binary attribute data",
-      "D": "Ordinal ranking data"
+      "A": "Categorical survey groups",
+      "B": "Nominal demographic tags",
+      "C": "Unordered text notes",
+      "D": "Continuous numerical data"
     },
-    "answer": "A",
-    "explanation": "Histograms are specifically designed to plot continuous quantitative variables grouped into intervals. [learn more](GNS217_U4_T9#GNS217_U4_T9_h1)"
+    "answer": "D",
+    "explanation": "Histograms are built for numbers that flow on a continuous scale (like weight or age), unlike bar charts which show separate groups. You've got this!"
   },
   {
     "question_id": "GNS217_U4_T9_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GNS217_U4_T9",
     "topic_id": "GNS217_U4_T9",
     "difficulty": "understanding",
-    "question": "Why do nursing researchers use histograms when analyzing large datasets?",
+    "question": "Why do nurse researchers like using histograms for patient data?",
     "options": {
-      "A": "To prove a causal relationship between two distinct variables",
-      "B": "To replace the need for calculating standard deviation entirely",
-      "C": "To organize non-numerical interview transcripts into themes",
-      "D": "To visualize data distribution and central tendency quickly"
+      "A": "To replace the need for ethical board approval in clinical trials",
+      "B": "To quickly visualize the distribution and spread of a data set",
+      "C": "To prove a causal relationship between two separate nursing interventions",
+      "D": "To track the exact medical record number of every patient in a study"
     },
-    "answer": "D",
-    "explanation": "Visual graphs convert raw numerical spreadsheets into clear pictures showing how data spreads out and clusters. [learn more](GNS217_U4_T9#GNS217_U4_T9_h1)"
+    "answer": "B",
+    "explanation": "Turning raw numbers into a clear picture helps you spot patterns and averages at a glance. Simple and super helpful in research!"
   },
   {
     "question_id": "GNS217_U4_T9_h2_q1",
@@ -37,15 +37,15 @@
     "article_id": "GNS217_U4_T9",
     "topic_id": "GNS217_U4_T9",
     "difficulty": "recall",
-    "question": "What structural feature distinguishes a histogram from a chart that displays discrete categories?",
+    "question": "On a histogram, what does the vertical axis (Y-axis) usually stand for?",
     "options": {
-      "A": "The bars touch each other with no gaps",
-      "B": "The vertical axis always measures percentages",
-      "C": "The horizontal axis displays named categories",
-      "D": "The bars are arranged in descending height order"
+      "A": "The individual patient identification numbers",
+      "B": "The specific names of nursing units",
+      "C": "The frequency or count of observations",
+      "D": "The calendar dates of data collection"
     },
-    "answer": "A",
-    "explanation": "Contiguous, touching bars visually reinforce that the data measured on the axis is continuous rather than discrete. [learn more](GNS217_U4_T9#GNS217_U4_T9_h2)"
+    "answer": "C",
+    "explanation": "Think of the Y-axis as the counter: it tells you how many times a certain value or range popped up."
   },
   {
     "question_id": "GNS217_U4_T9_h2_q2",
@@ -53,15 +53,15 @@
     "article_id": "GNS217_U4_T9",
     "topic_id": "GNS217_U4_T9",
     "difficulty": "understanding",
-    "question": "What does the height of a rectangular bar in a histogram represent?",
+    "question": "Why do the bars in a histogram touch each other with no gaps?",
     "options": {
-      "A": "The frequency of data points within that bin interval",
-      "B": "The cumulative total of all preceding data points",
-      "C": "The mathematical average value of that specific bar",
-      "D": "The range between the minimum and maximum values"
+      "A": "To represent separate categorical nursing shifts",
+      "B": "To show that the underlying data is continuous",
+      "C": "To save space on the research paper page",
+      "D": "To hide missing data points from the reader"
     },
-    "answer": "A",
-    "explanation": "The vertical axis measures how many observations fall inside the numerical boundaries established by that particular bin. [learn more](GNS217_U4_T9#GNS217_U4_T9_h2)"
+    "answer": "B",
+    "explanation": "Since the numbers flow smoothly from one value to the next without breaks, the bars stick together to show that flow!"
   },
   {
     "question_id": "GNS217_U4_T9_h3_q1",
@@ -69,31 +69,31 @@
     "article_id": "GNS217_U4_T9",
     "topic_id": "GNS217_U4_T9",
     "difficulty": "recall",
-    "question": "Which of the following is NOT a feature of a standard histogram?",
+    "question": "What makes a histogram different from a regular bar chart?",
     "options": {
-      "A": "Continuous numerical scale on the x-axis",
-      "B": "Intervals that cover a continuous range",
-      "C": "Spaces separating the rectangular bars",
-      "D": "Bars whose heights represent frequency"
+      "A": "The bars touch each other with no gaps",
+      "B": "The bars are colored in bright shades",
+      "C": "The chart includes a title at the top",
+      "D": "The vertical axis measures percentages"
     },
-    "answer": "C",
-    "explanation": "Histograms feature touching bars without gaps to reflect continuous measurement scales. [learn more](GNS217_U4_T9#GNS217_U4_T9_h3)"
+    "answer": "A",
+    "explanation": "Spot on! Bar charts have spaces between categories, but histograms touch because their numerical scale keeps right on going."
   },
   {
     "question_id": "GNS217_U4_T9_h3_q2",
     "heading_id": "GNS217_U4_T9_h3",
     "article_id": "GNS217_U4_T9",
     "topic_id": "GNS217_U4_T9",
-    "difficulty": "understanding",
-    "question": "When should a nurse researcher choose to build a bar chart instead of a histogram?",
+    "difficulty": "application",
+    "question": "A nurse manager wants to graph staff numbers across four units: ICU, Emergency, Pediatrics, and Surgery. Which chart fits best?",
     "options": {
-      "A": "When analyzing patient age ranges in a clinical trial cohort",
-      "B": "When measuring the exact lengths of inpatient stays in days",
-      "C": "When plotting the distribution of continuous serum potassium levels",
-      "D": "When comparing the counts of distinct categorical groups"
+      "A": "A bar chart, because the departments are separate categories",
+      "B": "A scatter plot, because departments change over time",
+      "C": "A pie chart showing only the ICU department",
+      "D": "A histogram, because staff counts are continuous numbers"
     },
-    "answer": "D",
-    "explanation": "Bar charts display qualitative or discrete categories like hospital departments or gender, unlike continuous numerical histograms. [learn more](GNS217_U4_T9#GNS217_U4_T9_h3)"
+    "answer": "A",
+    "explanation": "Because these hospital units are distinct, separate groups rather than a continuous scale, a bar chart is the right tool."
   },
   {
     "question_id": "GNS217_U4_T9_h4_q1",
@@ -101,15 +101,15 @@
     "article_id": "GNS217_U4_T9",
     "topic_id": "GNS217_U4_T9",
     "difficulty": "recall",
-    "question": "What is the first mathematical calculation required when determining bin intervals for a dataset?",
+    "question": "What is the first thing you should do when building a histogram from raw numbers?",
     "options": {
-      "A": "Determining the exact standard deviation of the sample",
-      "B": "Finding the range by subtracting the lowest value from the highest",
-      "C": "Multiplying the total sample size by the square root",
-      "D": "Calculating the median of the entire raw dataset"
+      "A": "Calculate the exact average of the categorical groups",
+      "B": "Find the range by identifying the lowest and highest values",
+      "C": "Color the bars using alternating bright shades",
+      "D": "Draw the vertical and horizontal axes freehand"
     },
     "answer": "B",
-    "explanation": "Calculating the total range establishes the total span that must be divided into equal bin intervals. [learn more](GNS217_U4_T9#GNS217_U4_T9_h4)"
+    "explanation": "You always want to know your lowest and highest numbers first so you know how wide your chart needs to stretch!"
   },
   {
     "question_id": "GNS217_U4_T9_h4_q2",
@@ -117,15 +117,15 @@
     "article_id": "GNS217_U4_T9",
     "topic_id": "GNS217_U4_T9",
     "difficulty": "understanding",
-    "question": "What happens if bin widths are drawn too narrow in a histogram?",
+    "question": "What do the intervals or 'bins' on the horizontal axis represent in a histogram?",
     "options": {
-      "A": "The vertical axis frequency scale is invalidated",
-      "B": "All data points automatically collapse into a single bar",
-      "C": "The graph becomes overly jagged and difficult to interpret",
-      "D": "The overall data pattern becomes perfectly smooth and normal"
+      "A": "The specific dates when the study ended",
+      "B": "Randomly selected patient interview questions",
+      "C": "Different hospital wards in the facility",
+      "D": "Equal numerical ranges of the measured variable"
     },
-    "answer": "C",
-    "explanation": "Extremely narrow bins create too many intervals with very low counts, resulting in a noisy, jagged visual profile. [learn more](GNS217_U4_T9#GNS217_U4_T9_h4)"
+    "answer": "D",
+    "explanation": "Bins cut the continuous scale into neat, equal slices so you can easily count and compare your data."
   },
   {
     "question_id": "GNS217_U4_T9_h5_q1",
@@ -133,62 +133,62 @@
     "article_id": "GNS217_U4_T9",
     "topic_id": "GNS217_U4_T9",
     "difficulty": "understanding",
-    "question": "What does a right-skewed histogram indicate about a dataset?",
+    "question": "What does a right-skewed histogram usually tell us about hospital wait times?",
     "options": {
-      "A": "The dataset contains equal numbers of high and low observations",
-      "B": "A long tail extends toward higher numerical values on the right",
-      "C": "The mean, median, and mode are all perfectly identical values",
-      "D": "Most data points are clustered near the maximum possible value"
+      "A": "The data collection process had errors and must be discarded",
+      "B": "Most patients wait a very long time, with almost no quick visits",
+      "C": "Every single patient waits the exact same amount of time",
+      "D": "Most patients wait a short time, while a few wait a very long time"
     },
-    "answer": "B",
-    "explanation": "Right-skewed distributions have a peak near lower values and a tail stretching out toward the higher end of the scale. [learn more](GNS217_U4_T9#GNS217_U4_T9_h5)"
+    "answer": "D",
+    "explanation": "A right-skew has a bunch of tall bars on the left for quick waits, and a long tail stretching right for those rare, super-long waits."
   },
   {
     "question_id": "GNS217_U4_T9_h5_q2",
     "heading_id": "GNS217_U4_T9_h5",
     "article_id": "GNS217_U4_T9",
     "topic_id": "GNS217_U4_T9",
-    "difficulty": "application",
-    "question": "A hospital records the length of stay for surgical patients. Most patients leave within 3 to 5 days, but a small fraction experience severe complications and remain hospitalized for weeks. What shape will their histogram take?",
+    "difficulty": "recall",
+    "question": "Which term describes a histogram where the left and right sides mirror each other around a center peak?",
     "options": {
-      "A": "Right-skewed with a tail extending toward higher day values",
-      "B": "Perfect bell-shaped symmetry with equal tails on both sides",
-      "C": "A uniform rectangle with identical bar heights across all days",
-      "D": "Left-skewed with a tail stretching toward lower day values"
+      "A": "Right-skewed distribution",
+      "B": "Bimodal split distribution",
+      "C": "Bell-shaped distribution",
+      "D": "Left-skewed distribution"
     },
-    "answer": "A",
-    "explanation": "The bulk of short stays creates a peak on the left, while the few long stays stretch the tail out toward the right. [learn more](GNS217_U4_T9#GNS217_U4_T9_h5)"
+    "answer": "C",
+    "explanation": "Think of a church bell! A symmetrical, bell-shaped curve means your data is nicely balanced around the average."
   },
   {
     "question_id": "GNS217_U4_T9_h6_q1",
     "heading_id": "GNS217_U4_T9_h6",
     "article_id": "GNS217_U4_T9",
     "topic_id": "GNS217_U4_T9",
-    "difficulty": "understanding",
-    "question": "How can an emergency department nurse manager utilize a histogram in quality improvement?",
+    "difficulty": "application",
+    "question": "A quality improvement nurse is reviewing patient falls over the past year. How can a histogram help?",
     "options": {
-      "A": "To diagnose underlying pathological conditions in trauma victims",
-      "B": "To schedule individual shift rosters for nursing personnel",
-      "C": "To evaluate patient waiting time distributions and spot bottlenecks",
-      "D": "To calculate exact medication dosages for specific patients"
+      "A": "By replacing all incident report paperwork with digital drawings",
+      "B": "By proving which specific nurse was on duty during every single fall incident",
+      "C": "By showing the frequency distribution of fall counts, revealing if high falls are common or rare",
+      "D": "By listing the exact home phone numbers of patients who experienced a fall"
     },
     "answer": "C",
-    "explanation": "Plotting wait times visually highlights whether the majority of patients are seen promptly or if long wait times affect a significant minority. [learn more](GNS217_U4_T9#GNS217_U4_T9_h6)"
+    "explanation": "Histograms show how often numbers happen, letting quality teams instantly see what's normal and what's an extreme outlier."
   },
   {
     "question_id": "GNS217_U4_T9_h6_q2",
     "heading_id": "GNS217_U4_T9_h6",
     "article_id": "GNS217_U4_T9",
     "topic_id": "GNS217_U4_T9",
-    "difficulty": "application",
-    "question": "A community health nurse wants to assess the impact of a new blood pressure clinic by comparing patient diastolic pressures before and after the program. Which graphical tool best visualizes the spread and shift of this continuous numerical data?",
+    "difficulty": "understanding",
+    "question": "Which of these is NOT a typical healthcare use for a histogram?",
     "options": {
-      "A": "Histogram",
-      "B": "Flowchart of clinic visits",
-      "C": "Pie chart",
-      "D": "Line graph of single patient"
+      "A": "Tracking the exact chronological order of daily nursing shift handovers",
+      "B": "Reviewing patient length of stay to manage bed turnover rates",
+      "C": "Examining patient recovery times in days following major surgery",
+      "D": "Analyzing blood pressure readings across a large outpatient clinic"
     },
     "answer": "A",
-    "explanation": "Histograms are ideal for showing the frequency distribution and shift of continuous clinical measurements like blood pressure. [learn more](GNS217_U4_T9#GNS217_U4_T9_h6)"
+    "explanation": "Histograms show how often numerical values happen (like blood pressures or days of stay), not the time-order of a daily handover shift."
   }
 ]

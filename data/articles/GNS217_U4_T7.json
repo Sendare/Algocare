@@ -12,44 +12,38 @@
     {
       "heading_id": "GNS217_U4_T7_h1",
       "order": 1,
-      "title": "Introduction to Bar Charts in Nursing Research",
-      "content": "A bar chart is a visual tool used in healthcare research to display categorical data through rectangular bars. Each bar represents a specific category, and its height or length is directly proportional to the frequency, percentage, or mean of that category. In Nigerian nursing research and public health reports, bar charts frequently illustrate epidemiological data, such as vaccination coverage rates across different local government areas or the prevalence of specific communicable diseases among varying age groups. Organizing data visually transforms complex numerical spreadsheets into accessible evidence that policymakers and clinical staff can interpret instantly."
+      "title": "Introduction to Bar Charts in Healthcare",
+      "content": "In nursing research and hospital administration, data is collected daily. Transforming raw numbers into a clear visual format helps staff understand patient outcomes, infection rates, or staffing levels quickly. A **bar chart** is one of the most common graphical tools used for this purpose. It uses rectangular bars where the length or height of each bar matches the value it represents.\n\nUnlike continuous data that flows on a line graph, bar charts display **categorical data**. Categories might include different hospital wards, types of wounds, or patient age groups. By looking at the bars side by side, a nurse manager can immediately spot which shift handles the highest patient load or which unit reports the most falls without reading through complex statistical tables."
     },
     {
       "heading_id": "GNS217_U4_T7_h2",
       "order": 2,
-      "title": "Core Components and Structure of a Bar Chart",
-      "content": "Every properly constructed bar chart relies on standard geometric and labeling elements to communicate accurate information without misleading the reader.\n\n- **X-axis (Horizontal Axis)**: Displays the discrete categories being compared, such as types of wards or cadres of healthcare workers.\n- **Y-axis (Vertical Axis)**: Represents the numerical scale showing frequencies, counts, or percentages.\n- **Bars**: Rectangular shapes whose lengths correspond to the values on the y-axis; uniform width is essential to prevent visual bias.\n- **Axis Labels and Title**: Clear descriptors specifying what the axes measure and what the overall chart depicts, complete with units of measurement.\n- **Legend**: A key that explains color coding or patterns, especially crucial when a chart displays multiple data series per category."
+      "title": "Anatomy of a Bar Chart",
+      "content": "Every standard bar chart relies on specific structural elements to communicate information accurately:\n\n- **X-axis (Horizontal axis)**: Displays the independent categories, such as the names of different nursing units like Emergency, Pediatrics, and ICU.\n- **Y-axis (Vertical axis)**: Displays the numerical scale, representing frequencies, percentages, or averages, such as the number of medication errors reported.\n- **Bars**: The visual rectangles whose lengths correspond directly to the numbers on the Y-axis.\n- **Title and Labels**: Clear text that explains what the chart measures and what units of measurement are used.\n\nA common beginner mistake is forgetting to start the Y-axis at zero. If a vertical axis starts at fifty instead of zero, small differences between categories can look massive and misleading."
     },
     {
       "heading_id": "GNS217_U4_T7_h3",
       "order": 3,
-      "title": "Types of Bar Charts: Simple, Grouped, and Stacked",
-      "content": "Depending on the complexity of the research variables, nurses select from three primary variations of the bar chart format.\n\n1. **Simple Bar Chart**: Displays a single categorical variable, such as the number of patients admitted to various hospital departments.\n2. **Grouped Bar Chart**: Places multiple bars side-by-side within each main category to compare sub-categories, such as comparing malaria incidence rates between males and females across different geopolitical zones.\n3. **Stacked Bar Chart**: Segments individual bars into colored or patterned sub-components to show part-to-whole relationships, like illustrating the proportion of mild, moderate, and severe dehydration cases within multiple pediatric clinics."
+      "title": "Simple, Grouped, and Stacked Variations",
+      "content": "Depending on how many variables a nurse researcher wants to display, different styles of bar charts are utilized:\n\n1. **Simple Bar Chart**: Displays a single categorical variable against a numerical scale, such as total patient admissions per month.\n2. **Grouped Bar Chart**: Places multiple bars side by side for each category to compare sub-categories, such as comparing male and female patient readmission rates across four different clinics.\n3. **Stacked Bar Chart**: Places sub-category bars on top of each other to show both the total amount and the breakdown of parts making up that total, such as showing mild, moderate, and severe pain scores combined into one total bar per ward."
     },
     {
       "heading_id": "GNS217_U4_T7_h4",
       "order": 4,
-      "title": "When to Use a Bar Chart vs. Other Graphs",
-      "content": "Choosing the correct graphical tool depends entirely on the level of measurement of your data. Bar charts are reserved for categorical or discrete data, whereas histograms display continuous numerical data divided into intervals, resulting in bars that touch each other with no gaps. Line graphs track changes over continuous time periods, such as monthly fluctuations in typhoid fever admissions over five years. Pie charts show percentage compositions of a whole, though researchers generally prefer bar charts because the human eye judges linear height more accurately than angular pie slices."
+      "title": "Choosing Bar Charts Over Other Graphs",
+      "content": "Knowing when to select a bar chart instead of a pie chart, line graph, or scatter plot is an essential skill for clinical presentations. Bar charts excel when comparing discrete, separate groups. \n\nIf you want to track a patient's temperature changes every hour over a week, a line graph is superior because time flows continuously. If you want to show how a single budget breaks down into exact percentage slices that equal one hundred percent, a pie chart works, though many statisticians prefer bar charts because human eyes judge bar length more accurately than pie slice angles. Bar charts should never be used for continuous, unbroken numerical trends."
     },
     {
       "heading_id": "GNS217_U4_T7_h5",
       "order": 5,
-      "title": "Step-by-Step Guide to Constructing a Bar Chart",
-      "content": "Constructing a clear bar chart requires a systematic approach from raw data collection to final formatting. First, tally your raw data into a frequency table to determine counts or percentages for each category. Second, establish your axes: place categories on the horizontal axis and set a numerical scale on the vertical axis that starts at zero and extends slightly beyond your highest data point. Third, draw the rectangular bars ensuring equal width and consistent spacing between categories. Finally, add a descriptive title, clear axis labels with units, and a legend if multiple data series are present."
+      "title": "Interpreting Healthcare Bar Charts",
+      "content": "Reading a bar chart correctly involves looking past the colorful rectangles to analyze what the data truly says about patient care. Start by reading the chart title and axis labels to understand the scope. Next, inspect the scale of the Y-axis to understand the magnitude of the values.\n\nWhen examining the bars, look for the tallest bar to identify the highest frequency or maximum value, and the shortest bar for the minimum. In a clinical audit, a tall bar representing high rates of pressure ulcers in a specific unit tells the nursing team where to focus quality improvement efforts immediately."
     },
     {
       "heading_id": "GNS217_U4_T7_h6",
       "order": 6,
-      "title": "Interpreting Bar Charts in Healthcare Data",
-      "content": "Reading a bar chart accurately involves examining both individual bar heights and general comparative patterns. Scan the chart to quickly identify the mode—the category with the tallest bar representing the highest frequency. Compare relative heights to assess disparities, such as noticing which antenatal clinic records the lowest attendance rate in a state health report. Always inspect the axis scaling carefully; a truncated vertical axis that does not start at zero can artificially magnify minor differences between clinical outcomes, leading to misinformed nursing interventions."
-    },
-    {
-      "heading_id": "GNS217_U4_T7_h7",
-      "order": 7,
-      "title": "Common Pitfalls in Data Presentation",
-      "content": "Poorly designed bar charts compromise scientific integrity and confuse readers. A frequent error is overcrowding the horizontal axis with too many categories or unreadable angled text, making comparison difficult. Another pitfall is cluttering the visual space with excessive 3D effects, unnecessary gridlines, or distracting background colors that obscure the data bars. Finally, omitting units of measurement on the axes renders the entire chart uninterpretable, stripping the research of its evidentiary value in clinical decision-making."
+      "title": "Avoiding Common Presentation Pitfalls",
+      "content": "Poorly designed graphs can misinform healthcare providers and compromise patient safety decisions. Cluttering a chart with too many bars or overwhelming color shades makes the data unreadable. \n\nAnother major error is failing to label units clearly. If a bar reaches the number ten, does that represent ten patients, ten milliliters, or ten thousand dollars? Without clear labels, readers guess the meaning. Finally, avoid 3D bar chart effects. While they look decorative, three-dimensional perspectives distort the actual height of the bars against the Y-axis, leading to optical illusions and flawed clinical conclusions."
     }
   ]
 }

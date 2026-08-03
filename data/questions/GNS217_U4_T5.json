@@ -5,15 +5,15 @@
     "article_id": "GNS217_U4_T5",
     "topic_id": "GNS217_U4_T5",
     "difficulty": "recall",
-    "question": "What do measures of variability primarily describe in a dataset?",
+    "question": "What does variability tell us about a set of patient data?",
     "options": {
-      "A": "The single most frequent observation",
-      "B": "The exact middle point of the data",
-      "C": "The total sum of all recorded numbers",
-      "D": "The spread or dispersion of data values"
+      "A": "The exact middle value of a data set",
+      "B": "The total sum of all recorded patient observations",
+      "C": "The spread or scatter of data points around a central value",
+      "D": "The most frequently occurring measurement in a study"
     },
-    "answer": "D",
-    "explanation": "Variability specifically measures how scattered or dispersed data points are relative to each other or a central value. [learn more](GNS217_U4_T5#GNS217_U4_T5_h1)"
+    "answer": "C",
+    "explanation": "Great job thinking about data! Variability simply shows how bunched up or spread out patient numbers are from the average."
   },
   {
     "question_id": "GNS217_U4_T5_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GNS217_U4_T5",
     "topic_id": "GNS217_U4_T5",
     "difficulty": "understanding",
-    "question": "Why is analyzing data variability important when comparing two different clinical wards with identical average patient outcomes?",
+    "question": "Why is relying only on the average (mean) value of patient data sometimes tricky?",
     "options": {
-      "A": "It eliminates the need to look at any other statistical tests in the study.",
-      "B": "It guarantees that all patients in both wards received identical medical interventions.",
-      "C": "It proves that one of the two wards calculated their mathematical averages incorrectly.",
-      "D": "It reveals differences in the consistency and predictability of patient care experiences."
+      "A": "It is always mathematically incorrect to use averages in healthcare research",
+      "B": "It completely hides the most common value in the distribution",
+      "C": "It changes based on the total number of patients in the study",
+      "D": "It does not show how spread out or inconsistent the individual readings are"
     },
     "answer": "D",
-    "explanation": "Identical averages can mask vastly different patient experiences; variability shows whether outcomes are tightly clustered or widely spread out. [learn more](GNS217_U4_T5#GNS217_U4_T5_h1)"
+    "explanation": "Averages can hide the whole story! Two wards might have the same average temperature, but one ward has everyone very stable while the other has wild highs and lows."
   },
   {
     "question_id": "GNS217_U4_T5_h2_q1",
@@ -37,15 +37,15 @@
     "article_id": "GNS217_U4_T5",
     "topic_id": "GNS217_U4_T5",
     "difficulty": "recall",
-    "question": "What is the primary limitation of using the range as a measure of variability?",
+    "question": "How do you calculate the basic range of a data set?",
     "options": {
-      "A": "It requires complex calculus to compute accurately.",
-      "B": "It can only be used with normally distributed data.",
-      "C": "It ignores all values except the median.",
-      "D": "It is easily distorted by extreme outlier values."
+      "A": "Dividing the sum of all values by the number of observations",
+      "B": "Adding the highest value to the lowest value and dividing by two",
+      "C": "Finding the difference between the upper and lower quartiles",
+      "D": "Subtracting the lowest value from the highest value"
     },
     "answer": "D",
-    "explanation": "Because the range relies solely on the absolute minimum and maximum values, a single extreme score will drastically alter the result. [learn more](GNS217_U4_T5#GNS217_U4_T5_h2)"
+    "explanation": "The range is super easy to remember: just take the highest number and subtract the lowest number to see the total span!"
   },
   {
     "question_id": "GNS217_U4_T5_h2_q2",
@@ -53,15 +53,15 @@
     "article_id": "GNS217_U4_T5",
     "topic_id": "GNS217_U4_T5",
     "difficulty": "understanding",
-    "question": "What portion of a dataset does the interquartile range actually capture?",
+    "question": "Why might you prefer the interquartile range over the simple range when looking at how long patients stay in the hospital?",
     "options": {
-      "A": "The entire dataset minus the mean",
-      "B": "The upper 75 percent",
-      "C": "The middle 50 percent",
-      "D": "The lower 25 percent"
+      "A": "It is much faster to calculate by hand without a calculator",
+      "B": "It ignores extreme outliers like a few patients staying for months",
+      "C": "It directly measures the exact average of the data set",
+      "D": "It includes every single data point in the final calculation"
     },
-    "answer": "C",
-    "explanation": "The interquartile range covers the span between the first quartile and the third quartile, capturing the central half of the observations. [learn more](GNS217_U4_T5#GNS217_U4_T5_h2)"
+    "answer": "B",
+    "explanation": "Sometimes a couple of patients stay for months and throw off the simple range. The interquartile range focuses on the middle 50% so you get a clearer picture of a normal stay."
   },
   {
     "question_id": "GNS217_U4_T5_h3_q1",
@@ -69,15 +69,15 @@
     "article_id": "GNS217_U4_T5",
     "topic_id": "GNS217_U4_T5",
     "difficulty": "recall",
-    "question": "What mathematical relationship exists between variance and standard deviation?",
+    "question": "What is the link between variance and standard deviation?",
     "options": {
-      "A": "Variance is the square root of the standard deviation.",
-      "B": "Standard deviation is twice the value of the variance.",
-      "C": "Standard deviation is the square root of the variance.",
-      "D": "Variance and standard deviation always equal the exact same number."
+      "A": "Variance is the square root of the standard deviation",
+      "B": "Standard deviation is the square root of the variance",
+      "C": "Standard deviation is variance multiplied by the sample size",
+      "D": "Variance and standard deviation always equal the exact same number"
     },
-    "answer": "C",
-    "explanation": "Taking the square root of the squared units in the variance brings the dispersion value back to the original unit of measurement as the standard deviation. [learn more](GNS217_U4_T5#GNS217_U4_T5_h3)"
+    "answer": "B",
+    "explanation": "You've got this! Standard deviation is just the square root of the variance, bringing our numbers back to regular, easy-to-read units."
   },
   {
     "question_id": "GNS217_U4_T5_h3_q2",
@@ -85,15 +85,15 @@
     "article_id": "GNS217_U4_T5",
     "topic_id": "GNS217_U4_T5",
     "difficulty": "understanding",
-    "question": "Why is standard deviation generally preferred over variance when discussing findings in a clinical research paper?",
+    "question": "What does a very small standard deviation mean for a set of patient temperature readings?",
     "options": {
-      "A": "It is expressed in the original units of measurement rather than squared units.",
-      "B": "It completely removes the mathematical effect of any present outliers.",
-      "C": "It can be calculated without needing to find the arithmetic mean first.",
-      "D": "It always yields a smaller numerical value than the variance."
+      "A": "The readings are closely clustered near the average temperature",
+      "B": "The highest temperature reading was far above normal limits",
+      "C": "There was a major calculation error made during data entry",
+      "D": "The patients have completely different underlying health conditions"
     },
     "answer": "A",
-    "explanation": "Squaring distances in variance changes the unit scale, whereas standard deviation uses the original units, making it intuitive to interpret alongside the mean. [learn more](GNS217_U4_T5#GNS217_U4_T5_h3)"
+    "explanation": "A small standard deviation means everyone's readings are hugging close to the average—very little variation!"
   },
   {
     "question_id": "GNS217_U4_T5_h4_q1",
@@ -101,15 +101,15 @@
     "article_id": "GNS217_U4_T5",
     "topic_id": "GNS217_U4_T5",
     "difficulty": "recall",
-    "question": "What is the primary purpose of calculating the coefficient of variation?",
+    "question": "What is the main reason we use the coefficient of variation in research?",
     "options": {
-      "A": "To identify the exact numerical value of the upper and lower quartiles",
-      "B": "To determine the mathematical probability of a type I research error",
-      "C": "To compare the relative variability of datasets with different units or scales",
-      "D": "To convert non-parametric skewed data into a normal distribution curve"
+      "A": "Calculating the exact sample size needed for a nursing study",
+      "B": "Comparing variability between data sets with different units or means",
+      "C": "Finding the absolute middle value of a skewed distribution",
+      "D": "Eliminating all extreme outliers from a clinical data set"
     },
-    "answer": "C",
-    "explanation": "The coefficient of variation removes units by creating a percentage ratio, enabling fair comparison between completely different types of clinical data. [learn more](GNS217_U4_T5#GNS217_U4_T5_h4)"
+    "answer": "B",
+    "explanation": "When comparing things measured in totally different ways (like age in years vs. weight in kg), the coefficient of variation helps us put them on a fair playing field."
   },
   {
     "question_id": "GNS217_U4_T5_h4_q2",
@@ -117,15 +117,15 @@
     "article_id": "GNS217_U4_T5",
     "topic_id": "GNS217_U4_T5",
     "difficulty": "application",
-    "question": "A researcher wants to compare the dispersion of patient body weights measured in kilograms with resting pulse rates measured in beats per minute. Which statistical measure is most appropriate?",
+    "question": "A researcher wants to compare patient age (in years) against cholesterol levels (in mg/dL). Which statistical measure should they use?",
     "options": {
-      "A": "Simple sample range",
-      "B": "Interquartile range",
-      "C": "Coefficient of variation",
-      "D": "Unadjusted variance"
+      "A": "Simple range",
+      "B": "Coefficient of variation",
+      "C": "Interquartile range",
+      "D": "Raw variance"
     },
-    "answer": "C",
-    "explanation": "Because weight and pulse rate use different units and scales, a relative measure like the coefficient of variation is required for a valid comparison. [learn more](GNS217_U4_T5#GNS217_U4_T5_h4)"
+    "answer": "B",
+    "explanation": "Since years and mg/dL are completely different units, the unitless coefficient of variation is your best friend for making a fair comparison."
   },
   {
     "question_id": "GNS217_U4_T5_h5_q1",
@@ -133,30 +133,30 @@
     "article_id": "GNS217_U4_T5",
     "topic_id": "GNS217_U4_T5",
     "difficulty": "understanding",
-    "question": "What does high variability in a patient's continuous vital sign monitoring typically indicate in a clinical setting?",
+    "question": "Why might wild, erratic vital sign readings with high variability point to a clinical emergency?",
     "options": {
-      "A": "Exceptional physical fitness and high physiological reserve",
-      "B": "Improper calibration of the electronic monitoring equipment only",
-      "C": "Complete stabilization of the underlying disease process",
-      "D": "Potential physiological instability or fluctuating clinical status"
+      "A": "High variability always proves that the sensor equipment is broken",
+      "B": "A steady high reading is always more dangerous than fluctuating numbers",
+      "C": "Unstable fluctuations often signal that homeostatic mechanisms are failing",
+      "D": "Monitors are programmed to sound alarms whenever data is perfectly stable"
     },
-    "answer": "D",
-    "explanation": "Wild swings in parameters like blood pressure or heart rate often serve as early warning signs of clinical deterioration. [learn more](GNS217_U4_T5#GNS217_U4_T5_h5)"
+    "answer": "C",
+    "explanation": "When the body's natural balance (homeostasis) starts failing, vital signs bounce all over the place. High variability is often a red flag for a crashing patient!"
   },
   {
     "question_id": "GNS217_U4_T5_h5_q2",
     "heading_id": "GNS217_U4_T5_h5",
     "article_id": "GNS217_U4_T5",
     "topic_id": "GNS217_U4_T5",
-    "difficulty": "recall",
-    "question": "Which of the following is NOT a typical implication of low variability when evaluating specific laboratory assays or medication administration?",
+    "difficulty": "understanding",
+    "question": "If a new nursing intervention has a huge standard deviation, which of these is NOT true?",
     "options": {
-      "A": "Widespread random measurement errors across samples",
-      "B": "Consistent dosing delivery matching clinical standards",
-      "C": "High precision and reliability in the testing process",
-      "D": "Predictable and repeatable analytical outcomes"
+      "A": "Every patient in the study experienced a uniform, consistent level of relief",
+      "B": "The overall effectiveness of the treatment varied greatly across the group",
+      "C": "Some patients experienced little to no benefit from the intervention",
+      "D": "Some patients experienced much better results than the average score suggests"
     },
     "answer": "A",
-    "explanation": "Low variability denotes consistency and precision, whereas random measurement errors would increase variability rather than reduce it. [learn more](GNS217_U4_T5#GNS217_U4_T5_h5)"
+    "explanation": "A large standard deviation means results were all over the map—so a uniform, identical result for everyone is definitely incorrect!"
   }
 ]
