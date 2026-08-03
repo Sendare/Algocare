@@ -27,7 +27,6 @@ here writes to your real repo or state files.
 
 import json
 import os
-import random
 import re
 import sys
 import urllib.request
@@ -257,100 +256,6 @@ Return ONLY valid JSON, no markdown fences, no commentary:
 }"""
 
 
-ENGAGEMENT_SYSTEM_PROMPT = """You are a product-focused nursing education \
-writer for Algocare, a CBT practice app used daily by nursing students in \
-Nigeria on their phones.
-
-Your business goal: students should WANT to open this app and answer \
-questions every single day, the way they'd check a habit-tracking app - not \
-dread it. A student who feels stupid or overwhelmed will quit and never come \
-back; a student who feels "I can do this, and I'm learning" will return daily. \
-Give students what makes them WANT to keep coming back, not what a \
-postgraduate exam board would consider rigorous.
-
-You will receive a list of already-written multiple-choice questions (each \
-with an id, the question text, 4 options, which one is correct, and its \
-explanation).
-
-For EACH question, decide: would a first-year Nigerian nursing student, \
-studying casually on their phone between classes, find this approachable and \
-feel good attempting it - even if they get it wrong? Rewrite the question if \
-ANY of these are true:
-- It uses dense/academic vocabulary beyond plain spoken classroom language
-- The stem is long, convoluted, or hard to read on a small phone screen
-- Getting it wrong would feel demoralizing rather than like a normal part of \
-learning
-- The explanation doesn't teach warmly - it should feel like a patient \
-tutor, not a textbook
-
-When rewriting, you MUST preserve exactly: the underlying nursing concept \
-being tested, and which fact is correct. Never change what's true - only how \
-it's said.
-
-For every question return:
-- "id": the same id you were given
-- "needs_rewrite": true or false
-- "question": the (possibly rewritten) question text
-- "options": the (possibly rewritten) 4 options as an array, in any order
-- "answer": the correct option, copied EXACTLY from one of the 4 "options" \
-strings
-- "explanation": the (possibly rewritten) explanation - warm, encouraging, \
-plain language
-- "approachability_score": your honest estimate, 1-5, of how confident and \
-motivated a first-year student would feel attempting this (5 = very \
-approachable, 1 = intimidating)
-
-Return ONLY valid JSON, no markdown fences, no commentary:
-{"questions": [{"id": "...", "needs_rewrite": true, "question": "...", "options": ["...","...","...","..."], "answer": "...", "explanation": "...", "approachability_score": 4}]}"""
-
-
-def run_engagement_pass(all_questions):
-    """Sends every question through a dedicated rewrite pass focused purely
-    on approachability/tone - kept separate from correctness, since 'make it
-    friendlier' and 'is this factually right' are different jobs, and one
-    giant prompt trying to do both tends to do both worse."""
-    input_list = [
-        {
-            "id": q["id"],
-            "question": q["question"],
-            "options": list(q["options"].values()),
-            "correct_answer_text": q["options"][q["answer"]],
-            "explanation": q["explanation"],
-        }
-        for q in all_questions
-    ]
-
-    result = call_gemini(ENGAGEMENT_SYSTEM_PROMPT, json.dumps(input_list, ensure_ascii=False))
-    by_id = {r["id"]: r for r in result.get("questions", [])}
-
-    rewritten_count = 0
-    scores = []
-    skipped_bad_rewrite = 0
-
-    for q in all_questions:
-        r = by_id.get(q["id"])
-        if r is None:
-            continue
-        if r.get("approachability_score") is not None:
-            scores.append(r["approachability_score"])
-        if not r.get("needs_rewrite"):
-            continue
-
-        finalized = finalize_options(r.get("options", []), r.get("answer", ""))
-        if finalized is None:
-            skipped_bad_rewrite += 1
-            continue  # keep the original question unchanged if the rewrite's answer doesn't verify
-
-        options_dict, answer_letter = finalized
-        q["question"] = r["question"]
-        q["options"] = options_dict
-        q["answer"] = answer_letter
-        q["explanation"] = r["explanation"]
-        rewritten_count += 1
-
-    return rewritten_count, scores, skipped_bad_rewrite
-
-
 def inline_md(text):
     return re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", text)
 
@@ -460,31 +365,6 @@ def flag_complexity_issues(question_text):
     return issues
 
 
-def finalize_options(raw_options, raw_answer):
-    """Text-match verification: the stated answer must exactly match one of
-    the 4 options (case/whitespace-insensitive), same defense used in
-    production fetch_articles.py. Catches the model mismapping its own
-    answer to the wrong option content. Returns (options_dict, answer_letter)
-    or None if the match isn't exactly 1 (ambiguous or hallucinated)."""
-    if not isinstance(raw_options, list) or len(raw_options) != 4:
-        return None
-    normalized_answer = " ".join(str(raw_answer).strip().split()).lower()
-    matches = [o for o in raw_options if " ".join(str(o).strip().split()).lower() == normalized_answer]
-    if len(matches) != 1:
-        return None
-
-    shuffled = raw_options[:]
-    random.shuffle(shuffled)
-    letters = ["A", "B", "C", "D"]
-    options_dict = {}
-    answer_letter = None
-    for letter, opt in zip(letters, shuffled):
-        options_dict[letter] = opt
-        if " ".join(str(opt).strip().split()).lower() == normalized_answer:
-            answer_letter = letter
-    return options_dict, answer_letter
-
-
 def generate_for_topic(topic):
     print(f"\n{'='*70}\nTOPIC: {topic['title']}\n{'='*70}")
 
@@ -527,11 +407,24 @@ def generate_for_topic(topic):
 
         learn_more_link = f"[learn more]({topic['topic_id']}#{heading_id})"
         for i, q in enumerate(h.get("questions", []), start=1):
-            finalized = finalize_options(q.get("options", []), q.get("answer", ""))
-            if finalized is None:
-                print(f"   ⚠️  SKIPPED (answer text didn't match exactly one option): {q.get('question')}")
+            raw_options = q.get("options", [])
+            raw_answer = q.get("answer", "")
+            normalized_answer = " ".join(str(raw_answer).strip().split()).lower()
+            matches = [o for o in raw_options if " ".join(str(o).strip().split()).lower() == normalized_answer]
+            if len(matches) != 1:
+                print(f"   ⚠️  SKIPPED (answer text matched {len(matches)} options, expected 1): {q.get('question')}")
                 continue
-            options_dict, answer_letter = finalized
+
+            import random as _random
+            shuffled = raw_options[:]
+            _random.shuffle(shuffled)
+            letters = ["A", "B", "C", "D"]
+            options_dict = {}
+            answer_letter = None
+            for letter, opt in zip(letters, shuffled):
+                options_dict[letter] = opt
+                if " ".join(str(opt).strip().split()).lower() == normalized_answer:
+                    answer_letter = letter
 
             explanation = q["explanation"].replace(LEARN_MORE_TOKEN, learn_more_link)
             topic_questions.append({
@@ -554,18 +447,6 @@ def run():
     all_questions = []
     for topic in TEST_TOPICS:
         all_questions.extend(generate_for_topic(topic))
-
-    print(f"\n{'='*70}\nENGAGEMENT / APPROACHABILITY PASS\n{'='*70}")
-    rewritten_count, scores, skipped_bad_rewrite = run_engagement_pass(all_questions)
-    print(f"Rewritten for approachability: {rewritten_count} / {len(all_questions)}")
-    if skipped_bad_rewrite:
-        print(f"⚠️  {skipped_bad_rewrite} rewrite(s) discarded - answer text didn't verify, original kept")
-    if scores:
-        print(f"Approachability scores (1-5): avg {sum(scores)/len(scores):.1f}, "
-              f"min {min(scores)}, max {max(scores)}")
-        low_scores = sum(1 for s in scores if s <= 2)
-        if low_scores:
-            print(f"⚠️  {low_scores} question(s) still scored 1-2 after rewrite - worth reading those directly")
 
     print(f"\n{'='*70}\nCOMBINED ANALYSIS ({len(all_questions)} questions across {len(TEST_TOPICS)} topics)\n{'='*70}")
 
@@ -619,29 +500,10 @@ def run():
 
     print(f"\n{'='*70}\nSUMMARY\n{'='*70}")
     print(f"  Total questions: {len(all_questions)}")
-    print(f"  Rewritten for approachability: {rewritten_count} ({round(100*rewritten_count/len(all_questions))}%)")
-    if scores:
-        print(f"  Average approachability score: {sum(scores)/len(scores):.1f} / 5")
+    print (all_questions)
     print(f"  Flagged for complexity review: {len(flagged)} ({round(100*len(flagged)/len(all_questions))}%)")
     print(f"  QA pass rate: {passed}/{len(all_questions)}")
-
-    output_path = "test_output_questions.txt"
-    lines = []
-    for q in all_questions:
-        r = results_by_id.get(q["id"])
-        qa_note = "" if not r or r.get("pass", True) else f"  [QA FAIL: {r.get('reason')}]"
-        lines.append(f"[{q['id']}] ({q.get('difficulty', '?')}) - {q.get('topic', '?')}{qa_note}")
-        lines.append(q["question"])
-        for k, v in q["options"].items():
-            marker = "  <-- answer" if k == q["answer"] else ""
-            lines.append(f"  {k}. {v}{marker}")
-        lines.append(f"  Explanation: {q['explanation']}")
-        lines.append("")
-    with open(output_path, "w", encoding="utf-8") as f:
-        f.write("\n".join(lines))
-
-    print(f"\nAll {len(all_questions)} questions (not just flagged ones) written to: {output_path}")
-    print("Read the flagged questions above (if any) and a sample of the")
+    print("\nRead the flagged questions above (if any) and a sample of the")
     print("unflagged ones too - this heuristic catches length/phrasing patterns")
     print("only, not actual jargon density. Your own read is the real test.")
 
