@@ -5,15 +5,15 @@
     "article_id": "GNS123_U2_T13",
     "topic_id": "GNS123_U2_T13",
     "difficulty": "recall",
-    "question": "What is the primary visual output produced by a Computed Tomography scan?",
+    "question": "On a CT scan, how does dense bone usually appear?",
     "options": {
-      "A": "Real-time dynamic moving videos of the beating heart",
-      "B": "Detailed cross-sectional slice images of internal structures",
-      "C": "Functional metabolic activity maps using radioisotopes",
-      "D": "Flat two-dimensional silhouette shadows of bones"
+      "A": "Pitch black",
+      "B": "Bright white",
+      "C": "Bright green",
+      "D": "Transparent"
     },
     "answer": "B",
-    "explanation": "CT scans use computer processing of multiple X-ray measurements taken from different angles to produce cross-sectional slices of the body. [learn more](GNS123_U2_T13#GNS123_U2_T13_h1)"
+    "explanation": "Bone absorbs a lot of radiation, so it shows up as a bright white color on the image. You've got this!"
   },
   {
     "question_id": "GNS123_U2_T13_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GNS123_U2_T13",
     "topic_id": "GNS123_U2_T13",
     "difficulty": "understanding",
-    "question": "How does computed tomography fundamentally differ from a standard conventional X-ray?",
+    "question": "What is the main difference between a CT scan and a regular X-ray?",
     "options": {
-      "A": "Conventional X-rays utilize magnetic fields instead of ionizing radiation",
-      "B": "Computed tomography eliminates the overlapping of structures by producing slice views",
-      "C": "Computed tomography requires no external energy source to generate images",
-      "D": "Standard X-rays provide real-time color functional mapping of soft tissues"
+      "A": "It requires no computer processing at all",
+      "B": "It uses sound waves instead of radiation",
+      "C": "It only images the superficial skin layers",
+      "D": "It creates cross-sectional slice images"
     },
-    "answer": "B",
-    "explanation": "Standard X-rays superimpose all body structures in the path of the beam into a single flat shadow, whereas CT creates distinct slices to separate overlapping organs. [learn more](GNS123_U2_T13#GNS123_U2_T13_h1)"
+    "answer": "D",
+    "explanation": "While both use X-rays, a regular X-ray gives a flat, 2D shadow, but a CT scan gives detailed cross-sectional slices like slicing a loaf of bread. Great job!"
   },
   {
     "question_id": "GNS123_U2_T13_h2_q1",
@@ -37,15 +37,15 @@
     "article_id": "GNS123_U2_T13",
     "topic_id": "GNS123_U2_T13",
     "difficulty": "recall",
-    "question": "Which term describes a structure that absorbs a high amount of radiation and appears bright white on a CT scan?",
+    "question": "Why might a patient be given oral contrast before a CT scan?",
     "options": {
-      "A": "Isodense",
-      "B": "Hyperdense",
-      "C": "Radiolucent",
-      "D": "Hypodense"
+      "A": "To numb the lining of the throat for comfort",
+      "B": "To outline the stomach and intestines clearly",
+      "C": "To lower the patient's blood pressure during the test",
+      "D": "To prevent allergic reactions to intravenous dye"
     },
     "answer": "B",
-    "explanation": "Dense tissues such as bone absorb more radiation, allowing fewer X-rays to reach the detectors, which translates to a bright white appearance called hyperdense. [learn more](GNS123_U2_T13#GNS123_U2_T13_h2)"
+    "explanation": "Swallowing oral contrast helps coat the gut so doctors can easily spot issues like blockages. Simple and smart!"
   },
   {
     "question_id": "GNS123_U2_T13_h2_q2",
@@ -53,15 +53,15 @@
     "article_id": "GNS123_U2_T13",
     "topic_id": "GNS123_U2_T13",
     "difficulty": "understanding",
-    "question": "What is the precise function of the detectors located opposite the rotating X-ray tube in a CT scanner?",
+    "question": "Which lab test is most important to check before giving a patient intravenous contrast?",
     "options": {
-      "A": "They cool down the gantry system during continuous scanning cycles",
-      "B": "They generate the initial electrical current to power the gantry motor",
-      "C": "They measure the residual radiation intensity after it passes through the patient",
-      "D": "They emit secondary magnetic impulses to stabilize tissue atoms"
+      "A": "Coagulation profile",
+      "B": "Complete blood count",
+      "C": "Fasting blood glucose",
+      "D": "Serum creatinine"
     },
-    "answer": "C",
-    "explanation": "The detectors capture the remaining X-ray photons that successfully traverse the body tissues, providing the raw data the computer uses for mathematical reconstruction. [learn more](GNS123_U2_T13#GNS123_U2_T13_h2)"
+    "answer": "D",
+    "explanation": "Serum creatinine tells us how well the kidneys are working. Since contrast leaves through the kidneys, we need to make sure they can handle it safely."
   },
   {
     "question_id": "GNS123_U2_T13_h3_q1",
@@ -69,63 +69,63 @@
     "article_id": "GNS123_U2_T13",
     "topic_id": "GNS123_U2_T13",
     "difficulty": "recall",
-    "question": "What is the primary chemical base used for intravenous contrast media in CT scans?",
+    "question": "Why must patients take off all jewelry and metal objects before a CT scan?",
     "options": {
-      "A": "Calcium carbonate",
-      "B": "Barium sulfate",
-      "C": "Iodine",
-      "D": "Gadolinium"
+      "A": "Metal attracts the magnetic radiation from the machine",
+      "B": "Metal heats up dangerously during the scan process",
+      "C": "Metal objects cause artifact streaks on the images",
+      "D": "Metal interferes with the hospital Wi-Fi signals"
     },
     "answer": "C",
-    "explanation": "Iodine-based contrast agents are safely administered intravenously because they possess high atomic numbers that effectively block X-rays to highlight blood vessels and organs. [learn more](GNS123_U2_T13#GNS123_U2_T13_h3)"
+    "explanation": "Metal blocks X-rays completely and creates ugly, bright streaks on the scan that can hide important details. Always good to remember in clinicals!"
   },
   {
     "question_id": "GNS123_U2_T13_h3_q2",
     "heading_id": "GNS123_U2_T13_h3",
     "article_id": "GNS123_U2_T13",
     "topic_id": "GNS123_U2_T13",
-    "difficulty": "understanding",
-    "question": "Why would a clinician order a non-contrast CT scan first for a patient presenting with acute head trauma?",
+    "difficulty": "application",
+    "question": "A patient is scheduled for an abdominal CT with IV contrast. What is the very first thing a nurse should check?",
     "options": {
-      "A": "To prevent the patient from experiencing common allergic skin rashes",
-      "B": "To quickly identify acute blood or bone fractures without waiting for contrast preparation",
-      "C": "Because contrast agents make skull bones completely invisible on scans",
-      "D": "Because intravenous iodine destroys cerebral neurons during active trauma"
+      "A": "Administer a full dose of oral laxatives to clear the bowel",
+      "B": "Assess the patient for a history of seafood or iodine allergies",
+      "C": "Shave the hair on the patient's abdomen near the umbilicus",
+      "D": "Insert an indwelling urinary catheter for continuous output"
     },
     "answer": "B",
-    "explanation": "Acute hemorrhage naturally appears hyperdense on a baseline non-contrast scan, making urgent identification fast and efficient without delay or added contrast risks. [learn more](GNS123_U2_T13#GNS123_U2_T13_h3)"
+    "explanation": "Safety first! Checking for allergies prevents severe reactions to the iodine contrast. You are thinking like a real nurse!"
   },
   {
     "question_id": "GNS123_U2_T13_h4_q1",
     "heading_id": "GNS123_U2_T13_h4",
     "article_id": "GNS123_U2_T13",
     "topic_id": "GNS123_U2_T13",
-    "difficulty": "understanding",
-    "question": "Why is an urgent non-contrast CT scan mandatory for a patient presenting with acute stroke symptoms before medical treatment begins?",
+    "difficulty": "recall",
+    "question": "What is a normal, harmless feeling a patient might report right after getting an IV contrast injection?",
     "options": {
-      "A": "To rule out an active intracranial hemorrhage before giving clot-busting medications",
-      "B": "To diagnose underlying bacterial meningitis causing the neurological deficit",
-      "C": "To calculate the total circulating blood volume in the brain",
-      "D": "To measure the exact intracranial pressure within the ventricles"
+      "A": "Severe sharp pain in the chest",
+      "B": "Sudden numbness in both lower legs",
+      "C": "A warm flushing feeling and metallic taste",
+      "D": "An intense urge to vomit continuously"
     },
-    "answer": "A",
-    "explanation": "Giving thrombolytic therapy to a patient experiencing a hemorrhagic stroke can be fatal; the CT scan confirms whether the stroke is ischemic or hemorrhagic. [learn more](GNS123_U2_T13#GNS123_U2_T13_h4)"
+    "answer": "C",
+    "explanation": "It's totally normal for patients to feel a sudden warm rush and taste metal in their mouth. Warn your patients beforehand so they don't panic!"
   },
   {
     "question_id": "GNS123_U2_T13_h4_q2",
     "heading_id": "GNS123_U2_T13_h4",
     "article_id": "GNS123_U2_T13",
     "topic_id": "GNS123_U2_T13",
-    "difficulty": "application",
-    "question": "A motor vehicle accident victim arrives at the emergency ward with unstable vital signs and rigid abdominal guarding. Which diagnostic procedure is most urgently indicated?",
+    "difficulty": "understanding",
+    "question": "Why is it super important for a patient to stay completely still during a CT scan?",
     "options": {
-      "A": "Barium swallow fluoroscopy study",
-      "B": "Routine chest radiography in the upright position",
-      "C": "Computed tomography scan of the abdomen and pelvis",
-      "D": "Magnetic resonance imaging of the spine"
+      "A": "Motion blurs the images and requires a repeat scan",
+      "B": "Moving triggers an emergency shutdown of the scanner",
+      "C": "Movement can cause the motorized table to break",
+      "D": "Patient movement stops the release of contrast dye"
     },
-    "answer": "C",
-    "explanation": "A CT scan of the abdomen and pelvis is the gold standard for rapidly visualizing solid organ injuries and active internal bleeding in trauma patients. [learn more](GNS123_U2_T13#GNS123_U2_T13_h4)"
+    "answer": "A",
+    "explanation": "Movement messes up the computer's picture, making the scan blurry and useless. Staying still helps get it right the first time!"
   },
   {
     "question_id": "GNS123_U2_T13_h5_q1",
@@ -133,126 +133,30 @@
     "article_id": "GNS123_U2_T13",
     "topic_id": "GNS123_U2_T13",
     "difficulty": "recall",
-    "question": "Which laboratory parameter is most critical for a nurse to review prior to administering intravenous contrast for a CT scan?",
+    "question": "Why do nurses encourage patients to drink plenty of fluids after a CT scan with contrast?",
     "options": {
-      "A": "Complete blood count",
-      "B": "Prothrombin time",
-      "C": "Serum creatinine",
-      "D": "Fast blood glucose"
+      "A": "To prevent the patient from feeling hungry after fasting",
+      "B": "To help flush the contrast dye out through the kidneys",
+      "C": "To replace electrolytes lost during the scanning process",
+      "D": "To keep the intravenous catheter from clotting shut"
     },
-    "answer": "C",
-    "explanation": "Serum creatinine reflects renal function; impaired kidneys struggle to excrete iodine-based contrast, increasing the risk of contrast-induced nephropathy. [learn more](GNS123_U2_T13#GNS123_U2_T13_h5)"
+    "answer": "B",
+    "explanation": "Pushing fluids helps the kidneys wash out the contrast quickly and safely. Hydration is key!"
   },
   {
     "question_id": "GNS123_U2_T13_h5_q2",
     "heading_id": "GNS123_U2_T13_h5",
     "article_id": "GNS123_U2_T13",
     "topic_id": "GNS123_U2_T13",
-    "difficulty": "application",
-    "question": "A patient scheduled for a contrast-enhanced CT scan has a prescription for metformin to manage type 2 diabetes. What is the appropriate nursing action regarding this medication?",
+    "difficulty": "understanding",
+    "question": "Which of these is NOT a standard nursing check after a contrast CT scan?",
     "options": {
-      "A": "Discontinue metformin permanently because it is permanently contraindicated",
-      "B": "Withhold metformin on the day of the scan and coordinate instructions regarding post-procedure resumption",
-      "C": "Administer the medication intravenously right before the scan begins",
-      "D": "Double the morning dose to compensate for hospital fasting"
-    },
-    "answer": "B",
-    "explanation": "Metformin is typically held around the time of iodinated contrast administration to avoid the rare risk of lactic acidosis if temporary kidney injury occurs. [learn more](GNS123_U2_T13#GNS123_U2_T13_h5)"
-  },
-  {
-    "question_id": "GNS123_U2_T13_h6_q1",
-    "heading_id": "GNS123_U2_T13_h6",
-    "article_id": "GNS123_U2_T13",
-    "topic_id": "GNS123_U2_T13",
-    "difficulty": "recall",
-    "question": "What is the primary reason patients are instructed to remain completely motionless during a CT scan?",
-    "options": {
-      "A": "To avoid motion artifact which blurs and ruins the diagnostic quality of the images",
-      "B": "To prevent the motorized table from locking up due to shifting weight",
-      "C": "To keep the patient's heart rate stable throughout the imaging sequence",
-      "D": "To prevent accidental dislodgement of the intravenous line"
+      "A": "Evaluating baseline lung sounds for sudden fluid overload",
+      "B": "Checking the intravenous site for swelling or leakage",
+      "C": "Monitoring the patient for delayed allergic rashes",
+      "D": "Encouraging the patient to drink plenty of fluids"
     },
     "answer": "A",
-    "explanation": "Even slight movements by the patient can cause blurring, known as motion artifact, making fine details and small lesions difficult for the radiologist to interpret. [learn more](GNS123_U2_T13#GNS123_U2_T13_h6)"
-  },
-  {
-    "question_id": "GNS123_U2_T13_h6_q2",
-    "heading_id": "GNS123_U2_T13_h6",
-    "article_id": "GNS123_U2_T13",
-    "topic_id": "GNS123_U2_T13",
-    "difficulty": "understanding",
-    "question": "What immediate nursing action is required if a patient begins complaining of a severe metallic taste, generalized flushing, and mild nausea right as intravenous contrast starts flowing?",
-    "options": {
-      "A": "Immediately stop the CT scanner and call a code blue emergency",
-      "B": "Clamp the intravenous line and flush with sterile water",
-      "C": "Reassure the patient that a warm flush and metallic taste are common, expected side effects",
-      "D": "Immediately administer emergency intramuscular adrenaline"
-    },
-    "answer": "C",
-    "explanation": "A transient flush of warmth and a metallic taste are normal physiological sensations associated with the rapid injection of iodinated contrast media and do not indicate anaphylaxis. [learn more](GNS123_U2_T13#GNS123_U2_T13_h6)"
-  },
-  {
-    "question_id": "GNS123_U2_T13_h7_q1",
-    "heading_id": "GNS123_U2_T13_h7",
-    "article_id": "GNS123_U2_T13",
-    "topic_id": "GNS123_U2_T13",
-    "difficulty": "recall",
-    "question": "What is the primary nursing intervention recommended immediately after a patient undergoes a contrast-enhanced CT scan?",
-    "options": {
-      "A": "Perform a neurological assessment every fifteen minutes",
-      "B": "Encourage high fluid intake to facilitate renal excretion of the contrast",
-      "C": "Keep the patient strictly fasting for an additional six hours",
-      "D": "Apply a cold compress to the intravenous insertion site"
-    },
-    "answer": "B",
-    "explanation": "Increasing fluid intake helps flush the nephrotoxic iodinated contrast media rapidly out of the kidneys, reducing the risk of renal injury. [learn more](GNS123_U2_T13#GNS123_U2_T13_h7)"
-  },
-  {
-    "question_id": "GNS123_U2_T13_h7_q2",
-    "heading_id": "GNS123_U2_T13_h7",
-    "article_id": "GNS123_U2_T13",
-    "topic_id": "GNS123_U2_T13",
-    "difficulty": "understanding",
-    "question": "A patient who received oral barium sulfate for a abdominal CT scan calls the ward concerned because their stool is pale and whitish. What is the correct nursing response?",
-    "options": {
-      "A": "Withhold all future oral fluids until normal brown stool color returns",
-      "B": "Reassure the patient that this is a normal temporary elimination pattern after barium ingestion",
-      "C": "Report this finding immediately as an indicator of severe internal gastrointestinal bleeding",
-      "D": "Advise the patient to report to the emergency department for immediate gastric lavage"
-    },
-    "answer": "B",
-    "explanation": "Barium sulfate is a white metallic compound that passes through the gastrointestinal tract largely unchanged, giving stools a pale or whitish appearance until fully cleared. [learn more](GNS123_U2_T13#GNS123_U2_T13_h7)"
-  },
-  {
-    "question_id": "GNS123_U2_T13_h8_q1",
-    "heading_id": "GNS123_U2_T13_h8",
-    "article_id": "GNS123_U2_T13",
-    "topic_id": "GNS123_U2_T13",
-    "difficulty": "recall",
-    "question": "What acronym guides healthcare professionals in minimizing patient radiation exposure during diagnostic imaging procedures?",
-    "options": {
-      "A": "ALARA",
-      "B": "FAST",
-      "C": "PASS",
-      "D": "RICE"
-    },
-    "answer": "A",
-    "explanation": "The ALARA principle stands for 'As Low As Reasonably Achievable', directing staff to use the lowest possible radiation dose required to obtain diagnostic-quality images. [learn more](GNS123_U2_T13#GNS123_U2_T13_h8)"
-  },
-  {
-    "question_id": "GNS123_U2_T13_h8_q2",
-    "heading_id": "GNS123_U2_T13_h8",
-    "article_id": "GNS123_U2_T13",
-    "topic_id": "GNS123_U2_T13",
-    "difficulty": "understanding",
-    "question": "Why are ultrasound and magnetic resonance imaging generally preferred over CT scans when diagnosing conditions in pregnant women?",
-    "options": {
-      "A": "CT scanners cannot accommodate the physical weight of pregnant patients",
-      "B": "Intravenous contrast agents are completely harmless to the developing fetus",
-      "C": "Pregnant women are universally allergic to all forms of radiographic equipment",
-      "D": "Ultrasound and MRI completely avoid the use of ionizing radiation"
-    },
-    "answer": "D",
-    "explanation": "To protect the developing fetus from potential risks associated with ionizing radiation, non-ionizing modalities like ultrasound and MRI are selected when clinically feasible. [learn more](GNS123_U2_T13#GNS123_U2_T13_h8)"
+    "explanation": "Unless there's a specific heart or kidney issue, checking lung sounds isn't part of routine post-CT care. But checking the IV site, watching for rashes, and pushing fluids definitely are!"
   }
 ]
