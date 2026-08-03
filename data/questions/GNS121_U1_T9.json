@@ -5,15 +5,15 @@
     "article_id": "GNS121_U1_T9",
     "topic_id": "GNS121_U1_T9",
     "difficulty": "recall",
-    "question": "What physiological state is strictly required before measuring a patient's Basal Metabolic Rate?",
+    "question": "What does Basal Metabolic Rate (BMR) actually measure?",
     "options": {
-      "A": "A carbohydrate-rich meal within two hours",
-      "B": "Peak physical activity post-exercise",
-      "C": "A strict 12-hour fasting period",
-      "D": "Complete physical exhaustion"
+      "A": "The total calories burned during heavy physical exercise",
+      "B": "The energy needed to maintain basic life functions at rest",
+      "C": "The amount of heat produced during food digestion",
+      "D": "The maximum oxygen consumption during endurance training"
     },
-    "answer": "C",
-    "explanation": "Accurate BMR measurement requires a post-absorptive state, meaning the individual has fasted for at least 12 hours to eliminate the thermic effect of food. [learn more](GNS121_U1_T9#GNS121_U1_T9_h1)"
+    "answer": "B",
+    "explanation": "Think of BMR as your body's idle speed. It's the bare minimum energy required to keep your heart pumping, lungs breathing, and organs working while you do absolutely nothing."
   },
   {
     "question_id": "GNS121_U1_T9_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GNS121_U1_T9",
     "topic_id": "GNS121_U1_T9",
     "difficulty": "understanding",
-    "question": "Which bodily function utilizes the majority of energy accounted for by a person's BMR?",
+    "question": "Why must a patient be fasting and completely rested when measuring true BMR?",
     "options": {
-      "A": "Adaptive thermogenesis during cold exposure",
-      "B": "Basic cellular homeostasis and organ function",
-      "C": "Digestion and absorption of dietary lipids",
-      "D": "Voluntary skeletal muscle contraction"
+      "A": "To completely empty the bladder so body weight measurements stay accurate",
+      "B": "To lower blood pressure enough to get an accurate electrical heart tracing",
+      "C": "To prevent food digestion and physical activity from artificially raising the metabolic reading",
+      "D": "To ensure the patient falls into a deep sleep during the diagnostic procedure"
     },
-    "answer": "B",
-    "explanation": "BMR covers the baseline metabolic demands of internal organs like the liver, brain, and heart, alongside cellular maintenance processes, rather than voluntary movement. [learn more](GNS121_U1_T9#GNS121_U1_T9_h1)"
+    "answer": "C",
+    "explanation": "Even small movements or a recent meal can give your metabolism a temporary boost. To get a true baseline, we need the body completely quiet and digesting nothing!"
   },
   {
     "question_id": "GNS121_U1_T9_h2_q1",
@@ -37,15 +37,15 @@
     "article_id": "GNS121_U1_T9",
     "topic_id": "GNS121_U1_T9",
     "difficulty": "recall",
-    "question": "Which cellular mechanism is responsible for consuming a major portion of resting energy expenditure?",
+    "question": "Which body tissue burns the most calories even when you are completely at rest?",
     "options": {
-      "A": "Direct glucose filtration in nephrons",
-      "B": "Glycogen storage in skeletal muscle",
-      "C": "Hemoglobin oxygen saturation",
-      "D": "Sodium-potassium pump activity"
+      "A": "Lean muscle tissue",
+      "B": "Fibrous connective tissue",
+      "C": "Subcutaneous fat tissue",
+      "D": "Visceral adipose tissue"
     },
-    "answer": "D",
-    "explanation": "The $\text{Na}^+/\text{K}^+$-ATPase pump maintains electrochemical gradients across cell membranes and is a primary driver of baseline cellular energy consumption. [learn more](GNS121_U1_T9#GNS121_U1_T9_h2)"
+    "answer": "A",
+    "explanation": "Muscles are metabolically active! Lean muscle requires much more energy to maintain day-to-day than stored body fat does."
   },
   {
     "question_id": "GNS121_U1_T9_h2_q2",
@@ -53,15 +53,15 @@
     "article_id": "GNS121_U1_T9",
     "topic_id": "GNS121_U1_T9",
     "difficulty": "understanding",
-    "question": "A patient with hyperthyroidism typically displays an elevated BMR because thyroid hormones:",
+    "question": "How do thyroid hormones affect a person's Basal Metabolic Rate?",
     "options": {
-      "A": "Slow down hepatic protein synthesis and degradation cycles",
-      "B": "Increase the metabolic rate of target cells across the body",
-      "C": "Decrease core body temperature to conserve cellular ATP",
-      "D": "Directly suppress the activity of the sodium-potassium pump"
+      "A": "They slow down heart rate to conserve oxygen inside the vital organs",
+      "B": "They regulate water balance to prevent rapid shifts in body weight",
+      "C": "They stimulate fat cells to store extra energy during periods of rest",
+      "D": "They act as the main accelerator for cellular energy use across the body"
     },
-    "answer": "B",
-    "explanation": "Thyroid hormones stimulate cellular oxygen consumption and metabolic activity throughout virtually all body tissues, driving up overall basal energy demands. [learn more](GNS121_U1_T9#GNS121_U1_T9_h2)"
+    "answer": "D",
+    "explanation": "Your thyroid gland is like the engine's spark plug. Its hormones control how fast your cells turn nutrients into energy, setting your overall metabolic pace."
   },
   {
     "question_id": "GNS121_U1_T9_h3_q1",
@@ -69,31 +69,31 @@
     "article_id": "GNS121_U1_T9",
     "topic_id": "GNS121_U1_T9",
     "difficulty": "recall",
-    "question": "What is the primary reason biological males tend to have a higher BMR than biological females of the same weight and age?",
+    "question": "What is considered the gold standard method for measuring energy expenditure in a clinical setting?",
     "options": {
-      "A": "Higher average percentage of lean muscle mass",
-      "B": "Lower circulating levels of baseline thyroid hormone",
-      "C": "Increased subcutaneous fat distribution patterns",
-      "D": "Greater overall daily physical activity levels"
+      "A": "Indirect calorimetry",
+      "B": "Standard height-weight charts",
+      "C": "Bioelectrical impedance",
+      "D": "Skinfold caliper testing"
     },
     "answer": "A",
-    "explanation": "Lean tissue consumes significantly more energy at rest than adipose tissue, making muscle mass the primary driver of sex-based differences in BMR. [learn more](GNS121_U1_T9#GNS121_U1_T9_h3)"
+    "explanation": "Indirect calorimetry is a neat clinical test that calculates metabolic rate by analyzing the oxygen a patient inhales and the carbon dioxide they exhale."
   },
   {
     "question_id": "GNS121_U1_T9_h3_q2",
     "heading_id": "GNS121_U1_T9_h3",
     "article_id": "GNS121_U1_T9",
     "topic_id": "GNS121_U1_T9",
-    "difficulty": "understanding",
-    "question": "Why does Basal Metabolic Rate naturally decline as a person ages?",
+    "difficulty": "application",
+    "question": "A nurse needs a quick estimate of a patient's daily calorie needs without special gas-exchange equipment. What is best to use?",
     "options": {
-      "A": "An increase in the total volume of circulating blood plasma",
-      "B": "Reduced demand for baseline renal filtration and clearance",
-      "C": "Enhanced efficiency of mitochondrial energy conversion",
-      "D": "Progressive loss of metabolically active lean tissue"
+      "A": "A validated predictive equation like the Mifflin-St Jeor formula",
+      "B": "A laboratory blood test measuring thyroid antibody levels",
+      "C": "A direct calorimetry thermal chamber room",
+      "D": "A 24-hour continuous core body temperature recording"
     },
-    "answer": "D",
-    "explanation": "Aging is accompanied by sarcopenia, the gradual reduction of muscle mass, which directly lowers the body's overall baseline energy requirements. [learn more](GNS121_U1_T9#GNS121_U1_T9_h3)"
+    "answer": "A",
+    "explanation": "When fancy equipment isn't around, clinical formulas using age, weight, and height give us a fast, reliable estimate of calorie needs."
   },
   {
     "question_id": "GNS121_U1_T9_h4_q1",
@@ -101,94 +101,62 @@
     "article_id": "GNS121_U1_T9",
     "topic_id": "GNS121_U1_T9",
     "difficulty": "recall",
-    "question": "What physiological parameter does indirect calorimetry measure to calculate energy expenditure?",
+    "question": "Which component makes up the largest portion of a quiet, everyday person's total daily calories burned?",
     "options": {
-      "A": "Total daily urinary nitrogen excretion and fluid loss",
-      "B": "Serum lactate concentration during a fasting state",
-      "C": "Direct body heat radiation into a sealed environment",
-      "D": "Oxygen consumption and carbon dioxide production"
+      "A": "Structured exercise activity",
+      "B": "Thermic Effect of Food",
+      "C": "Spontaneous fidgeting movements",
+      "D": "Basal Metabolic Rate"
     },
     "answer": "D",
-    "explanation": "Indirect calorimetry determines metabolic rate by analyzing the volume of oxygen a patient inhales compared to the carbon dioxide they exhale. [learn more](GNS121_U1_T9#GNS121_U1_T9_h4)"
+    "explanation": "Surprise! BMR actually takes up the lion's share of your daily energy, accounting for up to 60-75% of the total calories you burn in a day."
   },
   {
     "question_id": "GNS121_U1_T9_h4_q2",
     "heading_id": "GNS121_U1_T9_h4",
     "article_id": "GNS121_U1_T9",
     "topic_id": "GNS121_U1_T9",
-    "difficulty": "application",
-    "question": "A nurse needs to estimate the baseline caloric needs of a stable adult patient in a ward without specialized metabolic testing equipment. What is the most appropriate clinical approach?",
+    "difficulty": "understanding",
+    "question": "What does the term NEAT stand for in nutrition and metabolism discussions?",
     "options": {
-      "A": "Perform direct calorimetry using a specialized temperature-controlled room",
-      "B": "Measure total daily physical activity using a high-precision accelerometer",
-      "C": "Assume a standard fixed value of 3,000 kilocalories for every adult patient",
-      "D": "Apply a validated predictive equation using the patient's weight, height, and age"
+      "A": "New Estimated Adaptation Threshold",
+      "B": "Normal Energy Absorption Technique",
+      "C": "Nutritional Evaluation and Assessment Tool",
+      "D": "Non-Exercise Activity Thermogenesis"
     },
     "answer": "D",
-    "explanation": "In routine clinical settings lacking calorimetry devices, predictive equations like Mifflin-St Jeor offer a practical, evidence-based method for estimating energy needs. [learn more](GNS121_U1_T9#GNS121_U1_T9_h4)"
+    "explanation": "NEAT is all about those extra calories you burn through daily movements that aren't formal gym workouts—like walking to class, cleaning, or even fidgeting!"
   },
   {
     "question_id": "GNS121_U1_T9_h5_q1",
     "heading_id": "GNS121_U1_T9_h5",
     "article_id": "GNS121_U1_T9",
     "topic_id": "GNS121_U1_T9",
-    "difficulty": "recall",
-    "question": "What does the Thermic Effect of Food (TEF) represent in energy expenditure calculations?",
+    "difficulty": "understanding",
+    "question": "Why do patients with severe burns or major infections need significantly more calories than usual?",
     "options": {
-      "A": "The energy cost required to process and metabolize nutrients",
-      "B": "Energy expended during structured physical exercise sessions",
-      "C": "Caloric loss associated with excessive sweating in fever",
-      "D": "Baseline heat production during sleep and deep rest"
+      "A": "Stress hormones trigger a hypermetabolic state that dramatically increases energy demand",
+      "B": "Intravenous antibiotic medications slow down digestion and trap extra nutrients",
+      "C": "Bed rest completely eliminates muscle mass, lowering overall energy requirements",
+      "D": "The skin dressings trap body heat, which stops natural calorie burning"
     },
     "answer": "A",
-    "explanation": "TEF refers to the temporary increase in metabolic rate driven by the digestion, absorption, and processing of ingested food. [learn more](GNS121_U1_T9#GNS121_U1_T9_h5)"
+    "explanation": "Big physical trauma puts the body into overdrive. Stress hormones flood the system, speeding up metabolism and tissue breakdown like a raging fire."
   },
   {
     "question_id": "GNS121_U1_T9_h5_q2",
     "heading_id": "GNS121_U1_T9_h5",
     "article_id": "GNS121_U1_T9",
     "topic_id": "GNS121_U1_T9",
-    "difficulty": "understanding",
-    "question": "Which of the following components generally contributes the largest percentage to a typical sedentary person's Total Daily Energy Expenditure?",
+    "difficulty": "application",
+    "question": "A nurse cares for an immobile surgery patient who is showing poor wound healing and muscle wasting. What is the most likely cause?",
     "options": {
-      "A": "Thermic Effect of Food",
-      "B": "Non-exercise activity thermogenesis",
-      "C": "Basal Metabolic Rate",
-      "D": "Structured athletic exercise"
+      "A": "Inadequate nutritional intake failing to meet elevated metabolic demands",
+      "B": "Too much physical exercise during the early post-operative phase",
+      "C": "Excessive thyroid hormone production caused by routine bed rest",
+      "D": "An accidental drop in the patient's core body temperature overnight"
     },
-    "answer": "C",
-    "explanation": "For most sedentary individuals, BMR makes up the vast majority (60-75%) of total daily energy expenditure, dwarfing TEF and physical activity. [learn more](GNS121_U1_T9#GNS121_U1_T9_h5)"
-  },
-  {
-    "question_id": "GNS121_U1_T9_h6_q1",
-    "heading_id": "GNS121_U1_T9_h6",
-    "article_id": "GNS121_U1_T9",
-    "topic_id": "GNS121_U1_T9",
-    "difficulty": "understanding",
-    "question": "How does severe physiological stress, such as major trauma or sepsis, typically affect a patient's resting energy expenditure?",
-    "options": {
-      "A": "It causes an immediate shutdown of all baseline cellular ion pumps",
-      "B": "It induces a hypermetabolic state that significantly increases metabolic rate",
-      "C": "It has no measurable impact on baseline energy needs without exercise",
-      "D": "It forces the body to permanently lower its baseline metabolic rate"
-    },
-    "answer": "B",
-    "explanation": "Severe injury and systemic inflammation trigger the release of stress hormones, sharply elevating energy expenditure and accelerating tissue breakdown. [learn more](GNS121_U1_T9#GNS121_U1_T9_h6)"
-  },
-  {
-    "question_id": "GNS121_U1_T9_h6_q2",
-    "heading_id": "GNS121_U1_T9_h6",
-    "article_id": "GNS121_U1_T9",
-    "topic_id": "GNS121_U1_T9",
-    "difficulty": "understanding",
-    "question": "What is the physiological purpose of the metabolic adaptation that occurs during prolonged starvation or chronic caloric restriction?",
-    "options": {
-      "A": "To increase resting organ function and enhance metabolic clearance",
-      "B": "To accelerate the breakdown of adipose tissue through excessive heat",
-      "C": "To suppress energy expenditure and conserve available bodily fuel stores",
-      "D": "To maximize physical performance and maintain high daily activity"
-    },
-    "answer": "C",
-    "explanation": "During starvation, the body slows down its basal metabolic rate to conserve remaining energy reserves and delay fatal depletion. [learn more](GNS121_U1_T9#GNS121_U1_T9_h6)"
+    "answer": "A",
+    "explanation": "Surgery spikes the body's need for fuel. If the patient isn't getting enough nutrition, the body starts breaking down its own muscle and tissue to survive, stalling recovery."
   }
 ]

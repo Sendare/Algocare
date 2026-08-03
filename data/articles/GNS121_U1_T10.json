@@ -10,44 +10,50 @@
     {
       "heading_id": "GNS121_U1_T10_h1",
       "order": 1,
-      "title": "Introduction and Calculation of Body Mass Index",
-      "content": "Body Mass Index serves as a foundational screening tool in clinical practice to evaluate a person's weight relative to their height. By taking mass and stature into account, clinicians quickly gauge whether a patient falls into a healthy weight range or experiences excess or deficit. The mathematical formula divides weight in kilograms by height in meters squared. For settings using imperial units, weight in pounds is divided by height in inches squared, multiplied by a conversion factor of 703. Accurately capturing these baseline measurements during admission assessments ensures the resulting score reliably guides subsequent nutritional and metabolic evaluations."
+      "title": "Introduction to Body Mass Index (BMI)",
+      "content": "Body Mass Index, widely known as **BMI**, is a simple screening tool used globally in healthcare to estimate body fat based on an individual's height and weight. It provides a numerical value that places a person into specific weight categories, helping nurses and doctors quickly spot potential health risks related to body size. While it does not directly measure body fat percentage, its ease of use makes it a valuable first step in assessing general nutritional status during routine clinic visits."
     },
     {
       "heading_id": "GNS121_U1_T10_h2",
       "order": 2,
-      "title": "Standard BMI Classifications and World Health Organization Categories",
-      "content": "To interpret the calculated numerical output, healthcare providers reference standardized thresholds established by global health authorities. These cutoffs group individuals into distinct categories that correlate with varying degrees of systemic health risk.\n\n- **Underweight**: A score below 18.5 kg/m² indicating potential malnutrition or underlying chronic wasting illness.\n- **Normal weight**: A score ranging from 18.5 to 24.9 kg/m², associated with the lowest statistical risk for chronic metabolic disease.\n- **Overweight**: A score between 25.0 and 29.9 kg/m², signaling an elevated propensity for cardiovascular strain.\n- **Class I Obesity**: A score spanning 30.0 to 34.9 kg/m².\n- **Class II Obesity**: A score spanning 35.0 to 39.9 kg/m².\n- **Class III Severe Obesity**: A score of 40.0 kg/m² or higher, requiring aggressive multidisciplinary intervention."
+      "title": "The Mathematical Formula and Calculation of BMI",
+      "content": "Calculating BMI requires two core measurements: weight and height. In the metric system, the formula divides weight in kilograms by height in meters squared ($kg/m^2$). When using imperial units (pounds and inches), the formula multiplies weight in pounds by 703, then divides by height in inches squared.\n\n- **Metric Formula**: $BMI = \\frac{weight \\ (kg)}{height \\ (m)^2}$\n- **Imperial Formula**: $BMI = \\frac{weight \\ (lb) \\times 703}{height \\ (in)^2}$"
     },
     {
       "heading_id": "GNS121_U1_T10_h3",
       "order": 3,
-      "title": "Physiological Significance and Body Composition Limitations",
-      "content": "While mathematical ratios provide rapid epidemiological data, they possess inherent blind spots regarding actual body composition. The formula treats muscle tissue and adipose tissue identically, despite their vastly different metabolic properties and densities. Consequently, highly trained athletes with dense musculature frequently register in the overweight or obese categories despite having minimal body fat. Conversely, older adults experiencing sarcopenic muscle loss may present with a normal index score while harboring dangerously high visceral adiposity. Recognizing these structural shortcomings prevents clinical misinterpretation when evaluating non-average body types."
+      "title": "Standard BMI Classifications and WHO Categories",
+      "content": "The World Health Organization has established universal BMI thresholds to categorize adult weight status. These cutoffs help clinicians communicate findings clearly and identify patients who need nutritional support or weight management.\n\n| Category | BMI Range ($kg/m^2$) |\n| :--- | :--- |\n| Underweight | Less than 18.5 |\n| Normal weight | 18.5 to 24.9 |\n| Overweight | 25.0 to 29.9 |\n| Obesity (Class I) | 30.0 to 34.9 |\n| Obesity (Class II) | 35.0 to 39.9 |\n| Severe Obesity (Class III) | 40.0 and above |"
     },
     {
       "heading_id": "GNS121_U1_T10_h4",
       "order": 4,
-      "title": "Clinical Assessment Techniques and Measurement Accuracy",
-      "content": "Obtaining valid inputs for the mathematical calculation requires rigorous technique in clinical settings. Inaccurate height measurements stem from failure to remove heavy footwear, slumping posture, or failing to use a rigid stadiometer with a headpiece held at a 90-degree angle. Weight should be measured on a calibrated, zeroed scale while the patient wears light indoor clothing. In Nigerian clinical practice, where power outages can occasionally affect digital scales, regular mechanical scale calibration is essential to prevent systematic charting errors that skew longitudinal nutritional tracking."
+      "title": "Physiological Significance and Body Composition",
+      "content": "A major physiological limitation of BMI is its inability to distinguish between lean muscle mass and adipose tissue. Muscle tissue is significantly denser than fat tissue. Consequently, a heavily muscled athlete or a pregnant woman can have an elevated BMI that places them in the overweight or obese category without carrying excess body fat. Conversely, an older adult with age-related muscle loss (sarcopenia) might have a normal BMI while harboring a dangerously high proportion of body fat."
     },
     {
       "heading_id": "GNS121_U1_T10_h5",
       "order": 5,
-      "title": "Health Risks Associated with Abnormal Values",
-      "content": "Deviations on either end of the spectrum impose distinct pathophysiological stresses on human organ systems. Elevated scores correlate strongly with chronic inflammatory states, insulin resistance, type 2 diabetes mellitus, hypertension, and obstructive sleep apnea due to increased mechanical load on the thorax. Conversely, values dipping below the normal threshold compromise immune competence, impair wound healing, disrupt endocrine regulation such as amenorrhea in females, and accelerate muscle fatigue. Monitoring these trends allows clinicians to anticipate multi-system complications before overt organ failure manifests."
+      "title": "Clinical Assessment and Measurement Techniques in Nursing",
+      "content": "Accurate BMI calculation depends entirely on precise anthropometric measurements. Nurses must ensure weighing scales are properly calibrated before use. Patients should remove heavy outer garments, shoes, and accessories. When measuring height, the patient should stand straight with heels together, looking straight ahead in the Frankfurt horizontal plane, while the stadiometer headpiece rests firmly on the crown of the head. Small errors in height measurement can cause significant shifts in the final BMI result."
     },
     {
       "heading_id": "GNS121_U1_T10_h6",
       "order": 6,
-      "title": "Demographic Factors and Population-Specific Variations",
-      "content": "Global application of uniform diagnostic cutoffs presents significant challenges due to genetic, structural, and metabolic variations across diverse populations. For instance, specific ethnic groups exhibit higher metabolic disease risk at lower thresholds compared to Caucasian populations due to a greater predisposition toward central visceral fat accumulation at lower total weights. Furthermore, biological sex influences distribution patterns, where biological males tend toward android fat deposition while females favor gynoid deposition. Recognizing these demographic nuances prevents misdiagnosis and ensures culturally competent nutritional screening."
+      "title": "Health Risks Associated with Abnormal BMI Values",
+      "content": "Both extremes of the BMI spectrum carry serious health consequences. Elevated BMI values in the overweight and obese ranges increase systemic inflammation and place excessive mechanical stress on joints. This significantly raises the risk of developing type 2 diabetes mellitus, hypertension, coronary artery disease, osteoarthritis, and obstructive sleep apnea. On the other end of the scale, an abnormally low BMI suggests malnutrition, which can impair immune function, cause muscle wasting, delay wound healing, and lead to osteoporosis and electrolyte imbalances."
     },
     {
       "heading_id": "GNS121_U1_T10_h7",
       "order": 7,
-      "title": "Nursing Interventions and Lifestyle Management Strategies",
-      "content": "When abnormal scores are identified, nursing personnel formulate individualised care plans targeting sustainable lifestyle modifications rather than rapid, unsafe weight loss. Interventions focus on practical dietary adjustments, gradual increases in physical activity tailored to the patient's functional capacity, and behavioral counseling. Nurses collaborate closely with dietitians to ensure meal plans respect local cultural food preferences and economic realities. Regular follow-up appointments allow the healthcare team to track progress objectively, adjust goals, and provide continuous encouragement throughout the health journey."
+      "title": "Limitations and Demographic Factors in BMI Interpretation",
+      "content": "BMI standards do not apply uniformly across all populations. Differences in body frame, fat distribution, and bone density mean that cutoffs can be misleading. For instance, individuals of Asian descent often experience metabolic risks for diabetes and heart disease at lower BMI thresholds compared to Western populations. Additionally, growing children and teenagers require age- and sex-specific growth charts rather than standard adult numbers. Pregnancy, advanced age, and high-performance athleticism also require clinical judgment beyond a simple BMI number."
+    },
+    {
+      "heading_id": "GNS121_U1_T10_h8",
+      "order": 8,
+      "title": "Nursing Interventions and Patient Education on Healthy Weight Management",
+      "content": "When addressing abnormal BMI results, nurses should adopt a non-judgmental, patient-centered approach. Weight management education must focus on sustainable lifestyle habits rather than rapid, restrictive dieting. Nurses should encourage balanced nutrition rich in whole foods, regular physical activity tailored to the patient's mobility, and adequate hydration. Rather than relying on BMI as the sole measure of success, nurses can track waist circumference and functional improvements, such as increased energy levels and better blood pressure control."
     }
   ]
 }
