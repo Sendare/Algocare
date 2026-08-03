@@ -5,15 +5,15 @@
     "article_id": "GNS217_U4_T2",
     "topic_id": "GNS217_U4_T2",
     "difficulty": "recall",
-    "question": "What is the primary purpose of descriptive statistics in nursing research?",
+    "question": "What is the main job of descriptive statistics in nursing research?",
     "options": {
-      "A": "To prove causal relationships between variables",
-      "B": "To organize and summarize raw clinical data",
-      "C": "To test complex hypotheses about large populations",
-      "D": "To replace clinical judgment with mathematical models"
+      "A": "To summarize and organize raw healthcare data",
+      "B": "To prove a cause-and-effect relationship between drugs",
+      "C": "To predict future disease outbreaks using probability",
+      "D": "To test complex hypotheses with small sample sizes"
     },
-    "answer": "B",
-    "explanation": "Descriptive statistics are strictly used to describe and summarize the basic features of a dataset rather than test hypotheses or prove causation. [learn more](GNS217_U4_T2#GNS217_U4_T2_h1)"
+    "answer": "A",
+    "explanation": "You've got this! Descriptive statistics are simply tools to tidy up large piles of data, making it easy for us to see the main picture without getting bogged down in numbers."
   },
   {
     "question_id": "GNS217_U4_T2_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GNS217_U4_T2",
     "topic_id": "GNS217_U4_T2",
     "difficulty": "understanding",
-    "question": "Why must nurse researchers calculate descriptive statistics before using inferential statistics?",
+    "question": "Why is it hard to use raw numbers straight from a patient audit without descriptive statistics?",
     "options": {
-      "A": "To understand the basic characteristics and patterns of the sample data",
-      "B": "To eliminate all potential sources of measurement bias in the study",
-      "C": "To comply with mandatory ethical review board requirements",
-      "D": "To convert qualitative interview transcripts into numerical scores"
+      "A": "They are illegal to share within a hospital ward",
+      "B": "They always contain mathematical calculation errors",
+      "C": "They only apply to laboratory experiments",
+      "D": "They are too overwhelming to spot patterns without organization"
     },
-    "answer": "A",
-    "explanation": "Reviewing descriptive statistics gives researchers an initial look at data distributions and potential errors before moving on to advanced inferential analysis. [learn more](GNS217_U4_T2#GNS217_U4_T2_h1)"
+    "answer": "D",
+    "explanation": "Think of raw data as a scattered mess of puzzle pieces. Without organizing them first, it's nearly impossible to spot trends or make sense of what's happening on the ward!"
   },
   {
     "question_id": "GNS217_U4_T2_h2_q1",
@@ -37,31 +37,31 @@
     "article_id": "GNS217_U4_T2",
     "topic_id": "GNS217_U4_T2",
     "difficulty": "recall",
-    "question": "A patient's blood type is classified under which level of measurement?",
+    "question": "Which level of measurement has a true zero point that means none of the item is present?",
     "options": {
-      "A": "Interval",
-      "B": "Ordinal",
-      "C": "Ratio",
-      "D": "Nominal"
+      "A": "Ordinal",
+      "B": "Nominal",
+      "C": "Interval",
+      "D": "Ratio"
     },
     "answer": "D",
-    "explanation": "Blood types represent distinct, unordered categories without numerical value, making them nominal data. [learn more](GNS217_U4_T2#GNS217_U4_T2_h2)"
+    "explanation": "Great thinking! Ratio data has an absolute zero—meaning zero actually means none, like a pulse rate of zero. If it's zero, it's completely gone!"
   },
   {
     "question_id": "GNS217_U4_T2_h2_q2",
     "heading_id": "GNS217_U4_T2_h2",
     "article_id": "GNS217_U4_T2",
     "topic_id": "GNS217_U4_T2",
-    "difficulty": "understanding",
-    "question": "What distinguishes a ratio scale from an interval scale?",
+    "difficulty": "application",
+    "question": "A nurse sorts patients by their blood groups (A, B, AB, or O). What level of measurement is this?",
     "options": {
-      "A": "The restriction to non-parametric statistical testing",
-      "B": "The presence of a true, absolute zero point",
-      "C": "The use of standardized, equal intervals between units",
-      "D": "The ability to categorize data into named groups"
+      "A": "Ratio",
+      "B": "Ordinal",
+      "C": "Nominal",
+      "D": "Interval"
     },
-    "answer": "B",
-    "explanation": "A ratio scale features a true zero representing complete absence of the variable, whereas an interval zero is arbitrary. [learn more](GNS217_U4_T2#GNS217_U4_T2_h2)"
+    "answer": "C",
+    "explanation": "Spot on! Blood groups are just names or categories with no numerical value or rank. Whenever you're just labeling categories, it's nominal data."
   },
   {
     "question_id": "GNS217_U4_T2_h3_q1",
@@ -69,31 +69,31 @@
     "article_id": "GNS217_U4_T2",
     "topic_id": "GNS217_U4_T2",
     "difficulty": "recall",
-    "question": "Which measure of central tendency is most affected by extreme outliers in a dataset?",
+    "question": "What is the statistical word for the value that shows up most often in a set of data?",
     "options": {
-      "A": "Median",
-      "B": "Mode",
-      "C": "Mean",
-      "D": "Range"
+      "A": "Range",
+      "B": "Mean",
+      "C": "Median",
+      "D": "Mode"
     },
-    "answer": "C",
-    "explanation": "Because the mean factors in the exact numerical value of every single data point, exceptionally high or low outliers pull the average toward them. [learn more](GNS217_U4_T2#GNS217_U4_T2_h3)"
+    "answer": "D",
+    "explanation": "You got it! Just remember: **Mo**de is the value that appears **mo**st often. Easy peasy!"
   },
   {
     "question_id": "GNS217_U4_T2_h3_q2",
     "heading_id": "GNS217_U4_T2_h3",
     "article_id": "GNS217_U4_T2",
     "topic_id": "GNS217_U4_T2",
-    "difficulty": "application",
-    "question": "A nurse researcher is analyzing patient length of stay in days, where a few patients stayed for over a hundred days while most stayed under five. Which central tendency metric is best to report?",
+    "difficulty": "understanding",
+    "question": "Why might a nurse researcher choose the median instead of the mean when looking at how long patients stayed in the hospital?",
     "options": {
-      "A": "Mode",
-      "B": "Mean",
-      "C": "Median",
-      "D": "Variance"
+      "A": "The median is always a lower number than the mean",
+      "B": "A few patients staying very long periods can pull the mean upward",
+      "C": "Hospital administrators legally require the use of medians",
+      "D": "The mean cannot be calculated using days as a unit"
     },
-    "answer": "C",
-    "explanation": "When data are heavily skewed by extreme values like long hospital stays, the median provides a more accurate representation of the typical patient experience. [learn more](GNS217_U4_T2#GNS217_U4_T2_h3)"
+    "answer": "B",
+    "explanation": "Exactly! If a couple of patients had unusually long stays, they would skew the average (mean) way up. The median sits right in the middle and isn't easily tricked by those extreme cases."
   },
   {
     "question_id": "GNS217_U4_T2_h4_q1",
@@ -101,15 +101,15 @@
     "article_id": "GNS217_U4_T2",
     "topic_id": "GNS217_U4_T2",
     "difficulty": "recall",
-    "question": "What is the mathematical relationship between variance and standard deviation?",
+    "question": "What does standard deviation mainly tell us about a set of healthcare data?",
     "options": {
-      "A": "Standard deviation is the square root of the variance",
-      "B": "Standard deviation is variance multiplied by the sample size",
-      "C": "Variance is standard deviation divided by the mean",
-      "D": "Variance is the square root of the standard deviation"
+      "A": "The frequency of the most common clinical symptom",
+      "B": "How much scores deviate from the mean on average",
+      "C": "The total number of patients who participated in the study",
+      "D": "The exact mathematical difference between the highest and lowest scores"
     },
-    "answer": "A",
-    "explanation": "Standard deviation is derived directly by taking the square root of the variance value to restore the original unit of measurement. [learn more](GNS217_U4_T2#GNS217_U4_T2_h4)"
+    "answer": "B",
+    "explanation": "Think of standard deviation as measuring how spread out the data is. It tells us the average distance that scores fall away from the middle (mean)."
   },
   {
     "question_id": "GNS217_U4_T2_h4_q2",
@@ -117,15 +117,15 @@
     "article_id": "GNS217_U4_T2",
     "topic_id": "GNS217_U4_T2",
     "difficulty": "understanding",
-    "question": "What does a very small standard deviation indicate about a set of clinical measurements?",
+    "question": "What is the main weak point of using the range to measure how spread out data is?",
     "options": {
-      "A": "The measurements are tightly clustered close to the mean",
-      "B": "The data contains numerous extreme errors and outliers",
-      "C": "The sample size was too small to calculate reliable results",
-      "D": "The dataset is measured on a nominal or ordinal scale"
+      "A": "It can only be used with nominal data categories",
+      "B": "It is easily distorted by a single extreme outlier",
+      "C": "It requires complex calculus to calculate properly",
+      "D": "It ignores the middle values of the dataset entirely"
     },
-    "answer": "A",
-    "explanation": "Low standard deviation signifies minimal variability, meaning individual readings closely hover around the calculated average. [learn more](GNS217_U4_T2#GNS217_U4_T2_h4)"
+    "answer": "B",
+    "explanation": "You're doing great! Because the range only looks at the absolute highest and lowest numbers, just one weird or extreme score can completely throw off the result."
   },
   {
     "question_id": "GNS217_U4_T2_h5_q1",
@@ -133,15 +133,15 @@
     "article_id": "GNS217_U4_T2",
     "topic_id": "GNS217_U4_T2",
     "difficulty": "recall",
-    "question": "In a perfectly normal distribution curve, what is the relationship between the mean, median, and mode?",
+    "question": "What shape does a perfectly balanced, symmetrical data distribution make?",
     "options": {
-      "A": "The mode is at one end and the median is at the other",
-      "B": "They bear no mathematical relationship to each other",
-      "C": "The mean is always higher than the median",
-      "D": "They are all equal and located at the center"
+      "A": "A flat horizontal line",
+      "B": "A bell-shaped curve",
+      "C": "An upward sloping diagonal",
+      "D": "A sharp V-shape"
     },
-    "answer": "D",
-    "explanation": "A symmetrical bell curve shares the exact same center point for the mean, median, and mode. [learn more](GNS217_U4_T2#GNS217_U4_T2_h5)"
+    "answer": "B",
+    "explanation": "Nice one! A normal distribution makes a lovely bell shape where the mean, median, and mode all sit right in the center together."
   },
   {
     "question_id": "GNS217_U4_T2_h5_q2",
@@ -149,15 +149,15 @@
     "article_id": "GNS217_U4_T2",
     "topic_id": "GNS217_U4_T2",
     "difficulty": "understanding",
-    "question": "Which characteristic defines a positively skewed distribution?",
+    "question": "What does a positively skewed distribution tell us about patient recovery times?",
     "options": {
-      "A": "A mirror-symmetrical shape identical to a normal curve",
-      "B": "A flat peak with no discernible central tendency",
-      "C": "A long tail stretching toward lower numerical values",
-      "D": "A long tail extending toward higher numerical values"
+      "A": "The data contains an equal number of fast and slow recoveries",
+      "B": "Most patients take a long time to recover, with very few fast recoveries",
+      "C": "All patients recover in the exact same number of days",
+      "D": "Most patients recover quickly, but a few take a very long time"
     },
     "answer": "D",
-    "explanation": "Positive skewness means the tail points to the right (higher values), driven by a small number of unusually high scores. [learn more](GNS217_U4_T2#GNS217_U4_T2_h5)"
+    "explanation": "Spot on! A positive skew means most people recover fast (piled up at the start), but a few stubborn cases drag the tail out toward longer recovery times."
   },
   {
     "question_id": "GNS217_U4_T2_h6_q1",
@@ -165,15 +165,15 @@
     "article_id": "GNS217_U4_T2",
     "topic_id": "GNS217_U4_T2",
     "difficulty": "recall",
-    "question": "Which graphical format is best suited for displaying continuous numerical data where the bars touch?",
+    "question": "Which chart is best for showing how patient vital signs change over time?",
     "options": {
-      "A": "Bar chart",
+      "A": "Frequency table",
       "B": "Pie chart",
-      "C": "Histogram",
-      "D": "Flowchart"
+      "C": "Bar chart",
+      "D": "Line graph"
     },
-    "answer": "C",
-    "explanation": "Histograms display continuous data grouped into intervals, with adjacent bars touching to reflect the continuous nature of the scale. [learn more](GNS217_U4_T2#GNS217_U4_T2_h6)"
+    "answer": "D",
+    "explanation": "You got it! Whenever you want to track changes over a timeline—like hourly blood pressure readings—a line graph is your best friend."
   },
   {
     "question_id": "GNS217_U4_T2_h6_q2",
@@ -181,15 +181,15 @@
     "article_id": "GNS217_U4_T2",
     "topic_id": "GNS217_U4_T2",
     "difficulty": "application",
-    "question": "A nurse manager wants to track a ward's monthly fall rates over a two-year period. Which visual tool should be selected?",
+    "question": "A nurse wants to show the percentage breakdown of different nursing specialties in a hospital. Which chart should be used?",
     "options": {
-      "A": "Bar chart",
+      "A": "Pie chart",
       "B": "Line graph",
-      "C": "Pie chart",
-      "D": "Box plot"
+      "C": "Scatter plot",
+      "D": "Histogram"
     },
-    "answer": "B",
-    "explanation": "Line graphs excel at illustrating trends and changes across continuous time intervals. [learn more](GNS217_U4_T2#GNS217_U4_T2_h6)"
+    "answer": "A",
+    "explanation": "Fantastic! Pie charts are wonderful for showing parts of a whole, like slices of a cake representing different hospital departments."
   },
   {
     "question_id": "GNS217_U4_T2_h7_q1",
@@ -197,30 +197,30 @@
     "article_id": "GNS217_U4_T2",
     "topic_id": "GNS217_U4_T2",
     "difficulty": "understanding",
-    "question": "How do descriptive statistics directly improve daily nursing care and unit management?",
+    "question": "How do descriptive statistics help nurses in everyday evidence-based practice?",
     "options": {
-      "A": "By eliminating the need for ongoing nursing documentation and audits",
-      "B": "By guaranteeing that all patients will experience identical recovery times",
-      "C": "By providing objective data on patient outcomes and unit trends to guide decisions",
-      "D": "By replacing bedside clinical assessment with automated computer diagnostics"
+      "A": "By replacing the need for direct physical assessment of patients",
+      "B": "By helping nurses evaluate research reports and quality improvement data",
+      "C": "By allowing nurses to prescribe medications without a physician's order",
+      "D": "By diagnosing complex rare diseases automatically"
     },
-    "answer": "C",
-    "explanation": "Descriptive metrics give managers and staff clear insight into operational and clinical trends, supporting evidence-based adjustments. [learn more](GNS217_U4_T2#GNS217_U4_T2_h7)"
+    "answer": "B",
+    "explanation": "Keep it up! Nurses use descriptive stats to read clinical research and understand hospital quality reports so we can give better care to our patients."
   },
   {
     "question_id": "GNS217_U4_T2_h7_q2",
     "heading_id": "GNS217_U4_T2_h7",
     "article_id": "GNS217_U4_T2",
     "topic_id": "GNS217_U4_T2",
-    "difficulty": "recall",
-    "question": "What is NOT a valid use of descriptive statistics in a clinical setting?",
+    "difficulty": "application",
+    "question": "A nurse manager sees a report saying patient wait times have a very large standard deviation. What does this mean for the clinic?",
     "options": {
-      "A": "Proving definitive cause-and-effect relationships between new drugs and cures",
-      "B": "Tracking the average length of stay on a surgical unit using the median",
-      "C": "Summarizing patient satisfaction survey results using percentages and modes",
-      "D": "Displaying vital sign trends over time using line graphs"
+      "A": "The clinic has successfully eliminated all delays in patient care",
+      "B": "The average wait time is dangerously high for every single patient",
+      "C": "Every patient is waiting the exact same amount of time to be seen",
+      "D": "Wait times vary widely, with some patients waiting a very short time and others waiting extremely long"
     },
-    "answer": "A",
-    "explanation": "Descriptive statistics summarize data but cannot prove causation; inferential statistics and experimental designs are required for causal claims. [learn more](GNS217_U4_T2#GNS217_U4_T2_h7)"
+    "answer": "D",
+    "explanation": "You nailed it! A large standard deviation means big differences—some patients are seen immediately while others wait forever, showing the clinic's service is quite inconsistent."
   }
 ]
