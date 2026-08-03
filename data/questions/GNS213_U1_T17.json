@@ -5,15 +5,15 @@
     "article_id": "GNS213_U1_T17",
     "topic_id": "GNS213_U1_T17",
     "difficulty": "recall",
-    "question": "What is the primary physiological purpose of performing defibrillation?",
+    "question": "What is the main goal of delivering an electrical shock during defibrillation?",
     "options": {
-      "A": "To depolarize the myocardium simultaneously and reset chaotic electrical activity",
-      "B": "To restore physical contraction strength in a failing heart muscle",
-      "C": "To clear blood clots lodged within the coronary arteries during arrest",
-      "D": "To stimulate the sinoatrial node to produce a faster heart rate"
+      "A": "To reset chaotic heart muscle activity and let a normal rhythm restart",
+      "B": "To restart a completely flatlined heart during asystole",
+      "C": "To force the heart valves to open and close manually",
+      "D": "To speed up a dangerously slow resting heart rate"
     },
     "answer": "A",
-    "explanation": "A high-energy shock depolarizes the entire heart muscle at once, stopping erratic electrical loops so the natural pacemaker can take over again. [learn more](GNS213_U1_T17#GNS213_U1_T17_h1)"
+    "explanation": "Think of the shock as a quick reset button! It momentarily stops the heart's chaotic electrical signals all at once, giving the natural pacemaker a chance to step back in and start a normal rhythm."
   },
   {
     "question_id": "GNS213_U1_T17_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GNS213_U1_T17",
     "topic_id": "GNS213_U1_T17",
     "difficulty": "understanding",
-    "question": "Which rhythm indication requires immediate delivery of an emergency defibrillation shock?",
+    "question": "Which of these heart rhythms needs an immediate emergency shock?",
     "options": {
-      "A": "Pulseless Electrical Activity",
-      "B": "Asystole",
-      "C": "Ventricular Fibrillation",
-      "D": "Complete Heart Block"
+      "A": "Sinus Bradycardia",
+      "B": "Ventricular Fibrillation",
+      "C": "Asystole",
+      "D": "Pulseless Electrical Activity"
     },
-    "answer": "C",
-    "explanation": "Ventricular fibrillation is a shockable cardiac arrest rhythm where the ventricles quiver without pumping blood, requiring immediate electrical termination. [learn more](GNS213_U1_T17#GNS213_U1_T17_h1)"
+    "answer": "B",
+    "explanation": "Ventricular Fibrillation (VF) is a shockable rhythm because the heart still has wild electrical activity that a shock can clear. Flatlines (asystole) need chest compressions and meds, not shocks!"
   },
   {
     "question_id": "GNS213_U1_T17_h2_q1",
@@ -37,15 +37,15 @@
     "article_id": "GNS213_U1_T17",
     "topic_id": "GNS213_U1_T17",
     "difficulty": "recall",
-    "question": "Why does pulseless ventricular tachycardia fail to generate a systemic blood pressure?",
+    "question": "What happens to the heart muscle fibers during Ventricular Fibrillation?",
     "options": {
-      "A": "The heart muscle undergoes immediate structural necrosis",
-      "B": "The coronary arteries spasm and block all oxygenated blood supply",
-      "C": "The sinoatrial node stops firing entirely during the episode",
-      "D": "The heart beats too rapidly for the ventricles to fill with blood"
+      "A": "They beat together in a slow, steady rhythm",
+      "B": "They rest without any electrical signals at all",
+      "C": "They become completely stiff and cannot relax",
+      "D": "They twitch randomly without pumping any blood"
     },
     "answer": "D",
-    "explanation": "When ventricular rates become excessively high, diastolic filling time is virtually eliminated, leaving no blood to eject during systole. [learn more](GNS213_U1_T17#GNS213_U1_T17_h2)"
+    "explanation": "During VF, the heart muscle fibers flutter and twitch chaotically like a bag of worms. Because they aren't working together, no blood is pumped to the body."
   },
   {
     "question_id": "GNS213_U1_T17_h2_q2",
@@ -53,15 +53,15 @@
     "article_id": "GNS213_U1_T17",
     "topic_id": "GNS213_U1_T17",
     "difficulty": "understanding",
-    "question": "What is occurring electrically within the heart muscle during ventricular fibrillation?",
+    "question": "Why does Pulseless Ventricular Tachycardia lead to cardiac arrest?",
     "options": {
-      "A": "The atria and ventricles beat at completely separate, uncoordinated rates",
-      "B": "All electrical activity ceases completely throughout the ventricular walls",
-      "C": "Myocardial cells depolarize and repolarize in an uncoordinated, chaotic manner",
-      "D": "Electrical impulses travel backwards from the Purkinje fibers to the nodes"
+      "A": "The ventricles beat so fast they cannot fill and empty properly",
+      "B": "The heart muscle grows too thick to receive oxygen",
+      "C": "The electrical signals stop traveling through the atria completely",
+      "D": "The coronary arteries experience a sudden physical blockage"
     },
-    "answer": "C",
-    "explanation": "Ventricular fibrillation is marked by random, independent firing of myocardial cells, preventing any synchronized pumping action. [learn more](GNS213_U1_T17#GNS213_U1_T17_h2)"
+    "answer": "A",
+    "explanation": "When the heart races way too fast, it's like trying to fill a bucket with a firehose while the opening is tiny—there's simply no time for blood to fill the chambers, causing a sudden drop in pulse."
   },
   {
     "question_id": "GNS213_U1_T17_h3_q1",
@@ -69,15 +69,15 @@
     "article_id": "GNS213_U1_T17",
     "topic_id": "GNS213_U1_T17",
     "difficulty": "recall",
-    "question": "What is a major advantage of a biphasic defibrillator over a monophasic device?",
+    "question": "How does electricity move through the heart in a biphasic defibrillator?",
     "options": {
-      "A": "It automatically diagnoses non-shockable rhythms without human input",
-      "B": "It can deliver shocks safely during active chest compressions",
-      "C": "It operates entirely on battery power without needing an electrical outlet",
-      "D": "It requires lower energy levels to achieve successful cardioversion or defibrillation"
+      "A": "It circles around the heart chambers in a clockwise pattern",
+      "B": "It travels forward through the heart and then reverses direction",
+      "C": "It splits into multiple smaller pulses sent simultaneously",
+      "D": "It flows in a single direction from the apex to the base"
     },
-    "answer": "D",
-    "explanation": "Reversing the current direction in biphasic waveforms achieves higher success rates using less energy, minimizing tissue damage. [learn more](GNS213_U1_T17#GNS213_U1_T17_h3)"
+    "answer": "B",
+    "explanation": "Biphasic means two phases! The current travels through the heart in one direction and then quickly switches and flows back through, making it super effective."
   },
   {
     "question_id": "GNS213_U1_T17_h3_q2",
@@ -85,15 +85,15 @@
     "article_id": "GNS213_U1_T17",
     "topic_id": "GNS213_U1_T17",
     "difficulty": "understanding",
-    "question": "How does current flow across the heart during the delivery of a monophasic shock?",
+    "question": "What is a big clinical plus of using biphasic defibrillators over monophasic ones?",
     "options": {
-      "A": "Unidirectionally from one electrode pad to the other",
-      "B": "Bidirectionally, reversing halfway through the shock delivery",
-      "C": "Circularly around the epicardial surface of both ventricles",
-      "D": "Simultaneously from four separate electrode patches"
+      "A": "They automatically treat both shockable and non-shockable rhythms",
+      "B": "They achieve success with lower energy levels and less tissue injury",
+      "C": "They do not require any conductive gel pads on the chest",
+      "D": "They can deliver shocks safely through wet clothing"
     },
-    "answer": "A",
-    "explanation": "Monophasic devices send electrical current in a single path straight through the chest from the source pad to the return pad. [learn more](GNS213_U1_T17#GNS213_U1_T17_h3)"
+    "answer": "B",
+    "explanation": "Because biphasic shocks work so well, we don't need as much electricity. This keeps the patient safer by lowering the risk of skin burns and heart muscle damage."
   },
   {
     "question_id": "GNS213_U1_T17_h4_q1",
@@ -101,15 +101,15 @@
     "article_id": "GNS213_U1_T17",
     "topic_id": "GNS213_U1_T17",
     "difficulty": "recall",
-    "question": "Why must oxygen delivery tubing be moved away from the patient's chest during defibrillation?",
+    "question": "Why must oxygen delivery tubing be moved away before delivering a shock?",
     "options": {
-      "A": "To prevent the plastic tubing from melting onto the patient's sternum",
-      "B": "To ensure the defibrillator pads make complete contact with bare skin",
-      "C": "To prevent an open fire hazard caused by electrical sparks near oxygen",
-      "D": "To stop the oxygen pressure from interfering with the cardiac monitor"
+      "A": "To keep the plastic tubing from melting onto the chest skin",
+      "B": "To allow space for placing the defibrillator pads correctly",
+      "C": "To stop the patient from breathing too much room air",
+      "D": "To prevent electrical sparks from igniting an oxygen-rich fire"
     },
-    "answer": "C",
-    "explanation": "Sparks or arcs near high-flow oxygen sources can ignite combustible materials and cause severe facial or chest burns. [learn more](GNS213_U1_T17#GNS213_U1_T17_h4)"
+    "answer": "D",
+    "explanation": "Oxygen feeds fire! Combining an electrical spark from a defibrillator pad with a high concentration of oxygen right near the chest is a major fire hazard."
   },
   {
     "question_id": "GNS213_U1_T17_h4_q2",
@@ -117,15 +117,15 @@
     "article_id": "GNS213_U1_T17",
     "topic_id": "GNS213_U1_T17",
     "difficulty": "understanding",
-    "question": "What is the primary reason for applying conductive gel pads or paste before shocking?",
+    "question": "Where should you place defibrillator pads on a patient with an implanted pacemaker?",
     "options": {
-      "A": "To cool down the underlying skin tissue during energy transmission",
-      "B": "To decrease transthoracic electrical impedance and prevent skin burns",
-      "C": "To glue the heavy metal paddles securely to the patient's chest wall",
-      "D": "To block ambient electrical noise from interfering with the ECG tracing"
+      "A": "Cover the pacemaker site entirely with thick rubber insulation",
+      "B": "Apply the pads to the upper back and neck instead",
+      "C": "Turn the pacemaker off using an external magnet first",
+      "D": "Place the pads at least one inch away from the pacemaker device"
     },
-    "answer": "B",
-    "explanation": "Skin has high electrical resistance. Conductive medium bridges the gap, allowing current to flow into the heart rather than burning the skin. [learn more](GNS213_U1_T17#GNS213_U1_T17_h4)"
+    "answer": "D",
+    "explanation": "Always keep the pads at least an inch away from metal devices like pacemakers. Placing them right on top can ruin the device and block the shock from reaching the heart."
   },
   {
     "question_id": "GNS213_U1_T17_h5_q1",
@@ -133,31 +133,31 @@
     "article_id": "GNS213_U1_T17",
     "topic_id": "GNS213_U1_T17",
     "difficulty": "recall",
-    "question": "What action should the resuscitation team take immediately after a defibrillation shock is delivered?",
+    "question": "What is the first thing a nurse should do right after a shock is delivered?",
     "options": {
-      "A": "Review the rhythm strip on the monitor to see if sinus rhythm returned",
-      "B": "Resume chest compressions immediately without checking for a pulse",
-      "C": "Check the carotid pulse for at least ten seconds to assess rhythm",
-      "D": "Disconnect the oxygen source and check the ventilator settings"
+      "A": "Resume chest compressions right away",
+      "B": "Administer a routine dose of IV atropine",
+      "C": "Draw blood samples for arterial blood gas analysis",
+      "D": "Check the carotid pulse for up to one minute"
     },
-    "answer": "B",
-    "explanation": "Chest compressions should restart instantly after a shock because pausing to check a pulse delays critical blood flow. [learn more](GNS213_U1_T17#GNS213_U1_T17_h5)"
+    "answer": "A",
+    "explanation": "Don't pause to check for a pulse immediately! Modern resuscitation rules tell us to jump right back into chest compressions to keep blood flowing."
   },
   {
     "question_id": "GNS213_U1_T17_h5_q2",
     "heading_id": "GNS213_U1_T17_h5",
     "article_id": "GNS213_U1_T17",
     "topic_id": "GNS213_U1_T17",
-    "difficulty": "understanding",
-    "question": "Where should the apical defibrillation pad be correctly placed on the patient's chest?",
+    "difficulty": "application",
+    "question": "You are getting ready to shock with a manual defibrillator. What is the right sequence right before pressing the discharge button?",
     "options": {
-      "A": "In the fifth intercostal space at the mid-axillary line",
-      "B": "Directly over the center of the manubrium of the sternum",
-      "C": "Over the epigastric region just below the xiphoid process",
-      "D": "Just beneath the left clavicle in the infraclavicular fossa"
+      "A": "Charge the machine, announce 'clear', and visually check the team",
+      "B": "Pause compressions, check the pulse, and apply gel pads",
+      "C": "Administer emergency epinephrine and remove oxygen tubing",
+      "D": "Turn off the mechanical ventilator and disconnect all IV lines"
     },
     "answer": "A",
-    "explanation": "Placing the apical pad on the lower left lateral chest ensures the electrical vector passes directly through the bulk of the ventricles. [learn more](GNS213_U1_T17#GNS213_U1_T17_h5)"
+    "explanation": "Safety first! Always charge the machine, shout a loud 'clear!', and double-check with your eyes that nobody is touching the patient before you hit that button."
   },
   {
     "question_id": "GNS213_U1_T17_h6_q1",
@@ -165,15 +165,15 @@
     "article_id": "GNS213_U1_T17",
     "topic_id": "GNS213_U1_T17",
     "difficulty": "recall",
-    "question": "What clinical sign indicates the Return of Spontaneous Circulation (ROSC) in a resuscitated patient?",
+    "question": "Which of these details must a nurse document after an emergency defibrillation?",
     "options": {
-      "A": "Normalization of the serum potassium and sodium levels",
-      "B": "Presence of a palpable pulse and measurable blood pressure",
-      "C": "Disappearance of all QRS complexes on the cardiac monitor",
-      "D": "Immediate awakening and clear verbal communication"
+      "A": "Number of shocks delivered and energy levels used",
+      "B": "The specific room temperature during the code",
+      "C": "The patient's personal family medical history",
+      "D": "The exact brand and serial number of the defibrillator"
     },
-    "answer": "B",
-    "explanation": "ROSC is confirmed when the heart regains an organized rhythm capable of generating systemic perfusion, noted by pulses and blood pressure. [learn more](GNS213_U1_T17#GNS213_U1_T17_h6)"
+    "answer": "A",
+    "explanation": "Good documentation captures the vital facts of the event: how many shocks were given, the energy levels in Joules, and any rhythm changes."
   },
   {
     "question_id": "GNS213_U1_T17_h6_q2",
@@ -181,15 +181,15 @@
     "article_id": "GNS213_U1_T17",
     "topic_id": "GNS213_U1_T17",
     "difficulty": "understanding",
-    "question": "Which diagnostic test is essential immediately after achieving stability following successful defibrillation?",
+    "question": "Why is continuous heart monitoring a must right after a successful defibrillation?",
     "options": {
-      "A": "Chest ultrasound examination",
-      "B": "Pulmonary function testing",
-      "C": "12-lead electrocardiogram",
-      "D": "Complete blood cell count"
+      "A": "To ensure the patient stays awake during recovery",
+      "B": "To verify that the defibrillator battery is still fully charged",
+      "C": "To measure the exact electrical resistance of the skin",
+      "D": "To catch early warning signs of recurrent arrhythmias or re-arrest"
     },
-    "answer": "C",
-    "explanation": "A 12-lead ECG helps identify ST-elevation myocardial infarction or other ischemic causes that precipitated the cardiac arrest. [learn more](GNS213_U1_T17#GNS213_U1_T17_h6)"
+    "answer": "D",
+    "explanation": "Just because the heart restarted doesn't mean they're out of the woods. These patients are very fragile and can easily slip right back into a dangerous rhythm."
   },
   {
     "question_id": "GNS213_U1_T17_h7_q1",
@@ -197,15 +197,15 @@
     "article_id": "GNS213_U1_T17",
     "topic_id": "GNS213_U1_T17",
     "difficulty": "recall",
-    "question": "What is a frequent cause of skin burns underneath defibrillator pads during a resuscitation?",
+    "question": "What usually causes a 'Check Pads' error message to pop up on a defibrillator screen?",
     "options": {
-      "A": "Leaving the patient's cotton hospital gown on during the shock",
-      "B": "Setting the biphasic energy level too low for the patient",
-      "C": "Placing both adhesive pads on the right side of the sternum",
-      "D": "Inadequate or dried conductive gel creating high resistance"
+      "A": "Poor skin contact or loose cable connections",
+      "B": "The patient has an implanted cardiac pacemaker",
+      "C": "The room oxygen level is dangerously high",
+      "D": "The battery is completely charged to maximum capacity"
     },
-    "answer": "D",
-    "explanation": "Without sufficient conductive medium, electrical current encounters high resistance at the skin interface, generating localized heat and burns. [learn more](GNS213_U1_T17#GNS213_U1_T17_h7)"
+    "answer": "A",
+    "explanation": "A 'Check Pads' warning simply means the machine isn't sensing a clean electrical connection with the skin. Check your leads and pad placement!"
   },
   {
     "question_id": "GNS213_U1_T17_h7_q2",
@@ -213,14 +213,14 @@
     "article_id": "GNS213_U1_T17",
     "topic_id": "GNS213_U1_T17",
     "difficulty": "understanding",
-    "question": "What should a nurse check FIRST if a defibrillator fails to charge when the button is pressed?",
+    "question": "Why should a nurse quickly check the patient in person when the monitor shows a sudden weird rhythm?",
     "options": {
-      "A": "Whether the endotracheal tube is correctly positioned",
-      "B": "The manufacturer expiration date on the gel pads",
-      "C": "The patient's serum electrolyte laboratory panels",
-      "D": "Power source and battery connection integrity"
+      "A": "To determine if the patient needs an immediate dose of insulin",
+      "B": "To calculate the exact cardiac output of the ventricles",
+      "C": "To check if the intravenous line has become infiltrated",
+      "D": "To rule out artifact caused by movement or loose cables"
     },
     "answer": "D",
-    "explanation": "Equipment troubleshooting starts with verifying power supply and battery seating to ensure the device is operational. [learn more](GNS213_U1_T17#GNS213_U1_T17_h7)"
+    "explanation": "Always treat the patient, not just the monitor screen! Shivering, moving around, or a loose cable can make the screen look terrifying even when the patient is totally fine."
   }
 ]
