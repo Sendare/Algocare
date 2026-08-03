@@ -12,37 +12,37 @@
       "heading_id": "GNS211_U1_T9_h1",
       "order": 1,
       "title": "Introduction to Hormone Receptors and Signaling",
-      "content": "Hormones are chemical messengers secreted by endocrine glands directly into the bloodstream, yet they only influence specific cells known as target cells. This selective communication relies entirely on hormone receptors, which are specialized protein molecules capable of recognizing and binding specific signaling ligands. Without a matching receptor, a circulating hormone simply drifts past a cell without effect. This lock-and-key specificity ensures that widespread chemical signals elicit precise, coordinated physiological responses across distant organ systems."
+      "content": "Hormones are chemical messengers released by endocrine glands directly into the bloodstream. Yet, despite traveling throughout the entire body, a given hormone only affects specific cells. These targets must possess the correct **hormone receptor**, a specialized protein molecule that recognizes and binds to that specific hormone. \n\nSignaling begins the moment a hormone docks with its matching receptor, forming a hormone-receptor complex. This binding event triggers a cascade of intracellular events that ultimately alter cellular activity, such as changing membrane permeability, stimulating enzyme activity, or initiating protein synthesis. Without these receptors, target cells remain completely blind to circulating hormonal signals."
     },
     {
       "heading_id": "GNS211_U1_T9_h2",
       "order": 2,
       "title": "Classification of Hormones: Water-Soluble vs. Lipid-Soluble",
-      "content": "Hormones fall into two major chemical categories that dictate how they interact with cells. Water-soluble hormones, such as peptide and amine hormones, dissolve easily in blood plasma but cannot cross the hydrophobic lipid bilayer of the cell membrane. Lipid-soluble hormones, including steroid and thyroid hormones, require carrier proteins to travel through the watery bloodstream, but they easily slip directly through the plasma membrane to reach internal cellular machinery."
+      "content": "Hormones fall into two main chemical categories, dictating how they interact with their receptors. \n\n- **Water-soluble (hydrophilic) hormones**: These include peptide and amine hormones derived from amino acids. They dissolve easily in blood plasma but cannot cross the lipid bilayer of the cell membrane. Consequently, their receptors must sit on the outside surface of the target cell.\n- **Lipid-soluble (lipophilic) hormones**: These include steroid hormones and thyroid hormones derived from lipids. They require carrier proteins to travel through watery blood, but they easily diffuse straight through the cell's plasma membrane to find receptors waiting inside the cell."
     },
     {
       "heading_id": "GNS211_U1_T9_h3",
       "order": 3,
       "title": "Cell-Surface Receptors and Second Messenger Systems",
-      "content": "Because water-soluble hormones cannot enter target cells, they act as first messengers that bind to cell-surface receptors. This binding triggers a cascade of intracellular events mediated by second messengers, such as cyclic AMP (cAMP) or calcium ions. These internal molecules rapidly amplify the original hormonal signal, altering existing cellular enzymes and metabolic pathways without needing to change genetic transcription directly."
+      "content": "Because water-soluble hormones cannot enter the cell, they act as **first messengers**. When the hormone binds to a cell-surface receptor, it activates a chain reaction inside the cell involving a **second messenger**. \n\nThe most famous second messenger system uses **cyclic AMP (cAMP)**. When a hormone attaches to the receptor, it activates a membrane protein called a G-protein. The G-protein then stimulates an enzyme called adenylate cyclase, which converts ATP into cAMP. The cAMP molecules diffuse through the cytoplasm and activate protein kinases, sparking the final physiological response inside the cell. This multi-step cascade allows a tiny amount of hormone outside the cell to cause a massive, amplified response inside the cell."
     },
     {
       "heading_id": "GNS211_U1_T9_h4",
       "order": 4,
       "title": "Intracellular Receptors and Gene Expression",
-      "content": "Lipid-soluble hormones bypass surface barriers entirely, diffusing straight through the plasma membrane and binding to intracellular receptors located in the cytoplasm or nucleus. The resulting hormone-receptor complex acts as a transcription factor, binding directly to specific segments of DNA. This process turns targeted genes on or off, altering protein synthesis and producing slow, long-lasting changes in cellular structure and function."
+      "content": "Lipid-soluble hormones skip second messengers entirely. Because they slide right through the cell membrane and nuclear membrane, their receptors are located inside the cytoplasm or directly inside the nucleus.\n\nOnce the lipid-soluble hormone binds to its intracellular receptor, the hormone-receptor complex moves directly to the cell's DNA. Here, it acts as a transcription factor, turning specific genes on or off. This process alters **gene expression**, leading to the creation of brand new proteins that change the long-term structure and function of the target cell. Because this requires building new proteins from scratch, lipid-soluble hormone responses take longer to happen than water-soluble responses, but their effects typically last much longer."
     },
     {
       "heading_id": "GNS211_U1_T9_h5",
       "order": 5,
       "title": "Receptor Regulation: Upregulation and Downregulation",
-      "content": "- **Upregulation**: Target cells increase the number of hormone receptors when hormone concentrations in the blood remain chronically low, heightening cellular sensitivity.\n- **Downregulation**: Target cells decrease receptor numbers in response to persistently high hormone levels, protecting the cell from overstimulation.\n\nThis dynamic sensitivity prevents extreme metabolic swings, maintaining physiological balance through constant feedback loops."
+      "content": "Receptor numbers on a cell surface are not fixed; they fluctuate based on the body's current chemical environment to maintain homeostasis.\n\n- **Downregulation**: When a hormone is present in excess for a prolonged period, target cells decrease their number of receptors. This makes the cell less sensitive to the hormone, protecting the tissue from overstimulation.\n- **Upregulation**: When hormone levels remain low over a sustained period, target cells increase their receptor count. This makes the cell more sensitive to even a small amount of the hormone.\n\nA common clinical misconception is that hormone levels alone dictate cell response; receptor availability is equally important in determining overall biological activity."
     },
     {
       "heading_id": "GNS211_U1_T9_h6",
       "order": 6,
       "title": "Endocrine Pathologies Associated with Receptor Dysfunction",
-      "content": "Endocrine disorders are not always caused by abnormal hormone production; defective receptors can trigger profound illness. In type 2 diabetes mellitus, target cells display insulin resistance due to impaired receptor signaling despite adequate blood insulin levels. Conversely, rare genetic mutations can cause activating mutations in receptors, locking them into an 'on' state and mimicking continuous hormone overstimulation even in the absence of the actual hormone."
+      "content": "When receptors fail to function properly, endocrine disorders arise even if blood hormone levels are completely normal. \n\nIn some conditions, genetic mutations alter the shape of the receptor, preventing hormones from binding. In other cases, autoantibodies mistakenly attack the body's own hormone receptors. For example, in Graves' disease, antibodies stimulate thyroid-stimulating hormone receptors, causing the thyroid to overproduce hormones regardless of feedback controls. Conversely, in type 2 diabetes, target cells develop insulin resistance, where normal or high levels of insulin fail to trigger adequate glucose uptake because downstream receptor signaling is impaired."
     }
   ]
 }
