@@ -11,37 +11,31 @@
       "heading_id": "GNS113_U4_T2_h1",
       "order": 1,
       "title": "Introduction to Monitoring Devices in Nursing Informatics",
-      "content": "Monitoring devices form the bedrock of acute and critical care nursing by capturing real-time physiological data. Within **nursing informatics**, these tools do more than simply display numbers on a screen; they bridge the gap between raw biometric signals and actionable clinical decisions. Modern healthcare environments rely on continuous data streams to track patient stability, detect subtle decompensation before overt failure occurs, and document trends over extended periods. Bedside sensors convert physical phenomena—such as arterial pressure waves or light absorption through tissue—into digital metrics that integrate directly into the hospital's electronic health record. Understanding how these instruments function and communicate is essential for safe nursing practice, as clinical alarms and automated records depend entirely on the initial accuracy of sensor placement and device calibration."
+      "content": "Monitoring devices are specialized tools that automatically track a patient's physiological status in real time. Within **nursing informatics**, these tools bridge the gap between bedside patient care and digital health data. Devices gather vital signs, rhythm patterns, and biochemical markers, then transmit this information into electronic health records. This integration reduces manual documentation errors and allows nurses to spot sudden clinical changes early. Understanding how these machines capture and display data is foundational for safe, tech-enabled nursing practice."
     },
     {
       "heading_id": "GNS113_U4_T2_h2",
       "order": 2,
-      "title": "Pulse Oximetry and Oxygen Saturation Tracking",
-      "content": "Pulse oximetry provides a non-invasive method for monitoring a patient's functional oxygen saturation ($\text{SpO}_2$). Utilizing spectrophotometry, the probe shines two wavelengths of light (red and infrared) through a pulsatile vascular bed, typically a fingertip or earlobe. Oxygenated hemoglobin and deoxygenated hemoglobin absorb these light wavelengths differently, allowing the microprocessor to calculate the percentage of hemoglobin saturated with oxygen.\n\n- **Sensor Placement**: Must be secured properly; excessive motion, cold extremities, or poor peripheral perfusion cause erroneous readings.\n- **Signal Verification**: Always correlate digital values with the patient's physical appearance and respiratory effort.\n- **Limitations**: Carbon monoxide poisoning and severe anemia produce misleadingly normal or high saturation percentages."
+      "title": "Pulse Oximetry and Hemodynamic Tracking",
+      "content": "Pulse oximetry is a non-invasive method used to estimate the percentage of **oxygen saturation** in a patient's blood. A small probe shines light through a translucent part of the body, usually a fingertip or earlobe, measuring how much light hemoglobin absorbs. \n\n- **Normal Range**: Typically 95% to 100% on room air for healthy adults.\n- **Clinical Pitfall**: Cold extremities, nail polish, or poor peripheral circulation can cause false low readings.\n- **Action**: Always check the physical patient and verify the pulse waveform before panicking over a low screen number."
     },
     {
       "heading_id": "GNS113_U4_T2_h3",
       "order": 3,
-      "title": "Cardiac Monitors and Electrocardiography",
-      "content": "Continuous electrocardiographic (ECG) monitoring displays the electrical activity of the heart across multiple vectors, allowing clinicians to identify lethal arrhythmias, ischemic changes, and conduction blocks instantaneously. Standard bedside units use a three-lead or five-lead configuration to construct various views of cardiac depolarization and repolarization.\n\n| Lead Configuration | Primary Diagnostic Utility | Common Clinical Setting |\n| :--- | :--- | :--- |\n| 3-Lead | Basic rhythm strip and rate monitoring | General wards or transport |\n| 5-Lead | Enhanced rhythm and localized ischemia detection | Intensive care units |\n\nSkin preparation is vital prior to electrode application; oils, dead skin cells, and moisture create electrical impedance that introduces artifact and mimics life-threatening arrhythmias on the screen."
+      "title": "Cardiac Monitors and Bedside Telemetry",
+      "content": "Cardiac monitors provide continuous visual and audible tracking of a patient's heart rhythm and electrical activity. Nurses place electrode pads on specific spots across the patient's chest to capture a continuous waveform. \n\nBedside monitors stay fixed in high-acuity units like intensive care, while **telemetry** units transmit wireless signals to a central nursing station. Both systems allow staff to catch dangerous arrhythmias, such as ventricular tachycardia or asystole, the exact moment they happen. Alarm fatigue is a major hazard here; nurses must customize alarm limits safely to avoid desensitization to critical warning sounds."
     },
     {
       "heading_id": "GNS113_U4_T2_h4",
       "order": 4,
-      "title": "Telemetry and Ambulatory Patient Tracking",
-      "content": "Telemetry systems free cardiac patients from physical confinement while maintaining continuous observation of their heart rhythms via wireless radiofrequency transmitters. These portable units broadcast ECG signals to a central monitoring station, typically staffed by technicians or nurses who oversee multiple units simultaneously. When a telemetry patient ambulates outside their room, the nurse must ensure the transmission range is maintained and that the patient understands the boundaries of the monitored zone. Signal loss, battery depletion, and displaced electrodes are frequent operational hurdles that require immediate troubleshooting to prevent vulnerable patients from going unmonitored during a lethal rhythm change."
+      "title": "Data Integration and Clinical Decision Support",
+      "content": "Modern monitoring equipment does much more than just beep and display numbers. Through advanced software, devices feed real-time streams into **clinical decision support (CDS)** systems. These smart algorithms look at trends over time, such as a slow drop in blood pressure paired with a rising heart rate, and alert the care team before a full crisis occurs. Nurses use these automated prompts to verify patient stability, request lab tests, or adjust care plans promptly."
     },
     {
       "heading_id": "GNS113_U4_T2_h5",
       "order": 5,
-      "title": "Data Integration and Clinical Decision Support",
-      "content": "Raw biometric data becomes truly powerful when integrated into centralized clinical decision support (CDS) software. Instead of requiring nursing staff to manually calculate scores or synthesize disparate vital signs, modern informatics platforms aggregate inputs from pulse oximeters, cardiac monitors, and electronic flowsheets. Algorithms analyze these streams to generate automated early warning scores, flagging trends that indicate impending sepsis, respiratory failure, or hemodynamic collapse. However, alarm fatigue remains a pervasive danger; when systems generate excessive low-priority warnings, staff may become desensitized. Effective nursing management requires customizing alarm parameters to match individual patient baselines while maintaining constant vigilance over high-acuity triggers."
-    },
-    {
-      "heading_id": "GNS113_U4_T2_h6",
-      "order": 6,
       "title": "Ethical Considerations and Patient Privacy",
-      "content": "The proliferation of digital monitoring devices and wireless health networks introduces complex ethical challenges surrounding patient autonomy, consent, and data security. Continuous tracking systems, while clinically protective, constantly record intimate physiological details that must be protected from unauthorized access or cyber threats. Furthermore, video and telemetry monitoring can infringe upon a patient's sense of personal dignity if not managed transparently. Nurses bear a professional responsibility to educate patients on why devices are used, secure wireless data transmission against breaches, and advocate for strict adherence to privacy regulations governing electronic health information."
+      "content": "Using connected monitoring devices and cameras brings up serious legal and ethical questions. Patient data flowing through wireless networks must be protected from cyber threats to comply with privacy laws like HIPAA. Furthermore, continuous video or audio surveillance in patient rooms can make individuals feel vulnerable or stripped of their dignity. Nurses must balance the clinical need for strict safety monitoring with the fundamental human right to privacy and informed consent."
     }
   ]
 }

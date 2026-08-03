@@ -5,15 +5,15 @@
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
     "difficulty": "recall",
-    "question": "What term defines raw, uninterpreted clinical facts without immediate context?",
+    "question": "What is raw, unorganized clinical measurements like a single heart rate reading considered?",
     "options": {
-      "A": "Wisdom",
+      "A": "Information",
       "B": "Knowledge",
-      "C": "Information",
+      "C": "Wisdom",
       "D": "Data"
     },
     "answer": "D",
-    "explanation": "Data serves as the foundational level of the DIKW hierarchy, consisting of isolated, raw facts before they are organized or given clinical meaning. [learn more](GNS113_U2_T7#GNS113_U2_T7_h1)"
+    "explanation": "Raw facts and numbers without context are classified as data before they are analyzed or interpreted. [learn more](GNS113_U2_T7#GNS113_U2_T7_h1)"
   },
   {
     "question_id": "GNS113_U2_T7_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
     "difficulty": "understanding",
-    "question": "How does raw clinical data transform into useful healthcare information?",
+    "question": "What turns raw clinical numbers into useful clinical information?",
     "options": {
-      "A": "By organizing, structuring, and interpreting the raw facts",
-      "B": "By storing the numbers indefinitely in a physical filing cabinet",
-      "C": "By applying external philosophical frameworks to bedside care",
-      "D": "By discarding abnormal physiological measurements automatically"
+      "A": "Information is always stored exclusively on paper charts",
+      "B": "Information requires no documentation in the medical record",
+      "C": "Information places raw facts into a meaningful context",
+      "D": "Information is gathered only by physicians during rounds"
     },
-    "answer": "A",
-    "explanation": "Data becomes information only when it is contextualized, structured, and interpreted to reveal clinical patterns. [learn more](GNS113_U2_T7#GNS113_U2_T7_h1)"
+    "answer": "C",
+    "explanation": "Data becomes information when we organize and interpret it so it actually helps us understand the patient's condition!"
   },
   {
     "question_id": "GNS113_U2_T7_h2_q1",
@@ -37,15 +37,15 @@
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
     "difficulty": "recall",
-    "question": "Which data quality dimension ensures that all required fields in a nursing care plan are fully documented?",
+    "question": "Which data quality rule means we should document care right after giving it?",
     "options": {
-      "A": "Accuracy",
-      "B": "Completeness",
+      "A": "Completeness",
+      "B": "Consistency",
       "C": "Timeliness",
-      "D": "Consistency"
+      "D": "Accessibility"
     },
-    "answer": "B",
-    "explanation": "Completeness ensures that no essential data elements or required documentation fields are left blank. [learn more](GNS113_U2_T7#GNS113_U2_T7_h2)"
+    "answer": "C",
+    "explanation": "Timeliness means writing things down promptly so the chart always reflects what is happening with the patient right now."
   },
   {
     "question_id": "GNS113_U2_T7_h2_q2",
@@ -53,47 +53,47 @@
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
     "difficulty": "understanding",
-    "question": "A nurse notices that a patient's blood pressure recorded in the triage log differs significantly from the reading taken ten minutes later in the ward, with neither value being anomalous. Which data quality dimension is primarily compromised?",
+    "question": "Why do different hospital units need to use consistent terms in patient charts?",
     "options": {
-      "A": "Consistency",
-      "B": "Completeness",
-      "C": "Validity",
-      "D": "Timeliness"
+      "A": "It guarantees that patients will never experience any adverse drug events",
+      "B": "It eliminates the need for nurses to write narrative notes",
+      "C": "It ensures clinical terms and data mean the same thing everywhere",
+      "D": "It reduces the financial cost of purchasing electronic health record software"
     },
-    "answer": "A",
-    "explanation": "Consistency refers to the absence of contradiction when the same data point or related metrics are compared across different systems or care points. [learn more](GNS113_U2_T7#GNS113_U2_T7_h2)"
+    "answer": "C",
+    "explanation": "Consistency means any nurse or doctor reading the notes will understand the findings in the exact same way."
   },
   {
     "question_id": "GNS113_U2_T7_h3_q1",
     "heading_id": "GNS113_U2_T7_h3",
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
-    "difficulty": "understanding",
-    "question": "What is the most immediate clinical danger of a misplaced decimal point in a patient's medication dosage entry?",
+    "difficulty": "recall",
+    "question": "What kind of mistake happens when a busy nurse accidentally documents care in someone else's chart?",
     "options": {
-      "A": "Violation of national health information privacy laws",
-      "B": "Automatic shutdown of the electronic health record",
-      "C": "Immediate corruption of the hospital billing database",
-      "D": "Severe medication overdose or underdose"
+      "A": "Data omission",
+      "B": "Transcription error",
+      "C": "Duplicate entry",
+      "D": "Wrong-patient charting"
     },
     "answer": "D",
-    "explanation": "A shifted decimal point drastically alters the numerical value, frequently leading to dangerous pharmacological errors at the bedside. [learn more](GNS113_U2_T7#GNS113_U2_T7_h3)"
+    "explanation": "Entering notes into the wrong file is a risky mix-up that usually happens when things get too rushed on the ward."
   },
   {
     "question_id": "GNS113_U2_T7_h3_q2",
     "heading_id": "GNS113_U2_T7_h3",
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
-    "difficulty": "recall",
-    "question": "Which factor commonly contributes to manual data entry errors in high-pressure clinical settings?",
+    "difficulty": "application",
+    "question": "If a nurse forgets to chart hourly urine output for a surgical patient, what is the biggest danger?",
     "options": {
-      "A": "Strict adherence to dual-signature policies",
-      "B": "High patient-to-nurse ratios and fatigue",
-      "C": "Excessive availability of electronic equipment",
-      "D": "Overly standardized nursing terminology frameworks"
+      "A": "Immediate cancellation of the patient's insurance coverage",
+      "B": "Immediate notification sent to the hospital legal department",
+      "C": "Automatic deletion of previous vital sign records",
+      "D": "Delayed recognition of declining kidney function"
     },
-    "answer": "B",
-    "explanation": "Fatigue and heavy workloads reduce cognitive vigilance, increasing the likelihood of transcription and documentation mistakes. [learn more](GNS113_U2_T7#GNS113_U2_T7_h3)"
+    "answer": "D",
+    "explanation": "Leaving out vital checks hides important trends, making it harder to spot early warning signs like organ failure."
   },
   {
     "question_id": "GNS113_U2_T7_h4_q1",
@@ -101,31 +101,31 @@
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
     "difficulty": "recall",
-    "question": "What is the purpose of implementing range checks in a clinical documentation system?",
+    "question": "What is the main job of a 'hard stop' in a computer health system?",
     "options": {
-      "A": "To verify the legal identity of the attending physician",
-      "B": "To calculate the total cost of hospital stay automatically",
-      "C": "To restrict unauthorized physical access to the nursing station",
-      "D": "To flag values falling outside physiologically possible biological parameters"
+      "A": "To prevent entry of illogical data or dangerous orders",
+      "B": "To automatically log out nurses who take a meal break",
+      "C": "To block patients from viewing their own lab results",
+      "D": "To delete duplicate patient charts at the end of the day"
     },
-    "answer": "D",
-    "explanation": "Range checks act as an automated barrier against impossible entries, such as a heart rate of 999 beats per minute. [learn more](GNS113_U2_T7#GNS113_U2_T7_h4)"
+    "answer": "A",
+    "explanation": "A hard stop forces you to fix unusual values or double-check safety alerts before you can move forward."
   },
   {
     "question_id": "GNS113_U2_T7_h4_q2",
     "heading_id": "GNS113_U2_T7_h4",
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
-    "difficulty": "application",
-    "question": "A nurse is preparing to administer a high-risk intravenous medication to a neonate. Which validation strategy is most appropriate to prevent a dosing calculation error?",
+    "difficulty": "understanding",
+    "question": "Why do nurses always do a double-check before giving high-risk medications?",
     "options": {
-      "A": "Submitting the chart without checking physiological parameter ranges",
-      "B": "Waiting until the end of the shift to record the administration",
-      "C": "Performing an independent double-check with a colleague",
-      "D": "Relying solely on memory to verify the patient's exact weight"
+      "A": "To eliminate the need for patient wristband scanning",
+      "B": "To catch calculation or transcription errors before administration",
+      "C": "To reduce the time spent documenting on the computer",
+      "D": "To comply with insurance billing requirements for intensive care"
     },
-    "answer": "C",
-    "explanation": "Independent double-checks involving two separate clinicians provide a vital safety barrier for high-risk drug calculations. [learn more](GNS113_U2_T7#GNS113_U2_T7_h4)"
+    "answer": "B",
+    "explanation": "Having a second pair of eyes helps catch little math or dosage mistakes that anyone could miss when tired."
   },
   {
     "question_id": "GNS113_U2_T7_h5_q1",
@@ -133,15 +133,15 @@
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
     "difficulty": "recall",
-    "question": "Which standardized framework is primarily used to classify diseases and causes of mortality globally?",
+    "question": "What report should a nurse fill out right away after a medication near-miss or error?",
     "options": {
-      "A": "National Health Insurance Scheme Guidelines",
-      "B": "Hospital Accreditation Quality Matrix",
-      "C": "NANDA International Nursing Diagnoses",
-      "D": "International Classification of Diseases (ICD)"
+      "A": "Discharge summary report",
+      "B": "Financial audit report",
+      "C": "Public health census report",
+      "D": "Incident report"
     },
     "answer": "D",
-    "explanation": "The ICD system provides the universal standard diagnostic tool for epidemiology, health management, and clinical purposes worldwide. [learn more](GNS113_U2_T7#GNS113_U2_T7_h5)"
+    "explanation": "Incident reports let the hospital look at safety issues objectively so they can prevent the same thing from happening again."
   },
   {
     "question_id": "GNS113_U2_T7_h5_q2",
@@ -149,15 +149,15 @@
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
     "difficulty": "understanding",
-    "question": "Why is the use of standardized nursing terminologies essential for healthcare reporting?",
+    "question": "How do daily nursing assessments help hospitals track their overall quality of care?",
     "options": {
-      "A": "It restricts patient access to their own personal health information",
-      "B": "It eliminates the need for any physical patient assessment at the bedside",
-      "C": "It ensures uniform documentation and clear communication of patient care outcomes across systems",
-      "D": "It primarily serves to calculate monthly hospital staff salary structures"
+      "A": "They replace the need for governmental public health surveillance",
+      "B": "They determine the exact monthly salary of hospital administrators",
+      "C": "They calculate the hospital's annual marketing budget",
+      "D": "They provide the baseline data needed to track pressure injuries and falls"
     },
-    "answer": "C",
-    "explanation": "Standardized nursing languages allow patient problems, interventions, and results to be understood universally by any healthcare provider. [learn more](GNS113_U2_T7#GNS113_U2_T7_h5)"
+    "answer": "D",
+    "explanation": "Hospital quality scores depend heavily on honest, regular nursing notes about things like skin integrity and patient mobility."
   },
   {
     "question_id": "GNS113_U2_T7_h6_q1",
@@ -165,15 +165,15 @@
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
     "difficulty": "recall",
-    "question": "What core ethical principle supports a patient's right to control who views their personal health information?",
+    "question": "Which of these is a big legal no-no when writing nursing notes?",
     "options": {
-      "A": "Beneficence",
-      "B": "Maleficence",
-      "C": "Veracity",
-      "D": "Autonomy"
+      "A": "Using approved hospital acronyms and terminology",
+      "B": "Including judgmental personal opinions about the patient",
+      "C": "Recording objective physical assessment findings",
+      "D": "Documenting factual vital signs immediately after taking them"
     },
-    "answer": "D",
-    "explanation": "Autonomy refers to the right of individuals to make decisions about their own lives and personal information, including medical data. [learn more](GNS113_U2_T7#GNS113_U2_T7_h6)"
+    "answer": "B",
+    "explanation": "Keep notes strictly professional and factual! Writing personal opinions in a chart can cause legal trouble and hurt your credibility."
   },
   {
     "question_id": "GNS113_U2_T7_h6_q2",
@@ -181,15 +181,15 @@
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
     "difficulty": "understanding",
-    "question": "Which of the following actions represents an ethical violation in nursing data management?",
+    "question": "Why is changing or back-dating a patient's chart after a bad incident a serious offense?",
     "options": {
-      "A": "Discussing a patient's diagnosis in the hospital cafeteria with friends not involved in care",
-      "B": "Locking the computer terminal before stepping away from the nursing desk",
-      "C": "Reviewing a patient's lab results as part of assigned direct clinical care duties",
-      "D": "Reporting a notifiable infectious disease to public health authorities"
+      "A": "It violates public health disease reporting laws",
+      "B": "It automatically increases the patient's hospital billing charges",
+      "C": "It destroys the legal integrity and truthfulness of the clinical record",
+      "D": "It prevents the electronic health record from backing up data"
     },
-    "answer": "A",
-    "explanation": "Sharing patient details in public areas breaches confidentiality and violates professional ethical standards. [learn more](GNS113_U2_T7#GNS113_U2_T7_h6)"
+    "answer": "C",
+    "explanation": "The medical record must always show the true, honest timeline of care. Altering it later destroys trust and patient safety."
   },
   {
     "question_id": "GNS113_U2_T7_h7_q1",
@@ -197,15 +197,15 @@
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
     "difficulty": "recall",
-    "question": "What security mechanism ensures that clinical staff members only access patient records relevant to their specific job duties?",
+    "question": "Which of these is an example of a technical safeguard for computer records?",
     "options": {
-      "A": "Universal open-station login",
-      "B": "Role-based access control",
-      "C": "Public internet broadcasting",
-      "D": "Manual paper archiving"
+      "A": "Placing computer monitors away from public waiting areas",
+      "B": "Shredding paper shift handovers at the end of the shift",
+      "C": "Unique staff login credentials and automatic session timeouts",
+      "D": "Conducting annual privacy training sessions for all staff"
     },
-    "answer": "B",
-    "explanation": "Role-based access limits system permissions based on a user's specific professional role within the healthcare facility. [learn more](GNS113_U2_T7#GNS113_U2_T7_h7)"
+    "answer": "C",
+    "explanation": "Technical safeguards use software tools like passwords and auto-logouts to keep electronic patient records safe from snooping."
   },
   {
     "question_id": "GNS113_U2_T7_h7_q2",
@@ -213,15 +213,15 @@
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
     "difficulty": "understanding",
-    "question": "What is NOT a permitted practice regarding secure password management in clinical settings?",
+    "question": "Which of these actions breaks patient confidentiality?",
     "options": {
-      "A": "Sharing your active login password with a colleague who needs quick system access",
-      "B": "Logging out of the electronic health record terminal before leaving the desk",
-      "C": "Changing your system access password periodically according to hospital policy",
-      "D": "Keeping your personal login credentials strictly confidential"
+      "A": "Discussing a patient's diagnosis in a hospital cafeteria where visitors are present",
+      "B": "Reviewing lab results for an assigned patient with the attending physician",
+      "C": "Logging out of the workstation computer before leaving the nurses' station",
+      "D": "Accessing the electronic chart of a patient under your direct care"
     },
     "answer": "A",
-    "explanation": "Sharing passwords compromises audit trails and violates core data security protocols, as accountability for any record changes is lost. [learn more](GNS113_U2_T7#GNS113_U2_T7_h7)"
+    "explanation": "Never talk about patient details in public spots where visitors or strangers might overhear you!"
   },
   {
     "question_id": "GNS113_U2_T7_h8_q1",
@@ -229,30 +229,30 @@
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
     "difficulty": "recall",
-    "question": "Which cyber threat involves malicious software encrypting hospital data and demanding payment to restore system access?",
+    "question": "What is the term for fake emails that try to trick hospital staff into giving up their passwords?",
     "options": {
-      "A": "Ransomware",
-      "B": "Phishing",
-      "C": "Firewall",
-      "D": "Encryption"
+      "A": "Tailgating",
+      "B": "Transcription",
+      "C": "Validation",
+      "D": "Phishing"
     },
-    "answer": "A",
-    "explanation": "Ransomware locks or encrypts organizational data systems until a ransom is paid, crippling hospital operations. [learn more](GNS113_U2_T7#GNS113_U2_T7_h8)"
+    "answer": "D",
+    "explanation": "Phishing is a common online scam where hackers send tricky emails to steal your login details."
   },
   {
     "question_id": "GNS113_U2_T7_h8_q2",
     "heading_id": "GNS113_U2_T7_h8",
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
-    "difficulty": "understanding",
-    "question": "Why is cybersecurity considered a direct patient safety issue for clinical nurses?",
+    "difficulty": "application",
+    "question": "A colleague asks to quickly log in under your computer account because they forgot their password. What should you do?",
     "options": {
-      "A": "System lockouts or data breaches can delay critical treatments and compromise patient records",
-      "B": "IT security policies prevent nurses from speaking directly with patients",
-      "C": "Cyber attacks increase the financial cost of hospital meals for admitted patients",
-      "D": "Computers consume physical space at the nursing station and cause ergonomic strain"
+      "A": "Complete the charting for them under your own name instead",
+      "B": "Refuse and ask them to log in using their own credentials",
+      "C": "Allow them to type quickly while you watch over their shoulder",
+      "D": "Write your password down on a sticky note for them to use later"
     },
-    "answer": "A",
-    "explanation": "When digital infrastructure fails due to cyber incidents, access to medication orders, lab results, and histories is lost, directly endangering patients. [learn more](GNS113_U2_T7#GNS113_U2_T7_h8)"
+    "answer": "B",
+    "explanation": "Always keep your login secure! Sharing it means you take the blame for whatever gets charted on that account."
   }
 ]
