@@ -11,49 +11,37 @@
       "heading_id": "GNS113_U1_T1_h1",
       "order": 1,
       "title": "Introduction to Nursing Informatics",
-      "content": "Modern healthcare relies heavily on digital systems, moving away from paper-based records to electronic health platforms. Nursing informatics serves as the bridge connecting clinical practice with advanced technology. By managing and processing vast amounts of patient data, this specialty ensures that clinicians have timely access to accurate information. In busy clinical environments across Nigeria, from tertiary teaching hospitals to primary health clinics, digital tools streamline workflows and reduce the cognitive burden on healthcare providers. Understanding these systems is no longer optional for contemporary nursing practice; it is a fundamental requirement for safe, efficient care delivery."
+      "content": "Nursing informatics is a specialized field that combines nursing science with computer science and information science. Its primary goal is to manage and communicate data, information, knowledge, and wisdom in nursing practice. By integrating these elements, nurses can make better clinical decisions, streamline documentation, and improve the overall delivery of care. Far from just learning how to use a computer, this discipline focuses on how technology supports the human side of nursing and patient advocacy."
     },
     {
       "heading_id": "GNS113_U1_T1_h2",
       "order": 2,
       "title": "Definition and Core Concepts",
-      "content": "At its core, nursing informatics is officially defined as a specialty that integrates nursing science, computer science, and information science to manage and communicate data, information, knowledge, and wisdom in nursing practice. These four pillars form a progressive hierarchy:\n\n- **Data**: Discrete, uninterpreted numbers or symbols without context, such as a random reading of 38.5.\n- **Information**: Data that has been interpreted, organized, or structured, such as recording that a specific patient's temperature is 38.5 degrees Celsius.\n- **Knowledge**: Synthesized information that is evaluated and understood, such as recognizing that a temperature of 38.5 indicates a fever requiring intervention.\n- **Wisdom**: The appropriate use of knowledge to manage and solve human problems, such as deciding the best cooling measures and comfort strategies for that specific feverish patient."
+      "content": "At the heart of nursing informatics lie four foundational concepts: data, information, knowledge, and wisdom.\n\n- **Data**: Raw, unorganized facts and figures without context, such as a patient's temperature reading of 39°C.\n- **Information**: Data that has been organized, structured, or processed to give it meaning, such as charting a series of temperature readings over time on a fever graph.\n- **Knowledge**: The synthesis and understanding of information, recognizing patterns and relationships, like knowing that a rising temperature paired with a high white blood cell count suggests an infection.\n- **Wisdom**: The appropriate and ethical application of knowledge to manage and solve complex clinical problems for individual patients.\n\nMoving upward through these four stages transforms simple digital inputs into safe, expert nursing action."
     },
     {
       "heading_id": "GNS113_U1_T1_h3",
       "order": 3,
       "title": "The Intersection of Nursing, Information, and Computer Sciences",
-      "content": "The strength of nursing informatics lies in its multidisciplinary foundation. Nursing science provides the theoretical framework, ethical principles, and humanistic focus centered on patient well-being. Information science contributes methodologies for collecting, aggregating, and retrieving data effectively. Computer science supplies the technical architecture, hardware capabilities, and software applications needed to process information at high speeds. When these three distinct domains overlap, they create a robust environment where clinical workflows are supported by reliable, secure, and user-friendly digital tools."
+      "content": "Nursing informatics does not exist in isolation. It relies heavily on three distinct pillars working together.\n\n1. **Nursing Science**: Provides the theories, frameworks, and values that guide patient care, clinical judgment, and professional ethics.\n2. **Information Science**: Focuses on how information is gathered, structured, analyzed, and manipulated to make it useful for decision-making.\n3. **Computer Science**: Offers the hardware, software, algorithms, and network infrastructure required to store and transfer electronic health records securely.\n\nWhen these three fields intersect, nurses gain digital tools that reduce human error and speed up access to vital patient history."
     },
     {
       "heading_id": "GNS113_U1_T1_h4",
       "order": 4,
-      "title": "Evolution and History of Nursing Informatics",
-      "content": "Nursing informatics did not emerge overnight; it evolved alongside advancements in computer technology and healthcare delivery. In the early decades of computing, hospitals used large mainframe computers strictly for financial billing and administrative inventory. By the 1960s and 1970s, visionary nurse leaders recognized that these machines could track patient care plans and nursing workloads. The term 'nursing informatics' was officially coined in the 1980s as personal computers entered clinical settings. Over subsequent decades, the field progressed from simple automated charting systems to sophisticated electronic health records (EHRs) and mobile health applications used globally today."
+      "title": "Roles and Competencies of the Nursing Informaticist",
+      "content": "Nursing informaticists bridge the gap between clinical practice and information technology. Depending on their experience and training, they take on various responsibilities:\n\n- **System Specialist**: Troubleshoots software issues, customizes electronic health record templates, and assists staff during system upgrades.\n- **Educator**: Trains nurses and other healthcare team members on how to document accurately and use software efficiently.\n- **Project Manager**: Leads multidisciplinary teams to implement new health technologies across a hospital or clinic.\n- **Researcher**: Analyzes large datasets to find trends in patient care and evaluates the effectiveness of new health technologies.\n\nBasic computer literacy is expected of every bedside nurse, but specialist informaticists undergo advanced training to design and manage these complex clinical systems."
     },
     {
       "heading_id": "GNS113_U1_T1_h5",
       "order": 5,
-      "title": "Key Terminologies and Data Standards in Healthcare",
-      "content": "Interoperability is essential for safe patient care, requiring different software systems to communicate and share data seamlessly. To achieve this, healthcare institutions rely on standardized nursing terminologies and data languages. Standardized languages ensure that nursing diagnoses, interventions, and outcomes are documented uniformly across different facilities, preventing ambiguity during patient handovers.\n\n| Terminology Standard | Primary Focus Area |\n| :--- | :--- |\n| **NANDA-I** | Standardized nursing diagnoses |\n| **NIC** | Nursing interventions classification |\n| **NOC** | Nursing outcomes classification |\n| **SNOMED CT** | Comprehensive clinical healthcare terminology |"
+      "title": "Impact of Informatics on Patient Outcomes and Healthcare Quality",
+      "content": "The integration of informatics into everyday nursing directly enhances patient safety and quality of care. Electronic health records allow immediate access to medication histories, reducing dangerous drug allergies and dosage errors. Clinical decision support systems can automatically alert a nurse if a prescribed medicine interacts poorly with another drug or if a patient's vital signs start trending toward a critical state.\n\nFurthermore, standardized electronic charting ensures that handover communication between shifts is clear and complete. When patient data is accurate and easily shared across departments, the risk of medical error drops significantly, leading to faster recoveries and safer hospital environments."
     },
     {
       "heading_id": "GNS113_U1_T1_h6",
       "order": 6,
-      "title": "Roles and Competencies of the Nursing Informaticist",
-      "content": "Nursing informaticists operate at the intersection of clinical practice, system design, and project management. They do not merely troubleshoot software glitches; they analyze workflow patterns, train clinical staff, and evaluate whether digital tools meet the actual needs of bedside nurses. Competency in this specialty spans technical skills, analytical thinking, and effective leadership. In many Nigerian health institutions adopting electronic records, nurse informaticists act as vital change agents, bridging the gap between software developers and frontline clinical staff to ensure systems remain practical and patient-centered."
-    },
-    {
-      "heading_id": "GNS113_U1_T1_h7",
-      "order": 7,
-      "title": "Impact of Informatics on Patient Outcomes and Healthcare Quality",
-      "content": "The integration of informatics into everyday clinical practice directly enhances patient safety and healthcare quality. Electronic health records incorporate built-in clinical decision support systems, such as automated allergy alerts and drug dosage calculators, which prevent adverse medication events. Furthermore, electronic tracking dashboards reduce documentation errors and ensure continuity of care across shifts. When patient data is accurately captured and analyzed in real-time, healthcare teams can spot clinical deterioration earlier, leading to faster interventions and improved survival rates."
-    },
-    {
-      "heading_id": "GNS113_U1_T1_h8",
-      "order": 8,
-      "title": "Current Trends and Future Directions in Nigeria and Globally",
-      "content": "Healthcare technology continues to advance rapidly on a global scale, with emerging trends focusing on artificial intelligence, telehealth, and mobile health applications. In Nigeria, the adoption of digital health is expanding, driven by the need to improve data integrity in resource-limited settings. Mobile health (mHealth) solutions are increasingly utilized for community health outreach, tracking immunizations, and managing chronic diseases in remote rural areas. As infrastructure improves, nursing informatics will play an even greater role in shaping national health policies, strengthening disease surveillance, and empowering nurses to lead digital health transformations."
+      "title": "Current Trends and Challenges in Nursing Informatics",
+      "content": "Nursing informatics continues to grow rapidly, driven by mobile health applications, telehealth, and artificial intelligence. Nurses now use smartphones and bedside tablets to check lab results and chart in real time. Telehealth platforms allow nurses to monitor chronic patients remotely, expanding healthcare access to rural and underserved communities.\n\nHowever, adopting these technologies brings notable challenges. Poorly designed software can lead to user fatigue and distraction at the bedside. Data privacy and cybersecurity are constant concerns, as patient records must be protected from unauthorized access. Nurses must remain actively involved in the design of these systems to ensure technology serves to lighten their workload rather than complicate it."
     }
   ]
 }
