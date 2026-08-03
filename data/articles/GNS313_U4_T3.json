@@ -11,44 +11,38 @@
     {
       "heading_id": "GNS313_U4_T3_h1",
       "order": 1,
-      "title": "Introduction to Disease Surveillance in Public Health",
-      "content": "Disease surveillance is the continuous, systematic collection, analysis, and interpretation of health-related data essential to the planning, implementation, and evaluation of public health practice. Think of it as the early warning radar of the healthcare system. Without a steady stream of reliable health data, public health authorities operate in the dark, unable to distinguish between a routine seasonal uptick in illness and the quiet beginning of a major outbreak. In Nigeria, coordinated through agencies like the Nigeria Centre for Disease Control (NCDC), surveillance bridges the gap between grassroots clinical encounters and national policy decisions. It provides the empirical foundation needed to allocate scarce medical resources, target vaccination campaigns, and evaluate whether intervention strategies are actually working on the ground."
+      "title": "Introduction to Disease Surveillance",
+      "content": "Disease surveillance is the ongoing, systematic collection, analysis, and interpretation of health data essential to the planning, implementation, and evaluation of public health practice. Think of it as the early warning radar for a community's health. Without continuous watchfulness, outbreaks of infectious diseases or silent climbs in chronic conditions would catch healthcare systems completely unawares. Public health nurses rely on this data to move from merely treating sick individuals in a hospital ward to protecting whole populations from preventable harm."
     },
     {
       "heading_id": "GNS313_U4_T3_h2",
       "order": 2,
-      "title": "Objectives and Importance of Surveillance Systems",
-      "content": "A well-functioning surveillance system serves multiple distinct masters. Primarily, it detects epidemics and health emergencies early, allowing for rapid containment. Beyond crisis response, it estimates the magnitude of a health problem, tracks long-term disease trends, and identifies high-risk populations or geographic pockets requiring targeted intervention. In resource-constrained settings, surveillance data justifies funding requests to international donors and local governments. By tracking the impact of implemented control measures, the system tells health workers whether an ongoing vaccination drive or environmental sanitation campaign is successfully driving down disease incidence."
+      "title": "Types of Disease Surveillance Systems",
+      "content": "Public health agencies use different approaches to gather health information depending on resources and goals.\n\n- **Passive Surveillance**: Healthcare providers and laboratories send reports to health departments based on routine practice. It is inexpensive and covers large areas, but it suffers from underreporting.\n- **Active Surveillance**: Public health staff actively visit clinics, hospitals, and community centers to actively search for disease cases. It yields more complete data during outbreaks but requires significant time and personnel.\n- **Sentinel Surveillance**: Health data is gathered from a carefully selected network of busy clinics or hospitals to spot trends early without tracking every single case nationwide.\n- **Syndromic Surveillance**: Tracks early signs, symptoms, or purchases (like over-the-counter flu medicine or school absenteeism) before a formal laboratory diagnosis is even made."
     },
     {
       "heading_id": "GNS313_U4_T3_h3",
       "order": 3,
-      "title": "Types of Disease Surveillance",
-      "content": "- **Passive Surveillance**: Healthcare providers routinely report cases down the administrative chain without prompting. It is inexpensive and covers large areas, but suffers from underreporting due to heavy workloads.\n- **Active Surveillance**: Public health staff actively visit health facilities, review registers, and interview clinicians to actively search for cases. It yields more complete data during outbreaks but requires significant manpower and resources.\n- **Sentinel Surveillance**: Data is collected from a carefully selected network of reporting sites, such as specific teaching hospitals, rather than every clinic. This provides an early warning signal for broader trends at a lower cost.\n- **Syndromic Surveillance**: Tracks clinical syndromes, such as acute watery diarrhea or fever with rash, rather than confirmed laboratory diagnoses, enabling rapid detection of anomalies before laboratory results are finalized."
+      "title": "Core Steps in the Surveillance Process",
+      "content": "1. **Data Collection**: Gathering raw health numbers, clinical notes, and laboratory results from various healthcare delivery points.\n2. **Data Analysis**: Organizing the collected information by time, place, and person to spot unusual clusters or rising rates.\n3. **Interpretation**: Determining what the patterns actually mean in the local context, such as identifying a true cholera outbreak from a seasonal diarrhea spike.\n4. **Dissemination**: Sharing the analyzed findings and safety warnings with healthcare workers, policymakers, and the public.\n5. **Action**: Implementing control measures like vaccination drives, water source treatment, or public health education based on the gathered intelligence."
     },
     {
       "heading_id": "GNS313_U4_T3_h4",
       "order": 4,
-      "title": "Core Steps in the Surveillance Process",
-      "content": "The surveillance cycle operates as a continuous loop. Data collection is the starting point, occurring at clinics, laboratories, and community posts. Once gathered, this information is transmitted upward through the health system hierarchy. Data analysis follows, transforming raw numbers into meaningful rates, graphs, and maps that highlight trends over time and place. Interpretation contextualizes these findings against historical baselines. Finally, dissemination ensures that the analyzed information reaches decision-makers, clinicians, and the community. If any link in this chain breaks—such as data getting stuck at the local government level—the entire public health response stalls."
+      "title": "Data Sources and Collection Methods",
+      "content": "Accurate surveillance depends on reliable data sources. Traditional sources include vital statistics like birth and death registries, hospital admission logs, and mandatory disease notification forms filled out by clinicians. In modern public health practice, laboratory records provide the definitive biological confirmation needed for outbreaks. Community informants, traditional birth attendants, and school health records also supply grassroots information, especially in rural settings where formal health facilities are far away. Ensuring that these varied sources feed smoothly into a central registry remains a major challenge for developing health systems."
     },
     {
       "heading_id": "GNS313_U4_T3_h5",
       "order": 5,
       "title": "Case Definitions and Reporting Mechanisms",
-      "content": "To ensure data consistency across different clinics and states, health authorities establish standardized case definitions. A case definition typically includes clinical criteria (signs and symptoms), time, place, and person characteristics, categorizing cases as suspected, probable, or confirmed. Without these clear boundaries, one clinician might report every fever as malaria while another waits for a positive blood smear. Reporting mechanisms dictate the pathway and speed of notification. While routine monthly data moves up slowly, immediately notifiable conditions—such as suspected cholera, measles, or yellow fever—require instant telephone or electronic alerts to district and national levels to trigger emergency responses."
+      "content": "To count and track diseases correctly, health workers must use a standard **case definition**. A case definition includes specific criteria for person, place, time, and clinical symptoms—such as 'acute watery diarrhea in a patient over five years old during a cholera outbreak.' Standard definitions prevent different clinics from counting completely different things.\n\nOnce a suspected case meets the criteria, it must be reported through established mechanisms. Nationally notifiable diseases, like measles or yellow fever, require immediate reporting from local clinics up to district and national health ministries so rapid response teams can mobilize without delay."
     },
     {
       "heading_id": "GNS313_U4_T3_h6",
       "order": 6,
-      "title": "Analysis, Interpretation, and Dissemination of Surveillance Data",
-      "content": "Analyzing surveillance data involves breaking down information by time, place, and person. Epidemiologists construct epidemic curves to visualize outbreak trajectories, spot maps to identify spatial clustering, and demographic breakdowns to see who is most vulnerable. Interpretation turns these visual patterns into epidemiological stories: a sharp rise in rainy season diarrhea in a specific ward points directly to compromised local water sources. Dissemination translates these insights into actionable bulletins, feedback newsletters, and weekly epidemiological reports shared with local health committees, hospital staff, and ministry officials."
-    },
-    {
-      "heading_id": "GNS313_U4_T3_h7",
-      "order": 7,
-      "title": "The Role of the Nurse in Community-Level Surveillance",
-      "content": "Nurses are frequently the first line of defense in community and primary healthcare settings. As frontline clinical examiners, community health nurses notice unusual clusters of symptoms during daily consultations long before statistical reports are compiled. They maintain accurate clinic registers, fill out notification forms correctly, and educate community leaders on reporting unusual health events. Furthermore, nurse-led active case searches during immunization campaigns or outbreak responses ensure that hidden cases in remote hamlets are identified and referred, making the grassroots nurse an indispensable link in the national surveillance chain."
+      "title": "The Role of the Nurse in Community Surveillance",
+      "content": "Community health nurses sit at the frontline of disease surveillance. They are often the first healthcare professionals to notice unusual patterns of sickness during home visits, school check-ups, or clinic consultations. Nurses educate families on recognizing danger signs, collect diagnostic specimens safely, and fill out notification forms accurately. Furthermore, nurses bridge the gap between grassroots realities and government health offices, serving as trusted communicators who can dispel rumors and encourage community participation during disease outbreaks."
     }
   ]
 }
