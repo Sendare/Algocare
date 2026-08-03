@@ -5,15 +5,15 @@
     "article_id": "GNS112_U7_T5",
     "topic_id": "GNS112_U7_T5",
     "difficulty": "recall",
-    "question": "What core toxicological principle states that virtually any substance can become harmful if taken in a large enough quantity?",
+    "question": "What core toxicological principle states that virtually any substance can act as a poison if the quantity is large enough?",
     "options": {
-      "A": "The first-pass elimination law",
-      "B": "The systemic clearance threshold",
-      "C": "The dose makes the poison principle",
-      "D": "The bioaccumulation constant"
+      "A": "All chemicals are inherently lethal",
+      "B": "The route determines toxicity",
+      "C": "Metabolism prevents all toxicity",
+      "D": "The dose makes the poison"
     },
-    "answer": "C",
-    "explanation": "Toxicology relies on the foundational concept that toxicity is directly related to the concentration and amount of a substance entering the body. [learn more](GNS112_U7_T5#GNS112_U7_T5_h1)"
+    "answer": "D",
+    "explanation": "Toxicology teaches that safety and toxicity depend on the amount of exposure, meaning harmless substances can become dangerous in excessive quantities. [learn more](GNS112_U7_T5#GNS112_U7_T5_h1)"
   },
   {
     "question_id": "GNS112_U7_T5_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GNS112_U7_T5",
     "topic_id": "GNS112_U7_T5",
     "difficulty": "understanding",
-    "question": "How does toxicokinetics primarily guide the ongoing monitoring of a poisoned patient?",
+    "question": "What is the main difference between toxicokinetics and toxicodynamics?",
     "options": {
-      "A": "It determines whether the patient requires immediate surgical intervention",
-      "B": "It predicts the absorption, distribution, metabolism, and excretion timeline of the toxin",
-      "C": "It identifies the exact molecular weight and chemical formula of the offending agent",
-      "D": "It calculates the exact financial cost of required antidotes in the pharmacy"
+      "A": "Toxicokinetics tracks how the body handles a poison, while toxicodynamics tracks how the poison affects the body.",
+      "B": "Toxicokinetics focuses on antidotes, while toxicodynamics focuses solely on initial absorption.",
+      "C": "Toxicokinetics applies only to gases, while toxicodynamics applies only to swallowed liquids.",
+      "D": "Toxicokinetics measures cellular receptor binding, while toxicodynamics measures kidney excretion rates."
     },
-    "answer": "B",
-    "explanation": "Tracking how a substance moves through and leaves the body helps clinicians anticipate peak toxicity and when recovery might begin. [learn more](GNS112_U7_T5#GNS112_U7_T5_h1)"
+    "answer": "A",
+    "explanation": "Think of kinetics as what the body does to the poison (movement and ADME), and dynamics as what the poison does to the body (its impact on your tissues). You've got this!"
   },
   {
     "question_id": "GNS112_U7_T5_h2_q1",
@@ -37,15 +37,15 @@
     "article_id": "GNS112_U7_T5",
     "topic_id": "GNS112_U7_T5",
     "difficulty": "recall",
-    "question": "Which route of exposure typically allows inhaled toxic gases to enter the systemic circulation the fastest?",
+    "question": "Which route of exposure is responsible for the highest number of accidental poisonings in young children?",
     "options": {
-      "A": "Through direct deposition in the large intestine",
-      "B": "Via slow dissolution in the gastric acid of the stomach",
-      "C": "Through the thick keratinized layers of the epidermis",
-      "D": "Across the alveolar-capillary membrane in the lungs"
+      "A": "Absorption",
+      "B": "Inhalation",
+      "C": "Ingestion",
+      "D": "Injection"
     },
-    "answer": "D",
-    "explanation": "The massive surface area and rich blood supply of the lung alveoli permit rapid gas exchange and immediate entry into the bloodstream. [learn more](GNS112_U7_T5#GNS112_U7_T5_h2)"
+    "answer": "C",
+    "explanation": "Young children naturally explore their environment by placing objects and liquids into their mouths, making swallowing the leading exposure route. [learn more](GNS112_U7_T5#GNS112_U7_T5_h2)"
   },
   {
     "question_id": "GNS112_U7_T5_h2_q2",
@@ -53,15 +53,15 @@
     "article_id": "GNS112_U7_T5",
     "topic_id": "GNS112_U7_T5",
     "difficulty": "understanding",
-    "question": "Why does an injected toxin generally present with a more rapid onset of symptoms compared to an ingested toxin?",
+    "question": "Why do inhaled toxic gases enter the bloodstream so quickly?",
     "options": {
-      "A": "Injected venoms only affect peripheral nerves rather than internal organs",
-      "B": "Injected poisons are inherently more concentrated than swallowed substances",
-      "C": "Injection bypasses the digestive absorption barrier and enters the circulation directly",
-      "D": "The liver completely destroys all oral toxins before they reach the brain"
+      "A": "Inhaled toxins bypass the liver entirely and go straight to peripheral tissues.",
+      "B": "The alveolar-capillary membrane is extremely thin and has a massive surface area.",
+      "C": "Lungs actively pump foreign gases into red blood cells using ATP energy.",
+      "D": "Gases immediately convert into water-soluble ions inside the upper airway."
     },
-    "answer": "C",
-    "explanation": "Intravenous, intramuscular, or subcutaneous injection places the substance directly into tissue or vessels, achieving immediate bioavailability without requiring gastrointestinal absorption. [learn more](GNS112_U7_T5#GNS112_U7_T5_h2)"
+    "answer": "B",
+    "explanation": "The lungs are built for fast gas exchange! Their huge surface area and super-thin tissue barrier let gases diffuse right into the blood with almost no delay."
   },
   {
     "question_id": "GNS112_U7_T5_h3_q1",
@@ -69,63 +69,63 @@
     "article_id": "GNS112_U7_T5",
     "topic_id": "GNS112_U7_T5",
     "difficulty": "recall",
-    "question": "What is a major contributing factor to accidental childhood poisoning cases seen in domestic settings?",
+    "question": "What is a common cause of accidental poisoning among young children in many Nigerian households?",
     "options": {
-      "A": "Keeping household cleaning supplies locked in high cabinets",
-      "B": "Using child-resistant safety caps on all pharmaceutical containers",
-      "C": "Storing hazardous chemicals in reused beverage bottles",
-      "D": "Administering prescribed paediatric syrups with calibrated spoons"
+      "A": "Commercial industrial solvents kept in clinical labs",
+      "B": "Prescription antihypertensive tablets left on tables",
+      "C": "Imported cosmetics applied to the skin",
+      "D": "Kerosene stored in empty beverage bottles"
     },
-    "answer": "C",
-    "explanation": "Transferring toxic fluids like kerosene into soft drink bottles misleads children who associate the container with a safe drink. [learn more](GNS112_U7_T5#GNS112_U7_T5_h3)"
+    "answer": "D",
+    "explanation": "Storing hazardous fuel in familiar soft drink containers easily misleads thirsty children, leading to accidental ingestion and severe aspiration pneumonia. [learn more](GNS112_U7_T5#GNS112_U7_T5_h3)"
   },
   {
     "question_id": "GNS112_U7_T5_h3_q2",
     "heading_id": "GNS112_U7_T5_h3",
     "article_id": "GNS112_U7_T5",
     "topic_id": "GNS112_U7_T5",
-    "difficulty": "understanding",
-    "question": "A patient presents with acute organophosphate toxicity after exposure on a farm. What type of substance caused this poisoning?",
+    "difficulty": "application",
+    "question": "A farmer from a rural community is brought to the clinic after spraying crops without protective gear. He now has excessive saliva and muscle twitching. What is the most likely cause?",
     "options": {
-      "A": "A purified herbal vitamin supplement",
-      "B": "An agricultural pesticide",
-      "C": "A standard pediatric antibiotic",
-      "D": "A common household cooking oil"
+      "A": "Paracetamol overdose",
+      "B": "Caustic soda cleaning agent",
+      "C": "Organophosphate pesticides",
+      "D": "Zinc phosphide rodenticide"
     },
-    "answer": "B",
-    "explanation": "Organophosphates are potent chemical compounds widely used in farming as insecticides, carrying high risks of systemic poisoning through occupational or intentional exposure. [learn more](GNS112_U7_T5#GNS112_U7_T5_h3)"
+    "answer": "C",
+    "explanation": "Lots of drool, sweating, and twitching after working on a farm are classic clues for organophosphate poisoning. These chemicals block an enzyme called acetylcholinesterase, causing the nervous system to go into overdrive!"
   },
   {
     "question_id": "GNS112_U7_T5_h4_q1",
     "heading_id": "GNS112_U7_T5_h4",
     "article_id": "GNS112_U7_T5",
     "topic_id": "GNS112_U7_T5",
-    "difficulty": "recall",
-    "question": "Which set of findings characteristically defines the opioid toxidrome?",
+    "difficulty": "understanding",
+    "question": "Why might a pulse oximeter reading look completely normal in someone with carbon monoxide poisoning?",
     "options": {
-      "A": "Agitation, hyperthermia, and dilated pupils",
-      "B": "Extreme hypertension, tachycardia, and dry skin",
-      "C": "CNS depression, respiratory depression, and miosis",
-      "D": "Profuse salivation, lacrimation, and diarrhea"
+      "A": "Carbon monoxide stimulates the lungs to hyperventilate, boosting true oxygen.",
+      "B": "Pulse oximeters often mistake carboxyhemoglobin for oxygenated hemoglobin.",
+      "C": "Carbon monoxide physically increases the total amount of dissolved oxygen in plasma.",
+      "D": "The device only measures heart rate and fails to detect blood gas saturation."
     },
-    "answer": "C",
-    "explanation": "Opioid overdose depresses the central nervous system and respiratory drive while typically causing pinpoint pupils. [learn more](GNS112_U7_T5#GNS112_U7_T5_h4)"
+    "answer": "B",
+    "explanation": "Standard pulse oximgs can't tell the difference between oxygen and carbon monoxide attached to hemoglobin. It gives a falsely reassuring reading even when the patient is in danger—so always look at the clinical picture!"
   },
   {
     "question_id": "GNS112_U7_T5_h4_q2",
     "heading_id": "GNS112_U7_T5_h4",
     "article_id": "GNS112_U7_T5",
     "topic_id": "GNS112_U7_T5",
-    "difficulty": "understanding",
-    "question": "A patient presents with flushed skin, a very dry mouth, blurred vision, and confusion after ingesting an unknown plant. Which toxidrome is most likely present?",
+    "difficulty": "recall",
+    "question": "How does cyanide primarily cause damage inside human cells?",
     "options": {
-      "A": "Anticholinergic",
-      "B": "Sympathomimetic",
-      "C": "Cholinergic",
-      "D": "Sedative-hypnotic"
+      "A": "It binds permanently to calcium channels in cardiac muscle tissue.",
+      "B": "It directly dissolves the lipid bilayer of red blood cells.",
+      "C": "It triggers widespread liquefactive necrosis in the esophagus.",
+      "D": "It inhibits mitochondrial cytochrome c oxidase, halting cellular respiration."
     },
-    "answer": "A",
-    "explanation": "The classic presentation of dry skin, delirium, blurred vision, and flushed skin corresponds to anticholinergic toxicity (summarized as 'dry as a bone, mad as a hatter, red as a beet'). [learn more](GNS112_U7_T5#GNS112_U7_T5_h4)"
+    "answer": "D",
+    "explanation": "Cyanide attacks the powerhouses of our cells (the mitochondria). By blocking cytochrome c oxidase, cells can no longer use oxygen to make energy, leading to rapid collapse."
   },
   {
     "question_id": "GNS112_U7_T5_h5_q1",
@@ -133,15 +133,15 @@
     "article_id": "GNS112_U7_T5",
     "topic_id": "GNS112_U7_T5",
     "difficulty": "recall",
-    "question": "What is the primary objective of performing surface or dermal decontamination in a chemical exposure?",
+    "question": "Which clinical findings form the classic triad of an opioid overdose?",
     "options": {
-      "A": "To minimize further absorption of the toxin through the skin",
-      "B": "To cool the skin surface and prevent permanent skin pigmentation",
-      "C": "To immediately neutralize the chemical pH using strong acids",
-      "D": "To stimulate local blood flow and flush the toxin into muscles"
+      "A": "CNS depression, pinpoint pupils, and respiratory depression",
+      "B": "Dry skin, confusion, and elevated heart rate",
+      "C": "Hypertension, hyperthermia, and dilated pupils",
+      "D": "Diarrhea, excessive sweating, and muscle twitching"
     },
     "answer": "A",
-    "explanation": "Washing the skin removes remaining chemical residue and stops ongoing percutaneous absorption into the bloodstream. [learn more](GNS112_U7_T5#GNS112_U7_T5_h5)"
+    "explanation": "Opioids depress the central nervous system and respiratory centers while typically causing miosis (pinpoint pupils). [learn more](GNS112_U7_T5#GNS112_U7_T5_h5)"
   },
   {
     "question_id": "GNS112_U7_T5_h5_q2",
@@ -149,15 +149,15 @@
     "article_id": "GNS112_U7_T5",
     "topic_id": "GNS112_U7_T5",
     "difficulty": "understanding",
-    "question": "Why has routine gastric lavage become much less common in modern emergency toxicology?",
+    "question": "A patient presents with dry skin, flushed face, large pupils, and a racing heart after taking an unknown drug. Which toxidrome is this?",
     "options": {
-      "A": "Gastric lavage only works if performed within thirty seconds of ingestion",
-      "B": "Activated charcoal completely replaces the need for any internal assessment",
-      "C": "Chemical toxins are entirely absorbed before reaching the stomach",
-      "D": "The procedure carries significant risks like aspiration and mechanical injury"
+      "A": "Sympathomimetic",
+      "B": "Cholinergic",
+      "C": "Opioid",
+      "D": "Anticholinergic"
     },
     "answer": "D",
-    "explanation": "Passing large tubes into the stomach of an obtunded or unstable patient frequently leads to dangerous complications such as pulmonary aspiration or perforation. [learn more](GNS112_U7_T5#GNS112_U7_T5_h5)"
+    "explanation": "Remember the fun medical rhyme for anticholinergic toxicity: 'blind as a bat, mad as a hatter, red as a beet, hot as a hare, dry as a bone!'"
   },
   {
     "question_id": "GNS112_U7_T5_h6_q1",
@@ -165,15 +165,15 @@
     "article_id": "GNS112_U7_T5",
     "topic_id": "GNS112_U7_T5",
     "difficulty": "recall",
-    "question": "What is the primary mechanism of action of naloxone when administered for an overdose?",
+    "question": "What is the absolute first priority when managing any acute poisoning patient in the emergency unit?",
     "options": {
-      "A": "It competitively blocks opioid receptors to reverse respiratory depression",
-      "B": "It stimulates pancreatic enzyme production to clear toxins",
-      "C": "It coats the inner lining of the bladder to speed up excretion",
-      "D": "It binds directly to circulating stomach acid to neutralize pills"
+      "A": "Securing the airway and ensuring adequate breathing",
+      "B": "Collecting urine samples for toxicological screening",
+      "C": "Inducing immediate vomiting to empty the stomach",
+      "D": "Administering activated charcoal via nasogastric tube"
     },
     "answer": "A",
-    "explanation": "Naloxone has a high affinity for opioid receptors, displacing agonist drugs and rapidly reversing central nervous and respiratory depression. [learn more](GNS112_U7_T5#GNS112_U7_T5_h6)"
+    "explanation": "Always fall back on your ABCDEs! Life support and stabilization always come way before diagnostic tests or trying to remove the poison."
   },
   {
     "question_id": "GNS112_U7_T5_h6_q2",
@@ -181,15 +181,15 @@
     "article_id": "GNS112_U7_T5",
     "topic_id": "GNS112_U7_T5",
     "difficulty": "understanding",
-    "question": "Why is comprehensive supportive care considered more critical in clinical toxicology than relying solely on specific antidotes?",
+    "question": "Why is washing out the stomach (gastric lavage) rarely recommended nowadays for routine poisoning cases?",
     "options": {
-      "A": "Supportive interventions are always cheaper than specialized medications",
-      "B": "Toxins never disrupt vital signs once the patient reaches the hospital",
-      "C": "Specific antidotes exist for only a small percentage of all known toxins",
-      "D": "Antidotes cause immediate permanent organ failure in every patient"
+      "A": "Lavage only works if the patient drank pure alcohol or petroleum products.",
+      "B": "Activated charcoal completely replaces the need for any physical stomach cleaning.",
+      "C": "The procedure carries significant risks of aspiration and mechanical injury to the esophagus.",
+      "D": "Stomach contents empty into the small intestine within seconds of swallowing."
     },
     "answer": "C",
-    "explanation": "Because targeted antidotes are rare for the vast majority of chemical agents, preserving airway, breathing, and circulation is vital for survival. [learn more](GNS112_U7_T5#GNS112_U7_T5_h6)"
+    "explanation": "Passing a thick tube down into the stomach can easily cause bleeding, injury, or worse—pushing the poison into the lungs. That's why we rely on safer methods now!"
   },
   {
     "question_id": "GNS112_U7_T5_h7_q1",
@@ -197,15 +197,15 @@
     "article_id": "GNS112_U7_T5",
     "topic_id": "GNS112_U7_T5",
     "difficulty": "recall",
-    "question": "What is an essential nursing responsibility when caring for a patient admitted after an intentional self-harm poisoning?",
+    "question": "Which drug is given as the specific antidote for a severe paracetamol (acetaminophen) overdose?",
     "options": {
-      "A": "Maintaining constant observation and ensuring environmental safety",
-      "B": "Restricting all family visits during the entire hospital stay",
-      "C": "Withholding all documentation regarding the psychiatric history",
-      "D": "Discharging the patient immediately after vital signs stabilize"
+      "A": "Acetylcysteine",
+      "B": "Naloxone",
+      "C": "Flumazenil",
+      "D": "Atropine"
     },
     "answer": "A",
-    "explanation": "Patients admitted for intentional overdose remain at high risk of recurrent self-harm and require rigorous supervision and safe surroundings. [learn more](GNS112_U7_T5#GNS112_U7_T5_h7)"
+    "explanation": "Acetylcysteine works like a rescue hero! It acts as a glutathione precursor, soaking up and detoxifying the harmful paracetamol breakdown product before it can ruin the liver."
   },
   {
     "question_id": "GNS112_U7_T5_h7_q2",
@@ -213,46 +213,78 @@
     "article_id": "GNS112_U7_T5",
     "topic_id": "GNS112_U7_T5",
     "difficulty": "understanding",
-    "question": "Which physiological parameter requires the most vigilant, continuous monitoring in a patient who has ingested a CNS depressant?",
+    "question": "How does naloxone successfully reverse an opioid overdose?",
     "options": {
-      "A": "Peripheral skin temperature",
-      "B": "Bowel sound frequency",
-      "C": "Respiratory rate and depth",
-      "D": "Serum cholesterol levels"
+      "A": "It binds competitively to opioid receptors, displacing the narcotic drug.",
+      "B": "It coats the gastric lining to prevent further absorption of pills.",
+      "C": "It stimulates liver enzymes to break down heroin into inactive metabolites.",
+      "D": "It directly paralyzes respiratory muscles to force a regular breathing rhythm."
     },
-    "answer": "C",
-    "explanation": "Central nervous system depressants directly compromise the brainstem respiratory centers, making respiratory monitoring the highest priority for survival. [learn more](GNS112_U7_T5#GNS112_U7_T5_h7)"
+    "answer": "A",
+    "explanation": "Naloxone has a stronger attraction (affinity) for opioid receptors than the narcotic drug itself. It swoops in, kicks the opioid off the receptor, and wakes up the patient's breathing!"
   },
   {
     "question_id": "GNS112_U7_T5_h8_q1",
     "heading_id": "GNS112_U7_T5_h8",
     "article_id": "GNS112_U7_T5",
     "topic_id": "GNS112_U7_T5",
-    "difficulty": "recall",
-    "question": "What is a key public health message nurses should share to prevent accidental childhood poisonings at home?",
+    "difficulty": "understanding",
+    "question": "Why is keeping a strict check on hourly urine output so important in severe poisoning cases?",
     "options": {
-      "A": "Store household cleaning supplies in unlocked floor-level cupboards",
-      "B": "Dilute leftover pesticides in juice bottles for easy disposal",
-      "C": "Keep all prescription medications on the kitchen dining table",
-      "D": "Never store dangerous chemicals in old food or drink containers"
+      "A": "It measures the exact chemical concentration of the original poison.",
+      "B": "It proves whether the patient drank water prior to arriving at the clinic.",
+      "C": "It helps evaluate adequate renal perfusion and guides safe fluid resuscitation.",
+      "D": "It prevents the need to check blood electrolyte levels."
     },
-    "answer": "D",
-    "explanation": "Preventing accidental ingestion relies heavily on keeping toxic substances in their original, clearly labeled containers away from children. [learn more](GNS112_U7_T5#GNS112_U7_T5_h8)"
+    "answer": "C",
+    "explanation": "Many poisons love to attack the kidneys. Tracking urine output is an easy, frontline way to make sure the kidneys are getting enough blood and fluids are working well."
   },
   {
     "question_id": "GNS112_U7_T5_h8_q2",
     "heading_id": "GNS112_U7_T5_h8",
     "article_id": "GNS112_U7_T5",
     "topic_id": "GNS112_U7_T5",
-    "difficulty": "understanding",
-    "question": "Which activity best demonstrates a nurse's proactive contribution to community-level toxicology prevention?",
+    "difficulty": "application",
+    "question": "A young adult is admitted after taking too many sleeping pills on purpose. They are now fully awake and stable. What is your most important immediate nursing action?",
     "options": {
-      "A": "Performing emergency gastric lavage in a community market stall",
-      "B": "Educating local groups on safe chemical storage and herbal medicine risks",
-      "C": "Administering high doses of activated charcoal to every outpatient",
-      "D": "Prescribing specific pharmaceutical antidotes to farmers for home use"
+      "A": "Discharge the patient immediately with a prescription for vitamins.",
+      "B": "Initiate strict suicide precautions and ensure constant observation.",
+      "C": "Scold the patient regarding the dangers of taking medication.",
+      "D": "Restrict all family members from visiting to maintain hospital quiet."
     },
     "answer": "B",
-    "explanation": "Community education addresses root causes of domestic poisonings by empowering families with hazard awareness and prevention strategies. [learn more](GNS112_U7_T5#GNS112_U7_T5_h8)"
+    "explanation": "Just because they look physically stable doesn't mean the emotional crisis is over. Safety first—keep them under close watch and arrange mental health support right away."
+  },
+  {
+    "question_id": "GNS112_U7_T5_h9_q1",
+    "heading_id": "GNS112_U7_T5_h9",
+    "article_id": "GNS112_U7_T5",
+    "topic_id": "GNS112_U7_T5",
+    "difficulty": "recall",
+    "question": "What is a key safety message nurses should share with families to stop accidental poisonings at home?",
+    "options": {
+      "A": "Keep all household cleaning products unlocked on the lower kitchen floor.",
+      "B": "Always induce vomiting immediately if someone smells a strange chemical.",
+      "C": "Mix leftover prescription antibiotics into drinking water to save space.",
+      "D": "Never store dangerous chemicals or fuel in empty food or drink containers."
+    },
+    "answer": "D",
+    "explanation": "This is a classic life-saving tip! Putting fuel or chemicals in juice or soft drink bottles is a major trap for thirsty kids and adults alike."
+  },
+  {
+    "question_id": "GNS112_U7_T5_h9_q2",
+    "heading_id": "GNS112_U7_T5_h9",
+    "article_id": "GNS112_U7_T5",
+    "topic_id": "GNS112_U7_T5",
+    "difficulty": "understanding",
+    "question": "Why is it dangerous to use traditional home remedies like forcing caustic liquids or oils down someone's throat after they swallow a poison?",
+    "options": {
+      "A": "Traditional remedies always cure toxic exposures faster than modern hospital drugs.",
+      "B": "Community members refuse to visit hospitals unless accompanied by a nurse.",
+      "C": "Practices like forcing caustic liquids or oils down the throat can worsen tissue injury and cause aspiration.",
+      "D": "Myths prevent patients from paying their hospital bills on time."
+    },
+    "answer": "C",
+    "explanation": "Forcing things down can cause the chemical to burn the throat a second time on the way back up, or slip into the lungs and cause deadly pneumonia. Always educate gently against this!"
   }
 ]
