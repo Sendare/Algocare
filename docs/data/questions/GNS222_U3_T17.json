@@ -5,15 +5,15 @@
     "article_id": "GNS222_U3_T17",
     "topic_id": "GNS222_U3_T17",
     "difficulty": "recall",
-    "question": "What is the primary anatomical difference between meningitis and encephalitis?",
+    "question": "What is the main job of the blood-brain barrier when it comes to infections?",
     "options": {
-      "A": "Meningitis affects the meninges, while encephalitis involves the brain parenchyma",
-      "B": "Meningitis occurs in the ventricles, whereas encephalitis affects the dura mater",
-      "C": "Meningitis involves the spinal nerves, whereas encephalitis affects cranial nerves",
-      "D": "Meningitis is localized pus, while encephalitis is generalized inflammation"
+      "A": "It warms the blood before it reaches delicate brain cells.",
+      "B": "It transports white blood cells directly into the brain tissue.",
+      "C": "It blocks most germs from entering the central nervous system.",
+      "D": "It increases the production of cerebrospinal fluid during fevers."
     },
-    "answer": "A",
-    "explanation": "Meningitis is characterized by inflammation of the protective membranes covering the central nervous system, whereas encephalitis involves direct infection and inflammation of the brain tissue itself. [learn more](GNS222_U3_T17#GNS222_U3_T17_h1)"
+    "answer": "C",
+    "explanation": "Think of the blood-brain barrier as a strict security gate. It stops harmful microorganisms traveling in your blood from getting straight into your brain tissue. You've got this!"
   },
   {
     "question_id": "GNS222_U3_T17_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GNS222_U3_T17",
     "topic_id": "GNS222_U3_T17",
     "difficulty": "understanding",
-    "question": "Why do central nervous system infections rapidly lead to life-threatening complications?",
+    "question": "How does 'hematogenous spread' cause an infection in the central nervous system?",
     "options": {
-      "A": "The rigid skull prevents the expansion of swollen neural tissues, causing intracranial pressure",
-      "B": "Neurons regenerate too quickly, creating massive pressure within the ventricles",
-      "C": "Pathogens instantly destroy the entire blood-brain barrier within minutes",
-      "D": "Cerebrospinal fluid completely stops circulating during any systemic infection"
+      "A": "Germs travel through the bloodstream from another part of the body and cross into the brain.",
+      "B": "Viruses crawl along the outside of blood vessels without entering the blood.",
+      "C": "Bacteria grow on the skull bone and melt it away over time.",
+      "D": "Infected air travels directly through the ear canal into the brain."
     },
     "answer": "A",
-    "explanation": "Because the brain is encased in a fixed bony structure, any inflammation or swelling causes intracranial pressure to rise dangerously, threatening brainstem compression. [learn more](GNS222_U3_T17#GNS222_U3_T17_h1)"
+    "explanation": "When an infection starts somewhere else (like your lungs or throat), germs can hitch a ride in the bloodstream (hematogenous means 'blood-borne') and end up crossing over into the brain."
   },
   {
     "question_id": "GNS222_U3_T17_h2_q1",
@@ -37,39 +37,7 @@
     "article_id": "GNS222_U3_T17",
     "topic_id": "GNS222_U3_T17",
     "difficulty": "recall",
-    "question": "What is the most frequent route by which pathogens enter the central nervous system?",
-    "options": {
-      "A": "Direct inoculation via the olfactory nerve",
-      "B": "Retrograde lymphatic drainage from the limbs",
-      "C": "Ascending infection along the spinal nerves",
-      "D": "Hematogenous spread through the bloodstream"
-    },
-    "answer": "D",
-    "explanation": "Most central nervous system infections begin when microorganisms travel through the circulatory system from a distant site of infection and cross the blood-brain barrier. [learn more](GNS222_U3_T17#GNS222_U3_T17_h2)"
-  },
-  {
-    "question_id": "GNS222_U3_T17_h2_q2",
-    "heading_id": "GNS222_U3_T17_h2",
-    "article_id": "GNS222_U3_T17",
-    "topic_id": "GNS222_U3_T17",
-    "difficulty": "understanding",
-    "question": "Which scenario represents contiguous extension as a route of nervous system infection?",
-    "options": {
-      "A": "Bacteria spreading from an untreated middle ear infection into the cranial cavity",
-      "B": "A virus entering the bloodstream after a mosquito bite in a tropical region",
-      "C": "Bacteria introduced directly into the ventricles during emergency shunt surgery",
-      "D": "Fungi colonizing the skin and traveling down peripheral nerve fibers"
-    },
-    "answer": "A",
-    "explanation": "Contiguous extension involves pathogens migrating directly from nearby infected structures, such as the middle ear, sinuses, or bones of the skull, into the central nervous system. [learn more](GNS222_U3_T17#GNS222_U3_T17_h2)"
-  },
-  {
-    "question_id": "GNS222_U3_T17_h3_q1",
-    "heading_id": "GNS222_U3_T17_h3",
-    "article_id": "GNS222_U3_T17",
-    "topic_id": "GNS222_U3_T17",
-    "difficulty": "recall",
-    "question": "Which form of meningitis is typically considered the most rapidly progressive and life-threatening?",
+    "question": "Which type of meningitis is a true medical emergency that requires quick action?",
     "options": {
       "A": "Bacterial meningitis",
       "B": "Viral meningitis",
@@ -77,7 +45,39 @@
       "D": "Aseptic meningitis"
     },
     "answer": "A",
-    "explanation": "Bacterial meningitis causes severe inflammation and purulent exudate that can result in rapid neurological deterioration and death if not treated immediately with antibiotics. [learn more](GNS222_U3_T17#GNS222_U3_T17_h3)"
+    "explanation": "Bacterial meningitis moves dangerously fast. Without immediate antibiotics, it can cause severe brain damage or worse. Spotting it early saves lives!"
+  },
+  {
+    "question_id": "GNS222_U3_T17_h2_q2",
+    "heading_id": "GNS222_U3_T17_h2",
+    "article_id": "GNS222_U3_T17",
+    "topic_id": "GNS222_U3_T17",
+    "difficulty": "understanding",
+    "question": "A patient with viral meningitis asks if they need strong antibiotics. What should you tell them?",
+    "options": {
+      "A": "Antibiotics are not prescribed because viral infections do not respond to antibacterial drugs.",
+      "B": "Antibiotics will cure the virus if taken within the first twenty-four hours.",
+      "C": "You need high doses of penicillin immediately to prevent hearing loss.",
+      "D": "Only herbal medications can help clear up viral infections in the brain."
+    },
+    "answer": "A",
+    "explanation": "Remember: antibiotics only kill bacteria, not viruses! For viral meningitis, we focus on supportive care to keep the patient comfortable while their body fights it off."
+  },
+  {
+    "question_id": "GNS222_U3_T17_h3_q1",
+    "heading_id": "GNS222_U3_T17_h3",
+    "article_id": "GNS222_U3_T17",
+    "topic_id": "GNS222_U3_T17",
+    "difficulty": "recall",
+    "question": "What is the main difference between meningitis and encephalitis?",
+    "options": {
+      "A": "Encephalitis is always caused by fungi, while meningitis is always caused by bacteria.",
+      "B": "Meningitis causes personality changes, while encephalitis only causes stiff joints.",
+      "C": "Meningitis affects the spinal cord exclusively, while encephalitis affects only the skull.",
+      "D": "Encephalitis involves inflammation of the brain tissue itself, while meningitis affects the protective membranes around it."
+    },
+    "answer": "D",
+    "explanation": "Meningitis targets the 'meninges' (the covering layers), while encephalitis targets the actual 'encephalon' (the brain tissue itself). Simple and easy to remember!"
   },
   {
     "question_id": "GNS222_U3_T17_h3_q2",
@@ -85,15 +85,15 @@
     "article_id": "GNS222_U3_T17",
     "topic_id": "GNS222_U3_T17",
     "difficulty": "understanding",
-    "question": "A patient with advanced HIV presents with subacute signs of meningeal irritation. Which causative agent is most likely responsible?",
+    "question": "Why can a brain abscess cause symptoms that look just like a brain tumor?",
     "options": {
-      "A": "Herpes simplex virus",
-      "B": "Streptococcus pneumoniae",
-      "C": "Enterovirus",
-      "D": "Cryptococcus neoformans"
+      "A": "It acts as a mass that takes up space and increases pressure inside the skull.",
+      "B": "It causes the hair on the scalp to fall out rapidly.",
+      "C": "It replaces normal brain cells with cancer cells.",
+      "D": "It changes the genetic makeup of surrounding neurons over time."
     },
-    "answer": "D",
-    "explanation": "Fungal meningitis caused by organisms like Cryptococcus neoformans is an opportunistic infection commonly seen in immunocompromised patients, presenting with a more subacute or chronic onset. [learn more](GNS222_U3_T17#GNS222_U3_T17_h3)"
+    "answer": "A",
+    "explanation": "A pocket of pus inside the head takes up physical space, just like a tumor. This raises the pressure inside the skull (ICP) and presses on nearby brain areas."
   },
   {
     "question_id": "GNS222_U3_T17_h4_q1",
@@ -101,111 +101,111 @@
     "article_id": "GNS222_U3_T17",
     "topic_id": "GNS222_U3_T17",
     "difficulty": "recall",
-    "question": "What is the primary pathological feature that distinguishes a brain abscess from encephalitis?",
+    "question": "What are the three classic signs of bacterial meningitis?",
     "options": {
-      "A": "An abscess never causes increases in intracranial pressure",
-      "B": "Encephalitis involves bacterial invasion, whereas abscesses are strictly viral",
-      "C": "Encephalitis is restricted strictly to the spinal cord meninges",
-      "D": "An abscess is a localized, encapsulated collection of pus acting as a mass"
+      "A": "Tremors at rest, slow movement, and rigid limbs",
+      "B": "Chronic cough, chest pain, and night sweats",
+      "C": "Sudden weight gain, hair loss, and dry skin",
+      "D": "Severe headache, high fever, and stiff neck"
     },
     "answer": "D",
-    "explanation": "A brain abscess forms a distinct, localized pocket of pus and necrotic tissue, whereas encephalitis causes diffuse inflammation throughout the brain parenchyma. [learn more](GNS222_U3_T17#GNS222_U3_T17_h4)"
+    "explanation": "Keep this classic triad in mind: headache, fever, and a stiff neck (nuchal rigidity). Whenever you see these together in a test or ward, think meningitis!"
   },
   {
     "question_id": "GNS222_U3_T17_h4_q2",
     "heading_id": "GNS222_U3_T17_h4",
     "article_id": "GNS222_U3_T17",
     "topic_id": "GNS222_U3_T17",
-    "difficulty": "understanding",
-    "question": "Which clinical finding helps differentiate encephalitis from uncomplicated meningitis?",
+    "difficulty": "application",
+    "question": "As you gently bend your patient's neck forward, they automatically bend their knees and hips. What sign is this?",
     "options": {
-      "A": "Normal cerebrospinal fluid opening pressure",
-      "B": "Instant recovery with outpatient oral analgesics",
-      "C": "Prominent altered mental status, confusion, and focal seizures",
-      "D": "The absence of fever and headache"
+      "A": "Normal nuchal flexibility",
+      "B": "A positive Brudzinski's sign",
+      "C": "A negative Kernig's sign",
+      "D": "Early signs of a stroke"
     },
-    "answer": "C",
-    "explanation": "Because encephalitis involves the brain parenchyma itself, patients frequently exhibit profound alterations in consciousness, personality changes, and focal neurological signs. [learn more](GNS222_U3_T17#GNS222_U3_T17_h4)"
+    "answer": "B",
+    "explanation": "That automatic knee-and-hip-bend when the neck goes forward is a classic positive Brudzinski's sign. It's a clear giveaway for irritated meninges!"
   },
   {
     "question_id": "GNS222_U3_T17_h5_q1",
     "heading_id": "GNS222_U3_T17_h5",
     "article_id": "GNS222_U3_T17",
     "topic_id": "GNS222_U3_T17",
-    "difficulty": "recall",
-    "question": "What is nuchal rigidity?",
+    "difficulty": "understanding",
+    "question": "Why do doctors often order a brain scan before doing a lumbar puncture on a suspected meningitis patient?",
     "options": {
-      "A": "Inability to extend the knee when the hip is flexed",
-      "B": "A stiff neck caused by involuntary muscle spasm that restricts forward flexion",
-      "C": "Complete paralysis of the cervical spine muscles",
-      "D": "Involuntary flexion of the hips when the neck is bent"
+      "A": "To make sure high pressure in the brain won't cause the brainstem to herniate.",
+      "B": "To warm up the lower back before the needle goes in.",
+      "C": "To measure the exact blood flow through the carotid arteries.",
+      "D": "To completely replace the need to test the cerebrospinal fluid."
     },
-    "answer": "B",
-    "explanation": "Nuchal rigidity is a classic sign of meningeal irritation where inflammation causes painful muscle spasms, preventing the patient from touching their chin to their chest. [learn more](GNS222_U3_T17#GNS222_U3_T17_h5)"
+    "answer": "A",
+    "explanation": "Safety first! If there's too much pressure building up inside the head, draining fluid from the lower back can create a dangerous suction effect, pushing the brain downward. A scan checks if it's safe first."
   },
   {
     "question_id": "GNS222_U3_T17_h5_q2",
     "heading_id": "GNS222_U3_T17_h5",
     "article_id": "GNS222_U3_T17",
     "topic_id": "GNS222_U3_T17",
-    "difficulty": "understanding",
-    "question": "How is Brudzinski's sign properly elicited during a physical examination?",
+    "difficulty": "recall",
+    "question": "What is the best position for a patient during a lumbar puncture?",
     "options": {
-      "A": "Striking the patellar tendon to test for hyperactive deep tendon reflexes",
-      "B": "Extending the patient's knee while the hip is flexed at a right angle",
-      "C": "Passively flexing the patient's neck and observing for involuntary hip and knee flexion",
-      "D": "Scratching the sole of the foot to evaluate for abnormal plantar responses"
+      "A": "Sitting upright with legs stretched straight out on the bed",
+      "B": "Lying flat on their back with legs stretched out straight",
+      "C": "Lying on their side with knees pulled up tight to the chest (fetal position)",
+      "D": "Lying flat on their stomach with a pillow under the hips"
     },
     "answer": "C",
-    "explanation": "Brudzinski's sign is positive when passive forward flexion of the neck produces involuntary upward movement of the patient's hips and knees due to meningeal inflammation. [learn more](GNS222_U3_T17#GNS222_U3_T17_h5)"
+    "explanation": "Curling up like a happy ball (fetal position on the side) opens up wide gaps between the spine bones (vertebrae). This makes it much easier and safer for the doctor to slide the needle in."
   },
   {
     "question_id": "GNS222_U3_T17_h6_q1",
     "heading_id": "GNS222_U3_T17_h6",
     "article_id": "GNS222_U3_T17",
     "topic_id": "GNS222_U3_T17",
-    "difficulty": "recall",
-    "question": "What is the primary purpose of performing a lumbar puncture in suspected meningitis?",
+    "difficulty": "understanding",
+    "question": "Why are corticosteroids sometimes given along with antibiotics for bacterial meningitis?",
     "options": {
-      "A": "To measure systemic blood pressure and arterial oxygen saturation",
-      "B": "To permanently drain excess cerebral blood from the cranial vault",
-      "C": "To collect and analyze cerebrospinal fluid for pathogens and cellular composition",
-      "D": "To deliver high-dose intrathecal anesthetics for pain management"
+      "A": "To help antibiotics break down cell walls faster",
+      "B": "To calm down inflammation and lower the risk of lasting damage like hearing loss",
+      "C": "To replace the need for intravenous fluids",
+      "D": "To numb the back so the patient feels no pain during procedures"
     },
-    "answer": "C",
-    "explanation": "Lumbar puncture safely accesses the subarachnoid space to obtain cerebrospinal fluid samples, which reveal critical data regarding protein, glucose, cell counts, and causative organisms. [learn more](GNS222_U3_T17#GNS222_U3_T17_h6)"
+    "answer": "B",
+    "explanation": "When antibiotics suddenly kill millions of bacteria, the body's immune reaction can cause a massive wave of inflammation. Steroids help calm that swelling down so it doesn't harm the brain or hearing."
   },
   {
     "question_id": "GNS222_U3_T17_h6_q2",
     "heading_id": "GNS222_U3_T17_h6",
     "article_id": "GNS222_U3_T17",
     "topic_id": "GNS222_U3_T17",
-    "difficulty": "understanding",
-    "question": "Why is a CT scan often performed BEFORE a lumbar puncture in certain patients with suspected brain infections?",
+    "difficulty": "recall",
+    "question": "Which specific medication is used to treat encephalitis caused by the herpes simplex virus?",
     "options": {
-      "A": "To measure the electrical activity of the cerebral cortex during a seizure",
-      "B": "To rule out elevated intracranial pressure or mass lesions that could cause herniation",
-      "C": "To replace cerebrospinal fluid analysis with non-invasive radiological imaging",
-      "D": "To determine the exact blood type of the patient prior to antibiotic therapy"
+      "A": "Acyclovir",
+      "B": "Ibuprofen",
+      "C": "Penicillin",
+      "D": "Fluconazole"
     },
-    "answer": "B",
-    "explanation": "Removing fluid via lumbar puncture when a large mass lesion or severe intracranial pressure is present can create a pressure gradient, leading to fatal brain herniation. [learn more](GNS222_U3_T17#GNS222_U3_T17_h6)"
+    "answer": "A",
+    "explanation": "Acyclovir is our go-to antiviral medication for herpes virus infections, including nasty cases of viral encephalitis. You'll see this drug very often in clinical practice!"
   },
   {
     "question_id": "GNS222_U3_T17_h7_q1",
     "heading_id": "GNS222_U3_T17_h7",
     "article_id": "GNS222_U3_T17",
     "topic_id": "GNS222_U3_T17",
-    "difficulty": "recall",
-    "question": "Which medication is commonly administered alongside initial antibiotics in bacterial meningitis to reduce inflammation and neurological complications?",
+    "difficulty": "application",
+    "question": "A patient is admitted with suspected Neisseria meningitidis. What precautions should you start right away?",
     "options": {
-      "A": "Insulin regular",
-      "B": "Dexamethasone",
-      "C": "Morphine sulfate",
-      "D": "Acyclovir"
+      "A": "Reverse isolation to protect the patient from others",
+      "B": "Standard precautions only with no masks needed",
+      "C": "Strict airborne precautions in a negative pressure room",
+      "D": "Droplet precautions"
     },
-    "answer": "B",
-    "explanation": "Corticosteroids like dexamethasone are given to dampen the inflammatory cascade triggered by bacterial lysis, reducing complications such as sensorineural hearing loss. [learn more](GNS222_U3_T17#GNS222_U3_T17_h7)"
+    "answer": "D",
+    "explanation": "Neisseria meningitidis travels through respiratory droplets (talking, coughing, sneezing). Putting the patient on droplet precautions with a surgical mask protects everyone until the antibiotics kick in."
   },
   {
     "question_id": "GNS222_U3_T17_h7_q2",
@@ -213,15 +213,15 @@
     "article_id": "GNS222_U3_T17",
     "topic_id": "GNS222_U3_T17",
     "difficulty": "understanding",
-    "question": "What is the clinical justification for starting antibiotics immediately without waiting for definitive cerebrospinal fluid culture results in suspected bacterial meningitis?",
+    "question": "Why do we keep the head of the bed slightly elevated for a patient with increased intracranial pressure from encephalitis?",
     "options": {
-      "A": "Laboratory cultures always fail to grow bacteria if delayed by more than ten minutes",
-      "B": "Early antibiotic administration immediately lowers the opening pressure of the spine",
-      "C": "Delays in antimicrobial therapy significantly increase mortality and permanent neurological damage",
-      "D": "Antibiotics prevent the lumbar puncture needle from introducing skin bacteria"
+      "A": "To make sure the patient can see people walking into the room",
+      "B": "To make swallowing oral pills easier",
+      "C": "To help blood drain smoothly from the head and lower the pressure",
+      "D": "To stop spit from going down the wrong pipe"
     },
     "answer": "C",
-    "explanation": "Bacterial meningitis is an aggressive medical emergency; waiting for lab confirmation can lead to rapid deterioration, making prompt empiric antibiotic therapy essential. [learn more](GNS222_U3_T17#GNS222_U3_T17_h7)"
+    "explanation": "Raising the bed to about 30 degrees uses gravity to help blood flow down smoothly through the jugular veins, keeping pressure inside the skull under control."
   },
   {
     "question_id": "GNS222_U3_T17_h8_q1",
@@ -229,15 +229,15 @@
     "article_id": "GNS222_U3_T17",
     "topic_id": "GNS222_U3_T17",
     "difficulty": "recall",
-    "question": "What is the recommended head-of-bed elevation for a patient with increased intracranial pressure due to meningitis?",
+    "question": "In Nigeria, which season is historically tied to outbreaks of meningococcal meningitis?",
     "options": {
-      "A": "Trendelenburg position with feet elevated",
-      "B": "30 degrees",
-      "C": "Flat in a completely supine position",
-      "D": "90 degrees in an upright sitting posture"
+      "A": "The coastal harvest season",
+      "B": "The heavy rainy season",
+      "C": "The dry harmattan season",
+      "D": "The humid summer solstice"
     },
-    "answer": "B",
-    "explanation": "Elevating the head of the bed to approximately 30 degrees facilitates venous drainage from the cranial vault, helping to lower intracranial pressure. [learn more](GNS222_U3_T17#GNS222_U3_T17_h8)"
+    "answer": "C",
+    "explanation": "Dry harmattan winds dry out and irritate the lining of our noses and throats, making it super easy for meningitis bacteria to slip past our defenses and cause outbreaks in our communities."
   },
   {
     "question_id": "GNS222_U3_T17_h8_q2",
@@ -245,46 +245,14 @@
     "article_id": "GNS222_U3_T17",
     "topic_id": "GNS222_U3_T17",
     "difficulty": "understanding",
-    "question": "Why is it important to maintain a quiet, dimly lit environment for a patient hospitalized with meningitis?",
+    "question": "Why do close contacts of a meningitis patient get given preventive (prophylactic) antibiotics?",
     "options": {
-      "A": "Bright lights cause immediate permanent blindness in all meningitis cases",
-      "B": "Quiet rooms eliminate the need to monitor neurological vital signs",
-      "C": "Darkness prevents the bacteria from multiplying inside the visual cortex",
-      "D": "Sensory stimuli can trigger severe discomfort, headache, and photophobia"
+      "A": "To cut down hospital bills in the community",
+      "B": "To clear the bacteria from their nose and throat and stop it from spreading",
+      "C": "To cure unrelated infections they might have",
+      "D": "To boost their immunity against all viruses"
     },
-    "answer": "D",
-    "explanation": "Patients with meningeal irritation suffer from heightened sensory sensitivity, making bright lights and loud noises extremely distressing and painful. [learn more](GNS222_U3_T17#GNS222_U3_T17_h8)"
-  },
-  {
-    "question_id": "GNS222_U3_T17_h9_q1",
-    "heading_id": "GNS222_U3_T17_h9",
-    "article_id": "GNS222_U3_T17",
-    "topic_id": "GNS222_U3_T17",
-    "difficulty": "recall",
-    "question": "Which seasonal and environmental factor heavily influences meningitis outbreaks in northern Nigeria?",
-    "options": {
-      "A": "Heavy monsoon rainfall and widespread flooding",
-      "B": "Prolonged coastal humidity and high sea tides",
-      "C": "The dry harmattan season and dusty conditions",
-      "D": "Freezing winter temperatures and snowfall"
-    },
-    "answer": "C",
-    "explanation": "In northern Nigeria, seasonal meningitis outbreaks frequently peak during the dry harmattan period when dust and dry air irritate upper respiratory tracts, facilitating bacterial invasion. [learn more](GNS222_U3_T17#GNS222_U3_T17_h9)"
-  },
-  {
-    "question_id": "GNS222_U3_T17_h9_q2",
-    "heading_id": "GNS222_U3_T17_h9",
-    "article_id": "GNS222_U3_T17",
-    "topic_id": "GNS222_U3_T17",
-    "difficulty": "understanding",
-    "question": "Which of the following is NOT a recommended public health measure for controlling meningococcal disease outbreaks?",
-    "options": {
-      "A": "Administering prophylactic antibiotics to the entire population of unaffected states",
-      "B": "Providing chemoprophylaxis to close household and intimate contacts",
-      "C": "Educating communities on recognizing early symptoms and seeking prompt care",
-      "D": "Implementing mass vaccination campaigns targeting high-risk serogroups"
-    },
-    "answer": "A",
-    "explanation": "Mass antibiotic prophylaxis for entire unaffected populations is neither practical nor recommended due to risks of antibiotic resistance; prevention focuses on vaccination and targeted contact prophylaxis. [learn more](GNS222_U3_T17#GNS222_U3_T17_h9)"
+    "answer": "B",
+    "explanation": "Giving quick preventive meds to family members or close contacts clears the bacteria out of their upper airway before it can make them sick or pass it to someone else."
   }
 ]

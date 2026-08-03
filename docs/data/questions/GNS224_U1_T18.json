@@ -5,15 +5,15 @@
     "article_id": "GNS224_U1_T18",
     "topic_id": "GNS224_U1_T18",
     "difficulty": "recall",
-    "question": "What is the primary purpose of sampling in nursing research?",
+    "question": "Why do nurse researchers use sampling in their studies?",
     "options": {
-      "A": "To eliminate all possible forms of error in a clinical trial",
-      "B": "To select a manageable subset of a population for study",
-      "C": "To avoid dealing with institutional review boards entirely",
-      "D": "To increase the total financial cost of a research project"
+      "A": "To study a smaller group to represent a larger population",
+      "B": "To reduce the cost of printing questionnaires only",
+      "C": "To make every patient in a hospital participate",
+      "D": "To eliminate all possible errors in a study"
     },
-    "answer": "B",
-    "explanation": "Studying an entire population is usually impractical, so researchers select a smaller, representative subset to make data collection feasible. [learn more](GNS224_U1_T18#GNS224_U1_T18_h1)"
+    "answer": "A",
+    "explanation": "Spot on! Studying everyone is nearly impossible, so sampling helps us pick a manageable group that mirrors the whole population."
   },
   {
     "question_id": "GNS224_U1_T18_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GNS224_U1_T18",
     "topic_id": "GNS224_U1_T18",
     "difficulty": "understanding",
-    "question": "Why is the quality of a research sample critical to clinical findings?",
+    "question": "Why is studying an entire population usually impractical for a nursing study?",
     "options": {
-      "A": "It completely prevents patients from dropping out of longitudinal studies",
-      "B": "It guarantees that every participant will complete the experimental intervention",
-      "C": "It determines whether the study results can be validly applied to the broader population",
-      "D": "It removes the need for statistical tests during data analysis"
+      "A": "Research ethics committees do not allow large studies",
+      "B": "Patients refuse to answer questions if everyone is included",
+      "C": "Statistical software cannot process large amounts of data",
+      "D": "It is too expensive, time-consuming, and logistically difficult"
     },
-    "answer": "C",
-    "explanation": "A well-drawn sample accurately reflects the wider target population, allowing researchers to generalize their findings safely to clinical practice. [learn more](GNS224_U1_T18#GNS224_U1_T18_h1)"
+    "answer": "D",
+    "explanation": "Exactly! Imagine trying to interview every single nurse or patient in the whole country—you'd spend all your time and money moving around."
   },
   {
     "question_id": "GNS224_U1_T18_h2_q1",
@@ -37,15 +37,15 @@
     "article_id": "GNS224_U1_T18",
     "topic_id": "GNS224_U1_T18",
     "difficulty": "recall",
-    "question": "What term describes the actual physical or digital list of all elements from which a study sample is drawn?",
+    "question": "What exactly is a 'sampling frame' in research?",
     "options": {
-      "A": "Sampling frame",
-      "B": "Sample aggregate",
-      "C": "Target population",
-      "D": "Accessible variable"
+      "A": "The final group of patients selected for a clinical trial",
+      "B": "The statistical formula used to calculate sample size",
+      "C": "A physical list of all eligible members in a target population",
+      "D": "A barrier preventing patients from joining a study"
     },
-    "answer": "A",
-    "explanation": "A sampling frame serves as the concrete operational roster, such as a hospital admission register, used to identify and select study participants. [learn more](GNS224_U1_T18#GNS224_U1_T18_h2)"
+    "answer": "C",
+    "explanation": "You got it! Think of the sampling frame as your actual register, directory, or database from which you pull your participants."
   },
   {
     "question_id": "GNS224_U1_T18_h2_q2",
@@ -53,15 +53,15 @@
     "article_id": "GNS224_U1_T18",
     "topic_id": "GNS224_U1_T18",
     "difficulty": "understanding",
-    "question": "How does an accessible population differ from a target population?",
+    "question": "A researcher wants to study nurses in Abuja and gets the official staff register from the ministry. What is this register called?",
     "options": {
-      "A": "The accessible population is always larger than the global target population",
-      "B": "There is no practical difference between the two terms in nursing literature",
-      "C": "The accessible population is the realistic subset of the target group available to the researcher",
-      "D": "The target population includes only hospitalized patients while the accessible includes outpatients"
+      "A": "The final sample",
+      "B": "The inclusion criteria",
+      "C": "The sampling frame",
+      "D": "The target population"
     },
     "answer": "C",
-    "explanation": "While the target population represents every ideal subject globally, the accessible population consists of those individuals the researcher can actually reach and recruit. [learn more](GNS224_U1_T18#GNS224_U1_T18_h2)"
+    "explanation": "Spot on! That staff register serves as the concrete list you draw your participants from, making it your sampling frame."
   },
   {
     "question_id": "GNS224_U1_T18_h3_q1",
@@ -69,15 +69,15 @@
     "article_id": "GNS224_U1_T18",
     "topic_id": "GNS224_U1_T18",
     "difficulty": "recall",
-    "question": "Which sampling method involves dividing the population into homogeneous subgroups and drawing random samples from each?",
+    "question": "Which sampling method involves picking every 5th or 10th person from an organized list?",
     "options": {
-      "A": "Snowball sampling",
-      "B": "Convenience sampling",
-      "C": "Quota sampling",
-      "D": "Stratified random sampling"
+      "A": "Systematic sampling",
+      "B": "Simple random sampling",
+      "C": "Stratified sampling",
+      "D": "Convenience sampling"
     },
-    "answer": "D",
-    "explanation": "Stratified sampling ensures adequate representation of key subgroups by dividing the population into strata before random selection. [learn more](GNS224_U1_T18#GNS224_U1_T18_h3)"
+    "answer": "A",
+    "explanation": "Brilliant! Systematic sampling means you use a fixed math interval (like every 10th nurse on the roster) after a random start."
   },
   {
     "question_id": "GNS224_U1_T18_h3_q2",
@@ -85,15 +85,15 @@
     "article_id": "GNS224_U1_T18",
     "topic_id": "GNS224_U1_T18",
     "difficulty": "application",
-    "question": "A researcher wants to survey nurses across a state by randomly selecting entire hospitals rather than individual nurses. Which sampling technique is being used?",
+    "question": "A researcher groups hospital nurses into junior, senior, and management ranks, then picks randomly from each group. What method is this?",
     "options": {
       "A": "Systematic sampling",
-      "B": "Simple random sampling",
-      "C": "Convenience sampling",
+      "B": "Convenience sampling",
+      "C": "Stratified random sampling",
       "D": "Cluster sampling"
     },
-    "answer": "D",
-    "explanation": "Selecting intact groups or clusters, such as hospitals or health districts, is characteristic of cluster sampling. [learn more](GNS224_U1_T18#GNS224_U1_T18_h3)"
+    "answer": "C",
+    "explanation": "Correct! When you divide people into subgroups (strata) first, you ensure every important level is fairly represented in your study."
   },
   {
     "question_id": "GNS224_U1_T18_h4_q1",
@@ -101,63 +101,63 @@
     "article_id": "GNS224_U1_T18",
     "topic_id": "GNS224_U1_T18",
     "difficulty": "recall",
-    "question": "What is the primary characteristic of non-probability sampling techniques?",
+    "question": "What is the main idea behind convenience sampling?",
     "options": {
-      "A": "Sampling error cannot exist under any circumstances",
-      "B": "Every member of the population has an equal chance of selection",
-      "C": "A complete sampling frame is always required to begin",
-      "D": "Participants are chosen without random selection methods"
+      "A": "Using a computer program to select names randomly",
+      "B": "Asking participants to refer other qualified friends",
+      "C": "Dividing the population into equal demographic groups",
+      "D": "Choosing participants who are easiest to reach and recruit"
     },
     "answer": "D",
-    "explanation": "Non-probability techniques rely on subjective methods or availability rather than random chance. [learn more](GNS224_U1_T18#GNS224_U1_T18_h4)"
+    "explanation": "You nailed it! Convenience sampling is all about grabbing whoever is readily available—like the students sitting right next to you in class."
   },
   {
     "question_id": "GNS224_U1_T18_h4_q2",
     "heading_id": "GNS224_U1_T18_h4",
     "article_id": "GNS224_U1_T18",
     "topic_id": "GNS224_U1_T18",
-    "difficulty": "understanding",
-    "question": "When is snowball sampling most appropriately utilized in healthcare research?",
+    "difficulty": "application",
+    "question": "Studying a rare medical condition, a researcher asks early patients to connect her with other patients they know. What technique is this?",
     "options": {
-      "A": "When selecting patients using a strictly randomized computer-generated list",
-      "B": "When conducting a mandatory census of all registered nurses in a country",
-      "C": "When studying hard-to-reach or hidden populations through participant referrals",
-      "D": "When every single patient record in a national database is readily accessible"
+      "A": "Snowball sampling",
+      "B": "Quota sampling",
+      "C": "Stratified sampling",
+      "D": "Systematic sampling"
     },
-    "answer": "C",
-    "explanation": "Snowball sampling leverages initial participants to help recruit other members of hard-to-reach communities. [learn more](GNS224_U1_T18#GNS224_U1_T18_h4)"
+    "answer": "A",
+    "explanation": "Spot on! Just like a snowball rolls and gets bigger, your participant list grows as each person refers you to the next."
   },
   {
     "question_id": "GNS224_U1_T18_h5_q1",
     "heading_id": "GNS224_U1_T18_h5",
     "article_id": "GNS224_U1_T18",
     "topic_id": "GNS224_U1_T18",
-    "difficulty": "understanding",
-    "question": "Why must researchers factor anticipated attrition into their initial sample size calculation?",
+    "difficulty": "recall",
+    "question": "Why do researchers often recruit more people than their minimum calculated sample size?",
     "options": {
-      "A": "To guarantee that non-probability sampling becomes completely random",
-      "B": "To ensure enough participants complete the study even if some drop out",
-      "C": "To reduce the financial cost of purchasing clinical testing kits",
-      "D": "To completely eliminate the possibility of human measurement error"
+      "A": "To increase the chance of getting statistically insignificant results",
+      "B": "To account for participants who drop out or withdraw during the study",
+      "C": "To satisfy hospital administrators who love large group numbers",
+      "D": "To make the data entry process longer for student assistants"
     },
     "answer": "B",
-    "explanation": "Anticipating participant dropouts allows researchers to inflate the recruitment target so the final analyzed sample retains adequate statistical power. [learn more](GNS224_U1_T18#GNS224_U1_T18_h5)"
+    "explanation": "Exactly! People travel, fall ill, or change their minds. Adding a buffer upfront saves your project if participants drop out."
   },
   {
     "question_id": "GNS224_U1_T18_h5_q2",
     "heading_id": "GNS224_U1_T18_h5",
     "article_id": "GNS224_U1_T18",
     "topic_id": "GNS224_U1_T18",
-    "difficulty": "recall",
-    "question": "Which population characteristic generally requires a larger sample size to achieve accurate representation?",
+    "difficulty": "understanding",
+    "question": "How does population diversity affect the sample size you need for a study?",
     "options": {
-      "A": "Small accessible size",
-      "B": "Low clinical variance",
-      "C": "Uniform homogeneity",
-      "D": "High heterogeneity"
+      "A": "Diversity has no impact on the required number of participants",
+      "B": "A more diverse population requires a smaller sample size",
+      "C": "Diverse populations can only be studied using convenience sampling",
+      "D": "A more diverse population requires a larger sample size"
     },
     "answer": "D",
-    "explanation": "When a population is highly diverse or heterogeneous, a larger sample is necessary to capture that wide range of variation. [learn more](GNS224_U1_T18#GNS224_U1_T18_h5)"
+    "explanation": "You got it! If the group has many different backgrounds and experiences, you need a bigger sample to capture all those variations accurately."
   },
   {
     "question_id": "GNS224_U1_T18_h6_q1",
@@ -165,15 +165,15 @@
     "article_id": "GNS224_U1_T18",
     "topic_id": "GNS224_U1_T18",
     "difficulty": "recall",
-    "question": "What distinguishes sampling error from sampling bias?",
+    "question": "What actually happens when there is 'sampling bias' in research?",
     "options": {
-      "A": "Sampling error is natural random variation, whereas sampling bias is a systematic flaw in selection",
-      "B": "There is no practical difference between the two research concepts",
-      "C": "Sampling bias only occurs in quantitative studies, while error affects qualitative work",
-      "D": "Sampling error can be completely prevented, whereas sampling bias is unavoidable"
+      "A": "An error caused by using a broken weighing scale in the clinic",
+      "B": "The refusal of patients to answer personal questions in a survey",
+      "C": "A systematic flaw that favors certain individuals over others in selection",
+      "D": "The natural mathematical difference between a sample and a population"
     },
-    "answer": "A",
-    "explanation": "Sampling error stems from natural chance differences, while sampling bias skews results through systematic exclusion or overrepresentation. [learn more](GNS224_U1_T18#GNS224_U1_T18_h6)"
+    "answer": "C",
+    "explanation": "Spot on! Sampling bias means your selection method accidentally gives some people a better chance of being picked than others, skewing your results."
   },
   {
     "question_id": "GNS224_U1_T18_h6_q2",
@@ -181,15 +181,15 @@
     "article_id": "GNS224_U1_T18",
     "topic_id": "GNS224_U1_T18",
     "difficulty": "understanding",
-    "question": "Which of the following is NOT a strategy to minimize sampling bias?",
+    "question": "Which of these does NOT help reduce sampling error in a research project?",
     "options": {
-      "A": "Expanding the sampling frame to capture a broader group",
-      "B": "Using convenience sampling exclusively for data collection",
-      "C": "Utilizing random selection methods whenever feasible",
-      "D": "Establishing rigorous and transparent inclusion criteria"
+      "A": "Applying proper random sampling techniques during selection",
+      "B": "Reducing the overall sample size to make data collection faster",
+      "C": "Using a well-calculated and sufficiently large sample size",
+      "D": "Ensuring the sampling frame covers the entire target population"
     },
     "answer": "B",
-    "explanation": "Convenience sampling actually increases the risk of systematic selection bias rather than minimizing it. [learn more](GNS224_U1_T18#GNS224_U1_T18_h6)"
+    "explanation": "Correct! Shrinking your sample size actually makes sampling errors worse, not better. Bigger, well-chosen samples are more reliable."
   },
   {
     "question_id": "GNS224_U1_T18_h7_q1",
@@ -197,15 +197,15 @@
     "article_id": "GNS224_U1_T18",
     "topic_id": "GNS224_U1_T18",
     "difficulty": "recall",
-    "question": "What foundational ethical requirement must be fulfilled before enrolling a participant in a nursing study?",
+    "question": "What does 'voluntary participation' mean when recruiting study participants?",
     "options": {
-      "A": "Financial compensation",
-      "B": "Informed consent",
-      "C": "Institutional employment",
-      "D": "Peer review approval"
+      "A": "Participants must be paid a large cash reward for joining the study",
+      "B": "Patients must complete all questionnaires before leaving the hospital ward",
+      "C": "Hospital management decides which patients are best suited for the study",
+      "D": "Patients can choose to join or refuse without facing any negative consequences"
     },
-    "answer": "B",
-    "explanation": "Informed consent ensures participants understand the study details and voluntarily agree to take part without coercion. [learn more](GNS224_U1_T18#GNS224_U1_T18_h7)"
+    "answer": "D",
+    "explanation": "Brilliant! Participation must always be completely free choice—no penalties, no pressure."
   },
   {
     "question_id": "GNS224_U1_T18_h7_q2",
@@ -213,14 +213,14 @@
     "article_id": "GNS224_U1_T18",
     "topic_id": "GNS224_U1_T18",
     "difficulty": "understanding",
-    "question": "Why is special care required when recruiting hospitalized patients for clinical research?",
+    "question": "Why is it wrong for a nurse to tell patients their hospital care depends on joining a research study?",
     "options": {
-      "A": "Ethical review boards do not require documentation for inpatient settings",
-      "B": "Patients may feel vulnerable or fear that refusing could affect their clinical care",
-      "C": "Patients in wards have unrestricted access to legal representation",
-      "D": "Hospitalized individuals always possess higher educational levels than outpatients"
+      "A": "It increases the risk of random sampling error",
+      "B": "It breaks the rules of simple random sampling",
+      "C": "It makes the final sample size too large",
+      "D": "It removes the element of voluntary consent through coercion"
     },
-    "answer": "B",
-    "explanation": "The power dynamic in healthcare settings can make patients feel coerced, necessitating explicit reassurance that declining will not alter their treatment. [learn more](GNS224_U1_T18#GNS224_U1_T18_h7)"
+    "answer": "D",
+    "explanation": "Spot on! Using your position of power to force or trick patients into research is unethical. Their healthcare must never be tied to a study."
   }
 ]
