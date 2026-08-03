@@ -11,50 +11,38 @@
     {
       "heading_id": "GNS212_U4_T11_h1",
       "order": 1,
-      "title": "Introduction and Evolution of Wearable Healthcare Devices",
-      "content": "Wearable technology has shifted from consumer fitness tracking into serious clinical utility. These electronic devices attach to the body, continuously collecting physiological data outside traditional hospital settings. For modern healthcare systems, this means a transition from episodic clinic visits to continuous, real-time health intelligence. Early pedometers evolved into sophisticated multi-sensor platforms capable of recording electrocardiograms, blood oxygen saturation, and skin temperature. As consumer electronics converge with medical-grade engineering, clinical practice must adapt to interpret streams of data generated directly by patients in their daily environments."
+      "title": "Introduction and Types of Healthcare Wearables",
+      "content": "Wearable devices are electronic instruments worn on the body to track, record, and transmit health-related data. In modern healthcare, these tools bridge the gap between periodic clinical visits and continuous daily life, offering nurses a clearer picture of a patient's baseline health.\n\n- **Fitness trackers**: Wrist-worn bands that monitor basic metrics like daily step count, sleep patterns, and resting heart rate.\n- **Smartwatches**: Advanced gadgets offering similar tracking to fitness bands while running third-party apps, making ECG and blood oxygen measurements accessible.\n- **Medical-grade patches**: Adhesives applied directly to the skin for continuous, highly accurate monitoring of cardiac rhythms or blood glucose levels.\n- **Smart textiles**: Specialized garments woven with conductive threads that detect respiratory rate and muscle movement without intrusive sensors."
     },
     {
       "heading_id": "GNS212_U4_T11_h2",
       "order": 2,
-      "title": "Categories and Clinical Classification of Healthcare Wearables",
-      "content": "- **Smartwatches and Fitness Bands**: Wrist-worn devices that track ambulatory heart rate, physical activity, sleep architecture, and sometimes rhythm strips via photoplethysmography.\n- **Continuous Glucose Monitors (CGMs)**: Subcutaneous filament sensors measuring interstitial fluid glucose levels every few minutes, alerting users to glycemic trends.\n- **Smart Textiles**: Garments embedded with conductive threads and capacitive sensors to capture respiration rates, electromyography, and posture without rigid casings.\n- **Patch Sensors**: Disposable adhesive units placed on the chest or torso designed for long-term electrocardiography or multi-parameter vital sign capture."
+      "title": "Core Physiological Parameters Monitored",
+      "content": "Modern wearables capture a wide array of vital signs that were once restricted to hospital bedsides. Tracking these metrics helps nurses spot early warning signs of clinical deterioration before a crisis occurs.\n\n- **Heart Rate and Rhythm**: Optical sensors use light to detect blood flow changes, instantly alerting users to abnormal spikes or drops like tachycardia or bradycardia.\n- **Blood Oxygen Saturation (SpO2)**: Pulse oximetry sensors estimate how well red blood cells carry oxygen, which is vital for respiratory assessments.\n- **Blood Glucose**: Continuous glucose monitors use a tiny subcutaneous filament to measure interstitial fluid sugar levels every few minutes.\n- **Physical Activity and Sleep**: Accelerometers measure body movement, helping evaluate recovery rates, fatigue levels, and sleep quality disturbances."
     },
     {
       "heading_id": "GNS212_U4_T11_h3",
       "order": 3,
-      "title": "Core Physiological Parameters Monitored",
-      "content": "Wearables capture numerous vital signs that historically required bulky bedside monitors. Heart rate and rhythm are evaluated using optical sensors that detect blood volume pulses through the skin. Photoplethysmography technology also underpins peripheral capillary oxygen saturation estimation. Accelerometers quantify movement, gait stability, and energy expenditure, which aid in assessing neurological and functional status. Skin temperature sensors provide early clues regarding inflammatory processes or systemic infection before overt clinical symptoms manifest."
+      "title": "Role in Patient Assessment and Chronic Disease Management",
+      "content": "Chronic conditions like hypertension, heart failure, and diabetes require vigilant, long-term monitoring. Wearable technology shifts patient care from reactive hospital admissions to proactive daily management.\n\nWhen patients wear devices that track blood pressure trends or fluid retention indicators, nurses can review longitudinal data rather than relying on a single spot-check taken during a clinic visit. This continuous stream of information helps detect subtle warning signs of heart failure exacerbation or erratic blood glucose fluctuations early. Consequently, clinicians can adjust treatment plans promptly, preventing costly emergency room visits and improving the overall quality of life for vulnerable populations."
     },
     {
       "heading_id": "GNS212_U4_T11_h4",
       "order": 4,
-      "title": "Role in Patient Assessment and Ambulatory Monitoring",
-      "content": "Ambulatory monitoring transforms the diagnostic yield for paroxysmal conditions that evade detection during brief clinic encounters. Intermittent palpitations or nocturnal desaturations are easily missed during a ten-minute outpatient consultation. Wearables capture these transient events in natural living conditions, providing clinicians with longitudinal trends rather than isolated snap-shots. This continuous stream helps differentiate benign physiological variations from pathological states, facilitating timely medical interventions before acute decompensation occurs."
+      "title": "Integration in Clinical Nursing Practice",
+      "content": "For nurses, the influx of wearable data means adapting workflows to filter, analyze, and act upon remote streams of information. Rather than taking manual vitals every four hours, the nurse's role expands to remote monitoring and patient education.\n\nNurses must teach patients how to properly wear, charge, and sync their devices. Furthermore, nurses learn to establish alert thresholds so they are not overwhelmed by false alarms, ensuring true clinical anomalies receive immediate attention. Documenting these remote trends in the electronic health record becomes a routine part of holistic nursing assessments."
     },
     {
       "heading_id": "GNS212_U4_T11_h5",
       "order": 5,
-      "title": "Integration into Clinical Nursing Practice",
-      "content": "Integrating wearable data into clinical workflows requires nurses to develop digital literacy and data appraisal skills. Raw data streams must be triaged to filter out artifacts caused by poor sensor placement or patient movement. Nurses serve as the crucial link between algorithmic alerts and patient action, interpreting notifications and determining which readings warrant escalation to medical staff. Furthermore, patient education is vital; nurses must instruct individuals on proper device charging, skin hygiene beneath adhesives, and accurate synchronization with mobile applications."
+      "title": "Data Privacy, Security, and Ethical Considerations",
+      "content": "The wireless transmission of sensitive health records introduces significant privacy and cybersecurity risks. Wearable devices collect intimate personal data that must be strictly protected against unauthorized access and data breaches.\n\n- **Encryption**: Data must be encrypted both while stored on the device and while traveling across wireless networks to cloud servers.\n- **Consent**: Patients must clearly understand who owns their health data and give informed consent before third-party apps share it.\n- **Equity**: Relying heavily on expensive wearables can create disparities in care if low-income patients cannot afford the technology."
     },
     {
       "heading_id": "GNS212_U4_T11_h6",
       "order": 6,
-      "title": "Chronic Disease Management and Self-Care",
-      "content": "Chronic conditions like hypertension, heart failure, and diabetes demand active patient participation. Wearables empower individuals by providing immediate visual feedback regarding how diet, stress, and medication impact their physiological parameters. Continuous glucose monitors reduce finger-prick fatigue for diabetics while highlighting postprandial glucose spikes. hypertensive patients benefit from wearable blood pressure cuffs that map diurnal variations. This transparency fosters self-efficacy, encouraging adherence to therapeutic regimens and lifestyle modifications."
-    },
-    {
-      "heading_id": "GNS212_U4_T11_h7",
-      "order": 7,
-      "title": "Data Privacy, Security, and Ethical Considerations",
-      "content": "The continuous streaming of personal health data raises profound privacy and ethical concerns. Wearables collect intimate biological details that are often stored on commercial cloud servers governed by laxer protections than traditional electronic health records. Unauthorized access by third parties, insurance companies, or employers presents significant risks of discrimination. Additionally, health disparities emerge if advanced wearable technology remains accessible only to affluent populations, leaving vulnerable groups reliant on standard clinical observations."
-    },
-    {
-      "heading_id": "GNS212_U4_T11_h8",
-      "order": 8,
-      "title": "Challenges and Implementation in Nigerian Healthcare",
-      "content": "Deploying wearable technology within the Nigerian healthcare landscape introduces unique infrastructural and economic hurdles. Unreliable electrical power grids make charging devices and maintaining server connectivity difficult, particularly in rural primary healthcare centers. High equipment costs and out-of-pocket health expenditure limit widespread patient adoption among low-income populations. Furthermore, patchy cellular network coverage restricts real-time data transmission from remote monitoring devices to tertiary referral centers, necessitating context-appropriate, low-bandwidth health solutions."
+      "title": "Challenges and Future Trends in Local Healthcare",
+      "content": "Deploying wearable technology in resource-constrained settings like Nigeria presents unique hurdles alongside exciting opportunities. Infrastructure deficits, such as unstable electricity supply and limited internet connectivity, can disrupt continuous data syncing.\n\nAdditionally, high device costs and low digital literacy among certain rural populations can hinder widespread adoption. However, as smartphones become more affordable and telecommunication networks expand, local health initiatives are increasingly using SMS-linked wearables and low-cost trackers. Overcoming these barriers will allow Nigerian nurses to leverage remote monitoring to reach underserved communities and improve public health outcomes."
     }
   ]
 }
