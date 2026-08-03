@@ -12,37 +12,43 @@
       "heading_id": "GNS212_U4_T7_h1",
       "order": 1,
       "title": "Introduction to Automated Patient Beds",
-      "content": "Automated patient beds, commonly referred to as smart beds, represent a significant advancement in hospital room technology. Traditional hospital beds required manual crank handles or basic hydraulic pedals to adjust height and positioning. Modern smart beds utilize integrated electric motors, microprocessors, and digital interfaces to automate these adjustments while offering continuous physiological data capture. In busy Nigerian tertiary health institutions where nurse-to-patient ratios are frequently stretched, these beds serve as an essential supportive tool, lightening the physical burden of repositioning heavy or immobile patients and minimizing the physical strain on nursing personnel."
+      "content": "An **automated patient bed**, commonly called a smart bed, is an advanced medical device designed to enhance patient safety, comfort, and clinical workflow in healthcare facilities. Unlike standard hospital beds that require manual cranking or basic motorized adjustments, smart beds integrate computerized systems, sensors, and automated features.\n\nThese beds do more than just raise the head or feet. They actively participate in patient care by tracking weight, monitoring movement, and alerting nurses when a high-risk patient attempts to get up unattended. By reducing manual physical strain on nursing staff during repositioning, smart beds also help lower the incidence of work-related musculoskeletal injuries among healthcare workers."
     },
     {
       "heading_id": "GNS212_U4_T7_h2",
       "order": 2,
       "title": "Core Components and Technologies",
-      "content": "- **Actuators and Motors**: Heavy-duty electric motors responsible for driving the articulation of the head, foot, and overall bed height.\n- **Load Cells and Weight Sensors**: Precision sensors embedded beneath the mattress platform to track patient weight changes and exit attempts.\n- **Central Control Panel**: Bedside or rail-mounted interfaces allowing caregivers to program automated turns, lock out functions, or view alarms.\n- **Battery Backup Systems**: Uninterruptible power supplies ensuring bed functionality during sudden electrical grid failures or load shedding."
+      "content": "Modern smart beds rely on a combination of hardware and software working in tandem. Understanding these parts helps nurses troubleshoot minor issues and utilize the technology effectively.\n\n- **Load Cells and Scales**: Precision sensors built into the bed frame that continuously measure patient weight and detect changes in mass distribution.\n- **Pressure-Mapping Surfaces**: Integrated mattress overlays that display real-time pressure points, helping staff identify areas at high risk for skin breakdown.\n- **Exit Detection Sensors**: Infrared, fiber-optic, or mat sensors that monitor patient position and trigger alarms when a patient shifts toward the edge or attempts to exit.\n- **Actuators and Motors**: Heavy-duty mechanical motors responsible for smooth articulation of the head, knee, and overall bed height."
     },
     {
       "heading_id": "GNS212_U4_T7_h3",
       "order": 3,
       "title": "Clinical Indications and Patient Suitability",
-      "content": "Smart beds are indicated for individuals with severe mobility impairments, prolonged immobility, or high vulnerability to secondary complications. Patients recovering from complex neurosurgeries, extensive orthopedic repairs, or managing acute spinal cord injuries benefit immensely from precise postural adjustments. Furthermore, individuals diagnosed with advanced neuromuscular diseases or those requiring palliative comfort care find relief in surfaces that distribute pressure evenly. Suitability is determined through thorough nursing assessment, balancing the clinical benefits of automation against the patient's cognitive status and potential risk of device tampering."
+      "content": "Not every patient requires a fully automated smart bed. Facilities reserve these specialized units for individuals with complex clinical needs who face high risks for complications during bed rest.\n\nPatients recovering from major orthopedic or neurological surgeries benefit greatly from precise positioning capabilities. Similarly, individuals with severe mobility impairments, morbid obesity, or a high vulnerability to pressure injuries require the continuous monitoring and redistribution features these beds provide. Conversely, placing an alert, fully independent patient in an advanced smart bed with hyper-sensitive exit alarms can cause unnecessary anxiety and alarm fatigue for the nursing staff."
     },
     {
       "heading_id": "GNS212_U4_T7_h4",
       "order": 4,
       "title": "Role in Pressure Injury and Fall Prevention",
-      "content": "Immobility remains a primary driver of hospital-acquired pressure injuries. Smart beds combat this by featuring programmable continuous lateral rotation therapy, shifting the patient's weight at set intervals without requiring constant manual intervention. To prevent falls, exit detection technology acts as an early warning system. When a patient unweights the bed or shifts toward the edge in an unauthorized manner, the bed triggers an audible alarm or sends a wireless notification directly to the nurse's station, allowing staff to intervene before a fall occurs."
+      "content": "Smart beds serve as frontline defense tools in hospital-acquired complications, specifically pressure injuries and patient falls.\n\nTo prevent falls, nurses program the exit detection system based on the patient's risk level. Some beds sound an immediate alarm when weight leaves the mattress, while others use a tiered warning system that alerts staff if the patient sits up or moves toward the edge. For pressure injury prevention, many smart beds feature continuous lateral rotation or automated micro-turns. These features gently shift the patient's weight at scheduled intervals, mimicking manual turning schedules and ensuring constant tissue perfusion without disrupting the patient's rest."
     },
     {
       "heading_id": "GNS212_U4_T7_h5",
       "order": 5,
       "title": "Nursing Assessment and Bed Safety Protocols",
-      "content": "Utilizing an automated bed safely requires rigorous nursing protocols. Before activating any automated turning or height adjustments, the nurse must ensure that all peripheral lines, urinary catheters, and mechanical ventilation tubing possess adequate slack to prevent accidental dislodgement or tension. Side rails must be assessed for proper gapping to avoid entrapment hazards, especially for pediatric or cognitively impaired adults. Additionally, routine checks of the brake locking mechanism are mandatory during every shift change to prevent unintended bed displacement during patient transfers."
+      "content": "Technology supports clinical judgment, but it never replaces thorough nursing assessment. Before activating automated bed features, the nurse must evaluate the patient's mental status, physical capabilities, and specific risk factors.\n\nSafety protocols require that bed brakes remain locked at all times unless the bed is actively being transported. Nurses must ensure that power cords and drainage tubing do not get pinched in the articulating joints of the frame during adjustments. Furthermore, the nurse should regularly verify that the bed exit alarm is armed and set to the correct sensitivity level after any patient transfer or care procedure."
     },
     {
       "heading_id": "GNS212_U4_T7_h6",
       "order": 6,
+      "title": "Patient Monitoring and Integrated Health Systems",
+      "content": "Advanced smart beds integrate seamlessly with hospital Electronic Health Record (EHR) systems and nurse call platforms. This connectivity transforms the bed from a passive piece of furniture into an active data collection hub.\n\nWeight measurements taken by the bed scales can automatically transmit into the patient's chart, saving nursing time and reducing transcription errors. When a patient triggers an exit alarm, the system can route the alert directly to the mobile device of the assigned nurse or nursing assistant rather than just sounding an overhead hallway chime. This direct communication speeds up response times and creates a quieter, more healing environment for everyone on the ward."
+    },
+    {
+      "heading_id": "GNS212_U4_T7_h7",
+      "order": 7,
       "title": "Troubleshooting, Maintenance, and Infection Control",
-      "content": "Smart beds are complex medical devices requiring systematic upkeep. If a bed fails to respond to control panel inputs, the nurse should first verify power connectivity and check if the lockout feature is engaged. Maintenance departments must conduct scheduled electrical safety tests to prevent motor overheating or short circuits. Infection control is equally paramount; because electronic hand pendants and complex joints harbor microorganisms, cleaning protocols demand hospital-approved disinfectants that do not infiltrate delicate digital components or compromise internal wiring."
+      "content": "Like all sophisticated medical equipment, smart beds require proper maintenance, routine testing, and rigorous cleaning to function safely.\n\nWhen a bed reports an error or fails to articulate, nurses should first check the primary power supply, ensure plugs are secure, and verify that the control lockout is not engaged. Never force a mechanical joint if resistance is met. For infection control, smart beds present unique challenges due to their numerous crevices, electronic panels, and internal wiring compartments. Staff must use approved hospital-grade disinfectants and follow manufacturer guidelines to clean surfaces thoroughly without allowing liquid to seep into electrical components."
     }
   ]
 }
