@@ -11,37 +11,37 @@
       "heading_id": "GNS111_U2_T2_h1",
       "order": 1,
       "title": "Introduction to Blood Groups",
-      "content": "Blood groups are classification systems based on the presence or absence of inherited antigenic substances on the surface of red blood cells. These antigens can be proteins, carbohydrates, glycoproteins, or glycolipids, depending on the blood group system. The human body's immune system recognizes its own red blood cell antigens as self and mounts an aggressive defense against foreign antigens. Understanding these classifications prevents fatal immune reactions during blood transfusions, organ transplantation, and pregnancy. While over 30 human blood group systems are formally recognized by the International Society of Blood Transfusion, the **ABO system** and the **Rhesus system** remain clinically paramount in daily nursing practice across Nigerian healthcare facilities."
+      "content": "Blood groups are classifications of human blood based on the presence or absence of specific inherited protein molecules, called antigens, on the surface of red blood cells. These antigens can be proteins, carbohydrates, or glycoproteins. Our immune system uses them to recognize our own cells as \"self\" and foreign cells as \"nonself.\" When the body encounters foreign red blood cell antigens, it produces antibodies to attack and destroy them. Understanding these markers prevents fatal immune reactions during blood transfusions."
     },
     {
       "heading_id": "GNS111_U2_T2_h2",
       "order": 2,
       "title": "The ABO Blood Group System",
-      "content": "The ABO system categorizes blood into four main types based on the presence or absence of **A** and **B** antigens on red blood cells, coupled with naturally occurring antibodies in the plasma.\n\n- **Group A**: Features A antigens on red blood cells and anti-B antibodies in the plasma.\n- **Group B**: Features B antigens on red blood cells and anti-A antibodies in the plasma.\n- **Group AB**: Features both A and B antigens on red blood cells with neither antibody in the plasma.\n- **Group O**: Lacks both A and B antigens on red blood cells, while containing both anti-A and anti-B antibodies in the plasma.\n\nLandsteiner's law dictates that normal healthy individuals possess plasma antibodies directed against the ABO antigens absent from their own red blood cells."
+      "content": "The ABO system categorizes blood into four major types based on two antigens (A and B) and two corresponding antibodies found in blood plasma. \n\n- **Type A**: Red blood cells carry A antigens; plasma contains anti-B antibodies.\n- **Type B**: Red blood cells carry B antigens; plasma contains anti-A antibodies.\n- **Type AB**: Red blood cells carry both A and B antigens; plasma contains neither antibody.\n- **Type O**: Red blood cells carry neither antigen; plasma contains both anti-A and anti-B antibodies.\n\nAn individual's plasma naturally contains antibodies against any ABO antigens that are missing from their own red blood cells."
     },
     {
       "heading_id": "GNS111_U2_T2_h3",
       "order": 3,
-      "title": "The Rhesus Factor System",
-      "content": "The Rhesus (Rh) system is the second most important blood group classification, clinically driven primarily by the **RhD antigen**. Individuals who express the D antigen on their red blood cells are classified as **Rh-positive**, whereas those lacking the antigen are **Rh-negative**. Unlike the ABO system, individuals with Rh-negative blood do not naturally possess circulating anti-Rh antibodies in their plasma. These antibodies only develop after deliberate or accidental sensitization, such as exposure to Rh-positive red blood cells through a mismatched transfusion or fetomaternal hemorrhage during childbirth."
+      "title": "The Rhesus Factor",
+      "content": "The Rhesus (Rh) system is another crucial protein marker system on red blood cells, most notably the D antigen. If the D antigen is present on your red blood cells, your blood is **Rh-positive**. If it is absent, your blood is **Rh-negative**. Unlike the ABO system, people with Rh-negative blood do not automatically have antibodies against the Rh factor in their plasma from birth. Instead, antibodies only develop after actual exposure to Rh-positive blood, such as through a mismatched transfusion or during childbirth with an Rh-positive baby."
     },
     {
       "heading_id": "GNS111_U2_T2_h4",
       "order": 4,
       "title": "Blood Typing and Crossmatching Procedures",
-      "content": "Before any blood component is transfused, rigorous laboratory testing ensures safety. **Forward grouping** tests the patient's red blood cells against known commercial antisera (anti-A, anti-B, anti-D) to identify surface antigens. **Reverse grouping** (or back typing) tests the patient's serum against known type A and type B red blood cells to confirm the presence of expected plasma antibodies.\n\nThe **crossmatch** serves as the final functional safety check. A major crossmatch mixes the recipient's serum with the donor's red blood cells in vitro to detect any potential hemolytic incompatibilities before the transfusion bag ever reaches the ward."
+      "content": "Before any transfusion takes place, laboratory scientists perform blood typing and crossmatching to ensure compatibility. \n\n1. **Forward typing**: Patient red blood cells are mixed with known commercial antibodies (anti-A and anti-B) to see if they clump together, or agglutinate.\n2. **Reverse typing**: Patient serum is mixed with known A and B red blood cells to check which natural antibodies are present.\n3. **Crossmatching**: Donor red blood cells are mixed directly with the recipient's serum in a test tube to catch any hidden antibody reactions before the blood goes into the patient's vein."
     },
     {
       "heading_id": "GNS111_U2_T2_h5",
       "order": 5,
       "title": "Principles of Blood Transfusion Compatibility",
-      "content": "Transfusion safety relies on ensuring that donor red blood cells will not be attacked by the recipient's plasma antibodies. **Type O negative** packed red blood cells lack A, B, and RhD antigens, making them the universal red cell donor for emergency situations when there is no time for complete crossmatching. Conversely, **Type AB positive** individuals are universal recipients for red blood cells because their plasma contains no antibodies against A, B, or Rh antigens. For plasma transfusions, the rules invert: Type AB is a universal plasma donor, while Type O is a universal plasma recipient."
+      "content": "Safe transfusion relies on ensuring the donor's red blood cells do not get attacked by the recipient's plasma antibodies. \n\n- **Universal Red Cell Donor**: **Type O-negative** red blood cells lack A, B, and Rh antigens, meaning recipient antibodies have nothing to attack.\n- **Universal Plasma Donor**: **Type AB** individuals can donate plasma safely to any group because their plasma contains no anti-A or anti-B antibodies.\n- **Universal Red Cell Recipient**: **Type AB-positive** individuals can receive red blood cells from any group because their plasma has no natural antibodies to attack incoming foreign antigens."
     },
     {
       "heading_id": "GNS111_U2_T2_h6",
       "order": 6,
       "title": "Clinical Implications of Blood Incompatibility",
-      "content": "Blood incompatibility triggers severe pathological consequences when mismatched cells interact with host antibodies. An **acute hemolytic transfusion reaction** occurs within minutes when recipient antibodies coat and destroy donor red blood cells, releasing free hemoglobin into the bloodstream, which can precipitate acute kidney injury, disseminated intravascular coagulation, and shock.\n\nIn obstetrics, **hemolytic disease of the newborn** arises when an Rh-negative mother is sensitized by an Rh-positive fetus during a prior pregnancy or delivery. Her IgG anti-D antibodies cross the placenta in subsequent pregnancies, attacking and destroying the fetal red blood cells, leading to severe anemia and hydrops fetalis unless prevented with **Rho(D) immune globulin** prophylaxis."
+      "content": "When incompatible blood is transfused, a severe **acute hemolytic transfusion reaction** occurs. Recipient antibodies coat the donor red blood cells, causing them to rupture, or hemolyze, inside the blood vessels. Free hemoglobin spills into the bloodstream, clogging kidney tubules and triggering widespread inflammation. Common symptoms include fever, chills, lower back pain, chest tightness, and dark urine. Immediate nursing actions include stopping the transfusion at once, keeping the intravenous line open with normal saline using new tubing, and notifying the physician."
     }
   ]
 }
