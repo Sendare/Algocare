@@ -11,50 +11,44 @@
     {
       "heading_id": "GNS224_U1_T4_h1",
       "order": 1,
-      "title": "Introduction to Quantitative Research Design",
-      "content": "Quantitative research design serves as a structured blueprint for testing objective theories by examining the relationship among variables. In nursing science, these designs allow researchers to measure phenomena numerically, analyze data using statistical procedures, and generalize findings from a smaller sample to a broader population. This empirical approach values objectivity, detachment, and precise measurement over narrative interpretation. When reading clinical journals, recognizing a quantitative study helps determine whether an intervention genuinely caused an observed change in patient outcomes or simply shared a temporal correlation. The architectural framework ensures that hypotheses are explicitly tested rather than casually explored."
+      "title": "Introduction and Core Characteristics of Quantitative Research",
+      "content": "Quantitative research in nursing focuses on gathering numerical data to explain, predict, or control phenomena of interest. It relies on the positivist paradigm, which assumes that reality is objective and can be studied through direct observation and measurement. When you read a quantitative study, you are looking at numbers, percentages, and statistical analysis rather than deep descriptive stories.\n\n- **Objective reality**: The researcher remains detached from the participants to prevent personal bias from affecting the results.\n- **Deductive reasoning**: Studies start with a general theory or hypothesis and test it using collected data.\n- **Generalizability**: Findings from a carefully selected sample are applied back to the wider population."
     },
     {
       "heading_id": "GNS224_U1_T4_h2",
       "order": 2,
-      "title": "Key Characteristics of Quantitative Research",
-      "content": "Quantitative research is defined by several core features that distinguish it from qualitative paradigms. Understanding these properties helps nursing researchers appraise published literature effectively.\n\n- **Deductive reasoning**: Moves from general theoretical principles to specific hypotheses that are then tested against collected empirical data.\n- **Control and manipulation**: The researcher actively manages extraneous variables to isolate the true effect of the independent variable on the dependent variable.\n- **Empiricism**: Knowledge is gained strictly through direct or indirect observable and measurable experience rather than intuition or personal belief.\n- **Generalizability**: The capacity to apply findings derived from a representative sample back to the wider target population."
+      "title": "Experimental Research Designs",
+      "content": "Experimental research is the gold standard for testing cause-and-effect relationships. To qualify as a true experiment, a study must include three specific elements: manipulation, control, and randomization. \n\n1. **Manipulation**: The researcher actively introduces an intervention or treatment to at least one group.\n2. **Control**: The use of a control group that does not receive the intervention, allowing for comparison.\n3. **Randomization**: Participants are assigned to either the experimental or control group purely by chance.\n\nBy checking these three boxes, the researcher rules out alternative explanations for the outcome, giving strong evidence that the intervention caused the observed change."
     },
     {
       "heading_id": "GNS224_U1_T4_h3",
       "order": 3,
-      "title": "Experimental Research Designs",
-      "content": "True experimental design represents the gold standard for establishing cause-and-effect relationships. To qualify as a true experiment, a study must incorporate three critical elements: manipulation, random assignment, and a control group. \n\nManipulation involves the researcher actively introducing the independent variable, such as a specific nursing protocol, to one group while withholding it from another. Random assignment ensures that every participant has an equal probability of being placed in either the experimental or control group, effectively neutralizing baseline confounding characteristics. The control group provides a baseline comparison against which the effect of the intervention can be measured. Common examples include randomized controlled trials (RCTs) evaluating new pharmacological treatments or wound care technologies."
+      "title": "Quasi-Experimental Research Designs",
+      "content": "In real-world healthcare settings, true experiments are often impossible. You cannot always randomly assign patients to different disease groups or randomly select nursing units for drastic policy changes without disrupting patient care. Quasi-experimental designs step in when full randomization or a strict control group is missing.\n\nWhile these studies still involve manipulating an independent variable (like introducing a new pain management protocol), they lack random assignment. Because of this missing piece, researchers must work harder to rule out other reasons why outcomes might have changed. They are very common in nursing because they fit naturally into busy clinical environments."
     },
     {
       "heading_id": "GNS224_U1_T4_h4",
       "order": 4,
-      "title": "Quasi-Experimental Research Designs",
-      "content": "When true randomisation is impractical, unethical, or impossible in clinical settings, researchers utilize quasi-experimental designs. These designs still involve the manipulation of an independent variable and often include a comparison group, but they lack random assignment of participants. For instance, a hospital ward might implement a new fall-prevention education program while an adjoining ward continues standard care, using existing patient groups rather than randomisation. While quasi-experimental studies are highly practical and feasible within busy healthcare environments, their lower level of control makes them more vulnerable to threats to internal validity, such as history or maturation effects."
+      "title": "Non-Experimental Research Designs",
+      "content": "Not all quantitative studies test cause and effect. Sometimes, your goal is simply to observe, describe, or find relationships between variables as they naturally occur without any intervention from the researcher. Non-experimental designs include descriptive studies, which paint a picture of a phenomenon (such as the prevalence of pressure ulcers in a ward), and correlational studies, which check if two variables move together (like patient age and length of stay).\n\nA common misconception is that non-experimental research is inferior. In reality, it provides vital baseline data for clinical practice and sparks ideas for future experimental trials."
     },
     {
       "heading_id": "GNS224_U1_T4_h5",
       "order": 5,
-      "title": "Non-Experimental Research Designs",
-      "content": "Non-experimental designs observe, describe, and examine relationships among variables without any intervention or manipulation by the researcher. Because the nurse does not alter the independent variable, these studies cannot establish definitive cause-and-effect links, but they excel at identifying associations and describing clinical phenomena in natural settings.\n\n- **Descriptive designs**: Document the prevalence or characteristics of a phenomenon, such as assessing burnout levels among emergency nurses.\n- **Correlational designs**: Measure the degree of relationship between two or more variables, such as examining the link between nurse-to-patient ratios and medication errors.\n- **Cross-sectional vs. Longitudinal**: Cross-sectional studies collect data at a single point in time, whereas longitudinal studies follow subjects over an extended period."
+      "title": "Variables and Measurement",
+      "content": "Quantitative research revolves around variables—qualities or quantities that can change from person to person or situation to situation. \n\n- **Independent variable**: The presumed cause or the intervention being manipulated by the researcher.\n- **Dependent variable**: The presumed effect or the outcome being measured to see if the intervention worked.\n- **Extraneous variable**: Confounding factors that can mess up your study results if you do not control them.\n\nTo measure these variables accurately, researchers use standardized instruments like blood pressure cuffs, pain scales, or structured questionnaires. The accuracy of these tools directly determines the value of the research findings."
     },
     {
       "heading_id": "GNS224_U1_T4_h6",
       "order": 6,
-      "title": "Variables, Measurement, and Data Collection Instruments",
-      "content": "Quantitative research relies heavily on translating clinical observations into measurable numerical data. An independent variable represents the presumed cause or intervention, while the dependent variable represents the measured outcome or effect. Extraneous variables are confounding factors that must be controlled to prevent skewed results. Measurement involves assigning numbers to objects or events according to specific rules, categorized across four scales: nominal, ordinal, interval, and ratio. Instruments such as structured questionnaires, biochemical assays, and physiological monitors must be selected carefully to ensure they capture the target variables accurately and consistently."
+      "title": "Validity and Reliability",
+      "content": "When evaluating quantitative research, two words stand above the rest: reliability and validity. \n\n- **Reliability** means consistency. If a thermometer gives you a different temperature every time you put it in the same mouth, it is unreliable. \n- **Validity** means accuracy. Does the tool actually measure what it claims to measure? A faulty scale might consistently give the same wrong weight (making it reliable), but it lacks validity.\n\nInternal validity asks whether the independent variable truly caused the change in the dependent variable. External validity asks whether those findings hold true for other people in other clinical settings."
     },
     {
       "heading_id": "GNS224_U1_T4_h7",
       "order": 7,
-      "title": "Validity and Reliability in Quantitative Studies",
-      "content": "Rigorous quantitative research demands stringent evaluation of measurement quality through validity and reliability. Reliability refers to the consistency and reproducibility of a research instrument, ensuring that repeated measurements under identical conditions yield the same results. Validity assesses whether an instrument actually measures what it purports to measure. \n\nInternal validity questions whether the independent variable truly caused the observed change in the dependent variable, guarding against confounding threats like maturation or testing bias. External validity concerns the extent to which study results can be generalized across different settings, populations, and times. A measuring tool can be highly reliable without being valid if it consistently measures the wrong clinical attribute."
-    },
-    {
-      "heading_id": "GNS224_U1_T4_h8",
-      "order": 8,
-      "title": "Ethical Considerations in Nursing Quantitative Research",
-      "content": "Conducting quantitative research involving human subjects requires strict adherence to ethical principles to protect patient dignity, autonomy, and safety. Researchers must secure approval from an institutional review board (IRB) or ethics committee prior to initiating any data collection. Informed consent ensures that participants understand the study's purpose, procedures, potential risks, and voluntary nature before agreeing to take part. In clinical nursing research, vulnerable populations such as critically ill patients, children, or psychiatric patients require extra safeguards against coercion. Furthermore, maintaining participant confidentiality and data anonymity is mandatory, ensuring that sensitive health records are never exposed during statistical reporting."
+      "title": "Ethical Considerations in Quantitative Nursing Research",
+      "content": "Because quantitative nursing studies often involve human subjects, strict ethical guidelines must guide every step of the process. Researchers must secure approval from an institutional review board (IRB) or ethics committee before gathering data. \n\nParticipants must give informed consent, meaning they fully understand the risks, benefits, and voluntary nature of the study without fearing negative consequences to their medical care if they decline. Furthermore, researchers are obligated to protect patient privacy and maintain strict confidentiality regarding all numerical data collected."
     }
   ]
 }

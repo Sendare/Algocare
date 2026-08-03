@@ -5,15 +5,15 @@
     "article_id": "GNS224_U1_T4",
     "topic_id": "GNS224_U1_T4",
     "difficulty": "recall",
-    "question": "What is the primary purpose of quantitative research design?",
+    "question": "In quantitative research, what is the main type of data you collect?",
     "options": {
-      "A": "To explore deep subjective lived experiences through prolonged interviews",
-      "B": "To generate new grounded theories from unstructured observational field notes",
-      "C": "To document historical timelines of healthcare policy implementation",
-      "D": "To test objective theories through statistical measurement of variables"
+      "A": "Numerical data",
+      "B": "Descriptive text",
+      "C": "Personal stories",
+      "D": "Audio recordings"
     },
-    "answer": "D",
-    "explanation": "Quantitative research relies on numerical data and statistical analysis to evaluate predetermined hypotheses and objective theories. [learn more](GNS224_U1_T4#GNS224_U1_T4_h1)"
+    "answer": "A",
+    "explanation": "Think numbers and measurements! Quantitative research is all about gathering figures to spot patterns and trends. You've got this!"
   },
   {
     "question_id": "GNS224_U1_T4_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GNS224_U1_T4",
     "topic_id": "GNS224_U1_T4",
     "difficulty": "understanding",
-    "question": "Why is a structured research design essential in nursing quantitative studies?",
+    "question": "Why do quantitative researchers try to remain completely neutral and detached from their study participants?",
     "options": {
-      "A": "It removes the need for formal ethical board approval prior to data collection",
-      "B": "It allows findings to be generalized from a sample to a broader population",
-      "C": "It eliminates all possible human recording errors in clinical settings",
-      "D": "It guarantees that patients will experience improved health outcomes"
+      "A": "To avoid having to write detailed nursing care plans",
+      "B": "To prevent personal bias from affecting the study results",
+      "C": "To make it easier to recruit busy hospital staff",
+      "D": "To reduce the financial cost of running the project"
     },
     "answer": "B",
-    "explanation": "A rigorous design ensures that the data collected can be soundly analyzed and applied beyond the immediate study participants. [learn more](GNS224_U1_T4#GNS224_U1_T4_h1)"
+    "explanation": "Staying objective ensures the data truly reflects reality, rather than what the researcher hopes or wishes to see."
   },
   {
     "question_id": "GNS224_U1_T4_h2_q1",
@@ -37,31 +37,31 @@
     "article_id": "GNS224_U1_T4",
     "topic_id": "GNS224_U1_T4",
     "difficulty": "recall",
-    "question": "Which reasoning process is primarily utilized in quantitative research?",
+    "question": "What are the three core elements that make a study a true experimental design?",
     "options": {
-      "A": "Inductive reasoning building purely from unstructured observations",
-      "B": "Deductive reasoning starting from established theories",
-      "C": "Abductive reasoning guessing causes from incomplete evidence",
-      "D": "Intuitive reasoning based entirely on clinical nursing experience"
+      "A": "Manipulation, control, and randomization",
+      "B": "Sampling, blinding, and qualitative coding",
+      "C": "Observation, interview, and transcription",
+      "D": "Surveying, coding, and theme generation"
     },
-    "answer": "B",
-    "explanation": "Quantitative research typically begins with a general theory and tests specific hypotheses derived from it. [learn more](GNS224_U1_T4#GNS224_U1_T4_h2)"
+    "answer": "A",
+    "explanation": "A true experiment needs these three: you manipulate a variable, control outside factors, and randomly assign your participants. Great revision practice!"
   },
   {
     "question_id": "GNS224_U1_T4_h2_q2",
     "heading_id": "GNS224_U1_T4_h2",
     "article_id": "GNS224_U1_T4",
     "topic_id": "GNS224_U1_T4",
-    "difficulty": "understanding",
-    "question": "What is the main function of control within a quantitative research design?",
+    "difficulty": "application",
+    "question": "A nurse researcher assigns hospital wards to receive a new handwashing training program by drawing lots. What experimental element is this?",
     "options": {
-      "A": "To eliminate the influence of confounding extraneous variables",
-      "B": "To prevent participants from withdrawing from the study prematurely",
-      "C": "To ensure all participants receive the active experimental treatment",
-      "D": "To speed up the institutional ethical review board approval process"
+      "A": "Randomization",
+      "B": "Manipulation",
+      "C": "Data saturation",
+      "D": "Blinding"
     },
     "answer": "A",
-    "explanation": "Controlling extraneous variables ensures that changes observed in the dependent variable are genuinely caused by the independent variable. [learn more](GNS224_U1_T4#GNS224_U1_T4_h2)"
+    "explanation": "Drawing lots means choice is left entirely to chance—that is classic randomization in action!"
   },
   {
     "question_id": "GNS224_U1_T4_h3_q1",
@@ -69,31 +69,31 @@
     "article_id": "GNS224_U1_T4",
     "topic_id": "GNS224_U1_T4",
     "difficulty": "recall",
-    "question": "Which of the following is REQUIRED for a study to be classified as a true experimental design?",
+    "question": "What key feature is missing in a quasi-experimental design that you would find in a true experiment?",
     "options": {
-      "A": "Retrospective chart review methods",
-      "B": "Absence of any control group",
-      "C": "Random assignment of participants",
-      "D": "Qualitative interviews with participants"
+      "A": "Random assignment of participants",
+      "B": "An independent variable",
+      "C": "Measurement tools",
+      "D": "Any form of clinical intervention"
     },
-    "answer": "C",
-    "explanation": "Random assignment, along with manipulation and control, is a mandatory pillar of true experimental designs. [learn more](GNS224_U1_T4#GNS224_U1_T4_h3)"
+    "answer": "A",
+    "explanation": "Quasi-experiments test interventions and compare groups, but they skip random assignment because it's often not practical in real hospitals."
   },
   {
     "question_id": "GNS224_U1_T4_h3_q2",
     "heading_id": "GNS224_U1_T4_h3",
     "article_id": "GNS224_U1_T4",
     "topic_id": "GNS224_U1_T4",
-    "difficulty": "application",
-    "question": "A nurse researcher wants to test whether a new structured mobilization protocol reduces postoperative deep vein thrombosis. What is the most rigorous design to use?",
+    "difficulty": "understanding",
+    "question": "Why do nurse researchers often choose quasi-experimental designs instead of true experiments in actual clinical settings?",
     "options": {
-      "A": "Descriptive non-experimental cross-sectional survey",
-      "B": "Qualitative phenomenological patient interview",
-      "C": "Retrospective case series without comparison",
-      "D": "True experimental randomized controlled trial"
+      "A": "Hospital management refuses to let nurses use numerical data collection tools",
+      "B": "True experiments are entirely illegal in clinical nursing environments",
+      "C": "Quasi-experimental studies require no ethical approval or patient consent",
+      "D": "It is often impossible to randomly assign patients to groups in a real hospital setting"
     },
     "answer": "D",
-    "explanation": "Randomized controlled trials provide the highest level of experimental control needed to confirm cause-and-effect relationships. [learn more](GNS224_U1_T4#GNS224_U1_T4_h3)"
+    "explanation": "In real-world wards, we work with existing groups of patients and staff, making strict random assignment tricky or impossible."
   },
   {
     "question_id": "GNS224_U1_T4_h4_q1",
@@ -101,15 +101,15 @@
     "article_id": "GNS224_U1_T4",
     "topic_id": "GNS224_U1_T4",
     "difficulty": "recall",
-    "question": "What is the primary difference between true experimental and quasi-experimental designs?",
+    "question": "What is the main feature of a non-experimental research design?",
     "options": {
-      "A": "True experimental designs are only conducted in laboratories",
-      "B": "Quasi-experimental designs never manipulate variables",
-      "C": "True experimental designs cannot use control groups",
-      "D": "Quasi-experimental designs lack random assignment"
+      "A": "The researcher does not manipulate any variables",
+      "B": "Data is collected exclusively through open-ended interviews",
+      "C": "The study takes place inside a controlled laboratory",
+      "D": "Participants are randomly assigned to treatment groups"
     },
-    "answer": "D",
-    "explanation": "Quasi-experiments manipulate the independent variable but use convenience or existing groups instead of randomisation. [learn more](GNS224_U1_T4#GNS224_U1_T4_h4)"
+    "answer": "A",
+    "explanation": "In non-experimental studies, you simply observe and measure things as they naturally are without stepping in to change them."
   },
   {
     "question_id": "GNS224_U1_T4_h4_q2",
@@ -117,15 +117,15 @@
     "article_id": "GNS224_U1_T4",
     "topic_id": "GNS224_U1_T4",
     "difficulty": "understanding",
-    "question": "Why might a nurse researcher choose a quasi-experimental design over a true experimental design?",
+    "question": "A researcher wants to see if night-shift fatigue relates to medication errors among nurses, without changing their shifts. What design is this?",
     "options": {
-      "A": "It requires no statistical analysis or data interpretation software",
-      "B": "It guarantees that the hypothesis will always be proven correct",
-      "C": "It is impossible or unethical to randomly assign patients to certain groups",
-      "D": "It completely eliminates all threats to internal research validity"
+      "A": "Historical qualitative",
+      "B": "True experimental",
+      "C": "Non-experimental",
+      "D": "Quasi-experimental"
     },
     "answer": "C",
-    "explanation": "Clinical realities often prevent randomisation, making quasi-experimental designs a practical and ethical alternative. [learn more](GNS224_U1_T4#GNS224_U1_T4_h4)"
+    "explanation": "Spot on! Because work schedules aren't being altered or manipulated, it's a non-experimental study observing everyday realities."
   },
   {
     "question_id": "GNS224_U1_T4_h5_q1",
@@ -133,31 +133,31 @@
     "article_id": "GNS224_U1_T4",
     "topic_id": "GNS224_U1_T4",
     "difficulty": "recall",
-    "question": "What is a defining feature of non-experimental research designs?",
+    "question": "What do we call the outcome variable that a researcher measures to see the effect of an intervention?",
     "options": {
-      "A": "Absence of manipulation of the independent variable",
-      "B": "Inability to use statistical analysis software",
-      "C": "Mandatory random assignment of human subjects",
-      "D": "Exclusive reliance on laboratory intervention settings"
+      "A": "Extraneous variable",
+      "B": "Dependent variable",
+      "C": "Demographic variable",
+      "D": "Independent variable"
     },
-    "answer": "A",
-    "explanation": "Non-experimental research observes variables as they naturally occur without introducing any active intervention or treatment. [learn more](GNS224_U1_T4#GNS224_U1_T4_h5)"
+    "answer": "B",
+    "explanation": "The dependent variable 'depends' on the changes you make. It is the final outcome you measure!"
   },
   {
     "question_id": "GNS224_U1_T4_h5_q2",
     "heading_id": "GNS224_U1_T4_h5",
     "article_id": "GNS224_U1_T4",
     "topic_id": "GNS224_U1_T4",
-    "difficulty": "understanding",
-    "question": "A study measures both the caffeine intake and blood pressure levels of night-shift nurses at one single point in time. What type of design is this?",
+    "difficulty": "application",
+    "question": "A study tests if a new low-salt diet lowers blood pressure in hypertensive patients. What is the independent variable?",
     "options": {
-      "A": "Cross-sectional correlational design",
-      "B": "True experimental randomized trial",
-      "C": "Quasi-experimental intervention study",
-      "D": "Longitudinal qualitative case study"
+      "A": "The patient's blood pressure",
+      "B": "The hospital reading room",
+      "C": "The patient's age and weight",
+      "D": "The low-salt diet"
     },
-    "answer": "A",
-    "explanation": "Collecting data at one point in time to examine the relationship between variables without manipulation classifies it as a cross-sectional correlational study. [learn more](GNS224_U1_T4#GNS224_U1_T4_h5)"
+    "answer": "D",
+    "explanation": "The independent variable is the intervention or action introduced by the researcher—in this case, the special diet."
   },
   {
     "question_id": "GNS224_U1_T4_h6_q1",
@@ -165,15 +165,15 @@
     "article_id": "GNS224_U1_T4",
     "topic_id": "GNS224_U1_T4",
     "difficulty": "recall",
-    "question": "What does the dependent variable represent in a quantitative study?",
+    "question": "In quantitative research, what does 'reliability' mean for a measurement tool?",
     "options": {
-      "A": "The active intervention or manipulation applied by the researcher",
-      "B": "The demographic baseline characteristic of the sample population",
-      "C": "The measured outcome or effect resulting from an intervention",
-      "D": "The confounding factor that is intentionally ignored during analysis"
+      "A": "Freedom from ethical violations",
+      "B": "Generalizability to outside hospital populations",
+      "C": "Accuracy in measuring the intended concept",
+      "D": "Consistency of measurement scores over time"
     },
-    "answer": "C",
-    "explanation": "The dependent variable is what the researcher measures to see the effect produced by the independent variable. [learn more](GNS224_U1_T4#GNS224_U1_T4_h6)"
+    "answer": "D",
+    "explanation": "Reliability is all about consistency. If you use the tool again under the same conditions, you should get similar, steady results."
   },
   {
     "question_id": "GNS224_U1_T4_h6_q2",
@@ -181,15 +181,15 @@
     "article_id": "GNS224_U1_T4",
     "topic_id": "GNS224_U1_T4",
     "difficulty": "understanding",
-    "question": "Which measurement scale categorizes data into mutually exclusive groups with a meaningful mathematical zero point?",
+    "question": "Which statement describes a study with good external validity?",
     "options": {
-      "A": "Nominal scale",
-      "B": "Interval scale",
-      "C": "Ratio scale",
-      "D": "Ordinal scale"
+      "A": "The measurement tool produced the exact same score on repeated testing",
+      "B": "The researchers strictly controlled all extraneous variables in the lab",
+      "C": "The sample size was large enough to calculate a valid percentage",
+      "D": "The results can be safely generalized to patients in other healthcare settings"
     },
-    "answer": "C",
-    "explanation": "The ratio scale possesses all properties of lower scales plus an absolute zero point, allowing for absolute comparisons. [learn more](GNS224_U1_T4#GNS224_U1_T4_h6)"
+    "answer": "D",
+    "explanation": "Think of external validity as your study's passport—it means the findings can travel out of the lab and apply to real patients elsewhere."
   },
   {
     "question_id": "GNS224_U1_T4_h7_q1",
@@ -197,15 +197,15 @@
     "article_id": "GNS224_U1_T4",
     "topic_id": "GNS224_U1_T4",
     "difficulty": "recall",
-    "question": "What does instrument reliability primarily evaluate?",
+    "question": "Which board must review and approve any research involving human participants before data collection starts?",
     "options": {
-      "A": "The consistency and stability of measurement scores over repeated use",
-      "B": "The absence of systematic bias in experimental group allocation",
-      "C": "The degree to which findings can be generalised to other hospitals",
-      "D": "Whether the tool measures the exact theoretical concept intended"
+      "A": "Institutional Review Board",
+      "B": "Hospital Maintenance Committee",
+      "C": "Financial Audit Committee",
+      "D": "Nursing Licensing Board"
     },
     "answer": "A",
-    "explanation": "Reliability is all about consistency, meaning the instrument gives similar results under consistent conditions. [learn more](GNS224_U1_T4#GNS224_U1_T4_h7)"
+    "explanation": "The IRB acts as a safety shield, checking research plans to protect human participants from harm."
   },
   {
     "question_id": "GNS224_U1_T4_h7_q2",
@@ -213,46 +213,14 @@
     "article_id": "GNS224_U1_T4",
     "topic_id": "GNS224_U1_T4",
     "difficulty": "understanding",
-    "question": "Which type of validity is most directly threatened if a clinical research study has severe confounding extraneous variables?",
+    "question": "When getting informed consent from a patient for a research study, which of these actions is completely unacceptable?",
     "options": {
-      "A": "Instrument validity",
-      "B": "External validity",
-      "C": "Content validity",
-      "D": "Internal validity"
+      "A": "Threatening to withhold routine nursing care if the patient refuses to join",
+      "B": "Explaining both the potential risks and benefits of the study clearly",
+      "C": "Ensuring the patient knows they can withdraw at any time without penalty",
+      "D": "Allowing adequate time for the patient to ask questions about the project"
     },
-    "answer": "D",
-    "explanation": "Internal validity examines whether the experimental treatment truly caused the outcome, which is directly undermined by confounding variables. [learn more](GNS224_U1_T4#GNS224_U1_T4_h7)"
-  },
-  {
-    "question_id": "GNS224_U1_T4_h8_q1",
-    "heading_id": "GNS224_U1_T4_h8",
-    "article_id": "GNS224_U1_T4",
-    "topic_id": "GNS224_U1_T4",
-    "difficulty": "recall",
-    "question": "What is the primary purpose of securing informed consent in quantitative research?",
-    "options": {
-      "A": "To guarantee that participants will receive financial compensation",
-      "B": "To legally protect the hospital from all clinical malpractice claims",
-      "C": "To prevent patients from dropping out of experimental treatments",
-      "D": "To ensure participants understand risks and voluntarily agree to join"
-    },
-    "answer": "D",
-    "explanation": "Informed consent operationalises participant autonomy by ensuring full disclosure of study details before voluntary enrollment. [learn more](GNS224_U1_T4#GNS224_U1_T4_h8)"
-  },
-  {
-    "question_id": "GNS224_U1_T4_h8_q2",
-    "heading_id": "GNS224_U1_T4_h8",
-    "article_id": "GNS224_U1_T4",
-    "topic_id": "GNS224_U1_T4",
-    "difficulty": "understanding",
-    "question": "Which of the following groups is typically classified as vulnerable and requires special ethical protection in nursing studies?",
-    "options": {
-      "A": "Healthy adult university students volunteering for a survey",
-      "B": "Experienced clinical nursing lecturers grading student papers",
-      "C": "Licensed professional registered nurses working day shifts",
-      "D": "Adult psychiatric patients admitted to an inpatient ward"
-    },
-    "answer": "D",
-    "explanation": "Vulnerable populations include individuals with diminished autonomy or compromised cognitive capacity, such as psychiatric patients, requiring heightened safeguards. [learn more](GNS224_U1_T4#GNS224_U1_T4_h8)"
+    "answer": "A",
+    "explanation": "Research participation must always be 100% voluntary. You can never use basic patient care as a weapon or a tool for coercion!"
   }
 ]
