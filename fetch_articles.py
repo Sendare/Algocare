@@ -15,7 +15,8 @@ STATE_PATH = "state/generation_state.json"
 # 3 Gemini calls per topic now (article/questions, engagement, QA) instead of
 # 1 - each topic takes roughly 3x as long, so fewer topics complete per run.
 # Bumped from 180s to give headroom under the 6-minute workflow timeout.
-MAX_RUNTIME_SECONDS = 190
+MAX_RUNTIME_SECONDS = 480 
+
 
 
 LEARN_MORE_TOKEN = "[[LEARN_MORE]]"
