@@ -5,15 +5,15 @@
     "article_id": "GST114_U2_T19",
     "topic_id": "GST114_U2_T19",
     "difficulty": "recall",
-    "question": "What direction of inquiry best describes a case-control study?",
+    "question": "In a case-control study, how do researchers look at the timeline of events?",
     "options": {
-      "A": "Prospective inquiry moving from cause to effect",
-      "B": "Experimental inquiry manipulating the exposure status",
-      "C": "Retrospective inquiry moving from effect to cause",
-      "D": "Cross-sectional inquiry measuring exposure and outcome simultaneously"
+      "A": "Backward from effect to cause",
+      "B": "Sideways from cause to cause",
+      "C": "Forward from cause to effect",
+      "D": "Upward from effect to effect"
     },
-    "answer": "C",
-    "explanation": "Case-control studies begin with individuals who already have the disease or outcome and look backward in time to determine their prior exposure history. [learn more](GST114_U2_T19#GST114_U2_T19_h1)"
+    "answer": "A",
+    "explanation": "Think of it like being a detective! You start with people who already have the health issue (the effect) and look backward in time to find out what caused it."
   },
   {
     "question_id": "GST114_U2_T19_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GST114_U2_T19",
     "topic_id": "GST114_U2_T19",
     "difficulty": "understanding",
-    "question": "Why are case-control designs particularly useful during acute disease outbreaks in resource-limited settings?",
+    "question": "Who makes up the control group in a case-control study?",
     "options": {
-      "A": "They can be conducted quickly with relatively small sample sizes",
-      "B": "They prove the absolute biological mechanism of pathogen transmission",
-      "C": "They require long-term follow-up of healthy populations",
-      "D": "They completely eliminate all forms of measurement bias"
+      "A": "People who refuse to participate",
+      "B": "People with the disease",
+      "C": "People without the disease",
+      "D": "People currently receiving treatment"
     },
-    "answer": "A",
-    "explanation": "Because cases are already identified and available, retrospective designs save time and financial resources during public health emergencies. [learn more](GST114_U2_T19#GST114_U2_T19_h1)"
+    "answer": "C",
+    "explanation": "You nailed it! The control group acts as our healthy comparison baseline so we can see what was different about the people who got sick."
   },
   {
     "question_id": "GST114_U2_T19_h2_q1",
@@ -37,63 +37,63 @@
     "article_id": "GST114_U2_T19",
     "topic_id": "GST114_U2_T19",
     "difficulty": "recall",
-    "question": "What primary characteristic must a control group possess in a valid case-control study?",
+    "question": "What is the main requirement for people chosen as 'cases' in a study?",
     "options": {
-      "A": "They must have a higher socioeconomic status than the cases",
-      "B": "They must already show early, subclinical signs of the disease",
-      "C": "They must be completely immune to the infectious agent",
-      "D": "They must come from the same source population as the cases"
+      "A": "They must be free of symptoms",
+      "B": "They must be medical professionals",
+      "C": "They must clearly have the disease",
+      "D": "They must volunteer for the study"
     },
-    "answer": "D",
-    "explanation": "Controls must be representative of the population that generated the cases to prevent selection bias from distorting the association. [learn more](GST114_U2_T19#GST114_U2_T19_h2)"
+    "answer": "C",
+    "explanation": "Spot on. To be a 'case', the person must actually meet the medical criteria for the specific condition we are investigating."
   },
   {
     "question_id": "GST114_U2_T19_h2_q2",
     "heading_id": "GST114_U2_T19_h2",
     "article_id": "GST114_U2_T19",
     "topic_id": "GST114_U2_T19",
-    "difficulty": "understanding",
-    "question": "A researcher selects hospital patients with severe malaria as cases and healthy neighborhood volunteers as controls. What major methodological pitfall does this introduce?",
+    "difficulty": "application",
+    "question": "During a hospital food poisoning investigation, who makes the best control group?",
     "options": {
-      "A": "Reverse causality where the outcome causes the exposure",
-      "B": "Information bias resulting from inaccurate laboratory equipment",
-      "C": "Selection bias due to differing baseline health-seeking behaviors",
-      "D": "Confounding by age and sex in every participant"
+      "A": "Healthy volunteers recruited from a local university far away from the hospital",
+      "B": "Patients admitted to the same hospital who did not eat the contaminated food and have no gastrointestinal illness",
+      "C": "Patients who have recovered from the same food poisoning outbreak",
+      "D": "Doctors and nurses who worked in the hospital kitchen"
     },
-    "answer": "C",
-    "explanation": "Hospital cases and community controls often differ systematically in healthcare access and underlying health status, threatening study validity. [learn more](GST114_U2_T19#GST114_U2_T19_h2)"
+    "answer": "B",
+    "explanation": "Great choice! Good controls come from the same environment and background population, but are thankfully free of the illness."
   },
   {
     "question_id": "GST114_U2_T19_h3_q1",
     "heading_id": "GST114_U2_T19_h3",
     "article_id": "GST114_U2_T19",
     "topic_id": "GST114_U2_T19",
-    "difficulty": "recall",
-    "question": "What is the primary danger of recall bias in retrospective exposure assessment?",
+    "difficulty": "understanding",
+    "question": "What do we mean by 'recall bias' in a study?",
     "options": {
-      "A": "Cases remember past exposures differently than healthy controls",
-      "B": "Researchers accidentally reveal group allocations to participants",
-      "C": "Study subjects refuse to participate in hospital interviews",
-      "D": "Laboratory instruments misidentify the causative microorganism"
+      "A": "When laboratory equipment fails to measure exposure accurately",
+      "B": "When researchers forget to record patient names",
+      "C": "When participants drop out before the study ends",
+      "D": "When sick patients remember past exposures differently than healthy controls"
     },
-    "answer": "A",
-    "explanation": "Individuals suffering from a serious illness often search their memories more intensively for causes, leading to differential reporting compared to healthy controls. [learn more](GST114_U2_T19#GST114_U2_T19_h3)"
+    "answer": "D",
+    "explanation": "Exactly. When people get sick, they naturally try hard to figure out why, which can make them remember past events differently than healthy folks do."
   },
   {
     "question_id": "GST114_U2_T19_h3_q2",
     "heading_id": "GST114_U2_T19_h3",
     "article_id": "GST114_U2_T19",
     "topic_id": "GST114_U2_T19",
-    "difficulty": "understanding",
-    "question": "How do researchers best protect against interviewer bias during data collection in a case-control study?",
+    "difficulty": "recall",
+    "question": "Which method is commonly used to find out about past exposures in a case-control study?",
     "options": {
-      "A": "Providing leading questions to ensure participants remember the exposure",
-      "B": "Conducting interviews only after the data analysis phase is completed",
-      "C": "Allowing interviewers to choose which patients fit the diagnostic criteria",
-      "D": "Using blinded interviewers who do not know whether a participant is a case or a control"
+      "A": "Surgical intervention",
+      "B": "Randomized clinical trials",
+      "C": "Direct laboratory observation of future events",
+      "D": "Interviews and questionnaires"
     },
     "answer": "D",
-    "explanation": "Blinding the personnel collecting data prevents them from subconsciously guiding or probing cases and controls differently. [learn more](GST114_U2_T19#GST114_U2_T19_h3)"
+    "explanation": "Spot on! Since we are looking backward, we rely heavily on talking to patients and reviewing their past records using questionnaires and interviews."
   },
   {
     "question_id": "GST114_U2_T19_h4_q1",
@@ -101,31 +101,31 @@
     "article_id": "GST114_U2_T19",
     "topic_id": "GST114_U2_T19",
     "difficulty": "recall",
-    "question": "What does an odds ratio of 1.0 signify in a case-control study?",
+    "question": "What statistical measurement is primarily used in case-control studies?",
     "options": {
-      "A": "The exposure is a major protective factor against illness",
-      "B": "The study sample size is too small to yield results",
-      "C": "The researchers made an error in diagnostic classification",
-      "D": "The exposure has no association with the disease"
+      "A": "Incidence rate",
+      "B": "Odds ratio",
+      "C": "Attributable risk",
+      "D": "Relative risk"
     },
-    "answer": "D",
-    "explanation": "An odds ratio of 1 means the odds of exposure among cases are identical to the odds of exposure among controls. [learn more](GST114_U2_T19#GST114_U2_T19_h4)"
+    "answer": "B",
+    "explanation": "You got it! Because we start by looking at who is sick versus healthy, we calculate the 'odds ratio' to check for a link."
   },
   {
     "question_id": "GST114_U2_T19_h4_q2",
     "heading_id": "GST114_U2_T19_h4",
     "article_id": "GST114_U2_T19",
     "topic_id": "GST114_U2_T19",
-    "difficulty": "application",
-    "question": "In a study investigating a foodborne bacterial outbreak, the calculated odds ratio for eating contaminated egg salad is 4.5. What is the correct interpretation?",
+    "difficulty": "understanding",
+    "question": "What does an odds ratio of greater than 1 tell us?",
     "options": {
-      "A": "People who ate the egg salad had 4.5 times higher odds of developing the illness",
-      "B": "There is a 4.5 percent chance that the outbreak was caused by bacteria",
-      "C": "The controls were 4.5 times more likely to be exposed than the cases",
-      "D": "The incidence rate of the disease in the population is exactly 4.5 percent"
+      "A": "The exposure is a risk factor for the disease",
+      "B": "There is no association between exposure and disease",
+      "C": "The exposure protects against the disease",
+      "D": "The study results are completely invalid"
     },
     "answer": "A",
-    "explanation": "An odds ratio of 4.5 indicates that the exposure is strongly associated with higher odds of contracting the condition. [learn more](GST114_U2_T19#GST114_U2_T19_h4)"
+    "explanation": "Brilliant! An odds ratio above 1 means the exposure showed up more often in the sick group, pointing to it as a potential risk factor."
   },
   {
     "question_id": "GST114_U2_T19_h5_q1",
@@ -133,15 +133,15 @@
     "article_id": "GST114_U2_T19",
     "topic_id": "GST114_U2_T19",
     "difficulty": "recall",
-    "question": "What defines a confounding variable in an epidemiological study?",
+    "question": "What is a confounding variable?",
     "options": {
-      "A": "An error made by the laboratory technician when reading diagnostic plates",
-      "B": "A measurement tool that yields different values on repeated testing",
-      "C": "A factor associated with both the exposure and the outcome, distorting the true association",
-      "D": "A deliberate intervention introduced by the investigator to change outcomes"
+      "A": "A measurement error made by laboratory equipment",
+      "B": "An outside factor related to both exposure and disease",
+      "C": "The main exposure being studied by the nurse",
+      "D": "A deliberate intervention created by the research team"
     },
-    "answer": "C",
-    "explanation": "Confounders create a false association or mask a real one because they independently relate to both the suspected risk factor and the disease. [learn more](GST114_U2_T19#GST114_U2_T19_h5)"
+    "answer": "B",
+    "explanation": "Think of a confounder as a sneaky third factor that messes with our results by hiding the true relationship between our exposure and disease."
   },
   {
     "question_id": "GST114_U2_T19_h5_q2",
@@ -149,46 +149,46 @@
     "article_id": "GST114_U2_T19",
     "topic_id": "GST114_U2_T19",
     "difficulty": "understanding",
-    "question": "Which strategy is most effective for controlling for known confounding variables during the design phase of a case-control study?",
+    "question": "Which of these is NOT a good way to handle confounding when designing a study?",
     "options": {
-      "A": "Switching the study design from retrospective to prospective cohort",
-      "B": "Increasing the overall sample size by a factor of ten",
-      "C": "Matching controls to cases based on confounding characteristics like age and sex",
-      "D": "Excluding all participants who develop symptoms during the study"
+      "A": "Matching cases and controls for confounding traits",
+      "B": "Intentionally falsifying data to match the hypothesis",
+      "C": "Randomizing participants if possible",
+      "D": "Restricting the study to specific age groups"
     },
-    "answer": "C",
-    "explanation": "Matching ensures that the case and control groups are comparable regarding potential confounders, neutralizing their distorting effect. [learn more](GST114_U2_T19#GST114_U2_T19_h5)"
+    "answer": "B",
+    "explanation": "Never fake data! Falsifying results is serious scientific misconduct. We control confounders through smart study design instead."
   },
   {
     "question_id": "GST114_U2_T19_h6_q1",
     "heading_id": "GST114_U2_T19_h6",
     "article_id": "GST114_U2_T19",
     "topic_id": "GST114_U2_T19",
-    "difficulty": "recall",
-    "question": "Which of the following is NOT a recognized advantage of a case-control study?",
+    "difficulty": "understanding",
+    "question": "When is a case-control study most useful to carry out?",
     "options": {
-      "A": "They can definitively establish the exact incidence rate of a disease",
-      "B": "They require fewer study participants than large cohort studies",
-      "C": "They are relatively inexpensive and quick to conduct",
-      "D": "They are excellent for studying rare diseases with long latency periods"
+      "A": "When measuring the exact incidence rate of a condition",
+      "B": "When investigating a rare disease",
+      "C": "When studying a very rare exposure",
+      "D": "When proving absolute cause and effect"
     },
-    "answer": "A",
-    "explanation": "Because case-control studies start with diseased and non-diseased groups, they cannot calculate absolute disease incidence or prevalence. [learn more](GST114_U2_T19#GST114_U2_T19_h6)"
+    "answer": "B",
+    "explanation": "Spot on! Since these studies start with people who already have the condition, they are brilliant for tracking down rare illnesses."
   },
   {
     "question_id": "GST114_U2_T19_h6_q2",
     "heading_id": "GST114_U2_T19_h6",
     "article_id": "GST114_U2_T19",
     "topic_id": "GST114_U2_T19",
-    "difficulty": "understanding",
-    "question": "Why is establishing a clear temporal sequence often challenging in a retrospective case-control design?",
+    "difficulty": "recall",
+    "question": "What is one major limitation of case-control studies?",
     "options": {
-      "A": "Laboratory tests take too long to process in rural health clinics",
-      "B": "Participants change their residential addresses during the investigation",
-      "C": "Exposure and disease status are assessed after both have already occurred",
-      "D": "Control subjects refuse to answer questions about their medical history"
+      "A": "They cost more money than clinical trials",
+      "B": "They cannot include human subjects",
+      "C": "They take many decades to complete",
+      "D": "They are susceptible to recall bias"
     },
-    "answer": "C",
-    "explanation": "Looking backward makes it difficult at times to prove conclusively whether the exposure preceded the onset of disease or resulted from early subclinical changes. [learn more](GST114_U2_T19#GST114_U2_T19_h6)"
+    "answer": "D",
+    "explanation": "You got it! Because we rely on people remembering the past, honest memory gaps can lead to recall bias."
   }
 ]
