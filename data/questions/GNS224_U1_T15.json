@@ -5,15 +5,15 @@
     "article_id": "GNS224_U1_T15",
     "topic_id": "GNS224_U1_T15",
     "difficulty": "recall",
-    "question": "What is the primary starting point for participants in a prospective research design?",
+    "question": "What is the primary direction of time in a prospective research design?",
     "options": {
-      "A": "They must be completely free of the outcome being studied.",
-      "B": "They must already have the clinical outcome of interest diagnosed.",
-      "C": "They must have completed their hospital treatment regimen.",
-      "D": "They must be randomly assigned to retrospective chart review pools."
+      "A": "Moving backward from the present into the past",
+      "B": "Comparing two different time periods in history",
+      "C": "Moving forward from the present into the future",
+      "D": "Examining past medical records for current outcomes"
     },
-    "answer": "A",
-    "explanation": "Prospective studies begin by assembling a cohort of individuals who do not yet have the outcome of interest, allowing researchers to track them forward until the outcome develops. [learn more](GNS224_U1_T15#GNS224_U1_T15_h1)"
+    "answer": "C",
+    "explanation": "Prospective studies are designed to follow participants forward in time to observe future outcomes. [learn more](GNS224_U1_T15#GNS224_U1_T15_h1)"
   },
   {
     "question_id": "GNS224_U1_T15_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GNS224_U1_T15",
     "topic_id": "GNS224_U1_T15",
     "difficulty": "understanding",
-    "question": "How does a prospective study fundamentally differ from a retrospective study in terms of temporal orientation?",
+    "question": "How does a prospective study differ fundamentally from a retrospective study?",
     "options": {
-      "A": "Prospective studies analyze historical records to find past exposures.",
-      "B": "Prospective studies look forward from present exposure to future outcome.",
-      "C": "Prospective studies occur entirely within a simulated laboratory setting.",
-      "D": "Prospective studies eliminate the need for any longitudinal participant contact."
+      "A": "Prospective studies look forward at future events, while retrospective studies look backward at past records",
+      "B": "Prospective studies involve no data collection, while retrospective studies involve heavy data collection",
+      "C": "Prospective studies are always qualitative, while retrospective studies are always quantitative",
+      "D": "Prospective studies use animal subjects, while retrospective studies only use human patients"
     },
-    "answer": "B",
-    "explanation": "Temporal orientation defines the direction of time in research, where prospective designs move forward from the present baseline to future events. [learn more](GNS224_U1_T15#GNS224_U1_T15_h1)"
+    "answer": "A",
+    "explanation": "The core difference lies in the temporal orientation, with prospective starting in the present and moving forward, and retrospective starting in the present and looking backward. [learn more](GNS224_U1_T15#GNS224_U1_T15_h1)"
   },
   {
     "question_id": "GNS224_U1_T15_h2_q1",
@@ -37,15 +37,15 @@
     "article_id": "GNS224_U1_T15",
     "topic_id": "GNS224_U1_T15",
     "difficulty": "recall",
-    "question": "Why is establishing a clear chronological order of events critical in prospective research?",
+    "question": "What is the most common type of prospective observational study used in healthcare research?",
     "options": {
-      "A": "It allows researchers to skip statistical analysis phases.",
-      "B": "It is required to strengthen arguments for causality.",
-      "C": "It eliminates all potential confounding variables automatically.",
-      "D": "It guarantees zero participant attrition over time."
+      "A": "Cross-sectional survey",
+      "B": "Cohort study",
+      "C": "Historical review",
+      "D": "Case report"
     },
     "answer": "B",
-    "explanation": "Demonstrating that the exposure definitely occurred before the outcome helps confirm cause-and-effect relationships. [learn more](GNS224_U1_T15#GNS224_U1_T15_h2)"
+    "explanation": "Cohort studies follow groups of participants over time to observe the development of specific health outcomes. [learn more](GNS224_U1_T15#GNS224_U1_T15_h2)"
   },
   {
     "question_id": "GNS224_U1_T15_h2_q2",
@@ -53,47 +53,47 @@
     "article_id": "GNS224_U1_T15",
     "topic_id": "GNS224_U1_T15",
     "difficulty": "understanding",
-    "question": "What structural component is inherently required by the temporal orientation of prospective designs?",
+    "question": "Why is a randomized controlled trial considered a prospective design?",
     "options": {
-      "A": "Retrospective auditing of deceased patient files",
-      "B": "Longitudinal tracking of participants over time",
-      "C": "Immediate cross-sectional data compilation",
-      "D": "Complete blinding of all clinical nursing staff"
+      "A": "It applies an intervention in the present and follows participants forward to measure the results",
+      "B": "It looks only at events that happened before the study started",
+      "C": "It avoids following patients over time by using computer simulations",
+      "D": "It gathers all of its data from hospital files written ten years ago"
     },
-    "answer": "B",
-    "explanation": "Because researchers look forward from the present to the future, they must follow participants longitudinally to capture outcomes as they happen. [learn more](GNS224_U1_T15#GNS224_U1_T15_h2)"
+    "answer": "A",
+    "explanation": "Clinical trials require a forward-looking timeline to measure how patients respond to a newly introduced treatment or nursing intervention. [learn more](GNS224_U1_T15#GNS224_U1_T15_h2)"
   },
   {
     "question_id": "GNS224_U1_T15_h3_q1",
     "heading_id": "GNS224_U1_T15_h3",
     "article_id": "GNS224_U1_T15",
     "topic_id": "GNS224_U1_T15",
-    "difficulty": "recall",
-    "question": "What distinguishes a clinical trial from an observational prospective cohort study?",
+    "difficulty": "understanding",
+    "question": "Why is recall bias significantly reduced in prospective studies?",
     "options": {
-      "A": "Clinical trials exclude human participants entirely.",
-      "B": "Clinical trials only look backward at existing medical charts.",
-      "C": "Clinical trials involve active intervention by the researcher.",
-      "D": "Clinical trials never require follow-up periods with patients."
+      "A": "Researchers only interview family members instead of the actual patients",
+      "B": "Medical records are automatically encrypted to prevent human memory errors",
+      "C": "Data is collected in real-time rather than asking people to remember past events",
+      "D": "Participants are hypnotized to forget their previous medical history"
     },
     "answer": "C",
-    "explanation": "While observational cohort studies only watch and measure variables, clinical trials introduce an active treatment or nursing intervention. [learn more](GNS224_U1_T15#GNS224_U1_T15_h3)"
+    "explanation": "Because information is gathered as events happen, researchers do not depend on flawed human memory of past exposures. [learn more](GNS224_U1_T15#GNS224_U1_T15_h3)"
   },
   {
     "question_id": "GNS224_U1_T15_h3_q2",
     "heading_id": "GNS224_U1_T15_h3",
     "article_id": "GNS224_U1_T15",
     "topic_id": "GNS224_U1_T15",
-    "difficulty": "understanding",
-    "question": "A nursing researcher compares the rate of pressure ulcer development between patients receiving a new specialized mattress and those on standard hospital foam over a six-month period. What type of study is this?",
+    "difficulty": "application",
+    "question": "A nurse researcher wants to prove that a new wound care protocol prevents infections better than the old method without relying on messy old records. Which study design should be chosen?",
     "options": {
-      "A": "A prospective experimental trial",
-      "B": "A cross-sectional survey",
-      "C": "A retrospective audit",
-      "D": "A qualitative phenomenological study"
+      "A": "Prospective design",
+      "B": "Cross-sectional snapshot",
+      "C": "Case-control past analysis",
+      "D": "Retrospective chart review"
     },
     "answer": "A",
-    "explanation": "The researcher actively assigns an intervention and follows patients forward in time to measure an incoming health outcome, fitting a prospective trial model. [learn more](GNS224_U1_T15#GNS224_U1_T15_h3)"
+    "explanation": "A prospective design allows the researcher to implement the protocol today and record infection rates moving forward with high accuracy. [learn more](GNS224_U1_T15#GNS224_U1_T15_h3)"
   },
   {
     "question_id": "GNS224_U1_T15_h4_q1",
@@ -101,15 +101,15 @@
     "article_id": "GNS224_U1_T15",
     "topic_id": "GNS224_U1_T15",
     "difficulty": "recall",
-    "question": "Which type of bias is primarily minimized by collecting data in real time during a prospective study?",
+    "question": "What is a major reason why prospective studies are poorly suited for investigating rare diseases?",
     "options": {
-      "A": "Selection bias",
-      "B": "Attrition bias",
-      "C": "Publication bias",
-      "D": "Recall bias"
+      "A": "Patients with rare diseases refuse to answer questionnaires",
+      "B": "Ethics committees completely forbid studying rare conditions prospectively",
+      "C": "Researchers would need to follow an enormous number of people for many years to see enough cases",
+      "D": "Computers cannot store data collected over a long period"
     },
-    "answer": "D",
-    "explanation": "Real-time data collection prevents reliance on participant memory, thereby reducing the errors associated with trying to remember past exposures or symptoms. [learn more](GNS224_U1_T15#GNS224_U1_T15_h4)"
+    "answer": "C",
+    "explanation": "Rare diseases occur so infrequently that a prospective study would require an unfeasibly large sample size and long timeframe to capture enough events. [learn more](GNS224_U1_T15#GNS224_U1_T15_h4)"
   },
   {
     "question_id": "GNS224_U1_T15_h4_q2",
@@ -117,15 +117,15 @@
     "article_id": "GNS224_U1_T15",
     "topic_id": "GNS224_U1_T15",
     "difficulty": "understanding",
-    "question": "Why do prospective designs yield stronger empirical evidence for calculating risk compared to retrospective designs?",
+    "question": "What does 'loss to follow-up' mean in the context of a longitudinal prospective study?",
     "options": {
-      "A": "They cost nothing to execute in a busy healthcare setting.",
-      "B": "They bypass the need for institutional ethics committee review.",
-      "C": "They completely eliminate human error in clinical documentation.",
-      "D": "They allow the direct measurement of true incidence rates."
+      "A": "Nurses forget to check the patient's vital signs during a routine shift",
+      "B": "Participants drop out, move away, or stop responding before the research is completed",
+      "C": "Researchers accidentally delete all computer files from the first day of the study",
+      "D": "The hospital misplaces the budget allocated for patient transportation"
     },
-    "answer": "D",
-    "explanation": "Following disease-free people forward allows researchers to count new cases as they arise, accurately calculating true incidence and risk. [learn more](GNS224_U1_T15#GNS224_U1_T15_h4)"
+    "answer": "B",
+    "explanation": "Attrition threatens study validity when participants who leave differ systematically from those who stay until the final evaluation. [learn more](GNS224_U1_T15#GNS224_U1_T15_h4)"
   },
   {
     "question_id": "GNS224_U1_T15_h5_q1",
@@ -133,15 +133,15 @@
     "article_id": "GNS224_U1_T15",
     "topic_id": "GNS224_U1_T15",
     "difficulty": "recall",
-    "question": "What term describes the loss of study participants over the duration of a long-term prospective research project?",
+    "question": "Which strategy is most effective for reducing participant drop-out in a long-term prospective nursing study?",
     "options": {
-      "A": "Stratification",
-      "B": "Attrition",
-      "C": "Randomization",
-      "D": "Blinding"
+      "A": "Changing the research topic every month without telling the participants",
+      "B": "Restricting participant access to their own health records",
+      "C": "Punishing patients who miss a single clinical check-up appointment",
+      "D": "Maintaining regular communication and providing appointment reminders"
     },
-    "answer": "B",
-    "explanation": "Participant drop-out, relocation, or death over time is known as attrition, which poses a major challenge to maintaining cohort validity. [learn more](GNS224_U1_T15#GNS224_U1_T15_h5)"
+    "answer": "D",
+    "explanation": "Consistent contact and thoughtful reminders help keep participants committed and reachable throughout a long study. [learn more](GNS224_U1_T15#GNS224_U1_T15_h5)"
   },
   {
     "question_id": "GNS224_U1_T15_h5_q2",
@@ -149,15 +149,15 @@
     "article_id": "GNS224_U1_T15",
     "topic_id": "GNS224_U1_T15",
     "difficulty": "understanding",
-    "question": "Why are prospective cohort designs generally inefficient for investigating rare health conditions?",
+    "question": "Why is gathering comprehensive baseline data essential at the very start of a prospective study?",
     "options": {
-      "A": "Rare diseases cannot be diagnosed using modern clinical equipment.",
-      "B": "Ethics committees automatically reject studies involving rare illnesses.",
-      "C": "Patients with rare conditions refuse to participate in research.",
-      "D": "They require impractically massive sample sizes and extensive time."
+      "A": "It eliminates the need for any further follow-up appointments",
+      "B": "It allows researchers to alter the inclusion criteria midway through the study",
+      "C": "It establishes a clear, accurate starting point to compare against future changes",
+      "D": "It guarantees that no participants will ever drop out of the project"
     },
-    "answer": "D",
-    "explanation": "Because rare conditions occur infrequently, following a standard-sized cohort forward might yield very few or zero cases, wasting time and resources. [learn more](GNS224_U1_T15#GNS224_U1_T15_h5)"
+    "answer": "C",
+    "explanation": "Accurate baseline measurements are necessary to accurately measure how much change occurs over time in the subsequent follow-up phases. [learn more](GNS224_U1_T15#GNS224_U1_T15_h5)"
   },
   {
     "question_id": "GNS224_U1_T15_h6_q1",
@@ -165,15 +165,15 @@
     "article_id": "GNS224_U1_T15",
     "topic_id": "GNS224_U1_T15",
     "difficulty": "recall",
-    "question": "What is a practical strategy to minimize participant drop-out during scheduled follow-up visits?",
+    "question": "What key right must be explicitly explained to participants before they enter a prospective study?",
     "options": {
-      "A": "Keeping participant contact details strictly confidential from staff",
-      "B": "Reducing the frequency of data collection points to zero",
-      "C": "Withholding financial incentives until the study concludes",
-      "D": "Aligning study follow-ups with routine clinical appointments"
+      "A": "The obligation to pay for any specialized diagnostic tests",
+      "B": "The requirement to remain in the project until final publication",
+      "C": "The promise that no adverse events will ever occur",
+      "D": "The right to withdraw from the study at any time without penalty"
     },
     "answer": "D",
-    "explanation": "Coordinating research visits with regular healthcare visits reduces the extra travel burden and inconvenience for participants. [learn more](GNS224_U1_T15#GNS224_U1_T15_h6)"
+    "explanation": "Voluntary participation means individuals can exit a research study whenever they choose without losing access to standard medical care. [learn more](GNS224_U1_T15#GNS224_U1_T15_h6)"
   },
   {
     "question_id": "GNS224_U1_T15_h6_q2",
@@ -181,78 +181,46 @@
     "article_id": "GNS224_U1_T15",
     "topic_id": "GNS224_U1_T15",
     "difficulty": "understanding",
-    "question": "The main purpose of collecting detailed next-of-kin information at baseline in a prospective study is to:",
+    "question": "What ethical action must nurse researchers take if an intervention being tested in a prospective trial proves to be significantly harmful?",
     "options": {
-      "A": "prevent loss to follow-up caused by participant relocation.",
-      "B": "secure direct financial sponsorship for laboratory tests.",
-      "C": "replace the primary participant if they become too busy.",
-      "D": "evaluate the genetic predisposition of the family for disease."
+      "A": "Ask participants to sign a waiver accepting the new dangers",
+      "B": "Hide the adverse results until the final academic paper is published",
+      "C": "Continue the trial until the originally scheduled end date anyway",
+      "D": "Stop the trial immediately to protect participants from further harm"
     },
-    "answer": "A",
-    "explanation": "Alternate contact points like next-of-kin help researchers trace participants who move or change phone numbers, mitigating attrition. [learn more](GNS224_U1_T15#GNS224_U1_T15_h6)"
+    "answer": "D",
+    "explanation": "Researcher safety oversight demands that patient welfare always supersedes study completion if unexpected dangers emerge. [learn more](GNS224_U1_T15#GNS224_U1_T15_h6)"
   },
   {
     "question_id": "GNS224_U1_T15_h7_q1",
     "heading_id": "GNS224_U1_T15_h7",
     "article_id": "GNS224_U1_T15",
     "topic_id": "GNS224_U1_T15",
-    "difficulty": "recall",
-    "question": "Which statement best describes informed consent in the context of a long-term prospective study?",
+    "difficulty": "understanding",
+    "question": "How do prospective study findings directly benefit frontline nurses working in clinical wards?",
     "options": {
-      "A": "It is handled entirely by hospital management boards.",
-      "B": "It is an ongoing process that requires continuous dialogue.",
-      "C": "It becomes legally void once the first data point is logged.",
-      "D": "It is a single administrative task completed only at baseline."
+      "A": "By providing historical background on ancient medical discoveries",
+      "B": "By eliminating the need for patient assessments during night shifts",
+      "C": "By replacing all bedside charting with automated computer algorithms",
+      "D": "By helping identify high-risk patients early so preventative nursing care can be applied"
     },
-    "answer": "B",
-    "explanation": "Because prospective research unfolds over time, participants must be kept informed of new developments or risks throughout the study duration. [learn more](GNS224_U1_T15#GNS224_U1_T15_h7)"
+    "answer": "D",
+    "explanation": "Prospective research uncovers risk factors that frontline nurses use to spot vulnerable patients and prevent adverse hospital events. [learn more](GNS224_U1_T15#GNS224_U1_T15_h7)"
   },
   {
     "question_id": "GNS224_U1_T15_h7_q2",
     "heading_id": "GNS224_U1_T15_h7",
     "article_id": "GNS224_U1_T15",
     "topic_id": "GNS224_U1_T15",
-    "difficulty": "understanding",
-    "question": "What ethical action must researchers take if an experimental intervention proves exceptionally beneficial midway through a prospective clinical trial?",
+    "difficulty": "application",
+    "question": "A head nurse wants to know if a newly introduced fall-prevention bundle actually decreases patient falls over the next year on the surgical ward. Which action represents applying prospective thinking?",
     "options": {
-      "A": "Keep the intervention secret until the formal study deadline.",
-      "B": "Immediately terminate the study and publish without results.",
-      "C": "Increase the financial cost of the medication for participants.",
-      "D": "Provide the beneficial treatment to the control group."
+      "A": "Implementing the bundle today and tracking fall rates prospectively over the coming year",
+      "B": "Interviewing staff nurses about falls that occurred before they were born",
+      "C": "Asking elderly patients to guess why they might fall in the future",
+      "D": "Looking up incident reports from five years ago to see how many people slipped"
     },
-    "answer": "D",
-    "explanation": "Ethical principles dictate that no participant should be withheld from a clearly life-saving or superior treatment once its efficacy is known. [learn more](GNS224_U1_T15#GNS224_U1_T15_h7)"
-  },
-  {
-    "question_id": "GNS224_U1_T15_h8_q1",
-    "heading_id": "GNS224_U1_T15_h8",
-    "article_id": "GNS224_U1_T15",
-    "topic_id": "GNS224_U1_T15",
-    "difficulty": "recall",
-    "question": "How do prospective study findings primarily contribute to clinical nursing practice?",
-    "options": {
-      "A": "By replacing hospital administrative staff with automated software",
-      "B": "By eliminating the need for individualized nursing care plans",
-      "C": "By focusing strictly on historical medical billing audits",
-      "D": "By providing evidence to support proactive and preventative care"
-    },
-    "answer": "D",
-    "explanation": "Uncovering risk factors and trajectories allows nurses to shift from reactive treatment to proactive prevention and targeted interventions. [learn more](GNS224_U1_T15#GNS224_U1_T15_h8)"
-  },
-  {
-    "question_id": "GNS224_U1_T15_h8_q2",
-    "heading_id": "GNS224_U1_T15_h8",
-    "article_id": "GNS224_U1_T15",
-    "topic_id": "GNS224_U1_T15",
-    "difficulty": "understanding",
-    "question": "Which scenario best demonstrates the application of prospective research in a hospital nursing unit?",
-    "options": {
-      "A": "Surveying nurses once about their current stress levels during a single shift.",
-      "B": "Interviewing a single patient about their childhood memories of chronic illness.",
-      "C": "Tracking a cohort of newly admitted patients forward to see which nursing care bundle prevents falls best.",
-      "D": "Reviewing old admission charts from five years ago to count how many patients had diabetes."
-    },
-    "answer": "C",
-    "explanation": "Following patients forward to observe the impact of a specific nursing intervention on an incoming health outcome exemplifies prospective clinical application. [learn more](GNS224_U1_T15#GNS224_U1_T15_h8)"
+    "answer": "A",
+    "explanation": "Applying a measure today and observing future outcomes embodies the core methodology of prospective clinical research. [learn more](GNS224_U1_T15#GNS224_U1_T15_h7)"
   }
 ]
