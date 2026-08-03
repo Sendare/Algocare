@@ -5,15 +5,15 @@
     "article_id": "GNS216_U6_T2",
     "topic_id": "GNS216_U6_T2",
     "difficulty": "recall",
-    "question": "What is the primary genetic material found inside the HIV virion?",
+    "question": "What is the main genetic material found inside the HIV virus?",
     "options": {
-      "A": "Double-stranded RNA",
-      "B": "Double-stranded DNA",
-      "C": "Single-stranded DNA",
-      "D": "Single-stranded RNA"
+      "A": "Ribosomal RNA",
+      "B": "Plasmid DNA",
+      "C": "Single-stranded RNA",
+      "D": "Double-stranded DNA"
     },
-    "answer": "D",
-    "explanation": "HIV is a retrovirus that packages two identical copies of single-stranded RNA within its central capsid. [learn more](GNS216_U6_T2#GNS216_U6_T2_h1)"
+    "answer": "C",
+    "explanation": "Think of HIV as an RNA virus! It carries two strands of single-stranded RNA, which it uses to make DNA once inside your body's cells. You've got this! [learn more](GNS216_U6_T2#GNS216_U6_T2_h1)"
   },
   {
     "question_id": "GNS216_U6_T2_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GNS216_U6_T2",
     "topic_id": "GNS216_U6_T2",
     "difficulty": "understanding",
-    "question": "Which viral glycoprotein is directly responsible for attaching to receptors on the surface of host immune cells?",
+    "question": "What is the main job of the gp120 surface proteins on HIV?",
     "options": {
-      "A": "gp120",
-      "B": "Reverse transcriptase",
-      "C": "Protease",
-      "D": "Integrase"
+      "A": "To replicate the viral RNA directly inside the bloodstream",
+      "B": "To recognize and bind to receptors on target host cells",
+      "C": "To prevent destruction by the human liver enzymes",
+      "D": "To form the protective inner core capsid of the virus"
     },
-    "answer": "A",
-    "explanation": "The surface glycoprotein gp120 recognizes and binds to CD4 receptors and coreceptors on target cells, initiating viral entry. [learn more](GNS216_U6_T2#GNS216_U6_T2_h1)"
+    "answer": "B",
+    "explanation": "Great job! The gp120 spikes act like a key that fits right into the CD4 receptors on immune cells, letting the virus sneak inside. [learn more](GNS216_U6_T2#GNS216_U6_T2_h1)"
   },
   {
     "question_id": "GNS216_U6_T2_h2_q1",
@@ -37,31 +37,31 @@
     "article_id": "GNS216_U6_T2",
     "topic_id": "GNS216_U6_T2",
     "difficulty": "recall",
-    "question": "Which coreceptor is primarily utilized by macrophage-tropic strains of HIV during early infection?",
+    "question": "Which body fluid carries the highest amount of infectious HIV?",
     "options": {
-      "A": "CD8",
-      "B": "CXCR4",
-      "C": "CCR5",
-      "D": "CD4"
+      "A": "Saliva",
+      "B": "Blood",
+      "C": "Sweat",
+      "D": "Tears"
     },
-    "answer": "C",
-    "explanation": "CCR5 is the principal chemokine coreceptor used by transmitted strains of HIV to gain entry into macrophages and dendritic cells. [learn more](GNS216_U6_T2#GNS216_U6_T2_h2)"
+    "answer": "B",
+    "explanation": "Spot on! Blood, semen, and vaginal fluids have high viral loads capable of spreading HIV, unlike everyday touch or fluids like sweat and tears. [learn more](GNS216_U6_T2#GNS216_U6_T2_h2)"
   },
   {
     "question_id": "GNS216_U6_T2_h2_q2",
     "heading_id": "GNS216_U6_T2_h2",
     "article_id": "GNS216_U6_T2",
     "topic_id": "GNS216_U6_T2",
-    "difficulty": "application",
-    "question": "A patient with a rare genetic mutation lacking functional CCR5 coreceptors is exposed to HIV. What is the most likely immunological outcome?",
+    "difficulty": "understanding",
+    "question": "Why does HIV specifically attack CD4+ T-cells and macrophages?",
     "options": {
-      "A": "Severe depletion of circulating CD8+ cytotoxic T-cells",
-      "B": "Rapid development of opportunistic fungal infections",
-      "C": "Immediate progression to acquired immunodeficiency syndrome",
-      "D": "High resistance to infection by most strains of the virus"
+      "A": "These cells circulate faster than other blood cells in the human body",
+      "B": "These cells produce large amounts of viral protease that activate the virus",
+      "C": "These cells ingest the virus to destroy it permanently before it multiplies",
+      "D": "These cells express surface receptors and co-receptors that the virus needs to enter"
     },
     "answer": "D",
-    "explanation": "Without the CCR5 coreceptor, the virus cannot easily attach and fuse with the host cell, conferring strong natural resistance against infection. [learn more](GNS216_U6_T2#GNS216_U6_T2_h2)"
+    "explanation": "You got it! HIV needs specific matching receptors (like CD4) on the cell surface to hook on and gain entry. [learn more](GNS216_U6_T2#GNS216_U6_T2_h2)"
   },
   {
     "question_id": "GNS216_U6_T2_h3_q1",
@@ -69,15 +69,15 @@
     "article_id": "GNS216_U6_T2",
     "topic_id": "GNS216_U6_T2",
     "difficulty": "recall",
-    "question": "Which viral enzyme is responsible for inserting transcribed viral DNA into the host cell genome?",
+    "question": "Which viral enzyme helps convert the virus's RNA into DNA?",
     "options": {
       "A": "Protease",
-      "B": "Reverse transcriptase",
+      "B": "Integrase",
       "C": "DNA polymerase",
-      "D": "Integrase"
+      "D": "Reverse transcriptase"
     },
     "answer": "D",
-    "explanation": "Integrase is the specialized enzyme that facilitates the incorporation of viral DNA into host chromosomes. [learn more](GNS216_U6_T2#GNS216_U6_T2_h3)"
+    "explanation": "Well done! Because HIV works 'in reverse' from RNA to DNA, it relies on an enzyme called reverse transcriptase to do the trick. [learn more](GNS216_U6_T2#GNS216_U6_T2_h3)"
   },
   {
     "question_id": "GNS216_U6_T2_h3_q2",
@@ -85,15 +85,15 @@
     "article_id": "GNS216_U6_T2",
     "topic_id": "GNS216_U6_T2",
     "difficulty": "understanding",
-    "question": "Why does reverse transcriptase frequently contribute to the high genetic variability of HIV?",
+    "question": "What happens right after HIV DNA successfully joins the host cell's chromosomes?",
     "options": {
-      "A": "It converts host cellular proteins directly into viral structural components",
-      "B": "It lacks a proofreading mechanism, leading to a high mutation rate",
-      "C": "It rapidly replicates without utilizing any cellular resources",
-      "D": "It actively destroys host DNA to make room for viral particles"
+      "A": "The infected cell transforms directly into a malignant tumor cell",
+      "B": "The virus destroys all antibodies circulating in the bloodstream",
+      "C": "The host cell immediately undergoes programmed cell death",
+      "D": "The host cell machinery begins producing viral proteins and RNA"
     },
-    "answer": "B",
-    "explanation": "Because reverse transcriptase makes frequent transcription errors without proofreading, mutations accumulate rapidly, resulting in diverse viral variants. [learn more](GNS216_U6_T2#GNS216_U6_T2_h3)"
+    "answer": "D",
+    "explanation": "Exactly! Once the viral DNA sneaks into the host's DNA, the host cell is tricked into manufacturing new copies of the virus. [learn more](GNS216_U6_T2#GNS216_U6_T2_h3)"
   },
   {
     "question_id": "GNS216_U6_T2_h4_q1",
@@ -101,31 +101,31 @@
     "article_id": "GNS216_U6_T2",
     "topic_id": "GNS216_U6_T2",
     "difficulty": "recall",
-    "question": "What is the hallmark clinical feature of the acute phase of HIV infection?",
+    "question": "During which stage of HIV do patients often get a sudden spike in virus levels and flu-like signs?",
     "options": {
-      "A": "Permanent restoration of CD4+ cell counts",
-      "B": "Complete absence of viral particles in blood",
-      "C": "Instantaneous development of Kaposi sarcoma",
-      "D": "Flu-like symptoms and high viral load"
+      "A": "Acute HIV infection",
+      "B": "Clinical latency stage",
+      "C": "Advanced AIDS stage",
+      "D": "Terminal malignant stage"
     },
-    "answer": "D",
-    "explanation": "Acute infection features a massive viral surge that often triggers a self-limiting acute retroviral syndrome resembling severe influenza. [learn more](GNS216_U6_T2#GNS216_U6_T2_h4)"
+    "answer": "A",
+    "explanation": "Spot on! The acute phase happens right after catching the virus, when the viral load shoots up and mild flu-like symptoms show up. [learn more](GNS216_U6_T2#GNS216_U6_T2_h4)"
   },
   {
     "question_id": "GNS216_U6_T2_h4_q2",
     "heading_id": "GNS216_U6_T2_h4",
     "article_id": "GNS216_U6_T2",
     "topic_id": "GNS216_U6_T2",
-    "difficulty": "understanding",
-    "question": "During which natural stage of HIV infection is a patient most likely to remain completely asymptomatic for years while experiencing a steady decline in immune function?",
+    "difficulty": "application",
+    "question": "An HIV-positive patient feels completely fine for eight years without taking meds. What stage is this?",
     "options": {
-      "A": "Primary seroconversion",
+      "A": "End-stage AIDS",
       "B": "Clinical latency",
-      "C": "Advanced AIDS",
-      "D": "Acute retroviral syndrome"
+      "C": "Acute infection",
+      "D": "Primary seroconversion"
     },
     "answer": "B",
-    "explanation": "During the clinical latency period, the virus remains active at lower levels, but the patient typically experiences few or no symptoms for an extended duration. [learn more](GNS216_U6_T2#GNS216_U6_T2_h4)"
+    "explanation": "You nailed it! Clinical latency is the long, quiet phase where the virus is active at low levels, but the patient usually feels healthy. [learn more](GNS216_U6_T2#GNS216_U6_T2_h4)"
   },
   {
     "question_id": "GNS216_U6_T2_h5_q1",
@@ -133,31 +133,31 @@
     "article_id": "GNS216_U6_T2",
     "topic_id": "GNS216_U6_T2",
     "difficulty": "recall",
-    "question": "Which WHO clinical stage of HIV infection includes pulmonary tuberculosis?",
+    "question": "Why do clinics use the WHO staging system for HIV when lab tests for CD4 count are missing?",
     "options": {
-      "A": "Stage 3",
-      "B": "Stage 1",
-      "C": "Stage 2",
-      "D": "Stage 4"
+      "A": "To guide clinical management using observable signs when CD4 counts are unavailable",
+      "B": "To calculate the precise date when the patient was initially infected",
+      "C": "To predict the exact genetic strain of the virus infecting the patient",
+      "D": "To accurately measure the exact viral load circulating in the plasma"
     },
     "answer": "A",
-    "explanation": "Pulmonary tuberculosis and severe, unexplained weight loss are classified under WHO clinical stage 3. [learn more](GNS216_U6_T2#GNS216_U6_T2_h5)"
+    "explanation": "That's right! When lab equipment is scarce, checking physical signs and symptoms helps nurses and doctors choose the best care plan. [learn more](GNS216_U6_T2#GNS216_U6_T2_h5)"
   },
   {
     "question_id": "GNS216_U6_T2_h5_q2",
     "heading_id": "GNS216_U6_T2_h5",
     "article_id": "GNS216_U6_T2",
     "topic_id": "GNS216_U6_T2",
-    "difficulty": "application",
-    "question": "A patient presents with persistent generalized lymphadenopathy and no other systemic complaints. According to the WHO staging system, what is the correct classification?",
+    "difficulty": "understanding",
+    "question": "Which health issue puts an HIV-positive patient into WHO Clinical Stage 4?",
     "options": {
-      "A": "Clinical Stage 4",
-      "B": "Clinical Stage 2",
-      "C": "Clinical Stage 1",
-      "D": "Clinical Stage 3"
+      "A": "A normal CD4 count with no physical complaints",
+      "B": "Kaposi sarcoma or severe opportunistic infections",
+      "C": "Recurrent common colds and mild skin rashes",
+      "D": "Persistent generalized swollen lymph nodes only"
     },
-    "answer": "C",
-    "explanation": "Persistent generalized lymphadenopathy combined with an asymptomatic state falls under WHO Clinical Stage 1. [learn more](GNS216_U6_T2#GNS216_U6_T2_h5)"
+    "answer": "B",
+    "explanation": "Spot on! Stage 4 involves severe illnesses and indicator conditions that mark advanced HIV disease (AIDS). [learn more](GNS216_U6_T2#GNS216_U6_T2_h5)"
   },
   {
     "question_id": "GNS216_U6_T2_h6_q1",
@@ -165,15 +165,15 @@
     "article_id": "GNS216_U6_T2",
     "topic_id": "GNS216_U6_T2",
     "difficulty": "recall",
-    "question": "What is the specific CD4+ T-cell count threshold that defines the progression from HIV to AIDS in the absence of defining illnesses?",
+    "question": "What CD4 count marks the official shift from HIV to AIDS?",
     "options": {
-      "A": "Below 50 cells/mm³",
-      "B": "Below 200 cells/mm³",
-      "C": "Below 500 cells/mm³",
-      "D": "Below 1000 cells/mm³"
+      "A": "Below 1,000 cells/mm³",
+      "B": "Below 500 cells/mm³",
+      "C": "Below 200 cells/mm³",
+      "D": "Below 800 cells/mm³"
     },
-    "answer": "B",
-    "explanation": "A CD4+ cell count dropping below 200 cells per cubic millimeter is a definitive clinical criterion for the diagnosis of AIDS. [learn more](GNS216_U6_T2#GNS216_U6_T2_h6)"
+    "answer": "C",
+    "explanation": "You got it! When the immune system's CD4 count drops below 200 cells/mm³, the diagnosis is classified as AIDS. [learn more](GNS216_U6_T2#GNS216_U6_T2_h6)"
   },
   {
     "question_id": "GNS216_U6_T2_h6_q2",
@@ -181,15 +181,15 @@
     "article_id": "GNS216_U6_T2",
     "topic_id": "GNS216_U6_T2",
     "difficulty": "understanding",
-    "question": "What is the primary consequence of chronic immune activation during progressive HIV infection?",
+    "question": "Why does a low CD4 count cause the whole immune system to fail?",
     "options": {
-      "A": "Enhancement of CD8+ cytotoxic T-cell longevity",
-      "B": "Exhaustion and structural damage to lymphoid tissues",
-      "C": "Immediate regeneration of damaged mucosal barriers",
-      "D": "Permanent eradication of viral reservoirs in the body"
+      "A": "CD4 cells seal the lymphatic vessels to trap invading bacteria",
+      "B": "CD4 cells directly produce all the red blood cells in the body",
+      "C": "CD4 cells act as master coordinators that activate other immune cells",
+      "D": "CD4 cells form a physical barrier around organs to block viruses"
     },
-    "answer": "B",
-    "explanation": "Persistent immune activation forces continuous lymphocyte turnover, eventually causing immune exhaustion and destruction of the architectural framework of lymphoid organs. [learn more](GNS216_U6_T2#GNS216_U6_T2_h6)"
+    "answer": "C",
+    "explanation": "Brilliant! CD4 helper cells are like the generals in an army—without them, the rest of the immune defenses don't know how to fight back. [learn more](GNS216_U6_T2#GNS216_U6_T2_h6)"
   },
   {
     "question_id": "GNS216_U6_T2_h7_q1",
@@ -197,15 +197,15 @@
     "article_id": "GNS216_U6_T2",
     "topic_id": "GNS216_U6_T2",
     "difficulty": "recall",
-    "question": "Which malignancy is strongly associated with advanced HIV/AIDS and caused by human herpesvirus 8?",
+    "question": "What do we call infections that take advantage of a weakened immune system?",
     "options": {
-      "A": "Kaposi sarcoma",
-      "B": "Multiple myeloma",
-      "C": "Chronic myeloid leukemia",
-      "D": "Cervical carcinoma"
+      "A": "Opportunistic infections",
+      "B": "Secondary autoimmune conditions",
+      "C": "Nosocomial infections",
+      "D": "Primary bacterial sepsis"
     },
     "answer": "A",
-    "explanation": "Kaposi sarcoma is a vascular tumor driven by human herpesvirus 8 infection that frequently manifests in severely immunocompromised HIV patients. [learn more](GNS216_U6_T2#GNS216_U6_T2_h7)"
+    "explanation": "Spot on! These are germs that a healthy immune system easily handles, but they 'seize the opportunity' when defenses are low. [learn more](GNS216_U6_T2#GNS216_U6_T2_h7)"
   },
   {
     "question_id": "GNS216_U6_T2_h7_q2",
@@ -213,14 +213,14 @@
     "article_id": "GNS216_U6_T2",
     "topic_id": "GNS216_U6_T2",
     "difficulty": "understanding",
-    "question": "Why are opportunistic infections able to cause severe, life-threatening illness exclusively in individuals with advanced HIV?",
+    "question": "Which cancer is linked to advanced HIV and caused by human herpesvirus 8?",
     "options": {
-      "A": "These specific pathogens only replicate in the presence of antiretroviral drugs",
-      "B": "Bacteria and fungi mutate rapidly once they enter the human bloodstream",
-      "C": "The pathogens directly stimulate massive overproduction of healthy red blood cells",
-      "D": "The loss of cell-mediated immunity prevents adequate defense against low-virulence organisms"
+      "A": "Multiple myeloma",
+      "B": "Acute myeloid leukemia",
+      "C": "Cervical carcinoma",
+      "D": "Kaposi sarcoma"
     },
     "answer": "D",
-    "explanation": "Opportunistic pathogens are typically controlled by a functioning immune system, but severe CD4+ depletion leaves the body defenseless against them. [learn more](GNS216_U6_T2#GNS216_U6_T2_h7)"
+    "explanation": "You've got it! Kaposi sarcoma causes distinct purple or brown skin lesions and can affect internal organs in advanced HIV. [learn more](GNS216_U6_T2#GNS216_U6_T2_h7)"
   }
 ]

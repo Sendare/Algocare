@@ -5,15 +5,15 @@
     "article_id": "GNS123_U2_T14",
     "topic_id": "GNS123_U2_T14",
     "difficulty": "recall",
-    "question": "What is the primary function of a Positron Emission Tomography scan compared to standard X-rays?",
+    "question": "What is the main difference between a PET scan and a standard CT or MRI scan?",
     "options": {
-      "A": "Detecting superficial skin lesions and rashes",
-      "B": "Measuring bone mineral density across joints",
-      "C": "Visualizing metabolic processes and cellular function",
-      "D": "Recording electrical activity within the heart muscle"
+      "A": "A PET scan takes only a few seconds while CT and MRI take hours.",
+      "B": "A PET scan uses strong magnets while CT and MRI use radioactive dye.",
+      "C": "A PET scan shows cellular function while CT and MRI mainly show body structures.",
+      "D": "A PET scan is completely painless while CT and MRI cause physical discomfort."
     },
     "answer": "C",
-    "explanation": "PET scans are specifically designed to assess functional and biochemical changes in tissues rather than just structural anatomy. [learn more](GNS123_U2_T14#GNS123_U2_T14_h1)"
+    "explanation": "You got it! PET scans look at how cells are working and using energy (metabolism), while regular scans like CT and MRI are more like cameras taking sharp pictures of your body's anatomy and physical structures."
   },
   {
     "question_id": "GNS123_U2_T14_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GNS123_U2_T14",
     "topic_id": "GNS123_U2_T14",
     "difficulty": "understanding",
-    "question": "Why might a clinician order a PET scan instead of a traditional computed tomography scan for a cancer staging workup?",
+    "question": "Why can a PET scan often detect diseases earlier than other imaging methods?",
     "options": {
-      "A": "PET scans expose the patient to zero radiation unlike computed tomography",
-      "B": "PET scans require no special preparation or radiopharmaceutical agents",
-      "C": "PET scans provide superior resolution of fine bone fractures",
-      "D": "PET scans highlight areas of abnormal cellular metabolism before structural changes appear"
+      "A": "It uses a much higher radiation dose than standard diagnostic tests.",
+      "B": "It spots abnormal chemical changes in cells before physical damage occurs.",
+      "C": "It relies on the body's natural magnetic field rather than external machines.",
+      "D": "It examines every single organ in the human body simultaneously."
     },
-    "answer": "D",
-    "explanation": "Metabolic changes often precede structural alterations, allowing PET scans to detect disease processes earlier. [learn more](GNS123_U2_T14#GNS123_U2_T14_h1)"
+    "answer": "B",
+    "explanation": "Spot on! Cells change how they behave and use energy long before an organ shows visible damage on a regular X-ray or CT scan, letting PET catch problems early."
   },
   {
     "question_id": "GNS123_U2_T14_h2_q1",
@@ -37,15 +37,15 @@
     "article_id": "GNS123_U2_T14",
     "topic_id": "GNS123_U2_T14",
     "difficulty": "recall",
-    "question": "What is the name of the glucose analogue most commonly used as a radiopharmaceutical tracer in PET imaging?",
+    "question": "What is the radioactive tracer most commonly used in a PET scan?",
     "options": {
-      "A": "Gadolinium contrast",
-      "B": "Fluorodeoxyglucose",
-      "C": "Barium sulfate suspension",
-      "D": "Technetium pyrophosphate"
+      "A": "Iodinated contrast",
+      "B": "Gadolinium chelate",
+      "C": "Fluorodeoxyglucose",
+      "D": "Barium sulfate"
     },
-    "answer": "B",
-    "explanation": "Fluorodeoxyglucose is tagged with radioactive fluorine to trace glucose metabolism in tissues. [learn more](GNS123_U2_T14#GNS123_U2_T14_h2)"
+    "answer": "C",
+    "explanation": "Great job! Fluorodeoxyglucose (often called FDG) is a form of sugar attached to a tiny radioactive tag, making it the perfect tracer to see which cells are gobbling up energy."
   },
   {
     "question_id": "GNS123_U2_T14_h2_q2",
@@ -53,15 +53,15 @@
     "article_id": "GNS123_U2_T14",
     "topic_id": "GNS123_U2_T14",
     "difficulty": "understanding",
-    "question": "Why do malignant tumors accumulate high concentrations of fluorodeoxyglucose during a PET scan?",
+    "question": "Why do active tissues like tumors absorb large amounts of FDG during a PET scan?",
     "options": {
-      "A": "Malignant cells have impaired cell walls that trap large fluid volumes",
-      "B": "Cancer cells exhibit accelerated rates of glycolysis and glucose consumption",
-      "C": "Radioactive tracers bind exclusively to necrotic tissue cores",
-      "D": "Tumors stimulate localized vasodilation that pools the radiotracer"
+      "A": "Rapidly dividing cells require high amounts of energy and glucose.",
+      "B": "Cancer cells have abnormal blood vessels that block normal water flow.",
+      "C": "The radioactive tracer binds directly to the DNA strands of damaged cells.",
+      "D": "Tumors actively attract and trap radioactive metal inside their walls."
     },
-    "answer": "B",
-    "explanation": "Rapidly dividing cancer cells require massive amounts of energy, leading to high glucose uptake and tracer concentration. [learn more](GNS123_U2_T14#GNS123_U2_T14_h2)"
+    "answer": "A",
+    "explanation": "Exactly! Because cancer cells grow and multiply so fast, they need a ton of energy. Since FDG acts just like glucose, the tumor sucks it right up, making it glow brightly on the scan."
   },
   {
     "question_id": "GNS123_U2_T14_h3_q1",
@@ -69,31 +69,15 @@
     "article_id": "GNS123_U2_T14",
     "topic_id": "GNS123_U2_T14",
     "difficulty": "recall",
-    "question": "Which clinical application is a primary indication for performing a cardiac PET scan?",
+    "question": "Which of these is a major use of a PET scan in cancer care (oncology)?",
     "options": {
-      "A": "Detecting congenital septal defects in neonates",
-      "B": "Assessing myocardial viability in ischemic heart disease",
-      "C": "Measuring internal jugular venous pressure",
-      "D": "Diagnosing acute bacterial endocarditis"
-    },
-    "answer": "B",
-    "explanation": "Cardiac PET helps determine if hibernating heart muscle can recover function after revascularization. [learn more](GNS123_U2_T14#GNS123_U2_T14_h3)"
-  },
-  {
-    "question_id": "GNS123_U2_T14_h3_q2",
-    "heading_id": "GNS123_U2_T14_h3",
-    "article_id": "GNS123_U2_T14",
-    "topic_id": "GNS123_U2_T14",
-    "difficulty": "understanding",
-    "question": "A patient with a history of lung cancer undergoes a follow-up PET scan primarily to check for which condition?",
-    "options": {
-      "A": "Metastatic spread or recurrence of the tumor",
-      "B": "Bacterial pneumonia consolidation in the lower lobes",
-      "C": "Presence of localized pleural effusion",
-      "D": "Development of chronic obstructive pulmonary disease"
+      "A": "Staging cancer and checking if it has spread to other parts of the body.",
+      "B": "Measuring the exact physical width and length of a bone fracture.",
+      "C": "Checking the electrical rhythm of the heart during rest and exercise.",
+      "D": "Removing small benign tumors without needing invasive surgery."
     },
     "answer": "A",
-    "explanation": "Oncological PET scans are crucial for detecting active cancer spread elsewhere in the body. [learn more](GNS123_U2_T14#GNS123_U2_T14_h3)"
+    "explanation": "Spot on! Doctors rely heavily on PET scans to see how far cancer has traveled and whether treatments are working to shrink it."
   },
   {
     "question_id": "GNS123_U2_T14_h4_q1",
@@ -101,15 +85,15 @@
     "article_id": "GNS123_U2_T14",
     "topic_id": "GNS123_U2_T14",
     "difficulty": "recall",
-    "question": "How long must a patient typically fast before undergoing a fluorodeoxyglucose PET scan?",
+    "question": "How long should a patient typically fast before getting an FDG tracer injection for a PET scan?",
     "options": {
-      "A": "Twelve to twenty-four hours",
-      "B": "Thirty minutes",
-      "C": "Four to six hours",
-      "D": "No fasting is required"
+      "A": "4 to 6 hours",
+      "B": "No fasting is needed",
+      "C": "12 to 24 hours",
+      "D": "30 to 60 minutes"
     },
-    "answer": "C",
-    "explanation": "Fasting ensures that circulating blood glucose levels are low so they do not compete with the tracer. [learn more](GNS123_U2_T14#GNS123_U2_T14_h4)"
+    "answer": "A",
+    "explanation": "You got it! Fasting for 4 to 6 hours lowers the sugar already floating in the blood, so the cells will eagerly take up the radioactive FDG sugar instead."
   },
   {
     "question_id": "GNS123_U2_T14_h4_q2",
@@ -117,47 +101,47 @@
     "article_id": "GNS123_U2_T14",
     "topic_id": "GNS123_U2_T14",
     "difficulty": "understanding",
-    "question": "Why is strenuous physical exercise prohibited for twenty-four hours prior to an oncological PET scan?",
+    "question": "Why is it a must to check a patient's blood glucose level before injecting the PET tracer?",
     "options": {
-      "A": "Muscular movement triggers immediate allergic reactions to the radiotracer",
-      "B": "Physical exertion increases glucose uptake in skeletal muscles, creating false scan artifacts",
-      "C": "Exercise depletes systemic blood pressure making intravenous access difficult",
-      "D": "Exertion causes the radioisotope to decay prematurely inside the syringe"
+      "A": "Insulin production stops completely once the radioactive dye enters veins.",
+      "B": "Low blood sugar causes immediate cardiac arrest inside the scanner.",
+      "C": "High blood sugar competes with the tracer and ruins the image quality.",
+      "D": "Elevated glucose levels neutralize the radioactivity of the tracer."
     },
-    "answer": "B",
-    "explanation": "Active muscles absorb high amounts of glucose and tracer, potentially masking lesions or distorting images. [learn more](GNS123_U2_T14#GNS123_U2_T14_h4)"
+    "answer": "C",
+    "explanation": "Spot on! If there is too much normal sugar in the blood, the cells will eat that instead of our FDG tracer, and the scan pictures will turn out blurry or misleading."
   },
   {
     "question_id": "GNS123_U2_T14_h5_q1",
     "heading_id": "GNS123_U2_T14_h5",
     "article_id": "GNS123_U2_T14",
     "topic_id": "GNS123_U2_T14",
-    "difficulty": "understanding",
-    "question": "What is the clinical rationale for having the patient empty their bladder immediately before entering the PET scanner?",
+    "difficulty": "recall",
+    "question": "What is the patient expected to do during the 45 to 60 minute waiting period after getting the tracer injection?",
     "options": {
-      "A": "To prevent stress incontinence during the prolonged imaging sequence",
-      "B": "To reduce radiation exposure to the pelvis and enhance pelvic organ visualization",
-      "C": "To prevent severe electrolyte imbalances caused by intravenous hydration",
-      "D": "To confirm adequate kidney filtration rates using chemical test strips"
+      "A": "Rest quietly in a comfortable, low-stimulus room without talking or moving.",
+      "B": "Eat a high-protein meal to stabilize blood sugar levels before scanning.",
+      "C": "Walk briskly around the hospital corridor to pump blood through the body.",
+      "D": "Perform deep breathing exercises and arm stretches to relax muscles."
     },
-    "answer": "B",
-    "explanation": "A full bladder contains high concentrations of radioactive tracer excreted by the kidneys, which can obscure pelvic structures. [learn more](GNS123_U2_T14#GNS123_U2_T14_h5)"
+    "answer": "A",
+    "explanation": "Correct! If the patient talks, reads, or moves around too much, their brain and muscles will burn glucose and steal the tracer away from the organs the doctor actually wants to check."
   },
   {
     "question_id": "GNS123_U2_T14_h5_q2",
     "heading_id": "GNS123_U2_T14_h5",
     "article_id": "GNS123_U2_T14",
     "topic_id": "GNS123_U2_T14",
-    "difficulty": "recall",
-    "question": "Following the intravenous injection of a radiotracer, what is the standard patient activity during the uptake phase?",
+    "difficulty": "understanding",
+    "question": "Why do we ask the patient to empty their bladder right before the PET scan machine starts?",
     "options": {
-      "A": "Walking briskly down hospital corridors to circulate blood",
-      "B": "Completing detailed cognitive puzzles and reading materials",
-      "C": "Performing light calisthenics on a stationary bicycle",
-      "D": "Resting quietly in a dimly lit, private room"
+      "A": "To prevent the patient from feeling claustrophobic inside the tight scanner tube.",
+      "B": "To test renal function and make sure the kidneys are filtering normally.",
+      "C": "To reduce radiation exposure to the pelvic region and improve image clarity.",
+      "D": "To make sure blood pressure remains stable throughout the imaging process."
     },
-    "answer": "D",
-    "explanation": "Minimizing physical and mental stimulation prevents tracer accumulation in muscles or the brain. [learn more](GNS123_U2_T14#GNS123_U2_T14_h5)"
+    "answer": "C",
+    "explanation": "You nailed it! The kidneys filter out the leftover radioactive tracer into the urine. Emptying the bladder keeps radiation away from pelvic organs and stops a full bladder from hiding important details on the scan."
   },
   {
     "question_id": "GNS123_U2_T14_h6_q1",
@@ -165,15 +149,15 @@
     "article_id": "GNS123_U2_T14",
     "topic_id": "GNS123_U2_T14",
     "difficulty": "recall",
-    "question": "What is the primary post-procedure instruction given to a patient to help clear the remaining radiotracer from their body?",
+    "question": "What is the best way for a patient to clear the remaining radioactive tracer out of their body after a PET scan?",
     "options": {
-      "A": "Take a strong oral laxative to clear the gastrointestinal tract",
-      "B": "Engage in vigorous cardiovascular exercise to sweat out toxins",
-      "C": "Maintain strict bed rest for the remainder of the day",
-      "D": "Increase oral fluid intake to promote frequent urination"
+      "A": "Taking a hot sauna bath to sweat out the toxins",
+      "B": "Taking strong oral diuretics prescribed by the doctor",
+      "C": "Eating high-fiber foods to speed up bowel movements",
+      "D": "Drinking plenty of fluids and urinating frequently"
     },
     "answer": "D",
-    "explanation": "Fluids flush the kidneys and bladder, hastening the elimination of unabsorbed radioactive isotopes. [learn more](GNS123_U2_T14#GNS123_U2_T14_h6)"
+    "explanation": "Spot on! Fluids and frequent bathroom trips help flush the remaining radiopharmaceutical safely out through the kidneys."
   },
   {
     "question_id": "GNS123_U2_T14_h6_q2",
@@ -181,46 +165,46 @@
     "article_id": "GNS123_U2_T14",
     "topic_id": "GNS123_U2_T14",
     "difficulty": "understanding",
-    "question": "Which demographic group should patients maintain a safe distance from for a few hours immediately following a PET scan?",
+    "question": "Who should a patient avoid getting too close to for a few hours right after a PET scan?",
     "options": {
-      "A": "Pregnant women and infants",
-      "B": "Immunocompromised transplant recipients",
-      "C": "Patients undergoing hemodialysis",
-      "D": "Elderly patients recovering from orthopedic surgery"
+      "A": "Patients with active infections",
+      "B": "Adults recovering from surgery",
+      "C": "Pregnant women and infants",
+      "D": "Elderly patients with dementia"
     },
-    "answer": "A",
-    "explanation": "Minimizing contact with vulnerable populations like pregnant women and infants reduces unnecessary radiation exposure. [learn more](GNS123_U2_T14#GNS123_U2_T14_h6)"
+    "answer": "C",
+    "explanation": "Great thinking! As a safety precaution, it's best to stay away from pregnant women and babies for a short while because their rapidly growing cells are much more sensitive to any leftover radiation."
   },
   {
     "question_id": "GNS123_U2_T14_h7_q1",
     "heading_id": "GNS123_U2_T14_h7",
     "article_id": "GNS123_U2_T14",
     "topic_id": "GNS123_U2_T14",
-    "difficulty": "understanding",
-    "question": "Why might a non-malignant condition such as severe tissue inflammation produce a false-positive result on a PET scan?",
+    "difficulty": "recall",
+    "question": "What term is used to measure the amount of tracer absorbed in a specific spot on a PET scan?",
     "options": {
-      "A": "White blood cells bind directly to the radiotracer and destroy its radioactive particles",
-      "B": "Inflammatory cells consume high levels of glucose, mimicking the metabolic activity of tumors",
-      "C": "Inflammatory exudate physically blocks the emission of gamma rays from the tissue",
-      "D": "Infection causes the scanner software to misinterpret normal blood flow as a lesion"
+      "A": "Systemic Urine Volume",
+      "B": "Standardized Uptake Value",
+      "C": "Specific Ultrasound Velocity",
+      "D": "Serum Utilization Variable"
     },
     "answer": "B",
-    "explanation": "Activated immune cells in inflamed or infected tissue require high energy, leading to increased tracer uptake that resembles cancer. [learn more](GNS123_U2_T14#GNS123_U2_T14_h7)"
+    "explanation": "You got it! Radiologists use the Standardized Uptake Value (SUV) as a handy number to measure just how much tracer activity is happening in a specific tissue."
   },
   {
     "question_id": "GNS123_U2_T14_h7_q2",
     "heading_id": "GNS123_U2_T14_h7",
     "article_id": "GNS123_U2_T14",
     "topic_id": "GNS123_U2_T14",
-    "difficulty": "recall",
-    "question": "What is a major advantage of modern hybrid PET-CT imaging systems over standalone PET scanners?",
+    "difficulty": "understanding",
+    "question": "Why might a PET scan sometimes show a false-positive result for a patient who does not have cancer?",
     "options": {
-      "A": "They completely eliminate the need for radiopharmaceutical injections",
-      "B": "They allow patients to eat normally throughout the entire imaging process",
-      "C": "They combine functional metabolic data with precise anatomical localization",
-      "D": "They utilize high-intensity magnetic fields instead of ionizing radiation"
+      "A": "The radioactive tracer naturally binds to healthy muscle tissue over time.",
+      "B": "Fasting before the test forces normal cells to mimic cancerous growth.",
+      "C": "Dehydration causes the scanner to misread shadows as malignant tumors.",
+      "D": "Inflammation and infection can also cause high glucose uptake in tissues."
     },
-    "answer": "C",
-    "explanation": "Hybrid units overlay metabolic PET data directly onto structural CT images for superior diagnostic accuracy. [learn more](GNS123_U2_T14#GNS123_U2_T14_h7)"
+    "answer": "D",
+    "explanation": "Spot on! White blood cells fighting an infection also need lots of glucose, meaning an ordinary infection or inflammation can sometimes 'light up' on a PET scan just like a tumor would."
   }
 ]

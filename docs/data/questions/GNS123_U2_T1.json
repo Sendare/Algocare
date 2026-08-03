@@ -5,15 +5,15 @@
     "article_id": "GNS123_U2_T1",
     "topic_id": "GNS123_U2_T1",
     "difficulty": "recall",
-    "question": "What type of data is represented by a patient complaining of a sharp chest pain?",
+    "question": "A patient tells you they have a terrible headache. What kind of data is this?",
     "options": {
-      "A": "Objective data",
+      "A": "Subjective data",
       "B": "Diagnostic data",
-      "C": "Subjective data",
-      "D": "Secondary data"
+      "C": "Secondary data",
+      "D": "Objective data"
     },
-    "answer": "C",
-    "explanation": "Subjective data consists of symptoms and feelings that only the patient can experience and describe, unlike measurable physical signs. [learn more](GNS123_U2_T1#GNS123_U2_T1_h1)"
+    "answer": "A",
+    "explanation": "You got this! Subjective data is what the patient tells you (their symptoms and feelings). Since you can't measure a headache with a machine, it's subjective. Think 'S' for Subjective and 'S' for Spoken by the patient!"
   },
   {
     "question_id": "GNS123_U2_T1_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GNS123_U2_T1",
     "topic_id": "GNS123_U2_T1",
     "difficulty": "understanding",
-    "question": "Why is initial health assessment considered an ongoing process rather than a single event?",
+    "question": "Why do we take a baseline assessment when a patient is first admitted?",
     "options": {
-      "A": "Physicians rely exclusively on nursing notes to adjust prescription dosages.",
-      "B": "Hospital accreditation standards mandate charting every four hours without exception.",
-      "C": "Initial admission data is frequently lost and must be repeatedly recreated.",
-      "D": "Patient conditions change dynamically, requiring continuous data collection and re-evaluation."
+      "A": "It helps the nurse detect small changes in the patient's condition over time.",
+      "B": "It replaces the need to review previous medical history charts.",
+      "C": "It eliminates the need to perform further physical examinations during the shift.",
+      "D": "It guarantees that the patient will experience a rapid recovery."
     },
-    "answer": "D",
-    "explanation": "A patient's clinical status can deteriorate or improve rapidly, necessitating ongoing assessment to evaluate the effectiveness of interventions. [learn more](GNS123_U2_T1#GNS123_U2_T1_h1)"
+    "answer": "A",
+    "explanation": "Spot on! A baseline is your starting point. Knowing where your patient starts helps you easily spot if they are getting better or worse during your shift."
   },
   {
     "question_id": "GNS123_U2_T1_h2_q1",
@@ -37,63 +37,63 @@
     "article_id": "GNS123_U2_T1",
     "topic_id": "GNS123_U2_T1",
     "difficulty": "recall",
-    "question": "Which category does a patient's occupation and residential address belong to during an admission interview?",
+    "question": "In the PQRST pain assessment tool, what does the letter 'Q' stand for?",
     "options": {
-      "A": "Biographical data",
-      "B": "Past medical history",
-      "C": "Functional health patterns",
-      "D": "Review of systems"
+      "A": "Quietness",
+      "B": "Quickness",
+      "C": "Quality",
+      "D": "Quantity"
     },
-    "answer": "A",
-    "explanation": "Biographical data encompasses demographic information like age, marital status, occupation, and address which help establish patient identity and social context. [learn more](GNS123_U2_T1#GNS123_U2_T1_h2)"
+    "answer": "C",
+    "explanation": "Great job! 'Q' stands for Quality. It means asking the patient to describe what the pain feels like—is it sharp, dull, stabbing, or throbbing?"
   },
   {
     "question_id": "GNS123_U2_T1_h2_q2",
     "heading_id": "GNS123_U2_T1_h2",
     "article_id": "GNS123_U2_T1",
     "topic_id": "GNS123_U2_T1",
-    "difficulty": "understanding",
-    "question": "What is the clinical rationale for asking patients about herbal preparations alongside prescribed medications?",
+    "difficulty": "application",
+    "question": "A patient tells you that both of their parents have high blood pressure and diabetes. Where should you write this?",
     "options": {
-      "A": "Traditional remedies are universally prohibited in acute surgical wards.",
-      "B": "Pharmacists use this information to calculate out-of-pocket expenses.",
-      "C": "Herbal substances can cause significant metabolic interactions with conventional drugs.",
-      "D": "Hospital billing departments require a complete inventory of personal belongings."
+      "A": "Past medical history",
+      "B": "History of present illness",
+      "C": "Review of systems",
+      "D": "Family history"
     },
-    "answer": "C",
-    "explanation": "Many patients utilize local herbal concoctions that can potentiate, inhibit, or alter the pharmacological action of prescribed orthodox medicines. [learn more](GNS123_U2_T1#GNS123_U2_T1_h2)"
+    "answer": "D",
+    "explanation": "Spot on! Information about blood relatives (like parents and siblings) always goes into the family history section so you can check for genetic risks."
   },
   {
     "question_id": "GNS123_U2_T1_h3_q1",
     "heading_id": "GNS123_U2_T1_h3",
     "article_id": "GNS123_U2_T1",
     "topic_id": "GNS123_U2_T1",
-    "difficulty": "recall",
-    "question": "Which physical examination technique must be performed BEFORE palpation when assessing a patient's abdomen?",
+    "difficulty": "understanding",
+    "question": "When examining the tummy, why do we listen (auscultate) before we press (palpate)?",
     "options": {
-      "A": "Auscultation",
-      "B": "Percussion",
-      "C": "Measurement",
-      "D": "Inspection"
+      "A": "Auscultation requires deep pressure that must be done first.",
+      "B": "Patients find palpation relaxing after listening to bowel sounds.",
+      "C": "Palpation can alter or stimulate bowel sounds, making them inaccurate.",
+      "D": "Standard hospital policy dictates this order for all body systems."
     },
-    "answer": "A",
-    "explanation": "Listening to bowel sounds before pressing on the abdomen ensures that manual manipulation does not artificially alter peristalsis and distort findings. [learn more](GNS123_U2_T1#GNS123_U2_T1_h3)"
+    "answer": "C",
+    "explanation": "You're doing great! If you press or massage the tummy first, you wake up the bowels and make them make extra noise. Always listen first to catch their natural sounds!"
   },
   {
     "question_id": "GNS123_U2_T1_h3_q2",
     "heading_id": "GNS123_U2_T1_h3",
     "article_id": "GNS123_U2_T1",
     "topic_id": "GNS123_U2_T1",
-    "difficulty": "understanding",
-    "question": "What physical property of underlying tissues is primarily evaluated during the percussion technique?",
+    "difficulty": "recall",
+    "question": "Which physical exam technique involves tapping on the body to check what is underneath?",
     "options": {
-      "A": "Electrical conduction velocity",
-      "B": "Density and fluid or air content",
-      "C": "Surface temperature variations",
-      "D": "Capillary refill efficiency"
+      "A": "Palpation",
+      "B": "Percussion",
+      "C": "Inspection",
+      "D": "Auscultation"
     },
     "answer": "B",
-    "explanation": "Percussion vibrations travel through tissues, and the resulting acoustic tone reflects whether the underlying organ is air-filled, fluid-filled, or solid. [learn more](GNS123_U2_T1#GNS123_U2_T1_h3)"
+    "explanation": "Spot on! Percussion is like playing a small drum on the skin. The sound tells you if the organ underneath is full of air, fluid, or solid."
   },
   {
     "question_id": "GNS123_U2_T1_h4_q1",
@@ -101,31 +101,31 @@
     "article_id": "GNS123_U2_T1",
     "topic_id": "GNS123_U2_T1",
     "difficulty": "recall",
-    "question": "Which clinical tool is standard for assessing a patient's level of consciousness during a neurological evaluation?",
+    "question": "What is the most reliable way to know how much pain a patient is feeling?",
     "options": {
-      "A": "Pain numeric rating scale",
-      "B": "Apgar scoring system",
-      "C": "Braden scale for pressure ulcers",
-      "D": "Glasgow Coma Scale"
+      "A": "Changes in the patient's heart rate",
+      "B": "The patient's own self-report",
+      "C": "Family members' interpretation",
+      "D": "The nurse's clinical observation"
     },
-    "answer": "D",
-    "explanation": "The Glasgow Coma Scale evaluates eye opening, verbal response, and motor performance to quantify neurological responsiveness. [learn more](GNS123_U2_T1#GNS123_U2_T1_h4)"
+    "answer": "B",
+    "explanation": "Exactly! Pain is whatever the patient says it is. Their personal word is always the gold standard for pain assessment."
   },
   {
     "question_id": "GNS123_U2_T1_h4_q2",
     "heading_id": "GNS123_U2_T1_h4",
     "article_id": "GNS123_U2_T1",
     "topic_id": "GNS123_U2_T1",
-    "difficulty": "application",
-    "question": "A patient presents with bilateral lower leg swelling and bounding peripheral pulses. Which body system requires the most immediate focused assessment?",
+    "difficulty": "understanding",
+    "question": "Which of these is an example of non-pharmacological (drug-free) pain relief?",
     "options": {
-      "A": "Cardiovascular system",
-      "B": "Gastrointestinal system",
-      "C": "Musculoskeletal system",
-      "D": "Integumentary system"
+      "A": "Applying a warm compress to a sore muscle",
+      "B": "Administering a prescribed dose of oral ibuprofen",
+      "C": "Dispensing a scheduled narcotic pain pill",
+      "D": "Injecting intravenous morphine into the patient port"
     },
     "answer": "A",
-    "explanation": "Peripheral edema and pulse abnormalities are classic clinical indicators pointing toward underlying cardiovascular dysfunction, such as heart failure. [learn more](GNS123_U2_T1#GNS123_U2_T1_h4)"
+    "explanation": "You got it! Warm compresses, massage, and changing positions help ease pain without using drugs (pharmaceuticals)."
   },
   {
     "question_id": "GNS123_U2_T1_h5_q1",
@@ -133,15 +133,15 @@
     "article_id": "GNS123_U2_T1",
     "topic_id": "GNS123_U2_T1",
     "difficulty": "recall",
-    "question": "Why is it clinically unsafe to rely exclusively on elevated blood pressure and pulse to confirm acute pain?",
+    "question": "Why do nurses do a cultural assessment for patients?",
     "options": {
-      "A": "Blood pressure fluctuations are caused strictly by anxiety rather than physical trauma.",
-      "B": "Vital signs normalize as the body adapts, even when severe pain persists.",
-      "C": "Autonomic nervous system activation only occurs during chronic disease states.",
-      "D": "Pain medication directly lowers blood pressure, making initial readings irrelevant."
+      "A": "To satisfy mandatory hospital paperwork requirements only",
+      "B": "To convince the patient to adopt Western medical practices",
+      "C": "To understand the patient's beliefs and values in order to provide individualized care",
+      "D": "To determine the financial income of the patient's household"
     },
-    "answer": "B",
-    "explanation": "The sympathetic nervous system adapts over time, meaning a patient can experience severe pain while maintaining normal heart rate and blood pressure. [learn more](GNS123_U2_T1#GNS123_U2_T1_h5)"
+    "answer": "C",
+    "explanation": "Wonderful! Cultural assessments help us respect our patients' traditions and beliefs, making sure our care fits their unique lifestyle."
   },
   {
     "question_id": "GNS123_U2_T1_h5_q2",
@@ -149,47 +149,47 @@
     "article_id": "GNS123_U2_T1",
     "topic_id": "GNS123_U2_T1",
     "difficulty": "understanding",
-    "question": "What is the primary advantage of utilizing the Wong-Baker FACES pain rating scale?",
+    "question": "Which of the following is part of a psychosocial assessment?",
     "options": {
-      "A": "It automatically calculates the exact milligram dosage of opioid analgesia required.",
-      "B": "It eliminates the need for any verbal communication during nursing handovers.",
-      "C": "It measures the precise electrical nerve conduction velocity of pain pathways.",
-      "D": "It assists pediatric and language-barriered patients in communicating distress visually."
+      "A": "Checking the range of motion in the patient's knee joint",
+      "B": "Evaluating the patient's coping mechanisms and support systems",
+      "C": "Listening for abnormal breath sounds in the lower lobes",
+      "D": "Reviewing lab results for elevated white blood cells"
     },
-    "answer": "D",
-    "explanation": "The facial expression scale allows children and individuals who do not share a common language with the nurse to point to a graphic representation of their suffering. [learn more](GNS123_U2_T1#GNS123_U2_T1_h5)"
+    "answer": "B",
+    "explanation": "Spot on! Psychosocial checks look at mental health, how well the patient handles stress, and who is there to support them at home."
   },
   {
     "question_id": "GNS123_U2_T1_h6_q1",
     "heading_id": "GNS123_U2_T1_h6",
     "article_id": "GNS123_U2_T1",
     "topic_id": "GNS123_U2_T1",
-    "difficulty": "recall",
-    "question": "Which factor must a nurse respect and integrate when planning care for patients from diverse cultural backgrounds?",
+    "difficulty": "understanding",
+    "question": "Why should a nurse look at laboratory results together with the physical exam instead of looking at labs alone?",
     "options": {
-      "A": "Hospital administrative policies overriding personal dietary habits",
-      "B": "Mandatory exclusion of family members during physician rounds",
-      "C": "Standardized global treatment protocols without local adaptation",
-      "D": "Traditional health beliefs and family involvement dynamics"
+      "A": "Laboratory values are often incorrect and need physical confirmation.",
+      "B": "Physical assessments can change laboratory values within minutes.",
+      "C": "Hospital regulations forbid doctors from looking at labs without a nurse present.",
+      "D": "Labs only provide part of the clinical picture and require patient context to be meaningful."
     },
     "answer": "D",
-    "explanation": "Cultural competence requires acknowledging that beliefs and family structures significantly impact patient compliance, healing, and perception of illness. [learn more](GNS123_U2_T1#GNS123_U2_T1_h6)"
+    "explanation": "You nailed it! Numbers on a lab report don't tell the whole story. You always pair them with how the patient actually looks and feels."
   },
   {
     "question_id": "GNS123_U2_T1_h6_q2",
     "heading_id": "GNS123_U2_T1_h6",
     "article_id": "GNS123_U2_T1",
     "topic_id": "GNS123_U2_T1",
-    "difficulty": "understanding",
-    "question": "What is the primary clinical objective of conducting a psychosocial assessment during an inpatient hospital stay?",
+    "difficulty": "recall",
+    "question": "An elevated white blood cell (WBC) count usually points to what in a patient?",
     "options": {
-      "A": "To determine the patient's exact financial net worth for hospital billing",
-      "B": "To diagnose underlying psychiatric personality disorders before surgical operations",
-      "C": "To evaluate coping mechanisms, emotional status, and support systems affecting recovery",
-      "D": "To fulfill mandatory legal requirements without influencing nursing interventions"
+      "A": "Severe dehydration",
+      "B": "Iron deficiency anemia",
+      "C": "Chronic kidney failure",
+      "D": "Infection or inflammation"
     },
-    "answer": "C",
-    "explanation": "Psychosocial screening identifies mental health barriers, stress levels, and support systems that directly influence how a patient manages illness and rehabilitation. [learn more](GNS123_U2_T1#GNS123_U2_T1_h6)"
+    "answer": "D",
+    "explanation": "Great job! White blood cells are our body's soldiers. When they shoot up in number, it usually means they are busy fighting off an infection or inflammation."
   },
   {
     "question_id": "GNS123_U2_T1_h7_q1",
@@ -197,15 +197,15 @@
     "article_id": "GNS123_U2_T1",
     "topic_id": "GNS123_U2_T1",
     "difficulty": "recall",
-    "question": "What immediate action should a nurse take upon receiving a critical laboratory panic value?",
+    "question": "What does the letter 'S' stand for at the very beginning of the SBAR communication tool?",
     "options": {
-      "A": "Adjust the patient's intravenous medication infusion rate immediately",
-      "B": "Wait until the morning shift change report to mention the result",
-      "C": "Notify the attending physician or healthcare provider promptly",
-      "D": "Discard the sample and repeat the venipuncture procedure independently"
+      "A": "Solution",
+      "B": "Situation",
+      "C": "Severity",
+      "D": "Symptoms"
     },
-    "answer": "C",
-    "explanation": "Critical laboratory panic values represent life-threatening abnormalities that require immediate medical notification and intervention. [learn more](GNS123_U2_T1#GNS123_U2_T1_h7)"
+    "answer": "B",
+    "explanation": "Spot on! In SBAR, the first 'S' is for Situation—a quick summary of what is happening right now that made you call or report."
   },
   {
     "question_id": "GNS123_U2_T1_h7_q2",
@@ -213,46 +213,14 @@
     "article_id": "GNS123_U2_T1",
     "topic_id": "GNS123_U2_T1",
     "difficulty": "understanding",
-    "question": "Why is it clinically necessary to interpret laboratory results within the context of the patient's overall condition?",
+    "question": "Which of these is an example of clean, objective nursing documentation?",
     "options": {
-      "A": "Non-infectious factors like stress or medications can alter specific lab values.",
-      "B": "Laboratory instruments are frequently uncalibrated in regional medical centers.",
-      "C": "Normal reference ranges are identical for every demographic and age group.",
-      "D": "Physicians ignore isolated lab reports unless accompanied by written essays."
-    },
-    "answer": "A",
-    "explanation": "Abnormal lab values do not always indicate disease; physiological stress, hydration status, and medications can skew results, requiring holistic correlation. [learn more](GNS123_U2_T1#GNS123_U2_T1_h7)"
-  },
-  {
-    "question_id": "GNS123_U2_T1_h8_q1",
-    "heading_id": "GNS123_U2_T1_h8",
-    "article_id": "GNS123_U2_T1",
-    "topic_id": "GNS123_U2_T1",
-    "difficulty": "recall",
-    "question": "What does the letter 'S' stand for in the SBAR clinical communication framework used during nursing handovers?",
-    "options": {
-      "A": "Solutions",
-      "B": "Severity",
-      "C": "Symptoms",
-      "D": "Situation"
-    },
-    "answer": "D",
-    "explanation": "SBAR stands for Situation, Background, Assessment, and Recommendation, providing a standardized format for clear interprofessional communication. [learn more](GNS123_U2_T1#GNS123_U2_T1_h8)"
-  },
-  {
-    "question_id": "GNS123_U2_T1_h8_q2",
-    "heading_id": "GNS123_U2_T1_h8",
-    "article_id": "GNS123_U2_T1",
-    "topic_id": "GNS123_U2_T1",
-    "difficulty": "understanding",
-    "question": "Which of the following charting practices represents legally defensible and professional nursing documentation?",
-    "options": {
-      "A": "Using subjective emotional descriptors like 'patient is uncooperative and lazy'",
-      "B": "Erasing and writing over incorrect chart entries to maintain a clean appearance",
-      "C": "Recording objective, measurable physical findings immediately after performing the assessment",
-      "D": "Waiting until the end of a 12-hour shift to recall and write all patient observations"
+      "A": "Patient was acting cranky and complaining about unnecessary hospital food today.",
+      "B": "Patient is likely faking discomfort to get more pain medication from the nurse.",
+      "C": "Patient stated, 'My stomach hurts,' and grimaced when palpated in the right lower quadrant.",
+      "D": "Patient seemed to be in terrible pain and refused to cooperate with staff."
     },
     "answer": "C",
-    "explanation": "Prompt, objective, and factual documentation protects both the patient and the nurse by providing an accurate legal timeline of care. [learn more](GNS123_U2_T1#GNS123_U2_T1_h8)"
+    "explanation": "You're a star! Objective notes stick to exact patient quotes and things you can actually see or feel, without adding personal judgments like 'cranky' or 'faking'."
   }
 ]
