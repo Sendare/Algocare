@@ -5,15 +5,15 @@
     "article_id": "GNS113_U2_T2",
     "topic_id": "GNS113_U2_T2",
     "difficulty": "recall",
-    "question": "What three disciplines are combined to form nursing informatics?",
+    "question": "What three main disciplines are combined in nursing informatics?",
     "options": {
-      "A": "Nursing science, computer science, and information science",
-      "B": "Public health, statistics, and computer programming",
-      "C": "Nursing theory, biological science, and data engineering",
-      "D": "Medicine, pharmacology, and health administration"
+      "A": "Biology, pharmacology, and hospital administration",
+      "B": "Nursing science, computer science, and information science",
+      "C": "Public health, statistics, and clinical psychology",
+      "D": "Medicine, engineering, and health economics"
     },
-    "answer": "A",
-    "explanation": "Nursing informatics is formally defined as the integration of nursing science with computer and information sciences to manage and process health data. [learn more](GNS113_U2_T2#GNS113_U2_T2_h1)"
+    "answer": "B",
+    "explanation": "Nursing informatics is defined by the integration of nursing science with computer and information sciences to manage healthcare data. [learn more](GNS113_U2_T2#GNS113_U2_T2_h1)"
   },
   {
     "question_id": "GNS113_U2_T2_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GNS113_U2_T2",
     "topic_id": "GNS113_U2_T2",
     "difficulty": "understanding",
-    "question": "Why is informatics increasingly vital for modern health records?",
+    "question": "Why are hospitals moving from paper ledgers to digital health records?",
     "options": {
-      "A": "It reduces the financial cost of hospital building construction",
-      "B": "It completely eliminates the need for any clinical documentation by nursing staff",
-      "C": "It helps manage the massive volume of patient information safely and efficiently",
-      "D": "It replaces the judgment of the bedside nurse with automated algorithms"
+      "A": "To completely eliminate the need for nurses to write narrative notes",
+      "B": "To ensure that patients never have access to their medical history",
+      "C": "To make hospital storage rooms larger and more spacious",
+      "D": "To capture structured data that improves patient care and continuity"
     },
-    "answer": "C",
-    "explanation": "As clinical data multiplies rapidly, informatics tools provide the necessary structure to process information without overwhelming the healthcare team. [learn more](GNS113_U2_T2#GNS113_U2_T2_h1)"
+    "answer": "D",
+    "explanation": "You've got this! Digital systems make it way easier to share clean, organized data so the whole healthcare team stays on the same page."
   },
   {
     "question_id": "GNS113_U2_T2_h2_q1",
@@ -37,15 +37,15 @@
     "article_id": "GNS113_U2_T2",
     "topic_id": "GNS113_U2_T2",
     "difficulty": "recall",
-    "question": "What is the primary characteristic that defines an Electronic Health Record?",
+    "question": "What is the main feature that makes an Electronic Health Record (EHR) unique?",
     "options": {
-      "A": "It is an offline spreadsheet used exclusively for hospital billing",
-      "B": "It is a physical paper chart stored in a secure digital vault",
-      "C": "It is a digital collection of patient data designed for cross-provider sharing",
-      "D": "It is a database restricted strictly to a single physician's private computer"
+      "A": "It can only be viewed by the specific nurse who typed the notes",
+      "B": "It is stored strictly on a single physical computer in a clinic",
+      "C": "It replaces the need for doctors to diagnose patients",
+      "D": "It shares information across multiple healthcare organizations"
     },
-    "answer": "C",
-    "explanation": "An EHR is specifically engineered for interoperability, allowing multiple authorized facilities and providers to access a patient's integrated health history. [learn more](GNS113_U2_T2#GNS113_U2_T2_h2)"
+    "answer": "D",
+    "explanation": "Think of an EHR as a team player—its superpower is letting different hospitals and clinics share patient info seamlessly."
   },
   {
     "question_id": "GNS113_U2_T2_h2_q2",
@@ -53,15 +53,15 @@
     "article_id": "GNS113_U2_T2",
     "topic_id": "GNS113_U2_T2",
     "difficulty": "understanding",
-    "question": "What does interoperability mean in the context of digital health records?",
+    "question": "How does real-time data access in an EHR help protect patients?",
     "options": {
-      "A": "The capability of different software systems to exchange and use shared data",
-      "B": "The process of converting handwritten nurses' notes into scanned images",
-      "C": "The requirement for patients to manually transfer files between hospitals",
-      "D": "The ability of a computer to operate without an electric power supply"
+      "A": "By ensuring that patients stay admitted in the hospital much longer",
+      "B": "By preventing any member of the public from viewing health records",
+      "C": "By automatically prescribing medications without a doctor's review",
+      "D": "By reducing medical errors through complete and updated histories"
     },
-    "answer": "A",
-    "explanation": "Interoperability ensures that disparate health IT systems can talk to one another, preventing data silos between departments or different healthcare institutions. [learn more](GNS113_U2_T2#GNS113_U2_T2_h2)"
+    "answer": "D",
+    "explanation": "Having instant access to accurate medication lists and past diagnoses helps clinicians avoid dangerous drug interactions and treatment mistakes. [learn more](GNS113_U2_T2#GNS113_U2_T2_h2)"
   },
   {
     "question_id": "GNS113_U2_T2_h3_q1",
@@ -69,15 +69,15 @@
     "article_id": "GNS113_U2_T2",
     "topic_id": "GNS113_U2_T2",
     "difficulty": "recall",
-    "question": "What was a major safety hazard associated with traditional paper-based nursing charts?",
+    "question": "What is the main limitation of an Electronic Medical Record (EMR) compared to an EHR?",
     "options": {
-      "A": "Excessive battery consumption during night shift charting",
-      "B": "Automatic data corruption caused by magnetic interference",
-      "C": "Frequent software update crashes during patient handovers",
-      "D": "Illegible handwriting leading to potential medication administration errors"
+      "A": "It is usually restricted to a single facility or clinic",
+      "B": "It cannot be viewed by registered nurses or doctors",
+      "C": "It only contains billing information and insurance forms",
+      "D": "It is always written on paper rather than typed digitally"
     },
-    "answer": "D",
-    "explanation": "Poor handwriting on paper charts has historically been a leading contributor to misread medication dosages and clinical miscommunication. [learn more](GNS113_U2_T2#GNS113_U2_T2_h3)"
+    "answer": "A",
+    "explanation": "Good job! An EMR is great for one specific clinic's digital files, but it doesn't easily share that info with outside hospitals."
   },
   {
     "question_id": "GNS113_U2_T2_h3_q2",
@@ -85,15 +85,15 @@
     "article_id": "GNS113_U2_T2",
     "topic_id": "GNS113_U2_T2",
     "difficulty": "understanding",
-    "question": "How did the shift to digital systems primarily improve multi-provider workflows?",
+    "question": "A patient moves to another city and visits a new hospital network. Which system is designed to seamlessly transfer their complete medical history to the new care team?",
     "options": {
-      "A": "It completely removed the requirement for patient physical assessments",
-      "B": "It allowed multiple clinicians to view and update the same record simultaneously",
-      "C": "It eliminated the need for nurses to ever communicate verbally with doctors",
-      "D": "It guaranteed that computer systems would never experience downtime"
+      "A": "Paper nursing kardex",
+      "B": "Electronic Medical Record",
+      "C": "Electronic Health Record",
+      "D": "Local pharmacy ledger"
     },
-    "answer": "B",
-    "explanation": "Digital records break the physical barrier of paper charts, which could only be held by one person in one location at any given time. [learn more](GNS113_U2_T2#GNS113_U2_T2_h3)"
+    "answer": "C",
+    "explanation": "EHRs are built specifically for interoperability, allowing patient data to follow them across different healthcare networks and providers. [learn more](GNS113_U2_T2#GNS113_U2_T2_h3)"
   },
   {
     "question_id": "GNS113_U2_T2_h4_q1",
@@ -101,63 +101,63 @@
     "article_id": "GNS113_U2_T2",
     "topic_id": "GNS113_U2_T2",
     "difficulty": "recall",
-    "question": "What is the primary function of Computerized Provider Order Entry within an EHR?",
+    "question": "What is the job of clinical decision support tools inside an EHR system?",
     "options": {
-      "A": "Automatic printing of physical paper receipts for hospital billing",
-      "B": "Tracking the daily attendance and shift schedules of nursing staff",
-      "C": "Manual scanning of handwritten doctor prescriptions into image files",
-      "D": "Electronic transmission of medications, lab requests, and clinical orders"
+      "A": "To print physical paper charts for doctors to sign",
+      "B": "To trigger automated alerts for drug allergies or abnormal labs",
+      "C": "To calculate the monthly salary of hospital nursing staff",
+      "D": "To automatically discharge patients when they feel better"
     },
-    "answer": "D",
-    "explanation": "CPOE allows clinicians to enter and send medical orders directly to pharmacy, laboratory, and nursing departments through the digital network. [learn more](GNS113_U2_T2#GNS113_U2_T2_h4)"
+    "answer": "B",
+    "explanation": "You nailed it. These tools act like a smart safety net, popping up with alerts if a lab value is critical or if there's a potential drug allergy."
   },
   {
     "question_id": "GNS113_U2_T2_h4_q2",
     "heading_id": "GNS113_U2_T2_h4",
     "article_id": "GNS113_U2_T2",
     "topic_id": "GNS113_U2_T2",
-    "difficulty": "application",
-    "question": "A nurse receives an automated system warning that a newly prescribed antibiotic conflicts with a patient's documented penicillin allergy. Which EHR component generated this alert?",
+    "difficulty": "understanding",
+    "question": "Why is an audit trail an important feature in modern EHR systems?",
     "options": {
-      "A": "Computerized Provider Order Entry",
-      "B": "Clinical Decision Support",
-      "C": "Demographics and Administrative Data",
-      "D": "Electronic Billing and Insurance module"
+      "A": "It blocks patients from viewing their own laboratory tests",
+      "B": "It tracks every user who opens or modifies a patient file",
+      "C": "It calculates the exact cost of medical supplies used daily",
+      "D": "It replaces the need for nurses to give verbal shift reports"
     },
     "answer": "B",
-    "explanation": "Clinical Decision Support tools analyze patient data against rules and reference databases to provide timely safety alerts, such as allergy warnings. [learn more](GNS113_U2_T2#GNS113_U2_T2_h4)"
+    "explanation": "Correct! Audit trails keep everyone accountable by logging exactly who viewed or changed a patient's chart."
   },
   {
     "question_id": "GNS113_U2_T2_h5_q1",
     "heading_id": "GNS113_U2_T2_h5",
     "article_id": "GNS113_U2_T2",
     "topic_id": "GNS113_U2_T2",
-    "difficulty": "recall",
-    "question": "What is the key limitation of an Electronic Medical Record compared to an EHR?",
+    "difficulty": "understanding",
+    "question": "How do EHR systems directly help stop medication mistakes in the hospital?",
     "options": {
-      "A": "It is generally restricted to a single clinical practice or organization",
-      "B": "It relies entirely on paper backups for all diagnostic imaging",
-      "C": "It cannot be viewed on a computer screen or digital tablet",
-      "D": "It is legally prohibited from containing nursing notes or vital signs"
+      "A": "By ensuring that medications are stored at room temperature",
+      "B": "By eliminating medication errors caused by poor handwriting",
+      "C": "By stopping doctors from ever prescribing dangerous drugs",
+      "D": "By allowing robots to swallow pills on behalf of the patient"
     },
-    "answer": "A",
-    "explanation": "An EMR functions primarily as a digital chart for one specific facility, whereas an EHR is built for comprehensive sharing across multiple organizations. [learn more](GNS113_U2_T2#GNS113_U2_T2_h5)"
+    "answer": "B",
+    "explanation": "No more guessing what a messy prescription says! Typed digital orders take away the danger of misreading doctor's handwriting."
   },
   {
     "question_id": "GNS113_U2_T2_h5_q2",
     "heading_id": "GNS113_U2_T2_h5",
     "article_id": "GNS113_U2_T2",
     "topic_id": "GNS113_U2_T2",
-    "difficulty": "understanding",
-    "question": "Which system is most appropriate when a multidisciplinary care team across three different hospitals needs real-time access to a patient's complete history?",
+    "difficulty": "application",
+    "question": "A nurse needs to check a patient's lab results from three days ago during an emergency. What is the primary operational advantage of using an EHR in this situation?",
     "options": {
-      "A": "Electronic Health Record",
-      "B": "Standalone Pharmacy Spreadsheet",
-      "C": "Paper Kardex System",
-      "D": "Electronic Medical Record"
+      "A": "Automatic notification sent to the hospital director",
+      "B": "Instant retrieval of past records without searching physical files",
+      "C": "Immediate permission to discharge the patient home",
+      "D": "Free medical insurance coverage for the laboratory test"
     },
-    "answer": "A",
-    "explanation": "The EHR is specifically designed for interoperability and longitudinal tracking across multiple independent healthcare facilities. [learn more](GNS113_U2_T2#GNS113_U2_T2_h5)"
+    "answer": "B",
+    "explanation": "Digital archiving allows clinicians to pull up historical lab data in seconds, supporting faster and safer emergency decisions. [learn more](GNS113_U2_T2#GNS113_U2_T2_h5)"
   },
   {
     "question_id": "GNS113_U2_T2_h6_q1",
@@ -165,15 +165,15 @@
     "article_id": "GNS113_U2_T2",
     "topic_id": "GNS113_U2_T2",
     "difficulty": "recall",
-    "question": "Which clinical error is most directly reduced by transitioning to digital health records?",
+    "question": "Which of the following is a major infrastructure barrier to EHR implementation in many Nigerian hospitals?",
     "options": {
-      "A": "Medication administration errors caused by illegible handwriting",
-      "B": "Surgical complications caused by inadequate sterile technique",
-      "C": "Patient falls resulting from unlit hospital corridors",
-      "D": "Nutritional deficiencies caused by poor kitchen food preparation"
+      "A": "Frequent power outages and unstable internet connectivity",
+      "B": "Laws that strictly forbid the use of computers in medicine",
+      "C": "Excessive availability of free software for every clinic",
+      "D": "A complete lack of sick patients needing documentation"
     },
     "answer": "A",
-    "explanation": "Digital entry eliminates misinterpretations arising from poor handwriting, directly protecting patients from prescription and dosage errors. [learn more](GNS113_U2_T2#GNS113_U2_T2_h6)"
+    "explanation": "Unreliable power supply and poor internet access pose significant daily challenges to maintaining continuous digital health records in Nigeria. [learn more](GNS113_U2_T2#GNS113_U2_T2_h6)"
   },
   {
     "question_id": "GNS113_U2_T2_h6_q2",
@@ -181,15 +181,15 @@
     "article_id": "GNS113_U2_T2",
     "topic_id": "GNS113_U2_T2",
     "difficulty": "understanding",
-    "question": "How do EHR systems directly impact everyday nursing workflow efficiency?",
+    "question": "Why can resistance from experienced staff make it hard to introduce EHR systems?",
     "options": {
-      "A": "By automating all intravenous line insertions and dressing changes",
-      "B": "By removing all documentation requirements from the shift",
-      "C": "By reducing the time spent searching for misplaced paper charts",
-      "D": "By completely replacing the need for physical patient assessments"
+      "A": "Staff accustomed to manual filing may struggle or refuse to adopt new workflows",
+      "B": "New software systems require staff to have engineering degrees",
+      "C": "Experienced nurses refuse to administer medications through digital orders",
+      "D": "Older clinicians automatically delete all hospital data upon logging in"
     },
-    "answer": "C",
-    "explanation": "Instant digital retrieval saves nurses countless hours previously wasted hunting for physical folders across various nursing stations. [learn more](GNS113_U2_T2#GNS113_U2_T2_h6)"
+    "answer": "A",
+    "explanation": "Change is tough! People who are used to paper charts can find it stressful to learn a brand new digital way of working."
   },
   {
     "question_id": "GNS113_U2_T2_h7_q1",
@@ -197,15 +197,15 @@
     "article_id": "GNS113_U2_T2",
     "topic_id": "GNS113_U2_T2",
     "difficulty": "recall",
-    "question": "What is a major infrastructural challenge when implementing EHR systems in many Nigerian hospitals?",
+    "question": "What security practice involves giving staff access only to the patient files needed for their specific job duties?",
     "options": {
-      "A": "Unreliable electrical power supply requiring backup generators",
-      "B": "Universal refusal of patients to provide personal information",
-      "C": "Strict government bans on digital storage of patient files",
-      "D": "A complete absence of computers and mobile devices nationwide"
+      "A": "Role-based access control",
+      "B": "Universal computer sharing",
+      "C": "Open public network browsing",
+      "D": "Manual paper chart locking"
     },
     "answer": "A",
-    "explanation": "Frequent power outages pose a significant threat to continuous digital charting, necessitating robust backup power infrastructure. [learn more](GNS113_U2_T2#GNS113_U2_T2_h7)"
+    "explanation": "Role-based access limits what parts of an EHR a user can see based on their specific job role, protecting patient privacy. [learn more](GNS113_U2_T2#GNS113_U2_T2_h7)"
   },
   {
     "question_id": "GNS113_U2_T2_h7_q2",
@@ -213,15 +213,15 @@
     "article_id": "GNS113_U2_T2",
     "topic_id": "GNS113_U2_T2",
     "difficulty": "understanding",
-    "question": "Why is staff resistance to change considered a barrier during digital transformation?",
+    "question": "Why is sharing login passwords with a colleague considered a serious breach of EHR security?",
     "options": {
-      "A": "Users accustomed to paper may struggle with digital literacy and new workflows",
-      "B": "Digital records legally prevent nurses from performing clinical assessments",
-      "C": "Computers replace the need for critical thinking in patient care",
-      "D": "New software automatically increases nursing salaries beyond hospital budgets"
+      "A": "It automatically deletes all lab results stored in the database",
+      "B": "It compromises accountability and violates patient confidentiality",
+      "C": "It increases the hospital's monthly internet subscription fee",
+      "D": "It causes the computer screen to freeze and crash completely"
     },
-    "answer": "A",
-    "explanation": "Overcoming resistance requires patient change management, supportive leadership, and thorough training to build user confidence in new digital tools. [learn more](GNS113_U2_T2#GNS113_U2_T2_h7)"
+    "answer": "B",
+    "explanation": "Audit trails link actions to specific user accounts; sharing credentials makes it impossible to know who actually accessed or changed a record. [learn more](GNS113_U2_T2#GNS113_U2_T2_h7)"
   },
   {
     "question_id": "GNS113_U2_T2_h8_q1",
@@ -229,15 +229,15 @@
     "article_id": "GNS113_U2_T2",
     "topic_id": "GNS113_U2_T2",
     "difficulty": "recall",
-    "question": "What security mechanism ensures that clinical staff only access patient data relevant to their specific job role?",
+    "question": "Who represents the primary user group of Electronic Health Record systems in a hospital setting?",
     "options": {
-      "A": "Universal master password sharing",
-      "B": "Open unencrypted spreadsheets",
-      "C": "Public internet broadcasting",
-      "D": "Role-based access controls"
+      "A": "Nurses",
+      "B": "Facility maintenance staff",
+      "C": "Hospital accountants",
+      "D": "External software developers"
     },
-    "answer": "D",
-    "explanation": "Role-based access restricts system permissions based on a user's professional responsibilities, protecting patient privacy from snooping. [learn more](GNS113_U2_T2#GNS113_U2_T2_h8)"
+    "answer": "A",
+    "explanation": "Nurses document the largest share of daily patient care data, making them the primary users of clinical EHR systems. [learn more](GNS113_U2_T2#GNS113_U2_T2_h8)"
   },
   {
     "question_id": "GNS113_U2_T2_h8_q2",
@@ -245,46 +245,14 @@
     "article_id": "GNS113_U2_T2",
     "topic_id": "GNS113_U2_T2",
     "difficulty": "understanding",
-    "question": "What is the primary purpose of automated audit logs within an EHR system?",
+    "question": "In what way do nurses act as safety guards when using an EHR system?",
     "options": {
-      "A": "To measure the typing speed of nurses during busy night shifts",
-      "B": "To calculate the monthly financial salary of each attending physician",
-      "C": "To automatically delete patient records after twenty-four hours",
-      "D": "To track and record every user interaction and chart access for accountability"
+      "A": "By reviewing computerized alerts and verifying medication orders",
+      "B": "By writing paper security codes on the walls of patient wards",
+      "C": "By restricting doctors from ordering any laboratory tests",
+      "D": "By physically repairing broken computer keyboards and monitors"
     },
-    "answer": "D",
-    "explanation": "Audit logs create a digital footprint showing exactly who opened a patient record and when, discouraging unauthorized data browsing. [learn more](GNS113_U2_T2#GNS113_U2_T2_h8)"
-  },
-  {
-    "question_id": "GNS113_U2_T2_h9_q1",
-    "heading_id": "GNS113_U2_T2_h9",
-    "article_id": "GNS113_U2_T2",
-    "topic_id": "GNS113_U2_T2",
-    "difficulty": "recall",
-    "question": "Why are nurses considered central to the success of hospital EHR systems?",
-    "options": {
-      "A": "They write the computer programming code that builds the software",
-      "B": "They are the primary daily users and documenters of patient health records",
-      "C": "They finance the purchase of hospital servers and network cables",
-      "D": "They hold exclusive legal ownership of all patient diagnostic imaging"
-    },
-    "answer": "B",
-    "explanation": "Because bedside nurses generate the largest share of clinical documentation, their engagement directly determines EHR accuracy and utility. [learn more](GNS113_U2_T2#GNS113_U2_T2_h9)"
-  },
-  {
-    "question_id": "GNS113_U2_T2_h9_q2",
-    "heading_id": "GNS113_U2_T2_h9",
-    "article_id": "GNS113_U2_T2",
-    "topic_id": "GNS113_U2_T2",
-    "difficulty": "understanding",
-    "question": "Which of the following tasks is NOT an appropriate responsibility for a nurse utilizing an EHR?",
-    "options": {
-      "A": "Educating patients on how to access their personal health portals",
-      "B": "Accurately documenting vital signs and clinical assessment findings",
-      "C": "Writing the underlying software code and database security algorithms",
-      "D": "Safeguarding patient privacy by logging off workstations when finished"
-    },
-    "answer": "C",
-    "explanation": "Software engineering and database programming are handled by IT specialists, whereas nurses focus on clinical validation, documentation, and advocacy. [learn more](GNS113_U2_T2#GNS113_U2_T2_h9)"
+    "answer": "A",
+    "explanation": "Nurses use their clinical judgment alongside system prompts to catch potential errors before they reach the patient. [learn more](GNS113_U2_T2#GNS113_U2_T2_h8)"
   }
 ]
