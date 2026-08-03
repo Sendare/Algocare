@@ -5,15 +5,15 @@
     "article_id": "GNS217_U4_T1",
     "topic_id": "GNS217_U4_T1",
     "difficulty": "recall",
-    "question": "What is the primary purpose of measurement in nursing research?",
+    "question": "In nursing research, what do we actually mean by 'measurement'?",
     "options": {
-      "A": "Eliminating all possible sources of human error in a study",
-      "B": "Assigning numbers to variables according to specific rules",
-      "C": "Determining the financial cost of implementing patient care",
-      "D": "Replacing qualitative interviews with strict numerical data"
+      "A": "Recording vital signs only during morning rounds",
+      "B": "Assigning numbers or labels to objects or events",
+      "C": "Prescribing medication according to hospital policy",
+      "D": "Treating patients based on their personal preferences"
     },
     "answer": "B",
-    "explanation": "Measurement in research is formally defined as the process of assigning symbols or numbers to objects, events, or variables based on set rules. [learn more](GNS217_U4_T1#GNS217_U4_T1_h1)"
+    "explanation": "Think of measurement simply as giving a number or a clear label to something we are observing, following a set of rules. You've got this!"
   },
   {
     "question_id": "GNS217_U4_T1_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GNS217_U4_T1",
     "topic_id": "GNS217_U4_T1",
     "difficulty": "understanding",
-    "question": "Why is identifying the correct scale of measurement vital prior to conducting data analysis?",
+    "question": "Why is it important for a nurse researcher to know about different scales of measurement?",
     "options": {
-      "A": "It automatically guarantees that the research sample size will be sufficient",
-      "B": "It removes the need for institutional ethical approval of the study",
-      "C": "It dictates which statistical tests are appropriate for evaluating the data",
-      "D": "It prevents patients from misunderstanding questionnaires during interviews"
+      "A": "To calculate the exact financial cost of a hospital ward",
+      "B": "To determine which nurses get promoted to head nurse",
+      "C": "To bypass the hospital ethics committee approval process",
+      "D": "To select the correct statistical tests for data analysis"
     },
-    "answer": "C",
-    "explanation": "The mathematical properties of each measurement scale determine which parametric or nonparametric statistical tests can be validly applied. [learn more](GNS217_U4_T1#GNS217_U4_T1_h1)"
+    "answer": "D",
+    "explanation": "Different types of data need different mathematical tools. Knowing your measurement scale helps you pick the right statistical test to make sense of your findings."
   },
   {
     "question_id": "GNS217_U4_T1_h2_q1",
@@ -37,31 +37,31 @@
     "article_id": "GNS217_U4_T1",
     "topic_id": "GNS217_U4_T1",
     "difficulty": "recall",
-    "question": "Which mathematical operation or statistical measure is appropriate for nominal-level data?",
+    "question": "Which of these best describes a nominal scale of measurement?",
     "options": {
-      "A": "Computing standard deviation scores",
-      "B": "Determining the precise arithmetic mean",
-      "C": "Multiplying category values together",
-      "D": "Calculating frequencies and percentages"
+      "A": "Variables contain a true and absolute zero point",
+      "B": "Data points are always ranked from highest to lowest",
+      "C": "Measurements have equal intervals between numbers",
+      "D": "Categories have no numerical value or logical order"
     },
     "answer": "D",
-    "explanation": "Because nominal data only categorize items without numerical weight, only frequency counts, percentages, and modes can be calculated. [learn more](GNS217_U4_T1#GNS217_U4_T1_h2)"
+    "explanation": "Nominal data is just about naming or sorting into groups (like male/female or blood types). One group isn't higher or lower than another!"
   },
   {
     "question_id": "GNS217_U4_T1_h2_q2",
     "heading_id": "GNS217_U4_T1_h2",
     "article_id": "GNS217_U4_T1",
     "topic_id": "GNS217_U4_T1",
-    "difficulty": "understanding",
-    "question": "A researcher classifies hospital patients by their primary medical ward: surgical, medical, or orthopedic. What scale of measurement is this?",
+    "difficulty": "application",
+    "question": "Which of these clinical variables is measured using a nominal scale?",
     "options": {
-      "A": "Ordinal scale",
-      "B": "Nominal scale",
-      "C": "Interval scale",
-      "D": "Ratio scale"
+      "A": "Weight of an infant in kilograms",
+      "B": "Patient admission diagnosis code",
+      "C": "Body temperature in degrees Celsius",
+      "D": "Pain score rated from zero to ten"
     },
     "answer": "B",
-    "explanation": "Ward classifications represent distinct, mutually exclusive categories without any numerical ranking or order, which defines a nominal scale. [learn more](GNS217_U4_T1#GNS217_U4_T1_h2)"
+    "explanation": "Diagnosis codes are just labels used to group patient conditions. A malaria code isn't 'higher' than a typhoid code—they're just different categories."
   },
   {
     "question_id": "GNS217_U4_T1_h3_q1",
@@ -69,15 +69,15 @@
     "article_id": "GNS217_U4_T1",
     "topic_id": "GNS217_U4_T1",
     "difficulty": "recall",
-    "question": "What is the primary characteristic that distinguishes an ordinal scale from a nominal scale?",
+    "question": "What is the main catch or limitation when using an ordinal measurement scale?",
     "options": {
-      "A": "Equal and standardized intervals between numbers",
-      "B": "The ability to rank or order the categories",
-      "C": "The presence of a true and absolute zero point",
-      "D": "The capacity to calculate an arithmetic mean"
+      "A": "Categories cannot be placed in any logical sequence",
+      "B": "The exact mathematical distance between ranks is unknown",
+      "C": "It requires a true zero point to function correctly",
+      "D": "It cannot be used for any kind of health research"
     },
     "answer": "B",
-    "explanation": "Ordinal scales share the categorization feature of nominal scales but add the property of logical ranking or ordering. [learn more](GNS217_U4_T1#GNS217_U4_T1_h3)"
+    "explanation": "Ordinal scales let us put things in order (like mild, moderate, severe), but they don't tell us if the gap between mild and moderate is the same as moderate and severe."
   },
   {
     "question_id": "GNS217_U4_T1_h3_q2",
@@ -85,15 +85,15 @@
     "article_id": "GNS217_U4_T1",
     "topic_id": "GNS217_U4_T1",
     "difficulty": "application",
-    "question": "A nurse researcher asks patients to rate their discharge instructions as 'Very Poor', 'Poor', 'Fair', 'Good', or 'Excellent'. Which statistical measure is most appropriate to determine the central tendency of these responses?",
+    "question": "A nurse assesses a wound and notes it as 'mild, moderate, or severe'. What scale of measurement is this?",
     "options": {
-      "A": "Coefficient of variation",
-      "B": "Median",
-      "C": "Mean",
-      "D": "Variance"
+      "A": "Ratio scale",
+      "B": "Nominal scale",
+      "C": "Interval scale",
+      "D": "Ordinal scale"
     },
-    "answer": "B",
-    "explanation": "Because satisfaction ratings represent ranked ordinal data with unequal intervals, the median is the appropriate measure of central tendency. [learn more](GNS217_U4_T1#GNS217_U4_T1_h3)"
+    "answer": "D",
+    "explanation": "Because the wound grades follow a clear rank order from best to worst, we call this an ordinal scale."
   },
   {
     "question_id": "GNS217_U4_T1_h4_q1",
@@ -101,15 +101,15 @@
     "article_id": "GNS217_U4_T1",
     "topic_id": "GNS217_U4_T1",
     "difficulty": "recall",
-    "question": "What key characteristic is completely missing in an interval scale of measurement?",
+    "question": "What is the standout feature of an interval scale of measurement?",
     "options": {
-      "A": "Categorical or ranked ordering",
-      "B": "Equal distances between scale units",
-      "C": "The ability to calculate a mean",
-      "D": "A true or absolute zero point"
+      "A": "It contains categories that cannot be placed in any order",
+      "B": "It possesses an absolute zero point representing total absence",
+      "C": "It is used exclusively for measuring physical weight and mass",
+      "D": "It has equal intervals between numbers but no true zero"
     },
     "answer": "D",
-    "explanation": "Interval scales have equal spacing between numbers, but zero is arbitrary rather than representing a complete absence of the measured trait. [learn more](GNS217_U4_T1#GNS217_U4_T1_h4)"
+    "explanation": "On an interval scale, the steps between numbers are even (like degrees on a thermometer), but zero doesn't mean 'nothing'—0°C doesn't mean there is zero heat!"
   },
   {
     "question_id": "GNS217_U4_T1_h4_q2",
@@ -117,15 +117,15 @@
     "article_id": "GNS217_U4_T1",
     "topic_id": "GNS217_U4_T1",
     "difficulty": "understanding",
-    "question": "Why is measuring body temperature in Celsius considered an interval scale rather than a ratio scale?",
+    "question": "Why is 30 degrees Celsius not considered twice as warm as 15 degrees Celsius?",
     "options": {
-      "A": "Temperatures cannot be added or subtracted from one another directly",
-      "B": "Zero degrees Celsius does not represent a complete absence of thermal energy",
-      "C": "Negative temperature values are mathematically impossible to record",
-      "D": "The numerical intervals between degrees change depending on the season"
+      "A": "Because Celsius measurements have uneven gaps between numbers",
+      "B": "Because the scale lacks a true absolute zero point",
+      "C": "Because thermal energy cannot be measured numerically",
+      "D": "Because temperature is actually measured on a nominal scale"
     },
     "answer": "B",
-    "explanation": "Because zero Celsius is an arbitrary reference point and does not mean zero heat, ratios cannot be formed, preventing it from being a ratio scale. [learn more](GNS217_U4_T1#GNS217_U4_T1_h4)"
+    "explanation": "Without a true zero point where temperature completely disappears, you can't multiply or say something has 'twice as much' heat."
   },
   {
     "question_id": "GNS217_U4_T1_h5_q1",
@@ -133,15 +133,15 @@
     "article_id": "GNS217_U4_T1",
     "topic_id": "GNS217_U4_T1",
     "difficulty": "recall",
-    "question": "Which feature is uniquely found in a ratio scale compared to an interval scale?",
+    "question": "Which special property sets a ratio scale apart from an interval scale?",
     "options": {
-      "A": "A true and absolute zero point indicating total absence",
-      "B": "The ability to calculate the median and mode",
-      "C": "Equal and standardized numerical intervals between units",
-      "D": "Mutually exclusive categories for data sorting"
+      "A": "The presence of unequal intervals between numbers",
+      "B": "The use of categories that cannot be ranked",
+      "C": "The complete absence of any numerical values",
+      "D": "The presence of an absolute true zero point"
     },
-    "answer": "A",
-    "explanation": "The defining property that separates ratio scales from interval scales is the presence of an absolute zero point where the variable ceases to exist. [learn more](GNS217_U4_T1#GNS217_U4_T1_h5)"
+    "answer": "D",
+    "explanation": "A true zero means zero actually means none of that item exists (like 0 mL of urine output). That's what makes it a ratio scale!"
   },
   {
     "question_id": "GNS217_U4_T1_h5_q2",
@@ -149,47 +149,47 @@
     "article_id": "GNS217_U4_T1",
     "topic_id": "GNS217_U4_T1",
     "difficulty": "application",
-    "question": "A clinical trial records patient blood loss in milliliters following childbirth. Which statement about this data is correct?",
+    "question": "A nurse records a patient's daily urine output as 1000 mL, which is exactly double yesterday's output. What scale makes this math possible?",
     "options": {
-      "A": "It is a nominal scale because blood volume categories are mutually exclusive groups",
-      "B": "It is measured on an interval scale because zero milliliters is an arbitrary value chosen by researchers",
-      "C": "It is measured on a ratio scale, allowing statements that one patient lost twice as much blood as another",
-      "D": "It is an ordinal scale because blood loss can only be ranked from minimal to massive hemorrhage"
+      "A": "Ratio scale",
+      "B": "Interval scale",
+      "C": "Ordinal scale",
+      "D": "Nominal scale"
     },
-    "answer": "C",
-    "explanation": "Milliliters of blood loss have equal intervals and a true zero of zero ml, making it a ratio scale where direct proportional comparisons are valid. [learn more](GNS217_U4_T1#GNS217_U4_T1_h5)"
+    "answer": "A",
+    "explanation": "Because urine output has a true zero (0 mL means absolutely no urine), you can safely make direct comparisons like 'twice as much'."
   },
   {
     "question_id": "GNS217_U4_T1_h6_q1",
     "heading_id": "GNS217_U4_T1_h6",
     "article_id": "GNS217_U4_T1",
     "topic_id": "GNS217_U4_T1",
-    "difficulty": "recall",
-    "question": "Which of the four scales of measurement includes BOTH equal intervals and an absolute zero point?",
+    "difficulty": "understanding",
+    "question": "How do the four scales of measurement relate to one another?",
     "options": {
-      "A": "Nominal scale",
-      "B": "Ratio scale",
-      "C": "Ordinal scale",
-      "D": "Interval scale"
+      "A": "Lower scales are more accurate than higher ratio scales",
+      "B": "Nominal and ratio scales are identical except for their names",
+      "C": "All four scales share the exact same mathematical properties",
+      "D": "Higher scales build upon the rules of lower scales by adding features"
     },
-    "answer": "B",
-    "explanation": "The ratio scale is the only level of measurement that possesses both equal intervals between units and a true, absolute zero point. [learn more](GNS217_U4_T1#GNS217_U4_T1_h6)"
+    "answer": "D",
+    "explanation": "Each scale keeps the perks of the previous one while adding a cool new mathematical power. Nominal is basic, ordinal adds rank, interval adds equal spacing, and ratio adds true zero!"
   },
   {
     "question_id": "GNS217_U4_T1_h6_q2",
     "heading_id": "GNS217_U4_T1_h6",
     "article_id": "GNS217_U4_T1",
     "topic_id": "GNS217_U4_T1",
-    "difficulty": "understanding",
-    "question": "What happens to the mathematical flexibility and available statistical tests as a researcher moves from a nominal scale to a ratio scale?",
+    "difficulty": "recall",
+    "question": "Which of the following measurement scales includes BOTH equal intervals and a true zero?",
     "options": {
-      "A": "Statistical calculations become completely impossible",
-      "B": "Only non-parametric tests remain allowable",
-      "C": "Flexibility and available statistical tests increase",
-      "D": "Flexibility and available statistical tests decrease"
+      "A": "Ratio scale",
+      "B": "Nominal scale",
+      "C": "Interval scale",
+      "D": "Ordinal scale"
     },
-    "answer": "C",
-    "explanation": "Higher scales contain more mathematical properties, permitting advanced parametric testing and precise proportional calculations not possible at lower levels. [learn more](GNS217_U4_T1#GNS217_U4_T1_h6)"
+    "answer": "A",
+    "explanation": "The ratio scale sits at the top of the ladder—it has both evenly spaced numbers and a real, absolute zero."
   },
   {
     "question_id": "GNS217_U4_T1_h7_q1",
@@ -197,15 +197,15 @@
     "article_id": "GNS217_U4_T1",
     "topic_id": "GNS217_U4_T1",
     "difficulty": "understanding",
-    "question": "Why is collecting data at the highest possible level of measurement recommended during study design?",
+    "question": "Why is it usually smart to collect data at the highest possible level of measurement?",
     "options": {
-      "A": "Data can always be converted into lower-level categories later if needed",
-      "B": "It completely eliminates the requirement for institutional ethical review",
-      "C": "Lower-level scales are considered legally invalid in modern clinical trials",
-      "D": "Patients find high-level scales much easier to understand and complete"
+      "A": "Nominal scales require more complex computer software to analyze",
+      "B": "Lower-level data is illegal to use in modern hospital research",
+      "C": "Ratio scales prevent patients from refusing to answer survey questions",
+      "D": "You can convert higher-level data down into categories later if needed"
     },
-    "answer": "A",
-    "explanation": "Starting with ratio or interval data allows researchers to downgrade data for specific analyses, whereas low-level data cannot be mathematically upgraded. [learn more](GNS217_U4_T1#GNS217_U4_T1_h7)"
+    "answer": "D",
+    "explanation": "If you collect precise numbers, you can always group them later. But if you start with vague categories, you've lost the exact details forever!"
   },
   {
     "question_id": "GNS217_U4_T1_h7_q2",
@@ -213,14 +213,14 @@
     "article_id": "GNS217_U4_T1",
     "topic_id": "GNS217_U4_T1",
     "difficulty": "application",
-    "question": "A nurse researcher analyzes a questionnaire where patients rated their wound healing as 'Worse', 'Unchanged', or 'Improved'. What is an important methodological limitation to keep in mind during data analysis?",
+    "question": "A nurse researcher wants to measure patient satisfaction in the most detailed way possible. Which option should they choose?",
     "options": {
-      "A": "The intervals between categories are unequal, so calculating an arithmetic mean is inappropriate",
-      "B": "The categories are mutually inclusive, causing widespread overlap in patient classification",
-      "C": "The absence of a true zero point prevents the calculation of simple frequency percentages",
-      "D": "The data are nominal, which completely restricts the use of the median as a central tendency"
+      "A": "Asking patients to answer simply yes or no to being satisfied",
+      "B": "Using a continuous numerical rating scale from zero to one hundred",
+      "C": "Grouping patients into satisfied, neutral, or dissatisfied categories",
+      "D": "Classifying hospital units by their primary nursing delivery model"
     },
-    "answer": "A",
-    "explanation": "Wound healing ratings represent ordinal data where distance between options is not uniform, meaning means and standard deviations should not be used. [learn more](GNS217_U4_T1#GNS217_U4_T1_h7)"
+    "answer": "B",
+    "explanation": "A 0-100 rating gives you rich, detailed numbers instead of forcing patients into simple yes/no boxes. Great job working through these!"
   }
 ]
