@@ -1,35 +1,19 @@
 [
   {
-    "question_id": "GNS215_U1_T8_h1_q1",
-    "heading_id": "GNS215_U1_T8_h1",
-    "article_id": "GNS215_U1_T8",
-    "topic_id": "GNS215_U1_T8",
-    "difficulty": "recall",
-    "question": "What does drug under-prescription refer to in clinical practice?",
-    "options": {
-      "A": "A patient failing to receive a clinically indicated medication",
-      "B": "A patient refusing to take prescribed medicines at home",
-      "C": "A pharmacist substituting a generic drug for a branded one",
-      "D": "A prescriber reducing the dosage of a drug due to side effects"
-    },
-    "answer": "A",
-    "explanation": "Under-prescription specifically denotes the omission of a necessary therapeutic agent that the patient's condition demands. [learn more](GNS215_U1_T8#GNS215_U1_T8_h1)"
-  },
-  {
     "question_id": "GNS215_U1_T8_h1_q2",
     "heading_id": "GNS215_U1_T8_h1",
     "article_id": "GNS215_U1_T8",
     "topic_id": "GNS215_U1_T8",
     "difficulty": "understanding",
-    "question": "Why is drug under-prescription often considered a silent problem compared to polypharmacy?",
+    "question": "Why is drug under-prescription often a hidden problem in healthcare?",
     "options": {
-      "A": "It only occurs in rural primary health centers without documentation",
-      "B": "It results in an absence of treatment rather than visible adverse drug reactions",
-      "C": "Patients rarely report missing medications to their attending physicians",
-      "D": "Pharmaceutical companies actively promote the omission of medicines"
+      "A": "Pharmacies automatically correct the missing prescriptions",
+      "B": "It is completely illegal and hidden by hospital administrators",
+      "C": "Patients refuse to report when their doctor forgets a drug",
+      "D": "It involves omissions of care rather than active errors that cause immediate toxicity"
     },
-    "answer": "B",
-    "explanation": "Because drugs are simply left off the prescription chart, the resulting harm manifests as disease progression rather than acute, observable toxicity. [learn more](GNS215_U1_T8#GNS215_U1_T8_h1)"
+    "answer": "D",
+    "explanation": "Great job thinking about patient safety! When something is left out (an omission), it doesn't cause a sudden toxic reaction, making it much harder to spot right away compared to an overdose."
   },
   {
     "question_id": "GNS215_U1_T8_h2_q1",
@@ -37,31 +21,31 @@
     "article_id": "GNS215_U1_T8",
     "topic_id": "GNS215_U1_T8",
     "difficulty": "recall",
-    "question": "What is a therapeutic gap in the context of prescribing?",
+    "question": "Which group of patients is most often affected by drug under-prescription?",
     "options": {
-      "A": "The financial difference between generic and brand-name medications",
-      "B": "A discrepancy between recommended guidelines and actual treatment given",
-      "C": "A temporary pause in medication administration during surgery",
-      "D": "The time interval between the morning and evening doses of a drug"
+      "A": "Children admitted for acute infectious diseases",
+      "B": "Young healthy adults visiting emergency rooms",
+      "C": "Athletes recovering from orthopedic surgeries",
+      "D": "Older adults and those with multiple chronic illnesses"
     },
-    "answer": "B",
-    "explanation": "Therapeutic gaps represent the missing treatments that evidence-based guidelines indicate a patient should be receiving. [learn more](GNS215_U1_T8#GNS215_U1_T8_h2)"
+    "answer": "D",
+    "explanation": "Spot on! Older patients and those with complex health issues often miss out on necessary care because healthcare providers worry too much about drug interactions."
   },
   {
     "question_id": "GNS215_U1_T8_h2_q2",
     "heading_id": "GNS215_U1_T8_h2",
     "article_id": "GNS215_U1_T8",
     "topic_id": "GNS215_U1_T8",
-    "difficulty": "understanding",
-    "question": "Which clinical scenario best illustrates a therapeutic gap caused by under-prescription?",
+    "difficulty": "application",
+    "question": "A patient with mild kidney disease is denied a standard heart medication because the doctor worries about organ damage. What does this show?",
     "options": {
-      "A": "An antibiotic prescription being stopped after three days instead of five",
-      "B": "A diabetic patient experiencing hypoglycemia due to excessive insulin dosing",
-      "C": "A hypertensive patient with persistent high blood pressure receiving only lifestyle advice",
-      "D": "An elderly patient taking five different medications for various chronic ailments"
+      "A": "Forgetting to check the patient's medical history chart",
+      "B": "Failing to prescribe due to high pharmacy costs",
+      "C": "Deliberately stopping all medications during palliative care",
+      "D": "Withholding therapy out of fear rather than adjusting the dose"
     },
-    "answer": "C",
-    "explanation": "Failing to add pharmacological management when lifestyle modifications prove insufficient represents a clear failure to bridge a therapeutic gap. [learn more](GNS215_U1_T8#GNS215_U1_T8_h2)"
+    "answer": "D",
+    "explanation": "You've got this! Instead of finding a safe dose adjusted for the kidneys, the doctor avoided the drug entirely out of fear."
   },
   {
     "question_id": "GNS215_U1_T8_h3_q1",
@@ -69,15 +53,15 @@
     "article_id": "GNS215_U1_T8",
     "topic_id": "GNS215_U1_T8",
     "difficulty": "recall",
-    "question": "What is subtherapeutic dosing considered a form of?",
+    "question": "What is 'clinical inertia' when it comes to prescribing medications?",
     "options": {
-      "A": "Polypharmacy",
-      "B": "Under-prescription",
-      "C": "Adverse drug reaction",
-      "D": "Medication non-adherence"
+      "A": "The rapid changing of medications by multiple different doctors",
+      "B": "The failure of a provider to start or increase therapy when needed",
+      "C": "The delay in pharmacy delivery of critical care drugs",
+      "D": "The complete refusal of a patient to take prescribed pills"
     },
     "answer": "B",
-    "explanation": "Giving a drug at a dose that is too low to work effectively falls under the broader category of under-prescription. [learn more](GNS215_U1_T8#GNS215_U1_T8_h3)"
+    "explanation": "Clinical inertia is just a fancy way of saying healthcare providers sticking to the status quo instead of updating a treatment plan when a patient needs more help."
   },
   {
     "question_id": "GNS215_U1_T8_h3_q2",
@@ -85,15 +69,15 @@
     "article_id": "GNS215_U1_T8",
     "topic_id": "GNS215_U1_T8",
     "difficulty": "understanding",
-    "question": "Why is age-related omission a major concern in geriatric care?",
+    "question": "How can a fear of side effects lead to drug under-prescription?",
     "options": {
-      "A": "Elderly patients are denied beneficial treatments simply due to their age number",
-      "B": "Older patients always refuse preventive therapies during hospital visits",
-      "C": "Geriatric clinical guidelines forbid the use of prescription medications",
-      "D": "Older adults metabolize all drugs faster than younger populations do"
+      "A": "Doctors prescribe double doses to prevent side effects",
+      "B": "Providers choose to omit necessary treatments to avoid potential harm",
+      "C": "Patients stop buying drugs that cause mild stomach upset",
+      "D": "Pharmacists refuse to fill prescriptions for elderly patients"
     },
-    "answer": "A",
-    "explanation": "Age-related omission occurs when clinicians withhold effective therapies from older individuals under the false assumption that they cannot tolerate or benefit from them. [learn more](GNS215_U1_T8#GNS215_U1_T8_h3)"
+    "answer": "B",
+    "explanation": "Exactly! Sometimes being overly scared of side effects stops a practitioner from starting a drug that could actually do the patient a lot of good."
   },
   {
     "question_id": "GNS215_U1_T8_h4_q1",
@@ -101,15 +85,15 @@
     "article_id": "GNS215_U1_T8",
     "topic_id": "GNS215_U1_T8",
     "difficulty": "recall",
-    "question": "What does the term therapeutic inertia describe in clinical practice?",
+    "question": "What is the main purpose of medication reconciliation in clinical practice?",
     "options": {
-      "A": "A hospital pharmacy running out of essential emergency medicines",
-      "B": "The delayed absorption of a drug caused by impaired GI motility",
-      "C": "A patient's refusal to swallow tablets prescribed by a doctor",
-      "D": "A clinician's failure to initiate or escalate therapy when indicated"
+      "A": "To report pharmaceutical companies for high drug prices",
+      "B": "To compare current medication orders against what the patient actually needs",
+      "C": "To destroy expired medications found in the patient bedside locker",
+      "D": "To calculate the total monthly cost of all prescribed drugs"
     },
-    "answer": "D",
-    "explanation": "Therapeutic inertia refers to the psychological and behavioral tendency of healthcare providers to keep treatment regimens unchanged even when goals are not met. [learn more](GNS215_U1_T8#GNS215_U1_T8_h4)"
+    "answer": "B",
+    "explanation": "Medication reconciliation is like a safety net! It helps catch missing medications that should be part of the patient's treatment plan."
   },
   {
     "question_id": "GNS215_U1_T8_h4_q2",
@@ -117,15 +101,15 @@
     "article_id": "GNS215_U1_T8",
     "topic_id": "GNS215_U1_T8",
     "difficulty": "understanding",
-    "question": "How do out-of-pocket payment systems contribute directly to under-prescription in many settings?",
+    "question": "When is medication reconciliation most important for catching under-prescriptions?",
     "options": {
-      "A": "Patients automatically reject any prescription that contains more than two items",
-      "B": "Prescribers intentionally leave needed drugs off scripts because patients cannot pay for them",
-      "C": "Governments penalize doctors who prescribe expensive imported medications",
-      "D": "Hospitals supply free medications only to patients who are admitted overnight"
+      "A": "At every transition of care, such as hospital admission or discharge",
+      "B": "Right before a nurse administers a single daily dose",
+      "C": "Only when a patient complains of severe allergic reactions",
+      "D": "During routine annual physical exams in an outpatient clinic"
     },
-    "answer": "B",
-    "explanation": "When patients must bear the full cost of healthcare without insurance, clinicians often ration prescriptions to match perceived financial limits. [learn more](GNS215_U1_T8#GNS215_U1_T8_h4)"
+    "answer": "A",
+    "explanation": "Spot on! Transitions (like moving from the ward home or to another unit) are high-risk times when necessary medications easily get left behind or forgotten."
   },
   {
     "question_id": "GNS215_U1_T8_h5_q1",
@@ -133,31 +117,31 @@
     "article_id": "GNS215_U1_T8",
     "topic_id": "GNS215_U1_T8",
     "difficulty": "recall",
-    "question": "Which nursing activity is most critical for identifying omitted medications?",
+    "question": "What is a common result of drug under-prescription?",
     "options": {
-      "A": "Medication reconciliation and guideline comparison",
-      "B": "Calculating the exact fluid balance over 24 hours",
-      "C": "Monitoring patient vital signs every four hours",
-      "D": "Administering intravenous fluids strictly on schedule"
+      "A": "Silent disease progression and preventable complications",
+      "B": "Acute drug overdose and immediate hospital admission",
+      "C": "Severe allergic reactions across multiple organ systems",
+      "D": "Rapid development of antibiotic resistance in the community"
     },
     "answer": "A",
-    "explanation": "Medication reconciliation allows nurses to see the complete therapeutic picture and compare it against standard clinical requirements to spot omissions. [learn more](GNS215_U1_T8#GNS215_U1_T8_h5)"
+    "explanation": "You're building great clinical intuition! Under-prescription often harms patients quietly because their illness isn't being treated aggressively enough, leading to preventable setbacks."
   },
   {
     "question_id": "GNS215_U1_T8_h5_q2",
     "heading_id": "GNS215_U1_T8_h5",
     "article_id": "GNS215_U1_T8",
     "topic_id": "GNS215_U1_T8",
-    "difficulty": "understanding",
-    "question": "What is a key clinical indicator that a patient may be suffering from under-prescription?",
+    "difficulty": "application",
+    "question": "A patient with a history of heart attacks is discharged without being given a statin or beta-blocker. What is this patient at higher risk for?",
     "options": {
-      "A": "A sudden increase in the patient's daily fluid intake",
-      "B": "The presence of multiple adverse drug reactions on the chart",
-      "C": "Persistent uncontrolled disease parameters despite standard initial management",
-      "D": "Rapid recovery and early discharge from the medical ward"
+      "A": "Immediate kidney failure caused by excessive medication",
+      "B": "Acute drug toxicity from an accidental double dose",
+      "C": "Severe antibiotic resistance from prolonged drug exposure",
+      "D": "A recurrent cardiac event due to lack of secondary prevention"
     },
-    "answer": "C",
-    "explanation": "When a disease remains unmanaged, it often signals that the current treatment regimen lacks necessary components or adequate dosing. [learn more](GNS215_U1_T8#GNS215_U1_T8_h5)"
+    "answer": "D",
+    "explanation": "Brilliant! Leaving out essential recovery drugs (secondary prevention) significantly increases the chance that the patient might suffer another heart attack or stroke."
   },
   {
     "question_id": "GNS215_U1_T8_h6_q1",
@@ -165,15 +149,15 @@
     "article_id": "GNS215_U1_T8",
     "topic_id": "GNS215_U1_T8",
     "difficulty": "recall",
-    "question": "Which of the following is NOT a direct consequence of drug under-prescription?",
+    "question": "How can nurses directly help reduce the problem of under-prescription?",
     "options": {
-      "A": "Elevated risk of major adverse cardiovascular events",
-      "B": "Increased risk of acute drug toxicity",
-      "C": "Progressive worsening of the underlying disease",
-      "D": "Higher rates of preventable hospital readmissions"
+      "A": "By replacing missing physician orders with over-the-counter remedies",
+      "B": "By advocating for evidence-based treatments during multidisciplinary rounds",
+      "C": "By writing independent prescriptions for specialized cardiac drugs",
+      "D": "By discharging patients early when medications are unavailable"
     },
     "answer": "B",
-    "explanation": "Acute drug toxicity is a consequence of over-prescription or overdose, whereas under-prescription involves a lack of necessary medication. [learn more](GNS215_U1_T8#GNS215_U1_T8_h6)"
+    "explanation": "You got it! Because nurses spend the most time with patients, they are in the best position to spot missing therapies and speak up during team meetings."
   },
   {
     "question_id": "GNS215_U1_T8_h6_q2",
@@ -181,46 +165,14 @@
     "article_id": "GNS215_U1_T8",
     "topic_id": "GNS215_U1_T8",
     "difficulty": "understanding",
-    "question": "How do medication errors of omission compare to errors of commission regarding patient outcomes?",
+    "question": "Why is patient education a powerful nursing tool against under-prescription?",
     "options": {
-      "A": "Commission errors always result in death while omissions only cause minor discomfort",
-      "B": "Omissions are generally harmless because the body heals without medicines",
-      "C": "Omissions can be just as life-threatening due to untreated disease progression",
-      "D": "Commission errors are monitored by nurses, but omissions are ignored"
-    },
-    "answer": "C",
-    "explanation": "Failing to provide a life-saving therapy is just as dangerous as giving the wrong drug, as both lead to severe adverse clinical outcomes. [learn more](GNS215_U1_T8#GNS215_U1_T8_h6)"
-  },
-  {
-    "question_id": "GNS215_U1_T8_h7_q1",
-    "heading_id": "GNS215_U1_T8_h7",
-    "article_id": "GNS215_U1_T8",
-    "topic_id": "GNS215_U1_T8",
-    "difficulty": "recall",
-    "question": "What is a primary way nurses can help mitigate drug under-prescription?",
-    "options": {
-      "A": "Referring every patient directly to a clinical pharmacist for review",
-      "B": "Participating in multidisciplinary rounds to advocate for missing therapies",
-      "C": "Discontinuing all drugs that appear to be causing therapeutic inertia",
-      "D": "Independently prescribing missing medications without medical approval"
+      "A": "It ensures patients refuse all medications to save money",
+      "B": "It empowers patients to ask their doctors about standard therapies for their illness",
+      "C": "It prevents doctors from making any clinical errors during visits",
+      "D": "It teaches patients how to fill their own prescriptions at the pharmacy"
     },
     "answer": "B",
-    "explanation": "Nurses use their bedside observations during rounds to collaborate with prescribers and suggest evidence-based additions to patient care plans. [learn more](GNS215_U1_T8#GNS215_U1_T8_h7)"
-  },
-  {
-    "question_id": "GNS215_U1_T8_h7_q2",
-    "heading_id": "GNS215_U1_T8_h7",
-    "article_id": "GNS215_U1_T8",
-    "topic_id": "GNS215_U1_T8",
-    "difficulty": "understanding",
-    "question": "Why is patient education considered a useful strategy in addressing treatment gaps?",
-    "options": {
-      "A": "Education completely eliminates the problem of medication side effects",
-      "B": "Patients can purchase prescription drugs directly from hospital wards",
-      "C": "Trained patients are legally permitted to adjust their own medication dosages",
-      "D": "Informed patients can actively discuss their care needs with their healthcare providers"
-    },
-    "answer": "D",
-    "explanation": "Educating patients empowers them to ask relevant questions about why certain treatments are or are not included in their management plan. [learn more](GNS215_U1_T8#GNS215_U1_T8_h7)"
+    "explanation": "Knowledge is power! When patients understand what treatments are standard for their condition, they can speak up and ask if their care plan includes them."
   }
 ]
