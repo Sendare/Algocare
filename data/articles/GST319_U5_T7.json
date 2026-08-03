@@ -12,49 +12,43 @@
       "heading_id": "GST319_U5_T7_h1",
       "order": 1,
       "title": "Introduction to Human Factors and Ergonomics",
-      "content": "Human factors science examines how people interact with technology, equipment, workspaces, and organizational systems. In clinical environments, applying these principles shifts the traditional mindset from blaming individual workers to analyzing why a system allowed an error to occur. Ergonomics encompasses both physical design, such as hospital bed heights or pump interfaces, and cognitive design, like medication labeling and electronic health record layouts. Understanding human limitations in memory, attention, and physical endurance helps creators build safer workflows that support rather than hinder clinical staff."
+      "content": "Human factors science looks at how people interact with the tools, tasks, environments, and other people around them. In nursing, this means designing systems that fit human strengths and protect against human limitations. When a medication error happens, blaming the individual nurse rarely fixes the root problem. Instead, human factors looks deeper to see if confusing pump dials, poor lighting, or rushed shift handovers set that nurse up to fail. Ergonomics focuses heavily on matching the physical and mental demands of clinical work to the actual capacity of healthcare workers."
     },
     {
       "heading_id": "GST319_U5_T7_h2",
       "order": 2,
       "title": "The Swiss Cheese Model of System Accidents",
-      "content": "James Reason's Swiss Cheese Model visualizes an organization's defenses against failure as a series of stacked slices of Swiss cheese. Each slice represents a defense layer, such as double-checking drug charts, electronic alerts, or shift handovers. The holes in the cheese represent active failures or latent conditions—such as fatigue, illegible handwriting, or faulty pump programming—that constantly change in size and position. An adverse event or clinical error only reaches the patient when the holes in every single slice temporarily align, allowing a hazard to pass straight through the defenses."
+      "content": "James Reason's Swiss Cheese Model explains that major accidents in healthcare rarely happen because of one single failure. Instead, they occur when multiple small breakdowns in safety line up all at once. Think of defenses in a hospital as slices of Swiss cheese, where each slice has holes representing weaknesses. These holes are constantly moving and changing size.\n\n- **Active failures**: Unsafe acts committed directly by workers in contact with the patient, such as misreading a dose.\n- **Latent conditions**: Hidden flaws built into the system long before, such as chronic understaffing, broken equipment, or confusing drug packaging.\n\nAn adverse event only occurs when the holes in every single layer of cheese temporarily line up, allowing a hazard to pass straight through to harm the patient."
     },
     {
       "heading_id": "GST319_U5_T7_h3",
       "order": 3,
       "title": "Cognitive Biases and Mental Workload in Nursing",
-      "content": "Clinical decision-making relies heavily on working memory, which has strict capacity limits. When nurses experience high mental workload, their brains rely on mental shortcuts called heuristics, which can introduce cognitive biases. \n\n- **Confirmation bias**: Searching for or interpreting evidence that supports an initial clinical impression while ignoring contradictory signs.\n- **Premature closure**: Settling on a diagnosis or care plan too early and failing to consider alternative possibilities as new data emerges.\n- **Availability heuristic**: Overestimating the likelihood of a complication simply because a similar case was recently managed.\n\nRecognizing these mental traps allows clinical teams to build conscious pauses and structured reassessments into busy shifts."
+      "content": "Nurses process massive amounts of information under intense pressure every day. Working memory has strict limits, and when mental workload gets too high, shortcuts known as heuristics take over. While these mental shortcuts save time, they also open the door to cognitive biases. Confirmation bias, for instance, leads a nurse to notice signs that support their initial impression of a patient while ignoring contradictory vital signs. Tunnel vision can set in during an emergency, causing the team to miss obvious secondary clues because all attention is locked onto a single crisis."
     },
     {
       "heading_id": "GST319_U5_T7_h4",
       "order": 4,
-      "title": "Physical Ergonomics and Environmental Design",
-      "content": "The physical layout of a clinical unit directly influences patient safety and staff well-being. Poorly designed workspaces lead to musculoskeletal injuries from lifting, increased walking distances that drain energy, and poorly positioned medical devices that obscure visual alarms. Environmental factors such as glaring fluorescent lighting, disorganized medication rooms, and high ambient noise levels contribute directly to calculation mistakes and missed warning signs. Thoughtful design optimizes line-of-sight observation for vulnerable patients, places frequently used supplies within easy reach, and standardizes equipment placement across different rooms to reduce confusion during emergencies."
+      "title": "Fatigue, Shift Work, and Vigilance",
+      "content": "Human alertness is governed by circadian rhythms that make night shifts biologically punishing. Chronic sleep deprivation impairs reaction time, problem-solving, and mood just as severely as alcohol intoxication. Vigilance naturally drops during long, monotonous tasks, making it dangerously easy to miss subtle changes in a monitor or intravenous infusion. A tired nurse is far more likely to experience lapses in attention during high-risk tasks like medication calculation. Managing fatigue requires more than telling staff to sleep; it demands sensible roster planning, protected break times, and manageable shift lengths."
     },
     {
       "heading_id": "GST319_U5_T7_h5",
       "order": 5,
       "title": "Communication and Teamwork Human Factors",
-      "content": "Ineffective communication remains a leading root cause of sentinel events in healthcare. Human factors principles address this by introducing standardized tools like **SBAR** (Situation, Background, Assessment, Recommendation) and structured read-back protocols for telephone orders. Hierarchy gradients in clinical teams can prevent junior nurses or students from speaking up when they notice a safety hazard. Cultivating psychological safety ensures that every team member feels empowered to voice concerns, challenge unsafe orders, and participate actively in patient handovers without fear of retribution."
+      "content": "Breakdowns in communication remain one of the leading root causes of sentinel events in hospitals. Traditional medical hierarchies can intimidate junior nurses from speaking up when they notice a dangerous prescription or a worsening patient condition. Standardized communication tools like SBAR (Situation, Background, Assessment, Recommendation) level the playing field by giving everyone a clear, predictable script to share critical data. Active listening, closed-loop communication where instructions are repeated back, and mutual respect build a resilient team culture where safety concerns can be raised without fear of ridicule."
     },
     {
       "heading_id": "GST319_U5_T7_h6",
       "order": 6,
-      "title": "Fatigue, Stress, and Vigilance in Healthcare",
-      "content": "Extended work hours, night shifts, and chronic understaffing induce cumulative fatigue that degrades human performance in ways comparable to alcohol intoxication. Fatigued nurses experience slowed reaction times, narrowed attention spans, impaired working memory, and reduced vigilance for subtle clinical deterioration. Acute stress triggers fight-or-flight responses that temporarily narrow cognitive focus, making it difficult to process complex, multi-system patient problems. Managing these factors requires systemic solutions such as regulated shift lengths, protected rest breaks, and supportive debriefing after traumatic clinical events."
+      "title": "Designing Systems to Prevent Human Error",
+      "content": "Because humans will inevitably make mistakes, healthcare systems must be engineered with fault-tolerant designs. For instance, forcing functions make it physically impossible to perform a dangerous action, such as enteral feeding tubes that will not connect to intravenous lines. Standardization ensures that identical equipment across different wards operates the same way, reducing confusion during emergencies. Redundancy adds double-checks for high-risk processes, such as two nurses independently verifying high-alert medications like insulin before administration."
     },
     {
       "heading_id": "GST319_U5_T7_h7",
       "order": 7,
-      "title": "Designing Systems to Prevent Human Error",
-      "content": "Designing error-tolerant systems relies on incorporating specific human factors principles directly into clinical workflows:\n\n- **Forcing functions**: Physical barriers that make it impossible to perform an action incorrectly, such as enteral connectors that do not fit intravenous ports.\n- **Standardization**: Making similar processes identical across units to eliminate guesswork and habit interference.\n- **Redundancies**: Requiring independent double-checks for high-alert medications or blood administration.\n- **Simplification**: Removing unnecessary steps and convoluted pathways from clinical procedures."
-    },
-    {
-      "heading_id": "GST319_U5_T7_h8",
-      "order": 8,
       "title": "Applying Human Factors in Nigerian Clinical Settings",
-      "content": "Applying human factors in resource-constrained Nigerian clinical settings requires innovative adaptations to systemic challenges like power outages, staff shortages, and equipment deficits. When nurses face high patient-to-nurse ratios, mental workload spikes, increasing the risk of medication administration errors and missed care. Local safety strategies involve implementing low-tech forcing functions, such as color-coded drug trays, peer-led handovers during shift changes, and fostering open communication despite traditional seniority gradients. Acknowledging resource limitations helps nurse managers design realistic workflows that protect both patients and frontline personnel."
+      "content": "Applying human factors principles in Nigerian healthcare requires navigating unique local challenges alongside universal safety goals. Resource-constrained environments often mean nurses face severe staff shortages, frequent power outages, and poorly maintained equipment, which drastically increases mental workload and fatigue. Designing safe systems under these conditions involves making the best use of local workarounds while advocating for structural improvements. Simple changes—such as color-coding emergency trolley drawers, standardizing drug dilution charts at the nursing station, and implementing peer-led safety briefings—can protect patients even when high-tech solutions are unavailable."
     }
   ]
 }
