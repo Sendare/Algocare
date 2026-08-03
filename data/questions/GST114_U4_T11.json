@@ -5,15 +5,15 @@
     "article_id": "GST114_U4_T11",
     "topic_id": "GST114_U4_T11",
     "difficulty": "recall",
-    "question": "What is the primary difference between primary and acquired immune deficiencies?",
+    "question": "What is the main difference between primary and acquired immune deficiencies?",
     "options": {
-      "A": "Primary deficiencies involve T-lymphocytes, whereas acquired deficiencies strictly impact B-cell antibody production.",
-      "B": "Primary deficiencies are inherited genetically, whereas acquired deficiencies develop later in life from external factors.",
-      "C": "Primary deficiencies only affect children under five, whereas acquired deficiencies exclusively target older adults.",
-      "D": "Primary deficiencies are caused by viral infections, whereas acquired deficiencies stem from bacterial overgrowth."
+      "A": "Primary deficiencies are always mild, while acquired deficiencies are fatal.",
+      "B": "Primary deficiencies are present at birth, while acquired deficiencies develop later in life.",
+      "C": "Acquired deficiencies can be cured with vitamins, but primary deficiencies cannot.",
+      "D": "Primary deficiencies affect only red blood cells, while acquired deficiencies affect white cells."
     },
     "answer": "B",
-    "explanation": "Primary immune deficiencies are congenital and rooted in genetic anomalies, whereas acquired types occur due to external insults or environmental influences after a period of normal immune function. [learn more](GST114_U4_T11#GST114_U4_T11_h1)"
+    "explanation": "Spot on! Primary immune conditions are inherited and present right from birth, whereas acquired ones happen due to outside factors later in life."
   },
   {
     "question_id": "GST114_U4_T11_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GST114_U4_T11",
     "topic_id": "GST114_U4_T11",
     "difficulty": "understanding",
-    "question": "Which clinical scenario best exemplifies an acquired immune deficiency?",
+    "question": "When assessing a patient with an acquired immune deficiency, what should you look for in their history?",
     "options": {
-      "A": "An older patient with an inherited X-linked agammaglobulinemia presenting with recurrent otitis media.",
-      "B": "A young adult who develops progressive immune system decline following a viral infection.",
-      "C": "A child experiencing transient immune suppression secondary to severe protein-energy malnutrition.",
-      "D": "An infant born with missing thymic tissue and severe combined immunodeficiency."
+      "A": "A family history of rare genetic blood disorders",
+      "B": "Inherited metabolic syndromes from parents",
+      "C": "Childhood developmental milestones and birth weight",
+      "D": "Recent infections, malnutrition, or exposure to certain medications"
     },
-    "answer": "C",
-    "explanation": "Malnutrition is a classic external factor causing secondary or acquired immune deficiency in an individual born with a normal immune system. [learn more](GST114_U4_T11#GST114_U4_T11_h1)"
+    "answer": "D",
+    "explanation": "You got it! Because acquired deficiencies come from outside triggers like poor nutrition, drugs, or infections, checking their recent history is key."
   },
   {
     "question_id": "GST114_U4_T11_h2_q1",
@@ -37,15 +37,15 @@
     "article_id": "GST114_U4_T11",
     "topic_id": "GST114_U4_T11",
     "difficulty": "recall",
-    "question": "Which specific cell type is primarily targeted and depleted in many acquired immune deficiencies?",
+    "question": "Which specific white blood cells are primarily targeted during acquired immune decline like HIV?",
     "options": {
-      "A": "Neutrophils in bone marrow stroma",
-      "B": "Erythrocytes in peripheral blood",
-      "C": "Platelets within the vascular sinusoids",
-      "D": "CD4+ helper T-lymphocytes"
+      "A": "CD4+ T helper lymphocytes",
+      "B": "Erythrocytes and platelets",
+      "C": "Neutrophils and basophils",
+      "D": "Natural killer red cells"
     },
-    "answer": "D",
-    "explanation": "CD4+ helper T-cells act as master regulators of the immune response, making their depletion devastating to both cellular and humoral immunity. [learn more](GST114_U4_T11#GST114_U4_T11_h2)"
+    "answer": "A",
+    "explanation": "Fantastic! CD4+ T helper cells are the main target for HIV, which is why monitoring them tells us a lot about the immune system's strength."
   },
   {
     "question_id": "GST114_U4_T11_h2_q2",
@@ -53,15 +53,15 @@
     "article_id": "GST114_U4_T11",
     "topic_id": "GST114_U4_T11",
     "difficulty": "understanding",
-    "question": "Why does the depletion of regulatory immune cells lead to opportunistic infections?",
+    "question": "Why does a low count of CD4+ T cells make a person vulnerable to many different infections?",
     "options": {
-      "A": "Because the body lacks sufficient white blood cells to create physical barriers.",
-      "B": "Because normal flora transform directly into malignant tumor cells within tissues.",
-      "C": "Because coordinated immune signaling and pathogen recognition pathways fail.",
-      "D": "Because pathogens mutate rapidly in the absence of normal antibody binding sites."
+      "A": "CD4+ cells act as master coordinators that signal other immune cells to fight germs.",
+      "B": "CD4+ cells are responsible for carrying oxygen to fighting white cells.",
+      "C": "CD4+ cells physically trap and digest bacteria in the bloodstream.",
+      "D": "CD4+ cells produce thick mucus barriers on skin and mucous membranes."
     },
-    "answer": "C",
-    "explanation": "Without helper T-cells and proper signaling cascades, the immune system cannot mount an effective, coordinated attack against low-virulence microbes. [learn more](GST114_U4_T11#GST114_U4_T11_h2)"
+    "answer": "A",
+    "explanation": "Think of CD4+ cells as the generals in an army. Without them giving orders, the rest of the immune defenses don't know when or how to attack germs!"
   },
   {
     "question_id": "GST114_U4_T11_h3_q1",
@@ -69,31 +69,31 @@
     "article_id": "GST114_U4_T11",
     "topic_id": "GST114_U4_T11",
     "difficulty": "recall",
-    "question": "What is the specific cell surface receptor bound by the HIV surface glycoprotein gp120?",
+    "question": "What CD4+ cell count threshold defines the progression from HIV infection to AIDS?",
     "options": {
-      "A": "CD8 receptor",
-      "B": "MHC Class I",
-      "C": "CD4 receptor",
-      "D": "Complement C3"
+      "A": "Below 50 cells per microliter",
+      "B": "Below 200 cells per microliter",
+      "C": "Below 500 cells per microliter",
+      "D": "Below 1000 cells per microliter"
     },
-    "answer": "C",
-    "explanation": "The gp120 protein on the HIV envelope has a high affinity for the CD4 receptor found primarily on helper T-cells, macrophages, and dendritic cells. [learn more](GST114_U4_T11#GST114_U4_T11_h3)"
+    "answer": "B",
+    "explanation": "Correct! Once the CD4+ count drops below 200 cells per microliter, the condition is classified as AIDS, indicating severe immune suppression."
   },
   {
     "question_id": "GST114_U4_T11_h3_q2",
     "heading_id": "GST114_U4_T11_h3",
     "article_id": "GST114_U4_T11",
     "topic_id": "GST114_U4_T11",
-    "difficulty": "application",
-    "question": "A patient with HIV is classified as having progressed to AIDS when their CD4 count falls below which threshold?",
+    "difficulty": "understanding",
+    "question": "A patient with HIV can stay healthy and symptom-free for years. What is happening inside their body during this time?",
     "options": {
-      "A": "500 cells per microliter",
-      "B": "800 cells per microliter",
-      "C": "200 cells per microliter",
-      "D": "1,200 cells per microliter"
+      "A": "The virus replicates slowly while the immune system gradually loses ground.",
+      "B": "CD4+ cells are multiplying faster than the virus can destroy them.",
+      "C": "The virus has completely left the body's bloodstream.",
+      "D": "Antibodies have cured the infection permanently."
     },
-    "answer": "C",
-    "explanation": "A CD4 count dropping below 200 cells/uL marks the clinical threshold for Acquired Immunodeficiency Syndrome (AIDS), indicating severe immunosuppression. [learn more](GST114_U4_T11#GST114_U4_T11_h3)"
+    "answer": "A",
+    "explanation": "Spot on! Even when a patient feels completely fine during the chronic phase, the virus is quietly at work, slowly wearing down their CD4+ cells."
   },
   {
     "question_id": "GST114_U4_T11_h4_q1",
@@ -101,15 +101,15 @@
     "article_id": "GST114_U4_T11",
     "topic_id": "GST114_U4_T11",
     "difficulty": "recall",
-    "question": "What structural organ undergoes atrophy during severe protein-energy malnutrition, directly impacting immune function?",
+    "question": "How does severe protein-energy malnutrition directly weaken a person's immune system?",
     "options": {
-      "A": "Thyroid gland",
-      "B": "Adrenal cortex",
-      "C": "Pancreatic islets",
-      "D": "Thymus gland"
+      "A": "By depriving the body of building blocks needed to make immune cells and antibodies",
+      "B": "By stopping the liver from producing digestive enzymes",
+      "C": "By destroying red blood cells in the spleen",
+      "D": "By increasing blood pressure too quickly for white cells to circulate"
     },
-    "answer": "D",
-    "explanation": "Protein-energy malnutrition causes marked thymic atrophy, severely reducing the maturation and output of functional T-lymphocytes. [learn more](GST114_U4_T11#GST114_U4_T11_h4)"
+    "answer": "A",
+    "explanation": "Makes total sense, right? Just like you need blocks to build a house, your body needs protein to build antibodies and white blood cells."
   },
   {
     "question_id": "GST114_U4_T11_h4_q2",
@@ -117,15 +117,15 @@
     "article_id": "GST114_U4_T11",
     "topic_id": "GST114_U4_T11",
     "difficulty": "understanding",
-    "question": "How do recurring systemic infections contribute to secondary immune dysfunction?",
+    "question": "Why do malnutrition and chronic infections often trap people in a vicious cycle?",
     "options": {
-      "A": "By constantly consuming metabolic resources and exhausting immune cell reserves.",
-      "B": "by blocking the absorption of dietary fats and fat-soluble vitamins.",
-      "C": "by completely destroying the production of red blood cells in the spleen.",
-      "D": "permanently altering the genetic code of bone marrow stem cells."
+      "A": "Vitamins can only be absorbed if a person has a chronic parasite.",
+      "B": "Infections cause permanent brain damage that stops people from eating.",
+      "C": "Malnutrition weakens immunity, and infections worsen nutritional status.",
+      "D": "Malnutrition prevents antibiotics from working inside the stomach."
     },
-    "answer": "A",
-    "explanation": "Persistent immune activation and nutritional drain from chronic infections deplete the body's reserves needed to maintain robust immune defenses. [learn more](GST114_U4_T11#GST114_U4_T11_h4)"
+    "answer": "C",
+    "explanation": "You've got it! Poor nutrition lowers your defense against sickness, and being sick robs your body of nutrients—each one feeds the other."
   },
   {
     "question_id": "GST114_U4_T11_h5_q1",
@@ -133,31 +133,31 @@
     "article_id": "GST114_U4_T11",
     "topic_id": "GST114_U4_T11",
     "difficulty": "recall",
-    "question": "Which of the following is an example of an iatrogenic cause of immune deficiency?",
+    "question": "What does the medical term 'iatrogenic' mean when talking about immune deficiency?",
     "options": {
-      "A": "Genetic mutation on the X chromosome",
-      "B": "Spontaneous thymic aplasia during embryonic development",
-      "C": "Chemotherapy-induced bone marrow suppression",
-      "D": "Congenital enzyme deficiency of adenosine deaminase"
+      "A": "Acquired through mosquito bites in tropical regions",
+      "B": "Caused unintentionally by medical treatments or therapies",
+      "C": "Inherited directly from maternal genes during birth",
+      "D": "Caused by eating contaminated street food"
     },
-    "answer": "C",
-    "explanation": "Iatrogenic immune deficiencies are caused directly by medical treatments, such as cytotoxic chemotherapy or immunosuppressive drugs. [learn more](GST114_U4_T11#GST114_U4_T11_h5)"
+    "answer": "B",
+    "explanation": "Spot on! Iatrogenic simply means an issue caused by medical care itself—like strong treatments that lower immunity as a side effect."
   },
   {
     "question_id": "GST114_U4_T11_h5_q2",
     "heading_id": "GST114_U4_T11_h5",
     "article_id": "GST114_U4_T11",
     "topic_id": "GST114_U4_T11",
-    "difficulty": "understanding",
-    "question": "Why do patients receiving long-term high-dose corticosteroid therapy face an increased risk of infection?",
+    "difficulty": "application",
+    "question": "A cancer patient on chemotherapy develops a fever and oral thrush. What is the most likely cause?",
     "options": {
-      "A": "Corticosteroids accelerate the renal excretion of protective serum antibodies.",
-      "B": "Corticosteroids permanently bind to viral particles in the bloodstream.",
-      "C": "Corticosteroids physically destroy mucosal barriers in the gastrointestinal tract.",
-      "D": "Corticosteroids suppress the inflammatory response and reduce white blood cell activity."
+      "A": "The chemotherapy drug caused an allergic reaction on the skin.",
+      "B": "The cancer cells mutated into a bacterial infection.",
+      "C": "The treatment suppressed the immune system, allowing a fungus to overgrow.",
+      "D": "The patient ate too much sugar before coming to the hospital."
     },
-    "answer": "D",
-    "explanation": "Steroids exert potent anti-inflammatory and immunosuppressive effects, blunting leukocyte migration, proliferation, and cytokine release. [learn more](GST114_U4_T11#GST114_U4_T11_h5)"
+    "answer": "C",
+    "explanation": "Exactly! Chemo lowers white blood cells, giving everyday germs and fungi like thrush an easy chance to take over."
   },
   {
     "question_id": "GST114_U4_T11_h6_q1",
@@ -165,15 +165,15 @@
     "article_id": "GST114_U4_T11",
     "topic_id": "GST114_U4_T11",
     "difficulty": "recall",
-    "question": "Which laboratory test is essential for tracking immune system decline in patients with HIV?",
+    "question": "Which diagnostic test directly checks the strength and status of a patient's immune system?",
     "options": {
-      "A": "CD4 T-cell count",
-      "B": "Liver function enzyme test",
-      "C": "Erythrocyte sedimentation rate",
-      "D": "Serum electrolyte panel"
+      "A": "Urinalysis for protein",
+      "B": "CD4+ T-cell count",
+      "C": "Electrocardiogram (ECG)",
+      "D": "Liver enzyme panel"
     },
-    "answer": "A",
-    "explanation": "Monitoring CD4 T-cell counts provides a direct measurement of the immune system's structural integrity and disease progression. [learn more](GST114_U4_T11#GST114_U4_T11_h6)"
+    "answer": "B",
+    "explanation": "Correct! The CD4+ count is our go-to test to see how many helper cells a patient has left to fight infections."
   },
   {
     "question_id": "GST114_U4_T11_h6_q2",
@@ -181,15 +181,15 @@
     "article_id": "GST114_U4_T11",
     "topic_id": "GST114_U4_T11",
     "difficulty": "understanding",
-    "question": "Which clinical finding is considered a hallmark warning sign of an underlying acquired immune deficiency?",
+    "question": "During patient assessment, which finding strongly suggests an underlying immune deficiency?",
     "options": {
-      "A": "Recurrent, unusual infections that respond poorly to standard antimicrobial therapy",
-      "B": "Sudden onset of hypertension accompanied by peripheral edema",
-      "C": "Elevated red blood cell count with increased hemoglobin levels",
-      "D": "Localized joint stiffness that improves noticeably with physical exercise"
+      "A": "A sudden increase in energy levels and appetite",
+      "B": "Localized itching from a minor insect bite",
+      "C": "A single episode of mild seasonal influenza",
+      "D": "Recurrent, severe, and unusual infections that do not respond well to standard treatment"
     },
-    "answer": "A",
-    "explanation": "An inability to clear routine pathogens or frequent bouts of opportunistic infections signal a failing immune surveillance network. [learn more](GST114_U4_T11#GST114_U4_T11_h6)"
+    "answer": "D",
+    "explanation": "Well done! A healthy body shakes off normal infections easily, but repeated or stubborn infections are a big red flag for immune breakdown."
   },
   {
     "question_id": "GST114_U4_T11_h7_q1",
@@ -197,15 +197,15 @@
     "article_id": "GST114_U4_T11",
     "topic_id": "GST114_U4_T11",
     "difficulty": "understanding",
-    "question": "What is the primary rationale for enforcing strict infection control practices around immunocompromised patients?",
+    "question": "Why is strict hand hygiene and infection control extra important when caring for an immunodeficient patient?",
     "options": {
-      "A": "To enhance the systemic absorption of prescribed oral antimicrobial medications.",
-      "B": "To accelerate the regeneration of damaged bone marrow stem cells in peripheral blood.",
-      "C": "To prevent the patient from transmitting their underlying viral infection to other hospital rooms.",
-      "D": "To shield them from acquiring opportunistic pathogens from the environment and healthcare staff."
+      "A": "To prevent the nurse from catching germs from the hospital floor",
+      "B": "To protect the patient from opportunistic pathogens they cannot fight off",
+      "C": "To keep the patient's room smelling clean and fresh",
+      "D": "To stop the patient's medication from causing skin rashes"
     },
-    "answer": "D",
-    "explanation": "Compromised patients lack the immune defenses to fight off everyday environmental microbes, making strict environmental protection essential. [learn more](GST114_U4_T11#GST114_U4_T11_h7)"
+    "answer": "B",
+    "explanation": "Spot on! Germs that wouldn't bother a healthy person can easily overwhelm someone whose immune system is down."
   },
   {
     "question_id": "GST114_U4_T11_h7_q2",
@@ -213,15 +213,15 @@
     "article_id": "GST114_U4_T11",
     "topic_id": "GST114_U4_T11",
     "difficulty": "recall",
-    "question": "Why is medication adherence counseling particularly crucial for patients taking antiretroviral therapy?",
+    "question": "What is the most important nursing priority for a patient taking long-term antiretroviral therapy (ART)?",
     "options": {
-      "A": "To ensure the medication tastes acceptable to the patient.",
-      "B": "To reduce the financial cost of purchasing prescription refills.",
-      "C": "To prevent the development of drug-resistant viral strains.",
-      "D": "To eliminate all potential gastrointestinal side effects entirely."
+      "A": "Ensuring the patient sleeps on a firm mattress",
+      "B": "Encouraging strict adherence to the medication schedule",
+      "C": "Restricting all water intake to prevent fluid overload",
+      "D": "Massaging the arms daily to improve circulation"
     },
-    "answer": "C",
-    "explanation": "Inconsistent or partial adherence to antiretroviral regimens allows the virus to mutate, leading to treatment failure and resistant strains. [learn more](GST114_U4_T11#GST114_U4_T11_h7)"
+    "answer": "B",
+    "explanation": "You got it! Sticking strictly to medication times keeps the virus suppressed and stops drug-resistant strains from popping up."
   },
   {
     "question_id": "GST114_U4_T11_h8_q1",
@@ -229,15 +229,15 @@
     "article_id": "GST114_U4_T11",
     "topic_id": "GST114_U4_T11",
     "difficulty": "recall",
-    "question": "What does the public health acronym PMTCT stand for in the context of HIV management?",
+    "question": "What is a core public health strategy used to manage HIV here in Nigeria?",
     "options": {
-      "A": "Prevention of Mother-to-Child Transmission",
-      "B": "Primary Medical Treatment and Care Tracking",
-      "C": "Pediatric Malnutrition and Tuberculosis Control",
-      "D": "Post-Mortem Tissue Culture Testing"
+      "A": "Quarantining all infected individuals in remote camps",
+      "B": "Banning the import of foreign foods",
+      "C": "Expanding access to Antiretroviral Therapy (ART)",
+      "D": "Treating all patients with high-dose antibiotics only"
     },
-    "answer": "A",
-    "explanation": "PMTCT programs use screening, antiretroviral prophylaxis, and infant feeding counseling to prevent vertical transmission of HIV. [learn more](GST114_U4_T11#GST114_U4_T11_h8)"
+    "answer": "C",
+    "explanation": "Correct! Making ART widely available helps patients live long, healthy lives and drastically cuts down community transmission."
   },
   {
     "question_id": "GST114_U4_T11_h8_q2",
@@ -245,14 +245,14 @@
     "article_id": "GST114_U4_T11",
     "topic_id": "GST114_U4_T11",
     "difficulty": "understanding",
-    "question": "How does widespread access to antiretroviral therapy impact public health on a national scale?",
+    "question": "Why is community education and reducing stigma such a vital part of nursing care for immune conditions?",
     "options": {
-      "A": "It permanently eradicates the viral pathogen from every infected individual within two years.",
-      "B": "It eliminates all secondary opportunistic infections without the need for antimicrobial prophylaxis.",
-      "C": "It replaces the need for nutritional supplementation programs in rural communities.",
-      "D": "It suppresses viral loads in the population, improving life expectancy and reducing transmission rates."
+      "A": "It encourages people to seek testing and treatment early without fear.",
+      "B": "It stops patients from needing physical check-ups at the clinic.",
+      "C": "It replaces the need for nutritional supplements in rural areas.",
+      "D": "It lowers the cost of manufacturing hospital equipment."
     },
-    "answer": "D",
-    "explanation": "Effective ART lowers viral replication to undetectable levels, which restores immune health for the individual and dramatically cuts community transmission. [learn more](GST114_U4_T11#GST114_U4_T11_h8)"
+    "answer": "A",
+    "explanation": "Brilliant! When we break down stigma, patients feel safe to get tested and start life-saving treatment early."
   }
 ]
