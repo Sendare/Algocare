@@ -42,20 +42,10 @@ def _get_keys():
     return _API_KEYS
 
 
-def call_gemini(system_prompt, user_prompt):
-    """
-    Calls Gemini with a system instruction + user prompt, forcing JSON-mode
-    output via response_mime_type so the model can't wrap the reply in
-    markdown fences or add commentary around it.
-
-    Rotates through GEMINI_API_KEYS on quota/rate-limit errors so one
-    exhausted key doesn't stop a run. Any other error (bad request, server
-    error) is raised immediately, since a different key won't fix it.
-
-    Returns the parsed JSON object (dict/list). Raises ValueError if the
-    response isn't valid JSON, so callers can treat that as a failed
-    topic and move on rather than crashing the whole run.
-    """
+def _request_once(system_prompt, user_prompt):
+    """Makes one request, rotating through GEMINI_API_KEYS on quota/rate-limit
+    errors. Returns the raw text response. Raises RuntimeError for anything
+    that isn't recoverable by trying a different key."""
     global _CURRENT_KEY_INDEX
     keys = _get_keys()
 
@@ -113,11 +103,33 @@ def call_gemini(system_prompt, user_prompt):
         )
 
     try:
-        raw_text = resp_body["candidates"][0]["content"]["parts"][0]["text"].strip()
+        return resp_body["candidates"][0]["content"]["parts"][0]["text"].strip()
     except (KeyError, IndexError):
         raise ValueError(f"Unexpected Gemini response shape: {json.dumps(resp_body)[:500]}")
 
+
+def call_gemini(system_prompt, user_prompt, _is_retry=False):
+    """
+    Calls Gemini with a system instruction + user prompt, forcing JSON-mode
+    output via response_mime_type. Returns the parsed JSON object (dict/list).
+
+    Two layers of resilience against occasional malformed output:
+    - strict=False on json.loads() tolerates raw control characters (e.g. an
+      unescaped literal newline inside a string) that would otherwise fail
+      strict JSON parsing - a standard, safe stdlib option, not a workaround.
+    - If parsing still fails, the whole request is retried ONCE with a fresh
+      call, since these are usually one-off generation slips rather than a
+      prompt problem - a second attempt often just succeeds.
+
+    Raises ValueError if the response still isn't valid JSON after the
+    retry, so callers can treat that as a failed topic and move on.
+    """
+    raw_text = _request_once(system_prompt, user_prompt)
+
     try:
-        return json.loads(raw_text)
+        return json.loads(raw_text, strict=False)
     except json.JSONDecodeError as e:
-        raise ValueError(f"AI response was not valid JSON: {e}\nRaw response: {raw_text[:500]}")
+        if not _is_retry:
+            print("⚠️  Malformed JSON response, retrying once...")
+            return call_gemini(system_prompt, user_prompt, _is_retry=True)
+        raise ValueError(f"AI response was not valid JSON after retry: {e}\nRaw response: {raw_text[:500]}")
