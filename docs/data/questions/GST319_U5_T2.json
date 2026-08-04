@@ -5,15 +5,15 @@
     "article_id": "GST319_U5_T2",
     "topic_id": "GST319_U5_T2",
     "difficulty": "recall",
-    "question": "What defines an adverse event in healthcare?",
+    "question": "What do we call an unexpected injury caused by medical care rather than the patient's actual sickness?",
     "options": {
-      "A": "Any disease progression that worsens naturally",
-      "B": "An error that is successfully caught by a pharmacist",
-      "C": "A clinical mistake that is always immediately fatal",
-      "D": "An unintended injury caused by medical management"
+      "A": "Latent condition",
+      "B": "Near miss",
+      "C": "Sentinel indicator",
+      "D": "Adverse event"
     },
     "answer": "D",
-    "explanation": "Adverse events specifically refer to unintended harm resulting from medical care rather than the patient's underlying condition. [learn more](GST319_U5_T2#GST319_U5_T2_h1)"
+    "explanation": "Don't worry, clinical terms can be tricky at first! An adverse event simply means harm that happened because of medical treatment, not the disease itself. You've got this!"
   },
   {
     "question_id": "GST319_U5_T2_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GST319_U5_T2",
     "topic_id": "GST319_U5_T2",
     "difficulty": "understanding",
-    "question": "How does a near miss differ from a medical error that causes harm?",
+    "question": "A nurse draws up the wrong drug dose, but catches the mistake before giving it to the patient. What is this called?",
     "options": {
-      "A": "A near miss involves intentional harm by a staff member.",
-      "B": "A near miss reaches the patient but causes no permanent symptoms.",
-      "C": "A near miss is intercepted before the unsafe act reaches the patient.",
-      "D": "A near miss only occurs during surgical procedures."
+      "A": "A near miss",
+      "B": "A sentinel event",
+      "C": "A preventable error",
+      "D": "An adverse event"
     },
-    "answer": "C",
-    "explanation": "The defining characteristic of a near miss is that the barrier of interception successfully stops the error before it inflicts any harm. [learn more](GST319_U5_T2#GST319_U5_T2_h1)"
+    "answer": "A",
+    "explanation": "That's a close one! A 'near miss' is when a mistake almost happens but gets caught just in time before it can hurt anyone. Excellent catch by the nurse!"
   },
   {
     "question_id": "GST319_U5_T2_h2_q1",
@@ -37,31 +37,31 @@
     "article_id": "GST319_U5_T2",
     "topic_id": "GST319_U5_T2",
     "difficulty": "recall",
-    "question": "Which of the following is an example of a diagnostic error?",
+    "question": "Which type of adverse event involves a patient picking up a brand new infection while admitted to the hospital?",
     "options": {
-      "A": "Failing to act on an abnormal laboratory result",
-      "B": "Leaving a surgical sponge inside the peritoneal cavity",
-      "C": "Administering the wrong concentration of intravenous fluid",
-      "D": "Developing a wound infection following an appendectomy"
+      "A": "Diagnostic failures",
+      "B": "Medication-related events",
+      "C": "Surgical complications",
+      "D": "Healthcare-associated infections"
     },
-    "answer": "A",
-    "explanation": "Diagnostic errors involve mistakes or delays in diagnosing a condition, which includes ignoring or misinterpreting critical lab data. [learn more](GST319_U5_T2#GST319_U5_T2_h2)"
+    "answer": "D",
+    "explanation": "Spot on! These are infections patients catch while staying in a health facility—like a catheter-related infection. Hand hygiene is our best weapon here!"
   },
   {
     "question_id": "GST319_U5_T2_h2_q2",
     "heading_id": "GST319_U5_T2_h2",
     "article_id": "GST319_U5_T2",
     "topic_id": "GST319_U5_T2",
-    "difficulty": "understanding",
-    "question": "A patient develops a severe urinary tract infection three days after catheter insertion. What type of adverse event is this classified as?",
+    "difficulty": "application",
+    "question": "A surgical team accidentally leaves a gauze pack inside a patient's belly during an operation. Which category does this fit into?",
     "options": {
-      "A": "Medication mishap",
-      "B": "Diagnostic error",
-      "C": "Healthcare-associated infection",
-      "D": "Surgical complication"
+      "A": "Healthcare-associated infections",
+      "B": "Latent organizational failures",
+      "C": "Diagnostic errors",
+      "D": "Surgical complications"
     },
-    "answer": "C",
-    "explanation": "Infections acquired while receiving medical treatment, such as catheter-related infections, fall under healthcare-associated infections. [learn more](GST319_U5_T2#GST319_U5_T2_h2)"
+    "answer": "D",
+    "explanation": "This falls right under surgical complications. Mistakes like leaving items behind or operating on the wrong site are serious things the surgical team works hard to prevent."
   },
   {
     "question_id": "GST319_U5_T2_h3_q1",
@@ -69,15 +69,15 @@
     "article_id": "GST319_U5_T2",
     "topic_id": "GST319_U5_T2",
     "difficulty": "recall",
-    "question": "What is a major human factor contributing to medical errors?",
+    "question": "According to safety science, what is usually at the root of most medical errors in hospitals?",
     "options": {
-      "A": "Standardized electronic health record systems",
-      "B": "Transparent interprofessional collaboration",
-      "C": "Excessive nurse-to-patient ratios",
-      "D": "Severe staff fatigue and cognitive overload"
+      "A": "They are completely unavoidable in modern hospitals.",
+      "B": "They occur only in surgical departments.",
+      "C": "They are caused entirely by careless staff members.",
+      "D": "They usually stem from complex system failures."
     },
     "answer": "D",
-    "explanation": "Tiredness and mental strain impair decision-making, making human error more likely during busy clinical shifts. [learn more](GST319_U5_T2#GST319_U5_T2_h3)"
+    "explanation": "Modern safety studies show that errors happen because work processes or systems are flawed—not just because someone was careless. We fix systems to help nurses succeed!"
   },
   {
     "question_id": "GST319_U5_T2_h3_q2",
@@ -85,15 +85,15 @@
     "article_id": "GST319_U5_T2",
     "topic_id": "GST319_U5_T2",
     "difficulty": "understanding",
-    "question": "Why do environmental constraints like poor equipment and low staffing increase the likelihood of adverse events?",
+    "question": "Which of these is a classic example of a 'human factor' contributing to a mistake during a shift?",
     "options": {
-      "A": "They guarantee that every medication calculation will be wrong.",
-      "B": "They force nurses to rely solely on theoretical memory.",
-      "C": "They eliminate the need for written incident reports.",
-      "D": "They create system vulnerabilities that bypass human safety defenses."
+      "A": "An outdated drug manual printed twenty years ago",
+      "B": "A hospital purchasing cheap intravenous pumps with broken screens",
+      "C": "A nurse calculating a drug dose while distracted by a loud argument",
+      "D": "A severe shortage of nursing staff on a night shift"
     },
-    "answer": "D",
-    "explanation": "Systemic workplace deficiencies weaken the safety nets designed to catch individual mistakes before they hurt patients. [learn more](GST319_U5_T2#GST319_U5_T2_h3)"
+    "answer": "C",
+    "explanation": "Distractions, fatigue, and stress are human factors that mess with our concentration. That's why quiet medication rooms are so important!"
   },
   {
     "question_id": "GST319_U5_T2_h4_q1",
@@ -101,15 +101,15 @@
     "article_id": "GST319_U5_T2",
     "topic_id": "GST319_U5_T2",
     "difficulty": "recall",
-    "question": "What term describes the emotional and psychological trauma experienced by a nurse after being involved in a severe adverse event?",
+    "question": "What term describes the heavy emotional stress and guilt a health worker feels after being involved in a patient safety incident?",
     "options": {
-      "A": "Compassion fatigue",
-      "B": "Second victim syndrome",
+      "A": "Second victim syndrome",
+      "B": "Professional burnout",
       "C": "Post-traumatic stress disorder",
-      "D": "Burnout fatigue"
+      "D": "Compassion fatigue"
     },
-    "answer": "B",
-    "explanation": "Healthcare providers who suffer emotional distress following an adverse patient event are referred to as second victims. [learn more](GST319_U5_T2#GST319_U5_T2_h4)"
+    "answer": "A",
+    "explanation": "It sounds heavy, but 'second victim syndrome' is very real. Clinicians who experience a tragic accident often need a lot of support and compassion too."
   },
   {
     "question_id": "GST319_U5_T2_h4_q2",
@@ -117,15 +117,15 @@
     "article_id": "GST319_U5_T2",
     "topic_id": "GST319_U5_T2",
     "difficulty": "understanding",
-    "question": "A medication error leads to permanent kidney damage in a hospitalized child. Beyond the physical harm to the patient, what is a likely systemic impact on the hospital?",
+    "question": "How do major adverse events mostly hurt a healthcare facility financially?",
     "options": {
-      "A": "Enhanced public trust in the pediatric department",
-      "B": "Immediate increase in available medical supplies",
-      "C": "Elimination of the need for shift handovers",
-      "D": "Depletion of institutional resources and increased liability"
+      "A": "By increasing the speed of hospital discharges",
+      "B": "By reducing the need for staff insurance",
+      "C": "Through lower costs for medical equipment",
+      "D": "Through lawsuits, fines, and extended patient stays"
     },
     "answer": "D",
-    "explanation": "Adverse events create legal liabilities, consume financial resources, and damage the facility's reputation and community trust. [learn more](GST319_U5_T2#GST319_U5_T2_h4)"
+    "explanation": "When mistakes happen, patients stay longer, treatment costs rise, and hospitals face legal issues. Safety truly saves both lives and resources!"
   },
   {
     "question_id": "GST319_U5_T2_h5_q1",
@@ -133,15 +133,15 @@
     "article_id": "GST319_U5_T2",
     "topic_id": "GST319_U5_T2",
     "difficulty": "recall",
-    "question": "How should an incident report regarding an adverse event be handled in relation to the patient chart?",
+    "question": "Where should a nurse properly document the details after an incident reportable mistake happens?",
     "options": {
-      "A": "It must be glued inside the front cover of the chart.",
-      "B": "It must be filed as a separate administrative document.",
-      "C": "It should be written directly into the progress notes.",
-      "D": "It is copied and pasted into the patient discharge summary."
+      "A": "In the nursing notes section of the patient chart",
+      "B": "In a private personal notebook kept at home",
+      "C": "In the hospital's internal safety reporting system",
+      "D": "On the front cover of the physical medical record"
     },
-    "answer": "B",
-    "explanation": "Incident reports are internal safety documents kept separate from the legal health record to facilitate quality improvement. [learn more](GST319_U5_T2#GST319_U5_T2_h5)"
+    "answer": "C",
+    "explanation": "Incident reports go into special safety databases, separate from the patient chart, to help the hospital learn and track safety trends."
   },
   {
     "question_id": "GST319_U5_T2_h5_q2",
@@ -149,15 +149,15 @@
     "article_id": "GST319_U5_T2",
     "topic_id": "GST319_U5_T2",
     "difficulty": "understanding",
-    "question": "Which barrier most frequently prevents nurses from submitting incident reports in busy hospitals?",
+    "question": "What is the main reason hospitals try to build a 'blame-free' reporting culture?",
     "options": {
-      "A": "Fear of disciplinary punishment and lack of a just culture",
-      "B": "Excessive availability of online reporting computers",
-      "C": "Clear institutional guidelines that remove all blame",
-      "D": "Mandatory bonuses given for every reported near miss"
+      "A": "To encourage staff to report errors and near misses honestly",
+      "B": "To make sure negligent workers never face legal consequences",
+      "C": "To hide hospital mistakes from government regulators",
+      "D": "To reduce the amount of paperwork nurses must complete daily"
     },
     "answer": "A",
-    "explanation": "Punitive environments discourage honesty, causing staff to hide mistakes rather than reporting them for safety analysis. [learn more](GST319_U5_T2#GST319_U5_T2_h5)"
+    "explanation": "When staff aren't terrified of punishment, they speak up about close calls and mistakes. That honesty is how we fix things and protect future patients!"
   },
   {
     "question_id": "GST319_U5_T2_h6_q1",
@@ -165,15 +165,15 @@
     "article_id": "GST319_U5_T2",
     "topic_id": "GST319_U5_T2",
     "difficulty": "recall",
-    "question": "What is the primary objective of performing a Root Cause Analysis after an adverse event?",
+    "question": "What is the main goal of doing a Root Cause Analysis (RCA) after a major safety incident?",
     "options": {
-      "A": "To calculate the financial penalty owed by the hospital",
-      "B": "To uncover underlying systemic weaknesses that allowed the error",
-      "C": "To determine which staff member should be immediately fired",
-      "D": "To rewrite the patient's medical history for legal defense"
+      "A": "To find the specific nurse or doctor who deserves punishment",
+      "B": "To identify underlying system flaws that allowed the error to happen",
+      "C": "To prepare a legal defense against patient lawsuits",
+      "D": "To calculate the total financial cost of the hospital stay"
     },
     "answer": "B",
-    "explanation": "RCA focuses on fixing faulty systems and processes rather than punishing individuals involved in an incident. [learn more](GST319_U5_T2#GST319_U5_T2_h6)"
+    "explanation": "Root Cause Analysis is like being a detective for safety—we look for the broken system process, not a person to blame!"
   },
   {
     "question_id": "GST319_U5_T2_h6_q2",
@@ -181,15 +181,15 @@
     "article_id": "GST319_U5_T2",
     "topic_id": "GST319_U5_T2",
     "difficulty": "understanding",
-    "question": "Which of the following actions represents a systems-level improvement strategy following an RCA?",
+    "question": "Which of these is an actual 'system-level' fix to improve patient safety?",
     "options": {
-      "A": "Telling the nurse to pay closer attention next time",
-      "B": "Reducing the number of shift handover meetings",
-      "C": "Issuing a verbal warning during a public ward meeting",
-      "D": "Implementing a standardized surgical safety checklist"
+      "A": "Redesigning electronic medication screens to make high-risk doses harder to select",
+      "B": "Warning all nursing staff to pay closer attention during their shifts",
+      "C": "Posting a memo on the staff bulletin board about being careful",
+      "D": "Suspending the nurse involved in the error for a period of two weeks"
     },
-    "answer": "D",
-    "explanation": "Checklists are reliable system barriers that reduce human error across entire clinical units. [learn more](GST319_U5_T2#GST319_U5_T2_h6)"
+    "answer": "A",
+    "explanation": "That's a true system fix! Changing how a computer system or tool works makes doing the right thing much easier and mistakes much harder to make."
   },
   {
     "question_id": "GST319_U5_T2_h7_q1",
@@ -197,30 +197,30 @@
     "article_id": "GST319_U5_T2",
     "topic_id": "GST319_U5_T2",
     "difficulty": "recall",
-    "question": "What primary position does the nurse hold regarding patient safety barriers in a hospital?",
+    "question": "What does the clinical communication shortcut SBAR stand for?",
     "options": {
-      "A": "The technician tasked with servicing broken equipment",
-      "B": "The final frontline defense barrier before harm reaches the patient",
-      "C": "The pharmacist who dispenses intravenous fluids",
-      "D": "The administrative officer responsible for legal litigation"
+      "A": "Safety, Background, Analysis, Report",
+      "B": "System, Barrier, Assessment, Recovery",
+      "C": "Situation, Background, Assessment, Recommendation",
+      "D": "Symptoms, Behavior, Action, Response"
     },
-    "answer": "B",
-    "explanation": "Because nurses interact with patients around the clock, they serve as the last line of defense to catch errors. [learn more](GST319_U5_T2#GST319_U5_T2_h7)"
+    "answer": "C",
+    "explanation": "SBAR is your best friend during handovers and doctor calls! It keeps your communication clear, quick, and structured."
   },
   {
     "question_id": "GST319_U5_T2_h7_q2",
     "heading_id": "GST319_U5_T2_h7",
     "article_id": "GST319_U5_T2",
     "topic_id": "GST319_U5_T2",
-    "difficulty": "understanding",
-    "question": "How can a nurse actively promote patient safety during a shift handover?",
+    "difficulty": "application",
+    "question": "A student nurse spots a missing decimal point on a drug order that looks way too high. What should the nurse do right away?",
     "options": {
-      "A": "By sharing clear, concise clinical updates and highlighting active risks",
-      "B": "By refusing to discuss previous medication discrepancies",
-      "C": "By rushing through patient details to finish the shift early",
-      "D": "By keeping all patient concerns private from the incoming staff"
+      "A": "Contact the prescribing doctor to clarify the medication order before giving it",
+      "B": "Ask another junior nurse to administer the drug since the order is official",
+      "C": "Give the medication as written because doctors are never wrong",
+      "D": "Administer half the dose to be safe and document the change in the chart"
     },
     "answer": "A",
-    "explanation": "Thorough and transparent handovers ensure that oncoming nurses are aware of critical patient vulnerabilities and pending treatments. [learn more](GST319_U5_T2#GST319_U5_T2_h7)"
+    "explanation": "You are the patient's final safety net! Always pause and clarify any confusing or unsafe order with the prescriber before touching that medication cart."
   }
 ]
