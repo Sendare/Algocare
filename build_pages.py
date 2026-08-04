@@ -276,6 +276,17 @@ def build_real_feel_tests(course_pools):
     weights_config = load_json(WEIGHTS_CONFIG_PATH, {"courses": {}, "units": {}})
 
     rf_state = load_json(REAL_FEEL_STATE_PATH, {"used_question_ids": [], "tests_built": 0})
+
+    # Self-cleaning: if the state says we're starting fresh (0 built), any
+    # real_feel_tests files still on disk are stale leftovers from before a
+    # reset - possibly never actually deleted locally if that machine has a
+    # sparse checkout that doesn't include docs/. Wipe them here instead,
+    # since this always runs with a full checkout on GitHub Actions.
+    real_feel_tests_dir = PUBLISHED_DIR / "data" / "real_feel_tests"
+    if rf_state.get("tests_built", 0) == 0 and real_feel_tests_dir.exists():
+        shutil.rmtree(real_feel_tests_dir)
+        print(f"🧹 tests_built is 0 - cleared stale {real_feel_tests_dir} before rebuilding")
+
     used_ids = set(rf_state["used_question_ids"])
 
     # Filter out already-used questions before building the weighted pool
