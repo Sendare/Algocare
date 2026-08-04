@@ -5,15 +5,15 @@
     "article_id": "GNS315_U3_T1",
     "topic_id": "GNS315_U3_T1",
     "difficulty": "recall",
-    "question": "What is the primary purpose of the triage process in a healthcare setting?",
+    "question": "What is the main goal of triage in a busy healthcare setting?",
     "options": {
-      "A": "Registering demographic data for hospital administrative records",
-      "B": "Prioritizing patients based on clinical urgency and resource availability",
-      "C": "Discharging stable patients to free up beds for incoming admissions",
-      "D": "Billing patients accurately according to the severity of their diagnosis"
+      "A": "To sort patients and prioritize care based on urgency",
+      "B": "To provide a complete medical diagnosis for every visitor",
+      "C": "To collect insurance and billing information before treatment",
+      "D": "To discharge minor cases without letting them see a doctor"
     },
-    "answer": "B",
-    "explanation": "Triage is fundamentally designed to sort and prioritize individuals so that those with the most critical, life-threatening conditions receive immediate medical attention. [learn more](GNS315_U3_T1#GNS315_U3_T1_h1)"
+    "answer": "A",
+    "explanation": "Triage acts as your first safety filter when the ward is busy, ensuring the sickest patients get seen without dangerous delays. You've got this!"
   },
   {
     "question_id": "GNS315_U3_T1_h1_q2",
@@ -21,47 +21,47 @@
     "article_id": "GNS315_U3_T1",
     "topic_id": "GNS315_U3_T1",
     "difficulty": "understanding",
-    "question": "Why is triage particularly vital in busy emergency departments experiencing overcrowding?",
+    "question": "Why do nurses need to triage patients when the emergency department is packed?",
     "options": {
-      "A": "It completely prevents any waiting time for individuals with minor injuries",
-      "B": "It eliminates the need for detailed medical documentation by physicians",
-      "C": "It ensures patients with hidden instabilities are identified before they deteriorate",
-      "D": "It guarantees that surgical theatres remain vacant for major trauma cases"
+      "A": "Because hospital rules forbid seeing patients in the order they arrive",
+      "B": "Because nurses need extra time to complete paperwork for each case",
+      "C": "Because patient needs are greater than available staff and resources",
+      "D": "Because doctors prefer to treat minor injuries before major trauma"
     },
     "answer": "C",
-    "explanation": "Overcrowded waiting rooms present a major safety risk; systematic sorting catches deteriorating patients who might otherwise be overlooked among a large crowd. [learn more](GNS315_U3_T1#GNS315_U3_T1_h1)"
+    "explanation": "When too many people arrive at once, triage helps match our limited hospital resources to the patients who need help the absolute most. Great thinking!"
   },
   {
     "question_id": "GNS315_U3_T1_h2_q1",
     "heading_id": "GNS315_U3_T1_h2",
     "article_id": "GNS315_U3_T1",
     "topic_id": "GNS315_U3_T1",
-    "difficulty": "understanding",
-    "question": "How does disaster triage differ fundamentally from routine emergency department triage?",
+    "difficulty": "recall",
+    "question": "What is the golden rule of triage when responding to a major disaster?",
     "options": {
-      "A": "It focuses on maximizing survival for the largest group rather than treating every individual equally",
-      "B": "It gives absolute priority to patients with the most severe, irreversible injuries",
-      "C": "It relies entirely on advanced laboratory investigations before making any categorization decision",
-      "D": "It permits family members to determine the priority level of injured victims"
+      "A": "Treating every single injured person in the exact order of arrival",
+      "B": "Doing the greatest good for the greatest number of people",
+      "C": "Sending all critical patients to the nearest small clinic",
+      "D": "Focusing entirely on saving the person with the highest social status"
     },
-    "answer": "A",
-    "explanation": "During mass casualty events, resource scarcity forces a shift from individual-centered care to population-centered care, prioritizing those most likely to survive with minimal intervention. [learn more](GNS315_U3_T1#GNS315_U3_T1_h2)"
+    "answer": "B",
+    "explanation": "In a disaster with scarce supplies, we shift our mindset from individual care to saving as many lives as our resources can possibly reach. Brilliant!"
   },
   {
     "question_id": "GNS315_U3_T1_h2_q2",
     "heading_id": "GNS315_U3_T1_h2",
     "article_id": "GNS315_U3_T1",
     "topic_id": "GNS315_U3_T1",
-    "difficulty": "recall",
-    "question": "Which objective is considered a core principle of effective triage operations?",
+    "difficulty": "understanding",
+    "question": "Why must a triage nurse keep checking on patients who are sitting in the waiting area?",
     "options": {
-      "A": "Guaranteeing complete hospital admission for every presenting case",
-      "B": "Eliminating all waiting times across all clinical severity levels",
-      "C": "Ensuring rapid initial assessment and objective categorization",
-      "D": "Providing immediate surgical intervention at the registration desk"
+      "A": "Doctors refuse to start treatment without fresh paperwork",
+      "B": "A stable patient's condition can worsen while they wait",
+      "C": "Patients get angry if their vital signs are not checked twice an hour",
+      "D": "Hospital management requires nurses to update charts every five minutes"
     },
-    "answer": "C",
-    "explanation": "Triage must be fast and objective, utilizing standardized criteria to categorize patients accurately without unnecessary delays. [learn more](GNS315_U3_T1#GNS315_U3_T1_h2)"
+    "answer": "B",
+    "explanation": "Illness can change fast! Someone who looked fine a few minutes ago can suddenly take a turn for the worse. Regular checks keep everyone safe."
   },
   {
     "question_id": "GNS315_U3_T1_h3_q1",
@@ -69,126 +69,158 @@
     "article_id": "GNS315_U3_T1",
     "topic_id": "GNS315_U3_T1",
     "difficulty": "recall",
-    "question": "What does the START triage protocol utilize to categorize victims during a mass casualty incident?",
+    "question": "Which triage category is meant for a patient who needs life-saving help right this second?",
     "options": {
-      "A": "Respiration, perfusion, and mental status",
-      "B": "Body mass index and past surgical history",
-      "C": "Complete blood count and serum electrolytes",
-      "D": "Insurance status and employment history"
+      "A": "Resuscitation",
+      "B": "Urgent",
+      "C": "Non-urgent",
+      "D": "Routine"
     },
     "answer": "A",
-    "explanation": "The Simple Triage and Rapid Treatment (START) method evaluates three specific physiological indicators to quickly sort disaster victims into color-coded categories. [learn more](GNS315_U3_T1#GNS315_U3_T1_h3)"
+    "explanation": "Resuscitation is our highest alert level. Every single second counts here to keep the patient alive and stable!"
   },
   {
     "question_id": "GNS315_U3_T1_h3_q2",
     "heading_id": "GNS315_U3_T1_h3",
     "article_id": "GNS315_U3_T1",
     "topic_id": "GNS315_U3_T1",
-    "difficulty": "understanding",
-    "question": "Why are physiological scoring systems like the South African Triage Scale favored in many African clinical settings?",
+    "difficulty": "application",
+    "question": "A patient walks into the clinic with a mild ankle sprain and stable vital signs. What triage level fits best?",
     "options": {
-      "A": "They automatically schedule surgical procedures without physician approval",
-      "B": "They focus exclusively on administrative billing categories",
-      "C": "They rely on objective vital signs rather than expensive diagnostic equipment",
-      "D": "They eliminate the need for any nursing staff involvement in the emergency unit"
+      "A": "Urgent",
+      "B": "Non-urgent",
+      "C": "Resuscitation",
+      "D": "Emergent"
     },
-    "answer": "C",
-    "explanation": "Physiological scales use accessible markers like pulse, breathing rate, and mental status, making them highly effective in resource-constrained environments. [learn more](GNS315_U3_T1#GNS315_U3_T1_h3)"
+    "answer": "B",
+    "explanation": "A stable injury that just needs a quick check or an X-ray falls right into our non-urgent category. Simple and straightforward!"
   },
   {
     "question_id": "GNS315_U3_T1_h4_q1",
     "heading_id": "GNS315_U3_T1_h4",
     "article_id": "GNS315_U3_T1",
     "topic_id": "GNS315_U3_T1",
-    "difficulty": "recall",
-    "question": "What is a primary clinical responsibility of the triage nurse upon a patient's arrival?",
+    "difficulty": "understanding",
+    "question": "How is disaster triage different from regular emergency department triage?",
     "options": {
-      "A": "Ordering all inpatient room assignments for the entire hospital",
-      "B": "Performing a rapid primary survey and assigning an urgency category",
-      "C": "Completing comprehensive financial discharge summaries",
-      "D": "Performing definitive surgical procedures in the emergency bay"
+      "A": "Routine triage is only used when there are zero available beds",
+      "B": "Disaster triage focuses on saving the greatest number with limited resources",
+      "C": "Routine triage ignores vital signs while disaster triage requires full lab work",
+      "D": "Disaster triage gives highest priority to patients with the worst chance of survival"
     },
     "answer": "B",
-    "explanation": "The core duty of the triage nurse is to quickly evaluate the patient's presenting condition and assign an appropriate triage category to guide subsequent care. [learn more](GNS315_U3_T1#GNS315_U3_T1_h4)"
+    "explanation": "When mass casualties hit, our main goal shifts from giving maximum individual care to saving the maximum number of community lives."
   },
   {
     "question_id": "GNS315_U3_T1_h4_q2",
     "heading_id": "GNS315_U3_T1_h4",
     "article_id": "GNS315_U3_T1",
     "topic_id": "GNS315_U3_T1",
-    "difficulty": "understanding",
-    "question": "Why are strong de-escalation and communication skills essential for a triage nurse?",
+    "difficulty": "application",
+    "question": "During a building collapse with dozens of victims, a patient with severe, fatal injuries gets an expectant (black) tag. Why do we do this?",
     "options": {
-      "A": "They replace the need for taking vital signs during patient assessment",
-      "B": "They ensure that administrative billing is completed without error",
-      "C": "They allow the nurse to bypass institutional hospital bylaws safely",
-      "D": "They help manage anxious relatives and tense waiting room environments"
+      "A": "Because nurses are not legally allowed to touch trauma patients outdoors",
+      "B": "To preserve scarce medical supplies for victims who have a better chance of survival",
+      "C": "Because minor injuries always take legal precedence over head trauma",
+      "D": "To punish the patient for not wearing safety equipment"
     },
-    "answer": "D",
-    "explanation": "Emergency settings are often high-stress environments where clear communication and de-escalation prevent conflict with patients and families waiting for care. [learn more](GNS315_U3_T1#GNS315_U3_T1_h4)"
+    "answer": "B",
+    "explanation": "This is one of the hardest parts of nursing, but when supplies are limited, we must focus our efforts where we can genuinely save lives."
   },
   {
     "question_id": "GNS315_U3_T1_h5_q1",
     "heading_id": "GNS315_U3_T1_h5",
     "article_id": "GNS315_U3_T1",
     "topic_id": "GNS315_U3_T1",
-    "difficulty": "understanding",
-    "question": "What clinical pitfall occurs when a nurse focuses on an obvious minor injury while missing a more severe, underlying condition?",
+    "difficulty": "recall",
+    "question": "What is a common misunderstanding about the role of the triage nurse?",
     "options": {
-      "A": "Physiological scoring",
-      "B": "Anchoring bias",
-      "C": "Premature closure",
-      "D": "Routine categorization"
+      "A": "That triage nurses are responsible for performing major surgical procedures",
+      "B": "That the triage nurse works exclusively in the hospital pharmacy",
+      "C": "That it is merely a clerical desk job rather than a high-level clinical assessment",
+      "D": "That triage staff never interact directly with incoming patients"
     },
     "answer": "C",
-    "explanation": "Premature closure happens when an evaluator stops searching for alternative diagnoses too early after spotting an obvious, superficial symptom. [learn more](GNS315_U3_T1#GNS315_U3_T1_h5)"
+    "explanation": "Triage is real clinical nursing! It takes sharp assessment skills and quick thinking to spot hidden dangers at the front desk."
   },
   {
     "question_id": "GNS315_U3_T1_h5_q2",
     "heading_id": "GNS315_U3_T1_h5",
     "article_id": "GNS315_U3_T1",
     "topic_id": "GNS315_U3_T1",
-    "difficulty": "recall",
-    "question": "Which systematic approach is commonly applied during rapid triage evaluation to check vital physiological functions?",
+    "difficulty": "understanding",
+    "question": "Why is the triage nurse's job considered to carry big legal responsibilities?",
     "options": {
-      "A": "GORDON functional health pattern",
-      "B": "SOAP note method",
-      "C": "NANDA diagnostic framework",
-      "D": "ABCDE approach"
+      "A": "A missed critical symptom during the initial sort can cause severe patient harm",
+      "B": "Hospital insurance does not cover mistakes made outside the ward",
+      "C": "Triage nurses must personally pay for any medication ordered at the desk",
+      "D": "The nurse is legally required to diagnose every disease on arrival"
     },
-    "answer": "D",
-    "explanation": "The ABCDE (Airway, Breathing, Circulation, Disability, Exposure) framework is the universal standard for rapidly identifying life threats during initial assessment. [learn more](GNS315_U3_T1#GNS315_U3_T1_h5)"
+    "answer": "A",
+    "explanation": "Because triage is the very first stop, catching critical symptoms early protects the patient and keeps your clinical practice safe."
   },
   {
     "question_id": "GNS315_U3_T1_h6_q1",
     "heading_id": "GNS315_U3_T1_h6",
     "article_id": "GNS315_U3_T1",
     "topic_id": "GNS315_U3_T1",
-    "difficulty": "understanding",
-    "question": "Which ethical principle primarily guides the fair allocation of scarce medical resources during triage?",
+    "difficulty": "recall",
+    "question": "What quick assessment guide helps nurses check a new patient rapidly?",
     "options": {
-      "A": "Absolute confidentiality",
-      "B": "Paternalistic beneficence",
-      "C": "Distributive justice",
-      "D": "Informed autonomy"
+      "A": "Detailed psychological background check",
+      "B": "Nutritional and dietary history review",
+      "C": "Comprehensive head-to-toe physical examination",
+      "D": "Primary survey (Airway, Breathing, Circulation, Disability, Exposure)"
     },
-    "answer": "C",
-    "explanation": "Distributive justice concerns the fair and equitable distribution of healthcare resources among members of a population, especially when supplies are limited. [learn more](GNS315_U3_T1#GNS315_U3_T1_h6)"
+    "answer": "D",
+    "explanation": "ABCDE is your best friend in emergency nursing. It lets you spot and tackle life-threatening issues instantly!"
   },
   {
     "question_id": "GNS315_U3_T1_h6_q2",
     "heading_id": "GNS315_U3_T1_h6",
     "article_id": "GNS315_U3_T1",
     "topic_id": "GNS315_U3_T1",
-    "difficulty": "recall",
-    "question": "What legal implication is established the moment a patient undergoes triage assessment in a facility?",
+    "difficulty": "understanding",
+    "question": "How is a triage check different from a full ward admission assessment?",
     "options": {
-      "A": "A duty of care is established between the healthcare institution and the patient",
-      "B": "The patient automatically forfeits the right to refuse medical treatment",
-      "C": "All financial charges for hospitalization are immediately waived",
-      "D": "The attending physician assumes total liability for prior community care"
+      "A": "Triage assessment is rapid and focused on immediate life threats rather than being comprehensive",
+      "B": "Admission assessments take less than two minutes to complete",
+      "C": "Admission assessments are always performed by security guards instead of nurses",
+      "D": "Triage assessment skips vital signs entirely and relies on guesswork"
     },
     "answer": "A",
-    "explanation": "Assessing a patient initiates a formal legal relationship, obligating the facility to provide appropriate monitoring and treatment according to established standards. [learn more](GNS315_U3_T1#GNS315_U3_T1_h6)"
+    "explanation": "At triage, we don't have time for a lengthy life story. We scan for immediate dangers first, then dive deeper later!"
+  },
+  {
+    "question_id": "GNS315_U3_T1_h7_q1",
+    "heading_id": "GNS315_U3_T1_h7",
+    "article_id": "GNS315_U3_T1",
+    "topic_id": "GNS315_U3_T1",
+    "difficulty": "recall",
+    "question": "Which ethical principle guides triage nurses to treat every patient fairly, no matter their background?",
+    "options": {
+      "A": "Autonomy",
+      "B": "Paternalism",
+      "C": "Justice",
+      "D": "Beneficence"
+    },
+    "answer": "C",
+    "explanation": "Justice means treating everyone fairly and sharing our healthcare resources impartially, without any bias or favoritism."
+  },
+  {
+    "question_id": "GNS315_U3_T1_h7_q2",
+    "heading_id": "GNS315_U3_T1_h7",
+    "article_id": "GNS315_U3_T1",
+    "topic_id": "GNS315_U3_T1",
+    "difficulty": "understanding",
+    "question": "Why is good record-keeping at the triage desk so important for legal safety?",
+    "options": {
+      "A": "It stops patients from asking questions about their treatment costs",
+      "B": "It provides a clear record of when the patient arrived and their initial condition",
+      "C": "It guarantees the hospital will win any lawsuit brought by insurance companies",
+      "D": "It allows nurses to avoid writing shift reports at the end of the day"
+    },
+    "answer": "B",
+    "explanation": "Clear notes prove exactly when the patient came in and how you cared for them. Good documentation is your best legal shield!"
   }
 ]
