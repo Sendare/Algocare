@@ -13,7 +13,7 @@
       "D": "Categorical data"
     },
     "answer": "D",
-    "explanation": "You've got this! A Chi-Square test is used for data that falls into distinct groups or categories (like male/female or yes/no), rather than numbers on a continuous scale."
+    "explanation": "You've got this! A Chi-Square test is used for data that falls into distinct groups or categories (like male/female or yes/no), rather than numbers on a continuous scale. [learn more](GNS217_U4_T13#GNS217_U4_T13_h1)"
   },
   {
     "question_id": "GNS217_U4_T13_h1_q2",
@@ -29,7 +29,7 @@
       "D": "To see if two categorical variables are related"
     },
     "answer": "D",
-    "explanation": "Great thinking! We use it to check if two category-based things are connected—for example, seeing if a patient's ward location is linked to getting an infection."
+    "explanation": "Great thinking! We use it to check if two category-based things are connected—for example, seeing if a patient's ward location is linked to getting an infection. [learn more](GNS217_U4_T13#GNS217_U4_T13_h1)"
   },
   {
     "question_id": "GNS217_U4_T13_h2_q1",
@@ -45,7 +45,7 @@
       "D": "It must match the observed frequency"
     },
     "answer": "A",
-    "explanation": "Spot on! To make sure our statistical results are reliable and trustworthy, the expected count in each table cell should be at least 5."
+    "explanation": "Spot on! To make sure our statistical results are reliable and trustworthy, the expected count in each table cell should be at least 5. [learn more](GNS217_U4_T13#GNS217_U4_T13_h2)"
   },
   {
     "question_id": "GNS217_U4_T13_h2_q2",
@@ -61,7 +61,7 @@
       "D": "To prevent the same patient from being counted in multiple cells"
     },
     "answer": "D",
-    "explanation": "Exactly! Independent observations mean each patient is only counted once, keeping our groups separate and our results accurate."
+    "explanation": "Exactly! Independent observations mean each patient is only counted once, keeping our groups separate and our results accurate. [learn more](GNS217_U4_T13#GNS217_U4_T13_h2)"
   },
   {
     "question_id": "GNS217_U4_T13_h3_q1",
@@ -77,7 +77,7 @@
       "D": "To test if a single categorical sample matches an expected distribution"
     },
     "answer": "D",
-    "explanation": "You're doing great! The goodness-of-fit test helps us check if a single group of categorical data matches what we normally expect to see in a population."
+    "explanation": "You're doing great! The goodness-of-fit test helps us check if a single group of categorical data matches what we normally expect to see in a population. [learn more](GNS217_U4_T13#GNS217_U4_T13_h3)"
   },
   {
     "question_id": "GNS217_U4_T13_h3_q2",
@@ -93,7 +93,7 @@
       "D": "Independent samples t-test"
     },
     "answer": "A",
-    "explanation": "Spot on! Because we are looking for a relationship between two categorical variables (smoking status and bronchitis status), the test of independence is the right pick."
+    "explanation": "Spot on! Because we are looking for a relationship between two categorical variables (smoking status and bronchitis status), the test of independence is the right pick. [learn more](GNS217_U4_T13#GNS217_U4_T13_h3)"
   },
   {
     "question_id": "GNS217_U4_T13_h4_q1",
@@ -109,7 +109,7 @@
       "D": "There is no association between the variables"
     },
     "answer": "D",
-    "explanation": "That's right! The null hypothesis always starts by assuming there is no relationship between the things we are studying—any pattern we see is just by chance."
+    "explanation": "That's right! The null hypothesis always starts by assuming there is no relationship between the things we are studying—any pattern we see is just by chance. [learn more](GNS217_U4_T13#GNS217_U4_T13_h4)"
   },
   {
     "question_id": "GNS217_U4_T13_h4_q2",
@@ -125,7 +125,7 @@
       "D": "They measure the exact numerical difference between means"
     },
     "answer": "A",
-    "explanation": "Keep it up! Standard Chi-Square tests simply ask if a connection exists overall, without needing to guess whether it goes up or down."
+    "explanation": "Keep it up! Standard Chi-Square tests simply ask if a connection exists overall, without needing to guess whether it goes up or down. [learn more](GNS217_U4_T13#GNS217_U4_T13_h4)"
   },
   {
     "question_id": "GNS217_U4_T13_h5_q1",
@@ -141,7 +141,7 @@
       "D": "The theoretical counts expected under the null hypothesis"
     },
     "answer": "A",
-    "explanation": "You got it! Observed frequencies are the real-life numbers you gather directly from your surveys, forms, or patients."
+    "explanation": "You got it! Observed frequencies are the real-life numbers you gather directly from your surveys, forms, or patients. [learn more](GNS217_U4_T13#GNS217_U4_T13_h5)"
   },
   {
     "question_id": "GNS217_U4_T13_h5_q2",
@@ -157,7 +157,7 @@
       "D": "Subtracting the observed frequency from the total sample size"
     },
     "answer": "A",
-    "explanation": "Well done! This formula helps us figure out what numbers we would expect to see if there was truly no relationship at all between the categories."
+    "explanation": "Well done! This formula helps us figure out what numbers we would expect to see if there was truly no relationship at all between the categories. [learn more](GNS217_U4_T13#GNS217_U4_T13_h5)"
   },
   {
     "question_id": "GNS217_U4_T13_h6_q1",
@@ -173,7 +173,7 @@
       "D": "The sample size was definitely too small"
     },
     "answer": "A",
-    "explanation": "Awesome! A p-value under 0.05 tells us our findings are real and unlikely to have just happened by random luck."
+    "explanation": "Awesome! A p-value under 0.05 tells us our findings are real and unlikely to have just happened by random luck. [learn more](GNS217_U4_T13#GNS217_U4_T13_h6)"
   },
   {
     "question_id": "GNS217_U4_T13_h6_q2",
@@ -189,7 +189,7 @@
       "D": "Thinking the test can only be used with continuous numerical data"
     },
     "answer": "A",
-    "explanation": "Good catch! A result can be statistically significant, but you still have to use clinical judgment to see if it makes a big real-world difference for patients."
+    "explanation": "Good catch! A result can be statistically significant, but you still have to use clinical judgment to see if it makes a big real-world difference for patients. [learn more](GNS217_U4_T13#GNS217_U4_T13_h6)"
   },
   {
     "question_id": "GNS217_U4_T13_h7_q1",
@@ -205,7 +205,7 @@
       "D": "The exact blood pressure of participants"
     },
     "answer": "D",
-    "explanation": "You're doing brilliantly! While we need test statistics and p-values to report stats, specific clinical measures like blood pressure depend entirely on what your study is about."
+    "explanation": "You're doing brilliantly! While we need test statistics and p-values to report stats, specific clinical measures like blood pressure depend entirely on what your study is about. [learn more](GNS217_U4_T13#GNS217_U4_T13_h7)"
   },
   {
     "question_id": "GNS217_U4_T13_h7_q2",
@@ -221,6 +221,6 @@
       "D": "Switch all patient data collection methods to continuous numerical scales"
     },
     "answer": "C",
-    "explanation": "Spot on! Research is meant to guide practical changes that improve staff well-being and patient safety in our hospitals."
+    "explanation": "Spot on! Research is meant to guide practical changes that improve staff well-being and patient safety in our hospitals. [learn more](GNS217_U4_T13#GNS217_U4_T13_h7)"
   }
 ]
