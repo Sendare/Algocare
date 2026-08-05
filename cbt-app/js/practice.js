@@ -186,8 +186,12 @@ function render() {
     </button>`;
   }).join("");
 
+  const resultBanner = answer.isCorrect
+    ? ""
+    : `<p style="color: var(--brick); font-weight: 600; margin-bottom: 8px;">Not quite — here's the correct answer:</p>`;
+
   const explanationHtml = answer ? `
-    ${answer.showExplanation ? `<div class="explanation-box">${parseExplanation(q.explanation, q.topic_id)}</div>` : ""}
+    ${answer.showExplanation ? `<div class="explanation-box">${resultBanner}${parseExplanation(q.explanation, q.topic_id)}</div>` : ""}
     <div class="action-row">
       ${!answer.showExplanation ? `<button class="btn secondary" id="showExplanationBtn">Show explanation</button>` : ""}
       <button class="btn" id="nextBtn">${current < questions.length - 1 ? "Next question" : "Finish"}</button>

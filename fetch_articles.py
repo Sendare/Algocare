@@ -1,5 +1,6 @@
 import json
 import random
+import re
 import time
 import sys
 from pathlib import Path
@@ -15,16 +16,13 @@ STATE_PATH = "state/generation_state.json"
 # 3 Gemini calls per topic now (article/questions, engagement, QA) instead of
 # 1 - each topic takes roughly 3x as long, so fewer topics complete per run.
 # Bumped from 180s to give headroom under the 6-minute workflow timeout.
-MAX_RUNTIME_SECONDS = 200
- 
-
-
+MAX_RUNTIME_SECONDS = 240
 
 LEARN_MORE_TOKEN = "[[LEARN_MORE]]"
 
 ARTICLE_SYSTEM_PROMPT = """You are an experienced nursing lecturer writing study \
-content for Algocare, an educational platform for nursing students. \
-
+content for Algocare, an educational platform for nursing students in Nigeria \
+preparing for the NMCN CBT exam.
 
 You will be given a topic and a proposed list of section headings. You may use \
 these headings as-is, OR revise them: rename, reorder, merge, split, add, or \
@@ -38,8 +36,8 @@ sections will be 80-350 words - a simple definition might be short, a \
 management section might be longer. Do not make every section a similar \
 length. Vary sentence length and rhythm. Avoid repetitive transitions like \
 "However," "In addition," "Furthermore," "It is important to..." appearing in \
-almost every section. Do not start or  end every section with a generic closer like \
-"nurses should provide emotional support" "nurses most know"  or "patient education is essential" \
+almost every section. Do not end every section with a generic closer like \
+"nurses should provide emotional support" or "patient education is essential" \
 unless it's specifically relevant to THIS heading's content.
 
 Choose the format that best teaches the concept - not everything needs to be a \
@@ -52,8 +50,8 @@ as an actual markdown list: "1. **Name**: description" for ordered, or \
 the same attributes.
 - Otherwise, write clear prose.
 
-Include practical clinical relevant observations where genuinely relevant \
-(a common misconception) - but \
+Include practical clinical/exam-relevant observations where genuinely relevant \
+(a common misconception, an exam pitfall, a Nigerian clinical context) - but \
 don't force one into every heading if it doesn't fit naturally. Only mention \
 scientific uncertainty if it genuinely exists for this specific fact - do not \
 manufacture hedging language on settled topics.
@@ -100,7 +98,7 @@ following...". Mix in: "What is...", "The main cause of X is...", "A patient \
 with [scenario] is most likely to...", "Which symptom is most characteristic \
 of...", etc.
 
-You may occasionally (roughly 2 in 10 questions, not more) use a \
+You may occasionally (roughly 1 in 10 questions, not more) use a \
 negative-framed question (NOT / EXCEPT / all BUT one). When you do, the \
 negation word MUST appear in full capitals in the question text itself (e.g. \
 "Which of the following is NOT a symptom of...") so it can't be skimmed past.
@@ -138,9 +136,7 @@ schema:
       ]
     }
   ]
-}
-examine your generated json for typos or invalid json"""
-
+}"""
 
 
 ENGAGEMENT_SYSTEM_PROMPT = """You are a product-focused nursing education \
@@ -353,26 +349,34 @@ def generate_article_and_questions(topic_id, headings_entry, topic_meta):
     return article_dict, questions_list, skipped_count
 
 
+LEARN_MORE_PATTERN = re.compile(r"\s*\[[^\]]*\]\([^)]*\)\s*$")
+
+
 def run_engagement_pass(questions_list):
     """
     Sends this topic's questions through a dedicated approachability rewrite
     pass - kept separate from correctness, since 'make it friendlier' and
     'is this factually right' are different jobs. Modifies questions_list
     in place. Returns (rewritten_count, skipped_bad_rewrite_count).
+
+    The trailing "[learn more](...)" link is stripped out before sending the
+    explanation to the model, and the correct link (reconstructed from
+    topic_id/heading_id, never trusted from the model) is always reattached
+    to whatever comes back - the model never sees it, so it can't lose it.
     """
     if not questions_list:
         return 0, 0
 
-    input_list = [
-        {
+    input_list = []
+    for q in questions_list:
+        stripped_explanation = LEARN_MORE_PATTERN.sub("", q["explanation"]).rstrip()
+        input_list.append({
             "id": q["question_id"],
             "question": q["question"],
             "options": list(q["options"].values()),
             "correct_answer_text": q["options"][q["answer"]],
-            "explanation": q["explanation"],
-        }
-        for q in questions_list
-    ]
+            "explanation": stripped_explanation,
+        })
 
     try:
         result = call_gemini(ENGAGEMENT_SYSTEM_PROMPT, json.dumps(input_list, ensure_ascii=False))
@@ -396,10 +400,13 @@ def run_engagement_pass(questions_list):
             continue  # keep the original question unchanged if the rewrite's answer doesn't verify
 
         options_dict, answer_letter = finalized
+        rewritten_explanation = LEARN_MORE_PATTERN.sub("", r["explanation"]).rstrip()
+        correct_link = f"[learn more]({q['topic_id']}#{q['heading_id']})"
+
         q["question"] = r["question"]
         q["options"] = options_dict
         q["answer"] = answer_letter
-        q["explanation"] = r["explanation"]
+        q["explanation"] = f"{rewritten_explanation} {correct_link}"
         rewritten_count += 1
 
     return rewritten_count, skipped_bad_rewrite
@@ -515,5 +522,3 @@ def run():
 
 if __name__ == "__main__":
     run()
-
-
