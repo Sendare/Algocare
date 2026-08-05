@@ -1,0 +1,1000 @@
+{
+  "meta": {
+    "total_topics": 2021,
+    "target_date": "2025-09-30",
+    "notes": "Initial batch - 3 courses. Append more courses to the curriculum array as they become available."
+  },
+  "curriculum": [
+    {
+      "course_id": "GNS111",
+      "course_name": "Anatomy and Physiology I",
+      "priority": "high",
+      "group": "Sciences",
+      "units": [
+        {
+          "unit_id": "GNS111_U1",
+          "unit_number": 1,
+          "unit_name": "Introduction to Anatomy and Physiology",
+          "topics": [
+            {
+              "topic_id": "GNS111_U1_T1",
+              "order": 1,
+              "title": "Organization of the Human Body",
+              "topic_type": "theory",
+              "path": [
+                "Introduction to Anatomy and Physiology",
+                "Organization of the Human Body"
+              ]
+            },
+            {
+              "topic_id": "GNS111_U1_T2",
+              "order": 2,
+              "title": "Anatomical Positions and Planes",
+              "topic_type": "theory",
+              "path": [
+                "Introduction to Anatomy and Physiology",
+                "Anatomical Positions and Planes"
+              ]
+            },
+            {
+              "topic_id": "GNS111_U1_T3",
+              "order": 3,
+              "title": "Body Cavities",
+              "topic_type": "theory",
+              "path": [
+                "Introduction to Anatomy and Physiology",
+                "Body Cavities"
+              ]
+            },
+            {
+              "topic_id": "GNS111_U1_T4",
+              "order": 4,
+              "title": "Regions of the Body",
+              "topic_type": "theory",
+              "path": [
+                "Introduction to Anatomy and Physiology",
+                "Regions of the Body"
+              ]
+            },
+            {
+              "topic_id": "GNS111_U1_T5",
+              "order": 5,
+              "title": "The Cell",
+              "topic_type": "organ",
+              "path": [
+                "Introduction to Anatomy and Physiology",
+                "The Cell"
+              ],
+              "coverage": [
+                "Basic Unit of the Body",
+                "Cell Theory",
+                "Cell Properties",
+                "Cell Division"
+              ]
+            },
+            {
+              "topic_id": "GNS111_U1_T6",
+              "order": 6,
+              "title": "Introduction to Embryology",
+              "topic_type": "theory",
+              "path": [
+                "Introduction to Anatomy and Physiology",
+                "Introduction to Embryology"
+              ]
+            },
+            {
+              "topic_id": "GNS111_U1_T7",
+              "order": 7,
+              "title": "Human Genetics",
+              "topic_type": "theory",
+              "path": [
+                "Introduction to Anatomy and Physiology",
+                "Human Genetics"
+              ]
+            },
+            {
+              "topic_id": "GNS111_U1_T8",
+              "order": 8,
+              "title": "Tissues and Membranes",
+              "topic_type": "theory",
+              "path": [
+                "Introduction to Anatomy and Physiology",
+                "Tissues and Membranes"
+              ],
+              "coverage": [
+                "Types",
+                "Characteristics",
+                "Special Adaptation"
+              ]
+            },
+            {
+              "topic_id": "GNS111_U1_T9",
+              "order": 9,
+              "title": "Organs and Systems",
+              "topic_type": "concept",
+              "path": [
+                "Introduction to Anatomy and Physiology",
+                "Organs and Systems"
+              ]
+            },
+            {
+              "topic_id": "GNS111_U1_T10",
+              "order": 10,
+              "title": "Adaptation and Homeostasis",
+              "topic_type": "concept",
+              "path": [
+                "Introduction to Anatomy and Physiology",
+                "Adaptation and Homeostasis"
+              ]
+            }
+          ]
+        },
+        {
+          "unit_id": "GNS111_U2",
+          "unit_number": 2,
+          "unit_name": "Blood and Cardiovascular System",
+          "topics": [
+            {
+              "topic_id": "GNS111_U2_T1",
+              "order": 1,
+              "title": "Blood",
+              "topic_type": "theory",
+              "path": [
+                "Blood and Cardiovascular System",
+                "Blood"
+              ],
+              "coverage": [
+                "Composition",
+                "Plasma",
+                "Blood Cells"
+              ]
+            },
+            {
+              "topic_id": "GNS111_U2_T2",
+              "order": 2,
+              "title": "Blood Groups",
+              "topic_type": "theory",
+              "path": [
+                "Blood and Cardiovascular System",
+                "Blood Groups"
+              ],
+              "coverage": [
+                "ABO Blood Group System",
+                "Rhesus Factor"
+              ]
+            },
+            {
+              "topic_id": "GNS111_U2_T3",
+              "order": 3,
+              "title": "Clotting Mechanism",
+              "topic_type": "physiological_process",
+              "path": [
+                "Blood and Cardiovascular System",
+                "Clotting Mechanism"
+              ]
+            },
+            {
+              "topic_id": "GNS111_U2_T4",
+              "order": 4,
+              "title": "The Heart",
+              "topic_type": "organ",
+              "path": [
+                "Blood and Cardiovascular System",
+                "The Heart"
+              ],
+              "coverage": [
+                "Development",
+                "Structure",
+                "Functions",
+                "Cardiac Activities",
+                "Conducting System",
+                "Electrocardiography (ECG)"
+              ]
+            },
+            {
+              "topic_id": "GNS111_U2_T5",
+              "order": 5,
+              "title": "Blood Vessels",
+              "topic_type": "organ",
+              "path": [
+                "Blood and Cardiovascular System",
+                "Blood Vessels"
+              ],
+              "coverage": [
+                "Arteries",
+                "Veins",
+                "Capillaries"
+              ]
+            },
+            {
+              "topic_id": "GNS111_U2_T6",
+              "order": 6,
+              "title": "Blood Pressure",
+              "topic_type": "physiological_process",
+              "path": [
+                "Blood Circulation",
+                "Blood Pressure"
+              ]
+            },
+            {
+              "topic_id": "GNS111_U2_T7",
+              "order": 7,
+              "title": "Cardiac Rate",
+              "topic_type": "physiological_process",
+              "path": [
+                "Blood Circulation",
+                "Cardiac Rate"
+              ]
+            },
+            {
+              "topic_id": "GNS111_U2_T8",
+              "order": 8,
+              "title": "Pulse",
+              "topic_type": "physiological_process",
+              "path": [
+                "Blood Circulation",
+                "Pulse"
+              ],
+              "coverage": [
+                "Factors Affecting Pulse"
+              ]
+            },
+            {
+              "topic_id": "GNS111_U2_T9",
+              "order": 9,
+              "title": "Pulmonary Circulation",
+              "topic_type": "physiological_process",
+              "path": [
+                "Blood Circulation",
+                "Types of Circulation",
+                "Pulmonary Circulation"
+              ]
+            },
+            {
+              "topic_id": "GNS111_U2_T10",
+              "order": 10,
+              "title": "Coronary Circulation",
+              "topic_type": "physiological_process",
+              "path": [
+                "Blood Circulation",
+                "Types of Circulation",
+                "Coronary Circulation"
+              ]
+            },
+            {
+              "topic_id": "GNS111_U2_T11",
+              "order": 11,
+              "title": "Portal Circulation",
+              "topic_type": "physiological_process",
+              "path": [
+                "Blood Circulation",
+                "Types of Circulation",
+                "Portal Circulation"
+              ]
+            },
+            {
+              "topic_id": "GNS111_U2_T12",
+              "order": 12,
+              "title": "Systemic Circulation",
+              "topic_type": "physiological_process",
+              "path": [
+                "Blood Circulation",
+                "Types of Circulation",
+                "Systemic Circulation"
+              ]
+            },
+            {
+              "topic_id": "GNS111_U2_T13",
+              "order": 13,
+              "title": "The Lymphatic System",
+              "topic_type": "organ",
+              "path": [
+                "Blood and Cardiovascular System",
+                "The Lymphatic System"
+              ],
+              "coverage": [
+                "Lymph Nodes",
+                "Lymphatic Vessels",
+                "Lymphatic Circulation"
+              ]
+            },
+            {
+              "topic_id": "GNS111_U2_T14",
+              "order": 14,
+              "title": "The Immune System",
+              "topic_type": "organ",
+              "path": [
+                "Blood and Cardiovascular System",
+                "The Immune System"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "course_id": "GNS112",
+      "course_name": "Foundation of Nursing I",
+      "priority": "high",
+      "group": "Professional",
+      "units": [
+        {
+          "unit_id": "GNS112_U1",
+          "unit_number": 1,
+          "unit_name": "Introduction",
+          "topics": [
+            {
+              "topic_id": "GNS112_U1_T1",
+              "order": 1,
+              "title": "Definition of Nursing/Nurse",
+              "topic_type": "concept",
+              "path": [
+                "Foundation of Nursing",
+                "Definition of Nursing/Nurse"
+              ]
+            },
+            {
+              "topic_id": "GNS112_U1_T2",
+              "order": 2,
+              "title": "History and Trends in Nursing",
+              "topic_type": "concept",
+              "path": [
+                "Foundation of Nursing",
+                "History and Trends in Nursing"
+              ]
+            },
+            {
+              "topic_id": "GNS112_U1_T3",
+              "order": 3,
+              "title": "Concept of Health and Illness",
+              "topic_type": "concept",
+              "path": [
+                "Foundation of Nursing",
+                "Concept of Health and Illness"
+              ]
+            },
+            {
+              "topic_id": "GNS112_U1_T4",
+              "order": 4,
+              "title": "Concept of Basic Human Needs",
+              "topic_type": "concept",
+              "path": [
+                "Foundation of Nursing",
+                "Concept of Basic Human Needs"
+              ]
+            },
+            {
+              "topic_id": "GNS112_U1_T5",
+              "order": 5,
+              "title": "Professional Organizations",
+              "topic_type": "concept",
+              "coverage": [
+                "National Organizations",
+                "International Organizations"
+              ],
+              "path": [
+                "Foundation of Nursing",
+                "Professional Organizations"
+              ]
+            },
+            {
+              "topic_id": "GNS112_U1_T6",
+              "order": 6,
+              "title": "Health Maintenance Agencies",
+              "topic_type": "concept",
+              "coverage": [
+                "National Agencies",
+                "International Agencies"
+              ],
+              "path": [
+                "Foundation of Nursing",
+                "Health Maintenance Agencies"
+              ]
+            },
+            {
+              "topic_id": "GNS112_U1_T7",
+              "order": 7,
+              "title": "Characteristics of a Polyvalent Nurse",
+              "topic_type": "concept",
+              "path": [
+                "Foundation of Nursing",
+                "Characteristics of a Polyvalent Nurse"
+              ]
+            }
+          ]
+        },
+        {
+          "unit_id": "GNS112_U2",
+          "unit_number": 2,
+          "unit_name": "Health Care Institutions",
+          "topics": [
+            {
+              "topic_id": "GNS112_U2_T1",
+              "order": 1,
+              "title": "Hospital and Ward Organization",
+              "topic_type": "concept",
+              "path": [
+                "Foundation of Nursing",
+                "Hospital and Ward Organization"
+              ]
+            },
+            {
+              "topic_id": "GNS112_U2_T2",
+              "order": 2,
+              "title": "Structure of Health Facilities and Social Services",
+              "topic_type": "concept",
+              "coverage": [
+                "Primary Health Facilities",
+                "Secondary Health Facilities",
+                "Tertiary Health Facilities",
+                "Social Services"
+              ],
+              "path": [
+                "Foundation of Nursing",
+                "Structure of Health Facilities and Social Services"
+              ]
+            },
+            {
+              "topic_id": "GNS112_U2_T3",
+              "order": 3,
+              "title": "Client/Patient in Community and Health Institution",
+              "topic_type": "concept",
+              "path": [
+                "Foundation of Nursing",
+                "Client/Patient in Community and Health Institution"
+              ]
+            },
+            {
+              "topic_id": "GNS112_U2_T4",
+              "order": 4,
+              "title": "The Patient as a Member of a Family and Community",
+              "topic_type": "concept",
+              "path": [
+                "Foundation of Nursing",
+                "The Patient as a Member of a Family and Community"
+              ]
+            },
+            {
+              "topic_id": "GNS112_U2_T5",
+              "order": 5,
+              "title": "Reception, Admission, Referral and Discharge Procedures",
+              "topic_type": "procedure",
+              "path": [
+                "Foundation of Nursing",
+                "Reception, Admission, Referral and Discharge Procedures"
+              ]
+            },
+            {
+              "topic_id": "GNS112_U2_T6",
+              "order": 6,
+              "title": "Principles and Techniques of Health Education and the Role of the Nurse",
+              "topic_type": "concept",
+              "path": [
+                "Foundation of Nursing",
+                "Principles and Techniques of Health Education and the Role of the Nurse"
+              ]
+            }
+          ]
+        },
+        {
+          "unit_id": "GNS112_U3",
+          "unit_number": 3,
+          "unit_name": "Tools of Nursing",
+          "topics": [
+            {
+              "topic_id": "GNS112_U3_T1",
+              "order": 1,
+              "title": "Interpersonal Relationship",
+              "topic_type": "concept",
+              "path": [
+                "Foundation of Nursing",
+                "Interpersonal Relationship"
+              ]
+            },
+            {
+              "topic_id": "GNS112_U3_T2",
+              "order": 2,
+              "title": "Communication Skills",
+              "topic_type": "concept",
+              "path": [
+                "Foundation of Nursing",
+                "Communication Skills"
+              ]
+            },
+            {
+              "topic_id": "GNS112_U3_T3",
+              "order": 3,
+              "title": "Interviewing and Counselling",
+              "topic_type": "procedure",
+              "path": [
+                "Foundation of Nursing",
+                "Interviewing and Counselling"
+              ]
+            },
+            {
+              "topic_id": "GNS112_U3_T4",
+              "order": 4,
+              "title": "Principles of Reporting and Recording",
+              "topic_type": "procedure",
+              "path": [
+                "Foundation of Nursing",
+                "Principles of Reporting and Recording"
+              ]
+            },
+            {
+              "topic_id": "GNS112_U3_T5",
+              "order": 5,
+              "title": "Taking and Handing Over",
+              "topic_type": "procedure",
+              "path": [
+                "Foundation of Nursing",
+                "Taking and Handing Over"
+              ]
+            },
+            {
+              "topic_id": "GNS112_U3_T6",
+              "order": 6,
+              "title": "Selected Theories and Models Relevant to Nursing Practice",
+              "topic_type": "theory",
+              "coverage": [
+                "Florence Nightingale",
+                "Virginia Henderson",
+                "Dorothea Orem"
+              ],
+              "path": [
+                "Foundation of Nursing",
+                "Selected Theories and Models Relevant to Nursing Practice"
+              ]
+            },
+            {
+              "topic_id": "GNS112_U3_T7",
+              "order": 7,
+              "title": "Problem Solving Techniques",
+              "topic_type": "concept",
+              "path": [
+                "Foundation of Nursing",
+                "Problem Solving Techniques"
+              ]
+            }
+          ]
+        },
+        {
+          "unit_id": "GNS112_U4",
+          "unit_number": 4,
+          "unit_name": "Comfort and Safety Measures",
+          "topics": [
+            {
+              "topic_id": "GNS112_U4_T1",
+              "order": 1,
+              "title": "Care of Hospital Equipment",
+              "topic_type": "procedure",
+              "path": [
+                "Foundation of Nursing",
+                "Care of Hospital Equipment"
+              ]
+            },
+            {
+              "topic_id": "GNS112_U4_T2",
+              "order": 2,
+              "title": "Simple Bed Making",
+              "topic_type": "procedure",
+              "coverage": [
+                "Occupied Bed",
+                "Unoccupied Bed"
+              ],
+              "path": [
+                "Foundation of Nursing",
+                "Simple Bed Making"
+              ]
+            },
+            {
+              "topic_id": "GNS112_U4_T3",
+              "order": 3,
+              "title": "Special Bed Making",
+              "topic_type": "procedure",
+              "coverage": [
+                "Admission Bed",
+                "Operation Bed",
+                "Cardiac Bed"
+              ],
+              "path": [
+                "Foundation of Nursing",
+                "Special Bed Making"
+              ]
+            },
+            {
+              "topic_id": "GNS112_U4_T4",
+              "order": 4,
+              "title": "Use of Bed Accessories",
+              "topic_type": "procedure",
+              "coverage": [
+                "Cradle",
+                "Air Ring"
+              ],
+              "path": [
+                "Foundation of Nursing",
+                "Use of Bed Accessories"
+              ]
+            },
+            {
+              "topic_id": "GNS112_U4_T5",
+              "order": 5,
+              "title": "Body Support and Posture",
+              "topic_type": "procedure",
+              "path": [
+                "Foundation of Nursing",
+                "Body Support and Posture"
+              ]
+            },
+            {
+              "topic_id": "GNS112_U4_T6",
+              "order": 6,
+              "title": "Methods of Lifting Patients",
+              "topic_type": "procedure",
+              "path": [
+                "Foundation of Nursing",
+                "Methods of Lifting Patients"
+              ]
+            },
+            {
+              "topic_id": "GNS112_U4_T7",
+              "order": 7,
+              "title": "Safety Measures",
+              "topic_type": "concept",
+              "path": [
+                "Foundation of Nursing",
+                "Safety Measures"
+              ]
+            },
+            {
+              "topic_id": "GNS112_U4_T8",
+              "order": 8,
+              "title": "Positions Used in Nursing",
+              "topic_type": "procedure",
+              "path": [
+                "Foundation of Nursing",
+                "Positions Used in Nursing"
+              ]
+            },
+            {
+              "topic_id": "GNS112_U4_T9",
+              "order": 9,
+              "title": "Nurses Responsibilities in Promoting Rest and Sleep",
+              "topic_type": "concept",
+              "path": [
+                "Foundation of Nursing",
+                "Nurses Responsibilities in Promoting Rest and Sleep"
+              ]
+            }
+          ]
+        },
+        {
+          "unit_id": "GNS112_U5",
+          "unit_number": 5,
+          "unit_name": "Basic Client/Patient Care",
+          "topics": [
+            {
+              "topic_id": "GNS112_U5_T1",
+              "order": 1,
+              "title": "Personal Hygiene",
+              "topic_type": "procedure",
+              "path": [
+                "Foundation of Nursing",
+                "Personal Hygiene"
+              ]
+            },
+            {
+              "topic_id": "GNS112_U5_T2",
+              "order": 2,
+              "title": "Bathing",
+              "topic_type": "procedure",
+              "coverage": [
+                "Adults",
+                "Children",
+                "Babies"
+              ],
+              "path": [
+                "Foundation of Nursing",
+                "Bathing"
+              ]
+            },
+            {
+              "topic_id": "GNS112_U5_T3",
+              "order": 3,
+              "title": "Oral Hygiene",
+              "topic_type": "procedure",
+              "path": [
+                "Foundation of Nursing",
+                "Oral Hygiene"
+              ]
+            },
+            {
+              "topic_id": "GNS112_U5_T4",
+              "order": 4,
+              "title": "Care of the Nails",
+              "topic_type": "procedure",
+              "path": [
+                "Foundation of Nursing",
+                "Care of the Nails"
+              ]
+            },
+            {
+              "topic_id": "GNS112_U5_T5",
+              "order": 5,
+              "title": "Hair Care",
+              "topic_type": "procedure",
+              "path": [
+                "Foundation of Nursing",
+                "Hair Care"
+              ]
+            },
+            {
+              "topic_id": "GNS112_U5_T6",
+              "order": 6,
+              "title": "Pressure Sore",
+              "topic_type": "disease",
+              "coverage": [
+                "Pressure Points",
+                "Causes",
+                "Treatment",
+                "Prevention"
+              ],
+              "path": [
+                "Foundation of Nursing",
+                "Pressure Sore"
+              ]
+            },
+            {
+              "topic_id": "GNS112_U5_T7",
+              "order": 7,
+              "title": "Oral Feeding",
+              "topic_type": "procedure",
+              "path": [
+                "Foundation of Nursing",
+                "Oral Feeding"
+              ]
+            },
+            {
+              "topic_id": "GNS112_U5_T8",
+              "order": 8,
+              "title": "Providing Means of Elimination",
+              "topic_type": "procedure",
+              "coverage": [
+                "Bedpans",
+                "Urinals",
+                "Diapers",
+                "Nappy Care",
+                "Precautionary Measures"
+              ],
+              "path": [
+                "Foundation of Nursing",
+                "Providing Means of Elimination"
+              ]
+            },
+            {
+              "topic_id": "GNS112_U5_T9",
+              "order": 9,
+              "title": "Environmental Hygiene",
+              "topic_type": "concept",
+              "path": [
+                "Foundation of Nursing",
+                "Environmental Hygiene"
+              ]
+            },
+            {
+              "topic_id": "GNS112_U5_T10",
+              "order": 10,
+              "title": "Principles of Community-Centred Care with Emphasis on Comprehensive Health Care",
+              "topic_type": "concept",
+              "path": [
+                "Foundation of Nursing",
+                "Principles of Community-Centred Care with Emphasis on Comprehensive Health Care"
+              ]
+            },
+            {
+              "topic_id": "GNS112_U5_T11",
+              "order": 11,
+              "title": "Standard Precautions",
+              "topic_type": "concept",
+              "path": [
+                "Foundation of Nursing",
+                "Standard Precautions"
+              ]
+            }
+          ]
+        },
+        {
+          "unit_id": "GNS112_U6",
+          "unit_number": 6,
+          "unit_name": "Diagnostic Measures",
+          "topics": [
+            {
+              "topic_id": "GNS112_U6_T1",
+              "order": 1,
+              "title": "Introduction to General Examination of the Patient (Head-to-Toe)",
+              "topic_type": "procedure",
+              "path": [
+                "Foundation of Nursing",
+                "Introduction to General Examination of the Patient (Head-to-Toe)"
+              ]
+            },
+            {
+              "topic_id": "GNS112_U6_T2",
+              "order": 2,
+              "title": "Vital Signs and Apex Beat",
+              "topic_type": "diagnostic",
+              "path": [
+                "Foundation of Nursing",
+                "Vital Signs and Apex Beat"
+              ]
+            },
+            {
+              "topic_id": "GNS112_U6_T3",
+              "order": 3,
+              "title": "Observation and Recording of Height, Weight and Anthropometric Measures",
+              "topic_type": "diagnostic",
+              "path": [
+                "Foundation of Nursing",
+                "Observation and Recording of Height, Weight and Anthropometric Measures"
+              ]
+            },
+            {
+              "topic_id": "GNS112_U6_T4",
+              "order": 4,
+              "title": "Collection and Observation of Specimens",
+              "topic_type": "diagnostic",
+              "coverage": [
+                "Sputum",
+                "Vomitus",
+                "Urine",
+                "Stool",
+                "Precautionary Measures"
+              ],
+              "path": [
+                "Foundation of Nursing",
+                "Collection and Observation of Specimens"
+              ]
+            }
+          ]
+        },
+        {
+          "unit_id": "GNS112_U7",
+          "unit_number": 7,
+          "unit_name": "First Aid",
+          "topics": [
+            {
+              "topic_id": "GNS112_U7_T1",
+              "order": 1,
+              "title": "Asphyxia",
+              "topic_type": "disease",
+              "path": [
+                "Foundation of Nursing",
+                "Asphyxia"
+              ]
+            },
+            {
+              "topic_id": "GNS112_U7_T2",
+              "order": 2,
+              "title": "Haemorrhage",
+              "topic_type": "disease",
+              "path": [
+                "Foundation of Nursing",
+                "Haemorrhage"
+              ]
+            },
+            {
+              "topic_id": "GNS112_U7_T3",
+              "order": 3,
+              "title": "Shock",
+              "topic_type": "disease",
+              "path": [
+                "Foundation of Nursing",
+                "Shock"
+              ]
+            },
+            {
+              "topic_id": "GNS112_U7_T4",
+              "order": 4,
+              "title": "Fractures",
+              "topic_type": "disease",
+              "path": [
+                "Foundation of Nursing",
+                "Fractures"
+              ]
+            },
+            {
+              "topic_id": "GNS112_U7_T5",
+              "order": 5,
+              "title": "Poisoning",
+              "topic_type": "disease",
+              "path": [
+                "Foundation of Nursing",
+                "Poisoning"
+              ]
+            },
+            {
+              "topic_id": "GNS112_U7_T6",
+              "order": 6,
+              "title": "Bites and Stings",
+              "topic_type": "disease",
+              "path": [
+                "Foundation of Nursing",
+                "Bites and Stings"
+              ]
+            },
+            {
+              "topic_id": "GNS112_U7_T7",
+              "order": 7,
+              "title": "Principles of Emergency Management",
+              "topic_type": "procedure",
+              "path": [
+                "Foundation of Nursing",
+                "Principles of Emergency Management"
+              ]
+            },
+            {
+              "topic_id": "GNS112_U7_T8",
+              "order": 8,
+              "title": "Priorities of Emergency Management",
+              "topic_type": "procedure",
+              "path": [
+                "Foundation of Nursing",
+                "Priorities of Emergency Management"
+              ]
+            },
+            {
+              "topic_id": "GNS112_U7_T9",
+              "order": 9,
+              "title": "Psychological Management of Casualties and Families in an Emergency Situation",
+              "topic_type": "procedure",
+              "path": [
+                "Foundation of Nursing",
+                "Psychological Management of Casualties and Families in an Emergency Situation"
+              ]
+            },
+            {
+              "topic_id": "GNS112_U7_T10",
+              "order": 10,
+              "title": "Transportation of Casualty for Further Management",
+              "topic_type": "procedure",
+              "path": [
+                "Foundation of Nursing",
+                "Transportation of Casualty for Further Management"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "course_id": "GNS113",
+      "course_name": "Introduction to Nursing Informatics",
+      "priority": "medium",
+      "group": "Professional",
+      "units": [
+        {
+          "unit_id": "GNS113_U1",
+          "unit_number": 1,
+          "unit_name": "Introduction to Nursing Informatics",
+          "topics": [
+            {
+              "topic_id": "GNS113_U1_T1",
+              "order": 1,
+              "title": "Definition and Concept of Nursing Informatics",
+              "topic_type": "concept",
+              "path": [
+                "Nursing Informatics",
+                "Definition and Concept of Nursing Informatics"
+              ]
+            },
+            {
+              "topic_id": "GNS113_U1_T2",
+              "order": 2,
+              "title": "Types of Nursing Informatics",
+              "topic_type": "concept",
+              "path": [
+                "Nursing Informatics",
+                "Types of Nursing Informatics"
+              ]
+            },
+            {
