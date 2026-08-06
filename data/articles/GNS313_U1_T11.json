@@ -12,37 +12,37 @@
       "heading_id": "GNS313_U1_T11_h1",
       "order": 1,
       "title": "Introduction to Incidence in Epidemiology",
-      "content": "Epidemiology relies heavily on measuring how diseases spread and occur within populations. At the heart of infectious disease tracking and chronic illness study is the concept of **incidence**. Incidence helps healthcare workers and researchers see the speed at which new health events appear in a group of people who were previously free of that condition. Without this measure, public health planners would struggle to know if an outbreak is growing, shrinking, or staying the same."
+      "content": "Epidemiology relies heavily on measuring how often diseases occur in a population. Incidence represents the rate of new health events in a defined group over a specific time frame. Tracking these new cases helps public health nurses detect outbreaks early, allocate scarce medical resources efficiently, and evaluate whether prevention programs are working. Without tracking incidence, health systems would struggle to notice when a disease is spreading rapidly through a community."
     },
     {
       "heading_id": "GNS313_U1_T11_h2",
       "order": 2,
       "title": "Definition and Mathematical Formula of Incidence",
-      "content": "To calculate incidence, epidemiologists set up a fraction containing a numerator and a denominator. The **numerator** represents the number of new cases of a specific disease identified during a given time period. The **denominator** includes only the individuals who are at risk of developing that disease—meaning they do not already have the condition and possess the organs or biological susceptibility to contract it. \n\nMathematically, the basic formula is:\n\n$$\\text{Incidence} = \\left( \\frac{\\text{Number of new cases}}{\\text{Total population at risk}} \\right) \\times \\text{multiplier (like } 1,000 \\text{ or } 100,000\\text{)}$$"
+      "content": "Calculating incidence requires two main numbers: the count of new cases and the size of the population at risk during a specific period. Anyone who already has the disease at the start of the observation period, or who is biologically immune, must be excluded from the denominator.\n\n- **Numerator**: Number of new cases of a specific disease during a given time period.\n- **Denominator**: Total population at risk during that same time period.\n- **Multiplier (K)**: A standard base of 10 (like 1,000 or 100,000) used to convert the resulting decimal into a readable whole number."
     },
     {
       "heading_id": "GNS313_U1_T11_h3",
       "order": 3,
       "title": "Incidence Rate vs. Prevalence",
-      "content": "Students often confuse incidence and prevalence because both measure disease frequency. However, they answer completely different questions. \n\n- **Incidence**: Measures only new cases over a specific timeframe. It acts like a movie showing the flow of new illness entering the population.\n- **Prevalence**: Measures all cases—both old and new—existing in a population at a given point in time. It acts like a snapshot showing the total burden of disease.\n\nFor example, if a chronic illness has no cure but people live with it for decades, its prevalence will be high even if the incidence remains very low."
+      "content": "Students often confuse incidence with prevalence. Incidence measures the speed at which people develop a disease, capturing dynamic change. Prevalence measures all existing cases—both old and new—at a specific point in time, showing the overall burden of disease in a community.\n\n| Feature | Incidence | Prevalence |\n| --- | --- | --- |\n| **Focus** | New cases only | All cases (new and old) |\n| **Timeframe** | Measured over a period | Measured at a single point or period |\n| **Main Use** | Studying causes and risk factors | Planning health resource allocation |"
     },
     {
       "heading_id": "GNS313_U1_T11_h4",
       "order": 4,
       "title": "Cumulative Incidence and Incidence Density",
-      "content": "- **Cumulative Incidence**: Also known as incidence proportion, this measures the risk that an individual in a population will develop a disease over a specified time period. It assumes every person in the denominator is followed for the entire duration of the study.\n- **Incidence Density**: Also called person-time incidence rate, this measures new cases in relation to the actual total time each person spent being observed and at risk. This method is especially useful when people drop out of a study early or join at different times."
+      "content": "Incidence can be expressed in two primary ways depending on how the population is followed over time.\n\n1. **Cumulative Incidence (Risk)**: The proportion of an initially disease-free population that develops the disease over a specific time period. It assumes every person is followed for the entire duration.\n2. **Incidence Density (Incidence Rate)**: Uses person-time in the denominator, accounting for individuals who are lost to follow-up, migrate, or die from other causes during the study."
     },
     {
       "heading_id": "GNS313_U1_T11_h5",
       "order": 5,
       "title": "Factors Influencing Incidence Rates",
-      "content": "Many dynamic variables can alter the incidence rate of a disease within a community. Environmental shifts, such as heavy seasonal rainfall increasing mosquito breeding sites, can drive up the incidence of malaria. Public health interventions, like mass immunization campaigns, actively work to lower the incidence of vaccine-preventable infections. Additionally, genetic susceptibilities, lifestyle modifications, and improved diagnostic testing tools can cause recorded incidence rates to rise or fall."
+      "content": "Changes in reported incidence do not always mean a disease is spreading faster. Improvements in diagnostic technology can uncover hidden cases, making incidence appear to rise. Conversely, if a disease becomes rapidly fatal or patients recover swiftly, the observed incidence can shift. Environmental conditions, population immunity levels, and public health screening campaigns also directly alter measured incidence rates in local communities."
     },
     {
       "heading_id": "GNS313_U1_T11_h6",
       "order": 6,
-      "title": "Role of Incidence in Community Health Nursing and Disease Surveillance",
-      "content": "Community health nurses use incidence data daily to protect populations. By monitoring disease registries and weekly clinic reports, nurses spot unusual spikes in illnesses like cholera or measles. This early detection triggers rapid public health responses, such as contact tracing, community health education, and isolation protocols. Tracking incidence over time also helps nurse leaders evaluate whether community programs are effectively preventing new infections."
+      "title": "Role of Incidence in Nursing and Disease Surveillance",
+      "content": "Clinical nurses and public health workers use incidence data daily. When a sudden spike in cholera or measles incidence occurs in a local government area, surveillance data triggers rapid response teams. Nurses educate communities based on these patterns, administer prophylactic treatments, and monitor vaccination coverage. Understanding incidence transforms raw hospital admission numbers into actionable preventive strategies."
     }
   ]
 }
