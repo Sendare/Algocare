@@ -11,50 +11,44 @@
     {
       "heading_id": "GNS215_U6_T14_h1",
       "order": 1,
-      "title": "Introduction to Hemostasis and Anticoagulant Therapy",
-      "content": "Hemostasis is the body's natural defense mechanism to stop bleeding through blood vessel constriction, platelet plug formation, and the coagulation cascade. When this system malfunctions, clots can form inside blood vessels where they do not belong, causing serious blockages. Anticoagulants are medications used to prevent the formation of new blood clots and stop existing clots from growing larger. They do not dissolve clots that have already formed; instead, they give the body's natural fibrinolytic system time to break down the blockage safely. Nurses must understand that these drugs alter the normal clotting time, which significantly increases the risk of bleeding complications for the patient."
+      "title": "Introduction to Anticoagulants and Hemostasis",
+      "content": "Anticoagulants are pharmacological agents used to prevent the formation of new blood clots and the extension of existing ones. They do not dissolve existing clots; rather, they interrupt the clotting cascade to halt further thrombus development. Normal hemostasis involves a delicate balance between bleeding and clotting, mediated by platelets, the vascular endothelium, and clotting factors. When a blood vessel is injured, primary hemostasis forms a weak platelet plug, while secondary hemostasis activates the coagulation cascade to convert soluble fibrinogen into insoluble fibrin, stabilizing the clot. Anticoagulants intervene at various specific steps within this secondary cascade."
     },
     {
       "heading_id": "GNS215_U6_T14_h2",
       "order": 2,
-      "title": "Classification and Mechanisms of Action",
-      "content": "Anticoagulants are broadly classified based on how they interrupt the coagulation cascade. Understanding these distinct pathways helps nurses anticipate monitoring needs and manage drug interactions effectively.\n\n- **Heparins**: Work primarily by activating antithrombin III, which neutralizes thrombin and factor Xa to halt clot formation quickly.\n- **Vitamin K Antagonists**: Inhibit the liver's synthesis of vitamin K-dependent clotting factors, which include factors II, VII, IX, and X.\n- **Direct Oral Anticoagulants**: Target specific single steps in the clotting cascade, inhibiting either free thrombin or factor Xa directly without needing antithrombin."
+      "title": "Unfractionated Heparin and Low Molecular Weight Heparins",
+      "content": "Heparins are injectable anticoagulants frequently used in acute hospital settings. \n\n- **Unfractionated Heparin (UFH)**: A high-molecular-weight agent administered via intravenous infusion or subcutaneous injection. It binds to antithrombin III, inactivating thrombin (Factor IIa) and Factor Xa. It requires frequent laboratory monitoring using the Activated Partial Thromboplastin Time (aPTT).\n- **Low Molecular Weight Heparins (LMWH)**: Examples include enoxaparin and dalteparin. Administered subcutaneously based on patient weight, these agents have a more predictable pharmacokinetic profile than UFH and primarily target Factor Xa, generally eliminating the need for routine aPTT monitoring."
     },
     {
       "heading_id": "GNS215_U6_T14_h3",
       "order": 3,
-      "title": "Unfractionated Heparin and Low Molecular Weight Heparins",
-      "content": "Parenteral anticoagulants include unfractionated heparin (UFH) and low molecular weight heparins (LMWH) like enoxaparin. Unfractionated heparin has a large molecular size and unpredictable pharmacokinetic profile, requiring frequent blood tests like the activated partial thromboplastin time (aPTT) to guide dosing. It can be given intravenously or subcutaneously. In contrast, low molecular weight heparins have shorter chains, offering a more predictable response and higher bioavailability after subcutaneous injection. LMWH rarely requires routine laboratory monitoring in standard patients, making it convenient for outpatient treatment. A notable adverse effect associated with both types is heparin-induced thrombocytopenia, an immune-mediated reaction causing a dangerous drop in platelet count accompanied by paradoxical clotting."
+      "title": "Vitamin K Antagonists: Warfarin and Management",
+      "content": "Warfarin remains the most widely used oral vitamin K antagonist, particularly in resource-limited settings due to its low cost. It inhibits the vitamin K epoxide reductase enzyme, preventing the hepatic synthesis of vitamin K-dependent clotting factors (II, VII, IX, and X). Because existing clotting factors must be depleted naturally, warfarin takes several days to achieve a full therapeutic effect. Therapy is monitored using the **International Normalized Ratio (INR)** to standardize prothrombin time results across different laboratories. Dietary consistency regarding vitamin K-rich foods like dark green leafy vegetables is vital for maintaining stable INR levels."
     },
     {
       "heading_id": "GNS215_U6_T14_h4",
       "order": 4,
-      "title": "Vitamin K Antagonists: Warfarin Management",
-      "content": "Warfarin remains a cornerstone oral anticoagulant, especially for patients with mechanical heart valves. Its effect is measured using the International Normalized Ratio (INR), which standardizes prothrombin time results across different laboratories. The therapeutic INR range for most indications is between 2.0 and 3.0. Managing warfarin requires strict attention to diet and drug interactions because foods rich in vitamin K, such as green leafy vegetables, can decrease the drug's effectiveness. Conversely, many antibiotics and other medications can enhance warfarin's effect, raising the patient's bleeding risk. Patient consistency in diet and medication timing is critical for maintaining stable INR levels."
+      "title": "Direct Oral Anticoagulants (DOACs)",
+      "content": "Direct oral anticoagulants (DOACs) offer a modern alternative to warfarin with fixed dosing regimens and no requirement for routine coagulation monitoring. \n\n| Drug Category | Specific Examples | Primary Target |\n|---|---|---|\n| Direct Thrombin Inhibitors | Dabigatran | Factor IIa (Thrombin) |\n| Direct Factor Xa Inhibitors | Rivaroxaban, Apixaban | Factor Xa |\n\nThese drugs have a rapid onset and offset of action. However, their short half-lives mean that missed doses can quickly leave the patient unprotected against thromboembolism."
     },
     {
       "heading_id": "GNS215_U6_T14_h5",
       "order": 5,
-      "title": "Direct Oral Anticoagulants (DOACs)",
-      "content": "Direct oral anticoagulants include factor Xa inhibitors like rivaroxaban and apixaban, and direct thrombin inhibitors like dabigatran. These medications offer distinct advantages over warfarin, including rapid onset of action, fixed dosing, and no requirement for routine coagulation monitoring. Because they do not require regular blood tests, patient convenience is greatly improved. However, renal function must be assessed before starting DOAC therapy, as many of these drugs rely heavily on renal clearance. Nurses must emphasize strict adherence, as DOACs have relatively short half-lives, meaning a missed dose can rapidly leave the patient unprotected against clot formation."
+      "title": "Indications and Clinical Uses in Nursing Practice",
+      "content": "Anticoagulants are prescribed for the primary and secondary prevention of thromboembolic disorders. Common clinical indications include atrial fibrillation to prevent cardioembolic stroke, deep vein thrombosis (DVT), pulmonary embolism (PE), and mechanical heart valve replacement. Nurses must understand these indications to correlate them with baseline assessments and evaluate therapy effectiveness. For instance, a patient with atrial fibrillation requires long-term anticoagulation to prevent blood stasis in the atria from forming emboli that travel to the cerebral circulation."
     },
     {
       "heading_id": "GNS215_U6_T14_h6",
       "order": 6,
-      "title": "Indications and Clinical Uses in Nursing Practice",
-      "content": "Anticoagulants are prescribed for both the prevention and treatment of thromboembolic disorders. Common clinical indications include atrial fibrillation, where sluggish blood flow in the atria can form clots that travel to the brain and cause a stroke. They are also vital for treating deep vein thrombosis and pulmonary embolism. Following orthopedic surgeries like knee or hip replacements, patients receive short-term prophylaxis to prevent debilitating clots in the lower extremities. Nurses assess patients for these underlying conditions and ensure prophylactic protocols are initiated promptly after high-risk procedures."
+      "title": "Monitoring Parameters and Reversal Agents",
+      "content": "Managing bleeding complications requires prompt identification of abnormal lab values and the administration of specific reversal agents when severe hemorrhage occurs.\n\n- **Protamine Sulfate**: Neutralizes unfractionated heparin and LMWH.\n- **Vitamin K and Fresh Frozen Plasma (FFP)**: Used to reverse the effects of warfarin by restoring clotting factors.\n- **Idarucizumab**: Specific monoclonal antibody fragment that reverses dabigatran.\n- **Andexanet Alfa**: Reversal agent for direct Factor Xa inhibitors like rivaroxaban and apixaban.\n\nNurses must monitor baseline renal and liver function tests, as impaired clearance can lead to drug accumulation and heightened bleeding risks."
     },
     {
       "heading_id": "GNS215_U6_T14_h7",
       "order": 7,
-      "title": "Monitoring Parameters and Reversal Agents",
-      "content": "Because anticoagulants interfere with normal hemostasis, bleeding is the most common and dangerous adverse effect. Nurses must be vigilant in monitoring laboratory values and watching for signs of hemorrhage, such as bruising, bleeding gums, dark tarry stools, or drops in blood pressure. When severe bleeding occurs or emergency surgery is required, specific reversal agents are used to restore clotting ability quickly. Protamine sulfate reverses unfractionated heparin and LMWH. Vitamin K and fresh frozen plasma are used for warfarin toxicity, while specialized agents like idarucizumab andandexanet alfa are available for specific direct oral anticoagulants."
-    },
-    {
-      "heading_id": "GNS215_U6_T14_h8",
-      "order": 8,
-      "title": "Nursing Considerations and Patient Safety",
-      "content": "Safe administration of anticoagulants requires rigorous nursing assessment and comprehensive patient teaching. Before giving any dose, nurses must check relevant lab values, review recent vital signs, and screen for signs of active bleeding. Patient education focuses on safety precautions to prevent injury, such as using soft-bristled toothbrushes, electric razors instead of straight blades, and avoiding contact sports. Patients must also learn to recognize and report warning signs of dangerous bleeding immediately. Clear communication ensures that patients understand their medication schedule and the importance of never doubling up on missed doses."
+      "title": "Nursing Considerations, Patient Education, and Safety",
+      "content": "Safely administering anticoagulants requires rigorous nursing vigilance. Nurses must assess for signs of bleeding, including petechiae, purpura, bleeding gums, dark tarry stools, and hematuria. Patient education must emphasize lifestyle modifications to minimize trauma risks, such as using soft-bristled toothbrushes, avoiding contact sports, and wearing proper footwear. Patients must also be instructed to report unusual bruising, severe headaches, or falls immediately. Additionally, patients should avoid self-medicating with non-steroidal anti-inflammatory drugs (NSAIDs) or aspirin, which can compound bleeding risks."
     }
   ]
 }
