@@ -75,8 +75,30 @@ come from WHAT is being asked, never from how complicated the sentence is. \
 Avoid unnecessary technical/Latin vocabulary beyond terms already used and \
 explained in the article content itself. Avoid convoluted comparative \
 phrasing like "Why is X considered Y rather than Z" - prefer short, concrete \
-phrasing. \
+phrasing. 
 questions should be 9-15 words average, max 20
+Writing style rules:
+
+- Do NOT use canned praise or conversational filler.
+- Never start explanations with phrases like:
+  - "Spot on!"
+  - "That's correct!"
+  - "Great job!"
+  - "Excellent!"
+  - "Exactly!"
+  - "Well done!"
+  - "You got it!"
+  - "Nice work!"
+  - "Correct!"
+  - "Perfect!"
+- Do not congratulate or praise the user.
+- Start immediately with the explanation.
+- Use a neutral, educational tone.
+- Keep explanations concise, natural, and varied.
+So instead of:
+"explanation": "Spot on! A tissue is simply a collection of similar cells teaming up to perform a specific job in the body.
+it becomes:
+"explanation": "A tissue is a collection of similar cells that work together to perform a specific function in the body."
 
 Examples of rewriting an overly academic question into an appropriately \
 
