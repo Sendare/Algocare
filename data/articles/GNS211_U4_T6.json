@@ -12,38 +12,32 @@
     {
       "heading_id": "GNS211_U4_T6_h1",
       "order": 1,
-      "title": "Introduction to Visual Physiology and Anatomy of the Eye",
-      "content": "Sight begins when light bounces off objects in the environment and enters the eye. The outermost layer of the eye is the tough, white **sclera**, which protects the inner structures. At the very front sits the clear, dome-shaped **cornea**, responsible for bending incoming light rays. Just behind the cornea lies the **iris**, the colored muscle that controls the size of the central opening known as the **pupil**. Deep inside, the delicate **retina** lines the back wall, packed with specialized light-sensitive cells that translate optical images into electrical signals for the nervous system."
+      "title": "Anatomy of the Eye and Light Refraction",
+      "content": "Vision begins when light waves enter the eye and pass through transparent structures that bend, or refract, the light to focus it precisely onto the retina. The outermost layer is the **cornea**, a clear dome responsible for the majority of light refraction. Directly behind the cornea lies the **aqueous humor**, a watery fluid filling the anterior chamber. Light then passes through the **pupil**, an opening regulated by the iris, and enters the crystalline **lens**. While the cornea does the heavy lifting of bending light, the lens provides fine-tuning through a process called accommodation. Finally, the light travels through the clear **vitreous body** that fills the large posterior cavity of the eyeball before striking the light-sensitive neural layer at the back."
     },
     {
       "heading_id": "GNS211_U4_T6_h2",
       "order": 2,
-      "title": "Light Refraction and the Pathway of Light",
-      "content": "Before light can stimulate the back of the eye, it must pass through several transparent structures that bend or refract the rays. \n\n1. **Cornea**: Provides the primary fixed bending power, focusing light inward.\n2. **Aqueous humor**: Fills the anterior chamber, supplying nutrients while maintaining pressure and clarity.\n3. **Lens**: A flexible structure that fine-tunes the focus for near or distant objects.\n4. **Vitreous humor**: A clear gel filling the large rear cavity, holding the retina in place as light travels through to the back.\n\nIf any of these media are cloudy or misshapen, light rays fail to converge sharply on the retina, resulting in blurry vision."
+      "title": "Pupillary Reflex and Accommodation",
+      "content": "The eye continuously adjusts to environmental lighting and the distance of viewed objects to maintain a clear image. \n\n- **Pupillary Light Reflex**: Autonomic pathways control the iris smooth muscle. Bright light stimulates parasympathetic fibers to cause constriction (**miosis**), protecting the retina. Dim light stimulates sympathetic fibers to cause dilation (**mydriasis**), letting in more light.\n- **Accommodation**: When shifting focus from a distant object to a close one, the ciliary muscles contract. This relieves tension on the suspensory ligaments, allowing the elastic lens to thicken and increase its refractive power for near vision."
     },
     {
       "heading_id": "GNS211_U4_T6_h3",
       "order": 3,
-      "title": "Pupillary Reflex and Accommodation",
-      "content": "The eye constantly adjusts to changing light levels and viewing distances through automatic reflexes. The **pupillary light reflex** protects delicate retinal cells by constricting the pupil in bright light and dilating it in dim light. Meanwhile, **accommodation** is the process where the eye changes the shape of the lens to keep objects in sharp focus. When viewing something close up, the ciliary muscles contract, causing the lens to bulge. When looking far away, those muscles relax, pulling the lens into a flatter shape."
+      "title": "Phototransduction in Rods and Cones",
+      "content": "Phototransduction is the conversion of physical light energy into electrical signals within the retina. This process takes place in the specialized outer segments of photoreceptor cells:\n\n- **Rods**: Highly sensitive to low light levels, mediating black-and-white night vision (**scotopic vision**). They contain the visual pigment **rhodopsin**.\n- **Cones**: Responsible for high-acuity color vision (**photopic vision**) and function best in bright light. They are concentrated heavily in the fovea centralis.\n\nIn the dark, photoreceptors continuously release glutamate because sodium channels remain open. When light strikes rhodopsin or iodopsin, it bleaches the pigment, closes sodium channels, and hyperpolarizes the cell, which halts the release of inhibitory neurotransmitters and signals the downstream neurons that light has been detected."
     },
     {
       "heading_id": "GNS211_U4_T6_h4",
       "order": 4,
-      "title": "Phototransduction in the Retina: Rods and Cones",
-      "content": "Phototransduction is the molecular machinery that converts physical light into chemical and electrical language. This task falls to the photoreceptors nestled in the deep layers of the retina. \n\n- **Rods**: Highly sensitive to low light levels, enabling night and peripheral vision without picking up fine details or color.\n- **Cones**: Responsible for sharp daytime vision and rich color perception, requiring bright light to function properly.\n\nInside these cells, specialized light-absorbing pigments, such as **rhodopsin** in rods, change shape when struck by a photon. This chemical shift alters the electrical charge of the cell membrane, starting the neural message."
+      "title": "Neural Processing and the Visual Pathway",
+      "content": "Raw signals from rods and cones do not go straight to the brain; they undergo significant initial processing in the retina via **bipolar cells** and **amacrine cells** before converging on **ganglion cells**. The axons of these ganglion cells bundle together to form the **optic nerve** (cranial nerve II).\n\nAt the **optic chiasm**, nerve fibers from the nasal half of each retina cross over to the opposite side of the brain, while temporal fibers remain uncrossed. This arrangement ensures that visual information from the left visual field of both eyes is processed in the right hemisphere of the brain, and vice versa. The pathway continues through the optic tracts to the lateral geniculate nucleus of the thalamus, and finally via optic radiations to the primary visual cortex in the occipital lobe."
     },
     {
       "heading_id": "GNS211_U4_T6_h5",
       "order": 5,
-      "title": "Neural Processing and the Visual Pathway to the Brain",
-      "content": "Once photoreceptors generate an electrical signal, it passes through bipolar and ganglion cells in the retina before traveling onward. The axons of the ganglion cells bundle together to form the **optic nerve**, exiting the eye at the optic disc. These two optic nerves meet and partially cross over at the **optic chiasm**, ensuring that visual information from each eye reaches both hemispheres of the brain. The signals then travel along the optic tracts to the thalamus and finally land in the **occipital lobe**, where the brain interprets the final image."
-    },
-    {
-      "heading_id": "GNS211_U4_T6_h6",
-      "order": 6,
       "title": "Visual Adaptation and Color Vision",
-      "content": "The visual system easily adjusts to extreme changes in illumination through **adaptation**. **Dark adaptation** occurs slowly over twenty to thirty minutes as rod pigments regenerate after entering a dark space. **Light adaptation** happens much faster, taking only seconds as the eye is suddenly flooded with photons. Meanwhile, color vision relies on three distinct types of cones sensitive to red, green, or blue wavelengths of light. The brain compares the firing rates of these three cone populations to create the full spectrum of colors we experience daily."
+      "content": "The visual system adjusts dynamically to drastic changes in illumination and distinguishes a vast spectrum of hues through specialized physiological mechanisms.\n\n- **Dark Adaptation**: When moving from bright sunlight to a dark room, retinal sensitivity increases gradually over 20 to 30 minutes as rhodopsin stores regenerate in the rods.\n- **Light Adaptation**: Entering a bright area causes a rapid, temporary glare until excess photopigments bleach out and sensitivity decreases.\n- **Color Vision**: Human trichromatic color vision relies on three distinct populations of cones containing photopigments sensitive to short (blue), medium (green), and long (red) wavelengths of light. The brain interprets color by comparing the relative stimulation rates across these three cone types."
     }
   ]
 }
