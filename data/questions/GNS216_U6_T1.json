@@ -5,15 +5,15 @@
     "article_id": "GNS216_U6_T1",
     "topic_id": "GNS216_U6_T1",
     "difficulty": "recall",
-    "question": "Which immune cells are the main targets for HIV?",
+    "question": "What specific immune cells does the human immunodeficiency virus primarily target?",
     "options": {
-      "A": "Red blood cells",
-      "B": "Platelets",
-      "C": "CD4+ T cells",
-      "D": "Neutrophils"
+      "A": "Platelets",
+      "B": "Neutrophils",
+      "C": "Red blood cells",
+      "D": "CD4+ T lymphocytes"
     },
-    "answer": "C",
-    "explanation": "HIV specifically targets and weakens CD4+ T cells. You've got this! [learn more](GNS216_U6_T1#GNS216_U6_T1_h1)"
+    "answer": "D",
+    "explanation": "HIV specifically binds to and destroys CD4+ T cells, which coordinates the body's immune response against pathogens. [learn more](GNS216_U6_T1#GNS216_U6_T1_h1)"
   },
   {
     "question_id": "GNS216_U6_T1_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GNS216_U6_T1",
     "topic_id": "GNS216_U6_T1",
     "difficulty": "understanding",
-    "question": "What is the main difference between HIV and AIDS?",
+    "question": "When is an HIV-positive patient officially diagnosed with AIDS?",
     "options": {
-      "A": "HIV only affects children, while AIDS affects adults.",
-      "B": "AIDS is curable, whereas HIV infection remains lifelong.",
-      "C": "AIDS is the advanced stage of HIV infection marked by severe immune damage.",
-      "D": "HIV is sexually transmitted, while AIDS is contracted through blood only."
+      "A": "Immediately after the initial laboratory test confirms infection",
+      "B": "When antibodies completely disappear from the bloodstream",
+      "C": "After experiencing a common cold or mild fever",
+      "D": "When the CD4 count falls below 200 cells per microliter"
     },
-    "answer": "C",
-    "explanation": "Think of HIV as the virus, and AIDS as the advanced stage when the immune system gets very weak. Keep pushing! [learn more](GNS216_U6_T1#GNS216_U6_T1_h1)"
+    "answer": "D",
+    "explanation": "A CD4 count dropping below 200 cells per microliter or the appearance of an AIDS-defining illness marks the transition to AIDS. [learn more](GNS216_U6_T1#GNS216_U6_T1_h1)"
   },
   {
     "question_id": "GNS216_U6_T1_h2_q1",
@@ -37,31 +37,31 @@
     "article_id": "GNS216_U6_T1",
     "topic_id": "GNS216_U6_T1",
     "difficulty": "recall",
-    "question": "Which viral enzyme helps convert HIV's single-stranded RNA into double-stranded DNA?",
+    "question": "Which viral enzyme converts single-stranded viral RNA into double-stranded DNA?",
     "options": {
       "A": "Integrase",
-      "B": "Amylase",
-      "C": "Reverse transcriptase",
-      "D": "Protease"
+      "B": "Reverse transcriptase",
+      "C": "Protease",
+      "D": "Amylase"
     },
-    "answer": "C",
-    "explanation": "Reverse transcriptase is the clever enzyme HIV uses to turn its RNA into DNA inside the host cell. [learn more](GNS216_U6_T1#GNS216_U6_T1_h2)"
+    "answer": "B",
+    "explanation": "Reverse transcriptase is the crucial enzyme HIV uses to translate its genetic code into a form the host cell can read. [learn more](GNS216_U6_T1#GNS216_U6_T1_h2)"
   },
   {
     "question_id": "GNS216_U6_T1_h2_q2",
     "heading_id": "GNS216_U6_T1_h2",
     "article_id": "GNS216_U6_T1",
     "topic_id": "GNS216_U6_T1",
-    "difficulty": "understanding",
-    "question": "What does the integrase enzyme do in the HIV life cycle?",
+    "difficulty": "application",
+    "question": "A drug designed to block gp120 from binding to coreceptors interferes with which phase?",
     "options": {
-      "A": "It destroys circulating antibodies produced by B cells.",
-      "B": "It manufactures new outer coats for budding virus particles.",
-      "C": "It breaks down the outer cell wall of the host lymphocyte.",
-      "D": "It inserts viral DNA into the host cell's genetic material."
+      "A": "Integration",
+      "B": "Reverse transcription",
+      "C": "Attachment and entry",
+      "D": "Budding"
     },
-    "answer": "D",
-    "explanation": "Integrase acts like molecular glue, pasting the copied viral DNA right into the human host cell's DNA. [learn more](GNS216_U6_T1#GNS216_U6_T1_h2)"
+    "answer": "C",
+    "explanation": "Binding of gp120 to host cell receptors marks the initial attachment and entry phase of the viral lifecycle. [learn more](GNS216_U6_T1#GNS216_U6_T1_h2)"
   },
   {
     "question_id": "GNS216_U6_T1_h3_q1",
@@ -69,31 +69,31 @@
     "article_id": "GNS216_U6_T1",
     "topic_id": "GNS216_U6_T1",
     "difficulty": "recall",
-    "question": "Which of these body fluids has a high enough viral concentration to transmit HIV?",
+    "question": "Which body fluid has the highest concentration of HIV capable of transmission?",
     "options": {
-      "A": "Saliva",
-      "B": "Breast milk",
+      "A": "Sweat",
+      "B": "Blood",
       "C": "Tears",
-      "D": "Sweat"
+      "D": "Saliva"
     },
     "answer": "B",
-    "explanation": "Breast milk can transmit HIV, unlike casual contact fluids like sweat, tears, or saliva. Great job! [learn more](GNS216_U6_T1#GNS216_U6_T1_h3)"
+    "explanation": "Blood, semen, and vaginal fluids contain high viral loads capable of establishing infection in an unexposed host. [learn more](GNS216_U6_T1#GNS216_U6_T1_h3)"
   },
   {
     "question_id": "GNS216_U6_T1_h3_q2",
     "heading_id": "GNS216_U6_T1_h3",
     "article_id": "GNS216_U6_T1",
     "topic_id": "GNS216_U6_T1",
-    "difficulty": "application",
-    "question": "Which everyday or routine activity carries a real risk of transmitting HIV?",
+    "difficulty": "understanding",
+    "question": "How can an HIV-positive mother transmit the virus to her infant?",
     "options": {
-      "A": "Sharing eating utensils and drinking cups at a family dinner",
-      "B": "Sharing intravenous drug injection needles with an infected person",
-      "C": "Receiving a hug or handshake from an infected coworker",
-      "D": "Swimming in the same public pool as a person with HIV"
+      "A": "By sharing eating utensils at home",
+      "B": "During pregnancy, delivery, or breastfeeding",
+      "C": "Through routine childhood immunizations",
+      "D": "Through casual daily touching and holding"
     },
     "answer": "B",
-    "explanation": "HIV spreads through direct blood-to-blood contact, such as sharing needles. Casual contact like hugging or sharing spoons is completely safe! [learn more](GNS216_U6_T1#GNS216_U6_T1_h3)"
+    "explanation": "Mother-to-child transmission happens across the placenta, during birth exposure, or through breast milk ingestion. [learn more](GNS216_U6_T1#GNS216_U6_T1_h3)"
   },
   {
     "question_id": "GNS216_U6_T1_h4_q1",
@@ -101,15 +101,15 @@
     "article_id": "GNS216_U6_T1",
     "topic_id": "GNS216_U6_T1",
     "difficulty": "recall",
-    "question": "During which early stage of HIV do patients often experience flu-like symptoms and a high viral load?",
+    "question": "What is the primary characteristic of the clinical latency stage of HIV?",
     "options": {
-      "A": "AIDS stage",
-      "B": "Acute HIV infection",
-      "C": "Remission phase",
-      "D": "Clinical latency"
+      "A": "Sudden and permanent recovery of CD4 counts",
+      "B": "Low-level viral replication and often no symptoms",
+      "C": "Rapid onset of multiple opportunistic cancers",
+      "D": "Complete absence of the virus in the bloodstream"
     },
     "answer": "B",
-    "explanation": "Right after exposure, the acute stage hits with lots of virus replication and mild flu-like signs. You're learning fast! [learn more](GNS216_U6_T1#GNS216_U6_T1_h4)"
+    "explanation": "During clinical latency, the virus remains active at low levels, and patients often feel healthy despite ongoing immune damage. [learn more](GNS216_U6_T1#GNS216_U6_T1_h4)"
   },
   {
     "question_id": "GNS216_U6_T1_h4_q2",
@@ -117,15 +117,15 @@
     "article_id": "GNS216_U6_T1",
     "topic_id": "GNS216_U6_T1",
     "difficulty": "understanding",
-    "question": "Which lab result tells us an HIV-positive patient has progressed to AIDS?",
+    "question": "When do acute flu-like symptoms typically appear after initial exposure to HIV?",
     "options": {
-      "A": "A permanent drop in blood pressure below 90/60",
-      "B": "The complete absence of antibodies in the blood",
-      "C": "A CD4 cell count dropping below 200 cells/mm³",
-      "D": "The sudden development of seasonal allergies"
+      "A": "6 to 12 months",
+      "B": "5 to 10 years",
+      "C": "2 to 4 weeks",
+      "D": "Within 24 hours"
     },
     "answer": "C",
-    "explanation": "When CD4 cells fall under 200, it marks the clinical threshold for an AIDS diagnosis. [learn more](GNS216_U6_T1#GNS216_U6_T1_h4)"
+    "explanation": "The acute seroconversion illness typically manifests a few weeks after the initial viral entry into the body. [learn more](GNS216_U6_T1#GNS216_U6_T1_h4)"
   },
   {
     "question_id": "GNS216_U6_T1_h5_q1",
@@ -133,15 +133,15 @@
     "article_id": "GNS216_U6_T1",
     "topic_id": "GNS216_U6_T1",
     "difficulty": "recall",
-    "question": "What common fungal mouth infection often pops up when an HIV patient's immune system drops?",
+    "question": "Which finding is a common sign of acute HIV infection?",
     "options": {
-      "A": "Oral candidiasis (thrush)",
-      "B": "Salivary gland stones",
-      "C": "Gingival hyperplasia",
-      "D": "Dental caries"
+      "A": "Paralysis of the lower limbs",
+      "B": "Yellowing of the fingernails",
+      "C": "Fever and swollen lymph nodes",
+      "D": "Sudden bone fractures"
     },
-    "answer": "A",
-    "explanation": "Oral candidiasis (thrush) loves to appear in the mouth when immune defenses are low. Easy spot! [learn more](GNS216_U6_T1#GNS216_U6_T1_h5)"
+    "answer": "C",
+    "explanation": "Fever, fatigue, and lymphadenopathy mimic standard viral illnesses during the acute seroconversion window. [learn more](GNS216_U6_T1#GNS216_U6_T1_h5)"
   },
   {
     "question_id": "GNS216_U6_T1_h5_q2",
@@ -149,15 +149,15 @@
     "article_id": "GNS216_U6_T1",
     "topic_id": "GNS216_U6_T1",
     "difficulty": "understanding",
-    "question": "Why do patients with advanced HIV catch unusual bugs like Pneumocystis pneumonia?",
+    "question": "What does the development of opportunistic infections in an HIV patient indicate?",
     "options": {
-      "A": "Their weakened immune systems cannot fight off normal environmental organisms.",
-      "B": "The virus directly mutates lung tissue into cancerous cells.",
-      "C": "Antiretroviral drugs cause severe respiratory tract paralysis.",
-      "D": "Red blood cells lose their ability to carry oxygen to the lungs."
+      "A": "A temporary reaction to routine vaccinations",
+      "B": "Complete elimination of the virus from blood",
+      "C": "Severe compromise of the immune system",
+      "D": "Normal CD4 counts above 500 cells"
     },
-    "answer": "A",
-    "explanation": "These are called opportunistic infections—they take advantage of a weak immune system to cause sickness. [learn more](GNS216_U6_T1#GNS216_U6_T1_h5)"
+    "answer": "C",
+    "explanation": "Opportunistic infections take advantage of a severely depleted immune system when CD4 counts are low. [learn more](GNS216_U6_T1#GNS216_U6_T1_h5)"
   },
   {
     "question_id": "GNS216_U6_T1_h6_q1",
@@ -165,15 +165,15 @@
     "article_id": "GNS216_U6_T1",
     "topic_id": "GNS216_U6_T1",
     "difficulty": "recall",
-    "question": "Which test measures the exact number of HIV particles floating in the blood?",
+    "question": "What substance does a fourth-generation HIV screening test detect alongside antibodies?",
     "options": {
-      "A": "Viral load test",
-      "B": "Basic metabolic panel",
-      "C": "Complete blood count",
-      "D": "CD4 cell count"
+      "A": "Red blood cells",
+      "B": "White blood cell count",
+      "C": "p24 antigen",
+      "D": "Hemoglobin protein"
     },
-    "answer": "A",
-    "explanation": "A viral load test counts how many copies of the virus are in the blood sample. Spot on! [learn more](GNS216_U6_T1#GNS216_U6_T1_h6)"
+    "answer": "C",
+    "explanation": "Fourth-generation assays look for the p24 viral protein, reducing the window period before detection. [learn more](GNS216_U6_T1#GNS216_U6_T1_h6)"
   },
   {
     "question_id": "GNS216_U6_T1_h6_q2",
@@ -181,15 +181,15 @@
     "article_id": "GNS216_U6_T1",
     "topic_id": "GNS216_U6_T1",
     "difficulty": "understanding",
-    "question": "Why are 4th-generation HIV tests that check for p24 antigens so helpful for early diagnosis?",
+    "question": "Why is a viral load test performed for a patient undergoing HIV treatment?",
     "options": {
-      "A": "They detect viral proteins before the body even finishes making antibodies.",
-      "B": "They require no blood drawing and use only routine urine samples.",
-      "C": "They can distinguish between HIV-1 and HIV-2 with 100% certainty instantly.",
-      "D": "They completely eliminate the need for any follow-up confirmatory testing."
+      "A": "To evaluate liver enzyme levels and general metabolic health",
+      "B": "To check if the patient is allergic to specific medications",
+      "C": "To determine the patient's exact blood type before surgery",
+      "D": "To measure the amount of viral RNA and monitor treatment effectiveness"
     },
-    "answer": "A",
-    "explanation": "Checking for antigens lets us catch the virus early, even before antibodies show up. Brilliant concept to master! [learn more](GNS216_U6_T1#GNS216_U6_T1_h6)"
+    "answer": "D",
+    "explanation": "Viral load quantification shows how well antiretroviral drugs suppress active viral replication in the blood. [learn more](GNS216_U6_T1#GNS216_U6_T1_h6)"
   },
   {
     "question_id": "GNS216_U6_T1_h7_q1",
@@ -197,15 +197,15 @@
     "article_id": "GNS216_U6_T1",
     "topic_id": "GNS216_U6_T1",
     "difficulty": "recall",
-    "question": "What is the main goal of giving Antiretroviral Therapy (ART) to someone with HIV?",
+    "question": "What is the primary goal of antiretroviral therapy for an HIV patient?",
     "options": {
-      "A": "To replace damaged CD4 cells with donor bone marrow",
-      "B": "To suppress viral replication to undetectable levels",
-      "C": "To cure opportunistic infections without antibiotics",
-      "D": "To completely eradicate the virus from every body cell"
+      "A": "Suppress viral replication to an undetectable level",
+      "B": "Boost red blood cell production in the bone marrow",
+      "C": "Cure the infection completely within one month",
+      "D": "Prevent all future bacterial respiratory infections"
     },
-    "answer": "B",
-    "explanation": "ART stops the virus from multiplying, keeping viral counts super low and protecting the immune system. [learn more](GNS216_U6_T1#GNS216_U6_T1_h7)"
+    "answer": "A",
+    "explanation": "ART suppresses viral load, halting disease progression and protecting immune function, though it does not completely eliminate latent virus. [learn more](GNS216_U6_T1#GNS216_U6_T1_h7)"
   },
   {
     "question_id": "GNS216_U6_T1_h7_q2",
@@ -213,15 +213,15 @@
     "article_id": "GNS216_U6_T1",
     "topic_id": "GNS216_U6_T1",
     "difficulty": "understanding",
-    "question": "Why must patients take their antiretroviral drugs every single day without skipping?",
+    "question": "What does the clinical concept of U=U mean in HIV management?",
     "options": {
-      "A": "The drugs degrade rapidly in the bloodstream if not replenished every hour.",
-      "B": "Missing a single pill causes immediate permanent kidney failure in all patients.",
-      "C": "Inconsistent medication intake can cause the virus to mutate and develop drug resistance.",
-      "D": "Incomplete dosing causes the body to stop producing natural white blood cells."
+      "A": "Unrestricted diet stops viral replication",
+      "B": "An undetectable viral load prevents sexual transmission",
+      "C": "Universal testing cures the disease",
+      "D": "Unprotected intercourse guarantees immunity"
     },
-    "answer": "C",
-    "explanation": "Skipping doses gives the virus a chance to fight back and build resistance against the medicine. Adherence is key! [learn more](GNS216_U6_T1#GNS216_U6_T1_h7)"
+    "answer": "B",
+    "explanation": "Undetectable equals Untransmittable means individuals with suppressed virus cannot sexually transmit HIV. [learn more](GNS216_U6_T1#GNS216_U6_T1_h7)"
   },
   {
     "question_id": "GNS216_U6_T1_h8_q1",
@@ -229,15 +229,15 @@
     "article_id": "GNS216_U6_T1",
     "topic_id": "GNS216_U6_T1",
     "difficulty": "recall",
-    "question": "What emergency medicine is given right away after a nurse accidentally pricks their finger with an HIV-contaminated needle?",
+    "question": "What is the medication strategy called that prevents HIV infection in high-risk uninfected individuals?",
     "options": {
-      "A": "Broad-spectrum antibiotic coverage",
-      "B": "Antiretroviral maintenance therapy",
-      "C": "Post-Exposure Prophylaxis (PEP)",
-      "D": "Pre-Exposure Prophylaxis (PrEP)"
+      "A": "Immune serum infusion",
+      "B": "Pre-exposure prophylaxis",
+      "C": "Post-exposure treatment",
+      "D": "Therapeutic vaccination"
     },
-    "answer": "C",
-    "explanation": "PEP is taken promptly after a potential exposure to stop the virus before it takes hold. Stay safe out there! [learn more](GNS216_U6_T1#GNS216_U6_T1_h8)"
+    "answer": "B",
+    "explanation": "PrEP involves taking daily antiretroviral medication to prevent acquiring HIV before exposure occurs. [learn more](GNS216_U6_T1#GNS216_U6_T1_h8)"
   },
   {
     "question_id": "GNS216_U6_T1_h8_q2",
@@ -245,14 +245,14 @@
     "article_id": "GNS216_U6_T1",
     "topic_id": "GNS216_U6_T1",
     "difficulty": "understanding",
-    "question": "What does 'U=U' (Undetectable = Untransmittable) mean for an HIV-positive person?",
+    "question": "Which nursing action best supports long-term success in a patient taking antiretroviral therapy?",
     "options": {
-      "A": "They are completely cured and no longer carry the virus in their body.",
-      "B": "Their blood tests will no longer show any positive antibody results.",
-      "C": "They cannot sexually transmit the virus if their viral load remains suppressed.",
-      "D": "They can safely stop taking their daily medication without losing immune health."
+      "A": "Avoiding discussions about viral load test results",
+      "B": "Encouraging the patient to stop treatment once symptoms resolve",
+      "C": "Restricting all physical activity and social interactions",
+      "D": "Assessing daily medication adherence and providing adherence counseling"
     },
-    "answer": "C",
-    "explanation": "When ART keeps the viral load undetectable, the virus cannot be passed on sexually. Amazing science! [learn more](GNS216_U6_T1#GNS216_U6_T1_h8)"
+    "answer": "D",
+    "explanation": "Consistent daily adherence is vital to prevent drug resistance and maintain viral suppression. [learn more](GNS216_U6_T1#GNS216_U6_T1_h8)"
   }
 ]

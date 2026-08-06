@@ -12,50 +12,38 @@
     {
       "heading_id": "GNS216_U6_T4_h1",
       "order": 1,
-      "title": "Introduction to Antiretroviral Therapy (ART) and HIV Lifecycle",
-      "content": "Human Immunodeficiency Virus, commonly known as **HIV**, is a retrovirus that primarily targets the body's immune system, specifically the **CD4+ T lymphocytes**. Once the virus enters a host cell, it uses an enzyme called **reverse transcriptase** to convert its viral RNA into DNA. This newly formed viral DNA then integrates into the host cell's own genetic material using the **integrase** enzyme, forcing the cell to manufacture more copies of the virus. Finally, the **protease** enzyme cuts these newly made viral proteins so they can assemble into mature, infectious viral particles.\n\nAntiretroviral Therapy, or **ART**, involves taking a combination of daily medications to block different stages of this viral replication cycle. Because HIV mutates very rapidly when exposed to a single drug, patients must take a combination of at least three drugs from different classes simultaneously. This multi-pronged approach is known as **combination antiretroviral therapy** (cART), and it prevents the virus from developing resistance to the medicines."
+      "title": "Introduction and Goals of Antiretroviral Therapy",
+      "content": "Antiretroviral therapy (ART) involves using a combination of HIV medicines to slow down the replication of the virus in the body. While ART does not cure HIV, it transforms a fatal infection into a manageable chronic condition. \n\n- **Viral Suppression**: Reducing the viral load in the blood to undetectable levels.\n- **Immune Recovery**: Preserving and rebuilding the CD4 T-cell count.\n- **Prevention**: Stopping transmission of the virus to sexual partners and from mother to child.\n- **Symptom Reduction**: Preventing opportunistic infections and AIDS-related deaths."
     },
     {
       "heading_id": "GNS216_U6_T4_h2",
       "order": 2,
-      "title": "Goals and Benefits of ART",
-      "content": "The primary clinical goal of Antiretroviral Therapy is to suppress viral replication to undetectable levels in the patient's blood. Achieving and maintaining an **undetectable viral load** protects the immune system, allowing CD4 cell counts to recover and preventing the onset of opportunistic infections that define acquired immunodeficiency syndrome (AIDS).\n\nBeyond individual health, ART offers a massive public health benefit known as **Undetectable equals Untransmittable (U=U)**. When a person living with HIV maintains a consistently suppressed viral load through proper adherence, the risk of sexually transmitting the virus to an HIV-negative partner drops to zero. Furthermore, scaling up ART prevents vertical transmission from mother to child during pregnancy, childbirth, and breastfeeding."
+      "title": "Classes of Antiretroviral Drugs and Mechanisms",
+      "content": "Antiretroviral medications are grouped into different classes based on the specific phase of the HIV life cycle they interrupt. Combining classes prevents the virus from easily developing resistance.\n\n- **Nucleoside Reverse Transcriptase Inhibitors (NRTIs)**: Act as faulty building blocks so the virus cannot copy its genetic material.\n- **Non-Nucleoside Reverse Transcriptase Inhibitors (NNRTIs)**: Bind directly to and disable the reverse transcriptase enzyme.\n- **Protease Inhibitors (PIs)**: Block the protease enzyme, stopping the virus from cutting proteins into functional shapes.\n- **Integrase Strand Transfer Inhibitors (INSTIs)**: Prevent HIV genetic material from integrating into human DNA."
     },
     {
       "heading_id": "GNS216_U6_T4_h3",
       "order": 3,
-      "title": "Classes of Antiretroviral Drugs and Their Mechanisms",
-      "content": "- **Nucleoside/Nucleotide Reverse Transcriptase Inhibitors (NRTIs)**: Act as decoy building blocks that trick the reverse transcriptase enzyme into stopping the formation of viral DNA.\n- **Non-Nucleoside Reverse Transcriptase Inhibitors (NNRTIs)**: Bind directly to the reverse transcriptase enzyme, changing its shape and blocking its ability to function.\n- **Protease Inhibitors (PIs)**: Block the protease enzyme, preventing it from cutting viral proteins into mature, working pieces.\n- **Integrase Strand Transfer Inhibitors (INSTIs)**: Stop the integrase enzyme from inserting viral DNA into the host cell's human chromosomes.\n- **Entry and Fusion Inhibitors**: Block HIV from attaching to or entering the surface of the human host cell in the first place."
+      "title": "Standard ART Regimens in Nigerian Clinical Practice",
+      "content": "National guidelines in Nigeria align with global standards to provide standardized, effective, and tolerable regimens for adults, adolescents, and children. First-line therapy typically consists of two NRTIs combined with an INSTI or an NNRTI.\n\n| Regimen Line | Typical Drug Combination | Clinical Application |\n| :--- | :--- | :--- |\n| Preferred First-Line | Tenofovir + Lamivudine + Dolutegravir | Initial treatment for most adults and adolescents |\n| Alternative First-Line | Tenofovir + Lamivudine + Efavirenz | Used when dolutegravir is contraindicated |\n| Standard Second-Line | Zidovudine + Lamivudine + Protease Inhibitor | Prescribed following first-line treatment failure |"
     },
     {
       "heading_id": "GNS216_U6_T4_h4",
       "order": 4,
-      "title": "First-Line and Second-Line ART Regimens",
-      "content": "National guidelines, such as those provided by the Federal Ministry of Health in Nigeria, dictate standardized drug combinations to ensure effective and affordable care. A standard first-line regimen for adults and adolescents starting ART typically consists of two NRTIs combined with an INSTI. A very common preferred combination is **Tenofovir disoproxil fumarate (TDF)** plus **Lamivudine (3TC)**, paired with **Dolutegravir (DTG)**.\n\nWhen a first-line regimen fails—usually confirmed by persistent viral load rebound—the healthcare team switches the patient to a **second-line regimen**. Second-line therapy swaps out the core drug class while retaining two active NRTIs, often transitioning the patient to a ritonavir-boosted protease inhibitor like **Atazanavir** or **Lopinavir**, alongside a different NRTI backbone."
+      "title": "Patient Assessment and Therapy Initiation",
+      "content": "Before initiating treatment, nurses and clinicians must conduct a thorough clinical baseline evaluation. This ensures safe drug selection and establishes markers for future monitoring.\n\nBaseline assessments include determining the WHO clinical staging, measuring CD4 cell count, checking baseline viral load where available, and screening for opportunistic infections like tuberculosis. Renal function tests are essential when prescribing tenofovir. Counseling the patient on adherence before the first pill is swallowed remains critical for long-term success."
     },
     {
       "heading_id": "GNS216_U6_T4_h5",
       "order": 5,
-      "title": "Patient Assessment and Initiation of Therapy",
-      "content": "Before initiating antiretroviral therapy, nurses and clinicians conduct a thorough baseline assessment. This evaluation includes taking a detailed medical and psychosocial history, assessing readiness for lifelong daily medication, and performing baseline laboratory investigations. Essential baseline labs include a **CD4 cell count**, a **viral load test**, renal function tests (such as serum creatinine and estimated creatinine clearance), liver function tests, and screening for co-infections like tuberculosis and viral hepatitis.\n\nCurrent guidelines recommend **same-day ART initiation** for eligible patients who are clinically stable and mentally prepared to start on the day of their HIV diagnosis. However, if a patient presents with symptoms of an opportunistic infection like cryptococcal meningitis or active tuberculosis, ART initiation is intentionally delayed to manage the acute infection first and prevent severe inflammatory complications."
+      "title": "Monitoring Efficacy and Recognizing Toxicity",
+      "content": "Ongoing monitoring ensures that the prescribed regimen suppresses the virus and remains safe for the patient.\n\nViral load testing is the gold standard for measuring treatment efficacy, typically performed six months after initiation and annually thereafter if stable. CD4 counts track immune system recovery. Nurses must remain vigilant for drug toxicities, such as peripheral neuropathy from certain NRTIs, rash from NNRTIs, or metabolic changes associated with protease inhibitors."
     },
     {
       "heading_id": "GNS216_U6_T4_h6",
       "order": 6,
-      "title": "Monitoring ART Efficacy and Toxicity",
-      "content": "Ongoing monitoring ensures that antiretroviral therapy remains both safe and effective throughout the patient's life. Efficacy is primarily measured using **viral load testing**, which is typically performed six months after starting ART, again at twelve months, and annually thereafter if the patient remains stable and suppressed.\n\nToxicity monitoring involves routine laboratory checks and clinical interviews to catch drug side effects early. Nurses screen for bone density loss, changes in kidney filtration rates, liver enzyme elevations, and metabolic shifts like lipid abnormalities. Catching these adverse changes early allows the clinical team to substitute problem drugs before permanent organ damage occurs."
-    },
-    {
-      "heading_id": "GNS216_U6_T4_h7",
-      "order": 7,
-      "title": "Managing Side Effects and Drug Interactions",
-      "content": "Antiretroviral drugs can cause various side effects, ranging from mild nausea and vivid dreams (often associated with Efavirenz) to more severe complications like lactic acidosis or severe rashes. Nurses play a vital role in educating patients on what side effects to expect, reassuring them that many mild symptoms subside after the first few weeks of treatment, and advising on safe symptom relief.\n\nDrug-drug interactions are another critical concern in HIV management. Many ARVs—especially non-nucleoside reverse transcriptase inhibitors and protease inhibitors—are processed by liver enzymes, leading to interactions with medications like rifampicin for tuberculosis, herbal supplements such as St. John's wort, and certain contraceptives. Thorough medication reconciliation prevents dangerous drops in ARV levels or toxic drug buildups."
-    },
-    {
-      "heading_id": "GNS216_U6_T4_h8",
-      "order": 8,
       "title": "Promoting Medication Adherence and Retention in Care",
-      "content": "Lifelong adherence—taking at least 95% of prescribed doses on time—is the single most important factor in the success of HIV treatment. Poor adherence leads to viral replication, immune decline, and the emergence of drug-resistant strains of HIV. Nurses employ various strategies to support adherence, including peer support groups, pillboxes, mobile phone reminder alarms, and appointment tracking systems.\n\nRetention in care goes beyond just taking pills; it means keeping clinic appointments and picking up refills on schedule. Community-based pharmacy refill models and multi-month dispensing of medications help reduce the travel and financial burdens on patients, making it easier to stay engaged in long-term chronic care."
+      "content": "Maintaining near-perfect adherence—typically above 95%—is required to suppress viral replication and prevent drug resistance. Nurses play a frontline role in addressing barriers to adherence.\n\nStigma, pill burden, forgetfulness, and financial constraints often hinder regular clinic attendance. Peer support groups, counseling, multi-month dispensing of drugs, and reminder alarms help patients stay engaged. When clients miss appointments, tracking systems and community health workers facilitate prompt tracing and re-engagement."
     }
   ]
 }
