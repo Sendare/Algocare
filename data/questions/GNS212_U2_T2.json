@@ -5,15 +5,15 @@
     "article_id": "GNS212_U2_T2",
     "topic_id": "GNS212_U2_T2",
     "difficulty": "recall",
-    "question": "What is the main job of an Automated External Defibrillator (AED) during a cardiac arrest?",
+    "question": "What is the main job of an Automated External Defibrillator (AED)?",
     "options": {
-      "A": "Provide mechanical chest compressions at a steady rate",
-      "B": "Pump oxygen directly into the lungs of the patient",
-      "C": "Measure the exact blood pressure of an unresponsive person",
-      "D": "Deliver an electrical shock to reset an abnormal heart rhythm"
+      "A": "Delivering a shock to restart a stopped heart",
+      "B": "Monitoring blood pressure during cardiac arrest",
+      "C": "Providing continuous mechanical chest compressions",
+      "D": "Treating chaotic heart rhythms with a controlled shock"
     },
     "answer": "D",
-    "explanation": "Think of an AED as a smart device that checks the heart rhythm and gives a quick shock only when needed to get the heart beating right again. You've got this! [learn more](GNS212_U2_T2#GNS212_U2_T2_h1)"
+    "explanation": "An AED targets lethal heart rhythms like ventricular fibrillation by delivering an electrical shock to restore a normal rhythm. [learn more](GNS212_U2_T2#GNS212_U2_T2_h1)"
   },
   {
     "question_id": "GNS212_U2_T2_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GNS212_U2_T2",
     "topic_id": "GNS212_U2_T2",
     "difficulty": "understanding",
-    "question": "Why is using an AED as quickly as possible so important during cardiac arrest?",
+    "question": "Why is it so important to use an AED quickly during sudden cardiac arrest?",
     "options": {
-      "A": "It automatically contacts the local police department for help",
-      "B": "It permanently cures any underlying heart disease causing the arrest",
-      "C": "It replaces the need to ever perform chest compressions",
-      "D": "Survival rates drop significantly with every minute that defibrillation is delayed"
+      "A": "It prevents permanent damage to the skeletal muscles",
+      "B": "Delayed treatment causes irreversible kidney failure first",
+      "C": "The battery life of the AED drains very quickly",
+      "D": "Survival rates drop rapidly with every passing minute"
     },
     "answer": "D",
-    "explanation": "Every single minute counts! Without blood flow, the brain quickly loses oxygen, so acting fast truly saves lives. [learn more](GNS212_U2_T2#GNS212_U2_T2_h1)"
+    "explanation": "Brain and heart tissue quickly die from lack of oxygen when the heart stops, making rapid intervention essential for survival. [learn more](GNS212_U2_T2#GNS212_U2_T2_h1)"
   },
   {
     "question_id": "GNS212_U2_T2_h2_q1",
@@ -37,31 +37,31 @@
     "article_id": "GNS212_U2_T2",
     "topic_id": "GNS212_U2_T2",
     "difficulty": "recall",
-    "question": "Which patient sign means you should grab and attach an AED right away?",
+    "question": "Which heart rhythms will a standard AED actually deliver a shock for?",
     "options": {
-      "A": "Severe chest pain and heavy sweating",
-      "B": "Confusion and mild shortness of breath",
-      "C": "High fever and a rapid pulse rate",
-      "D": "Unresponsiveness and no normal breathing"
+      "A": "Atrial fibrillation and sinus bradycardia",
+      "B": "Ventricular fibrillation and pulseless ventricular tachycardia",
+      "C": "Asystole and pulseless electrical activity",
+      "D": "Supraventricular tachycardia and heart block"
     },
-    "answer": "D",
-    "explanation": "An AED is meant for sudden cardiac arrest. We look for someone who has collapsed, doesn't respond, and isn't breathing normally. [learn more](GNS212_U2_T2#GNS212_U2_T2_h2)"
+    "answer": "B",
+    "explanation": "AEDs are specifically programmed to detect and treat VF and pulseless VT. [learn more](GNS212_U2_T2#GNS212_U2_T2_h2)"
   },
   {
     "question_id": "GNS212_U2_T2_h2_q2",
     "heading_id": "GNS212_U2_T2_h2",
     "article_id": "GNS212_U2_T2",
     "topic_id": "GNS212_U2_T2",
-    "difficulty": "understanding",
-    "question": "What happens if an AED is accidentally used on someone whose heart is beating normally?",
+    "difficulty": "application",
+    "question": "A patient with chest pain and a strong pulse faints briefly and wakes up. What should you do with the AED?",
     "options": {
-      "A": "The heart will instantly stop due to the excess electrical current",
-      "B": "The device will analyze the rhythm and refuse to deliver a shock",
-      "C": "The machine will automatically start delivering CPR compressions",
-      "D": "The internal battery of the device will permanently burn out"
+      "A": "Check the patient's blood pressure before opening the device",
+      "B": "Attach the AED immediately just in case the heart stops",
+      "C": "Place the adult electrode pads directly over the clothing",
+      "D": "Do NOT apply the AED pads because the patient has a pulse"
     },
-    "answer": "B",
-    "explanation": "Don't worry, AEDs are very smart! They scan the heart first and will block any shock if the heart rhythm is normal. They won't harm a healthy beat. [learn more](GNS212_U2_T2#GNS212_U2_T2_h2)"
+    "answer": "D",
+    "explanation": "An AED is only indicated when the patient is pulseless, unconscious, and not breathing normally. [learn more](GNS212_U2_T2#GNS212_U2_T2_h2)"
   },
   {
     "question_id": "GNS212_U2_T2_h3_q1",
@@ -69,15 +69,15 @@
     "article_id": "GNS212_U2_T2",
     "topic_id": "GNS212_U2_T2",
     "difficulty": "recall",
-    "question": "What is the job of the sticky adhesive pads that come with an AED?",
+    "question": "Which part of the AED actually sends the electrical current into the patient's skin?",
     "options": {
-      "A": "Secure the patient firmly to the flat floor surface",
-      "B": "Deliver a continuous supply of medical oxygen to the lungs",
-      "C": "Transmit electrical current from the machine to the patient's heart",
-      "D": "Measure the exact body temperature of the victim"
+      "A": "The voice prompt speaker",
+      "B": "The internal lithium battery",
+      "C": "The adhesive electrode pads",
+      "D": "The external plastic casing"
     },
     "answer": "C",
-    "explanation": "The pads act as the bridge. They stick to the skin to read the heart rhythm and deliver the life-saving shock safely. [learn more](GNS212_U2_T2#GNS212_U2_T2_h3)"
+    "explanation": "Electrode pads contain conductive gel and metal plates that interface directly with the skin to transmit the shock. [learn more](GNS212_U2_T2#GNS212_U2_T2_h3)"
   },
   {
     "question_id": "GNS212_U2_T2_h3_q2",
@@ -85,31 +85,31 @@
     "article_id": "GNS212_U2_T2",
     "topic_id": "GNS212_U2_T2",
     "difficulty": "understanding",
-    "question": "Why should you regularly check the status indicator light on an AED machine?",
+    "question": "What is the purpose of the voice instructions and lights on an AED?",
     "options": {
-      "A": "To calibrate the internal thermometer for accurate skin readings",
-      "B": "To measure how many shocks are left in the main computer processor",
-      "C": "To ensure the voice volume is loud enough for a noisy room",
-      "D": "To confirm that the internal battery and system components are operational"
+      "A": "Guiding the rescuer step-by-step through the resuscitation process",
+      "B": "Recording the exact time of arrival at the emergency scene",
+      "C": "Measuring the depth of chest compressions delivered by the nurse",
+      "D": "Testing the respiratory rate of the patient before pad placement"
     },
-    "answer": "D",
-    "explanation": "Routine checks make sure the machine is ready to work the exact second an emergency happens. Good nursing practice! [learn more](GNS212_U2_T2#GNS212_U2_T2_h3)"
+    "answer": "A",
+    "explanation": "Clear audio and visual instructions help reduce panic and ensure proper protocol is followed by the rescuer. [learn more](GNS212_U2_T2#GNS212_U2_T2_h3)"
   },
   {
     "question_id": "GNS212_U2_T2_h4_q1",
     "heading_id": "GNS212_U2_T2_h4",
     "article_id": "GNS212_U2_T2",
     "topic_id": "GNS212_U2_T2",
-    "difficulty": "recall",
-    "question": "Where should you place the two AED pads on an adult patient's bare chest?",
+    "difficulty": "understanding",
+    "question": "What is the very first thing you should do after the AED delivers a shock?",
     "options": {
-      "A": "Center of the chest and middle of the back",
-      "B": "Left side of the ribs and right side of the abdomen",
-      "C": "Both shoulders near the neck collarbones",
-      "D": "Upper right chest and lower left ribcage"
+      "A": "Remove the electrode pads from the skin",
+      "B": "Check the patient's pupils for light reaction",
+      "C": "Turn off the AED to save battery life",
+      "D": "Resume chest compressions and CPR"
     },
     "answer": "D",
-    "explanation": "Placing one pad on the upper right and the other on the lower left lets the electrical current flow diagonally right through the heart muscle. [learn more](GNS212_U2_T2#GNS212_U2_T2_h4)"
+    "explanation": "Current resuscitation guidelines emphasize starting chest compressions right away after a shock is delivered. [learn more](GNS212_U2_T2#GNS212_U2_T2_h4)"
   },
   {
     "question_id": "GNS212_U2_T2_h4_q2",
@@ -117,15 +117,15 @@
     "article_id": "GNS212_U2_T2",
     "topic_id": "GNS212_U2_T2",
     "difficulty": "application",
-    "question": "What is the very next thing you must do after the AED delivers a shock?",
+    "question": "A patient's chest is soaking wet with sweat during an emergency. What should you do before putting on the pads?",
     "options": {
-      "A": "Check the carotid pulse for at least one full minute",
-      "B": "Turn the machine off and wait for the ambulance crew",
-      "C": "Remove the sticky pads and wipe the skin with alcohol",
-      "D": "Resume chest compressions and CPR for two minutes"
+      "A": "Skip the AED entirely and rely solely on hand compressions",
+      "B": "Dry the chest quickly with a towel before applying pads",
+      "C": "Pour alcohol over the chest to evaporate the moisture",
+      "D": "Apply the pads directly over the water to save time"
     },
-    "answer": "D",
-    "explanation": "Right after a shock, don't wait—jump right back into CPR starting with chest compressions to keep blood moving! [learn more](GNS212_U2_T2#GNS212_U2_T2_h4)"
+    "answer": "B",
+    "explanation": "Moisture can create a conductive bridge for the electrical current, causing the shock to arc across the skin rather than passing through the heart. [learn more](GNS212_U2_T2#GNS212_U2_T2_h4)"
   },
   {
     "question_id": "GNS212_U2_T2_h5_q1",
@@ -133,31 +133,31 @@
     "article_id": "GNS212_U2_T2",
     "topic_id": "GNS212_U2_T2",
     "difficulty": "understanding",
-    "question": "How should you handle an implanted pacemaker lump when placing an AED pad?",
+    "question": "Where should you place an AED pad if the patient has a visible pacemaker lump on their chest?",
     "options": {
-      "A": "Refuse to use the AED because pacemakers block all shocks",
-      "B": "Place the pad at least one inch away from the device lump",
-      "C": "Place the pad directly over the lump to boost the shock",
-      "D": "Cut out the pacemaker wires before attaching the sticky pads"
+      "A": "On the patient's back instead of the front chest wall",
+      "B": "Directly on top of the pacemaker bulge for better contact",
+      "C": "On the upper abdomen below the lower rib cage",
+      "D": "At least one inch away from the implanted device"
     },
-    "answer": "B",
-    "explanation": "Keep the pad about an inch away from a pacemaker lump so the machine's energy goes into the heart instead of damaging the device. [learn more](GNS212_U2_T2#GNS212_U2_T2_h5)"
+    "answer": "D",
+    "explanation": "Placing pads directly over a pacemaker can block the shock delivery and damage the generator. [learn more](GNS212_U2_T2#GNS212_U2_T2_h5)"
   },
   {
     "question_id": "GNS212_U2_T2_h5_q2",
     "heading_id": "GNS212_U2_T2_h5",
     "article_id": "GNS212_U2_T2",
     "topic_id": "GNS212_U2_T2",
-    "difficulty": "recall",
-    "question": "What safety step is required if a patient experiencing cardiac arrest is lying in a puddle of water?",
+    "difficulty": "application",
+    "question": "You see a medicated patch on a patient's chest right where an AED pad needs to go. What should you do?",
     "options": {
-      "A": "Turn off all nearby electrical appliances in the room",
-      "B": "Double the number of chest compressions you deliver",
-      "C": "Move the patient to a dry area and dry the chest",
-      "D": "Place rubber mats under your own shoes while working"
+      "A": "Apply the pad to the back instead of moving the patch",
+      "B": "Ignore the patch because medications do not affect AEDs",
+      "C": "Place the AED pad directly over the transdermal patch",
+      "D": "Remove the patch wearing gloves and wipe the skin"
     },
-    "answer": "C",
-    "explanation": "Water conducts electricity. Moving the patient to dry ground and wiping their chest ensures the shock goes through the heart, not out into the water. [learn more](GNS212_U2_T2#GNS212_U2_T2_h5)"
+    "answer": "D",
+    "explanation": "Medication patches can block pad adhesion and cause skin burns or absorb chemicals improperly during a shock. [learn more](GNS212_U2_T2#GNS212_U2_T2_h5)"
   },
   {
     "question_id": "GNS212_U2_T2_h6_q1",
@@ -165,62 +165,62 @@
     "article_id": "GNS212_U2_T2",
     "topic_id": "GNS212_U2_T2",
     "difficulty": "understanding",
-    "question": "What usually causes an AED to flash a 'Check Pads' error message?",
+    "question": "What does an AED message saying 'Check Pads' usually mean?",
     "options": {
-      "A": "The patient's heart rate is too fast for the machine to read",
-      "B": "The rescuer is pressing the shock button at the wrong time",
-      "C": "Loose cable connections or moisture on the patient's skin",
-      "D": "The battery inside the computer unit is completely dead"
+      "A": "The patient has regained a normal pulse and breathing",
+      "B": "Poor contact or loose connection between the skin and pads",
+      "C": "The internal computer has experienced a fatal software error",
+      "D": "The battery charge has completely depleted during the analysis"
     },
-    "answer": "C",
-    "explanation": "If pads aren't sticking well or the skin is wet, the machine can't get a good connection. A quick dry and press usually fixes it! [learn more](GNS212_U2_T2#GNS212_U2_T2_h6)"
+    "answer": "B",
+    "explanation": "This message typically indicates air gaps under the pads, excessive hair, or a loose cable connection. [learn more](GNS212_U2_T2#GNS212_U2_T2_h6)"
   },
   {
     "question_id": "GNS212_U2_T2_h6_q2",
     "heading_id": "GNS212_U2_T2_h6",
     "article_id": "GNS212_U2_T2",
     "topic_id": "GNS212_U2_T2",
-    "difficulty": "recall",
-    "question": "What must you do immediately when the AED announces 'Movement Detected'?",
+    "difficulty": "application",
+    "question": "An infant needs a shock, but only adult AED pads are nearby. What should you do?",
     "options": {
-      "A": "Shake the patient harder to restart the heart rhythm",
-      "B": "Unplug the machine and replace both electrode pads",
-      "C": "Stop chest compressions and ensure everyone steps back",
-      "D": "Increase the speed of rescue breaths being delivered"
+      "A": "Cut the adult metal plates in half with heavy scissors",
+      "B": "Apply both pads to the back of the infant side by side",
+      "C": "Use the adult pads, making sure they do not touch each other",
+      "D": "Refuse to use the AED because adult pads are dangerous for infants"
     },
     "answer": "C",
-    "explanation": "Movement—even from CPR—can trick the AED into reading the wrong thing. Always step back and stay clear while it analyzes. [learn more](GNS212_U2_T2#GNS212_U2_T2_h6)"
+    "explanation": "If pediatric equipment is missing, standard pads can be used on infants, often placed front-and-back to prevent overlap. [learn more](GNS212_U2_T2#GNS212_U2_T2_h6)"
   },
   {
     "question_id": "GNS212_U2_T2_h7_q1",
     "heading_id": "GNS212_U2_T2_h7",
     "article_id": "GNS212_U2_T2",
     "topic_id": "GNS212_U2_T2",
-    "difficulty": "recall",
-    "question": "What should you do with the AED pads if the patient suddenly wakes up and starts breathing?",
+    "difficulty": "understanding",
+    "question": "Why should you leave the AED pads on the patient even after they start breathing and have a pulse again?",
     "options": {
-      "A": "Move both pads to the patient's back to keep the skin warm",
-      "B": "Peel them off immediately and throw them in the trash",
-      "C": "Leave the pads attached to the chest in case arrest recurs",
-      "D": "Wipe them down with bleach and pack them in the box"
+      "A": "To prevent the skin from developing pressure sores",
+      "B": "To monitor for sudden recurrence of a shockable rhythm",
+      "C": "To measure ongoing urine output accurately",
+      "D": "To keep the patient's chest warm during transport"
     },
-    "answer": "C",
-    "explanation": "Leave the pads on! A recovered patient can still slip back into cardiac arrest very quickly, and you want the AED ready to go. [learn more](GNS212_U2_T2#GNS212_U2_T2_h7)"
+    "answer": "B",
+    "explanation": "Patients who achieve return of spontaneous circulation are at high risk of slipping back into ventricular fibrillation or tachycardia. [learn more](GNS212_U2_T2#GNS212_U2_T2_h7)"
   },
   {
     "question_id": "GNS212_U2_T2_h7_q2",
     "heading_id": "GNS212_U2_T2_h7",
     "article_id": "GNS212_U2_T2",
     "topic_id": "GNS212_U2_T2",
-    "difficulty": "understanding",
-    "question": "Why is placing an unconscious, breathing patient into the recovery position so important?",
+    "difficulty": "recall",
+    "question": "What important details must you tell the incoming medical team when handing over a revived patient?",
     "options": {
-      "A": "It keeps the airway clear and prevents aspiration of fluids",
-      "B": "It stops involuntary muscle spasms in the arms and legs",
-      "C": "It makes it easier to reapply the AED pads if needed",
-      "D": "It lowers the patient's elevated blood pressure quickly"
+      "A": "Total downtime and number of shocks delivered",
+      "B": "The exact brand of batteries inside the AED unit",
+      "C": "The name of the manufacturer who built the pads",
+      "D": "The serial number of the AED device used"
     },
     "answer": "A",
-    "explanation": "The recovery position uses gravity to keep the tongue and saliva from blocking the airway of someone who is knocked out. Safety first! [learn more](GNS212_U2_T2#GNS212_U2_T2_h7)"
+    "explanation": "Advanced providers need to know the duration of cardiac arrest and the interventions performed to guide ongoing post-resuscitation care. [learn more](GNS212_U2_T2#GNS212_U2_T2_h7)"
   }
 ]
