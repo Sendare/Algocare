@@ -12,50 +12,50 @@
     {
       "heading_id": "GNS125_U5_T2_h1",
       "order": 1,
-      "title": "Introduction to Drug Distribution",
-      "content": "Once a drug enters the bloodstream, it must travel through the body to reach its site of action. This process is known as **drug distribution**. It is not just about floating in the blood; it involves the reversible transfer of a drug between the blood and the various tissues and organs of the body, such as the liver, fat, muscle, and brain. \n\nThink of the bloodstream as a major highway network and the body tissues as different towns. A drug needs to exit the highway and travel local roads to reach where it is needed to work. If a drug stays entirely in the blood, it cannot treat an infection in the toe or a headache in the brain. Understanding distribution helps nurses anticipate how fast a medicine will work and how long its effects will last in a patient."
+      "title": "Introduction to Drug Distribution in the Body",
+      "content": "Drug distribution is the reversible transfer of a drug from the bloodstream into the interstitial and intracellular fluids of the tissues. After a drug enters systemic circulation, it does not stay in the blood vessels. Instead, it moves across capillary walls to reach its site of action. This movement depends heavily on cardiac output, regional blood flow, capillary permeability, and the physical-chemical properties of the drug itself. Highly lipophilic drugs easily cross cell membranes, whereas hydrophilic drugs remain largely confined to extracellular spaces."
     },
     {
       "heading_id": "GNS125_U5_T2_h2",
       "order": 2,
-      "title": "Membrane Permeability and Barriers",
-      "content": "For a drug to leave the blood and enter a tissue, it must cross biological cell membranes. The ease with which a drug crosses these barriers depends heavily on its chemical properties. \n\n- **Lipid solubility**: Fat-soluble (lipophilic) drugs pass easily straight through the lipid bilayer of cell membranes. \n- **Molecular size**: Very large molecules struggle to cross membranes unless specific transport proteins carry them across.\n- **Ionization state**: Charged (ionized) molecules do not cross membranes easily, whereas uncharged (unionized) molecules slip through much faster.\n\nA common clinical misconception is that all small pills enter all tissues equally well. In reality, a drug's chemical makeup dictates every single barrier it can cross."
+      "title": "Membrane Permeability and Barriers to Distribution",
+      "content": "Capillary structure dictates how easily drugs leave the circulation. Standard capillaries possess fenestrations or gaps between endothelial cells that allow most water-soluble drugs to pass freely. Conversely, tissues like the central nervous system feature tight junctions with no fenestrations, forming a strict barrier. Drug molecules must be small and unionized to cross these restrictive membranes without dedicated transport proteins."
     },
     {
       "heading_id": "GNS125_U5_T2_h3",
       "order": 3,
-      "title": "Plasma Protein Binding",
-      "content": "Once in the blood, many drugs bind to circulating proteins, most notably **albumin**. When a drug molecule is bound to a protein, it is too bulky to slip through capillary walls into the tissues. Only the **free (unbound) drug** is pharmacologically active and able to distribute to target sites.\n\nProtein binding acts like a temporary storage locker. Bound drug molecules cannot cause effects, but as free drug leaves the blood and enters tissues, the bound drugs detach from albumin to maintain balance. \n\nIf two different drugs are given together and both love binding to albumin, they can compete for the same binding spots. The drug with less affinity gets kicked off, suddenly increasing the amount of free drug in the blood. This can lead to unexpected toxicity, a crucial point for nurses monitoring patients on multiple medications."
+      "title": "Plasma Protein Binding and Its Clinical Significance",
+      "content": "Once in the blood, many drugs bind reversibly to plasma proteins, primarily albumin for acidic drugs and alpha-1-acid glycoprotein for basic drugs. \n\n- **Bound drug**: Inactive, too large to pass through capillary walls, and serves as a circulating reservoir.\n- **Unbound (Free) drug**: Pharmacologically active, able to cross membranes, exert therapeutic effects, and undergo metabolism or excretion.\n\nChanges in plasma protein levels, such as in severe malnutrition or liver disease, alter the fraction of free drug, potentially causing toxicity without a change in total blood concentration."
     },
     {
       "heading_id": "GNS125_U5_T2_h4",
       "order": 4,
-      "title": "Tissue Perfusion and Blood Flow Rates",
-      "content": "Not all body tissues receive the same amount of blood every minute. Tissues with high blood supply—such as the heart, brain, kidneys, and liver—receive drugs very rapidly during the initial phase of distribution. This is known as high **tissue perfusion**.\n\nOn the other hand, tissues like fat, skin, and resting skeletal muscle receive much less blood flow. Drugs take much longer to reach these poorly perfused areas. Consequently, a highly perfused organ will feel the effect of an intravenous drug almost instantly, while fat tissue might take hours to accumulate significant drug levels."
+      "title": "Apparent Volume of Distribution (Vd)",
+      "content": "Apparent volume of distribution (Vd) is a theoretical pharmacokinetic value that relates the total amount of drug in the body to the concentration of drug in the plasma. It does not correspond to a real anatomical volume. \n\n| Vd Value | Implication | Example |\n|---|---|---| \n| Low Vd (0.1 L/kg) | Trapped in the plasma compartment | Heparin |\n| Intermediate Vd (0.2-0.6 L/kg) | Distributed in extracellular fluid | Gentamicin |\n| High Vd (>1 L/kg) | Accumulated heavily in body tissues | Digoxin |\n\nDrugs with an extremely high Vd require larger loading doses because most of the drug leaves the blood and hides away in peripheral tissues."
     },
     {
       "heading_id": "GNS125_U5_T2_h5",
       "order": 5,
-      "title": "Apparent Volume of Distribution",
-      "content": "**Apparent volume of distribution (Vd)** is a theoretical concept used by pharmacologists to describe how widely a drug spreads throughout the body. It is calculated by dividing the dose given by the concentration of the drug found in the blood plasma.\n\nA very small Vd means the drug stays mostly inside the blood plasma. A very large Vd means the drug has left the blood entirely and concentrated heavily in body fat or deep tissues. Knowing the Vd helps healthcare providers figure out the correct loading dose needed to achieve a therapeutic concentration in the patient."
+      "title": "Tissue Perfusion and Blood Flow Rates",
+      "content": "The rate of drug distribution depends heavily on how much blood supply a given tissue receives. Well-perfused organs—such as the heart, brain, liver, and kidneys—receive drugs almost immediately after administration. Poorly perfused tissues, including adipose tissue, skin, and resting skeletal muscle, take much longer to accumulate therapeutic concentrations. Consequently, initial drug effects are often seen first in high-flow organs, while fat stores act as long-term depots for lipid-soluble agents."
     },
     {
       "heading_id": "GNS125_U5_T2_h6",
       "order": 6,
-      "title": "Special Compartments: Blood-Brain Barrier and Placenta",
-      "content": "Certain areas of the body have special protective barriers that severely restrict drug entry. The **blood-brain barrier (BBB)** consists of tightly packed capillary endothelial cells with no pores, backed by glial cells. Only lipid-soluble drugs or drugs with specific transport pumps can enter the central nervous system.\n\nSimilarly, the **placental membrane** acts as a filter between mother and fetus. While many drugs do cross the placenta via simple diffusion, it is a common misconception that the placenta blocks most medications. Most drugs taken by a pregnant woman will reach the fetus to some degree, which is why drug safety in pregnancy is so critical."
+      "title": "Special Compartments: The Blood-Brain Barrier and Placental Transfer",
+      "content": "Certain body sites possess specialized protective barriers that restrict foreign substances. The blood-brain barrier (BBB) features endothelial cells with tight junctions and astrocytic feet surrounding capillaries, blocking polar and ionized compounds from entering the central nervous system. Similarly, the placenta acts as a selective barrier, though many lipid-soluble medications, narcotics, and anesthetics still cross freely from maternal circulation to the fetus, posing risks for neonatal respiratory depression."
     },
     {
       "heading_id": "GNS125_U5_T2_h7",
       "order": 7,
-      "title": "Clinical Factors Affecting Distribution",
-      "content": "Patient-specific variables can alter drug distribution in everyday clinical settings, particularly in tropical environments and diverse populations. \n\n- **Nutritional status**: Severe malnutrition or protein-energy malnutrition leads to low blood albumin levels. With fewer carrier proteins, highly protein-bound drugs have more free active drug floating around, raising toxicity risks.\n- **Hydration and body composition**: Dehydration decreases plasma volume, concentrating drugs in the blood, while fluid overload dilutes them.\n- **Age**: Neonates have high total body water content, while elderly patients often have reduced muscle mass and increased body fat, altering how water-soluble and fat-soluble drugs distribute."
+      "title": "Factors Affecting Drug Distribution in Nigerian Clinical Populations",
+      "content": "Clinical realities across Nigeria introduce unique variables into drug distribution patterns. High prevalence rates of malnutrition, chronic infections like malaria, and liver pathologies directly reduce serum albumin levels, altering free drug fractions. Dehydration from gastroenteritis concentrates blood components and shrinks extracellular fluid volumes, changing the apparent volume of distribution. Nurses must account for these nutritional and disease states when administering potent medications."
     },
     {
       "heading_id": "GNS125_U5_T2_h8",
       "order": 8,
-      "title": "Implications for Nursing Practice",
-      "content": "Nurses play a frontline role in managing safe drug therapy by observing how distribution impacts patients. When administering drugs with narrow safety margins, nurses must monitor for signs of toxicity if the patient has low serum protein levels or altered organ perfusion.\n\nNurses also educate patients on why certain medicines must be taken with food or why specific timing matters. By keeping patient baseline lab values, age, and nutritional status in mind, the nurse anticipates adverse drug reactions before they harm the patient."
+      "title": "Implications of Drug Distribution for Nursing Practice",
+      "content": "Understanding distribution helps nurses predict onset times, monitor for adverse effects, and recognize signs of drug toxicity. Drugs with high lipid solubility and large volumes of distribution often have prolonged elimination half-lives because they keep leaching out of fat stores. Nurses must watch for delayed toxicity long after a drug has been discontinued, especially in elderly or frail patients whose body composition includes higher fat-to-water ratios."
     }
   ]
 }
