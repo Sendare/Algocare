@@ -10,44 +10,38 @@
     {
       "heading_id": "GNS113_U1_T6_h1",
       "order": 1,
-      "title": "Introduction to Computers in Nursing Informatics",
-      "content": "Computers are no longer optional tools in healthcare; they form the backbone of modern nursing practice. Nursing informatics blends nursing science, computer science, and information science to manage and communicate data, knowledge, and wisdom in nursing work. From the bedside monitor recording vital signs to the electronic health record system in Nigerian tertiary hospitals, understanding how these machines process information helps nurses deliver safer and faster patient care. A computer fundamentally takes in raw data, processes it through a central processing unit, and outputs meaningful information that guides clinical decision-making."
+      "title": "Classification by Data Processing Method",
+      "content": "Computers process information in distinct ways depending on the physical or mathematical nature of the data input. In healthcare settings, understanding these categories helps nurses appreciate how laboratory monitors or ward terminals function.\n\n- **Analog Computers**: Process continuous physical variables such as pressure, temperature, or voltage. They represent data through physical magnitudes rather than discrete numbers.\n- **Digital Computers**: Operate on discrete data by counting values expressed in binary digits (zeros and ones). Most hospital ward computers, electronic health record (EHR) terminals, and smartphones fall into this category.\n- **Hybrid Computers**: Combine the features of both analog and digital systems. They accept analog signals, convert them into digital values for processing, and can output results in either format."
     },
     {
       "heading_id": "GNS113_U1_T6_h2",
       "order": 2,
-      "title": "Classification by Data Processing Method",
-      "content": "Computers are grouped based on how they handle and process data. In healthcare settings, recognizing these operational differences ensures proper equipment selection for specific clinical tasks.\n\n- **Analog Computers**: Measure continuous physical magnitudes such as blood pressure, temperature, or electrical activity in the heart, representing them as continuous waves. Examples include traditional mercury sphygmomanometers converted electronically or older ECG machines.\n- **Digital Computers**: Process discrete data represented in binary code consisting of zeros and ones. Modern electronic health record systems, smart infusion pumps, and desktop clinical workstations are all digital.\n- **Hybrid Computers**: Combine the continuous measuring features of analog systems with the logical processing and memory storage of digital systems. Advanced intensive care unit bedside monitors often use hybrid technology to capture wave signals and convert them into readable digital values."
+      "title": "Classification by Size and Processing Power",
+      "content": "Beyond how data is processed, computers are broadly categorized by physical dimensions, memory capacity, and processing speed. This hierarchical scale ranges from tiny microchips embedded in medical devices to massive room-sized installations managing regional health databases."
     },
     {
       "heading_id": "GNS113_U1_T6_h3",
       "order": 3,
-      "title": "Classification by Size, Speed, and Processing Power",
-      "content": "Beyond how they process data, computers are traditionally categorized by their physical scale, storage capacity, and speed of execution. This hierarchy ranges from small portable devices meant for single users to massive installations managing entire national healthcare networks. \n\n| Category | Primary Scale | Typical Healthcare Use | User Capacity |\n| --- | --- | --- | --- |\n| Microcomputer | Small / Portable | Nursing stations, personal charting | Single user |\n| Minicomputer | Medium / Cabinet | Departmental records, laboratory units | Multiple users |\n| Mainframe | Large / Room-sized | Hospital-wide database management | Hundreds of users |\n| Supercomputer | Massive / Facility | Genomic sequencing, epidemiological research | Collaborative teams |"
+      "title": "Microcomputers in Healthcare",
+      "content": "Microcomputers, commonly known as personal computers, feature a central processing unit built on a single integrated circuit called a microprocessor. In modern Nigerian healthcare facilities, microcomputers take several functional forms:\n\n- **Desktops**: Stationary units stationed at nursing stations for permanent EHR entry and shift handovers.\n- **Laptops and Notebooks**: Portable units used during ward rounds to update patient charts beside the bed.\n- **Tablets and PDAs**: Handheld touch devices utilized for quick medication administration scans and vital signs logging."
     },
     {
       "heading_id": "GNS113_U1_T6_h4",
       "order": 4,
-      "title": "Microcomputers in Clinical Practice",
-      "content": "Microcomputers, commonly known as personal computers, include desktops, laptops, tablets, and personal digital assistants. In modern Nigerian wards, nurses interact with microcomputers daily during shift handovers, medication administration using barcode scanners, and direct patient documentation. Their affordability, portability, and user-friendly operating systems make them the most visible computing tools in daily nursing workflows. However, their reliance on local power sources or battery backups means clinical units must account for steady electricity availability."
+      "title": "Minicomputers and Mainframes in Hospital Systems",
+      "content": "As healthcare institutions grow, single personal computers become insufficient to manage the heavy influx of data. Minicomputers and mainframes step in to bridge this gap.\n\nMinicomputers, often referred to as midrange servers, support multiple users simultaneously and coordinate specific departmental tasks like laboratory information management or pharmacy stock tracking. Mainframes represent even more powerful enterprise systems capable of supporting thousands of users concurrently. They securely house nationwide or state-level health insurance databases, payroll records, and comprehensive hospital information systems, ensuring high reliability and massive data storage capabilities."
     },
     {
       "heading_id": "GNS113_U1_T6_h5",
       "order": 5,
-      "title": "Minicomputers and Mainframes in Hospital Administration",
-      "content": "Larger multi-user systems play critical behind-the-scenes roles in healthcare institutions. Minicomputers, often called midrange systems, frequently manage specific hospital departments such as the pharmacy inventory or the radiology department's picture archiving and communication systems. Mainframes sit at the top of the institutional hierarchy, securely housing the entire hospital's financial records, patient billing histories, and electronic health records across multiple clinical departments simultaneously, preventing data silos."
+      "title": "Supercomputers and Specialized Medical Research",
+      "content": "Supercomputers represent the pinnacle of processing speed and data calculation capacity. While everyday clinical nursing tasks do not require such extreme hardware, supercomputers play a vital role in advanced medical science. Research institutions utilize them to run complex simulations for pharmacological drug design, analyze massive genomic sequences to understand disease outbreaks, and map intricate neurological pathways. Their parallel processing architecture allows millions of calculations to occur simultaneously."
     },
     {
       "heading_id": "GNS113_U1_T6_h6",
       "order": 6,
-      "title": "Supercomputers and Specialized Medical Research",
-      "content": "Supercomputers are the fastest, most powerful, and most expensive computers available. While they are rarely found in standard patient care wards, they drive major breakthroughs in medical science. Researchers use supercomputers for complex genetic sequencing, modeling the spread of infectious disease epidemics across populations, and simulating molecular drug interactions. Understanding their existence helps nurses appreciate how big data and advanced computing translate into new pharmacological treatments and public health policies."
-    },
-    {
-      "heading_id": "GNS113_U1_T6_h7",
-      "order": 7,
-      "title": "Impact and Selection of Computer Types in Clinical Practice",
-      "content": "Selecting the appropriate computer system for a clinical environment directly affects workflow efficiency and patient safety. Hospital managers and nurse leaders must evaluate factors such as processing speed, user accessibility, physical space, and cost. When the wrong hardware is deployed—such as relying on underpowered microcomputers for heavy database queries—system lag frustrates staff and delays patient care delivery."
+      "title": "Clinical Selection and Impact of Computer Types",
+      "content": "Choosing the correct computer type for a healthcare environment depends on financial constraints, user requirements, and data volume. A mismatch between hardware capability and clinical workflow creates operational bottlenecks. For instance, relying on underpowered microcomputers for hospital-wide database queries leads to system crashes, whereas installing mainframes for simple bedside charting is cost-prohibitive. Nurses must understand these technical boundaries to advocate effectively for appropriate technological tools in patient care delivery."
     }
   ]
 }

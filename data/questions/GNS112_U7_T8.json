@@ -7,13 +7,13 @@
     "difficulty": "recall",
     "question": "What is the main goal of triage in an emergency department?",
     "options": {
-      "A": "Collecting billing information from relatives",
-      "B": "Sorting patients based on injury severity",
-      "C": "Discharging stable patients without examination",
-      "D": "Treating patients strictly by order of arrival"
+      "A": "Discharging minor cases before doctors arrive",
+      "B": "Sorting patients by the severity of their condition",
+      "C": "Treating patients strictly in the order they arrived",
+      "D": "Collecting billing and insurance details quickly"
     },
     "answer": "B",
-    "explanation": "Triage prioritizes care according to how critical a patient's condition is, ensuring immediate life threats are managed first. [learn more](GNS112_U7_T8#GNS112_U7_T8_h1)"
+    "explanation": "Triage prioritizes care so that patients with life-threatening conditions receive immediate medical attention ahead of stable ones. [learn more](GNS112_U7_T8#GNS112_U7_T8_h1)"
   },
   {
     "question_id": "GNS112_U7_T8_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GNS112_U7_T8",
     "topic_id": "GNS112_U7_T8",
     "difficulty": "understanding",
-    "question": "A patient with a minor cut walks in while a bleeding trauma case arrives. Who is seen first?",
+    "question": "Why is the Golden Hour considered critical for trauma patients?",
     "options": {
-      "A": "The minor cut patient because they arrived first in the queue",
-      "B": "Both patients together since the nurse has two hands",
-      "C": "The bleeding trauma case because their condition is more severe",
-      "D": "Whichever patient can pay their registration fee faster"
+      "A": "Early surgical intervention drastically increases survival rates",
+      "B": "Hospital administrative paperwork must be finished within this hour",
+      "C": "Patients are most cooperative during this specific time frame",
+      "D": "Medication side effects do not appear until after sixty minutes"
     },
-    "answer": "C",
-    "explanation": "Emergency triage dictates that life-threatening conditions take absolute precedence over minor ailments regardless of arrival time. [learn more](GNS112_U7_T8#GNS112_U7_T8_h1)"
+    "answer": "A",
+    "explanation": "Prompt treatment within the first hour of injury prevents irreversible shock and tissue damage, maximizing survival chances. [learn more](GNS112_U7_T8#GNS112_U7_T8_h1)"
   },
   {
     "question_id": "GNS112_U7_T8_h2_q1",
@@ -37,15 +37,15 @@
     "article_id": "GNS112_U7_T8",
     "topic_id": "GNS112_U7_T8",
     "difficulty": "recall",
-    "question": "What does the letter 'B' stand for in the ABCDE primary survey?",
+    "question": "What does the letter 'C' stand for in the ABCDE primary survey?",
     "options": {
-      "A": "Bowel sound assessment",
-      "B": "Blood pressure reading",
-      "C": "Bone fracture check",
-      "D": "Breathing and ventilation"
+      "A": "Coughing",
+      "B": "Circulation",
+      "C": "Coma",
+      "D": "Cyanosis"
     },
-    "answer": "D",
-    "explanation": "In the standard emergency mnemonic, B stands for evaluating the lungs, chest wall, and overall ventilation status. [learn more](GNS112_U7_T8#GNS112_U7_T8_h2)"
+    "answer": "B",
+    "explanation": "In the ABCDE emergency framework, C stands for circulation, which involves evaluating pulses, bleeding, and skin perfusion. [learn more](GNS112_U7_T8#GNS112_U7_T8_h2)"
   },
   {
     "question_id": "GNS112_U7_T8_h2_q2",
@@ -53,15 +53,15 @@
     "article_id": "GNS112_U7_T8",
     "topic_id": "GNS112_U7_T8",
     "difficulty": "understanding",
-    "question": "Why must a nurse complete the ABCDE steps in strict alphabetical order?",
+    "question": "A patient speaks clearly in full sentences. What does this instantly tell the nurse about their status?",
     "options": {
-      "A": "Because hospital policy forbids skipping any letter",
-      "B": "To address the most immediate life threats first",
-      "C": "To make medical documentation easier to read",
-      "D": "To match the doctor's arrival time in the ward"
+      "A": "Spinal cord injuries have been completely ruled out",
+      "B": "Airway, breathing, and basic brain perfusion are initially intact",
+      "C": "There is no internal bleeding anywhere in the body",
+      "D": "The patient requires immediate admission to the intensive care unit"
     },
     "answer": "B",
-    "explanation": "Airway failure kills faster than breathing failure, which kills faster than bleeding, so the sequence prioritizes survival. [learn more](GNS112_U7_T8#GNS112_U7_T8_h2)"
+    "explanation": "Clear speech requires a working airway, air movement from the lungs, and enough blood flow to the brain. [learn more](GNS112_U7_T8#GNS112_U7_T8_h2)"
   },
   {
     "question_id": "GNS112_U7_T8_h3_q1",
@@ -69,31 +69,31 @@
     "article_id": "GNS112_U7_T8",
     "topic_id": "GNS112_U7_T8",
     "difficulty": "recall",
-    "question": "Which airway maneuver is safest for a trauma patient with a suspected neck injury?",
+    "question": "Which airway maneuver must be used for a patient with a suspected neck injury?",
     "options": {
-      "A": "Neck hyperextension",
-      "B": "Lateral neck rotation",
-      "C": "Jaw-thrust maneuver",
-      "D": "Head-tilt chin-lift"
+      "A": "Lateral neck rotation",
+      "B": "Head-tilt/chin-lift",
+      "C": "Neck hyperextension",
+      "D": "Jaw-thrust maneuver"
     },
-    "answer": "C",
-    "explanation": "The jaw-thrust opens the airway without extending the cervical spine, preventing potential spinal cord damage. [learn more](GNS112_U7_T8#GNS112_U7_T8_h3)"
+    "answer": "D",
+    "explanation": "The jaw-thrust opens the airway without moving the cervical spine, preventing potential spinal cord damage. [learn more](GNS112_U7_T8#GNS112_U7_T8_h3)"
   },
   {
     "question_id": "GNS112_U7_T8_h3_q2",
     "heading_id": "GNS112_U7_T8_h3",
     "article_id": "GNS112_U7_T8",
     "topic_id": "GNS112_U7_T8",
-    "difficulty": "understanding",
-    "question": "What is the primary purpose of inserting an oropharyngeal airway in an unconscious patient?",
+    "difficulty": "application",
+    "question": "An unconscious trauma patient is gurgling with blood and secretions in the mouth. What action is needed first?",
     "options": {
-      "A": "To deliver continuous high-flow oxygen therapy",
-      "B": "To allow the patient to speak more clearly",
-      "C": "To prevent the tongue from blocking the throat",
-      "D": "To stop bleeding from the nasal passages"
+      "A": "Suction the airway immediately",
+      "B": "Administer oxygen via nasal cannula",
+      "C": "Check the patient's blood pressure",
+      "D": "Insert a nasopharyngeal airway"
     },
-    "answer": "C",
-    "explanation": "Unconscious muscles relax, causing the tongue to fall backward and obstruct the airway; the device holds it forward. [learn more](GNS112_U7_T8#GNS112_U7_T8_h3)"
+    "answer": "A",
+    "explanation": "Foreign fluids and blood must be cleared instantly to prevent aspiration and maintain adequate oxygen flow. [learn more](GNS112_U7_T8#GNS112_U7_T8_h3)"
   },
   {
     "question_id": "GNS112_U7_T8_h4_q1",
@@ -101,15 +101,15 @@
     "article_id": "GNS112_U7_T8",
     "topic_id": "GNS112_U7_T8",
     "difficulty": "recall",
-    "question": "Which finding is most characteristic of a tension pneumothorax during a breathing assessment?",
+    "question": "What is a primary clinical sign of a tension pneumothorax?",
     "options": {
-      "A": "Equal chest wall expansion on both sides",
-      "B": "A very slow and deep respiratory pattern",
-      "C": "Loud bilateral wheezing throughout the lung fields",
-      "D": "Absent breath sounds on the affected side"
+      "A": "Flushing and warm skin on the upper body",
+      "B": "Equal breath sounds heard across both lung fields",
+      "C": "Tracheal deviation away from the affected side",
+      "D": "Slow and deep breathing patterns in the patient"
     },
-    "answer": "D",
-    "explanation": "Air trapped under pressure in the pleural space collapses the lung, leading to absent breath sounds on that side. [learn more](GNS112_U7_T8#GNS112_U7_T8_h4)"
+    "answer": "C",
+    "explanation": "Accumulating pressure in the chest pushes the trachea and vital organs toward the healthy side. [learn more](GNS112_U7_T8#GNS112_U7_T8_h4)"
   },
   {
     "question_id": "GNS112_U7_T8_h4_q2",
@@ -117,15 +117,15 @@
     "article_id": "GNS112_U7_T8",
     "topic_id": "GNS112_U7_T8",
     "difficulty": "understanding",
-    "question": "Why must needle decompression be done immediately for a tension pneumothorax instead of waiting for an X-ray?",
+    "question": "Why is needle decompression performed immediately for a tension pneumothorax rather than waiting for an X-ray?",
     "options": {
-      "A": "X-ray machines in emergency rooms are usually broken",
-      "B": "Doctors are not legally allowed to read chest X-rays at night",
-      "C": "It rapidly relieves pressure on the heart and prevents cardiac arrest",
-      "D": "It cures the underlying lung infection causing the air leak"
+      "A": "Needle insertion permanently cures the underlying lung infection",
+      "B": "X-ray machines are generally located too far from the emergency bay",
+      "C": "Radiologists are not trained to read chest scans during emergency hours",
+      "D": "The trapped air quickly stops venous return to the heart and causes cardiac arrest"
     },
-    "answer": "C",
-    "explanation": "A tension pneumothorax shifts mediastinal structures, crushing the vena cava and stopping blood return to the heart. [learn more](GNS112_U7_T8#GNS112_U7_T8_h4)"
+    "answer": "D",
+    "explanation": "Intrathoracic pressure blocks blood flow to the heart, leading to rapid cardiovascular collapse if not relieved instantly. [learn more](GNS112_U7_T8#GNS112_U7_T8_h4)"
   },
   {
     "question_id": "GNS112_U7_T8_h5_q1",
@@ -133,15 +133,15 @@
     "article_id": "GNS112_U7_T8",
     "topic_id": "GNS112_U7_T8",
     "difficulty": "recall",
-    "question": "What is an early clinical sign of hypovolemic shock in an adult trauma patient?",
+    "question": "What is the most effective immediate action to stop severe bleeding from an arm wound?",
     "options": {
-      "A": "Slow and deep breathing",
-      "B": "Very high blood pressure",
-      "C": "Fast heart rate",
-      "D": "Warm and flushed skin"
+      "A": "Elevating the injured arm above the level of the heart",
+      "B": "Applying direct firm pressure to the bleeding site",
+      "C": "Massaging the muscles surrounding the injury",
+      "D": "Pouring cold water over the open laceration"
     },
-    "answer": "C",
-    "explanation": "The body compensates for blood loss by increasing the heart rate to maintain cardiac output. [learn more](GNS112_U7_T8#GNS112_U7_T8_h5)"
+    "answer": "B",
+    "explanation": "Direct pressure is the primary and most reliable method to control external hemorrhage before resorting to other devices. [learn more](GNS112_U7_T8#GNS112_U7_T8_h5)"
   },
   {
     "question_id": "GNS112_U7_T8_h5_q2",
@@ -149,15 +149,15 @@
     "article_id": "GNS112_U7_T8",
     "topic_id": "GNS112_U7_T8",
     "difficulty": "understanding",
-    "question": "Which of the following is NOT a correct initial step in managing severe external hemorrhage?",
+    "question": "Which clinical finding is an early sign of developing hypovolemic shock?",
     "options": {
-      "A": "Applying a tight tourniquet over the patient's clothing",
-      "B": "Preparing large-bore intravenous lines for fluid replacement",
-      "C": "Elevating the bleeding limb if no fracture is present",
-      "D": "Applying direct firm pressure onto the bleeding wound"
+      "A": "Tachycardia",
+      "B": "Hypertension",
+      "C": "Hypothermia",
+      "D": "Bradycardia"
     },
     "answer": "A",
-    "explanation": "Tourniquets should be applied directly to the skin, not over bulky clothing, to ensure effective compression of the underlying vessel. [learn more](GNS112_U7_T8#GNS112_U7_T8_h5)"
+    "explanation": "The body increases the heart rate to maintain cardiac output and tissue perfusion when circulating blood volume drops. [learn more](GNS112_U7_T8#GNS112_U7_T8_h5)"
   },
   {
     "question_id": "GNS112_U7_T8_h6_q1",
@@ -165,15 +165,15 @@
     "article_id": "GNS112_U7_T8",
     "topic_id": "GNS112_U7_T8",
     "difficulty": "recall",
-    "question": "What three components make up the Glasgow Coma Scale score?",
+    "question": "What does the 'A' stand for in the AVPU neurological assessment scale?",
     "options": {
-      "A": "Airway status, breathing depth, pulse rate",
-      "B": "Pupil reaction, blood pressure, temperature",
-      "C": "Eye opening, verbal response, motor response",
-      "D": "Reflexes, muscle tone, sensory perception"
+      "A": "Asleep",
+      "B": "Agitated",
+      "C": "Alert",
+      "D": "Anxious"
     },
     "answer": "C",
-    "explanation": "The GCS assesses these three distinct neurological domains to grade a patient's level of consciousness. [learn more](GNS112_U7_T8#GNS112_U7_T8_h6)"
+    "explanation": "In the AVPU scale, A stands for alert, meaning the patient is awake and aware of their environment. [learn more](GNS112_U7_T8#GNS112_U7_T8_h6)"
   },
   {
     "question_id": "GNS112_U7_T8_h6_q2",
@@ -181,15 +181,15 @@
     "article_id": "GNS112_U7_T8",
     "topic_id": "GNS112_U7_T8",
     "difficulty": "understanding",
-    "question": "Why is a quick blood glucose test important during a neurological evaluation?",
+    "question": "A patient only opens their eyes when someone squeezes their shoulder. Which AVPU category applies?",
     "options": {
-      "A": "Glucose is required to make the GCS score accurate",
-      "B": "High sugar levels prevent nurses from doing eye exams",
-      "C": "Low blood sugar can mimic severe brain injury symptoms",
-      "D": "Diabetes is the only cause of unconsciousness in adults"
+      "A": "Pain",
+      "B": "Verbal",
+      "C": "Alert",
+      "D": "Unresponsive"
     },
-    "answer": "C",
-    "explanation": "Hypoglycemia causes confusion, unresponsiveness, and focal deficits that are easily reversed with glucose administration. [learn more](GNS112_U7_T8#GNS112_U7_T8_h6)"
+    "answer": "A",
+    "explanation": "Responding exclusively to a physical stimulus like a squeeze indicates the pain category on the scale. [learn more](GNS112_U7_T8#GNS112_U7_T8_h6)"
   },
   {
     "question_id": "GNS112_U7_T8_h7_q1",
@@ -197,15 +197,15 @@
     "article_id": "GNS112_U7_T8",
     "topic_id": "GNS112_U7_T8",
     "difficulty": "recall",
-    "question": "Why must a trauma patient be covered with warm blankets after exposure?",
+    "question": "What is the primary risk associated with fully exposing a trauma patient in the emergency room?",
     "options": {
-      "A": "To prevent nurses from staring at naked skin",
-      "B": "To speed up the absorption of intravenous drugs",
-      "C": "To prevent dangerous hypothermia and bleeding problems",
-      "D": "To keep the patient comfortable while sleeping"
+      "A": "Hypertension",
+      "B": "Hyperglycemia",
+      "C": "Hyperthermia",
+      "D": "Hypothermia"
     },
-    "answer": "C",
-    "explanation": "Exposure leads to rapid heat loss; hypothermia impairs blood clotting and worsens trauma outcomes. [learn more](GNS112_U7_T8#GNS112_U7_T8_h7)"
+    "answer": "D",
+    "explanation": "Removing clothes exposes the body to ambient room temperatures, causing rapid heat loss that worsens trauma outcomes. [learn more](GNS112_U7_T8#GNS112_U7_T8_h7)"
   },
   {
     "question_id": "GNS112_U7_T8_h7_q2",
@@ -213,15 +213,15 @@
     "article_id": "GNS112_U7_T8",
     "topic_id": "GNS112_U7_T8",
     "difficulty": "understanding",
-    "question": "When is it appropriate to start the secondary survey head-to-toe examination?",
+    "question": "What information does the 'M' in the SAMPLE history mnemonic represent?",
     "options": {
-      "A": "Before checking whether the patient has an open airway",
-      "B": "As soon as the ambulance reaches the hospital gates",
-      "C": "After the primary survey ABCDE issues are stabilized",
-      "D": "Only after the laboratory results are fully printed"
+      "A": "Medical insurance",
+      "B": "Mechanism of injury",
+      "C": "Mental status",
+      "D": "Medications"
     },
-    "answer": "C",
-    "explanation": "Secondary surveys are only performed after immediate life-threatening ABCDE problems have been identified and treated. [learn more](GNS112_U7_T8#GNS112_U7_T8_h7)"
+    "answer": "D",
+    "explanation": "The 'M' stands for current medications, helping clinicians identify drugs that could affect vital signs or interact with treatments. [learn more](GNS112_U7_T8#GNS112_U7_T8_h7)"
   },
   {
     "question_id": "GNS112_U7_T8_h8_q1",
@@ -229,15 +229,15 @@
     "article_id": "GNS112_U7_T8",
     "topic_id": "GNS112_U7_T8",
     "difficulty": "recall",
-    "question": "What does the acronym SBAR stand for in clinical handover?",
+    "question": "What does the letter 'S' represent at the beginning of the ISBAR handover tool?",
     "options": {
-      "A": "Situation, Background, Assessment, Recommendation",
-      "B": "Scale, Bandage, Analysis, Report",
-      "C": "Symptoms, Breathing, Airway, Resuscitation",
-      "D": "Safety, Blood, Assessment, Recovery"
+      "A": "Situation",
+      "B": "Sedation",
+      "C": "Symptoms",
+      "D": "Surgery"
     },
     "answer": "A",
-    "explanation": "SBAR is a standardized communication tool used to structure information clearly during patient handovers. [learn more](GNS112_U7_T8#GNS112_U7_T8_h8)"
+    "explanation": "ISBAR begins with Situation, where the nurse states who is speaking and the immediate reason for the communication. [learn more](GNS112_U7_T8#GNS112_U7_T8_h8)"
   },
   {
     "question_id": "GNS112_U7_T8_h8_q2",
@@ -245,14 +245,14 @@
     "article_id": "GNS112_U7_T8",
     "topic_id": "GNS112_U7_T8",
     "difficulty": "understanding",
-    "question": "Why is closed-loop communication important during an emergency resuscitation?",
+    "question": "Why is structured handover communication especially important during shift changes in an emergency unit?",
     "options": {
-      "A": "It stops doctors from shouting at junior nursing staff",
-      "B": "It ensures team members repeat orders back to confirm understanding",
-      "C": "It prevents unauthorized visitors from entering the trauma room",
-      "D": "It automatically records notes into the patient electronic file"
+      "A": "It eliminates the need to keep written patient charts on the ward",
+      "B": "It stops patients from asking questions about their treatment plan",
+      "C": "It prevents critical patient details from being missed or forgotten",
+      "D": "It shortens the total number of hours nurses must work each week"
     },
-    "answer": "B",
-    "explanation": "Repeating an instruction back to the sender prevents dangerous misunderstandings in fast-paced emergency settings. [learn more](GNS112_U7_T8#GNS112_U7_T8_h8)"
+    "answer": "C",
+    "explanation": "Structured communication standardizes information transfer, protecting patients from errors caused by poor shift transitions. [learn more](GNS112_U7_T8#GNS112_U7_T8_h8)"
   }
 ]

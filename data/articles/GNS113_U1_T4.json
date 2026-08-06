@@ -11,37 +11,43 @@
       "heading_id": "GNS113_U1_T4_h1",
       "order": 1,
       "title": "Introduction to Nursing Informatics Tools",
-      "content": "Nursing informatics merges nursing science, computer science, and information science to manage and communicate data, information, knowledge, and wisdom in nursing practice. Informatics tools are the hardware, software, and digital systems that nurses use every day to deliver safe, effective patient care. Rather than replacing the human touch, these tools handle repetitive data processing, allowing nurses to focus more on direct patient assessment and critical thinking. From simple desktop computers at the nurse's station to advanced handheld mobile scanners, every tool is designed to reduce medical errors and streamline clinical workflows."
+      "content": "Nursing informatics tools are hardware, software, and systems designed to manage health data, support clinical decisions, and improve patient outcomes. These tools bridge the gap between nursing practice, computer science, and information science. They allow nurses to collect, store, and analyze patient information efficiently at the bedside and in community health settings across Nigeria."
     },
     {
       "heading_id": "GNS113_U1_T4_h2",
       "order": 2,
-      "title": "Electronic Health Records and Clinical Documentation Systems",
-      "content": "The **Electronic Health Record (EHR)** is the digital version of a patient's paper chart, containing comprehensive medical history, diagnostic test results, and nursing notes. Unlike old paper systems, EHRs allow multiple multidisciplinary healthcare providers to view and update patient information simultaneously from different locations. \n\n- **Clinical Documentation Systems**: Software applications within the EHR where nurses record vital signs, intake and output, wound assessments, and medication administration.\n- **Computerized Provider Order Entry (CPOE)**: A tool allowing doctors to enter prescriptions and lab orders directly, reducing transcription errors caused by messy handwriting.\n- **Bar Code Medication Administration (BCMA)**: A safety tool where nurses scan the patient's wristband and the medication package to verify the five rights before giving drugs."
+      "title": "Computers and Hardware Infrastructure",
+      "content": "Desktop computers, laptops, and tablets form the physical backbone of any health informatics setup. Nurses interact with these devices to access patient portals, review laboratory results, and chart vital signs. Reliable power supply and durable hardware are essential considerations in Nigerian clinical environments where power surges and outages are common."
     },
     {
       "heading_id": "GNS113_U1_T4_h3",
       "order": 3,
-      "title": "Mobile Devices and Point-of-Care Technology",
-      "content": "Point-of-care technology brings clinical tools directly to the patient's bedside rather than keeping them tied to a nurse's station desktop. Smartphones, tablets, and mobile workstations on wheels (WOWs) enable real-time documentation immediately after a procedure or assessment is completed. This immediate documentation drastically reduces the risk of memory lapses or charting errors that often happen when nurses try to remember details hours later at the end of a shift. Additionally, mobile devices give nurses instant access to digital drug reference guides, clinical calculators, and hospital policy manuals while standing right next to the patient."
+      "title": "Electronic Health Records and Documentation Systems",
+      "content": "Electronic Health Records (EHRs) replace traditional paper charting with centralized digital databases. A standard EHR system contains patient demographics, medical history, medication lists, and nursing care plans. Proper use of EHRs reduces transcription errors, ensures legibility, and allows multiple healthcare team members to access patient notes simultaneously."
     },
     {
       "heading_id": "GNS113_U1_T4_h4",
       "order": 4,
-      "title": "Telehealth and Remote Patient Monitoring Tools",
-      "content": "Telehealth bridges geographical gaps, allowing nurses to monitor, educate, and communicate with patients living in remote or rural areas. **Remote Patient Monitoring (RPM)** utilizes digital medical devices like wearable blood pressure cuffs, glucometers, and pulse oximeters that automatically transmit vital signs to a central hospital dashboard. When a patient's reading falls outside safe parameters, the system triggers an automated alert for the nursing staff. This proactive approach helps catch clinical deterioration early, reducing emergency hospital readmissions for chronic conditions like heart failure and hypertension."
+      "title": "Mobile Devices and Point-of-Care Technology",
+      "content": "Point-of-care technology brings informatics tools directly to the patient's bedside. Smartphones, personal digital assistants, and barcode scanners enable nurses to verify medication administration in real time. \n\n- **Barcode Medication Administration (BCMA)**: Scans patient wristbands and medication packages to prevent dosage errors.\n- **Handheld communicators**: Facilitate instant messaging among healthcare team members during emergencies.\n- **Portable diagnostic sensors**: Allow rapid testing such as blood glucose checks with immediate digital recording."
     },
     {
       "heading_id": "GNS113_U1_T4_h5",
       "order": 5,
-      "title": "Clinical Decision Support Systems",
-      "content": "A **Clinical Decision Support System (CDSS)** is an interactive software tool designed to assist healthcare providers with clinical decision-making tasks. CDSS analyzes individual patient data within the EHR and compares it against a comprehensive knowledge base to provide targeted recommendations. \n\n- **Drug-Allergy Alerts**: Warns the nurse if a prescribed medication conflicts with a documented patient allergy.\n- **Dosage Checkers**: Flags unusually high or low medication dosages based on age, weight, and renal function.\n- **Clinical Practice Guidelines**: Suggests evidence-based care bundles for conditions like pressure ulcer prevention or sepsis management."
+      "title": "Telehealth and Remote Patient Monitoring Tools",
+      "content": "Telehealth platforms and remote monitoring devices extend healthcare services beyond hospital walls. These tools are especially valuable in reaching patients in remote or rural Nigerian communities. Blood pressure cuffs, pulse oximeters, and glucometers transmit vital signs via mobile networks directly to healthcare facilities, allowing nurses to track chronic illnesses and intervene early."
     },
     {
       "heading_id": "GNS113_U1_T4_h6",
       "order": 6,
-      "title": "Evaluating and Securing Informatics Tools in Healthcare Practice",
-      "content": "While informatics tools improve efficiency, they also introduce significant challenges regarding data security, patient privacy, and system reliability. Nurses must strictly adhere to patient confidentiality laws, ensuring computer screens are locked when unattended and login passwords are never shared. Furthermore, nurses play a critical role in evaluating whether informatics tools actually improve patient outcomes or simply add frustrating administrative hurdles, often referred to as alert fatigue. Active nursing feedback helps IT departments fine-tune software interfaces so they remain practical and patient-centered."
+      "title": "Clinical Decision Support Systems",
+      "content": "Clinical Decision Support Systems (CDSS) analyze patient data within the EHR to provide automated alerts, reminders, and evidence-based guidelines. These systems warn nurses about potential drug allergies, abnormal lab values, or missed preventive care interventions. CDSS acts as a safety net, enhancing clinical reasoning but never replacing professional nursing judgment."
+    },
+    {
+      "heading_id": "GNS113_U1_T4_h7",
+      "order": 7,
+      "title": "Evaluating and Securing Informatics Tools",
+      "content": "Using informatics tools safely requires strict adherence to data privacy laws, strong passwords, and regular system evaluations. Patient confidentiality must be maintained across all digital platforms. Nurses must log out of workstations when leaving the bedside and report any software glitches or security vulnerabilities immediately to protect sensitive health information from unauthorized access."
     }
   ]
 }

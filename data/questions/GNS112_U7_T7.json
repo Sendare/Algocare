@@ -7,13 +7,13 @@
     "difficulty": "recall",
     "question": "What is the primary purpose of triage in an emergency department?",
     "options": {
-      "A": "To assign nurses to specific hospital wards permanently",
-      "B": "To collect hospital fees before medical treatment begins",
-      "C": "To sort patients by injury severity for proper care order",
-      "D": "To discharge stable patients quickly without examination"
+      "A": "Collecting hospital bills from relatives",
+      "B": "Sorting patients based on injury severity",
+      "C": "Assigning nurses to specific wards",
+      "D": "Registering patients in order of arrival"
     },
-    "answer": "C",
-    "explanation": "Triage prioritizes patients so those with life-threatening emergencies receive care before stable individuals. [learn more](GNS112_U7_T7#GNS112_U7_T7_h1)"
+    "answer": "B",
+    "explanation": "Triage prioritizes care according to clinical urgency so that unstable patients are treated first regardless of arrival time. [learn more](GNS112_U7_T7#GNS112_U7_T7_h1)"
   },
   {
     "question_id": "GNS112_U7_T7_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GNS112_U7_T7",
     "topic_id": "GNS112_U7_T7",
     "difficulty": "understanding",
-    "question": "Why is efficient triage especially critical in busy Nigerian healthcare settings?",
+    "question": "A patient arrives at the emergency unit walking and talking with a minor laceration. Where does this patient fit in standard triage?",
     "options": {
-      "A": "It helps manage limited resources to treat the sickest patients first",
-      "B": "It stops patients from visiting the emergency department at night",
-      "C": "It ensures every patient is admitted to a private room immediately",
-      "D": "It completely eliminates the need for doctors in the emergency unit"
+      "A": "Immediate resuscitation category",
+      "B": "Delayed or non-urgent category",
+      "C": "Emergency critical care zone",
+      "D": "Intensive care monitoring unit"
     },
-    "answer": "A",
-    "explanation": "Resource constraints mean staff must quickly identify and prioritize the most vulnerable lives to save them. [learn more](GNS112_U7_T7#GNS112_U7_T7_h1)"
+    "answer": "B",
+    "explanation": "Stable patients with minor injuries pose no immediate threat to life and are assigned to lower urgency categories. [learn more](GNS112_U7_T7#GNS112_U7_T7_h1)"
   },
   {
     "question_id": "GNS112_U7_T7_h2_q1",
@@ -37,31 +37,31 @@
     "article_id": "GNS112_U7_T7",
     "topic_id": "GNS112_U7_T7",
     "difficulty": "recall",
-    "question": "What does the letter 'B' stand for in the primary survey ABCDE approach?",
+    "question": "What does the letter 'B' stand for in the emergency primary survey?",
     "options": {
       "A": "Bone",
-      "B": "Bleeding",
-      "C": "Brain",
-      "D": "Breathing"
+      "B": "Blood",
+      "C": "Breathing",
+      "D": "Bleeding"
     },
-    "answer": "D",
-    "explanation": "In the standard ABCDE emergency framework, B stands for breathing assessment and management. [learn more](GNS112_U7_T7#GNS112_U7_T7_h2)"
+    "answer": "C",
+    "explanation": "The ABCDE framework designates B for assessing respiratory status and oxygenation after securing the airway. [learn more](GNS112_U7_T7#GNS112_U7_T7_h2)"
   },
   {
     "question_id": "GNS112_U7_T7_h2_q2",
     "heading_id": "GNS112_U7_T7_h2",
     "article_id": "GNS112_U7_T7",
     "topic_id": "GNS112_U7_T7",
-    "difficulty": "understanding",
-    "question": "Why must the primary survey be performed in a strict alphabetical order?",
+    "difficulty": "application",
+    "question": "A trauma patient is brought in bleeding heavily from a thigh wound. During the primary survey, when should you address this bleeding?",
     "options": {
-      "A": "To address the most immediate life threats to survival first",
-      "B": "To give doctors time to arrive before any nursing action begins",
-      "C": "To ensure the patient stays awake throughout the entire procedure",
-      "D": "To match the standard filing system of the medical records unit"
+      "A": "During the Circulation check",
+      "B": "During the Exposure phase",
+      "C": "After completing the neurological exam",
+      "D": "Before assessing the airway"
     },
     "answer": "A",
-    "explanation": "Airway and breathing failures kill faster than circulation or disability issues, making sequence vital. [learn more](GNS112_U7_T7#GNS112_U7_T7_h2)"
+    "explanation": "Major hemorrhage control is a core component of the Circulation step in the primary survey. [learn more](GNS112_U7_T7#GNS112_U7_T7_h2)"
   },
   {
     "question_id": "GNS112_U7_T7_h3_q1",
@@ -69,15 +69,15 @@
     "article_id": "GNS112_U7_T7",
     "topic_id": "GNS112_U7_T7",
     "difficulty": "recall",
-    "question": "Which airway maneuver is safely used for a patient with suspected neck trauma?",
+    "question": "Which airway maneuver is safest for a patient with suspected cervical spine injury?",
     "options": {
-      "A": "Neck-extension method",
-      "B": "Head-tilt chin-lift",
-      "C": "Hyper-flexion technique",
-      "D": "Jaw-thrust maneuver"
+      "A": "Jaw-thrust maneuver",
+      "B": "Head-tilt/chin-lift maneuver",
+      "C": "Lateral neck rotation",
+      "D": "Neck hyperextension method"
     },
-    "answer": "D",
-    "explanation": "The jaw-thrust opens the airway without manipulating the cervical spine, preventing spinal cord injury. [learn more](GNS112_U7_T7#GNS112_U7_T7_h3)"
+    "answer": "A",
+    "explanation": "The jaw-thrust maneuver opens the airway without extending the neck, protecting the cervical spine in trauma. [learn more](GNS112_U7_T7#GNS112_U7_T7_h3)"
   },
   {
     "question_id": "GNS112_U7_T7_h3_q2",
@@ -85,15 +85,15 @@
     "article_id": "GNS112_U7_T7",
     "topic_id": "GNS112_U7_T7",
     "difficulty": "understanding",
-    "question": "What is the primary clinical sign indicating a patient needs immediate airway intervention?",
+    "question": "Why is an oropharyngeal airway contraindicated in a fully conscious patient?",
     "options": {
-      "A": "Anxiety about being admitted to the emergency ward",
-      "B": "Inability to speak clearly or noisy breathing sounds",
-      "C": "A blood pressure reading slightly above the normal range",
-      "D": "A mild headache reported after a minor traffic accident"
+      "A": "It reduces the blood pressure rapidly",
+      "B": "It triggers the gag reflex and vomiting",
+      "C": "It causes immediate laryngeal spasm",
+      "D": "It blocks the nasal passages completely"
     },
     "answer": "B",
-    "explanation": "Noisy breathing like stridor or an inability to speak shows air is blocked, requiring instant clearance. [learn more](GNS112_U7_T7#GNS112_U7_T7_h3)"
+    "explanation": "Conscious patients have an intact gag reflex which causes them to reject the hard plastic device and risk aspiration. [learn more](GNS112_U7_T7#GNS112_U7_T7_h3)"
   },
   {
     "question_id": "GNS112_U7_T7_h4_q1",
@@ -101,31 +101,31 @@
     "article_id": "GNS112_U7_T7",
     "topic_id": "GNS112_U7_T7",
     "difficulty": "recall",
-    "question": "Which physical sign is an early indicator of developing clinical shock?",
+    "question": "Which sign is an early indicator of hypovolemic shock?",
     "options": {
-      "A": "High fever",
+      "A": "Hypertension",
       "B": "Tachycardia",
-      "C": "Deep sleep",
+      "C": "High urine output",
       "D": "Bradycardia"
     },
     "answer": "B",
-    "explanation": "The body increases heart rate to compensate for dropping blood pressure and maintain organ perfusion. [learn more](GNS112_U7_T7#GNS112_U7_T7_h4)"
+    "explanation": "The body compensates for falling blood volume by increasing the heart rate to maintain cardiac output. [learn more](GNS112_U7_T7#GNS112_U7_T7_h4)"
   },
   {
     "question_id": "GNS112_U7_T7_h4_q2",
     "heading_id": "GNS112_U7_T7_h4",
     "article_id": "GNS112_U7_T7",
     "topic_id": "GNS112_U7_T7",
-    "difficulty": "application",
-    "question": "A patient with severe trauma shows cool skin, confusion, and rapid pulse. What is the priority nursing action?",
+    "difficulty": "understanding",
+    "question": "What is the primary goal of fluid resuscitation in a patient with acute shock?",
     "options": {
-      "A": "Discharge the patient home with instructions to rest in bed",
-      "B": "Encourage the patient to drink large volumes of water orally",
-      "C": "Insert large-bore IV lines and prepare for fluid resuscitation",
-      "D": "Wait for laboratory blood test results before taking any action"
+      "A": "Lowering core body temperature",
+      "B": "Diluting toxins in the bloodstream",
+      "C": "Increasing red blood cell count",
+      "D": "Restoring adequate tissue perfusion"
     },
-    "answer": "C",
-    "explanation": "Signs point to hypovolemic shock, requiring immediate intravenous access to restore circulating blood volume. [learn more](GNS112_U7_T7#GNS112_U7_T7_h4)"
+    "answer": "D",
+    "explanation": "Fluid administration aims to fill the vascular space, raising blood pressure and delivering oxygen to vital organs. [learn more](GNS112_U7_T7#GNS112_U7_T7_h4)"
   },
   {
     "question_id": "GNS112_U7_T7_h5_q1",
@@ -133,15 +133,15 @@
     "article_id": "GNS112_U7_T7",
     "topic_id": "GNS112_U7_T7",
     "difficulty": "recall",
-    "question": "What does the letter 'A' stand for in the SAMPLE history mnemonic?",
+    "question": "What does the 'A' stand for in the SAMPLE history mnemonic?",
     "options": {
-      "A": "Antibiotics",
+      "A": "Airway",
       "B": "Allergies",
-      "C": "Airway",
-      "D": "Activity"
+      "C": "Activity",
+      "D": "Antibiotics"
     },
     "answer": "B",
-    "explanation": "In the SAMPLE history tool, A represents checking for known patient allergies to drugs or food. [learn more](GNS112_U7_T7#GNS112_U7_T7_h5)"
+    "explanation": "In patient history taking, A represents checking for known drug or food allergies before treatment. [learn more](GNS112_U7_T7#GNS112_U7_T7_h5)"
   },
   {
     "question_id": "GNS112_U7_T7_h5_q2",
@@ -149,15 +149,15 @@
     "article_id": "GNS112_U7_T7",
     "topic_id": "GNS112_U7_T7",
     "difficulty": "understanding",
-    "question": "When is the appropriate time to start the secondary survey on an emergency patient?",
+    "question": "When should an emergency nurse perform the secondary survey?",
     "options": {
-      "A": "Immediately when the ambulance arrives before looking at the patient",
-      "B": "Only after the patient is transferred to a long-term care ward",
-      "C": "Before checking if the patient has a patent airway or clear breathing",
-      "D": "After life-threatening primary survey issues are managed and stabilized"
+      "A": "After the primary survey and patient stabilization",
+      "B": "While awaiting the initial triage classification",
+      "C": "Before checking the airway and breathing status",
+      "D": "Only when the patient requests pain relief"
     },
-    "answer": "D",
-    "explanation": "The secondary survey only happens after ABCDE priorities are secured so hidden injuries are not missed. [learn more](GNS112_U7_T7#GNS112_U7_T7_h5)"
+    "answer": "A",
+    "explanation": "The secondary survey is postponed until immediate life-threatening ABCDE issues are addressed and stabilized. [learn more](GNS112_U7_T7#GNS112_U7_T7_h5)"
   },
   {
     "question_id": "GNS112_U7_T7_h6_q1",
@@ -165,31 +165,31 @@
     "article_id": "GNS112_U7_T7",
     "topic_id": "GNS112_U7_T7",
     "difficulty": "recall",
-    "question": "Which access route is commonly used for emergency drug delivery when peripheral veins collapse?",
+    "question": "Which medication is the first-line treatment for acute anaphylactic shock?",
     "options": {
-      "A": "Topical skin route",
-      "B": "Intraosseous route",
-      "C": "Subcutaneous route",
-      "D": "Intradermal route"
+      "A": "Atropine",
+      "B": "Digoxin",
+      "C": "Furosemide",
+      "D": "Epinephrine"
     },
-    "answer": "B",
-    "explanation": "Intraosseous access provides rapid entry into the vascular system via bone marrow when veins are inaccessible. [learn more](GNS112_U7_T7#GNS112_U7_T7_h6)"
+    "answer": "D",
+    "explanation": "Epinephrine reverses bronchospasm and vasoconstriction rapidly during severe allergic reactions. [learn more](GNS112_U7_T7#GNS112_U7_T7_h6)"
   },
   {
     "question_id": "GNS112_U7_T7_h6_q2",
     "heading_id": "GNS112_U7_T7_h6",
     "article_id": "GNS112_U7_T7",
     "topic_id": "GNS112_U7_T7",
-    "difficulty": "understanding",
-    "question": "Why is medication safety especially challenging during high-stress emergency resuscitations?",
+    "difficulty": "application",
+    "question": "An unconscious emergency patient lacks peripheral veins and needs rapid fluid and drug delivery. What is the best alternative access route?",
     "options": {
-      "A": "Patients refuse to take any medications given through an IV line",
-      "B": "High-alert drugs and fast-paced environments increase error risks",
-      "C": "Doctors refuse to write down drug orders during a code blue",
-      "D": "Emergency nurses are never trained in pharmacology principles"
+      "A": "Transdermal route",
+      "B": "Subcutaneous route",
+      "C": "Intraosseous route",
+      "D": "Intramuscular route"
     },
-    "answer": "B",
-    "explanation": "Urgent dosing under pressure increases the chance of calculation mistakes and wrong drug administration. [learn more](GNS112_U7_T7#GNS112_U7_T7_h6)"
+    "answer": "C",
+    "explanation": "Intraosseous infusion provides rapid access to the systemic circulation when peripheral veins collapse or cannot be found. [learn more](GNS112_U7_T7#GNS112_U7_T7_h6)"
   },
   {
     "question_id": "GNS112_U7_T7_h7_q1",
@@ -197,15 +197,15 @@
     "article_id": "GNS112_U7_T7",
     "topic_id": "GNS112_U7_T7",
     "difficulty": "recall",
-    "question": "What does the acronym SBAR stand for in clinical communication?",
+    "question": "What is the primary benefit of closed-loop communication in emergencies?",
     "options": {
-      "A": "Symptoms, Breathing, Assessment, Resuscitation",
-      "B": "Situation, Background, Assessment, Recommendation",
-      "C": "System, Bedside, Action, Report",
-      "D": "Safety, Blood, Airway, Response"
+      "A": "Eliminating the need for senior medical staff",
+      "B": "Speeding up the patient discharge process",
+      "C": "Reducing the overall documentation workload",
+      "D": "Ensuring instructions are heard and understood correctly"
     },
-    "answer": "B",
-    "explanation": "SBAR is a standardized tool used by healthcare workers to share concise patient information clearly. [learn more](GNS112_U7_T7#GNS112_U7_T7_h7)"
+    "answer": "D",
+    "explanation": "Repeating back orders confirms that the message was received accurately by the correct team member. [learn more](GNS112_U7_T7#GNS112_U7_T7_h7)"
   },
   {
     "question_id": "GNS112_U7_T7_h7_q2",
@@ -213,15 +213,15 @@
     "article_id": "GNS112_U7_T7",
     "topic_id": "GNS112_U7_T7",
     "difficulty": "understanding",
-    "question": "What is the primary benefit of using closed-loop communication during a resuscitation?",
+    "question": "Why is a team debriefing conducted after a major resuscitation event?",
     "options": {
-      "A": "It replaces the need for keeping written patient medical charts",
-      "B": "It allows family members to direct the medical resuscitation team",
-      "C": "It ensures orders given by the team leader are heard and confirmed",
-      "D": "It stops all conversations in the emergency room immediately"
+      "A": "To complete the formal hospital billing sheets",
+      "B": "To assign blame for any clinical errors made",
+      "C": "To review team performance and identify improvements",
+      "D": "To discharge stable patients from the ward"
     },
     "answer": "C",
-    "explanation": "Repeating instructions back closes the loop, confirming that the receiver understood the task correctly. [learn more](GNS112_U7_T7#GNS112_U7_T7_h7)"
+    "explanation": "Debriefing focuses on constructive learning and system evaluation rather than fault-finding. [learn more](GNS112_U7_T7#GNS112_U7_T7_h7)"
   },
   {
     "question_id": "GNS112_U7_T7_h8_q1",
@@ -229,15 +229,15 @@
     "article_id": "GNS112_U7_T7",
     "topic_id": "GNS112_U7_T7",
     "difficulty": "recall",
-    "question": "What type of consent allows emergency treatment for an unconscious patient whose life is in danger?",
+    "question": "What type of consent is generally assumed when an unconscious patient requires life-saving emergency care?",
     "options": {
-      "A": "Informed consent",
-      "B": "Written consent",
-      "C": "Implied consent",
-      "D": "Refusal consent"
+      "A": "Proxy family consent",
+      "B": "Implied consent",
+      "C": "Expressed verbal consent",
+      "D": "Informed written consent"
     },
-    "answer": "C",
-    "explanation": "Law and ethics assume an unconscious patient would consent to life-saving care in an emergency. [learn more](GNS112_U7_T7#GNS112_U7_T7_h8)"
+    "answer": "B",
+    "explanation": "Law and medical ethics assume that a dying or unconscious person would want life-saving intervention. [learn more](GNS112_U7_T7#GNS112_U7_T7_h8)"
   },
   {
     "question_id": "GNS112_U7_T7_h8_q2",
@@ -245,14 +245,14 @@
     "article_id": "GNS112_U7_T7",
     "topic_id": "GNS112_U7_T7",
     "difficulty": "understanding",
-    "question": "Why is prompt and accurate documentation vital in emergency nursing practice?",
+    "question": "Which practice represents correct documentation standards in an emergency department?",
     "options": {
-      "A": "It provides a legal record of care and guides ongoing treatment",
-      "B": "It prevents patients from asking questions about their condition",
-      "C": "It is only used for calculating hospital financial bills at discharge",
-      "D": "It replaces the need for verbal handovers between shift nurses"
+      "A": "Waiting until the end of the shift to write all patient notes from memory",
+      "B": "Using correction fluid to erase charting mistakes made under pressure",
+      "C": "Recording vital signs immediately after taking them with accurate timestamps",
+      "D": "Documenting care provided by a colleague without verifying the action"
     },
-    "answer": "A",
-    "explanation": "Clear notes protect the nurse legally and ensure safe continuity of care for the next provider. [learn more](GNS112_U7_T7#GNS112_U7_T7_h8)"
+    "answer": "C",
+    "explanation": "Timely and contemporaneous documentation ensures legal protection and accurate clinical continuity. [learn more](GNS112_U7_T7#GNS112_U7_T7_h8)"
   }
 ]

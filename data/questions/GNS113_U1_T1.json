@@ -7,13 +7,13 @@
     "difficulty": "recall",
     "question": "What three major sciences are combined in nursing informatics?",
     "options": {
-      "A": "Nursing, physical, and biological sciences",
-      "B": "Nursing, computer, and information sciences",
-      "C": "Medicine, pharmacy, and computer sciences",
-      "D": "Information, social, and political sciences"
+      "A": "Nursing, medical, and administrative sciences",
+      "B": "Biology, physics, and computer science",
+      "C": "Social, computer, and laboratory sciences",
+      "D": "Nursing, computer, and information sciences"
     },
-    "answer": "B",
-    "explanation": "Nursing informatics merges nursing practice with computer and information systems to manage patient data effectively. [learn more](GNS113_U1_T1#GNS113_U1_T1_h1)"
+    "answer": "D",
+    "explanation": "Nursing informatics is officially defined by the integration of nursing science, computer science, and information science to handle health data. [learn more](GNS113_U1_T1#GNS113_U1_T1_h1)"
   },
   {
     "question_id": "GNS113_U1_T1_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GNS113_U1_T1",
     "topic_id": "GNS113_U1_T1",
     "difficulty": "understanding",
-    "question": "What is the main goal of nursing informatics in everyday hospital practice?",
+    "question": "Why is nursing informatics considered more than just using a computer for documentation?",
     "options": {
-      "A": "To increase the cost of hospital administrative duties",
-      "B": "To replace bedside nurses with automated computer programs",
-      "C": "To eliminate the need for paper prescription records",
-      "D": "To support decision-making and improve patient safety"
+      "A": "It structures information to support clinical decisions and patient safety",
+      "B": "it focuses exclusively on hospital financial record management",
+      "C": "It eliminates all forms of human error in drug administration",
+      "D": "It completely replaces the need for direct bedside nursing care"
     },
-    "answer": "D",
-    "explanation": "You got this! Technology isn't here to replace us; its ultimate aim is to empower our clinical decisions and create safer, better environments for our patients. [learn more](GNS113_U1_T1#GNS113_U1_T1_h1)"
+    "answer": "A",
+    "explanation": "The discipline aims to manage data and knowledge to actively improve clinical judgment and patient outcomes, rather than just serving as a typing tool. [learn more](GNS113_U1_T1#GNS113_U1_T1_h1)"
   },
   {
     "question_id": "GNS113_U1_T1_h2_q1",
@@ -37,31 +37,31 @@
     "article_id": "GNS113_U1_T1",
     "topic_id": "GNS113_U1_T1",
     "difficulty": "recall",
-    "question": "In informatics, what do we call raw, unorganized, and uninterpreted facts?",
+    "question": "Unprocessed clinical numbers or symbols without any context are classified as what?",
     "options": {
-      "A": "Knowledge",
-      "B": "Information",
+      "A": "Wisdom",
+      "B": "Knowledge",
       "C": "Data",
-      "D": "Wisdom"
+      "D": "Information"
     },
     "answer": "C",
-    "explanation": "Think of 'data' as isolated, raw facts. They just sit there until we process them and give them some meaning! [learn more](GNS113_U1_T1#GNS113_U1_T1_h2)"
+    "explanation": "Data represents raw, unorganized facts and numbers that lack specific clinical context until they are processed. [learn more](GNS113_U1_T1#GNS113_U1_T1_h2)"
   },
   {
     "question_id": "GNS113_U1_T1_h2_q2",
     "heading_id": "GNS113_U1_T1_h2",
     "article_id": "GNS113_U1_T1",
     "topic_id": "GNS113_U1_T1",
-    "difficulty": "application",
-    "question": "A nurse checks a patient's vital signs and immediately spots a pattern that looks like sepsis, using past training. What level of the informatics framework is this?",
+    "difficulty": "understanding",
+    "question": "A nurse uses clinical experience and synthesized information to choose the best intervention. What level of the DIKW framework does this represent?",
     "options": {
       "A": "Wisdom",
       "B": "Data",
       "C": "Information",
-      "D": "Knowledge"
+      "D": "Noise"
     },
-    "answer": "D",
-    "explanation": "Spotting a disease pattern by combining structured information with your clinical understanding is a classic example of applying your nursing knowledge! [learn more](GNS113_U1_T1#GNS113_U1_T1_h2)"
+    "answer": "A",
+    "explanation": "Wisdom is the highest tier of the framework, involving the ethical and practical application of knowledge to manage patient care challenges. [learn more](GNS113_U1_T1#GNS113_U1_T1_h2)"
   },
   {
     "question_id": "GNS113_U1_T1_h3_q1",
@@ -69,15 +69,15 @@
     "article_id": "GNS113_U1_T1",
     "topic_id": "GNS113_U1_T1",
     "difficulty": "recall",
-    "question": "Around which decades did computers first start showing up in hospitals for basic tasks?",
+    "question": "What was the primary use of early hospital computer systems during the 1960s and 1970s?",
     "options": {
-      "A": "The 1960s and 1970s",
-      "B": "The 1940s and 1950s",
-      "C": "The early 2000s",
-      "D": "The late 1990s"
+      "A": "Direct patient vital sign monitoring",
+      "B": "Managing nursing care plans",
+      "C": "Electronic health record documentation",
+      "D": "Financial billing and census tracking"
     },
-    "answer": "A",
-    "explanation": "Hospital computerization actually started way back in the 1960s and 1970s, mostly helping out with financial and administrative systems. [learn more](GNS113_U1_T1#GNS113_U1_T1_h3)"
+    "answer": "D",
+    "explanation": "Early computing in healthcare focused heavily on administrative tasks like billing rather than clinical nursing workflows. [learn more](GNS113_U1_T1#GNS113_U1_T1_h3)"
   },
   {
     "question_id": "GNS113_U1_T1_h3_q2",
@@ -85,15 +85,15 @@
     "article_id": "GNS113_U1_T1",
     "topic_id": "GNS113_U1_T1",
     "difficulty": "understanding",
-    "question": "Why did early nurses push for specialized clinical software instead of just using general business programs?",
+    "question": "In what decade did nursing informatics gain official recognition as a distinct professional specialty?",
     "options": {
-      "A": "General programs failed to capture unique nursing care and assessments",
-      "B": "Hospital management forbade nurses from using standard keyboards",
-      "C": "Business software was too expensive for Nigerian hospitals to purchase",
-      "D": "Nurses wanted to avoid learning how to type medical notes"
+      "A": "1980s",
+      "B": "1990s",
+      "C": "1970s",
+      "D": "2000s"
     },
-    "answer": "A",
-    "explanation": "Standard business software just didn't cut it. Nurses needed specific tools designed to document real, hands-on professional nursing care accurately. [learn more](GNS113_U1_T1#GNS113_U1_T1_h3)"
+    "answer": "B",
+    "explanation": "The American Nurses Association officially recognized nursing informatics as a specialty in 1992, marking a major milestone for the field. [learn more](GNS113_U1_T1#GNS113_U1_T1_h3)"
   },
   {
     "question_id": "GNS113_U1_T1_h4_q1",
@@ -101,15 +101,15 @@
     "article_id": "GNS113_U1_T1",
     "topic_id": "GNS113_U1_T1",
     "difficulty": "recall",
-    "question": "What is one of the main jobs of a nurse working in informatics?",
+    "question": "Which system is commonly used to provide a standardized language for nursing diagnoses?",
     "options": {
-      "A": "Repairing broken computer monitors on the hospital ward",
-      "B": "Acting as a bridge between clinicians and IT developers",
-      "C": "Prescribing medications when doctors are unavailable",
-      "D": "Managing the financial budget of the entire hospital"
+      "A": "Diagnostic and Statistical Manual",
+      "B": "International Classification of Diseases",
+      "C": "NANDA-International",
+      "D": "Current Procedural Terminology"
     },
-    "answer": "B",
-    "explanation": "Nurse informaticists use their clinical know-how to translate what nurses need into technical requirements so software actually works well at the bedside. [learn more](GNS113_U1_T1#GNS113_U1_T1_h4)"
+    "answer": "C",
+    "explanation": "NANDA-I provides the standardized terminology specifically designed for identifying and naming nursing diagnoses. [learn more](GNS113_U1_T1#GNS113_U1_T1_h4)"
   },
   {
     "question_id": "GNS113_U1_T1_h4_q2",
@@ -117,15 +117,15 @@
     "article_id": "GNS113_U1_T1",
     "topic_id": "GNS113_U1_T1",
     "difficulty": "understanding",
-    "question": "Which skill is most essential for a nurse informaticist analyzing a busy outpatient clinic?",
+    "question": "Why is the use of standardized nursing terminologies essential in electronic health records?",
     "options": {
-      "A": "Hospital facility plumbing",
-      "B": "Major surgical assistance",
-      "C": "Workflow analysis",
-      "D": "Pharmaceutical compounding"
+      "A": "It reduces the financial cost of purchasing hospital computer hardware",
+      "B": "It completely removes the need for nurses to write narrative nursing notes",
+      "C": "It ensures clear communication and allows evaluation of nursing care outcomes",
+      "D": "It stops patients from viewing their own electronic medical charts"
     },
     "answer": "C",
-    "explanation": "Workflow analysis helps identify bottlenecks in how nurses document care so technology can make processes smoother. [learn more](GNS113_U1_T1#GNS113_U1_T1_h4)"
+    "explanation": "Standardized languages create a uniform way to track interventions and outcomes, improving continuity and research quality. [learn more](GNS113_U1_T1#GNS113_U1_T1_h4)"
   },
   {
     "question_id": "GNS113_U1_T1_h5_q1",
@@ -133,15 +133,15 @@
     "article_id": "GNS113_U1_T1",
     "topic_id": "GNS113_U1_T1",
     "difficulty": "recall",
-    "question": "Which tech tool is most helpful in preventing medication errors right at the patient's bedside?",
+    "question": "What is the primary function of a nursing informaticist in a healthcare setting?",
     "options": {
-      "A": "Laboratory centrifuges",
-      "B": "Digital radiography",
-      "C": "Surgical suction pumps",
-      "D": "Barcode scanning"
+      "A": "Conducting laboratory tests for infectious diseases",
+      "B": "Bridging clinical practice and information technology",
+      "C": "Managing hospital financial accounts and staff payroll",
+      "D": "Repairing damaged computer hardware and printer cables"
     },
-    "answer": "D",
-    "explanation": "Barcode medication administration is a lifesaver—it quickly matches the patient's ID band with the drug package to stop mistakes before they happen. [learn more](GNS113_U1_T1#GNS113_U1_T1_h5)"
+    "answer": "B",
+    "explanation": "Informaticists connect the clinical needs of nurses with the technical capabilities of IT systems to optimize patient care. [learn more](GNS113_U1_T1#GNS113_U1_T1_h5)"
   },
   {
     "question_id": "GNS113_U1_T1_h5_q2",
@@ -149,15 +149,15 @@
     "article_id": "GNS113_U1_T1",
     "topic_id": "GNS113_U1_T1",
     "difficulty": "understanding",
-    "question": "How do electronic alert systems help keep patients safe on the hospital ward?",
+    "question": "A nurse analyzes clinical workflows to improve an electronic health record interface. This task demonstrates which competency?",
     "options": {
-      "A": "By ordering laboratory tests without physician approval",
-      "B": "By automatically discharging patients who recover quickly",
-      "C": "By locking computer screens when nurses walk away",
-      "D": "By notifying staff immediately of sudden vital sign changes"
+      "A": "Informatics competency",
+      "B": "Epidemiological competency",
+      "C": "Surgical scrub competency",
+      "D": "Pharmacological competency"
     },
-    "answer": "D",
-    "explanation": "Automated warnings catch patient deterioration early, giving us a helpful heads-up to step in before a crisis hits. [learn more](GNS113_U1_T1#GNS113_U1_T1_h5)"
+    "answer": "A",
+    "explanation": "Analyzing workflows and improving digital interfaces falls directly under informatics competencies expected of specialized nursing roles. [learn more](GNS113_U1_T1#GNS113_U1_T1_h5)"
   },
   {
     "question_id": "GNS113_U1_T1_h6_q1",
@@ -165,15 +165,15 @@
     "article_id": "GNS113_U1_T1",
     "topic_id": "GNS113_U1_T1",
     "difficulty": "recall",
-    "question": "What is a major challenge slowing down electronic health record use in many Nigerian healthcare settings?",
+    "question": "What safety feature do electronic medication administration records often use to prevent dosage errors?",
     "options": {
-      "A": "Strict government bans on computer usage in wards",
-      "B": "Lack of interest from patients attending clinics",
-      "C": "Erratic power supply and poor internet connectivity",
-      "D": "An absolute absence of mobile phones in the country"
+      "A": "Physical pill counting",
+      "B": "Barcode scanning",
+      "C": "Manual paper sign-off",
+      "D": "Verbal telephone orders"
     },
-    "answer": "C",
-    "explanation": "Practical infrastructure hurdles, like unstable electricity and weak internet networks, are often the biggest roadblocks to going fully digital. [learn more](GNS113_U1_T1#GNS113_U1_T1_h6)"
+    "answer": "B",
+    "explanation": "Barcode scanning matches the patient identity and medication container to prevent administration mistakes at the bedside. [learn more](GNS113_U1_T1#GNS113_U1_T1_h6)"
   },
   {
     "question_id": "GNS113_U1_T1_h6_q2",
@@ -181,14 +181,14 @@
     "article_id": "GNS113_U1_T1",
     "topic_id": "GNS113_U1_T1",
     "difficulty": "understanding",
-    "question": "Which technology is currently helping to expand healthcare access to people living in remote rural communities?",
+    "question": "How do clinical decision support systems help protect patients from harm?",
     "options": {
-      "A": "Magnetic resonance imaging",
-      "B": "Automated pharmacy dispensing",
-      "C": "Telemedicine",
-      "D": "Robotic surgery"
+      "A": "By replacing the physical assessment skills of the nurse",
+      "B": "By ordering laboratory investigations without physician review",
+      "C": "By automatically discharging patients who recover quickly",
+      "D": "By generating automated alerts for potential drug allergies"
     },
-    "answer": "C",
-    "explanation": "Telemedicine is amazing for bridging the gap, using everyday communication tech to connect patients in remote areas with qualified healthcare providers. [learn more](GNS113_U1_T1#GNS113_U1_T1_h6)"
+    "answer": "D",
+    "explanation": "Automated alerts warn clinicians of risks like drug interactions or allergies before an error reaches the patient. [learn more](GNS113_U1_T1#GNS113_U1_T1_h6)"
   }
 ]

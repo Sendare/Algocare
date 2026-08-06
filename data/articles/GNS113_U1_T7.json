@@ -10,44 +10,44 @@
     {
       "heading_id": "GNS113_U1_T7_h1",
       "order": 1,
-      "title": "Introduction to Computer Systems in Nursing",
-      "content": "Computers are now fundamental tools in Nigerian healthcare settings, moving far beyond simple administrative desks to the bedside. **Nursing informatics** combines nursing science, computer science, and information science to manage and communicate data, information, knowledge, and wisdom in nursing practice. A standard computer system relies on an interaction between physical machinery and intangible instructions to process patient information accurately. Understanding these basic components helps nurses troubleshoot minor hitches and use digital tools efficiently during busy ward shifts."
+      "title": "Introduction to Computer Systems in Healthcare",
+      "content": "Computers are essential tools in modern healthcare delivery across Nigeria, supporting everything from patient administration to complex clinical decision-making. A computer system functions through the interaction of tangible physical parts and intangible instruction sets. Understanding these foundational pieces allows nurses to navigate electronic hospital environments effectively, troubleshoot minor glitches, and maintain continuous patient care workflows without unexpected technical interruptions."
     },
     {
       "heading_id": "GNS113_U1_T7_h2",
       "order": 2,
-      "title": "Input and Output Devices at the Bedside",
-      "content": "Input devices allow users to feed data into a computer system, while output devices display or present the processed results. In a clinical environment, selecting the right device ensures quick and accurate data entry.\n\n- **Keyboard and Mouse**: Standard tools for typing patient notes and navigating electronic health records.\n- **BarcodeInput Scanners**: Used to read patient wristbands and medication packages, reducing drug administration errors.\n- **Touchscreens**: Common on mobile carts and bedside monitors for rapid data selection during ward rounds.\n- **Monitors**: Display vital signs, laboratory results, and patient charts visually.\n- **Printers**: Generate physical copies of drug charts, discharge summaries, and referral letters."
+      "title": "Hardware Components: Input and Output Devices",
+      "content": "Hardware refers to the physical machinery of a computer. Input devices allow users to enter data and commands into the system, while output devices display or present processed information.\n\n- **Keyboard and Mouse**: Standard tools used to type patient notes and navigate hospital software.\n- **Barcode Scanners**: Optical devices used at the bedside to verify patient wristbands and match medications correctly.\n- **Monitors**: Visual displays that present vital signs, laboratory results, and electronic health records.\n- **Printers**: Hardware used to generate hard copies of care plans, prescriptions, or discharge summaries."
     },
     {
       "heading_id": "GNS113_U1_T7_h3",
       "order": 3,
-      "title": "Processing Unit and System Memory",
-      "content": "The **Central Processing Unit (CPU)** acts as the brain of the computer, executing instructions and processing patient data entered by healthcare staff. Working closely with the CPU is **Random Access Memory (RAM)**, a temporary workspace where data currently in use is kept. When a nurse opens multiple patient charts at once, the system relies heavily on RAM to switch between them quickly. Unlike permanent storage, RAM is volatile, meaning all data inside it is wiped clean the moment the computer is switched off."
+      "title": "Hardware Components: Central Processing Unit (CPU) and Memory",
+      "content": "The central processing unit, often called the CPU, acts as the brain of the computer, executing instructions and processing clinical data. Alongside the CPU, computer memory holds information temporarily or permanently.\n\n- **CPU (Central Processing Unit)**: Interprets and executes commands from clinical software applications.\n- **RAM (Random Access Memory)**: Temporary workspace that holds data currently in use, which clears when the computer is turned off.\n- **ROM (Read-Only Memory)**: Permanent memory containing basic startup instructions that the computer needs to boot up."
     },
     {
       "heading_id": "GNS113_U1_T7_h4",
       "order": 4,
       "title": "Storage Devices and Health Data Management",
-      "content": "While memory handles active tasks, **storage devices** hold data permanently for long-term access and legal archiving. Hospitals generate massive amounts of information that must be retained for years. Traditional **Hard Disk Drives (HDDs)** use spinning magnetic platters, whereas modern **Solid State Drives (SSDs)** use flash memory with no moving parts, making them faster and more durable for busy clinical environments. External drives and cloud storage are also used for backup purposes to prevent catastrophic data loss during hardware failures or power surges."
+      "content": "While memory handles active tasks, storage devices retain data over long periods. In healthcare settings, reliable storage ensures that patient records, diagnostic scans, and institutional policies are preserved safely for future reference. Common storage mediums include hard disk drives (HDDs), solid-state drives (SSDs), and external USB flash drives, as well as cloud-based servers hosted off-site. Nurses must follow hospital protocols when storing or backing up sensitive health data to prevent accidental loss or unauthorized access."
     },
     {
       "heading_id": "GNS113_U1_T7_h5",
       "order": 5,
-      "title": "Software: Operating Systems and Clinical Applications",
-      "content": "Hardware cannot function without software to tell it what to do. The **operating system (OS)** manages the computer's hardware resources and provides a user-friendly interface for nurses and doctors. Running on top of the operating system are **application programs**, such as electronic health record platforms, medication calculation tools, and laboratory reporting suites. A common misconception is that the computer can run specialized clinical programs without a stable operating system foundation; in reality, the OS coordinates every background task required to keep clinical applications running smoothly."
+      "title": "Software Components: Operating Systems and Clinical Applications",
+      "content": "Software consists of the programs and instructions that tell the computer hardware what to do. It is broadly split into system software and application software.\n\n- **Operating System (OS)**: Manages hardware resources and provides a user interface, such as Windows or Linux.\n- **Clinical Application Software**: Specialized programs used by nurses to chart vital signs, review medication schedules, and access diagnostic reports."
     },
     {
       "heading_id": "GNS113_U1_T7_h6",
       "order": 6,
-      "title": "Computer Networks and Electronic Health Records",
-      "content": "Isolated computers limit healthcare delivery. **Computer networks** connect multiple terminals together, allowing departments to share information instantly. A **Local Area Network (LAN)** links computers within a single clinic or ward, while a **Wide Area Network (WAN)** connects different branches of a healthcare institution across cities. Through these networks, nurses access centralized **Electronic Health Records (EHR)**, ensuring that patient history, doctor orders, and nursing notes are visible simultaneously across the laboratory, pharmacy, and bedside stations."
+      "title": "Computer Networks and Electronic Health Record Connectivity",
+      "content": "Computer networks link individual workstations together, allowing data to flow seamlessly between departments like the laboratory, pharmacy, and nursing station. Local Area Networks (LANs) connect computers within a single facility, while Wide Area Networks (WANs) link multiple branches together. This connectivity powers Electronic Health Record (EHR) systems, ensuring that patient data entered at a triage desk is instantly visible to the attending physician in the ward."
     },
     {
       "heading_id": "GNS113_U1_T7_h7",
       "order": 7,
-      "title": "Data Security and Privacy in Nursing Practice",
-      "content": "Protecting patient information is both an ethical duty and a legal requirement for nurses. Digital health records contain sensitive personal data that must be safeguarded against unauthorized access, theft, or accidental disclosure. Measures like strong user passwords, automatic screen lockers, and restricted role-based access help maintain confidentiality. Nurses must NEVER share their login credentials with colleagues or leave patient terminals unattended while logged into clinical applications."
+      "title": "Data Security and Ethical Use in Nursing Practice",
+      "content": "With patient information stored digitally, protecting privacy is a primary professional duty for nurses. Data security involves using passwords, secure login credentials, and encrypted networks to prevent unauthorized access. Ethical use means accessing only the records necessary for direct patient care and maintaining confidentiality at all times. Leaving a computer terminal unlocked with patient data visible is a common breach of professional ethics and hospital policy."
     }
   ]
 }
