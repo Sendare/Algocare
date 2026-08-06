@@ -5,15 +5,15 @@
     "article_id": "GST114_U2_T1",
     "topic_id": "GST114_U2_T1",
     "difficulty": "recall",
-    "question": "How many links make up the standard chain of infection?",
+    "question": "How many distinct links make up the standard chain of infection?",
     "options": {
-      "A": "Ten links",
-      "B": "Six links",
+      "A": "Six links",
+      "B": "Eight links",
       "C": "Four links",
-      "D": "Eight links"
+      "D": "Ten links"
     },
-    "answer": "B",
-    "explanation": "You've got this! The chain of infection is made up of six links, starting from the infectious agent all the way to the susceptible host. [learn more](GST114_U2_T1#GST114_U2_T1_h1)"
+    "answer": "A",
+    "explanation": "The chain of infection is composed of six sequential links, starting with the infectious agent and ending with a susceptible host. [learn more](GST114_U2_T1#GST114_U2_T1_h1)"
   },
   {
     "question_id": "GST114_U2_T1_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GST114_U2_T1",
     "topic_id": "GST114_U2_T1",
     "difficulty": "understanding",
-    "question": "What happens when you wash your hands and stop a germ from reaching a patient?",
+    "question": "What happens to an infection cycle if a nurse successfully blocks the portal of entry?",
     "options": {
-      "A": "The reservoir completely disappears",
-      "B": "The infectious agent instantly dies",
-      "C": "A link in the chain of infection is broken",
-      "D": "The patient becomes immune to all diseases"
+      "A": "The pathogen multiplies faster",
+      "B": "The reservoir changes its location",
+      "C": "The host becomes immediately immune",
+      "D": "The chain of infection is broken"
     },
-    "answer": "C",
-    "explanation": "Spot on! Simple actions like hand hygiene interrupt transmission, effectively breaking the chain and keeping your patient safe. [learn more](GST114_U2_T1#GST114_U2_T1_h1)"
+    "answer": "D",
+    "explanation": "Interrupting any single component of the six links halts the transmission process entirely. [learn more](GST114_U2_T1#GST114_U2_T1_h1)"
   },
   {
     "question_id": "GST114_U2_T1_h2_q1",
@@ -37,15 +37,15 @@
     "article_id": "GST114_U2_T1",
     "topic_id": "GST114_U2_T1",
     "difficulty": "recall",
-    "question": "What do we call someone who carries and spreads a germ without looking or feeling sick?",
+    "question": "What term describes a human reservoir who harbors a pathogen without showing any symptoms?",
     "options": {
-      "A": "A primary reservoir",
-      "B": "An indirect vector",
-      "C": "An asymptomatic carrier",
-      "D": "A susceptible host"
+      "A": "A primary vector",
+      "B": "An active host",
+      "C": "A resistant source",
+      "D": "A passive carrier"
     },
-    "answer": "C",
-    "explanation": "Correct! Asymptomatic carriers harbor and spread germs while feeling completely healthy themselves. That's why universal precautions matter so much! [learn more](GST114_U2_T1#GST114_U2_T1_h2)"
+    "answer": "D",
+    "explanation": "Asymptomatic or passive carriers harbor and shed infectious agents without experiencing clinical illness themselves. [learn more](GST114_U2_T1#GST114_U2_T1_h2)"
   },
   {
     "question_id": "GST114_U2_T1_h2_q2",
@@ -53,15 +53,15 @@
     "article_id": "GST114_U2_T1",
     "topic_id": "GST114_U2_T1",
     "difficulty": "understanding",
-    "question": "Which of these is a non-living place where germs can hang out and multiply?",
+    "question": "Which of these represents an environmental reservoir for tetanus spores?",
     "options": {
-      "A": "A stray dog with rabies",
-      "B": "Contaminated hospital tap water",
-      "C": "A nurse with a skin infection",
-      "D": "A patient recovering from malaria"
+      "A": "Ordinary garden soil",
+      "B": "Infected mosquito saliva",
+      "C": "Stagnant tap water",
+      "D": "Unwashed hospital linens"
     },
-    "answer": "B",
-    "explanation": "Well done! Things like water, soil, and medical equipment are non-living (inanimate) sources that can store and grow pathogens. [learn more](GST114_U2_T1#GST114_U2_T1_h2)"
+    "answer": "A",
+    "explanation": "Clostridium tetani spores reside naturally in soil and enter the body through breaks in the skin. [learn more](GST114_U2_T1#GST114_U2_T1_h2)"
   },
   {
     "question_id": "GST114_U2_T1_h3_q1",
@@ -69,31 +69,31 @@
     "article_id": "GST114_U2_T1",
     "topic_id": "GST114_U2_T1",
     "difficulty": "recall",
-    "question": "In nursing, what is a 'fomite'?",
+    "question": "What is an inanimate object that transfers infectious agents between patients called?",
     "options": {
-      "A": "An inanimate object that harbors germs",
-      "B": "A chemical used to clean wounds",
-      "C": "A type of resistant bacterium",
-      "D": "An insect that carries disease"
+      "A": "A vector",
+      "B": "A fomite",
+      "C": "A droplet nucleus",
+      "D": "A reservoir"
     },
-    "answer": "A",
-    "explanation": "You nailed it! Fomites are non-living items like BP cuffs, tables, or stethoscopes that can pass germs from one person to another. [learn more](GST114_U2_T1#GST114_U2_T1_h3)"
+    "answer": "B",
+    "explanation": "Fomites are non-living items like instruments or furniture that passively carry and transfer pathogens. [learn more](GST114_U2_T1#GST114_U2_T1_h3)"
   },
   {
     "question_id": "GST114_U2_T1_h3_q2",
     "heading_id": "GST114_U2_T1_h3",
     "article_id": "GST114_U2_T1",
     "topic_id": "GST114_U2_T1",
-    "difficulty": "application",
-    "question": "A patient gets a wound infection after a nurse uses an uncleaned blood pressure cuff. What kind of spread is this?",
+    "difficulty": "understanding",
+    "question": "Which scenario is an example of vector-borne transmission?",
     "options": {
-      "A": "Direct transmission",
-      "B": "Airborne transmission",
-      "C": "Vector-borne transmission",
-      "D": "Indirect transmission via a fomite"
+      "A": "Contracting malaria from a mosquito bite",
+      "B": "Sharing a contaminated pen with a colleague",
+      "C": "Inhaling tuberculosis bacteria from room air",
+      "D": "Drinking contaminated water during an outbreak"
     },
-    "answer": "D",
-    "explanation": "Great job! The uncleaned cuff acts as a fomite, carrying the germ indirectly from one patient to the next. [learn more](GST114_U2_T1#GST114_U2_T1_h3)"
+    "answer": "A",
+    "explanation": "Vectors are living organisms, such as mosquitoes, that carry pathogens from one host to another. [learn more](GST114_U2_T1#GST114_U2_T1_h3)"
   },
   {
     "question_id": "GST114_U2_T1_h4_q1",
@@ -101,15 +101,15 @@
     "article_id": "GST114_U2_T1",
     "topic_id": "GST114_U2_T1",
     "difficulty": "recall",
-    "question": "How does a respiratory virus normally leave the body?",
+    "question": "Which portal of entry is most commonly bypassed by an intravenous cannula?",
     "options": {
-      "A": "Urine output",
-      "B": "Coughing and sneezing",
-      "C": "Intact skin surface",
-      "D": "Sweat glands"
+      "A": "The mucous membranes",
+      "B": "The gastrointestinal lining",
+      "C": "The respiratory tract",
+      "D": "The skin barrier"
     },
-    "answer": "B",
-    "explanation": "Exactly! Respiratory germs love to catch a ride on droplets expelled through the nose and mouth when someone coughs or sneezes. [learn more](GST114_U2_T1#GST114_U2_T1_h4)"
+    "answer": "D",
+    "explanation": "An intravenous cannula punctures the skin, bypassing the body's primary mechanical defense barrier. [learn more](GST114_U2_T1#GST114_U2_T1_h4)"
   },
   {
     "question_id": "GST114_U2_T1_h4_q2",
@@ -117,15 +117,15 @@
     "article_id": "GST114_U2_T1",
     "topic_id": "GST114_U2_T1",
     "difficulty": "understanding",
-    "question": "Why does putting in a urinary catheter raise a patient's risk of getting an infection?",
+    "question": "How do enteric pathogens typically leave the human body?",
     "options": {
-      "A": "It stops the kidneys from producing urine",
-      "B": "It turns the skin into a non-living reservoir",
-      "C": "It destroys all white blood cells in the bladder",
-      "D": "It creates an artificial pathway for bacteria to enter"
+      "A": "Through skin lesions",
+      "B": "Through respiratory sputum",
+      "C": "Through stool and vomit",
+      "D": "Through sweat secretions"
     },
-    "answer": "D",
-    "explanation": "Spot on! Catheters bypass the body's natural defenses, giving bacteria a direct highway into the urinary tract. [learn more](GST114_U2_T1#GST114_U2_T1_h4)"
+    "answer": "C",
+    "explanation": "Gastrointestinal pathogens exit the infected host primarily through fecal matter and vomitus. [learn more](GST114_U2_T1#GST114_U2_T1_h4)"
   },
   {
     "question_id": "GST114_U2_T1_h5_q1",
@@ -133,31 +133,31 @@
     "article_id": "GST114_U2_T1",
     "topic_id": "GST114_U2_T1",
     "difficulty": "recall",
-    "question": "What does 'susceptible host' mean in the chain of infection?",
+    "question": "What term describes the natural decrease in immune function that occurs with advanced age?",
     "options": {
-      "A": "A person who transmits viruses through the air",
-      "B": "A person who is completely immune to all germs",
-      "C": "A person whose body cannot easily fight off an invading germ",
-      "D": "A person who acts as a permanent reservoir for bacteria"
+      "A": "Immunosenescence",
+      "B": "Seroconversion",
+      "C": "Hypersensitivity",
+      "D": "Immunization"
     },
-    "answer": "C",
-    "explanation": "You got it! A susceptible host simply lacks the immunity or strength to stop a pathogen from causing an infection. [learn more](GST114_U2_T1#GST114_U2_T1_h5)"
+    "answer": "A",
+    "explanation": "Immunosenescence refers to the gradual deterioration of the immune system brought on by natural aging. [learn more](GST114_U2_T1#GST114_U2_T1_h5)"
   },
   {
     "question_id": "GST114_U2_T1_h5_q2",
     "heading_id": "GST114_U2_T1_h5",
     "article_id": "GST114_U2_T1",
     "topic_id": "GST114_U2_T1",
-    "difficulty": "understanding",
-    "question": "Which group of patients is usually most at risk for catching hospital-acquired infections?",
+    "difficulty": "application",
+    "question": "A patient with severe protein malnutrition is admitted to the ward. What is their primary infection risk?",
     "options": {
-      "A": "Athletes with minor muscular sprains",
-      "B": "Children with mild seasonal allergies",
-      "C": "Healthy young adults visiting friends",
-      "D": "Elderly patients receiving immune-suppressing medications"
+      "A": "They have increased susceptibility to invading pathogens",
+      "B": "They will develop rapid antibiotic resistance",
+      "C": "They will automatically trigger airborne isolation needs",
+      "D": "They act as a permanent environmental reservoir"
     },
-    "answer": "D",
-    "explanation": "Correct! Older age plus medications that lower immunity make these patients much more vulnerable to infections. [learn more](GST114_U2_T1#GST114_U2_T1_h5)"
+    "answer": "A",
+    "explanation": "Poor nutrition compromises immune cell function, leaving the host highly susceptible to infections. [learn more](GST114_U2_T1#GST114_U2_T1_h5)"
   },
   {
     "question_id": "GST114_U2_T1_h6_q1",
@@ -165,15 +165,15 @@
     "article_id": "GST114_U2_T1",
     "topic_id": "GST114_U2_T1",
     "difficulty": "recall",
-    "question": "During which stage of an infection do mild, general symptoms like tiredness first show up before full sickness hits?",
+    "question": "During which stage of an infection does a patient experience vague, non-specific symptoms like fatigue?",
     "options": {
-      "A": "Incubation period",
-      "B": "Prodromal stage",
-      "C": "Convalescent stage",
-      "D": "Illness stage"
+      "A": "The prodromal stage",
+      "B": "The incubation period",
+      "C": "The illness stage",
+      "D": "The convalescent stage"
     },
-    "answer": "B",
-    "explanation": "Well done! The prodromal stage is that early phase where a patient just feels 'off' or unusually tired before specific symptoms appear. [learn more](GST114_U2_T1#GST114_U2_T1_h6)"
+    "answer": "A",
+    "explanation": "The prodromal stage features early, generalized signs before classic disease-specific symptoms appear. [learn more](GST114_U2_T1#GST114_U2_T1_h6)"
   },
   {
     "question_id": "GST114_U2_T1_h6_q2",
@@ -181,15 +181,15 @@
     "article_id": "GST114_U2_T1",
     "topic_id": "GST114_U2_T1",
     "difficulty": "understanding",
-    "question": "Why is a patient in the prodromal stage often a high risk for spreading germs to others?",
+    "question": "What defines the incubation period of an infectious disease?",
     "options": {
-      "A": "Their immune system has completely stopped functioning",
-      "B": "They feel well enough to move around while carrying germs",
-      "C": "They shed the highest volume of toxic waste products",
-      "D": "Pathogens multiply exclusively during this specific phase"
+      "A": "The timeframe when antibiotics completely eliminate the microbe",
+      "B": "The duration when specific rashes and fevers are peaking",
+      "C": "The recovery phase where body tissues are finally repaired",
+      "D": "The time from pathogen entry until first symptoms appear"
     },
-    "answer": "B",
-    "explanation": "Spot on! Because they don't feel super sick yet, they keep moving around and unknowingly expose people around them. [learn more](GST114_U2_T1#GST114_U2_T1_h6)"
+    "answer": "D",
+    "explanation": "Incubation is the silent phase between exposure and the onset of any clinical signs. [learn more](GST114_U2_T1#GST114_U2_T1_h6)"
   },
   {
     "question_id": "GST114_U2_T1_h7_q1",
@@ -197,30 +197,30 @@
     "article_id": "GST114_U2_T1",
     "topic_id": "GST114_U2_T1",
     "difficulty": "recall",
-    "question": "What is the single most important nursing action to stop the spread of hospital infections?",
+    "question": "What is recognized as the single most effective way to prevent the spread of infections?",
     "options": {
-      "A": "Isolating every admitted patient",
-      "B": "Changing bed linens once an hour",
-      "C": "Administering broad-spectrum antibiotics",
-      "D": "Performing thorough hand hygiene"
+      "A": "Isolating every surgical patient",
+      "B": "Wearing sterile gowns",
+      "C": "Administering daily antibiotics",
+      "D": "Proper hand hygiene"
     },
     "answer": "D",
-    "explanation": "You nailed it! Good hand hygiene is your superpower as a nurse—it washes away germs and stops them in their tracks. [learn more](GST114_U2_T1#GST114_U2_T1_h7)"
+    "explanation": "Frequent and correct hand hygiene removes transient flora and stops cross-contamination between patients. [learn more](GST114_U2_T1#GST114_U2_T1_h7)"
   },
   {
     "question_id": "GST114_U2_T1_h7_q2",
     "heading_id": "GST114_U2_T1_h7",
     "article_id": "GST114_U2_T1",
     "topic_id": "GST114_U2_T1",
-    "difficulty": "application",
-    "question": "You wear sterile gloves and a mask while putting in a urinary catheter. Which link in the infection chain are you mainly trying to block?",
+    "difficulty": "understanding",
+    "question": "Which personal protective equipment is required for caring for a patient with active pulmonary tuberculosis?",
     "options": {
-      "A": "Reservoir",
-      "B": "Portal of entry",
-      "C": "Susceptible host",
-      "D": "Infectious agent"
+      "A": "A fitted N95 respirator",
+      "B": "A standard surgical mask",
+      "C": "A disposable plastic apron",
+      "D": "Sterile latex gloves only"
     },
-    "answer": "B",
-    "explanation": "Awesome! Using sterile barriers blocks germs from sneaking into vulnerable places like the urinary tract. [learn more](GST114_U2_T1#GST114_U2_T1_h7)"
+    "answer": "A",
+    "explanation": "Airborne pathogens like tuberculosis require specialized respiratory protection such as an N95 mask. [learn more](GST114_U2_T1#GST114_U2_T1_h7)"
   }
 ]

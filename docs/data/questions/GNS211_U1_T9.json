@@ -7,13 +7,13 @@
     "difficulty": "recall",
     "question": "What is the primary function of a hormone receptor on a target cell?",
     "options": {
-      "A": "To filter hormones out of the bloodstream",
-      "B": "To manufacture and release new hormones",
-      "C": "To break down excess hormones for energy",
-      "D": "To recognize and bind a specific hormone"
+      "A": "To transport hormones across the cell membrane",
+      "B": "To break down excess hormones in the bloodstream",
+      "C": "To bind a specific hormone and trigger cellular changes",
+      "D": "To manufacture new hormones for systemic release"
     },
-    "answer": "D",
-    "explanation": "Receptors act like specialized locks that only open for their specific hormone key to trigger a cellular response. [learn more](GNS211_U1_T9#GNS211_U1_T9_h1)"
+    "answer": "C",
+    "explanation": "Receptors recognize and bind specific chemical messengers to initiate intracellular signaling pathways. [learn more](GNS211_U1_T9#GNS211_U1_T9_h1)"
   },
   {
     "question_id": "GNS211_U1_T9_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GNS211_U1_T9",
     "topic_id": "GNS211_U1_T9",
     "difficulty": "understanding",
-    "question": "Why do circulating hormones only affect certain specific tissues rather than every cell in the body?",
+    "question": "Why do circulating hormones only affect specific target cells in the body?",
     "options": {
-      "A": "Only target cells possess the specific receptors for that hormone",
-      "B": "Blood flow is completely blocked from non-target organs",
-      "C": "Hormones are instantly destroyed if they touch wrong cells",
-      "D": "Non-target cells actively repel circulating chemical messengers"
+      "A": "Target cells express the matching receptors for those hormones",
+      "B": "Target cells are located closer to the endocrine glands",
+      "C": "Blood flow directs hormones exclusively to target organs",
+      "D": "Non-target cells actively destroy circulating hormones"
     },
     "answer": "A",
-    "explanation": "A hormone travels everywhere via the blood, but only cells with matching receptors can receive the message and respond. [learn more](GNS211_U1_T9#GNS211_U1_T9_h1)"
+    "explanation": "Cells without the specific receptor cannot bind the circulating hormone and therefore remain unaffected. [learn more](GNS211_U1_T9#GNS211_U1_T9_h1)"
   },
   {
     "question_id": "GNS211_U1_T9_h2_q1",
@@ -37,15 +37,15 @@
     "article_id": "GNS211_U1_T9",
     "topic_id": "GNS211_U1_T9",
     "difficulty": "recall",
-    "question": "Where are the receptors for water-soluble hormones located?",
+    "question": "Which of the following is classified as a lipid-soluble hormone?",
     "options": {
-      "A": "Inside the mitochondrial matrix",
-      "B": "On the outer cell surface",
-      "C": "Floating freely in blood plasma",
-      "D": "Inside the cell nucleus"
+      "A": "Cortisol",
+      "B": "Insulin",
+      "C": "Oxytocin",
+      "D": "Epinephrine"
     },
-    "answer": "B",
-    "explanation": "Because water-soluble hormones cannot cross the cell membrane, their receptors must be positioned on the outside surface. [learn more](GNS211_U1_T9#GNS211_U1_T9_h2)"
+    "answer": "A",
+    "explanation": "Steroid hormones like cortisol are lipid-soluble and can easily cross cell membranes. [learn more](GNS211_U1_T9#GNS211_U1_T9_h2)"
   },
   {
     "question_id": "GNS211_U1_T9_h2_q2",
@@ -53,15 +53,15 @@
     "article_id": "GNS211_U1_T9",
     "topic_id": "GNS211_U1_T9",
     "difficulty": "understanding",
-    "question": "How do lipid-soluble hormones travel through the bloodstream to reach their target cells?",
+    "question": "Where are the receptors for water-soluble hormones typically located?",
     "options": {
-      "A": "Encased in hard mineral capsules",
-      "B": "Dissolved freely in the water plasma",
-      "C": "Attached to special carrier proteins",
-      "D": "Inside red blood cells alongside oxygen"
+      "A": "On the outer surface of the cell membrane",
+      "B": "Bound directly to mitochondrial DNA",
+      "C": "Inside the fluid of the cell nucleus",
+      "D": "Floating freely within the cytoplasm"
     },
-    "answer": "C",
-    "explanation": "Lipid-soluble hormones do not mix well with water, so they need carrier proteins to escort them safely through the watery blood. [learn more](GNS211_U1_T9#GNS211_U1_T9_h2)"
+    "answer": "A",
+    "explanation": "Water-soluble hormones cannot cross the plasma membrane, so their binding sites must face the extracellular fluid. [learn more](GNS211_U1_T9#GNS211_U1_T9_h2)"
   },
   {
     "question_id": "GNS211_U1_T9_h3_q1",
@@ -69,15 +69,15 @@
     "article_id": "GNS211_U1_T9",
     "topic_id": "GNS211_U1_T9",
     "difficulty": "recall",
-    "question": "What role does cyclic AMP (cAMP) play in hormone signaling?",
+    "question": "What role does cyclic AMP (cAMP) play in water-soluble hormone signaling?",
     "options": {
-      "A": "It serves as the primary hormone carrier",
-      "B": "It acts as an intracellular second messenger",
-      "C": "It blocks the hormone from entering the blood",
-      "D": "It destroys the cell-surface receptor after use"
+      "A": "It acts as an intracellular second messenger",
+      "B": "It serves as the primary hormone in the blood",
+      "C": "It destroys the cell-surface receptor after use",
+      "D": "It transports the hormone across the membrane"
     },
-    "answer": "B",
-    "explanation": "cAMP carries the signal from the membrane receptor into the cell interior to trigger the desired metabolic change. [learn more](GNS211_U1_T9#GNS211_U1_T9_h3)"
+    "answer": "A",
+    "explanation": "Second messengers like cAMP relay and amplify the hormonal signal inside the cell. [learn more](GNS211_U1_T9#GNS211_U1_T9_h3)"
   },
   {
     "question_id": "GNS211_U1_T9_h3_q2",
@@ -85,15 +85,15 @@
     "article_id": "GNS211_U1_T9",
     "topic_id": "GNS211_U1_T9",
     "difficulty": "understanding",
-    "question": "What is the main advantage of using a second messenger system like cAMP?",
+    "question": "What is the main advantage of using second messenger systems in cell signaling?",
     "options": {
-      "A": "It stops the target cell from responding too quickly",
-      "B": "It prevents hormones from ever leaving the bloodstream",
-      "C": "It greatly amplifies the initial hormonal signal",
-      "D": "It allows the hormone to physically enter the nucleus"
+      "A": "They allow the hormone to enter the cell nucleus directly",
+      "B": "They prevent the breakdown of the original hormone molecule",
+      "C": "They rapidly amplify the hormone's effect inside the cell",
+      "D": "They eliminate the need for cell-surface receptors"
     },
     "answer": "C",
-    "explanation": "A single hormone molecule binding outside can trigger the production of many second messengers, multiplying the cell's response. [learn more](GNS211_U1_T9#GNS211_U1_T9_h3)"
+    "explanation": "A single hormone molecule binding to a surface receptor can activate many second messengers, producing a large physiological response. [learn more](GNS211_U1_T9#GNS211_U1_T9_h3)"
   },
   {
     "question_id": "GNS211_U1_T9_h4_q1",
@@ -101,15 +101,15 @@
     "article_id": "GNS211_U1_T9",
     "topic_id": "GNS211_U1_T9",
     "difficulty": "recall",
-    "question": "Where do lipid-soluble hormones find their specific receptors?",
+    "question": "What is the primary cellular action of a lipid-soluble hormone-receptor complex?",
     "options": {
-      "A": "Inside the cytoplasm or nucleus",
-      "B": "Attached to the exterior of the blood vessel",
-      "C": "Embedded in the outer cell membrane",
-      "D": "Floating freely in the extracellular fluid"
+      "A": "Altering gene transcription to synthesize new proteins",
+      "B": "Blocking second messenger pathways in the cytoplasm",
+      "C": "Activating membrane-bound enzymes like adenylate cyclase",
+      "D": "Releasing calcium ions directly from the mitochondria"
     },
     "answer": "A",
-    "explanation": "Lipid-soluble hormones easily cross membranes, so their receptors wait for them inside the cell or nucleus. [learn more](GNS211_U1_T9#GNS211_U1_T9_h4)"
+    "explanation": "Lipid-soluble hormone complexes typically regulate gene expression in the nucleus to produce new proteins. [learn more](GNS211_U1_T9#GNS211_U1_T9_h4)"
   },
   {
     "question_id": "GNS211_U1_T9_h4_q2",
@@ -117,15 +117,15 @@
     "article_id": "GNS211_U1_T9",
     "topic_id": "GNS211_U1_T9",
     "difficulty": "understanding",
-    "question": "What is the direct result of a lipid-soluble hormone binding to its intracellular receptor?",
+    "question": "Why is the physiological response to lipid-soluble hormones generally slower than water-soluble hormones?",
     "options": {
-      "A": "Sudden release of stored calcium from vesicles",
-      "B": "Immediate breakdown of cell membrane channels",
-      "C": "Changes in gene expression and protein synthesis",
-      "D": "Immediate activation of cyclic AMP molecules"
+      "A": "They must wait for second messengers to build up in the blood",
+      "B": "They travel much slower through the bloodstream to reach tissues",
+      "C": "They require time to synthesize new proteins via gene transcription",
+      "D": "They bind very weakly to their intracellular target receptors"
     },
     "answer": "C",
-    "explanation": "The hormone-receptor complex interacts directly with DNA to turn genes on or off, creating new functional proteins. [learn more](GNS211_U1_T9#GNS211_U1_T9_h4)"
+    "explanation": "Making new proteins through transcription and translation takes more time than activating existing enzymes. [learn more](GNS211_U1_T9#GNS211_U1_T9_h4)"
   },
   {
     "question_id": "GNS211_U1_T9_h5_q1",
@@ -133,15 +133,15 @@
     "article_id": "GNS211_U1_T9",
     "topic_id": "GNS211_U1_T9",
     "difficulty": "recall",
-    "question": "What happens to target cell receptors during downregulation?",
+    "question": "What term describes a target cell increasing its receptor number due to low hormone levels?",
     "options": {
-      "A": "Their numbers decrease",
-      "B": "They change their chemical shape",
-      "C": "They move outside the cell entirely",
-      "D": "Their numbers increase"
+      "A": "Desensitization",
+      "B": "Upregulation",
+      "C": "Saturation",
+      "D": "Downregulation"
     },
-    "answer": "A",
-    "explanation": "Downregulation reduces the total count of receptors to protect the cell when hormone levels are chronically high. [learn more](GNS211_U1_T9#GNS211_U1_T9_h5)"
+    "answer": "B",
+    "explanation": "Cells upregulate receptors to increase sensitivity when hormone concentrations are low. [learn more](GNS211_U1_T9#GNS211_U1_T9_h5)"
   },
   {
     "question_id": "GNS211_U1_T9_h5_q2",
@@ -149,15 +149,15 @@
     "article_id": "GNS211_U1_T9",
     "topic_id": "GNS211_U1_T9",
     "difficulty": "understanding",
-    "question": "Why does a target cell undergo upregulation when hormone levels remain low for a long time?",
+    "question": "Why does prolonged high exposure to a hormone lead to receptor downregulation?",
     "options": {
-      "A": "To prepare the cell to stop functioning completely",
-      "B": "To turn off the gene expression of the cell",
-      "C": "To increase its sensitivity to the scarce hormone",
-      "D": "To destroy excess hormone molecules in the blood"
+      "A": "To convert the water-soluble hormone into a lipid-soluble one",
+      "B": "To speed up the clearance of hormones from the bloodstream",
+      "C": "To protect the cell from excessive and harmful overstimulation",
+      "D": "To force the endocrine gland to stop hormone production"
     },
     "answer": "C",
-    "explanation": "Adding more receptors helps the cell catch and respond to whatever small amount of hormone is available. [learn more](GNS211_U1_T9#GNS211_U1_T9_h5)"
+    "explanation": "Downregulation reduces cellular responsiveness, preventing damage from chronic hormone excess. [learn more](GNS211_U1_T9#GNS211_U1_T9_h5)"
   },
   {
     "question_id": "GNS211_U1_T9_h6_q1",
@@ -165,30 +165,30 @@
     "article_id": "GNS211_U1_T9",
     "topic_id": "GNS211_U1_T9",
     "difficulty": "recall",
-    "question": "What causes an endocrine pathology related to receptor dysfunction when hormone levels are normal?",
+    "question": "What is the primary defect in peripheral tissues during early type 2 diabetes mellitus?",
     "options": {
-      "A": "The complete absence of water in the plasma",
-      "B": "Defects or attacks on the receptors themselves",
-      "C": "A sudden total failure of the pituitary gland",
-      "D": "An overproduction of carrier proteins in the blood"
+      "A": "Destruction of the pancreas by antibodies",
+      "B": "Total absence of blood insulin",
+      "C": "Excessive insulin receptor synthesis",
+      "D": "Insulin receptor resistance"
     },
-    "answer": "B",
-    "explanation": "Even with normal hormone amounts, if the receptor is mutated or blocked by antibodies, the cell cannot respond correctly. [learn more](GNS211_U1_T9#GNS211_U1_T9_h6)"
+    "answer": "D",
+    "explanation": "Type 2 diabetes typically features normal or high insulin levels, but target cells fail to respond due to receptor resistance. [learn more](GNS211_U1_T9#GNS211_U1_T9_h6)"
   },
   {
     "question_id": "GNS211_U1_T9_h6_q2",
     "heading_id": "GNS211_U1_T9_h6",
     "article_id": "GNS211_U1_T9",
     "topic_id": "GNS211_U1_T9",
-    "difficulty": "application",
-    "question": "A patient has high blood insulin levels, but their body cells fail to absorb glucose properly due to faulty receptor signaling. What is this scenario called?",
+    "difficulty": "understanding",
+    "question": "What happens to hormone blood levels when a genetic mutation causes complete receptor insensitivity?",
     "options": {
-      "A": "Extracellular deficiency",
-      "B": "Hormone upregulation",
-      "C": "Insulin resistance",
-      "D": "Second messenger failure"
+      "A": "Hormone levels drop to zero because they are destroyed",
+      "B": "Hormone levels decrease due to immediate negative feedback",
+      "C": "Hormone levels often rise as the body tries to compensate",
+      "D": "Hormone levels remain completely unaffected and stable"
     },
     "answer": "C",
-    "explanation": "Insulin resistance occurs when target cells stop responding properly to insulin despite adequate or elevated levels in the blood. [learn more](GNS211_U1_T9#GNS211_U1_T9_h6)"
+    "explanation": "When receptors fail, the lack of tissue response removes negative feedback, prompting glands to secrete more hormone. [learn more](GNS211_U1_T9#GNS211_U1_T9_h6)"
   }
 ]

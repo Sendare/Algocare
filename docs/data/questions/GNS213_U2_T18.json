@@ -5,15 +5,15 @@
     "article_id": "GNS213_U2_T18",
     "topic_id": "GNS213_U2_T18",
     "difficulty": "recall",
-    "question": "What is the main job of a mechanical ventilator in the hospital?",
+    "question": "What is the main goal of using a mechanical ventilator in the hospital?",
     "options": {
-      "A": "To assist or replace spontaneous breathing and maintain gas exchange",
-      "B": "To deliver high-dose aerosolized antibiotics directly to the lungs",
-      "C": "To permanently replace the function of damaged lung alveoli",
-      "D": "To cure underlying pulmonary infections and lung tissue damage"
+      "A": "Cure the underlying pulmonary infection",
+      "B": "Permanently replace natural lung function",
+      "C": "Eliminate the need for arterial blood gases",
+      "D": "Support breathing while the body heals"
     },
-    "answer": "A",
-    "explanation": "You've got this! Mechanical ventilators simply step in to do the work of breathing when a patient's body is too weak to manage oxygen on its own. [learn more](GNS213_U2_T18#GNS213_U2_T18_h1)"
+    "answer": "D",
+    "explanation": "Mechanical ventilation is a temporary support measure that helps maintain oxygen and carbon dioxide exchange until the patient's lungs recover. [learn more](GNS213_U2_T18#GNS213_U2_T18_h1)"
   },
   {
     "question_id": "GNS213_U2_T18_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GNS213_U2_T18",
     "topic_id": "GNS213_U2_T18",
     "difficulty": "understanding",
-    "question": "Why would a patient with a severe drug overdose and low consciousness urgently need a mechanical ventilator?",
+    "question": "In hypercapnic respiratory failure, what problem is the body experiencing?",
     "options": {
-      "A": "Treatment of primary alveolar collapse",
-      "B": "Airway protection against aspiration",
-      "C": "Reversal of metabolic acidosis",
-      "D": "Improvement of renal blood flow"
+      "A": "Eliminate carbon dioxide effectively from the blood",
+      "B": "Generate sufficient negative intrapleural pressure",
+      "C": "Prevent fluid accumulation in the alveolar spaces",
+      "D": "Maintain adequate arterial oxygen saturation levels"
     },
-    "answer": "B",
-    "explanation": "Spot on! When someone is deeply unconscious, they lose reflexes like coughing and swallowing, meaning they could easily inhale stomach contents into their lungs. [learn more](GNS213_U2_T18#GNS213_U2_T18_h1)"
+    "answer": "A",
+    "explanation": "Hypercapnic failure happens when a patient cannot breathe out enough air, causing carbon dioxide to build up in the bloodstream. [learn more](GNS213_U2_T18#GNS213_U2_T18_h1)"
   },
   {
     "question_id": "GNS213_U2_T18_h2_q1",
@@ -37,31 +37,31 @@
     "article_id": "GNS213_U2_T18",
     "topic_id": "GNS213_U2_T18",
     "difficulty": "recall",
-    "question": "Which ventilator mode takes over completely, giving a set rate and volume without letting the patient take spontaneous breaths?",
+    "question": "Which ventilator setting lets the patient breathe on their own between the machine's regular breaths?",
     "options": {
       "A": "Continuous Positive Airway Pressure",
-      "B": "Pressure Support Ventilation",
-      "C": "Controlled Mandatory Ventilation",
-      "D": "Synchronized Intermittent Mandatory Ventilation"
+      "B": "Synchronized Intermittent Mandatory Ventilation",
+      "C": "Control Mode Ventilation",
+      "D": "Assist-Control Ventilation"
     },
-    "answer": "C",
-    "explanation": "Great try! Controlled Mandatory Ventilation (CMV) handles the entire breathing cycle for the patient without waiting for them to trigger a breath. [learn more](GNS213_U2_T18#GNS213_U2_T18_h2)"
+    "answer": "B",
+    "explanation": "This mode delivers set breaths while still allowing the patient to take their own breaths in between. [learn more](GNS213_U2_T18#GNS213_U2_T18_h2)"
   },
   {
     "question_id": "GNS213_U2_T18_h2_q2",
     "heading_id": "GNS213_U2_T18_h2",
     "article_id": "GNS213_U2_T18",
     "topic_id": "GNS213_U2_T18",
-    "difficulty": "understanding",
-    "question": "What is the main reason for adding pressure support to a patient who is already breathing on their own through a ventilator?",
+    "difficulty": "application",
+    "question": "A recovering patient starts every breath on their own and just needs a gentle pressure push from the machine. Which mode works best?",
     "options": {
-      "A": "To paralyze the respiratory muscles during painful procedures",
-      "B": "To help overcome the resistance of the artificial airway",
-      "C": "To completely take over the work of breathing for the patient",
-      "D": "To measure the exact lung compliance of the patient"
+      "A": "Pressure Support Ventilation",
+      "B": "Inverse Ratio Ventilation",
+      "C": "High-Frequency Oscillation",
+      "D": "Controlled Mechanical Ventilation"
     },
-    "answer": "B",
-    "explanation": "Breathing through a narrow plastic tube is tough work! Pressure support gives a gentle push to make it easier for the patient to draw air through the tube. [learn more](GNS213_U2_T18#GNS213_U2_T18_h2)"
+    "answer": "A",
+    "explanation": "Pressure support helps patients do the work of breathing themselves by giving an extra push when they take a breath. [learn more](GNS213_U2_T18#GNS213_U2_T18_h2)"
   },
   {
     "question_id": "GNS213_U2_T18_h3_q1",
@@ -69,63 +69,63 @@
     "article_id": "GNS213_U2_T18",
     "topic_id": "GNS213_U2_T18",
     "difficulty": "recall",
-    "question": "In ventilator settings, what does the acronym PEEP stand for?",
+    "question": "What is the main reason for adding PEEP (Positive End-Expiratory Pressure) to a ventilator?",
     "options": {
-      "A": "Peak External Exhalational Parameter",
-      "B": "Pulmonary End-Ejection Pressure",
-      "C": "Positive End-Expiratory Pressure",
-      "D": "Primary Expiratory Expansion Protocol"
+      "A": "Reduce the total minute volume requirement of the lungs",
+      "B": "Prevent alveolar collapse at the end of expiration",
+      "C": "Lower the fraction of inspired oxygen to room air",
+      "D": "Increase the peak inspiratory pressure limit safely"
     },
-    "answer": "C",
-    "explanation": "PEEP keeps a tiny bit of pressure in the tiny air sacs (alveoli) at the very end of a breath so they don't collapse on themselves. You're doing great! [learn more](GNS213_U2_T18#GNS213_U2_T18_h3)"
+    "answer": "B",
+    "explanation": "PEEP leaves a small amount of pressure in the lungs at the end of each breath to keep the tiny air sacs from closing up. [learn more](GNS213_U2_T18#GNS213_U2_T18_h3)"
   },
   {
     "question_id": "GNS213_U2_T18_h3_q2",
     "heading_id": "GNS213_U2_T18_h3",
     "article_id": "GNS213_U2_T18",
     "topic_id": "GNS213_U2_T18",
-    "difficulty": "application",
-    "question": "A patient has an ideal body weight of 70 kg. Which tidal volume setting falls within the safe lung-protective range?",
+    "difficulty": "understanding",
+    "question": "Why do modern ventilators often use smaller tidal volumes for patients?",
     "options": {
-      "A": "750 mL",
-      "B": "450 mL",
-      "C": "900 mL",
-      "D": "250 mL"
+      "A": "They prevent overdistention and injury to delicate lung tissue",
+      "B": "They eliminate the requirement for humidified oxygen delivery",
+      "C": "They decrease the need for continuous arterial blood gas monitoring",
+      "D": "They allow patients to tolerate higher levels of carbon dioxide"
     },
-    "answer": "B",
-    "explanation": "Protective ventilation uses 6 to 8 mL per kg. For a 70 kg patient, that's roughly 420 to 560 mL, making 450 mL a safe and correct choice! [learn more](GNS213_U2_T18#GNS213_U2_T18_h3)"
+    "answer": "A",
+    "explanation": "Using smaller breath volumes based on the patient's body size protects the lungs from being stretched too far and getting damaged. [learn more](GNS213_U2_T18#GNS213_U2_T18_h3)"
   },
   {
     "question_id": "GNS213_U2_T18_h4_q1",
     "heading_id": "GNS213_U2_T18_h4",
     "article_id": "GNS213_U2_T18",
     "topic_id": "GNS213_U2_T18",
-    "difficulty": "understanding",
-    "question": "The high-pressure alarm starts beeping loudly on the ventilator. As a nurse, what is a very common cause to check first?",
+    "difficulty": "recall",
+    "question": "What piece of emergency equipment must always be kept right at the bedside of a patient on a ventilator?",
     "options": {
-      "A": "An accidental extubation of the endotracheal tube",
-      "B": "A deflation of the endotracheal tube cuff",
-      "C": "A loose connection between the tubing and the patient",
-      "D": "Secretions or mucus plug in the endotracheal tube"
+      "A": "Manual resuscitation bag and mask",
+      "B": "Continuous end-tidal carbon dioxide capnometer",
+      "C": "Tracheostomy insertion surgical tray",
+      "D": "A backup mechanical ventilator machine"
     },
-    "answer": "D",
-    "explanation": "Think of it like a blocked straw—if mucus or a kink blocks the tube, the machine has to push harder to get air in, triggering that high-pressure alarm! [learn more](GNS213_U2_T18#GNS213_U2_T18_h4)"
+    "answer": "A",
+    "explanation": "A manual bag-valve-mask must always be ready at hand to manually breathe for the patient if the power fails or the machine acts up. [learn more](GNS213_U2_T18#GNS213_U2_T18_h4)"
   },
   {
     "question_id": "GNS213_U2_T18_h4_q2",
     "heading_id": "GNS213_U2_T18_h4",
     "article_id": "GNS213_U2_T18",
     "topic_id": "GNS213_U2_T18",
-    "difficulty": "recall",
-    "question": "Which bedside check gives immediate confirmation that an endotracheal tube is correctly placed in the trachea?",
+    "difficulty": "application",
+    "question": "A patient on a ventilator suddenly becomes restless and the high-pressure alarm starts ringing. What should you check first?",
     "options": {
-      "A": "Daily routine chest radiography results",
-      "B": "End-tidal carbon dioxide (ETCO2) monitoring",
-      "C": "Measurement of peak inspiratory pressure",
-      "D": "Arterial blood gas analysis drawn after 30 minutes"
+      "A": "Silence the alarm permanently to reduce environmental noise",
+      "B": "Auscultate breath sounds and check for tube obstruction",
+      "C": "Administer a large dose of a neuromuscular blocking agent",
+      "D": "Increase the fraction of inspired oxygen concentration immediately"
     },
     "answer": "B",
-    "explanation": "ETCO2 detectors quickly show exhaled carbon dioxide right at the bedside, proving the tube went down the windpipe and not the stomach. [learn more](GNS213_U2_T18#GNS213_U2_T18_h4)"
+    "explanation": "High-pressure alarms usually mean something is blocking the airway or the tube has moved, so listening to breath sounds helps find the issue fast. [learn more](GNS213_U2_T18#GNS213_U2_T18_h4)"
   },
   {
     "question_id": "GNS213_U2_T18_h5_q1",
@@ -133,15 +133,15 @@
     "article_id": "GNS213_U2_T18",
     "topic_id": "GNS213_U2_T18",
     "difficulty": "recall",
-    "question": "What is the recommended safe pressure range for an endotracheal tube cuff?",
+    "question": "When is the best time to suction the airway of a patient on a ventilator?",
     "options": {
-      "A": "5 to 10 cmH2O",
-      "B": "40 to 50 cmH2O",
-      "C": "20 to 30 cmH2O",
-      "D": "60 to 70 cmH2O"
+      "A": "Strictly every two hours regardless of patient clinical status",
+      "B": "Immediately before every scheduled medication administration time",
+      "C": "Only when the high-pressure ventilator alarm sounds continuously",
+      "D": "Based on clinical indicators like secretions or coarse breath sounds"
     },
-    "answer": "C",
-    "explanation": "Keeping the cuff pressure between 20 and 30 cmH2O seals the airway nicely without squeezing the delicate blood vessels in the windpipe too hard. [learn more](GNS213_U2_T18#GNS213_U2_T18_h5)"
+    "answer": "D",
+    "explanation": "Suctioning should only be done when you actually see or hear secretions, because doing it too often can hurt the airway lining. [learn more](GNS213_U2_T18#GNS213_U2_T18_h5)"
   },
   {
     "question_id": "GNS213_U2_T18_h5_q2",
@@ -149,47 +149,47 @@
     "article_id": "GNS213_U2_T18",
     "topic_id": "GNS213_U2_T18",
     "difficulty": "understanding",
-    "question": "Why should nurses avoid routine, scheduled suctioning of a breathing tube when the patient doesn't actually need it?",
+    "question": "Why is regular mouth care with chlorhexidine so important for ventilated patients?",
     "options": {
-      "A": "It increases the risk of accidental tube decannulation",
-      "B": "It automatically changes the prescribed ventilator tidal volume",
-      "C": "It can cause mucosal trauma, bleeding, and low oxygen levels",
-      "D": "It causes the ventilator to trigger persistent low-pressure alarms"
+      "A": "It eliminates the need for humidified circuit air",
+      "B": "It reduces bacterial colonization that leads to pneumonia",
+      "C": "It prevents the rubber tube from sticking to oral mucosa",
+      "D": "It stimulates salivary gland function during heavy sedation"
     },
-    "answer": "C",
-    "explanation": "Suctioning is helpful when there's mucus, but doing it too often irritates the airway lining and robs the lungs of precious oxygen. Only suction when necessary! [learn more](GNS213_U2_T18#GNS213_U2_T18_h5)"
+    "answer": "B",
+    "explanation": "Germs love to gather in the mouth of a ventilated patient; keeping the mouth clean cuts down on bacteria sliding into the lungs to cause pneumonia. [learn more](GNS213_U2_T18#GNS213_U2_T18_h5)"
   },
   {
     "question_id": "GNS213_U2_T18_h6_q1",
     "heading_id": "GNS213_U2_T18_h6",
     "article_id": "GNS213_U2_T18",
     "topic_id": "GNS213_U2_T18",
-    "difficulty": "understanding",
-    "question": "Why is keeping the head of a ventilated patient's bed elevated at 30 to 45 degrees such an important nursing action?",
+    "difficulty": "recall",
+    "question": "At what angle should the head of the bed be kept to help prevent ventilator-associated pneumonia?",
     "options": {
-      "A": "Endotracheal tube cuff rupture",
-      "B": "Diaphragmatic muscle atrophy",
-      "C": "Ventilator-associated pneumonia",
-      "D": "Barotrauma from high tidal volumes"
+      "A": "90 degrees upright",
+      "B": "Flat on the mattress",
+      "C": "30 to 45 degrees",
+      "D": "10 to 15 degrees"
     },
     "answer": "C",
-    "explanation": "Gravity is our friend here! Elevating the bed stops oral and stomach fluids from pooling above the tube cuff and trickling down into the lungs to cause pneumonia. [learn more](GNS213_U2_T18#GNS213_U2_T18_h6)"
+    "explanation": "Keeping the head of the bed elevated stops saliva and stomach contents from trickling down into the lungs. [learn more](GNS213_U2_T18#GNS213_U2_T18_h6)"
   },
   {
     "question_id": "GNS213_U2_T18_h6_q2",
     "heading_id": "GNS213_U2_T18_h6",
     "article_id": "GNS213_U2_T18",
     "topic_id": "GNS213_U2_T18",
-    "difficulty": "recall",
-    "question": "Which of these is NOT a mechanical complication caused by high pressure settings on a ventilator?",
+    "difficulty": "understanding",
+    "question": "What complication can happen when a patient breathes very high levels of oxygen for a long time?",
     "options": {
-      "A": "Subcutaneous emphysema in the neck",
-      "B": "Ventilator-associated pneumonia",
-      "C": "Pneumothorax from alveolar rupture",
-      "D": "Tension pneumothorax development"
+      "A": "Acute upper airway muscle atrophy",
+      "B": "Sudden tension pneumothorax formation",
+      "C": "Oxygen toxicity and alveolar damage",
+      "D": "Severe endotracheal tube obstruction"
     },
-    "answer": "B",
-    "explanation": "Spot on! Pneumonia is an infection caused by germs, whereas things like a collapsed lung (pneumothorax) happen from high pressure popping the delicate air sacs. [learn more](GNS213_U2_T18#GNS213_U2_T18_h6)"
+    "answer": "C",
+    "explanation": "Too much pure oxygen creates harmful molecules that can break down the delicate walls of the air sacs in the lungs. [learn more](GNS213_U2_T18#GNS213_U2_T18_h6)"
   },
   {
     "question_id": "GNS213_U2_T18_h7_q1",
@@ -197,30 +197,30 @@
     "article_id": "GNS213_U2_T18",
     "topic_id": "GNS213_U2_T18",
     "difficulty": "recall",
-    "question": "What is the main goal of doing a Spontaneous Breathing Trial (SBT)?",
+    "question": "What is the main goal of a Spontaneous Breathing Trial before taking a patient off the ventilator?",
     "options": {
-      "A": "To measure the exact lung compliance and resistance parameters",
-      "B": "To evaluate if a patient can tolerate breathing without ventilator support",
-      "C": "To allow the patient to recover from heavy sedative medications",
-      "D": "To clear thick mucus plugs from the lower airways before extubation"
+      "A": "Verify correct placement of the endotracheal tube",
+      "B": "Determine the maximum peak inspiratory pressure limit",
+      "C": "Assess the patient's ability to breathe without support",
+      "D": "Cleanse the large airways of thick pooled secretions"
     },
-    "answer": "B",
-    "explanation": "An SBT is like a test drive! We lower the machine's help to see if the patient's lungs and muscles are strong enough to handle breathing all on their own. [learn more](GNS213_U2_T18#GNS213_U2_T18_h7)"
+    "answer": "C",
+    "explanation": "This test checks if the patient's body is strong enough to handle breathing on their own before the breathing tube is pulled out. [learn more](GNS213_U2_T18#GNS213_U2_T18_h7)"
   },
   {
     "question_id": "GNS213_U2_T18_h7_q2",
     "heading_id": "GNS213_U2_T18_h7",
     "article_id": "GNS213_U2_T18",
     "topic_id": "GNS213_U2_T18",
-    "difficulty": "application",
-    "question": "A patient was just extubated 20 minutes ago and now has a high-pitched whistling sound when breathing in. What is the most likely cause?",
+    "difficulty": "understanding",
+    "question": "A patient struggles and gets very tired during a breathing trial. What should the nurse do next?",
     "options": {
-      "A": "Immediate accumulation of secretions in the left main bronchus",
-      "B": "Sudden tension pneumothorax from previous positive pressure",
-      "C": "Anxiety-induced hyperventilation following tube removal",
-      "D": "Laryngeal edema causing partial upper airway obstruction"
+      "A": "Proceed with extubation and administer high-flow oxygen",
+      "B": "Increase the fraction of inspired oxygen and wait another hour",
+      "C": "Remove the artificial airway and insert a nasal cannula",
+      "D": "Return the patient to previous ventilator support settings"
     },
     "answer": "D",
-    "explanation": "That high-pitched sound (stridor) usually means the voice box (larynx) got a little swollen and angry from having the breathing tube resting in it. Good catch! [learn more](GNS213_U2_T18#GNS213_U2_T18_h7)"
+    "explanation": "If a patient fails the trial, it means their breathing muscles need more rest, so you put them back on the ventilator support settings. [learn more](GNS213_U2_T18#GNS213_U2_T18_h7)"
   }
 ]

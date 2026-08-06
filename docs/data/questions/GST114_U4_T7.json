@@ -8,12 +8,12 @@
     "question": "What are the three main categories of immune system dysregulation?",
     "options": {
       "A": "Phagocytosis, inflammation, and complement activation",
-      "B": "Hypersensitivity, autoimmunity, and immunodeficiency",
-      "C": "Anaphylaxis, thrombosis, and necrosis",
-      "D": "Antibody production, cellular immunity, and innate defense"
+      "B": "Innate, adaptive, and acquired immunity",
+      "C": "Hypersensitivity, autoimmunity, and immunodeficiency",
+      "D": "Antibody production, cellular destruction, and lysis"
     },
-    "answer": "B",
-    "explanation": "Immune system dysregulation broadly breaks down into overreaction, attacking self-tissues, and underperformance. [learn more](GST114_U4_T7#GST114_U4_T7_h1)"
+    "answer": "C",
+    "explanation": "Immune system dysregulation typically manifests as overactive responses, attacks on self-tissues, or a complete lack of immune response. [learn more](GST114_U4_T7#GST114_U4_T7_h1)"
   },
   {
     "question_id": "GST114_U4_T7_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GST114_U4_T7",
     "topic_id": "GST114_U4_T7",
     "difficulty": "understanding",
-    "question": "What usually causes immune system problems?",
+    "question": "Why is immune system balance critical for human health?",
     "options": {
-      "A": "Taking too many antibiotics",
-      "B": "A single mutated gene passed down from parents",
-      "C": "A mix of genetics, environment, and hormones",
-      "D": "Sudden changes in body temperature"
+      "A": "It stops the production of red blood cells",
+      "B": "It ensures all white blood cells reproduce rapidly",
+      "C": "It increases the body temperature to kill bacteria",
+      "D": "It prevents both tissue destruction and severe infections"
     },
-    "answer": "C",
-    "explanation": "Most immune disorders don't happen from just one cause. Usually, a mix of internal factors (like your genes) and external things in your environment work together to trigger them. [learn more](GST114_U4_T7#GST114_U4_T7_h1)"
+    "answer": "D",
+    "explanation": "A balanced immune system fights off pathogens without attacking the body or failing to respond when needed. [learn more](GST114_U4_T7#GST114_U4_T7_h1)"
   },
   {
     "question_id": "GST114_U4_T7_h2_q1",
@@ -37,15 +37,15 @@
     "article_id": "GST114_U4_T7",
     "topic_id": "GST114_U4_T7",
     "difficulty": "recall",
-    "question": "Which type of hypersensitivity reaction is responsible for a severe, rapid anaphylactic allergic response?",
+    "question": "Which hypersensitivity type is mediated by IgE and causes immediate anaphylaxis?",
     "options": {
-      "A": "Type II",
-      "B": "Type I",
-      "C": "Type IV",
-      "D": "Type III"
+      "A": "Type III",
+      "B": "Type IV",
+      "C": "Type I",
+      "D": "Type II"
     },
-    "answer": "B",
-    "explanation": "Type I reactions are immediate, IgE-mediated responses that can quickly escalate to life-threatening anaphylaxis. [learn more](GST114_U4_T7#GST114_U4_T7_h2)"
+    "answer": "C",
+    "explanation": "Type I reactions involve IgE binding to mast cells, causing rapid histamine release and allergic symptoms. [learn more](GST114_U4_T7#GST114_U4_T7_h2)"
   },
   {
     "question_id": "GST114_U4_T7_h2_q2",
@@ -53,15 +53,15 @@
     "article_id": "GST114_U4_T7",
     "topic_id": "GST114_U4_T7",
     "difficulty": "understanding",
-    "question": "How are Type IV hypersensitivity reactions different from Types I, II, and III?",
+    "question": "A positive tuberculin skin test after 48 hours is an example of which hypersensitivity reaction?",
     "options": {
-      "A": "They only happen inside internal organs, never on the skin",
-      "B": "They are driven by T-cells and take days to develop instead of using fast antibodies",
-      "C": "They destroy red blood cells using complement proteins",
-      "D": "They are only triggered by eating certain foods"
+      "A": "Type IV",
+      "B": "Type II",
+      "C": "Type III",
+      "D": "Type I"
     },
-    "answer": "B",
-    "explanation": "Unlike the other types that rely on quick antibodies, Type IV is a 'delayed' reaction. It relies on T-lymphocytes taking a few days to show up and cause a reaction (like a bad rash). [learn more](GST114_U4_T7#GST114_U4_T7_h2)"
+    "answer": "A",
+    "explanation": "Delayed-type hypersensitivity is mediated by T cells rather than antibodies, taking days to show visible inflammation. [learn more](GST114_U4_T7#GST114_U4_T7_h2)"
   },
   {
     "question_id": "GST114_U4_T7_h3_q1",
@@ -69,31 +69,31 @@
     "article_id": "GST114_U4_T7",
     "topic_id": "GST114_U4_T7",
     "difficulty": "recall",
-    "question": "What do we mean by 'self-tolerance' in the immune system?",
+    "question": "What is the primary underlying problem in autoimmune diseases?",
     "options": {
-      "A": "How fast white blood cells multiply during an infection",
-      "B": "The capacity to destroy bacteria without causing inflammation",
-      "C": "Making antibodies against common foods",
-      "D": "The ability to recognize and ignore the body's own healthy tissues"
+      "A": "Loss of self-tolerance by the immune system",
+      "B": "Overproduction of red blood cells in the bone marrow",
+      "C": "Complete absence of white blood cells",
+      "D": "Permanent blockage of the lymphatic vessels"
     },
-    "answer": "D",
-    "explanation": "Self-tolerance is basically the immune system's way of knowing its own boundaries—it makes sure white blood cells leave our healthy cells alone instead of attacking them. [learn more](GST114_U4_T7#GST114_U4_T7_h3)"
+    "answer": "A",
+    "explanation": "Autoimmunity happens when the body stops recognizing its own tissues as safe and attacks them. [learn more](GST114_U4_T7#GST114_U4_T7_h3)"
   },
   {
     "question_id": "GST114_U4_T7_h3_q2",
     "heading_id": "GST114_U4_T7_h3",
     "article_id": "GST114_U4_T7",
     "topic_id": "GST114_U4_T7",
-    "difficulty": "application",
-    "question": "In type 1 diabetes, which part of the body does the immune system mistakenly attack?",
+    "difficulty": "understanding",
+    "question": "Which factor commonly interacts with genetics to trigger autoimmune diseases?",
     "options": {
-      "A": "The lining of the small intestine",
-      "B": "Insulin-producing beta cells in the pancreas",
-      "C": "The protective sheaths around nerves",
-      "D": "The membranes lining major joints"
+      "A": "Excessive physical exercise and muscle strain",
+      "B": "Environmental triggers such as viral infections",
+      "C": "Eating a high-protein diet during childhood",
+      "D": "Lack of exposure to clean drinking water"
     },
     "answer": "B",
-    "explanation": "Type 1 diabetes is a classic autoimmune condition where the body turns on its own pancreas, destroying the beta cells that make insulin. Brilliant connection to remember! [learn more](GST114_U4_T7#GST114_U4_T7_h3)"
+    "explanation": "Infections and other environmental factors can trigger autoimmune responses in genetically susceptible individuals. [learn more](GST114_U4_T7#GST114_U4_T7_h3)"
   },
   {
     "question_id": "GST114_U4_T7_h4_q1",
@@ -101,31 +101,31 @@
     "article_id": "GST114_U4_T7",
     "topic_id": "GST114_U4_T7",
     "difficulty": "recall",
-    "question": "What is a primary immunodeficiency disorder?",
+    "question": "What distinguishes primary immunodeficiencies from secondary immunodeficiencies?",
     "options": {
-      "A": "Something that only affects adults over sixty",
-      "B": "An issue triggered by common painkillers",
-      "C": "An inherited genetic defect present right from birth",
-      "D": "A condition caused by severe physical trauma later in life"
+      "A": "Secondary deficiencies cannot be managed with drugs",
+      "B": "Secondary deficiencies only affect red blood cells",
+      "C": "Primary deficiencies are caused by viral infections",
+      "D": "Primary deficiencies are inherited genetic defects"
     },
-    "answer": "C",
-    "explanation": "Think of 'primary' as being born with it. These disorders stem from gene mutations passed down from parents, unlike secondary ones that happen later in life. [learn more](GST114_U4_T7#GST114_U4_T7_h4)"
+    "answer": "D",
+    "explanation": "Primary immune disorders are present from birth due to genetic mutations, unlike acquired secondary forms. [learn more](GST114_U4_T7#GST114_U4_T7_h4)"
   },
   {
     "question_id": "GST114_U4_T7_h4_q2",
     "heading_id": "GST114_U4_T7_h4",
     "article_id": "GST114_U4_T7",
     "topic_id": "GST114_U4_T7",
-    "difficulty": "understanding",
-    "question": "Which of these is a classic example of a secondary (acquired) immunodeficiency?",
+    "difficulty": "application",
+    "question": "A patient develops an immunodeficiency years after contracting HIV. How is this classified?",
     "options": {
-      "A": "Systemic Lupus Erythematosus",
-      "B": "Severe Combined Immunodeficiency (SCID)",
-      "C": "A pollen allergy (Type 1 Hypersensitivity)",
-      "D": "Human Immunodeficiency Virus (HIV) infection"
+      "A": "Type I hypersensitivity",
+      "B": "Primary immunodeficiency",
+      "C": "Autoimmune disorder",
+      "D": "Secondary immunodeficiency"
     },
     "answer": "D",
-    "explanation": "HIV is acquired later in life. It slowly damages the immune system over time, which makes it a secondary immunodeficiency rather than something you are born with. [learn more](GST114_U4_T7#GST114_U4_T7_h4)"
+    "explanation": "Conditions acquired after birth, such as HIV or malnutrition, are classified as secondary immunodeficiencies. [learn more](GST114_U4_T7#GST114_U4_T7_h4)"
   },
   {
     "question_id": "GST114_U4_T7_h5_q1",
@@ -133,15 +133,15 @@
     "article_id": "GST114_U4_T7",
     "topic_id": "GST114_U4_T7",
     "difficulty": "recall",
-    "question": "Why does a recipient's immune system try to attack a newly transplanted organ?",
+    "question": "What specific markers does the recipient's immune system check on transplanted tissues?",
     "options": {
-      "A": "It panics over the physical pressure of the new blood flow",
-      "B": "It causes a sudden crash in red blood cells",
-      "C": "It spots foreign human leukocyte antigens (HLAs) on the donor cells",
-      "D": "It reacts badly to the surgical stitches"
+      "A": "Human leukocyte antigens",
+      "B": "Complement protein receptors",
+      "C": "Red blood cell antigens",
+      "D": "Platelet aggregation factors"
     },
-    "answer": "C",
-    "explanation": "Our immune systems are super protective! When they see foreign HLA markers on a donor organ that don't match the body's own, they sound the alarm and try to reject it. [learn more](GST114_U4_T7#GST114_U4_T7_h5)"
+    "answer": "A",
+    "explanation": "HLAs are the main target for the recipient immune system during graft rejection. [learn more](GST114_U4_T7#GST114_U4_T7_h5)"
   },
   {
     "question_id": "GST114_U4_T7_h5_q2",
@@ -149,15 +149,15 @@
     "article_id": "GST114_U4_T7",
     "topic_id": "GST114_U4_T7",
     "difficulty": "understanding",
-    "question": "Why do organ transplant patients need to take immunosuppressive drugs long-term?",
+    "question": "Why do transplant recipients need lifelong immunosuppressive medications?",
     "options": {
-      "A": "To prevent high blood pressure after surgery",
-      "B": "To stop the immune system from rejecting the new organ",
-      "C": "To help the surgical wound heal much faster",
-      "D": "To help the new organ pump its own blood"
+      "A": "To stimulate rapid healing of the surgical incision",
+      "B": "To cure any underlying chronic infections in the body",
+      "C": "To stop the production of red blood cells temporarily",
+      "D": "To prevent their immune system from rejecting the organ"
     },
-    "answer": "B",
-    "explanation": "Immunosuppressants act like a quiet button for the immune system, keeping it calm so it doesn't recognize and destroy the precious new donor tissue. [learn more](GST114_U4_T7#GST114_U4_T7_h5)"
+    "answer": "D",
+    "explanation": "Immunosuppressants lower the body's ability to attack foreign donor tissue, keeping the graft safe. [learn more](GST114_U4_T7#GST114_U4_T7_h5)"
   },
   {
     "question_id": "GST114_U4_T7_h6_q1",
@@ -165,62 +165,62 @@
     "article_id": "GST114_U4_T7",
     "topic_id": "GST114_U4_T7",
     "difficulty": "recall",
-    "question": "Which lab test is commonly ordered first when checking for an autoimmune disorder?",
+    "question": "Which blood test panel is commonly ordered when screening for autoimmune diseases?",
     "options": {
-      "A": "Blood culture and sensitivity",
-      "B": "Fast blood glucose",
-      "C": "Antinuclear Antibody (ANA) test",
-      "D": "Complete blood count without differential"
+      "A": "Antinuclear antibody panel",
+      "B": "Complete blood count alone",
+      "C": "Liver function enzyme test",
+      "D": "Basic metabolic electrolyte panel"
     },
-    "answer": "C",
-    "explanation": "The ANA test checks for antibodies that attack the nucleus of your own cells. It's a very common early screening tool for autoimmune conditions like lupus. [learn more](GST114_U4_T7#GST114_U4_T7_h6)"
+    "answer": "A",
+    "explanation": "Autoantibody tests, such as the antinuclear antibody (ANA) panel, help detect immune attacks against self-tissues. [learn more](GST114_U4_T7#GST114_U4_T7_h6)"
   },
   {
     "question_id": "GST114_U4_T7_h6_q2",
     "heading_id": "GST114_U4_T7_h6",
     "article_id": "GST114_U4_T7",
     "topic_id": "GST114_U4_T7",
-    "difficulty": "application",
-    "question": "A patient keeps getting severe bacterial infections. Which lab values should the nurse check first to see how their antibody defenses are doing?",
+    "difficulty": "understanding",
+    "question": "What is the primary purpose of checking a complete blood count with differential in immune disorders?",
     "options": {
-      "A": "Serum creatinine and blood urea nitrogen",
-      "B": "Serum immunoglobulin levels (IgG, IgA, IgM)",
-      "C": "Liver enzymes (ALT and AST)",
-      "D": "Fasting serum cholesterol and lipids"
+      "A": "To check for elevated levels of blood glucose",
+      "B": "To assess the levels of specific white blood cell subsets",
+      "C": "To measure the exact clotting time of the blood",
+      "D": "To determine the total volume of blood in the body"
     },
     "answer": "B",
-    "explanation": "Immunoglobulins (antibodies) handle our humoral immunity. Checking IgG, IgA, and IgM levels helps us see if an antibody shortage is leaving the patient wide open to infections. [learn more](GST114_U4_T7#GST114_U4_T7_h6)"
+    "explanation": "The differential part of the CBC shows counts for neutrophils, lymphocytes, and other cells vital for immunity. [learn more](GST114_U4_T7#GST114_U4_T7_h6)"
   },
   {
     "question_id": "GST114_U4_T7_h7_q1",
     "heading_id": "GST114_U4_T7_h7",
     "article_id": "GST114_U4_T7",
     "topic_id": "GST114_U4_T7",
-    "difficulty": "understanding",
-    "question": "Why must patients with severe immunodeficiencies stay away from live vaccines?",
+    "difficulty": "application",
+    "question": "A patient with a severe immunodeficiency is admitted to the ward. Which nursing action is most critical?",
     "options": {
-      "A": "The weakened germs in the vaccine can cause a real infection in a weak system",
-      "B": "Live vaccines completely wipe out red blood cells",
-      "C": "Live vaccines trigger severe allergies in everyone",
-      "D": "The vaccine spoils easily at room temperature"
+      "A": "Implementing strict infection control and hand hygiene",
+      "B": "Administering high doses of live attenuated vaccines",
+      "C": "Placing the patient on a high-sodium restriction diet",
+      "D": "Encouraging frequent visitors to support recovery"
     },
     "answer": "A",
-    "explanation": "Even though live vaccines use 'weakened' germs, a compromised immune system is too weak to fight them off—turning the vaccine into an actual infection. Safety first! [learn more](GST114_U4_T7#GST114_U4_T7_h7)"
+    "explanation": "Immunodeficient patients have low defense systems, making rigorous infection prevention vital for safety. [learn more](GST114_U4_T7#GST114_U4_T7_h7)"
   },
   {
     "question_id": "GST114_U4_T7_h7_q2",
     "heading_id": "GST114_U4_T7_h7",
     "article_id": "GST114_U4_T7",
     "topic_id": "GST114_U4_T7",
-    "difficulty": "application",
-    "question": "What is the most important infection control habit for a nurse to teach a patient on immunosuppressive drugs?",
+    "difficulty": "understanding",
+    "question": "What is a primary responsibility when caring for patients taking immunosuppressive drugs?",
     "options": {
-      "A": "Stopping all physical exercise completely",
-      "B": "Wearing heavy winter clothing outside at all times",
-      "C": "Drinking only distilled water",
-      "D": "Doing thorough and frequent hand hygiene"
+      "A": "Encouraging heavy physical exercise daily",
+      "B": "Checking blood pressure every fifteen minutes",
+      "C": "Restricting all fluid intake to prevent swelling",
+      "D": "Monitoring closely for early signs of hidden infection"
     },
     "answer": "D",
-    "explanation": "Never underestimate the power of clean hands! Proper hand hygiene is your patient's number one defense against picking up harmful germs in everyday life. [learn more](GST114_U4_T7#GST114_U4_T7_h7)"
+    "explanation": "Immunosuppressants increase infection risk, so nurses must watch closely for subtle signs of sepsis or illness. [learn more](GST114_U4_T7#GST114_U4_T7_h7)"
   }
 ]

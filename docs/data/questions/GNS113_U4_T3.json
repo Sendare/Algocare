@@ -5,15 +5,15 @@
     "article_id": "GNS113_U4_T3",
     "topic_id": "GNS113_U4_T3",
     "difficulty": "recall",
-    "question": "What is direct nursing delivery technology mainly used for?",
+    "question": "What is the primary purpose of direct nursing delivery technology at the bedside?",
     "options": {
-      "A": "Ordering bulk kitchen supplies for the cafeteria",
-      "B": "Managing hospital billing and staff payroll records",
-      "C": "Scheduling yearly maintenance for the facility generator",
-      "D": "Assisting hands-on patient care at the bedside"
+      "A": "To completely replace clinical nurses",
+      "B": "To slow down the medication pass process",
+      "C": "To reduce errors and support safe care",
+      "D": "To increase paperwork for nursing staff"
     },
-    "answer": "D",
-    "explanation": "Spot on! These tools are built specifically to help you interact directly with patients and deliver hands-on care safely. [learn more](GNS113_U4_T3#GNS113_U4_T3_h1)"
+    "answer": "C",
+    "explanation": "These tools are designed to assist nurses by providing safeguards against mistakes rather than eliminating the nursing workforce. [learn more](GNS113_U4_T3#GNS113_U4_T3_h1)"
   },
   {
     "question_id": "GNS113_U4_T3_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GNS113_U4_T3",
     "topic_id": "GNS113_U4_T3",
     "difficulty": "understanding",
-    "question": "Why is it important for modern nurses to get comfortable using bedside technology?",
+    "question": "Real-time data entry using bedside technology primarily helps solve which common clinical problem?",
     "options": {
-      "A": "It shapes every shift and helps protect patients from human error",
-      "B": "Patients refuse care unless digital devices are present",
-      "C": "It completely replaces the need to perform physical assessments",
-      "D": "Hospital accreditation depends entirely on computer typing speed"
+      "A": "Delayed documentation of patient vital signs",
+      "B": "Shortages of essential intravenous fluids",
+      "C": "Poor communication between doctors and patients",
+      "D": "Lack of basic patient medical histories"
     },
     "answer": "A",
-    "explanation": "You got it! Smart tools are part of daily clinical life, and they act as a safety net to catch mistakes before they hurt anyone. [learn more](GNS113_U4_T3#GNS113_U4_T3_h1)"
+    "explanation": "Bedside devices allow immediate recording of findings, which prevents the time lag typical of paper charting at the end of a shift. [learn more](GNS113_U4_T3#GNS113_U4_T3_h1)"
   },
   {
     "question_id": "GNS113_U4_T3_h2_q1",
@@ -37,15 +37,15 @@
     "article_id": "GNS113_U4_T3",
     "topic_id": "GNS113_U4_T3",
     "difficulty": "recall",
-    "question": "During Barcode Medication Administration (BCMA), what are the three main things you scan?",
+    "question": "Which two items must be scanned during barcode medication administration?",
     "options": {
-      "A": "Nurse badge, patient wristband, and medication package",
-      "B": "Dietary tray card, patient chart, and nurse uniform",
-      "C": "Hospital logo, lab tube sticker, and bed frame barcode",
-      "D": "Doctor license, room door number, and IV bag label"
+      "A": "Nurse ID badge and drug chart",
+      "B": "Bedside monitor and IV infusion bag",
+      "C": "Doctor prescription and nurse license",
+      "D": "Patient wristband and medication package"
     },
-    "answer": "A",
-    "explanation": "Brilliant! Scanning the nurse, the patient, and the drug is your golden rule to make sure the right meds reach the right person. [learn more](GNS113_U4_T3#GNS113_U4_T3_h2)"
+    "answer": "D",
+    "explanation": "BCMA relies on matching the unique identifier on the patient against the barcode on the specific drug package. [learn more](GNS113_U4_T3#GNS113_U4_T3_h2)"
   },
   {
     "question_id": "GNS113_U4_T3_h2_q2",
@@ -53,15 +53,15 @@
     "article_id": "GNS113_U4_T3",
     "topic_id": "GNS113_U4_T3",
     "difficulty": "understanding",
-    "question": "Why is it risky to blindly trust BCMA without double-checking things yourself?",
+    "question": "Why is barcode medication administration considered a closed-loop system?",
     "options": {
-      "A": "Scanners often delete medication orders randomly during night shifts",
-      "B": "It cannot catch errors made during pharmacy compounding or doctor entry",
-      "C": "Computers cannot read barcodes if the patient is sleeping",
-      "D": "It prevents nurses from checking patient vital signs manually"
+      "A": "It completely removes the need for physical nurse verification",
+      "B": "It electronically links the ordered drug to the exact patient identity",
+      "C": "It prevents pharmacists from dispensing expired pharmaceutical products",
+      "D": "It automatically locks the medication cart after every use"
     },
     "answer": "B",
-    "explanation": "Exactly right. The scanner only reads what was typed into the system. If the original prescription was wrong, the scanner might still green-light it! [learn more](GNS113_U4_T3#GNS113_U4_T3_h2)"
+    "explanation": "The closed loop connects the prescription, the patient identity, and the administered product to catch errors instantly. [learn more](GNS113_U4_T3#GNS113_U4_T3_h2)"
   },
   {
     "question_id": "GNS113_U4_T3_h3_q1",
@@ -69,31 +69,31 @@
     "article_id": "GNS113_U4_T3",
     "topic_id": "GNS113_U4_T3",
     "difficulty": "recall",
-    "question": "What happens when an IV pump triggers a 'hard stop'?",
+    "question": "What is the function of a hard limit in a smart infusion pump?",
     "options": {
-      "A": "The machine automatically recalculates the correct weight-based dose",
-      "B": "The pump completely blocks the rate and prevents starting the infusion",
-      "C": "The pharmacy is notified to send a replacement pump immediately",
-      "D": "An alarm sounds loudly until the patient presses a bedside button"
+      "A": "It stops the infusion when the IV bag is completely empty",
+      "B": "It requires a password to turn the device power supply on",
+      "C": "It prevents the pump from exceeding a dangerous maximum dose",
+      "D": "It measures the exact blood pressure of the patient continuously"
     },
-    "answer": "B",
-    "explanation": "Spot on! A hard stop sets an unbreakable safety boundary so you don't accidentally infuse an unsafe dose. [learn more](GNS113_U4_T3#GNS113_U4_T3_h3)"
+    "answer": "C",
+    "explanation": "Hard limits establish absolute safety ceilings that cannot be bypassed by the clinical user without administrative clearance. [learn more](GNS113_U4_T3#GNS113_U4_T3_h3)"
   },
   {
     "question_id": "GNS113_U4_T3_h3_q2",
     "heading_id": "GNS113_U4_T3_h3",
     "article_id": "GNS113_U4_T3",
     "topic_id": "GNS113_U4_T3",
-    "difficulty": "understanding",
-    "question": "What is the main safety perk of having a drug library built into a smart IV pump?",
+    "difficulty": "application",
+    "question": "A nurse programs an IV drip and the smart pump issues a soft limit warning. What does this mean?",
     "options": {
-      "A": "It alerts nurses when a dose falls outside safe clinical limits",
-      "B": "It automatically orders new IV bags when fluid levels run low",
-      "C": "It replaces the need to check patient IV insertion sites",
-      "D": "It measures the exact urine output generated during the shift"
+      "A": "The medication order is completely illegal and must be discarded",
+      "B": "The dosage is outside normal parameters but allows a clinical override",
+      "C": "The patient identity barcode does not match the active chart",
+      "D": "The pump battery is failing and needs an immediate recharge"
     },
-    "answer": "A",
-    "explanation": "You nailed it! The drug library acts like a safety checklist, warning you instantly if a programmed dose is too high or too low. [learn more](GNS113_U4_T3#GNS113_U4_T3_h3)"
+    "answer": "B",
+    "explanation": "Soft limits provide caution alerts for unusual doses, giving the nurse an opportunity to double-check before proceeding. [learn more](GNS113_U4_T3#GNS113_U4_T3_h3)"
   },
   {
     "question_id": "GNS113_U4_T3_h4_q1",
@@ -101,15 +101,15 @@
     "article_id": "GNS113_U4_T3",
     "topic_id": "GNS113_U4_T3",
     "difficulty": "recall",
-    "question": "In a busy clinical ward, what do we mean by 'alarm fatigue'?",
+    "question": "How do smart beds primarily help prevent patient injuries in the ward?",
     "options": {
-      "A": "A patient's inability to sleep because of noisy hospital equipment",
-      "B": "Becoming desensitized to constant monitor beeps and ignoring them",
-      "C": "Physical exhaustion caused by carrying mobile alert devices",
-      "D": "The battery drain that happens when monitors run all night"
+      "A": "By cooling the patient skin during high fevers",
+      "B": "By detecting exit attempts and triggering fall alarms",
+      "C": "By automatically administering pain relief medication",
+      "D": "By locking the wheels whenever a nurse walks away"
     },
     "answer": "B",
-    "explanation": "Correct! When alarms go off constantly for minor things, staff get tired of the noise and might accidentally miss a real emergency. [learn more](GNS113_U4_T3#GNS113_U4_T3_h4)"
+    "explanation": "Bed exit sensors alert nurses when vulnerable patients try to stand up unassisted. [learn more](GNS113_U4_T3#GNS113_U4_T3_h4)"
   },
   {
     "question_id": "GNS113_U4_T3_h4_q2",
@@ -117,15 +117,15 @@
     "article_id": "GNS113_U4_T3",
     "topic_id": "GNS113_U4_T3",
     "difficulty": "understanding",
-    "question": "How do smart beds help keep vulnerable hospital patients safe?",
+    "question": "What is the main clinical advantage of continuous electronic patient monitoring over intermittent manual checks?",
     "options": {
-      "A": "They automatically administer pain medication when turning",
-      "B": "They replace the need for physical therapists on surgical wards",
-      "C": "Built-in scales eliminate the need to chart daily fluid intake",
-      "D": "Sensors alert staff when an unassisted patient tries to stand up"
+      "A": "It lowers the financial cost of hospital admission",
+      "B": "It removes the legal requirement for shift reports",
+      "C": "It detects sudden physiological deterioration much faster",
+      "D": "It eliminates the need for any nursing physical assessments"
     },
-    "answer": "D",
-    "explanation": "Brilliant! Smart bed exit alarms give you a quick heads-up so you can rush over and prevent a nasty fall. [learn more](GNS113_U4_T3#GNS113_U4_T3_h4)"
+    "answer": "C",
+    "explanation": "Continuous tracking catches subtle changes in vitals immediately between traditional four-hour manual observation rounds. [learn more](GNS113_U4_T3#GNS113_U4_T3_h4)"
   },
   {
     "question_id": "GNS113_U4_T3_h5_q1",
@@ -133,31 +133,31 @@
     "article_id": "GNS113_U4_T3",
     "topic_id": "GNS113_U4_T3",
     "difficulty": "understanding",
-    "question": "What is a major danger when nurses take shortcuts ('workarounds') around safety tech?",
+    "question": "What is a major risk associated with technology workarounds in clinical practice?",
     "options": {
-      "A": "The hospital computer system automatically deletes their nursing license",
-      "B": "It defeats the safety safeguards and increases the risk of patient harm",
-      "C": "Patients will complain about the slow speed of the nursing staff",
-      "D": "The pharmacy department will refuse to dispense any more medications"
+      "A": "They bypass safety features and reintroduce the risk of error",
+      "B": "They cause mechanical failures in smart infusion pumps",
+      "C": "They increase the battery life of handheld barcode scanners",
+      "D": "They slow down the daily hospital discharge process"
     },
-    "answer": "B",
-    "explanation": "Spot on! Bypassing safety prompts removes the digital barrier that was put there specifically to protect your patient from human error. [learn more](GNS113_U4_T3#GNS113_U4_T3_h5)"
+    "answer": "A",
+    "explanation": "When nurses invent shortcuts to save time, they often defeat the electronic safeguards intended to protect the patient. [learn more](GNS113_U4_T3#GNS113_U4_T3_h5)"
   },
   {
     "question_id": "GNS113_U4_T3_h5_q2",
     "heading_id": "GNS113_U4_T3_h5",
     "article_id": "GNS113_U4_T3",
     "topic_id": "GNS113_U4_T3",
-    "difficulty": "application",
-    "question": "A busy nurse decides to scan a patient's barcode taped to the computer instead of walking to the bedside to scan the wristband. What is this an example of?",
+    "difficulty": "recall",
+    "question": "Which type of clinical error is most directly targeted by bedside technology integration?",
     "options": {
-      "A": "Standard hospital protocol for rushed shifts",
-      "B": "A dangerous clinical workaround",
-      "C": "Proper use of bedside mobile technology",
-      "D": "An efficient time-saving strategy"
+      "A": "Adverse drug administration events",
+      "B": "Inadequate physical therapy sessions",
+      "C": "Surgical site infections",
+      "D": "Delayed diagnostic laboratory results"
     },
-    "answer": "B",
-    "explanation": "You got it! Scanning away from the bedside defeats the whole point of identity checks and opens the door to a wrong-patient medication error. [learn more](GNS113_U4_T3#GNS113_U4_T3_h5)"
+    "answer": "A",
+    "explanation": "Barcode scanning and smart pumps are primarily engineered to stop medication administration mistakes before they harm patients. [learn more](GNS113_U4_T3#GNS113_U4_T3_h5)"
   },
   {
     "question_id": "GNS113_U4_T3_h6_q1",
@@ -165,15 +165,15 @@
     "article_id": "GNS113_U4_T3",
     "topic_id": "GNS113_U4_T3",
     "difficulty": "recall",
-    "question": "Which of these commonly causes frustration when using mobile nursing technology on the ward?",
+    "question": "What is alarm fatigue in a busy clinical nursing environment?",
     "options": {
-      "A": "Too many physical stairs in modern multi-story hospitals",
-      "B": "Dead batteries and poor wireless internet connectivity",
-      "C": "Patients demanding to program the IV pumps themselves",
-      "D": "Doctors refusing to let nurses touch computer carts"
+      "A": "Battery drain caused by leaving infusion pumps running",
+      "B": "Mental stress from hearing patient call bells ring simultaneously",
+      "C": "Desensitization to device warnings due to frequent false alarms",
+      "D": "Physical exhaustion caused by carrying heavy medical monitors"
     },
-    "answer": "B",
-    "explanation": "So true! Nothing slows down a shift quite like a dying battery or a spinning loading wheel when you're trying to chart quickly. [learn more](GNS113_U4_T3#GNS113_U4_T3_h6)"
+    "answer": "C",
+    "explanation": "Constant ringing of monitors causes staff to tune out the noise, which can lead to missed critical warnings. [learn more](GNS113_U4_T3#GNS113_U4_T3_h6)"
   },
   {
     "question_id": "GNS113_U4_T3_h6_q2",
@@ -181,46 +181,14 @@
     "article_id": "GNS113_U4_T3",
     "topic_id": "GNS113_U4_T3",
     "difficulty": "understanding",
-    "question": "Why is poor staff training during a new technology rollout so dangerous?",
+    "question": "Why are reliable power supply and network connectivity critical for bedside technology?",
     "options": {
-      "A": "It forces the hospital to close its emergency department",
-      "B": "It makes patients lose trust in the hospital cleaning staff",
-      "C": "It causes hospital computers to catch computer viruses",
-      "D": "It leads to confusion, frustration, and dangerous workarounds"
+      "A": "To ensure that nurses finish their shifts on time",
+      "B": "To lower the purchasing cost of medical hardware devices",
+      "C": "To prevent the complete loss of electronic function during patient care",
+      "D": "To eliminate the need for regular equipment maintenance"
     },
-    "answer": "D",
-    "explanation": "Exactly! If nurses aren't properly trained on new equipment, stress takes over under pressure, leading to risky shortcuts. [learn more](GNS113_U4_T3#GNS113_U4_T3_h6)"
-  },
-  {
-    "question_id": "GNS113_U4_T3_h7_q1",
-    "heading_id": "GNS113_U4_T3_h7",
-    "article_id": "GNS113_U4_T3",
-    "topic_id": "GNS113_U4_T3",
-    "difficulty": "recall",
-    "question": "What is one exciting benefit expected from future voice-activated documentation tools?",
-    "options": {
-      "A": "Allowing nurses to speak clinical notes while performing procedures",
-      "B": "Replacing the need for doctors to write prescriptions",
-      "C": "Automatically bathing patients using robotic spray systems",
-      "D": "Eliminating all hospital noise during the night shift"
-    },
-    "answer": "A",
-    "explanation": "Brilliant! Voice tech aims to save us time by letting us dictate our notes hands-free while we work. [learn more](GNS113_U4_T3#GNS113_U4_T3_h7)"
-  },
-  {
-    "question_id": "GNS113_U4_T3_h7_q2",
-    "heading_id": "GNS113_U4_T3_h7",
-    "article_id": "GNS113_U4_T3",
-    "topic_id": "GNS113_U4_T3",
-    "difficulty": "understanding",
-    "question": "No matter how advanced hospital technology gets, what will always remain the nurse's primary challenge?",
-    "options": {
-      "A": "Balancing machine intelligence with compassionate human care",
-      "B": "Finding enough electrical outlets to charge wearable patches",
-      "C": "Convincing hospital administrators to buy cheaper equipment",
-      "D": "Learning how to repair broken computer microchips"
-    },
-    "answer": "A",
-    "explanation": "Spot on! Machines can crunch numbers and track drips, but nursing fundamentally depends on your human empathy, touch, and critical thinking. [learn more](GNS113_U4_T3#GNS113_U4_T3_h7)"
+    "answer": "C",
+    "explanation": "Digital systems rely heavily on continuous electricity and data signals; outages disrupt access to essential patient data and device controls. [learn more](GNS113_U4_T3#GNS113_U4_T3_h6)"
   }
 ]

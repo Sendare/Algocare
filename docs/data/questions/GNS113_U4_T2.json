@@ -5,15 +5,15 @@
     "article_id": "GNS113_U4_T2",
     "topic_id": "GNS113_U4_T2",
     "difficulty": "recall",
-    "question": "What is the primary purpose of monitoring devices in nursing informatics?",
+    "question": "What is the primary role of monitoring devices in nursing informatics?",
     "options": {
-      "A": "To completely replace the need for physical nursing assessments",
-      "B": "To automatically track patient physiological status in real time",
-      "C": "To manually calculate monthly hospital billing statements",
-      "D": "To serve as a decorative fixture at the hospital bedside"
+      "A": "Capturing physiological metrics and feeding digital data streams",
+      "B": "Replacing the need for physical assessments completely",
+      "C": "Diagnosing complex medical conditions without a doctor",
+      "D": "Lowering the financial cost of hospital admissions"
     },
-    "answer": "B",
-    "explanation": "Monitoring devices are designed to continuously track vital signs and physiological data without requiring constant manual input. [learn more](GNS113_U4_T2#GNS113_U4_T2_h1)"
+    "answer": "A",
+    "explanation": "These devices gather raw vital signs and convert them into digital data that integrates into health records. [learn more](GNS113_U4_T2#GNS113_U4_T2_h1)"
   },
   {
     "question_id": "GNS113_U4_T2_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GNS113_U4_T2",
     "topic_id": "GNS113_U4_T2",
     "difficulty": "understanding",
-    "question": "How do monitoring devices improve nursing documentation?",
+    "question": "Why is integrating monitoring devices with electronic health records beneficial in clinical settings?",
     "options": {
-      "A": "By transmitting captured data directly into electronic health records",
-      "B": "By erasing old vital signs every twelve hours",
-      "C": "By forcing nurses to write everything on paper charts first",
-      "D": "By locking all patient data so other staff cannot read it"
+      "A": "It reduces recording errors and speeds up clinical responses",
+      "B": "It stops patients from tampering with their own vital signs",
+      "C": "It eliminates all charting mistakes made by senior doctors",
+      "D": "It allows nurses to avoid interacting with patients directly"
     },
     "answer": "A",
-    "explanation": "Connecting bedside devices to digital records cuts down on manual entry mistakes and saves time. [learn more](GNS113_U4_T2#GNS113_U4_T2_h1)"
+    "explanation": "Automated data transfer cuts down manual transcription mistakes and gives faster access to patient trends. [learn more](GNS113_U4_T2#GNS113_U4_T2_h1)"
   },
   {
     "question_id": "GNS113_U4_T2_h2_q1",
@@ -37,15 +37,15 @@
     "article_id": "GNS113_U4_T2",
     "topic_id": "GNS113_U4_T2",
     "difficulty": "recall",
-    "question": "What does a pulse oximeter actually measure in the patient?",
+    "question": "Which factor is most likely to cause an inaccurate pulse oximetry reading?",
     "options": {
-      "A": "Exact blood pressure inside the artery",
-      "B": "Total red blood cell count in the body",
-      "C": "Oxygen saturation percentage in the blood",
-      "D": "Carbon dioxide levels in the lungs"
+      "A": "Normal room temperature",
+      "B": "Dark colored nail polish",
+      "C": "Low blood pressure in limbs",
+      "D": "Normal patient breathing rate"
     },
-    "answer": "C",
-    "explanation": "The device uses light absorption to estimate how much hemoglobin is carrying oxygen. [learn more](GNS113_U4_T2#GNS113_U4_T2_h2)"
+    "answer": "B",
+    "explanation": "Nail polish absorbs the light wavelengths used by the sensor, leading to false low oxygen saturation readings. [learn more](GNS113_U4_T2#GNS113_U4_T2_h2)"
   },
   {
     "question_id": "GNS113_U4_T2_h2_q2",
@@ -53,15 +53,15 @@
     "article_id": "GNS113_U4_T2",
     "topic_id": "GNS113_U4_T2",
     "difficulty": "application",
-    "question": "A patient's pulse oximeter shows 82%, but they are talking and breathing easily. What should you do first?",
+    "question": "A patient with severe peripheral vasoconstriction has an erratic pulse oximetry reading. What should the nurse do first?",
     "options": {
-      "A": "Turn off the monitor because it is definitely broken",
-      "B": "Immediately start chest compressions and call a code blue",
-      "C": "Check the physical patient and look for cold fingers or nail polish",
-      "D": "Assume the patient is in severe respiratory distress"
+      "A": "Check an alternate site with better capillary blood flow",
+      "B": "Remove the sensor and apply oxygen immediately",
+      "C": "Document that the patient is in respiratory failure",
+      "D": "Increase the intravenous fluid infusion rate rapidly"
     },
-    "answer": "C",
-    "explanation": "Always assess your patient before the machine! Poor circulation or dark nail polish often causes false low readings. Great nursing instinct! [learn more](GNS113_U4_T2#GNS113_U4_T2_h2)"
+    "answer": "A",
+    "explanation": "Poor peripheral blood flow prevents the sensor from detecting a pulse wave, requiring an earlobe or forehead placement. [learn more](GNS113_U4_T2#GNS113_U4_T2_h2)"
   },
   {
     "question_id": "GNS113_U4_T2_h3_q1",
@@ -69,15 +69,15 @@
     "article_id": "GNS113_U4_T2",
     "topic_id": "GNS113_U4_T2",
     "difficulty": "recall",
-    "question": "What is the main purpose of placing electrode pads on a patient's chest for cardiac monitoring?",
+    "question": "What does a cardiac monitor primarily display for the healthcare team?",
     "options": {
-      "A": "To capture the electrical activity and heart rhythm",
-      "B": "To measure the exact temperature of the heart muscle",
-      "C": "To keep the patient warm during cold hospital nights",
-      "D": "To deliver mild electric shocks to warm the skin"
+      "A": "The exact volume of blood pumped per minute",
+      "B": "The level of oxygen dissolved in the coronary arteries",
+      "C": "The mechanical pumping strength of the heart valves",
+      "D": "The electrical activity and waveforms of the myocardium"
     },
-    "answer": "A",
-    "explanation": "Electrodes pick up the heart's electrical impulses and display them as a waveform on the screen. [learn more](GNS113_U4_T2#GNS113_U4_T2_h3)"
+    "answer": "D",
+    "explanation": "Electrodes detect the tiny electrical impulses generated by the heart muscle during each beat. [learn more](GNS113_U4_T2#GNS113_U4_T2_h3)"
   },
   {
     "question_id": "GNS113_U4_T2_h3_q2",
@@ -85,15 +85,15 @@
     "article_id": "GNS113_U4_T2",
     "topic_id": "GNS113_U4_T2",
     "difficulty": "understanding",
-    "question": "Why is alarm fatigue a dangerous issue with continuous cardiac monitors?",
+    "question": "Why is proper skin preparation necessary before placing cardiac monitor electrodes?",
     "options": {
-      "A": "The monitor stops working after a certain number of alarms",
-      "B": "Staff may ignore or turn down alarms because of too many false warnings",
-      "C": "The batteries in the monitor run out of power too quickly",
-      "D": "Patients get too tired from hearing the screen beep all day"
+      "A": "To make sure the patient stays completely still during the test",
+      "B": "To prevent painful skin rashes from developing under the adhesive",
+      "C": "To warm up the skin surface so the monitor turns on faster",
+      "D": "To remove oils and hair that block clear electrical signal conduction"
     },
-    "answer": "B",
-    "explanation": "Constant ringing from non-urgent alerts can cause nurses to miss a real emergency. [learn more](GNS113_U4_T2#GNS113_U4_T2_h3)"
+    "answer": "D",
+    "explanation": "Skin oils and hair act as insulators, creating static and artifact that can distort the true heart rhythm. [learn more](GNS113_U4_T2#GNS113_U4_T2_h3)"
   },
   {
     "question_id": "GNS113_U4_T2_h4_q1",
@@ -101,15 +101,15 @@
     "article_id": "GNS113_U4_T2",
     "topic_id": "GNS113_U4_T2",
     "difficulty": "recall",
-    "question": "What do clinical decision support systems do with data from monitoring devices?",
+    "question": "What is the main advantage of telemetry over a bedside cardiac monitor?",
     "options": {
-      "A": "Automatically discharge patients when vital signs are normal",
-      "B": "Print paper reports for the hospital marketing department",
-      "C": "Analyze trends to alert the care team about potential problems",
-      "D": "Hide bad vital signs so the patient stays calm"
+      "A": "It stores permanent medical history directly inside the device",
+      "B": "It diagnoses heart attacks without needing laboratory blood tests",
+      "C": "It completely eliminates the need for chest electrode patches",
+      "D": "It allows the patient to walk around while being monitored"
     },
-    "answer": "C",
-    "explanation": "CDS software looks at patient data streams to spot worsening trends early. [learn more](GNS113_U4_T2#GNS113_U4_T2_h4)"
+    "answer": "D",
+    "explanation": "Telemetry transmits data wirelessly, giving mobile patients freedom while staff observe their heart rhythm from a central desk. [learn more](GNS113_U4_T2#GNS113_U4_T2_h4)"
   },
   {
     "question_id": "GNS113_U4_T2_h4_q2",
@@ -117,46 +117,78 @@
     "article_id": "GNS113_U4_T2",
     "topic_id": "GNS113_U4_T2",
     "difficulty": "understanding",
-    "question": "How does data integration help prevent patient emergencies?",
+    "question": "A telemetry patient complains that their monitor keeps beeping and losing signal. What is a likely cause?",
     "options": {
-      "A": "By sending text messages directly to the patient's family members",
-      "B": "By combining multiple vital signs to catch subtle signs of decline early",
-      "C": "By stopping nurses from having to check vital signs manually ever again",
-      "D": "By letting machines make all medical diagnoses without human help"
+      "A": "The patient needs immediate cardioversion for an arrhythmia",
+      "B": "The transmitter battery is low or the patient walked out of range",
+      "C": "The patient's heart rate has suddenly dropped to zero",
+      "D": "The main hospital server is experiencing a power outage"
     },
     "answer": "B",
-    "explanation": "Looking at combined trends helps nurses intervene before a minor issue becomes a major emergency. [learn more](GNS113_U4_T2#GNS113_U4_T2_h4)"
+    "explanation": "Weak batteries or distance from the receiver box are frequent culprits behind lost telemetry signals. [learn more](GNS113_U4_T2#GNS113_U4_T2_h4)"
   },
   {
     "question_id": "GNS113_U4_T2_h5_q1",
     "heading_id": "GNS113_U4_T2_h5",
     "article_id": "GNS113_U4_T2",
     "topic_id": "GNS113_U4_T2",
-    "difficulty": "recall",
-    "question": "Which of the following is NOT an ethical concern when using connected monitoring devices?",
+    "difficulty": "understanding",
+    "question": "How do clinical decision support systems help nurses manage complex patient data?",
     "options": {
-      "A": "Balancing constant safety tracking with the right to privacy",
-      "B": "Guarantees that patient medical bills will always be cheaper",
-      "C": "Making sure patients understand and consent to surveillance",
-      "D": "Protecting wireless patient data from cyber security threats"
+      "A": "By replacing bedside physical assessments with computer algorithms",
+      "B": "By hiding minor vital sign changes to reduce hospital paperwork",
+      "C": "By making all final treatment choices without human input",
+      "D": "By combining multiple device inputs to generate helpful alerts"
     },
-    "answer": "B",
-    "explanation": "Monitoring devices do not guarantee lower bills; privacy, security, and consent are the true ethical concerns. [learn more](GNS113_U4_T2#GNS113_U4_T2_h5)"
+    "answer": "D",
+    "explanation": "These systems pool data from various monitors to spot dangerous trends early and warn the care team. [learn more](GNS113_U4_T2#GNS113_U4_T2_h5)"
   },
   {
     "question_id": "GNS113_U4_T2_h5_q2",
     "heading_id": "GNS113_U4_T2_h5",
     "article_id": "GNS113_U4_T2",
     "topic_id": "GNS113_U4_T2",
-    "difficulty": "understanding",
-    "question": "Why must nurses be careful about continuous patient surveillance in clinical spaces?",
+    "difficulty": "recall",
+    "question": "What is a major risk associated with excessive device alarms in a busy ward?",
     "options": {
-      "A": "Doctors are not legally allowed to look at video feeds",
-      "B": "Cameras use up too much electricity in the hospital room",
-      "C": "It can make patients feel vulnerable and invade their privacy",
-      "D": "Patients will stop sleeping and watch the cameras all night"
+      "A": "Nurses can develop alarm fatigue and ignore critical warnings",
+      "B": "Monitors tend to break down physically from overuse",
+      "C": "Patients sleep better because the sounds become comforting",
+      "D": "The hospital electricity bill increases significantly"
+    },
+    "answer": "A",
+    "explanation": "Constant ringing from non-urgent alerts desensitizes staff, causing them to miss real emergencies. [learn more](GNS113_U4_T2#GNS113_U4_T2_h5)"
+  },
+  {
+    "question_id": "GNS113_U4_T2_h6_q1",
+    "heading_id": "GNS113_U4_T2_h6",
+    "article_id": "GNS113_U4_T2",
+    "topic_id": "GNS113_U4_T2",
+    "difficulty": "understanding",
+    "question": "Why is patient privacy a major concern when using advanced monitoring technology?",
+    "options": {
+      "A": "Monitoring devices always increase the financial cost of hospital stays",
+      "B": "Patients prefer manual checks over digital data collection methods",
+      "C": "Continuous tracking and recording can feel intrusive to the individual",
+      "D": "Digital monitors make patients immune to hospital-acquired infections"
     },
     "answer": "C",
-    "explanation": "Constant monitoring can compromise personal dignity if not balanced carefully with patient comfort and consent. [learn more](GNS113_U4_T2#GNS113_U4_T2_h5)"
+    "explanation": "Constant observation invades personal space and raises questions about who has access to sensitive health data. [learn more](GNS113_U4_T2#GNS113_U4_T2_h6)"
+  },
+  {
+    "question_id": "GNS113_U4_T2_h6_q2",
+    "heading_id": "GNS113_U4_T2_h6",
+    "article_id": "GNS113_U4_T2",
+    "topic_id": "GNS113_U4_T2",
+    "difficulty": "recall",
+    "question": "What primary duty does a nurse have regarding patient data collected by smart monitoring devices?",
+    "options": {
+      "A": "Selling anonymized vital sign data to medical research companies",
+      "B": "Keeping digital logs secure and using them strictly for clinical care",
+      "C": "Sharing all video feeds on public hospital social media pages",
+      "D": "Deleting patient records immediately after every shift change"
+    },
+    "answer": "B",
+    "explanation": "Nurses must protect confidential health information from unauthorized access and ensure proper data governance. [learn more](GNS113_U4_T2#GNS113_U4_T2_h6)"
   }
 ]

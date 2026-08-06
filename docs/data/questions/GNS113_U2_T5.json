@@ -5,15 +5,15 @@
     "article_id": "GNS113_U2_T5",
     "topic_id": "GNS113_U2_T5",
     "difficulty": "recall",
-    "question": "What is the main goal of nursing data integration?",
+    "question": "What is the primary goal of nursing data integration?",
     "options": {
-      "A": "Lowering the financial cost of hospital building maintenance",
-      "B": "Replacing all human nurses with automated computer programs",
-      "C": "Reducing the total number of hospital beds needed",
-      "D": "Bringing patient information together into a single view"
+      "A": "Creating a unified view of patient care",
+      "B": "Increasing the volume of paper files in storage",
+      "C": "Replacing all doctors with automated computer software",
+      "D": "Eliminating the need for physical hospital buildings"
     },
-    "answer": "D",
-    "explanation": "You've got this! Data integration simply means gathering scattered patient details from different places so you can see the whole picture in one spot. [learn more](GNS113_U2_T5#GNS113_U2_T5_h1)"
+    "answer": "A",
+    "explanation": "Bringing disparate health information together provides a complete, centralized picture of the patient. [learn more](GNS113_U2_T5#GNS113_U2_T5_h1)"
   },
   {
     "question_id": "GNS113_U2_T5_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GNS113_U2_T5",
     "topic_id": "GNS113_U2_T5",
     "difficulty": "understanding",
-    "question": "Why is manually copying patient data dangerous in a clinical setting?",
+    "question": "A patient is transferred from the emergency unit to the surgical ward. How does data integration help?",
     "options": {
-      "A": "It automatically deletes vital sign history from the computer",
-      "B": "It prevents the pharmacy from ever dispensing any drugs",
-      "C": "It causes the hospital internet network to crash completely",
-      "D": "It increases the risk of transcription errors and delays"
+      "A": "By requiring nurses to rewrite all vital signs manually",
+      "B": "By automatically discharging the patient from the hospital database",
+      "C": "By ensuring smooth continuity of care across departments",
+      "D": "By preventing doctors from ordering new diagnostic tests"
     },
-    "answer": "D",
-    "explanation": "Spotting mistakes is key to safe nursing! Copying things by hand takes extra time and opens the door to human errors that could affect patient safety. [learn more](GNS113_U2_T5#GNS113_U2_T5_h1)"
+    "answer": "C",
+    "explanation": "Centralized records allow receiving wards to instantly view past treatments and assessments without delay. [learn more](GNS113_U2_T5#GNS113_U2_T5_h1)"
   },
   {
     "question_id": "GNS113_U2_T5_h2_q1",
@@ -37,15 +37,15 @@
     "article_id": "GNS113_U2_T5",
     "topic_id": "GNS113_U2_T5",
     "difficulty": "recall",
-    "question": "Which standardized nursing terminology is used specifically to name clinical nursing diagnoses?",
+    "question": "Which classification system focuses specifically on nursing interventions and treatments?",
     "options": {
       "A": "NANDA-I",
-      "B": "NIC",
-      "C": "NOC",
-      "D": "ICD-10"
+      "B": "ICD-10",
+      "C": "NIC",
+      "D": "NOC"
     },
-    "answer": "A",
-    "explanation": "Great nursing care starts with clear language! NANDA-I gives us the official framework for naming the human responses and health issues we diagnose and treat every day. [learn more](GNS113_U2_T5#GNS113_U2_T5_h2)"
+    "answer": "C",
+    "explanation": "The Nursing Interventions Classification system provides standardized labels for treatments nurses execute. [learn more](GNS113_U2_T5#GNS113_U2_T5_h2)"
   },
   {
     "question_id": "GNS113_U2_T5_h2_q2",
@@ -53,15 +53,15 @@
     "article_id": "GNS113_U2_T5",
     "topic_id": "GNS113_U2_T5",
     "difficulty": "understanding",
-    "question": "What is the main benefit of using standardized nursing languages across different hospitals?",
+    "question": "Why must clinical nursing documentation use standardized terminology?",
     "options": {
-      "A": "It completely removes the need for nurses to write progress notes",
-      "B": "It stops doctors from changing any part of the nursing care plan",
-      "C": "It ensures all patients are discharged within twenty-four hours",
-      "D": "It allows computer systems to accurately track patient care and outcomes"
+      "A": "To ensure only medical doctors can read the patient chart",
+      "B": "To make nursing care measurable and clearly understood by all staff",
+      "C": "To hide patient errors from hospital management and auditors",
+      "D": "To slow down the charting process during busy night shifts"
     },
-    "answer": "D",
-    "explanation": "When we all speak the same clinical language, our notes become clear, measurable, and easy to compare across different hospitals and digital systems. [learn more](GNS113_U2_T5#GNS113_U2_T5_h2)"
+    "answer": "B",
+    "explanation": "Common language removes ambiguity, allowing clear communication and evaluation of patient progress. [learn more](GNS113_U2_T5#GNS113_U2_T5_h2)"
   },
   {
     "question_id": "GNS113_U2_T5_h3_q1",
@@ -69,31 +69,31 @@
     "article_id": "GNS113_U2_T5",
     "topic_id": "GNS113_U2_T5",
     "difficulty": "recall",
-    "question": "What does healthcare interoperability allow different computer systems to do?",
+    "question": "What does semantic interoperability ensure between different healthcare systems?",
     "options": {
-      "A": "Communicate and exchange patient data accurately",
-      "B": "Convert voice recordings into hand-written notes",
-      "C": "Block all external internet traffic for safety",
-      "D": "Automatically print paper prescriptions for patients"
+      "A": "Shared interpretation of the exact meaning of exchanged data",
+      "B": "Automatic printing of paper receipts for every lab test",
+      "C": "Identical pricing for medications across all retail pharmacies",
+      "D": "Physical compatibility of computer power cables and monitors"
     },
     "answer": "A",
-    "explanation": "Think of interoperability like a bridge: it simply means different software and hospital gadgets can successfully talk and share information with each other. [learn more](GNS113_U2_T5#GNS113_U2_T5_h3)"
+    "explanation": "Semantic interoperability guarantees that receiving systems understand the clinical context and meaning behind the sent data. [learn more](GNS113_U2_T5#GNS113_U2_T5_h3)"
   },
   {
     "question_id": "GNS113_U2_T5_h3_q2",
     "heading_id": "GNS113_U2_T5_h3",
     "article_id": "GNS113_U2_T5",
     "topic_id": "GNS113_U2_T5",
-    "difficulty": "application",
-    "question": "A lab machine sends blood test results straight into a patient's electronic chart without losing data. What makes this smooth transfer possible?",
+    "difficulty": "understanding",
+    "question": "A hospital installs a new laboratory machine that cannot send results to the electronic patient record. What is missing?",
     "options": {
-      "A": "Manual data re-entry",
-      "B": "Physical paper filing",
-      "C": "Higher computer screen resolution",
-      "D": "Interoperability standards"
+      "A": "Approval from the nursing regulatory council for equipment use",
+      "B": "Enough physical storage space for paper lab request forms",
+      "C": "Sufficient electrical voltage in the main hospital power grid",
+      "D": "Interoperability standards and data exchange protocols"
     },
     "answer": "D",
-    "explanation": "You're doing great! Standardized data exchange protocols are what allow different software systems and hospital devices to pass information back and forth seamlessly. [learn more](GNS113_U2_T5#GNS113_U2_T5_h3)"
+    "explanation": "Systems need shared communication protocols to successfully transfer information between independent devices. [learn more](GNS113_U2_T5#GNS113_U2_T5_h3)"
   },
   {
     "question_id": "GNS113_U2_T5_h4_q1",
@@ -101,15 +101,15 @@
     "article_id": "GNS113_U2_T5",
     "topic_id": "GNS113_U2_T5",
     "difficulty": "recall",
-    "question": "What is 'data architecture' when talking about Electronic Health Records?",
+    "question": "Entering clinical observations immediately after care prevents which major issue?",
     "options": {
-      "A": "The structural framework that organizes how information is stored and retrieved",
-      "B": "The electrical wiring inside hospital bedside monitor screens",
-      "C": "The physical concrete building where computer servers are locked",
-      "D": "The security guard schedule for the hospital IT department"
+      "A": "Memory-based documentation errors",
+      "B": "Unnecessary patient hospital discharges",
+      "C": "Excessive consumption of electricity",
+      "D": "Frequent computer hardware breakdowns"
     },
     "answer": "A",
-    "explanation": "Don't let the big word scare you—data architecture is just the digital blueprint or filing system that keeps electronic records organized so you can find them quickly. [learn more](GNS113_U2_T5#GNS113_U2_T5_h4)"
+    "explanation": "Immediate charting ensures details are fresh and accurate, avoiding mistakes caused by delayed recall. [learn more](GNS113_U2_T5#GNS113_U2_T5_h4)"
   },
   {
     "question_id": "GNS113_U2_T5_h4_q2",
@@ -117,15 +117,15 @@
     "article_id": "GNS113_U2_T5",
     "topic_id": "GNS113_U2_T5",
     "difficulty": "understanding",
-    "question": "Why is poor software data architecture risky for a nurse caring for a sick patient?",
+    "question": "An electronic system rejects a patient temperature entry of 120 degrees Celsius. What function is the system performing?",
     "options": {
-      "A": "Important warning signs can get buried in random text boxes",
-      "B": "It forces the hospital to buy more expensive printer paper",
-      "C": "It turns all computer monitors completely upside down",
-      "D": "It automatically cancels all scheduled medication doses"
+      "A": "Data validation",
+      "B": "Insurance billing",
+      "C": "Semantic translation",
+      "D": "Patient triage"
     },
     "answer": "A",
-    "explanation": "When software is poorly organized, critical clinical details get lost in the clutter, making emergencies much harder to handle. Good design saves lives! [learn more](GNS113_U2_T5#GNS113_U2_T5_h4)"
+    "explanation": "Validation rules catch out-of-range or impossible values to prevent incorrect data entry. [learn more](GNS113_U2_T5#GNS113_U2_T5_h4)"
   },
   {
     "question_id": "GNS113_U2_T5_h5_q1",
@@ -133,31 +133,31 @@
     "article_id": "GNS113_U2_T5",
     "topic_id": "GNS113_U2_T5",
     "difficulty": "recall",
-    "question": "What does the tech phrase 'garbage in, garbage out' mean for nursing documentation?",
+    "question": "What is the purpose of role-based access control in electronic health records?",
     "options": {
-      "A": "All hospital trash must be sorted before entering the electronic system",
-      "B": "Inaccurate data entry leads to unreliable clinical reports and decisions",
-      "C": "Patient records must be printed and thrown away every evening",
-      "D": "Computers automatically delete any notes typed by junior nurses"
+      "A": "Restricting user access to only information needed for their duties",
+      "B": "Allowing every hospital employee to read any patient record",
+      "C": "Reducing the cost of purchasing computer software licenses",
+      "D": "Speed up the login process for doctors during emergencies"
     },
-    "answer": "B",
-    "explanation": "It makes total sense: if sloppy or incorrect data goes into the computer, the resulting clinical alerts and reports will also be completely wrong. [learn more](GNS113_U2_T5#GNS113_U2_T5_h5)"
+    "answer": "A",
+    "explanation": "Role-based controls protect privacy by limiting data visibility to authorized job functions. [learn more](GNS113_U2_T5#GNS113_U2_T5_h5)"
   },
   {
     "question_id": "GNS113_U2_T5_h5_q2",
     "heading_id": "GNS113_U2_T5_h5",
     "article_id": "GNS113_U2_T5",
     "topic_id": "GNS113_U2_T5",
-    "difficulty": "application",
-    "question": "A nurse accidentally types a patient's heart rate as 12 instead of 120 beats per minute. What primary concept does this error affect?",
+    "difficulty": "understanding",
+    "question": "Why are audit trails maintained in integrated electronic health record systems?",
     "options": {
-      "A": "Physical network security",
-      "B": "Data quality and validity",
-      "C": "Patient financial billing status",
-      "D": "Hospital building architecture"
+      "A": "To automatically delete old patient charts after forty-eight hours",
+      "B": "To measure how fast typing speeds improve over a calendar year",
+      "C": "To calculate the exact salary bonus due to each ward nurse",
+      "D": "To track who opened a patient file and identify unauthorized access"
     },
-    "answer": "B",
-    "explanation": "Typo alerts happen, but entering the wrong numbers ruins the trustworthiness and accuracy of the patient's official health record. Always double-check your vitals! [learn more](GNS113_U2_T5#GNS113_U2_T5_h5)"
+    "answer": "D",
+    "explanation": "Audit logs record system activity, making it possible to investigate privacy breaches and unauthorized record views. [learn more](GNS113_U2_T5#GNS113_U2_T5_h5)"
   },
   {
     "question_id": "GNS113_U2_T5_h6_q1",
@@ -165,15 +165,15 @@
     "article_id": "GNS113_U2_T5",
     "topic_id": "GNS113_U2_T5",
     "difficulty": "recall",
-    "question": "What is the main purpose of role-based access control in electronic health systems?",
+    "question": "How does an integrated data system affect the daily work of a nurse?",
     "options": {
-      "A": "To decide which nurses work the night shift each week",
-      "B": "To control the temperature inside the computer server room",
-      "C": "To assign physical parking spots to hospital doctors",
-      "D": "To restrict patient data viewing only to staff who need it for care"
+      "A": "It eliminates the need to perform physical patient assessments",
+      "B": "It forces nurses to spend their entire shift on billing tasks",
+      "C": "It removes all responsibility for medication administration",
+      "D": "It reduces time spent searching for scattered charts"
     },
     "answer": "D",
-    "explanation": "Role-based access protects patient privacy by making sure staff can only open the specific system areas and records required for their exact job. [learn more](GNS113_U2_T5#GNS113_U2_T5_h6)"
+    "explanation": "Centralized digital access saves time previously wasted locating paper records across departments. [learn more](GNS113_U2_T5#GNS113_U2_T5_h6)"
   },
   {
     "question_id": "GNS113_U2_T5_h6_q2",
@@ -181,46 +181,14 @@
     "article_id": "GNS113_U2_T5",
     "topic_id": "GNS113_U2_T5",
     "difficulty": "understanding",
-    "question": "Which of these is NOT a safe data security practice for a clinical nurse?",
+    "question": "An early warning score system triggers an alert for a patient in the ward. How does integrated data make this possible?",
     "options": {
-      "A": "Leaving an active patient chart open on the screen while walking away",
-      "B": "Keeping personal computer login passwords private and confidential",
-      "C": "Logging out of the electronic health record station before taking a break",
-      "D": "Reporting unfamiliar software pop-ups to the hospital IT department"
+      "A": "By combining live vital signs and lab results into an automated analysis",
+      "B": "By alerting security guards to lock down the hospital entrance",
+      "C": "By automatically ordering emergency surgical supplies from abroad",
+      "D": "By printing paper warning slips for the chief medical director"
     },
     "answer": "A",
-    "explanation": "Never leave an unattended terminal logged in! It allows unauthorized eyes to see or change confidential patient information. Always lock your screen. [learn more](GNS113_U2_T5#GNS113_U2_T5_h6)"
-  },
-  {
-    "question_id": "GNS113_U2_T5_h7_q1",
-    "heading_id": "GNS113_U2_T5_h7",
-    "article_id": "GNS113_U2_T5",
-    "topic_id": "GNS113_U2_T5",
-    "difficulty": "recall",
-    "question": "What do automated clinical decision support tools use integrated patient data to do?",
-    "options": {
-      "A": "Calculate monthly salary payments for nursing staff",
-      "B": "Send early warnings and flag potential safety risks",
-      "C": "Schedule staff vacation days without human approval",
-      "D": "Order hospital meals directly from the kitchen menu"
-    },
-    "answer": "B",
-    "explanation": "These smart tools analyze patient data in the background to give you timely heads-ups about things like drug allergies or sudden drops in vital signs. [learn more](GNS113_U2_T5#GNS113_U2_T5_h7)"
-  },
-  {
-    "question_id": "GNS113_U2_T5_h7_q2",
-    "heading_id": "GNS113_U2_T5_h7",
-    "article_id": "GNS113_U2_T5",
-    "topic_id": "GNS113_U2_T5",
-    "difficulty": "understanding",
-    "question": "How does well-integrated health data improve your daily nursing workflow?",
-    "options": {
-      "A": "It reduces time spent searching for records and supports proactive care",
-      "B": "It prevents nurses from communicating directly with physicians",
-      "C": "It forces nurses to spend all their shift fixing computer hardware",
-      "D": "It removes all documentation requirements from the nursing shift"
-    },
-    "answer": "A",
-    "explanation": "Having all your patient info connected in one place cuts down on annoying delays and helps you catch health problems before they turn into emergencies. You've got this! [learn more](GNS113_U2_T5#GNS113_U2_T5_h7)"
+    "explanation": "Integration feeds multiple data points into decision-support algorithms to detect clinical decline early. [learn more](GNS113_U2_T5#GNS113_U2_T5_h6)"
   }
 ]
