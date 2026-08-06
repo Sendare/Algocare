@@ -12,44 +12,44 @@
     {
       "heading_id": "GNS125_U5_T4_h1",
       "order": 1,
-      "title": "Introduction and Major Routes of Drug Excretion",
-      "content": "Drug excretion is the irreversible removal of drugs and their metabolites from the body. While the kidneys do most of the heavy lifting, the body uses several other exit routes depending on the chemical properties of the substance. Understanding these pathways helps nurses anticipate how long a drug stays in a patient's system.\n\n- **Renal excretion**: The primary route for water-soluble drugs and small molecules.\n- **Biliary excretion**: Eliminates larger, lipid-soluble compounds through the liver and bile into the feces.\n- **Pulmonary excretion**: Exhales volatile gases and anesthetics from the lungs.\n- **Glandular excretion**: Secretes small amounts through sweat, saliva, tears, and breast milk."
+      "title": "Introduction and Major Organs of Drug Excretion",
+      "content": "Drug excretion is the irreversible removal of drugs and their metabolites from the body. While the kidneys handle the bulk of water-soluble substances, various other pathways contribute to eliminating foreign chemicals. Understanding these exit routes helps nurses anticipate how long a drug stays active in a patient's system.\n\n- **Kidneys**: The primary site for eliminating polar, water-soluble drugs.\n- **Liver and Biliary System**: Excretes lipid-soluble compounds and metabolites into the stool via bile.\n- **Lungs**: Mainly eliminates volatile anesthetics and gaseous substances through exhalation.\n- **Breast Milk**: Excretes weak bases, posing risks to nursing infants.\n- **Sweat and Saliva**: Minor routes that eliminate trace amounts of drugs."
     },
     {
       "heading_id": "GNS125_U5_T4_h2",
       "order": 2,
       "title": "Renal Excretion Mechanisms",
-      "content": "The kidney handles drug elimination through three distinct processes occurring within the nephron. First, **glomerular filtration** pushes unbound, small-molecule drugs out of the blood plasma and into the renal tubules. Next, **tubular secretion** uses active transport pumps in the proximal tubule to actively shove remaining drug molecules from the blood capillaries directly into the urine filtrate. Finally, **tubular reabsorption** can pull lipid-soluble drugs back out of the tubule and into the bloodstream, slowing down their exit until the liver modifies them to be more water-soluble."
+      "content": "The nephron clears drugs from the blood using three distinct processes. Glomerular filtration allows unbound drug molecules small enough to pass through capillary pores into the Bowman's capsule. Protein-bound drugs cannot pass through this filter. Next, active tubular secretion uses carrier proteins in the proximal tubules to push certain drugs, particularly organic acids and bases, directly into the urine filtrate. Finally, passive tubular reabsorption occurs as fluid moves down the tubule. Liposoluble drugs cross the tubular cells back into the bloodstream, whereas polar, ionized molecules stay trapped in the urine and are excreted."
     },
     {
       "heading_id": "GNS125_U5_T4_h3",
       "order": 3,
       "title": "Factors Affecting Renal Excretion",
-      "content": "A patient's ability to clear drugs through their kidneys changes based on physiological variables. **Glomerular filtration rate (GFR)** sets the baseline pace; if kidney function drops, drug clearance plummets. Urine pH also plays a major role through **ion trapping**. If a nurse administers a weak base drug, making the urine more acidic causes the drug to become ionized, trapping it in the urine so it cannot diffuse back into the blood. Additionally, plasma protein binding keeps large molecules confined to the circulation, preventing them from slipping through the glomerulus."
+      "content": "Several physiological and chemical variables alter how fast the kidneys clear medications. Urine pH plays a massive role through ion trapping. Acidifying the urine speeds up the elimination of weak bases, while alkalinizing the urine accelerates the excretion of weak acids. Furthermore, conditions that reduce renal blood flow, such as dehydration or heart failure, slow down glomerular filtration and prolong drug half-lives. Age also matters significantly, as neonates and older adults naturally experience reduced renal clearance rates."
     },
     {
       "heading_id": "GNS125_U5_T4_h4",
       "order": 4,
-      "title": "Biliary and Fecal Excretion",
-      "content": "Not all medications leave through urine. The liver pulls certain large or fat-soluble compounds out of the blood and dumps them into bile. Once bile empties into the small intestine, these drugs pass out of the body in the feces. \n\nSome drugs undergo **enterohepatic recirculation**. After entering the intestine via bile, friendly gut bacteria can strip away chemical tags, turning the drug back into a fat-soluble form that gets reabsorbed through the intestinal wall back into the bloodstream. This recycling loop delays final elimination and keeps the drug active in the body much longer than expected."
+      "title": "Biliary and Enterohepatic Circulation",
+      "content": "Liver cells transport certain drugs and their metabolites directly into the bile canaliculi, carrying them into the small intestine. Once in the gut, some conjugated drugs are hydrolyzed by bacterial enzymes back into active, lipid-soluble forms. These active drugs can then cross the intestinal wall and re-enter the portal circulation, a process known as enterohepatic recirculation. This recycling loop delays final elimination and extends a medication's duration of action in the body."
     },
     {
       "heading_id": "GNS125_U5_T4_h5",
       "order": 5,
       "title": "Alternative Routes of Excretion",
-      "content": "Beyond urine and feces, the body uses minor pathways to clear medications. The lungs eliminate alcohol and volatile general anesthetics, which is why a patient's breath smells of alcohol after drinking. **Mammary excretion** is critical because many drugs pass from maternal blood into breast milk. Nursing mothers must be cautious because lipid-soluble drugs easily enter milk and can affect the nursing infant. Sweat and saliva also eliminate tiny amounts of certain drugs, occasionally causing skin rashes or metallic tastes in the mouth."
+      "content": "Drugs can leave the body through non-renal and non-biliary pathways that hold clinical significance. Sweat and saliva eliminate small amounts of certain drugs, sometimes causing localized skin reactions or a distinct metallic taste. The lungs exhale volatile anesthetics and alcohol at rates proportional to their concentration in arterial blood. Furthermore, lipid-soluble drugs pass easily into breast milk via passive diffusion, potentially exposing breastfed infants to pharmacologically active agents."
     },
     {
       "heading_id": "GNS125_U5_T4_h6",
       "order": 6,
-      "title": "Clearance and Half-Life",
-      "content": "Two key pharmacokinetic values measure how fast a drug leaves the body. **Clearance** describes the volume of blood cleared of a drug per unit of time, usually measured in milliliters per minute. **Half-life** ($t_{1/2}$) is the time required for the plasma concentration of a drug to drop by half. \n\nDrugs with short half-lives leave quickly and need frequent dosing, while drugs with long half-lives take days to clear and carry a higher risk of accumulation. It generally takes about four to five half-lives for a drug to be almost completely eliminated from the body after stopping administration."
+      "title": "Pharmacokinetic Parameters: Clearance and Half-Life",
+      "content": "Drug clearance measures the volume of plasma completely cleared of a drug per unit of time, combining the work of all eliminating organs. Half-life is the time required for the plasma concentration of a drug to decrease by fifty percent. These two parameters dictate dosing intervals and how long it takes a drug to reach steady state. Drugs with long half-lives accumulate easily with repeated dosing, while those with short clearance times require frequent administration or continuous infusion."
     },
     {
       "heading_id": "GNS125_U5_T4_h7",
       "order": 7,
       "title": "Clinical Implications in Nursing Practice",
-      "content": "Nurses play a direct role in monitoring drug excretion to prevent toxicity. In older adults, normal aging reduces kidney and liver function, which lowers drug clearance and extends half-life. Standard adult doses can easily cause toxicity in elderly patients unless adjusted. Nurses must monitor laboratory values like serum creatinine and **blood urea nitrogen (BUN)** to catch declining renal function early. Adjusting dosing schedules or holding medications when excretion organs fail is a core safety responsibility."
+      "content": "Nurses must actively monitor elimination pathways to prevent drug toxicity, especially in vulnerable populations. Patients with compromised kidney or liver function need individualized dosage adjustments based on laboratory values like serum creatinine and creatinine clearance. Nurses also educate patients on hydration and dietary choices that influence urinary pH. Recognizing early signs of drug accumulation allows healthcare teams to intervene before adverse systemic reactions occur."
     }
   ]
 }
