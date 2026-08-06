@@ -5,15 +5,15 @@
     "article_id": "GNS313_U2_T24",
     "topic_id": "GNS313_U2_T24",
     "difficulty": "recall",
-    "question": "What role do humans play in the life cycle of Taenia tapeworms when they harbor the adult worm in their intestines?",
+    "question": "What is the primary human host status for adult Taenia species?",
     "options": {
-      "A": "Dead-end host",
-      "B": "Accidental host",
-      "C": "Definitive host",
-      "D": "Intermediate host"
+      "A": "Definitive host",
+      "B": "Intermediate host",
+      "C": "Reservoir host",
+      "D": "Accidental host"
     },
-    "answer": "C",
-    "explanation": "Spot on! Because humans house the adult tapeworm in the gut, we are considered the definitive host. Keep up the great practice! [learn more](GNS313_U2_T24#GNS313_U2_T24_h1)"
+    "answer": "A",
+    "explanation": "Humans harbor the sexually mature adult tapeworm in the intestine, making them the definitive host in the parasite's life cycle. [learn more](GNS313_U2_T24#GNS313_U2_T24_h1)"
   },
   {
     "question_id": "GNS313_U2_T24_h1_q2",
@@ -21,23 +21,7 @@
     "article_id": "GNS313_U2_T24",
     "topic_id": "GNS313_U2_T24",
     "difficulty": "understanding",
-    "question": "Why is an intestinal infection with Taenia solium often more worrying than Taenia saginata?",
-    "options": {
-      "A": "It can cause dangerous tissue cysts if eggs are accidentally swallowed.",
-      "B": "It spreads directly from person to person through casual touch.",
-      "C": "It completely resists standard anti-parasitic medications.",
-      "D": "It produces much larger adult worms in the bowel."
-    },
-    "answer": "A",
-    "explanation": "You got it! T. solium eggs can hatch and form cysts in body tissues like the brain (cysticercosis), which makes them particularly tricky and dangerous. [learn more](GNS313_U2_T24#GNS313_U2_T24_h1)"
-  },
-  {
-    "question_id": "GNS313_U2_T24_h2_q1",
-    "heading_id": "GNS313_U2_T24_h2",
-    "article_id": "GNS313_U2_T24",
-    "topic_id": "GNS313_U2_T24",
-    "difficulty": "recall",
-    "question": "Which animal serves as the intermediate host for the beef tapeworm, Taenia saginata?",
+    "question": "Which animal is the specific source of human infection with Taenia saginata?",
     "options": {
       "A": "Cattle",
       "B": "Goats",
@@ -45,7 +29,23 @@
       "D": "Dogs"
     },
     "answer": "A",
-    "explanation": "Well done! Cattle act as the intermediate host for Taenia saginata, carrying the larval cysts in their muscles. [learn more](GNS313_U2_T24#GNS313_U2_T24_h2)"
+    "explanation": "Taenia saginata is the beef tapeworm, meaning humans acquire it specifically by consuming undercooked infected beef from cattle. [learn more](GNS313_U2_T24#GNS313_U2_T24_h1)"
+  },
+  {
+    "question_id": "GNS313_U2_T24_h2_q1",
+    "heading_id": "GNS313_U2_T24_h2",
+    "article_id": "GNS313_U2_T24",
+    "topic_id": "GNS313_U2_T24",
+    "difficulty": "recall",
+    "question": "What is the infectious larval form found in undercooked meat called?",
+    "options": {
+      "A": "Oncosphere",
+      "B": "Cysticercus",
+      "C": "Proglottid",
+      "D": "Scolex"
+    },
+    "answer": "B",
+    "explanation": "The cysticercus is the fluid-filled larval cyst residing in muscle tissue that infects humans when eaten raw or undercooked. [learn more](GNS313_U2_T24#GNS313_U2_T24_h2)"
   },
   {
     "question_id": "GNS313_U2_T24_h2_q2",
@@ -53,47 +53,47 @@
     "article_id": "GNS313_U2_T24",
     "topic_id": "GNS313_U2_T24",
     "difficulty": "understanding",
-    "question": "What triggers a tapeworm cyst to release its head (scolex) once a human eats contaminated meat?",
+    "question": "How do farm animals become infected with the tapeworm parasite?",
     "options": {
-      "A": "Gastric acid and enzymes digesting the cyst wall to release the scolex",
-      "B": "Immune system suppression caused by the larval waste products",
-      "C": "The low temperature inside the human small intestine",
-      "D": "Direct contact with human blood cells in the mucosal lining"
+      "A": "Breathing airborne spores in pastures",
+      "B": "Ingesting human faeces containing eggs",
+      "C": "Direct contact with human skin lesions",
+      "D": "Bitten by infected vector mosquitoes"
     },
-    "answer": "A",
-    "explanation": "Exactly! Stomach acid and digestive juices break open the cyst, freeing the scolex so it can attach firmly to the small intestine. [learn more](GNS313_U2_T24#GNS313_U2_T24_h2)"
+    "answer": "B",
+    "explanation": "Animals acquire the infection by grazing on vegetation or drinking water contaminated with human waste containing tapeworm eggs. [learn more](GNS313_U2_T24#GNS313_U2_T24_h2)"
   },
   {
     "question_id": "GNS313_U2_T24_h3_q1",
     "heading_id": "GNS313_U2_T24_h3",
     "article_id": "GNS313_U2_T24",
     "topic_id": "GNS313_U2_T24",
-    "difficulty": "recall",
-    "question": "What common farming practice greatly increases the spread of Taenia solium in rural areas?",
+    "difficulty": "application",
+    "question": "A patient living in a rural farming community contracts taeniasis. What practice most likely caused this?",
     "options": {
-      "A": "Keeping pigs strictly indoors in concrete pens with automated cleaning",
-      "B": "Free-range scavenging of pigs where human waste is accessible",
-      "C": "Vaccinating all livestock against bacterial infections yearly",
-      "D": "Feeding cattle exclusively on imported commercial grain"
+      "A": "Swimming in stagnant freshwater streams",
+      "B": "Drinking chemically treated municipal tap water",
+      "C": "Handling soil without wearing protective gloves",
+      "D": "Eating undercooked meat from local livestock"
     },
-    "answer": "B",
-    "explanation": "That's right! When pigs roam about freely and have access to human faeces where open defecation occurs, they easily pick up tapeworm eggs. [learn more](GNS313_U2_T24#GNS313_U2_T24_h3)"
+    "answer": "D",
+    "explanation": "Consumption of locally sourced, undercooked meat containing larval cysts is the direct route of acquiring intestinal tapeworm infection. [learn more](GNS313_U2_T24#GNS313_U2_T24_h3)"
   },
   {
     "question_id": "GNS313_U2_T24_h3_q2",
     "heading_id": "GNS313_U2_T24_h3",
     "article_id": "GNS313_U2_T24",
     "topic_id": "GNS313_U2_T24",
-    "difficulty": "application",
-    "question": "A patient in a rural community gets taeniasis after eating locally prepared meat. What was the most likely cause?",
+    "difficulty": "understanding",
+    "question": "Which local factor contributes most significantly to the cycle of transmission in communities?",
     "options": {
-      "A": "Eating undercooked pork or beef containing live larval cysts",
-      "B": "Drinking unboiled stream water contaminated with tapeworm segments",
-      "C": "Sharing eating utensils with an infected family member",
-      "D": "Working barefoot in muddy soil containing free-living larvae"
+      "A": "Lack of refrigeration for cooked household meals",
+      "B": "Open defecation and free-range animal farming",
+      "C": "Overcrowded living conditions in urban centers",
+      "D": "High consumption of imported frozen poultry"
     },
-    "answer": "A",
-    "explanation": "Correct! You catch intestinal taeniasis strictly by eating raw or undercooked meat that has live cysts in it. Always ensure your meat is well cooked! [learn more](GNS313_U2_T24#GNS313_U2_T24_h3)"
+    "answer": "B",
+    "explanation": "When humans practice open defecation and animals roam freely, the animals easily consume human waste containing infectious tapeworm eggs. [learn more](GNS313_U2_T24#GNS313_U2_T24_h3)"
   },
   {
     "question_id": "GNS313_U2_T24_h4_q1",
@@ -101,15 +101,15 @@
     "article_id": "GNS313_U2_T24",
     "topic_id": "GNS313_U2_T24",
     "difficulty": "recall",
-    "question": "What is a common sign that prompts a patient to suspect they might have a tapeworm?",
+    "question": "What is a common sign that often leads patients to suspect a tapeworm infection?",
     "options": {
-      "A": "Passing flat, white worm segments in the stool",
-      "B": "Coughing up blood-stained sputum during the night",
-      "C": "Noticing painful swelling in the lower limbs",
-      "D": "Developing severe jaundice in the eyes and skin"
+      "A": "Painful swelling of the parotid glands",
+      "B": "Passing worm segments in stool",
+      "C": "Jaundice and dark yellow urine",
+      "D": "Severe shortness of breath at rest"
     },
-    "answer": "A",
-    "explanation": "Spot on! Patients often notice moving or detached worm segments (proglottids) in their toilet visits, which is usually what brings them to the clinic. [learn more](GNS313_U2_T24#GNS313_U2_T24_h4)"
+    "answer": "B",
+    "explanation": "Patients frequently notice moving or flat white segments of the tapeworm in their undergarments or faeces. [learn more](GNS313_U2_T24#GNS313_U2_T24_h4)"
   },
   {
     "question_id": "GNS313_U2_T24_h4_q2",
@@ -117,15 +117,15 @@
     "article_id": "GNS313_U2_T24",
     "topic_id": "GNS313_U2_T24",
     "difficulty": "understanding",
-    "question": "How does an uncomplicated intestinal tapeworm infection usually present clinically?",
+    "question": "A patient with taeniasis reports mild abdominal pain and weight loss. Why do these symptoms happen?",
     "options": {
-      "A": "It leads to rapid weight gain due to malabsorption of fats.",
-      "B": "It always causes sudden high fevers and debilitating muscle paralysis.",
-      "C": "It causes immediate respiratory failure by blocking the trachea.",
-      "D": "It is frequently asymptomatic or causes only mild, non-specific digestive upset."
+      "A": "The adult worm competes for nutrients and irritates the gut",
+      "B": "Blockage of the bile duct causes fat malabsorption",
+      "C": "Larval cysts multiply rapidly inside the liver and spleen",
+      "D": "Toxic secretions from the worm destroy the pancreas"
     },
-    "answer": "D",
-    "explanation": "Well reasoned! Many people don't even know they have a tapeworm, or they might just feel slight tummy discomfort aside from seeing segments. [learn more](GNS313_U2_T24#GNS313_U2_T24_h4)"
+    "answer": "A",
+    "explanation": "The large adult worm attaches to the intestinal mucosa, causing local irritation and consuming nutrients passing through the digestive tract. [learn more](GNS313_U2_T24#GNS313_U2_T24_h4)"
   },
   {
     "question_id": "GNS313_U2_T24_h5_q1",
@@ -133,15 +133,15 @@
     "article_id": "GNS313_U2_T24",
     "topic_id": "GNS313_U2_T24",
     "difficulty": "recall",
-    "question": "Why is a routine stool microscope check often not enough to tell exactly which Taenia species a patient has?",
+    "question": "What laboratory sample is primarily used to diagnose an intestinal tapeworm infection?",
     "options": {
-      "A": "Eggs of different Taenia species look identical under the microscope.",
-      "B": "Adult worms never release eggs into the digestive tract.",
-      "C": "Tapeworm eggs dissolve completely in standard formalin preservatives.",
-      "D": "Microscopes cannot magnify parasite structures clearly enough."
+      "A": "Venous blood serum",
+      "B": "Stool specimen",
+      "C": "Sputum sample",
+      "D": "Cerebrospinal fluid"
     },
-    "answer": "A",
-    "explanation": "Exactly right! Under the microscope, the eggs of both species look almost the same, so just seeing an egg doesn't tell you if it's pork or beef tapeworm. [learn more](GNS313_U2_T24#GNS313_U2_T24_h5)"
+    "answer": "B",
+    "explanation": "Stool microscopy is the standard diagnostic method to detect tapeworm eggs or proglottids passed from the gastrointestinal tract. [learn more](GNS313_U2_T24#GNS313_U2_T24_h5)"
   },
   {
     "question_id": "GNS313_U2_T24_h5_q2",
@@ -149,15 +149,15 @@
     "article_id": "GNS313_U2_T24",
     "topic_id": "GNS313_U2_T24",
     "difficulty": "understanding",
-    "question": "What laboratory check is needed to tell Taenia saginata and Taenia solium apart with certainty?",
+    "question": "Why is it difficult to distinguish between Taenia saginata and Taenia solium using standard stool microscopy?",
     "options": {
-      "A": "Performing a chest X-ray to check for lung consolidation",
-      "B": "Checking serum electrolyte levels for chronic dehydration",
-      "C": "Examining the uterine branches of intact passed proglottids",
-      "D": "Measuring total white blood cell counts in a routine blood sample"
+      "A": "Stool processing chemicals destroy structural details",
+      "B": "Their eggs look identical under the microscope",
+      "C": "Both species shed eggs only once every six months",
+      "D": "The adult worms look completely identical in the gut"
     },
-    "answer": "C",
-    "explanation": "You got it! Lab techs count the side branches in the uterus of an intact passed segment to easily tell the two species apart. [learn more](GNS313_U2_T24#GNS313_U2_T24_h5)"
+    "answer": "B",
+    "explanation": "The microscopic appearance of eggs from both species is remarkably similar, requiring proglottid analysis or advanced testing for species differentiation. [learn more](GNS313_U2_T24#GNS313_U2_T24_h5)"
   },
   {
     "question_id": "GNS313_U2_T24_h6_q1",
@@ -165,15 +165,15 @@
     "article_id": "GNS313_U2_T24",
     "topic_id": "GNS313_U2_T24",
     "difficulty": "recall",
-    "question": "What is the primary medication used to treat intestinal tapeworm infections?",
+    "question": "Which medication is most commonly prescribed as a single dose for intestinal taeniasis?",
     "options": {
-      "A": "Paracetamol",
-      "B": "Amoxicillin",
+      "A": "Metronidazole",
+      "B": "Artemether",
       "C": "Praziquantel",
-      "D": "Chloroquine"
+      "D": "Benzylpenicillin"
     },
     "answer": "C",
-    "explanation": "Spot on! Praziquantel is the go-to drug that stuns and paralyzes the tapeworm so the body can pass it out safely. [learn more](GNS313_U2_T24#GNS313_U2_T24_h6)"
+    "explanation": "Praziquantel is the standard first-line anthelmintic agent used to treat adult tapeworm infections effectively. [learn more](GNS313_U2_T24#GNS313_U2_T24_h6)"
   },
   {
     "question_id": "GNS313_U2_T24_h6_q2",
@@ -181,47 +181,47 @@
     "article_id": "GNS313_U2_T24",
     "topic_id": "GNS313_U2_T24",
     "difficulty": "understanding",
-    "question": "What crucial safety rule must be kept in mind when treating a patient infected with Taenia solium?",
+    "question": "How does Praziquantel act against the adult tapeworm in the human gut?",
     "options": {
-      "A": "Giving the medication exclusively through an intravenous infusion",
-      "B": "Ensuring the patient fasts completely for one week prior to dosing",
-      "C": "Preventing the patient from swallowing shed eggs to avoid cysticercosis",
-      "D": "Keeping the patient isolated in a negative pressure room"
+      "A": "Prevents glucose uptake, starving the worm of vital energy",
+      "B": "Causes muscle paralysis and detachment from the intestinal wall",
+      "C": "Blocks cellular respiration by inhibiting iron-containing enzymes",
+      "D": "Dissolves the protective outer cuticle layer of the parasite"
     },
-    "answer": "C",
-    "explanation": "Brilliant! If the patient vomits or has poor hygiene during treatment, they might accidentally swallow T. solium eggs and develop dangerous tissue cysts. [learn more](GNS313_U2_T24#GNS313_U2_T24_h6)"
+    "answer": "B",
+    "explanation": "Praziquantel alters calcium ion permeability, triggering massive contraction and subsequent paralysis of the tapeworm musculature. [learn more](GNS313_U2_T24#GNS313_U2_T24_h6)"
   },
   {
     "question_id": "GNS313_U2_T24_h7_q1",
     "heading_id": "GNS313_U2_T24_h7",
     "article_id": "GNS313_U2_T24",
     "topic_id": "GNS313_U2_T24",
-    "difficulty": "recall",
-    "question": "What is the most severe and dangerous complication linked specifically to Taenia solium?",
+    "difficulty": "understanding",
+    "question": "What severe complication can develop specifically from the accidental ingestion of Taenia solium eggs?",
     "options": {
-      "A": "Iron deficiency anemia",
-      "B": "Neurocysticercosis",
-      "C": "Chronic kidney failure",
-      "D": "Obstructive jaundice"
+      "A": "Renal failure and electrolyte imbalance",
+      "B": "Neurocysticercosis and seizures",
+      "C": "Cirrhosis and portal hypertension",
+      "D": "Pulmonary edema and chronic cough"
     },
     "answer": "B",
-    "explanation": "Correct! When larval cysts find their way into the central nervous system, it causes neurocysticercosis, which frequently leads to seizures and neurological issues. [learn more](GNS313_U2_T24#GNS313_U2_T24_h7)"
+    "explanation": "Ingesting T. solium eggs leads to larval migration and cyst formation in the brain, resulting in neurocysticercosis and seizure disorders. [learn more](GNS313_U2_T24#GNS313_U2_T24_h7)"
   },
   {
     "question_id": "GNS313_U2_T24_h7_q2",
     "heading_id": "GNS313_U2_T24_h7",
     "article_id": "GNS313_U2_T24",
     "topic_id": "GNS313_U2_T24",
-    "difficulty": "understanding",
-    "question": "How can intestinal tapeworms occasionally lead to a surgical emergency like appendicitis?",
+    "difficulty": "recall",
+    "question": "Which of the following is NOT a typical presentation of neurocysticercosis?",
     "options": {
-      "A": "By causing massive allergic reactions throughout the abdominal cavity",
-      "B": "By having worm segments physically block or lodge inside the appendiceal lumen",
-      "C": "By migrating directly through the bloodstream into the liver tissue",
-      "D": "By producing toxins that instantly rupture the intestinal wall"
+      "A": "Raised intracranial pressure",
+      "B": "Chronic epileptic seizures",
+      "C": "Persistent severe headaches",
+      "D": "Profuse watery diarrhoea"
     },
-    "answer": "B",
-    "explanation": "You nailed it! A wandering tapeworm segment can accidentally wedge itself inside the tiny appendix tube, causing a painful blockage and inflammation. [learn more](GNS313_U2_T24#GNS313_U2_T24_h7)"
+    "answer": "D",
+    "explanation": "Neurocysticercosis affects the central nervous system with neurological signs, whereas intestinal symptoms like diarrhoea are absent from tissue encystment. [learn more](GNS313_U2_T24#GNS313_U2_T24_h7)"
   },
   {
     "question_id": "GNS313_U2_T24_h8_q1",
@@ -229,15 +229,15 @@
     "article_id": "GNS313_U2_T24",
     "topic_id": "GNS313_U2_T24",
     "difficulty": "understanding",
-    "question": "What is a key preventative measure community health nurses should teach families about preparing meat?",
+    "question": "What is the most effective nursing health education message for preventing taeniasis in households?",
     "options": {
-      "A": "Freezing meat at normal refrigerator temperatures for one hour",
-      "B": "Cooking pork and beef thoroughly until no pink meat remains",
-      "C": "Soaking steaks in vinegar to kill internal parasites",
-      "D": "Washing raw meat with cold salty water before storing it"
+      "A": "Ensure all beef and pork are cooked thoroughly",
+      "B": "Wash all fresh vegetables in cold saltwater",
+      "C": "Boil drinking water for at least twenty minutes",
+      "D": "Avoid swimming in slow-moving rural rivers"
     },
-    "answer": "B",
-    "explanation": "Spot on! Proper heat is the best defense; cooking meat well destroys any hidden larval cysts so they cannot infect humans. [learn more](GNS313_U2_T24#GNS313_U2_T24_h8)"
+    "answer": "A",
+    "explanation": "Thorough cooking destroys any larval cysts present in meat, breaking the primary transmission route to humans. [learn more](GNS313_U2_T24#GNS313_U2_T24_h8)"
   },
   {
     "question_id": "GNS313_U2_T24_h8_q2",
@@ -245,14 +245,14 @@
     "article_id": "GNS313_U2_T24",
     "topic_id": "GNS313_U2_T24",
     "difficulty": "application",
-    "question": "A community health nurse is planning an outreach in a rural farming area. Which intervention targets the root cause of tapeworm spread?",
+    "question": "A community health nurse plans an intervention to lower tapeworm rates in a rural market town. Which action addresses the root cause best?",
     "options": {
-      "A": "Advocating for the complete ban of livestock farming in the region",
-      "B": "Providing insect repellent sprays to prevent mosquito-borne bites",
-      "C": "Distributing broad-spectrum antibiotics to every household in the village",
-      "D": "Educating residents against open defecation and promoting proper meat inspection"
+      "A": "Providing insecticidal nets for household sleeping",
+      "B": "Administering yearly antibiotics for bacterial infections",
+      "C": "Distributing multivitamins to malnourished children",
+      "D": "Advocating for sanitary latrines and meat inspection"
     },
     "answer": "D",
-    "explanation": "Fantastic! Stopping open defecation and checking meat properly at abattoirs cuts the life cycle right at its source. Excellent nursing intuition! [learn more](GNS313_U2_T24#GNS313_U2_T24_h8)"
+    "explanation": "Improving sanitation stops animal exposure to human faeces, while meat inspection prevents infected carcasses from reaching consumers. [learn more](GNS313_U2_T24#GNS313_U2_T24_h8)"
   }
 ]

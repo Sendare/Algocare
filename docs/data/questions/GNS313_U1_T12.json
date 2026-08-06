@@ -5,15 +5,15 @@
     "article_id": "GNS313_U1_T12",
     "topic_id": "GNS313_U1_T12",
     "difficulty": "recall",
-    "question": "What does prevalence measure in a community?",
+    "question": "What does epidemiological prevalence measure in a population?",
     "options": {
-      "A": "The total number of existing disease cases",
-      "B": "The number of deaths caused by an illness",
-      "C": "The rate at which a disease spreads rapidly",
-      "D": "The number of new infections starting today"
+      "A": "Total deaths caused by a disease",
+      "B": "Total existing disease cases",
+      "C": "Only newly diagnosed disease cases",
+      "D": "The rate of disease transmission"
     },
-    "answer": "A",
-    "explanation": "Prevalence counts all existing cases, both old and new, in a population at a specific time. [learn more](GNS313_U1_T12#GNS313_U1_T12_h1)"
+    "answer": "B",
+    "explanation": "Prevalence measures the total number of existing cases, both old and new, in a population at a specific time. [learn more](GNS313_U1_T12#GNS313_U1_T12_h1)"
   },
   {
     "question_id": "GNS313_U1_T12_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GNS313_U1_T12",
     "topic_id": "GNS313_U1_T12",
     "difficulty": "understanding",
-    "question": "Why is prevalence data most useful for community health nurses?",
+    "question": "Why is prevalence particularly useful for community health planning?",
     "options": {
-      "A": "It proves the exact day a patient contracted an illness",
-      "B": "It replaces the need for clinical diagnosis in the field",
-      "C": "It stops new infections from entering the community",
-      "D": "It helps plan long-term care and allocate resources"
+      "A": "It measures the speed of a new infection",
+      "B": "It calculates the genetic risk of disease transmission",
+      "C": "It predicts the exact day an epidemic will end",
+      "D": "It shows the total disease burden for resource planning"
     },
     "answer": "D",
-    "explanation": "Knowing the total burden of disease helps nurses and health planners prepare adequate facilities and supplies. [learn more](GNS313_U1_T12#GNS313_U1_T12_h1)"
+    "explanation": "Knowing the total burden helps nurses and administrators allocate appropriate medical supplies and personnel. [learn more](GNS313_U1_T12#GNS313_U1_T12_h1)"
   },
   {
     "question_id": "GNS313_U1_T12_h2_q1",
@@ -37,15 +37,15 @@
     "article_id": "GNS313_U1_T12",
     "topic_id": "GNS313_U1_T12",
     "difficulty": "recall",
-    "question": "What is point prevalence?",
+    "question": "Point prevalence measures a health condition at what timeframe?",
     "options": {
-      "A": "Tracking the death rate from a single outbreak",
-      "B": "Predicting how long a chronic illness will last",
-      "C": "Calculating new infections over a five-year span",
-      "D": "Measuring disease frequency at one specific moment"
+      "A": "From birth until death",
+      "B": "Over a period of ten years",
+      "C": "Only during the dry season",
+      "D": "A single specific point in time"
     },
     "answer": "D",
-    "explanation": "Point prevalence looks at a condition at a single, exact moment in time, like a photograph. [learn more](GNS313_U1_T12#GNS313_U1_T12_h2)"
+    "explanation": "Point prevalence looks at a frozen moment in time, like a snapshot of existing cases. [learn more](GNS313_U1_T12#GNS313_U1_T12_h2)"
   },
   {
     "question_id": "GNS313_U1_T12_h2_q2",
@@ -53,15 +53,15 @@
     "article_id": "GNS313_U1_T12",
     "topic_id": "GNS313_U1_T12",
     "difficulty": "understanding",
-    "question": "How does period prevalence differ from point prevalence?",
+    "question": "A study tracking malaria cases over a full six-month rainy season measures what type of prevalence?",
     "options": {
-      "A": "It excludes patients who recovered before the study began",
-      "B": "It only counts cases diagnosed by a doctor in a hospital",
-      "C": "It includes cases present at any time during a set interval",
-      "D": "It measures only brand-new infections over a lifetime"
+      "A": "Incidence density",
+      "B": "Point prevalence",
+      "C": "Cumulative incidence",
+      "D": "Period prevalence"
     },
-    "answer": "C",
-    "explanation": "Period prevalence covers a span of time, capturing anyone who had the condition during that entire period. [learn more](GNS313_U1_T12#GNS313_U1_T12_h2)"
+    "answer": "D",
+    "explanation": "Measuring disease status over a span of time rather than a single day represents period prevalence. [learn more](GNS313_U1_T12#GNS313_U1_T12_h2)"
   },
   {
     "question_id": "GNS313_U1_T12_h3_q1",
@@ -69,15 +69,15 @@
     "article_id": "GNS313_U1_T12",
     "topic_id": "GNS313_U1_T12",
     "difficulty": "recall",
-    "question": "What forms the numerator in the standard prevalence formula?",
+    "question": "What forms the denominator when calculating disease prevalence?",
     "options": {
-      "A": "Total number of existing cases",
-      "B": "Number of newly reported deaths",
-      "C": "Number of people who recovered",
-      "D": "Total population size at risk"
+      "A": "Total population at risk",
+      "B": "Only patients who died",
+      "C": "Number of new recoveries",
+      "D": "Total healthcare workers"
     },
     "answer": "A",
-    "explanation": "The top part of the fraction always represents all existing cases, both old and new, at that moment. [learn more](GNS313_U1_T12#GNS313_U1_T12_h3)"
+    "explanation": "The denominator must include all individuals in the defined group who are susceptible to having the condition. [learn more](GNS313_U1_T12#GNS313_U1_T12_h3)"
   },
   {
     "question_id": "GNS313_U1_T12_h3_q2",
@@ -85,15 +85,15 @@
     "article_id": "GNS313_U1_T12",
     "topic_id": "GNS313_U1_T12",
     "difficulty": "application",
-    "question": "A clinic finds 20 people with malaria in a town of 4,000 residents. What is the prevalence per 1,000 people?",
+    "question": "A village of 1,000 people has 50 existing cases of hypertension on screening day. What is the point prevalence?",
     "options": {
-      "A": "5 per 1,000",
-      "B": "50 per 1,000",
-      "C": "20 per 1,000",
-      "D": "80 per 1,000"
+      "A": "50 percent",
+      "B": "5 percent",
+      "C": "0.5 percent",
+      "D": "500 percent"
     },
-    "answer": "A",
-    "explanation": "Divide 20 by 4,000 to get 0.005, then multiply by 1,000 to get 5 per 1,000 people. [learn more](GNS313_U1_T12#GNS313_U1_T12_h3)"
+    "answer": "B",
+    "explanation": "Dividing 50 existing cases by 1,000 total people yields 0.05, which equals 5 percent when multiplied by 100. [learn more](GNS313_U1_T12#GNS313_U1_T12_h3)"
   },
   {
     "question_id": "GNS313_U1_T12_h4_q1",
@@ -101,31 +101,31 @@
     "article_id": "GNS313_U1_T12",
     "topic_id": "GNS313_U1_T12",
     "difficulty": "understanding",
-    "question": "What happens to disease prevalence if a new, highly effective cure is discovered?",
+    "question": "How does a very high mortality rate from a disease affect its prevalence?",
     "options": {
-      "A": "Prevalence doubles because more people will seek testing",
-      "B": "Prevalence increases because cured patients are counted twice",
-      "C": "Prevalence stays the same because cures do not affect statistics",
-      "D": "Prevalence decreases because patients recover and leave the active pool"
+      "A": "It doubles the incidence rate",
+      "B": "It has no effect on prevalence",
+      "C": "It decreases prevalence quickly",
+      "D": "It increases prevalence over time"
     },
-    "answer": "D",
-    "explanation": "Quick recovery removes people from the count of existing cases, driving the prevalence rate down. [learn more](GNS313_U1_T12#GNS313_U1_T12_h4)"
+    "answer": "C",
+    "explanation": "When patients die rapidly from a condition, they are no longer counted among the existing cases, lowering prevalence. [learn more](GNS313_U1_T12#GNS313_U1_T12_h4)"
   },
   {
     "question_id": "GNS313_U1_T12_h4_q2",
     "heading_id": "GNS313_U1_T12_h4",
     "article_id": "GNS313_U1_T12",
     "topic_id": "GNS313_U1_T12",
-    "difficulty": "recall",
-    "question": "Which of the following will NOT typically cause prevalence to increase?",
+    "difficulty": "understanding",
+    "question": "Which factor will cause the prevalence of a chronic illness in a town to increase?",
     "options": {
-      "A": "An increase in new infections",
-      "B": "A long duration of the illness",
-      "C": "Migration of sick people into the town",
-      "D": "A high death rate from the disease"
+      "A": "High death rate among diagnosed patients",
+      "B": "Mass emigration of infected individuals",
+      "C": "Longer duration of illness before recovery or death",
+      "D": "A sudden cure discovered for the disease"
     },
-    "answer": "D",
-    "explanation": "A high mortality rate removes people from the population quickly, which lowers prevalence rather than raising it. [learn more](GNS313_U1_T12#GNS313_U1_T12_h4)"
+    "answer": "C",
+    "explanation": "When patients live longer with a chronic disease without being cured, they remain in the pool of existing cases longer. [learn more](GNS313_U1_T12#GNS313_U1_T12_h4)"
   },
   {
     "question_id": "GNS313_U1_T12_h5_q1",
@@ -133,15 +133,15 @@
     "article_id": "GNS313_U1_T12",
     "topic_id": "GNS313_U1_T12",
     "difficulty": "recall",
-    "question": "What is the main difference between incidence and prevalence?",
+    "question": "What does incidence measure that prevalence does not?",
     "options": {
-      "A": "Incidence is used for chronic diseases, while prevalence is for injuries",
-      "B": "Incidence counts only new cases, while prevalence counts all existing cases",
-      "C": "Incidence measures past history, while prevalence predicts future risk",
-      "D": "Incidence requires a blood test, while prevalence is calculated by survey"
+      "A": "The total burden of chronic illness",
+      "B": "Only new cases of a disease",
+      "C": "Existing cases in a community",
+      "D": "The total population size"
     },
     "answer": "B",
-    "explanation": "Incidence tracks newly developing cases, whereas prevalence tracks the total burden of existing cases. [learn more](GNS313_U1_T12#GNS313_U1_T12_h5)"
+    "explanation": "Incidence strictly counts newly developing cases, whereas prevalence counts both old and new cases together. [learn more](GNS313_U1_T12#GNS313_U1_T12_h5)"
   },
   {
     "question_id": "GNS313_U1_T12_h5_q2",
@@ -149,63 +149,63 @@
     "article_id": "GNS313_U1_T12",
     "topic_id": "GNS313_U1_T12",
     "difficulty": "understanding",
-    "question": "A chronic disease has very few new cases each year, yet a high number of people live with it for decades. What will the statistics show?",
+    "question": "Why is incidence better suited for investigating the immediate cause of an acute outbreak?",
     "options": {
-      "A": "Low incidence and high prevalence",
-      "B": "Both incidence and prevalence will be equal",
-      "C": "Both incidence and prevalence will be zero",
-      "D": "High incidence and low prevalence"
+      "A": "It captures newly developing infections directly linked to recent exposures",
+      "B": "It counts people who have lived with the disease for decades",
+      "C": "It measures the total financial cost of treatment",
+      "D": "It ignores mild cases to save time"
     },
     "answer": "A",
-    "explanation": "Few new cases mean low incidence, but long-term survival accumulates existing cases, resulting in high prevalence. [learn more](GNS313_U1_T12#GNS313_U1_T12_h5)"
+    "explanation": "Because incidence measures new events, it helps researchers connect disease onset to recent risk factors or exposures. [learn more](GNS313_U1_T12#GNS313_U1_T12_h5)"
   },
   {
     "question_id": "GNS313_U1_T12_h6_q1",
     "heading_id": "GNS313_U1_T12_h6",
     "article_id": "GNS313_U1_T12",
     "topic_id": "GNS313_U1_T12",
-    "difficulty": "application",
-    "question": "A community health nurse notices a high prevalence of type 2 diabetes in a specific neighborhood. What is the most appropriate action?",
+    "difficulty": "understanding",
+    "question": "A community health nurse uses high hypertension prevalence data to do what?",
     "options": {
-      "A": "Close all local clinics since the population is already quite sick",
-      "B": "Establish targeted screening and lifestyle education posts in that neighborhood",
-      "C": "Transfer all affected patients immediately to a tertiary teaching hospital",
-      "D": "Ignore the data because prevalence only matters for infectious outbreaks"
+      "A": "Calculate individual hospital staff salaries",
+      "B": "Predict the weather patterns for the upcoming farming season",
+      "C": "Order surgical equipment for emergency appendectomies",
+      "D": "Plan targeted blood pressure screening and education clinics"
     },
-    "answer": "B",
-    "explanation": "High prevalence guides nurses to focus local resources, screening, and education where the need is greatest. [learn more](GNS313_U1_T12#GNS313_U1_T12_h6)"
+    "answer": "D",
+    "explanation": "High prevalence highlights where clinical services and health education are most urgently needed. [learn more](GNS313_U1_T12#GNS313_U1_T12_h6)"
   },
   {
     "question_id": "GNS313_U1_T12_h6_q2",
     "heading_id": "GNS313_U1_T12_h6",
     "article_id": "GNS313_U1_T12",
     "topic_id": "GNS313_U1_T12",
-    "difficulty": "understanding",
-    "question": "How do nurses use prevalence data when seeking funding from health ministries?",
+    "difficulty": "application",
+    "question": "How can nurses use serial prevalence surveys over several years?",
     "options": {
-      "A": "To demonstrate the total burden of disease and justify resource requests",
-      "B": "To calculate the exact birth date of every infected community member",
-      "C": "To replace physical examinations during routine home visits",
-      "D": "To prove that no further medical supplies are required in the region"
+      "A": "To diagnose individual patients during acute emergencies",
+      "B": "To evaluate the long-term impact of community health interventions",
+      "C": "To determine the exact genetic sequence of a pathogen",
+      "D": "To replace standard hospital admission records"
     },
-    "answer": "A",
-    "explanation": "Showing the total number of people affected helps justify why funding and materials are urgently required. [learn more](GNS313_U1_T12#GNS313_U1_T12_h6)"
+    "answer": "B",
+    "explanation": "Comparing prevalence data across years shows whether disease control programmes are successfully lowering disease burden. [learn more](GNS313_U1_T12#GNS313_U1_T12_h6)"
   },
   {
     "question_id": "GNS313_U1_T12_h7_q1",
     "heading_id": "GNS313_U1_T12_h7",
     "article_id": "GNS313_U1_T12",
     "topic_id": "GNS313_U1_T12",
-    "difficulty": "recall",
-    "question": "What is a major limitation of relying solely on prevalence studies?",
+    "difficulty": "understanding",
+    "question": "What is a major limitation of using prevalence to study rapidly fatal diseases?",
     "options": {
-      "A": "They are completely illegal to conduct in rural community settings",
-      "B": "They can be affected by survival bias, missing those who died quickly",
-      "C": "They cost more money than any other form of scientific research",
-      "D": "They only measure future health risks and ignore current problems"
+      "A": "Incidence data becomes completely unnecessary",
+      "B": "It is impossible to calculate a mathematical fraction",
+      "C": "Patients die quickly and are missed in point-in-time counts",
+      "D": "Prevalence rates will always equal one hundred percent"
     },
-    "answer": "B",
-    "explanation": "Prevalence only counts current survivors, missing individuals who died rapidly before being surveyed. [learn more](GNS313_U1_T12#GNS313_U1_T12_h7)"
+    "answer": "C",
+    "explanation": "Fast-killing conditions result in few existing cases at any given moment, leading prevalence to underestimate the disease's true impact. [learn more](GNS313_U1_T12#GNS313_U1_T12_h7)"
   },
   {
     "question_id": "GNS313_U1_T12_h7_q2",
@@ -213,14 +213,14 @@
     "article_id": "GNS313_U1_T12",
     "topic_id": "GNS313_U1_T12",
     "difficulty": "understanding",
-    "question": "Why might a survey show a very low prevalence for a mild skin condition that many people actually have?",
+    "question": "Why is it difficult to determine cause and effect using prevalence data?",
     "options": {
-      "A": "Mild conditions automatically increase incidence instead of prevalence",
-      "B": "Skin conditions cannot be measured using mathematical fractions",
-      "C": "Government regulations forbid recording mild skin complaints",
-      "D": "People may not seek care or report symptoms because the condition is mild"
+      "A": "It measures existing cases at one time without showing which came first",
+      "B": "It relies exclusively on hospital mortality records",
+      "C": "It only counts healthy individuals who never get sick",
+      "D": "It requires complete genetic mapping of every participant"
     },
-    "answer": "D",
-    "explanation": "Unreported or undiagnosed mild illnesses are missed in surveys, leading to an underestimation of true prevalence. [learn more](GNS313_U1_T12#GNS313_U1_T12_h7)"
+    "answer": "A",
+    "explanation": "Because prevalence captures a snapshot of current status, it cannot easily prove whether an exposure caused the disease or followed it. [learn more](GNS313_U1_T12#GNS313_U1_T12_h7)"
   }
 ]
