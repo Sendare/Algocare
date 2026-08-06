@@ -5,7 +5,7 @@
     "article_id": "GNS111_U1_T7",
     "topic_id": "GNS111_U1_T7",
     "difficulty": "recall",
-    "question": "What nitrogenous base always pairs with adenine in a DNA molecule?",
+    "question": "What nitrogenous base pairs exclusively with adenine in a DNA molecule?",
     "options": {
       "A": "Thymine",
       "B": "Uracil",
@@ -13,7 +13,7 @@
       "D": "Cytosine"
     },
     "answer": "A",
-    "explanation": "Adenine always bonds specifically with thymine in DNA base pairing to maintain the stability of the double helix structure. [learn more](GNS111_U1_T7#GNS111_U1_T7_h1)"
+    "explanation": "Adenine always bonds with thymine through hydrogen bonds to maintain the structural stability of the DNA double helix. [learn more](GNS111_U1_T7#GNS111_U1_T7_h1)"
   },
   {
     "question_id": "GNS111_U1_T7_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GNS111_U1_T7",
     "topic_id": "GNS111_U1_T7",
     "difficulty": "understanding",
-    "question": "What is the main job of the base sequence inside a DNA molecule?",
+    "question": "The primary role of the genetic code contained within DNA is to direct what cellular process?",
     "options": {
-      "A": "Transporting energy molecules across the cell",
-      "B": "Regulating the overall temperature of the cell",
-      "C": "Providing structural support to the nuclear membrane",
-      "D": "Instructing cells on how to build specific proteins"
+      "A": "Lipid digestion",
+      "B": "Protein synthesis",
+      "C": "Carbohydrate storage",
+      "D": "Cellular respiration"
     },
-    "answer": "D",
-    "explanation": "Think of DNA as a master recipe book! The specific order of bases acts as the exact code your body uses to build proteins. [learn more](GNS111_U1_T7#GNS111_U1_T7_h1)"
+    "answer": "B",
+    "explanation": "DNA sequences provide the instructions that ribosomes use to build specific proteins necessary for cell function and structure. [learn more](GNS111_U1_T7#GNS111_U1_T7_h1)"
   },
   {
     "question_id": "GNS111_U1_T7_h2_q1",
@@ -37,15 +37,15 @@
     "article_id": "GNS111_U1_T7",
     "topic_id": "GNS111_U1_T7",
     "difficulty": "recall",
-    "question": "How many total chromosomes are normally found in a human somatic cell?",
+    "question": "How many total chromosomes are found in a normal human somatic cell?",
     "options": {
-      "A": "46 chromosomes",
-      "B": "48 chromosomes",
-      "C": "23 chromosomes",
-      "D": "44 chromosomes"
+      "A": "23",
+      "B": "46",
+      "C": "48",
+      "D": "44"
     },
-    "answer": "A",
-    "explanation": "Human body cells contain 46 chromosomes organized into 23 pairs, inheriting one set of 23 from each parent. [learn more](GNS111_U1_T7#GNS111_U1_T7_h2)"
+    "answer": "B",
+    "explanation": "Human somatic cells contain 46 chromosomes organized into 23 pairs, inheriting 23 from each parent. [learn more](GNS111_U1_T7#GNS111_U1_T7_h2)"
   },
   {
     "question_id": "GNS111_U1_T7_h2_q2",
@@ -53,15 +53,15 @@
     "article_id": "GNS111_U1_T7",
     "topic_id": "GNS111_U1_T7",
     "difficulty": "understanding",
-    "question": "What do we call alternative forms of the same gene that lead to different traits, like eye color?",
+    "question": "What term describes the alternative forms of a specific gene located at the same locus?",
     "options": {
-      "A": "Codons",
-      "B": "Plasmids",
+      "A": "Genomes",
+      "B": "Autosomes",
       "C": "Alleles",
-      "D": "Mutations"
+      "D": "Chromatids"
     },
     "answer": "C",
-    "explanation": "Alleles are just different versions of the same gene. They are the reason we all look unique! [learn more](GNS111_U1_T7#GNS111_U1_T7_h2)"
+    "explanation": "Alleles are different variations of the same gene that determine distinct traits like eye color or blood type. [learn more](GNS111_U1_T7#GNS111_U1_T7_h2)"
   },
   {
     "question_id": "GNS111_U1_T7_h3_q1",
@@ -69,15 +69,15 @@
     "article_id": "GNS111_U1_T7",
     "topic_id": "GNS111_U1_T7",
     "difficulty": "recall",
-    "question": "Which type of allele needs two identical copies to show up as a physical trait in a person?",
+    "question": "What term refers to the observable physical traits of an individual?",
     "options": {
-      "A": "Recessive allele",
-      "B": "Dominant allele",
-      "C": "Mutated allele",
-      "D": "Codominant allele"
+      "A": "Genotype",
+      "B": "Genome",
+      "C": "Karyotype",
+      "D": "Phenotype"
     },
-    "answer": "A",
-    "explanation": "Recessive traits are shy! They get masked by dominant alleles, so you need to inherit two copies for the trait to show. [learn more](GNS111_U1_T7#GNS111_U1_T7_h3)"
+    "answer": "D",
+    "explanation": "The phenotype represents the physical or biochemical expression of an organism's genetic makeup. [learn more](GNS111_U1_T7#GNS111_U1_T7_h3)"
   },
   {
     "question_id": "GNS111_U1_T7_h3_q2",
@@ -85,47 +85,47 @@
     "article_id": "GNS111_U1_T7",
     "topic_id": "GNS111_U1_T7",
     "difficulty": "application",
-    "question": "If both parents are healthy carriers of an autosomal recessive disorder, what is the chance they will have a child with the condition?",
+    "question": "A child inherits a recessive trait. What must be true about their genotype?",
     "options": {
-      "A": "50 percent",
-      "B": "25 percent",
-      "C": "100 percent",
-      "D": "75 percent"
+      "A": "They possess one dominant allele",
+      "B": "They possess two recessive alleles",
+      "C": "They are heterozygous for the trait",
+      "D": "They carry no alleles for the trait"
     },
     "answer": "B",
-    "explanation": "Every time carrier parents have a baby, there's a 1 in 4 (25%) chance the baby will inherit the faulty gene from both of them. [learn more](GNS111_U1_T7#GNS111_U1_T7_h3)"
+    "explanation": "Recessive traits are masked by dominant alleles, so an individual must have two identical recessive alleles to show the trait. [learn more](GNS111_U1_T7#GNS111_U1_T7_h3)"
   },
   {
     "question_id": "GNS111_U1_T7_h4_q1",
     "heading_id": "GNS111_U1_T7_h4",
     "article_id": "GNS111_U1_T7",
     "topic_id": "GNS111_U1_T7",
-    "difficulty": "recall",
-    "question": "Which blood group system is a classic example of codominance, where both traits show equally?",
+    "difficulty": "understanding",
+    "question": "Why do males exhibit X-linked recessive disorders more often than females?",
     "options": {
-      "A": "Rh negative group",
-      "B": "AB blood group",
-      "C": "Bombay phenotype",
-      "D": "O blood group"
+      "A": "Their immune system is less active",
+      "B": "They lack autosomal chromosomes entirely",
+      "C": "Their Y chromosome carries mutated genes",
+      "D": "They have only one X chromosome"
     },
-    "answer": "B",
-    "explanation": "In the AB blood group, neither A nor B hides the other—they both proudly show up together on the red blood cells! [learn more](GNS111_U1_T7#GNS111_U1_T7_h4)"
+    "answer": "D",
+    "explanation": "Since males have only a single X chromosome, any recessive mutation on it will be expressed because there is no second X chromosome to provide a normal dominant allele. [learn more](GNS111_U1_T7#GNS111_U1_T7_h4)"
   },
   {
     "question_id": "GNS111_U1_T7_h4_q2",
     "heading_id": "GNS111_U1_T7_h4",
     "article_id": "GNS111_U1_T7",
     "topic_id": "GNS111_U1_T7",
-    "difficulty": "understanding",
-    "question": "Why are males more likely to inherit X-linked recessive disorders than females?",
+    "difficulty": "recall",
+    "question": "What pattern of inheritance is demonstrated when AB blood type shows both antigens equally?",
     "options": {
-      "A": "They lack the cellular enzymes required to repair DNA damage.",
-      "B": "Their Y chromosome actively triggers spontaneous genetic deletions.",
-      "C": "X chromosomes duplicate at twice the normal rate in male embryos.",
-      "D": "They possess only a single X chromosome without a backup copy."
+      "A": "Incomplete dominance",
+      "B": "Codominance",
+      "C": "Polygenic inheritance",
+      "D": "Autosomal recessive"
     },
-    "answer": "D",
-    "explanation": "Since guys only have one X chromosome (XY), they don't have a second X to rescue them if a recessive fault shows up on it. [learn more](GNS111_U1_T7#GNS111_U1_T7_h4)"
+    "answer": "B",
+    "explanation": "Codominance occurs when two different alleles are both fully expressed in the phenotype without blending. [learn more](GNS111_U1_T7#GNS111_U1_T7_h4)"
   },
   {
     "question_id": "GNS111_U1_T7_h5_q1",
@@ -133,15 +133,15 @@
     "article_id": "GNS111_U1_T7",
     "topic_id": "GNS111_U1_T7",
     "difficulty": "recall",
-    "question": "What mistake during cell division causes a person to end up with an abnormal number of chromosomes?",
+    "question": "What is the term for the failure of chromosomes to separate properly during cell division?",
     "options": {
-      "A": "Transcription",
-      "B": "Nondisjunction",
-      "C": "Translation",
-      "D": "Replication"
+      "A": "Translation",
+      "B": "Replication",
+      "C": "Non-disjunction",
+      "D": "Transcription"
     },
-    "answer": "B",
-    "explanation": "Nondisjunction happens when chromosome pairs fail to separate neatly during cell division, leaving one cell with too many and another with too few. [learn more](GNS111_U1_T7#GNS111_U1_T7_h5)"
+    "answer": "C",
+    "explanation": "Non-disjunction causes gametes to receive an abnormal number of chromosomes, leading to conditions like trisomy. [learn more](GNS111_U1_T7#GNS111_U1_T7_h5)"
   },
   {
     "question_id": "GNS111_U1_T7_h5_q2",
@@ -149,15 +149,15 @@
     "article_id": "GNS111_U1_T7",
     "topic_id": "GNS111_U1_T7",
     "difficulty": "understanding",
-    "question": "What do we call an environmental factor, like UV rays or tobacco, that can permanently change DNA?",
+    "question": "Which genetic condition is characterized by having an extra chromosome?",
     "options": {
-      "A": "Pathogen",
-      "B": "Allergen",
-      "C": "Mutagen",
-      "D": "Antigen"
+      "A": "Monosomy",
+      "B": "Deletion",
+      "C": "Trisomy",
+      "D": "Inversion"
     },
     "answer": "C",
-    "explanation": "Mutagens are things in our environment (like radiation or harsh chemicals) that can mess with our DNA sequence. [learn more](GNS111_U1_T7#GNS111_U1_T7_h5)"
+    "explanation": "Trisomy means an individual has three chromosomes of a specific type instead of the normal pair. [learn more](GNS111_U1_T7#GNS111_U1_T7_h5)"
   },
   {
     "question_id": "GNS111_U1_T7_h6_q1",
@@ -165,15 +165,15 @@
     "article_id": "GNS111_U1_T7",
     "topic_id": "GNS111_U1_T7",
     "difficulty": "recall",
-    "question": "Down syndrome is caused by which specific chromosomal abnormality?",
+    "question": "What is the primary genetic cause of Down syndrome?",
     "options": {
-      "A": "Deletion of chromosome 5",
-      "B": "Trisomy 18",
-      "C": "Monosomy X",
-      "D": "Trisomy 21"
+      "A": "X-linked mutation",
+      "B": "Trisomy 21",
+      "C": "Autosomal deletion",
+      "D": "Monosomy X"
     },
-    "answer": "D",
-    "explanation": "You've got this! Down syndrome happens when there are three copies of chromosome 21 instead of the usual pair. [learn more](GNS111_U1_T7#GNS111_U1_T7_h6)"
+    "answer": "B",
+    "explanation": "Down syndrome is caused by the presence of an extra copy of chromosome 21, resulting from non-disjunction. [learn more](GNS111_U1_T7#GNS111_U1_T7_h6)"
   },
   {
     "question_id": "GNS111_U1_T7_h6_q2",
@@ -181,15 +181,15 @@
     "article_id": "GNS111_U1_T7",
     "topic_id": "GNS111_U1_T7",
     "difficulty": "understanding",
-    "question": "What is the main physical problem caused by the genetic defect in cystic fibrosis?",
+    "question": "A patient with cystic fibrosis primarily struggles with which physiological issue?",
     "options": {
-      "A": "Thick, sticky mucus secretions in the lungs and digestive tract",
-      "B": "Rapid uncontrolled proliferation of abnormal white blood cells",
-      "C": "Inability to metabolize specific amino acids causing brain damage",
-      "D": "Destruction of red blood cells leading to severe chronic jaundice"
+      "A": "Thick mucus production in airways",
+      "B": "Uncontrolled blood clotting episodes",
+      "C": "Rapid destruction of red blood cells",
+      "D": "Excessive production of thyroid hormone"
     },
     "answer": "A",
-    "explanation": "Cystic fibrosis messes with how salt and water move across cells, making body secretions super thick and clogging up airways and ducts. [learn more](GNS111_U1_T7#GNS111_U1_T7_h6)"
+    "explanation": "Cystic fibrosis impairs chloride transport, leading to thick, viscous secretions that obstruct the respiratory and digestive tracts. [learn more](GNS111_U1_T7#GNS111_U1_T7_h6)"
   },
   {
     "question_id": "GNS111_U1_T7_h7_q1",
@@ -197,30 +197,30 @@
     "article_id": "GNS111_U1_T7",
     "topic_id": "GNS111_U1_T7",
     "difficulty": "recall",
-    "question": "What is the main reason a nurse draws a pedigree chart during an assessment?",
+    "question": "What is the primary purpose of constructing a family pedigree in nursing assessment?",
     "options": {
-      "A": "To measure the concentration of circulating blood proteins",
-      "B": "To calculate the precise metabolic rate of a pregnant patient",
-      "C": "To map out family health history and spot inherited risks",
-      "D": "To track daily vital signs in patients with chronic respiratory illnesses"
+      "A": "To trace inheritance patterns across generations",
+      "B": "To evaluate nutritional deficiencies",
+      "C": "To diagnose infectious disease outbreaks",
+      "D": "To calculate exact medication dosages"
     },
-    "answer": "C",
-    "explanation": "A pedigree chart is basically a medical family tree. It helps you quickly spot patterns of diseases running in the family! [learn more](GNS111_U1_T7#GNS111_U1_T7_h7)"
+    "answer": "A",
+    "explanation": "A pedigree chart visualizes family health history, helping clinicians identify genetic risks and inheritance modes. [learn more](GNS111_U1_T7#GNS111_U1_T7_h7)"
   },
   {
     "question_id": "GNS111_U1_T7_h7_q2",
     "heading_id": "GNS111_U1_T7_h7",
     "article_id": "GNS111_U1_T7",
     "topic_id": "GNS111_U1_T7",
-    "difficulty": "understanding",
-    "question": "Which action best shows the nurse's role when dealing with genetic health concerns?",
+    "difficulty": "application",
+    "question": "A nurse is caring for a family with a history of a hereditary disorder. What is the most appropriate initial nursing action?",
     "options": {
-      "A": "Telling the family which reproductive choices they must make",
-      "B": "Referring high-risk families to professional genetic counseling services",
-      "C": "Making final decisions regarding whether a patient should undergo testing",
-      "D": "Interpreting complex DNA sequencing data independently without specialists"
+      "A": "Perform invasive diagnostic genetic testing",
+      "B": "Advise the family to avoid having children",
+      "C": "Construct a detailed family pedigree",
+      "D": "Prescribe prophylactic gene therapy"
     },
-    "answer": "B",
-    "explanation": "As a nurse, you spot the red flags in family history and connect patients to the experts who can guide them best! [learn more](GNS111_U1_T7#GNS111_U1_T7_h7)"
+    "answer": "C",
+    "explanation": "Taking a family history and drawing a pedigree is the essential first step to assess risk before referring for specialized counseling. [learn more](GNS111_U1_T7#GNS111_U1_T7_h7)"
   }
 ]
