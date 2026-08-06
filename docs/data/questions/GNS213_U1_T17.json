@@ -5,15 +5,15 @@
     "article_id": "GNS213_U1_T17",
     "topic_id": "GNS213_U1_T17",
     "difficulty": "recall",
-    "question": "What is the main goal of delivering an electrical shock during defibrillation?",
+    "question": "What is the primary purpose of delivering an electrical shock during defibrillation?",
     "options": {
-      "A": "To reset chaotic heart muscle activity and let a normal rhythm restart",
-      "B": "To restart a completely flatlined heart during asystole",
-      "C": "To force the heart valves to open and close manually",
-      "D": "To speed up a dangerously slow resting heart rate"
+      "A": "Provide ongoing electrical pacing for bradycardia",
+      "B": "Depolarize heart muscle to stop chaotic activity",
+      "C": "Surgically stimulate the sinoatrial node directly",
+      "D": "Increase blood volume in the peripheral vessels"
     },
-    "answer": "A",
-    "explanation": "Think of the shock as a quick reset button! It momentarily stops the heart's chaotic electrical signals all at once, giving the natural pacemaker a chance to step back in and start a normal rhythm. [learn more](GNS213_U1_T17#GNS213_U1_T17_h1)"
+    "answer": "B",
+    "explanation": "The sudden electrical discharge forces heart cells to depolarize at once, wiping the electrical slate clean so the natural pacemaker can take over. [learn more](GNS213_U1_T17#GNS213_U1_T17_h1)"
   },
   {
     "question_id": "GNS213_U1_T17_h1_q2",
@@ -21,47 +21,47 @@
     "article_id": "GNS213_U1_T17",
     "topic_id": "GNS213_U1_T17",
     "difficulty": "understanding",
-    "question": "Which of these heart rhythms needs an immediate emergency shock?",
+    "question": "Which cardiac arrest rhythm requires immediate treatment with a defibrillator?",
     "options": {
-      "A": "Sinus Bradycardia",
-      "B": "Ventricular Fibrillation",
-      "C": "Asystole",
-      "D": "Pulseless Electrical Activity"
+      "A": "Asystole with flatline display",
+      "B": "Pulseless ventricular tachycardia",
+      "C": "Pulseless electrical activity",
+      "D": "Symptomatic sinus bradycardia"
     },
     "answer": "B",
-    "explanation": "Ventricular Fibrillation (VF) is a shockable rhythm because the heart still has wild electrical activity that a shock can clear. Flatlines (asystole) need chest compressions and meds, not shocks! [learn more](GNS213_U1_T17#GNS213_U1_T17_h1)"
+    "explanation": "Defibrillation is strictly reserved for shockable rhythms like ventricular fibrillation and pulseless ventricular tachycardia. [learn more](GNS213_U1_T17#GNS213_U1_T17_h1)"
   },
   {
     "question_id": "GNS213_U1_T17_h2_q1",
     "heading_id": "GNS213_U1_T17_h2",
     "article_id": "GNS213_U1_T17",
     "topic_id": "GNS213_U1_T17",
-    "difficulty": "recall",
-    "question": "What happens to the heart muscle fibers during Ventricular Fibrillation?",
+    "difficulty": "understanding",
+    "question": "What happens mechanically to the heart during ventricular fibrillation?",
     "options": {
-      "A": "They beat together in a slow, steady rhythm",
-      "B": "They rest without any electrical signals at all",
-      "C": "They become completely stiff and cannot relax",
-      "D": "They twitch randomly without pumping any blood"
+      "A": "The heart beats too slowly to maintain life",
+      "B": "The atria contract faster than the ventricles",
+      "C": "The valves close tightly to block all blood flow",
+      "D": "The ventricles quiver without pumping blood"
     },
     "answer": "D",
-    "explanation": "During VF, the heart muscle fibers flutter and twitch chaotically like a bag of worms. Because they aren't working together, no blood is pumped to the body. [learn more](GNS213_U1_T17#GNS213_U1_T17_h2)"
+    "explanation": "Uncoordinated electrical firing causes the ventricular muscle to twitch uselessly, halting systemic blood circulation. [learn more](GNS213_U1_T17#GNS213_U1_T17_h2)"
   },
   {
     "question_id": "GNS213_U1_T17_h2_q2",
     "heading_id": "GNS213_U1_T17_h2",
     "article_id": "GNS213_U1_T17",
     "topic_id": "GNS213_U1_T17",
-    "difficulty": "understanding",
-    "question": "Why does Pulseless Ventricular Tachycardia lead to cardiac arrest?",
+    "difficulty": "recall",
+    "question": "A key characteristic of pulseless ventricular tachycardia on a monitor is...",
     "options": {
-      "A": "The ventricles beat so fast they cannot fill and empty properly",
-      "B": "The heart muscle grows too thick to receive oxygen",
-      "C": "The electrical signals stop traveling through the atria completely",
-      "D": "The coronary arteries experience a sudden physical blockage"
+      "A": "A completely flat and inactive line",
+      "B": "Irregularly irregular atrial spikes",
+      "C": "Normal P waves preceding every QRS",
+      "D": "A fast and regular ventricular rate"
     },
-    "answer": "A",
-    "explanation": "When the heart races way too fast, it's like trying to fill a bucket with a firehose while the opening is tiny—there's simply no time for blood to fill the chambers, causing a sudden drop in pulse. [learn more](GNS213_U1_T17#GNS213_U1_T17_h2)"
+    "answer": "D",
+    "explanation": "Pulseless VT displays a rapid, uniform, and regular ventricular rhythm that fails to generate a palpable pulse. [learn more](GNS213_U1_T17#GNS213_U1_T17_h2)"
   },
   {
     "question_id": "GNS213_U1_T17_h3_q1",
@@ -69,15 +69,15 @@
     "article_id": "GNS213_U1_T17",
     "topic_id": "GNS213_U1_T17",
     "difficulty": "recall",
-    "question": "How does electricity move through the heart in a biphasic defibrillator?",
+    "question": "The main advantage of a biphasic defibrillator over a monophasic one is...",
     "options": {
-      "A": "It circles around the heart chambers in a clockwise pattern",
-      "B": "It travels forward through the heart and then reverses direction",
-      "C": "It splits into multiple smaller pulses sent simultaneously",
-      "D": "It flows in a single direction from the apex to the base"
+      "A": "Automatic detection of asystole rhythms",
+      "B": "Elimination of the need for conductive gel",
+      "C": "Lower energy required to achieve success",
+      "D": "Higher peak current delivered in one direction"
     },
-    "answer": "B",
-    "explanation": "Biphasic means two phases! The current travels through the heart in one direction and then quickly switches and flows back through, making it super effective. [learn more](GNS213_U1_T17#GNS213_U1_T17_h3)"
+    "answer": "C",
+    "explanation": "Reversing the electrical current halfway through allows biphasic devices to terminate rhythms effectively using lower, safer energy levels. [learn more](GNS213_U1_T17#GNS213_U1_T17_h3)"
   },
   {
     "question_id": "GNS213_U1_T17_h3_q2",
@@ -85,47 +85,47 @@
     "article_id": "GNS213_U1_T17",
     "topic_id": "GNS213_U1_T17",
     "difficulty": "understanding",
-    "question": "What is a big clinical plus of using biphasic defibrillators over monophasic ones?",
+    "question": "A monophasic defibrillator delivers electrical current in which manner?",
     "options": {
-      "A": "They automatically treat both shockable and non-shockable rhythms",
-      "B": "They achieve success with lower energy levels and less tissue injury",
-      "C": "They do not require any conductive gel pads on the chest",
-      "D": "They can deliver shocks safely through wet clothing"
+      "A": "Back and forth across the chest wall",
+      "B": "In a single direction only",
+      "C": "Alternating between pads and manual paddles",
+      "D": "In pulses spaced five seconds apart"
     },
     "answer": "B",
-    "explanation": "Because biphasic shocks work so well, we don't need as much electricity. This keeps the patient safer by lowering the risk of skin burns and heart muscle damage. [learn more](GNS213_U1_T17#GNS213_U1_T17_h3)"
+    "explanation": "Monophasic waveforms flow exclusively from one electrode to the other, requiring higher overall energy output. [learn more](GNS213_U1_T17#GNS213_U1_T17_h3)"
   },
   {
     "question_id": "GNS213_U1_T17_h4_q1",
     "heading_id": "GNS213_U1_T17_h4",
     "article_id": "GNS213_U1_T17",
     "topic_id": "GNS213_U1_T17",
-    "difficulty": "recall",
-    "question": "Why must oxygen delivery tubing be moved away before delivering a shock?",
+    "difficulty": "understanding",
+    "question": "Why must oxygen delivery devices be moved away from the patient during defibrillation?",
     "options": {
-      "A": "To keep the plastic tubing from melting onto the chest skin",
-      "B": "To allow space for placing the defibrillator pads correctly",
-      "C": "To stop the patient from breathing too much room air",
-      "D": "To prevent electrical sparks from igniting an oxygen-rich fire"
+      "A": "High flow oxygen weakens the electrical current",
+      "B": "The machine needs space to place the pads",
+      "C": "Oxygen interferes with the monitor waveform",
+      "D": "Sparks from the shock can ignite oxygen"
     },
     "answer": "D",
-    "explanation": "Oxygen feeds fire! Combining an electrical spark from a defibrillator pad with a high concentration of oxygen right near the chest is a major fire hazard. [learn more](GNS213_U1_T17#GNS213_U1_T17_h4)"
+    "explanation": "Oxygen is highly flammable, and an electrical spark near the chest can cause a dangerous fire hazard. [learn more](GNS213_U1_T17#GNS213_U1_T17_h4)"
   },
   {
     "question_id": "GNS213_U1_T17_h4_q2",
     "heading_id": "GNS213_U1_T17_h4",
     "article_id": "GNS213_U1_T17",
     "topic_id": "GNS213_U1_T17",
-    "difficulty": "understanding",
-    "question": "Where should you place defibrillator pads on a patient with an implanted pacemaker?",
+    "difficulty": "recall",
+    "question": "What is the primary purpose of applying conductive gel pads prior to shocking?",
     "options": {
-      "A": "Cover the pacemaker site entirely with thick rubber insulation",
-      "B": "Apply the pads to the upper back and neck instead",
-      "C": "Turn the pacemaker off using an external magnet first",
-      "D": "Place the pads at least one inch away from the pacemaker device"
+      "A": "Reduce skin resistance and prevent burns",
+      "B": "Enhance the transmission of ECG signals only",
+      "C": "Secure the placement of heavy metal paddles",
+      "D": "Keep the patient skin cool during compressions"
     },
-    "answer": "D",
-    "explanation": "Always keep the pads at least an inch away from metal devices like pacemakers. Placing them right on top can ruin the device and block the shock from reaching the heart. [learn more](GNS213_U1_T17#GNS213_U1_T17_h4)"
+    "answer": "A",
+    "explanation": "Conductive media bridges air pockets between the skin and electrodes, lowering electrical impedance and preventing skin burns. [learn more](GNS213_U1_T17#GNS213_U1_T17_h4)"
   },
   {
     "question_id": "GNS213_U1_T17_h5_q1",
@@ -133,94 +133,94 @@
     "article_id": "GNS213_U1_T17",
     "topic_id": "GNS213_U1_T17",
     "difficulty": "recall",
-    "question": "What is the first thing a nurse should do right after a shock is delivered?",
+    "question": "Where should the apex paddle or pad be placed on the patient's chest?",
     "options": {
-      "A": "Resume chest compressions right away",
-      "B": "Administer a routine dose of IV atropine",
-      "C": "Draw blood samples for arterial blood gas analysis",
-      "D": "Check the carotid pulse for up to one minute"
+      "A": "Left mid-axillary line below the heart",
+      "B": "Directly over the center of the sternum",
+      "C": "On the upper center of the patient's back",
+      "D": "Right below the right collarbone area"
     },
     "answer": "A",
-    "explanation": "Don't pause to check for a pulse immediately! Modern resuscitation rules tell us to jump right back into chest compressions to keep blood flowing. [learn more](GNS213_U1_T17#GNS213_U1_T17_h5)"
+    "explanation": "Correct placement directs the current vector through the greatest mass of the myocardium from the apex to the base. [learn more](GNS213_U1_T17#GNS213_U1_T17_h5)"
   },
   {
     "question_id": "GNS213_U1_T17_h5_q2",
     "heading_id": "GNS213_U1_T17_h5",
     "article_id": "GNS213_U1_T17",
     "topic_id": "GNS213_U1_T17",
-    "difficulty": "application",
-    "question": "You are getting ready to shock with a manual defibrillator. What is the right sequence right before pressing the discharge button?",
+    "difficulty": "understanding",
+    "question": "What action should immediately follow the delivery of an emergency shock?",
     "options": {
-      "A": "Charge the machine, announce 'clear', and visually check the team",
-      "B": "Pause compressions, check the pulse, and apply gel pads",
-      "C": "Administer emergency epinephrine and remove oxygen tubing",
-      "D": "Turn off the mechanical ventilator and disconnect all IV lines"
+      "A": "Resume high-quality chest compressions",
+      "B": "Turn off the monitor to save battery",
+      "C": "Check for a carotid pulse immediately",
+      "D": "Administer a dose of routine saline"
     },
     "answer": "A",
-    "explanation": "Safety first! Always charge the machine, shout a loud 'clear!', and double-check with your eyes that nobody is touching the patient before you hit that button. [learn more](GNS213_U1_T17#GNS213_U1_T17_h5)"
+    "explanation": "Resuscitation guidelines emphasize restarting chest compressions immediately after a shock without pausing to check the pulse. [learn more](GNS213_U1_T17#GNS213_U1_T17_h5)"
   },
   {
     "question_id": "GNS213_U1_T17_h6_q1",
     "heading_id": "GNS213_U1_T17_h6",
     "article_id": "GNS213_U1_T17",
     "topic_id": "GNS213_U1_T17",
-    "difficulty": "recall",
-    "question": "Which of these details must a nurse document after an emergency defibrillation?",
+    "difficulty": "understanding",
+    "question": "How long should chest compressions continue after a shock before checking the monitor rhythm?",
     "options": {
-      "A": "Number of shocks delivered and energy levels used",
-      "B": "The specific room temperature during the code",
-      "C": "The patient's personal family medical history",
-      "D": "The exact brand and serial number of the defibrillator"
+      "A": "Ten seconds max",
+      "B": "Five continuous minutes",
+      "C": "Two full minutes",
+      "D": "Until the doctor arrives"
     },
-    "answer": "A",
-    "explanation": "Good documentation captures the vital facts of the event: how many shocks were given, the energy levels in Joules, and any rhythm changes. [learn more](GNS213_U1_T17#GNS213_U1_T17_h6)"
+    "answer": "C",
+    "explanation": "Current guidelines recommend performing two minutes of CPR before pausing to analyze the cardiac rhythm again. [learn more](GNS213_U1_T17#GNS213_U1_T17_h6)"
   },
   {
     "question_id": "GNS213_U1_T17_h6_q2",
     "heading_id": "GNS213_U1_T17_h6",
     "article_id": "GNS213_U1_T17",
     "topic_id": "GNS213_U1_T17",
-    "difficulty": "understanding",
-    "question": "Why is continuous heart monitoring a must right after a successful defibrillation?",
+    "difficulty": "recall",
+    "question": "Which nursing assessment is essential immediately following successful defibrillation and return of pulse?",
     "options": {
-      "A": "To ensure the patient stays awake during recovery",
-      "B": "To verify that the defibrillator battery is still fully charged",
-      "C": "To measure the exact electrical resistance of the skin",
-      "D": "To catch early warning signs of recurrent arrhythmias or re-arrest"
+      "A": "Blood pressure and skin condition at pad sites",
+      "B": "Deep tendon reflex response in both legs",
+      "C": "Passive range of motion in upper limbs",
+      "D": "Oral fluid intake and baseline weight"
     },
-    "answer": "D",
-    "explanation": "Just because the heart restarted doesn't mean they're out of the woods. These patients are very fragile and can easily slip right back into a dangerous rhythm. [learn more](GNS213_U1_T17#GNS213_U1_T17_h6)"
+    "answer": "A",
+    "explanation": "Evaluating hemodynamic stability and checking the skin for electrical burns are key priorities in immediate post-shock care. [learn more](GNS213_U1_T17#GNS213_U1_T17_h6)"
   },
   {
     "question_id": "GNS213_U1_T17_h7_q1",
     "heading_id": "GNS213_U1_T17_h7",
     "article_id": "GNS213_U1_T17",
     "topic_id": "GNS213_U1_T17",
-    "difficulty": "recall",
-    "question": "What usually causes a 'Check Pads' error message to pop up on a defibrillator screen?",
+    "difficulty": "understanding",
+    "question": "What is a common cause of skin burns underneath defibrillator pads?",
     "options": {
-      "A": "Poor skin contact or loose cable connections",
-      "B": "The patient has an implanted cardiac pacemaker",
-      "C": "The room oxygen level is dangerously high",
-      "D": "The battery is completely charged to maximum capacity"
+      "A": "Inadequate application of conductive gel or poor contact",
+      "B": "Placing the apex pad too close to the sternum",
+      "C": "Running chest compressions during pad placement",
+      "D": "Using a biphasic waveform instead of monophasic"
     },
     "answer": "A",
-    "explanation": "A 'Check Pads' warning simply means the machine isn't sensing a clean electrical connection with the skin. Check your leads and pad placement! [learn more](GNS213_U1_T17#GNS213_U1_T17_h7)"
+    "explanation": "Poor skin contact creates high resistance pockets, converting electrical energy into thermal energy that causes burns. [learn more](GNS213_U1_T17#GNS213_U1_T17_h7)"
   },
   {
     "question_id": "GNS213_U1_T17_h7_q2",
     "heading_id": "GNS213_U1_T17_h7",
     "article_id": "GNS213_U1_T17",
     "topic_id": "GNS213_U1_T17",
-    "difficulty": "understanding",
-    "question": "Why should a nurse quickly check the patient in person when the monitor shows a sudden weird rhythm?",
+    "difficulty": "recall",
+    "question": "What should the nurse do if the monitor displays a poor contact warning during charging?",
     "options": {
-      "A": "To determine if the patient needs an immediate dose of insulin",
-      "B": "To calculate the exact cardiac output of the ventricles",
-      "C": "To check if the intravenous line has become infiltrated",
-      "D": "To rule out artifact caused by movement or loose cables"
+      "A": "Increase the energy setting to bypass the warning",
+      "B": "Check cable connections and ensure firm paddle pressure",
+      "C": "Wait for spontaneous rhythm conversion without shocking",
+      "D": "Disconnect the power cord and switch to battery mode"
     },
-    "answer": "D",
-    "explanation": "Always treat the patient, not just the monitor screen! Shivering, moving around, or a loose cable can make the screen look terrifying even when the patient is totally fine. [learn more](GNS213_U1_T17#GNS213_U1_T17_h7)"
+    "answer": "B",
+    "explanation": "Resolving a contact error requires verifying plug connections and pressing the pads firmly against the chest wall. [learn more](GNS213_U1_T17#GNS213_U1_T17_h7)"
   }
 ]

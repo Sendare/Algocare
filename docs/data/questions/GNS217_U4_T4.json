@@ -5,15 +5,15 @@
     "article_id": "GNS217_U4_T4",
     "topic_id": "GNS217_U4_T4",
     "difficulty": "recall",
-    "question": "What is the main goal of using descriptive statistics in healthcare?",
+    "question": "What is the primary purpose of descriptive statistics in nursing research?",
     "options": {
-      "A": "To prove that a new hospital policy is completely infallible",
-      "B": "To summarize large sets of numerical data into manageable values",
-      "C": "To replace all clinical judgment with mathematical formulas",
-      "D": "To diagnose individual patient illnesses using laboratory tests"
+      "A": "To diagnose individual patient illnesses accurately",
+      "B": "To predict future disease outbreaks in rural areas",
+      "C": "To summarize large sets of raw clinical data",
+      "D": "To prove a causal relationship between two drugs"
     },
-    "answer": "B",
-    "explanation": "Descriptive statistics help take overwhelming amounts of raw numbers and condense them into summaries that make sense at a glance. You've got this! [learn more](GNS217_U4_T4#GNS217_U4_T4_h1)"
+    "answer": "C",
+    "explanation": "Descriptive statistics reduce complex, bulky data into clear, manageable summaries for easier interpretation. [learn more](GNS217_U4_T4#GNS217_U4_T4_h1)"
   },
   {
     "question_id": "GNS217_U4_T4_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GNS217_U4_T4",
     "topic_id": "GNS217_U4_T4",
     "difficulty": "understanding",
-    "question": "Why do nurses care about finding the 'central tendency' in research data?",
+    "question": "Central tendency is best described as finding which type of value in a dataset?",
     "options": {
-      "A": "It proves whether a clinical trial caused a direct physical cure in patients",
-      "B": "It allows nurses to calculate exact medication dosages for critical care patients",
-      "C": "It helps identify the single typical value that represents an entire group of data",
-      "D": "It eliminates all possible human errors made during patient vital sign collection"
+      "A": "The exact difference between high and low",
+      "B": "The absolute highest value recorded",
+      "C": "The total sum of all patient measurements",
+      "D": "The single value representing the typical score"
     },
-    "answer": "C",
-    "explanation": "Central tendency gives us a representative middle point so we can easily understand what is normal or typical for a specific group of patients or numbers. [learn more](GNS217_U4_T4#GNS217_U4_T4_h1)"
+    "answer": "D",
+    "explanation": "Measures of central tendency point to the center or typical point around which data points cluster. [learn more](GNS217_U4_T4#GNS217_U4_T4_h1)"
   },
   {
     "question_id": "GNS217_U4_T4_h2_q1",
@@ -37,31 +37,31 @@
     "article_id": "GNS217_U4_T4",
     "topic_id": "GNS217_U4_T4",
     "difficulty": "recall",
-    "question": "How do you calculate the mean (average) of a set of numbers?",
+    "question": "How is the arithmetic mean calculated for any given dataset?",
     "options": {
-      "A": "Find the exact middle number after sorting values from lowest to highest",
-      "B": "Add all values together and divide by the total number of values",
-      "C": "Subtract the lowest number from the highest number in the group",
-      "D": "Identify the single value that appears most frequently in the data set"
+      "A": "Find the middle value after arranging numbers in order",
+      "B": "Add all values together and divide by the total count",
+      "C": "Subtract the lowest value from the highest recorded value",
+      "D": "Identify the number that appears with the highest frequency"
     },
     "answer": "B",
-    "explanation": "The mean is simply your standard arithmetic average! Just add up all your observations and divide by how many there are. [learn more](GNS217_U4_T4#GNS217_U4_T4_h2)"
+    "explanation": "The mean is found by summing all observations and dividing by the number of observations. [learn more](GNS217_U4_T4#GNS217_U4_T4_h2)"
   },
   {
     "question_id": "GNS217_U4_T4_h2_q2",
     "heading_id": "GNS217_U4_T4_h2",
     "article_id": "GNS217_U4_T4",
     "topic_id": "GNS217_U4_T4",
-    "difficulty": "application",
-    "question": "What is the biggest drawback of using the mean to summarize patient data?",
+    "difficulty": "understanding",
+    "question": "A single extremely high value in a dataset will have what effect on the mean?",
     "options": {
-      "A": "It completely ignores the middle values of a normally distributed sample",
-      "B": "It is mathematically impossible to calculate with whole numbers",
-      "C": "It is easily skewed by extreme outlier values in the data set",
-      "D": "It can only be calculated when data is arranged into distinct categories"
+      "A": "It will push the mean downward toward zero",
+      "B": "It will have no effect on the calculated mean",
+      "C": "It will automatically convert the mean into a median",
+      "D": "It will pull the mean upward toward itself"
     },
-    "answer": "C",
-    "explanation": "Because every single number counts in a mean, a few unusually high or low numbers can pull the average off-center. Good to keep in mind! [learn more](GNS217_U4_T4#GNS217_U4_T4_h2)"
+    "answer": "D",
+    "explanation": "Because the mean factors in every single data point, extreme high values inflate the final average. [learn more](GNS217_U4_T4#GNS217_U4_T4_h2)"
   },
   {
     "question_id": "GNS217_U4_T4_h3_q1",
@@ -69,15 +69,15 @@
     "article_id": "GNS217_U4_T4",
     "topic_id": "GNS217_U4_T4",
     "difficulty": "recall",
-    "question": "When looking at a set of numbers, what is the median?",
+    "question": "What must be done to a dataset before you can identify the median?",
     "options": {
-      "A": "The value that appears most often in a given set of observations",
-      "B": "The exact middle value when data is arranged in numerical order",
-      "C": "The mathematical difference between the highest and lowest scores",
-      "D": "The sum of all numbers divided by the count of observations"
+      "A": "Remove all extreme outlier numbers",
+      "B": "Arrange the values in numerical order",
+      "C": "Calculate the standard deviation first",
+      "D": "Multiply all the values by the total count"
     },
     "answer": "B",
-    "explanation": "The median splits your data right down the middle—half the values are below it, and half are above it. [learn more](GNS217_U4_T4#GNS217_U4_T4_h3)"
+    "explanation": "Locating the middle value requires ordering the data sequentially from lowest to highest first. [learn more](GNS217_U4_T4#GNS217_U4_T4_h3)"
   },
   {
     "question_id": "GNS217_U4_T4_h3_q2",
@@ -85,15 +85,15 @@
     "article_id": "GNS217_U4_T4",
     "topic_id": "GNS217_U4_T4",
     "difficulty": "understanding",
-    "question": "When should a nurse researcher use the median instead of the mean?",
+    "question": "Why is the median preferred over the mean when analyzing skewed data like income?",
     "options": {
-      "A": "When the data contains extreme outliers or is heavily skewed",
-      "B": "When every single data point needs to be included in the calculation",
-      "C": "When working exclusively with large, perfectly symmetrical bell curves",
-      "D": "When the data represents simple categorical groups with no numbers"
+      "A": "It includes every single data point in its calculation",
+      "B": "It is completely unaffected by extreme outlier values",
+      "C": "It is much easier to compute without a calculator",
+      "D": "It is always higher than the mean in clinical trials"
     },
-    "answer": "A",
-    "explanation": "The median ignores extreme highs and lows, giving you a much truer picture of the center when your data is lopsided. [learn more](GNS217_U4_T4#GNS217_U4_T4_h3)"
+    "answer": "B",
+    "explanation": "Extreme values do not distort the middle position, making the median a stable measure for skewed distributions. [learn more](GNS217_U4_T4#GNS217_U4_T4_h3)"
   },
   {
     "question_id": "GNS217_U4_T4_h4_q1",
@@ -101,31 +101,31 @@
     "article_id": "GNS217_U4_T4",
     "topic_id": "GNS217_U4_T4",
     "difficulty": "recall",
-    "question": "What does the 'mode' tell us about a set of data?",
+    "question": "What does the mode measure in a given distribution of data?",
     "options": {
-      "A": "The exact middle point of sorted values",
-      "B": "The value that occurs most frequently",
-      "C": "The average of all recorded numbers",
-      "D": "The distance between extremes"
+      "A": "The exact center point of ordered numerical scores",
+      "B": "The mathematical difference between high and low",
+      "C": "The value that appears with the highest frequency",
+      "D": "The sum of all frequencies divided by sample size"
     },
-    "answer": "B",
-    "explanation": "Think of the mode as the most popular or frequently repeated number in your dataset. Easy peasy! [learn more](GNS217_U4_T4#GNS217_U4_T4_h4)"
+    "answer": "C",
+    "explanation": "The mode is simply the most frequently occurring category or number in the dataset. [learn more](GNS217_U4_T4#GNS217_U4_T4_h4)"
   },
   {
     "question_id": "GNS217_U4_T4_h4_q2",
     "heading_id": "GNS217_U4_T4_h4",
     "article_id": "GNS217_U4_T4",
     "topic_id": "GNS217_U4_T4",
-    "difficulty": "application",
-    "question": "A clinic manager wants to know the most common uniform size ordered by new staff. Which measure should she use?",
+    "difficulty": "understanding",
+    "question": "A dataset with two distinct peaks of high frequency is referred to as what?",
     "options": {
-      "A": "Mean",
-      "B": "Mode",
-      "C": "Median",
-      "D": "Range"
+      "A": "Bimodal",
+      "B": "Binomial",
+      "C": "Bilateral",
+      "D": "Bivariate"
     },
-    "answer": "B",
-    "explanation": "Uniform sizes are categories rather than math numbers, so the mode helps us find the most frequent size ordered. [learn more](GNS217_U4_T4#GNS217_U4_T4_h4)"
+    "answer": "A",
+    "explanation": "Prefix 'bi' indicates two, making a bimodal distribution one with two separate most-frequent values. [learn more](GNS217_U4_T4#GNS217_U4_T4_h4)"
   },
   {
     "question_id": "GNS217_U4_T4_h5_q1",
@@ -133,15 +133,15 @@
     "article_id": "GNS217_U4_T4",
     "topic_id": "GNS217_U4_T4",
     "difficulty": "understanding",
-    "question": "In data with a positive skew, how do the mean and median usually relate to each other?",
+    "question": "In a right-skewed distribution of patient wait times, which measure is typically the highest?",
     "options": {
-      "A": "The mean and median remain identical regardless of the direction of the skew",
-      "B": "Both the mean and median drop to zero because skewed data cannot be measured",
-      "C": "The median is always higher than the mean because it ignores all low values",
-      "D": "The mean is typically higher than the median because extreme high values pull it upward"
+      "A": "The mode",
+      "B": "The range",
+      "C": "The median",
+      "D": "The mean"
     },
     "answer": "D",
-    "explanation": "A positive skew has a long tail of high numbers, which drags the arithmetic mean higher than the middle median value. [learn more](GNS217_U4_T4#GNS217_U4_T4_h5)"
+    "explanation": "Outliers on the high end pull the mean upward, making it greater than both the median and the mode. [learn more](GNS217_U4_T4#GNS217_U4_T4_h5)"
   },
   {
     "question_id": "GNS217_U4_T4_h5_q2",
@@ -149,31 +149,15 @@
     "article_id": "GNS217_U4_T4",
     "topic_id": "GNS217_U4_T4",
     "difficulty": "recall",
-    "question": "What is true about a perfectly symmetrical data distribution (like a bell curve)?",
+    "question": "Which of the following measures of central tendency can be used for nominal categorical data?",
     "options": {
-      "A": "The mean, median, and mode are all equal",
-      "B": "The median represents only the lowest values",
-      "C": "The mean is always much higher than the mode",
-      "D": "There is no mode present in the dataset"
+      "A": "The mean",
+      "B": "The mode",
+      "C": "The median",
+      "D": "The average"
     },
-    "answer": "A",
-    "explanation": "When data is perfectly balanced in a bell curve shape, the mean, median, and mode all land in the exact same spot! [learn more](GNS217_U4_T4#GNS217_U4_T4_h5)"
-  },
-  {
-    "question_id": "GNS217_U4_T4_h6_q1",
-    "heading_id": "GNS217_U4_T4_h6",
-    "article_id": "GNS217_U4_T4",
-    "topic_id": "GNS217_U4_T4",
-    "difficulty": "understanding",
-    "question": "Which measure of central tendency is appropriate for nominal data like patient blood types?",
-    "options": {
-      "A": "Mode",
-      "B": "Average",
-      "C": "Mean",
-      "D": "Median"
-    },
-    "answer": "A",
-    "explanation": "Blood types are categories, not numbers. Therefore, you can only count which category shows up most often—which is the mode! [learn more](GNS217_U4_T4#GNS217_U4_T4_h6)"
+    "answer": "B",
+    "explanation": "Nominal data consists of categories (like blood type or gender), and only frequencies (the mode) can be calculated for them. [learn more](GNS217_U4_T4#GNS217_U4_T4_h5)"
   },
   {
     "question_id": "GNS217_U4_T4_h6_q2",
@@ -181,14 +165,14 @@
     "article_id": "GNS217_U4_T4",
     "topic_id": "GNS217_U4_T4",
     "difficulty": "application",
-    "question": "A nurse is reviewing survey data where patients ranked hospital food from 1 (poor) to 5 (excellent). Which measures can be used?",
+    "question": "A nurse researcher is analyzing ranked patient satisfaction scores from 1 to 5. Which central tendency measure is NOT appropriate to calculate?",
     "options": {
-      "A": "Only the arithmetic mean",
-      "B": "Only the range and variance",
-      "C": "Median and mode",
-      "D": "Mean and standard deviation"
+      "A": "Mean",
+      "B": "Frequency",
+      "C": "Mode",
+      "D": "Median"
     },
-    "answer": "C",
-    "explanation": "Since these are ranked choices, we can find the middle position (median) and the most frequent rank (mode). You're doing great! [learn more](GNS217_U4_T4#GNS217_U4_T4_h6)"
+    "answer": "A",
+    "explanation": "Ordinal data lacks equal intervals, making arithmetic averages like the mean mathematically invalid. [learn more](GNS217_U4_T4#GNS217_U4_T4_h6)"
   }
 ]

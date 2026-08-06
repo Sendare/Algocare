@@ -5,15 +5,15 @@
     "article_id": "GNS123_U4_T6",
     "topic_id": "GNS123_U4_T6",
     "difficulty": "recall",
-    "question": "Which receptor on human cells does the COVID-19 virus (SARS-CoV-2) mainly attach to?",
+    "question": "Which cellular receptor does the SARS-CoV-2 virus bind to when entering human cells?",
     "options": {
-      "A": "Angiotensin-converting enzyme 2 receptor",
-      "B": "Insulin growth factor receptor",
-      "C": "Beta-2 adrenergic receptor",
-      "D": "Nicotinic acetylcholine receptor"
+      "A": "Beta-adrenergic receptors",
+      "B": "Cholinergic receptors",
+      "C": "ACE2 receptors",
+      "D": "Insulin receptors"
     },
-    "answer": "A",
-    "explanation": "Great job! The virus uses its spike protein to lock onto ACE2 receptors, which are found in large numbers in our respiratory tract. You've got this! [learn more](GNS123_U4_T6#GNS123_U4_T6_h1)"
+    "answer": "C",
+    "explanation": "The spike protein of SARS-CoV-2 specifically targets and attaches to angiotensin-converting enzyme 2 (ACE2) receptors on the surface of host cells. [learn more](GNS123_U4_T6#GNS123_U4_T6_h1)"
   },
   {
     "question_id": "GNS123_U4_T6_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GNS123_U4_T6",
     "topic_id": "GNS123_U4_T6",
     "difficulty": "understanding",
-    "question": "What makes a 'cytokine storm' so dangerous in severe COVID-19 patients?",
+    "question": "A severe 'cytokine storm' in COVID-19 patients commonly leads to which lung complication?",
     "options": {
-      "A": "It causes widespread tissue damage and multi-organ failure",
-      "B": "It permanently blocks the absorption of oral medications",
-      "C": "It causes a sudden and permanent drop in blood pressure only",
-      "D": "It immediately destroys all white blood cells in the body"
+      "A": "Diffuse alveolar damage and ARDS",
+      "B": "Chronic pulmonary fibrosis development",
+      "C": "Massive peripheral vasoconstriction",
+      "D": "Immediate systemic fluid depletion"
     },
     "answer": "A",
-    "explanation": "Spot on! A cytokine storm is like an immune system overdrive. It floods the body with inflammatory signals that end up harming healthy organs. Keep up the good work! [learn more](GNS123_U4_T6#GNS123_U4_T6_h1)"
+    "explanation": "An overactive immune response releases high levels of inflammatory cytokines, which damage lung tissue and lead to acute respiratory distress syndrome. [learn more](GNS123_U4_T6#GNS123_U4_T6_h1)"
   },
   {
     "question_id": "GNS123_U4_T6_h2_q1",
@@ -37,31 +37,31 @@
     "article_id": "GNS123_U4_T6",
     "topic_id": "GNS123_U4_T6",
     "difficulty": "recall",
-    "question": "How does COVID-19 mostly spread from person to person?",
+    "question": "Which personal protective equipment (PPE) is essential when performing procedures that generate aerosols on a COVID-19 patient?",
     "options": {
-      "A": "By drinking contaminated municipal water supplies",
-      "B": "Through the bite of infected mosquitoes and ticks",
-      "C": "By consuming undercooked poultry and beef products",
-      "D": "Through respiratory droplets from coughing and talking"
+      "A": "Standard surgical cloth mask",
+      "B": "Disposable paper dust mask",
+      "C": "Fit-tested N95 respirator",
+      "D": "Clear plastic face shield only"
     },
-    "answer": "D",
-    "explanation": "You got it! Tiny droplets released into the air when people talk, cough, or sneeze are the main way the virus travels. Simple infection control basics! [learn more](GNS123_U4_T6#GNS123_U4_T6_h2)"
+    "answer": "C",
+    "explanation": "Airborne precautions require respirators like the N95 to filter out tiny infectious particles released during medical procedures. [learn more](GNS123_U4_T6#GNS123_U4_T6_h2)"
   },
   {
     "question_id": "GNS123_U4_T6_h2_q2",
     "heading_id": "GNS123_U4_T6_h2",
     "article_id": "GNS123_U4_T6",
     "topic_id": "GNS123_U4_T6",
-    "difficulty": "application",
-    "question": "Which mask is most important when doing a procedure that generates aerosols on a COVID-19 patient?",
+    "difficulty": "understanding",
+    "question": "How does the SARS-CoV-2 virus primarily spread from person to person?",
     "options": {
-      "A": "A standard cloth face covering",
-      "B": "A disposable paper surgical mask",
-      "C": "A simple clear plastic face shield alone",
-      "D": "An N95 or higher respirator mask"
+      "A": "Fecal-oral contamination of water",
+      "B": "Direct vector-borne mosquito bites",
+      "C": "Respiratory droplets and aerosols",
+      "D": "Transplacental maternal transfer"
     },
-    "answer": "D",
-    "explanation": "That's correct! Procedures that create tiny floating mists require the tight seal and special filtration of an N95 respirator to keep you safe. [learn more](GNS123_U4_T6#GNS123_U4_T6_h2)"
+    "answer": "C",
+    "explanation": "The virus spreads mainly when an infected person coughs, talks, or breathes out droplets and small particles that others inhale. [learn more](GNS123_U4_T6#GNS123_U4_T6_h2)"
   },
   {
     "question_id": "GNS123_U4_T6_h3_q1",
@@ -69,31 +69,31 @@
     "article_id": "GNS123_U4_T6",
     "topic_id": "GNS123_U4_T6",
     "difficulty": "recall",
-    "question": "Which symptom is a very common clue that points specifically to COVID-19 over other flu-like viruses?",
+    "question": "An oxygen saturation level dropping below what percentage on room air indicates severe COVID-19 illness?",
     "options": {
-      "A": "Sudden loss of taste or smell",
-      "B": "Yellow discoloration of the skin",
-      "C": "Uncontrollable muscle twitching",
-      "D": "Severe swelling of the salivary glands"
+      "A": "98 percent",
+      "B": "94 percent",
+      "C": "90 percent",
+      "D": "85 percent"
     },
-    "answer": "A",
-    "explanation": "Spot on! Losing your sense of taste or smell (anosmia and ageusia) is a classic hallmark sign of a SARS-CoV-2 infection. Easy to remember for your clinicals! [learn more](GNS123_U4_T6#GNS123_U4_T6_h3)"
+    "answer": "B",
+    "explanation": "An oxygen saturation reading under 94 percent on room air is a standard clinical marker used to identify severe disease. [learn more](GNS123_U4_T6#GNS123_U4_T6_h3)"
   },
   {
     "question_id": "GNS123_U4_T6_h3_q2",
     "heading_id": "GNS123_U4_T6_h3",
     "article_id": "GNS123_U4_T6",
     "topic_id": "GNS123_U4_T6",
-    "difficulty": "understanding",
-    "question": "What room-air oxygen saturation level helps nurses classify a patient's COVID-19 illness as severe?",
+    "difficulty": "application",
+    "question": "A patient has a breathing rate of 34 breaths per minute and an oxygen saturation of 91 percent on room air. How is this classified?",
     "options": {
-      "A": "Less than 94%",
-      "B": "Exactly 98%",
-      "C": "Between 96% and 99%",
-      "D": "Greater than 95%"
+      "A": "Moderate illness",
+      "B": "Asymptomatic infection",
+      "C": "Severe illness",
+      "D": "Mild illness"
     },
-    "answer": "A",
-    "explanation": "You nailed it! When a patient's oxygen level drops below 94% on room air, it means their lungs are struggling with gas exchange, pointing to severe illness. [learn more](GNS123_U4_T6#GNS123_U4_T6_h3)"
+    "answer": "C",
+    "explanation": "A high respiratory rate combined with an oxygen saturation below 94 percent places the patient in the severe illness category. [learn more](GNS123_U4_T6#GNS123_U4_T6_h3)"
   },
   {
     "question_id": "GNS123_U4_T6_h4_q1",
@@ -101,15 +101,15 @@
     "article_id": "GNS123_U4_T6",
     "topic_id": "GNS123_U4_T6",
     "difficulty": "recall",
-    "question": "What is the gold standard test used to confirm an active COVID-19 infection?",
+    "question": "What is the standard diagnostic test used to confirm an active COVID-19 infection?",
     "options": {
-      "A": "Enzyme-linked immunosorbent assay antibody test",
-      "B": "Basal metabolic panel and electrolyte screen",
-      "C": "Complete blood count with differential analysis",
-      "D": "Reverse Transcription-Polymerase Chain Reaction test"
+      "A": "Rapid antibody blood screening",
+      "B": "Serum C-reactive protein measurement",
+      "C": "Reverse transcription polymerase chain reaction",
+      "D": "Complete blood count with differential"
     },
-    "answer": "D",
-    "explanation": "Correct! The RT-PCR test picks up viral genetic material with high accuracy, making it the go-to test for catching an active infection. [learn more](GNS123_U4_T6#GNS123_U4_T6_h4)"
+    "answer": "C",
+    "explanation": "The RT-PCR test detects viral RNA with high accuracy, making it the primary method for confirming active infection. [learn more](GNS123_U4_T6#GNS123_U4_T6_h4)"
   },
   {
     "question_id": "GNS123_U4_T6_h4_q2",
@@ -117,15 +117,15 @@
     "article_id": "GNS123_U4_T6",
     "topic_id": "GNS123_U4_T6",
     "difficulty": "understanding",
-    "question": "Why is a high D-dimer blood result worrying in a COVID-19 patient?",
+    "question": "Which blood test result is commonly seen in patients with an acute COVID-19 infection?",
     "options": {
-      "A": "It shows that the kidneys are failing to filter waste",
-      "B": "It suggests an increased risk for abnormal blood clot formation",
-      "C": "It proves the patient has a severe bacterial lung infection",
-      "D": "It indicates permanent damage to the heart muscle valves"
+      "A": "Lymphopenia",
+      "B": "Erythrocytosis",
+      "C": "Basophilia",
+      "D": "Thrombocytosis"
     },
-    "answer": "B",
-    "explanation": "Well done! D-dimer is a protein left behind when clots break down. High levels mean the body is forming clots somewhere it shouldn't. [learn more](GNS123_U4_T6#GNS123_U4_T6_h4)"
+    "answer": "A",
+    "explanation": "A low lymphocyte count is frequently found in COVID-19 lab results because the virus affects immune cells. [learn more](GNS123_U4_T6#GNS123_U4_T6_h4)"
   },
   {
     "question_id": "GNS123_U4_T6_h5_q1",
@@ -133,15 +133,15 @@
     "article_id": "GNS123_U4_T6",
     "topic_id": "GNS123_U4_T6",
     "difficulty": "understanding",
-    "question": "What do we mean by 'happy hypoxemia' in COVID-19 care?",
+    "question": "What does the term 'silent hypoxia' mean in COVID-19 patients?",
     "options": {
-      "A": "Feeling overly energetic despite severe viral fatigue and muscle aches",
-      "B": "Experiencing extreme chest pain while maintaining normal oxygen levels",
-      "C": "Showing high fever and cough while blood pressure remains stable",
-      "D": "Having dangerously low blood oxygen without feeling short of breath"
+      "A": "Complete absence of breath sounds despite normal oxygen saturation",
+      "B": "Sudden respiratory arrest occurring only during deep sleep cycles",
+      "C": "Severe coughing fits that do not impact arterial blood gas values",
+      "D": "Dangerously low oxygen levels without obvious shortness of breath"
     },
     "answer": "D",
-    "explanation": "You got it! Some patients have shockingly low oxygen levels yet feel completely fine, which is why checking vital signs with a pulse oximeter is so important. [learn more](GNS123_U4_T6#GNS123_U4_T6_h5)"
+    "explanation": "Silent hypoxia happens when a patient's blood oxygen is critically low, yet they do not feel breathless or show signs of distress. [learn more](GNS123_U4_T6#GNS123_U4_T6_h5)"
   },
   {
     "question_id": "GNS123_U4_T6_h5_q2",
@@ -149,15 +149,15 @@
     "article_id": "GNS123_U4_T6",
     "topic_id": "GNS123_U4_T6",
     "difficulty": "application",
-    "question": "A COVID-19 patient says they feel completely fine, but their pulse oximeter reads 88% on room air. What should you do first?",
+    "question": "A COVID-19 patient has a normal breathing rate and says they feel fine, but their pulse oximeter reads 86 percent on room air. What is the immediate nursing action?",
     "options": {
-      "A": "Wait for the patient to request oxygen before taking any action",
-      "B": "Encourage the patient to drink more fluids and rest in bed",
-      "C": "Discharge the patient home since they report feeling comfortable",
-      "D": "Apply supplemental oxygen and notify the attending healthcare provider"
+      "A": "Prepare the patient for immediate hospital discharge",
+      "B": "Encourage the patient to perform deep breathing exercises",
+      "C": "Initiate supplemental oxygen therapy right away",
+      "D": "Document the normal respiratory rate and let the patient rest"
     },
-    "answer": "D",
-    "explanation": "Spot on! An 88% saturation is a red flag regardless of how good the patient feels. Always trust your machine and act fast to protect your patient. [learn more](GNS123_U4_T6#GNS123_U4_T6_h5)"
+    "answer": "C",
+    "explanation": "An oxygen saturation of 86 percent is dangerously low, requiring immediate supplemental oxygen regardless of how comfortable the patient looks. [learn more](GNS123_U4_T6#GNS123_U4_T6_h5)"
   },
   {
     "question_id": "GNS123_U4_T6_h6_q1",
@@ -165,15 +165,15 @@
     "article_id": "GNS123_U4_T6",
     "topic_id": "GNS123_U4_T6",
     "difficulty": "recall",
-    "question": "Why do doctors prescribe the steroid dexamethasone to hospitalized COVID-19 patients?",
+    "question": "Which type of medication is used to reduce widespread inflammation in hospitalized COVID-19 patients who need oxygen?",
     "options": {
-      "A": "To dissolve existing blood clots in the lower legs",
-      "B": "To stimulate the appetite and prevent severe weight loss",
-      "C": "To suppress severe and damaging body inflammation",
-      "D": "To kill the coronavirus directly inside the lungs"
+      "A": "Corticosteroids",
+      "B": "Inhaled bronchodilators",
+      "C": "Mucolytic agents",
+      "D": "Broad-spectrum antibiotics"
     },
-    "answer": "C",
-    "explanation": "Correct! Dexamethasone helps calm down that over-enthusiastic immune response that wreaks havoc on the lungs. [learn more](GNS123_U4_T6#GNS123_U4_T6_h6)"
+    "answer": "A",
+    "explanation": "Corticosteroids like dexamethasone help calm the severe immune response in patients who require oxygen support. [learn more](GNS123_U4_T6#GNS123_U4_T6_h6)"
   },
   {
     "question_id": "GNS123_U4_T6_h6_q2",
@@ -181,15 +181,15 @@
     "article_id": "GNS123_U4_T6",
     "topic_id": "GNS123_U4_T6",
     "difficulty": "understanding",
-    "question": "Why are blood thinners frequently given to patients admitted with moderate to severe COVID-19?",
+    "question": "Why are blood thinners (anticoagulants) routinely given to hospitalized patients with moderate to severe COVID-19?",
     "options": {
-      "A": "To lower elevated blood pressure readings during a fever spike",
-      "B": "To prevent dangerous blood clots caused by inflammation and immobility",
-      "C": "To thin the thick mucus secretions blocking the upper airways",
-      "D": "To improve the ability of red blood cells to carry extra oxygen"
+      "A": "To thin the respiratory secretions lodged in the airways",
+      "B": "To directly inhibit the replication of the SARS-CoV-2 virus",
+      "C": "To maintain normal blood pressure during a cytokine storm",
+      "D": "To prevent dangerous blood clots driven by hypercoagulability"
     },
-    "answer": "B",
-    "explanation": "You got it! COVID-19 makes the blood prone to clotting, so giving thinners helps stop dangerous conditions like DVT or pulmonary embolism. [learn more](GNS123_U4_T6#GNS123_U4_T6_h6)"
+    "answer": "D",
+    "explanation": "COVID-19 increases the risk of abnormal blood clotting, making anticoagulants necessary to prevent conditions like deep vein thrombosis. [learn more](GNS123_U4_T6#GNS123_U4_T6_h6)"
   },
   {
     "question_id": "GNS123_U4_T6_h7_q1",
@@ -197,15 +197,15 @@
     "article_id": "GNS123_U4_T6",
     "topic_id": "GNS123_U4_T6",
     "difficulty": "recall",
-    "question": "What is the main benefit of placing a severe COVID-19 patient in the prone position (lying on their stomach)?",
+    "question": "What is the main medical benefit of turning a patient with severe COVID-19 onto their stomach (prone position)?",
     "options": {
-      "A": "It improves oxygen exchange and lung expansion",
-      "B": "It completely eliminates the need for intravenous lines",
-      "C": "It prevents the patient from coughing during sleep",
-      "D": "It allows the patient to feed themselves more easily"
+      "A": "Increases overall cardiac output and stroke volume",
+      "B": "Improves ventilation-perfusion matching in the lungs",
+      "C": "Makes endotracheal tube suctioning much easier to perform",
+      "D": "Prevents the development of pressure ulcers on the back"
     },
-    "answer": "A",
-    "explanation": "Well done! Gravity helps open up parts of the lungs that are pressed down when lying on the back, making it much easier for the patient to get oxygen. [learn more](GNS123_U4_T6#GNS123_U4_T6_h7)"
+    "answer": "B",
+    "explanation": "Prone positioning helps open up collapsed areas in the back of the lungs, improving oxygen levels and blood flow matching. [learn more](GNS123_U4_T6#GNS123_U4_T6_h7)"
   },
   {
     "question_id": "GNS123_U4_T6_h7_q2",
@@ -213,15 +213,15 @@
     "article_id": "GNS123_U4_T6",
     "topic_id": "GNS123_U4_T6",
     "difficulty": "understanding",
-    "question": "When is ECMO (Extracorporeal Membrane Oxygenation) usually considered for a COVID-19 patient?",
+    "question": "When is a mechanical ventilator usually used for a patient with worsening COVID-19?",
     "options": {
-      "A": "Immediately upon admission before trying simple nasal cannula oxygen",
-      "B": "As the first-line treatment for all patients with a mild cough",
-      "C": "When the patient is ready to be weaned off all breathing support",
-      "D": "When conventional mechanical ventilation fails to maintain adequate oxygen levels"
+      "A": "When less invasive oxygen support methods fail to resolve respiratory failure",
+      "B": "Only after the patient develops complete kidney and liver failure",
+      "C": "As the first-line treatment before trying simple nasal cannula oxygen",
+      "D": "Immediately upon admission for every patient with a positive PCR test"
     },
-    "answer": "D",
-    "explanation": "Spot on! ECMO is a major rescue therapy saved for the toughest cases where regular ventilators just aren't doing the job anymore. [learn more](GNS123_U4_T6#GNS123_U4_T6_h7)"
+    "answer": "A",
+    "explanation": "Invasive ventilation is kept for severe situations where simpler oxygen therapies are not enough to keep the patient stable. [learn more](GNS123_U4_T6#GNS123_U4_T6_h7)"
   },
   {
     "question_id": "GNS123_U4_T6_h8_q1",
@@ -229,15 +229,15 @@
     "article_id": "GNS123_U4_T6",
     "topic_id": "GNS123_U4_T6",
     "difficulty": "recall",
-    "question": "What do we call the ongoing health issues that linger for months after recovering from initial COVID-19?",
+    "question": "Persistent COVID-19 symptoms lasting beyond what timeframe are classified as Long COVID?",
     "options": {
-      "A": "Post-infectious immunity",
-      "B": "Secondary sepsis",
-      "C": "Acute viral syndrome",
-      "D": "Long COVID"
+      "A": "Two weeks",
+      "B": "Twelve weeks",
+      "C": "Forty-eight hours",
+      "D": "Six months"
     },
-    "answer": "D",
-    "explanation": "Correct! 'Long COVID' is the term used when symptoms stick around long after the acute virus has cleared the body. [learn more](GNS123_U4_T6#GNS123_U4_T6_h8)"
+    "answer": "B",
+    "explanation": "Long COVID is clinically defined as having symptoms that continue past the twelve-week mark from the initial infection. [learn more](GNS123_U4_T6#GNS123_U4_T6_h8)"
   },
   {
     "question_id": "GNS123_U4_T6_h8_q2",
@@ -245,15 +245,15 @@
     "article_id": "GNS123_U4_T6",
     "topic_id": "GNS123_U4_T6",
     "difficulty": "understanding",
-    "question": "Which of these is a very common complaint from patients suffering from Long COVID?",
+    "question": "Which symptoms are commonly reported by patients suffering from Long COVID?",
     "options": {
-      "A": "Permanent darkening of the skin",
-      "B": "Chronic fatigue and brain fog",
-      "C": "Sudden bone fractures in the legs",
-      "D": "Uncontrollable weight gain"
+      "A": "Permanent loss of the ability to swallow food",
+      "B": "High-grade fevers lasting for several years",
+      "C": "Persistent fatigue and cognitive brain fog",
+      "D": "Rapid hair growth and increased skin pigmentation"
     },
-    "answer": "B",
-    "explanation": "You got it! Many people with Long COVID struggle with lingering tiredness and trouble concentrating, often called 'brain fog'. [learn more](GNS123_U4_T6#GNS123_U4_T6_h8)"
+    "answer": "C",
+    "explanation": "Ongoing exhaustion and trouble with focus or memory are among the most frequent lingering issues in long COVID. [learn more](GNS123_U4_T6#GNS123_U4_T6_h8)"
   },
   {
     "question_id": "GNS123_U4_T6_h9_q1",
@@ -261,30 +261,30 @@
     "article_id": "GNS123_U4_T6",
     "topic_id": "GNS123_U4_T6",
     "difficulty": "recall",
-    "question": "What is the primary benefit of getting a COVID-19 vaccine?",
+    "question": "What is the main public health goal of receiving COVID-19 vaccines and booster shots?",
     "options": {
-      "A": "Reducing the risk of severe illness and hospitalization",
-      "B": "Curing existing long-term respiratory complications",
-      "C": "Guaranteeing that a person will never catch the virus",
-      "D": "Eliminating the need for hand hygiene and masks"
+      "A": "Reducing the risk of severe disease and hospitalization",
+      "B": "Eliminating the need for hand hygiene in public spaces",
+      "C": "Guaranteed immunity against all future respiratory viral infections",
+      "D": "Completely eradicating the coronavirus from global circulation"
     },
     "answer": "A",
-    "explanation": "Spot on! Vaccines train your immune system to fight off the worst parts of the disease, keeping you out of the hospital. [learn more](GNS123_U4_T6#GNS123_U4_T6_h9)"
+    "explanation": "While vaccines may not stop every mild infection, their primary purpose is to protect people from severe illness, hospitalization, and death. [learn more](GNS123_U4_T6#GNS123_U4_T6_h9)"
   },
   {
     "question_id": "GNS123_U4_T6_h9_q2",
     "heading_id": "GNS123_U4_T6_h9",
     "article_id": "GNS123_U4_T6",
     "topic_id": "GNS123_U4_T6",
-    "difficulty": "application",
-    "question": "What key advice should you give a patient with mild COVID-19 who is well enough to stay home?",
+    "difficulty": "understanding",
+    "question": "Why is good indoor ventilation emphasized as a way to prevent the spread of COVID-19?",
     "options": {
-      "A": "Visit crowded public areas to build natural community immunity",
-      "B": "Stop wearing a mask immediately once the fever drops",
-      "C": "Avoid drinking fluids so that coughing spells decrease",
-      "D": "Stay home in isolation to avoid spreading the virus to others"
+      "A": "It disperses and dilutes suspended infectious viral aerosols indoors",
+      "B": "It cools down the room temperature to deactivate viral proteins",
+      "C": "It increases the humidity to kill the virus on hard surfaces",
+      "D": "It prevents people from coming into close physical contact"
     },
-    "answer": "D",
-    "explanation": "You nailed it! Self-isolating at home is the best way to protect your family members and community from catching the virus. [learn more](GNS123_U4_T6#GNS123_U4_T6_h9)"
+    "answer": "A",
+    "explanation": "Fresh airflow helps scatter and weaken airborne viral particles inside a room, lowering the chance of breathing them in. [learn more](GNS123_U4_T6#GNS123_U4_T6_h9)"
   }
 ]

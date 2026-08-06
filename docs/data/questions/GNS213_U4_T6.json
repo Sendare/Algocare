@@ -7,13 +7,13 @@
     "difficulty": "recall",
     "question": "What is the primary characteristic of acute renal failure?",
     "options": {
-      "A": "A gradual increase in the body's red blood cell count",
-      "B": "Permanent structural damage that develops over years",
-      "C": "A sudden and rapid decline in kidney function",
-      "D": "Slow scarring of the kidney tissue over months"
+      "A": "Slow decrease in glomerular filtration rate",
+      "B": "Gradual scarring of nephrons over years",
+      "C": "Sudden loss of kidney function",
+      "D": "Permanent destruction of renal cortex"
     },
     "answer": "C",
-    "explanation": "Acute renal failure happens very quickly over hours or days, unlike chronic kidney disease which takes a long time to develop. [learn more](GNS213_U4_T6#GNS213_U4_T6_h1)"
+    "explanation": "Acute renal failure happens rapidly over hours or days, unlike chronic kidney disease which develops slowly. [learn more](GNS213_U4_T6#GNS213_U4_T6_h1)"
   },
   {
     "question_id": "GNS213_U4_T6_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GNS213_U4_T6",
     "topic_id": "GNS213_U4_T6",
     "difficulty": "understanding",
-    "question": "What is azotemia in a patient with acute kidney injury?",
+    "question": "Azotemia in acute renal failure refers to the buildup of what substances?",
     "options": {
-      "A": "An excessive loss of protein through the urine",
-      "B": "An abnormal increase in the production of red blood cells",
-      "C": "A buildup of nitrogenous waste products in the blood",
-      "D": "A severe drop in the total volume of circulating blood"
+      "A": "Red blood cells",
+      "B": "Urea and creatinine",
+      "C": "Sodium and water",
+      "D": "Plasma proteins"
     },
-    "answer": "C",
-    "explanation": "When the kidneys fail suddenly, they cannot filter properly, causing waste like urea and creatinine to build up in the bloodstream. [learn more](GNS213_U4_T6#GNS213_U4_T6_h1)"
+    "answer": "B",
+    "explanation": "When the kidneys fail suddenly, they cannot filter nitrogenous wastes like urea and creatinine, causing them to accumulate in the blood. [learn more](GNS213_U4_T6#GNS213_U4_T6_h1)"
   },
   {
     "question_id": "GNS213_U4_T6_h2_q1",
@@ -37,15 +37,15 @@
     "article_id": "GNS213_U4_T6",
     "topic_id": "GNS213_U4_T6",
     "difficulty": "recall",
-    "question": "Which of the following is a classic example of a prerenal cause of acute kidney injury?",
+    "question": "Severe dehydration leading to reduced renal blood flow is classified as what type of cause?",
     "options": {
-      "A": "Direct toxicity to the kidney tubules from certain drugs",
-      "B": "Severe inflammation of the glomeruli inside the kidney",
-      "C": "A large kidney stone blocking the ureter completely",
-      "D": "Severe dehydration from heavy vomiting and diarrhea"
+      "A": "Glomerular",
+      "B": "Intrarenal",
+      "C": "Postrenal",
+      "D": "Prerenal"
     },
     "answer": "D",
-    "explanation": "Prerenal causes involve a lack of adequate blood flow to the kidneys, often due to fluid loss like severe dehydration or shock. [learn more](GNS213_U4_T6#GNS213_U4_T6_h2)"
+    "explanation": "Prerenal causes involve a sudden drop in blood flow to the kidneys before any structural damage to the organ occurs. [learn more](GNS213_U4_T6#GNS213_U4_T6_h2)"
   },
   {
     "question_id": "GNS213_U4_T6_h2_q2",
@@ -53,15 +53,15 @@
     "article_id": "GNS213_U4_T6",
     "topic_id": "GNS213_U4_T6",
     "difficulty": "understanding",
-    "question": "An enlarged prostate gland that blocks urine flow from the bladder falls under which category of acute renal failure?",
+    "question": "An enlarged prostate blocking urine flow out of the bladder is an example of which category?",
     "options": {
-      "A": "Prerenal",
-      "B": "Postrenal",
-      "C": "Systemic",
-      "D": "Intrarenal"
+      "A": "Intrinsic failure",
+      "B": "Postrenal failure",
+      "C": "Intrarenal failure",
+      "D": "Prerenal failure"
     },
     "answer": "B",
-    "explanation": "Postrenal causes involve any blockage that prevents urine from leaving the body after it is formed by the kidneys. [learn more](GNS213_U4_T6#GNS213_U4_T6_h2)"
+    "explanation": "Postrenal causes involve any mechanical obstruction of the urinary tract downstream from the kidneys. [learn more](GNS213_U4_T6#GNS213_U4_T6_h2)"
   },
   {
     "question_id": "GNS213_U4_T6_h3_q1",
@@ -69,31 +69,31 @@
     "article_id": "GNS213_U4_T6",
     "topic_id": "GNS213_U4_T6",
     "difficulty": "recall",
-    "question": "What defines the oliguric stage of acute renal failure?",
+    "question": "During which phase of acute renal failure does urine output drop below 400 mL daily?",
     "options": {
-      "A": "The complete absence of blood in the circulatory system",
-      "B": "A sudden return of normal kidney filtering rates",
-      "C": "A massive increase in daily urine production",
-      "D": "A significant drop in daily urine output"
+      "A": "Oliguric phase",
+      "B": "Diuretic phase",
+      "C": "Recovery phase",
+      "D": "Onset phase"
     },
-    "answer": "D",
-    "explanation": "During the oliguric stage, urine output decreases sharply, often dropping below 400 milliliters per day. [learn more](GNS213_U4_T6#GNS213_U4_T6_h3)"
+    "answer": "A",
+    "explanation": "The oliguric phase is marked by a sharp decrease in urine output alongside a buildup of metabolic wastes. [learn more](GNS213_U4_T6#GNS213_U4_T6_h3)"
   },
   {
     "question_id": "GNS213_U4_T6_h3_q2",
     "heading_id": "GNS213_U4_T6_h3",
     "article_id": "GNS213_U4_T6",
     "topic_id": "GNS213_U4_T6",
-    "difficulty": "application",
-    "question": "A patient entering the diuretic stage of acute renal failure is most at risk for which complication?",
+    "difficulty": "understanding",
+    "question": "Why does high-volume urine output occur during the diuretic phase of recovery?",
     "options": {
-      "A": "Dehydration and electrolyte loss",
-      "B": "Sudden blockage of the ureters by stones",
-      "C": "Severe fluid overload and high blood pressure",
-      "D": "Permanent cessation of all kidney function"
+      "A": "The kidneys are suddenly working twice as hard",
+      "B": "Damaged tubules cannot yet concentrate urine properly",
+      "C": "Fluid overload medications force water out",
+      "D": "Glomerular filtration rate becomes excessively high"
     },
-    "answer": "A",
-    "explanation": "In the diuretic stage, damaged nephrons start recovering and pass large amounts of fluid, which can quickly lead to dehydration if fluid isn't replaced. [learn more](GNS213_U4_T6#GNS213_U4_T6_h3)"
+    "answer": "B",
+    "explanation": "As the kidneys begin to heal during the diuretic phase, nephrons excrete large amounts of water and waste before tubular reabsorption function fully returns. [learn more](GNS213_U4_T6#GNS213_U4_T6_h3)"
   },
   {
     "question_id": "GNS213_U4_T6_h4_q1",
@@ -101,15 +101,15 @@
     "article_id": "GNS213_U4_T6",
     "topic_id": "GNS213_U4_T6",
     "difficulty": "recall",
-    "question": "Which blood test is most commonly used alongside BUN to evaluate kidney filtration ability?",
+    "question": "Which electrolyte imbalance in acute renal failure poses the most immediate danger to the heart?",
     "options": {
-      "A": "Serum creatinine",
-      "B": "Hemoglobin levels",
-      "C": "Serum calcium",
-      "D": "White blood cell count"
+      "A": "Hyponatremia",
+      "B": "Hypocalcemia",
+      "C": "Hyperkalemia",
+      "D": "Hypermagnesemia"
     },
-    "answer": "A",
-    "explanation": "Serum creatinine is a reliable indicator of kidney function because it rises when the kidneys fail to filter waste effectively. [learn more](GNS213_U4_T6#GNS213_U4_T6_h4)"
+    "answer": "C",
+    "explanation": "Elevated potassium levels severely disrupt cardiac electrical activity, potentially causing fatal arrhythmias. [learn more](GNS213_U4_T6#GNS213_U4_T6_h4)"
   },
   {
     "question_id": "GNS213_U4_T6_h4_q2",
@@ -117,15 +117,15 @@
     "article_id": "GNS213_U4_T6",
     "topic_id": "GNS213_U4_T6",
     "difficulty": "understanding",
-    "question": "Why is a renal ultrasound often ordered when evaluating a patient with sudden kidney failure?",
+    "question": "A patient with acute renal failure exhibits deep, rapid breathing. What is the primary reason for this?",
     "options": {
-      "A": "To test how well the liver is metabolizing circulating medications",
-      "B": "To measure the exact amount of protein lost in a 24-hour period",
-      "C": "To check for physical blockages or structural causes of urine backup",
-      "D": "To determine the precise percentage of red blood cells in circulation"
+      "A": "Direct neurological damage to the brainstem",
+      "B": "Pulmonary edema filling the alveoli with fluid",
+      "C": "Respiratory compensation for metabolic acidosis",
+      "D": "Severe anxiety caused by uremic toxins"
     },
     "answer": "C",
-    "explanation": "An ultrasound provides a clear image of the kidneys and urinary tract, helping doctors quickly identify postrenal obstructions like stones or an enlarged prostate. [learn more](GNS213_U4_T6#GNS213_U4_T6_h4)"
+    "explanation": "Kussmaul breathing is a deep, rapid respiratory pattern used to blow off carbon dioxide and compensate for acid buildup in the blood. [learn more](GNS213_U4_T6#GNS213_U4_T6_h4)"
   },
   {
     "question_id": "GNS213_U4_T6_h5_q1",
@@ -133,31 +133,31 @@
     "article_id": "GNS213_U4_T6",
     "topic_id": "GNS213_U4_T6",
     "difficulty": "recall",
-    "question": "What is the primary purpose of administering furosemide to a patient with acute renal failure and fluid overload?",
+    "question": "What is the primary purpose of performing a renal ultrasound in suspected acute renal failure?",
     "options": {
-      "A": "To permanently repair damaged glomeruli in the nephrons",
-      "B": "To dissolve large kidney stones blocking the ureters",
-      "C": "To lower dangerous levels of blood glucose in the body",
-      "D": "To stimulate urine output and reduce excess body fluid"
+      "A": "To calculate daily electrolyte balance",
+      "B": "To test for specific urinary tract infections",
+      "C": "To rule out urinary tract obstruction",
+      "D": "To measure exact glomerular filtration rate"
     },
-    "answer": "D",
-    "explanation": "Loop diuretics like furosemide help the kidneys excrete excess water and sodium when the patient is fluid overloaded. [learn more](GNS213_U4_T6#GNS213_U4_T6_h5)"
+    "answer": "C",
+    "explanation": "An ultrasound quickly visualizes the kidneys and ureters to check for swelling or blockages causing postrenal failure. [learn more](GNS213_U4_T6#GNS213_U4_T6_h5)"
   },
   {
     "question_id": "GNS213_U4_T6_h5_q2",
     "heading_id": "GNS213_U4_T6_h5",
     "article_id": "GNS213_U4_T6",
     "topic_id": "GNS213_U4_T6",
-    "difficulty": "application",
-    "question": "Why is high blood potassium treated urgently in a patient with acute renal failure?",
+    "difficulty": "understanding",
+    "question": "Which laboratory values are expected to rise significantly in a patient with acute renal failure?",
     "options": {
-      "A": "To encourage the kidneys to immediately start producing concentrated urine",
-      "B": "To prevent severe infection in the upper urinary tract",
-      "C": "To prevent dangerous and life-threatening heart rhythm changes",
-      "D": "To stop the sudden breakdown of muscle tissue throughout the body"
+      "A": "Hemoglobin and hematocrit percentages",
+      "B": "Serum creatinine and blood urea nitrogen",
+      "C": "Serum albumin and total protein levels",
+      "D": "White blood cell and platelet counts"
     },
-    "answer": "C",
-    "explanation": "Elevated potassium levels severely affect the electrical system of the heart, leading to fatal cardiac arrhythmias if left untreated. [learn more](GNS213_U4_T6#GNS213_U4_T6_h5)"
+    "answer": "B",
+    "explanation": "Failing kidneys fail to clear nitrogenous waste products, causing both serum creatinine and blood urea nitrogen to accumulate. [learn more](GNS213_U4_T6#GNS213_U4_T6_h5)"
   },
   {
     "question_id": "GNS213_U4_T6_h6_q1",
@@ -165,15 +165,15 @@
     "article_id": "GNS213_U4_T6",
     "topic_id": "GNS213_U4_T6",
     "difficulty": "recall",
-    "question": "What is the most sensitive daily indicator of fluid balance in a patient with acute renal failure?",
+    "question": "Which medication is administered intravenously to protect the heart during severe hyperkalemia?",
     "options": {
-      "A": "Total daily fluid intake calculations",
-      "B": "Skin turgor and mucous membrane check",
-      "C": "Daily body weight measurement",
-      "D": "Blood pressure readings every four hours"
+      "A": "Furosemide",
+      "B": "Calcium gluconate",
+      "C": "Regular insulin",
+      "D": "Sodium bicarbonate"
     },
-    "answer": "C",
-    "explanation": "Weighing the patient daily is the most accurate way to detect rapid fluid gains or losses, where one kilogram equals one liter of fluid. [learn more](GNS213_U4_T6#GNS213_U4_T6_h6)"
+    "answer": "B",
+    "explanation": "Calcium gluconate stabilizes the cardiac cell membrane against the toxic effects of high serum potassium. [learn more](GNS213_U4_T6#GNS213_U4_T6_h6)"
   },
   {
     "question_id": "GNS213_U4_T6_h6_q2",
@@ -181,15 +181,15 @@
     "article_id": "GNS213_U4_T6",
     "topic_id": "GNS213_U4_T6",
     "difficulty": "understanding",
-    "question": "Why does a nurse monitor strict fluid intake and output on a patient with acute renal failure?",
+    "question": "Why is regular insulin often given alongside glucose to treat acute hyperkalemia?",
     "options": {
-      "A": "To detect early signs of fluid retention or worsening kidney output",
-      "B": "To calculate the exact amount of dietary protein the patient needs",
-      "C": "To prevent the development of a secondary urinary tract infection",
-      "D": "To determine when the patient is ready to be discharged home"
+      "A": "To stimulate the kidneys to excrete extra potassium",
+      "B": "To prevent dangerous hypoglycemia from developing",
+      "C": "To drive potassium ions back inside the cells",
+      "D": "To increase overall glomerular filtration rate"
     },
-    "answer": "A",
-    "explanation": "Tracking fluid balance helps nurses spot dangerous fluid accumulation or declining urine production before it causes severe complications. [learn more](GNS213_U4_T6#GNS213_U4_T6_h6)"
+    "answer": "C",
+    "explanation": "Insulin promotes the movement of potassium from the extracellular fluid into the intracellular space, temporarily lowering blood levels. [learn more](GNS213_U4_T6#GNS213_U4_T6_h6)"
   },
   {
     "question_id": "GNS213_U4_T6_h7_q1",
@@ -197,15 +197,15 @@
     "article_id": "GNS213_U4_T6",
     "topic_id": "GNS213_U4_T6",
     "difficulty": "recall",
-    "question": "Which of the following is a clear indication for starting dialysis in acute renal failure?",
+    "question": "What is the most accurate daily indicator of a patient's fluid balance status?",
     "options": {
-      "A": "Normal laboratory values for serum creatinine and blood urea",
-      "B": "A mild and stable increase in the patient's daily appetite",
-      "C": "A temporary decrease in blood pressure caused by mild dehydration",
-      "D": "Severe and persistent hyperkalemia that resists medical treatment"
+      "A": "Daily body weight measurement",
+      "B": "Total fluid intake calculation",
+      "C": "Hourly blood pressure readings",
+      "D": "Routine skin turgor assessment"
     },
-    "answer": "D",
-    "explanation": "Dangerous electrolyte imbalances like unmanageable high potassium are a primary reason to start urgent dialysis. [learn more](GNS213_U4_T6#GNS213_U4_T6_h7)"
+    "answer": "A",
+    "explanation": "A kilogram gained or lost directly corresponds to a liter of fluid retained or lost, making daily weights the most reliable fluid monitor. [learn more](GNS213_U4_T6#GNS213_U4_T6_h7)"
   },
   {
     "question_id": "GNS213_U4_T6_h7_q2",
@@ -213,14 +213,14 @@
     "article_id": "GNS213_U4_T6",
     "topic_id": "GNS213_U4_T6",
     "difficulty": "understanding",
-    "question": "Why is continuous renal replacement therapy (CRRT) often chosen over standard hemodialysis for critically ill patients?",
+    "question": "During the oliguric phase, why is careful fluid management critical for the patient?",
     "options": {
-      "A": "It can be performed easily without any specialized equipment",
-      "B": "It does not require any form of vascular access in the body",
-      "C": "It completely cures chronic kidney disease within a few days",
-      "D": "It removes fluids and toxins much more slowly and gently"
+      "A": "To prevent the development of permanent chronic renal failure",
+      "B": "To encourage the kidneys to produce normal urine volume",
+      "C": "To prevent life-threatening fluid overload and pulmonary edema",
+      "D": "To reduce the frequency of painful hemodialysis sessions"
     },
-    "answer": "D",
-    "explanation": "CRRT filters blood continuously over 24 hours, making it much safer for hemodynamically unstable patients in the ICU. [learn more](GNS213_U4_T6#GNS213_U4_T6_h7)"
+    "answer": "C",
+    "explanation": "Because the kidneys cannot excrete water adequately, unmanaged fluid intake quickly leads to congestion in the lungs and circulation. [learn more](GNS213_U4_T6#GNS213_U4_T6_h7)"
   }
 ]

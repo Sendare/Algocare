@@ -5,15 +5,15 @@
     "article_id": "GNS123_U2_T8",
     "topic_id": "GNS123_U2_T8",
     "difficulty": "recall",
-    "question": "What is the primary function of antigens found on the surface of red blood cells?",
+    "question": "What is the primary function of blood group antigens located on red blood cells?",
     "options": {
-      "A": "Producing clotting factors to stop active bleeding",
-      "B": "Regulating the overall pH balance of plasma",
-      "C": "Acting as molecular markers that the immune system recognizes",
-      "D": "Transporting oxygen molecules directly to body tissues"
+      "A": "They act as surface markers recognized by the immune system.",
+      "B": "They transport oxygen molecules throughout the systemic circulation.",
+      "C": "They regulate the osmotic pressure inside the vascular space.",
+      "D": "They prevent the clotting of blood inside normal blood vessels."
     },
-    "answer": "C",
-    "explanation": "Antigens sit on red blood cells like name tags, helping the body tell its own cells apart from foreign invaders. [learn more](GNS123_U2_T8#GNS123_U2_T8_h1)"
+    "answer": "A",
+    "explanation": "Antigens are unique molecules on red blood cells that determine blood type and trigger immune reactions if foreign. [learn more](GNS123_U2_T8#GNS123_U2_T8_h1)"
   },
   {
     "question_id": "GNS123_U2_T8_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GNS123_U2_T8",
     "topic_id": "GNS123_U2_T8",
     "difficulty": "understanding",
-    "question": "What happens when antibodies in a patient's plasma encounter unfamiliar red blood cell antigens?",
+    "question": "Why does a transfusion reaction occur when incompatible blood is given to a patient?",
     "options": {
-      "A": "They convert the foreign antigens into safe body proteins",
-      "B": "They absorb the extra antigens to nourish surrounding tissues",
-      "C": "They dissolve the donor red blood cells into liquid plasma",
-      "D": "They bind to the foreign cells and cause agglutination"
+      "A": "The total blood volume drops rapidly due to sudden fluid evaporation.",
+      "B": "Recipient white blood cells permanently lose their ability to fight infection.",
+      "C": "Donor plasma proteins immediately dissolve the recipient blood vessel walls.",
+      "D": "Host antibodies attack and destroy the foreign donor red blood cells."
     },
     "answer": "D",
-    "explanation": "Plasma antibodies attack unfamiliar antigens by latching onto them, which makes the red blood cells clump together. [learn more](GNS123_U2_T8#GNS123_U2_T8_h1)"
+    "explanation": "Incompatible transfusions cause the recipient's antibodies to bind with donor antigens, resulting in cell destruction. [learn more](GNS123_U2_T8#GNS123_U2_T8_h1)"
   },
   {
     "question_id": "GNS123_U2_T8_h2_q1",
@@ -37,31 +37,31 @@
     "article_id": "GNS123_U2_T8",
     "topic_id": "GNS123_U2_T8",
     "difficulty": "recall",
-    "question": "Which antibodies are naturally present in the plasma of a person with Type A blood?",
+    "question": "Which antibodies are naturally present in the plasma of a person with blood group A?",
     "options": {
-      "A": "Anti-B antibodies",
-      "B": "Anti-A antibodies",
-      "C": "No ABO antibodies at all",
-      "D": "Both anti-A and anti-B antibodies"
+      "A": "Anti-A antibodies",
+      "B": "Both anti-A and anti-B antibodies",
+      "C": "No antibodies are present",
+      "D": "Anti-B antibodies"
     },
-    "answer": "A",
-    "explanation": "Type A blood has A antigens on the cells, so the body develops anti-B antibodies to attack foreign B types. [learn more](GNS123_U2_T8#GNS123_U2_T8_h2)"
+    "answer": "D",
+    "explanation": "Blood group A individuals have A antigens on their cells and circulating anti-B antibodies in their plasma. [learn more](GNS123_U2_T8#GNS123_U2_T8_h2)"
   },
   {
     "question_id": "GNS123_U2_T8_h2_q2",
     "heading_id": "GNS123_U2_T8_h2",
     "article_id": "GNS123_U2_T8",
     "topic_id": "GNS123_U2_T8",
-    "difficulty": "application",
-    "question": "A patient with Type AB blood needs an emergency red blood cell transfusion. Why are they called universal red cell recipients?",
+    "difficulty": "understanding",
+    "question": "Blood group O is often called the universal red cell donor because...",
     "options": {
-      "A": "Their red blood cells contain no surface antigens",
-      "B": "Their body rapidly destroys all incoming donor antibodies",
-      "C": "Their immune system is completely inactive during stress",
-      "D": "Their plasma lacks both anti-A and anti-B antibodies"
+      "A": "it can safely receive blood from any other ABO group without testing.",
+      "B": "its plasma contains high levels of both anti-A and anti-B antibodies.",
+      "C": "it contains special clotting factors that prevent immediate transfusion reactions.",
+      "D": "its red blood cells lack both A and B surface antigens."
     },
     "answer": "D",
-    "explanation": "Because Type AB plasma does not contain anti-A or anti-B antibodies, it will not attack incoming red blood cells from other ABO groups. [learn more](GNS123_U2_T8#GNS123_U2_T8_h2)"
+    "explanation": "Lacking A and B antigens means recipient antibodies have nothing to attack on the donor red blood cells. [learn more](GNS123_U2_T8#GNS123_U2_T8_h2)"
   },
   {
     "question_id": "GNS123_U2_T8_h3_q1",
@@ -69,31 +69,31 @@
     "article_id": "GNS123_U2_T8",
     "topic_id": "GNS123_U2_T8",
     "difficulty": "recall",
-    "question": "What determines whether a person is considered Rh-positive?",
+    "question": "How do anti-Rhesus antibodies typically develop in an individual who is Rh-negative?",
     "options": {
-      "A": "The presence of the D antigen on their red blood cells",
-      "B": "The presence of anti-Rh antibodies floating in their plasma",
-      "C": "The presence of both A and B antigens on their platelets",
-      "D": "The total volume of hemoglobin circulating in their blood"
+      "A": "Through exposure to environmental bacteria during early childhood development",
+      "B": "Through dietary intake of iron-rich foods during the third trimester",
+      "C": "Through prior exposure to Rh-positive blood via transfusion or pregnancy",
+      "D": "They are present at birth alongside natural ABO system antibodies"
     },
-    "answer": "A",
-    "explanation": "The term Rh-positive simply means the red blood cells carry the D antigen on their outer surface. [learn more](GNS123_U2_T8#GNS123_U2_T8_h3)"
+    "answer": "C",
+    "explanation": "Anti-Rh antibodies are not naturally occurring and require sensitization through previous exposure to the D antigen. [learn more](GNS123_U2_T8#GNS123_U2_T8_h3)"
   },
   {
     "question_id": "GNS123_U2_T8_h3_q2",
     "heading_id": "GNS123_U2_T8_h3",
     "article_id": "GNS123_U2_T8",
     "topic_id": "GNS123_U2_T8",
-    "difficulty": "understanding",
-    "question": "Why is an Rh-negative mother at risk when carrying an Rh-positive baby for the second time?",
+    "difficulty": "application",
+    "question": "A pregnant woman is Rh-negative and her husband is Rh-positive. What is the main clinical concern for future pregnancies?",
     "options": {
-      "A": "Her plasma lacks enough iron to support two separate blood supplies",
-      "B": "Her immune system has already formed antibodies against the Rh factor",
-      "C": "Her baby will automatically inherit a mismatched ABO blood type",
-      "D": "Her bone marrow stops producing red blood cells during late pregnancy"
+      "A": "Hemolytic disease of the newborn due to maternal anti-D antibody crossing the placenta",
+      "B": "Severe iron-deficiency anemia in the mother caused by active red cell destruction",
+      "C": "Complete absence of ABO blood group antigens in the developing fetus",
+      "D": "Immediate maternal rejection of the placenta during the first trimester of gestation"
     },
-    "answer": "B",
-    "explanation": "Exposure during the first pregnancy sensitizes the mother, prompting her body to build antibodies that can attack a later Rh-positive baby. [learn more](GNS123_U2_T8#GNS123_U2_T8_h3)"
+    "answer": "A",
+    "explanation": "Sensitized Rh-negative mothers produce antibodies that attack subsequent Rh-positive fetal red blood cells. [learn more](GNS123_U2_T8#GNS123_U2_T8_h3)"
   },
   {
     "question_id": "GNS123_U2_T8_h4_q1",
@@ -101,15 +101,15 @@
     "article_id": "GNS123_U2_T8",
     "topic_id": "GNS123_U2_T8",
     "difficulty": "recall",
-    "question": "What is the primary purpose of mixing a patient's blood with anti-A serum in the laboratory?",
+    "question": "What reaction indicates a positive result during standard bedside or laboratory blood typing?",
     "options": {
-      "A": "To determine the total volume of plasma in the patient's body",
-      "B": "To measure the exact amount of white blood cells in circulation",
-      "C": "To check if A antigens are present on the red blood cells",
-      "D": "To destroy any harmful bacteria hiding inside the blood sample"
+      "A": "Rapid separation of plasma from the cellular layers",
+      "B": "Complete dissolution of the entire blood sample",
+      "C": "A sudden change of the blood color to bright green",
+      "D": "Agglutination or clumping of the red blood cells"
     },
-    "answer": "C",
-    "explanation": "Clumping with anti-A serum proves that the patient's red blood cells carry the A antigen. [learn more](GNS123_U2_T8#GNS123_U2_T8_h4)"
+    "answer": "D",
+    "explanation": "Clumping occurs when antibodies in the test serum bind to matching antigens on the red blood cells. [learn more](GNS123_U2_T8#GNS123_U2_T8_h4)"
   },
   {
     "question_id": "GNS123_U2_T8_h4_q2",
@@ -117,15 +117,15 @@
     "article_id": "GNS123_U2_T8",
     "topic_id": "GNS123_U2_T8",
     "difficulty": "understanding",
-    "question": "What is the most immediate danger when a patient receives an incompatible blood transfusion?",
+    "question": "Why are commercial antisera used when performing a routine blood type test?",
     "options": {
-      "A": "Rapid growth of abnormal white blood cells in the bone marrow",
-      "B": "Complete permanent loss of natural immunity to infections",
-      "C": "Sudden permanent paralysis of the skeletal muscles",
-      "D": "Destruction of red blood cells leading to kidney damage"
+      "A": "To sterilize the blood sample and prevent bacterial contamination during testing",
+      "B": "To preserve the fragile red blood cells for microscopic evaluation later",
+      "C": "To dissolve abnormal clots that form naturally inside the specimen tube",
+      "D": "To identify specific antigens on the red blood cells through visible clumping"
     },
     "answer": "D",
-    "explanation": "Incompatible transfusions cause red blood cells to burst, releasing free hemoglobin that clogs and damages the kidneys. [learn more](GNS123_U2_T8#GNS123_U2_T8_h4)"
+    "explanation": "Known antibodies in antisera react with unknown patient antigens to reveal the blood group. [learn more](GNS123_U2_T8#GNS123_U2_T8_h4)"
   },
   {
     "question_id": "GNS123_U2_T8_h5_q1",
@@ -133,15 +133,15 @@
     "article_id": "GNS123_U2_T8",
     "topic_id": "GNS123_U2_T8",
     "difficulty": "recall",
-    "question": "What is the main difference between routine blood typing and a cross-match?",
+    "question": "What is the primary purpose of performing a blood cross-match before a transfusion?",
     "options": {
-      "A": "Blood typing requires samples from both the donor and recipient families",
-      "B": "Cross-matching tests for hidden incompatibilities beyond basic ABO and Rh types",
-      "C": "Cross-matching measures the exact amount of oxygen in donor plasma",
-      "D": "Blood typing is only performed after a transfusion has already started"
+      "A": "To measure the total fluid volume contained in the donor unit",
+      "B": "To sterilize the blood bag against viral and bacterial pathogens",
+      "C": "To determine the exact hemoglobin level of the donor unit",
+      "D": "To detect any unexpected antibodies between donor and recipient"
     },
-    "answer": "B",
-    "explanation": "Cross-matching is a direct laboratory test that checks for reactions against minor antigens that standard typing misses. [learn more](GNS123_U2_T8#GNS123_U2_T8_h5)"
+    "answer": "D",
+    "explanation": "Cross-matching ensures compatibility by testing recipient serum against donor red cells for adverse reactions. [learn more](GNS123_U2_T8#GNS123_U2_T8_h5)"
   },
   {
     "question_id": "GNS123_U2_T8_h5_q2",
@@ -149,15 +149,15 @@
     "article_id": "GNS123_U2_T8",
     "topic_id": "GNS123_U2_T8",
     "difficulty": "understanding",
-    "question": "What does a major cross-match involve in the laboratory?",
+    "question": "Which samples are combined in the laboratory to perform a standard cross-match test?",
     "options": {
-      "A": "Mixing the donor's serum with the donor's own plasma",
-      "B": "Checking the donor's white blood cell count under a microscope",
-      "C": "Mixing the recipient's serum with the donor's red blood cells",
-      "D": "Testing the recipient's urine for traces of breakdown proteins"
+      "A": "Donor plasma and recipient white blood cells",
+      "B": "Donor serum and commercial anti-A antibodies",
+      "C": "Recipient whole blood and sterile saline solution",
+      "D": "Recipient serum and donor red blood cells"
     },
-    "answer": "C",
-    "explanation": "The major cross-match checks if the patient's antibodies will attack the donor's red blood cells. [learn more](GNS123_U2_T8#GNS123_U2_T8_h5)"
+    "answer": "D",
+    "explanation": "The test checks if antibodies in the patient's serum will attack the red blood cells of the donor. [learn more](GNS123_U2_T8#GNS123_U2_T8_h5)"
   },
   {
     "question_id": "GNS123_U2_T8_h6_q1",
@@ -165,31 +165,31 @@
     "article_id": "GNS123_U2_T8",
     "topic_id": "GNS123_U2_T8",
     "difficulty": "recall",
-    "question": "How many licensed nurses must verify patient identification and blood bag details at the bedside before starting a transfusion?",
+    "question": "What does a major cross-match specifically test in the laboratory?",
     "options": {
-      "A": "Four nurses",
-      "B": "One nurse",
-      "C": "Two nurses",
-      "D": "Three nurses"
+      "A": "Donor whole blood against commercial saline",
+      "B": "Recipient plasma against recipient platelets",
+      "C": "Recipient serum against donor red blood cells",
+      "D": "Donor serum against recipient red blood cells"
     },
     "answer": "C",
-    "explanation": "A mandatory two-nurse bedside check prevents dangerous clerical errors and mismatched transfusions. [learn more](GNS123_U2_T8#GNS123_U2_T8_h6)"
+    "explanation": "A major cross-match mixes the patient's serum with donor cells to prevent severe transfusion reactions. [learn more](GNS123_U2_T8#GNS123_U2_T8_h6)"
   },
   {
     "question_id": "GNS123_U2_T8_h6_q2",
     "heading_id": "GNS123_U2_T8_h6",
     "article_id": "GNS123_U2_T8",
     "topic_id": "GNS123_U2_T8",
-    "difficulty": "application",
-    "question": "A nurse is preparing to start a blood transfusion for an adult patient. Which intravenous solution should be used to prime the Y-tubing?",
+    "difficulty": "understanding",
+    "question": "Why is the minor cross-match performed less frequently with modern packed red cell transfusions?",
     "options": {
-      "A": "5% dextrose in water",
-      "B": "0.45% sodium chloride",
-      "C": "0.9% sodium chloride",
-      "D": "Lactated Ringer's solution"
+      "A": "Minor cross-matching only applies to platelet concentrates and cryoprecipitate.",
+      "B": "Most donor plasma containing active antibodies has been removed from the product.",
+      "C": "Routine ABO and Rhesus typing completely eliminates the need for any laboratory testing.",
+      "D": "Donor red blood cells destroy all foreign plasma proteins upon contact."
     },
-    "answer": "C",
-    "explanation": "Normal saline (0.9% sodium chloride) is isotonic and compatible with red blood cells, preventing hemolysis that other solutions might cause. [learn more](GNS123_U2_T8#GNS123_U2_T8_h6)"
+    "answer": "B",
+    "explanation": "Packed red cells contain minimal plasma, reducing the risk from donor antibodies directed at the recipient. [learn more](GNS123_U2_T8#GNS123_U2_T8_h6)"
   },
   {
     "question_id": "GNS123_U2_T8_h7_q1",
@@ -197,30 +197,62 @@
     "article_id": "GNS123_U2_T8",
     "topic_id": "GNS123_U2_T8",
     "difficulty": "recall",
-    "question": "What is the very first action a nurse must take if a patient shows signs of a blood transfusion reaction?",
+    "question": "Why must a nurse remain closely with the patient during the first fifteen minutes of a blood transfusion?",
     "options": {
-      "A": "Call the patient's family members",
-      "B": "Stop the transfusion immediately",
-      "C": "Administer prescribed antihistamines",
-      "D": "Slow down the infusion pump rate"
+      "A": "The blood pump requires constant manual adjustment to prevent air embolism.",
+      "B": "Standard hospital policy prohibits nurses from leaving the bedside entirely.",
+      "C": "Most acute hemolytic reactions occur during the initial phase of administration.",
+      "D": "Patients frequently fall asleep and pull out their peripheral IV lines."
     },
-    "answer": "B",
-    "explanation": "Stopping the infusion cuts off any further entry of incompatible or reactive blood products into the patient's circulation. [learn more](GNS123_U2_T8#GNS123_U2_T8_h7)"
+    "answer": "C",
+    "explanation": "Severe immune reactions typically present quickly after the first few milliliters of incompatible blood enter circulation. [learn more](GNS123_U2_T8#GNS123_U2_T8_h7)"
   },
   {
     "question_id": "GNS123_U2_T8_h7_q2",
     "heading_id": "GNS123_U2_T8_h7",
     "article_id": "GNS123_U2_T8",
     "topic_id": "GNS123_U2_T8",
-    "difficulty": "understanding",
-    "question": "Which symptom is most characteristic of circulatory overload during a blood transfusion?",
+    "difficulty": "application",
+    "question": "Two nurses are at the bedside preparing to hang a unit of packed red blood cells. What must they verify together?",
     "options": {
-      "A": "Shortness of breath and crackles in the lungs",
-      "B": "Sudden widespread hives and severe skin itching",
-      "C": "High fever accompanied by uncontrollable shivering",
-      "D": "Sharp pain radiating into the lower back area"
+      "A": "Patient identity, blood group, unit serial number, and expiration date",
+      "B": "Exact weight of the blood bag and manufacturing laboratory address",
+      "C": "Patient room number, primary physician name, and total hospital bill",
+      "D": "Donor occupation, geographic origin, and previous donation history"
     },
     "answer": "A",
-    "explanation": "Circulatory overload occurs when fluid volume overwhelms the heart, leading to pulmonary congestion and breathing difficulty. [learn more](GNS123_U2_T8#GNS123_U2_T8_h7)"
+    "explanation": "Independent bedside double-checking prevents catastrophic clerical errors resulting in incompatible transfusions. [learn more](GNS123_U2_T8#GNS123_U2_T8_h7)"
+  },
+  {
+    "question_id": "GNS123_U2_T8_h8_q1",
+    "heading_id": "GNS123_U2_T8_h8",
+    "article_id": "GNS123_U2_T8",
+    "topic_id": "GNS123_U2_T8",
+    "difficulty": "recall",
+    "question": "What is the FIRST action a nurse must take if a patient shows signs of an acute transfusion reaction?",
+    "options": {
+      "A": "Stop the blood transfusion immediately and keep the vein open with saline.",
+      "B": "Administer prescribed antipyretic medications and continue monitoring vital signs.",
+      "C": "Collect a fresh midstream urine sample for routine laboratory microscopy.",
+      "D": "Slow down the infusion rate by half and notify the blood bank technician."
+    },
+    "answer": "A",
+    "explanation": "Stopping the infusion prevents further entry of incompatible blood while maintaining IV access for emergency drugs. [learn more](GNS123_U2_T8#GNS123_U2_T8_h8)"
+  },
+  {
+    "question_id": "GNS123_U2_T8_h8_q2",
+    "heading_id": "GNS123_U2_T8_h8",
+    "article_id": "GNS123_U2_T8",
+    "topic_id": "GNS123_U2_T8",
+    "difficulty": "understanding",
+    "question": "Which symptom is most characteristic of an acute hemolytic transfusion reaction?",
+    "options": {
+      "A": "Loin or lower back pain accompanied by fever and chills",
+      "B": "Sudden loss of hearing in both ears during the infusion",
+      "C": "Severe itching confined strictly to the palms of the hands",
+      "D": "Painless swelling of the parotid glands near the jawline"
+    },
+    "answer": "A",
+    "explanation": "Kidney distress and systemic immune activation manifest as lower back pain, fever, and chills during hemolysis. [learn more](GNS123_U2_T8#GNS123_U2_T8_h8)"
   }
 ]

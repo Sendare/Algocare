@@ -5,15 +5,15 @@
     "article_id": "GNS217_U4_T12",
     "topic_id": "GNS217_U4_T12",
     "difficulty": "recall",
-    "question": "What is another common name for a scatter diagram?",
+    "question": "What type of data does a scatter diagram display?",
     "options": {
-      "A": "Scatter plot",
-      "B": "Pie chart",
-      "C": "Line histogram",
-      "D": "Bar graph"
+      "A": "Univariate data",
+      "B": "Categorical data",
+      "C": "Nominal data",
+      "D": "Bivariate data"
     },
-    "answer": "A",
-    "explanation": "A scatter diagram is also widely known as a scatter plot because it plots individual data points across a grid. [learn more](GNS217_U4_T12#GNS217_U4_T12_h1)"
+    "answer": "D",
+    "explanation": "Scatter diagrams plot two continuous variables simultaneously to show their relationship, which defines bivariate data. [learn more](GNS217_U4_T12#GNS217_U4_T12_h1)"
   },
   {
     "question_id": "GNS217_U4_T12_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GNS217_U4_T12",
     "topic_id": "GNS217_U4_T12",
     "difficulty": "understanding",
-    "question": "What does 'bivariate data' mean when working on a nursing research project?",
+    "question": "On which axis is the independent variable traditionally placed?",
     "options": {
-      "A": "Measurements are taken twice on the same patient",
-      "B": "Two different variables are collected from each subject",
-      "C": "Two researchers analyze the same set of numbers",
-      "D": "Data is gathered from two separate hospitals at once"
+      "A": "Diagonal axis",
+      "B": "Horizontal axis",
+      "C": "Vertical axis",
+      "D": "Z-axis"
     },
     "answer": "B",
-    "explanation": "Bivariate just means two pieces of information (like a patient's age and their blood pressure) are gathered from each person. Easy peasy! [learn more](GNS217_U4_T12#GNS217_U4_T12_h1)"
+    "explanation": "The horizontal axis, or X-axis, conventionally holds the predictor or independent variable. [learn more](GNS217_U4_T12#GNS217_U4_T12_h1)"
   },
   {
     "question_id": "GNS217_U4_T12_h2_q1",
@@ -37,31 +37,31 @@
     "article_id": "GNS217_U4_T12",
     "topic_id": "GNS217_U4_T12",
     "difficulty": "recall",
-    "question": "Why do nurses and researchers use a scatter diagram?",
+    "question": "A primary benefit of using scatter diagrams in healthcare research is to...",
     "options": {
-      "A": "To track a single patient's temperature over time",
-      "B": "To calculate the exact medication dosage for a child",
-      "C": "To compare infection rates across four different states",
-      "D": "To explore the relationship between two variables"
+      "A": "Visually assess relationships between variables",
+      "B": "Replace clinical judgement entirely",
+      "C": "Diagnose individual patient pathologies",
+      "D": "Calculate exact medication dosages"
     },
-    "answer": "D",
-    "explanation": "Scatter diagrams help us see if two different factors are connected or related to each other visually. Great job! [learn more](GNS217_U4_T12#GNS217_U4_T12_h2)"
+    "answer": "A",
+    "explanation": "The main purpose of a scatter plot is to give researchers a visual display of how two variables interact. [learn more](GNS217_U4_T12#GNS217_U4_T12_h2)"
   },
   {
     "question_id": "GNS217_U4_T12_h2_q2",
     "heading_id": "GNS217_U4_T12_h2",
     "article_id": "GNS217_U4_T12",
     "topic_id": "GNS217_U4_T12",
-    "difficulty": "understanding",
-    "question": "Why must you be careful when looking at a trend on a scatter diagram?",
+    "difficulty": "application",
+    "question": "A nurse manager plots ward staffing levels against medication errors on a scatter diagram to...",
     "options": {
-      "A": "Graphs can only show data from fewer than ten patients",
-      "B": "Correlation does not automatically prove cause and effect",
-      "C": "Numbers on the axes change every time the page is refreshed",
-      "D": "Visual plots cannot be used for clinical decision making"
+      "A": "Calculate the hospital budget for nursing staff",
+      "B": "Prove definitive legal liability for an incident",
+      "C": "Explore potential connections between staffing and errors",
+      "D": "Determine the exact shift schedule for next month"
     },
-    "answer": "B",
-    "explanation": "Just because two things move together on a graph doesn't mean one directly caused the other. Always keep your critical thinking cap on! [learn more](GNS217_U4_T12#GNS217_U4_T12_h2)"
+    "answer": "C",
+    "explanation": "Scatter diagrams are used in quality improvement to explore possible relationships between operational metrics like staffing and clinical errors. [learn more](GNS217_U4_T12#GNS217_U4_T12_h2)"
   },
   {
     "question_id": "GNS217_U4_T12_h3_q1",
@@ -69,15 +69,15 @@
     "article_id": "GNS217_U4_T12",
     "topic_id": "GNS217_U4_T12",
     "difficulty": "recall",
-    "question": "Which variable always goes on the bottom (horizontal X-axis) of a scatter diagram?",
+    "question": "What does each individual dot on a scatter diagram represent?",
     "options": {
-      "A": "The average median score",
-      "B": "The dependent outcome",
-      "C": "The independent variable",
-      "D": "The total patient count"
+      "A": "A paired set of measurements for one subject",
+      "B": "The average score of the entire study population",
+      "C": "A calculated statistical error value",
+      "D": "The total number of patients admitted in a day"
     },
-    "answer": "C",
-    "explanation": "Remember: the independent (or explanatory) variable always sits comfortably on the horizontal X-axis. [learn more](GNS217_U4_T12#GNS217_U4_T12_h3)"
+    "answer": "A",
+    "explanation": "Each point corresponds to the specific X and Y values recorded for a single observation or patient. [learn more](GNS217_U4_T12#GNS217_U4_T12_h3)"
   },
   {
     "question_id": "GNS217_U4_T12_h3_q2",
@@ -85,15 +85,15 @@
     "article_id": "GNS217_U4_T12",
     "topic_id": "GNS217_U4_T12",
     "difficulty": "understanding",
-    "question": "On a scatter diagram, what does a single dot represent?",
+    "question": "Uneven scaling on the axes of a scatter diagram will cause...",
     "options": {
-      "A": "The total average of all patients in the study",
-      "B": "The error rate of the measuring instrument",
-      "C": "The difference between two hospital wards",
-      "D": "One subject's values for both variables combined"
+      "A": "An increase in the total sample size",
+      "B": "Distortion of the visual pattern of data points",
+      "C": "Elimination of the independent variable",
+      "D": "Automatic correction of statistical outliers"
     },
-    "answer": "D",
-    "explanation": "Each dot is like a snapshot for one individual participant, showing both of their measurements meeting at a point. [learn more](GNS217_U4_T12#GNS217_U4_T12_h3)"
+    "answer": "B",
+    "explanation": "Poor or unequal scaling stretches or compresses the graph, making relationships look stronger or weaker than they actually are. [learn more](GNS217_U4_T12#GNS217_U4_T12_h3)"
   },
   {
     "question_id": "GNS217_U4_T12_h4_q1",
@@ -101,31 +101,31 @@
     "article_id": "GNS217_U4_T12",
     "topic_id": "GNS217_U4_T12",
     "difficulty": "recall",
-    "question": "What is the very first thing you need to do before drawing a scatter diagram?",
+    "question": "The very first step in constructing a scatter diagram is to...",
     "options": {
-      "A": "Coloring the data points with bright markers",
-      "B": "Gathering paired data for the variables",
-      "C": "Calculating the final correlation coefficient",
-      "D": "Drawing the title at the top of the page"
+      "A": "Draw the vertical Y-axis and horizontal X-axis",
+      "B": "Gather your paired bivariate data values",
+      "C": "Calculate the final correlation coefficient",
+      "D": "Add a descriptive title to the graph"
     },
     "answer": "B",
-    "explanation": "You have to collect your matching pairs of data first before you can plot anything on a graph. Step by step! [learn more](GNS217_U4_T12#GNS217_U4_T12_h4)"
+    "explanation": "You must first collect your paired observations before you can design axes or plot any data points. [learn more](GNS217_U4_T12#GNS217_U4_T12_h4)"
   },
   {
     "question_id": "GNS217_U4_T12_h4_q2",
     "heading_id": "GNS217_U4_T12_h4",
     "article_id": "GNS217_U4_T12",
     "topic_id": "GNS217_U4_T12",
-    "difficulty": "application",
-    "question": "You are plotting patient age on the X-axis and length of stay on the Y-axis. After drawing your blank axes, what is next?",
+    "difficulty": "understanding",
+    "question": "Why must axes on a scatter diagram include units of measurement?",
     "options": {
-      "A": "Erase the axis labels to make the chart look cleaner",
-      "B": "Calculate the percentage of patients over the age of sixty",
-      "C": "Draw a straight line connecting every single dot in order",
-      "D": "Scale the axes with equal intervals to fit the data values"
+      "A": "To ensure clarity and prevent clinical misinterpretation",
+      "B": "To hide extreme data points from reviewers",
+      "C": "To make the graph fit standard printer paper",
+      "D": "To satisfy software licensing requirements"
     },
-    "answer": "D",
-    "explanation": "Before plotting dots, you need to set up your numbers evenly along the axes so your graph is accurate and easy to read. [learn more](GNS217_U4_T12#GNS217_U4_T12_h4)"
+    "answer": "A",
+    "explanation": "Clear labels and units prevent anyone reading the chart from misinterpreting the scale or meaning of the variables. [learn more](GNS217_U4_T12#GNS217_U4_T12_h4)"
   },
   {
     "question_id": "GNS217_U4_T12_h5_q1",
@@ -133,15 +133,15 @@
     "article_id": "GNS217_U4_T12",
     "topic_id": "GNS217_U4_T12",
     "difficulty": "recall",
-    "question": "What does a negative correlation look like on a scatter diagram?",
+    "question": "A scatter plot where dots trend downward from left to right shows a...",
     "options": {
-      "A": "Dots trend downward from left to right",
-      "B": "Dots form a flat horizontal straight line",
-      "C": "Dots trend upward from left to right",
-      "D": "Dots are scattered randomly everywhere"
+      "A": "Negative correlation",
+      "B": "Zero correlation",
+      "C": "Positive correlation",
+      "D": "Perfect correlation"
     },
     "answer": "A",
-    "explanation": "Think of it like going downhill: as one variable goes up, the other goes down, creating a downward slope from left to right. [learn more](GNS217_U4_T12#GNS217_U4_T12_h5)"
+    "explanation": "A downward slope means that as one variable goes up, the other goes down, which defines a negative correlation. [learn more](GNS217_U4_T12#GNS217_U4_T12_h5)"
   },
   {
     "question_id": "GNS217_U4_T12_h5_q2",
@@ -149,15 +149,15 @@
     "article_id": "GNS217_U4_T12",
     "topic_id": "GNS217_U4_T12",
     "difficulty": "understanding",
-    "question": "How can you tell if a correlation on a scatter diagram is strong?",
+    "question": "What does a tight, narrow cluster of dots along a straight line indicate?",
     "options": {
-      "A": "The data points cluster tightly together along a clear path",
-      "B": "The dots are spread out widely across the entire grid",
-      "C": "The line on the graph goes straight up and down",
-      "D": "There are more than one hundred dots on the chart"
+      "A": "A negative clinical outcome for patients",
+      "B": "A strong correlation between the variables",
+      "C": "An error in recording the independent variable",
+      "D": "A complete absence of data points"
     },
-    "answer": "A",
-    "explanation": "When the dots stick close together and form a clear shape, that's a strong relationship. If they're all over the place, it's weak! [learn more](GNS217_U4_T12#GNS217_U4_T12_h5)"
+    "answer": "B",
+    "explanation": "The closer data points cluster to an imaginary line, the stronger the relationship between the two variables. [learn more](GNS217_U4_T12#GNS217_U4_T12_h5)"
   },
   {
     "question_id": "GNS217_U4_T12_h6_q1",
@@ -165,15 +165,15 @@
     "article_id": "GNS217_U4_T12",
     "topic_id": "GNS217_U4_T12",
     "difficulty": "recall",
-    "question": "What is an 'outlier' on a scatter diagram?",
+    "question": "What is an outlier on a scatter diagram?",
     "options": {
-      "A": "A data point located far away from the main pattern",
-      "B": "The average score calculated for the entire group",
-      "C": "The very first dot plotted on the bottom left corner",
-      "D": "A label written incorrectly on the vertical axis"
+      "A": "The highest value recorded on the vertical axis",
+      "B": "The exact center point where the axes cross",
+      "C": "A data point lying far away from the main cluster",
+      "D": "A line drawn through the middle of the data"
     },
-    "answer": "A",
-    "explanation": "An outlier is just a rebel dot that sits far away from everyone else's general trend. You'll spot them easily! [learn more](GNS217_U4_T12#GNS217_U4_T12_h6)"
+    "answer": "C",
+    "explanation": "Outliers are isolated points that do not follow the general trend of the rest of the dataset. [learn more](GNS217_U4_T12#GNS217_U4_T12_h6)"
   },
   {
     "question_id": "GNS217_U4_T12_h6_q2",
@@ -181,15 +181,15 @@
     "article_id": "GNS217_U4_T12",
     "topic_id": "GNS217_U4_T12",
     "difficulty": "understanding",
-    "question": "What is the best first step when you notice an outlier in your research data?",
+    "question": "How should a researcher initially handle an unexpected outlier in clinical data?",
     "options": {
-      "A": "Ignore it completely because outliers never matter in research",
-      "B": "Investigate it for potential recording errors or unique clinical cases",
-      "C": "Delete the point immediately to make the graph look cleaner",
-      "D": "Change the scale of the axis so the point disappears"
+      "A": "Investigate the point for measurement or entry errors",
+      "B": "Change the scale of the graph to hide it",
+      "C": "Ignore it completely without checking the patient file",
+      "D": "Immediately delete it to improve the graph's appearance"
     },
-    "answer": "B",
-    "explanation": "Always check if it's just a typing mistake, or if it's an exciting, unusual patient case worth noting! Don't just delete data blindly. [learn more](GNS217_U4_T12#GNS217_U4_T12_h6)"
+    "answer": "A",
+    "explanation": "Outliers require investigation to determine if they are genuine clinical variations or simple mistakes before deciding how to handle them. [learn more](GNS217_U4_T12#GNS217_U4_T12_h6)"
   },
   {
     "question_id": "GNS217_U4_T12_h7_q1",
@@ -197,15 +197,15 @@
     "article_id": "GNS217_U4_T12",
     "topic_id": "GNS217_U4_T12",
     "difficulty": "understanding",
-    "question": "Why do you need your nursing clinical judgment when reading a scatter diagram?",
+    "question": "Why is it incorrect to assume causation from a strong scatter diagram correlation?",
     "options": {
-      "A": "To calculate the exact square root of every data point",
-      "B": "To draw the axes without using a ruler or computer",
-      "C": "To eliminate the need for any further statistical tests",
-      "D": "To decide if the visual relationship makes biological sense"
+      "A": "Data points are always randomly generated",
+      "B": "Confounding factors may influence both variables",
+      "C": "Scatter diagrams only display categorical data",
+      "D": "The horizontal axis cannot represent time"
     },
-    "answer": "D",
-    "explanation": "Always ask yourself: does this relationship actually make sense in real healthcare practice, or is it just a random coincidence? [learn more](GNS217_U4_T12#GNS217_U4_T12_h7)"
+    "answer": "B",
+    "explanation": "Correlation shows an association, but external or confounding variables may be responsible for the observed pattern rather than direct cause and effect. [learn more](GNS217_U4_T12#GNS217_U4_T12_h7)"
   },
   {
     "question_id": "GNS217_U4_T12_h7_q2",
@@ -213,14 +213,14 @@
     "article_id": "GNS217_U4_T12",
     "topic_id": "GNS217_U4_T12",
     "difficulty": "application",
-    "question": "Which of these is NOT safe to assume when you see a clear pattern on a scatter diagram?",
+    "question": "A study shows a scatter plot with a positive correlation between patient age and blood pressure. What does this visualization actually demonstrate?",
     "options": {
-      "A": "The data points follow a recognizable trend",
-      "B": "Both variables move together in the same direction",
-      "C": "Variable A definitely caused Variable B to change",
-      "D": "There is a relationship worth investigating further"
+      "A": "Older age is associated with higher blood pressure in this sample",
+      "B": "Aging is the direct physiological cause of hypertension in every patient",
+      "C": "Blood pressure causes patients to age at a faster rate",
+      "D": "The blood pressure cuff used in the study was malfunctioning"
     },
-    "answer": "C",
-    "explanation": "Never assume direct causation just from a picture on a graph. Other hidden factors could be at play! [learn more](GNS217_U4_T12#GNS217_U4_T12_h7)"
+    "answer": "A",
+    "explanation": "Scatter diagrams demonstrate association or correlation between variables, not definitive physiological causation. [learn more](GNS217_U4_T12#GNS217_U4_T12_h7)"
   }
 ]

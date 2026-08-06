@@ -5,15 +5,15 @@
     "article_id": "GNS217_U4_T7",
     "topic_id": "GNS217_U4_T7",
     "difficulty": "recall",
-    "question": "What type of data is best displayed using a bar chart?",
+    "question": "In a bar chart, what does the height of each rectangular bar show?",
     "options": {
-      "A": "Individual patient DNA sequences",
-      "B": "Raw unorganized audio",
-      "C": "Categorical data",
-      "D": "Continuous time data"
+      "A": "The proportional frequency of a category",
+      "B": "The statistical median of continuous variables",
+      "C": "The individual patient identification number",
+      "D": "The chronological time of data collection"
     },
-    "answer": "C",
-    "explanation": "Bar charts are specifically designed to show and compare distinct groups or categories of information. [learn more](GNS217_U4_T7#GNS217_U4_T7_h1)"
+    "answer": "A",
+    "explanation": "Bar charts display categorical data where bar height directly mirrors the frequency or count within that specific category. [learn more](GNS217_U4_T7#GNS217_U4_T7_h1)"
   },
   {
     "question_id": "GNS217_U4_T7_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GNS217_U4_T7",
     "topic_id": "GNS217_U4_T7",
     "difficulty": "understanding",
-    "question": "Why do nurse managers use bar charts instead of long tables of numbers?",
+    "question": "Why are bar charts helpful for presenting nursing research data?",
     "options": {
-      "A": "To permanently replace patient electronic health records",
-      "B": "To hide missing data from hospital inspectors",
-      "C": "To make quick comparisons between different groups easier",
-      "D": "To comply with strict legal prescribing laws"
+      "A": "They eliminate the need for any statistical analysis software",
+      "B": "They show continuous trends over long periods of time",
+      "C": "They clearly compare distinct categories like hospital wards",
+      "D": "They calculate exact p-values for clinical trials automatically"
     },
     "answer": "C",
-    "explanation": "Visual bars let healthcare staff spot differences in workload or patient metrics much faster than reading numbers in a table. [learn more](GNS217_U4_T7#GNS217_U4_T7_h1)"
+    "explanation": "Categorical variables such as ward types or patient demographics fit naturally into the separated bars of a bar chart. [learn more](GNS217_U4_T7#GNS217_U4_T7_h1)"
   },
   {
     "question_id": "GNS217_U4_T7_h2_q1",
@@ -37,15 +37,15 @@
     "article_id": "GNS217_U4_T7",
     "topic_id": "GNS217_U4_T7",
     "difficulty": "recall",
-    "question": "What does the horizontal axis, or X-axis, typically display on a healthcare bar chart?",
+    "question": "What is the purpose of the spaces between bars in a bar chart?",
     "options": {
-      "A": "The numerical frequency or percentage",
-      "B": "The financial cost of hospital supplies",
-      "C": "The distinct categories being compared",
-      "D": "The exact date and time of a study"
+      "A": "To separate different numerical variables",
+      "B": "To show that the data is categorical",
+      "C": "To represent missing clinical observations",
+      "D": "To indicate the passage of calendar time"
     },
-    "answer": "C",
-    "explanation": "The X-axis holds the group labels, such as different hospital wards or types of procedures. [learn more](GNS217_U4_T7#GNS217_U4_T7_h2)"
+    "answer": "B",
+    "explanation": "Unlike histograms where bars touch for continuous data, bar chart gaps visually separate distinct categorical groups. [learn more](GNS217_U4_T7#GNS217_U4_T7_h2)"
   },
   {
     "question_id": "GNS217_U4_T7_h2_q2",
@@ -53,15 +53,15 @@
     "article_id": "GNS217_U4_T7",
     "topic_id": "GNS217_U4_T7",
     "difficulty": "understanding",
-    "question": "What happens if a bar chart's vertical scale doesn't start at zero?",
+    "question": "Which axis usually shows the frequency count in a standard vertical bar chart?",
     "options": {
-      "A": "The categories on the horizontal axis automatically disappear",
-      "B": "The chart becomes a continuous line graph instead",
-      "C": "Small differences between groups can look exaggerated and misleading",
-      "D": "The total number of patients surveyed is cut in half"
+      "A": "The diagonal legend line",
+      "B": "The horizontal X-axis",
+      "C": "The vertical Y-axis",
+      "D": "The perimeter border"
     },
     "answer": "C",
-    "explanation": "Starting a Y-axis above zero can play tricks on the eyes, making tiny gaps look like massive clinical differences. Always check that scale! [learn more](GNS217_U4_T7#GNS217_U4_T7_h2)"
+    "explanation": "The vertical axis establishes the numerical scale so the reader can measure the height of each category. [learn more](GNS217_U4_T7#GNS217_U4_T7_h2)"
   },
   {
     "question_id": "GNS217_U4_T7_h3_q1",
@@ -69,15 +69,15 @@
     "article_id": "GNS217_U4_T7",
     "topic_id": "GNS217_U4_T7",
     "difficulty": "recall",
-    "question": "Which bar chart style places sub-category bars directly on top of each other to show a total?",
+    "question": "Which type of bar chart is best for showing parts of a whole within categories?",
     "options": {
-      "A": "Grouped bar chart",
-      "B": "Stacked bar chart",
-      "C": "Simple bar chart",
-      "D": "Scatter plot chart"
+      "A": "Scatter plot chart",
+      "B": "Simple bar chart",
+      "C": "Stacked bar chart",
+      "D": "Line graph chart"
     },
-    "answer": "B",
-    "explanation": "A stacked bar chart segments a single bar to show both individual parts and the combined total. [learn more](GNS217_U4_T7#GNS217_U4_T7_h3)"
+    "answer": "C",
+    "explanation": "Stacked charts divide each bar into colored segments to illustrate how smaller parts make up the total category. [learn more](GNS217_U4_T7#GNS217_U4_T7_h3)"
   },
   {
     "question_id": "GNS217_U4_T7_h3_q2",
@@ -85,15 +85,15 @@
     "article_id": "GNS217_U4_T7",
     "topic_id": "GNS217_U4_T7",
     "difficulty": "application",
-    "question": "A nurse wants to compare fall rates side by side for morning, afternoon, and night shifts across three different wards. Which chart type fits best?",
+    "question": "A nurse wants to compare malaria treatment outcomes across three clinics, splitting each clinic's total patients by age group using side-by-side bars. What chart type is this?",
     "options": {
-      "A": "Grouped bar chart",
-      "B": "Pie chart",
+      "A": "Histogram chart",
+      "B": "Stacked bar chart",
       "C": "Simple bar chart",
-      "D": "Histogram"
+      "D": "Grouped bar chart"
     },
-    "answer": "A",
-    "explanation": "A grouped bar chart allows multiple distinct bars per category, perfect for comparing shifts across multiple wards. [learn more](GNS217_U4_T7#GNS217_U4_T7_h3)"
+    "answer": "D",
+    "explanation": "Placing separate bars side-by-side within each category allows direct comparison of sub-groups like age categories across clinics. [learn more](GNS217_U4_T7#GNS217_U4_T7_h3)"
   },
   {
     "question_id": "GNS217_U4_T7_h4_q1",
@@ -101,15 +101,15 @@
     "article_id": "GNS217_U4_T7",
     "topic_id": "GNS217_U4_T7",
     "difficulty": "understanding",
-    "question": "When is a line graph preferred over a bar chart in clinical data presentation?",
+    "question": "When should you choose a bar chart instead of a line graph?",
     "options": {
-      "A": "When comparing completely separate hospital departments",
-      "B": "When tracking continuous changes over a period of time",
-      "C": "When counting nominal categories like blood types",
-      "D": "When showing proportions of a whole budget"
+      "A": "When displaying continuous patient temperature changes hourly",
+      "B": "When comparing distinct categories rather than time trends",
+      "C": "When tracking blood pressure fluctuations over a 24-hour period",
+      "D": "When measuring exact body weight changes across weeks"
     },
     "answer": "B",
-    "explanation": "Line graphs are designed for sequential, continuous data like hourly vitals, whereas bar charts show separate categories. [learn more](GNS217_U4_T7#GNS217_U4_T7_h4)"
+    "explanation": "Bar charts display separate groups, whereas line graphs are specifically designed to track continuous progression over time. [learn more](GNS217_U4_T7#GNS217_U4_T7_h4)"
   },
   {
     "question_id": "GNS217_U4_T7_h4_q2",
@@ -117,15 +117,15 @@
     "article_id": "GNS217_U4_T7",
     "topic_id": "GNS217_U4_T7",
     "difficulty": "recall",
-    "question": "Which of the following is NOT a good reason to choose a bar chart?",
+    "question": "Which graph type should you use to display continuous numerical data like age distribution?",
     "options": {
-      "A": "Comparing patient satisfaction scores across four clinics",
-      "B": "Contrasting infection rates between surgical units",
-      "C": "Showing continuous unbroken time progression",
-      "D": "Displaying the number of nurses on duty per ward"
+      "A": "Pictogram",
+      "B": "Bar chart",
+      "C": "Histogram",
+      "D": "Pie chart"
     },
     "answer": "C",
-    "explanation": "Bar charts display discrete categories, not continuous timelines; line graphs are meant for time progression. [learn more](GNS217_U4_T7#GNS217_U4_T7_h4)"
+    "explanation": "Histograms feature touching bars to represent continuous numerical data intervals, unlike the separated bars of a bar chart. [learn more](GNS217_U4_T7#GNS217_U4_T7_h4)"
   },
   {
     "question_id": "GNS217_U4_T7_h5_q1",
@@ -133,15 +133,15 @@
     "article_id": "GNS217_U4_T7",
     "topic_id": "GNS217_U4_T7",
     "difficulty": "recall",
-    "question": "What is the first step a nurse should take when interpreting any clinical bar chart?",
+    "question": "What number should the numerical scale on the Y-axis of a standard bar chart always start at?",
     "options": {
-      "A": "Ignore the numbers and look only at colors",
-      "B": "Redraw the chart on a blank sheet",
-      "C": "Calculate the exact average of all bars",
-      "D": "Read the chart title and axis labels"
+      "A": "One",
+      "B": "Zero",
+      "C": "The median value",
+      "D": "The lowest data value"
     },
-    "answer": "D",
-    "explanation": "Reading the title and labels ensures you understand what variables and units of measurement the chart represents. [learn more](GNS217_U4_T7#GNS217_U4_T7_h5)"
+    "answer": "B",
+    "explanation": "Starting the Y-axis at zero prevents visual distortion of the bar heights and maintains accurate proportional representation. [learn more](GNS217_U4_T7#GNS217_U4_T7_h5)"
   },
   {
     "question_id": "GNS217_U4_T7_h5_q2",
@@ -149,46 +149,78 @@
     "article_id": "GNS217_U4_T7",
     "topic_id": "GNS217_U4_T7",
     "difficulty": "understanding",
-    "question": "What does the tallest bar on a quality improvement chart tracking medication errors signify?",
+    "question": "What is the first step when preparing to draw a bar chart from raw research data?",
     "options": {
-      "A": "The medication that is prescribed most accurately",
-      "B": "The average time it takes to process a prescription",
-      "C": "The safest hospital department in the facility",
-      "D": "The category with the highest number of reported errors"
+      "A": "Organize raw numbers into a frequency table",
+      "B": "Write the detailed conclusion paragraph",
+      "C": "Draw the horizontal baseline axis first",
+      "D": "Choose bright colors for every single bar"
     },
-    "answer": "D",
-    "explanation": "On a frequency bar chart, a taller bar indicates a higher count or greater frequency for that specific category. [learn more](GNS217_U4_T7#GNS217_U4_T7_h5)"
+    "answer": "A",
+    "explanation": "Before drawing any graphics, the raw data must be tallied and structured into clear categories and counts. [learn more](GNS217_U4_T7#GNS217_U4_T7_h5)"
   },
   {
     "question_id": "GNS217_U4_T7_h6_q1",
     "heading_id": "GNS217_U4_T7_h6",
     "article_id": "GNS217_U4_T7",
     "topic_id": "GNS217_U4_T7",
-    "difficulty": "recall",
-    "question": "Why should nurse researchers avoid using 3D visual effects on bar charts?",
+    "difficulty": "understanding",
+    "question": "What happens when you read a bar chart where the Y-axis does not start at zero?",
     "options": {
-      "A": "They take up less memory on hospital computers",
-      "B": "They prevent the X-axis from showing words",
-      "C": "They automatically turn the data into a pie chart",
-      "D": "They can distort the bar heights and mislead the reader"
+      "A": "The total number of patients surveyed becomes impossible to count",
+      "B": "The chart automatically converts into a continuous histogram",
+      "C": "The category names on the horizontal axis disappear entirely",
+      "D": "Small differences between groups can look massively exaggerated"
     },
     "answer": "D",
-    "explanation": "Three-dimensional designs look fancy, but they create optical illusions that make it hard to read the true values. Keep it flat and clear! [learn more](GNS217_U4_T7#GNS217_U4_T7_h6)"
+    "explanation": "Truncating the baseline distorts proportions, making minor numerical variations appear dramatically larger than they actually are. [learn more](GNS217_U4_T7#GNS217_U4_T7_h6)"
   },
   {
     "question_id": "GNS217_U4_T7_h6_q2",
     "heading_id": "GNS217_U4_T7_h6",
     "article_id": "GNS217_U4_T7",
     "topic_id": "GNS217_U4_T7",
-    "difficulty": "understanding",
-    "question": "What is the main danger of leaving clear units of measurement off a bar chart's axis?",
+    "difficulty": "recall",
+    "question": "What part of a bar chart should you look at first to understand its context?",
     "options": {
-      "A": "The hospital will fail to meet basic fire safety codes",
-      "B": "The chart software will crash and delete the saved file",
-      "C": "Patients will refuse to take their prescribed medications",
-      "D": "Readers may misinterpret the data and make poor clinical decisions"
+      "A": "The title and axis labels",
+      "B": "The color of the shortest bar",
+      "C": "The software brand used to draw it",
+      "D": "The blank space around the graph"
     },
-    "answer": "D",
-    "explanation": "Without clear units, nobody can tell if the numbers represent counts, percentages, or money. Always label your axes! [learn more](GNS217_U4_T7#GNS217_U4_T7_h6)"
+    "answer": "A",
+    "explanation": "Titles and labels provide essential background information regarding what data, population, and units are being measured. [learn more](GNS217_U4_T7#GNS217_U4_T7_h6)"
+  },
+  {
+    "question_id": "GNS217_U4_T7_h7_q1",
+    "heading_id": "GNS217_U4_T7_h7",
+    "article_id": "GNS217_U4_T7",
+    "topic_id": "GNS217_U4_T7",
+    "difficulty": "understanding",
+    "question": "Why should a nurse researcher avoid using complex 3D visual effects on a simple bar chart?",
+    "options": {
+      "A": "Three-dimensional charts are strictly illegal in academic journal publications",
+      "B": "Three-dimensional effects can distort data and make values hard to read",
+      "C": "Three-dimensional graphics require specialized mathematical formulas to print",
+      "D": "Three-dimensional bars automatically change the category names"
+    },
+    "answer": "B",
+    "explanation": "Unnecessary 3D shading skews perspective, making it difficult to match bar heights accurately with the vertical axis scale. [learn more](GNS217_U4_T7#GNS217_U4_T7_h7)"
+  },
+  {
+    "question_id": "GNS217_U4_T7_h7_q2",
+    "heading_id": "GNS217_U4_T7_h7",
+    "article_id": "GNS217_U4_T7",
+    "topic_id": "GNS217_U4_T7",
+    "difficulty": "recall",
+    "question": "Which of the following is poor practice when designing a bar chart?",
+    "options": {
+      "A": "Keeping category labels on the horizontal axis clear",
+      "B": "Using inconsistent bar widths for different categories",
+      "C": "Using simple, clean colors for the rectangular bars",
+      "D": "Starting the vertical frequency axis at zero"
+    },
+    "answer": "B",
+    "explanation": "Bar widths must remain uniform so that viewers judge values by height rather than accidentally comparing total area. [learn more](GNS217_U4_T7#GNS217_U4_T7_h7)"
   }
 ]
