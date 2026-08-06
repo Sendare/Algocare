@@ -7,13 +7,13 @@
     "difficulty": "recall",
     "question": "What type of organism causes yellow fever?",
     "options": {
-      "A": "A protozoan",
-      "B": "A bacterium",
-      "C": "A virus",
-      "D": "A fungus"
+      "A": "A bacterium",
+      "B": "A protozoan",
+      "C": "A spirochete",
+      "D": "A flavivirus"
     },
-    "answer": "C",
-    "explanation": "Yellow fever is an acute viral disease caused by a member of the Flaviviridae family. [learn more](GNS214_U1_T9#GNS214_U1_T9_h1)"
+    "answer": "D",
+    "explanation": "Yellow fever is caused by a specific viral agent classified under the genus Flavivirus. [learn more](GNS214_U1_T9#GNS214_U1_T9_h1)"
   },
   {
     "question_id": "GNS214_U1_T9_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GNS214_U1_T9",
     "topic_id": "GNS214_U1_T9",
     "difficulty": "understanding",
-    "question": "Why are yellow fever outbreaks common in tropical places like Nigeria?",
+    "question": "The primary vector for urban transmission of yellow fever is which mosquito species?",
     "options": {
-      "A": "Climatic conditions strongly favor mosquito vector breeding and survival",
-      "B": "The virus spreads directly from person to person through respiratory droplets",
-      "C": "Local water treatment plants fail to kill the virus in drinking supplies",
-      "D": "Wild animals migrate through cities and drop the virus into food markets"
+      "A": "Mansonia africana",
+      "B": "Anopheles gambiae",
+      "C": "Culex quinquefasciatus",
+      "D": "Aedes aegypti"
     },
-    "answer": "A",
-    "explanation": "You got this! Warm, humid weather is just what Aedes mosquitoes love, helping them breed quickly and spread the virus. [learn more](GNS214_U1_T9#GNS214_U1_T9_h1)"
+    "answer": "D",
+    "explanation": "Aedes aegypti is the main mosquito vector responsible for spreading the virus among humans in towns and cities. [learn more](GNS214_U1_T9#GNS214_U1_T9_h1)"
   },
   {
     "question_id": "GNS214_U1_T9_h2_q1",
@@ -37,15 +37,15 @@
     "article_id": "GNS214_U1_T9",
     "topic_id": "GNS214_U1_T9",
     "difficulty": "recall",
-    "question": "Which insect is the main carrier that spreads yellow fever in towns and cities?",
+    "question": "The temporary 24-hour period where fever and symptoms subside is called what?",
     "options": {
-      "A": "Tsetse fly",
-      "B": "Aedes aegypti mosquito",
-      "C": "House fly",
-      "D": "Anopheles mosquito"
+      "A": "Convalescent phase",
+      "B": "Incubation phase",
+      "C": "Intoxication phase",
+      "D": "Remission phase"
     },
-    "answer": "B",
-    "explanation": "Great job! The Aedes aegypti mosquito lives close to human homes, making it the primary villain in spreading urban yellow fever. [learn more](GNS214_U1_T9#GNS214_U1_T9_h2)"
+    "answer": "D",
+    "explanation": "Patients often experience a brief period of improvement before entering the severe intoxication stage. [learn more](GNS214_U1_T9#GNS214_U1_T9_h2)"
   },
   {
     "question_id": "GNS214_U1_T9_h2_q2",
@@ -53,15 +53,15 @@
     "article_id": "GNS214_U1_T9",
     "topic_id": "GNS214_U1_T9",
     "difficulty": "understanding",
-    "question": "How does yellow fever pass from one person to another?",
+    "question": "Organ damage during the severe phase of yellow fever primarily targets which major organ?",
     "options": {
-      "A": "By direct skin contact with the sweat or saliva of a carrier",
-      "B": "By sharing eating utensils or drinking cups with an infected individual",
-      "C": "Through the bite of an infected mosquito that previously bit a sick person",
-      "D": "Through airborne droplets released when a patient coughs or sneezes"
+      "A": "Thyroid",
+      "B": "Liver",
+      "C": "Pancreas",
+      "D": "Lungs"
     },
-    "answer": "C",
-    "explanation": "Spot on! Yellow fever needs a mosquito middleman—you cannot catch it just by touching or breathing near someone who is sick. [learn more](GNS214_U1_T9#GNS214_U1_T9_h2)"
+    "answer": "B",
+    "explanation": "The virus heavily targets hepatic tissue, causing necrosis and leading to jaundice and clotting abnormalities. [learn more](GNS214_U1_T9#GNS214_U1_T9_h2)"
   },
   {
     "question_id": "GNS214_U1_T9_h3_q1",
@@ -69,63 +69,63 @@
     "article_id": "GNS214_U1_T9",
     "topic_id": "GNS214_U1_T9",
     "difficulty": "recall",
-    "question": "What is the name of the middle phase of yellow fever when a patient's early symptoms temporarily disappear?",
+    "question": "Vomiting of dark blood in severe yellow fever is clinically referred to as what?",
     "options": {
-      "A": "Convalescent phase",
-      "B": "Remission phase",
-      "C": "Intoxication phase",
-      "D": "Viremic phase"
+      "A": "Black vomitus",
+      "B": "Biliary reflux",
+      "C": "Melena stool",
+      "D": "Gastric purging"
     },
-    "answer": "B",
-    "explanation": "That's correct! During the remission phase, the patient might feel like they are magically getting better before any severe symptoms hit. [learn more](GNS214_U1_T9#GNS214_U1_T9_h3)"
+    "answer": "A",
+    "explanation": "Gastrointestinal bleeding mixes with stomach acid to produce dark, characteristic vomitus in severe cases. [learn more](GNS214_U1_T9#GNS214_U1_T9_h3)"
   },
   {
     "question_id": "GNS214_U1_T9_h3_q2",
     "heading_id": "GNS214_U1_T9_h3",
     "article_id": "GNS214_U1_T9",
     "topic_id": "GNS214_U1_T9",
-    "difficulty": "understanding",
-    "question": "When a yellow fever patient enters the dangerous intoxication phase, which organs take the hardest hit?",
+    "difficulty": "application",
+    "question": "A patient with yellow fever presents with yellow discoloration of the eyes. This clinical sign is called:",
     "options": {
-      "A": "Skin and joints",
-      "B": "Liver and kidneys",
-      "C": "Lungs and brain",
-      "D": "Heart and pancreas"
+      "A": "Erythema",
+      "B": "Jaundice",
+      "C": "Pallor",
+      "D": "Cyanosis"
     },
     "answer": "B",
-    "explanation": "Well done! This severe stage targets vital internal organs, especially the liver (causing the yellow eyes) and the kidneys. [learn more](GNS214_U1_T9#GNS214_U1_T9_h3)"
+    "explanation": "Jaundice occurs due to hepatic impairment and the subsequent buildup of bilirubin in body tissues. [learn more](GNS214_U1_T9#GNS214_U1_T9_h3)"
   },
   {
     "question_id": "GNS214_U1_T9_h4_q1",
     "heading_id": "GNS214_U1_T9_h4",
     "article_id": "GNS214_U1_T9",
     "topic_id": "GNS214_U1_T9",
-    "difficulty": "recall",
-    "question": "Which classic body sign gives yellow fever its name?",
+    "difficulty": "understanding",
+    "question": "Why is strict fluid intake and output monitoring essential for a yellow fever patient?",
     "options": {
-      "A": "Cyanosis",
-      "B": "Jaundice",
-      "C": "Erythema",
-      "D": "Pallor"
+      "A": "To detect early signs of renal failure",
+      "B": "To prevent peripheral edema formation",
+      "C": "To evaluate the effectiveness of antibiotics",
+      "D": "To calculate daily caloric intake needs"
     },
-    "answer": "B",
-    "explanation": "Exactly! Liver trouble causes jaundice—a yellowing of the skin and eyes—which inspired the illness's name. [learn more](GNS214_U1_T9#GNS214_U1_T9_h4)"
+    "answer": "A",
+    "explanation": "Kidney involvement can lead to decreased urine output, making close fluid balance tracking a priority. [learn more](GNS214_U1_T9#GNS214_U1_T9_h4)"
   },
   {
     "question_id": "GNS214_U1_T9_h4_q2",
     "heading_id": "GNS214_U1_T9_h4",
     "article_id": "GNS214_U1_T9",
     "topic_id": "GNS214_U1_T9",
-    "difficulty": "application",
-    "question": "A patient with yellow fever vomits dark, coffee-ground looking material. What is this classic clinical sign called?",
+    "difficulty": "recall",
+    "question": "Which diagnostic test detects viral RNA or antibodies to confirm yellow fever?",
     "options": {
-      "A": "Melena stool",
-      "B": "Gastric sludge",
-      "C": "Biliary reflux",
-      "D": "Black vomit"
+      "A": "ELISA or PCR",
+      "B": "Urinalysis dipstick",
+      "C": "Sputum culture",
+      "D": "Stool microscopy"
     },
-    "answer": "D",
-    "explanation": "Spot on! Bleeding inside the stomach mixing with digestive acids produces the famous 'black vomit' seen in severe cases. [learn more](GNS214_U1_T9#GNS214_U1_T9_h4)"
+    "answer": "A",
+    "explanation": "Serological and molecular assays are used in laboratories to confirm the presence of the virus. [learn more](GNS214_U1_T9#GNS214_U1_T9_h4)"
   },
   {
     "question_id": "GNS214_U1_T9_h5_q1",
@@ -133,15 +133,15 @@
     "article_id": "GNS214_U1_T9",
     "topic_id": "GNS214_U1_T9",
     "difficulty": "understanding",
-    "question": "What is Faget's sign, a unique finding nurses watch for in yellow fever patients?",
+    "question": "Why are aspirin and ibuprofen avoided when treating pain in yellow fever patients?",
     "options": {
-      "A": "A slow pulse rate despite a high body temperature",
-      "B": "A sudden drop in blood pressure accompanied by rapid breathing",
-      "C": "A high fever that peaks only during evening hours",
-      "D": "An irregular heart rhythm during the remission phase"
+      "A": "They render the vaccine ineffective",
+      "B": "They can worsen the risk of bleeding",
+      "C": "They cause immediate liver necrosis",
+      "D": "They induce severe respiratory arrest"
     },
-    "answer": "A",
-    "explanation": "You nailed it! Usually, fever makes the heart race, but Faget's sign is this quirky mismatch where the pulse stays surprisingly slow even with a high temperature. [learn more](GNS214_U1_T9#GNS214_U1_T9_h5)"
+    "answer": "B",
+    "explanation": "NSAIDs interfere with platelet function and aggravate bleeding complications common in the intoxication phase. [learn more](GNS214_U1_T9#GNS214_U1_T9_h5)"
   },
   {
     "question_id": "GNS214_U1_T9_h5_q2",
@@ -149,110 +149,78 @@
     "article_id": "GNS214_U1_T9",
     "topic_id": "GNS214_U1_T9",
     "difficulty": "recall",
-    "question": "As a nurse caring for a yellow fever patient, which action is most critical to prioritize?",
+    "question": "The primary approach to treating an active yellow fever infection is:",
     "options": {
-      "A": "Administering routine oral iron supplements",
-      "B": "Monitoring strict fluid intake and output",
-      "C": "Encouraging high ambulation in the hallways",
-      "D": "Applying cold water packs to the skin continuously"
+      "A": "Targeted antiviral therapy",
+      "B": "Immediate surgical resection",
+      "C": "High-dose broad antibiotics",
+      "D": "Supportive care"
     },
-    "answer": "B",
-    "explanation": "Brilliant! Because kidney failure can sneak up fast, tracking what goes in and out helps you catch trouble early. [learn more](GNS214_U1_T9#GNS214_U1_T9_h5)"
+    "answer": "D",
+    "explanation": "Medical management relies on supporting organ function since no specific drug cures the virus. [learn more](GNS214_U1_T9#GNS214_U1_T9_h5)"
   },
   {
     "question_id": "GNS214_U1_T9_h6_q1",
     "heading_id": "GNS214_U1_T9_h6",
     "article_id": "GNS214_U1_T9",
     "topic_id": "GNS214_U1_T9",
-    "difficulty": "understanding",
-    "question": "Why must nurses strictly avoid giving aspirin or ibuprofen to a yellow fever patient?",
+    "difficulty": "recall",
+    "question": "How is the yellow fever vaccine typically administered to patients?",
     "options": {
-      "A": "They cause the body temperature to spike dangerously high",
-      "B": "They increase the risk of severe bleeding and hemorrhage",
-      "C": "They destroy remaining healthy cells in the liver and kidneys",
-      "D": "They neutralize the effectiveness of prescribed intravenous fluids"
+      "A": "Subcutaneously",
+      "B": "Intradermally",
+      "C": "Orally",
+      "D": "Intravenously"
     },
-    "answer": "B",
-    "explanation": "That's right! Yellow fever messes with normal blood clotting, and drugs like ibuprofen make bleeding way worse. Always check before giving pain meds! [learn more](GNS214_U1_T9#GNS214_U1_T9_h6)"
+    "answer": "A",
+    "explanation": "The live-attenuated yellow fever vaccine is given as a subcutaneous injection. [learn more](GNS214_U1_T9#GNS214_U1_T9_h6)"
   },
   {
     "question_id": "GNS214_U1_T9_h6_q2",
     "heading_id": "GNS214_U1_T9_h6",
     "article_id": "GNS214_U1_T9",
     "topic_id": "GNS214_U1_T9",
-    "difficulty": "recall",
-    "question": "What is the main focus of medical treatment for someone sick with yellow fever?",
+    "difficulty": "understanding",
+    "question": "Which preventive measure offers long-term protection against yellow fever?",
     "options": {
-      "A": "Providing supportive care to manage symptoms and organ failure",
-      "B": "Giving heavy doses of antibiotics to prevent secondary bacterial infections",
-      "C": "Performing emergency surgery to remove the infected liver tissue",
-      "D": "Administering a specific antiviral drug to destroy the virus quickly"
+      "A": "Receiving the 17D vaccine",
+      "B": "Taking daily prophylactic quinine",
+      "C": "Undergoing vector fumigation weekly",
+      "D": "Using oral rehydration solutions"
     },
     "answer": "A",
-    "explanation": "Correct! Since there's no magic cure pill for the virus yet, treatment is all about supporting the patient's body until they fight it off. [learn more](GNS214_U1_T9#GNS214_U1_T9_h6)"
+    "explanation": "Immunization with the attenuated vaccine provides durable, long-lasting immunity against the disease. [learn more](GNS214_U1_T9#GNS214_U1_T9_h6)"
   },
   {
     "question_id": "GNS214_U1_T9_h7_q1",
     "heading_id": "GNS214_U1_T9_h7",
     "article_id": "GNS214_U1_T9",
     "topic_id": "GNS214_U1_T9",
-    "difficulty": "recall",
-    "question": "At what age do infants in Nigeria routinely receive the yellow fever vaccine?",
+    "difficulty": "understanding",
+    "question": "What is the primary purpose of public health surveillance for yellow fever?",
     "options": {
-      "A": "At nine months of age",
-      "B": "At eighteen months of age",
-      "C": "At six weeks of age",
-      "D": "At birth before discharge"
+      "A": "Assessing individual patient blood types",
+      "B": "Early detection and outbreak containment",
+      "C": "Mapping out mosquito breeding habits only",
+      "D": "Determining the exact cost of treatment"
     },
-    "answer": "A",
-    "explanation": "Spot on! The immunisation schedule gives the yellow fever shot right at nine months, paired with the measles vaccine. [learn more](GNS214_U1_T9#GNS214_U1_T9_h7)"
+    "answer": "B",
+    "explanation": "Surveillance systems allow health authorities to spot cases early and halt widespread transmission. [learn more](GNS214_U1_T9#GNS214_U1_T9_h7)"
   },
   {
     "question_id": "GNS214_U1_T9_h7_q2",
     "heading_id": "GNS214_U1_T9_h7",
     "article_id": "GNS214_U1_T9",
     "topic_id": "GNS214_U1_T9",
-    "difficulty": "understanding",
-    "question": "How soon after getting the yellow fever vaccine does protective immunity usually kick in?",
+    "difficulty": "application",
+    "question": "A community health nurse conducting outreach should prioritize which activity during a potential outbreak?",
     "options": {
-      "A": "After three to six weeks",
-      "B": "Only after a second booster dose",
-      "C": "Within ten days",
-      "D": "Immediately within minutes"
-    },
-    "answer": "C",
-    "explanation": "Great work! The body builds up defenses quickly, giving solid protection within about ten days of getting the jab. [learn more](GNS214_U1_T9#GNS214_U1_T9_h7)"
-  },
-  {
-    "question_id": "GNS214_U1_T9_h8_q1",
-    "heading_id": "GNS214_U1_T9_h8",
-    "article_id": "GNS214_U1_T9",
-    "topic_id": "GNS214_U1_T9",
-    "difficulty": "understanding",
-    "question": "What is the main goal of disease surveillance at local health centers during an outbreak?",
-    "options": {
-      "A": "To treat water supply dams with heavy chemical disinfectants",
-      "B": "To detect suspected cases early and prevent widespread transmission",
-      "C": "To test every healthy citizen in the town for virus antibodies",
-      "D": "To force all community members to stay indoors under quarantine"
+      "A": "Distributing nutritional supplements to adults",
+      "B": "Promoting prompt reporting and mass vaccination",
+      "C": "Providing long-term physical therapy sessions",
+      "D": "Screening all residents for chronic hypertension"
     },
     "answer": "B",
-    "explanation": "Exactly! Spotting sick people early lets healthcare teams jump in fast and stop the outbreak from spreading. [learn more](GNS214_U1_T9#GNS214_U1_T9_h8)"
-  },
-  {
-    "question_id": "GNS214_U1_T9_h8_q2",
-    "heading_id": "GNS214_U1_T9_h8",
-    "article_id": "GNS214_U1_T9",
-    "topic_id": "GNS214_U1_T9",
-    "difficulty": "application",
-    "question": "As a community health nurse, you notice several villagers showing signs of fever and yellow eyes. What is your best immediate action?",
-    "options": {
-      "A": "Report the cluster to local public health authorities for investigation",
-      "B": "Distribute mosquito repellent creams without informing the government",
-      "C": "Advise villagers to wait two weeks to see if symptoms disappear",
-      "D": "Close down all local markets and schools in the affected region"
-    },
-    "answer": "A",
-    "explanation": "You're a star! Always report unusual clusters of disease right away so public health teams can step in and protect the whole community. [learn more](GNS214_U1_T9#GNS214_U1_T9_h8)"
+    "explanation": "Outbreak response focuses on stopping transmission through rapid vaccination and active case reporting. [learn more](GNS214_U1_T9#GNS214_U1_T9_h7)"
   }
 ]
