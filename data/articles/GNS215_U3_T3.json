@@ -11,44 +11,50 @@
     {
       "heading_id": "GNS215_U3_T3_h1",
       "order": 1,
-      "title": "Introduction to the Drug Revolving Fund (DRF)",
-      "content": "The **Drug Revolving Fund (DRF)** is a sustainable financing system introduced in healthcare facilities to ensure a steady, uninterrupted supply of essential medicines. In this model, patients pay for the drugs they receive, and the money generated from these sales is used directly to buy fresh stock. This creates a closed financial cycle that prevents the pharmacy from running completely dry due to bureaucracy or delayed government funding.\n\nHowever, a common misconception is that the DRF is a profit-making venture for the hospital. In reality, it is a **cost-recovery** mechanism designed to maintain capital and inventory levels, not to generate surplus revenue for unrelated hospital projects. When money meant for drug replenishment is diverted to other hospital overheads, the revolving fund collapses, leading to persistent stockouts."
+      "title": "Introduction to the Drug Revolving Fund",
+      "content": "The Drug Revolving Fund is a self-sustaining financing mechanism designed to guarantee continuous availability of essential medicines in healthcare facilities. Seed capital buys an initial stock of drugs. As patients purchase these medications, the revenue generated returns to the fund, creating a pool of money solely dedicated to purchasing replacement stock. This cyclical process prevents stockouts caused by bureaucratic delays in government budget releases. Maintaining the capital base requires strict pricing and revenue discipline. If cash leaks out of the system or drugs are given out on credit without recovery, the fund collapses, and the pharmacy runs dry."
     },
     {
       "heading_id": "GNS215_U3_T3_h2",
       "order": 2,
-      "title": "Cash Flow Management and Revenue Collection",
-      "content": "Effective cash flow management is the lifeblood of any DRF. Money must move smoothly from the patient point of sale to the bank account and finally to the drug suppliers. Hospitals must institute tight security around revenue collection points to prevent cash leakage, theft, or unofficial credit sales.\n\n- **Segregation of duties**: The person who dispenses drugs should ideally not be the same person collecting cash and balancing the daily ledger.\n- **Daily reconciliation**: Cash collected at the pharmacy counter must match the total value of stock dispensed at the end of every single shift.\n- **Formal banking routines**: Cash collections must be deposited into the dedicated DRF bank account promptly, rather than left sitting in a hospital safe for days."
+      "title": "Objectives and Principles of Financial Control",
+      "content": "Financial control in a Drug Revolving Fund protects capital integrity against depletion, theft, and waste. Every naira must be accounted for from the point of sale to the bank deposit. Core principles include segregation of duties, where the person selling the drug is never the same person reconciling the bank account. Transparency ensures that stakeholders can trace transactions without stress. Regular financial monitoring catches discrepancies early before minor shortages become massive deficits that cripple procurement."
     },
     {
       "heading_id": "GNS215_U3_T3_h3",
       "order": 3,
-      "title": "Pricing Strategies and Cost Recovery",
-      "content": "Setting the right price for medications in a DRF requires a delicate balance. Prices must be low enough to remain affordable for the average patient, yet high enough to cover the true landed cost of the drugs, transportation, storage loss, and inflation.\n\n| Cost Element | Description | Impact on Pricing |\n| --- | --- | --- |\n| Cost of Goods | Purchase price paid to the manufacturer or distributor | Base floor price |\n| Operational Margin | Freight, customs, warehousing, and minor wastage | Added percentage |\n| Inflation Buffer | Anticipated price increases for future re-stocking | Safety margin |\n\nIf prices are set too low out of sympathy for patients, the fund will suffer from **depletion of capital** because the revenue collected will no longer buy the same quantity of drugs next time."
+      "title": "Cash Flow Management and Revenue Collection",
+      "content": "Daily cash collections form the lifeblood of the revolving fund. Pharmacies must enforce prompt banking habits, ensuring cash does not sit overnight in unsecured drawers. \n\n- **Direct Banking**: Daily sales revenue goes straight into the dedicated fund bank account.\n- **Point of Sale Machines**: Electronic payments reduce cash handling risks and misplacement.\n- **Receipting**: Every single transaction requires a valid, serially numbered receipt.\n- **Reconciliation**: Daily cash counts must match the total value on issued receipts and POS printouts."
     },
     {
       "heading_id": "GNS215_U3_T3_h4",
       "order": 4,
-      "title": "Inventory Control and Stock Valuation",
-      "content": "Inventory represents tied-up capital. If too much stock sits on shelves, it ties up cash that could be used elsewhere, and risks expiring before use. Conversely, too little stock leads to dangerous stockouts.\n\n- **FIFO (First-In, First-Out)**: Always dispense the oldest stock first to prevent expiration losses.\n- **ABC Analysis**: Categorize inventory by value. Group A items are high-cost drugs that need strict monitoring; Group C items are cheap, high-volume supplies.\n- **Periodic Stock Valuation**: Calculate the total monetary value of all drugs in the pharmacy regularly to track assets accurately."
+      "title": "Pricing Strategies and Cost Recovery",
+      "content": "Setting the right price determines whether the fund grows or dies. Prices must cover the basic procurement cost, shipping, storage losses, and a small inflation buffer to ensure future purchasing power. Underpricing guarantees capital erosion because the revenue from selling a drug will not buy the same quantity next time. Overpricing defeats the public health goal by making essential medicines unaffordable for vulnerable patients."
     },
     {
       "heading_id": "GNS215_U3_T3_h5",
       "order": 5,
-      "title": "Financial Transparency and Procurement",
-      "content": "Procurement is where a large chunk of DRF money leaves the facility. Without transparent processes, funds are easily lost to inflated prices, substandard drugs, or kickbacks. Transparent procurement protects the integrity of the health system and ensures value for money.\n\nFacilities must use competitive bidding processes where multiple reputable vendors submit price quotations. A tender committee should evaluate these bids based on quality, price, and reliability of delivery. Furthermore, purchase orders, delivery notes, and invoices must always be cross-checked against physical goods received before any payment is approved."
+      "title": "Inventory Control and Stock Valuation",
+      "content": "Inventory represents tied-up capital. Poor stock management leads to dead stock, expiration, and theft, which directly drains financial resources. \n\n| Valuation Method | Description | Financial Implication |\n| --- | --- | --- |\n| FIFO | First-In, First-Out | Sells older stock first, preventing expiry loss |\n| Weighted Average | Blends costs of old and new stock | Smooths out price fluctuations |\n\nPharmacy staff must conduct periodic physical stock counts to reconcile physical items with stock ledger balances."
     },
     {
       "heading_id": "GNS215_U3_T3_h6",
       "order": 6,
-      "title": "Auditing and Record Keeping",
-      "content": "Good financial controls mean little if they cannot be proven through accurate records. Every transaction—from a patient purchase to a bulk supplier payment—must leave a clear paper or digital trail.\n\nInternal and external audits serve as safeguards to detect discrepancies, discourage fraud, and verify that the DRF is solvent. Auditors examine stock ledgers, receipt books, bank statements, and prescription logs. When records are missing or poorly kept, it becomes impossible to tell whether money is simply missing or has been mismanaged."
+      "title": "Procurement and Financial Transparency",
+      "content": "Procurement is where the largest chunks of fund capital leave the facility. Open, competitive bidding prevents collusion and ensures the facility gets quality drugs at the best market rates. Transparency requires multiple price quotations from accredited manufacturers or distributors before placing orders. Inflated purchase invoices or single-source buying without justification creates avenues for corruption and drains the revolving fund."
     },
     {
       "heading_id": "GNS215_U3_T3_h7",
       "order": 7,
-      "title": "Mitigating Common DRF Financial Challenges",
-      "content": "Even with good structures in place, DRFs face persistent threats. Understanding these challenges helps healthcare managers apply practical solutions before the fund collapses.\n\n- **Credit sales and unpaid bills**: Allowing staff or patients to collect drugs on credit drains the fund. Mitigation: Enforce a strict cash-and-carry policy.\n- **Theft and pilferage**: Loss of drugs directly shrinks capital. Mitigation: Install CCTV, restrict store access, and conduct surprise stock checks.\n- **Bureaucratic delays**: Slow approval processes stall re-stocking. Mitigation: Delegate financial approval limits to trusted local fund managers."
+      "title": "Auditing and Record Keeping",
+      "content": "Accurate accounting provides the evidence trail needed for financial accountability. Stock cards, cash books, receipt booklets, and ledger accounts must be updated daily. Internal and external audits review these documents to catch errors, discrepancies, or fraudulent activities. Regular auditing reassures management and funding bodies that the revolving fund operates with integrity and remains capable of sustaining drug supplies."
+    },
+    {
+      "heading_id": "GNS215_U3_T3_h8",
+      "order": 8,
+      "title": "Common Challenges and Mitigation",
+      "content": "Drug Revolving Funds face recurring pressures that threaten sustainability. Credit sales to influential personnel or patients often turn into bad debts that never return. Inflation devalues cash reserves faster than prices can be adjusted. Mitigation strategies include enforcing a strict cash-and-carry policy with zero tolerance for credit, automating inventory systems to minimize human error, and reviewing pricing structures periodically to match prevailing market realities."
     }
   ]
 }
