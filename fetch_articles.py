@@ -76,7 +76,7 @@ Avoid unnecessary technical/Latin vocabulary beyond terms already used and \
 explained in the article content itself. Avoid convoluted comparative \
 phrasing like "Why is X considered Y rather than Z" - prefer short, concrete \
 phrasing. \
-questions should be 6-12 words average, max 20
+questions should be 9-15 words average, max 20
 
 Examples of rewriting an overly academic question into an appropriately \
 
@@ -109,15 +109,16 @@ others - that's a giveaway.
 one of the 4 strings in "options" above - not a letter, not a paraphrase, the \
 literal matching text. This is verified programmatically, so it must match \
 one option exactly.
-- "explanation": 1-3 sentences, plain student-friendly language, explaining WHY \
+- "explanation": 1-3 sentences, explaining WHY \
 that answer is correct (not just restating it). Do not refer to option \
 letters (A/B/C/D) anywhere in the explanation - letters don't exist yet at \
 generation time and are assigned after. Don't say something like "boom you nailed \
 it" "not quite," "you are doing great" as the explanation doesn't know whether the \
-user gets the answer right or wrong. so stay neutral(focus on explanation, no hype. \
- End every explanation with exactly \
-this literal token on its own, nothing after it: [[LEARN_MORE]]
-  Do not write an actual link yourself - the token is replaced programmatically.
+user gets the answer right or wrong. Dont say something like "you have got this", \
+so stay neutral (focus on explanation, no hype or addition outside the explanation. \
+ End every explanation with exactly this literal token on its own, nothing after it: \
+ [[LEARN_MORE]]  Do not write an actual link yourself - the token is replaced programmatically. \
+
 
 Return ONLY valid JSON, no markdown fences, no commentary, in exactly this \
 schema:
@@ -520,3 +521,4 @@ def run():
 
 if __name__ == "__main__":
     run()
+
