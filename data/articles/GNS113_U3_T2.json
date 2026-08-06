@@ -11,49 +11,37 @@
       "heading_id": "GNS113_U3_T2_h1",
       "order": 1,
       "title": "Introduction to Human-Computer Interaction in Nursing",
-      "content": "Human-Computer Interaction (HCI) examines how people interact with computers and technology. In nursing, HCI focuses on how clinical staff use digital tools like Electronic Health Records (EHRs), smart infusion pumps, and mobile monitoring devices. Good HCI design ensures these systems support patient care safely and efficiently without adding unnecessary administrative burden."
+      "content": "Human-Computer Interaction (HCI) examines how people communicate with computer systems. In modern Nigerian healthcare settings, nurses interact constantly with technology, from desktop electronic health records in tertiary teaching hospitals to mobile health applications used during community outreach. HCI principles ensure these digital tools support clinical workflows rather than disrupt them. When software design aligns with human capabilities, documentation time decreases and direct patient care increases. Poor design forces nurses to spend mental energy navigating clunky menus instead of assessing patients."
     },
     {
       "heading_id": "GNS113_U3_T2_h2",
       "order": 2,
       "title": "Core Principles of Usability and User-Centered Design",
-      "content": "User-centered design puts the clinical end-user at the center of software development. Usability relies on several practical dimensions:\n- **Learnability**: How fast a new nurse can figure out basic system functions.\n- **Efficiency**: The speed with which routine tasks, like charting vital signs, can be completed.\n- **Error tolerance**: How well the system prevents mistakes and helps recover from accidental entries.\n- **Satisfaction**: The overall comfort and subjective ease experienced by the user."
+      "content": "User-centered design places the clinician and patient at the center of software development. Usability measures how effectively, efficiently, and satisfactorily a user achieves specific goals with a tool.\n\n- **Visibility**: System status should always be clear, showing users what is happening through feedback.\n- **Match**: The software should speak the user's language, using familiar clinical terms rather than computer jargon.\n- **Consistency**: Similar actions should yield similar results across different screens to prevent confusion."
     },
     {
       "heading_id": "GNS113_U3_T2_h3",
       "order": 3,
       "title": "Types of Interfaces in Healthcare Technology",
-      "content": "Healthcare technology uses diverse interfaces depending on the clinical environment. Desktop computers remain standard for stationary nursing stations and detailed documentation. Tablets and smartphones offer mobile access for bedside charting and quick medication scans. Specialized hardware interfaces, such as the touchscreens on smart infusion pumps or patient monitors, require distinct ergonomic considerations to prevent misprogramming."
+      "content": "Healthcare technology utilizes various interface types depending on the clinical environment. Desktop interfaces dominate nurses' stations, offering large screens for detailed charting. Mobile interfaces on smartphones or tablets allow bedside vital sign entry during ward rounds. Voice-activated interfaces are emerging for hands-free documentation during sterile procedures or emergencies. Touchscreens provide rapid input options but require careful layout design to prevent accidental fat-finger errors in busy emergency units."
     },
     {
       "heading_id": "GNS113_U3_T2_h4",
       "order": 4,
       "title": "Cognitive Load and Information Processing in Clinical Workflows",
-      "content": "Clinical environments are loud, fast-paced, and full of interruptions. Nurses operate under heavy cognitive load, juggling multiple patients and complex physiological data. Poorly organized software interfaces worsen this burden by burying vital alerts inside deep menu sub-folders or displaying cluttered text. Effective HCI reduces cognitive strain by presenting only essential data at the right time, minimizing the need for mental translation."
+      "content": "Clinical environments are high-stress settings where nurses juggle multiple tasks simultaneously. Cognitive load refers to the total amount of mental effort being used in the working memory. When electronic health records present cluttered screens with excessive flashing alerts, cognitive overload occurs. This overload leads to missed vital signs, delayed medication administration, and clinical errors. Good interface design minimizes extraneous mental processing, allowing nurses to focus on critical clinical decision-making."
     },
     {
       "heading_id": "GNS113_U3_T2_h5",
       "order": 5,
-      "title": "Evaluating Electronic Health Record Interfaces",
-      "content": "Evaluating Electronic Health Records (EHRs) requires observing real nurses doing real work. Methods include usability lab testing, time-motion studies, and standardized questionnaires like the System Usability Scale (SUS). These evaluations reveal hidden friction points, such as excessive mouse clicks required to administer a single medication or confusing drop-down menus that delay shift handovers."
+      "title": "Common Usability Barriers and Error Prevention",
+      "content": "Poorly designed software often creates preventable barriers in clinical practice. Common issues include deep menu nesting, poor color contrast, and ambiguous error messages. For example, an error message that simply reads \"Error 404: Invalid Input\" offers no guidance to a nurse trying to record a drug dosage. Error prevention features such as forced confirmation fields for high-risk medications and clear validation checks help protect patients from adverse events."
     },
     {
       "heading_id": "GNS113_U3_T2_h6",
       "order": 6,
-      "title": "Common Usability Barriers and Error Prevention",
-      "content": "Flawed interface design frequently contributes to medical errors. Common barriers include ambiguous icons, lack of confirmation prompts for destructive actions like deleting notes, and copy-paste features that perpetuate outdated clinical information. System designers prevent these errors by enforcing mandatory fields for safety checks, using clear warning colors, and ensuring distinct separation between patient files."
-    },
-    {
-      "heading_id": "GNS113_U3_T2_h7",
-      "order": 7,
       "title": "The Role of Nurses in HCI Design and Feedback",
-      "content": "Nurses are the primary users of clinical software, making their input essential during every phase of technology development. Too often, software is purchased by administration without frontline consultation, leading to frustrating workflows. Nurses contribute by participating in pilot testing, joining informatics committees, and submitting structured error logs when software defects impede safe patient care."
-    },
-    {
-      "heading_id": "GNS113_U3_T2_h8",
-      "order": 8,
-      "title": "Future Trends: Emerging Interfaces in Nursing Informatics",
-      "content": "Healthcare technology continues to evolve beyond traditional mouse-and-keyboard setups. Voice-recognition tools allow nurses to dictate notes hands-free during assessments. Wearable sensors stream real-time vital signs directly into patient charts. Augmented reality and heads-up displays offer potential for viewing patient data while performing bedside procedures, promising more natural and continuous interaction."
+      "content": "Nurses are the primary end-users of most hospital software, making their input essential during the design phase. Software developed by engineers without clinical consultation often fails in real-world hospital wards. Nurses must participate in usability testing, workflow walkthroughs, and post-implementation reviews. Providing structured feedback helps software developers fix frustrating interface bugs and tailor digital tools to actual patient care needs."
     }
   ]
 }

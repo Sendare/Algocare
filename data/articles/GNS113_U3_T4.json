@@ -10,44 +10,44 @@
     {
       "heading_id": "GNS113_U3_T4_h1",
       "order": 1,
-      "title": "Introduction to Health Information Systems in Nursing",
-      "content": "Health information technology has transformed how nursing care is documented, communicated, and evaluated across healthcare facilities in Nigeria. An **information system** is a structured combination of hardware, software, data, and people designed to collect, process, and distribute information. In clinical practice, these systems replace bulky paper records with digital platforms that streamline workflow.\n\nNurses interact with these technologies daily during admission assessments, shift handovers, and care planning. The primary goal is to provide accurate, real-time patient data to every member of the healthcare team, reducing errors caused by illegible handwriting or delayed communication."
+      "title": "Introduction to Information Systems in Nursing",
+      "content": "Nursing informatics merges nursing science, computer science, and information science to manage and communicate data, information, knowledge, and wisdom in nursing practice. **Health information systems (HIS)** streamline workflow, reduce documentation errors, and support evidence-based decisions at the bedside. In Nigerian clinical settings, transitioning from paper-based record-keeping to digital platforms improves continuity of care across various hospital departments. Nurses interact daily with these systems to input vital signs, track medication administration, and review multidisciplinary notes."
     },
     {
       "heading_id": "GNS113_U3_T4_h2",
       "order": 2,
       "title": "Core Components of Electronic Health Records",
-      "content": "The **Electronic Health Record (EHR)** serves as the digital repository for a patient's comprehensive medical history. Unlike paper charts stored in a single ward, EHRs can be accessed simultaneously by authorized clinicians across different departments.\n\n- **Demographics**: Patient personal details, residential address, next of kin, and emergency contacts.\n- **Clinical Notes**: Nursing assessments, medical progress notes, and multidisciplinary care plans.\n- **Laboratory Results**: Blood tests, urinalysis, and microbiology reports linked directly to the patient profile.\n- **Medication Profiles**: Active prescriptions, historical drug therapy, and documented allergies."
+      "content": "An **Electronic Health Record (EHR)** serves as the digital repository for a client's comprehensive health history. Unlike isolated departmental systems, an EHR aggregates data from laboratory results, radiology reports, nursing flowsheets, and physician orders into a unified dashboard. \n\n- **Demographics**: Basic patient identification, emergency contacts, and residential details.\n- **Clinical Notes**: Structured and unstructured entries detailing ongoing patient assessments.\n- **Diagnostic Reports**: Digital imaging scans, pathology results, and laboratory values.\n- **Medication Profiles**: Active prescriptions, past drug reactions, and administration logs."
     },
     {
       "heading_id": "GNS113_U3_T4_h3",
       "order": 3,
       "title": "Clinical Decision Support Systems in Practice",
-      "content": "A **Clinical Decision Support System (CDSS)** acts as an intelligent assistant embedded within health technology. It analyses current patient data against established clinical rules and guidelines to provide prompts, alerts, and evidence-based recommendations.\n\nCommon CDSS features include allergy alerts that warn a nurse if a prescribed drug conflicts with a documented hypersensitivity, dosage range checks, and preventative care reminders. While these tools enhance safety, they do not replace clinical judgment; the nurse must always evaluate the recommendation in the context of the patient's actual condition."
+      "content": "A **Clinical Decision Support System (CDSS)** acts as an intelligent assistant embedded within health technology. It analyzes current patient data against a knowledge base to generate targeted alerts, reminders, and clinical guidelines. For instance, when a nurse attempts to administer a prescribed drug, the system checks for known allergies and flags potential adverse interactions. \n\nA common misconception is that a CDSS makes final medical or nursing decisions; however, it only provides recommendations while the human clinician retains ultimate responsibility for patient care."
     },
     {
       "heading_id": "GNS113_U3_T4_h4",
       "order": 4,
       "title": "Enhancing Patient Safety and Medication Administration",
-      "content": "Medication administration errors represent a major risk in acute care settings. Technology introduces safeguards known as **Closed-Loop Medication Administration (CLMA)**.\n\n1. **Barcoding Technology**: Nurses scan the patient's identification band and the medication barcode to verify the 'five rights' of administration.\n2. **Smart Infusion Pumps**: These pumps contain dose error reduction systems that prevent out-of-range programming for intravenous medications.\n3. **Computerized Provider Order Entry (CPOE)**: Eliminates transcription errors caused by misreading handwritten prescriptions."
+      "content": "Technology significantly minimizes medication errors through automated safety checks. **Bar Code Medication Administration (BCMA)** requires the nurse to scan the patient's identification band and the medication barcode before delivery. This closed-loop process verifies the five rights of medication administration: right patient, right drug, right dose, right route, and right time. Additionally, **Smart Infusion Pumps** feature built-in dose error reduction systems that prevent accidental programming of lethal medication dosages."
     },
     {
       "heading_id": "GNS113_U3_T4_h5",
       "order": 5,
       "title": "Telehealth and Remote Patient Monitoring Applications",
-      "content": "Geographic barriers often limit healthcare access in many regions. **Telehealth** bridges this gap by using telecommunications technology to deliver clinical services, education, and consultations at a distance.\n\n**Remote Patient Monitoring (RPM)** involves collecting physiological data, such as blood pressure or blood glucose, from patients in their homes and transmitting it securely to healthcare providers. Nurses play a vital role in reviewing this incoming data, trending chronic conditions early, and contacting patients when readings fall outside safe parameters."
+      "content": "Telehealth bridges geographic gaps, allowing healthcare providers to consult, diagnose, and monitor patients remotely. **Remote Patient Monitoring (RPM)** utilizes digital tools like wearable blood pressure cuffs, glucometers, and pulse oximeters to transmit biometric data from patients' homes directly to clinical facilities. In rural Nigerian communities, telehealth initiatives allow nurses and community health extension workers to consult with specialists in urban teaching hospitals without requiring expensive patient travel."
     },
     {
       "heading_id": "GNS113_U3_T4_h6",
       "order": 6,
       "title": "Data Security, Privacy, and Ethical Considerations",
-      "content": "As health systems digitize, protecting patient information becomes a primary ethical and legal obligation. Patient data is highly sensitive, and unauthorized disclosure violates confidentiality and trust.\n\nClinicians must adhere to strict security protocols, including using unique password logins, never sharing access credentials, logging off workstations when leaving the area, and avoiding discussing patient details on open social media platforms. Breaches not only damage the hospital's reputation but can also lead to legal penalties and compromised patient safety."
+      "content": "Protecting patient health information is a fundamental ethical and legal duty for every nurse. Electronic systems store highly sensitive data that must be guarded against unauthorized access, breaches, and cyber threats. Measures like role-based access control ensure staff only view records relevant to their specific duties. Furthermore, nurses must never share their personal login credentials or leave active patient computer terminals unattended in public clinical areas."
     },
     {
       "heading_id": "GNS113_U3_T4_h7",
       "order": 7,
       "title": "Overcoming Challenges in Health Information Technology Adoption",
-      "content": "Implementing new technology in clinical settings rarely happens without friction. Common hurdles include **technophobia** among older staff, unstable power supply, poor internet connectivity, and poorly designed software interfaces that disrupt workflow.\n\nSuccessful adoption requires comprehensive training programs, continuous technical support, and involving frontline nurses in selecting and designing software tools. When nurses feel confident and supported, resistance decreases and patient care outcomes improve."
+      "content": "Implementing new technology in clinical environments often encounters resistance from staff accustomed to traditional paper routines. Technical hurdles, such as unstable internet connectivity, erratic electrical power supply, and complex software interfaces, frequently disrupt workflow. Successful adoption requires comprehensive staff training, continuous technical support, and involving frontline nurses in selecting and designing the digital tools they will use every day."
     }
   ]
 }

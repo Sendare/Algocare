@@ -5,15 +5,15 @@
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
     "difficulty": "recall",
-    "question": "What do we call raw, unorganized facts and figures that have no context yet?",
+    "question": "What best describes raw, uninterpreted facts collected in clinical practice?",
     "options": {
-      "A": "Data",
-      "B": "Information",
-      "C": "Wisdom",
-      "D": "Knowledge"
+      "A": "Processed knowledge",
+      "B": "Synthesized wisdom",
+      "C": "Clinical information",
+      "D": "Raw health data"
     },
-    "answer": "A",
-    "explanation": "Think of data as the raw building blocks—like a single temperature reading of 38.5°C before anyone figures out what it means for the patient. [learn more](GNS113_U2_T7#GNS113_U2_T7_h1)"
+    "answer": "D",
+    "explanation": "Data consists of uninterpreted facts and figures before they are given context or meaning. [learn more](GNS113_U2_T7#GNS113_U2_T7_h1)"
   },
   {
     "question_id": "GNS113_U2_T7_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
     "difficulty": "understanding",
-    "question": "A nurse checks a patient's temperature readings over three days to spot a fever pattern. What level of the data hierarchy is this?",
+    "question": "A nurse reviews a patient's temperature of 39.2 degrees Celsius and identifies it as a fever. This process demonstrates the conversion of data into what level?",
     "options": {
-      "A": "Data",
-      "B": "Wisdom",
-      "C": "Knowledge",
-      "D": "Information"
+      "A": "Algorithm",
+      "B": "Hardware",
+      "C": "Information",
+      "D": "Database"
     },
-    "answer": "D",
-    "explanation": "Spotting a pattern turns raw numbers into meaningful information that helps you understand what is happening to the patient. [learn more](GNS113_U2_T7#GNS113_U2_T7_h1)"
+    "answer": "C",
+    "explanation": "Giving context to raw numbers turns them into meaningful information that guides clinical thinking. [learn more](GNS113_U2_T7#GNS113_U2_T7_h1)"
   },
   {
     "question_id": "GNS113_U2_T7_h2_q1",
@@ -37,31 +37,31 @@
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
     "difficulty": "recall",
-    "question": "Which data quality rule means making sure no necessary fields are left blank in a patient's record?",
+    "question": "A data quality dimension that ensures all required fields in a patient chart are filled is known as what?",
     "options": {
-      "A": "Validity",
-      "B": "Timeliness",
-      "C": "Completeness",
-      "D": "Accuracy"
+      "A": "Consistency",
+      "B": "Validity",
+      "C": "Timeliness",
+      "D": "Completeness"
     },
-    "answer": "C",
-    "explanation": "Completeness simply means filling in all the blanks so nothing important is missed when the next shift takes over. [learn more](GNS113_U2_T7#GNS113_U2_T7_h2)"
+    "answer": "D",
+    "explanation": "Completeness requires that no essential clinical details or required fields are left blank in the record. [learn more](GNS113_U2_T7#GNS113_U2_T7_h2)"
   },
   {
     "question_id": "GNS113_U2_T7_h2_q2",
     "heading_id": "GNS113_U2_T7_h2",
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
-    "difficulty": "understanding",
-    "question": "A nurse documents vital signs hours after taking them. Which data quality rule does this break?",
+    "difficulty": "application",
+    "question": "A nurse documents a patient's blood pressure as 120/80 mmHg immediately after measurement. Which data quality principle is primarily demonstrated here?",
     "options": {
-      "A": "Timeliness",
-      "B": "Validity",
-      "C": "Consistency",
-      "D": "Accuracy"
+      "A": "Anonymity",
+      "B": "Timeliness",
+      "C": "Redundancy",
+      "D": "Subjectivity"
     },
-    "answer": "A",
-    "explanation": "Timeliness means charting things when they happen so the care team always has up-to-date facts. [learn more](GNS113_U2_T7#GNS113_U2_T7_h2)"
+    "answer": "B",
+    "explanation": "Recording observations immediately ensures that information is available in a timely manner for clinical decisions. [learn more](GNS113_U2_T7#GNS113_U2_T7_h2)"
   },
   {
     "question_id": "GNS113_U2_T7_h3_q1",
@@ -69,15 +69,15 @@
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
     "difficulty": "recall",
-    "question": "What is a common cause of electronic medication errors in the hospital?",
+    "question": "What is a frequent cause of fragmented patient history in electronic health systems?",
     "options": {
-      "A": "Verifying entries with a senior nurse",
-      "B": "Entering vital signs right away",
-      "C": "Using standard medical terms",
-      "D": "Charting under the wrong patient profile"
+      "A": "Duplicate patient charts",
+      "B": "Real-time vital sync",
+      "C": "Immediate data entry",
+      "D": "Standardized vocabulary use"
     },
-    "answer": "D",
-    "explanation": "Always double-check the patient's name and ID on the screen before saving notes or medications to avoid giving care to the wrong person! [learn more](GNS113_U2_T7#GNS113_U2_T7_h3)"
+    "answer": "A",
+    "explanation": "Creating duplicate charts splits a single patient's health information across multiple profiles, causing fragmentation. [learn more](GNS113_U2_T7#GNS113_U2_T7_h3)"
   },
   {
     "question_id": "GNS113_U2_T7_h3_q2",
@@ -85,15 +85,15 @@
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
     "difficulty": "understanding",
-    "question": "Why is delayed charting so dangerous for patient safety on the ward?",
+    "question": "How do documentation errors directly affect patient safety in clinical practice?",
     "options": {
-      "A": "It increases the hospital bill",
-      "B": "It automatically deletes old records",
-      "C": "It forces oncoming staff to make decisions based on outdated information",
-      "D": "It stops nurses from taking breaks"
+      "A": "They lead to incorrect medication dosages and missed allergies",
+      "B": "They eliminate the need for physical bedside assessments",
+      "C": "They increase the speed of interprofessional shift handovers",
+      "D": "They automatically upgrade hospital accreditation status"
     },
-    "answer": "C",
-    "explanation": "If you don't chart it, the next nurse flying blind won't know what medications or treatments were just given. [learn more](GNS113_U2_T7#GNS113_U2_T7_h3)"
+    "answer": "A",
+    "explanation": "Inaccurate records mislead healthcare providers, increasing the risk of medication errors and unmanaged patient allergies. [learn more](GNS113_U2_T7#GNS113_U2_T7_h3)"
   },
   {
     "question_id": "GNS113_U2_T7_h4_q1",
@@ -101,15 +101,15 @@
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
     "difficulty": "recall",
-    "question": "Which computer feature helps stop typing mistakes by giving you a set list of choices to click?",
+    "question": "A software feature that rejects an impossible vital sign entry is an example of which validation method?",
     "options": {
-      "A": "Paper charts",
-      "B": "Drop-down menus",
-      "C": "Manual typing",
-      "D": "Free text boxes"
+      "A": "Manual audit",
+      "B": "Peer debriefing",
+      "C": "Data encryption",
+      "D": "Range check"
     },
-    "answer": "B",
-    "explanation": "Drop-down lists keep everyone using the same spelling and terms, saving time and preventing typos. [learn more](GNS113_U2_T7#GNS113_U2_T7_h4)"
+    "answer": "D",
+    "explanation": "Range checks set upper and lower limits in software to flag or block data that falls outside realistic biological parameters. [learn more](GNS113_U2_T7#GNS113_U2_T7_h4)"
   },
   {
     "question_id": "GNS113_U2_T7_h4_q2",
@@ -117,15 +117,15 @@
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
     "difficulty": "understanding",
-    "question": "How do real-time computer alerts help protect patients from harm?",
+    "question": "Why is the read-back technique important when receiving telephone or verbal clinical orders?",
     "options": {
-      "A": "By prescribing drugs automatically",
-      "B": "By hiding previous clinical notes",
-      "C": "By alerting the nurse when an entered value falls outside normal limits",
-      "D": "By locking the computer until a doctor arrives"
+      "A": "It prevents misinterpretation of critical clinical instructions",
+      "B": "It speeds up the hospital electronic billing process",
+      "C": "It automatically updates the national health database",
+      "D": "It replaces the need for a written patient consent form"
     },
-    "answer": "C",
-    "explanation": "Pop-up alerts act like a safety net, warning you immediately if a lab result or vital sign is dangerously high or low. [learn more](GNS113_U2_T7#GNS113_U2_T7_h4)"
+    "answer": "A",
+    "explanation": "Repeating orders aloud gives the sender a chance to correct misunderstandings immediately before entry. [learn more](GNS113_U2_T7#GNS113_U2_T7_h4)"
   },
   {
     "question_id": "GNS113_U2_T7_h5_q1",
@@ -133,15 +133,15 @@
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
     "difficulty": "recall",
-    "question": "What is the main goal of healthcare interoperability standards?",
+    "question": "What is the primary purpose of standardized nursing terminologies like NANDA-I in electronic health records?",
     "options": {
-      "A": "Allowing different software systems to exchange clinical information seamlessly",
-      "B": "Replacing computers with paper notebooks",
-      "C": "Lowering the price of drugs",
-      "D": "Cutting down the number of nurses on duty"
+      "A": "To ensure universal understanding of care plans",
+      "B": "To calculate daily hospital utility expenses",
+      "C": "To encrypt patient files against cyber threats",
+      "D": "To bypass regulatory legal documentation laws"
     },
     "answer": "A",
-    "explanation": "Interoperability just means different hospital computer programs can talk to each other without losing patient data. [learn more](GNS113_U2_T7#GNS113_U2_T7_h5)"
+    "explanation": "Standardized terminologies use common definitions so nurses everywhere interpret patient problems and interventions identically. [learn more](GNS113_U2_T7#GNS113_U2_T7_h5)"
   },
   {
     "question_id": "GNS113_U2_T7_h5_q2",
@@ -149,15 +149,15 @@
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
     "difficulty": "understanding",
-    "question": "Why do nurses use standardized nursing language like NANDA-I in electronic charts?",
+    "question": "How do interoperability frameworks like HL7 and FHIR benefit modern healthcare delivery?",
     "options": {
-      "A": "To replace doctor's notes",
-      "B": "To make records invisible to management",
-      "C": "To ensure clear and uniform communication of patient care needs across teams",
-      "D": "To make typing faster"
+      "A": "They automatically generate mandatory legal court documents",
+      "B": "They restrict patient access to personal electronic health records",
+      "C": "They enable smooth exchange of health data between different software systems",
+      "D": "They replace the need for physical bedside nursing assessments"
     },
     "answer": "C",
-    "explanation": "Using standard terms means every nurse and health worker understands the patient's care plan the exact same way. [learn more](GNS113_U2_T7#GNS113_U2_T7_h5)"
+    "explanation": "Interoperability standards bridge gaps between different software vendors, allowing complete health histories to follow patients. [learn more](GNS113_U2_T7#GNS113_U2_T7_h5)"
   },
   {
     "question_id": "GNS113_U2_T7_h6_q1",
@@ -165,31 +165,31 @@
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
     "difficulty": "recall",
-    "question": "Which ethical principle are you respecting when you keep a patient's medical details strictly private?",
+    "question": "What ethical principle serves as the foundation for protecting patient health information in clinical practice?",
     "options": {
-      "A": "Autonomy",
-      "B": "Utilitarianism",
-      "C": "Maleficence",
-      "D": "Paternalism"
+      "A": "Veracity",
+      "B": "Beneficence",
+      "C": "Confidentiality",
+      "D": "Autonomy"
     },
-    "answer": "A",
-    "explanation": "Autonomy is about respecting the patient's right to control their own life and private information. [learn more](GNS113_U2_T7#GNS113_U2_T7_h6)"
+    "answer": "C",
+    "explanation": "Confidentiality obligates healthcare providers to protect private patient data from unauthorized disclosure. [learn more](GNS113_U2_T7#GNS113_U2_T7_h6)"
   },
   {
     "question_id": "GNS113_U2_T7_h6_q2",
     "heading_id": "GNS113_U2_T7_h6",
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
-    "difficulty": "understanding",
-    "question": "A nurse talks about a patient's diagnosis loudly in the hospital hallway where visitors can hear. What has been broken?",
+    "difficulty": "application",
+    "question": "A nurse looks up the electronic medical record of a neighbor who is not assigned to their care unit. What legal or ethical boundary has been violated?",
     "options": {
-      "A": "Interoperability standards",
-      "B": "Data validation rules",
-      "C": "Informatics frameworks",
-      "D": "Patient confidentiality"
+      "A": "Standard requirement for data completeness",
+      "B": "Principle of biomedical interoperability",
+      "C": "Right to privacy and confidentiality",
+      "D": "Guideline for rapid incident reporting"
     },
-    "answer": "D",
-    "explanation": "Always keep patient discussions in private, professional spaces—never in hallways, cafeterias, or public buses! [learn more](GNS113_U2_T7#GNS113_U2_T7_h6)"
+    "answer": "C",
+    "explanation": "Accessing records without a direct clinical need violates patient privacy and institutional confidentiality policies. [learn more](GNS113_U2_T7#GNS113_U2_T7_h6)"
   },
   {
     "question_id": "GNS113_U2_T7_h7_q1",
@@ -197,15 +197,15 @@
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
     "difficulty": "recall",
-    "question": "What is the main job of an audit trail in an electronic health record system?",
+    "question": "Positioning computer screens away from public waiting areas is an example of which security safeguard?",
     "options": {
-      "A": "Backing up the computer once a year",
-      "B": "Calculating drug doses",
-      "C": "Translating foreign languages",
-      "D": "Recording every instance a user opens, modifies, or prints a file"
+      "A": "Technical safeguard",
+      "B": "Interoperable safeguard",
+      "C": "Administrative safeguard",
+      "D": "Physical safeguard"
     },
     "answer": "D",
-    "explanation": "Audit trails are digital footprints that show who opened or changed a patient's chart, keeping everyone accountable. [learn more](GNS113_U2_T7#GNS113_U2_T7_h7)"
+    "explanation": "Physical safeguards protect the actual hardware and environment where electronic data is displayed and stored. [learn more](GNS113_U2_T7#GNS113_U2_T7_h7)"
   },
   {
     "question_id": "GNS113_U2_T7_h7_q2",
@@ -213,15 +213,15 @@
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
     "difficulty": "understanding",
-    "question": "Why is role-based access control important in hospital software?",
+    "question": "Which measure is a primary example of a technical safeguard in electronic health record systems?",
     "options": {
-      "A": "It restricts staff members to viewing only the data necessary for their specific job role",
-      "B": "It lets everyone view any patient record freely",
-      "C": "It speeds up the computer login",
-      "D": "It stops patients from seeing their own history"
+      "A": "Staff orientation lectures on privacy ethics",
+      "B": "Locking doors to the hospital server room",
+      "C": "Role-based access control and data encryption",
+      "D": "Shredding paper notes at the nurses' station"
     },
-    "answer": "A",
-    "explanation": "Role-based access ensures nosy colleagues or staff outside the care team can't open charts they have no business reading. [learn more](GNS113_U2_T7#GNS113_U2_T7_h7)"
+    "answer": "C",
+    "explanation": "Technical safeguards use technology such as passwords, encryption, and access controls to secure digital information. [learn more](GNS113_U2_T7#GNS113_U2_T7_h7)"
   },
   {
     "question_id": "GNS113_U2_T7_h8_q1",
@@ -229,30 +229,30 @@
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
     "difficulty": "recall",
-    "question": "Which of these is a good cyber hygiene habit for nurses using hospital computers?",
+    "question": "What is the term for deceptive emails designed to trick healthcare staff into revealing their login passwords?",
     "options": {
-      "A": "Sharing your password with a trusted colleague",
-      "B": "Opening email attachments from unknown senders",
-      "C": "Logging out of the terminal immediately after finishing documentation",
-      "D": "Leaving computer screens unlocked during lunch"
+      "A": "Auditing",
+      "B": "Interoperability",
+      "C": "Phishing",
+      "D": "Encryption"
     },
     "answer": "C",
-    "explanation": "Always lock or log out of your workstation when stepping away so no one else can chart under your name. [learn more](GNS113_U2_T7#GNS113_U2_T7_h8)"
+    "explanation": "Phishing involves fraudulent electronic communications disguised as legitimate sources to steal sensitive credentials. [learn more](GNS113_U2_T7#GNS113_U2_T7_h8)"
   },
   {
     "question_id": "GNS113_U2_T7_h8_q2",
     "heading_id": "GNS113_U2_T7_h8",
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
-    "difficulty": "understanding",
-    "question": "What is a typical sign of a phishing attack aimed at hospital staff?",
+    "difficulty": "application",
+    "question": "A nurse receives an urgent email claiming to be from hospital administration asking for network login credentials to verify an account. What is the safest immediate action?",
     "options": {
-      "A": "Sudden AC failure in the ward",
-      "B": "Deceptive emails designed to trick staff into revealing login credentials",
-      "C": "Physical theft of computer monitors",
-      "D": "Accidental deletion of lab results by the lab scientist"
+      "A": "Report the email to the IT security department",
+      "B": "Reply directly with the requested password details",
+      "C": "Forward the message to all clinical colleagues",
+      "D": "Ignore the message and leave the terminal unlocked"
     },
-    "answer": "B",
-    "explanation": "Phishing emails pretend to be IT support or management to trick you into handing over your password. Stay alert! [learn more](GNS113_U2_T7#GNS113_U2_T7_h8)"
+    "answer": "A",
+    "explanation": "Reporting suspicious messages prevents potential phishing attacks and protects institutional network security. [learn more](GNS113_U2_T7#GNS113_U2_T7_h8)"
   }
 ]
