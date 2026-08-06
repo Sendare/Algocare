@@ -5,15 +5,15 @@
     "article_id": "GNS113_U1_T10",
     "topic_id": "GNS113_U1_T10",
     "difficulty": "recall",
-    "question": "What is the primary medium used in tele-nursing to deliver care?",
+    "question": "What is the primary method of delivering care in tele-nursing?",
     "options": {
-      "A": "Direct face-to-face ward rounds",
+      "A": "Manual paper-based patient charting",
       "B": "Information and communication technologies",
-      "C": "Surgical theater equipment",
-      "D": "Traditional paper records"
+      "C": "Traditional face-to-face bedside clinics",
+      "D": "Surgical home visits by specialists"
     },
     "answer": "B",
-    "explanation": "Tele-nursing relies on digital tools like phones and video software to connect nurses with patients remotely. [learn more](GNS113_U1_T10#GNS113_U1_T10_h1)"
+    "explanation": "Tele-nursing relies fundamentally on digital communication tools to connect nurses with patients remotely. [learn more](GNS113_U1_T10#GNS113_U1_T10_h1)"
   },
   {
     "question_id": "GNS113_U1_T10_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GNS113_U1_T10",
     "topic_id": "GNS113_U1_T10",
     "difficulty": "understanding",
-    "question": "How does tele-nursing primarily help patients in remote Nigerian communities?",
+    "question": "Why is tele-nursing particularly useful for remote populations in Nigeria?",
     "options": {
-      "A": "By completely eliminating the need for local clinics",
-      "B": "By providing free prescription drugs to every household",
-      "C": "By replacing community health extension workers",
-      "D": "By removing geographical barriers to healthcare access"
+      "A": "It bridges geographical gaps in healthcare access",
+      "B": "It provides free medication to all citizens",
+      "C": "It eliminates the need for any hospital buildings",
+      "D": "It completely replaces doctors in rural clinics"
     },
-    "answer": "D",
-    "explanation": "Virtual care allows patients far from tertiary centers to receive timely nursing advice without traveling. [learn more](GNS113_U1_T10#GNS113_U1_T10_h1)"
+    "answer": "A",
+    "explanation": "Virtual care delivery allows patients in distant or underserved areas to receive nursing guidance without traveling far. [learn more](GNS113_U1_T10#GNS113_U1_T10_h1)"
   },
   {
     "question_id": "GNS113_U1_T10_h2_q1",
@@ -37,31 +37,31 @@
     "article_id": "GNS113_U1_T10",
     "topic_id": "GNS113_U1_T10",
     "difficulty": "recall",
-    "question": "Which tele-nursing model involves a real-time video conversation between nurse and patient?",
+    "question": "Which tele-nursing model involves sending recorded health data for later review?",
     "options": {
-      "A": "Asynchronous tele-nursing",
-      "B": "Passive data logging",
-      "C": "Store-and-forward nursing",
-      "D": "Synchronous tele-nursing"
+      "A": "Store-and-forward model",
+      "B": "Bedside surgical model",
+      "C": "Emergency trauma model",
+      "D": "Real-time interactive model"
     },
-    "answer": "D",
-    "explanation": "Synchronous care happens live, allowing immediate back-and-forth dialogue like a standard clinic visit. [learn more](GNS113_U1_T10#GNS113_U1_T10_h2)"
+    "answer": "A",
+    "explanation": "The store-and-forward method captures information like test results and forwards them asynchronously to a clinician. [learn more](GNS113_U1_T10#GNS113_U1_T10_h2)"
   },
   {
     "question_id": "GNS113_U1_T10_h2_q2",
     "heading_id": "GNS113_U1_T10_h2",
     "article_id": "GNS113_U1_T10",
     "topic_id": "GNS113_U1_T10",
-    "difficulty": "application",
-    "question": "A diabetic patient sends a photo of a foot ulcer via an app for the nurse to review the next morning. What model is this?",
+    "difficulty": "understanding",
+    "question": "A wearable device tracking a patient's blood pressure daily represents which model?",
     "options": {
-      "A": "Direct ward admission",
-      "B": "Asynchronous tele-nursing",
-      "C": "Synchronous tele-nursing",
-      "D": "Emergency triage nursing"
+      "A": "Remote patient monitoring model",
+      "B": "Traditional triage model",
+      "C": "Real-time interactive model",
+      "D": "Store-and-forward model"
     },
-    "answer": "B",
-    "explanation": "Sending information for later review without live interaction is the store-and-forward asynchronous approach. [learn more](GNS113_U1_T10#GNS113_U1_T10_h2)"
+    "answer": "A",
+    "explanation": "Continuous tracking of physiological metrics using devices falls under remote patient monitoring. [learn more](GNS113_U1_T10#GNS113_U1_T10_h2)"
   },
   {
     "question_id": "GNS113_U1_T10_h3_q1",
@@ -69,15 +69,15 @@
     "article_id": "GNS113_U1_T10",
     "topic_id": "GNS113_U1_T10",
     "difficulty": "recall",
-    "question": "Why must tele-nursing software applications use encryption?",
+    "question": "Which software system is essential for storing patient records in digital practice?",
     "options": {
-      "A": "To automatically diagnose patient illnesses",
-      "B": "To reduce the cost of mobile data bundles",
-      "C": "To make video calls load much faster",
-      "D": "To protect patient privacy and secure health data"
+      "A": "Offline video games",
+      "B": "Electronic health records",
+      "C": "Spreadsheet calculation tools",
+      "D": "Graphic design software"
     },
-    "answer": "D",
-    "explanation": "Encryption scrambles transmitted data to prevent unauthorized interception and safeguard confidentiality. [learn more](GNS113_U1_T10#GNS113_U1_T10_h3)"
+    "answer": "B",
+    "explanation": "Electronic health records manage and store patient medical histories securely in a digital format. [learn more](GNS113_U1_T10#GNS113_U1_T10_h3)"
   },
   {
     "question_id": "GNS113_U1_T10_h3_q2",
@@ -85,15 +85,15 @@
     "article_id": "GNS113_U1_T10",
     "topic_id": "GNS113_U1_T10",
     "difficulty": "understanding",
-    "question": "What happens when a tele-nursing platform lacks integration with electronic health records?",
+    "question": "What is a major infrastructure challenge for tele-nursing in Nigeria?",
     "options": {
-      "A": "Patients can no longer access their prescription history",
-      "B": "All video calls are automatically recorded for TV",
-      "C": "Nurses must manually duplicate documentation across systems",
-      "D": "The internet connection speed drops significantly"
+      "A": "Lack of interest from patients",
+      "B": "Too many digital stethoscopes in rural pharmacies",
+      "C": "Erratic power supply and poor network bandwidth",
+      "D": "An excess of high-speed fiber optic cables"
     },
     "answer": "C",
-    "explanation": "Disconnected systems force extra paperwork, increasing the risk of transcription errors and delays. [learn more](GNS113_U1_T10#GNS113_U1_T10_h3)"
+    "explanation": "Unstable electricity and weak internet signals disrupt continuous virtual communication and data transmission. [learn more](GNS113_U1_T10#GNS113_U1_T10_h3)"
   },
   {
     "question_id": "GNS113_U1_T10_h4_q1",
@@ -101,15 +101,15 @@
     "article_id": "GNS113_U1_T10",
     "topic_id": "GNS113_U1_T10",
     "difficulty": "recall",
-    "question": "What must a nurse verify before offering tele-nursing across state or national borders?",
+    "question": "Who regulates the nursing profession and sets practice standards in Nigeria?",
     "options": {
-      "A": "The current exchange rate of local currencies",
-      "B": "Licensure and legal permission in the patient's location",
-      "C": "Whether the patient owns a smart television",
-      "D": "The local weather forecast for the week"
+      "A": "National Telecommunications Commission",
+      "B": "Ministry of Science and Technology",
+      "C": "Nursing and Midwifery Council of Nigeria",
+      "D": "Nigerian Medical Association"
     },
-    "answer": "B",
-    "explanation": "Nursing practice acts usually require authorization where the patient physically receives the care. [learn more](GNS113_U1_T10#GNS113_U1_T10_h4)"
+    "answer": "C",
+    "explanation": "The Nursing and Midwifery Council of Nigeria is the statutory body governing nursing education and practice standards. [learn more](GNS113_U1_T10#GNS113_U1_T10_h4)"
   },
   {
     "question_id": "GNS113_U1_T10_h4_q2",
@@ -117,47 +117,47 @@
     "article_id": "GNS113_U1_T10",
     "topic_id": "GNS113_U1_T10",
     "difficulty": "understanding",
-    "question": "Which of the following is NOT an ethical priority during a virtual nursing session?",
+    "question": "Why is data encryption critical in tele-nursing platforms?",
     "options": {
-      "A": "Ensuring cultural safety in digital communication",
-      "B": "Sharing patient details on public social media groups",
-      "C": "Protecting the privacy of the video consultation space",
-      "D": "Obtaining informed consent for remote monitoring"
+      "A": "To make patient records public",
+      "B": "To speed up video streaming quality",
+      "C": "To reduce the cost of mobile data",
+      "D": "To maintain patient confidentiality and privacy"
     },
-    "answer": "B",
-    "explanation": "Publicly sharing patient details violates confidentiality laws and is strictly unethical. [learn more](GNS113_U1_T10#GNS113_U1_T10_h4)"
+    "answer": "D",
+    "explanation": "Encryption protects sensitive health information from unauthorized access during digital transmission. [learn more](GNS113_U1_T10#GNS113_U1_T10_h4)"
   },
   {
     "question_id": "GNS113_U1_T10_h5_q1",
     "heading_id": "GNS113_U1_T10_h5",
     "article_id": "GNS113_U1_T10",
     "topic_id": "GNS113_U1_T10",
-    "difficulty": "understanding",
-    "question": "How does a nurse perform a physical assessment during a standard video consultation?",
+    "difficulty": "recall",
+    "question": "What skill becomes especially vital during a virtual patient assessment?",
     "options": {
-      "A": "By relying purely on laboratory results sent via text",
-      "B": "By skipping physical checks entirely for virtual visits",
-      "C": "By asking a neighbor to enter the room with a stethoscope",
-      "D": "By guiding the patient to perform guided self-checks on camera"
+      "A": "Physical palpation of the abdomen",
+      "B": "Active listening and observation",
+      "C": "Advanced surgical suturing",
+      "D": "Manual prescription writing"
     },
-    "answer": "D",
-    "explanation": "Nurses use visual inspection and direct the patient or caregiver to check specific areas on video. [learn more](GNS113_U1_T10#GNS113_U1_T10_h5)"
+    "answer": "B",
+    "explanation": "Without physical touch, nurses must depend on visual cues and verbal communication to assess the patient. [learn more](GNS113_U1_T10#GNS113_U1_T10_h5)"
   },
   {
     "question_id": "GNS113_U1_T10_h5_q2",
     "heading_id": "GNS113_U1_T10_h5",
     "article_id": "GNS113_U1_T10",
     "topic_id": "GNS113_U1_T10",
-    "difficulty": "recall",
-    "question": "Which skill is most critical when communicating with an anxious patient over a phone call?",
+    "difficulty": "understanding",
+    "question": "A nurse guiding a caregiver on camera to check skin turgor demonstrates what?",
     "options": {
-      "A": "Advanced knowledge of hospital accounting",
-      "B": "Fast typing speed on the computer keyboard",
-      "C": "Ability to prescribe medications instantly",
-      "D": "Active listening and clear verbal tone"
+      "A": "Delegation of medical diagnosis",
+      "B": "Violation of data privacy",
+      "C": "Breach of professional ethics",
+      "D": "Remote assessment facilitation"
     },
     "answer": "D",
-    "explanation": "Without visual cues, tone of voice and active listening are vital to reassure the caller. [learn more](GNS113_U1_T10#GNS113_U1_T10_h5)"
+    "explanation": "Guiding a proxy to perform simple checks on camera helps bridge the gap caused by physical absence. [learn more](GNS113_U1_T10#GNS113_U1_T10_h5)"
   },
   {
     "question_id": "GNS113_U1_T10_h6_q1",
@@ -165,31 +165,31 @@
     "article_id": "GNS113_U1_T10",
     "topic_id": "GNS113_U1_T10",
     "difficulty": "recall",
-    "question": "What is a major benefit of tele-nursing for patients with chronic illnesses?",
+    "question": "Which health condition is most suitable for ongoing tele-nursing monitoring?",
     "options": {
-      "A": "Elimination of the need for daily medication",
-      "B": "Permanent cure for conditions like hypertension",
-      "C": "Prevention of frequent emergency hospital readmissions",
-      "D": "Reduction in healthy dietary requirements"
+      "A": "Diabetes mellitus",
+      "B": "Emergency snake bite",
+      "C": "Sudden appendicitis",
+      "D": "Acute traumatic fracture"
     },
-    "answer": "C",
-    "explanation": "Frequent monitoring catches complications early, stopping minor issues from escalating into emergencies. [learn more](GNS113_U1_T10#GNS113_U1_T10_h6)"
+    "answer": "A",
+    "explanation": "Chronic illnesses requiring daily self-management and regular tracking are ideal for tele-nursing oversight. [learn more](GNS113_U1_T10#GNS113_U1_T10_h6)"
   },
   {
     "question_id": "GNS113_U1_T10_h6_q2",
     "heading_id": "GNS113_U1_T10_h6",
     "article_id": "GNS113_U1_T10",
     "topic_id": "GNS113_U1_T10",
-    "difficulty": "application",
-    "question": "A hypertensive patient uploads daily blood pressure readings that show a steady upward trend over five days. What should the nurse do first?",
+    "difficulty": "understanding",
+    "question": "How does tele-nursing help reduce emergency hospital visits for chronic patients?",
     "options": {
-      "A": "Tell the patient to stop taking all prescribed medications",
-      "B": "Discharge the patient from the tele-nursing monitoring program",
-      "C": "Wait until the patient's next scheduled clinic date in three months",
-      "D": "Contact the patient to review lifestyle factors and notify the doctor"
+      "A": "By providing instant surgical interventions",
+      "B": "By catching small health deviations early",
+      "C": "By curing the underlying genetic defect",
+      "D": "By replacing all prescription medications"
     },
-    "answer": "D",
-    "explanation": "Rising blood pressure trends require prompt clinical follow-up and physician collaboration. [learn more](GNS113_U1_T10#GNS113_U1_T10_h6)"
+    "answer": "B",
+    "explanation": "Early detection of worsening symptoms allows timely intervention before the condition becomes an emergency. [learn more](GNS113_U1_T10#GNS113_U1_T10_h6)"
   },
   {
     "question_id": "GNS113_U1_T10_h7_q1",
@@ -197,15 +197,15 @@
     "article_id": "GNS113_U1_T10",
     "topic_id": "GNS113_U1_T10",
     "difficulty": "recall",
-    "question": "What is a common infrastructural challenge when practicing tele-nursing in developing regions?",
+    "question": "Which factor is NOT a common barrier to tele-nursing adoption in resource-limited settings?",
     "options": {
-      "A": "Too many smartphones available in rural clinics",
-      "B": "Erratic power supply and poor internet connectivity",
-      "C": "Lack of patients willing to try digital health",
-      "D": "Excessive bandwidth slowing down basic phone calls"
+      "A": "Excessive availability of free high-speed broadband",
+      "B": "Limited digital literacy among elderly patients",
+      "C": "High costs associated with mobile internet data",
+      "D": "Preference for traditional face-to-face consultations"
     },
-    "answer": "B",
-    "explanation": "Unstable electricity and weak network signals frequently disrupt digital health interventions. [learn more](GNS113_U1_T10#GNS113_U1_T10_h7)"
+    "answer": "A",
+    "explanation": "High-speed broadband is rarely free or excessively available in resource-limited settings; lack of access is the actual barrier. [learn more](GNS113_U1_T10#GNS113_U1_T10_h7)"
   },
   {
     "question_id": "GNS113_U1_T10_h7_q2",
@@ -213,15 +213,15 @@
     "article_id": "GNS113_U1_T10",
     "topic_id": "GNS113_U1_T10",
     "difficulty": "understanding",
-    "question": "How can a nurse manage tele-nursing for a patient with very low digital literacy?",
+    "question": "How can community-based digital hubs help overcome tele-nursing barriers?",
     "options": {
-      "A": "By using simplified tools and involving a tech-savvy caregiver",
-      "B": "By sending complex technical manuals via email",
-      "C": "By refusing to provide care until the patient buys a computer",
-      "D": "By switching entirely to written postal correspondence"
+      "A": "By providing trained intermediaries to assist patients with technology",
+      "B": "By eliminating the need for professional nurses",
+      "C": "By converting every patient home into a mini hospital",
+      "D": "By banning the use of traditional medicine entirely"
     },
     "answer": "A",
-    "explanation": "Involving family members or using basic, familiar interfaces helps bridge the technology gap. [learn more](GNS113_U1_T10#GNS113_U1_T10_h7)"
+    "explanation": "Digital hubs with knowledgeable assistants help bridge the technology gap for patients who struggle with devices. [learn more](GNS113_U1_T10#GNS113_U1_T10_h7)"
   },
   {
     "question_id": "GNS113_U1_T10_h8_q1",
@@ -229,15 +229,15 @@
     "article_id": "GNS113_U1_T10",
     "topic_id": "GNS113_U1_T10",
     "difficulty": "recall",
-    "question": "What competency is increasingly essential for nurses practicing in modern digital health systems?",
+    "question": "What skill set must modern nurses develop alongside traditional clinical acumen?",
     "options": {
-      "A": "Advanced software coding and computer programming",
-      "B": "Proficiency in fixing broken smartphone screens",
-      "C": "Digital dexterity and technology literacy",
-      "D": "Expertise in hospital electrical wiring"
+      "A": "Commercial hardware repair",
+      "B": "Advanced software programming",
+      "C": "Telecommunications engineering",
+      "D": "Digital competency and informatics"
     },
-    "answer": "C",
-    "explanation": "Nurses need comfort and skill using various digital tools to deliver effective virtual care. [learn more](GNS113_U1_T10#GNS113_U1_T10_h8)"
+    "answer": "D",
+    "explanation": "Modern nursing practice requires comfort with digital tools and health informatics to manage virtual patient care. [learn more](GNS113_U1_T10#GNS113_U1_T10_h8)"
   },
   {
     "question_id": "GNS113_U1_T10_h8_q2",
@@ -245,14 +245,14 @@
     "article_id": "GNS113_U1_T10",
     "topic_id": "GNS113_U1_T10",
     "difficulty": "understanding",
-    "question": "Why is artificial intelligence expected to influence future tele-nursing practice?",
+    "question": "Why are nursing schools updating their curricula to include health informatics?",
     "options": {
-      "A": "By assisting with predictive analytics and preliminary patient triage",
-      "B": "By completely replacing the need for professional nursing judgment",
-      "C": "By making patient confidentiality laws obsolete",
-      "D": "By removing all ethical responsibilities from healthcare providers"
+      "A": "To ensure students never have to touch a patient again",
+      "B": "To replace clinical placements with computer games",
+      "C": "To focus exclusively on hospital administration",
+      "D": "To prepare graduates for technology-driven healthcare environments"
     },
-    "answer": "A",
-    "explanation": "AI tools help process large streams of patient data to spot risks early, supporting clinical decisions. [learn more](GNS113_U1_T10#GNS113_U1_T10_h8)"
+    "answer": "D",
+    "explanation": "Informatics education equips future nurses to handle emerging digital health tools effectively. [learn more](GNS113_U1_T10#GNS113_U1_T10_h8)"
   }
 ]

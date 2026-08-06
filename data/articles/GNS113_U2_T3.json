@@ -11,49 +11,43 @@
       "heading_id": "GNS113_U2_T3_h1",
       "order": 1,
       "title": "Introduction to Electronic Health Records",
-      "content": "An **Electronic Health Record (EHR)** is a digital version of a patient's paper chart found in traditional clinical settings. These systems contain comprehensive medical histories, treatment notes, laboratory results, and medication records accessible to authorized healthcare providers. In Nigerian healthcare facilities, transitioning from paper to digital documentation improves legibility and reduces medication errors caused by poor handwriting. EHRs also support faster retrieval of past medical history during emergencies."
+      "content": "An **Electronic Health Record (EHR)** is a digital version of a patient's paper chart found in traditional clinical settings. EHRs contain real-time, patient-centered records that make information available instantly and securely to authorized users. Unlike simple digital replicas of paper documents, modern EHR systems integrate data from multiple departments, including pharmacy, laboratory, and radiology. Nurses interact with these platforms constantly to document vital signs, administer medications, and review physician orders. Transitioning from paper to electronic systems significantly reduces handwriting errors and improves legibility across healthcare teams."
     },
     {
       "heading_id": "GNS113_U2_T3_h2",
       "order": 2,
       "title": "Acute Care versus Ambulatory EHR Systems",
-      "content": "Medical settings differ widely, and so do their software needs. Acute care EHRs manage inpatient environments like surgical wards and emergency units, tracking hourly vital signs, continuous medication drips, and shift-by-shift nursing notes. Ambulatory EHRs focus on outpatient clinics, general practitioner offices, and community health centers where visits are brief and focused on chronic disease monitoring or preventive care."
+      "content": "Healthcare delivery settings demand different software architectures based on the speed and nature of patient turnover.\n\n- **Acute Care EHRs**: Built for hospitals and emergency departments where patients stay overnight. These systems focus heavily on rapid medication administration, intensive care monitoring, surgical documentation, and shift-to-shift nursing handovers.\n- **Ambulatory EHRs**: Designed for outpatient clinics, general practitioner offices, and community health centers. These platforms prioritize long-term chronic disease tracking, routine immunizations, scheduled appointment reminders, and preventive care reminders over time."
     },
     {
       "heading_id": "GNS113_U2_T3_h3",
       "order": 3,
-      "title": "Specialty-Specific Electronic Health Records",
-      "content": "- **Pediatric EHR**: Features growth charts, immunization tracking schedules, and weight-based pediatric drug dosing calculators.\n- **Obstetric EHR**: Tailored for antenatal care, labor monitoring, partograph generation, and neonatal outcomes.\n- **Psychiatric EHR**: Includes specialized mental status examination templates and strict privacy controls for sensitive behavioral health notes."
+      "title": "Enterprise and Specialty-Specific EHR Solutions",
+      "content": "Large healthcare networks often span multiple hospitals, urgent care centers, and specialized clinics across a region. An **Enterprise EHR** links all these facilities into a single database, allowing a nurse in a rural clinic to view notes entered by a specialist in a major urban teaching hospital. \n\nConversely, **Specialty-Specific EHRs** cater to distinct medical fields like pediatrics, psychiatry, or obstetrics. These specialized systems feature customized templates that capture unique clinical metrics—such as fetal monitoring strips for maternity wards or growth charts for pediatric clinics—which standard hospital systems might handle poorly."
     },
     {
       "heading_id": "GNS113_U2_T3_h4",
       "order": 4,
-      "title": "Enterprise EHR Systems in Large Hospitals",
-      "content": "Large teaching hospitals and sprawling medical complexes require enterprise-wide EHR solutions. These comprehensive platforms connect disparate departments—laboratory, pharmacy, radiology, billing, and nursing units—into a single unified database. When a nurse administers a medication in the medical ward, the enterprise system instantly updates the hospital pharmacy inventory and the patient's billing ledger simultaneously."
+      "title": "Personal Health Records and Patient Portals",
+      "content": "Patient engagement relies heavily on tools that put health data directly into the hands of the consumer.\n\n- **Patient Portals**: Secure online websites connected directly to the hospital's EHR, allowing patients to view lab results, request medication refills, and message their care team.\n- **Personal Health Records (PHRs)**: Standalone applications managed entirely by the patient. Individuals can input their own blood pressure readings, diet history, and over-the-counter medications.\n\nNurses often educate patients on how to navigate these digital tools to encourage active participation in their own treatment plans."
     },
     {
       "heading_id": "GNS113_U2_T3_h5",
       "order": 5,
-      "title": "Personal Health Records and Patient Portals",
-      "content": "Patient engagement has evolved beyond hospital walls through personal health records (PHRs) and patient portals. A PHR is managed directly by the patient, allowing them to track their own blood pressure, blood glucose readings, and allergy histories. Patient portals, tethered to the hospital's main EHR, allow patients to view lab results, request medication refills, and communicate securely with their healthcare team."
+      "title": "Cloud-Based versus On-Premise EHR Infrastructure",
+      "content": "The underlying technology supporting an EHR determines how data is stored, backed up, and accessed. **On-premise EHR systems** require physical servers installed directly inside the healthcare facility. The hospital's own IT department maintains the hardware, installs software updates, and secures the local network. \n\n**Cloud-based EHR systems** store data on remote servers managed by external technology vendors. Healthcare workers access the software via secure internet browsers. Cloud systems offer greater flexibility and automatic updates, but they require reliable, continuous internet connectivity—a vital consideration in Nigerian healthcare settings where power outages and network drops can disrupt clinical workflows."
     },
     {
       "heading_id": "GNS113_U2_T3_h6",
       "order": 6,
-      "title": "Cloud-Based versus On-Premise EHR Infrastructure",
-      "content": "Healthcare institutions must choose where their electronic data lives. On-premise systems store all information on physical servers housed within the hospital building, requiring dedicated local IT staff for maintenance and backups. Cloud-based EHRs store data on remote external servers accessed securely via the internet, offering lower upfront hardware costs and automatic software updates, though dependable internet connectivity remains vital."
+      "title": "Evaluating EHR Interoperability and Standards",
+      "content": "Interoperability refers to the ability of different information technology systems and software applications to communicate and exchange data accurately. When an EHR lacks interoperability, patient information gets trapped in isolated digital silos. A nurse receiving a transferred patient from another hospital might be unable to view past lab results if the two institutions use incompatible software. Standardized data formats, such as Health Level Seven (HL7) and Fast Healthcare Interoperability Resources (FHIR), ensure that diverse medical devices and software programs speak the same language."
     },
     {
       "heading_id": "GNS113_U2_T3_h7",
       "order": 7,
-      "title": "EHR Interoperability and Standards",
-      "content": "Interoperability refers to the ability of different health information systems to communicate and exchange data accurately. When a patient transfers from a primary health center to a tertiary teaching hospital, their electronic records must be readable by both systems without data corruption. Standardized medical coding languages like ICD-10 and SNOMED CT ensure that a clinical diagnosis entered in one facility means the exact same thing when opened elsewhere."
-    },
-    {
-      "heading_id": "GNS113_U2_T3_h8",
-      "order": 8,
-      "title": "Implications for Nursing Practice and Safety",
-      "content": "The adoption of diverse EHR types directly transforms daily nursing workflows and patient safety measures. While digital barcoding medication administration (BCMA) drastically cuts down dosage errors, poorly designed interfaces can lead to \"alert fatigue\" where nurses ignore critical warning pop-ups. Nurses must actively balance computer documentation tasks with direct bedside patient care to maintain compassionate, safe clinical environments."
+      "title": "Implications for Nursing Practice and Patient Safety",
+      "content": "The choice of EHR type directly influences daily nursing workflow and patient safety outcomes. Systems equipped with **Bar Code Medication Administration (BCMA)** scan the patient's wristband against the medication package to prevent administration errors. However, poorly designed interfaces or slow cloud networks can lead to alert fatigue, where nurses dismiss safety warnings out of frustration. Understanding the strengths and limitations of different electronic platforms empowers nurses to advocate for safer technology and maintain high standards of patient advocacy at the bedside."
     }
   ]
 }
