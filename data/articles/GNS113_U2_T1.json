@@ -11,49 +11,43 @@
       "heading_id": "GNS113_U2_T1_h1",
       "order": 1,
       "title": "Introduction and Definition of Electronic Health Records",
-      "content": "An **Electronic Health Record (EHR)** is a digital version of a patient's medical history, compiled and maintained across different healthcare settings. Unlike older paper folders kept in a single clinic filing cabinet, an EHR pulls together notes, laboratory results, medications, and radiology reports into one secure software platform. This digital system allows authorized medical personnel from various departments or hospitals to view the exact same patient data in real time. For Nigerian nurses, understanding EHRs means recognizing that patient information travels securely beyond the bedside ward chart, improving continuity of care from admission to discharge."
+      "content": "An **Electronic Health Record (EHR)** is a systematic digital collection of patient health information stored in a secure database. Unlike old-fashioned paper files kept in a single clinic cabinet, an EHR is designed to share clinical data across multiple healthcare settings and authorized departments. It contains a comprehensive view of a patient's medical history, including diagnostic test results, treatment plans, immunization dates, allergies, and billing information. In modern Nigerian healthcare facilities transitioning to digital workflows, the EHR serves as the single source of truth for multidisciplinary care teams, ensuring that nurses, doctors, and pharmacists access identical, up-to-date information simultaneously."
     },
     {
       "heading_id": "GNS113_U2_T1_h2",
       "order": 2,
-      "title": "Evolution from Paper Charts to Digital Systems",
-      "content": "Healthcare documentation has transformed dramatically over the decades. Traditional paper records were prone to physical damage from humidity, ink fading, misplacement, and illegible handwriting that posed serious safety risks. The shift toward digital health systems began as hospitals sought faster data retrieval and better storage efficiency. Modern health informatics introduces structured databases where nursing notes, vital signs charts, and doctor orders live on secure local servers or cloud storage. This evolution reduces lost folders, saves physical storage space, and creates clearer audit trails for hospital administration."
+      "title": "Core Components and Key Features of EHRs",
+      "content": "An effective EHR system integrates several specialized modules to support daily clinical workflows. Understanding these building blocks helps student nurses navigate hospital software efficiently during clinical postings.\n\n- **Demographics**: Patient personal details, home address, emergency contacts, and insurance data.\n- **Clinical Notes**: Structured templates where nurses and doctors document shift assessments, progress notes, and care plans.\n- **Laboratory and Radiology Integration**: Direct feeds that display diagnostic imaging and blood test results as soon as they are finalized.\n- **Computerized Provider Order Entry (CPOE)**: Digital systems allowing clinicians to input medication orders, dietary requirements, and therapy referrals directly.\n- **Decision Support Tools**: Automated alerts that warn staff about potential drug allergies or abnormal vital signs."
     },
     {
       "heading_id": "GNS113_U2_T1_h3",
       "order": 3,
-      "title": "Core Components and Key Features of EHRs",
-      "content": "An effective EHR system contains several integrated modules that support daily clinical workflows.\n\n- **Administrative Data**: Patient demographics, home address, emergency contacts, and insurance details.\n- **Clinical Documentation**: Nursing assessment forms, progress notes, and vital signs flowsheets.\n- **Diagnostic Results**: Laboratory blood test values and imaging scans viewable directly within the platform.\n- **Medication Management**: Computerized provider order entry and electronic medication administration records.\n- **Decision Support**: Automated alerts for drug allergies, abnormal lab values, and clinical practice guidelines."
+      "title": "EHRs Versus EMRs: Understanding the Differences",
+      "content": "Beginner nurses often use the terms Electronic Medical Record (EMR) and Electronic Health Record (EHR) interchangeably, but they represent distinct scopes of technology.\n\n| Feature | Electronic Medical Record (EMR) | Electronic Health Record (EHR) |\n|---|---|---|>\n| **Scope** | Digital version of a paper chart within one clinic | Comprehensive longitudinal record across multiple facilities |\n| **Interoperability** | Limited; data rarely leaves the originating facility | High; designed to share data seamlessly between hospitals |\n| **Patient Access** | Usually restricted to internal clinic viewing | Often includes patient portals for active consumer engagement |\n\nAn EMR is essentially a local digital filing cabinet for a single doctor's office or ward, whereas an EHR travels with the patient across the entire healthcare continuum."
     },
     {
       "heading_id": "GNS113_U2_T1_h4",
       "order": 4,
-      "title": "Distinguishing EHRs from EMRs",
-      "content": "While often used interchangeably, Electronic Medical Records (EMRs) and Electronic Health Records (EHRs) serve different scopes in healthcare.\n\n| Feature | Electronic Medical Record (EMR) | Electronic Health Record (EHR) |\n| :--- | :--- | :--- |\n| **Scope** | Digital version of paper charts within one clinic | Comprehensive health history across multiple facilities |\n| **Interoperability** | Generally stays within a single organization | Designed to share data across different hospital networks |\n| **Patient Access** | Usually limited to printed summaries for the patient | Often includes patient portals for direct viewing |\n\nAn EMR is essentially a digital filing cabinet for a single doctor's office, whereas an EHR connects the entire healthcare ecosystem."
+      "title": "Benefits of EHRs in Patient Care and Nursing Practice",
+      "content": "Switching from paper to digital records transforms how nurses deliver bedside care. Legibility issues disappear instantly, removing the danger of misreading a doctor's handwriting on a drug chart. Medication safety improves drastically through barcode medication administration and automated dosage checks. Furthermore, nurses save valuable hours each shift because documentation is faster, and patient data retrieval takes seconds instead of trekking to the medical records department. Public health reporting also benefits, as aggregate digital data helps hospital managers track disease outbreaks across Nigerian communities more rapidly."
     },
     {
       "heading_id": "GNS113_U2_T1_h5",
       "order": 5,
-      "title": "Benefits of EHRs in Patient Care and Nursing Practice",
-      "content": "Implementing robust electronic health systems directly enhances patient safety and streamlines nursing workflows. Nurses spend less time searching through physical archives or transcribing verbal orders. Medication administration becomes safer through barcode scanning and electronic verification that cross-checks the patient identity with prescribed drugs. Furthermore, legible documentation and trended vital sign charts help nurses spot early signs of patient deterioration, such as sepsis or hemorrhage, prompting timely medical interventions."
+      "title": "Challenges and Barriers to EHR Implementation in Nigeria",
+      "content": "Implementing digital health systems in resource-constrained environments introduces significant hurdles. Frequent power outages and erratic electricity grids disrupt server access unless hospitals invest in costly backup generators and uninterrupted power supplies. High initial financial costs for software licenses, hardware maintenance, and staff training overwhelm many public hospital budgets. Additionally, internet connectivity in rural primary health centers remains unstable. Resistance to change among older healthcare personnel accustomed to decades of paper documentation can stall digital adoption unless thorough, patient training programs are provided."
     },
     {
       "heading_id": "GNS113_U2_T1_h6",
       "order": 6,
-      "title": "Challenges and Barriers to EHR Implementation in Nigeria",
-      "content": "Adopting electronic health records across Nigerian healthcare facilities comes with notable hurdles. Frequent power outages and unstable national electricity grids disrupt computer servers unless robust backup generators and solar systems are installed. High costs of software licensing, hardware procurement, and continuous staff training strain hospital budgets, particularly in public secondary facilities. Additionally, resistance to change from older healthcare workers accustomed to paper documentation can slow down digital transformation efforts."
+      "title": "Data Security, Privacy, and Confidentiality in EHRs",
+      "content": "Protecting patient information is both an ethical duty and a legal requirement for nurses. While paper charts could be left unattended on a desk, digital records face cyber threats, unauthorized viewing, and password sharing. Professional nursing ethics dictate that clinicians never share their login credentials with colleagues or leave an active EHR terminal unlocked when stepping away from the nursing station. Hospitals enforce security through role-based access controls, ensuring ward nurses only view records of patients under their direct care, while encryption safeguards data transmitted across networks."
     },
     {
       "heading_id": "GNS113_U2_T1_h7",
       "order": 7,
-      "title": "Data Security, Privacy, and Confidentiality in EHRs",
-      "content": "Protecting sensitive patient information is a legal and ethical duty for every nurse. While paper charts can be left open on a desk, electronic records introduce digital vulnerabilities like unauthorized access, hacking, and data breaches. EHR systems protect patient privacy through role-based access controls, unique staff login credentials, and encrypted databases. Nurses must never share their password or leave an open EHR workstation unattended while logged into a patient profile."
-    },
-    {
-      "heading_id": "GNS113_U2_T1_h8",
-      "order": 8,
-      "title": "The Future of Health Informatics and EHRs in Nursing",
-      "content": "Health informatics continues to advance, bringing artificial intelligence, mobile nursing devices, and telemedicine into daily clinical practice. Future EHR systems will feature advanced predictive analytics that alert nurses to complications before symptoms become severe. Voice-recognition charting and wearable vital sign monitors will automatically sync patient data directly into electronic charts, reducing manual keyboard entry. Nigerian nursing education is evolving to equip student nurses with the digital competencies required to lead healthcare innovation across the continent."
+      "title": "The Future of Health Informatics and Nursing Practice",
+      "content": "Health informatics continues to evolve rapidly, reshaping the future of nursing practice in Nigeria and globally. Emerging technologies like mobile health apps, telehealth platforms, and artificial intelligence-driven diagnostic tools are becoming embedded in modern EHR ecosystems. Student nurses must develop digital literacy alongside traditional clinical skills. Future practice will rely heavily on predictive analytics, where EHR systems help nurses anticipate patient deterioration hours before acute symptoms appear, shifting nursing care from a reactive model to a proactive, preventive discipline."
     }
   ]
 }

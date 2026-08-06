@@ -11,55 +11,55 @@
       "heading_id": "GNS113_U2_T2_h1",
       "order": 1,
       "title": "Introduction to Nursing Informatics and Health Records",
-      "content": "Nursing informatics merges nursing science, computer science, and information science to manage and communicate data, information, knowledge, and wisdom in nursing practice. In modern healthcare, managing health records efficiently is essential for safe patient care. Traditional methods relied heavily on physical paperwork, but the digital age requires healthcare professionals to interact seamlessly with computerized systems. Understanding these digital tools starts with recognizing how health data is captured, stored, and retrieved in clinical settings."
+      "content": "Nursing informatics merges nursing science, computer science, and information science to manage and communicate data, information, knowledge, and wisdom in nursing practice. As healthcare facilities across Nigeria transition from traditional filing cabinets to computer networks, nurses find themselves at the forefront of this technological shift. Health records contain every piece of clinical data gathered during a patient's contact with the healthcare system, serving as the primary communication tool among the multidisciplinary care team. Understanding how these records are created, stored, and retrieved is foundational for modern safe nursing practice."
     },
     {
       "heading_id": "GNS113_U2_T2_h2",
       "order": 2,
       "title": "Definition and Core Concept of Electronic Health Records",
-      "content": "An Electronic Health Record (EHR) is a systematic digital collection of patient health information stored across various healthcare settings. Unlike older paper charts, an EHR includes demographics, progress notes, vital signs, medications, immunization dates, past medical history, laboratory data, and radiology reports. The core concept revolves around interoperability—the ability of different health IT systems and software to communicate and share data accurately, safely, and effectively across multiple organizational boundaries."
+      "content": "An Electronic Health Record (EHR) is a systematic digital collection of patient health information stored in a secure electronic format. Unlike simple scanned documents, an EHR is designed to share information across multiple healthcare providers, clinics, laboratories, and pharmacies. The core concept revolves around interoperability—the ability of different information systems and software applications to communicate and exchange data accurately. This ensures that a patient's complete medical history is instantly accessible to authorized personnel regardless of geographic location."
     },
     {
       "heading_id": "GNS113_U2_T2_h3",
       "order": 3,
       "title": "Evolution from Paper-Based Charts to Digital Systems",
-      "content": "The transition from paper charts to digital health records marks a massive shift in healthcare history. Paper charts were prone to physical damage, poor handwriting legibility, misplacement, and restricted access since only one person could hold a chart at a time. Digital systems emerged to solve these bottlenecks, offering instant searchability, remote access for authorized personnel, and organized chronological tracking of patient treatments over years."
+      "content": "Healthcare documentation began on physical paper charts, which were prone to illegible handwriting, physical degradation, and loss. As medical knowledge expanded, paper records became cumbersome to navigate during emergencies. The transition to digital systems started with isolated hospital databases and eventually evolved into integrated web-based electronic platforms. While moving to digital records solves physical storage issues, it introduces new demands on digital literacy for healthcare workers accustomed to manual charting."
     },
     {
       "heading_id": "GNS113_U2_T2_h4",
       "order": 4,
       "title": "Key Components and Features of an EHR System",
-      "content": "- **Clinical Decision Support (CDS)**: Automated alerts and reminders for drug allergies or abnormal lab results.\n- **Computerized Provider Order Entry (CPOE)**: Allows clinicians to enter medication orders directly into the computer.\n- **Patient Portal**: Secure online websites giving patients 24-hour access to personal health information.\n- **Reporting Tools**: Modules that generate statistical summaries for public health monitoring and facility audits."
+      "content": "- **Demographics**: Patient identification, age, gender, address, and emergency contacts.\n- **Clinical Notes**: Structured templates for nursing assessments, doctor progress notes, and multidisciplinary care plans.\n- **Laboratory and Radiology Results**: Direct feeds of diagnostic test outcomes for rapid viewing.\n- **Medication Administration Record (eMAR)**: Digital tracking of prescribed drugs, dosages, administration times, and nurse signatures.\n- **Decision Support Tools**: Alerts for drug allergies, potential interactions, and clinical practice guidelines."
     },
     {
       "heading_id": "GNS113_U2_T2_h5",
       "order": 5,
       "title": "EHR vs. EMR: Understanding the Differences",
-      "content": "Terms like Electronic Medical Record (EMR) and Electronic Health Record (EHR) are often used interchangeably, but they have distinct differences in scope. An EMR is essentially a digital version of a traditional paper chart used within one specific clinic or hospital. An EHR goes far beyond that single facility, designed to share information across multiple healthcare organizations, ensuring that a patient's complete history travels with them wherever they seek care."
+      "content": "Terms like Electronic Medical Record (EMR) and Electronic Health Record (EHR) are often used interchangeably, but they have distinct meanings. An EMR is essentially a digital version of a paper chart used within a single clinic or hospital. It contains medical and treatment history from one specific practice. An EHR, however, goes beyond the single organization, designed to move with the patient across different healthcare settings, specialists, laboratories, and insurance providers, offering a comprehensive view of total health."
     },
     {
       "heading_id": "GNS113_U2_T2_h6",
       "order": 6,
       "title": "Benefits of EHRs in Patient Care and Clinical Workflow",
-      "content": "Implementing electronic health records transforms daily clinical routines. Nurses experience reduced time spent hunting for misplaced charts, allowing more direct patient engagement. Patient safety increases significantly due to standardized documentation, legible medication orders, and immediate access to historical lab trends. Furthermore, audit trails help track who accessed or modified patient data, ensuring accountability across the multidisciplinary team."
+      "content": "The adoption of EHRs transforms clinical operations by improving data accuracy, reducing medication errors, and speeding up retrieval times. Nurses spend less time hunting for physical folders and deciphering handwriting, allowing more time for direct bedside care. Furthermore, analytics derived from EHR databases help hospital management track disease outbreaks, manage pharmacy supplies, and evaluate quality improvement metrics across wards."
     },
     {
       "heading_id": "GNS113_U2_T2_h7",
       "order": 7,
       "title": "Challenges and Barriers to EHR Implementation in Nigeria",
-      "content": "Adopting electronic health records in resource-constrained environments like Nigeria presents unique hurdles. Erratic power supply and frequent grid failures disrupt computer usage unless expensive backup generators or solar systems are maintained. High procurement and maintenance costs for hardware and software strain hospital budgets. Additionally, resistance to change from older staff members accustomed to manual paper routines can stall digital transformation efforts."
+      "content": "Implementing EHRs in Nigerian healthcare settings faces unique hurdles. Erratic electricity supply and unstable internet connectivity disrupt access to cloud-based or networked systems. High initial financial costs for hardware, software licenses, and staff training strain institutional budgets, particularly in rural primary health centers. Resistance to change from older personnel comfortable with paper routines and concerns over data security further slow down nationwide digital adoption."
     },
     {
       "heading_id": "GNS113_U2_T2_h8",
       "order": 8,
       "title": "Data Security, Privacy, and Confidentiality in Digital Health",
-      "content": "Digital health records contain sensitive personal data that requires stringent protection. Healthcare institutions must enforce strict access controls, including unique user logins, secure passwords, and role-based permissions so staff only view records relevant to their duties. Breaches of patient confidentiality carry severe ethical and legal consequences. Nurses hold a professional duty to log out of workstations when leaving the bedside to prevent unauthorized viewing by visitors or colleagues."
+      "content": "Protecting patient health information is a legal and ethical obligation for all healthcare providers. Digital records are vulnerable to unauthorized access, cyber threats, and breaches if robust security measures are absent. Facilities must employ role-based access controls, encrypted databases, and strict password protocols to ensure staff only view records necessary for their specific duties. Nurses must never share their login credentials or leave active clinical workstations unattended in public view."
     },
     {
       "heading_id": "GNS113_U2_T2_h9",
       "order": 9,
       "title": "The Role of the Nurse in Managing and Utilizing EHRs",
-      "content": "Nurses are primary users of electronic health records, inputting vital signs, assessment findings, and medication administration details around the clock. Beyond data entry, nurses act as advocates for data accuracy, ensuring entries are timely and precise to prevent clinical errors. They also contribute valuable feedback to IT developers, helping refine user interfaces so software matches the fast-paced realities of bedside nursing care."
+      "content": "Nurses are the primary end-users of electronic health records, generating the bulk of daily patient data through vital signs, assessments, and care interventions. They act as data validators, ensuring that entries are accurate, timely, and objective. Furthermore, nurses provide feedback to IT departments on software usability flaws, bridging the gap between clinical workflow realities and technical system design. Active nurse participation guarantees that digital health tools genuinely support patient-centered care."
     }
   ]
 }
