@@ -12,38 +12,38 @@
     {
       "heading_id": "GNS217_U4_T9_h1",
       "order": 1,
-      "title": "Introduction to Histograms in Nursing Research",
-      "content": "A **histogram** is a specialized type of graphical bar chart used in statistics to display the **frequency distribution** of continuous numerical data. In nursing research and healthcare quality improvement, we often deal with numbers that can take any value within a range, such as a patient's age, body mass index, blood pressure readings, or length of hospital stay. A table full of these raw figures is difficult to digest. By grouping these continuous measurements into intervals called **bins** or classes, a histogram turns columns of numbers into a clear picture. The vertical axis shows how many observations fall into each bin, while the horizontal axis displays the scale of the measurement itself. This visual tool lets nurses quickly see the center, spread, and overall shape of a data set without getting lost in rows of spreadsheets."
+      "title": "Introduction to Histograms in Research",
+      "content": "Nursing research generates vast amounts of numerical data, from patient waiting times to blood pressure measurements. Making sense of these numbers requires visual tools that summarize data distribution. A histogram is a graphical representation that organizes a group of data points into user-specified ranges, known as bins or intervals. By displaying data this way, researchers can quickly see the central tendency, spread, and overall shape of a dataset without getting lost in raw figures."
     },
     {
       "heading_id": "GNS217_U4_T9_h2",
       "order": 2,
-      "title": "Characteristics and Anatomy of a Histogram",
-      "content": "Understanding a histogram requires looking at its distinct parts. The layout consists of two main axes and a series of adjacent rectangular bars:\n- **Horizontal Axis (X-axis)**: Represents the continuous variable being measured, marked off in equal numerical intervals or bins.\n- **Vertical Axis (Y-axis)**: Represents the frequency, showing how many times a value occurred within that specific interval.\n- **Bars**: The height of each bar corresponds to its frequency, and the width represents the size of the bin interval.\n- **Contiguity**: Unlike bar charts, the bars in a histogram touch each other with no gaps. This touching layout visually demonstrates that the data is continuous, flowing smoothly from one numerical interval right into the next."
+      "title": "Anatomy of a Histogram",
+      "content": "Understanding a histogram means knowing its two main axes and how the bars interact.\n- **Horizontal Axis (X-axis)**: Represents the continuous scale of the variable being measured, divided into adjacent intervals or bins.\n- **Vertical Axis (Y-axis)**: Represents the frequency, showing how many data points fall into each specific interval.\n- **Bars**: Unlike other charts, the vertical bars in a histogram touch each other because the data on the horizontal axis is continuous, leaving no gaps between intervals."
     },
     {
       "heading_id": "GNS217_U4_T9_h3",
       "order": 3,
-      "title": "Histograms Versus Bar Charts: Key Differences",
-      "content": "A common mistake in nursing reports is confusing a histogram with a standard bar chart. While both use rectangular bars, they serve entirely different purposes and represent distinct types of data.\n\n| Feature | Histogram | Bar Chart |\n| :--- | :--- | :--- |\n| **Data Type** | Continuous numerical data | Categorical or discrete data |\n| **Bar Spacing** | Bars touch each other (no gaps) | Bars have spaces between them |\n| **X-Axis Meaning** | Equal numerical intervals or bins | Distinct groups or categories |\n| **Order of Bars** | Must follow strict numerical order | Can be rearranged by size or preference |\n\nFor example, plotting patient satisfaction levels as 'Poor', 'Fair', and 'Good' requires a bar chart with spaces between categories. Plotting patient recovery times in days requires a histogram because time flows continuously."
+      "title": "Histograms Versus Bar Charts",
+      "content": "| Feature | Histogram | Bar Chart |\n| --- | --- | --- |\n| Data Type | Continuous numerical data | Discrete or categorical data |\n| Spacing | Bars touch with no gaps | Spaces exist between bars |\n| X-axis Meaning | Numerical intervals | Distinct categories or groups |"
     },
     {
       "heading_id": "GNS217_U4_T9_h4",
       "order": 4,
-      "title": "Step-by-Step Guide to Constructing a Histogram",
-      "content": "Building a basic histogram helps clarify how raw data becomes a visual summary. Follow these practical steps:\n1. **Collect and organize data**: Gather your continuous measurements, such as postoperative recovery times in hours, and find the lowest and highest values to determine the overall range.\n2. **Determine the number of bins**: Decide how many intervals you want. Usually, between 5 and 15 bins work well depending on the total sample size.\n3. **Calculate bin width**: Subtract the lowest value from the highest value and divide by the chosen number of bins. Round this to a convenient, easy-to-read number.\n4. **Set bin boundaries**: Create equal, non-overlapping numerical intervals that cover all your data points.\n5. **Tally the frequencies**: Count how many data values fall into each specific bin.\n6. **Draw the graph**: Plot the bin intervals along the horizontal axis and the tallies on the vertical axis, drawing touching bars for each interval."
+      "title": "Steps to Constructing a Histogram",
+      "content": "1. **Collect Data**: Gather the numerical measurements from your clinical audit or study.\n2. **Determine the Range**: Subtract the lowest value from the highest value to find the spread.\n3. **Select Bin Width**: Decide how many intervals to use and the size of each range, keeping bins equal in width.\n4. **Tally Frequencies**: Count how many data points fall into each bin.\n5. **Plot the Graph**: Draw the X and Y axes, then sketch the touching bars based on your tallies."
     },
     {
       "heading_id": "GNS217_U4_T9_h5",
       "order": 5,
-      "title": "Interpreting Distribution Shapes and Patterns",
-      "content": "Once a histogram is drawn, the overall shape of the bars reveals important characteristics about the underlying patient population or clinical process. A **symmetrical distribution** forms a classic bell shape, where the left and right sides mirror each other, indicating that most values cluster around a central average with fewer cases at the extremes. \n\nOften in healthcare, data is **skewed**. A **right-skewed (positively skewed)** distribution has a peak on the left with a long tail stretching to the right. This frequently happens with hospital length of stay or emergency wait times, where most patients are discharged quickly, but a small number stay for many days. Conversely, a **left-skewed (negatively skewed)** distribution has a tail pointing to the left, which might appear when looking at high test scores on a nursing competency exam where most students pass easily."
+      "title": "Interpreting Distribution Shapes",
+      "content": "The visual silhouette of a histogram tells a story about the underlying data. A symmetrical, bell-shaped distribution indicates that most data clusters in the middle with tapering tails on both sides. Conversely, skewed distributions reveal imbalances. A right-skewed histogram has a long tail trailing off to the right, showing that most values are low with a few unusually high outliers, such as length of hospital stay. Recognizing these shapes helps nurses understand clinical trends and population norms."
     },
     {
       "heading_id": "GNS217_U4_T9_h6",
       "order": 6,
-      "title": "Clinical Applications of Histograms in Healthcare Data",
-      "content": "Histograms are not just theoretical exercises for researchers; frontline nurses and healthcare managers use them to evaluate quality and safety. In infection control, a histogram can display the distribution of hand hygiene compliance scores across different shifts, highlighting whether poor compliance is an isolated incident or a systemic issue. In pharmacology, nurse researchers use histograms to examine how patients metabolize a new drug, tracking blood serum levels to see if a standard dosage creates a safe, normal distribution or causes dangerous peaks in vulnerable populations. By turning dry clinical metrics into visual histograms, multidisciplinary teams can spot trends, evaluate patient outcomes, and make data-driven decisions to improve hospital care."
+      "title": "Clinical Applications in Healthcare",
+      "content": "Histograms are valuable tools in quality improvement and clinical audits. Nurse managers use them to track patient wait times in emergency departments, monitoring whether triage times fall within acceptable policy limits. They also help analyze medication administration errors, patient weight distributions, and laboratory value variations. By turning raw numbers into visual trends, histograms support evidence-based decision-making in hospital administration."
     }
   ]
 }

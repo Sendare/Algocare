@@ -5,15 +5,15 @@
     "article_id": "GNS217_U4_T14",
     "topic_id": "GNS217_U4_T14",
     "difficulty": "recall",
-    "question": "What is the main reason we use a t-test in nursing research?",
+    "question": "What is the primary purpose of a t-test in nursing research?",
     "options": {
-      "A": "To measure the blood pressure of patients",
-      "B": "To compare the averages of two groups",
-      "C": "To calculate the total sample size needed",
-      "D": "To observe patient behavior in a clinic"
+      "A": "To measure the incidence of chronic diseases",
+      "B": "To compare means between two groups",
+      "C": "To determine the sample size for a study",
+      "D": "To calculate the percentage of patient survival"
     },
     "answer": "B",
-    "explanation": "Think of a t-test as a simple way to check if the average score of one group is genuinely different from another group. You've got this! [learn more](GNS217_U4_T14#GNS217_U4_T14_h1)"
+    "explanation": "A t-test evaluates whether the average values of two specific groups differ significantly from each other. [learn more](GNS217_U4_T14#GNS217_U4_T14_h1)"
   },
   {
     "question_id": "GNS217_U4_T14_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GNS217_U4_T14",
     "topic_id": "GNS217_U4_T14",
     "difficulty": "understanding",
-    "question": "When comparing two groups in a study, why can't researchers just look at raw averages and stop there?",
+    "question": "Why do nurse researchers use inferential statistics like the t-test?",
     "options": {
-      "A": "Hospital ethics boards forbid the use of raw data",
-      "B": "Raw averages cannot be added together mathematically",
-      "C": "Calculators are not accurate enough for raw numbers",
-      "D": "Differences might be caused by random chance rather than the intervention"
+      "A": "To summarize the basic demographics of the ward",
+      "B": "To check if study results happened by chance",
+      "C": "To replace the need for ethical committee approval",
+      "D": "To list the qualitative feedback from patients"
     },
-    "answer": "D",
-    "explanation": "Sometimes numbers differ purely by luck or coincidence! Statistical tests like the t-test help us see if our nursing intervention actually made the difference. [learn more](GNS217_U4_T14#GNS217_U4_T14_h1)"
+    "answer": "B",
+    "explanation": "Inferential statistics help determine if an intervention caused a real difference rather than random variation. [learn more](GNS217_U4_T14#GNS217_U4_T14_h1)"
   },
   {
     "question_id": "GNS217_U4_T14_h2_q1",
@@ -37,15 +37,15 @@
     "article_id": "GNS217_U4_T14",
     "topic_id": "GNS217_U4_T14",
     "difficulty": "recall",
-    "question": "What does a 'null hypothesis' usually say about two groups being compared?",
+    "question": "The null hypothesis always assumes which of the following?",
     "options": {
-      "A": "The first group always has a higher score",
-      "B": "The second group received a better treatment",
-      "C": "There is no real difference between them",
-      "D": "There are not enough patients in the study"
+      "A": "The alternative hypothesis is proven true",
+      "B": "The sample size is too small to analyze",
+      "C": "No difference exists between group means",
+      "D": "A strong positive correlation is present"
     },
     "answer": "C",
-    "explanation": "The null hypothesis assumes a boring baseline: that your new treatment didn't actually do anything special and the groups are essentially the same. [learn more](GNS217_U4_T14#GNS217_U4_T14_h2)"
+    "explanation": "The null hypothesis acts as a baseline assumption that the intervention had no effect whatsoever. [learn more](GNS217_U4_T14#GNS217_U4_T14_h2)"
   },
   {
     "question_id": "GNS217_U4_T14_h2_q2",
@@ -53,15 +53,15 @@
     "article_id": "GNS217_U4_T14",
     "topic_id": "GNS217_U4_T14",
     "difficulty": "understanding",
-    "question": "A researcher predicts that a new teaching session will change patient compliance rates. What kind of hypothesis is this?",
+    "question": "A researcher states that a new wound dressing changes healing time. What type of hypothesis is this?",
     "options": {
-      "A": "Control hypothesis",
-      "B": "Null hypothesis",
-      "C": "Alternative hypothesis",
-      "D": "Sample hypothesis"
+      "A": "Null hypothesis",
+      "B": "Descriptive hypothesis",
+      "C": "Retrospective hypothesis",
+      "D": "Alternative hypothesis"
     },
-    "answer": "C",
-    "explanation": "The alternative hypothesis is your exciting prediction as a researcher—it says, 'Yes! Our new nursing intervention made a real difference.' [learn more](GNS217_U4_T14#GNS217_U4_T14_h2)"
+    "answer": "D",
+    "explanation": "The alternative hypothesis proposes that a real relationship or difference exists due to the intervention. [learn more](GNS217_U4_T14#GNS217_U4_T14_h2)"
   },
   {
     "question_id": "GNS217_U4_T14_h3_q1",
@@ -69,15 +69,15 @@
     "article_id": "GNS217_U4_T14",
     "topic_id": "GNS217_U4_T14",
     "difficulty": "recall",
-    "question": "Which of these is a must-have rule for running a valid t-test?",
+    "question": "What type of data scale is required for the dependent variable in a t-test?",
     "options": {
-      "A": "The data must be continuous",
-      "B": "The sample size must be exactly one thousand",
-      "C": "There can be no variability in the data",
-      "D": "All patients must be over sixty"
+      "A": "Continuous scale",
+      "B": "Nominal scale",
+      "C": "Ordinal ranking",
+      "D": "Categorical scale"
     },
     "answer": "A",
-    "explanation": "T-tests need numbers you can measure on a scale (like weight, height, or test scores), rather than just yes/no categories. [learn more](GNS217_U4_T14#GNS217_U4_T14_h3)"
+    "explanation": "The t-test requires continuous numerical data like blood pressure readings or body temperature. [learn more](GNS217_U4_T14#GNS217_U4_T14_h3)"
   },
   {
     "question_id": "GNS217_U4_T14_h3_q2",
@@ -85,47 +85,47 @@
     "article_id": "GNS217_U4_T14",
     "topic_id": "GNS217_U4_T14",
     "difficulty": "understanding",
-    "question": "What does 'homogeneity of variance' mean when setting up a t-test?",
+    "question": "Homogeneity of variance means which of the following about the groups?",
     "options": {
-      "A": "The sample size of group one must double group two",
-      "B": "Every patient in the study must have the exact same score",
-      "C": "The average score of both groups must be identical",
-      "D": "Both groups have a similar amount of spread in their scores"
+      "A": "Their spreads or variances are roughly equal",
+      "B": "Their mean values must equal zero",
+      "C": "Their distributions must be completely skewed",
+      "D": "Their sample sizes must be identical"
     },
-    "answer": "D",
-    "explanation": "Don't let the big grammar scare you! It just means the scatter or spread of scores is roughly balanced between your two groups. [learn more](GNS217_U4_T14#GNS217_U4_T14_h3)"
+    "answer": "A",
+    "explanation": "Homogeneity of variance ensures that the dispersion of data points is similar across the groups being compared. [learn more](GNS217_U4_T14#GNS217_U4_T14_h3)"
   },
   {
     "question_id": "GNS217_U4_T14_h4_q1",
     "heading_id": "GNS217_U4_T14_h4",
     "article_id": "GNS217_U4_T14",
     "topic_id": "GNS217_U4_T14",
-    "difficulty": "recall",
-    "question": "When would you use an independent samples t-test?",
+    "difficulty": "understanding",
+    "question": "Which test should a nurse use to compare blood pressure in the same patients before and after exercise?",
     "options": {
-      "A": "When comparing two completely separate groups of people",
-      "B": "When there is no control group in the study",
-      "C": "When analyzing categorical data with three or more groups",
-      "D": "When measuring the same patients twice over time"
+      "A": "Analysis of variance",
+      "B": "Chi-square test of independence",
+      "C": "Independent samples t-test",
+      "D": "Paired samples t-test"
     },
-    "answer": "A",
-    "explanation": "Think 'independent = separate.' Use this when you are comparing two totally different sets of patients, like Ward A versus Ward B. [learn more](GNS217_U4_T14#GNS217_U4_T14_h4)"
+    "answer": "D",
+    "explanation": "Paired t-tests are used when the same subjects are measured twice under different conditions. [learn more](GNS217_U4_T14#GNS217_U4_T14_h4)"
   },
   {
     "question_id": "GNS217_U4_T14_h4_q2",
     "heading_id": "GNS217_U4_T14_h4",
     "article_id": "GNS217_U4_T14",
     "topic_id": "GNS217_U4_T14",
-    "difficulty": "application",
-    "question": "A nurse checks the BP of 20 patients, gives them a new drug, and checks their BP again a month later. Which test fits best?",
+    "difficulty": "recall",
+    "question": "An independent samples t-test is used for which type of study design?",
     "options": {
-      "A": "Independent samples t-test",
-      "B": "Analysis of variance (ANOVA)",
-      "C": "Chi-square test of independence",
-      "D": "Paired samples t-test"
+      "A": "Measuring one group at three different times",
+      "B": "Counting frequencies of disease outbreaks",
+      "C": "Comparing two separate groups of patients",
+      "D": "Observing a single patient over a whole year"
     },
-    "answer": "D",
-    "explanation": "Because you are tracking the exact same group of patients before and after an intervention, they form a 'pair'! A paired t-test is perfect here. [learn more](GNS217_U4_T14#GNS217_U4_T14_h4)"
+    "answer": "C",
+    "explanation": "Independent t-tests analyze two distinct, unrelated groups to see if their averages differ. [learn more](GNS217_U4_T14#GNS217_U4_T14_h4)"
   },
   {
     "question_id": "GNS217_U4_T14_h5_q1",
@@ -133,15 +133,15 @@
     "article_id": "GNS217_U4_T14",
     "topic_id": "GNS217_U4_T14",
     "difficulty": "recall",
-    "question": "In the formula for a t-statistic, what does the top number (numerator) show?",
+    "question": "What does a larger t-statistic generally indicate about two groups?",
     "options": {
-      "A": "The difference between the two group averages",
-      "B": "The predetermined p-value threshold",
-      "C": "The total number of participants in the study",
-      "D": "The standard error or internal variation"
+      "A": "A greater difference between their means",
+      "B": "A failure to meet normal distribution",
+      "C": "A higher rate of dropouts in the trial",
+      "D": "A smaller overall sample size in the study"
     },
     "answer": "A",
-    "explanation": "The top part highlights the main event: the actual difference you found between the averages of your two groups. [learn more](GNS217_U4_T14#GNS217_U4_T14_h5)"
+    "explanation": "The t-statistic grows larger when the distance between group averages increases relative to data variability. [learn more](GNS217_U4_T14#GNS217_U4_T14_h5)"
   },
   {
     "question_id": "GNS217_U4_T14_h5_q2",
@@ -149,15 +149,15 @@
     "article_id": "GNS217_U4_T14",
     "topic_id": "GNS217_U4_T14",
     "difficulty": "understanding",
-    "question": "How does heavy data scatter (noise) inside your groups affect your final t-score?",
+    "question": "The denominator of the t-test formula primarily accounts for which factor?",
     "options": {
-      "A": "It makes the t-statistic smaller",
-      "B": "It makes the t-statistic larger",
-      "C": "It has no effect on the t-statistic",
-      "D": "It turns the t-statistic into a negative decimal"
+      "A": "The total number of hospital wards",
+      "B": "The duration of the nursing shift",
+      "C": "The exact cost of the medical intervention",
+      "D": "Variability within the sample groups"
     },
-    "answer": "A",
-    "explanation": "Since variability sits at the bottom (denominator) of the math formula, a bigger scatter makes your final t-score shrink. [learn more](GNS217_U4_T14#GNS217_U4_T14_h5)"
+    "answer": "D",
+    "explanation": "The denominator measures sample variance or spread, which helps scale the difference between means. [learn more](GNS217_U4_T14#GNS217_U4_T14_h5)"
   },
   {
     "question_id": "GNS217_U4_T14_h6_q1",
@@ -165,15 +165,15 @@
     "article_id": "GNS217_U4_T14",
     "topic_id": "GNS217_U4_T14",
     "difficulty": "recall",
-    "question": "What standard p-value do nursing researchers usually look for to prove statistical significance?",
+    "question": "What is the standard p-value threshold used to determine statistical significance in healthcare?",
     "options": {
-      "A": "0.50",
-      "B": "5.00",
-      "C": "0.05",
-      "D": "0.95"
+      "A": "0.95",
+      "B": "0.05",
+      "C": "1.00",
+      "D": "0.50"
     },
-    "answer": "C",
-    "explanation": "0.05 is the gold standard in research! It tells us there's a 5% or lower chance our results happened purely by random luck. [learn more](GNS217_U4_T14#GNS217_U4_T14_h6)"
+    "answer": "B",
+    "explanation": "A p-value of less than 0.05 is the conventional cutoff for rejecting the null hypothesis. [learn more](GNS217_U4_T14#GNS217_U4_T14_h6)"
   },
   {
     "question_id": "GNS217_U4_T14_h6_q2",
@@ -181,46 +181,46 @@
     "article_id": "GNS217_U4_T14",
     "topic_id": "GNS217_U4_T14",
     "difficulty": "understanding",
-    "question": "If a research study reports a p-value of 0.02, what does that actually mean for the nurse?",
+    "question": "A calculated p-value of 0.02 means what about the study results?",
     "options": {
-      "A": "Ninety-eight percent of the patients experienced no relief",
-      "B": "There is a two percent chance the results happened by random chance",
-      "C": "The sample size used in the research was too small",
-      "D": "The intervention failed to show any measurable effect"
+      "A": "There is a 2% chance the results occurred by random error",
+      "B": "The null hypothesis must be accepted as absolute truth",
+      "C": "The sample size used in the study was far too small",
+      "D": "The intervention was effective in 98% of all hospitals"
     },
-    "answer": "B",
-    "explanation": "P-values measure probability. A 0.02 p-value means you can be 98% confident your results are the real deal, not just a fluke. [learn more](GNS217_U4_T14#GNS217_U4_T14_h6)"
+    "answer": "A",
+    "explanation": "A p-value represents the exact probability of obtaining the observed results purely by chance. [learn more](GNS217_U4_T14#GNS217_U4_T14_h6)"
   },
   {
     "question_id": "GNS217_U4_T14_h7_q1",
     "heading_id": "GNS217_U4_T14_h7",
     "article_id": "GNS217_U4_T14",
     "topic_id": "GNS217_U4_T14",
-    "difficulty": "application",
-    "question": "A study compares a new diet to standard care for weight loss and finds p = 0.001. What should a nurse take away from this?",
+    "difficulty": "understanding",
+    "question": "Why must nurses distinguish between statistical significance and clinical importance?",
     "options": {
-      "A": "The diet has no clinical value whatsoever",
-      "B": "The weight loss difference is statistically significant",
-      "C": "All patients lost the exact same amount of weight",
-      "D": "The study had a major error in data collection"
+      "A": "Patient samples never reflect real-world nursing conditions",
+      "B": "Clinical importance only matters when p-values are ignored",
+      "C": "A statistically significant difference might be too small to help patients",
+      "D": "Statistical tests cannot be used in actual hospital wards"
     },
-    "answer": "B",
-    "explanation": "A tiny p-value like 0.001 is way below 0.05, which gives us strong statistical confidence that the diet made a real difference. [learn more](GNS217_U4_T14#GNS217_U4_T14_h7)"
+    "answer": "C",
+    "explanation": "Massive sample sizes can make trivial medical differences look statistically significant without practical clinical value. [learn more](GNS217_U4_T14#GNS217_U4_T14_h7)"
   },
   {
     "question_id": "GNS217_U4_T14_h7_q2",
     "heading_id": "GNS217_U4_T14_h7",
     "article_id": "GNS217_U4_T14",
     "topic_id": "GNS217_U4_T14",
-    "difficulty": "understanding",
-    "question": "Why shouldn't a nurse rely *only* on the p-value when deciding to change how patients are cared for?",
+    "difficulty": "application",
+    "question": "A research article reports a new wound healing cream reduced healing time with p < 0.01. What should the nurse do?",
     "options": {
-      "A": "Hospital administrators only look at qualitative nurse interviews",
-      "B": "Journal articles often hide the actual t-statistic value",
-      "C": "P-values cannot be trusted when sample sizes are large",
-      "D": "Statistical significance does not guarantee meaningful clinical impact"
+      "A": "Assume the data proves the cream works for every disease",
+      "B": "Ignore the finding because p-values are never reliable",
+      "C": "Discard the study because it used an independent t-test",
+      "D": "Consider adopting the practice based on strong evidence"
     },
     "answer": "D",
-    "explanation": "Just because a finding is statistically 'real' doesn't mean it makes a big enough difference to change everyday bedside nursing practice. Always look at the clinical picture! [learn more](GNS217_U4_T14#GNS217_U4_T14_h7)"
+    "explanation": "A low p-value indicates reliable research findings that can support evidence-based nursing interventions. [learn more](GNS217_U4_T14#GNS217_U4_T14_h7)"
   }
 ]
