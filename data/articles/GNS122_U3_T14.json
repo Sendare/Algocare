@@ -11,37 +11,43 @@
       "heading_id": "GNS122_U3_T14_h1",
       "order": 1,
       "title": "Introduction to Stock Cards and Inventory Control in Nursing",
-      "content": "A **stock card** is a physical or digital ledger used in healthcare facilities to track the exact quantity of a specific item, drug, or supply on hand. In clinical settings, inventory control is not just an administrative task for storekeepers; it is a core nursing responsibility. Ward nurses frequently manage floor stock, ranging from everyday consumables like gauze and syringes to critical emergency medications. Without accurate tracking, supplies run out unexpectedly, putting patient safety at direct risk during emergencies. Conversely, hoarding excess supplies ties up valuable hospital capital and leads to expiration before use. Stock cards bridge this gap by providing a real-time historical record of every item received, used, or discarded on the ward."
+      "content": "A stock card is a physical or digital ledger used in healthcare facilities to track the exact quantity of supplies, drugs, and commodities available in a specific unit or pharmacy. In Nigerian clinical settings, from primary health centres to tertiary teaching hospitals, proper inventory control prevents running out of life-saving materials like syringes, cotton wool, and anti-malarial drugs. Nurses often manage ward stores, making stock card maintenance a core clinical competency rather than a purely administrative chore. Every time an item enters or leaves the ward, the ledger must reflect the change immediately."
     },
     {
       "heading_id": "GNS122_U3_T14_h2",
       "order": 2,
       "title": "Anatomy of a Standard Stock Card: Key Terms and Fields",
-      "content": "Reading and maintaining a stock card requires familiarity with standard fields found across healthcare facilities. Every card is dedicated to a single item description, including its dosage strength and unit of issue.\n\n- **Date**: The exact day a transaction occurred.\n- **Reference / Source**: Where items came from (e.g., central medical store) or where they went (e.g., Treatment Room). \n- **Quantity Received**: The number of units newly added to the inventory.\n- **Quantity Issued**: The number of units taken out for patient care or ward use.\n- **Balance**: The running total of remaining stock after each transaction.\n- **Signature**: The initials or name of the staff member who performed or verified the entry."
+      "content": "- **Item Description**: The specific name, strength, and dosage form of the commodity, such as Paracetamol 500mg tablets.\n- **Unit of Issue**: How the item is counted, whether in tablets, ampoules, boxes, or rolls.\n- **Date**: The exact day a transaction occurs.\n- **Receipts**: Quantities of stock newly delivered into the ward store from the main pharmacy or central medical store.\n- **Issues**: Quantities of stock taken out of the store for patient use or ward procedures.\n- **Balance**: The running total of stock remaining after every receipt or issue.\n- **Signature**: The initials or signature of the nurse or officer authorizing or receiving the transaction."
     },
     {
       "heading_id": "GNS122_U3_T14_h3",
       "order": 3,
       "title": "Calculating Stock Levels: Minimum, Maximum, and Reorder Levels",
-      "content": "Effective inventory management relies on setting clear numerical thresholds on stock cards. These limits prevent both shortages and overstocking.\n\n- **Minimum Level (Safety Stock)**: The absolute lowest threshold. If stock drops to this point, you are at high risk of a stockout before new supplies arrive.\n- **Maximum Level**: The upper limit of stock the ward should hold. Exceeding this leads to congestion and potential wastage from expiration.\n- **Reorder Level**: A predetermined trigger point above the minimum level. When the balance hits this number, it is time to submit a new requisition.\n- **Lead Time**: The duration it takes from submitting an order to receiving the items on the ward."
+      "content": "Effective inventory management relies on setting strict numerical thresholds to guide ordering decisions. \n\n- **Minimum Stock Level (Safety Stock)**: The absolute lowest threshold of supplies a ward must maintain. Dropping below this level risks a complete stockout before new orders arrive.\n- **Maximum Stock Level**: The upper limit of stock a facility should hold. Storing more than this ties up capital, increases expiration risks, and creates clutter in small ward stores.\n- **Reorder Level**: A predetermined point between maximum and minimum stock. When the balance drops to this exact number, it serves as an automatic trigger to submit a new requisition for supplies."
     },
     {
       "heading_id": "GNS122_U3_T14_h4",
       "order": 4,
       "title": "Routine Monitoring and Recording Stock Movements",
-      "content": "A stock card is only useful if it reflects reality. Every single time items are removed from the storage cupboard for patient use, the stock card must be updated immediately. Waiting until the end of the shift or the end of the week introduces memory lapses and missing entries. Common errors include forgetting to record broken items, failing to document returned unused supplies, or making simple arithmetic mistakes when subtracting issues from the balance. Regular physical audits—such as counting high-risk or fast-moving items at the change of each shift—help catch these discrepancies early before they snowball into major inventory losses."
+      "content": "Stock cards must be updated immediately upon every transaction, not at the end of the shift or week. Delaying entries leads to missing records, forgotten quantities, and inaccurate balances. Nurses conducting routine counts must physically verify items on the shelf against the numbers written on the card. Discrepancies between physical items and ledger balances require immediate investigation. Regular physical inventory audits protect against theft, spoilage, and misplacement of essential medical commodities."
     },
     {
       "heading_id": "GNS122_U3_T14_h5",
       "order": 5,
-      "title": "Placing an Order and Preventing Stockouts",
-      "content": "When the stock balance reaches the reorder level, the nurse must prepare a requisition form. This process involves calculating the exact quantity needed to bring the stock back up to the maximum level without exceeding it. Good ordering practice considers seasonal disease patterns, such as ordering more anti-malaria medications or oral rehydration salts ahead of the rainy season. A **stockout** occurs when an item is completely unavailable when needed for patient care. Preventing stockouts requires discipline, accurate record-keeping, and respecting lead times so that orders arrive before safety buffers are exhausted."
+      "title": "Identifying When and How to Place an Order",
+      "content": "Requisitioning supplies requires careful calculation of consumption rates and lead times. Lead time is the duration between placing an order and receiving the physical items in the ward. If lead time is long, the reorder level must be set higher to prevent a stockout while waiting. When the balance hits the reorder point, the nurse fills out a requisition form detailing exact quantities needed, referencing current stock card balances to justify the request."
     },
     {
       "heading_id": "GNS122_U3_T14_h6",
       "order": 6,
       "title": "Receiving, Inspecting, and Updating Stock Records",
-      "content": "Receiving new stock is more than just dumping boxes onto the ward shelf. Every delivery must be carefully inspected against the delivery note and the original requisition. Nurses must check for damaged packaging, incorrect product strengths, and short shipments where fewer items arrived than were billed. Crucially, the nurse must check expiration dates on all incoming items; products nearing expiration should be rejected or flagged. Once inspection is complete, the new quantities are immediately added to the stock card, bringing the balance up and signing off on the receipt."
+      "content": "When ordered items arrive from the pharmacy or medical store, nurses must not sign the delivery note blindly. Every delivery requires physical inspection for quantity accuracy, damaged packaging, and correct batch numbers. Expiration dates must be checked immediately; short-dated stock should be flagged or rejected if it cannot be used in time. Once verified, the received quantities are entered into the receipts column of the stock card, and the new balance is calculated before storing the items properly."
+    },
+    {
+      "heading_id": "GNS122_U3_T14_h7",
+      "order": 7,
+      "title": "Preventing Stockouts, Wastage, and Discrepancies",
+      "content": "Poor inventory practices lead directly to compromised patient care and financial loss for health facilities. Stockouts halt emergency treatments, while overstocking leads to expired medicines filling shelves. Facilities apply the **FEFO** principle (First Expire, First Out), ensuring that items with the earliest expiration dates are used before newer stock. Regular auditing, secure storage locking, and strict adherence to stock card ledgers eliminate discrepancies and safeguard public health resources."
     }
   ]
 }
