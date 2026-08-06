@@ -5,15 +5,15 @@
     "article_id": "GNS221_U2_T11",
     "topic_id": "GNS221_U2_T11",
     "difficulty": "recall",
-    "question": "What do standard Liver Function Tests (LFTs) primarily check in the blood?",
+    "question": "What do standard liver function tests primarily measure in the blood?",
     "options": {
-      "A": "Red blood cell count and hemoglobin levels",
-      "B": "Enzymes and proteins related to the liver",
-      "C": "Electrolytes and kidney filtration rates",
-      "D": "Clotting factors only produced in the bone marrow"
+      "A": "Specific serum enzymes, proteins, and waste products",
+      "B": "Serum electrolyte and blood urea nitrogen levels",
+      "C": "Arterial blood gas and oxygen saturation values",
+      "D": "Circulating red blood cell and platelet counts"
     },
-    "answer": "B",
-    "explanation": "You've got this! LFTs simply look at substances made, processed, or released by the liver to see how well it's doing its job. [learn more](GNS221_U2_T11#GNS221_U2_T11_h1)"
+    "answer": "A",
+    "explanation": "LFT panels specifically target blood markers such as enzymes and proteins to evaluate hepatic health. [learn more](GNS221_U2_T11#GNS221_U2_T11_h1)"
   },
   {
     "question_id": "GNS221_U2_T11_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GNS221_U2_T11",
     "topic_id": "GNS221_U2_T11",
     "difficulty": "understanding",
-    "question": "Why can it be a bit misleading to call every test in an LFT panel a 'function' test?",
+    "question": "Why can the name 'liver function tests' be a bit misleading?",
     "options": {
-      "A": "They can only be performed after a surgical liver biopsy",
-      "B": "Some markers measure cell damage rather than actual working capacity",
-      "C": "They measure waste products filtered exclusively by the kidneys",
-      "D": "They only measure the gallbladder and not the liver tissue"
+      "A": "They only detect diseases of the gallbladder rather than the liver tissue",
+      "B": "Many components measure cell damage and waste removal rather than actual metabolic work",
+      "C": "Results change completely within minutes of eating food",
+      "D": "The tests are performed on urine samples instead of whole blood"
     },
     "answer": "B",
-    "explanation": "Great thinking! Tests like transaminases actually show us if liver cells are injured or leaking, rather than directly measuring how much work the liver can do. [learn more](GNS221_U2_T11#GNS221_U2_T11_h1)"
+    "explanation": "Markers like enzymes indicate cell injury or bile flow rather than direct metabolic output. [learn more](GNS221_U2_T11#GNS221_U2_T11_h1)"
   },
   {
     "question_id": "GNS221_U2_T11_h2_q1",
@@ -37,31 +37,31 @@
     "article_id": "GNS221_U2_T11",
     "topic_id": "GNS221_U2_T11",
     "difficulty": "recall",
-    "question": "Which liver enzyme is known to be more specific to liver cell injury?",
+    "question": "Which enzyme is the most specific marker for liver cell injury?",
     "options": {
-      "A": "AST",
-      "B": "Amylase",
-      "C": "ALT",
-      "D": "Lipase"
+      "A": "Alanine aminotransferase",
+      "B": "Gamma-glutamyl transferase",
+      "C": "Alkaline phosphatase",
+      "D": "Aspartate aminotransferase"
     },
-    "answer": "C",
-    "explanation": "Spot on! Alanine aminotransferase (ALT) is concentrated mostly inside liver cells, making it a reliable red flag when liver tissue is damaged. [learn more](GNS221_U2_T11#GNS221_U2_T11_h2)"
+    "answer": "A",
+    "explanation": "ALT is found mostly inside liver cells, making it a targeted indicator of liver tissue damage. [learn more](GNS221_U2_T11#GNS221_U2_T11_h2)"
   },
   {
     "question_id": "GNS221_U2_T11_h2_q2",
     "heading_id": "GNS221_U2_T11_h2",
     "article_id": "GNS221_U2_T11",
     "topic_id": "GNS221_U2_T11",
-    "difficulty": "application",
-    "question": "A patient comes in with a suspected paracetamol overdose. Which LFT enzyme results will you expect to shoot up first?",
+    "difficulty": "understanding",
+    "question": "An AST to ALT ratio greater than 2:1 strongly suggests which condition?",
     "options": {
-      "A": "Albumin and total protein",
-      "B": "ALT and AST",
-      "C": "Amylase and lipase",
-      "D": "Blood urea nitrogen and creatinine"
+      "A": "Iron overload syndrome",
+      "B": "Alcoholic liver disease",
+      "C": "Acute viral hepatitis",
+      "D": "Obstructive jaundice"
     },
     "answer": "B",
-    "explanation": "Well done! Too much paracetamol causes sudden injury to liver cells, spilling intracellular enzymes like ALT and AST quickly into the bloodstream. [learn more](GNS221_U2_T11#GNS221_U2_T11_h2)"
+    "explanation": "Chronic alcohol-related damage typically releases much higher levels of AST compared to ALT. [learn more](GNS221_U2_T11#GNS221_U2_T11_h2)"
   },
   {
     "question_id": "GNS221_U2_T11_h3_q1",
@@ -69,15 +69,15 @@
     "article_id": "GNS221_U2_T11",
     "topic_id": "GNS221_U2_T11",
     "difficulty": "recall",
-    "question": "What is the main reason a patient's serum bilirubin level shoots up?",
+    "question": "Which enzyme helps confirm that a high alkaline phosphatase level comes from the liver?",
     "options": {
-      "A": "Low dietary intake of essential amino acids",
-      "B": "Excessive production of red blood cells in the kidneys",
-      "C": "Impaired liver processing or bile duct blockage",
-      "D": "Dehydration from severe vomiting and diarrhea"
+      "A": "Serum creatinine kinase",
+      "B": "Gamma-glutamyl transferase",
+      "C": "Aspartate aminotransferase",
+      "D": "Alanine aminotransferase"
     },
-    "answer": "C",
-    "explanation": "Exactly! Bilirubin builds up in the blood when the liver is struggling to process it or when something is blocking the bile passages. [learn more](GNS221_U2_T11#GNS221_U2_T11_h3)"
+    "answer": "B",
+    "explanation": "GGT rises along with ALP in liver and bile duct disorders, but stays normal during bone disorders. [learn more](GNS221_U2_T11#GNS221_U2_T11_h3)"
   },
   {
     "question_id": "GNS221_U2_T11_h3_q2",
@@ -85,15 +85,15 @@
     "article_id": "GNS221_U2_T11",
     "topic_id": "GNS221_U2_T11",
     "difficulty": "understanding",
-    "question": "Why is a low blood albumin level usually a sign of long-standing (chronic) liver trouble rather than a sudden issue?",
+    "question": "A high alkaline phosphatase level with a normal GGT level most likely points to what?",
     "options": {
-      "A": "Albumin is stored in large amounts in fat tissue before being released",
-      "B": "Acute liver injury causes albumin to temporarily hide inside the kidneys",
-      "C": "Albumin has a long half-life, so levels drop slowly over weeks of poor production",
-      "D": "The body stops producing red blood cells before it stops making albumin"
+      "A": "Severe acute viral hepatitis type B",
+      "B": "Advanced alcoholic cirrhosis of the liver",
+      "C": "A non-hepatic source such as bone growth or pathology",
+      "D": "Obstructive gallstones within the common bile duct"
     },
     "answer": "C",
-    "explanation": "You're getting the hang of this! Because albumin stays in circulation for about three weeks, it takes a while of poor liver production for levels to noticeably crash. [learn more](GNS221_U2_T11#GNS221_U2_T11_h3)"
+    "explanation": "Because GGT is specific to the liver and bile system, a normal GGT rules out a liver origin for high ALP. [learn more](GNS221_U2_T11#GNS221_U2_T11_h3)"
   },
   {
     "question_id": "GNS221_U2_T11_h4_q1",
@@ -101,15 +101,15 @@
     "article_id": "GNS221_U2_T11",
     "topic_id": "GNS221_U2_T11",
     "difficulty": "recall",
-    "question": "Which clinical sign will immediately make a doctor or nurse think of ordering a liver function panel?",
+    "question": "Why is serum albumin a better indicator of chronic rather than acute liver disease?",
     "options": {
-      "A": "Frequent coughing",
-      "B": "Painful urination",
-      "C": "Jaundice",
-      "D": "Swollen ankles from heart failure"
+      "A": "It has a long half-life of approximately twenty days",
+      "B": "It fluctuates wildly with every meal consumed",
+      "C": "It is stored in large amounts inside muscle tissues",
+      "D": "It is rapidly cleared by the kidneys during stress"
     },
-    "answer": "C",
-    "explanation": "Spot on! That yellowing of the eyes and skin (jaundice) tells us bilirubin isn't clearing properly, making LFTs a top priority. [learn more](GNS221_U2_T11#GNS221_U2_T11_h4)"
+    "answer": "A",
+    "explanation": "Albumin takes weeks to drop significantly, making it useful for tracking chronic synthetic decline. [learn more](GNS221_U2_T11#GNS221_U2_T11_h4)"
   },
   {
     "question_id": "GNS221_U2_T11_h4_q2",
@@ -117,46 +117,78 @@
     "article_id": "GNS221_U2_T11",
     "topic_id": "GNS221_U2_T11",
     "difficulty": "understanding",
-    "question": "What does a high Alkaline Phosphatase (ALP) level mostly point toward?",
+    "question": "A sudden delay in the prothrombin time (PT) in a patient points directly to what?",
     "options": {
-      "A": "Severe acute viral hepatitis infection",
-      "B": "Chronic kidney filtration failure",
-      "C": "Bile duct obstruction or bone activity",
-      "D": "Massive breakdown of red blood cells"
+      "A": "Impaired synthesis of blood clotting factors by the liver",
+      "B": "Excessive dietary intake of vitamin K rich green vegetables",
+      "C": "Decreased production of serum albumin by renal tubules",
+      "D": "Rapid destruction of circulating red blood cells in the spleen"
     },
-    "answer": "C",
-    "explanation": "Brilliant! ALP hangs out in the bile ducts and bones, so high numbers usually point your clinical suspicion toward biliary issues or bone growth/turnover. [learn more](GNS221_U2_T11#GNS221_U2_T11_h4)"
+    "answer": "A",
+    "explanation": "Clotting factors have short half-lives, so liver failure quickly affects how long blood takes to clot. [learn more](GNS221_U2_T11#GNS221_U2_T11_h4)"
   },
   {
     "question_id": "GNS221_U2_T11_h5_q1",
     "heading_id": "GNS221_U2_T11_h5",
     "article_id": "GNS221_U2_T11",
     "topic_id": "GNS221_U2_T11",
-    "difficulty": "understanding",
-    "question": "Why do you need to watch the needle site extra carefully after drawing blood from someone with severe liver disease?",
+    "difficulty": "recall",
+    "question": "Which clinical sign commonly prompts a doctor to order a liver function test panel?",
     "options": {
-      "A": "Their veins are usually completely collapsed from chronic fluid overload",
-      "B": "Their skin is too fragile to tolerate standard adhesive tape",
-      "C": "They often have poor clotting due to low production of clotting factors",
-      "D": "Local anesthetics used during the draw can cause severe allergic reactions"
+      "A": "Persistent lower left abdominal cramping",
+      "B": "Acute pain radiating down the left arm",
+      "C": "Swelling of the lower legs with clear urine",
+      "D": "Jaundice or yellowing of the eyes and skin"
     },
-    "answer": "C",
-    "explanation": "You nailed it! A struggling liver can't pump out enough clotting proteins, meaning your patient is at a higher risk of prolonged bleeding or bruising after a needle stick. [learn more](GNS221_U2_T11#GNS221_U2_T11_h5)"
+    "answer": "D",
+    "explanation": "Jaundice points to problems with bilirubin processing, making liver tests essential to investigate. [learn more](GNS221_U2_T11#GNS221_U2_T11_h5)"
   },
   {
     "question_id": "GNS221_U2_T11_h5_q2",
     "heading_id": "GNS221_U2_T11_h5",
     "article_id": "GNS221_U2_T11",
     "topic_id": "GNS221_U2_T11",
-    "difficulty": "recall",
-    "question": "Which of these tasks is NOT part of a nurse's daily responsibilities when dealing with LFTs?",
+    "difficulty": "understanding",
+    "question": "Why are baseline and follow-up LFTs necessary for patients on long-term medications?",
     "options": {
-      "A": "Monitoring the blood draw site for bleeding afterward",
-      "B": "Diagnosing the specific stage of cirrhosis from the lab slip",
-      "C": "Ensuring proper patient preparation and fasting if required",
-      "D": "Checking patient medication history for drugs that stress the liver"
+      "A": "To monitor for potential drug-induced liver damage",
+      "B": "To ensure the kidneys clear water-soluble drugs properly",
+      "C": "To prevent the development of nerve damage in the limbs",
+      "D": "To calculate exact daily calorie and fluid needs"
+    },
+    "answer": "A",
+    "explanation": "Many therapeutic drugs are processed by the liver and can cause unintended cellular injury over time. [learn more](GNS221_U2_T11#GNS221_U2_T11_h5)"
+  },
+  {
+    "question_id": "GNS221_U2_T11_h6_q1",
+    "heading_id": "GNS221_U2_T11_h6",
+    "article_id": "GNS221_U2_T11",
+    "topic_id": "GNS221_U2_T11",
+    "difficulty": "recall",
+    "question": "What complication during blood collection can falsely elevate serum AST levels?",
+    "options": {
+      "A": "Fasting for longer than eight hours",
+      "B": "Hemolysis of the blood specimen",
+      "C": "Applying a tourniquet for too long",
+      "D": "Using a small gauge butterfly needle"
     },
     "answer": "B",
-    "explanation": "That's right! We prep the patient, check medications, and keep them safe, but making the final disease diagnosis is the doctor's job. [learn more](GNS221_U2_T11#GNS221_U2_T11_h5)"
+    "explanation": "Ruptured red blood cells release intracellular AST and potassium into the sample, skewing results. [learn more](GNS221_U2_T11#GNS221_U2_T11_h6)"
+  },
+  {
+    "question_id": "GNS221_U2_T11_h6_q2",
+    "heading_id": "GNS221_U2_T11_h6",
+    "article_id": "GNS221_U2_T11",
+    "topic_id": "GNS221_U2_T11",
+    "difficulty": "understanding",
+    "question": "A patient asks if they must fast before a routine liver function test panel. What is the best nursing response?",
+    "options": {
+      "A": "You must consume a high protein meal immediately before the venipuncture",
+      "B": "Water intake must be restricted entirely starting the night before the test",
+      "C": "Most standard LFT panels do not require fasting, but check specific institutional orders",
+      "D": "Strict fasting for twenty-four hours is mandatory for accurate enzyme levels"
+    },
+    "answer": "C",
+    "explanation": "Routine LFTs are usually non-fasting, though specific panels combined with lipid profiles may require it. [learn more](GNS221_U2_T11#GNS221_U2_T11_h6)"
   }
 ]

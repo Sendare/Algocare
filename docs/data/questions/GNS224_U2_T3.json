@@ -5,15 +5,15 @@
     "article_id": "GNS224_U2_T3",
     "topic_id": "GNS224_U2_T3",
     "difficulty": "recall",
-    "question": "What is the main purpose of data interpretation in nursing research?",
+    "question": "What is the primary purpose of data interpretation in nursing research?",
     "options": {
-      "A": "To hide negative results from hospital administrators and staff",
-      "B": "To collect as many patient surveys as possible without analysis",
-      "C": "To make sure every research study costs less money to run",
-      "D": "To turn raw research findings into meaningful conclusions for care"
+      "A": "Writing the initial proposal for a study",
+      "B": "Recruiting patients for clinical trials",
+      "C": "Assigning meaning to collected research findings",
+      "D": "Collecting raw numbers from hospital wards"
     },
-    "answer": "D",
-    "explanation": "Data interpretation translates raw numbers and notes into clear findings that nurses can use to improve patient care. [learn more](GNS224_U2_T3#GNS224_U2_T3_h1)"
+    "answer": "C",
+    "explanation": "Data interpretation focuses on looking at processed data to understand what the results actually mean for patient care. [learn more](GNS224_U2_T3#GNS224_U2_T3_h1)"
   },
   {
     "question_id": "GNS224_U2_T3_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GNS224_U2_T3",
     "topic_id": "GNS224_U2_T3",
     "difficulty": "understanding",
-    "question": "Why is data interpretation so important before a hospital changes its nursing guidelines?",
+    "question": "Why must raw research data undergo interpretation before clinical application?",
     "options": {
-      "A": "It ensures new guidelines are based on proof rather than random chance",
-      "B": "It proves that nurses do not need to attend extra training workshops",
-      "C": "It stops doctors from making independent decisions about medication",
-      "D": "It guarantees that every single patient in the hospital gets cured"
+      "A": "Raw numbers alone do not automatically improve patient care",
+      "B": "Ethical boards forbid using raw data directly in wards",
+      "C": "Unprocessed data is always mathematically incorrect",
+      "D": "Hospital management requires all data to be converted into charts"
     },
     "answer": "A",
-    "explanation": "Interpreting data carefully helps researchers confirm that an intervention actually worked, preventing hospitals from adopting unproven ideas. [learn more](GNS224_U2_T3#GNS224_U2_T3_h1)"
+    "explanation": "Data must be analyzed and translated into meaningful insights before clinicians can safely apply the findings to practice. [learn more](GNS224_U2_T3#GNS224_U2_T3_h1)"
   },
   {
     "question_id": "GNS224_U2_T3_h2_q1",
@@ -37,15 +37,15 @@
     "article_id": "GNS224_U2_T3",
     "topic_id": "GNS224_U2_T3",
     "difficulty": "recall",
-    "question": "What must happen to qualitative data, like recorded patient interviews, before analysis?",
+    "question": "What is the first step performed on quantitative data before analysis begins?",
     "options": {
-      "A": "They must be transcribed word-for-word into written text",
-      "B": "They must be translated into three different foreign languages",
-      "C": "They must be deleted immediately to protect hospital files",
-      "D": "They must be converted entirely into bar charts and graphs"
+      "A": "Cleaning and structuring the data",
+      "B": "Destroying incomplete surveys",
+      "C": "Publishing the final results",
+      "D": "Interpreting the p-values"
     },
     "answer": "A",
-    "explanation": "Audio recordings of interviews need to be written out as text transcripts so researchers can read, code, and analyze the themes. [learn more](GNS224_U2_T3#GNS224_U2_T3_h2)"
+    "explanation": "Data cleaning and structuring involve checking for errors, missing values, and coding numbers properly before running statistics. [learn more](GNS224_U2_T3#GNS224_U2_T3_h2)"
   },
   {
     "question_id": "GNS224_U2_T3_h2_q2",
@@ -53,15 +53,15 @@
     "article_id": "GNS224_U2_T3",
     "topic_id": "GNS224_U2_T3",
     "difficulty": "application",
-    "question": "A researcher spots a few strange blood pressure numbers that look like typos in the database. What is the best first step?",
+    "question": "A researcher notices several blank responses in returned questionnaires. What should be done first?",
     "options": {
-      "A": "Ignore the mistakes and run the statistical analysis anyway",
-      "B": "Change the numbers randomly to fit the average reading",
-      "C": "Check the original paper records to verify the correct entry",
-      "D": "Delete all the patient records so they do not ruin the study"
+      "A": "Ignore the blanks and calculate final percentages",
+      "B": "Identify missing values and address them according to the study protocol",
+      "C": "Throw away the entire batch of questionnaires immediately",
+      "D": "Guess the missing answers based on other patient files"
     },
-    "answer": "C",
-    "explanation": "Data cleaning means checking suspicious entries against original source documents rather than guessing or deleting data carelessly. [learn more](GNS224_U2_T3#GNS224_U2_T3_h2)"
+    "answer": "B",
+    "explanation": "Proper data preparation requires identifying missing values so they can be handled correctly without biasing the results. [learn more](GNS224_U2_T3#GNS224_U2_T3_h2)"
   },
   {
     "question_id": "GNS224_U2_T3_h3_q1",
@@ -69,15 +69,15 @@
     "article_id": "GNS224_U2_T3",
     "topic_id": "GNS224_U2_T3",
     "difficulty": "recall",
-    "question": "Which descriptive statistic represents the exact middle value of a dataset?",
+    "question": "What does the median represent in a set of healthcare data?",
     "options": {
-      "A": "Mode",
-      "B": "Median",
-      "C": "Mean",
-      "D": "Standard deviation"
+      "A": "The exact middle value in an ordered dataset",
+      "B": "The average score calculated for all patients",
+      "C": "The most frequent symptom reported by patients",
+      "D": "The total spread of values around the mean"
     },
-    "answer": "B",
-    "explanation": "The median splits the dataset directly in half, with fifty percent of the values above it and fifty percent below. [learn more](GNS224_U2_T3#GNS224_U2_T3_h3)"
+    "answer": "A",
+    "explanation": "The median divides a ranked dataset into two equal halves, making it reliable when extreme values are present. [learn more](GNS224_U2_T3#GNS224_U2_T3_h3)"
   },
   {
     "question_id": "GNS224_U2_T3_h3_q2",
@@ -85,15 +85,15 @@
     "article_id": "GNS224_U2_T3",
     "topic_id": "GNS224_U2_T3",
     "difficulty": "understanding",
-    "question": "Why do researchers often prefer the median over the mean when looking at how long patients stay in the hospital?",
+    "question": "Which descriptive statistic is most easily distorted by extreme high or low values?",
     "options": {
-      "A": "The median is much harder to calculate using modern computer software",
-      "B": "Length of stay can only be measured in whole numbers of days",
-      "C": "A few patients staying an unusually long time can distort the average",
-      "D": "Hospital administrators refuse to look at mathematical averages"
+      "A": "Mode",
+      "B": "Median",
+      "C": "Mean",
+      "D": "Range midpoint"
     },
     "answer": "C",
-    "explanation": "Extreme outliers, like a patient staying 100 days, pull the mean way up, whereas the median stays stable and shows the typical experience. [learn more](GNS224_U2_T3#GNS224_U2_T3_h3)"
+    "explanation": "Because the mean includes every value in its mathematical calculation, a few extreme outliers can pull the average significantly higher or lower. [learn more](GNS224_U2_T3#GNS224_U2_T3_h3)"
   },
   {
     "question_id": "GNS224_U2_T3_h4_q1",
@@ -101,15 +101,15 @@
     "article_id": "GNS224_U2_T3",
     "topic_id": "GNS224_U2_T3",
     "difficulty": "recall",
-    "question": "What does a p-value of less than 0.05 generally tell us in a research study?",
+    "question": "What does a standard p-value of less than 0.05 indicate in research?",
     "options": {
-      "A": "The results are statistically significant and unlikely to be a fluke",
-      "B": "The researchers made a major calculation error in their software",
-      "C": "The study had five percent more patients drop out than expected",
-      "D": "The treatment plan worked for exactly five percent of the patients"
+      "A": "The result is unlikely to be due to random chance",
+      "B": "There is a 95 percent error rate in the data",
+      "C": "The study sample size was too small to be valid",
+      "D": "The clinical intervention caused direct patient harm"
     },
     "answer": "A",
-    "explanation": "A p-value below 0.05 shows strong evidence that the result didn't just happen by pure coincidence! [learn more](GNS224_U2_T3#GNS224_U2_T3_h4)"
+    "explanation": "A p-value below 0.05 serves as the conventional threshold to reject the idea that findings happened purely by luck. [learn more](GNS224_U2_T3#GNS224_U2_T3_h4)"
   },
   {
     "question_id": "GNS224_U2_T3_h4_q2",
@@ -117,15 +117,15 @@
     "article_id": "GNS224_U2_T3",
     "topic_id": "GNS224_U2_T3",
     "difficulty": "understanding",
-    "question": "Why must a nurse be careful not to confuse statistical significance with real clinical usefulness?",
+    "question": "Why must a nurse be cautious when a research paper highlights a statistically significant finding?",
     "options": {
-      "A": "Clinical importance only matters if the p-value is exactly equal to zero",
-      "B": "A tiny change in numbers can reach statistical significance in a huge study without helping patients much",
-      "C": "Statistical programs always hide the real health outcomes from the nursing staff",
-      "D": "Statistical significance is completely made up and has no place in modern hospital wards"
+      "A": "P-values above 0.05 are actually the safest to apply",
+      "B": "Statistical significance does not always mean clinical importance",
+      "C": "Significant results are always caused by measurement errors",
+      "D": "Statistically significant data cannot be published in journals"
     },
     "answer": "B",
-    "explanation": "If a study is massive, even a tiny, unimportant number change can look 'statistically significant' even if patients don't feel any real health benefit. [learn more](GNS224_U2_T3#GNS224_U2_T3_h4)"
+    "explanation": "A mathematical difference can be proven real by a study while remaining too small to change actual bedside nursing care. [learn more](GNS224_U2_T3#GNS224_U2_T3_h4)"
   },
   {
     "question_id": "GNS224_U2_T3_h5_q1",
@@ -133,15 +133,15 @@
     "article_id": "GNS224_U2_T3",
     "topic_id": "GNS224_U2_T3",
     "difficulty": "recall",
-    "question": "What is the primary focus of qualitative data analysis in healthcare research?",
+    "question": "What is the final synthesized product of qualitative data analysis called?",
     "options": {
-      "A": "Measuring the exact blood pressure drop after medication",
-      "B": "Counting how many hospital beds are filled each night",
-      "C": "Calculating exact drug dosages and patient body weights",
-      "D": "Exploring human experiences, feelings, and recurring themes"
+      "A": "Means",
+      "B": "Themes",
+      "C": "P-values",
+      "D": "Outliers"
     },
-    "answer": "D",
-    "explanation": "Qualitative research focuses on understanding the subjective experiences and perspectives of participants rather than measuring quantities. [learn more](GNS224_U2_T3#GNS224_U2_T3_h5)"
+    "answer": "B",
+    "explanation": "Qualitative analysis moves from raw text codes to categories and ultimately culminates in overarching descriptive themes. [learn more](GNS224_U2_T3#GNS224_U2_T3_h5)"
   },
   {
     "question_id": "GNS224_U2_T3_h5_q2",
@@ -149,47 +149,47 @@
     "article_id": "GNS224_U2_T3",
     "topic_id": "GNS224_U2_T3",
     "difficulty": "understanding",
-    "question": "How do researchers usually find common themes in qualitative interview notes?",
+    "question": "How does qualitative data interpretation differ fundamentally from quantitative analysis?",
     "options": {
-      "A": "By selecting only the longest interview and ignoring all the others",
-      "B": "By throwing away any interview answer that does not match their personal opinion",
-      "C": "By reading through the text repeatedly to identify patterns and grouping similar ideas",
-      "D": "By feeding every sentence into a calculator to find the mathematical mean"
+      "A": "It completely avoids reading transcripts or written notes",
+      "B": "It relies entirely on complex mathematical formulas and standard deviations",
+      "C": "It focuses on capturing human experiences and meanings rather than numbers",
+      "D": "It proves cause-and-effect relationships through laboratory trials"
     },
     "answer": "C",
-    "explanation": "Thematic analysis takes patience: researchers read the text over and over to spot patterns and group similar ideas together. [learn more](GNS224_U2_T3#GNS224_U2_T3_h5)"
+    "explanation": "Qualitative data deals with words and lived experiences, seeking to understand depth and context rather than measuring quantities. [learn more](GNS224_U2_T3#GNS224_U2_T3_h5)"
   },
   {
     "question_id": "GNS224_U2_T3_h6_q1",
     "heading_id": "GNS224_U2_T3_h6",
     "article_id": "GNS224_U2_T3",
     "topic_id": "GNS224_U2_T3",
-    "difficulty": "recall",
-    "question": "What does it mean to put research results into 'context'?",
+    "difficulty": "application",
+    "question": "A primary health clinic considers adopting a new triage protocol tested in a large tertiary hospital. What is the most important factor to check first?",
     "options": {
-      "A": "Translating the research report into three different languages",
-      "B": "Comparing new study findings with past literature and clinical realities",
-      "C": "Destroying old textbooks so staff only read the newest articles",
-      "D": "Increasing the hospital budget to match the research costs"
+      "A": "If the research paper used a p-value of exactly 0.01",
+      "B": "Whether the original study had more than one thousand subjects",
+      "C": "Whether the clinic has similar resources and patient demographics",
+      "D": "If the hospital researchers were registered nurses"
     },
-    "answer": "B",
-    "explanation": "Contextualization just means looking at how new findings fit alongside existing science and whether they make sense on a busy ward. [learn more](GNS224_U2_T3#GNS224_U2_T3_h6)"
+    "answer": "C",
+    "explanation": "Clinical contextualization requires checking if study settings and patient populations align with local real-world practice environments. [learn more](GNS224_U2_T3#GNS224_U2_T3_h6)"
   },
   {
     "question_id": "GNS224_U2_T3_h6_q2",
     "heading_id": "GNS224_U2_T3_h6",
     "article_id": "GNS224_U2_T3",
     "topic_id": "GNS224_U2_T3",
-    "difficulty": "application",
-    "question": "A clinic nurse reads about a brilliant new wound care gadget, but her clinic lacks the budget and steady electricity to run it. What should she consider?",
+    "difficulty": "understanding",
+    "question": "What does contextualizing research results mean for a practicing nurse?",
     "options": {
-      "A": "Whether the study findings fit the practical limitations of her local work environment",
-      "B": "Whether she should resign from her job for not having enough equipment",
-      "C": "Whether the researchers made a math error in their statistical calculations",
-      "D": "Whether all wound care studies should be banned from medical journals"
+      "A": "Translating all foreign research papers into local languages",
+      "B": "Repeating the exact research study inside a hospital ward",
+      "C": "Evaluating how study findings fit local resource limits and patient needs",
+      "D": "Accepting every published guideline without questioning the methods"
     },
-    "answer": "A",
-    "explanation": "Local context matters greatly. A great gadget is useless if your clinic doesn't have the resources or steady power to support it! [learn more](GNS224_U2_T3#GNS224_U2_T3_h6)"
+    "answer": "C",
+    "explanation": "Contextualization ensures that evidence is suitable and practical for the specific clinical environment where the nurse works. [learn more](GNS224_U2_T3#GNS224_U2_T3_h6)"
   },
   {
     "question_id": "GNS224_U2_T3_h7_q1",
@@ -197,15 +197,15 @@
     "article_id": "GNS224_U2_T3",
     "topic_id": "GNS224_U2_T3",
     "difficulty": "recall",
-    "question": "What is a 'confounding factor' in healthcare research?",
+    "question": "What is a confounding factor in healthcare research?",
     "options": {
-      "A": "A hospital policy that requires nurses to wear protective uniforms",
-      "B": "A type of patient interview question that cannot be transcribed",
-      "C": "A hidden variable that can distort the true relationship between cause and effect",
-      "D": "A mathematical mistake made when calculating the standard deviation"
+      "A": "An unmeasured variable that distorts the true study relationship",
+      "B": "A missing page in a published nursing journal",
+      "C": "A mathematical error made during the calculation of a mean",
+      "D": "The exact middle value found in quantitative datasets"
     },
-    "answer": "C",
-    "explanation": "A confounder is a sneaky hidden factor that makes it look like a treatment caused a result when something else actually played a major role. [learn more](GNS224_U2_T3#GNS224_U2_T3_h7)"
+    "answer": "A",
+    "explanation": "Confounders are hidden variables that can make an intervention look effective or harmful when something else is actually responsible. [learn more](GNS224_U2_T3#GNS224_U2_T3_h7)"
   },
   {
     "question_id": "GNS224_U2_T3_h7_q2",
@@ -213,15 +213,15 @@
     "article_id": "GNS224_U2_T3",
     "topic_id": "GNS224_U2_T3",
     "difficulty": "understanding",
-    "question": "Why is it important for a research paper to include a section about its own limitations?",
+    "question": "Why must researchers explicitly state the limitations of their study?",
     "options": {
-      "A": "It proves that the researchers spent a lot of money conducting the study",
-      "B": "It ensures that other scientists never try to research that topic again",
-      "C": "It shows honesty about potential flaws and stops readers from overgeneralizing conclusions",
-      "D": "It gives the journal editors an excuse to reject the paper before publication"
+      "A": "To prove that no confounding factors existed in the sample",
+      "B": "To eliminate the need for future replication studies",
+      "C": "To show transparency about potential flaws and biases in the findings",
+      "D": "To guarantee that the paper will be accepted by medical journals"
     },
     "answer": "C",
-    "explanation": "No study is 100% perfect. Admitting limitations helps other clinicians know where the findings might fall short so they don't overstate the results. [learn more](GNS224_U2_T3#GNS224_U2_T3_h7)"
+    "explanation": "Acknowledging limitations guides other clinicians on how cautiously they should interpret and apply the study results. [learn more](GNS224_U2_T3#GNS224_U2_T3_h7)"
   },
   {
     "question_id": "GNS224_U2_T3_h8_q1",
@@ -229,15 +229,15 @@
     "article_id": "GNS224_U2_T3",
     "topic_id": "GNS224_U2_T3",
     "difficulty": "recall",
-    "question": "What is the ultimate goal of interpreting research data in nursing?",
+    "question": "What is the final goal of interpreting data in nursing research?",
     "options": {
-      "A": "To help university professors publish more academic textbooks",
-      "B": "To give hospital managers more paperwork to file away",
-      "C": "To improve patient care and guide evidence-based clinical practice",
-      "D": "To reduce the number of nurses working in hospital wards"
+      "A": "Translating findings into clinical practice and bedside protocols",
+      "B": "Increasing the number of published papers in journals",
+      "C": "Writing long statistical tables for university libraries",
+      "D": "Reducing the budget required for hospital equipment"
     },
-    "answer": "C",
-    "explanation": "At the end of the day, research data only matters if it helps us make patient care safer and better! [learn more](GNS224_U2_T3#GNS224_U2_T3_h8)"
+    "answer": "A",
+    "explanation": "Data interpretation is only useful when it leads to evidence-based recommendations that improve actual patient care. [learn more](GNS224_U2_T3#GNS224_U2_T3_h8)"
   },
   {
     "question_id": "GNS224_U2_T3_h8_q2",
@@ -245,14 +245,14 @@
     "article_id": "GNS224_U2_T3",
     "topic_id": "GNS224_U2_T3",
     "difficulty": "understanding",
-    "question": "Which of these is NOT a good quality for a clinical recommendation based on research data?",
+    "question": "What makes an evidence-based recommendation strong for clinical use?",
     "options": {
-      "A": "Being directly supported by the findings of the study",
-      "B": "Being clear and easy for frontline nurses to understand",
-      "C": "Being realistic about the equipment available in the clinic",
-      "D": "Being completely unrealistic and impossible for staff to carry out"
+      "A": "It is directly supported by analyzed data and is feasible to implement",
+      "B": "It was written by a professor without input from bedside nurses",
+      "C": "It costs no money to introduce into a hospital ward",
+      "D": "It relies entirely on personal opinions rather than data"
     },
-    "answer": "D",
-    "explanation": "Good recommendations must be practical. If a guideline is impossible to carry out on a real ward, busy clinical staff will simply ignore it. [learn more](GNS224_U2_T3#GNS224_U2_T3_h8)"
+    "answer": "A",
+    "explanation": "Good recommendations must stem logically from solid data analysis while remaining practical for everyday nursing workflows. [learn more](GNS224_U2_T3#GNS224_U2_T3_h8)"
   }
 ]

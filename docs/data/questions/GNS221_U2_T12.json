@@ -7,13 +7,13 @@
     "difficulty": "recall",
     "question": "What does a fasting blood sugar test primarily measure?",
     "options": {
-      "A": "Baseline blood glucose after food restriction",
-      "B": "Maximum blood glucose right after a heavy meal",
-      "C": "Average blood sugar over the last three months",
-      "D": "Total amount of insulin stored in the pancreas"
+      "A": "Postprandial lipid profile and glucose",
+      "B": "Insulin resistance in peripheral tissues",
+      "C": "Glucose level after a period of fasting",
+      "D": "Average blood sugar over three months"
     },
-    "answer": "A",
-    "explanation": "The test measures glucose levels when the body has not consumed calories for several hours, showing the true resting baseline. [learn more](GNS221_U2_T12#GNS221_U2_T12_h1)"
+    "answer": "C",
+    "explanation": "The FBS test specifically measures circulating plasma glucose after food intake has been withheld for a set time. [learn more](GNS221_U2_T12#GNS221_U2_T12_h1)"
   },
   {
     "question_id": "GNS221_U2_T12_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GNS221_U2_T12",
     "topic_id": "GNS221_U2_T12",
     "difficulty": "understanding",
-    "question": "Why is it important to test blood sugar while a patient is fasting?",
+    "question": "Why is a fasting state required for this specific blood glucose test?",
     "options": {
-      "A": "It makes the red blood cells easier to see under a microscope.",
-      "B": "It forces the pancreas to release all remaining insulin stores.",
-      "C": "It prevents the patient from feeling dizzy during the blood draw.",
-      "D": "It removes the temporary glucose spikes caused by recent eating."
+      "A": "It forces the pancreas to stop insulin production",
+      "B": "It eliminates dietary intake as a variable",
+      "C": "It prevents hemolysis during the venipuncture",
+      "D": "It increases the concentration of red blood cells"
     },
-    "answer": "D",
-    "explanation": "Food intake naturally raises blood sugar temporarily, so fasting gives a clear baseline without dietary interference. [learn more](GNS221_U2_T12#GNS221_U2_T12_h1)"
+    "answer": "B",
+    "explanation": "Withholding food removes recent meals from altering the circulating glucose, providing a true baseline value. [learn more](GNS221_U2_T12#GNS221_U2_T12_h1)"
   },
   {
     "question_id": "GNS221_U2_T12_h2_q1",
@@ -37,15 +37,15 @@
     "article_id": "GNS221_U2_T12",
     "topic_id": "GNS221_U2_T12",
     "difficulty": "recall",
-    "question": "Which pancreatic hormone lowers blood sugar by helping cells take in glucose?",
+    "question": "Which pancreatic cells secrete insulin to lower blood glucose?",
     "options": {
-      "A": "Glucagon",
-      "B": "Cortisol",
-      "C": "Adrenaline",
-      "D": "Insulin"
+      "A": "Alpha cells",
+      "B": "Delta cells",
+      "C": "Beta cells",
+      "D": "Acinar cells"
     },
-    "answer": "D",
-    "explanation": "Insulin acts as the primary hormone that allows body cells to absorb glucose from the bloodstream, thereby lowering blood sugar. [learn more](GNS221_U2_T12#GNS221_U2_T12_h2)"
+    "answer": "C",
+    "explanation": "Insulin is synthesized and released by the beta cells located in the pancreatic islets of Langerhans. [learn more](GNS221_U2_T12#GNS221_U2_T12_h2)"
   },
   {
     "question_id": "GNS221_U2_T12_h2_q2",
@@ -53,15 +53,15 @@
     "article_id": "GNS221_U2_T12",
     "topic_id": "GNS221_U2_T12",
     "difficulty": "understanding",
-    "question": "What is the primary role of glucagon during a fasting state?",
+    "question": "How does glucagon maintain blood sugar levels during a fast?",
     "options": {
-      "A": "To signal the liver to release stored glucose into the blood",
-      "B": "To help the pancreas produce more beta cells for energy",
-      "C": "To block insulin from entering the muscle tissues",
-      "D": "To transport excess sugar directly to the kidneys for excretion"
+      "A": "Accelerating glucose uptake into skeletal muscle",
+      "B": "Stimulating glycogen breakdown in the liver",
+      "C": "Suppressing cortisol release from adrenal glands",
+      "D": "Enhancing insulin receptor sensitivity in fat"
     },
-    "answer": "A",
-    "explanation": "When fasting lowers blood sugar, glucagon tells the liver to break down stored glycogen to keep blood sugar from dropping too low. [learn more](GNS221_U2_T12#GNS221_U2_T12_h2)"
+    "answer": "B",
+    "explanation": "Glucagon signals the liver to break down stored glycogen into free glucose to release into the bloodstream. [learn more](GNS221_U2_T12#GNS221_U2_T12_h2)"
   },
   {
     "question_id": "GNS221_U2_T12_h3_q1",
@@ -69,31 +69,31 @@
     "article_id": "GNS221_U2_T12",
     "topic_id": "GNS221_U2_T12",
     "difficulty": "recall",
-    "question": "Which symptom is a classic indicator that prompts a doctor to order a fasting blood sugar test?",
+    "question": "A patient reporting excessive thirst and frequent urination should be screened for what condition?",
     "options": {
-      "A": "Sudden low blood pressure and dizziness",
-      "B": "Excessive thirst and frequent urination",
-      "C": "Swelling in the lower legs and ankles",
-      "D": "Yellowing of the skin and eyes"
+      "A": "Diabetes mellitus",
+      "B": "Chronic renal failure",
+      "C": "Iron deficiency anemia",
+      "D": "Essential hypertension"
     },
-    "answer": "B",
-    "explanation": "Polydipsia and polyuria are hallmark signs of high blood sugar that signal the need for diagnostic screening. [learn more](GNS221_U2_T12#GNS221_U2_T12_h3)"
+    "answer": "A",
+    "explanation": "Polydipsia and polyuria are classic osmotic symptoms of elevated blood glucose seen in diabetes mellitus. [learn more](GNS221_U2_T12#GNS221_U2_T12_h3)"
   },
   {
     "question_id": "GNS221_U2_T12_h3_q2",
     "heading_id": "GNS221_U2_T12_h3",
     "article_id": "GNS221_U2_T12",
     "topic_id": "GNS221_U2_T12",
-    "difficulty": "application",
-    "question": "A healthy pregnant woman at 26 weeks gestation goes for her routine antenatal clinic. Why is a glucose screening typically included?",
+    "difficulty": "understanding",
+    "question": "Beyond diagnosis, what is another primary clinical use of the fasting blood sugar test?",
     "options": {
-      "A": "To check for gestational diabetes that can develop during pregnancy",
-      "B": "To confirm the exact gestational age of the growing fetus",
-      "C": "To test her kidney function against pregnancy hormones",
-      "D": "To measure how much iron she is storing in her liver"
+      "A": "Assessing overall pancreatic organ size and shape",
+      "B": "Evaluating response to diabetes treatment regimens",
+      "C": "Determining the exact daily caloric requirement",
+      "D": "Measuring circulating red blood cell lifespan"
     },
-    "answer": "A",
-    "explanation": "Pregnancy hormones can cause insulin resistance, making routine screening for gestational diabetes essential during the second trimester. [learn more](GNS221_U2_T12#GNS221_U2_T12_h3)"
+    "answer": "B",
+    "explanation": "Serial fasting blood sugar tests help healthcare providers determine if diet, oral medications, or insulin are working effectively. [learn more](GNS221_U2_T12#GNS221_U2_T12_h3)"
   },
   {
     "question_id": "GNS221_U2_T12_h4_q1",
@@ -101,15 +101,15 @@
     "article_id": "GNS221_U2_T12",
     "topic_id": "GNS221_U2_T12",
     "difficulty": "recall",
-    "question": "What is the minimum recommended fasting time before a fasting blood sugar test?",
+    "question": "What is the minimum recommended fasting duration prior to an FBS test?",
     "options": {
-      "A": "24 hours",
-      "B": "4 hours",
-      "C": "8 hours",
-      "D": "2 hours"
+      "A": "Eight hours",
+      "B": "Twenty-four hours",
+      "C": "Two hours",
+      "D": "Twelve hours"
     },
-    "answer": "C",
-    "explanation": "A minimum of 8 hours without caloric intake is required to ensure the digestive system is at rest and baseline glucose can be measured. [learn more](GNS221_U2_T12#GNS221_U2_T12_h4)"
+    "answer": "A",
+    "explanation": "A standard fasting blood sugar requires at least eight hours of abstaining from caloric intake. [learn more](GNS221_U2_T12#GNS221_U2_T12_h4)"
   },
   {
     "question_id": "GNS221_U2_T12_h4_q2",
@@ -117,15 +117,15 @@
     "article_id": "GNS221_U2_T12",
     "topic_id": "GNS221_U2_T12",
     "difficulty": "understanding",
-    "question": "Which beverage is generally allowed during the fasting period prior to the test?",
+    "question": "What can a patient safely consume during the required fasting period?",
     "options": {
       "A": "Black coffee",
-      "B": "Fruit juice",
-      "C": "Plain water",
-      "D": "Sweetened tea"
+      "B": "Plain water",
+      "C": "Diet soda",
+      "D": "Sugarless tea"
     },
-    "answer": "C",
-    "explanation": "Plain water has no calories or active compounds that stimulate digestion, keeping the fasting state intact while preventing dehydration. [learn more](GNS221_U2_T12#GNS221_U2_T12_h4)"
+    "answer": "B",
+    "explanation": "Only plain water is permitted during the fasting window, as other beverages may contain additives or stimulants that alter glucose levels. [learn more](GNS221_U2_T12#GNS221_U2_T12_h4)"
   },
   {
     "question_id": "GNS221_U2_T12_h5_q1",
@@ -133,31 +133,31 @@
     "article_id": "GNS221_U2_T12",
     "topic_id": "GNS221_U2_T12",
     "difficulty": "recall",
-    "question": "What special chemical is added to the blood collection tube for a fasting blood sugar test to keep the blood cells from eating up the sugar?",
+    "question": "Which additive tube is standard for collecting a fasting blood glucose specimen?",
     "options": {
-      "A": "Potassium EDTA",
-      "B": "Sodium fluoride",
-      "C": "Heparin sulfate",
-      "D": "Calcium chloride"
+      "A": "Gray-top tube",
+      "B": "Light blue-top tube",
+      "C": "Lavender-top tube",
+      "D": "Red-top tube"
     },
-    "answer": "B",
-    "explanation": "Great job! Sodium fluoride acts as a preservative (glycolytic inhibitor) that stops red blood cells from consuming the glucose in the tube before the lab technician can test it. [learn more](GNS221_U2_T12#GNS221_U2_T12_h5)"
+    "answer": "A",
+    "explanation": "Gray-top tubes contain glycolysis inhibitors like sodium fluoride, preserving the true glucose concentration until testing. [learn more](GNS221_U2_T12#GNS221_U2_T12_h5)"
   },
   {
     "question_id": "GNS221_U2_T12_h5_q2",
     "heading_id": "GNS221_U2_T12_h5",
     "article_id": "GNS221_U2_T12",
     "topic_id": "GNS221_U2_T12",
-    "difficulty": "understanding",
-    "question": "When should the nurse label the collected blood specimen tube?",
+    "difficulty": "application",
+    "question": "A newly collected blood sample sits on the utility trolley for three hours before processing. What is the most likely effect on the test result?",
     "options": {
-      "A": "At the bedside immediately after the blood draw",
-      "B": "Inside the laboratory before handing it to the technician",
-      "C": "At the nursing station after finishing all morning rounds",
-      "D": "Before entering the patient room to save time"
+      "A": "A falsely decreased glucose level",
+      "B": "Complete hemolysis of red blood cells",
+      "C": "No change in the measured glucose value",
+      "D": "A falsely elevated glucose level"
     },
     "answer": "A",
-    "explanation": "Labeling specimens at the bedside immediately after collection ensures proper patient identification and prevents mislabeling errors. [learn more](GNS221_U2_T12#GNS221_U2_T12_h5)"
+    "explanation": "Living blood cells continue to consume glucose in vitro if glycolysis inhibitors are absent or if processing is delayed, leading to falsely low readings. [learn more](GNS221_U2_T12#GNS221_U2_T12_h5)"
   },
   {
     "question_id": "GNS221_U2_T12_h6_q1",
@@ -165,15 +165,15 @@
     "article_id": "GNS221_U2_T12",
     "topic_id": "GNS221_U2_T12",
     "difficulty": "recall",
-    "question": "What is the standard normal fasting blood sugar range for a healthy adult?",
+    "question": "What fasting blood sugar level indicates impaired fasting glucose or pre-diabetes?",
     "options": {
-      "A": "Below 100 mg/dL",
-      "B": "140 to 180 mg/dL",
-      "C": "200 to 250 mg/dL",
-      "D": "Above 300 mg/dL"
+      "A": "100 to 125 mg/dL",
+      "B": "160 to 200 mg/dL",
+      "C": "126 to 150 mg/dL",
+      "D": "70 to 99 mg/dL"
     },
     "answer": "A",
-    "explanation": "A fasting blood sugar reading under 100 mg/dL is considered normal for individuals without metabolic disorders. [learn more](GNS221_U2_T12#GNS221_U2_T12_h6)"
+    "explanation": "Fasting glucose values between 100 and 125 mg/dL signal impaired glucose regulation, falling above normal but below the diabetic threshold. [learn more](GNS221_U2_T12#GNS221_U2_T12_h6)"
   },
   {
     "question_id": "GNS221_U2_T12_h6_q2",
@@ -181,47 +181,47 @@
     "article_id": "GNS221_U2_T12",
     "topic_id": "GNS221_U2_T12",
     "difficulty": "understanding",
-    "question": "A patient's fasting blood sugar result comes back at 115 mg/dL. How should the nurse interpret this finding?",
+    "question": "Which finding confirms a diagnosis of diabetes mellitus when found on two separate occasions?",
     "options": {
-      "A": "It is completely normal and requires no further follow-up.",
-      "B": "It indicates prediabetes or impaired fasting glucose.",
-      "C": "It confirms that the patient has full-blown Type 1 diabetes.",
-      "D": "It shows severe hypoglycemia requiring immediate sugar intake."
+      "A": "110 mg/dL or higher",
+      "B": "100 mg/dL or higher",
+      "C": "80 mg/dL or higher",
+      "D": "126 mg/dL or higher"
     },
-    "answer": "B",
-    "explanation": "Values between 100 and 125 mg/dL fall into the prediabetes range, signaling a need for lifestyle changes. [learn more](GNS221_U2_T12#GNS221_U2_T12_h6)"
+    "answer": "D",
+    "explanation": "A fasting blood glucose level of 126 mg/dL or greater on two separate tests is a diagnostic criterion for diabetes. [learn more](GNS221_U2_T12#GNS221_U2_T12_h6)"
   },
   {
     "question_id": "GNS221_U2_T12_h7_q1",
     "heading_id": "GNS221_U2_T12_h7",
     "article_id": "GNS221_U2_T12",
     "topic_id": "GNS221_U2_T12",
-    "difficulty": "recall",
-    "question": "What term is used to describe a dangerously low fasting blood sugar level?",
+    "difficulty": "understanding",
+    "question": "What is the primary clinical implication of persistent hyperglycemia on an FBS test?",
     "options": {
-      "A": "Hypoglycemia",
-      "B": "Hemoconcentration",
-      "C": "Glycosuria",
-      "D": "Hyperglycemia"
+      "A": "Accelerated red blood cell destruction",
+      "B": "Excessive dietary protein absorption",
+      "C": "Impaired insulin action or production",
+      "D": "Rapid hepatic glycogen depletion"
     },
-    "answer": "A",
-    "explanation": "Hypoglycemia refers to blood glucose levels falling below the normal healthy threshold, typically under 70 mg/dL. [learn more](GNS221_U2_T12#GNS221_U2_T12_h7)"
+    "answer": "C",
+    "explanation": "High fasting glucose typically reflects the body's inability to secrete adequate insulin or effectively utilize the insulin present. [learn more](GNS221_U2_T12#GNS221_U2_T12_h7)"
   },
   {
     "question_id": "GNS221_U2_T12_h7_q2",
     "heading_id": "GNS221_U2_T12_h7",
     "article_id": "GNS221_U2_T12",
     "topic_id": "GNS221_U2_T12",
-    "difficulty": "application",
-    "question": "A patient with diabetes has a fasting blood sugar of 55 mg/dL and is shaky and confused. What is the most likely cause of these symptoms?",
+    "difficulty": "recall",
+    "question": "Which condition is most commonly associated with dangerously low fasting blood sugar levels?",
     "options": {
-      "A": "Kidney failure causing a backup of metabolic waste",
-      "B": "A normal reaction to an overnight fasting period",
-      "C": "Dehydration from drinking too much plain water",
-      "D": "Brain glucose deprivation from low blood sugar"
+      "A": "Insulinoma",
+      "B": "Iron deficiency",
+      "C": "Essential hypertension",
+      "D": "Renal artery stenosis"
     },
-    "answer": "D",
-    "explanation": "When blood sugar drops too low, the brain lacks energy, causing neurological symptoms like confusion and shaking. [learn more](GNS221_U2_T12#GNS221_U2_T12_h7)"
+    "answer": "A",
+    "explanation": "An insulinoma is an insulin-secreting tumor of the pancreas that can cause severe, unprovoked fasting hypoglycemia. [learn more](GNS221_U2_T12#GNS221_U2_T12_h7)"
   },
   {
     "question_id": "GNS221_U2_T12_h8_q1",
@@ -229,15 +229,15 @@
     "article_id": "GNS221_U2_T12",
     "topic_id": "GNS221_U2_T12",
     "difficulty": "understanding",
-    "question": "Why can severe physical stress or a sudden infection cause a high fasting blood sugar reading?",
+    "question": "Why might a patient with a severe acute infection show an elevated fasting blood sugar?",
     "options": {
-      "A": "Infection causes the kidneys to stop filtering sugar out of the blood.",
-      "B": "Dehydration turns blood cells into pure glucose molecules.",
-      "C": "Fever completely destroys insulin molecules stored in the pancreas.",
-      "D": "Stress hormones like cortisol and adrenaline are released, raising blood glucose."
+      "A": "Fever causes rapid dehydration and hemoconcentration",
+      "B": "Antibiotics interfere with glucose meters",
+      "C": "Infections directly destroy pancreatic beta cells",
+      "D": "Stress hormones raise blood glucose levels"
     },
     "answer": "D",
-    "explanation": "You've got this! Acute stress triggers your body to release hormones that push stored glucose into the bloodstream to give you energy for a fight-or-flight response. [learn more](GNS221_U2_T12#GNS221_U2_T12_h8)"
+    "explanation": "Acute physiological stress releases counter-regulatory hormones like cortisol and adrenaline, which mobilize glucose into the bloodstream. [learn more](GNS221_U2_T12#GNS221_U2_T12_h8)"
   },
   {
     "question_id": "GNS221_U2_T12_h8_q2",
@@ -245,46 +245,46 @@
     "article_id": "GNS221_U2_T12",
     "topic_id": "GNS221_U2_T12",
     "difficulty": "recall",
-    "question": "Which medication class is well known for increasing blood sugar levels during therapy?",
+    "question": "Which of the following is NOT a common cause of artificially altered fasting blood sugar results?",
     "options": {
-      "A": "Laxatives",
-      "B": "Antibiotics",
-      "C": "Corticosteroids",
-      "D": "Antihistamines"
+      "A": "Drinking adequate plain water during the fast",
+      "B": "Consuming a sugary snack halfway through the fast",
+      "C": "Taking prescribed oral corticosteroid therapy",
+      "D": "Experiencing severe physical or emotional stress"
     },
-    "answer": "C",
-    "explanation": "Corticosteroids stimulate hepatic glucose production and induce insulin resistance, frequently raising blood sugar levels. [learn more](GNS221_U2_T12#GNS221_U2_T12_h8)"
+    "answer": "A",
+    "explanation": "Plain water has no caloric or chemical content that alters blood glucose, making it safe and necessary during fasting. [learn more](GNS221_U2_T12#GNS221_U2_T12_h8)"
   },
   {
     "question_id": "GNS221_U2_T12_h9_q1",
     "heading_id": "GNS221_U2_T12_h9",
     "article_id": "GNS221_U2_T12",
     "topic_id": "GNS221_U2_T12",
-    "difficulty": "understanding",
-    "question": "What is the most important immediate nursing action after a fasting blood draw for a patient with diabetes?",
+    "difficulty": "application",
+    "question": "A patient with diabetes completes their fasting blood sugar test. What is the immediate nursing priority?",
     "options": {
-      "A": "Provide food and allow the patient to take held morning medications.",
-      "B": "Send the patient home immediately without checking the puncture site.",
-      "C": "Instruct the patient to continue fasting until the lab results return.",
-      "D": "Encourage the patient to run on a treadmill to lower blood sugar."
+      "A": "Restrict fluid intake for two more hours",
+      "B": "Perform a repeat venipuncture for confirmation",
+      "C": "Encourage immediate high-intensity exercise",
+      "D": "Provide food and resume held medications"
     },
-    "answer": "A",
-    "explanation": "Well done! Because the patient fasted and held their morning diabetes drugs, they need food and their routine medications right away to prevent their blood sugar from crashing. [learn more](GNS221_U2_T12#GNS221_U2_T12_h9)"
+    "answer": "D",
+    "explanation": "Diabetic patients who fasted and held morning medications require immediate nutrition and regular drug administration to prevent hypoglycemia. [learn more](GNS221_U2_T12#GNS221_U2_T12_h9)"
   },
   {
     "question_id": "GNS221_U2_T12_h9_q2",
     "heading_id": "GNS221_U2_T12_h9",
     "article_id": "GNS221_U2_T12",
     "topic_id": "GNS221_U2_T12",
-    "difficulty": "recall",
-    "question": "What key lifestyle advice should a nurse include when educating a patient with prediabetes?",
+    "difficulty": "understanding",
+    "question": "What key topic should be included when educating a patient newly diagnosed with pre-diabetes?",
     "options": {
-      "A": "Avoid all types of physical movement to preserve energy",
-      "B": "Sleep for at least fourteen hours every single night",
-      "C": "Incorporate a balanced diet and regular physical activity",
-      "D": "Eliminate all forms of water from the daily diet"
+      "A": "Daily self-monitoring with a multi-test kit",
+      "B": "Immediate initiation of daily insulin injections",
+      "C": "Dietary modification and regular physical activity",
+      "D": "Strict avoidance of all forms of carbohydrates"
     },
     "answer": "C",
-    "explanation": "Dietary changes and regular exercise help improve insulin sensitivity and prevent prediabetes from advancing to full diabetes. [learn more](GNS221_U2_T12#GNS221_U2_T12_h9)"
+    "explanation": "Lifestyle interventions like healthy eating and exercise are the cornerstone management strategies for preventing progression from pre-diabetes. [learn more](GNS221_U2_T12#GNS221_U2_T12_h9)"
   }
 ]

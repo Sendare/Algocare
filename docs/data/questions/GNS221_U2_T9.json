@@ -7,13 +7,13 @@
     "difficulty": "recall",
     "question": "What is the primary fluid collected during a lumbar puncture?",
     "options": {
-      "A": "Synovial joint fluid",
-      "B": "Peritoneal lavage fluid",
-      "C": "Cerebrospinal fluid",
-      "D": "Pleural cavity fluid"
+      "A": "Cerebrospinal fluid",
+      "B": "Synovial fluid",
+      "C": "Peritoneal fluid",
+      "D": "Pleural fluid"
     },
-    "answer": "C",
-    "explanation": "A lumbar puncture specifically targets the subarachnoid space to draw cerebrospinal fluid for laboratory analysis. [learn more](GNS221_U2_T9#GNS221_U2_T9_h1)"
+    "answer": "A",
+    "explanation": "A lumbar puncture specifically targets the subarachnoid space to draw and analyze cerebrospinal fluid. [learn more](GNS221_U2_T9#GNS221_U2_T9_h1)"
   },
   {
     "question_id": "GNS221_U2_T9_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GNS221_U2_T9",
     "topic_id": "GNS221_U2_T9",
     "difficulty": "understanding",
-    "question": "Why might a doctor perform a therapeutic lumbar puncture?",
+    "question": "A physician performs a lumbar puncture to deliver medication directly into which body space?",
     "options": {
-      "A": "To remove a kidney stone from the ureter",
-      "B": "To check the patient's blood glucose level",
-      "C": "To lower high pressure inside the skull",
-      "D": "To clear an airway blockage in the lungs"
+      "A": "Intrathecal space",
+      "B": "Subdural space",
+      "C": "Pericardial space",
+      "D": "Epidural space"
     },
-    "answer": "C",
-    "explanation": "You got it! Removing extra fluid during the procedure helps relieve dangerous pressure inside the skull when there is a fluid buildup. [learn more](GNS221_U2_T9#GNS221_U2_T9_h1)"
+    "answer": "A",
+    "explanation": "Medications administered during this procedure go directly into the subarachnoid or intrathecal space to target the central nervous system. [learn more](GNS221_U2_T9#GNS221_U2_T9_h1)"
   },
   {
     "question_id": "GNS221_U2_T9_h2_q1",
@@ -37,15 +37,15 @@
     "article_id": "GNS221_U2_T9",
     "topic_id": "GNS221_U2_T9",
     "difficulty": "recall",
-    "question": "Between which two vertebrae is a lumbar puncture usually performed in adults?",
+    "question": "Between which vertebrae is a lumbar puncture typically performed to avoid spinal cord injury?",
     "options": {
-      "A": "S1-S2 or S2-S3",
+      "A": "T12-L1 or L1-L2",
       "B": "L3-L4 or L4-L5",
-      "C": "C1-C2 or C2-C3",
-      "D": "T11-T12 or T12-L1"
+      "C": "C7-T1 or T1-T2",
+      "D": "S1-S2 or S2-S3"
     },
     "answer": "B",
-    "explanation": "Correct! These lower spaces are chosen because the main spinal cord has already ended there, making the needle stick much safer. [learn more](GNS221_U2_T9#GNS221_U2_T9_h2)"
+    "explanation": "The L3-L4 and L4-L5 interspaces are chosen because they lie safely below the termination of the adult spinal cord. [learn more](GNS221_U2_T9#GNS221_U2_T9_h2)"
   },
   {
     "question_id": "GNS221_U2_T9_h2_q2",
@@ -53,15 +53,15 @@
     "article_id": "GNS221_U2_T9",
     "topic_id": "GNS221_U2_T9",
     "difficulty": "understanding",
-    "question": "What is the main reason for inserting the needle below the L2 vertebra?",
+    "question": "Why does needle insertion low in the lumbar spine prevent damage to the main spinal cord?",
     "options": {
-      "A": "To avoid injuring the main spinal cord",
-      "B": "To bypass the thick muscles of the back",
-      "C": "To prevent leakage of blood from veins",
-      "D": "To reach the heart valves more easily"
+      "A": "There is no cerebrospinal fluid located in the lower lumbar region.",
+      "B": "Thick muscle layers completely protect the lower spinal nerves.",
+      "C": "The lumbar vertebrae are fused and block deep needle penetration.",
+      "D": "The adult spinal cord ends higher up near the first lumbar vertebra."
     },
-    "answer": "A",
-    "explanation": "Exactly! Since the spinal cord ends around L1-L2, sticking the needle lower keeps the delicate central nervous tissue safe from harm. [learn more](GNS221_U2_T9#GNS221_U2_T9_h2)"
+    "answer": "D",
+    "explanation": "Because the spinal cord terminates around L1, needles placed further down pass safely through the loose nerve roots of the cauda equina instead. [learn more](GNS221_U2_T9#GNS221_U2_T9_h2)"
   },
   {
     "question_id": "GNS221_U2_T9_h3_q1",
@@ -69,63 +69,63 @@
     "article_id": "GNS221_U2_T9",
     "topic_id": "GNS221_U2_T9",
     "difficulty": "recall",
-    "question": "Which condition is a strict warning sign against doing a lumbar puncture?",
+    "question": "Which condition is an absolute safety hazard that can lead to brain herniation during a lumbar puncture?",
     "options": {
-      "A": "Increased pressure inside the skull from a brain tumor",
-      "B": "History of high blood pressure managed with pills",
-      "C": "Mild dehydration from a recent stomach flu",
-      "D": "A mild fever of 38 degrees Celsius with a headache"
+      "A": "Elevated intracranial pressure from a brain tumor",
+      "B": "A history of uncomplicated tension headaches",
+      "C": "Mild essential hypertension controlled with medication",
+      "D": "Chronic lower back pain without neurological signs"
     },
     "answer": "A",
-    "explanation": "Spot on. Draining fluid when intracranial pressure is high can cause the brain to shift dangerously, which can be fatal. [learn more](GNS221_U2_T9#GNS221_U2_T9_h3)"
+    "explanation": "Releasing CSF pressure from the lumbar spine when intracranial pressure is high creates a dangerous pressure gradient that can herniate the brainstem. [learn more](GNS221_U2_T9#GNS221_U2_T9_h3)"
   },
   {
     "question_id": "GNS221_U2_T9_h3_q2",
     "heading_id": "GNS221_U2_T9_h3",
     "article_id": "GNS221_U2_T9",
     "topic_id": "GNS221_U2_T9",
-    "difficulty": "application",
-    "question": "A patient scheduled for a spinal tap is currently taking warfarin for a heart condition. What is the nurse's best action?",
+    "difficulty": "understanding",
+    "question": "Why must a nurse check coagulation profile results before a patient undergoes a lumbar puncture?",
     "options": {
-      "A": "Notify the doctor immediately about the bleeding risk",
-      "B": "Proceed with the tap quickly before the next drug dose",
-      "C": "Apply a hot pack to the lower back to thin the blood",
-      "D": "Encourage the patient to drink extra water right away"
+      "A": "To prevent the formation of a spinal epidural hematoma",
+      "B": "To calculate the correct amount of local anesthetic needed",
+      "C": "To ensure the patient will not experience post-puncture headaches",
+      "D": "To check if the patient has an active central nervous infection"
     },
     "answer": "A",
-    "explanation": "Great job! Blood thinners increase the risk of bleeding into the spinal canal, so the doctor must be informed right away. [learn more](GNS221_U2_T9#GNS221_U2_T9_h3)"
+    "explanation": "Bleeding disorders put patients at high risk for spinal hematomas, which can compress the spinal cord and cause permanent paralysis. [learn more](GNS221_U2_T9#GNS221_U2_T9_h3)"
   },
   {
     "question_id": "GNS221_U2_T9_h4_q1",
     "heading_id": "GNS221_U2_T9_h4",
     "article_id": "GNS221_U2_T9",
     "topic_id": "GNS221_U2_T9",
-    "difficulty": "understanding",
-    "question": "Why is checking the patient's platelet count important before a lumbar puncture?",
+    "difficulty": "recall",
+    "question": "What immediate action should a nurse ask the patient to take just before a lumbar puncture begins?",
     "options": {
-      "A": "Low platelets increase the risk of bleeding into the spine",
-      "B": "Platelet levels show if a bacterial infection is active",
-      "C": "High platelets make the cerebrospinal fluid too thick to draw",
-      "D": "It helps the doctor calculate the correct anesthetic dose"
+      "A": "Empty the bladder",
+      "B": "Take a strong oral laxative",
+      "C": "Eat a high protein meal",
+      "D": "Drink two liters of water"
     },
     "answer": "A",
-    "explanation": "You nailed it! We need good clotting factors to prevent a dangerous collection of blood around the spine after the needle comes out. [learn more](GNS221_U2_T9#GNS221_U2_T9_h4)"
+    "explanation": "An empty bladder minimizes discomfort and prevents accidental incontinence while the patient holds a tight flexed posture. [learn more](GNS221_U2_T9#GNS221_U2_T9_h4)"
   },
   {
     "question_id": "GNS221_U2_T9_h4_q2",
     "heading_id": "GNS221_U2_T9_h4",
     "article_id": "GNS221_U2_T9",
     "topic_id": "GNS221_U2_T9",
-    "difficulty": "recall",
-    "question": "What nursing action should be completed just before the procedure starts?",
+    "difficulty": "understanding",
+    "question": "A patient scheduled for a lumbar puncture expresses extreme fear about paralysis. What is the best initial nursing response?",
     "options": {
-      "A": "Place the patient flat on their back with pillows",
-      "B": "Shave the entire back from shoulders to hips",
-      "C": "Administer a strong sleeping pill by mouth",
-      "D": "Ask the patient to empty their urinary bladder"
+      "A": "Contact the doctor immediately to cancel the scheduled test",
+      "B": "Assure the patient that complications never happen to anyone",
+      "C": "Explain that the needle enters well below the main spinal cord",
+      "D": "Tell the patient that worrying will only make the procedure harder"
     },
-    "answer": "D",
-    "explanation": "Correct! An empty bladder keeps the patient comfortable while they stay curled up in a tight position during the test. [learn more](GNS221_U2_T9#GNS221_U2_T9_h4)"
+    "answer": "C",
+    "explanation": "Providing accurate, reassuring anatomical facts helps alleviate unfounded fears of paralysis caused by needle contact with the spinal cord. [learn more](GNS221_U2_T9#GNS221_U2_T9_h4)"
   },
   {
     "question_id": "GNS221_U2_T9_h5_q1",
@@ -133,15 +133,15 @@
     "article_id": "GNS221_U2_T9",
     "topic_id": "GNS221_U2_T9",
     "difficulty": "recall",
-    "question": "Which body posture helps open up the spaces between the vertebrae for a spinal tap?",
+    "question": "What is the primary reason for placing a patient in a curled fetal position for a lumbar puncture?",
     "options": {
-      "A": "Arching the back backward with arms extended",
-      "B": "Lying completely flat on the back with straight legs",
-      "C": "Sitting upright with shoulders pulled straight back",
-      "D": "Curled up with knees and chin tucked inward"
+      "A": "To prevent the patient from moving their legs",
+      "B": "To widen the spaces between adjacent vertebrae",
+      "C": "To decrease blood pressure during needle insertion",
+      "D": "To make it easier to monitor heart rhythm"
     },
-    "answer": "D",
-    "explanation": "Spot on! Flexing the spine forward separates the bones, widening the gap so the needle can pass through easily. [learn more](GNS221_U2_T9#GNS221_U2_T9_h5)"
+    "answer": "B",
+    "explanation": "Curling the spine flexes the vertebrae apart, providing a wider target window for the clinician to advance the spinal needle. [learn more](GNS221_U2_T9#GNS221_U2_T9_h5)"
   },
   {
     "question_id": "GNS221_U2_T9_h5_q2",
@@ -149,79 +149,79 @@
     "article_id": "GNS221_U2_T9",
     "topic_id": "GNS221_U2_T9",
     "difficulty": "understanding",
-    "question": "What is the primary role of the nurse while the physician performs the lumbar puncture?",
+    "question": "What is a key responsibility of the nurse while assisting a patient during a lumbar puncture?",
     "options": {
-      "A": "Administer oxygen through a nasal cannula to all patients",
-      "B": "Help the patient maintain the curled position and offer reassurance",
-      "C": "Monitor the patient's heart rhythm using a 12-lead ECG machine",
-      "D": "Hold the collection tubes and write laboratory labels later"
+      "A": "Hold the spinal needle steady while the doctor measures pressure",
+      "B": "Label the CSF collection tubes with laboratory barcodes in order",
+      "C": "Administer a general sedative intravenously before the procedure starts",
+      "D": "Maintain the patient in a safe, flexed position and watch their breathing"
     },
-    "answer": "B",
-    "explanation": "You got it! Staying still is crucial, so holding the patient steady and offering calming words are key nursing duties. [learn more](GNS221_U2_T9#GNS221_U2_T9_h5)"
+    "answer": "D",
+    "explanation": "Patient movement risks needle displacement or trauma, so the nurse must physically support the position while watching for signs of distress. [learn more](GNS221_U2_T9#GNS221_U2_T9_h5)"
   },
   {
     "question_id": "GNS221_U2_T9_h6_q1",
     "heading_id": "GNS221_U2_T9_h6",
     "article_id": "GNS221_U2_T9",
     "topic_id": "GNS221_U2_T9",
-    "difficulty": "understanding",
-    "question": "Why is a patient usually asked to lie flat after a lumbar puncture?",
+    "difficulty": "recall",
+    "question": "What is a standard post-procedure instruction often given to patients after a lumbar puncture?",
     "options": {
-      "A": "To help prevent a low-pressure spinal headache",
-      "B": "To speed up the absorption of the local anesthetic",
-      "C": "To keep the blood pressure from dropping too fast",
-      "D": "To prevent the collection tubes from falling over"
+      "A": "Consume a high sodium diet to replace lost electrolytes",
+      "B": "Lie flat in bed for a prescribed period",
+      "C": "Keep the head elevated at a 45-degree angle",
+      "D": "Walk around the ward immediately to aid circulation"
     },
-    "answer": "A",
-    "explanation": "Correct! Lying flat reduces pull on the meninges where the needle went in, lowering the chance of a terrible headache. [learn more](GNS221_U2_T9#GNS221_U2_T9_h6)"
+    "answer": "B",
+    "explanation": "Lying flat helps reduce the incidence of post-dural puncture headaches by minimizing pressure changes in the spinal column. [learn more](GNS221_U2_T9#GNS221_U2_T9_h6)"
   },
   {
     "question_id": "GNS221_U2_T9_h6_q2",
     "heading_id": "GNS221_U2_T9_h6",
     "article_id": "GNS221_U2_T9",
     "topic_id": "GNS221_U2_T9",
-    "difficulty": "recall",
-    "question": "What should the nurse check when inspecting the dressing after the procedure?",
+    "difficulty": "understanding",
+    "question": "Why does a nurse regularly check a patient's lower extremities for movement and sensation after a lumbar puncture?",
     "options": {
-      "A": "Whether the skin has turned a pale yellow color",
-      "B": "If the adhesive tape is completely waterproof",
-      "C": "Signs of bleeding, swelling, or fluid leakage",
-      "D": "The exact temperature of the bandage material"
+      "A": "To evaluate how well the patient tolerated the lateral position",
+      "B": "To ensure the patient has not developed deep vein thrombosis",
+      "C": "To detect early signs of nerve root irritation or hematoma",
+      "D": "To confirm that the local anesthetic has completely worn off"
     },
     "answer": "C",
-    "explanation": "Spot on! Regular site checks ensure any bleeding or fluid leakage is caught and managed early. [learn more](GNS221_U2_T9#GNS221_U2_T9_h6)"
+    "explanation": "Monitoring motor and sensory function helps catch rare complications like spinal hematoma or nerve trauma before permanent damage occurs. [learn more](GNS221_U2_T9#GNS221_U2_T9_h6)"
   },
   {
     "question_id": "GNS221_U2_T9_h7_q1",
     "heading_id": "GNS221_U2_T9_h7",
     "article_id": "GNS221_U2_T9",
     "topic_id": "GNS221_U2_T9",
-    "difficulty": "understanding",
-    "question": "What is the key sign of a post-dural puncture headache?",
+    "difficulty": "recall",
+    "question": "Which symptom is most characteristic of a post-dural puncture headache?",
     "options": {
-      "A": "It gets worse when the patient sits up and improves when lying flat",
-      "B": "It feels like a sharp electrical shock running down both legs",
-      "C": "It stays at the exact same intensity regardless of body position",
-      "D": "It only occurs during the night and disappears by afternoon"
+      "A": "A dull morning headache accompanied by sudden projectile vomiting",
+      "B": "A sharp pain focused entirely behind the eyes and across the jaw",
+      "C": "A headache that worsens when sitting upright and improves when lying flat",
+      "D": "A constant throbbing pain that is unaffected by body position changes"
     },
-    "answer": "A",
-    "explanation": "You nailed it! Low fluid pressure pulls on pain-sensitive areas when upright, which eases up when the patient lies horizontal. [learn more](GNS221_U2_T9#GNS221_U2_T9_h7)"
+    "answer": "C",
+    "explanation": "Post-dural puncture headaches are classic orthostatic headaches caused by low CSF pressure when upright. [learn more](GNS221_U2_T9#GNS221_U2_T9_h7)"
   },
   {
     "question_id": "GNS221_U2_T9_h7_q2",
     "heading_id": "GNS221_U2_T9_h7",
     "article_id": "GNS221_U2_T9",
     "topic_id": "GNS221_U2_T9",
-    "difficulty": "recall",
-    "question": "Which equipment design helps lower the chance of a spinal headache?",
+    "difficulty": "understanding",
+    "question": "What is the primary mechanism that causes a post-dural puncture headache?",
     "options": {
-      "A": "Atraumatic pencil-point needles",
-      "B": "Wide-bore metal needles",
-      "C": "Disposable plastic syringes",
-      "D": "Flexible silicone tubing"
+      "A": "An allergic reaction to the antiseptic solution used on the skin",
+      "B": "Inflammation of the meninges caused by exposure to room air",
+      "C": "Temporary lack of oxygen reaching the frontal lobe during the test",
+      "D": "Continued leakage of cerebrospinal fluid through the dural puncture site"
     },
-    "answer": "A",
-    "explanation": "Correct! Pencil-point needles gently push fibers aside instead of cutting them, allowing the puncture hole to seal much faster. [learn more](GNS221_U2_T9#GNS221_U2_T9_h7)"
+    "answer": "D",
+    "explanation": "Fluid leaking faster than it is produced lowers intracranial pressure, pulling on pain-sensitive cranial structures when the patient sits up. [learn more](GNS221_U2_T9#GNS221_U2_T9_h7)"
   },
   {
     "question_id": "GNS221_U2_T9_h8_q1",
@@ -229,15 +229,15 @@
     "article_id": "GNS221_U2_T9",
     "topic_id": "GNS221_U2_T9",
     "difficulty": "recall",
-    "question": "What does normal, healthy cerebrospinal fluid look like?",
+    "question": "What is the normal appearance of healthy cerebrospinal fluid collected during a lumbar puncture?",
     "options": {
-      "A": "Dark amber like strong tea",
-      "B": "Bright red like fresh blood",
-      "C": "Clear and colorless like water",
-      "D": "Cloudy yellow like thin milk"
+      "A": "Red and blood-tinged",
+      "B": "Yellow and thick",
+      "C": "Clear and colorless",
+      "D": "Milky and opaque"
     },
     "answer": "C",
-    "explanation": "Spot on! Normal CSF is transparent and looks just like clean water because it lacks blood cells or excess protein. [learn more](GNS221_U2_T9#GNS221_U2_T9_h8)"
+    "explanation": "Healthy CSF looks clear and colorless, often described as resembling clean water. [learn more](GNS221_U2_T9#GNS221_U2_T9_h8)"
   },
   {
     "question_id": "GNS221_U2_T9_h8_q2",
@@ -245,14 +245,14 @@
     "article_id": "GNS221_U2_T9",
     "topic_id": "GNS221_U2_T9",
     "difficulty": "understanding",
-    "question": "What does a significantly low glucose level in the cerebrospinal fluid usually suggest?",
+    "question": "Which CSF laboratory finding strongly suggests a bacterial infection of the central nervous system?",
     "options": {
-      "A": "Recent physical exercise",
-      "B": "A normal healthy patient",
-      "C": "A bacterial infection",
-      "D": "Viral meningitis illness"
+      "A": "Decreased glucose level and elevated white blood cells with predominant neutrophils",
+      "B": "Decreased protein level combined with normal opening CSF pressure",
+      "C": "Elevated glucose level and zero detectable white blood cells in all tubes",
+      "D": "Clear appearance with normal protein levels and high red blood cell counts"
     },
-    "answer": "C",
-    "explanation": "You got it! Bacterial germs consume glucose rapidly within the spinal fluid, making the lab numbers drop below normal. [learn more](GNS221_U2_T9#GNS221_U2_T9_h8)"
+    "answer": "A",
+    "explanation": "Bacterial pathogens consume glucose rapidly and provoke a large neutrophil response, resulting in low glucose and high neutrophil counts in the CSF. [learn more](GNS221_U2_T9#GNS221_U2_T9_h8)"
   }
 ]

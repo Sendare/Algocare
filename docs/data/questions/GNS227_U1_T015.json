@@ -5,15 +5,15 @@
     "article_id": "GNS227_U1_T015",
     "topic_id": "GNS227_U1_T015",
     "difficulty": "recall",
-    "question": "Why do nurses calculate a patient's BMI?",
+    "question": "What primary body characteristic does Body Mass Index estimate using height and weight?",
     "options": {
-      "A": "To quickly screen for weight categories and health risks",
-      "B": "To diagnose heart and metabolic diseases directly",
-      "C": "To calculate exact daily food calories",
-      "D": "To measure exact body fat percentage in muscles"
+      "A": "Skeletal muscle mass",
+      "B": "Total body fat",
+      "C": "Total body water percentage",
+      "D": "Bone mineral density"
     },
-    "answer": "A",
-    "explanation": "BMI is a quick screening tool to help you spot weight categories that could lead to health issues. You're doing great! [learn more](GNS227_U1_T015#GNS227_U1_T015_h1)"
+    "answer": "B",
+    "explanation": "Body Mass Index serves as a practical proxy to estimate overall body fat relative to stature. [learn more](GNS227_U1_T015#GNS227_U1_T015_h1)"
   },
   {
     "question_id": "GNS227_U1_T015_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GNS227_U1_T015",
     "topic_id": "GNS227_U1_T015",
     "difficulty": "understanding",
-    "question": "Why is BMI called an indirect measure of body fat?",
+    "question": "Why do clinical nurses use Body Mass Index during routine adult health assessments?",
     "options": {
-      "A": "It changes based on how much water a person drinks",
-      "B": "It uses overall weight and height instead of direct fat scanning",
-      "C": "It needs expensive laboratory equipment",
-      "D": "It only measures fat right beneath the skin"
+      "A": "To determine precise daily caloric requirements",
+      "B": "To measure exact subcutaneous fat thickness",
+      "C": "To quickly screen for weight-related health risks",
+      "D": "To diagnose specific metabolic endocrine disorders"
     },
-    "answer": "B",
-    "explanation": "Because BMI only uses mass and height proportions, it estimates fat rather than scanning tissue directly. Keep it up! [learn more](GNS227_U1_T015#GNS227_U1_T015_h1)"
+    "answer": "C",
+    "explanation": "The index provides a fast, accessible method to flag potential health concerns tied to body weight. [learn more](GNS227_U1_T015#GNS227_U1_T015_h1)"
   },
   {
     "question_id": "GNS227_U1_T015_h2_q1",
@@ -37,15 +37,15 @@
     "article_id": "GNS227_U1_T015",
     "topic_id": "GNS227_U1_T015",
     "difficulty": "recall",
-    "question": "In the standard metric BMI formula, how is height measured?",
+    "question": "Which measurement unit is squared when calculating Body Mass Index?",
     "options": {
-      "A": "Inches",
-      "B": "Centimeters",
-      "C": "Meters squared",
-      "D": "Millimeters"
+      "A": "Height in metres",
+      "B": "Weight in grams",
+      "C": "Weight in kilograms",
+      "D": "Height in centimetres"
     },
-    "answer": "C",
-    "explanation": "The standard metric formula needs height in meters, which you then square. You've got this! [learn more](GNS227_U1_T015#GNS227_U1_T015_h2)"
+    "answer": "A",
+    "explanation": "The standard metric formula requires height measured in metres to be multiplied by itself. [learn more](GNS227_U1_T015#GNS227_U1_T015_h2)"
   },
   {
     "question_id": "GNS227_U1_T015_h2_q2",
@@ -53,15 +53,15 @@
     "article_id": "GNS227_U1_T015",
     "topic_id": "GNS227_U1_T015",
     "difficulty": "application",
-    "question": "When does a nurse use the number 703 in a BMI calculation?",
+    "question": "Calculate the index for an adult patient who weighs 80 kg and stands 2.0 metres tall.",
     "options": {
-      "A": "When adjusting for athletes with high muscle mass",
-      "B": "When the patient's measurements are in pounds and inches",
-      "C": "When the patient is measured in kilograms and meters",
-      "D": "When calculating BMI for an elderly patient"
+      "A": "20",
+      "B": "32",
+      "C": "16",
+      "D": "40"
     },
-    "answer": "B",
-    "explanation": "The number 703 is a handy conversion factor used to balance out imperial units (pounds and inches). Simple as that! [learn more](GNS227_U1_T015#GNS227_U1_T015_h2)"
+    "answer": "A",
+    "explanation": "Squaring 2.0 metres gives 4.0, and dividing 80 kg by 4.0 results in 20. [learn more](GNS227_U1_T015#GNS227_U1_T015_h2)"
   },
   {
     "question_id": "GNS227_U1_T015_h3_q1",
@@ -69,15 +69,15 @@
     "article_id": "GNS227_U1_T015",
     "topic_id": "GNS227_U1_T015",
     "difficulty": "recall",
-    "question": "According to the World Health Organization, what BMI value marks the start of the overweight category?",
+    "question": "What World Health Organization cut-off defines the upper limit of a normal adult body weight?",
     "options": {
-      "A": "40.0",
+      "A": "24.9",
       "B": "30.0",
       "C": "18.5",
-      "D": "25.0"
+      "D": "29.9"
     },
-    "answer": "D",
-    "explanation": "The overweight category officially starts at a BMI of 25.0 and goes up to 29.9. You are learning fast! [learn more](GNS227_U1_T015#GNS227_U1_T015_h3)"
+    "answer": "A",
+    "explanation": "The normal weight category spans from 18.5 up to 24.9 kg/m². [learn more](GNS227_U1_T015#GNS227_U1_T015_h3)"
   },
   {
     "question_id": "GNS227_U1_T015_h3_q2",
@@ -85,110 +85,110 @@
     "article_id": "GNS227_U1_T015",
     "topic_id": "GNS227_U1_T015",
     "difficulty": "understanding",
-    "question": "A patient has a BMI of 32.5. How is this classified?",
+    "question": "A patient presents with a calculated index of 32.5. Which category applies to this individual?",
     "options": {
-      "A": "Normal weight",
-      "B": "Overweight",
-      "C": "Obesity",
-      "D": "Underweight"
+      "A": "Overweight",
+      "B": "Class 1 Obesity",
+      "C": "Class 2 Obesity",
+      "D": "Normal weight"
     },
-    "answer": "C",
-    "explanation": "Any BMI value of 30.0 or higher falls under the classification of obesity. Great clinical recall! [learn more](GNS227_U1_T015#GNS227_U1_T015_h3)"
+    "answer": "B",
+    "explanation": "Values between 30.0 and 34.9 fall specifically into the Class 1 Obesity classification. [learn more](GNS227_U1_T015#GNS227_U1_T015_h3)"
   },
   {
     "question_id": "GNS227_U1_T015_h4_q1",
     "heading_id": "GNS227_U1_T015_h4",
     "article_id": "GNS227_U1_T015",
     "topic_id": "GNS227_U1_T015",
-    "difficulty": "understanding",
-    "question": "Why does a high BMI raise a patient's risk for joint problems like osteoarthritis?",
+    "difficulty": "recall",
+    "question": "Chronic health conditions strongly linked to an elevated index include type 2 diabetes and which other cardiovascular problem?",
     "options": {
-      "A": "Extra weight places constant physical stress on weight-bearing joints",
-      "B": "Fat tissue directly destroys cartilage cells",
-      "C": "Obesity causes muscles to shrink completely",
-      "D": "High body weight stops joint fluid from working"
+      "A": "Iron deficiency anemia",
+      "B": "Hypertension",
+      "C": "Peptic ulcer disease",
+      "D": "Chronic bronchitis"
     },
-    "answer": "A",
-    "explanation": "Carrying extra body weight puts constant pressure on weight-bearing joints like the knees and hips, wearing down cartilage over time. [learn more](GNS227_U1_T015#GNS227_U1_T015_h4)"
+    "answer": "B",
+    "explanation": "High body mass index places extra strain on the circulatory system, frequently resulting in high blood pressure. [learn more](GNS227_U1_T015#GNS227_U1_T015_h4)"
   },
   {
     "question_id": "GNS227_U1_T015_h4_q2",
     "heading_id": "GNS227_U1_T015_h4",
     "article_id": "GNS227_U1_T015",
     "topic_id": "GNS227_U1_T015",
-    "difficulty": "recall",
-    "question": "Which health problem is most linked to a very low BMI?",
+    "difficulty": "understanding",
+    "question": "What primary risk is associated with a severely low index value below 18.5?",
     "options": {
-      "A": "Type 2 diabetes and insulin resistance",
-      "B": "Osteoporosis and weakened immunity",
-      "C": "Obstructive sleep apnea and snoring",
-      "D": "Hypertension and heart failure"
+      "A": "Impaired immune response",
+      "B": "Elevated blood glucose levels",
+      "C": "Accelerated joint degeneration",
+      "D": "Increased systemic blood pressure"
     },
-    "answer": "B",
-    "explanation": "A low BMI often points to poor nutrition, which weakens bones and lowers the body's immune defenses. You're doing awesome! [learn more](GNS227_U1_T015#GNS227_U1_T015_h4)"
+    "answer": "A",
+    "explanation": "Underweight individuals often experience compromised immunity and malnutrition due to inadequate nutritional reserves. [learn more](GNS227_U1_T015#GNS227_U1_T015_h4)"
   },
   {
     "question_id": "GNS227_U1_T015_h5_q1",
     "heading_id": "GNS227_U1_T015_h5",
     "article_id": "GNS227_U1_T015",
     "topic_id": "GNS227_U1_T015",
-    "difficulty": "understanding",
-    "question": "Why might a professional athlete be wrongly classified as overweight on a standard BMI chart?",
+    "difficulty": "recall",
+    "question": "Why might a muscular athlete receive an inaccurate high classification?",
     "options": {
-      "A": "Their bones are much denser than average",
-      "B": "Their high daily water intake changes the scale",
-      "C": "Their height is usually recorded incorrectly",
-      "D": "Their heavy muscle mass increases total weight without excess fat"
+      "A": "Hydration levels artificially alter height measurements",
+      "B": "Bone structure expands during heavy physical training",
+      "C": "Dense muscle tissue weighs more than fat tissue",
+      "D": "Metabolic rates skew the mathematical formula"
     },
-    "answer": "D",
-    "explanation": "Muscle weighs more than fat by volume! Heavy muscle mass can push an athlete's BMI into the overweight range even with low body fat. [learn more](GNS227_U1_T015#GNS227_U1_T015_h5)"
+    "answer": "C",
+    "explanation": "The formula cannot differentiate between heavy muscle mass and adipose tissue, leading to false elevations. [learn more](GNS227_U1_T015#GNS227_U1_T015_h5)"
   },
   {
     "question_id": "GNS227_U1_T015_h5_q2",
     "heading_id": "GNS227_U1_T015_h5",
     "article_id": "GNS227_U1_T015",
     "topic_id": "GNS227_U1_T015",
-    "difficulty": "recall",
-    "question": "Which of these is NOT a limitation of using BMI in clinical practice?",
+    "difficulty": "understanding",
+    "question": "How does severe peripheral edema affect a patient's calculated index score?",
     "options": {
-      "A": "It does not account for changes during pregnancy",
-      "B": "It measures exact fat distribution in the arms",
-      "C": "It can be misleading for elderly patients losing muscle",
-      "D": "It fails to separate muscle weight from fat weight"
+      "A": "It automatically shifts the classification to underweight",
+      "B": "It falsely increases the score due to fluid weight",
+      "C": "It has no impact since water is not counted",
+      "D": "It falsely decreases the score due to altered height"
     },
     "answer": "B",
-    "explanation": "BMI doesn't measure fat distribution or target specific body parts like arms; it's just a single ratio of total weight to height. Brilliant! [learn more](GNS227_U1_T015#GNS227_U1_T015_h5)"
+    "explanation": "Retained fluid adds extra pounds to the scale, inflating the weight variable in the calculation. [learn more](GNS227_U1_T015#GNS227_U1_T015_h5)"
   },
   {
     "question_id": "GNS227_U1_T015_h6_q1",
     "heading_id": "GNS227_U1_T015_h6",
     "article_id": "GNS227_U1_T015",
     "topic_id": "GNS227_U1_T015",
-    "difficulty": "understanding",
-    "question": "Why is waist circumference often a better indicator of health risks than BMI?",
+    "difficulty": "recall",
+    "question": "What does measuring waist circumference help nurses evaluate that standard body mass index misses?",
     "options": {
-      "A": "It changes based on leg water retention",
-      "B": "It is impossible for athletes to get a false reading",
-      "C": "It requires expensive laboratory machines",
-      "D": "It specifically measures fat stored around internal abdominal organs"
+      "A": "Total body water volume",
+      "B": "Bone mineral density",
+      "C": "Total skeletal muscle mass",
+      "D": "Abdominal visceral fat"
     },
     "answer": "D",
-    "explanation": "Waist measurements target belly fat directly, showing the hidden visceral fat around vital organs that drives heart disease risk. [learn more](GNS227_U1_T015#GNS227_U1_T015_h6)"
+    "explanation": "Waist circumference specifically targets central fat accumulation around internal organs. [learn more](GNS227_U1_T015#GNS227_U1_T015_h6)"
   },
   {
     "question_id": "GNS227_U1_T015_h6_q2",
     "heading_id": "GNS227_U1_T015_h6",
     "article_id": "GNS227_U1_T015",
     "topic_id": "GNS227_U1_T015",
-    "difficulty": "recall",
-    "question": "What type of fat does a nurse assess when measuring a patient's waist circumference?",
+    "difficulty": "understanding",
+    "question": "When is using a waist-to-hip ratio most clinically useful during an assessment?",
     "options": {
-      "A": "Essential fat",
-      "B": "Subcutaneous fat",
-      "C": "Brown fat",
-      "D": "Visceral fat"
+      "A": "To determine maximum skeletal muscle mass potential",
+      "B": "To calculate exact daily caloric expenditure needs",
+      "C": "To measure precise subcutaneous fluid retention levels",
+      "D": "To evaluate fat distribution patterns across the body"
     },
     "answer": "D",
-    "explanation": "Waist circumference is our go-to clinical shortcut for checking dangerous visceral fat stored around the tummy and organs. Fantastic finish! [learn more](GNS227_U1_T015#GNS227_U1_T015_h6)"
+    "explanation": "This ratio helps differentiate between central and peripheral fat storage types to gauge metabolic risk. [learn more](GNS227_U1_T015#GNS227_U1_T015_h6)"
   }
 ]
