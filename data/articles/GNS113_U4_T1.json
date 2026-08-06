@@ -10,38 +10,38 @@
     {
       "heading_id": "GNS113_U4_T1_h1",
       "order": 1,
-      "title": "Introduction to Diagnostic Devices in Clinical Practice",
-      "content": "Diagnostic devices are tools used by healthcare professionals to detect diseases, monitor health conditions, and guide treatment plans. In modern nursing, these devices range from simple handheld instruments like pulse oximeters to large imaging machines. Nurses must understand how these tools work because they often prepare the patient, assist during the procedure, and interpret basic readings at the bedside.\n\nA common misconception is that diagnostic devices replace clinical judgment. In reality, they supplement it. A machine provides raw data, but the nurse combines this data with physical assessment and patient history to form a complete picture of care."
+      "title": "Introduction to Diagnostic Devices in Nursing Informatics",
+      "content": "Diagnostic devices are tools and instruments used by healthcare professionals to detect, monitor, and evaluate diseases or physical conditions. In the context of nursing informatics, these devices do more than just generate numbers or images; they capture patient data that must be seamlessly transmitted into electronic health records. Nurses interact directly with these machines, ensuring that the readings are accurate and properly documented for clinical decision-making. As technology evolves, smart diagnostic tools connect directly to hospital networks, reducing manual transcription errors and speeding up interprofessional communication across the ward."
     },
     {
       "heading_id": "GNS113_U4_T1_h2",
       "order": 2,
-      "title": "Vital Signs and Bedside Monitoring Tools",
-      "content": "Bedside monitors and vital sign machines are the most common diagnostic devices nurses encounter daily. These tools continuously or intermittently track physiological parameters such as heart rate, blood pressure, oxygen saturation, and body temperature.\n\n- **Pulse Oximeter**: Measures blood oxygen saturation using light absorption through the skin.\n- **Electrocardiogram (ECG) Monitor**: Traces the electrical activity of the heart via electrodes placed on the chest and limbs.\n- **Sphygmomanometer**: Measures blood pressure, either manually with a cuff and stethoscope or via automated electronic sensors.\n\nAccurate placement of sensors is vital. For example, poor sensor placement on a cold finger can give a false low oxygen reading, leading to unnecessary panic or interventions."
+      "title": "Integration of Imaging Technology and PACS",
+      "content": "Medical imaging has transformed from physical X-ray films stored in darkrooms to high-resolution digital scans accessible across hospital networks. Picture Archiving and Communication Systems, commonly known as **PACS**, serve as the digital backbone for storing, retrieving, and sharing these images. When a patient undergoes an imaging procedure, the digital files are routed directly into the PACS database, allowing physicians and nurses on different floors to view them simultaneously. This integration eliminates lost films, cuts down waiting times for specialist consultations, and supports rapid clinical interventions."
     },
     {
       "heading_id": "GNS113_U4_T1_h3",
       "order": 3,
-      "title": "Imaging Technologies: Ultrasound and X-Ray",
-      "content": "Imaging devices allow clinicians to look inside the human body without invasive surgery. Ultrasound and X-rays are foundational imaging tools found in most hospitals.\n\nUltrasound uses high-frequency sound waves to create real-time images of soft tissues, blood vessels, and organs. It does not use ionizing radiation, making it safe for pregnant women. X-rays use electromagnetic radiation to visualize dense structures like bones and certain tissues. While quick and effective, X-ray exposure must be minimized, especially in vulnerable populations.\n\nNurses frequently prepare patients by explaining the procedure, ensuring jewelry or metal is removed for X-rays, and applying conductive gel for ultrasounds."
+      "title": "Ultrasound and Point-of-Care Testing",
+      "content": "Ultrasound technology uses high-frequency sound waves to create real-time images of internal body structures without exposing the patient to ionizing radiation. Portable ultrasound machines are increasingly brought directly to the bedside, a practice known as **point-of-care ultrasound (POCUS)**. Nurses and doctors use these compact devices to quickly assess bladder volume, guide peripheral and central vascular access, and check for free fluid in emergency situations. Because it is non-invasive and radiation-free, ultrasound is exceptionally safe for pregnant women and routine bedside monitoring."
     },
     {
       "heading_id": "GNS113_U4_T1_h4",
       "order": 4,
-      "title": "Advanced Imaging: CT Scans and MRIs",
-      "content": "When basic imaging is not enough, advanced scans provide detailed cross-sectional views of the body.\n\n- **Computed Tomography (CT) Scan**: Combines multiple X-ray measurements taken from different angles to produce detailed cross-sectional images of bones, blood vessels, and soft tissues. It is fast and excellent for trauma cases.\n- **Magnetic Resonance Imaging (MRI)**: Uses powerful magnets and radio waves to generate remarkably clear images of soft tissues, the brain, and the spinal cord.\n\nBecause MRIs use strong magnetic fields, safety screening is critical. Any hidden metal, such as pacemakers, aneurysm clips, or stray oxygen tanks, can become dangerous projectiles or malfunction inside the scanner room."
+      "title": "Computed Tomography (CT) Scans",
+      "content": "A Computed Tomography scan combines a series of X-ray images taken from different angles around the body and uses computer processing to create cross-sectional slices of bones, blood vessels, and soft tissues. CT scans provide much greater detail than standard X-rays, making them invaluable for diagnosing acute strokes, internal hemorrhages, and complex fractures. However, a major nursing consideration is patient preparation regarding **contrast media**, which contains iodine to highlight blood vessels and organs. Nurses must meticulously screen patients for known seafood or iodine allergies and check baseline kidney function before contrast administration."
     },
     {
       "heading_id": "GNS113_U4_T1_h5",
       "order": 5,
-      "title": "Data Management, PACS, and Electronic Health Records",
-      "content": "Diagnostic devices generate massive amounts of data daily. Managing this information securely and efficiently is a core part of healthcare technology.\n\nPicture Archiving and Communication Systems (PACS) are specialized medical imaging technology used to store, retrieve, and share digital images like X-rays and MRIs across different hospital departments. PACS integrates directly with Electronic Health Records (EHR), allowing doctors and nurses to view images and lab reports side by side on a computer screen.\n\nNurses play a role here by ensuring that images and test results are correctly linked to the right patient file to prevent medical errors."
+      "title": "Magnetic Resonance Imaging (MRI)",
+      "content": "Magnetic Resonance Imaging employs powerful magnets and radio waves to generate remarkably clear images of organs and tissues, particularly the brain, spinal cord, and musculoskeletal system. Unlike CT scans, MRI does not use ionizing radiation, rendering it safer for repeated evaluations. Nevertheless, the strong magnetic field introduces severe safety hazards in the clinical environment. Any ferromagnetic metal—such as oxygen cylinders, stethoscopes, surgical clips, or pacemakers—can become a dangerous projectile or malfunction catastrophically inside the scanner suite. Nurses must enforce strict screening checklists before any patient or visitor steps near the MRI zone."
     },
     {
       "heading_id": "GNS113_U4_T1_h6",
       "order": 6,
       "title": "Safety Protocols and Ethical Considerations",
-      "content": "Using diagnostic devices safely requires adherence to strict institutional protocols. Electrical safety, infection control, and radiation protection are daily priorities for nursing staff.\n\nMedical equipment must be regularly calibrated and checked for frayed cords or electrical faults. Furthermore, reusable diagnostic tools like ultrasound probes must undergo proper disinfection between patients to prevent hospital-acquired infections. Ethically, nurses must respect patient privacy and obtain informed consent before diagnostic procedures, ensuring patients understand what the test involves and why it is needed."
+      "content": "Operating and interacting with advanced diagnostic devices carries profound safety and ethical responsibilities for the nursing team. Radiation safety principles—such as **time, distance, and shielding**—must be applied whenever portable X-ray or fluoroscopy machines are operated in clinical areas. Ethically, nurses must respect patient autonomy by ensuring informed consent is obtained before invasive diagnostic procedures. Furthermore, protecting patient data transmitted through diagnostic informatics systems is a legal and moral duty under medical confidentiality guidelines."
     }
   ]
 }
