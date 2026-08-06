@@ -5,15 +5,15 @@
     "article_id": "GNS113_U1_T9",
     "topic_id": "GNS113_U1_T9",
     "difficulty": "recall",
-    "question": "What is the basic function of the internet?",
+    "question": "What is the internet primarily defined as?",
     "options": {
-      "A": "Printing out patient care plans automatically",
-      "B": "Generating electrical power for medical machines",
-      "C": "Connecting computers globally to share information instantly",
-      "D": "Storing physical files inside a hospital filing cabinet"
+      "A": "A type of medical database",
+      "B": "A global network of connected computers",
+      "C": "A standalone hospital software program",
+      "D": "A collection of web pages only"
     },
-    "answer": "C",
-    "explanation": "The internet is a global network designed primarily to link computers together so data can travel freely between them. [learn more](GNS113_U1_T9#GNS113_U1_T9_h1)"
+    "answer": "B",
+    "explanation": "The internet is a vast physical and digital infrastructure linking computers worldwide, whereas the web is just one way information is shared across it. [learn more](GNS113_U1_T9#GNS113_U1_T9_h1)"
   },
   {
     "question_id": "GNS113_U1_T9_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GNS113_U1_T9",
     "topic_id": "GNS113_U1_T9",
     "difficulty": "understanding",
-    "question": "How does the World Wide Web relate to the internet?",
+    "question": "How does the World Wide Web work alongside the internet?",
     "options": {
-      "A": "It is an older offline system replaced by the internet",
-      "B": "It is a standalone computer used only by doctors",
-      "C": "It is a specific service that displays web pages using the internet",
-      "D": "It is the physical wire running underneath hospital floors"
+      "A": "The web is a service running on the internet infrastructure",
+      "B": "The web handles hardware while the internet handles software",
+      "C": "The internet is created by individual web browser windows",
+      "D": "The web and the internet are completely separate systems"
     },
-    "answer": "C",
-    "explanation": "The web is just one part of the internet, acting as a collection of pages and sites viewed through a browser. [learn more](GNS113_U1_T9#GNS113_U1_T9_h1)"
+    "answer": "A",
+    "explanation": "Think of the internet as the actual highway, and the web as the vehicles carrying information back and forth on it! [learn more](GNS113_U1_T9#GNS113_U1_T9_h1)"
   },
   {
     "question_id": "GNS113_U1_T9_h2_q1",
@@ -37,15 +37,15 @@
     "article_id": "GNS113_U1_T9",
     "topic_id": "GNS113_U1_T9",
     "difficulty": "recall",
-    "question": "What are small pieces of digital data called when they travel across a network?",
+    "question": "When data travels across a computer network, what are the small pieces called?",
     "options": {
-      "A": "Pixels",
-      "B": "Packets",
-      "C": "Pulses",
-      "D": "Plugs"
+      "A": "Nodes",
+      "B": "Bytes",
+      "C": "Packets",
+      "D": "Routers"
     },
-    "answer": "B",
-    "explanation": "Data is broken down into small units known as packets so it can travel efficiently across computer networks. [learn more](GNS113_U1_T9#GNS113_U1_T9_h2)"
+    "answer": "C",
+    "explanation": "Correct! Large files are broken down into tiny pieces called 'packets' so they can zip across the network quickly and piece back together at the end. [learn more](GNS113_U1_T9#GNS113_U1_T9_h2)"
   },
   {
     "question_id": "GNS113_U1_T9_h2_q2",
@@ -53,15 +53,15 @@
     "article_id": "GNS113_U1_T9",
     "topic_id": "GNS113_U1_T9",
     "difficulty": "understanding",
-    "question": "Why does a hospital computer network use protocols like TCP/IP?",
+    "question": "Why are local servers and offline data storage so important in many Nigerian hospitals?",
     "options": {
-      "A": "To make sure data packets reach the correct destination safely",
-      "B": "To automatically print paper copies of every lab result",
-      "C": "To prevent the monitor screen from dimming too quickly",
-      "D": "To increase the physical storage size of the computer hard drive"
+      "A": "To replace the need for trained nursing documentation",
+      "B": "To prevent patients from seeing their own medical records",
+      "C": "To stop computers from using electrical power",
+      "D": "To maintain care when internet connectivity fluctuates"
     },
-    "answer": "A",
-    "explanation": "Protocols are the established rules that guide how data is packaged, addressed, and successfully delivered across networks. [learn more](GNS113_U1_T9#GNS113_U1_T9_h2)"
+    "answer": "D",
+    "explanation": "Spot on! Because network signals can be unpredictable, having local backups ensures you can always pull up vital patient files without breaking a sweat. [learn more](GNS113_U1_T9#GNS113_U1_T9_h2)"
   },
   {
     "question_id": "GNS113_U1_T9_h3_q1",
@@ -69,31 +69,31 @@
     "article_id": "GNS113_U1_T9",
     "topic_id": "GNS113_U1_T9",
     "difficulty": "recall",
-    "question": "Which of the following is a well-known online database used by nurses to find research?",
+    "question": "Which free online search engine is best for finding biomedical and health science research?",
     "options": {
-      "A": "Microsoft Paint",
-      "B": "Adobe Reader",
+      "A": "Instagram",
+      "B": "TikTok",
       "C": "PubMed",
-      "D": "Windows Explorer"
+      "D": "Wikipedia"
     },
     "answer": "C",
-    "explanation": "PubMed is a primary online database providing free access to biomedical and nursing research literature. [learn more](GNS113_U1_T9#GNS113_U1_T9_h3)"
+    "explanation": "You nailed it. PubMed is a nurse's best friend for searching millions of reliable research articles and abstracts for studies. [learn more](GNS113_U1_T9#GNS113_U1_T9_h3)"
   },
   {
     "question_id": "GNS113_U1_T9_h3_q2",
     "heading_id": "GNS113_U1_T9_h3",
     "article_id": "GNS113_U1_T9",
     "topic_id": "GNS113_U1_T9",
-    "difficulty": "understanding",
-    "question": "What is the purpose of using Boolean operators like AND in a literature search?",
+    "difficulty": "application",
+    "question": "You want to find reliable, high-quality systematic reviews to update a ward wound care routine. Where should you look first?",
     "options": {
-      "A": "To automatically translate foreign medical terms into English",
-      "B": "To print research articles directly to the nurse station",
-      "C": "To combine keywords and narrow down search results",
-      "D": "To check if a website is legally safe to browse"
+      "A": "General social media feeds",
+      "B": "Personal blog posts",
+      "C": "The Cochrane Library",
+      "D": "Commercial shopping sites"
     },
     "answer": "C",
-    "explanation": "Boolean operators help structure search queries so you retrieve articles specifically relevant to your exact clinical question. [learn more](GNS113_U1_T9#GNS113_U1_T9_h3)"
+    "explanation": "Great choice! The Cochrane Library is famous for gold-standard, rigorous systematic reviews that give you rock-solid evidence for your practice. [learn more](GNS113_U1_T9#GNS113_U1_T9_h3)"
   },
   {
     "question_id": "GNS113_U1_T9_h4_q1",
@@ -101,31 +101,31 @@
     "article_id": "GNS113_U1_T9",
     "topic_id": "GNS113_U1_T9",
     "difficulty": "recall",
-    "question": "What does Remote Patient Monitoring (RPM) allow nurses to do?",
+    "question": "What is the main focus of telemedicine?",
     "options": {
-      "A": "Print physical medication prescriptions automatically at home",
-      "B": "Perform major surgical procedures over a live video stream",
-      "C": "Replace all in-person nursing staff with computer software",
-      "D": "Receive daily health readings sent from a patient's home device"
+      "A": "Manual pill counting in hospital pharmacies",
+      "B": "Physical paper record archiving in basements",
+      "C": "In-person bedside nursing assessments only",
+      "D": "Remote diagnosis and treatment using technology"
     },
     "answer": "D",
-    "explanation": "RPM tools transmit vital signs and health metrics directly from the patient's home to healthcare providers for ongoing tracking. [learn more](GNS113_U1_T9#GNS113_U1_T9_h4)"
+    "explanation": "That's right! Telemedicine bridges the distance between patients and clinicians using phone or video calls when they aren't in the same room. [learn more](GNS113_U1_T9#GNS113_U1_T9_h4)"
   },
   {
     "question_id": "GNS113_U1_T9_h4_q2",
     "heading_id": "GNS113_U1_T9_h4",
     "article_id": "GNS113_U1_T9",
     "topic_id": "GNS113_U1_T9",
-    "difficulty": "application",
-    "question": "A patient living in a rural village needs regular blood pressure checks but cannot travel easily to the clinic. Which internet-based service is best suited for this situation?",
+    "difficulty": "understanding",
+    "question": "How does m-health (mobile health) particularly help healthcare delivery in rural or resource-limited areas?",
     "options": {
-      "A": "Telehealth and remote monitoring",
-      "B": "Offline hospital database backups",
-      "C": "Standard paper filing systems",
-      "D": "Internal local area network wiring"
+      "A": "By utilizing mobile phones for community health tracking",
+      "B": "By stopping the spread of all infectious diseases instantly",
+      "C": "By ensuring all patients have free smartphones provided",
+      "D": "By completely eliminating the need for any physical hospitals"
     },
     "answer": "A",
-    "explanation": "Telehealth bridges geographical gaps, allowing continuous care and observation for patients far away from the main hospital. [learn more](GNS113_U1_T9#GNS113_U1_T9_h4)"
+    "explanation": "Spot on. Since almost everyone has a mobile phone, nurses and health workers can easily follow up on patients right in their communities. [learn more](GNS113_U1_T9#GNS113_U1_T9_h4)"
   },
   {
     "question_id": "GNS113_U1_T9_h5_q1",
@@ -133,15 +133,15 @@
     "article_id": "GNS113_U1_T9",
     "topic_id": "GNS113_U1_T9",
     "difficulty": "recall",
-    "question": "What is a major risk of patients using unverified health websites?",
+    "question": "What kind of security technology scrambles web data to keep it safe while it travels online?",
     "options": {
-      "A": "Their internet connection will permanently stop working",
-      "B": "The hospital will charge extra fees for internet browsing",
-      "C": "They may encounter dangerous misinformation or fake remedies",
-      "D": "Their computer will automatically delete all personal photos"
+      "A": "Public chat rooms",
+      "B": "Unsecured Wi-Fi",
+      "C": "Open browser tabs",
+      "D": "SSL encryption"
     },
-    "answer": "C",
-    "explanation": "Unverified sites often lack medical review, leading patients to trust inaccurate or harmful health advice. [learn more](GNS113_U1_T9#GNS113_U1_T9_h5)"
+    "answer": "D",
+    "explanation": "Correct! SSL encryption locks up your data like a secure parcel so prying eyes can't read it while it's moving across the network. [learn more](GNS113_U1_T9#GNS113_U1_T9_h5)"
   },
   {
     "question_id": "GNS113_U1_T9_h5_q2",
@@ -149,15 +149,15 @@
     "article_id": "GNS113_U1_T9",
     "topic_id": "GNS113_U1_T9",
     "difficulty": "understanding",
-    "question": "Why is checking the publication date important when reading health articles online?",
+    "question": "Why is it a big safety risk to share patient photos on everyday social media apps?",
     "options": {
-      "A": "Older articles require special passwords to open them",
-      "B": "Websites automatically delete articles after exactly one year",
-      "C": "Older web pages take up too much space on computer screens",
-      "D": "Medical guidelines and treatment practices change as new research emerges"
+      "A": "It slows down the internet speed for other wards",
+      "B": "It uses up too much electricity on the ward",
+      "C": "It automatically deletes all hospital records",
+      "D": "It violates patient privacy and data security"
     },
     "answer": "D",
-    "explanation": "Healthcare is fast-moving, and outdated information can lead to unsafe clinical practices or incorrect patient education. [learn more](GNS113_U1_T9#GNS113_U1_T9_h5)"
+    "explanation": "Exactly. Patient confidentiality is sacred—posting identifiable info online breaks trust and violates professional code. [learn more](GNS113_U1_T9#GNS113_U1_T9_h5)"
   },
   {
     "question_id": "GNS113_U1_T9_h6_q1",
@@ -165,15 +165,15 @@
     "article_id": "GNS113_U1_T9",
     "topic_id": "GNS113_U1_T9",
     "difficulty": "recall",
-    "question": "What is the primary action a nurse should take when stepping away from a computer terminal on the ward?",
+    "question": "What is one of the biggest dangers of health information found casually on the internet?",
     "options": {
-      "A": "Leave the charting page open for quick access",
-      "B": "Unplug the internet router from the wall",
-      "C": "Lock the computer screen",
-      "D": "Turn off the main hospital power"
+      "A": "Mandatory use in all teaching hospitals",
+      "B": "Instant approval from medical boards",
+      "C": "Presence of dangerous medical misinformation",
+      "D": "Guaranteed 100 percent clinical accuracy"
     },
     "answer": "C",
-    "explanation": "Locking your workstation prevents unauthorized people from viewing or altering confidential patient records while you are away. [learn more](GNS113_U1_T9#GNS113_U1_T9_h6)"
+    "explanation": "You got it! Anyone can post anything online, so we always have to double-check sources to avoid spreading harmful health advice. [learn more](GNS113_U1_T9#GNS113_U1_T9_h6)"
   },
   {
     "question_id": "GNS113_U1_T9_h6_q2",
@@ -181,46 +181,46 @@
     "article_id": "GNS113_U1_T9",
     "topic_id": "GNS113_U1_T9",
     "difficulty": "understanding",
-    "question": "Which of the following practices represents a serious breach of patient data security?",
+    "question": "When checking out a health website, why is it smart to look out for who is sponsoring or funding it?",
     "options": {
-      "A": "Logging out of the electronic health record system after finishing a shift",
-      "B": "Using a secure hospital database to check current medication guidelines",
-      "C": "Posting a patient's clinical case details and photo on a personal social media page",
-      "D": "Asking an IT technician for help fixing a broken network cable"
+      "A": "Sponsors pay for the internet service in the hospital",
+      "B": "Financial backers may bias the information presented",
+      "C": "Commercial sites never contain any scientific facts",
+      "D": "Sponsored sites are always completely illegal to read"
     },
-    "answer": "C",
-    "explanation": "Sharing identifiable patient information online violates patient privacy laws and breaches professional ethical standards. [learn more](GNS113_U1_T9#GNS113_U1_T9_h6)"
+    "answer": "B",
+    "explanation": "Spot on. Companies funding a site might push products or views that benefit their pockets rather than pure clinical truth. [learn more](GNS113_U1_T9#GNS113_U1_T9_h6)"
   },
   {
     "question_id": "GNS113_U1_T9_h7_q1",
     "heading_id": "GNS113_U1_T9_h7",
     "article_id": "GNS113_U1_T9",
     "topic_id": "GNS113_U1_T9",
-    "difficulty": "understanding",
-    "question": "Why is accepting a patient's friend request on personal social media discouraged for nurses?",
+    "difficulty": "recall",
+    "question": "Which of these actions is a clear example of unprofessional internet use by a nurse?",
     "options": {
-      "A": "It automatically shares the nurse's bank account details with the patient",
-      "B": "It slows down the hospital's internet connection speed",
-      "C": "It blurs the boundary between a professional relationship and a personal one",
-      "D": "It violates copyright laws regarding medical textbooks"
+      "A": "Searching PubMed for evidence-based wound care",
+      "B": "Participating in an accredited online nursing webinar",
+      "C": "Reading hospital policy documents on an intranet",
+      "D": "Posting identifiable patient details on social media"
     },
-    "answer": "C",
-    "explanation": "Maintaining clear professional boundaries is essential for safe nursing practice and protects both the nurse and the patient. [learn more](GNS113_U1_T9#GNS113_U1_T9_h7)"
+    "answer": "D",
+    "explanation": "Correct! Patient details belong in secure records, never on public social media timelines. [learn more](GNS113_U1_T9#GNS113_U1_T9_h7)"
   },
   {
     "question_id": "GNS113_U1_T9_h7_q2",
     "heading_id": "GNS113_U1_T9_h7",
     "article_id": "GNS113_U1_T9",
     "topic_id": "GNS113_U1_T9",
-    "difficulty": "application",
-    "question": "A nurse sees a public social media post from someone asking for medical advice about an open wound. What is the safest and most professional action?",
+    "difficulty": "understanding",
+    "question": "Why do nursing regulatory bodies strictly enforce rules about digital professionalism?",
     "options": {
-      "A": "Write a detailed treatment plan in the public comments section",
-      "B": "Refrain from giving specific personal diagnoses and suggest they visit a clinic",
-      "C": "Ignore the post and share pictures of the ward to cheer them up",
-      "D": "Share the hospital's internal secure password with the commenter"
+      "A": "To stop nurses from owning personal smartphones",
+      "B": "To maintain public trust and protect patient confidentiality",
+      "C": "To prevent nurses from reading medical journals",
+      "D": "To make hospital computer systems run faster"
     },
     "answer": "B",
-    "explanation": "Giving casual medical advice online creates legal liability and fails to provide safe, formal clinical assessment. [learn more](GNS113_U1_T9#GNS113_U1_T9_h7)"
+    "explanation": "You nailed it! Protecting patient privacy online is just as important as protecting it at the bedside to keep the public's trust. [learn more](GNS113_U1_T9#GNS113_U1_T9_h7)"
   }
 ]

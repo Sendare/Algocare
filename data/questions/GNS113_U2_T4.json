@@ -5,15 +5,15 @@
     "article_id": "GNS113_U2_T4",
     "topic_id": "GNS113_U2_T4",
     "difficulty": "recall",
-    "question": "What does healthcare data access primarily allow authorized medical personnel to do?",
+    "question": "What does healthcare data access primarily allow nurses to do?",
     "options": {
-      "A": "Retrieve, view, and utilize patient information",
-      "B": "Change hospital billing rates directly",
-      "C": "Delete old patient records permanently",
-      "D": "Share patient details publicly on social media"
+      "A": "Purchase new medical equipment",
+      "B": "Change hospital administrative policies",
+      "C": "Delete old hospital financial records",
+      "D": "Retrieve and view patient information"
     },
-    "answer": "A",
-    "explanation": "Data access gives clinicians the ability to pull up and use patient records to guide medical care. [learn more](GNS113_U2_T4#GNS113_U2_T4_h1)"
+    "answer": "D",
+    "explanation": "Data access gives nurses the ability to view and use patient records for clinical care. [learn more](GNS113_U2_T4#GNS113_U2_T4_h1)"
   },
   {
     "question_id": "GNS113_U2_T4_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GNS113_U2_T4",
     "topic_id": "GNS113_U2_T4",
     "difficulty": "understanding",
-    "question": "Why is rapid access to patient information critical for nurses at the bedside?",
+    "question": "Why is quick access to digital patient records important during shift handovers?",
     "options": {
-      "A": "It replaces the need for verbal patient handovers",
-      "B": "It eliminates the need for physical patient assessments",
-      "C": "It allows nurses to diagnose surgical conditions alone",
-      "D": "It prevents treatment delays and duplicate testing"
+      "A": "It reduces the total number of admitted patients",
+      "B": "It allows nurses to leave the hospital much earlier",
+      "C": "It eliminates the need for any verbal communication",
+      "D": "It prevents medical errors and maintains care continuity"
     },
     "answer": "D",
-    "explanation": "Having quick access to past medical history and test results helps nurses avoid repeating tests and speeds up safe care delivery. [learn more](GNS113_U2_T4#GNS113_U2_T4_h1)"
+    "explanation": "Having fast access to accurate data helps incoming nurses understand ongoing treatments without mistakes. [learn more](GNS113_U2_T4#GNS113_U2_T4_h1)"
   },
   {
     "question_id": "GNS113_U2_T4_h2_q1",
@@ -37,15 +37,15 @@
     "article_id": "GNS113_U2_T4",
     "topic_id": "GNS113_U2_T4",
     "difficulty": "recall",
-    "question": "Which of the following is an example of demographic data found in an EHR?",
+    "question": "Which of the following is an example of demographic patient data?",
     "options": {
-      "A": "Active blood pressure medication list",
-      "B": "Serum potassium lab test results",
-      "C": "Chest X-ray diagnostic imaging report",
-      "D": "Patient home address and phone number"
+      "A": "Laboratory test result",
+      "B": "Residential address",
+      "C": "Blood pressure reading",
+      "D": "Physician diagnosis"
     },
-    "answer": "D",
-    "explanation": "Demographics refer to basic personal and contact details rather than clinical test results or treatments. [learn more](GNS113_U2_T4#GNS113_U2_T4_h2)"
+    "answer": "B",
+    "explanation": "Demographic data covers personal identification details like age, name, and address. [learn more](GNS113_U2_T4#GNS113_U2_T4_h2)"
   },
   {
     "question_id": "GNS113_U2_T4_h2_q2",
@@ -53,15 +53,15 @@
     "article_id": "GNS113_U2_T4",
     "topic_id": "GNS113_U2_T4",
     "difficulty": "understanding",
-    "question": "What part of the health record typically makes up the largest share of daily clinical data inputs?",
+    "question": "What is the main advantage of using Electronic Health Records over paper charts?",
     "options": {
-      "A": "Information technology system logs",
-      "B": "Hospital administrative billing codes",
-      "C": "Pharmacy inventory purchase orders",
-      "D": "Nursing documentation and observations"
+      "A": "They guarantee zero errors in medication dosages",
+      "B": "They centralize all data into one accessible platform",
+      "C": "They completely prevent any unauthorized viewing",
+      "D": "They remove the need for nurse documentation"
     },
-    "answer": "D",
-    "explanation": "Nurses constantly input vital signs, assessment notes, and care updates throughout their shifts, making up the bulk of clinical data. [learn more](GNS113_U2_T4#GNS113_U2_T4_h2)"
+    "answer": "B",
+    "explanation": "EHRs bring together clinical, demographic, and administrative data in one place for easy sharing. [learn more](GNS113_U2_T4#GNS113_U2_T4_h2)"
   },
   {
     "question_id": "GNS113_U2_T4_h3_q1",
@@ -69,31 +69,31 @@
     "article_id": "GNS113_U2_T4",
     "topic_id": "GNS113_U2_T4",
     "difficulty": "recall",
-    "question": "What is the primary purpose of legal frameworks like HIPAA regarding patient data?",
+    "question": "Who is the rightful owner of personal healthcare data?",
     "options": {
-      "A": "To establish boundaries for how health data is protected and shared",
-      "B": "To mandate the specific brand of computers a clinic must purchase",
-      "C": "To ensure all medical textbooks are printed in digital formats",
-      "D": "To dictate how much hospitals can charge for daily room stays"
+      "A": "The government ministry",
+      "B": "The hospital management",
+      "C": "The attending nurse",
+      "D": "The patient"
     },
-    "answer": "A",
-    "explanation": "Privacy laws set strict rules to safeguard patient records from unauthorized viewing and improper disclosure. [learn more](GNS113_U2_T4#GNS113_U2_T4_h3)"
+    "answer": "D",
+    "explanation": "Patients retain ownership of their health information, while health workers only act as custodians. [learn more](GNS113_U2_T4#GNS113_U2_T4_h3)"
   },
   {
     "question_id": "GNS113_U2_T4_h3_q2",
     "heading_id": "GNS113_U2_T4_h3",
     "article_id": "GNS113_U2_T4",
     "topic_id": "GNS113_U2_T4",
-    "difficulty": "application",
-    "question": "A nurse uses the hospital computer to check the medical chart of a famous musician admitted to a different ward, simply out of personal curiosity. What is the legal and ethical status of this action?",
+    "difficulty": "understanding",
+    "question": "Which ethical principle gives patients the right to control their medical information?",
     "options": {
-      "A": "It is allowed if the nurse is off-duty during the chart review",
-      "B": "It is acceptable as long as the nurse does not tell anyone else",
-      "C": "It is a serious privacy breach because the nurse is outside the circle of care",
-      "D": "It is encouraged so staff can offer collective words of encouragement"
+      "A": "Maleficence",
+      "B": "Beneficence",
+      "C": "Paternalism",
+      "D": "Autonomy"
     },
-    "answer": "C",
-    "explanation": "Looking at charts without a direct professional need for patient care violates data privacy laws and ethics. [learn more](GNS113_U2_T4#GNS113_U2_T4_h3)"
+    "answer": "D",
+    "explanation": "Autonomy involves respecting a patient's right to make independent decisions about their personal data and care. [learn more](GNS113_U2_T4#GNS113_U2_T4_h3)"
   },
   {
     "question_id": "GNS113_U2_T4_h4_q1",
@@ -101,15 +101,15 @@
     "article_id": "GNS113_U2_T4",
     "topic_id": "GNS113_U2_T4",
     "difficulty": "recall",
-    "question": "Why is sharing your computer login password with a colleague during a busy shift dangerous?",
+    "question": "What does data security involve in a hospital setting?",
     "options": {
-      "A": "It locks the computer hardware permanently until IT resets it",
-      "B": "It automatically deletes all patient lab reports in the system",
-      "C": "It slows down the hospital internet connection speed significantly",
-      "D": "It breaks accountability because actions under that login are tied to your name"
+      "A": "Technical safeguards protecting systems from unauthorized access",
+      "B": "Allowing patients to view their own physical charts",
+      "C": "Writing patient vital signs in a shared notebook",
+      "D": "The moral obligation to keep secrets within the ward"
     },
-    "answer": "D",
-    "explanation": "Every action in an EHR is logged against the active user account, so sharing credentials destroys reliable audit trails. [learn more](GNS113_U2_T4#GNS113_U2_T4_h4)"
+    "answer": "A",
+    "explanation": "Security refers to the tools and protocols like passwords and encryption that block unauthorized users. [learn more](GNS113_U2_T4#GNS113_U2_T4_h4)"
   },
   {
     "question_id": "GNS113_U2_T4_h4_q2",
@@ -117,15 +117,15 @@
     "article_id": "GNS113_U2_T4",
     "topic_id": "GNS113_U2_T4",
     "difficulty": "understanding",
-    "question": "Which practice helps prevent visual eavesdropping on patient electronic health records in a busy ward?",
+    "question": "Which action represents a common breach of patient data confidentiality?",
     "options": {
-      "A": "Leaving workstation sessions logged in overnight for easy access",
-      "B": "Writing patient passwords on sticky notes attached to the monitor",
-      "C": "Positioning computer screens away from public view and hallways",
-      "D": "Using large font sizes so visitors can read updates from afar"
+      "A": "Locking computer screens when leaving the nursing station",
+      "B": "Logging out of the electronic health record after use",
+      "C": "Discussing patient diagnoses in public hospital corridors",
+      "D": "Sharing encrypted patient data with the primary doctor"
     },
     "answer": "C",
-    "explanation": "Shielding monitors from visitors and passersby stops unauthorized people from reading sensitive clinical data on screen. [learn more](GNS113_U2_T4#GNS113_U2_T4_h4)"
+    "explanation": "Talking about patient conditions where visitors or other staff can overhear violates confidentiality. [learn more](GNS113_U2_T4#GNS113_U2_T4_h4)"
   },
   {
     "question_id": "GNS113_U2_T4_h5_q1",
@@ -133,15 +133,15 @@
     "article_id": "GNS113_U2_T4",
     "topic_id": "GNS113_U2_T4",
     "difficulty": "recall",
-    "question": "What does interoperability mean in the context of health information systems?",
+    "question": "How do nurses act as primary generators of healthcare data?",
     "options": {
-      "A": "All nurses use the exact same brand of computer tablet",
-      "B": "Patients can print their own physical charts at home",
-      "C": "Different software systems can communicate and exchange data smoothly",
-      "D": "Hospital billing software automatically calculates staff salaries"
+      "A": "By auditing the hospital financial accounts",
+      "B": "By maintaining hospital computer network cables",
+      "C": "By recording vital signs and administering medications",
+      "D": "By purchasing electronic health record software"
     },
     "answer": "C",
-    "explanation": "Interoperability allows separate technology platforms to share information without manual re-entry. [learn more](GNS113_U2_T4#GNS113_U2_T4_h5)"
+    "explanation": "Nurses actively generate data whenever they document clinical observations and care given. [learn more](GNS113_U2_T4#GNS113_U2_T4_h5)"
   },
   {
     "question_id": "GNS113_U2_T4_h5_q2",
@@ -149,15 +149,15 @@
     "article_id": "GNS113_U2_T4",
     "topic_id": "GNS113_U2_T4",
     "difficulty": "understanding",
-    "question": "What is the main problem caused by a lack of interoperability between hospital departments?",
+    "question": "What is a major clinical benefit of retrieving trending vital sign data?",
     "options": {
-      "A": "Nurses spend less time documenting and more time at the bedside",
-      "B": "Patients are automatically discharged by the computer software",
-      "C": "Computers consume too much electricity and overheat during shifts",
-      "D": "Data gets trapped in silos, leading to manual re-entry and communication delays"
+      "A": "Reducing the cost of hospital admission fees",
+      "B": "Eliminating the need for physical assessments",
+      "C": "Speeding up the discharge planning process",
+      "D": "Spotting sudden patient deterioration early"
     },
     "answer": "D",
-    "explanation": "When systems do not connect, clinical details remain isolated, forcing staff to waste time calling or copying data by hand. [learn more](GNS113_U2_T4#GNS113_U2_T4_h5)"
+    "explanation": "Looking at how vitals change over hours helps nurses catch warning signs before crises happen. [learn more](GNS113_U2_T4#GNS113_U2_T4_h5)"
   },
   {
     "question_id": "GNS113_U2_T4_h6_q1",
@@ -165,94 +165,30 @@
     "article_id": "GNS113_U2_T4",
     "topic_id": "GNS113_U2_T4",
     "difficulty": "recall",
-    "question": "What responsibility do nurses hold regarding data integrity in the electronic health record?",
+    "question": "Which of the following is a major infrastructure barrier to digital data access in many clinics?",
     "options": {
-      "A": "Ensuring accurate and timely data entry to protect patient safety",
-      "B": "Writing the underlying computer code for the hospital software",
-      "C": "Repairing broken hardware terminals in patient rooms",
-      "D": "Setting up new user accounts for incoming hospital doctors"
+      "A": "Complete absence of patient medical records",
+      "B": "Excessive availability of modern laptops",
+      "C": "Unstable power supply and poor internet",
+      "D": "Too many trained informatics specialists"
     },
-    "answer": "A",
-    "explanation": "Nurses must enter correct information carefully because mistakes in the chart can directly harm patient care. [learn more](GNS113_U2_T4#GNS113_U2_T4_h6)"
+    "answer": "C",
+    "explanation": "Poor electricity and unreliable internet connectivity severely disrupt electronic record systems. [learn more](GNS113_U2_T4#GNS113_U2_T4_h6)"
   },
   {
     "question_id": "GNS113_U2_T4_h6_q2",
     "heading_id": "GNS113_U2_T4_h6",
     "article_id": "GNS113_U2_T4",
     "topic_id": "GNS113_U2_T4",
-    "difficulty": "application",
-    "question": "A patient asks how to view their recent laboratory test results from home. What is the most appropriate nursing action?",
+    "difficulty": "understanding",
+    "question": "Why does software from different vendors create a barrier in hospitals?",
     "options": {
-      "A": "Guide the patient on how to access their secure online health portal",
-      "B": "Print the entire hospital database and mail it to their home",
-      "C": "Tell the patient that viewing lab results is strictly illegal for laypeople",
-      "D": "Read all hospital lab results out loud over a public phone call"
-    },
-    "answer": "A",
-    "explanation": "Nurses empower patients by showing them how to use secure patient portals to check their own health records. [learn more](GNS113_U2_T4#GNS113_U2_T4_h6)"
-  },
-  {
-    "question_id": "GNS113_U2_T4_h7_q1",
-    "heading_id": "GNS113_U2_T4_h7",
-    "article_id": "GNS113_U2_T4",
-    "topic_id": "GNS113_U2_T4",
-    "difficulty": "recall",
-    "question": "What is 'click fatigue' in the context of electronic health records?",
-    "options": {
-      "A": "Physical hand cramps caused by holding a computer mouse too tightly",
-      "B": "Spending excessive time navigating confusing menus and clicking through screens",
-      "C": "A battery failure in wireless barcode scanners during night shifts",
-      "D": "Eye strain from staring at bright computer monitors all day"
+      "A": "Vendors force nurses to work extra hours on wards",
+      "B": "Systems often fail to share information with each other",
+      "C": "Patients refuse to let doctors use multiple programs",
+      "D": "Different software packages always cost the same amount"
     },
     "answer": "B",
-    "explanation": "Click fatigue happens when poor software design forces clinicians to perform too many clicks to complete simple documentation tasks. [learn more](GNS113_U2_T4#GNS113_U2_T4_h7)"
-  },
-  {
-    "question_id": "GNS113_U2_T4_h7_q2",
-    "heading_id": "GNS113_U2_T4_h7",
-    "article_id": "GNS113_U2_T4",
-    "topic_id": "GNS113_U2_T4",
-    "difficulty": "understanding",
-    "question": "Which of the following is a major risk when electronic health record systems experience sudden downtime?",
-    "options": {
-      "A": "All medication pumps stop working simultaneously",
-      "B": "Staff must revert to paper charting, which can increase transcription errors",
-      "C": "Hospital doors automatically lock to prevent patient entry",
-      "D": "Patient vital signs automatically delete themselves from memory"
-    },
-    "answer": "B",
-    "explanation": "System downtime forces a return to manual paper records, raising the chance of mistakes during handovers and order transcription. [learn more](GNS113_U2_T4#GNS113_U2_T4_h7)"
-  },
-  {
-    "question_id": "GNS113_U2_T4_h8_q1",
-    "heading_id": "GNS113_U2_T4_h8",
-    "article_id": "GNS113_U2_T4",
-    "topic_id": "GNS113_U2_T4",
-    "difficulty": "recall",
-    "question": "How are wearable health trackers beginning to influence professional health records?",
-    "options": {
-      "A": "By replacing the need for licensed nurses in hospital wards",
-      "B": "By serving as the primary billing invoice for insurance companies",
-      "C": "By feeding real-time patient metrics directly into clinical systems",
-      "D": "By automatically prescribing medications without a doctor's order"
-    },
-    "answer": "C",
-    "explanation": "Wearables like smartwatches are starting to integrate live patient data such as heart rate and activity into medical records. [learn more](GNS113_U2_T4#GNS113_U2_T4_h8)"
-  },
-  {
-    "question_id": "GNS113_U2_T4_h8_q2",
-    "heading_id": "GNS113_U2_T4_h8",
-    "article_id": "GNS113_U2_T4",
-    "topic_id": "GNS113_U2_T4",
-    "difficulty": "understanding",
-    "question": "What is the primary benefit of cloud-based health records in modern medical practice?",
-    "options": {
-      "A": "They allow secure access to patient charts across multiple clinic sites",
-      "B": "They completely eliminate the need for patient confidentiality laws",
-      "C": "They make physical nurse assessments completely unnecessary",
-      "D": "They prevent patients from ever seeing their own test results"
-    },
-    "answer": "A",
-    "explanation": "Cloud storage lets authorized staff retrieve patient records seamlessly from different locations without relying on local hospital servers. [learn more](GNS113_U2_T4#GNS113_U2_T4_h8)"
+    "explanation": "Lack of interoperability means separate software programs cannot easily exchange patient data. [learn more](GNS113_U2_T4#GNS113_U2_T4_h6)"
   }
 ]
