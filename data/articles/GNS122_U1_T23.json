@@ -11,55 +11,55 @@
       "heading_id": "GNS122_U1_T23_h1",
       "order": 1,
       "title": "Introduction to Drug Dosage Calculations in Nursing",
-      "content": "Accuracy in medication calculation is a core safety responsibility for every nurse. A simple decimal error can change a harmless dose into a toxic or fatal one. Nurses serve as the final safety barrier between the physician's order and the patient receiving the drug. Developing confidence in math prevents the hesitation that leads to administration mistakes. Every clinical setting requires constant computation, from simple tablets to complex intravenous infusions."
+      "content": "Accurate drug calculation is a non-negotiable daily duty for nurses in Nigerian clinical practice. A single misplaced decimal point can change a therapeutic dose into a lethal one. Nurses serve as the final safety barrier between a prescribed drug order and the patient receiving it. Mastering these formulas protects patients from harm and protects the nurse from legal liability."
     },
     {
       "heading_id": "GNS122_U1_T23_h2",
       "order": 2,
       "title": "Review of Basic Mathematics and Fractions",
-      "content": "Fractions, decimals, and ratios form the foundation of all clinical math. A fraction represents a part of a whole, such as one tablet out of two available halves. Decimals express values based on powers of ten, which dominate modern medical measurement. Ratios show the relationship between two numbers, frequently seen on medication stock labels like 1 gram per 2 milliliters. Mastering these basic concepts eliminates confusion when setting up more complex formulas."
+      "content": "Clinical calculations rely heavily on decimals, percentages, and simple proportions. Ratios represent relationships between parts, such as 1 gram in 10 milliliters. When solving for an unknown dose, cross-multiplication is the standard algebraic tool used to balance equations."
     },
     {
       "heading_id": "GNS122_U1_T23_h3",
       "order": 3,
-      "title": "Metric and Apothecary Measurement Systems",
-      "content": "The metric system is the universal standard in healthcare because it operates on a base-ten scale, making conversions simple. Key metric units used in nursing include the kilogram for weight, the liter and milliliter for volume, and the milligram and microgram for mass. Older systems, such as the apothecary and household systems, still appear occasionally in community practice but carry higher risks of misinterpretation. Nurses must recognize these units and know when to convert them to standard metric values."
+      "title": "Understanding Metric and Apothecary Measurement Systems",
+      "content": "The metric system is the global standard for medication administration, utilizing base units like grams, liters, and meters. The older apothecary system uses grains, minims, and drams, though these are largely phased out. Recognizing old abbreviations prevents dangerous confusion when reviewing older patient charts or stock drugs."
     },
     {
       "heading_id": "GNS122_U1_T23_h4",
       "order": 4,
       "title": "Converting Units Within and Between Systems",
-      "content": "- **Metric conversions**: Multiply by 1,000 to move from a larger unit to a smaller unit, or divide by 1,000 to move from smaller to larger (e.g., 1 gram equals 1,000 milligrams).\n- **Household equivalents**: Understand common approximations, such as one teaspoon equaling approximately 5 milliliters.\n- **Weight conversions**: Convert pounds to kilograms by dividing the patient's weight in pounds by 2.2 before calculating weight-based drug doses."
+      "content": "- **Milligrams to Micrograms**: Multiply by 1,000 (move the decimal point three places to the right).\n- **Grams to Milligrams**: Multiply by 1,000.\n- **Milliliters to Liters**: Divide by 1,000 (move the decimal point three places to the left).\n- **Kilograms to Grams**: Multiply by 1,000."
     },
     {
       "heading_id": "GNS122_U1_T23_h5",
       "order": 5,
       "title": "Interpreting Medication Labels and Prescriptions Safely",
-      "content": "Reading a medication label requires careful attention to the drug name, available strength, form, and expiration date. Many drugs look or sound alike, increasing the risk of selecting the wrong vial. The label tells the nurse both the total amount in the container and the concentration per unit of volume or tablet. Prescriptions must also be checked for clarity; ambiguous abbreviations should always be clarified with the prescriber rather than guessed."
+      "content": "Reading a drug label requires checking the trade name, generic name, total amount in the container, and the concentration per unit volume. Nurses must also verify the expiration date and route of administration. Misinterpreting a label can lead to giving oral syrup intravenously or administering expired drugs."
     },
     {
       "heading_id": "GNS122_U1_T23_h6",
       "order": 6,
-      "title": "The Standard Formula Method for Medications",
-      "content": "The formula method provides a reliable, step-by-step framework for calculating doses of oral and parenteral drugs. The formula is written as: (Desired / Have) × Quantity = Amount to Administer. 'Desired' represents the dose ordered by the physician. 'Have' represents the strength available in the hospital stock. 'Quantity' represents the unit of the available form, such as one tablet or one milliliter. Using this equation consistently prevents guesswork in clinical practice."
+      "title": "The Standard Formula Method for Oral and Parenteral Medications",
+      "content": "The formula (D / H) × V = X is the foundational calculation tool in nursing. \n- **D (Desired Dose)**: The amount ordered by the prescriber.\n- **H (Have)**: The strength available in the hospital stock.\n- **V (Volume)**: The vehicle or liquid form holding the stock strength (tablet, capsule, or milliliter).\n- **X**: The unknown final amount to administer."
     },
     {
       "heading_id": "GNS122_U1_T23_h7",
       "order": 7,
       "title": "Calculating Pediatric Dosages Using Body Weight",
-      "content": "Children are not small adults; their developing organ systems process medications differently, requiring precise weight-based calculations. Most pediatric drug orders are prescribed in milligrams of drug per kilogram of body weight per day or per single dose. The nurse must first convert the child's weight from pounds to kilograms if necessary. Once the total safe dose is calculated, the nurse checks it against recommended safe dose ranges before administration."
+      "content": "Children are not small adults; their organ systems metabolize drugs differently. Pediatric doses are commonly calculated using milligrams per kilogram of body weight per day (mg/kg/day). Converting patient weight from pounds to kilograms is often the first required step before applying the dosage formula."
     },
     {
       "heading_id": "GNS122_U1_T23_h8",
       "order": 8,
       "title": "Intravenous Flow Rates and Infusion Time Calculations",
-      "content": "Intravenous medications and fluids require careful calculation of flow rates to ensure they infuse at the correct speed. For gravity drips, the formula is: (Volume in mL × Drop factor) / Time in minutes = Drops per minute. The drop factor, measured in drops per milliliter (gtt/mL), is printed on the IV tubing package. For electronic infusion pumps, the calculation is simpler: total volume in milliliters divided by total hours equals milliliters per hour."
+      "content": "Infusing fluids correctly requires calculating drops per minute (gtt/min) for gravity sets or milliliters per hour (mL/hr) for infusion pumps. The drop factor, located on the intravenous tubing package, determines the size of the drops (e.g., 15 gtt/mL or 20 gtt/mL). \nFormula: (Total Volume in mL × Drop Factor in gtt/mL) / Time in Minutes = Flow Rate in gtt/min."
     },
     {
       "heading_id": "GNS122_U1_T23_h9",
       "order": 9,
       "title": "Preventing Medication Errors and Verifying High-Risk Calculations",
-      "content": "High-risk medications, such as insulin, heparin, and narcotics, require extra safeguards because calculation errors can cause immediate harm. Many institutions require an independent double-check, where two separate nurses calculate the dose independently without sharing their math. Using standard zero rules, avoiding trailing zeros, and checking allergy histories form part of daily error-prevention habits. A questioning attitude is the nurse's best defense against compounding calculation mistakes."
+      "content": "High-risk medications like insulin, heparin, and potent electrolytes demand independent double-checking by a second nurse. Mental estimation or a quick rough calculation helps spot unreasonable answers, such as administering a 500 mL dose of a drug meant to be given in drops. Cultivating a questioning attitude creates a strong safety culture in every ward."
     }
   ]
 }
