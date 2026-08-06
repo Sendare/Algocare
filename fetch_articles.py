@@ -184,9 +184,30 @@ ANY of these are true:
 - The stem is long, convoluted, or hard to read on a small phone screen
 - Getting it wrong would feel demoralizing rather than like a normal part of \
 learning
-- The explanation doesn't teach warmly - it should feel like a patient \
-tutor, not a textbook
+- The explanation doesn't teach warmly - 
 
+for explanation: 
+- remove  canned praise or conversational filler if used.
+- Never allow explanations start with phrases like:
+  - "Spot on!"
+  - "That's correct!"
+  - "Great job!"
+  - "Excellent!"
+  - "Exactly!"
+  - "Well done!"
+  - "You got it!"
+  - "Nice work!"
+  - "Correct!"
+  - "Perfect!"
+- Do not congratulate or praise the user.
+- Start immediately with the explanation.
+- Use a neutral, educational tone.
+- Keep explanations concise, natural, and varied.
+So instead of:
+"explanation": "Spot on! A tissue is simply a collect>
+it becomes:
+"explanation": "A tissue is a collection of similar c>
+- All questions most feel professional not use street or casual English. \
 When rewriting, you MUST preserve exactly: the underlying nursing concept \
 being tested, and which fact is correct. Never change what's true - only how \
 it's said.
@@ -544,4 +565,5 @@ def run():
 
 if __name__ == "__main__":
     run()
+
 
