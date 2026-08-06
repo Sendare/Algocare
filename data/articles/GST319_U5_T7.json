@@ -12,43 +12,49 @@
       "heading_id": "GST319_U5_T7_h1",
       "order": 1,
       "title": "Introduction to Human Factors and Ergonomics",
-      "content": "Human factors science looks at how people interact with the tools, tasks, environments, and other people around them. In nursing, this means designing systems that fit human strengths and protect against human limitations. When a medication error happens, blaming the individual nurse rarely fixes the root problem. Instead, human factors looks deeper to see if confusing pump dials, poor lighting, or rushed shift handovers set that nurse up to fail. Ergonomics focuses heavily on matching the physical and mental demands of clinical work to the actual capacity of healthcare workers."
+      "content": "Human factors study the interrelationships between humans, tools, equipment, and the working environment in healthcare. Ergonomics applies this knowledge to optimize human well-being and overall system performance. Instead of blaming individuals when mistakes happen, human factors engineering examines why the system allowed the error to occur in the first place. Nurses interact constantly with monitors, infusion pumps, charts, and colleagues, making them central to ergonomic evaluations. Designing equipment that matches human physical and mental capabilities reduces stress and prevents adverse patient events."
     },
     {
       "heading_id": "GST319_U5_T7_h2",
       "order": 2,
       "title": "The Swiss Cheese Model of System Accidents",
-      "content": "James Reason's Swiss Cheese Model explains that major accidents in healthcare rarely happen because of one single failure. Instead, they occur when multiple small breakdowns in safety line up all at once. Think of defenses in a hospital as slices of Swiss cheese, where each slice has holes representing weaknesses. These holes are constantly moving and changing size.\n\n- **Active failures**: Unsafe acts committed directly by workers in contact with the patient, such as misreading a dose.\n- **Latent conditions**: Hidden flaws built into the system long before, such as chronic understaffing, broken equipment, or confusing drug packaging.\n\nAn adverse event only occurs when the holes in every single layer of cheese temporarily line up, allowing a hazard to pass straight through to harm the patient."
+      "content": "James Reason's Swiss Cheese Model illustrates that patient harm rarely results from a single catastrophic failure. Instead, hazards pass through multiple defensive layers in an organization, each represented by a slice of Swiss cheese. The holes in the cheese represent latent conditions and active failures. Latent conditions include poor equipment design, understaffing, or inadequate training. Active failures are unsafe acts committed by frontline workers, such as skipping a double-check. An adverse event occurs only when the holes in every defensive layer momentarily align, creating a trajectory of accident opportunity."
     },
     {
       "heading_id": "GST319_U5_T7_h3",
       "order": 3,
       "title": "Cognitive Biases and Mental Workload in Nursing",
-      "content": "Nurses process massive amounts of information under intense pressure every day. Working memory has strict limits, and when mental workload gets too high, shortcuts known as heuristics take over. While these mental shortcuts save time, they also open the door to cognitive biases. Confirmation bias, for instance, leads a nurse to notice signs that support their initial impression of a patient while ignoring contradictory vital signs. Tunnel vision can set in during an emergency, causing the team to miss obvious secondary clues because all attention is locked onto a single crisis."
+      "content": "Nurses process massive amounts of clinical data under intense time pressure, leading to high mental workload. When cognitive capacity is overloaded, shortcuts and cognitive biases emerge. \n\n- **Confirmation bias**: Searching for evidence that supports an initial impression while ignoring contradictory signs.\n- **Anchoring**: Sticking stubbornly to the first diagnosis or impression, even when new vital signs suggest otherwise.\n- **Availability heuristic**: Overestimating the likelihood of a complication simply because a similar case happened yesterday.\n\nRecognizing these mental traps allows clinical teams to pause, review objective data, and perform structured safety checks."
     },
     {
       "heading_id": "GST319_U5_T7_h4",
       "order": 4,
-      "title": "Fatigue, Shift Work, and Vigilance",
-      "content": "Human alertness is governed by circadian rhythms that make night shifts biologically punishing. Chronic sleep deprivation impairs reaction time, problem-solving, and mood just as severely as alcohol intoxication. Vigilance naturally drops during long, monotonous tasks, making it dangerously easy to miss subtle changes in a monitor or intravenous infusion. A tired nurse is far more likely to experience lapses in attention during high-risk tasks like medication calculation. Managing fatigue requires more than telling staff to sleep; it demands sensible roster planning, protected break times, and manageable shift lengths."
+      "title": "Physical Ergonomics and Environmental Design",
+      "content": "Physical ergonomics focuses on human anatomical, physiological, and biomechanical interactions with the workspace. In Nigerian hospitals, poor ward layouts, misplaced supply cupboards, and heavy manual patient lifting contribute heavily to nurse burnout and injuries. Ergonomic workspace design minimizes unnecessary bending, twisting, and walking distances. Standardized placement of emergency medications and supplies ensures that nurses can retrieve critical items quickly during resuscitation. Proper lighting, reduced ambient noise, and adjustable bed heights protect both staff musculoskeletal health and patient safety."
     },
     {
       "heading_id": "GST319_U5_T7_h5",
       "order": 5,
       "title": "Communication and Teamwork Human Factors",
-      "content": "Breakdowns in communication remain one of the leading root causes of sentinel events in hospitals. Traditional medical hierarchies can intimidate junior nurses from speaking up when they notice a dangerous prescription or a worsening patient condition. Standardized communication tools like SBAR (Situation, Background, Assessment, Recommendation) level the playing field by giving everyone a clear, predictable script to share critical data. Active listening, closed-loop communication where instructions are repeated back, and mutual respect build a resilient team culture where safety concerns can be raised without fear of ridicule."
+      "content": "Communication breakdowns remain a leading root cause of sentinel events in hospitals. Hierarchical structures often prevent junior nurses from speaking up when they notice a safety hazard. Standardized communication tools like **SBAR** (Situation, Background, Assessment, Recommendation) bridge this gap by providing a common language for handovers. Interprofessional briefing sessions build psychological safety, encouraging every team member to voice concerns regardless of rank. Clear closed-loop communication—where the receiver repeats an order back to the sender—prevents dangerous misunderstandings during medication administration."
     },
     {
       "heading_id": "GST319_U5_T7_h6",
       "order": 6,
-      "title": "Designing Systems to Prevent Human Error",
-      "content": "Because humans will inevitably make mistakes, healthcare systems must be engineered with fault-tolerant designs. For instance, forcing functions make it physically impossible to perform a dangerous action, such as enteral feeding tubes that will not connect to intravenous lines. Standardization ensures that identical equipment across different wards operates the same way, reducing confusion during emergencies. Redundancy adds double-checks for high-risk processes, such as two nurses independently verifying high-alert medications like insulin before administration."
+      "title": "Fatigue, Stress, and Vigilance in Healthcare",
+      "content": "Extended work shifts, high nurse-to-patient ratios, and night duties induce severe physical and mental fatigue. Chronic fatigue impairs sustained attention, slows reaction times, and degrades working memory. Vigilance decrement occurs when a nurse's ability to monitor continuous displays or subtle patient changes drops over time. Recognizing fatigue as a system hazard rather than a personal weakness is crucial. Implementing safe rostering practices, adequate break times, and peer-monitoring systems helps protect patients from fatigue-related lapses."
     },
     {
       "heading_id": "GST319_U5_T7_h7",
       "order": 7,
+      "title": "Designing Systems to Prevent Human Error",
+      "content": "System design should anticipate human fallibility and build defensive mechanisms into everyday tasks. **Forcing functions** make it impossible to perform an action incorrectly, such as plugs that only fit into specific sockets. **Standardization** reduces cognitive load by keeping equipment layouts and procedures identical across units. **Redundancy**, like double-checking high-risk chemotherapy calculations with a colleague, catches errors before they reach the patient. Creating fail-safe workflows protects both vulnerable patients and well-meaning clinical staff."
+    },
+    {
+      "heading_id": "GST319_U5_T7_h8",
+      "order": 8,
       "title": "Applying Human Factors in Nigerian Clinical Settings",
-      "content": "Applying human factors principles in Nigerian healthcare requires navigating unique local challenges alongside universal safety goals. Resource-constrained environments often mean nurses face severe staff shortages, frequent power outages, and poorly maintained equipment, which drastically increases mental workload and fatigue. Designing safe systems under these conditions involves making the best use of local workarounds while advocating for structural improvements. Simple changes—such as color-coding emergency trolley drawers, standardizing drug dilution charts at the nursing station, and implementing peer-led safety briefings—can protect patients even when high-tech solutions are unavailable."
+      "content": "Applying human factors principles in Nigerian healthcare requires navigating unique challenges such as erratic power supply, resource scarcity, and heavy workloads. When equipment fails or consumables run short, nurses often resort to improvising, which introduces workaround risks. Cultivating a **just culture** is essential—a environment where staff feel safe reporting errors and near-misses without fear of punitive victimization. By focusing on root-cause analysis during adverse event reviews rather than assigning blame, Nigerian health institutions can systematically redesign safer clinical workflows."
     }
   ]
 }
