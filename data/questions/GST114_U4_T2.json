@@ -7,13 +7,13 @@
     "difficulty": "recall",
     "question": "What is the main job of an antigen in the body?",
     "options": {
-      "A": "To trigger an immune system response",
-      "B": "To destroy healthy body cells directly",
-      "C": "To produce red blood cells in bone marrow",
-      "D": "To transport oxygen throughout the bloodstream"
+      "A": "Destroying red blood cells",
+      "B": "Triggering an immune response",
+      "C": "Producing normal body tissue",
+      "D": "Lowering high blood pressure"
     },
-    "answer": "A",
-    "explanation": "Think of antigens as 'foreign flags.' When the body spots them, it sounds the alarm to start an immune defense! [learn more](GST114_U4_T2#GST114_U4_T2_h1)"
+    "answer": "B",
+    "explanation": "Antigens are foreign substances that the immune system recognizes, prompting it to produce antibodies. [learn more](GST114_U4_T2#GST114_U4_T2_h1)"
   },
   {
     "question_id": "GST114_U4_T2_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GST114_U4_T2",
     "topic_id": "GST114_U4_T2",
     "difficulty": "understanding",
-    "question": "Which of these can act as a natural antigen?",
+    "question": "Why are complex proteins usually better antigens than simple lipids?",
     "options": {
-      "A": "Sodium chloride salt crystals",
-      "B": "Pollen grains from flowers",
-      "C": "Pure distilled drinking water",
-      "D": "Inert plastic medical tubing"
+      "A": "Proteins have more complex and varied structures for immune recognition",
+      "B": "Lipids cannot enter the bloodstream under any circumstances",
+      "C": "Proteins destroy white blood cells before they react",
+      "D": "Simple lipids dissolve completely in body fluids instantly"
     },
-    "answer": "B",
-    "explanation": "Pollen carries tiny foreign proteins that can trigger our immune system—which is why allergy season makes people sneeze! [learn more](GST114_U4_T2#GST114_U4_T2_h1)"
+    "answer": "A",
+    "explanation": "Varied structural shapes allow immune cells to easily spot and bind to protein antigens compared to simpler molecules. [learn more](GST114_U4_T2#GST114_U4_T2_h1)"
   },
   {
     "question_id": "GST114_U4_T2_h2_q1",
@@ -37,31 +37,31 @@
     "article_id": "GST114_U4_T2",
     "topic_id": "GST114_U4_T2",
     "difficulty": "recall",
-    "question": "What do we call the ability of an antigen to actually spark an immune reaction?",
+    "question": "What do we call the ability of a substance to provoke an immune response?",
     "options": {
       "A": "Pathogenicity",
-      "B": "Virulence",
-      "C": "Toxicology",
-      "D": "Immunogenicity"
+      "B": "Immunogenicity",
+      "C": "Virulence",
+      "D": "Cytotoxicity"
     },
-    "answer": "D",
-    "explanation": "Break the word down: 'Immuno' for immune system, and 'genicity' for generating a response. You've got this! [learn more](GST114_U4_T2#GST114_U4_T2_h2)"
+    "answer": "B",
+    "explanation": "Immunogenicity is the specific term for a substance's capacity to cause an immune reaction in the body. [learn more](GST114_U4_T2#GST114_U4_T2_h2)"
   },
   {
     "question_id": "GST114_U4_T2_h2_q2",
     "heading_id": "GST114_U4_T2_h2",
     "article_id": "GST114_U4_T2",
     "topic_id": "GST114_U4_T2",
-    "difficulty": "understanding",
-    "question": "Why do large, complex proteins usually make much better antigens than small, simple molecules?",
+    "difficulty": "application",
+    "question": "A small medication particle fails to trigger an immune reaction. What is the most likely reason?",
     "options": {
-      "A": "They offer more complex structures for immune cells to recognize and process",
-      "B": "They are heavy enough to physically crush invading white blood cells",
-      "C": "They prevent the body from ever producing any antibodies at all",
-      "D": "They dissolve completely in blood plasma without needing any digestion"
+      "A": "The molecular size is too small to be immunogenic",
+      "B": "The chemical structure is too complex for lymphocytes",
+      "C": "The substance has high foreignness value",
+      "D": "The medication acts directly as a superantigen"
     },
     "answer": "A",
-    "explanation": "Big, detailed structures give immune cells plenty of unique shapes to grab onto, making it much easier to mount a strong defense. [learn more](GST114_U4_T2#GST114_U4_T2_h2)"
+    "explanation": "Very small molecules lack the size needed to stimulate the immune system on their own. [learn more](GST114_U4_T2#GST114_U4_T2_h2)"
   },
   {
     "question_id": "GST114_U4_T2_h3_q1",
@@ -69,31 +69,31 @@
     "article_id": "GST114_U4_T2",
     "topic_id": "GST114_U4_T2",
     "difficulty": "recall",
-    "question": "What is an autoantigen?",
+    "question": "Which type of antigen comes from outside the body, such as bacteria and pollen?",
     "options": {
-      "A": "A synthetic chemical manufactured inside a sterile laboratory",
-      "B": "A protein transferred from an animal graft to a human patient",
-      "C": "A normal body tissue mistakenly attacked by the immune system",
-      "D": "A harmful bacterial toxin inhaled directly from the outside air"
+      "A": "Exogenous antigens",
+      "B": "Endogenous antigens",
+      "C": "Autoantigens",
+      "D": "Alloantigens"
     },
-    "answer": "C",
-    "explanation": "'Auto' means self. An autoantigen happens when the immune system gets confused and mistakenly treats normal body parts like enemies. [learn more](GST114_U4_T2#GST114_U4_T2_h3)"
+    "answer": "A",
+    "explanation": "Exogenous antigens originate outside the body and are captured by specialized immune cells. [learn more](GST114_U4_T2#GST114_U4_T2_h3)"
   },
   {
     "question_id": "GST114_U4_T2_h3_q2",
     "heading_id": "GST114_U4_T2_h3",
     "article_id": "GST114_U4_T2",
     "topic_id": "GST114_U4_T2",
-    "difficulty": "application",
-    "question": "A patient receives a pig heart valve replacement during surgery. What type of antigen are the immune cells reacting against?",
+    "difficulty": "understanding",
+    "question": "Why are ABO blood group markers classified as alloantigens?",
     "options": {
-      "A": "Xenoantigen",
-      "B": "Endogenous antigen",
-      "C": "Autoantigen",
-      "D": "Exogenous antigen"
+      "A": "They are produced inside host cells during viral replication",
+      "B": "They always originate from bacterial infections in the gut",
+      "C": "They vary among different individuals of the same species",
+      "D": "They trigger autoimmune destruction of red blood cells"
     },
-    "answer": "A",
-    "explanation": "'Xeno' means foreign or from another species. Tissues from animals given to humans are classic xenoantigens! [learn more](GST114_U4_T2#GST114_U4_T2_h3)"
+    "answer": "C",
+    "explanation": "Alloantigens are genetic differences found between people of the same species, making blood matching crucial for transfusions. [learn more](GST114_U4_T2#GST114_U4_T2_h3)"
   },
   {
     "question_id": "GST114_U4_T2_h4_q1",
@@ -101,15 +101,15 @@
     "article_id": "GST114_U4_T2",
     "topic_id": "GST114_U4_T2",
     "difficulty": "recall",
-    "question": "What is an epitope?",
+    "question": "What is another name for an antigenic determinant?",
     "options": {
-      "A": "An organ responsible for filtering red blood cells",
-      "B": "The specific part of an antigen that an antibody binds to",
-      "C": "A white blood cell that destroys bacteria in the bloodstream",
-      "D": "A chemical medication used to suppress severe allergies"
+      "A": "Hapten",
+      "B": "Alloantigen",
+      "C": "Superantigen",
+      "D": "Epitope"
     },
-    "answer": "B",
-    "explanation": "An epitope is like the specific 'handle' or grip on the antigen that antibodies lock onto. [learn more](GST114_U4_T2#GST114_U4_T2_h4)"
+    "answer": "D",
+    "explanation": "An epitope is the specific part of an antigen that antibodies or immune receptors attach to. [learn more](GST114_U4_T2#GST114_U4_T2_h4)"
   },
   {
     "question_id": "GST114_U4_T2_h4_q2",
@@ -117,15 +117,15 @@
     "article_id": "GST114_U4_T2",
     "topic_id": "GST114_U4_T2",
     "difficulty": "understanding",
-    "question": "How do T-cell receptors interact with epitopes differently than B-cell receptors?",
+    "question": "How can one large antigen molecule stimulate several different immune reactions at once?",
     "options": {
-      "A": "T-cells bind directly to whole antigens without any assistance",
-      "B": "T-cells require processed antigen fragments presented on cell surfaces",
-      "C": "T-cells only recognize antigens found exclusively in fluid plasma",
-      "D": "T-cells ignore epitopes and only target red blood cell membranes"
+      "A": "It prevents white blood cells from communicating",
+      "B": "It breaks down into harmless inert carbon molecules",
+      "C": "It contains multiple distinct epitopes on its surface",
+      "D": "It duplicates its genetic material inside host tissues"
     },
-    "answer": "B",
-    "explanation": "While B-cells can spot whole antigens floating around, T-cells need other cells to chop up the antigen and show it to them first. [learn more](GST114_U4_T2#GST114_U4_T2_h4)"
+    "answer": "C",
+    "explanation": "Large antigens have many binding sites on their surface, allowing different immune cells to target the same invader. [learn more](GST114_U4_T2#GST114_U4_T2_h4)"
   },
   {
     "question_id": "GST114_U4_T2_h5_q1",
@@ -133,15 +133,15 @@
     "article_id": "GST114_U4_T2",
     "topic_id": "GST114_U4_T2",
     "difficulty": "recall",
-    "question": "What is a hapten?",
+    "question": "What is the main characteristic of a hapten by itself?",
     "options": {
-      "A": "A specialized white blood cell that produces antibodies",
-      "B": "A massive protein found exclusively in mammalian red blood cells",
-      "C": "A small molecule that needs a carrier to trigger an immune response",
-      "D": "A complex hormone released during severe systemic inflammation"
+      "A": "It is always a large complex protein molecule",
+      "B": "It directly activates T-cells without processing",
+      "C": "It lacks immunogenicity without a carrier",
+      "D": "It originates only from internal cell metabolism"
     },
     "answer": "C",
-    "explanation": "Haptens are too tiny on their own to get the immune system's attention. They have to hitch a ride on a larger carrier protein first! [learn more](GST114_U4_T2#GST114_U4_T2_h5)"
+    "explanation": "Haptens are tiny molecules that need to attach to a larger carrier protein before they can trigger an immune response. [learn more](GST114_U4_T2#GST114_U4_T2_h5)"
   },
   {
     "question_id": "GST114_U4_T2_h5_q2",
@@ -149,15 +149,15 @@
     "article_id": "GST114_U4_T2",
     "topic_id": "GST114_U4_T2",
     "difficulty": "application",
-    "question": "A patient gets an allergic rash after taking a small antibiotic pill that binds to their blood proteins. What do we call this type of drug molecule?",
+    "question": "A patient has an allergic reaction because penicillin binds to body proteins. What is penicillin called in this situation?",
     "options": {
-      "A": "T-independent antigen",
-      "B": "Hapten",
-      "C": "Superantigen",
-      "D": "Autoantigen"
+      "A": "Superantigen",
+      "B": "Autoantigen",
+      "C": "Alloantigen",
+      "D": "Hapten"
     },
-    "answer": "B",
-    "explanation": "Spot on! The small drug acts as a hapten, attaching to bigger body proteins and tricking the immune system into an allergic reaction. [learn more](GST114_U4_T2#GST114_U4_T2_h5)"
+    "answer": "D",
+    "explanation": "Penicillin acts as a hapten by linking up with larger proteins in the body to set off an immune reaction. [learn more](GST114_U4_T2#GST114_U4_T2_h5)"
   },
   {
     "question_id": "GST114_U4_T2_h6_q1",
@@ -165,15 +165,15 @@
     "article_id": "GST114_U4_T2",
     "topic_id": "GST114_U4_T2",
     "difficulty": "recall",
-    "question": "What type of molecule usually acts as a T-dependent antigen?",
+    "question": "Which type of antigen needs help from T-helper cells to activate B-cells?",
     "options": {
-      "A": "Water molecules",
-      "B": "Plain lipids",
-      "C": "Proteins",
-      "D": "Simple salts"
+      "A": "T-independent antigens",
+      "B": "T-dependent antigens",
+      "C": "Hapten carriers",
+      "D": "Autoantigens"
     },
-    "answer": "C",
-    "explanation": "Proteins are complex structures that generally need help from T-helper cells to fully get the adaptive immune system working. [learn more](GST114_U4_T2#GST114_U4_T2_h6)"
+    "answer": "B",
+    "explanation": "T-dependent antigens require helper T-cells to fully activate B-cells and build lasting immune memory. [learn more](GST114_U4_T2#GST114_U4_T2_h6)"
   },
   {
     "question_id": "GST114_U4_T2_h6_q2",
@@ -181,15 +181,15 @@
     "article_id": "GST114_U4_T2",
     "topic_id": "GST114_U4_T2",
     "difficulty": "understanding",
-    "question": "What is the main drawback of the immune response triggered by T-independent antigens?",
+    "question": "What is a key feature of how the body responds to T-independent antigens?",
     "options": {
-      "A": "They completely prevent any immediate white blood cell activation",
-      "B": "They destroy healthy host tissues alongside invading pathogens",
-      "C": "They fail to create strong long-term immunological memory",
-      "D": "They require months of processing before antibodies appear"
+      "A": "They fail to trigger any observable immune reaction",
+      "B": "They consist exclusively of large globular proteins",
+      "C": "They primarily produce IgM antibodies with limited memory",
+      "D": "They require complex processing by antigen-presenting cells"
     },
     "answer": "C",
-    "explanation": "Without T-cells stepping in to help, the body reacts quickly but fails to build long-lasting memory cells for future protection. [learn more](GST114_U4_T2#GST114_U4_T2_h6)"
+    "explanation": "T-independent antigens activate B-cells directly, which leads to quick IgM antibody release but very little long-term memory. [learn more](GST114_U4_T2#GST114_U4_T2_h6)"
   },
   {
     "question_id": "GST114_U4_T2_h7_q1",
@@ -197,15 +197,15 @@
     "article_id": "GST114_U4_T2",
     "topic_id": "GST114_U4_T2",
     "difficulty": "recall",
-    "question": "What happens during exposure to a superantigen?",
+    "question": "What makes superantigens much more dangerous than regular antigens?",
     "options": {
-      "A": "A complete shut down of all antibody production in the bone marrow",
-      "B": "A slow and delayed immune response that lasts for several months",
-      "C": "The immediate destruction of every circulating red blood cell",
-      "D": "A massive and uncontrolled activation of a large percentage of T-cells"
+      "A": "They reduce inflammation to dangerously low levels",
+      "B": "They block the production of all antibodies in the body",
+      "C": "They completely destroy all circulating red blood cells",
+      "D": "They activate a massive percentage of T-cells simultaneously"
     },
     "answer": "D",
-    "explanation": "Superantigens bypass normal checks and balances, setting off a chaotic alarm that activates way too many T-cells at once. [learn more](GST114_U4_T2#GST114_U4_T2_h7)"
+    "explanation": "Superantigens bypass normal checks and activate a huge number of T-cells at the same time, causing a dangerous chemical flood. [learn more](GST114_U4_T2#GST114_U4_T2_h7)"
   },
   {
     "question_id": "GST114_U4_T2_h7_q2",
@@ -213,15 +213,15 @@
     "article_id": "GST114_U4_T2",
     "topic_id": "GST114_U4_T2",
     "difficulty": "understanding",
-    "question": "Why is the massive flood of chemicals (cytokines) caused by superantigens so dangerous?",
+    "question": "Why does a superantigen reaction often result in systemic shock?",
     "options": {
-      "A": "It stops white blood cells from ever leaving the lymph nodes",
-      "B": "It permanently cures all bacterial infections in the body",
-      "C": "It can rapidly cause widespread shock and organ failure",
-      "D": "It causes an immediate drop in body temperature below normal"
+      "A": "Normal antibodies bind to haptens and block blood flow",
+      "B": "T-cells consume all available oxygen in the bloodstream",
+      "C": "The body stops producing white blood cells entirely",
+      "D": "Uncontrolled massive cytokine release damages multiple organ systems"
     },
-    "answer": "C",
-    "explanation": "Too much of a good thing is dangerous! An overwhelming cytokine storm causes blood pressure to crash and harms vital organs. [learn more](GST114_U4_T2#GST114_U4_T2_h7)"
+    "answer": "D",
+    "explanation": "An overwhelming release of inflammatory proteins causes blood vessels to dilate dangerously, leading to shock. [learn more](GST114_U4_T2#GST114_U4_T2_h7)"
   },
   {
     "question_id": "GST114_U4_T2_h8_q1",
@@ -229,15 +229,15 @@
     "article_id": "GST114_U4_T2",
     "topic_id": "GST114_U4_T2",
     "difficulty": "application",
-    "question": "Why must a nurse carefully check blood compatibility before starting a blood transfusion?",
+    "question": "A patient having a blood transfusion suddenly gets a fever, chills, and back pain. What is the most likely cause?",
     "options": {
-      "A": "To prevent the recipient's antibodies from attacking donor red blood cell antigens",
-      "B": "To ensure the donor red blood cells do not dissolve in normal saline",
-      "C": "To confirm the blood product contains enough white blood cells",
-      "D": "To speed up the absorption of oxygen into the patient's bloodstream"
+      "A": "Autoimmune tolerance",
+      "B": "Hapten protein binding",
+      "C": "Superantigen release",
+      "D": "Alloantigen mismatch"
     },
-    "answer": "A",
-    "explanation": "Checking blood groups prevents mismatched antigens from triggering a dangerous attack by the patient's own antibodies. [learn more](GST114_U4_T2#GST114_U4_T2_h8)"
+    "answer": "D",
+    "explanation": "Transfusion reactions happen when the donor's blood cells have alloantigens that the patient's antibodies attack. [learn more](GST114_U4_T2#GST114_U4_T2_h8)"
   },
   {
     "question_id": "GST114_U4_T2_h8_q2",
@@ -245,14 +245,14 @@
     "article_id": "GST114_U4_T2",
     "topic_id": "GST114_U4_T2",
     "difficulty": "understanding",
-    "question": "What is the main goal of giving a standard clinical vaccine?",
+    "question": "Why do nurses need to understand antigens when learning about vaccines?",
     "options": {
-      "A": "To provide immediate chemical relief from chronic joint inflammation",
-      "B": "To destroy all existing white blood cells in the patient's body",
-      "C": "To permanently block the liver from metabolizing oral medications",
-      "D": "To introduce safe antigens that stimulate long-term memory cells"
+      "A": "It ensures that patients never develop minor injection site pain",
+      "B": "It prevents medications from acting as dangerous haptens",
+      "C": "It guarantees complete immunity against all bacterial strains",
+      "D": "It helps explain how safe, weakened antigens stimulate long-term immunity"
     },
     "answer": "D",
-    "explanation": "Vaccines give a harmless 'practice preview' of an infection so the immune system can build memory cells and protect the patient later. [learn more](GST114_U4_T2#GST114_U4_T2_h8)"
+    "explanation": "Vaccines use harmless parts of antigens to safely teach the immune system how to fight off future diseases. [learn more](GST114_U4_T2#GST114_U4_T2_h8)"
   }
 ]
