@@ -12,49 +12,43 @@
       "heading_id": "GNS321_U2_T3_h1",
       "order": 1,
       "title": "Introduction to Critical Care Diagnostics",
-      "content": "Diagnostic investigations in the intensive care unit act as the eyes and ears of the clinical team. Critically ill patients experience rapid physiological shifts, requiring continuous data collection alongside standard physical assessments. These tests range from basic bedside blood draws to complex radiological scans, all aimed at uncovering hidden complications, guiding urgent interventions, and tracking how well current treatments are working. A clear grasp of these tools helps nurses anticipate doctor orders, spot early signs of patient decline, and secure reliable results."
+      "content": "Diagnostic investigations in the intensive care unit guide immediate, life-saving interventions. Unlike routine hospital wards where tests follow a steady schedule, critical care diagnostics occur continuously and simultaneously. Nurses must rapidly interpret data while managing multiple complex therapies. The main goal is identifying rapid physiological changes before irreversible organ failure sets in."
     },
     {
       "heading_id": "GNS321_U2_T3_h2",
       "order": 2,
       "title": "Hemodynamic Monitoring and Arterial Lines",
-      "content": "Hemodynamic monitoring measures blood circulation pressures and fluid volume inside the cardiovascular system. An **arterial line** is a thin catheter placed directly into an artery, usually the radial artery, to give a beat-by-beat readout of blood pressure and allow frequent arterial blood sampling without repeated needle pricks. \n\n- **Central Venous Pressure (CVP)**: Measures pressure in the right atrium, giving clues about overall fluid status.\n- **Pulmonary Artery Catheter**: A specialized line threaded through the right side of the heart to measure pressures inside the heart chambers directly.\n- **Zeroing and Leveling**: A vital calibration step where the pressure transducer is aligned with the phlebostatic axis to ensure accurate readings."
+      "content": "Hemodynamic monitoring evaluates blood flow and pressure within the cardiovascular system. An arterial line provides continuous, beat-to-beat blood pressure measurement and easy access for frequent blood sampling.\n\n- **Zeroing**: Calibrating the transducer to atmospheric pressure at the phlebostatic axis.\n- **Dampening**: Assessing waveform quality to ensure accurate readings.\n- **Allen Test**: Evaluating collateral ulnar circulation before radial cannulation."
     },
     {
       "heading_id": "GNS321_U2_T3_h3",
       "order": 3,
       "title": "Arterial Blood Gas Analysis",
-      "content": "Arterial blood gas, or **ABG**, analysis provides vital data on a patient's oxygenation, ventilation, and acid-base balance. Blood is typically drawn from the radial artery or an existing arterial line. \n\nKey parameters include:\n- **pH**: Measures how acidic or alkaline the blood is, with normal sitting between 7.35 and 7.45.\n- **PaO2**: The partial pressure of oxygen dissolved in arterial blood.\n- **PaCO2**: The partial pressure of carbon dioxide, reflecting how well the lungs are exhaling waste gas.\n- **HCO3**: Bicarbonate levels, reflecting metabolic regulation by the kidneys.\n\nA common clinical trap is misinterpreting compensation; when one system fails, the other tries to balance the pH, but it rarely corrects the root cause entirely."
+      "content": "Arterial blood gas analysis measures acid-base balance, ventilation, and oxygenation status. Drawing samples requires strict adherence to aseptic technique, usually from an indwelling arterial line or via direct radial puncture. \n\n| Parameter | Normal Range |\n| --- | --- |\n| pH | 7.35 - 7.45 |\n| PaCO2 | 35 - 45 mmHg |\n| PaO2 | 80 - 100 mmHg |\n| HCO3 | 22 - 26 mEq/L |"
     },
     {
       "heading_id": "GNS321_U2_T3_h4",
       "order": 4,
-      "title": "Laboratory Investigations and Biomarkers",
-      "content": "Routine and specialized blood tests offer a biochemical window into organ function. **Biomarkers** are specific molecules that indicate normal or disease processes, cell damage, or organ stress. In the intensive care unit, nurses monitor panels such as complete blood counts, electrolyte levels, coagulation profiles, and cardiac enzymes.\n\n- **Troponin**: A protein released into the bloodstream when heart muscle cells suffer damage or death.\n- **Lactate**: A byproduct of anaerobic metabolism, signaling that body tissues are starved of adequate oxygen.\n- **Serum Creatinine**: A waste product filtered by the kidneys, used to track acute kidney injury.\n\nRising lactate levels often serve as an early warning sign of shock, appearing before blood pressure drops significantly."
+      "title": "Laboratory Biomarkers and Hematology",
+      "content": "Laboratory panels in critical care track multi-organ function, infection, and tissue injury. Cardiac troponins detect myocardial ischemia, while serum lactate signals cellular hypoxia and shock. Complete blood counts and coagulation profiles alert the nurse to bleeding risks or disseminated intravascular coagulation. Serial testing matters more than single values because trends reveal whether therapies are working."
     },
     {
       "heading_id": "GNS321_U2_T3_h5",
       "order": 5,
-      "title": "Point-of-Care Ultrasound (POCUS)",
-      "content": "Bedside diagnostic ultrasound has transformed critical care. Instead of waiting for radiology technicians, doctors and specially trained nurses use portable machines to answer specific clinical questions immediately. **Point-of-care ultrasound** helps guide procedures like central line insertions, checks for fluid around the heart, evaluates lung sliding to rule out a pneumothorax, and assesses bladder volume.\n\nWhile ultrasound provides instant visual feedback, it is operator-dependent. Image interpretation requires skill and practice to avoid misdiagnosing critical findings."
+      "title": "Point-of-Care Ultrasound",
+      "content": "Point-of-care ultrasound allows clinicians to visualize anatomical structures and pathologies directly at the bedside. Critical care nurses and doctors use it to assess volume status, guide central venous catheter insertions, and detect pneumothoraces rapidly. This imaging modality reduces transport risks for unstable patients because the machine comes directly to the bedside."
     },
     {
       "heading_id": "GNS321_U2_T3_h6",
       "order": 6,
-      "title": "Advanced Imaging Studies",
-      "content": "When bedside tests cannot provide a definitive diagnosis, patients must be transported for advanced imaging like Computed Tomography scans or Magnetic Resonance Imaging. These scans reveal detailed cross-sectional views of the brain, chest, and abdomen. \n\nTransporting a critically ill patient outside the unit introduces significant risks, including accidental extubation, loss of intravenous lines, and sudden hemodynamic instability. Nurses must stabilize the patient, secure all life support equipment, and coordinate closely with the respiratory therapist and medical team before leaving the unit."
+      "title": "Advanced Imaging and Neurological Monitoring",
+      "content": "Advanced imaging like computed tomography scans provide detailed cross-sectional views of the brain, chest, and abdomen. Electroencephalography and intracranial pressure monitors track neurological status in patients with traumatic brain injury or stroke. Transporting these vulnerable patients requires coordinated teamwork, portable monitors, and continuous respiratory support."
     },
     {
       "heading_id": "GNS321_U2_T3_h7",
       "order": 7,
-      "title": "Electrodiagnostics and Neurological Monitoring",
-      "content": "Neurological status in critically ill or sedated patients requires specialized monitoring tools. Electroencephalography records electrical activity in the brain to detect seizure activity or assess depth of sedation. Intracranial pressure monitors track the pressure inside the skull for patients with traumatic brain injuries or severe strokes. Keeping intracranial pressure within safe limits ensures the brain continues to receive adequate blood flow despite swelling."
-    },
-    {
-      "heading_id": "GNS321_U2_T3_h8",
-      "order": 8,
-      "title": "Nursing Responsibilities and Patient Safety During Diagnostics",
-      "content": "Nurses act as the safety net for diagnostic testing in the intensive care unit. This role involves verifying informed consent, preparing equipment, positioning the patient correctly, and monitoring vital signs throughout the procedure. After testing concludes, the nurse evaluates the puncture site for bleeding, watches for delayed allergic reactions to contrast dyes, and documents results in the chart. Effective communication with the interprofessional team ensures that diagnostic data translates into timely, life-saving care."
+      "title": "Nursing Responsibilities and Patient Safety",
+      "content": "Nurses play a central role in preparing patients, maintaining equipment, and interpreting basic diagnostic trends. Patient safety depends on verifying identity, ensuring equipment is calibrated, and responding promptly to abnormal alarms. Nurses also provide comfort and explanation to conscious patients undergoing frightening bedside procedures."
     }
   ]
 }
