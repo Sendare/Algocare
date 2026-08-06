@@ -7,13 +7,13 @@
     "difficulty": "recall",
     "question": "What is the normal resting heart rate range for a healthy adult?",
     "options": {
-      "A": "50 to 90 beats per minute",
-      "B": "100 to 120 beats per minute",
-      "C": "40 to 60 beats per minute",
+      "A": "40 to 60 beats per minute",
+      "B": "120 to 140 beats per minute",
+      "C": "100 to 120 beats per minute",
       "D": "60 to 100 beats per minute"
     },
     "answer": "D",
-    "explanation": "A resting heart rate between 60 and 100 beats per minute is standard for normal adult physiological function. [learn more](GNS111_U2_T7#GNS111_U2_T7_h1)"
+    "explanation": "A resting rate between 60 and 100 beats per minute is considered the normal physiological baseline for adult humans. [learn more](GNS111_U2_T7#GNS111_U2_T7_h1)"
   },
   {
     "question_id": "GNS111_U2_T7_h1_q2",
@@ -21,47 +21,47 @@
     "article_id": "GNS111_U2_T7",
     "topic_id": "GNS111_U2_T7",
     "difficulty": "recall",
-    "question": "Which part of the heart acts as the natural pacemaker?",
+    "question": "Which structure acts as the natural pacemaker of the human heart?",
     "options": {
       "A": "Purkinje fibers",
       "B": "Bundle of His",
-      "C": "Atrioventricular node",
-      "D": "Sinoatrial node"
+      "C": "Sinoatrial node",
+      "D": "Atrioventricular node"
     },
-    "answer": "D",
-    "explanation": "You've got this! The sinoatrial (SA) node is the heart's natural pacemaker because it fires off the electrical signals that start every heartbeat. [learn more](GNS111_U2_T7#GNS111_U2_T7_h1)"
+    "answer": "C",
+    "explanation": "The sinoatrial node spontaneously initiates the electrical impulses that drive normal heartbeats. [learn more](GNS111_U2_T7#GNS111_U2_T7_h1)"
   },
   {
     "question_id": "GNS111_U2_T7_h2_q1",
     "heading_id": "GNS111_U2_T7_h2",
     "article_id": "GNS111_U2_T7",
     "topic_id": "GNS111_U2_T7",
-    "difficulty": "recall",
-    "question": "Which cranial nerve helps slow down the heart rate?",
+    "difficulty": "understanding",
+    "question": "Activation of the sympathetic nervous system has which effect on the heart?",
     "options": {
-      "A": "Glossopharyngeal nerve",
-      "B": "Vagus nerve",
-      "C": "Facial nerve",
-      "D": "Trigeminal nerve"
+      "A": "Increases heart rate and increases conduction speed",
+      "B": "Has no direct effect on cardiac electrical activity",
+      "C": "Decreases heart rate and reduces conduction speed",
+      "D": "Decreases heart rate while increasing blood pressure"
     },
-    "answer": "B",
-    "explanation": "Great try! The vagus nerve is the main highway for the parasympathetic system to tell the heart to slow down and relax. [learn more](GNS111_U2_T7#GNS111_U2_T7_h2)"
+    "answer": "A",
+    "explanation": "Sympathetic stimulation releases catecholamines that speed up the heart rate and enhance electrical conduction through the myocardium. [learn more](GNS111_U2_T7#GNS111_U2_T7_h2)"
   },
   {
     "question_id": "GNS111_U2_T7_h2_q2",
     "heading_id": "GNS111_U2_T7_h2",
     "article_id": "GNS111_U2_T7",
     "topic_id": "GNS111_U2_T7",
-    "difficulty": "understanding",
-    "question": "How does the sympathetic nervous system (\"fight or flight\") affect the heart?",
+    "difficulty": "recall",
+    "question": "Which cranial nerve mediates the parasympathetic response to slow down the heart?",
     "options": {
-      "A": "It stops pacemaker activity until rest resumes",
-      "B": "It slows down electrical conduction through the atria",
-      "C": "It increases heart rate and enhances contractility",
-      "D": "It decreases heart rate and lowers blood pressure"
+      "A": "Vagus nerve",
+      "B": "Hypoglossal nerve",
+      "C": "Facial nerve",
+      "D": "Trigeminal nerve"
     },
-    "answer": "C",
-    "explanation": "Think about how your heart races when you're scared or excited! The sympathetic system pumps out adrenaline to make the heart beat faster and stronger. [learn more](GNS111_U2_T7#GNS111_U2_T7_h2)"
+    "answer": "A",
+    "explanation": "The vagus nerve delivers parasympathetic signals that decrease the firing rate of the sinoatrial node. [learn more](GNS111_U2_T7#GNS111_U2_T7_h2)"
   },
   {
     "question_id": "GNS111_U2_T7_h3_q1",
@@ -69,15 +69,15 @@
     "article_id": "GNS111_U2_T7",
     "topic_id": "GNS111_U2_T7",
     "difficulty": "recall",
-    "question": "What heart rate means an adult has tachycardia (a fast heart rate)?",
+    "question": "A resting heart rate of 115 beats per minute in an adult is classified as what?",
     "options": {
-      "A": "Above 80 beats per minute",
-      "B": "Above 100 beats per minute",
-      "C": "Above 90 beats per minute",
-      "D": "Above 120 beats per minute"
+      "A": "Asystole",
+      "B": "Tachycardia",
+      "C": "Normocardia",
+      "D": "Bradycardia"
     },
     "answer": "B",
-    "explanation": "Remember, anything over 100 beats per minute at rest is called tachycardia. You'll hear this term a lot in the ward! [learn more](GNS111_U2_T7#GNS111_U2_T7_h3)"
+    "explanation": "Any resting heart rate above 100 beats per minute in an adult is defined as tachycardia. [learn more](GNS111_U2_T7#GNS111_U2_T7_h3)"
   },
   {
     "question_id": "GNS111_U2_T7_h3_q2",
@@ -85,31 +85,31 @@
     "article_id": "GNS111_U2_T7",
     "topic_id": "GNS111_U2_T7",
     "difficulty": "understanding",
-    "question": "Why might a fit athlete have a resting heart rate of 50 beats per minute and still be totally healthy?",
+    "question": "How can you tell the difference between pathological bradycardia and normal athletic bradycardia?",
     "options": {
-      "A": "Their heart pumps a larger stroke volume with each beat",
-      "B": "Their body tissues require less oxygen than a normal person",
-      "C": "Their sinoatrial node fires at a slower fixed rate",
-      "D": "Their parasympathetic tone is permanently blocked by exercise"
+      "A": "A high rate accompanied by chest pain",
+      "B": "An irregular rhythm with no physical complaints",
+      "C": "A regular rhythm occurring only during active exercise",
+      "D": "A low rate accompanied by poor tissue perfusion symptoms"
     },
-    "answer": "A",
-    "explanation": "An athlete's heart is strong! It pumps out so much blood with every single beat that it doesn't need to beat as often to keep the body happy. [learn more](GNS111_U2_T7#GNS111_U2_T7_h3)"
+    "answer": "D",
+    "explanation": "Pathological bradycardia causes clinical symptoms like dizziness because the body lacks adequate blood flow, whereas well-trained athletes remain symptom-free. [learn more](GNS111_U2_T7#GNS111_U2_T7_h3)"
   },
   {
     "question_id": "GNS111_U2_T7_h4_q1",
     "heading_id": "GNS111_U2_T7_h4",
     "article_id": "GNS111_U2_T7",
     "topic_id": "GNS111_U2_T7",
-    "difficulty": "recall",
-    "question": "Where is the best spot on the chest to listen to the apical pulse?",
+    "difficulty": "application",
+    "question": "Why must you listen to the apical pulse for a full minute when you notice an irregular heartbeat?",
     "options": {
-      "A": "Second intercostal space at the right sternal border",
-      "B": "Third intercostal space at the right midclavicular line",
-      "C": "Fifth intercostal space at the left midclavicular line",
-      "D": "Fourth intercostal space at the left sternal border"
+      "A": "To synchronize the heart rate with the respiratory rate accurately",
+      "B": "To prevent patient discomfort from the stethoscope pressure",
+      "C": "To warm up the stethoscope diaphragm against the chest wall",
+      "D": "To ensure an accurate count by capturing dropped or skipped beats"
     },
-    "answer": "C",
-    "explanation": "Picture placing your stethoscope just below the left nipple area—that's roughly the 5th intercostal space at the midclavicular line where the heart apex beats loudest! [learn more](GNS111_U2_T7#GNS111_U2_T7_h4)"
+    "answer": "D",
+    "explanation": "Irregular rhythms require a full sixty-second count so you do not miss weak or skipped beats that would be missed during a shorter check. [learn more](GNS111_U2_T7#GNS111_U2_T7_h4)"
   },
   {
     "question_id": "GNS111_U2_T7_h4_q2",
@@ -117,47 +117,47 @@
     "article_id": "GNS111_U2_T7",
     "topic_id": "GNS111_U2_T7",
     "difficulty": "understanding",
-    "question": "When should you listen to the apical pulse for a full minute instead of just checking the wrist?",
+    "question": "What does a pulse deficit mean when you compare a patient's apical and radial pulse rates?",
     "options": {
-      "A": "When checking circulation after a cast is applied",
-      "B": "When the patient is sleeping quietly in bed",
-      "C": "When the patient has a known irregular rhythm",
-      "D": "When measuring routine vital signs in a healthy adult"
+      "A": "The electrocardiogram leads are incorrectly placed on the chest wall",
+      "B": "The patient is experiencing severe hypothermia in the upper limbs",
+      "C": "Some ventricular contractions are too weak to produce a palpable peripheral pulse",
+      "D": "The radial artery has collapsed due to excessive blood pressure cuff use"
     },
     "answer": "C",
-    "explanation": "If a patient's heartbeat is skipping or irregular, a quick wrist pulse can miss beats. Listening right at the chest for a full minute gives you the true picture. [learn more](GNS111_U2_T7#GNS111_U2_T7_h4)"
+    "explanation": "A pulse deficit happens when the heart beats strongly enough to be heard at the chest apex, but the wave is too weak to be felt at the wrist. [learn more](GNS111_U2_T7#GNS111_U2_T7_h4)"
   },
   {
     "question_id": "GNS111_U2_T7_h5_q1",
     "heading_id": "GNS111_U2_T7_h5",
     "article_id": "GNS111_U2_T7",
     "topic_id": "GNS111_U2_T7",
-    "difficulty": "recall",
-    "question": "Which of these common body changes will naturally make the heart beat faster?",
+    "difficulty": "understanding",
+    "question": "Why does sudden, heavy blood loss usually cause the heart rate to speed up?",
     "options": {
-      "A": "Excessive resting sleep",
-      "B": "Elevated body temperature",
-      "C": "Hypothermia",
-      "D": "Increased parasympathetic tone"
+      "A": "To compensate for falling blood pressure and maintain adequate tissue oxygenation",
+      "B": "To increase blood volume by drawing fluid from interstitial spaces",
+      "C": "To clear metabolic waste products accumulating in damaged blood vessels",
+      "D": "To warm the remaining blood as it circulates through the core organs"
     },
-    "answer": "B",
-    "explanation": "Fever makes your body's engine run faster! For every degree your temperature goes up, your heart rate naturally climbs too. [learn more](GNS111_U2_T7#GNS111_U2_T7_h5)"
+    "answer": "A",
+    "explanation": "When blood volume drops, the sympathetic nervous system speeds up the heart to keep blood flowing to vital organs. [learn more](GNS111_U2_T7#GNS111_U2_T7_h5)"
   },
   {
     "question_id": "GNS111_U2_T7_h5_q2",
     "heading_id": "GNS111_U2_T7_h5",
     "article_id": "GNS111_U2_T7",
     "topic_id": "GNS111_U2_T7",
-    "difficulty": "understanding",
-    "question": "Which of the following does NOT cause a fast heart rate (tachycardia)?",
+    "difficulty": "recall",
+    "question": "Which group of medications is a common external cause of a slow heart rate (bradycardia)?",
     "options": {
-      "A": "High fever",
-      "B": "Vagal nerve stimulation",
-      "C": "Severe pain",
-      "D": "Acute blood loss"
+      "A": "Beta-blockers",
+      "B": "Non-steroidal anti-inflammatories",
+      "C": "Bronchodilators",
+      "D": "Loop diuretics"
     },
-    "answer": "B",
-    "explanation": "Remember, the vagus nerve is your body's brake pedal. Stimulating it slows the heart down rather than speeding it up! [learn more](GNS111_U2_T7#GNS111_U2_T7_h5)"
+    "answer": "A",
+    "explanation": "Beta-blockers lower the heart rate by blocking sympathetic nerve signals at specific receptor sites in the heart tissue. [learn more](GNS111_U2_T7#GNS111_U2_T7_h5)"
   },
   {
     "question_id": "GNS111_U2_T7_h6_q1",
@@ -165,30 +165,62 @@
     "article_id": "GNS111_U2_T7",
     "topic_id": "GNS111_U2_T7",
     "difficulty": "application",
-    "question": "A patient's heart rate is 120 beats per minute, and they feel dizzy and short of breath. What is the nurse's best first step?",
+    "question": "A patient looks dizzy and has a heart rate of 38 beats per minute. What is your immediate nursing action?",
     "options": {
-      "A": "Apply warm blankets to the lower extremities",
-      "B": "Administer a sleeping pill to calm the patient down",
-      "C": "Document the finding as normal baseline variation",
-      "D": "Assess blood pressure and check for signs of poor perfusion"
+      "A": "Administer prescribed atropine and prepare pacing equipment",
+      "B": "Draw routine blood samples for complete blood count analysis",
+      "C": "Encourage immediate ambulation to stimulate circulation",
+      "D": "Apply a warm blanket and record intake and output totals"
     },
-    "answer": "D",
-    "explanation": "Safety first! When a fast heart rate starts causing dizziness, we need to check right away if their blood pressure and circulation are holding up. [learn more](GNS111_U2_T7#GNS111_U2_T7_h6)"
+    "answer": "A",
+    "explanation": "Symptomatic bradycardia is an emergency requiring quick medication like atropine and readiness for cardiac pacing to raise the heart rate. [learn more](GNS111_U2_T7#GNS111_U2_T7_h6)"
   },
   {
     "question_id": "GNS111_U2_T7_h6_q2",
     "heading_id": "GNS111_U2_T7_h6",
     "article_id": "GNS111_U2_T7",
     "topic_id": "GNS111_U2_T7",
-    "difficulty": "recall",
-    "question": "Which emergency drug is commonly given to treat a dangerously slow heart rate?",
+    "difficulty": "understanding",
+    "question": "What is the best way to decide how urgently you need to act on an abnormal heart rate?",
     "options": {
-      "A": "Digoxin",
-      "B": "Propranolol",
-      "C": "Atropine",
-      "D": "Adenosine"
+      "A": "The time of day when the abnormal rhythm was first recorded",
+      "B": "The patient's personal preference for receiving medications",
+      "C": "The exact numerical reading shown on the bedside monitor",
+      "D": "The patient's hemodynamic stability and presence of symptoms"
     },
-    "answer": "C",
-    "explanation": "Atropine is the go-to emergency drug for symptomatic bradycardia. It blocks the vagus nerve to quickly speed the heart back up. [learn more](GNS111_U2_T7#GNS111_U2_T7_h6)"
+    "answer": "D",
+    "explanation": "Urgency depends entirely on whether the abnormal rate is causing problems like chest pain, confusion, or a dangerous drop in blood pressure. [learn more](GNS111_U2_T7#GNS111_U2_T7_h6)"
+  },
+  {
+    "question_id": "GNS111_U2_T7_h7_q1",
+    "heading_id": "GNS111_U2_T7_h7",
+    "article_id": "GNS111_U2_T7",
+    "topic_id": "GNS111_U2_T7",
+    "difficulty": "understanding",
+    "question": "What is the main danger of a very fast heart rate that lasts for a long time?",
+    "options": {
+      "A": "Excessive accumulation of fluid within the pericardial sac",
+      "B": "Permanent dilation of the peripheral venous capacitance vessels",
+      "C": "Increased heart muscle thickness due to overexertion",
+      "D": "Reduced coronary blood flow and oxygen supply to the heart muscle"
+    },
+    "answer": "D",
+    "explanation": "A rapid heart rate shortens the resting phase between beats, which is when the heart muscle actually feeds itself blood and oxygen. [learn more](GNS111_U2_T7#GNS111_U2_T7_h7)"
+  },
+  {
+    "question_id": "GNS111_U2_T7_h7_q2",
+    "heading_id": "GNS111_U2_T7_h7",
+    "article_id": "GNS111_U2_T7",
+    "topic_id": "GNS111_U2_T7",
+    "difficulty": "recall",
+    "question": "Which action should you NOT take right away when a patient collapses and has no pulse?",
+    "options": {
+      "A": "Initiating high-quality chest compressions",
+      "B": "Activating the emergency response team",
+      "C": "Preparing the automated external defibrillator",
+      "D": "Administering oral maintenance medications"
+    },
+    "answer": "D",
+    "explanation": "Giving oral medications during a cardiac arrest is useless and dangerous; the patient needs immediate chest compressions and emergency support. [learn more](GNS111_U2_T7#GNS111_U2_T7_h7)"
   }
 ]
