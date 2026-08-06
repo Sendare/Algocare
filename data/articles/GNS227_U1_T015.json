@@ -11,38 +11,38 @@
     {
       "heading_id": "GNS227_U1_T015_h1",
       "order": 1,
-      "title": "Introduction to Body Mass Index (BMI)",
-      "content": "Body Mass Index, widely known as **BMI**, is a simple numerical value calculated using an individual's mass and height. In clinical nursing, it serves as a rapid screening tool to categorize body weight and estimate potential health risks associated with being too light or too heavy. While it does not directly measure body fat, population studies show a strong correlation between high BMI and increased levels of total body fat. Healthcare providers use this metric during initial patient assessments to flag individuals who might need deeper nutritional or metabolic evaluations."
+      "title": "Introduction to Body Mass Index",
+      "content": "Body Mass Index is a simple, universally utilized screening tool that estimates human body fat based on an individual's weight relative to height. Devised in the 19th century by Adolphe Quetelet, this metric applies broadly to adult populations to categorize nutritional status quickly. While it does not directly measure body composition, healthcare providers rely on it as a baseline indicator of potential weight-related health vulnerabilities."
     },
     {
       "heading_id": "GNS227_U1_T015_h2",
       "order": 2,
-      "title": "The Mathematical Formula and Calculation of BMI",
-      "content": "Calculating BMI requires two basic physical measurements: mass in kilograms and height in meters. The standard metric formula divides the weight by the square of the height, written mathematically as $\\text{kg/m}^2$. When working with imperial units like pounds and inches, nurses must apply a conversion factor of 703 to keep the math accurate. \n\n- **Numerator**: The patient's exact body weight.\n- **Denominator**: The patient's height multiplied by itself.\n- **Constant**: The number 703, used only when weight is in pounds and height is in inches."
+      "title": "The Mathematical Formula and Calculation",
+      "content": "Calculating Body Mass Index requires two precise measurements: weight in kilograms and height in metres. The mathematical expression divides weight by height squared.\n\n- **Formula**: $\\text{BMI} = \\frac{\\text{Weight (kg)}}{\\text{Height (m)}^2}$\n- **Step 1**: Multiply the patient's height in metres by itself.\n- **Step 2**: Divide the measured weight in kilograms by this squared height value.\n\nFor example, a patient weighing 70 kg with a height of 1.75 m has a height squared value of 3.0625. Dividing 70 by 3.0625 yields a Body Mass Index of approximately 22.9."
     },
     {
       "heading_id": "GNS227_U1_T015_h3",
       "order": 3,
-      "title": "Standard BMI Classifications and World Health Organization Cut-offs",
-      "content": "The World Health Organization establishes universal cut-off points to group adult BMI values into standardized categories. These ranges help nurses communicate weight status clearly across multidisciplinary healthcare teams.\n\n| BMI Range | Classification |\n|---|---|\n| Below 18.5 | Underweight |\n| 18.5 to 24.9 | Normal weight |\n| 25.0 to 29.9 | Overweight |\n| 30.0 and above | Obesity |\n\nPatients falling outside the normal weight range warrant closer observation during routine clinical assessments."
+      "title": "Standard Classifications and World Health Organization Cut-offs",
+      "content": "The World Health Organization establishes universal numeric thresholds to categorize adult nutritional status based on this index. These standard ranges help clinicians communicate findings clearly and track population health trends.\n\n| Classification | Body Mass Index Range (kg/m²)||\n|---|---|\n| Underweight | Less than 18.5 ||\n| Normal weight | 18.5 to 24.9 ||\n| Overweight | 25.0 to 29.9 ||\n| Class 1 Obesity | 30.0 to 34.9 ||\n| Class 2 Obesity | 35.0 to 39.9 ||\n| Class 3 Obesity | 40.0 and above ||"
     },
     {
       "heading_id": "GNS227_U1_T015_h4",
       "order": 4,
-      "title": "Clinical Significance and Health Risks of Abnormal BMI",
-      "content": "Both extremes of the BMI spectrum carry distinct health consequences. An elevated BMI correlates strongly with chronic conditions like type 2 diabetes mellitus, hypertension, osteoarthritis, and obstructive sleep apnea due to increased mechanical and metabolic stress on body systems. Conversely, a low BMI points toward malnutrition, weakened immune function, osteoporosis, and delayed wound healing—a frequent concern among frail elderly patients or those managing chronic wasting diseases."
+      "title": "Clinical Significance and Health Risks",
+      "content": "Abnormal scores on either end of the spectrum carry distinct physiological consequences. Falling into the underweight category often signals malnutrition, impaired immune response, and osteoporosis. Conversely, elevated values correlate strongly with chronic conditions including type 2 diabetes mellitus, hypertension, ischemic heart disease, and osteoarthritis due to increased mechanical joint stress. Nurses monitor these trends closely to initiate timely lifestyle interventions."
     },
     {
       "heading_id": "GNS227_U1_T015_h5",
       "order": 5,
-      "title": "Limitations and Pitfalls of BMI in Nursing Assessments",
-      "content": "Nurses must remember that BMI is a screening tool, not a definitive diagnostic test. A major pitfall is its inability to distinguish between lean muscle mass and adipose tissue. For instance, a bodybuilder with a high muscle mass may present with an elevated BMI well into the overweight or obese category despite having very low body fat. Other vulnerable groups include pregnant women, growing adolescents, and older adults who have lost significant muscle mass, as age-related muscle wasting can mask dangerous internal fat accumulation."
+      "title": "Limitations and Pitfalls in Nursing Assessments",
+      "content": "While convenient, the formula has significant blind spots that nurses must recognize during physical examinations. Because the calculation relies solely on total body mass without distinguishing fat from muscle, highly athletic individuals with dense muscle mass may be incorrectly labeled as overweight or obese. Similarly, elderly patients with age-related muscle wasting, known as sarcopenia, can present with a normal index despite having excess body fat. Physiological fluid retention, such as marked ascites or peripheral edema, also falsely inflates weight and distorts the final calculation."
     },
     {
       "heading_id": "GNS227_U1_T015_h6",
       "order": 6,
       "title": "Alternative Anthropometric Measures in Clinical Practice",
-      "content": "Because BMI has clear boundaries, nurses often pair it with other anthropometric measurements to get a safer, more accurate picture of patient health. Waist circumference is especially valuable because it highlights visceral fat—the dangerous fat wrapped around internal abdominal organs. A high waist measurement indicates elevated cardiovascular risk even if the patient's overall BMI falls into the normal range. Skinfold thickness tests and bioelectrical impedance are additional techniques used to estimate body fat percentage more directly when standard weight-to-height ratios are insufficient."
+      "content": "To overcome the shortcomings of standard body mass calculations, nurses often incorporate complementary anthropometric assessments. \n\n- **Waist Circumference**: Measures abdominal adiposity directly, where excess visceral fat poses a higher cardiovascular risk regardless of overall weight.\n- **Waist-to-Hip Ratio**: Compares waist size to hip girth to evaluate fat distribution patterns, identifying central versus peripheral adiposity.\n- **Skinfold Thickness**: Uses calipers at specific body sites to estimate subcutaneous fat stores directly."
     }
   ]
 }
