@@ -12,38 +12,38 @@
     {
       "heading_id": "GNS224_U1_T8_h1",
       "order": 1,
-      "title": "Introduction to Non-Experimental Research Design",
-      "content": "In nursing research, **non-experimental research design** refers to studies where the researcher observes, describes, and explores variables without manipulating or controlling them. Unlike clinical trials, you do not give a new drug to one group and a placebo to another. Instead, you take a snapshot of a situation as it naturally occurs in the hospital ward or community health center. This approach is vital when ethical or practical barriers prevent you from interfering with patient care. For instance, you cannot ethically assign patients to smoke cigarettes to study lung damage, but you can observe patients who already smoke and record their health outcomes. The primary goal is to uncover relationships, describe phenomena, or track trends over time without altering the natural environment."
+      "title": "Introduction and Purpose in Nursing Research",
+      "content": "Non-experimental research design involves studying variables in their natural settings without any manipulation by the researcher. In nursing, you often cannot or should not alter a patient's condition, environment, or treatment just to see what happens. Instead, you observe, measure, and describe phenomena as they naturally occur. The main goal is to uncover relationships, describe clinical realities, or explore differences between patient groups without introducing an active intervention."
     },
     {
       "heading_id": "GNS224_U1_T8_h2",
       "order": 2,
       "title": "Descriptive Research Designs",
-      "content": "Descriptive designs simply answer the questions of what, who, and how much. When starting a new quality improvement project on a medical-surgical ward, you first need to know the baseline. How many patients fall out of bed each month? What is the average pain score reported post-op? Descriptive studies do not look for cause-and-effect links. They paint a clear picture of a situation, condition, or population at a specific moment. Common methods include observational counts, survey questionnaires, and clinical audits. By establishing these baseline numbers, nurse managers can identify priority areas that need urgent intervention."
+      "content": "Descriptive designs paint a picture of a situation, phenomenon, or population as it currently exists. They do not test hypotheses about cause and effect, nor do they look for relationships between variables. Common nursing examples include documenting the prevalence of pressure ulcers in a surgical ward or assessing the anxiety levels of mothers in a postnatal clinic. \n\n- **Univariate Descriptive**: Focuses on describing a single variable, such as measuring baseline body temperature.\n- **Normative Research**: Establishes normal values or benchmarks for a specific population over time.\n- **Prevalence Studies**: Measures the frequency of a condition within a defined group at a specific point in time."
     },
     {
       "heading_id": "GNS224_U1_T8_h3",
       "order": 3,
       "title": "Correlational and Associational Designs",
-      "content": "Correlational research explores the relationship between two or more variables without proving that one causes the other. For example, you might study the relationship between nurse shift length and medication administration errors. If you find a strong link, it means the two variables move together, but it does not mean long shifts automatically guarantee an error every single time. \n\n- **Positive correlation**: Both variables increase together, such as patient age and number of chronic illnesses.\n- **Negative correlation**: As one variable goes up, the other goes down, such as walking frequency and pressure ulcer development.\n- **Zero correlation**: There is no relationship at all between the two variables.\n\nRemember the golden rule of statistics: **correlation does not equal causation**."
+      "content": "Correlational research explores the relationship between two or more variables without establishing causation. A correlation coefficient ranges from -1.00 to +1.00, indicating the strength and direction of the association. A positive correlation means both variables move in the same direction, while a negative correlation means one increases as the other decreases. \n\nA common clinical misconception is assuming that finding a strong correlation means one variable caused the other. For instance, a study might show a strong link between high patient fall rates and low nursing staffing numbers, but this association does not automatically prove understaffing is the sole direct cause."
     },
     {
       "heading_id": "GNS224_U1_T8_h4",
       "order": 4,
       "title": "Ex Post Facto and Causal-Comparative Designs",
-      "content": "An **ex post facto** design, meaning 'after the fact,' investigates an effect that has already occurred and looks backward for potential causes. Suppose you notice that patients in ward A have higher rates of surgical site infections than ward B. You examine past medical charts to compare hand hygiene compliance, pre-op antibiotic timing, and underlying health conditions. You did not set up the infection rates; you are studying them after they happened. While this helps generate hypotheses for future experimental studies, it remains weak for proving true causality because you cannot rule out hidden confounding variables."
+      "content": "An ex post facto or causal-comparative design examines how an independent variable, present before the study, affects a dependent variable. The term 'ex post facto' translates to 'after the fact.' Because the event has already occurred, the researcher cannot manipulate the independent variable. \n\nFor example, a researcher might compare current lung function in patients who smoked for ten years versus those who never smoked. The smoking behavior happened in the past, and the researcher simply compares the groups now. The major limitation here is the inability to control for confounding variables that might have influenced the outcome."
     },
     {
       "heading_id": "GNS224_U1_T8_h5",
       "order": 5,
       "title": "Cross-Sectional vs. Longitudinal Approaches",
-      "content": "Time is a major factor in non-experimental design. How you capture your data changes the depth of your findings.\n\n- **Cross-sectional studies**: Collect data at one single point in time. They are fast, affordable, and great for assessing current disease prevalence, but they miss how things change over time.\n- **Longitudinal studies**: Follow the same group of participants over an extended period, measuring variables repeatedly. They track trends and developmental changes effectively, though they suffer from high participant dropout rates and take years to complete."
+      "content": "Timeframe plays a vital role in organizing non-experimental studies. Researchers choose between taking a quick snapshot or following a group over an extended period.\n\n- **Cross-Sectional**: Collects data at one specific point in time, offering quick results but missing developmental trends.\n- **Longitudinal**: Follows the same participants over multiple time points to observe changes, though it suffers from participant attrition."
     },
     {
       "heading_id": "GNS224_U1_T8_h6",
       "order": 6,
-      "title": "Strengths, Limitations, and Bias in Non-Experimental Studies",
-      "content": "Non-experimental research is the backbone of clinical observation, offering high ecological validity because participants are studied in their natural habitats. It allows researchers to study complex human behaviors and health conditions that cannot be manipulated. However, the lack of control introduces severe vulnerability to **confounding variables**. If you notice a link between coffee drinking and low stress, a hidden factor like regular exercise might actually be driving the result. Furthermore, selection bias is common when participants volunteer or when records are missing data. Recognizing these threats helps nurses evaluate whether a published non-experimental paper can truly guide bedside clinical practice."
+      "title": "Strengths and Limitations",
+      "content": "Non-experimental research offers high external validity because studies occur in real-world clinical settings rather than artificial laboratories. They provide vast amounts of descriptive data and pave the way for future experimental trials. However, their lack of control over extraneous variables leaves them open to bias. Researchers cannot prove causality, meaning that even a well-designed correlational study only points toward associations rather than definitive causes."
     }
   ]
 }
