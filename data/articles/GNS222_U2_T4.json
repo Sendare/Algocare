@@ -11,50 +11,38 @@
     {
       "heading_id": "GNS222_U2_T4_h1",
       "order": 1,
-      "title": "Introduction to Endocrine and Metabolic Diagnostics",
-      "content": "Diagnosing metabolic and endocrine disorders requires a careful, step-by-step approach because hormones control almost every system in the body. Unlike an infection where a single pathogen can be cultured, hormone imbalances often stem from complex feedback loops involving the hypothalamus, pituitary gland, and target organs like the thyroid, adrenal glands, or pancreas. Diagnostic testing aims to measure the exact amount of a circulating hormone, check how well the target organ responds to signals, and locate any physical abnormalities such as tumors or hypertrophy. Nurses play a vital role in this process by ensuring tests are timed correctly, as many hormone levels fluctuate naturally throughout the day based on circadian rhythms, stress, and meals."
+      "title": "Introduction and Blood Hormone Assays",
+      "content": "Diagnosing endocrine and metabolic disorders relies heavily on biochemical analysis because hormones circulate in extremely low concentrations in the bloodstream. **Hormone assays** measure these minute amounts using techniques like radioimmunoassay and enzyme-linked immunosorbent assay. \n\n- **Basal blood levels**: Blood drawn at a specific time, usually fasting in the morning, to capture baseline hormone production.\n- **Pulsatile secretion**: Many hormones are released in bursts, meaning a single random blood test can be misleading and require serial sampling.\n- **Carrier proteins**: Most steroid and thyroid hormones travel bound to proteins, so tests often measure both bound and free active fractions.\n\nClinicians look for patterns rather than isolated values, correlating laboratory output with clinical signs observed in the ward."
     },
     {
       "heading_id": "GNS222_U2_T4_h2",
       "order": 2,
-      "title": "Blood and Plasma Hormone Assays",
-      "content": "Blood tests are the most common starting point for evaluating endocrine function. Assays measure basal levels of hormones, such as thyroid-stimulating hormone, cortisol, or insulin, circulating in the bloodstream. \n\n- **Total Hormone Level**: Measures both protein-bound and free hormones circulating in the blood plasma.\n- **Free Hormone Level**: Measures only the active hormone portion that is not bound to carrier proteins, providing a more accurate picture of tissue activity.\n- **Antibody Assays**: Detects autoimmune activity against specific endocrine tissues, commonly used in conditions like Hashimoto's thyroiditis or type 1 diabetes.\n\nA common clinical mistake is looking only at total hormone levels without considering transport proteins, which can be altered by pregnancy, liver disease, or malnutrition."
+      "title": "Urine Testing and Dynamic Stimulation Tests",
+      "content": "When simple blood draws prove inconclusive, dynamic testing assesses how endocrine glands respond to external stimuli or suppression. \n\n- **Stimulation tests**: Administering a synthetic releasing hormone or analogue to see if a deficient gland can be prompted to secrete its hormone.\n- **24-hour urine collection**: Measuring hormone metabolites over a full day to bypass the fluctuations of pulsatile blood secretion.\n\nFor example, an adrenocorticotropic hormone stimulation test evaluates adrenal insufficiency by measuring cortisol output before and after synthetic hormone injection. Complete collection accuracy is vital for urine assays; missed voids invalidate the entire 24-hour sample."
     },
     {
       "heading_id": "GNS222_U2_T4_h3",
       "order": 3,
-      "title": "Urine Testing and Dynamic Stimulation Tests",
-      "content": "When single blood draws are inconclusive, dynamic tests and urine collections provide deeper insight into gland reserve and function. \n\n24-hour urine collections measure total hormone output or waste products over a full day, smoothing out hourly spikes and drops. This is especially useful for checking catecholamines in suspected pheochromocytoma or free cortisol for Cushing's syndrome. \n\nStimulation tests check how a gland responds when given a triggering agent. If a gland is underactive, giving a stimulating hormone should normally cause the target organ to produce its own hormone. If it fails to respond, primary failure of the target gland is diagnosed."
+      "title": "Suppression Tests and Glucose Regulation",
+      "content": "Conversely, suppression tests determine if hormone secretion responds appropriately to negative feedback mechanisms. If an endocrine gland is autonomously hypersecreting—such as in a hormone-producing tumor—introducing a suppressing agent fails to lower hormone levels. \n\n| Test Type | Primary Mechanism | Clinical Purpose |\n|---|---|---|\n| **Low-Dose Dexamethasone Suppression** | Administer synthetic steroid to suppress cortisol | Diagnose Cushing's syndrome |\n| **Oral Glucose Tolerance Test** | Administer glucose load to suppress growth hormone | Diagnose acromegaly |\n\nMetabolic assessments also evaluate glucose homeostasis directly through fasting blood glucose, glycated hemoglobin, and continuous glucose monitoring. These diagnostics track long-term glycemic control and reveal patterns of insulin resistance or pancreatic beta-cell failure."
     },
     {
       "heading_id": "GNS222_U2_T4_h4",
       "order": 4,
-      "title": "Suppression Tests and Glucose Regulation Assessments",
-      "content": "While stimulation tests evaluate underactive glands, suppression tests check glands that are suspected of being overactive. In a normal body, high levels of a hormone or a regulating substance should trigger negative feedback, shutting down further production. If an endocrine gland keeps producing hormones despite an administered suppression agent, normal feedback control is lost, indicating a tumor or hyperplasia.\n\nGlucose regulation assessments, such as the fasting plasma glucose test, oral glucose tolerance test, and glycated hemoglobin (HbA1c), evaluate metabolic function and diagnose disorders like diabetes mellitus. The HbA1c test is particularly valuable because it reflects average blood glucose levels over the past two to three months, bypassing daily dietary variations."
+      "title": "Imaging and Radioactive Isotope Scans",
+      "content": "Visualizing the structural anatomy of endocrine glands helps identify adenomas, hyperplasia, or structural atrophy. \n\n- **Ultrasonography**: Commonly used for superficial structures like the thyroid gland and parathyroid glands to detect nodules or cysts without radiation exposure.\n- **CT and MRI Scans**: Provide cross-sectional imaging of deeper structures, including the adrenal glands, pituitary gland, and pancreas.\n- **Radioactive Isotope Scans**: Administering tracer elements like radioactive iodine to evaluate thyroid uptake and differentiate cold nodules from hot, functioning nodules.\n\nPatients undergoing iodine uptake scans must avoid iodine-rich foods and medications beforehand, as competing elements will distort the diagnostic scan."
     },
     {
       "heading_id": "GNS222_U2_T4_h5",
       "order": 5,
-      "title": "Imaging Techniques for Endocrine Glands",
-      "content": "Visualization of endocrine structures helps identify structural causes of hormone disorders, such as pituitary adenomas, adrenal masses, or nodular goiters. Computed tomography (CT) and magnetic resonance imaging (MRI) are standard tools for mapping soft tissue detail. MRI is especially preferred for viewing the pituitary gland due to its superior soft-tissue contrast. Ultrasound is commonly used for superficial glands like the thyroid and parathyroid, offering a non-invasive way to detect nodules and cysts without radiation exposure. Nurses must screen patients for metal implants before MRI scans and assess for allergies to iodine-based contrast agents used in CT scans."
+      "title": "Invasive Procedures and Biopsies",
+      "content": "When non-invasive imaging and laboratory panels remain inconclusive, direct tissue sampling or specialized venous catheterization provides definitive answers. \n\n- **Fine-Needle Aspiration**: Extracts cellular material from a thyroid nodule or endocrine mass for cytological examination to rule out malignancy.\n- **Venous Sampling**: Catheterizing specific veins draining an endocrine gland—such as the petrosal sinuses for ACTH—pinpoints the exact source of hormone overproduction.\n\nThese invasive methods carry minor risks of localized bleeding, hematoma formation, or infection. Post-procedure monitoring focuses on observing vital signs, assessing the puncture site for swelling, and watching for airway compression if sampling occurred in the neck."
     },
     {
       "heading_id": "GNS222_U2_T4_h6",
       "order": 6,
-      "title": "Radioactive Isotope Scans and Uptake Studies",
-      "content": "Radioisotope studies assess both the physical structure and functional activity of endocrine glands, most notably the thyroid. Patients ingest or receive an injection of a radioactive tracer, such as radioactive iodine or technetium, which is actively taken up by functional gland tissue. A scanner then maps the distribution of the isotope, revealing areas of high activity (\"hot\" nodules, which are rarely malignant) or low activity (\"cold\" nodules, which carry a higher cancer risk). Nurses must instruct patients to avoid foods and medications containing iodine for a specific period before thyroid uptake tests, as they can falsely skew the results."
-    },
-    {
-      "heading_id": "GNS222_U2_T4_h7",
-      "order": 7,
-      "title": "Biopsy and Invasive Diagnostic Procedures",
-      "content": "When non-invasive tests and imaging leave doubt about the nature of an endocrine lesion, invasive procedures like fine-needle aspiration (FNA) biopsy or selective venous sampling may be performed. FNA uses a thin needle to extract cellular material directly from a thyroid nodule or lymph node for cytological examination under a microscope. This is the most reliable method for distinguishing benign growths from malignant cancers. Selective venous sampling involves catheterizing veins draining specific endocrine glands, such as the adrenal veins, to measure localized hormone gradients and locate tiny hormone-secreting tumors. Post-procedure nursing care focuses on monitoring for bleeding, hematoma formation, and airway compromise, especially after thyroid or neck biopsies."
-    },
-    {
-      "heading_id": "GNS222_U2_T4_h8",
-      "order": 8,
       "title": "Nursing Responsibilities and Patient Preparation",
-      "content": "Comprehensive nursing care bridges the gap between complex diagnostic orders and safe patient execution. Nurses must educate patients on fasting requirements, medication holds (such as stopping thyroid replacement hormones before certain tests), and the exact timeline for urine collections. Emotional support is equally vital, as many patients undergo endocrine workups fearing diagnoses like cancer or chronic lifelong illnesses. Accurate labeling of lab specimens, precise timing of dynamic tests, and vigilant monitoring for complications after invasive procedures ensure diagnostic accuracy and patient safety."
+      "content": "Comprehensive nursing care bridges the gap between complex diagnostic orders and safe patient execution. Nurses manage fasting requirements, administer provocative or suppressive agents precisely on schedule, and monitor for adverse physiological reactions during prolonged testing protocols. \n\nPatient education reduces anxiety and prevents test failure. For instance, explaining dietary restrictions before metabolic tests or warning a patient that an injection may cause temporary flushing ensures cooperation. Accurate documentation of exact collection times and baseline vitals ensures that endocrinologists interpret diagnostic results within a valid clinical context."
     }
   ]
 }
