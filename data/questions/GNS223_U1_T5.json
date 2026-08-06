@@ -5,15 +5,15 @@
     "article_id": "GNS223_U1_T5",
     "topic_id": "GNS223_U1_T5",
     "difficulty": "recall",
-    "question": "What do anticoagulant medications actually do in the body?",
+    "question": "What is the primary function of anticoagulant medications in the body?",
     "options": {
-      "A": "Make the circulating blood thicker",
-      "B": "Dissolve existing blood clots completely",
-      "C": "Stop platelets from clumping together",
-      "D": "Prevent the formation of new blood clots"
+      "A": "Preventing new clot formation",
+      "B": "Stimulating platelet aggregation",
+      "C": "Dissolving existing blood clots",
+      "D": "Strengthening weak blood vessels"
     },
-    "answer": "D",
-    "explanation": "Think of anticoagulants as your body's stop sign for new clots. They don't break down clots that are already there, but they stop new ones from forming or getting bigger! [learn more](GNS223_U1_T5#GNS223_U1_T5_h1)"
+    "answer": "A",
+    "explanation": "Anticoagulants interrupt the clotting cascade to stop new thrombi from forming rather than breaking down clots that are already present. [learn more](GNS223_U1_T5#GNS223_U1_T5_h1)"
   },
   {
     "question_id": "GNS223_U1_T5_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GNS223_U1_T5",
     "topic_id": "GNS223_U1_T5",
     "difficulty": "understanding",
-    "question": "Why is calling anticoagulants 'blood thinners' a bit misleading?",
+    "question": "Why do nurses need to know that anticoagulants do not break down existing clots?",
     "options": {
-      "A": "They do not change the actual thickness or texture of the blood",
-      "B": "They dissolve fat molecules inside the blood vessels instead",
-      "C": "They only affect plasma proteins and leave red blood cells alone",
-      "D": "They actually make the blood thicker while slowing it down"
+      "A": "To calculate the correct intravenous infusion rate for heparin",
+      "B": "To ensure the laboratory checks the full blood count hourly",
+      "C": "To prevent the patient from taking too many tablets daily",
+      "D": "To understand why thrombolytics are still needed for acute blockages"
     },
-    "answer": "A",
-    "explanation": "Even though everyone calls them 'blood thinners,' they don't make your blood watery like juice! They just block specific clotting steps to keep your blood flowing smoothly. [learn more](GNS223_U1_T5#GNS223_U1_T5_h1)"
+    "answer": "D",
+    "explanation": "Since anticoagulants only stop clot growth, other drugs like thrombolytics are required when immediate dissolution of a dangerous blockage is necessary. [learn more](GNS223_U1_T5#GNS223_U1_T5_h1)"
   },
   {
     "question_id": "GNS223_U1_T5_h2_q1",
@@ -37,15 +37,15 @@
     "article_id": "GNS223_U1_T5",
     "topic_id": "GNS223_U1_T5",
     "difficulty": "recall",
-    "question": "Enoxaparin belongs to which group of anticoagulant medications?",
+    "question": "Enoxaparin belongs to which specific class of anticoagulant medications?",
     "options": {
-      "A": "Low-molecular-weight heparins",
-      "B": "Vitamin K antagonists",
-      "C": "Unfractionated oral agents",
-      "D": "Direct oral anticoagulants"
+      "A": "Vitamin K antagonists",
+      "B": "Direct oral anticoagulants",
+      "C": "Unfractionated heparins",
+      "D": "Low-molecular-weight heparins"
     },
-    "answer": "A",
-    "explanation": "Spot on! Enoxaparin is a very common low-molecular-weight heparin that nurses usually give as a quick injection just under the skin (subcutaneous). [learn more](GNS223_U1_T5#GNS223_U1_T5_h2)"
+    "answer": "D",
+    "explanation": "Enoxaparin is a standard low-molecular-weight heparin administered subcutaneously for prophylaxis and treatment of deep vein thrombosis. [learn more](GNS223_U1_T5#GNS223_U1_T5_h2)"
   },
   {
     "question_id": "GNS223_U1_T5_h2_q2",
@@ -53,15 +53,15 @@
     "article_id": "GNS223_U1_T5",
     "topic_id": "GNS223_U1_T5",
     "difficulty": "understanding",
-    "question": "What is the main difference between parenteral (injectable) and oral anticoagulants?",
+    "question": "How are direct oral anticoagulants different from traditional vitamin K antagonists?",
     "options": {
-      "A": "Parenteral agents are injected for fast action, while oral agents are swallowed for long-term use",
-      "B": "Parenteral drugs only target platelets, while oral drugs target the whole clotting cascade",
-      "C": "Oral medications are only used in emergency intensive care units",
-      "D": "Oral agents never require lab tests, whereas parenteral drugs need daily blood checks"
+      "A": "They dissolve existing blood clots within minutes of administration",
+      "B": "They require daily intravenous injections given in the clinic",
+      "C": "They depend heavily on dietary vitamin K intake to work properly",
+      "D": "They target specific single clotting factors without routine blood tests"
     },
-    "answer": "A",
-    "explanation": "You got it! When we need a fast response in an emergency, we inject it (parenteral). For long-term home use, pills (oral) are much easier for patients. [learn more](GNS223_U1_T5#GNS223_U1_T5_h2)"
+    "answer": "D",
+    "explanation": "DOACs inhibit specific factors like thrombin or factor Xa directly and typically do not require regular international normalized ratio monitoring. [learn more](GNS223_U1_T5#GNS223_U1_T5_h2)"
   },
   {
     "question_id": "GNS223_U1_T5_h3_q1",
@@ -69,15 +69,15 @@
     "article_id": "GNS223_U1_T5",
     "topic_id": "GNS223_U1_T5",
     "difficulty": "recall",
-    "question": "Which lab test is used to closely monitor standard unfractionated heparin therapy?",
+    "question": "Which laboratory test is used to monitor unfractionated heparin therapy?",
     "options": {
-      "A": "Prothrombin Time and INR",
-      "B": "Activated Partial Thromboplastin Time",
-      "C": "Erythrocyte sedimentation rate",
-      "D": "Complete blood count with differential"
+      "A": "Prothrombin time alone",
+      "B": "International normalized ratio",
+      "C": "Full blood count and platelets",
+      "D": "Activated partial thromboplastin time"
     },
-    "answer": "B",
-    "explanation": "We use the aPTT test to check if our heparin dose is hitting the sweet spot—keeping the patient safe from clots without causing bleeding. [learn more](GNS223_U1_T5#GNS223_U1_T5_h3)"
+    "answer": "D",
+    "explanation": "Unfractionated heparin therapy is carefully monitored and adjusted using the activated partial thromboplastin time to ensure therapeutic safety. [learn more](GNS223_U1_T5#GNS223_U1_T5_h3)"
   },
   {
     "question_id": "GNS223_U1_T5_h3_q2",
@@ -85,15 +85,15 @@
     "article_id": "GNS223_U1_T5",
     "topic_id": "GNS223_U1_T5",
     "difficulty": "understanding",
-    "question": "Why are low-molecular-weight heparins so convenient for patients compared to standard heparin?",
+    "question": "A patient on unfractionated heparin develops a sudden drop in platelet count and new clots. What condition is suspected?",
     "options": {
-      "A": "They last for an entire month with just one injection",
-      "B": "They never cause any bleeding or immune reactions",
-      "C": "They can be mixed directly into drinking water for easy mornings",
-      "D": "They use standard weight-based doses without needing routine aPTT blood tests"
+      "A": "Prothrombin activation disorder",
+      "B": "Heparin-induced thrombocytopenia",
+      "C": "Vitamin K deficiency syndrome",
+      "D": "Direct oral toxicity reaction"
     },
-    "answer": "D",
-    "explanation": "That's the beauty of LMWH! Because the dose is predictable based on the patient's weight, patients can take them easily without constant pinpricks for aPTT tests. [learn more](GNS223_U1_T5#GNS223_U1_T5_h3)"
+    "answer": "B",
+    "explanation": "Heparin-induced thrombocytopenia is a serious immune reaction where antibodies destroy platelets and trigger dangerous clotting instead of bleeding. [learn more](GNS223_U1_T5#GNS223_U1_T5_h3)"
   },
   {
     "question_id": "GNS223_U1_T5_h4_q1",
@@ -101,15 +101,15 @@
     "article_id": "GNS223_U1_T5",
     "topic_id": "GNS223_U1_T5",
     "difficulty": "recall",
-    "question": "How does the common pill warfarin work in the body?",
+    "question": "What is the standard laboratory measurement used to monitor warfarin therapy?",
     "options": {
-      "A": "By stopping the bone marrow from producing platelets",
-      "B": "By dissolving fibrin threads in established blood clots",
-      "C": "By directly neutralizing circulating thrombin molecules",
-      "D": "By blocking the liver from using Vitamin K to make clotting factors"
+      "A": "Bleeding time and clotting time",
+      "B": "Activated partial thromboplastin time",
+      "C": "International Normalized Ratio",
+      "D": "Platelet aggregation index"
     },
-    "answer": "D",
-    "explanation": "Warfarin teams up against Vitamin K! By blocking it in the liver, the body temporarily slows down its production of key clotting proteins. [learn more](GNS223_U1_T5#GNS223_U1_T5_h4)"
+    "answer": "C",
+    "explanation": "The International Normalized Ratio standardizes prothrombin time results across different laboratories to safely guide warfarin dosing. [learn more](GNS223_U1_T5#GNS223_U1_T5_h4)"
   },
   {
     "question_id": "GNS223_U1_T5_h4_q2",
@@ -117,15 +117,15 @@
     "article_id": "GNS223_U1_T5",
     "topic_id": "GNS223_U1_T5",
     "difficulty": "understanding",
-    "question": "Why do doctors often start a fast-acting anticoagulant alongside warfarin during the first few days?",
+    "question": "Why is heparin given alongside warfarin during the first few days of therapy?",
     "options": {
-      "A": "Combining both drugs permanently cures chronic heart conditions",
-      "B": "The patient's liver needs extra heparin to absorb the warfarin pills properly",
-      "C": "Warfarin takes several days to work, so bridging prevents a dangerous gap in protection",
-      "D": "Warfarin causes immediate thick clotting before it starts working"
+      "A": "The combination is needed to dissolve existing deep vein clots",
+      "B": "Warfarin is poorly absorbed without an initial intravenous dose",
+      "C": "Warfarin takes several days to deplete existing clotting factors",
+      "D": "Heparin prevents the stomach irritation caused by oral tablets"
     },
     "answer": "C",
-    "explanation": "Warfarin takes a few days to kick in fully. Giving an injection alongside it at first acts as a bridge so the patient isn't left unprotected! [learn more](GNS223_U1_T5#GNS223_U1_T5_h4)"
+    "explanation": "Because warfarin only stops the production of new clotting factors, circulating factors must wear off naturally, creating a multi-day delay in therapeutic effect. [learn more](GNS223_U1_T5#GNS223_U1_T5_h4)"
   },
   {
     "question_id": "GNS223_U1_T5_h5_q1",
@@ -133,15 +133,15 @@
     "article_id": "GNS223_U1_T5",
     "topic_id": "GNS223_U1_T5",
     "difficulty": "recall",
-    "question": "Which of these medications is a Direct Oral Anticoagulant (DOAC) that targets Factor Xa?",
+    "question": "Which medication is classified as a direct factor Xa inhibitor?",
     "options": {
-      "A": "Rivaroxaban",
-      "B": "Streptokinase",
-      "C": "Warfarin",
-      "D": "Unfractionated heparin"
+      "A": "Dabigatran",
+      "B": "Warfarin",
+      "C": "Heparin",
+      "D": "Rivaroxaban"
     },
-    "answer": "A",
-    "explanation": "Rivaroxaban is a popular DOAC you'll see often in clinical rotation. It directly targets Factor Xa to stop clots right in their tracks. [learn more](GNS223_U1_T5#GNS223_U1_T5_h5)"
+    "answer": "D",
+    "explanation": "Rivaroxaban directly inhibits factor Xa in the coagulation cascade to prevent blood clot formation. [learn more](GNS223_U1_T5#GNS223_U1_T5_h5)"
   },
   {
     "question_id": "GNS223_U1_T5_h5_q2",
@@ -149,15 +149,15 @@
     "article_id": "GNS223_U1_T5",
     "topic_id": "GNS223_U1_T5",
     "difficulty": "understanding",
-    "question": "What is a major advantage of DOACs (like rivaroxaban) over old-school warfarin?",
+    "question": "What is a main advantage of direct oral anticoagulants over warfarin?",
     "options": {
-      "A": "They do not require routine blood tests to monitor the INR",
-      "B": "They are completely safe to use in patients with severe kidney failure",
-      "C": "They work instantly by dissolving existing blood clots in veins",
-      "D": "They have zero risk of bleeding complications whatsoever"
+      "A": "They completely eliminate the risk of bleeding complications",
+      "B": "They remain active in the body for several weeks after stopping",
+      "C": "They do not require routine laboratory monitoring of clotting times",
+      "D": "They have immediate reversal agents available in every local pharmacy"
     },
-    "answer": "A",
-    "explanation": "Patients love DOACs because they can skip the frequent clinic visits for INR blood draws while still staying protected! [learn more](GNS223_U1_T5#GNS223_U1_T5_h5)"
+    "answer": "C",
+    "explanation": "DOACs have predictable pharmacokinetics, allowing patients to take fixed doses safely without needing frequent INR blood tests. [learn more](GNS223_U1_T5#GNS223_U1_T5_h5)"
   },
   {
     "question_id": "GNS223_U1_T5_h6_q1",
@@ -165,31 +165,31 @@
     "article_id": "GNS223_U1_T5",
     "topic_id": "GNS223_U1_T5",
     "difficulty": "recall",
-    "question": "What sign in a patient's stool might warn a nurse about internal bleeding from an anticoagulant?",
+    "question": "Which physical sign should alert the nurse to bleeding during anticoagulant therapy?",
     "options": {
-      "A": "Hard and dry pebble consistency",
-      "B": "Bright yellow discoloration",
-      "C": "Frothy and mucus-coated texture",
-      "D": "Dark, tarry, or bloody appearance"
+      "A": "Sudden increase in resting heart rate",
+      "B": "Elevated blood pressure readings",
+      "C": "Presence of unexplained bruising or petechiae",
+      "D": "Warm and swollen lower extremities"
     },
-    "answer": "D",
-    "explanation": "Keep your eyes open for 'melena' (dark, tarry stools)! It's a classic red flag that bleeding might be happening somewhere in the GI tract. [learn more](GNS223_U1_T5#GNS223_U1_T5_h6)"
+    "answer": "C",
+    "explanation": "Petechiae, purpura, and easy bruising are visible skin indicators of abnormal bleeding tendencies caused by anticoagulation. [learn more](GNS223_U1_T5#GNS223_U1_T5_h6)"
   },
   {
     "question_id": "GNS223_U1_T5_h6_q2",
     "heading_id": "GNS223_U1_T5_h6",
     "article_id": "GNS223_U1_T5",
     "topic_id": "GNS223_U1_T5",
-    "difficulty": "application",
-    "question": "A patient getting subcutaneous heparin complains of mild skin irritation at the injection site. What should you do?",
+    "difficulty": "understanding",
+    "question": "Why is fall prevention important for patients taking anticoagulant drugs?",
     "options": {
-      "A": "Switch the patient to oral aspirin to bypass the skin route",
-      "B": "Stop all future doses of heparin immediately without telling the doctor",
-      "C": "Massage the injection site vigorously to spread the medication faster",
-      "D": "Apply a warm compress and avoid rubbing the site to prevent bruising"
+      "A": "Physical trauma instantly neutralizes the therapeutic effect of the drug",
+      "B": "Minor bumps can easily lead to severe internal bleeding or head injury",
+      "C": "Falling causes the medication to be metabolized much faster by the liver",
+      "D": "Patients who fall frequently develop heparin-induced thrombocytopenia"
     },
-    "answer": "D",
-    "explanation": "Never massage a heparin injection site! Massaging can burst tiny blood vessels underneath and cause a nasty bruise or hematoma. Just rotate your sites! [learn more](GNS223_U1_T5#GNS223_U1_T5_h6)"
+    "answer": "B",
+    "explanation": "Because clotting is impaired, even a minor fall can cause dangerous internal hemorrhage or intracranial bleeding. [learn more](GNS223_U1_T5#GNS223_U1_T5_h6)"
   },
   {
     "question_id": "GNS223_U1_T5_h7_q1",
@@ -197,15 +197,15 @@
     "article_id": "GNS223_U1_T5",
     "topic_id": "GNS223_U1_T5",
     "difficulty": "recall",
-    "question": "Which medication is the specific emergency reversal antidote for a heparin overdose?",
+    "question": "What is the specific reversal agent for unfractionated heparin?",
     "options": {
-      "A": "Calcium gluconate",
-      "B": "Naloxone hydrochloride",
+      "A": "Andexanet alfa",
+      "B": "Idarucizumab",
       "C": "Vitamin K",
       "D": "Protamine sulfate"
     },
     "answer": "D",
-    "explanation": "Protamine sulfate is heparin's best counter-punch. It binds right to heparin and neutralizes it almost instantly if bleeding gets out of hand. [learn more](GNS223_U1_T5#GNS223_U1_T5_h7)"
+    "explanation": "Protamine sulfate binds to heparin and rapidly neutralizes its anticoagulant activity in emergency bleeding situations. [learn more](GNS223_U1_T5#GNS223_U1_T5_h7)"
   },
   {
     "question_id": "GNS223_U1_T5_h7_q2",
@@ -213,46 +213,46 @@
     "article_id": "GNS223_U1_T5",
     "topic_id": "GNS223_U1_T5",
     "difficulty": "understanding",
-    "question": "Why is Vitamin K so effective at reversing the effects of warfarin?",
+    "question": "What is the immediate nursing action when a patient on an anticoagulant has severe bleeding?",
     "options": {
-      "A": "It speeds up kidney filtration so warfarin leaves in the urine",
-      "B": "It thickens the liquid plasma to stop bleeding instantly",
-      "C": "It destroys the warfarin molecules floating in the blood",
-      "D": "It bypasses the enzyme block to help the liver resume making clotting factors"
+      "A": "Hold the scheduled dose and notify the physician immediately",
+      "B": "Administer a double dose of vitamin K by intravenous push",
+      "C": "Encourage the patient to drink plenty of fluids to dilute the drug",
+      "D": "Apply tight pressure bandages over all major joints"
     },
-    "answer": "D",
-    "explanation": "Since warfarin blocks Vitamin K, giving extra Vitamin K gives the liver the exact ingredients it needs to get back to making clotting factors. [learn more](GNS223_U1_T5#GNS223_U1_T5_h7)"
+    "answer": "A",
+    "explanation": "Withholding further doses prevents additional medication accumulation while awaiting medical orders for reversal agents. [learn more](GNS223_U1_T5#GNS223_U1_T5_h7)"
   },
   {
     "question_id": "GNS223_U1_T5_h8_q1",
     "heading_id": "GNS223_U1_T5_h8",
     "article_id": "GNS223_U1_T5",
     "topic_id": "GNS223_U1_T5",
-    "difficulty": "understanding",
-    "question": "What is the best dietary advice for a patient on long-term warfarin who loves green leafy vegetables?",
+    "difficulty": "recall",
+    "question": "Which local Nigerian vegetable is particularly rich in vitamin K and affects warfarin therapy?",
     "options": {
-      "A": "Stop eating all green vegetables immediately to stay safe",
-      "B": "Double your vegetable intake only on days you take extra medication",
-      "C": "Eat a consistent amount of green vegetables every week without sudden big changes",
-      "D": "Boil all green vegetables for two hours to destroy all vitamins"
+      "A": "White yam slices",
+      "B": "Sweet potato cubes",
+      "C": "Fluted pumpkin leaves (ugu)",
+      "D": "Cassava tuber flour"
     },
     "answer": "C",
-    "explanation": "Consistency is key! Patients don't need to avoid greens completely; they just need to eat a steady amount each week so their INR levels stay stable. [learn more](GNS223_U1_T5#GNS223_U1_T5_h8)"
+    "explanation": "Green leafy vegetables like ugu contain high levels of vitamin K, which interacts directly with warfarin efficacy. [learn more](GNS223_U1_T5#GNS223_U1_T5_h8)"
   },
   {
     "question_id": "GNS223_U1_T5_h8_q2",
     "heading_id": "GNS223_U1_T5_h8",
     "article_id": "GNS223_U1_T5",
     "topic_id": "GNS223_U1_T5",
-    "difficulty": "application",
-    "question": "A patient on warfarin asks if they can take routine ibuprofen for joint pain. What should you tell them?",
+    "difficulty": "understanding",
+    "question": "Why should patients taking oral anticoagulants avoid taking ibuprofen for minor pain?",
     "options": {
-      "A": "Only take ibuprofen if you crush the tablets into powder first",
-      "B": "Substitute ibuprofen with local herbal mixtures to avoid side effects",
-      "C": "No, ibuprofen can interact with your treatment and greatly increase your risk of bleeding",
-      "D": "Yes, ibuprofen is completely safe to combine with any blood-thinning medication"
+      "A": "It impairs platelet function and increases the risk of bleeding",
+      "B": "It causes severe allergic reactions in patients on heparin",
+      "C": "It neutralizes the anticoagulant effect and causes clot formation",
+      "D": "It interferes with the liver enzymes that process vitamin K"
     },
-    "answer": "C",
-    "explanation": "NSAIDs like ibuprofen irritate the stomach lining and mess with platelets. Combined with warfarin, it's a fast track to dangerous bleeding! [learn more](GNS223_U1_T5#GNS223_U1_T5_h8)"
+    "answer": "A",
+    "explanation": "NSAIDs like ibuprofen irritate the stomach lining and inhibit platelets, compounding the bleeding risk of anticoagulants. [learn more](GNS223_U1_T5#GNS223_U1_T5_h8)"
   }
 ]
