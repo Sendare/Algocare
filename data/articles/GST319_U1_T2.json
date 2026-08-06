@@ -12,31 +12,43 @@
       "heading_id": "GST319_U1_T2_h1",
       "order": 1,
       "title": "Introduction to Healthcare Data Storytelling",
-      "content": "Data storytelling in nursing bridges the gap between cold, hard numbers and human patient care. Hospital units collect endless metrics daily, including fall rates, medication errors, and hand hygiene compliance scores. Raw spreadsheets rarely move hospital management or busy floor staff to action. **Data storytelling** weaves these numbers into a narrative with a clear plot, conflict, and resolution. Nurses understand stories best because patient care itself unfolds as a series of events. When you present data as a story, you give context to the statistics, making the information memorable and urgent."
+      "content": "Raw numbers alone rarely move hospital management to action. **Data storytelling** combines quantitative metrics with a narrative arc, giving clinical statistics context and emotional resonance. In Nigerian healthcare settings, nurses collect vital health records daily—from ward admission rates to malaria treatment outcomes. Transforming these spreadsheets into a compelling story bridges the gap between cold statistics and bedside realities, helping administrators understand why staffing ratios or resource allocations must change."
     },
     {
       "heading_id": "GST319_U1_T2_h2",
       "order": 2,
       "title": "Understanding Your Audience and Purpose",
-      "content": "Before building any data presentation, you must know who is listening and why you are speaking. A room full of bedside nurses needs different information than the hospital chief financial officer. Floor nurses care about workload, patient safety, and daily shift routines. Administrators care about budgets, legal compliance, and long-term quality outcomes. \n\n- **Bedside Nurses**: Focus on practical workflow changes and patient safety measures.\n- **Hospital Executives**: Focus on cost efficiency, regulatory compliance, and risk reduction.\n- **Interprofessional Teams**: Focus on collaborative care handoffs and communication gaps.\n\nMatching your message to your listeners ensures they stay engaged and take your recommendations seriously."
+      "content": "Different stakeholders require different narrative angles. A presentation for the Chief Medical Director focuses on financial savings and patient safety outcomes, whereas a handover report for floor nurses highlights shift workloads and bedside efficiency. Defining the objective early prevents data overload. Ask whether the goal is to secure funding for a new triage desk, alter a medication policy, or praise a ward for hitting zero hospital-acquired infections."
     },
     {
       "heading_id": "GST319_U1_T2_h3",
       "order": 3,
-      "title": "Structuring a Compelling Data Narrative",
-      "content": "A strong data story follows a classic three-part structure: setting the scene, introducing the conflict, and offering a resolution. \n\n1. **Setting the Scene**: Establish the baseline. Describe how the nursing unit normally operates during a calm week.\n2. **The Conflict**: Reveal the problem hidden in the data. Show how a spike in pressure injuries or delayed medication administration threatens patient safety.\n3. **The Resolution**: Propose the solution backed by the data, such as a new turning schedule or a revised double-check system.\n\nGuiding your audience through this journey prevents cognitive overload and keeps everyone focused on the ultimate goal of better patient outcomes."
+      "title": "Identifying Key Quality Improvement Metrics",
+      "content": "Selecting the right indicators determines whether a quality improvement project succeeds or fails. Tracking irrelevant numbers wastes time and obscures real clinical problems. \n- **Patient Wait Times**: Measures efficiency in outpatient departments and emergency rooms.\n- **Fall Rates**: Tracks physical safety and environmental hazards on inpatient wards.\n- **Medication Error Frequency**: Highlights gaps in prescribing, dispensing, or administration processes.\n- **Infection Rates**: Monitors hand hygiene compliance and sterile procedure adherence."
     },
     {
       "heading_id": "GST319_U1_T2_h4",
       "order": 4,
-      "title": "Choosing the Right Visualizations for Nursing Data",
-      "content": "Pictures communicate trends faster than paragraphs of text. However, choosing the wrong type of chart confuses your audience. \n\n| Chart Type | Best Used For | Clinical Example |\n| --- | --- | --- |\n| Line Graph | Showing trends over time | Monthly catheter-associated urinary tract infections |\n| Bar Chart | Comparing distinct categories | Fall rates across different hospital wards |\n| Pie Chart | Showing parts of a whole (use sparingly) | Breakdown of types of medication errors |\n\nKeep charts clean and uncluttered. Remove decorative graphics that do not add meaning. Label your axes clearly so anyone walking past the poster can understand the message instantly."
+      "title": "Structuring a Compelling Data Narrative",
+      "content": "A strong data presentation follows a logical arc: setting the scene, introducing the conflict, and offering a resolution. \n1. **The Context**: Establish the baseline status of the ward or clinic.\n2. **The Problem**: Reveal the alarming trend, such as a sudden spike in catheter-associated urinary tract infections.\n3. **The Climax**: Show how this issue harms patients and strains nursing staff.\n4. **The Resolution**: Present the data-backed solution, proving how a new protocol reverses the negative trend."
     },
     {
       "heading_id": "GST319_U1_T2_h5",
       "order": 5,
-      "title": "Overcoming Common Data Interpretation Pitfalls",
-      "content": "Data can easily be misinterpreted or manipulated, leading to poor clinical decisions. One common trap is confusing **correlation with causation**. Just because two events happen at the same time does not mean one caused the other. For example, a rise in patient falls might coincide with the hiring of new agency nurses, but the root cause might actually be a broken bed alarm system. Another pitfall is ignoring sample size; a 100% infection rate sounds terrifying, but if it represents only one patient out of one, the statistic is misleading. Always look at the denominator before sounding the alarm."
+      "title": "Choosing the Right Visualizations for Nursing Data",
+      "content": "Charts can clarify or confuse depending on how they are used. Bar charts effectively compare different wards, such as contrasting malaria admission rates across pediatrics and internal medicine. Line graphs excel at showing trends over time, like tracking monthly drops in pressure ulcer cases following a repositioning campaign. Pie charts should be used sparingly, reserved only for showing simple parts of a whole, such as the percentage breakdown of shift attendance."
+    },
+    {
+      "heading_id": "GST319_U1_T2_h6",
+      "order": 6,
+      "title": "Translating Numbers into Actionable Clinical Insights",
+      "content": "Data is useless if it sits in a report gathering dust. Translating metrics into clinical action requires clear recommendations. When a quarterly audit shows a high incidence of missed vital sign recordings during night shifts, the insight is not just that staff are lazy. The actionable takeaway points to systemic issues, such as poor shift overlap or broken electronic tablets, requiring a targeted operational fix."
+    },
+    {
+      "heading_id": "GST319_U1_T2_h7",
+      "order": 7,
+      "title": "Overcoming Common Data Interpretation pitfalls",
+      "content": "Misinterpreting health data leads to flawed clinical interventions. One common error is assuming correlation equals causation—just because an increase in ward temperature coincides with a rise in agitation does not mean heat is the sole driver. Another pitfall is ignoring sample size; a 100 percent mortality rate on a ward with only one patient admission is statistically insignificant compared to a 5 percent rate across five hundred admissions."
     }
   ]
 }

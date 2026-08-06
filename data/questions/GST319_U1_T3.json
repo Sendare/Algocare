@@ -5,15 +5,15 @@
     "article_id": "GST319_U1_T3",
     "topic_id": "GST319_U1_T3",
     "difficulty": "recall",
-    "question": "What is the primary purpose of a run chart in a healthcare setting?",
+    "question": "What is the primary purpose of a run chart in healthcare?",
     "options": {
-      "A": "To order hospital medical supplies",
-      "B": "To calculate staff salary bonuses",
-      "C": "To track data points over time",
-      "D": "To diagnose rare medical diseases"
+      "A": "To display data over time and spot trends",
+      "B": "To manage hospital pharmacy inventory levels",
+      "C": "To diagnose complex infectious diseases",
+      "D": "To calculate staff salaries and hospital budgets"
     },
-    "answer": "C",
-    "explanation": "Run charts display sequential data points on a graph to show how a specific process changes across a period of time. [learn more](GST319_U1_T3#GST319_U1_T3_h1)"
+    "answer": "A",
+    "explanation": "Run charts track performance metrics sequentially to reveal patterns or changes over time. [learn more](GST319_U1_T3#GST319_U1_T3_h1)"
   },
   {
     "question_id": "GST319_U1_T3_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GST319_U1_T3",
     "topic_id": "GST319_U1_T3",
     "difficulty": "understanding",
-    "question": "Why are run charts particularly useful for busy clinical nursing units?",
+    "question": "Why are run charts particularly useful for ward-level nursing audits?",
     "options": {
-      "A": "They require very little statistical training to read",
-      "B": "They replace the need for writing patient care notes",
-      "C": "They automatically dispense patient medications safely",
-      "D": "They permanently eliminate all hospital infections"
+      "A": "They diagnose patient clinical complications directly",
+      "B": "They replace the need for patient case notes",
+      "C": "They automatically purchase new medical equipment",
+      "D": "They require no complex mathematics to interpret"
     },
-    "answer": "A",
-    "explanation": "Because they are simple and visual, clinical staff can easily interpret them without needing advanced statistical skills. [learn more](GST319_U1_T3#GST319_U1_T3_h1)"
+    "answer": "D",
+    "explanation": "Their simplicity allows bedside nurses to use and understand them without advanced statistical training. [learn more](GST319_U1_T3#GST319_U1_T3_h1)"
   },
   {
     "question_id": "GST319_U1_T3_h2_q1",
@@ -37,15 +37,15 @@
     "article_id": "GST319_U1_T3",
     "topic_id": "GST319_U1_T3",
     "difficulty": "recall",
-    "question": "What does the vertical Y-axis on a run chart typically represent?",
+    "question": "What does the vertical axis typically display on a run chart?",
     "options": {
-      "A": "The specific names of the staff nurses",
-      "B": "The time sequence in days or weeks",
-      "C": "The total number of hospital beds",
-      "D": "The measurement or metric of interest"
+      "A": "The calendar dates of the audit period",
+      "B": "The room numbers of the hospital ward",
+      "C": "The specific measurement value or metric",
+      "D": "The names of the nursing staff on duty"
     },
-    "answer": "D",
-    "explanation": "The Y-axis shows the actual clinical data values being measured, such as rates or counts. [learn more](GST319_U1_T3#GST319_U1_T3_h2)"
+    "answer": "C",
+    "explanation": "The Y-axis shows the scale of the variable being measured, like percentages or counts. [learn more](GST319_U1_T3#GST319_U1_T3_h2)"
   },
   {
     "question_id": "GST319_U1_T3_h2_q2",
@@ -53,15 +53,15 @@
     "article_id": "GST319_U1_T3",
     "topic_id": "GST319_U1_T3",
     "difficulty": "understanding",
-    "question": "How is the median line on a run chart correctly defined?",
+    "question": "How is the median line positioned on a standard run chart?",
     "options": {
-      "A": "The mathematical average of all plotted values combined",
-      "B": "The absolute highest peak recorded on the graph",
-      "C": "The target goal set by hospital management",
-      "D": "The middle value that divides the data points in half"
+      "A": "At the highest peak value recorded on the graph",
+      "B": "At exactly fifty percent of the vertical axis scale",
+      "C": "To split the plotted data points equally above and below",
+      "D": "At the lowest baseline value recorded on the graph"
     },
-    "answer": "D",
-    "explanation": "The median splits the data so that approximately half of the plotted points sit above it and half sit below it. [learn more](GST319_U1_T3#GST319_U1_T3_h2)"
+    "answer": "C",
+    "explanation": "The median divides the total number of data points so half are above and half are below it. [learn more](GST319_U1_T3#GST319_U1_T3_h2)"
   },
   {
     "question_id": "GST319_U1_T3_h3_q1",
@@ -69,15 +69,15 @@
     "article_id": "GST319_U1_T3",
     "topic_id": "GST319_U1_T3",
     "difficulty": "recall",
-    "question": "What is the very first step when constructing a clinical run chart?",
+    "question": "What is the recommended minimum number of data points needed for a reliable run chart?",
     "options": {
-      "A": "Calculating the median line of the graph",
-      "B": "Purchasing advanced computer software",
-      "C": "Drawing the horizontal time axis on paper",
-      "D": "Clearly defining the measure you want to track"
+      "A": "2 to 3 data points",
+      "B": "10 to 12 data points",
+      "C": "Only 1 data point per year",
+      "D": "50 to 100 data points"
     },
-    "answer": "D",
-    "explanation": "Before plotting anything, you must know exactly what clinical metric or outcome you are measuring. [learn more](GST319_U1_T3#GST319_U1_T3_h3)"
+    "answer": "B",
+    "explanation": "Gathering at least 10 to 12 sequential points provides enough data to spot valid trends and patterns. [learn more](GST319_U1_T3#GST319_U1_T3_h3)"
   },
   {
     "question_id": "GST319_U1_T3_h3_q2",
@@ -85,15 +85,15 @@
     "article_id": "GST319_U1_T3",
     "topic_id": "GST319_U1_T3",
     "difficulty": "application",
-    "question": "A nurse manager wants to track patient fall rates over the last six months. What should be placed on the horizontal X-axis?",
+    "question": "A nurse wants to track delayed drug administration on a medical ward. What is the very first step?",
     "options": {
-      "A": "The total number of patient falls",
-      "B": "The time intervals like months",
-      "C": "The median value of the data",
-      "D": "The names of the injured patients"
+      "A": "Draw random lines across a blank sheet of paper",
+      "B": "Punish the nurses who delayed medication delivery",
+      "C": "Buy an expensive computer software program",
+      "D": "Define the specific quality goal and measure"
     },
-    "answer": "B",
-    "explanation": "The horizontal X-axis is always reserved for the time sequence, such as days, weeks, or months. [learn more](GST319_U1_T3#GST319_U1_T3_h3)"
+    "answer": "D",
+    "explanation": "Constructing any chart begins with clearly defining the exact problem and metric you intend to track. [learn more](GST319_U1_T3#GST319_U1_T3_h3)"
   },
   {
     "question_id": "GST319_U1_T3_h4_q1",
@@ -101,15 +101,15 @@
     "article_id": "GST319_U1_T3",
     "topic_id": "GST319_U1_T3",
     "difficulty": "recall",
-    "question": "What characterizes common cause variation in a healthcare process?",
+    "question": "What type of variation represents predictable, routine background noise in a process?",
     "options": {
-      "A": "It is an unusual event that rarely happens",
-      "B": "It is caused by a sudden equipment breakdown",
-      "C": "It is natural and predictable variation",
-      "D": "It shows an immediate breakthrough in care"
+      "A": "Special cause variation",
+      "B": "Anomalous system failure",
+      "C": "Common cause variation",
+      "D": "Random patient fatality"
     },
     "answer": "C",
-    "explanation": "Common cause variation is the normal, expected background noise of a stable daily process. [learn more](GST319_U1_T3#GST319_U1_T3_h4)"
+    "explanation": "Common cause variation is the normal, expected fluctuation built into any routine system. [learn more](GST319_U1_T3#GST319_U1_T3_h4)"
   },
   {
     "question_id": "GST319_U1_T3_h4_q2",
@@ -117,15 +117,15 @@
     "article_id": "GST319_U1_T3",
     "topic_id": "GST319_U1_T3",
     "difficulty": "understanding",
-    "question": "Why is it important for nurses to distinguish special cause variation from common cause variation?",
+    "question": "Why must nurses distinguish between common and special cause variations?",
     "options": {
-      "A": "To eliminate all types of patient illness completely",
-      "B": "To avoid overreacting to normal daily fluctuations",
-      "C": "To reduce the number of required nursing shifts",
-      "D": "To ensure that nurses receive larger monthly salaries"
+      "A": "To determine the exact monthly salary of hospital administrators",
+      "B": "To avoid reacting to normal noise as if it were a major problem",
+      "C": "To assign cleaning duties to junior ward assistants",
+      "D": "To calculate the total drug dosage for pediatric patients"
     },
     "answer": "B",
-    "explanation": "Recognizing common cause prevents staff from chasing random noise, letting them focus their energy on true special cause changes. [learn more](GST319_U1_T3#GST319_U1_T3_h4)"
+    "explanation": "Treating common cause variation like a special event wastes resources and disrupts stable clinical workflows. [learn more](GST319_U1_T3#GST319_U1_T3_h4)"
   },
   {
     "question_id": "GST319_U1_T3_h5_q1",
@@ -133,15 +133,15 @@
     "article_id": "GST319_U1_T3",
     "topic_id": "GST319_U1_T3",
     "difficulty": "recall",
-    "question": "What constitutes a 'shift' on a run chart according to standard interpretation rules?",
+    "question": "How many consecutive points on one side of the median line constitute a shift?",
     "options": {
-      "A": "Six or more consecutive points on one side of the median",
-      "B": "A single data point that sits extremely high on the graph",
-      "C": "Five or more consecutive points moving in one direction",
-      "D": "Two data points crossing over the median line rapidly"
+      "A": "Ten consecutive points",
+      "B": "Two consecutive points",
+      "C": "Only one isolated point",
+      "D": "Six or more consecutive points"
     },
-    "answer": "A",
-    "explanation": "A shift is defined as at least six consecutive points falling entirely above or entirely below the median line. [learn more](GST319_U1_T3#GST319_U1_T3_h5)"
+    "answer": "D",
+    "explanation": "A shift is defined as six or more consecutive points falling entirely on one side of the median line. [learn more](GST319_U1_T3#GST319_U1_T3_h5)"
   },
   {
     "question_id": "GST319_U1_T3_h5_q2",
@@ -149,15 +149,15 @@
     "article_id": "GST319_U1_T3",
     "topic_id": "GST319_U1_T3",
     "difficulty": "understanding",
-    "question": "What does a 'trend' rule violation look like on a run chart?",
+    "question": "What pattern defines a trend using the standard run chart interpretation rules?",
     "options": {
-      "A": "Three points swinging wildly up and down every day",
-      "B": "Six or more points landing directly on the median line",
-      "C": "Five or more consecutive points steadily increasing or decreasing",
-      "D": "Ten points scattered randomly across the upper half"
+      "A": "Twelve points alternating above and below the median line randomly",
+      "B": "Two identical data points recorded on consecutive days",
+      "C": "Five or more points consistently moving in a single direction",
+      "D": "A single point located far away from the rest of the graph"
     },
     "answer": "C",
-    "explanation": "A trend occurs when five or more consecutive data points move consistently in a single direction. [learn more](GST319_U1_T3#GST319_U1_T3_h5)"
+    "explanation": "A trend consists of five or more consecutive points moving continuously upward or downward. [learn more](GST319_U1_T3#GST319_U1_T3_h5)"
   },
   {
     "question_id": "GST319_U1_T3_h6_q1",
@@ -165,15 +165,15 @@
     "article_id": "GST319_U1_T3",
     "topic_id": "GST319_U1_T3",
     "difficulty": "application",
-    "question": "A head nurse wants to keep the ward staff motivated and aware of patient safety goals. Where is the run chart typically displayed for maximum team impact?",
+    "question": "A clinic nurse manager wants to display infection control data to motivate staff. Where is the best place to use a run chart?",
     "options": {
-      "A": "On a private website accessible only to hospital directors",
-      "B": "Inside a locked filing cabinet in the manager's office",
-      "C": "On a staff notice board in the clinical unit",
-      "D": "In the patient's bedside personal medical chart"
+      "A": "Locked inside the private drawer of the hospital director",
+      "B": "On the staff notice board for all team members to view",
+      "C": "Printed in an international medical research textbook",
+      "D": "Stored in an encrypted folder on a personal flash drive"
     },
-    "answer": "C",
-    "explanation": "Displaying run charts openly in the unit keeps the frontline nursing team engaged and informed about quality metrics. [learn more](GST319_U1_T3#GST319_U1_T3_h6)"
+    "answer": "B",
+    "explanation": "Displaying charts openly on ward notice boards promotes transparency and keeps frontline staff engaged in quality improvement. [learn more](GST319_U1_T3#GST319_U1_T3_h6)"
   },
   {
     "question_id": "GST319_U1_T3_h6_q2",
@@ -181,14 +181,14 @@
     "article_id": "GST319_U1_T3",
     "topic_id": "GST319_U1_T3",
     "difficulty": "understanding",
-    "question": "Which of the following clinical metrics is NOT typically monitored using a nursing run chart?",
+    "question": "Which of the following clinical situations is best monitored using a run chart?",
     "options": {
-      "A": "Patient fall rates per month",
-      "B": "Infection rates on the ward",
-      "C": "Patient hair color preferences",
-      "D": "Medication administration errors"
+      "A": "The physical architectural blueprint of a new hospital building",
+      "B": "The manufacturer brand name of purchased ward stretchers",
+      "C": "The personal employment history of a newly hired nurse",
+      "D": "Daily rates of accidental needle-stick injuries on a surgical ward"
     },
-    "answer": "C",
-    "explanation": "Run charts track clinical quality, safety, and operational processes, not personal patient characteristics like hair color. [learn more](GST319_U1_T3#GST319_U1_T3_h6)"
+    "answer": "D",
+    "explanation": "Run charts are designed to track operational clinical metrics and safety events sequentially over time. [learn more](GST319_U1_T3#GST319_U1_T3_h6)"
   }
 ]
