@@ -2,21 +2,29 @@ import json
 import random
 import re
 import shutil
+import sys
 import time
 from pathlib import Path
 
-from utils.course_branch_map import COURSE_BRANCH_MAP, get_course_id_from_topic_id
+from utils.course_branch_map import get_course_branch_map, get_course_id_from_topic_id
 from utils.weighted_sampling import build_weighted_pool, sample_without_replacement
 
-CURRICULUM_PATH = "curriculum.json"
-ARTICLES_DIR = Path("data/articles")
-QUESTIONS_DIR = Path("data/questions")
-CBT_APP_SRC = Path("cbt-app")
-PUBLISHED_DIR = Path("docs")
-STATE_PATH = Path("state/build_state.json")
-REAL_FEEL_STATE_PATH = Path("state/real_feel_state.json")
-REAL_FEEL_CONFIG_PATH = Path("config/real_feel_config.json")
-WEIGHTS_CONFIG_PATH = Path("config/weights.json")
+if len(sys.argv) < 2:
+    print("Usage: python build_pages.py <program>  (e.g. nursing, midwifery)")
+    sys.exit(1)
+PROGRAM = sys.argv[1]
+
+CURRICULUM_PATH = f"curricula/{PROGRAM}.json"
+ARTICLES_DIR = Path(f"data/{PROGRAM}/articles")
+QUESTIONS_DIR = Path(f"data/{PROGRAM}/questions")
+CBT_APP_SRC = Path("cbt-app")          # shared source across all programs
+PUBLISHED_DIR = Path(f"docs/{PROGRAM}")
+STATE_PATH = Path(f"state/{PROGRAM}/build_state.json")
+REAL_FEEL_STATE_PATH = Path(f"state/{PROGRAM}/real_feel_state.json")
+REAL_FEEL_CONFIG_PATH = Path(f"config/{PROGRAM}/real_feel_config.json")
+WEIGHTS_CONFIG_PATH = Path(f"config/{PROGRAM}/weights.json")
+
+COURSE_BRANCH_MAP = get_course_branch_map(PROGRAM)
 
 MAX_RUNTIME_SECONDS = 270  # 4.5 min hard stop - same tier-limit reasoning as the fetch scripts
 
@@ -146,7 +154,8 @@ PAGE_HEAD = """<!DOCTYPE html>
   <div class="brand"><span class="pulse-dot"></span>Algocare</div>
   <div>
     <a href="{rel}cbt/index.html" style="font-size: 0.85rem; color: var(--scrub); font-weight: 600; margin-right: 16px;">Practice tests</a>
-    <a href="{rel}index.html" style="font-size: 0.85rem; color: var(--ink-soft);">Home</a>
+    <a href="{rel}index.html" style="font-size: 0.85rem; color: var(--ink-soft); margin-right: 16px;">Home</a>
+    <a href="{root_rel}index.html" style="font-size: 0.85rem; color: var(--ink-soft);">All programs</a>
   </div>
 </div>
 <div class="container">
@@ -159,7 +168,8 @@ PAGE_HEAD = """<!DOCTYPE html>
 
 
 def render_page(title, rel, breadcrumb_html, body_html):
-    return PAGE_HEAD.format(title=title, rel=rel, breadcrumb=breadcrumb_html, body=body_html)
+    root_rel = rel + "../"
+    return PAGE_HEAD.format(title=title, rel=rel, root_rel=root_rel, breadcrumb=breadcrumb_html, body=body_html)
 
 
 def breadcrumb(rel, crumbs):
@@ -330,8 +340,11 @@ def build_real_feel_tests(course_pools):
 def run():
     start_time = time.time()
 
+    print(f"Program: {PROGRAM}")
+
     # GitHub Pages only serves what's inside PUBLISHED_DIR - assets/ lives at
-    # repo root as a sibling, so it must be copied in on every run to be reachable.
+    # repo root as a sibling, shared across all programs, so it must be
+    # copied in on every run to be reachable.
     assets_src = Path("assets")
     if assets_src.exists():
         shutil.copytree(assets_src, PUBLISHED_DIR / "assets", dirs_exist_ok=True)
@@ -375,7 +388,7 @@ def run():
 
         ctx = ctx_lookup.get(topic_id)
         if ctx is None:
-            print(f"⚠️  {topic_id} not found in curriculum.json. Skipping.")
+            print(f"⚠️  {topic_id} not found in curriculum. Skipping.")
             continue
 
         article = load_json(ARTICLES_DIR / f"{topic_id}.json", None)

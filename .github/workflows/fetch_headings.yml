@@ -27,14 +27,13 @@ jobs:
       - name: Run fetch_headings.py
         env:
           GEMINI_API_KEYS: ${{ secrets.GEMINI_API_KEYS }}
-        run: python fetch_headings.py
+        run: python fetch_headings.py nursing
 
       - name: Commit and push updated data/state
         run: |
           git config user.name "algocare-bot"
           git config user.email "algocare-bot@users.noreply.github.com"
-          git add data/topic_headings.json state/generation_state.json
-          git diff --cached --quiet || git commit -m "Update headings [automated]"
+          git add data/nursing/topic_headings.json state/nursing/generation_state.json
+          git diff --cached --quiet || git commit -m "Update nursing headings [automated]"
           git pull --rebase
           git push
-

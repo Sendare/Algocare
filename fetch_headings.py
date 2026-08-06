@@ -5,9 +5,14 @@ from pathlib import Path
 
 from utils.ai_client import call_gemini
 
-CURRICULUM_PATH = "curriculum.json"
-HEADINGS_PATH = "data/topic_headings.json"
-STATE_PATH = "state/generation_state.json"
+if len(sys.argv) < 2:
+    print("Usage: python fetch_headings.py <program>  (e.g. nursing, midwifery)")
+    sys.exit(1)
+PROGRAM = sys.argv[1]
+
+CURRICULUM_PATH = f"curricula/{PROGRAM}.json"
+HEADINGS_PATH = f"data/{PROGRAM}/topic_headings.json"
+STATE_PATH = f"state/{PROGRAM}/generation_state.json"
 
 MAX_RUNTIME_SECONDS = 120    # 4.5 min hard stop - stays under the 5 min ceiling
 
@@ -56,6 +61,7 @@ def load_json(path, default):
 
 
 def save_json(path, data):
+    Path(path).parent.mkdir(parents=True, exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
 
@@ -137,6 +143,7 @@ def run():
     done_ids = set(state["headings_done"])
     remaining = [t for t in all_topics if t["topic_id"] not in done_ids]
 
+    print(f"Program      : {PROGRAM}")
     print(f"Total topics : {len(all_topics)}")
     print(f"Already done : {len(done_ids)}")
     print(f"Remaining    : {len(remaining)}")
@@ -157,9 +164,6 @@ def run():
 
         try:
             result = generate_headings_for_topic(topic)
-        except NotImplementedError as e:
-            print(f"❌ {e}")
-            sys.exit(1)
         except Exception as e:
             print(f"⚠️  Failed on {topic_id}: {e}. Skipping for this run.")
             continue

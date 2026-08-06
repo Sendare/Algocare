@@ -23,13 +23,13 @@ jobs:
           python-version: "3.11"
 
       - name: Run build_pages.py
-        run: python build_pages.py
+        run: python build_pages.py nursing
 
       - name: Commit and push updated pages/state
         run: |
           git config user.name "algocare-bot"
           git config user.email "algocare-bot@users.noreply.github.com"
-          git add docs state/build_state.json state/real_feel_state.json
-          git diff --cached --quiet || git commit -m "Build pages [automated]"
+          git add docs/nursing state/nursing/build_state.json state/nursing/real_feel_state.json
+          git diff --cached --quiet || git commit -m "Build nursing pages [automated]"
           git pull --rebase
           git push

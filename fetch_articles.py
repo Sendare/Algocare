@@ -7,22 +7,28 @@ from pathlib import Path
 
 from utils.ai_client import call_gemini
 
-CURRICULUM_PATH = "curriculum.json"
-HEADINGS_PATH = "data/topic_headings.json"
-ARTICLES_DIR = "data/articles"
-QUESTIONS_DIR = "data/questions"
-STATE_PATH = "state/generation_state.json"
+if len(sys.argv) < 2:
+    print("Usage: python fetch_articles.py <program>  (e.g. nursing, midwifery)")
+    sys.exit(1)
+PROGRAM = sys.argv[1]
 
-# 3 Gemini calls per topic now (article/questions, engagement, QA) instead of
-# 1 - each topic takes roughly 3x as long, so fewer topics complete per run.
-# Bumped from 180s to give headroom under the 6-minute workflow timeout.
+CURRICULUM_PATH = f"curricula/{PROGRAM}.json"
+HEADINGS_PATH = f"data/{PROGRAM}/topic_headings.json"
+ARTICLES_DIR = f"data/{PROGRAM}/articles"
+QUESTIONS_DIR = f"data/{PROGRAM}/questions"
+STATE_PATH = f"state/{PROGRAM}/generation_state.json"
+
+# 3 Gemini calls per topic (article/questions, engagement, QA) - each topic
+# takes roughly 3x as long as a single-call pipeline, so fewer topics
+# complete per run. Bumped from 180s for headroom under the 6-min workflow
+# timeout.
 MAX_RUNTIME_SECONDS = 240
 
 LEARN_MORE_TOKEN = "[[LEARN_MORE]]"
 
 ARTICLE_SYSTEM_PROMPT = """You are an experienced nursing lecturer writing study \
-content for Algocare, an educational platform for nursing students in Nigeria . \
-
+content for Algocare, an educational platform for nursing students in Nigeria \
+preparing for the NMCN CBT exam.
 
 You will be given a topic and a proposed list of section headings. You may use \
 these headings as-is, OR revise them: rename, reorder, merge, split, add, or \
@@ -39,7 +45,7 @@ length. Vary sentence length and rhythm. Avoid repetitive transitions like \
 almost every section. Do not end every section with a generic closer like \
 "nurses should provide emotional support" or "patient education is essential" \
 unless it's specifically relevant to THIS heading's content.
-no fillar \
+
 Choose the format that best teaches the concept - not everything needs to be a \
 paragraph:
 - If the heading is naturally a list (types, methods, causes, steps), write it \
@@ -50,8 +56,8 @@ as an actual markdown list: "1. **Name**: description" for ordered, or \
 the same attributes.
 - Otherwise, write clear prose.
 
-Include practical clinical/relevant observations where genuinely relevant \
-(a common misconception) - but \
+Include practical clinical/exam-relevant observations where genuinely relevant \
+(a common misconception, an exam pitfall, a Nigerian clinical context) - but \
 don't force one into every heading if it doesn't fit naturally. Only mention \
 scientific uncertainty if it genuinely exists for this specific fact - do not \
 manufacture hedging language on settled topics.
@@ -62,8 +68,9 @@ the paragraph you just wrote. A student who studied this same concept from a \
 different textbook or article should still be able to answer correctly.
 
 Question difficulty mix across the whole set (not necessarily each heading): \
-roughly 65% straightforward recall, 30% basic understanding/reasoning, 5% \
-Avoid narrow, obscure drug-specific edge-case recall (e.g. rare side effects of a \
+roughly 60% straightforward recall, 30% basic understanding/reasoning, 10% \
+simple application (e.g. "a patient with X is most likely to..."). Avoid \
+narrow, obscure drug-specific edge-case recall (e.g. rare side effects of a \
 single named drug) for recall-tier questions - keep those approachable so \
 beginners aren't discouraged from daily practice.
 
@@ -75,33 +82,16 @@ come from WHAT is being asked, never from how complicated the sentence is. \
 Avoid unnecessary technical/Latin vocabulary beyond terms already used and \
 explained in the article content itself. Avoid convoluted comparative \
 phrasing like "Why is X considered Y rather than Z" - prefer short, concrete \
-phrasing. 
-questions should be 9-15 words average, max 20
-Writing style rules:
-
-- Do NOT use canned praise or conversational filler.
-- Never start explanations with phrases like:
-  - "Spot on!"
-  - "That's correct!"
-  - "Great job!"
-  - "Excellent!"
-  - "Exactly!"
-  - "Well done!"
-  - "You got it!"
-  - "Nice work!"
-  - "Correct!"
-  - "Perfect!"
-- Do not congratulate or praise the user.
-- Start immediately with the explanation.
-- Use a neutral, educational tone.
-- Keep explanations concise, natural, and varied.
-So instead of:
-"explanation": "Spot on! A tissue is simply a collection of similar cells teaming up to perform a specific job in the body.
-it becomes:
-"explanation": "A tissue is a collection of similar cells that work together to perform a specific function in the body."
+phrasing.
 
 Examples of rewriting an overly academic question into an appropriately \
-
+simple one:
+- Too hard: "What mechanism directly causes polyuria in a patient with \
+uncontrolled hyperglycemia?" -> Better: "Why does a patient with very high \
+blood sugar urinate more often?"
+- Too hard: "How do the antioxidants found naturally in fresh fruits \
+primarily protect human cells?" -> Better: "How do antioxidants in fruit \
+help protect the body's cells?"
 - Too hard: "Why is controlling considered a feedback loop rather than \
 merely a punitive measure?" -> Better: "Why is 'controlling' in management \
 more about improvement than punishment?"
@@ -109,16 +99,15 @@ more about improvement than punishment?"
 If a stem runs longer than about 20 words, or uses a word a first-year \
 student wouldn't say out loud, simplify it.
 
-Vary question stems - do NOT start any question with "Which of the \
+Vary question stems - do NOT start every question with "Which of the \
 following...". Mix in: "What is...", "The main cause of X is...", "A patient \
 with [scenario] is most likely to...", "Which symptom is most characteristic \
 of...", etc.
 
-You may occasionally (roughly 3 in 10 questions, not more) use a \
+You may occasionally (roughly 1 in 10 questions, not more) use a \
 negative-framed question (NOT / EXCEPT / all BUT one). When you do, the \
 negation word MUST appear in full capitals in the question text itself (e.g. \
 "Which of the following is NOT a symptom of...") so it can't be skimmed past.
-wh questions  should not exceed 60% of all questions 
 
 For every question:
 - "difficulty": one of "recall", "understanding", "application"
@@ -132,16 +121,12 @@ others - that's a giveaway.
 one of the 4 strings in "options" above - not a letter, not a paraphrase, the \
 literal matching text. This is verified programmatically, so it must match \
 one option exactly.
-- "explanation": 1-3 sentences, explaining WHY \
+- "explanation": 1-3 sentences, plain student-friendly language, explaining WHY \
 that answer is correct (not just restating it). Do not refer to option \
 letters (A/B/C/D) anywhere in the explanation - letters don't exist yet at \
-generation time and are assigned after. Don't say something like "boom you nailed \
-it" "not quite," "you are doing great" as the explanation doesn't know whether the \
-user gets the answer right or wrong. Dont say something like "you have got this", \
-so stay neutral (focus on explanation, no hype or addition outside the explanation. \
- End every explanation with exactly this literal token on its own, nothing after it: \
- [[LEARN_MORE]]  Do not write an actual link yourself - the token is replaced programmatically. \
-
+generation time and are assigned after. End every explanation with exactly \
+this literal token on its own, nothing after it: [[LEARN_MORE]]
+  Do not write an actual link yourself - the token is replaced programmatically.
 
 Return ONLY valid JSON, no markdown fences, no commentary, in exactly this \
 schema:
@@ -158,7 +143,6 @@ schema:
     }
   ]
 }"""
-
 
 
 ENGAGEMENT_SYSTEM_PROMPT = """You are a product-focused nursing education \
@@ -184,30 +168,9 @@ ANY of these are true:
 - The stem is long, convoluted, or hard to read on a small phone screen
 - Getting it wrong would feel demoralizing rather than like a normal part of \
 learning
-- The explanation doesn't teach warmly - 
+- The explanation doesn't teach warmly - it should feel like a patient \
+tutor, not a textbook
 
-for explanation: 
-- remove  canned praise or conversational filler if used.
-- Never allow explanations start with phrases like:
-  - "Spot on!"
-  - "That's correct!"
-  - "Great job!"
-  - "Excellent!"
-  - "Exactly!"
-  - "Well done!"
-  - "You got it!"
-  - "Nice work!"
-  - "Correct!"
-  - "Perfect!"
-- Do not congratulate or praise the user.
-- Start immediately with the explanation.
-- Use a neutral, educational tone.
-- Keep explanations concise, natural, and varied.
-So instead of:
-"explanation": "Spot on! A tissue is simply a collect>
-it becomes:
-"explanation": "A tissue is a collection of similar c>
-- All questions most feel professional not use street or casual English. \
 When rewriting, you MUST preserve exactly: the underlying nursing concept \
 being tested, and which fact is correct. Never change what's true - only how \
 it's said.
@@ -234,17 +197,25 @@ exam-prep question bank. You will be given a JSON list of multiple-choice \
 questions (each with an id, question text, options A-D, the marked answer, and \
 an explanation).
 
-For EACH question, decide pass or fail. Fail a question if ANY of these are \
-true: more than one option could be correct, the marked answer is wrong or \
-debatable, a distractor is implausible/nonsensical, the wording is ambiguous, \
-the explanation doesn't actually justify the answer, or it's a near-duplicate \
-of another question in the list.
+For EACH question, actually work through whether the marked answer is \
+correct YOURSELF first - reason about the underlying nursing fact before \
+deciding anything. Write that reasoning down BEFORE you decide pass or fail, \
+not after - if you decide first and reason afterward, you can end up \
+reasoning your way to the right answer too late to change a verdict you \
+already committed to.
 
-Return ONLY valid JSON, no markdown fences, no commentary:
+Fail a question if, after your own reasoning, ANY of these are true: more \
+than one option could be correct, the marked answer is wrong or debatable, a \
+distractor is implausible/nonsensical, the wording is ambiguous, the \
+explanation doesn't actually justify the answer, or it's a near-duplicate of \
+another question in the list.
+
+Return ONLY valid JSON, no markdown fences, no commentary. Write "reasoning" \
+BEFORE "pass" for every question, in this exact field order:
 {
   "results": [
-    {"id": "...", "pass": true, "reason": ""},
-    {"id": "...", "pass": false, "reason": "short explanation"}
+    {"id": "...", "reasoning": "brief step-by-step check of whether the marked answer is actually correct, done BEFORE deciding", "pass": true, "reason": ""},
+    {"id": "...", "reasoning": "...", "pass": false, "reason": "one clear sentence summarizing the problem"}
   ]
 }"""
 
@@ -506,6 +477,7 @@ def run():
     done_ids = set(state["articles_done"])
     eligible_ids = [tid for tid in headings_data.keys() if tid not in done_ids]
 
+    print(f"Program                    : {PROGRAM}")
     print(f"Topics with headings ready : {len(headings_data)}")
     print(f"Articles already done      : {len(done_ids)}")
     print(f"Remaining                 : {len(eligible_ids)}")
@@ -527,7 +499,7 @@ def run():
 
         topic_meta = topic_lookup.get(topic_id)
         if topic_meta is None:
-            print(f"⚠️  {topic_id} not found in curriculum.json. Skipping.")
+            print(f"⚠️  {topic_id} not found in curriculum. Skipping.")
             continue
 
         try:
@@ -545,8 +517,6 @@ def run():
         total_rewritten += rewritten
         total_qa_dropped += qa_dropped
 
-        # Save immediately - not batched. Overwrites any previous version,
-        # intentional during a full regeneration pass.
         save_json(f"{ARTICLES_DIR}/{topic_id}.json", article)
         save_json(f"{QUESTIONS_DIR}/{topic_id}.json", questions)
 
@@ -565,5 +535,3 @@ def run():
 
 if __name__ == "__main__":
     run()
-
-
