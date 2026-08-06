@@ -7,13 +7,13 @@
     "difficulty": "recall",
     "question": "What does the top number in a blood pressure reading represent?",
     "options": {
-      "A": "Systolic pressure when the heart rests",
-      "B": "Systolic pressure when the heart beats",
-      "C": "Diastolic pressure when the heart rests",
-      "D": "Diastolic pressure when the heart beats"
+      "A": "Systolic pressure",
+      "B": "Venous pressure",
+      "C": "Diastolic pressure",
+      "D": "Pulse pressure"
     },
-    "answer": "B",
-    "explanation": "The top number is the systolic pressure, which measures the force in the arteries when the heart contracts or beats. [learn more](GNS324_U4_T16#GNS324_U4_T16_h1)"
+    "answer": "A",
+    "explanation": "The top number measures the force exerted on arterial walls when the heart contracts. [learn more](GNS324_U4_T16#GNS324_U4_T16_h1)"
   },
   {
     "question_id": "GNS324_U4_T16_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GNS324_U4_T16",
     "topic_id": "GNS324_U4_T16",
     "difficulty": "understanding",
-    "question": "Why is hypertension frequently described as a silent condition?",
+    "question": "Why is high blood pressure often called a silent killer?",
     "options": {
-      "A": "It causes severe pain only at night",
-      "B": "It only affects people who cannot speak",
-      "C": "It disappears on its own without treatment",
-      "D": "It damages blood vessels without causing early symptoms"
+      "A": "It only affects people during sleep",
+      "B": "Patients usually show no obvious early symptoms",
+      "C": "Blood pressure cuffs fail to detect high readings",
+      "D": "The condition resolves without medical intervention"
     },
-    "answer": "D",
-    "explanation": "High blood pressure often develops over years without any noticeable warning signs, which is why regular checks are necessary. [learn more](GNS324_U4_T16#GNS324_U4_T16_h1)"
+    "answer": "B",
+    "explanation": "High blood pressure often develops without any noticeable signs, meaning people can have it for years without knowing until damage occurs. [learn more](GNS324_U4_T16#GNS324_U4_T16_h1)"
   },
   {
     "question_id": "GNS324_U4_T16_h2_q1",
@@ -37,63 +37,63 @@
     "article_id": "GNS324_U4_T16",
     "topic_id": "GNS324_U4_T16",
     "difficulty": "recall",
-    "question": "What is the term for high blood pressure that has no single identifiable medical cause?",
+    "question": "A blood pressure reading of 142/92 mmHg falls into which category?",
     "options": {
-      "A": "Primary hypertension",
-      "B": "Malignant hypertension",
-      "C": "Gestational hypertension",
-      "D": "Secondary hypertension"
+      "A": "Prehypertension",
+      "B": "Normal blood pressure",
+      "C": "Stage 1 Hypertension",
+      "D": "Stage 2 Hypertension"
     },
-    "answer": "A",
-    "explanation": "Primary or essential hypertension makes up the vast majority of cases and develops gradually from lifestyle and genetic factors. [learn more](GNS324_U4_T16#GNS324_U4_T16_h2)"
+    "answer": "C",
+    "explanation": "A systolic reading between 140 and 159 combined with a diastolic reading between 90 and 99 is classified as Stage 1 hypertension. [learn more](GNS324_U4_T16#GNS324_U4_T16_h2)"
   },
   {
     "question_id": "GNS324_U4_T16_h2_q2",
     "heading_id": "GNS324_U4_T16_h2",
     "article_id": "GNS324_U4_T16",
     "topic_id": "GNS324_U4_T16",
-    "difficulty": "application",
-    "question": "A patient asks why their salt intake matters so much for their blood pressure. What is your best response?",
+    "difficulty": "understanding",
+    "question": "What are the two main factors that determine a person's blood pressure?",
     "options": {
-      "A": "Salt stops your kidneys from producing urine completely.",
-      "B": "Salt directly destroys your heart muscle cells over time.",
-      "C": "Extra salt makes your body hold onto extra water, which pushes harder against your artery walls.",
-      "D": "Salt causes your blood vessels to instantly expand and burst."
+      "A": "Cardiac output and systemic vascular resistance",
+      "B": "Blood volume and hemoglobin concentration",
+      "C": "Heart rate and respiratory rate",
+      "D": "Sodium intake and potassium excretion"
     },
-    "answer": "C",
-    "explanation": "Sodium causes fluid retention, increasing the total volume of blood circulating and raising the pressure inside the vessels. [learn more](GNS324_U4_T16#GNS324_U4_T16_h2)"
+    "answer": "A",
+    "explanation": "Blood pressure depends on how much blood the heart pumps out and the resistance the blood meets as it flows through the vessels. [learn more](GNS324_U4_T16#GNS324_U4_T16_h2)"
   },
   {
     "question_id": "GNS324_U4_T16_h3_q1",
     "heading_id": "GNS324_U4_T16_h3",
     "article_id": "GNS324_U4_T16",
     "topic_id": "GNS324_U4_T16",
-    "difficulty": "understanding",
-    "question": "What happens to a blood pressure reading if the cuff used on the patient's arm is too small?",
+    "difficulty": "recall",
+    "question": "What type describes the majority of high blood pressure cases seen in the clinic?",
     "options": {
-      "A": "It remains completely normal",
-      "B": "It reads falsely high",
-      "C": "It reads falsely low",
-      "D": "It drops to zero"
+      "A": "Gestational hypertension",
+      "B": "Primary hypertension",
+      "C": "Secondary hypertension",
+      "D": "Resistant hypertension"
     },
     "answer": "B",
-    "explanation": "A cuff that is too small requires more pressure to compress the artery, resulting in an artificially elevated reading. [learn more](GNS324_U4_T16#GNS324_U4_T16_h3)"
+    "explanation": "Primary or essential hypertension is the most common form, meaning it develops over time without a single identifiable medical cause. [learn more](GNS324_U4_T16#GNS324_U4_T16_h3)"
   },
   {
     "question_id": "GNS324_U4_T16_h3_q2",
     "heading_id": "GNS324_U4_T16_h3",
     "article_id": "GNS324_U4_T16",
     "topic_id": "GNS324_U4_T16",
-    "difficulty": "recall",
-    "question": "How long should a patient rest quietly before having their blood pressure measured?",
+    "difficulty": "understanding",
+    "question": "A patient with chronic kidney disease develops high blood pressure. What type of hypertension is this?",
     "options": {
-      "A": "Exactly 30 seconds",
-      "B": "At least 5 minutes",
-      "C": "No rest is needed",
-      "D": "At least 1 hour"
+      "A": "Primary hypertension",
+      "B": "Idiopathic hypertension",
+      "C": "Essential hypertension",
+      "D": "Secondary hypertension"
     },
-    "answer": "B",
-    "explanation": "A short resting period ensures that recent physical activity or rushing does not falsely elevate the blood pressure reading. [learn more](GNS324_U4_T16#GNS324_U4_T16_h3)"
+    "answer": "D",
+    "explanation": "When high blood pressure stems from a known identifiable medical condition like kidney disease, it is classified as secondary. [learn more](GNS324_U4_T16#GNS324_U4_T16_h3)"
   },
   {
     "question_id": "GNS324_U4_T16_h4_q1",
@@ -101,126 +101,158 @@
     "article_id": "GNS324_U4_T16",
     "topic_id": "GNS324_U4_T16",
     "difficulty": "recall",
-    "question": "What is the primary focus of the DASH diet for managing high blood pressure?",
+    "question": "How long should a patient rest before you take their blood pressure?",
     "options": {
-      "A": "Eating plenty of fruits, vegetables, and low-fat dairy while reducing sodium",
-      "B": "Eliminating all carbohydrates completely from daily meals",
-      "C": "Eating only raw meat and root vegetables",
-      "D": "Drinking large amounts of herbal teas and liquid supplements"
+      "A": "Thirty seconds",
+      "B": "Fifteen minutes",
+      "C": "Five minutes",
+      "D": "One hour"
     },
-    "answer": "A",
-    "explanation": "The DASH diet emphasizes nutrient-dense whole foods and mineral-rich produce while cutting back on salt and unhealthy fats. [learn more](GNS324_U4_T16#GNS324_U4_T16_h4)"
+    "answer": "C",
+    "explanation": "Resting quietly for five minutes allows the patient's body to settle, ensuring an accurate baseline measurement. [learn more](GNS324_U4_T16#GNS324_U4_T16_h4)"
   },
   {
     "question_id": "GNS324_U4_T16_h4_q2",
     "heading_id": "GNS324_U4_T16_h4",
     "article_id": "GNS324_U4_T16",
     "topic_id": "GNS324_U4_T16",
-    "difficulty": "understanding",
-    "question": "Why does regular aerobic exercise help lower blood pressure over time?",
+    "difficulty": "application",
+    "question": "A home care nurse notices a blood pressure cuff bladder covers only half of the client's large upper arm. What is the most likely effect on the reading?",
     "options": {
-      "A": "It thickens the walls of the arteries permanently.",
-      "B": "It removes all cholesterol from the body immediately.",
-      "C": "It forces the kidneys to stop filtering blood.",
-      "D": "It strengthens the heart muscle so it can pump blood more efficiently."
+      "A": "The reading will be falsely elevated",
+      "B": "The device will fail to record any numbers",
+      "C": "The reading will remain completely accurate",
+      "D": "The reading will be falsely lowered"
     },
-    "answer": "D",
-    "explanation": "When the heart becomes stronger through exercise, it requires less effort to circulate blood, which reduces the pressure on artery walls. [learn more](GNS324_U4_T16#GNS324_U4_T16_h4)"
+    "answer": "A",
+    "explanation": "Using an undersized cuff requires excessive pressure to compress the large arm tissue, producing a falsely high blood pressure reading. [learn more](GNS324_U4_T16#GNS324_U4_T16_h4)"
   },
   {
     "question_id": "GNS324_U4_T16_h5_q1",
     "heading_id": "GNS324_U4_T16_h5",
     "article_id": "GNS324_U4_T16",
     "topic_id": "GNS324_U4_T16",
-    "difficulty": "understanding",
-    "question": "Why do many patients stop taking their blood pressure medication without telling their nurse?",
+    "difficulty": "recall",
+    "question": "Why do many patients with high blood pressure stop taking their daily medication?",
     "options": {
-      "A": "They feel fine and assume the condition has gone away.",
-      "B": "The medications always cure hypertension within one week.",
-      "C": "Blood pressure pills taste sweet like candy.",
-      "D": "Doctors prefer patients to stop taking pills after a month."
+      "A": "Blood pressure always remains low permanently after one dose",
+      "B": "They feel fine and assume the condition is cured",
+      "C": "Antihypertensive drugs cause instant memory loss",
+      "D": "Pharmacies never run out of stock"
     },
-    "answer": "A",
-    "explanation": "Because high blood pressure is asymptomatic, patients often mistake feeling well for being cured and abandon their regimen. [learn more](GNS324_U4_T16#GNS324_U4_T16_h5)"
+    "answer": "B",
+    "explanation": "Because high blood pressure usually has no symptoms, patients often feel completely healthy and mistakenly think they no longer need treatment. [learn more](GNS324_U4_T16#GNS324_U4_T16_h5)"
   },
   {
     "question_id": "GNS324_U4_T16_h5_q2",
     "heading_id": "GNS324_U4_T16_h5",
     "article_id": "GNS324_U4_T16",
     "topic_id": "GNS324_U4_T16",
-    "difficulty": "recall",
-    "question": "Which class of blood pressure medication works primarily by helping the kidneys remove excess water and sodium from the body?",
+    "difficulty": "understanding",
+    "question": "What common side effect should a nurse warn a client about when starting a new antihypertensive medication?",
     "options": {
-      "A": "Diuretics",
-      "B": "Statins",
-      "C": "Antibiotics",
-      "D": "Beta-blockers"
+      "A": "Orthostatic hypotension",
+      "B": "Uncontrolled weight gain",
+      "C": "Sudden permanent blindness",
+      "D": "Severe muscle enlargement"
     },
     "answer": "A",
-    "explanation": "Diuretics, or water pills, prompt the kidneys to excrete sodium and water, reducing overall blood volume and pressure. [learn more](GNS324_U4_T16#GNS324_U4_T16_h5)"
+    "explanation": "Blood pressure medications can cause sudden drops in pressure when changing positions, leading to dizziness. [learn more](GNS324_U4_T16#GNS324_U4_T16_h5)"
   },
   {
     "question_id": "GNS324_U4_T16_h6_q1",
     "heading_id": "GNS324_U4_T16_h6",
     "article_id": "GNS324_U4_T16",
     "topic_id": "GNS324_U4_T16",
-    "difficulty": "understanding",
-    "question": "What is the main difference between a hypertensive urgency and a hypertensive emergency?",
+    "difficulty": "recall",
+    "question": "What dietary pattern is specifically recommended to help lower blood pressure naturally?",
     "options": {
-      "A": "Urgency always requires immediate surgery, but emergency does not.",
-      "B": "An emergency involves active damage to target organs, while urgency does not.",
-      "C": "Emergency only happens in children, while urgency happens in adults.",
-      "D": "Urgency features readings over 300 mmHg, while emergency is much lower."
+      "A": "High protein ketogenic diet",
+      "B": "High sodium traditional diet",
+      "C": "Low fiber liquid diet",
+      "D": "DASH diet"
     },
-    "answer": "B",
-    "explanation": "Both feature very high readings, but an emergency is distinguished by acute, ongoing damage to vital organs like the heart or brain. [learn more](GNS324_U4_T16#GNS324_U4_T16_h6)"
+    "answer": "D",
+    "explanation": "The DASH diet focuses on fruits, vegetables, and low-fat dairy while restricting sodium to manage blood pressure. [learn more](GNS324_U4_T16#GNS324_U4_T16_h6)"
   },
   {
     "question_id": "GNS324_U4_T16_h6_q2",
     "heading_id": "GNS324_U4_T16_h6",
     "article_id": "GNS324_U4_T16",
     "topic_id": "GNS324_U4_T16",
-    "difficulty": "application",
-    "question": "A patient with a blood pressure of 220/130 mmHg complains of a sudden, blinding headache and confusion. What is the most appropriate nursing action?",
+    "difficulty": "understanding",
+    "question": "How does regular exercise help manage high blood pressure over time?",
     "options": {
-      "A": "Encourage the patient to drink a large glass of salty broth.",
-      "B": "Wait two hours to see if the headache goes away on its own.",
-      "C": "Tell the patient to lie down and sleep it off until morning.",
-      "D": "Arrange emergency transport to a hospital immediately."
+      "A": "It strengthens the cardiovascular system and improves vessel health",
+      "B": "It increases total body fat storage rapidly",
+      "C": "It raises resting heart rate to maximum levels",
+      "D": "It eliminates the need for any future medical checkups"
     },
-    "answer": "D",
-    "explanation": "Severe blood pressure elevation accompanied by neurological symptoms indicates a hypertensive emergency requiring urgent medical intervention. [learn more](GNS324_U4_T16#GNS324_U4_T16_h6)"
+    "answer": "A",
+    "explanation": "Consistent physical activity makes the heart a more efficient pump and keeps blood vessels flexible. [learn more](GNS324_U4_T16#GNS324_U4_T16_h6)"
   },
   {
     "question_id": "GNS324_U4_T16_h7_q1",
     "heading_id": "GNS324_U4_T16_h7",
     "article_id": "GNS324_U4_T16",
     "topic_id": "GNS324_U4_T16",
-    "difficulty": "understanding",
-    "question": "How does chronic high blood pressure eventually lead to heart failure?",
+    "difficulty": "recall",
+    "question": "What blood pressure measurement is considered a hypertensive crisis?",
     "options": {
-      "A": "It forces the left ventricle to work so hard that the muscle thickens and weakens over time.",
-      "B": "It fills the heart chambers with excess air.",
-      "C": "It shrinks the heart valves until they fall apart.",
-      "D": "It causes the heart to stop beating entirely within a few hours."
+      "A": "Exceeding 120/80 mmHg",
+      "B": "Exceeding 180/120 mmHg",
+      "C": "Exceeding 160/100 mmHg",
+      "D": "Exceeding 140/90 mmHg"
     },
-    "answer": "A",
-    "explanation": "Constantly pumping against high resistance makes the heart muscle enlarge and eventually lose its pumping efficiency, resulting in heart failure. [learn more](GNS324_U4_T16#GNS324_U4_T16_h7)"
+    "answer": "B",
+    "explanation": "Readings above 180/120 mmHg signal a dangerous spike that requires immediate medical attention. [learn more](GNS324_U4_T16#GNS324_U4_T16_h7)"
   },
   {
     "question_id": "GNS324_U4_T16_h7_q2",
     "heading_id": "GNS324_U4_T16_h7",
     "article_id": "GNS324_U4_T16",
     "topic_id": "GNS324_U4_T16",
-    "difficulty": "recall",
-    "question": "Which of the following organs is NOT typically considered a primary target organ damaged by long-term hypertension?",
+    "difficulty": "understanding",
+    "question": "What is the primary difference between hypertensive urgency and hypertensive emergency?",
     "options": {
-      "A": "Brain",
-      "B": "Kidneys",
-      "C": "Spleen",
-      "D": "Heart"
+      "A": "Response to oral hydration alone",
+      "B": "The time of day the symptoms start",
+      "C": "Presence of acute target organ damage",
+      "D": "Age of the affected individual"
     },
     "answer": "C",
-    "explanation": "The primary target organs damaged by chronic high blood pressure are the heart, brain, kidneys, and eyes. [learn more](GNS324_U4_T16#GNS324_U4_T16_h7)"
+    "explanation": "An emergency involves active damage to organs like the brain or kidneys, whereas urgency does not show immediate organ injury. [learn more](GNS324_U4_T16#GNS324_U4_T16_h7)"
+  },
+  {
+    "question_id": "GNS324_U4_T16_h8_q1",
+    "heading_id": "GNS324_U4_T16_h8",
+    "article_id": "GNS324_U4_T16",
+    "topic_id": "GNS324_U4_T16",
+    "difficulty": "recall",
+    "question": "Which organ is strained when long-term high blood pressure causes left ventricular hypertrophy?",
+    "options": {
+      "A": "The liver",
+      "B": "The lungs",
+      "C": "The stomach",
+      "D": "The heart"
+    },
+    "answer": "D",
+    "explanation": "Constant high pressure forces the heart's main pumping chamber to work harder, causing the muscle wall to thicken. [learn more](GNS324_U4_T16#GNS324_U4_T16_h8)"
+  },
+  {
+    "question_id": "GNS324_U4_T16_h8_q2",
+    "heading_id": "GNS324_U4_T16_h8",
+    "article_id": "GNS324_U4_T16",
+    "topic_id": "GNS324_U4_T16",
+    "difficulty": "understanding",
+    "question": "Why is it important for community nurses to ask patients about local herbal remedies?",
+    "options": {
+      "A": "Herbal remedies permanently cure essential hypertension",
+      "B": "Hospitals require patients to bring herbs for admission",
+      "C": "Some local herbs can interact negatively with prescribed blood pressure drugs",
+      "D": "Traditional leaves are the only approved medical treatment"
+    },
+    "answer": "C",
+    "explanation": "Unregulated herbal mixtures can interfere with hospital medications, either making them too strong or blocking their effects. [learn more](GNS324_U4_T16#GNS324_U4_T16_h8)"
   }
 ]
