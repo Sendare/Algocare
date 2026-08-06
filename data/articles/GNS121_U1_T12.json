@@ -10,44 +10,50 @@
     {
       "heading_id": "GNS121_U1_T12_h1",
       "order": 1,
-      "title": "Introduction and Neural Control of Digestive Secretions",
-      "content": "The human digestive tract relies on a continuous stream of fluids, enzymes, and mucus to break down food and protect its own lining. These secretions are tightly controlled by both local networks and the central nervous system. The gut has its own dedicated neural network known as the **enteric nervous system**, often called the second brain, which can manage digestive processes independently. This intrinsic system coordinates local blood flow, movement, and secretion. \n\nSuperimposed on this local control is the **autonomic nervous system**. \n- **Parasympathetic stimulation**: Driven largely by the vagus nerve, this branch increases digestive activity, boosts enzyme output, and stimulates glandular secretion.\n- **Sympathetic stimulation**: The fight-or-flight response inhibits digestive processes, constricting blood vessels to the gut and reducing fluid output during times of stress."
+      "title": "Introduction to Digestive Secretions and Their Importance",
+      "content": "The human digestive tract relies on a massive daily output of fluids, enzymes, electrolytes, and mucus to break down food and absorb nutrients. The salivary glands, stomach, pancreas, liver, and small intestine collectively secrete roughly seven to nine liters of fluid every day. Most of this volume is reabsorbed further down the tract, preventing severe dehydration. These secretions are not released randomly. Specialized endocrine and exocrine cells adjust output based on the volume, chemical composition, and physical presence of ingested food."
     },
     {
       "heading_id": "GNS121_U1_T12_h2",
       "order": 2,
-      "title": "Hormonal Control Mechanisms in the Gastrointestinal Tract",
-      "content": "Endocrine cells scattered throughout the stomach and small intestine release chemical messengers directly into the bloodstream to regulate digestive output. Unlike quick nerve signals, these hormones travel through circulation to target distant glands and organs, ensuring a sustained, coordinated response to food.\n\n- **Gastrin**: Released by G-cells in the stomach, it stimulates acid and pepsinogen production while promoting growth of the gastric mucosa.\n- **Secretin**: Released by the small intestine in response to acidic chyme, it prompts the pancreas and liver to secrete bicarbonate-rich fluid to neutralize the acid.\n- **Cholecystokinin (CCK)**: Triggered by fats and proteins in the small intestine, it stimulates the gallbladder to contract and release bile while signaling the pancreas to release digestive enzymes."
+      "title": "Neural Regulation via the Enteric and Autonomic Nervous Systems",
+      "content": "Digestive secretion is heavily coordinated by the nervous system, operating through both a local enteric network and central autonomic pathways.\n\n- **Enteric Nervous System (ENS)**: Often called the 'brain of the gut,' the myenteric and submucosal plexuses locally control secretion, motility, and blood flow without central input.\n- **Parasympathetic Nervous System**: Primarily mediated by the vagus nerve, parasympathetic activation stimulates secretory activity throughout the gut by releasing acetylcholine.\n- **Sympathetic Nervous System**: Sympathetic outflow generally inhibits digestive activity, constricting blood vessels supplying glands and reducing fluid output during stress."
     },
     {
       "heading_id": "GNS121_U1_T12_h3",
       "order": 3,
-      "title": "The Three Phases of Digestion: Cephalic, Gastric, and Intestinal",
-      "content": "Digestive secretion occurs in distinct phases depending on where food is located and how the body senses it.\n\n1. **Cephalic phase**: Triggered by the sight, smell, thought, or taste of food. Signals travel from the brain via the vagus nerve to prep the stomach by starting acid and enzyme secretion.\n2. **Gastric phase**: Begins when food enters the stomach. Stretching of the stomach wall and the presence of proteins trigger local nerve reflexes and gastrin release, heavily boosting acid and pepsinogen output.\n3. **Intestinal phase**: Starts as partially digested food moves into the small intestine. It begins with a brief stimulatory period, followed by inhibitory feedback hormones like secretin and CCK that slow down gastric emptying and acid secretion as the bowel processes the load."
+      "title": "Hormonal Control Mechanisms in the Gastrointestinal Tract",
+      "content": "Endocrine cells scattered throughout the stomach and small intestine release regulatory hormones directly into the bloodstream. These chemical messengers travel to target organs to stimulate or inhibit specific secretions.\n\n| Hormone | Primary Stimulus | Main Action |\n| --- | --- | --- |\n| **Gastrin** | Protein in stomach, distension | Stimulates gastric acid and pepsinogen |\n| **Secretin** | Acid in the duodenum | Stimulates pancreatic bicarbonate-rich fluid |\n| **Cholecystokinin (CCK)** | Fats and proteins in duodenum | Stimulates gallbladder contraction and pancreatic enzymes |"
     },
     {
       "heading_id": "GNS121_U1_T12_h4",
       "order": 4,
-      "title": "Regulation of Gastric Acid and Pepsinogen",
-      "content": "The parietal cells of the stomach lining pump hydrochloric acid into the lumen, creating a highly acidic environment necessary to denature proteins and kill ingested microbes. Alongside them, chief cells secrete **pepsinogen**, an inactive enzyme precursor that turns into active pepsin upon contact with stomach acid.\n\nThree primary chemical messengers stimulate parietal cells: **acetylcholine** from nerves, **gastrin** from endocrine cells, and **histamine** released locally in the stomach wall. When these three signals converge, acid output reaches its peak. Conversely, somatostatin acts as a natural brake, inhibiting acid release when the stomach is empty or too acidic."
+      "title": "Cephalic, Gastric, and Intestinal Phases of Digestion",
+      "content": "The regulation of digestive secretions unfolds across three overlapping phases based on where food is processed.\n\n1. **Cephalic Phase**: Triggered by the sight, smell, taste, or thought of food. Signals travel via the vagus nerve to prepare the stomach by initiating acid and enzyme release.\n2. **Gastric Phase**: Initiated by food entering the stomach. Distension and elevated protein levels stimulate gastrin release, local neural reflexes, and robust acid secretion.\n3. **Intestinal Phase**: Begins as chyme enters the small intestine. It initially promotes further secretion, but soon transitions to inhibitory feedback via secretin and CCK to slow gastric emptying and match digestive capacity."
     },
     {
       "heading_id": "GNS121_U1_T12_h5",
       "order": 5,
-      "title": "Pancreatic and Biliary Secretions",
-      "content": "The pancreas and liver play massive roles in chemical digestion by pouring alkaline fluids and enzymes into the duodenum. The exocrine pancreas produces a cocktail of digestive enzymes—including amylase for carbs, lipases for fats, and proteases for proteins—alongside a watery fluid rich in bicarbonate to neutralize harsh stomach acid.\n\nThe liver continuously produces bile, which is stored and concentrated in the gallbladder. Bile does not contain enzymes; instead, it contains bile salts that emulsify large fat droplets into tiny micelles. This physical breakdown drastically increases the surface area available for pancreatic lipase to work effectively."
+      "title": "Regulation of Gastric Acid and Pepsinogen Secretion",
+      "content": "Gastric juice contains hydrochloric acid and pepsinogen, which work together to break down proteins and sterilize ingested food. Parietal cells secrete acid when stimulated by three distinct pathways: acetylcholine from nerves, gastrin from G cells, and histamine from enterochromaffin-like cells. Histamine acts locally as a paracrine signal to amplify acid production. Meanwhile, chief cells release pepsinogen, which is converted into active pepsin upon contact with the acidic environment."
     },
     {
       "heading_id": "GNS121_U1_T12_h6",
       "order": 6,
-      "title": "Intestinal Secretions and Mucosal Protection",
-      "content": "The small and large intestines secrete watery mucus and electrolytes to lubricate chyme and keep the mucosal lining healthy. Specialized cells called **goblet cells** scatter along the epithelial lining, releasing thick mucus that forms a physical barrier against mechanical friction and self-digestion by powerful enzymes.\n\nIntestinal glands also secrete a watery fluid known as succus entericus, which provides a liquid medium for nutrient absorption. Because digestive enzymes and acid are powerful enough to destroy human tissue, a breakdown in this mucus defense system quickly leads to painful tissue damage and ulceration."
+      "title": "Pancreatic and Biliary Secretions and Their Control",
+      "content": "The pancreas and liver supply vital enzymatic and buffering fluids into the duodenum. Exocrine pancreatic acinar cells produce digestive enzymes like trypsinogen, amylase, and lipase, while duct cells secrete a watery, bicarbonate-rich fluid. Secretin stimulates duct cells to neutralize stomach acid, whereas CCK prompts acinar cells to release digestive enzymes. The liver continually produces bile, which is stored and concentrated in the gallbladder. The arrival of fat-laden chyme triggers CCK release, causing the gallbladder to contract and the sphincter of Oddi to relax."
     },
     {
       "heading_id": "GNS121_U1_T12_h7",
       "order": 7,
-      "title": "Clinical Implications of Dysregulated Secretions",
-      "content": "When the delicate feedback loops governing digestive secretions go wrong, patients experience distressing symptoms and tissue damage. Excess acid production or a failing mucosal barrier leads to **peptic ulcer disease**, where gastric juices eat away at the stomach or duodenal wall. \n\nConversely, conditions like chronic pancreatitis result in a shortage of pancreatic enzymes, leading to malabsorption, fatty stools, and nutritional deficiencies. Medications such as proton pump inhibitors are commonly used in clinical practice to reduce acid secretion and allow mucosal healing, illustrating how understanding these secretory pathways directly guides patient care."
+      "title": "Intestinal Secretions and Mucosal Protection",
+      "content": "The small and large intestines secrete watery mucus and electrolytes to lubricate chyme and facilitate nutrient transport. Intestinal glands, known as the crypts of Lieberkühn, secrete a watery fluid that helps transport digestion products to the absorptive villi. A thick layer of alkaline mucus covers the epithelial lining throughout the gastrointestinal tract. This barrier is vital because it prevents autodigestion by powerful enzymes and shields mucosal cells from abrasion and harsh acids."
+    },
+    {
+      "heading_id": "GNS121_U1_T12_h8",
+      "order": 8,
+      "title": "Clinical Implications of Dysregulated Digestive Secretions",
+      "content": "When the feedback loops governing digestive secretions fail, clinical disorders quickly follow. Excess gastric acid production or a compromised mucosal barrier can lead to peptic ulcer disease. Conversely, insufficient pancreatic enzyme output, as seen in chronic pancreatitis or cystic fibrosis, results in maldigestion and steatorrhea, which is the presence of excess fat in the stool. Certain bacterial infections can also hyperstimulate intestinal fluid secretion, leading to severe, life-threatening diarrheal illnesses."
     }
   ]
 }

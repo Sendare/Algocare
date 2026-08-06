@@ -10,38 +10,32 @@
     {
       "heading_id": "GNS121_U2_T12_h1",
       "order": 1,
-      "title": "Introduction to Acid-Base Balance and the Urinary System",
-      "content": "The human body maintains a strict blood pH range between 7.35 and 7.45. Even slight deviations outside this range disrupt cellular enzyme functions and metabolic processes. While the lungs handle volatile acids by exhaling carbon dioxide, the kidneys manage non-volatile acids, such as sulfuric and phosphoric acids, which come from daily protein metabolism. \n\nThe urinary system acts as the body's ultimate acid-base regulator. It achieves this by filtering blood through the glomeruli and adjusting the chemical composition of urine inside the renal tubules. Unlike the rapid respiratory response that changes within minutes, renal compensation takes hours to days to fully develop, but it possesses a much higher capacity for adjusting long-term acid-base balance."
+      "title": "Introduction to Renal Acid-Base Regulation",
+      "content": "The human body maintains blood pH within a strict physiological range of 7.35 to 7.45. While the lungs provide rapid regulation by controlling carbon dioxide elimination, the kidneys offer a slower, more powerful, and definitive defense mechanism. The renal system regulates acid-base balance through two primary processes: reabsorbing filtered bicarbonate and excreting fixed metabolic acids. When metabolic acids accumulate, blood pH drops, prompting the kidneys to retain base and eliminate excess hydrogen ions over hours or days."
     },
     {
       "heading_id": "GNS121_U2_T12_h2",
       "order": 2,
-      "title": "Anatomy of the Nephron and Tubular Sites",
-      "content": "The nephron is the functional unit of the kidney, and different segments play distinct roles in managing acid-base balance. \n\n- **Proximal Convoluted Tubule (PCT)**: Handles the bulk of bicarbonate reabsorption and secretes hydrogen ions via counter-transport proteins.\n- **Loop of Henle**: Participates in establishing the medullary concentration gradient, which assists downstream acid excretion mechanisms.\n- **Distal Convoluted Tubule (DCT) and Collecting Duct**: Responsible for fine-tuning acid excretion through specialized cells called intercalated cells.\n\nType A intercalated cells actively secrete hydrogen ions into the tubular lumen during acidosis, while Type B intercalated cells secrete bicarbonate during alkalosis."
+      "title": "Mechanisms of Hydrogen Ion Secretion and Bicarbonate Rehandling",
+      "content": "The proximal convoluted tubule is the primary site for reclaiming filtered bicarbonate. Because bicarbonate cannot directly cross the luminal membrane, it combines with secreted hydrogen ions to form carbonic acid. Carbonic anhydrase breaks this down into water and carbon dioxide, which readily diffuse into the tubular cell. Inside the cell, the reaction reverses, generating new bicarbonate that enters the peritubular capillaries alongside active hydrogen secretion."
     },
     {
       "heading_id": "GNS121_U2_T12_h3",
       "order": 3,
-      "title": "Mechanisms of Hydrogen Ion Secretion",
-      "content": "To remove excess acid from the body, renal tubular cells must pump hydrogen ions ($H^+$) from the intracellular space into the tubular lumen. This movement relies on active transport mechanisms located in the cell membranes.\n\nIn the proximal tubule, a sodium-hydrogen exchanger ($NHE3$) moves sodium into the tubular cell while pushing hydrogen ions out into the tubular fluid. This is a form of secondary active transport driven by the sodium concentration gradient created by the sodium-potassium pump on the basolateral side. Further down in the collecting duct, primary active transport comes into play via proton pumps (hydrogen-ATPase) that push hydrogen ions directly against a steep concentration gradient, allowing urine to become significantly more acidic than blood plasma."
+      "title": "Phosphate and Ammonia Urinary Buffer Systems",
+      "content": "- **Phosphate Buffer System**: Filtered hydrogen phosphate captures excess hydrogen ions in the tubular fluid, forming dihydrogen phosphate which is excreted in the urine.\n- **Ammonia Buffer System**: Renal tubular cells metabolize glutamine to produce ammonia. Ammonia diffuses into the tubular lumen, binds excess hydrogen ions to form ammonium, and prevents urine pH from dropping below limiting values."
     },
     {
       "heading_id": "GNS121_U2_T12_h4",
       "order": 4,
-      "title": "Bicarbonate Reabsorption and Regeneration",
-      "content": "Bicarbonate ($HCO_3^-$) is freely filtered through the glomerulus, but the kidneys rarely excrete it in a normal state because it is vital for buffering blood. However, filtered bicarbonate cannot directly cross the luminal membrane of the tubule.\n\nInside the tubular lumen, filtered bicarbonate combines with secreted hydrogen ions to form carbonic acid ($H_2CO_3$). An enzyme called **carbonic anhydrase** breaks this down into water and carbon dioxide. These small molecules diffuse easily across the cell membrane into the tubular cell. Once inside, intracellular carbonic anhydrase converts them back into bicarbonate and hydrogen ions. The newly formed bicarbonate is then transported across the basolateral membrane back into the peritubular capillaries, effectively preserving the body's alkaline reserve."
+      "title": "Renal Response to Acidosis and Alkalosis",
+      "content": "During systemic acidosis, the kidneys accelerate hydrogen ion secretion and generate brand new bicarbonate to replenish depleted blood buffers. Conversely, during systemic alkalosis, renal tubular cells decrease hydrogen ion secretion and excrete excess bicarbonate into the urine. This dual adjustment restores the normal plasma bicarbonate-to-carbon dioxide ratio."
     },
     {
       "heading_id": "GNS121_U2_T12_h5",
       "order": 5,
-      "title": "Phosphate and Ammonia Urinary Buffers",
-      "content": "As the kidneys secrete hydrogen ions into the tubular fluid, the urine would normally become too acidic, stopping further transport. To prevent this, urinary buffers bind free hydrogen ions, allowing the kidneys to excrete large amounts of acid without dropping urine pH below a critical floor of around 4.5.\n\n- **Phosphate Buffer System**: Filtered hydrogen phosphate ($HPO_4^{2-}$) binds excess secreted hydrogen to become dihydrogen phosphate ($H_2PO_4^-$), which is then excreted in the urine.\n- **Ammonia Buffer System**: Renal tubular cells metabolize the amino acid glutamine to produce ammonia ($NH_3$). Ammonia diffuses into the tubular lumen and binds secreted hydrogen ions to form ammonium ($NH_4^+$), trapping the acid in the urine so it cannot diffuse back out."
-    },
-    {
-      "heading_id": "GNS121_U2_T12_h6",
-      "order": 6,
       "title": "Clinical Implications and Nursing Assessments",
-      "content": "Disruptions in renal acid-base regulation lead to metabolic acidosis or metabolic alkalosis. Nurses caring for patients with kidney disease, severe diarrhea, or diabetic ketoacidosis must monitor acid-base status closely through arterial blood gases and serum electrolyte panels.\n\nIn **metabolic acidosis**, the kidneys attempt to compensate by increasing hydrogen ion excretion and generating new bicarbonate, though damaged kidneys fail to do this effectively. Conversely, **metabolic alkalosis** prompts the kidneys to excrete excess bicarbonate into the urine. Nurses must observe for secondary electrolyte imbalances, particularly potassium shifts, because potassium and hydrogen ions frequently trade places across cell membranes and tubular transporters."
+      "content": "Nurses caring for patients with renal impairment must monitor laboratory indicators such as serum bicarbonate, blood pH, and urine output. Renal failure compromises acid excretion, frequently resulting in metabolic acidosis. Clinical assessments include observing respiratory patterns for Kussmaul breathing, checking for electrolyte imbalances like hyperkalemia, and evaluating fluid status."
     }
   ]
 }
