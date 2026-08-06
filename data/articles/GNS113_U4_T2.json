@@ -11,37 +11,37 @@
       "heading_id": "GNS113_U4_T2_h1",
       "order": 1,
       "title": "Introduction to Monitoring Devices in Nursing Informatics",
-      "content": "Monitoring devices form the bedrock of modern patient surveillance in Nigerian healthcare facilities, bridging raw physiological data and clinical intervention. These tools range from simple bedside gadgets to complex digital arrays feeding into hospital information systems. Nursing informatics ensures that data captured by these devices flows seamlessly into the electronic health record, reducing manual transcription errors and accelerating response times. When a device records an abnormal reading, it initiates a digital trigger that alerts the nursing team instantly."
+      "content": "Monitoring devices form the bedrock of modern clinical practice, serving as the physical bridge between the patient and nursing informatics systems. These tools continuously capture physiological metrics and translate them into digital data streams. Within the Nigerian healthcare landscape, transitioning from purely manual charting to device-integrated systems reduces human recording error and speeds up clinical response times. Nurses must understand both the physical operation of these machines and how their output feeds into electronic health records."
     },
     {
       "heading_id": "GNS113_U4_T2_h2",
       "order": 2,
-      "title": "Pulse Oximetry and Continuous Oxygen Tracking",
-      "content": "Pulse oximeters use light absorption principles to measure functional oxygen saturation of peripheral hemoglobin ($SpO_2$) non-invasively. \n\n- **Sensor placement**: Typically attached to a fingertip, toe, or earlobe.\n- **Infrared light**: Absorbed differently by oxygenated and deoxygenated blood.\n- **Clinical limitation**: Poor peripheral perfusion, cold extremities, nail polish, or heavy movement can cause false low readings."
+      "title": "Pulse Oximetry",
+      "content": "- **Principle**: Uses light absorption through pulsating capillary beds to measure oxygen saturation in peripheral blood.\n- **Sensor Placement**: Common sites include fingers, toes, and earlobes; pediatric patients often use the foot or palm.\n- **Interfering Factors**: Poor peripheral perfusion, nail polish, extreme ambient light, and patient movement can distort readings."
     },
     {
       "heading_id": "GNS113_U4_T2_h3",
       "order": 3,
-      "title": "Cardiac Monitors and ECG Telemetry",
-      "content": "Cardiac monitors display continuous electrical activity of the heart, allowing nurses to spot dangerous arrhythmias before they cause cardiac arrest. Electrodes are placed on specific chest landmarks to capture standard waveforms like the P wave, QRS complex, and T wave. Telemetry units transmit these waveforms wirelessly to a central nursing station, giving mobile patients freedom to walk the ward while remaining under close surveillance."
+      "title": "Cardiac Monitors and Electrocardiography",
+      "content": "Cardiac monitors provide continuous visual display of the heart's electrical activity. By placing electrodes across specific anatomical landmarks on the chest wall, the machine traces waveforms that represent depolarization and repolarization of the myocardium. Bedside monitors alert nursing staff to dangerous arrhythmias like ventricular fibrillation or asystole before a full cardiac arrest occurs. Proper skin preparation, such as cleaning oils and clipping excessive chest hair, ensures optimal electrical contact and minimizes artifact on the screen."
     },
     {
       "heading_id": "GNS113_U4_T2_h4",
       "order": 4,
-      "title": "Hemodynamic and Vital Sign Workstations",
-      "content": "Multi-parameter bedside monitors track several vital signs simultaneously, including blood pressure, heart rate, respiratory rate, and temperature. In high-dependency and intensive care units, invasive hemodynamic monitoring tracks central venous pressure and arterial blood pressure via specialized catheters. Nurses must calibrate these devices routinely and troubleshoot sensor displacement or damping lines to maintain data accuracy."
+      "title": "Telemetry and Remote Patient Surveillance",
+      "content": "Telemetry allows continuous ambulatory monitoring of a patient's cardiac rhythm while they move outside the intensive care unit. A small portable transmitter sends radio waves to a central monitoring station where nurses watch multiple patients simultaneously. This technology promotes early mobilization, which is vital for recovery, while maintaining safety nets for sudden rhythm changes. Signal loss and battery failure are common practical challenges that require routine checks by ward staff."
     },
     {
       "heading_id": "GNS113_U4_T2_h5",
       "order": 5,
       "title": "Data Integration and Clinical Decision Support",
-      "content": "Modern monitoring systems do more than display numbers; they integrate data streams to support clinical decision-making. When multiple parameters cross pre-set thresholds, algorithms generate warning scores like the NEWS (National Early Warning Score). This integration helps nursing staff prioritize care for deteriorating patients before overt arrest occurs, shifting practice from reactive rescue to proactive prevention."
+      "content": "Modern monitors do more than just beep when a threshold is crossed. They integrate data streams from multiple devices—like blood pressure cuffs, ventilators, and infusion pumps—into a single dashboard. Clinical decision support systems analyze these combined inputs and generate automated alerts for sepsis, hemodynamic instability, or medication dosing errors. Nurses must balance these algorithmic warnings with hands-on clinical judgment to prevent alarm fatigue and ensure safe patient care."
     },
     {
       "heading_id": "GNS113_U4_T2_h6",
       "order": 6,
       "title": "Ethical Considerations and Patient Privacy",
-      "content": "Deploying advanced monitoring devices introduces significant ethical challenges regarding patient autonomy and data privacy. Continuous surveillance can feel intrusive to patients and families if consent and open communication are lacking. Furthermore, digital health records and transmitted telemetry data must remain secure against unauthorized access to protect patient confidentiality."
+      "content": "The deployment of continuous monitoring and video surveillance tools introduces profound ethical dilemmas regarding patient autonomy and data security. While these devices protect vulnerable individuals from falls or sudden deterioration, constant surveillance can feel intrusive and erode human dignity. Nursing staff carry the ethical responsibility to secure digital logs, respect patient boundaries whenever possible, and ensure that recorded data is used solely for clinical benefit rather than unauthorized administrative scrutiny."
     }
   ]
 }

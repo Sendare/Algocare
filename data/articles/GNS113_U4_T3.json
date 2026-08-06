@@ -11,31 +11,37 @@
       "heading_id": "GNS113_U4_T3_h1",
       "order": 1,
       "title": "Introduction to Direct Nursing Delivery Technology",
-      "content": "Direct nursing delivery technology refers to digital and automated tools used at the bedside to streamline patient care, reduce medication errors, and improve clinical documentation. These tools bridge the gap between hospital information systems and hands-on nursing tasks. Implementing these technologies requires a balance between digital proficiency and compassionate patient care. Common examples found in modern Nigerian teaching hospitals and private facilities include electronic medication systems, digital infusion devices, and automated vital sign monitors."
+      "content": "Direct nursing delivery technology refers to digital tools and hardware used at the bedside to streamline patient care, reduce human error, and improve clinical accuracy. In modern Nigerian and global healthcare settings, these technologies bridge the gap between complex medical therapies and safe hands-on nursing practice. Rather than replacing the nurse, these devices act as clinical safeguards.\n\n- **Efficiency**: Speeds up routine tasks like charting and medication distribution.\n- **Safety**: Built-in verification steps prevent medication mix-ups.\n- **Documentation**: Real-time entry reduces the lag time in clinical records."
     },
     {
       "heading_id": "GNS113_U4_T3_h2",
       "order": 2,
-      "title": "Barcode Medication Administration Systems",
-      "content": "Barcode Medication Administration (BCMA) systems use handheld scanners to verify patient identity and medication details before administration. The nurse scans the patient's wristband, the medication package, and their own staff badge to complete the safety check. This creates a closed-loop system designed to prevent the five rights of medication administration failures: wrong patient, wrong drug, wrong dose, wrong route, and wrong time."
+      "title": "Barcode Medication Administration",
+      "content": "Barcode medication administration (BCMA) is a closed-loop system designed to ensure the right patient receives the right medication, dose, route, and time. The nurse uses a handheld scanner to read the patient's wristband barcode and the barcode on the medication package.\n\n1. **Patient Verification**: Scanning the wristband confirms the identity against the electronic health record.\n2. **Drug Verification**: Scanning the medication ampoule or tablet packaging checks the prescriber order.\n3. **Dosing Alignment**: The system flags discrepancies before administration occurs."
     },
     {
       "heading_id": "GNS113_U4_T3_h3",
       "order": 3,
-      "title": "Smart Infusion Pumps and Drug Libraries",
-      "content": "Smart IV pumps feature built-in safety software called dose error reduction systems (DERS) or drug libraries. These libraries contain predefined clinical limits for dosing rates, concentrations, and maximum limits for specific medications. When a nurse programs an infusion, the pump alerts them if the entered dose falls outside safe clinical parameters. This prevents catastrophic programming mistakes with high-alert medications like heparin or vasoactive drips."
+      "title": "Smart Infusion Pumps",
+      "content": "Smart infusion pumps deliver fluids, blood products, and medications precisely into the vascular system. Unlike traditional gravity lines, these pumps feature dose error reduction systems (DERS) that contain built-in drug libraries with hard and soft dosage limits.\n\nA **hard limit** is a programmed ceiling that the pump will not allow a user to bypass without pharmacy intervention. A **soft limit** warns the nurse of a potential overdose or underdose, but permits an override if clinically justified. Nurses must remain vigilant because faulty programming or mechanical failure can still cause rapid volume overload."
     },
     {
       "heading_id": "GNS113_U4_T3_h4",
       "order": 4,
       "title": "Patient Monitoring Systems and Smart Beds",
-      "content": "Modern patient monitoring systems track vital signs continuously and transmit data directly to central nursing stations. Smart beds complement these monitors by incorporating weight scales, exit alarms, and angle sensors for head-of-bed elevation. If a high-fall-risk patient attempts to get out of bed unassisted, the smart bed triggers an immediate alert to the nurse's mobile device."
+      "content": "Modern clinical spaces utilize integrated patient monitors and smart beds to track physiological status and physical safety without constant manual interference. Continuous telemetry monitors heart rhythm, oxygen saturation, and respiratory rate, immediately alerting staff to sudden deterioration.\n\nSmart beds complement monitors by tracking patient weight and detecting movement. Pressure sensors in the mattress can trigger an alarm when a high-fall-risk patient attempts to exit unassisted, allowing nursing staff to intervene before a fall occurs."
     },
     {
       "heading_id": "GNS113_U4_T3_h5",
       "order": 5,
-      "title": "Workflow Integration and Clinical Challenges",
-      "content": "Integrating new technology into busy hospital wards often encounters resistance or practical hurdles. \n- **Alarm fatigue**: Nurses become desensitized to constant, non-actionable device alarms.\n- **Technical glitches**: Network failures or power outages disrupt device functionality.\n- **Workflow disruption**: Cumbersome login procedures can delay urgent patient care tasks.\nAddressing these hurdles requires robust IT support, reliable backup power systems, and user-friendly interface designs."
+      "title": "Impact on Patient Safety and Error Reduction",
+      "content": "The implementation of direct nursing delivery technology fundamentally shifts care from reactive error-catching to proactive prevention. By interposing digital verification checks between the clinician and the patient, hospitals report substantial drops in adverse drug events.\n\nHowever, technology does not eradicate all mistakes. Workarounds—such as affixing patient barcodes to clipboard surfaces instead of scanning actual wristbands—actively bypass built-in safety features and recreate clinical vulnerability."
+    },
+    {
+      "heading_id": "GNS113_U4_T3_h6",
+      "order": 6,
+      "title": "Workflow Integration and Operational Challenges",
+      "content": "Integrating advanced technology into daily nursing routines requires careful management of physical resources and human factors. Frequent device alarms can lead to **alarm fatigue**, where nurses become desensitized and ignore critical warning sounds.\n\nInfrastructure issues also plague implementation, particularly in resource-constrained environments. Unstable electrical grids, frequent power outages, and poor internet connectivity can render electronic health records and smart pumps temporarily useless, forcing a stressful return to manual paper documentation."
     }
   ]
 }
