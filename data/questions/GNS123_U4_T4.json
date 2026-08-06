@@ -5,15 +5,15 @@
     "article_id": "GNS123_U4_T4",
     "topic_id": "GNS123_U4_T4",
     "difficulty": "recall",
-    "question": "What is another common name for healthcare-associated infections?",
+    "question": "What is another common name for a nosocomial infection?",
     "options": {
-      "A": "Autoimmune disorders",
-      "B": "Idiopathic conditions",
-      "C": "Nosocomial infections",
-      "D": "Congenital infections"
+      "A": "Primary systemic disease",
+      "B": "Community-acquired illness",
+      "C": "Congenital pathogen disorder",
+      "D": "Hospital-acquired infection"
     },
-    "answer": "C",
-    "explanation": "Nosocomial is the traditional medical term for infections that originate in a hospital environment. [learn more](GNS123_U4_T4#GNS123_U4_T4_h1)"
+    "answer": "D",
+    "explanation": "Nosocomial infections are acquired specifically within healthcare settings during the delivery of care. [learn more](GNS123_U4_T4#GNS123_U4_T4_h1)"
   },
   {
     "question_id": "GNS123_U4_T4_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GNS123_U4_T4",
     "topic_id": "GNS123_U4_T4",
     "difficulty": "understanding",
-    "question": "When does an infection officially count as a healthcare-associated infection?",
+    "question": "Why are hospital-acquired infections considered a major challenge in clinical practice?",
     "options": {
-      "A": "Before the patient ever enters the clinic",
-      "B": "Immediately following any minor injection",
-      "C": "At least 48 hours after hospital admission",
-      "D": "Within the first two hours of arrival"
+      "A": "They always resolve without any medical care",
+      "B": "They only occur in surgical theatre suites",
+      "C": "They increase patient hospital stay duration",
+      "D": "They are completely untreatable with drugs"
     },
     "answer": "C",
-    "explanation": "The 48-hour window helps differentiate infections the patient brought in with them from those caught while inside the facility. [learn more](GNS123_U4_T4#GNS123_U4_T4_h1)"
+    "explanation": "These infections complicate recovery, leading to extended hospital admissions and higher treatment costs. [learn more](GNS123_U4_T4#GNS123_U4_T4_h1)"
   },
   {
     "question_id": "GNS123_U4_T4_h2_q1",
@@ -37,15 +37,15 @@
     "article_id": "GNS123_U4_T4",
     "topic_id": "GNS123_U4_T4",
     "difficulty": "recall",
-    "question": "How many total links make up the standard chain of infection?",
+    "question": "Which component represents where a pathogen normally lives and multiplies?",
     "options": {
-      "A": "Six links",
-      "B": "Two links",
-      "C": "Eight links",
-      "D": "Four links"
+      "A": "Portal of exit",
+      "B": "Reservoir",
+      "C": "Susceptible host",
+      "D": "Infectious agent"
     },
-    "answer": "A",
-    "explanation": "The chain consists of six interdependent links, and breaking any single one stops the spread. [learn more](GNS123_U4_T4#GNS123_U4_T4_h2)"
+    "answer": "B",
+    "explanation": "A reservoir provides a suitable environment for microorganisms to survive, grow, and multiply. [learn more](GNS123_U4_T4#GNS123_U4_T4_h2)"
   },
   {
     "question_id": "GNS123_U4_T4_h2_q2",
@@ -53,15 +53,15 @@
     "article_id": "GNS123_U4_T4",
     "topic_id": "GNS123_U4_T4",
     "difficulty": "understanding",
-    "question": "What does a susceptible host represent in the chain of infection?",
+    "question": "What happens when a healthcare worker performs proper handwashing to break the infection cycle?",
     "options": {
-      "A": "A medical instrument sterilized prior to a procedure",
-      "B": "A person who lacks resistance to a specific pathogen",
-      "C": "The physical surface where bacteria live and multiply",
-      "D": "The specific pathway a virus uses to leave the body"
+      "A": "Mode of transmission is disrupted",
+      "B": "Susceptible host is completely eliminated",
+      "C": "Portal of entry becomes larger",
+      "D": "Infectious agent changes its DNA structure"
     },
-    "answer": "B",
-    "explanation": "A susceptible host is an individual whose immune system is weak or compromised enough to allow an infection to take hold. [learn more](GNS123_U4_T4#GNS123_U4_T4_h2)"
+    "answer": "A",
+    "explanation": "Hand hygiene stops pathogens from moving from one surface or person to another. [learn more](GNS123_U4_T4#GNS123_U4_T4_h2)"
   },
   {
     "question_id": "GNS123_U4_T4_h3_q1",
@@ -69,31 +69,31 @@
     "article_id": "GNS123_U4_T4",
     "topic_id": "GNS123_U4_T4",
     "difficulty": "recall",
-    "question": "Who should standard precautions be applied to in a healthcare setting?",
+    "question": "Which body fluid is excluded from standard precaution assumptions regarding infectious agents?",
     "options": {
-      "A": "Visitors entering the surgical ward",
-      "B": "Patients with airborne illnesses only",
-      "C": "Only patients with diagnosed HIV",
-      "D": "All patients receiving care"
+      "A": "Sweat",
+      "B": "Urine",
+      "C": "Saliva",
+      "D": "Semen"
     },
-    "answer": "D",
-    "explanation": "Standard precautions are universal and apply to every patient, because infection status is not always known. [learn more](GNS123_U4_T4#GNS123_U4_T4_h3)"
+    "answer": "A",
+    "explanation": "Standard precautions apply to all body fluids except sweat, unless it contains visible blood. [learn more](GNS123_U4_T4#GNS123_U4_T4_h3)"
   },
   {
     "question_id": "GNS123_U4_T4_h3_q2",
     "heading_id": "GNS123_U4_T4_h3",
     "article_id": "GNS123_U4_T4",
     "topic_id": "GNS123_U4_T4",
-    "difficulty": "understanding",
-    "question": "What is the primary underlying assumption of standard precautions?",
+    "difficulty": "application",
+    "question": "When should a nurse apply standard precautions in the ward?",
     "options": {
-      "A": "Gloves replace the need for washing your hands",
-      "B": "Only visible blood contains dangerous bacterial pathogens",
-      "C": "All body fluids can potentially transmit infectious agents",
-      "D": "Healthy patients require no protective measures at all"
+      "A": "Only when laboratory tests confirm a virus",
+      "B": "When caring for every single patient",
+      "C": "Only during surgical wound dressing changes",
+      "D": "When visiting patients in the private wing"
     },
-    "answer": "C",
-    "explanation": "Treating all body fluids as potentially infectious prevents accidental exposure to hidden pathogens. [learn more](GNS123_U4_T4#GNS123_U4_T4_h3)"
+    "answer": "B",
+    "explanation": "Standard precautions are universal and apply to all patient care activities regardless of infection status. [learn more](GNS123_U4_T4#GNS123_U4_T4_h3)"
   },
   {
     "question_id": "GNS123_U4_T4_h4_q1",
@@ -101,31 +101,31 @@
     "article_id": "GNS123_U4_T4",
     "topic_id": "GNS123_U4_T4",
     "difficulty": "recall",
-    "question": "Which type of precaution requires the use of a negative-pressure room?",
+    "question": "Which respiratory protection is mandatory when caring for a patient with pulmonary tuberculosis?",
     "options": {
-      "A": "Droplet precautions",
-      "B": "Airborne precautions",
-      "C": "Standard precautions",
-      "D": "Contact precautions"
+      "A": "Clear plastic face shield",
+      "B": "Simple surgical mask",
+      "C": "N95 respirator",
+      "D": "Standard cloth mask"
     },
-    "answer": "B",
-    "explanation": "Airborne precautions require special negative-pressure ventilation to keep infectious particles from escaping into the hallway. [learn more](GNS123_U4_T4#GNS123_U4_T4_h4)"
+    "answer": "C",
+    "explanation": "Airborne pathogens like tuberculosis require high-filtration respirators to prevent inhaling small droplet nuclei. [learn more](GNS123_U4_T4#GNS123_U4_T4_h4)"
   },
   {
     "question_id": "GNS123_U4_T4_h4_q2",
     "heading_id": "GNS123_U4_T4_h4",
     "article_id": "GNS123_U4_T4",
     "topic_id": "GNS123_U4_T4",
-    "difficulty": "application",
-    "question": "A patient is admitted with active pulmonary tuberculosis. Which specific protective gear must the nurse wear before entering the room?",
+    "difficulty": "understanding",
+    "question": "A patient diagnosed with an infection spread through large respiratory droplets requires which precaution category?",
     "options": {
-      "A": "A standard surgical mask",
-      "B": "Protective shoe covers only",
-      "C": "Sterile surgical gloves only",
-      "D": "An N95 respirator"
+      "A": "Contact precautions",
+      "B": "Airborne precautions",
+      "C": "Droplet precautions",
+      "D": "Universal reverse isolation"
     },
-    "answer": "D",
-    "explanation": "Tuberculosis is airborne, meaning staff must wear a fitted N95 respirator to filter out tiny suspended droplet nuclei. [learn more](GNS123_U4_T4#GNS123_U4_T4_h4)"
+    "answer": "C",
+    "explanation": "Droplet precautions stop pathogens that travel short distances through moisture expelled during coughing or sneezing. [learn more](GNS123_U4_T4#GNS123_U4_T4_h4)"
   },
   {
     "question_id": "GNS123_U4_T4_h5_q1",
@@ -133,15 +133,15 @@
     "article_id": "GNS123_U4_T4",
     "topic_id": "GNS123_U4_T4",
     "difficulty": "recall",
-    "question": "What is the minimum recommended time for washing hands with soap and water?",
+    "question": "What is the minimum recommended duration for washing visibly soiled hands with soap and water?",
     "options": {
-      "A": "20 seconds",
-      "B": "2 minutes",
-      "C": "10 seconds",
-      "D": "5 seconds"
+      "A": "2 to 3 minutes",
+      "B": "40 to 60 seconds",
+      "C": "5 to 10 seconds",
+      "D": "10 to 15 seconds"
     },
-    "answer": "A",
-    "explanation": "Washing for at least 20 seconds gives friction and soap enough time to mechanically remove and destroy transient microorganisms. [learn more](GNS123_U4_T4#GNS123_U4_T4_h5)"
+    "answer": "B",
+    "explanation": "Friction from soap and water for nearly a minute is required to mechanically remove physical dirt and microbes. [learn more](GNS123_U4_T4#GNS123_U4_T4_h5)"
   },
   {
     "question_id": "GNS123_U4_T4_h5_q2",
@@ -149,15 +149,15 @@
     "article_id": "GNS123_U4_T4",
     "topic_id": "GNS123_U4_T4",
     "difficulty": "understanding",
-    "question": "Why must a nurse use soap and water instead of alcohol gel after caring for a patient with Clostridioides difficile?",
+    "question": "Why is soap and water preferred over alcohol hand rub when caring for a patient with Clostridium difficile?",
     "options": {
-      "A": "Alcohol rubs do not reliably destroy bacterial spores",
-      "B": "Soap and water dry out the skin much faster",
-      "C": "Spores dissolve instantly when exposed to hand sanitizer",
-      "D": "Alcohol gel leaves a sticky residue on surgical gloves"
+      "A": "Alcohol damages the hospital rubber gloves",
+      "B": "Soap causes faster drying of skin oils",
+      "C": "Soap has a pleasant fragrance for patients",
+      "D": "Alcohol rubs do not destroy bacterial spores"
     },
-    "answer": "A",
-    "explanation": "Clostridioides difficile produces tough spores that resist alcohol sanitizers, requiring physical washing to rinse them away. [learn more](GNS123_U4_T4#GNS123_U4_T4_h5)"
+    "answer": "D",
+    "explanation": "Spore-forming organisms resist alcohol gels, requiring the physical washing action of soap and water. [learn more](GNS123_U4_T4#GNS123_U4_T4_h5)"
   },
   {
     "question_id": "GNS123_U4_T4_h6_q1",
@@ -165,15 +165,15 @@
     "article_id": "GNS123_U4_T4",
     "topic_id": "GNS123_U4_T4",
     "difficulty": "recall",
-    "question": "When taking off personal protective equipment, which item should you remove first?",
+    "question": "What is the very first item a nurse should put on when donning personal protective equipment?",
     "options": {
       "A": "Gloves",
-      "B": "Mask",
+      "B": "Eye goggles",
       "C": "Gown",
-      "D": "Goggles"
+      "D": "Face mask"
     },
-    "answer": "A",
-    "explanation": "Gloves are typically the most contaminated item, so removing them first prevents transferring pathogens to other pieces of PPE or your skin. [learn more](GNS123_U4_T4#GNS123_U4_T4_h6)"
+    "answer": "C",
+    "explanation": "The gown is put on first to cover clothing, followed by respiratory protection, eye protection, and gloves. [learn more](GNS123_U4_T4#GNS123_U4_T4_h6)"
   },
   {
     "question_id": "GNS123_U4_T4_h6_q2",
@@ -181,15 +181,15 @@
     "article_id": "GNS123_U4_T4",
     "topic_id": "GNS123_U4_T4",
     "difficulty": "understanding",
-    "question": "What is the correct sequence when putting on personal protective equipment before entering an isolation room?",
+    "question": "Why should gloves be removed first when taking off personal protective equipment after patient care?",
     "options": {
-      "A": "Eye protection, gloves, gown, mask",
-      "B": "Gloves, gown, mask, eye protection",
-      "C": "Gown, mask, eye protection, gloves",
-      "D": "Mask, gloves, gown, eye protection"
+      "A": "The gown cannot be untied with gloves on",
+      "B": "The manufacturer instructions demand it",
+      "C": "They carry the highest contamination load",
+      "D": "They are the easiest item to tear apart"
     },
     "answer": "C",
-    "explanation": "Putting the gown on first and gloves last ensures the glove cuffs overlap the gown sleeves, leaving no exposed skin at the wrist. [learn more](GNS123_U4_T4#GNS123_U4_T4_h6)"
+    "explanation": "Gloves touch patients directly, accumulating the most pathogens, so removing them first minimizes spreading germs. [learn more](GNS123_U4_T4#GNS123_U4_T4_h6)"
   },
   {
     "question_id": "GNS123_U4_T4_h7_q1",
@@ -197,31 +197,31 @@
     "article_id": "GNS123_U4_T4",
     "topic_id": "GNS123_U4_T4",
     "difficulty": "recall",
-    "question": "Where must a urinary catheter collection bag be positioned at all times to prevent backflow?",
+    "question": "Where should the urine collection bag be positioned relative to the patient's bladder?",
     "options": {
-      "A": "Below the level of the bladder",
-      "B": "Resting on the floor of the room",
-      "C": "Attached to the patient's pillow",
-      "D": "Level with the patient's hip"
+      "A": "Level with the mattress surface",
+      "B": "Hanging directly above the bed frame",
+      "C": "Resting on the patient's abdomen",
+      "D": "Below the level of the bladder"
     },
-    "answer": "A",
-    "explanation": "Gravity keeps urine flowing downward away from the bladder, preventing contaminated urine from flowing back up into the tubing. [learn more](GNS123_U4_T4#GNS123_U4_T4_h7)"
+    "answer": "D",
+    "explanation": "Gravity drainage prevents contaminated urine from flowing backward into the sterile bladder. [learn more](GNS123_U4_T4#GNS123_U4_T4_h7)"
   },
   {
     "question_id": "GNS123_U4_T4_h7_q2",
     "heading_id": "GNS123_U4_T4_h7",
     "article_id": "GNS123_U4_T4",
     "topic_id": "GNS123_U4_T4",
-    "difficulty": "understanding",
-    "question": "What is the primary goal of using strict aseptic technique during invasive procedures?",
+    "difficulty": "application",
+    "question": "A nurse needs to prevent a catheter-associated urinary tract infection. What action is most appropriate?",
     "options": {
-      "A": "To neutralize chemical toxins released by resident skin flora",
-      "B": "To eliminate all pathogenic microorganisms from the sterile field",
-      "C": "To reduce the total number of bacteria on non-porous furniture",
-      "D": "To remove visible dirt and oil from the patient's outer skin"
+      "A": "Maintain a closed drainage system",
+      "B": "Apply strong antiseptic ointments daily",
+      "C": "Disconnect the tubing daily for flushing",
+      "D": "Raise the collection bag above the hips"
     },
-    "answer": "B",
-    "explanation": "Aseptic technique aims to protect susceptible body sites by ensuring zero pathogens are introduced during invasive tasks. [learn more](GNS123_U4_T4#GNS123_U4_T4_h7)"
+    "answer": "A",
+    "explanation": "Keeping the catheter tubing connected blocks external bacteria from entering the urinary tract. [learn more](GNS123_U4_T4#GNS123_U4_T4_h7)"
   },
   {
     "question_id": "GNS123_U4_T4_h8_q1",
@@ -229,15 +229,15 @@
     "article_id": "GNS123_U4_T4",
     "topic_id": "GNS123_U4_T4",
     "difficulty": "recall",
-    "question": "Where should used injection needles be disposed of immediately after use?",
+    "question": "Where should used hypodermic needles be disposed of immediately after injection?",
     "options": {
-      "A": "A red biohazard bag for soft waste",
-      "B": "A standard black plastic trash bag",
-      "C": "A rigid, puncture-proof sharps container",
-      "D": "The side pocket of the nurse's uniform"
+      "A": "Yellow infectious bin liner",
+      "B": "Recycling container for plastic",
+      "C": "Puncture-resistant safety box",
+      "D": "General black waste bin"
     },
     "answer": "C",
-    "explanation": "Puncture-proof sharps containers prevent accidental needle-stick injuries for nurses and housekeeping staff. [learn more](GNS123_U4_T4#GNS123_U4_T4_h8)"
+    "explanation": "Sharps containers prevent accidental needle-stick injuries to nurses and waste handlers. [learn more](GNS123_U4_T4#GNS123_U4_T4_h8)"
   },
   {
     "question_id": "GNS123_U4_T4_h8_q2",
@@ -245,46 +245,46 @@
     "article_id": "GNS123_U4_T4",
     "topic_id": "GNS123_U4_T4",
     "difficulty": "understanding",
-    "question": "Which practice should nurses avoid when handling used injection needles?",
+    "question": "Why is recapping used injection needles strongly discouraged in clinical settings?",
     "options": {
-      "A": "Activating the safety device",
-      "B": "Dropping it straight into a bin",
-      "C": "Carrying it in a dedicated tray",
-      "D": "Recapping the needle by hand"
+      "A": "It contaminates the inside of the needle barrel",
+      "B": "It wastes valuable nursing shift time",
+      "C": "It increases the risk of needle-stick injuries",
+      "D": "It makes the syringe difficult to incinerate"
     },
-    "answer": "D",
-    "explanation": "Recapping needles by hand is a major cause of accidental needlestick injuries and should never be done. [learn more](GNS123_U4_T4#GNS123_U4_T4_h8)"
+    "answer": "C",
+    "explanation": "Attempting to recap needles frequently leads to accidental punctures to the nurse's fingers. [learn more](GNS123_U4_T4#GNS123_U4_T4_h8)"
   },
   {
     "question_id": "GNS123_U4_T4_h9_q1",
     "heading_id": "GNS123_U4_T4_h9",
     "article_id": "GNS123_U4_T4",
     "topic_id": "GNS123_U4_T4",
-    "difficulty": "understanding",
-    "question": "Why are nurses uniquely positioned to perform effective infection surveillance?",
+    "difficulty": "recall",
+    "question": "Who should nurses report a sudden cluster of hospital infections to?",
     "options": {
-      "A": "They perform all terminal room cleaning procedures",
-      "B": "They spend the most direct time at the patient's bedside",
-      "C": "They are solely responsible for writing hospital policy",
-      "D": "They process laboratory blood cultures in the hospital lab"
+      "A": "Infection control committee",
+      "B": "Patient relative association",
+      "C": "Hospital catering department",
+      "D": "Local pharmacy storefront"
     },
-    "answer": "B",
-    "explanation": "Continuous bedside interaction allows nurses to spot early warning signs of infection long before lab results return. [learn more](GNS123_U4_T4#GNS123_U4_T4_h9)"
+    "answer": "A",
+    "explanation": "The infection control committee investigates outbreaks and implements facility-wide prevention strategies. [learn more](GNS123_U4_T4#GNS123_U4_T4_h9)"
   },
   {
     "question_id": "GNS123_U4_T4_h9_q2",
     "heading_id": "GNS123_U4_T4_h9",
     "article_id": "GNS123_U4_T4",
     "topic_id": "GNS123_U4_T4",
-    "difficulty": "application",
-    "question": "A nurse notices that a postoperative surgical wound is increasingly red, warm, and draining foul-smelling pus. What is the most appropriate immediate action?",
+    "difficulty": "understanding",
+    "question": "Why is early nursing surveillance vital for infection control in the ward?",
     "options": {
-      "A": "Wait until the patient's scheduled discharge day to mention it",
-      "B": "Assume this is a normal healing process and take no action",
-      "C": "Report the findings and document them clearly for the care team",
-      "D": "Apply a dry bandage and advise the patient not to look at it"
+      "A": "It eliminates the need for any laboratory blood tests",
+      "B": "It reduces the cost of hospital building maintenance",
+      "C": "It prevents patients from eating restricted foods",
+      "D": "It stops local infections from turning into systemic sepsis"
     },
-    "answer": "C",
-    "explanation": "Prompt reporting and documentation ensure the medical team can investigate and treat a potential surgical site infection early. [learn more](GNS123_U4_T4#GNS123_U4_T4_h9)"
+    "answer": "D",
+    "explanation": "Spotting infection early allows for prompt medical intervention before the condition worsens. [learn more](GNS123_U4_T4#GNS123_U4_T4_h9)"
   }
 ]
