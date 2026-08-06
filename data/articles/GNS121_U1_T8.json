@@ -10,44 +10,50 @@
     {
       "heading_id": "GNS121_U1_T8_h1",
       "order": 1,
-      "title": "Introduction and Pathways of Metabolism",
-      "content": "Metabolism refers to every single chemical reaction that happens inside the living body to keep us alive, growing, and repairing tissues. These chemical processes are divided into two opposing but cooperative sides: **anabolism** and **catabolism**.\n\n- **Anabolism**: The building-up side of metabolism. It takes small, simple molecules and uses energy to build larger, complex structures. Think of it like laying bricks to build a house. Examples include building muscle tissue from amino acids or storing glucose as glycogen.\n- **Catabolism**: The breaking-down side of metabolism. It takes large, complex molecules and breaks them down into smaller pieces, which releases the energy stored inside them. Think of this like tearing down an old wall to get usable firewood. Examples include digesting food or breaking down stored fat for fuel.\n\nTogether, these pathways ensure the body always has the building blocks and energy it needs for daily survival."
+      "title": "Introduction to Metabolism and Metabolic Pathways",
+      "content": "Metabolism refers to the sum total of all chemical reactions that take place within living organisms to maintain life. These biochemical processes allow cells to grow, reproduce, maintain structures, and respond to environmental changes. Pathways are rarely isolated; instead, they form intricate, interconnected networks where the end product of one reaction often serves as the starting substrate for another."
     },
     {
       "heading_id": "GNS121_U1_T8_h2",
       "order": 2,
-      "title": "Role of ATP in Cellular Energy",
-      "content": "Adenosine triphosphate, universally known as **ATP**, is the ultimate energy currency of the cell. Whenever a cell needs to do work—whether that is pumping ions across a membrane, contracting a muscle fiber, or building a new protein—it spends ATP.\n\nStructurally, ATP consists of an adenosine molecule attached to a chain of three phosphate groups. The magic lies in the bonds holding those phosphate groups together, particularly the final two. These are high-energy bonds. When the cell needs energy, it breaks off the very last phosphate group, turning ATP into adenosine diphosphate (**ADP**) and releasing a burst of usable energy.\n\nCells do not keep massive stockpiled reserves of ATP because it is unstable for long-term storage. Instead, they constantly regenerate ATP from ADP by using the energy released during catabolic processes like glucose breakdown."
+      "title": "Anabolism and Catabolism",
+      "content": "- **Anabolism**: The constructive metabolic phase where smaller, simpler molecules are built up into larger, more complex compounds. This process requires an input of energy, typically derived from ATP.\n- **Catabolism**: The destructive metabolic phase that breaks down large, complex molecules into smaller, simpler units. This breakdown releases stored chemical energy for cellular use."
     },
     {
       "heading_id": "GNS121_U1_T8_h3",
       "order": 3,
-      "title": "Carbohydrate Metabolism",
-      "content": "Carbohydrates are the body's preferred and most immediate source of fuel. When we eat carbohydrates, digestion breaks them down into simple sugars, primarily **glucose**. Once glucose enters the bloodstream, it is shuttled into cells with the help of the hormone insulin.\n\nInside the cell, glucose goes through a series of steps to yield ATP:\n1. **Glycolysis**: Takes place in the cytoplasm, breaking one glucose molecule into two pyruvate molecules while generating a small amount of ATP without needing oxygen.\n2. **Krebs Cycle (Citric Acid Cycle)**: Takes place inside the mitochondria, processing pyruvate further and releasing carbon dioxide.\n3. **Electron Transport Chain**: Also in the mitochondria, this final step produces the vast majority of cellular ATP, requiring oxygen to function properly.\n\nIf the body has more glucose than it immediately needs, it converts the extra sugar into **glycogen** through glycogenesis, storing it mainly in the liver and skeletal muscles. When blood sugar drops, glycogen is broken back down into glucose via glycogenolysis."
+      "title": "Role of ATP in Cellular Energy",
+      "content": "Adenosine triphosphate, or **ATP**, serves as the universal energy currency for all cellular activities. Structurally, it consists of an adenine base, a ribose sugar, and three phosphate groups. Energy is stored within the high-energy bonds linking these phosphate groups. When a cell requires energy, the terminal phosphate bond is cleaved through hydrolysis, converting **ATP** into **ADP** and releasing free energy to drive unfavorable biological reactions."
     },
     {
       "heading_id": "GNS121_U1_T8_h4",
       "order": 4,
-      "title": "Lipid Metabolism",
-      "content": "Lipids, primarily in the form of triglycerides, serve as the body's largest and most efficient long-term energy reserve. Gram for gram, fats provide more than double the amount of energy compared to carbohydrates or proteins.\n\nWhen energy is needed, triglycerides are broken down through **lipolysis** into glycerol and fatty acids. Glycerol can enter the standard glycolysis pathway, while fatty acids undergo a process called **beta-oxidation** inside the mitochondria. Beta-oxidation chops the long fatty acid chains into two-carbon pieces that feed directly into the Krebs cycle, generating large amounts of ATP.\n\nWhen carbohydrate supplies are very low—such as during starvation or uncontrolled diabetes—the liver processes excess fatty acids into **ketone bodies**. While the brain and heart can use ketones for fuel, high levels of ketones can acidify the blood, leading to a dangerous condition called ketoacidosis."
+      "title": "Carbohydrate Metabolism",
+      "content": "Carbohydrate breakdown begins with **glycolysis**, a ten-step anaerobic pathway occurring in the cytoplasm that converts glucose into pyruvate while generating a small amount of **ATP**. In the presence of oxygen, pyruvate enters the mitochondria, where the **Krebs cycle** and **oxidative phosphorylation** yield a large harvest of energy. Excess glucose can be stored as **glycogen** through glycogenesis, primarily in the liver and skeletal muscles."
     },
     {
       "heading_id": "GNS121_U1_T8_h5",
       "order": 5,
-      "title": "Protein Metabolism",
-      "content": "Proteins are rarely used primarily for energy because their main job is building and maintaining body structures, enzymes, hormones, and antibodies. However, during times of prolonged starvation or extreme caloric restriction, the body will break down muscle and other tissues for fuel.\n\nUnlike carbohydrates and fats, proteins contain nitrogen. When amino acids are broken down for energy or converted into other molecules, the nitrogen-containing amine group must be removed first in a process called **deamination**. This creates toxic **ammonia**. To protect the body, the liver swiftly converts this harmful ammonia into urea, which is then filtered out of the blood by the kidneys and excreted in the urine.\n\nThe remaining carbon skeletons from the broken-down amino acids can enter cellular respiration pathways to generate ATP or be converted into glucose or fats."
+      "title": "Lipid Metabolism",
+      "content": "Lipids provide a dense, highly concentrated source of stored energy. Through **beta-oxidation**, fatty acids are broken down in the mitochondrial matrix into two-carbon acetyl units that enter the Krebs cycle. When carbohydrate availability is severely restricted, the liver converts excess acetyl groups into **ketone bodies**, which serve as an alternative fuel source for the brain and other tissues during prolonged fasting or starvation."
     },
     {
       "heading_id": "GNS121_U1_T8_h6",
       "order": 6,
-      "title": "Basal Metabolic Rate and Energy Balance",
-      "content": "Energy balance is the relationship between the calories taken into the body through food and the calories expended through daily living. **Basal Metabolic Rate (BMR)** represents the minimum number of calories your body needs just to keep you alive while resting in a warm, fasting state—powering involuntary functions like breathing, heart beating, and brain activity.\n\nTotal daily energy expenditure is made up of three main components:\n1. **BMR**: Makes up the largest share (about 60-75%) of total daily calorie burning.\n2. **Physical Activity**: Includes all voluntary movements, from simple fidgeting to intense gym workouts.\n3. **Thermic Effect of Food**: The energy required by the body to digest, absorb, and process the nutrients you eat.\n\nWhen calorie intake matches total energy expenditure, body weight remains stable. Consuming more calories than you burn leads to weight gain, while a sustained calorie deficit forces the body to burn stored fat and glycogen, resulting in weight loss."
+      "title": "Protein Metabolism",
+      "content": "Proteins are rarely used as a primary energy source, functioning instead as structural elements, enzymes, and hormones. Dietary proteins are digested into **amino acids**, which are then utilized to synthesize new body proteins. When amino acids are in excess or during starvation, they undergo **deamination** in the liver, where the amino group is removed to form **urea**, leaving a carbon skeleton that can enter energy pathways."
     },
     {
       "heading_id": "GNS121_U1_T8_h7",
       "order": 7,
+      "title": "Basal Metabolic Rate and Energy Balance",
+      "content": "**Basal metabolic rate (BMR)** represents the minimum amount of energy required by the body to maintain basic physiological functions while at rest. Energy balance is achieved when total caloric intake equals total energy expenditure, which includes BMR, the thermic effect of food, and physical activity. A positive energy balance leads to weight gain as excess calories are stored as fat, while a negative balance results in weight loss."
+    },
+    {
+      "heading_id": "GNS121_U1_T8_h8",
+      "order": 8,
       "title": "Clinical Implications and Metabolic Disorders",
-      "content": "Metabolic processes can sometimes falter due to genetic defects, hormonal imbalances, or lifestyle factors. Understanding these disorders helps nurses recognize clinical signs and provide proper patient care.\n\n- **Diabetes Mellitus**: A major metabolic disorder involving insulin. Type 1 diabetes is characterized by an autoimmune destruction of insulin-producing pancreatic beta cells, while Type 2 involves insulin resistance where cells fail to respond properly to insulin.\n- **Phenylketonuria (PKU)**: A genetic metabolic disorder where the body lacks the enzyme needed to break down the amino acid phenylalanine, leading to toxic buildup and potential intellectual disability if untreated.\n- **Metabolic Syndrome**: A cluster of conditions—including high blood pressure, high blood sugar, excess waist fat, and abnormal cholesterol levels—that significantly increase the risk of heart disease and stroke.\n\nNurses monitor metabolic status through blood glucose checks, lipid panels, and electrolyte tests to catch imbalances early and guide therapeutic interventions."
+      "content": "Inborn errors of metabolism occur due to genetic defects that disrupt specific enzymatic pathways, such as **phenylketonuria (PKU)**. Acquired metabolic disorders, like **type 2 diabetes mellitus**, involve cellular resistance to insulin, disrupting normal carbohydrate and lipid processing. Nurses must monitor blood glucose levels, assess nutritional status, and educate patients on dietary modifications to manage these conditions effectively."
     }
   ]
 }
