@@ -10,44 +10,38 @@
     {
       "heading_id": "GNS123_U2_T14_h1",
       "order": 1,
-      "title": "Introduction to Positron Emission Tomography (PET)",
-      "content": "Positron Emission Tomography, commonly known as **PET**, is an advanced nuclear medicine imaging test that looks at how tissues and organs function inside the body. While standard X-rays, CT scans, and MRIs mainly show physical structures and anatomy, a PET scan reveals chemical and metabolic changes happening at the cellular level. This allows healthcare providers to detect disease processes long before physical changes appear on a regular CT or MRI scan. The scanner detects pairs of gamma rays emitted indirectly by a radioactive tracer injected into the patient's body. By mapping these signals, the imaging system creates colorful, three-dimensional maps showing areas of high chemical activity, such as rapidly dividing cancer cells or working heart muscle."
+      "title": "Introduction and Underlying Principles of PET",
+      "content": "Positron Emission Tomography is an advanced nuclear medicine imaging technique that visualizes metabolic and biochemical changes in living tissues. Unlike standard X-rays or computed tomography scans that only show static anatomical structures, a PET scan reveals how organs and tissues are functioning at a cellular level.\n\nThe procedure relies on the administration of a **radiopharmaceutical**, which is a safe, short-lived radioactive tracer attached to a natural body compound like glucose. As the tracer breaks down inside the body, it emits tiny particles called **positrons**. When a positron collides with an electron, they annihilate each other and release a pair of gamma photons shooting in opposite directions. The PET scanner ring detects these gamma rays to create a detailed, colorful map showing areas of high and low metabolic activity."
     },
     {
       "heading_id": "GNS123_U2_T14_h2",
       "order": 2,
-      "title": "Underlying Principles and Radiopharmaceuticals",
-      "content": "At the heart of every PET scan is a **radiopharmaceutical**, which is a safe, radioactive chemical attached to a natural body compound like glucose. The most commonly used tracer is **fluorodeoxyglucose (FDG)**. Because active cells like cancer cells or brain tissue consume a lot of sugar, they take up large amounts of FDG. \n\nWhen the radioactive atom inside the tracer decays, it releases a positive electron called a **positron**. This positron quickly collides with a regular electron in the body, causing an annihilation event that shoots out two gamma rays in opposite directions. The PET scanner rings detect these simultaneous gamma rays, allowing the computer to pinpoint exactly where the tracer went in the body."
+      "title": "Radiopharmaceuticals and Tracer Dynamics",
+      "content": "- **Fluorodeoxyglucose (FDG)**: The most common tracer used in clinical practice, acting like glucose to highlight high-energy cells such as cancer cells or active brain regions.\n- **Radiotracer half-life**: The duration it takes for half of the radioactive material to decay, which is typically very short (around 110 minutes for fluorine-18).\n- **Uptake period**: The mandatory resting time required between injecting the tracer and starting the scan so the compound can accumulate in target tissues.\n- **Excretion pathway**: Most radiopharmaceuticals are cleared safely from the body through the renal system into the urine."
     },
     {
       "heading_id": "GNS123_U2_T14_h3",
       "order": 3,
-      "title": "Indications and Clinical Uses in Medical-Surgical Nursing",
-      "content": "Medical-surgical nurses care for patients undergoing PET scans across three major clinical fields: oncology, neurology, and cardiology. \n\n- **Oncology**: Used for staging cancers, checking if a tumor has spread, evaluating how well chemotherapy is working, and spotting a recurrence.\n- **Neurology**: Helps diagnose brain disorders like Alzheimer's disease, epilepsy, and Parkinson's disease by showing areas of decreased brain activity.\n- **Cardiology**: Identifies viable heart muscle tissue after a heart attack to see if a patient will benefit from revascularization procedures.\n\nA common misconception is that PET scans can only diagnose cancer; in reality, they are powerful tools for evaluating living heart tissue and complex neurological conditions as well."
+      "title": "Clinical Indications in Medical-Surgical Nursing",
+      "content": "PET imaging plays a vital role across multiple medical-surgical specialties by guiding diagnosis, staging, and treatment evaluation. In oncology, it helps detect primary tumors, assess metastasis, and determine if chemotherapy is working. In neurology, it assists in mapping seizure foci and evaluating neurodegenerative conditions like Alzheimer's disease. Cardiology utilizes PET to identify viable myocardial tissue following a myocardial infarction, helping physicians decide if revascularization will benefit the patient."
     },
     {
       "heading_id": "GNS123_U2_T14_h4",
       "order": 4,
       "title": "Pre-Procedure Patient Preparation and Assessment",
-      "content": "Proper preparation is vital because any excess blood sugar will compete with the radiopharmaceutical and ruin the scan quality. Nurses must enforce strict dietary and activity restrictions before the test.\n\n- **Fasting**: Patients must fast for 4 to 6 hours before the tracer injection, allowing baseline blood glucose levels to drop.\n- **Carbohydrate restriction**: Patients should avoid sugar, bread, pasta, and sweet drinks the day before the test.\n- **Blood glucose check**: The nurse must check blood glucose before injecting FDG; if sugar levels are too high, the test may need to be rescheduled.\n- **Medication review**: Insulin and oral diabetic medications must be managed carefully according to hospital protocol.\n- **Hydration**: Patients are usually encouraged to drink plenty of water to help flush unused tracer from the bladder."
+      "content": "Thorough preparation ensures accurate scan results and prevents procedure cancellation. Nurses must instruct patients to fast for four to six hours prior to the appointment, though drinking plain water is strongly encouraged. \n\nBlood glucose monitoring is critical for diabetic patients. If blood sugar levels are excessively high, circulating glucose will compete with the FDG tracer, resulting in a false-negative or uninterpretable scan. Strenuous exercise should be avoided for 24 hours before the test. Nurses must also screen for claustrophobia, pregnancy, and breastfeeding status, providing reassurance and necessary accommodations."
     },
     {
       "heading_id": "GNS123_U2_T14_h5",
       "order": 5,
       "title": "Intra-Procedure Care and Nursing Responsibilities",
-      "content": "Once the radiopharmaceutical is injected, the nursing focus shifts to the uptake phase and the actual scanning process. The patient must rest quietly in a dimly lit, comfortable room for 45 to 60 minutes while the tracer travels through the bloodstream and enters the cells. During this uptake period, talking, reading, chewing, or moving should be kept to an absolute minimum, especially if a brain or head scan is ordered, because muscle activity uses glucose and will light up the scan unnecessarily. \n\nAfter the uptake period, the patient voids their bladder to reduce radiation exposure to the pelvic area and lies on the scanner bed. The machine makes very little noise compared to a noisy MRI, but the patient must remain completely still during the imaging session, which lasts between 30 and 45 minutes."
+      "content": "During the uptake phase, the patient rests quietly in a dimly lit, comfortable room for 45 to 60 minutes. The nurse ensures the room is warm and quiet to minimize muscle tension and brown fat activation. \n\nOnce the uptake period concludes, the patient voids their bladder immediately before entering the scanner room to reduce radiation exposure to the pelvic organs and eliminate motion artifacts from a full bladder. The scan itself takes about 30 to 45 minutes, during which the patient must remain completely still while the table moves through the ring-shaped detector."
     },
     {
       "heading_id": "GNS123_U2_T14_h6",
       "order": 6,
-      "title": "Post-Procedure Care, Radiation Safety, and Monitoring",
-      "content": "After the PET scan concludes, nursing care centers on safe discharge and reducing radiation exposure to staff, family members, and the public. Although the radioactive material used has a very short half-life, a small amount remains in the body temporarily. \n\n- **Hydration**: Encourage the patient to drink plenty of fluids to flush the remaining tracer out through the urine quickly.\n- **Time and distance**: Limit prolonged, close physical contact with pregnant women and infants for several hours after the procedure as a precaution.\n- **Hygiene**: Instruct the patient to flush the toilet twice after use and wash their hands thoroughly.\n- **Monitoring**: Assess the intravenous site for any signs of infiltration or irritation, though adverse reactions to the tracer itself are extremely rare."
-    },
-    {
-      "heading_id": "GNS123_U2_T14_h7",
-      "order": 7,
-      "title": "Interpreting Results and Complications Management",
-      "content": "Interpreting a PET scan requires specialized training in nuclear medicine and radiology. Images are evaluated based on the degree of tracer uptake, which is often measured using a standard metric called the **Standardized Uptake Value (SUV)**. A high SUV indicates high metabolic activity, which points toward malignancy, inflammation, or infection. \n\nNurses must remember that PET scans are not 100 percent specific for cancer. Non-malignant conditions like healing wounds, severe inflammation, or active infections can also cause high glucose uptake and lead to false-positive results. Conversely, very slow-growing tumors may show low tracer uptake, resulting in false-negative findings. Managing the patient after the scan involves coordinating follow-up appointments with specialists to correlate PET findings with biopsies, blood tests, and clinical history."
+      "title": "Post-Procedure Care and Radiation Safety",
+      "content": "Radiation safety principles guide the immediate post-procedure period. Although the radiopharmaceutical decays rapidly, nurses must educate patients on simple precautions to protect family members and hospital staff.\n\nPatients should drink plenty of fluids after the scan to flush residual radioactive material out of their bladder through frequent urination. For the remainder of the day, patients are advised to limit prolonged, close contact with pregnant women and infants as a precautionary measure. Standard hand hygiene after using the restroom is sufficient for decontamination."
     }
   ]
 }
