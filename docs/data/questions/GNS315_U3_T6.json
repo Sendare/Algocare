@@ -5,15 +5,15 @@
     "article_id": "GNS315_U3_T6",
     "topic_id": "GNS315_U3_T6",
     "difficulty": "recall",
-    "question": "What is the main job of a mechanical ventilator in the hospital ward?",
+    "question": "What is a primary indication for starting mechanical ventilation in a patient?",
     "options": {
-      "A": "To support or replace spontaneous breathing",
-      "B": "To permanently eliminate the need for oxygen therapy",
-      "C": "To cure underlying pulmonary infections",
-      "D": "To lower systemic blood pressure safely"
+      "A": "Mild chronic iron deficiency anemia",
+      "B": "Severe respiratory muscle fatigue",
+      "C": "Isolated upper limb bone fractures",
+      "D": "Stable controlled essential hypertension"
     },
-    "answer": "A",
-    "explanation": "Think of the ventilator as an extra pair of lungs for patients who are too tired or sick to breathe well on their own. It takes over or helps out until they recover! [learn more](GNS315_U3_T6#GNS315_U3_T6_h1)"
+    "answer": "B",
+    "explanation": "Respiratory muscle fatigue leads to inadequate ventilation and rising carbon dioxide levels, requiring mechanical support. [learn more](GNS315_U3_T6#GNS315_U3_T6_h1)"
   },
   {
     "question_id": "GNS315_U3_T6_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GNS315_U3_T6",
     "topic_id": "GNS315_U3_T6",
     "difficulty": "understanding",
-    "question": "Why would a patient who took a severe drug overdose be put on a mechanical ventilator?",
+    "question": "Why is mechanical ventilation initiated in patients with severe head injury?",
     "options": {
-      "A": "Reversal of central nervous system toxicity",
-      "B": "Immediate elimination of the drug from the lungs",
-      "C": "Airway protection and respiratory support",
-      "D": "Prevention of future drug dependency"
+      "A": "To prevent deep vein thrombosis in the legs",
+      "B": "To stimulate rapid production of red blood cells",
+      "C": "To protect the airway and maintain brain oxygenation",
+      "D": "To lower systemic blood pressure instantly"
     },
     "answer": "C",
-    "explanation": "When someone is deeply unconscious from an overdose, their body forgets to protect its own airway. The ventilator keeps them breathing safely and stops any spit or vomit from entering their lungs. [learn more](GNS315_U3_T6#GNS315_U3_T6_h1)"
+    "explanation": "Unconscious trauma patients lose protective airway reflexes and are at high risk of aspiration and hypoxia. [learn more](GNS315_U3_T6#GNS315_U3_T6_h1)"
   },
   {
     "question_id": "GNS315_U3_T6_h2_q1",
@@ -37,15 +37,15 @@
     "article_id": "GNS315_U3_T6",
     "topic_id": "GNS315_U3_T6",
     "difficulty": "recall",
-    "question": "Which ventilator mode gives a set volume when the patient tries to breathe, but also guarantees a minimum backup rate if they get too tired?",
+    "question": "How does normal spontaneous breathing draw air into the lungs?",
     "options": {
-      "A": "Control mode",
-      "B": "Assist-Control mode",
-      "C": "Continuous Positive Airway Pressure",
-      "D": "Pressure Support mode"
+      "A": "Creating negative intrapleural pressure",
+      "B": "Pumping air directly using heart muscle",
+      "C": "Applying high positive pressure externally",
+      "D": "Opening the chest wall to room air"
     },
-    "answer": "B",
-    "explanation": "In Assist-Control mode, the machine is always watching: if the patient breathes, the machine helps out with a full breath. If the patient stops trying, the machine's timer steps in to breathe for them! [learn more](GNS315_U3_T6#GNS315_U3_T6_h2)"
+    "answer": "A",
+    "explanation": "Contraction of the diaphragm expands the thoracic cavity, creating negative pressure that pulls air inward. [learn more](GNS315_U3_T6#GNS315_U3_T6_h2)"
   },
   {
     "question_id": "GNS315_U3_T6_h2_q2",
@@ -53,15 +53,15 @@
     "article_id": "GNS315_U3_T6",
     "topic_id": "GNS315_U3_T6",
     "difficulty": "understanding",
-    "question": "How does SIMV (Synchronized Intermittent Mandatory Ventilation) differ from Assist-Control mode?",
+    "question": "What effect does positive pressure ventilation have on the cardiovascular system?",
     "options": {
-      "A": "SIMV delivers breaths only when the patient makes zero respiratory effort",
-      "B": "SIMV allows spontaneous breaths between mandatory machine breaths without extra volume support",
-      "C": "SIMV is only used for patients who are paralyzed or heavily sedated",
-      "D": "SIMV completely controls every single breath the patient takes without exception"
+      "A": "Increases overall cardiac output immediately",
+      "B": "Stops blood flow to the lower limbs",
+      "C": "Causes severe enlargement of the left ventricle",
+      "D": "Decreases venous return to the heart"
     },
-    "answer": "B",
-    "explanation": "SIMV gives the patient a bit of freedom! The machine gives scheduled breaths, but in between those, the patient can take their own natural breaths without the machine forcing extra air. [learn more](GNS315_U3_T6#GNS315_U3_T6_h2)"
+    "answer": "D",
+    "explanation": "Raised pressure inside the chest impedes blood flow back to the right atrium, reducing cardiac output. [learn more](GNS315_U3_T6#GNS315_U3_T6_h2)"
   },
   {
     "question_id": "GNS315_U3_T6_h3_q1",
@@ -69,31 +69,31 @@
     "article_id": "GNS315_U3_T6",
     "topic_id": "GNS315_U3_T6",
     "difficulty": "recall",
-    "question": "When setting up a ventilator for an adult patient, which measurement is used to calculate the starting tidal volume?",
+    "question": "Which mode allows a patient to take spontaneous breaths between mandatory machine deliveries?",
     "options": {
-      "A": "Actual admission weight",
-      "B": "Height plus blood pressure",
-      "C": "Total body surface area",
-      "D": "Ideal body weight"
+      "A": "Continuous Positive Airway Pressure mode",
+      "B": "High Frequency Oscillatory Ventilation",
+      "C": "Controlled Mandatory Ventilation setup",
+      "D": "Synchronized Intermittent Mandatory Ventilation"
     },
     "answer": "D",
-    "explanation": "Lung size depends on a person's skeletal frame and height, not extra body fat. That's why we use ideal body weight to avoid overinflating their lungs! [learn more](GNS315_U3_T6#GNS315_U3_T6_h3)"
+    "explanation": "SIMV delivers preset breaths synchronized with patient effort while allowing spontaneous breaths in between. [learn more](GNS315_U3_T6#GNS315_U3_T6_h3)"
   },
   {
     "question_id": "GNS315_U3_T6_h3_q2",
     "heading_id": "GNS315_U3_T6_h3",
     "article_id": "GNS315_U3_T6",
     "topic_id": "GNS315_U3_T6",
-    "difficulty": "application",
-    "question": "When a patient is newly connected to a ventilator, what is the most common starting PEEP (Positive End-Expiratory Pressure) setting used to keep small air sacs open?",
+    "difficulty": "understanding",
+    "question": "When is Pressure Support Ventilation most commonly utilized for a patient?",
     "options": {
-      "A": "20 cmH2O",
-      "B": "5 cmH2O",
-      "C": "0 cmH2O",
-      "D": "50 cmH2O"
+      "A": "During the weaning phase to assist spontaneous breaths",
+      "B": "To deliver full mechanical breaths to a cardiac arrest victim",
+      "C": "When the patient is completely paralyzed and heavily sedated",
+      "D": "As an initial emergency setting for severe airway obstruction"
     },
-    "answer": "B",
-    "explanation": "A baseline PEEP of 5 cmH2O acts like a gentle cushion at the end of each breath, stopping tiny air sacs (alveoli) from collapsing so breathing stays easier. [learn more](GNS315_U3_T6#GNS315_U3_T6_h3)"
+    "answer": "A",
+    "explanation": "Pressure support helps overcome airway resistance during spontaneous breathing trials before extubation. [learn more](GNS315_U3_T6#GNS315_U3_T6_h3)"
   },
   {
     "question_id": "GNS315_U3_T6_h4_q1",
@@ -101,15 +101,15 @@
     "article_id": "GNS315_U3_T6",
     "topic_id": "GNS315_U3_T6",
     "difficulty": "recall",
-    "question": "What is the most common cause of a high-pressure ventilator alarm?",
+    "question": "What parameter is used to calculate safe tidal volume settings for ventilated patients?",
     "options": {
-      "A": "A sudden massive air leak in the circuit",
-      "B": "The patient has stopped breathing completely",
-      "C": "Obstruction, coughing, or tube kinking",
-      "D": "Disconnection of the ventilator tubing"
+      "A": "Predicted body weight",
+      "B": "Total body surface area",
+      "C": "Current blood pressure",
+      "D": "Actual body weight"
     },
-    "answer": "C",
-    "explanation": "A high-pressure alarm means the machine is struggling to push air in because something is blocking the path—like thick mucus, the patient biting the tube, or a kink in the tubing. [learn more](GNS315_U3_T6#GNS315_U3_T6_h4)"
+    "answer": "A",
+    "explanation": "Predicted body weight based on height and sex prevents lung injury caused by oversized tidal volumes in obese patients. [learn more](GNS315_U3_T6#GNS315_U3_T6_h4)"
   },
   {
     "question_id": "GNS315_U3_T6_h4_q2",
@@ -117,15 +117,15 @@
     "article_id": "GNS315_U3_T6",
     "topic_id": "GNS315_U3_T6",
     "difficulty": "understanding",
-    "question": "What is the very first thing you should do as a nurse when a ventilator alarm sounds?",
+    "question": "What is the primary purpose of applying positive end-expiratory pressure?",
     "options": {
-      "A": "Check the patient directly and assess circuit connections",
-      "B": "Call the physician immediately to request new settings",
-      "C": "Silence the alarm permanently at the main console",
-      "D": "Increase the oxygen percentage to 100 percent"
+      "A": "Flushing excess carbon dioxide out of the circuit",
+      "B": "Preventing alveoli from collapsing at end-expiration",
+      "C": "Increasing the heart rate during severe bradycardia",
+      "D": "Lowering the total daily fluid intake requirements"
     },
-    "answer": "A",
-    "explanation": "Always check the human before the machine! Walk straight to the bedside to make sure the patient is safe and the breathing tube hasn't popped loose. [learn more](GNS315_U3_T6#GNS315_U3_T6_h4)"
+    "answer": "B",
+    "explanation": "Positive end-expiratory pressure maintains residual lung volume, stabilizing fragile alveoli and enhancing oxygen exchange. [learn more](GNS315_U3_T6#GNS315_U3_T6_h4)"
   },
   {
     "question_id": "GNS315_U3_T6_h5_q1",
@@ -133,15 +133,15 @@
     "article_id": "GNS315_U3_T6",
     "topic_id": "GNS315_U3_T6",
     "difficulty": "recall",
-    "question": "To prevent lung infections in a patient on a ventilator, what angle should the head of their bed be elevated?",
+    "question": "What physical check helps confirm correct placement of an endotracheal tube?",
     "options": {
-      "A": "90 degrees upright",
-      "B": "0 to 10 degrees",
-      "C": "60 to 75 degrees",
-      "D": "30 to 45 degrees"
+      "A": "Checking capillary refill time in the fingers",
+      "B": "Assessing deep tendon reflexes in the knees",
+      "C": "Measuring abdominal girth every four hours",
+      "D": "Equal bilateral chest expansion and breath sounds"
     },
     "answer": "D",
-    "explanation": "Keeping the bed raised between 30 and 45 degrees uses gravity to stop oral secretions and stomach contents from sliding down into the lungs. Simple and life-saving! [learn more](GNS315_U3_T6#GNS315_U3_T6_h5)"
+    "explanation": "Equal breath sounds and chest rise confirm the tube is in the trachea and not slipped into the right mainstem bronchus. [learn more](GNS315_U3_T6#GNS315_U3_T6_h5)"
   },
   {
     "question_id": "GNS315_U3_T6_h5_q2",
@@ -149,15 +149,15 @@
     "article_id": "GNS315_U3_T6",
     "topic_id": "GNS315_U3_T6",
     "difficulty": "understanding",
-    "question": "Why should you suction a patient's breathing tube based on clinical need rather than a strict routine schedule?",
+    "question": "Why should ventilator alarm systems never be silenced or turned off?",
     "options": {
-      "A": "Suctioning can cause mucosal trauma, bleeding, and oxygen desaturation",
-      "B": "Mucus production completely stops once a patient is intubated",
-      "C": "Strict schedules increase the cost of disposable suction catheters",
-      "D": "Scheduled suctioning causes the ventilator to malfunction"
+      "A": "Hospital regulations strictly fine units that disable monitor alarms",
+      "B": "Alarms warn clinicians of life-threatening airway or circuit problems",
+      "C": "Silence prevents the patient from sleeping peacefully at night",
+      "D": "Modern machines break down permanently if alarms are muted"
     },
-    "answer": "A",
-    "explanation": "Suctioning is rough on the delicate lining of the windpipe and temporarily steals oxygen. We only do it when we actually hear or see secretions, protecting our patient from unnecessary harm. [learn more](GNS315_U3_T6#GNS315_U3_T6_h5)"
+    "answer": "B",
+    "explanation": "Alarms alert staff to dangerous events like tube disconnection, obstruction, or sudden high airway pressures. [learn more](GNS315_U3_T6#GNS315_U3_T6_h5)"
   },
   {
     "question_id": "GNS315_U3_T6_h6_q1",
@@ -165,15 +165,15 @@
     "article_id": "GNS315_U3_T6",
     "topic_id": "GNS315_U3_T6",
     "difficulty": "recall",
-    "question": "Which complication happens when high ventilator pressures cause tiny air sacs to rupture and air leaks into the chest cavity?",
+    "question": "At what angle should the head of the bed be maintained for a ventilated patient?",
     "options": {
-      "A": "Pulmonary edema",
-      "B": "Atelectasis",
-      "C": "Pneumothorax",
-      "D": "Pleural effusion"
+      "A": "60 to 75 degrees",
+      "B": "90 degrees upright",
+      "C": "0 degrees flat",
+      "D": "30 to 45 degrees"
     },
-    "answer": "C",
-    "explanation": "Too much pressure can pop overstretched alveoli, letting air leak into the space around the lung and causing it to collapse (a pneumothorax). [learn more](GNS315_U3_T6#GNS315_U3_T6_h6)"
+    "answer": "D",
+    "explanation": "Elevating the head of the bed prevents gastric contents from aspirating into the lungs and causing pneumonia. [learn more](GNS315_U3_T6#GNS315_U3_T6_h6)"
   },
   {
     "question_id": "GNS315_U3_T6_h6_q2",
@@ -181,46 +181,78 @@
     "article_id": "GNS315_U3_T6",
     "topic_id": "GNS315_U3_T6",
     "difficulty": "understanding",
-    "question": "Why can high levels of positive pressure ventilation sometimes cause a patient's blood pressure to drop?",
+    "question": "Which practice is recommended when performing endotracheal suctioning?",
     "options": {
-      "A": "It increases the heart rate so high that filling time is eliminated",
-      "B": "It increases pressure inside the chest, which reduces blood return to the heart",
-      "C": "It forces fluid directly out of the vascular system into the tissues",
-      "D": "It directly causes systemic vasodilation through chemical release"
+      "A": "Using sterile technique only when secretions are present",
+      "B": "Suctioning for a duration of sixty seconds per attempt",
+      "C": "Applying continuous suction while inserting the catheter",
+      "D": "Instilling normal saline routinely before every single pass"
     },
-    "answer": "B",
-    "explanation": "Think of the chest as a closed box. Pumping too much air in crowds the major veins, making it harder for blood to flow back to the heart, which dips the blood pressure. [learn more](GNS315_U3_T6#GNS315_U3_T6_h6)"
+    "answer": "A",
+    "explanation": "Suctioning should be done based on clinical need with sterile technique to prevent infection and mucosal trauma. [learn more](GNS315_U3_T6#GNS315_U3_T6_h6)"
   },
   {
     "question_id": "GNS315_U3_T6_h7_q1",
     "heading_id": "GNS315_U3_T6_h7",
     "article_id": "GNS315_U3_T6",
     "topic_id": "GNS315_U3_T6",
-    "difficulty": "recall",
-    "question": "What test is commonly used to check if a patient is strong enough to come off mechanical ventilation?",
+    "difficulty": "understanding",
+    "question": "What is the immediate nursing action if a ventilated patient suddenly becomes cyanotic and the high-pressure alarm sounds persistently?",
     "options": {
-      "A": "Arterial blood gas challenge",
-      "B": "Continuous positive pressure test",
-      "C": "Pulmonary function spirometry",
-      "D": "Spontaneous breathing trial"
+      "A": "Disconnect and manually ventilate with a bag-valve-mask",
+      "B": "Increase the fraction of inspired oxygen dial to maximum",
+      "C": "Silence the alarm and wait for the respiratory therapist",
+      "D": "Administer a stat dose of intravenous furosemide"
     },
-    "answer": "D",
-    "explanation": "A spontaneous breathing trial lets the patient test-drive their own lungs with very little machine help for a short period to see if they are ready to breathe entirely on their own. [learn more](GNS315_U3_T6#GNS315_U3_T6_h7)"
+    "answer": "A",
+    "explanation": "Manual ventilation bypasses machine failure and allows the nurse to assess lung compliance and restore oxygenation quickly. [learn more](GNS315_U3_T6#GNS315_U3_T6_h7)"
   },
   {
     "question_id": "GNS315_U3_T6_h7_q2",
     "heading_id": "GNS315_U3_T6_h7",
     "article_id": "GNS315_U3_T6",
     "topic_id": "GNS315_U3_T6",
-    "difficulty": "application",
-    "question": "During a weaning trial, which sign tells you that the patient is struggling and needs ventilator support put back on?",
+    "difficulty": "recall",
+    "question": "Which condition is classified as a mechanical complication of positive pressure ventilation?",
     "options": {
-      "A": "A stable heart rate of 80 beats per minute",
-      "B": "Use of accessory muscles and heavy sweating",
-      "C": "An oxygen saturation level remaining at 96 percent",
-      "D": "Calm restfulness with normal breathing rhythm"
+      "A": "Tension pneumothorax",
+      "B": "Acute appendicitis",
+      "C": "Iron deficiency anemia",
+      "D": "Essential hypertension"
+    },
+    "answer": "A",
+    "explanation": "High airway pressures can rupture alveoli, causing air to leak into the pleural space and form a pneumothorax. [learn more](GNS315_U3_T6#GNS315_U3_T6_h7)"
+  },
+  {
+    "question_id": "GNS315_U3_T6_h8_q1",
+    "heading_id": "GNS315_U3_T6_h8",
+    "article_id": "GNS315_U3_T6",
+    "topic_id": "GNS315_U3_T6",
+    "difficulty": "recall",
+    "question": "What test is commonly used to assess a patient's readiness for extubation?",
+    "options": {
+      "A": "Barium swallow motility study",
+      "B": "Spontaneous breathing trial",
+      "C": "Full neurological reflex scan",
+      "D": "Routine 12-lead ECG recording"
     },
     "answer": "B",
-    "explanation": "If you see a patient sweating, working hard with their neck and chest muscles, and breathing frantically, their muscles are exhausted. It's time to put the machine back on support! [learn more](GNS315_U3_T6#GNS315_U3_T6_h7)"
+    "explanation": "A spontaneous breathing trial tests whether the patient can sustain adequate ventilation without machine assistance. [learn more](GNS315_U3_T6#GNS315_U3_T6_h8)"
+  },
+  {
+    "question_id": "GNS315_U3_T6_h8_q2",
+    "heading_id": "GNS315_U3_T6_h8",
+    "article_id": "GNS315_U3_T6",
+    "topic_id": "GNS315_U3_T6",
+    "difficulty": "understanding",
+    "question": "Why is the endotracheal tube cuff deflated during the extubation process?",
+    "options": {
+      "A": "To check if the patient can swallow water safely",
+      "B": "To prevent trauma to the vocal cords during removal",
+      "C": "To increase positive end-expiratory pressure in the trachea",
+      "D": "To allow easier administration of oral medications afterward"
+    },
+    "answer": "B",
+    "explanation": "Deflating the cuff ensures that any secretions resting above it are cleared and prevents friction against the vocal cords. [learn more](GNS315_U3_T6#GNS315_U3_T6_h8)"
   }
 ]

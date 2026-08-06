@@ -1,19 +1,35 @@
 [
   {
+    "question_id": "GST321_U1_T15_h1_q1",
+    "heading_id": "GST321_U1_T15_h1",
+    "article_id": "GST321_U1_T15",
+    "topic_id": "GST321_U1_T15",
+    "difficulty": "recall",
+    "question": "What core responsibility does a registered nurse retain after delegating a task?",
+    "options": {
+      "A": "Immediate dismissal of incompetent staff",
+      "B": "Direct execution of all bedside procedures",
+      "C": "Financial liability for facility equipment use",
+      "D": "Professional accountability for the patient outcome"
+    },
+    "answer": "D",
+    "explanation": "Even when a task is transferred to another worker, the registered nurse keeps ultimate accountability for the quality of care provided. [learn more](GST321_U1_T15#GST321_U1_T15_h1)"
+  },
+  {
     "question_id": "GST321_U1_T15_h1_q2",
     "heading_id": "GST321_U1_T15_h1",
     "article_id": "GST321_U1_T15",
     "topic_id": "GST321_U1_T15",
     "difficulty": "understanding",
-    "question": "Why is delegation such a helpful skill for nurses on a busy ward?",
+    "question": "Why is delegation necessary in busy clinical environments?",
     "options": {
-      "A": "It allows nurses to manage workload by sharing routine care tasks safely",
-      "B": "It prevents junior staff from learning advanced clinical procedures",
-      "C": "It eliminates the need for any direct patient assessment by the nurse",
-      "D": "It completely removes nursing liability from ward management"
+      "A": "It optimizes the utilization of available nursing manpower",
+      "B": "It reduces the need for patient assessments by nurses",
+      "C": "It shifts all legal blame entirely to support staff",
+      "D": "It eliminates the requirement for nurse supervision"
     },
     "answer": "A",
-    "explanation": "Delegation isn't about passing the buck; it's about teamwork! It helps spread out daily care duties so every patient gets timely attention. [learn more](GST321_U1_T15#GST321_U1_T15_h1)"
+    "explanation": "Task sharing helps distribute workloads so that professional nurses can focus on complex clinical decisions. [learn more](GST321_U1_T15#GST321_U1_T15_h1)"
   },
   {
     "question_id": "GST321_U1_T15_h2_q1",
@@ -21,31 +37,31 @@
     "article_id": "GST321_U1_T15",
     "topic_id": "GST321_U1_T15",
     "difficulty": "recall",
-    "question": "Which of the following is one of the famous 'five rights' of clinical delegation?",
+    "question": "Which of the Five Rights involves confirming that a staff member has the correct training?",
     "options": {
-      "A": "Right ward location",
-      "B": "Right circumstance",
-      "C": "Right financial cost",
-      "D": "Right shift timing"
+      "A": "Right Task",
+      "B": "Right Person",
+      "C": "Right Direction",
+      "D": "Right Circumstance"
     },
     "answer": "B",
-    "explanation": "Always remember the five rights: right task, right circumstance, right person, right direction, and right supervision! [learn more](GST321_U1_T15#GST321_U1_T15_h2)"
+    "explanation": "The right person principle requires checking that the individual receiving the assignment is actually competent to perform it. [learn more](GST321_U1_T15#GST321_U1_T15_h2)"
   },
   {
     "question_id": "GST321_U1_T15_h2_q2",
     "heading_id": "GST321_U1_T15_h2",
     "article_id": "GST321_U1_T15",
     "topic_id": "GST321_U1_T15",
-    "difficulty": "application",
-    "question": "A nurse tells an assistant to check vital signs on a stable patient and report back immediately if anything changes. Which right of delegation is this?",
+    "difficulty": "understanding",
+    "question": "A nurse asks a ward attendant to check vital signs on an unstable patient. Which right is violated here?",
     "options": {
-      "A": "Right institution",
-      "B": "Right direction",
-      "C": "Right equipment",
-      "D": "Right finance"
+      "A": "Right Person",
+      "B": "Right Task",
+      "C": "Right Direction",
+      "D": "Right Circumstance"
     },
-    "answer": "B",
-    "explanation": "Giving clear, concise instructions and letting the person know exactly what to report is all about getting the 'right direction' step right. [learn more](GST321_U1_T15#GST321_U1_T15_h2)"
+    "answer": "D",
+    "explanation": "An unstable patient creates a situation where standard delegated tasks are unsafe to perform, violating the right circumstance. [learn more](GST321_U1_T15#GST321_U1_T15_h2)"
   },
   {
     "question_id": "GST321_U1_T15_h3_q1",
@@ -53,15 +69,15 @@
     "article_id": "GST321_U1_T15",
     "topic_id": "GST321_U1_T15",
     "difficulty": "recall",
-    "question": "What is the golden rule for someone receiving a delegated task (the delegatee)?",
+    "question": "What is the primary duty of the delegatee after accepting a task?",
     "options": {
-      "A": "To independently change the patient care plan if complications arise",
-      "B": "To accept only tasks within their training and scope of practice",
-      "C": "To take over full legal liability for the entire ward",
-      "D": "To perform advanced clinical assessments on unstable patients"
+      "A": "Reassign the duty to another junior worker",
+      "B": "Document the care plan adjustments in the chart",
+      "C": "Perform independent patient care evaluations",
+      "D": "Report abnormal findings promptly to the nurse"
     },
-    "answer": "B",
-    "explanation": "Safety first! A delegatee should only ever take on tasks they have been properly trained and authorized to perform. [learn more](GST321_U1_T15#GST321_U1_T15_h3)"
+    "answer": "D",
+    "explanation": "The delegatee must communicate any unexpected changes or abnormal findings back to the delegating nurse immediately. [learn more](GST321_U1_T15#GST321_U1_T15_h3)"
   },
   {
     "question_id": "GST321_U1_T15_h3_q2",
@@ -69,15 +85,15 @@
     "article_id": "GST321_U1_T15",
     "topic_id": "GST321_U1_T15",
     "difficulty": "understanding",
-    "question": "What should an auxiliary nurse do if asked to perform a procedure they have never been taught?",
+    "question": "A junior nursing assistant refuses a delegated task because it falls outside their training. How should this be handled?",
     "options": {
-      "A": "Refuse the task and inform the nurse of their lack of training",
-      "B": "Ignore the instruction and leave the ward immediately",
-      "C": "Attempt the procedure quietly to avoid upsetting senior staff",
-      "D": "Ask another patient to guide them through the steps"
+      "A": "Perform the task yourself without addressing the employee",
+      "B": "Respect the refusal and assign a task within their scope",
+      "C": "Force the worker to complete the procedure under supervision",
+      "D": "Report the staff member for insubordination to management"
     },
-    "answer": "A",
-    "explanation": "It takes courage, but speaking up keeps patients safe. Never attempt unfamiliar clinical procedures without proper training. [learn more](GST321_U1_T15#GST321_U1_T15_h3)"
+    "answer": "B",
+    "explanation": "Staff members have a duty to decline tasks that exceed their legal and educational scope of practice. [learn more](GST321_U1_T15#GST321_U1_T15_h3)"
   },
   {
     "question_id": "GST321_U1_T15_h4_q1",
@@ -85,15 +101,15 @@
     "article_id": "GST321_U1_T15",
     "topic_id": "GST321_U1_T15",
     "difficulty": "understanding",
-    "question": "Why is patient stability so important when deciding whether or not to delegate a task?",
+    "question": "A patient with fluctuating vital signs is admitted to the ward. Why should delegation be limited in this case?",
     "options": {
-      "A": "Stable patients do not require any monitoring from healthcare workers",
-      "B": "Unstable patients always pay more for hospital accommodation",
-      "C": "Stable patients are harder to communicate with than unstable ones",
-      "D": "Unstable patients require continuous clinical judgment that only a registered nurse can provide"
+      "A": "Auxiliary staff members charge higher fees for unstable patients",
+      "B": "The unpredictable clinical condition requires continuous professional assessment",
+      "C": "Unstable patients always prefer care from senior doctors",
+      "D": "Hospital policies forbid any nurse from taking breaks"
     },
-    "answer": "D",
-    "explanation": "When a patient's condition can change rapidly, it needs a professional nurse's close assessment rather than auxiliary care. [learn more](GST321_U1_T15#GST321_U1_T15_h4)"
+    "answer": "B",
+    "explanation": "Unpredictable health states demand the critical thinking and advanced skills of a registered nurse rather than auxiliary workers. [learn more](GST321_U1_T15#GST321_U1_T15_h4)"
   },
   {
     "question_id": "GST321_U1_T15_h4_q2",
@@ -101,15 +117,15 @@
     "article_id": "GST321_U1_T15",
     "topic_id": "GST321_U1_T15",
     "difficulty": "recall",
-    "question": "Which of these tasks is generally NOT okay to delegate to an auxiliary nurse?",
+    "question": "Which factor is most critical when evaluating environmental stability before delegating?",
     "options": {
-      "A": "Measuring and recording routine weight on a admission scale",
-      "B": "Formulating an initial nursing care plan for a newly admitted patient",
-      "C": "Feeding a patient who has a stable swallowing reflex",
-      "D": "Assisting a mobile patient with walking to the bathroom"
+      "A": "Availability of emergency equipment and adequate staffing levels",
+      "B": "Proximity of the administrative offices to the patient",
+      "C": "The personal friendship between the nurse and delegatee",
+      "D": "The physical color scheme of the hospital ward"
     },
-    "answer": "B",
-    "explanation": "Care planning requires professional clinical assessment and critical thinking, which stays with the registered nurse. [learn more](GST321_U1_T15#GST321_U1_T15_h4)"
+    "answer": "A",
+    "explanation": "A safe environment requires proper staffing and functional equipment to handle potential complications arising from patient care. [learn more](GST321_U1_T15#GST321_U1_T15_h4)"
   },
   {
     "question_id": "GST321_U1_T15_h5_q1",
@@ -117,15 +133,15 @@
     "article_id": "GST321_U1_T15",
     "topic_id": "GST321_U1_T15",
     "difficulty": "understanding",
-    "question": "What is the main downside when a nurse suffers from 'under-delegation' (refusing to delegate tasks)?",
+    "question": "A nurse insists on performing every basic bed bath because no one else can do it right. What barrier is this nurse demonstrating?",
     "options": {
-      "A": "Excessive free time for nursing assistants on the ward",
-      "B": "Burnout and exhaustion from trying to perform all tasks personally",
-      "C": "Immediate legal prosecution for negligence by the hospital board",
-      "D": "Complete elimination of patient care errors in the facility"
+      "A": "Effective utilization of subordinate staff",
+      "B": "Proper adherence to the five rights",
+      "C": "Complete compliance with hospital protocol",
+      "D": "Over-supervision rooted in perfectionism"
     },
-    "answer": "B",
-    "explanation": "Trying to do everything yourself on a shift is a fast track to burnout. Trust your team and share the load! [learn more](GST321_U1_T15#GST321_U1_T15_h5)"
+    "answer": "D",
+    "explanation": "Unwillingness to let go of simple tasks due to mistrust of others hinders efficient workload distribution. [learn more](GST321_U1_T15#GST321_U1_T15_h5)"
   },
   {
     "question_id": "GST321_U1_T15_h5_q2",
@@ -133,15 +149,15 @@
     "article_id": "GST321_U1_T15",
     "topic_id": "GST321_U1_T15",
     "difficulty": "recall",
-    "question": "What do we call it when a nurse dumps way too many duties onto assistants, making safe care impossible?",
+    "question": "Which of the following is NOT a common barrier to effective delegation?",
     "options": {
-      "A": "Over-delegation",
-      "B": "Reverse supervision",
-      "C": "Clinical autonomy",
-      "D": "Under-delegation"
+      "A": "Excessive availability of well-trained staff",
+      "B": "Fear of liability by the registered nurse",
+      "C": "Poor communication channels on the ward",
+      "D": "Lack of role clarity among junior workers"
     },
     "answer": "A",
-    "explanation": "Over-delegation happens when team members are stretched too thin beyond safe limits. Balance is key in ward management. [learn more](GST321_U1_T15#GST321_U1_T15_h5)"
+    "explanation": "Having enough competent staff actually facilitates delegation rather than serving as a barrier to it. [learn more](GST321_U1_T15#GST321_U1_T15_h5)"
   },
   {
     "question_id": "GST321_U1_T15_h6_q1",
@@ -149,30 +165,30 @@
     "article_id": "GST321_U1_T15",
     "topic_id": "GST321_U1_T15",
     "difficulty": "recall",
-    "question": "What does proper supervision actually look like after you delegate a task?",
+    "question": "Who holds the legal accountability when a delegated task goes wrong due to poor nurse assessment?",
     "options": {
-      "A": "Leaving the hospital premises while work is ongoing",
-      "B": "Taking over all patient documentation duties entirely",
-      "C": "Writing a daily report without visiting the ward",
-      "D": "Guiding, monitoring, and inspecting the performance of the delegatee"
+      "A": "The hospital cleaner who witnessed the procedure",
+      "B": "The junior staff member who executed the task",
+      "C": "The pharmaceutical company supplying the ward",
+      "D": "The registered nurse who made the delegation decision"
     },
     "answer": "D",
-    "explanation": "Supervision means staying connected! You check in, offer guidance, and make sure everything went smoothly. [learn more](GST321_U1_T15#GST321_U1_T15_h6)"
+    "explanation": "The professional nurse remains legally accountable for evaluating the patient and deciding whether delegation is appropriate in the first place. [learn more](GST321_U1_T15#GST321_U1_T15_h6)"
   },
   {
     "question_id": "GST321_U1_T15_h6_q2",
     "heading_id": "GST321_U1_T15_h6",
     "article_id": "GST321_U1_T15",
     "topic_id": "GST321_U1_T15",
-    "difficulty": "application",
-    "question": "A nurse asks an assistant to give a bed bath, and later checks on the patient to see if they are comfortable. What step of delegation is this?",
+    "difficulty": "understanding",
+    "question": "What is the primary purpose of active supervision during a delegated procedure?",
     "options": {
-      "A": "Initial task assessment",
-      "B": "Scope of practice expansion",
-      "C": "Care plan formulation",
-      "D": "Supervision and evaluation"
+      "A": "To ensure compliance with clinical standards and offer guidance",
+      "B": "To minimize the paperwork required for the shift",
+      "C": "To replace the need for any initial patient assessment",
+      "D": "To find fault and punish staff for minor mistakes"
     },
-    "answer": "D",
-    "explanation": "Checking back on the patient and reviewing how the task was done completes the supervision and evaluation loop! [learn more](GST321_U1_T15#GST321_U1_T15_h6)"
+    "answer": "A",
+    "explanation": "Supervision helps catch errors early, provides mentorship, and ensures the patient receives safe, quality care. [learn more](GST321_U1_T15#GST321_U1_T15_h6)"
   }
 ]
