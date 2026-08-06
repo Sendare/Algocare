@@ -12,49 +12,49 @@
       "heading_id": "GNS217_U4_T3_h1",
       "order": 1,
       "title": "Introduction to Inferential Statistics in Nursing Research",
-      "content": "Nursing research often aims to improve patient care, but we rarely have the time or resources to study every single patient in the world. Instead, **inferential statistics** allows nurse researchers to study a smaller group of patients and make logical guesses or generalizations about a much larger population. While **descriptive statistics** simply summarize data—such as calculating the average blood pressure of a ward—inferential statistics takes the next step. It tests whether an intervention actually works or if the results happened purely by chance. For example, if a new wound care protocol speeds up healing in fifty trial patients, inferential statistics helps us decide if that protocol will work just as well for all patients admitted to the hospital."
+      "content": "Inferential statistics allow researchers to take data collected from a small group and make generalizations about a much larger group. While descriptive statistics simply summarize numbers, inferential tools test theories and evaluate whether observed differences happen by chance or reflect real clinical effects. In Nigerian nursing research, running a full census of every patient in a state is practically impossible due to resource and time limits. Drawing conclusions from a smaller subset solves this challenge."
     },
     {
       "heading_id": "GNS217_U4_T3_h2",
       "order": 2,
       "title": "Populations and Samples: The Basis of Inference",
-      "content": "Every study begins by defining the **population**, which is the entire group of individuals we care about—such as all patients with type 2 diabetes in Nigeria. Because studying an entire population is practically impossible, researchers select a smaller, manageable subset called a **sample**. To ensure our statistical inferences are trustworthy, this sample must accurately reflect the larger population through proper **random sampling**. If a nurse researcher only recruits patients from a single private clinic in an affluent neighborhood, the sample is biased, and any statistical inference made will fail to represent public hospital patients."
+      "content": "A population includes every single member of the group you want to study, such as all diabetic patients admitted to federal teaching hospitals in Nigeria. A sample is a smaller, manageable subset chosen from that population. For inference to work properly, the sample must accurately reflect the larger group. Random selection helps minimize bias, ensuring that the results obtained from the ward or clinic can safely apply to patients nationwide."
     },
     {
       "heading_id": "GNS217_U4_T3_h3",
       "order": 3,
       "title": "Formulating Research and Statistical Hypotheses",
-      "content": "Before running any calculations, researchers set up formal guesses called hypotheses. The **null hypothesis (H0)** states that there is no real difference or relationship between groups—for instance, saying a new pain medication works no better than a placebo. The **alternative hypothesis (Ha)** states that a real difference or effect does exist. Statistical tests are designed not to prove the alternative hypothesis directly, but to test if we have enough evidence to reject the null hypothesis."
+      "content": "Hypothesis testing starts by setting up two opposing statements that guide data analysis. \n\n- **Null Hypothesis ($H_0$)**: States that there is no real difference, relationship, or effect in the population.\n- **Alternative Hypothesis ($H_1$ or $H_a$)**: States that a real difference, relationship, or effect does exist in the population.\n\nStatistical tests are designed to evaluate the null hypothesis, checking whether data provides enough evidence to reject it."
     },
     {
       "heading_id": "GNS217_U4_T3_h4",
       "order": 4,
       "title": "Understanding P-Values and Significance Levels",
-      "content": "Once the data is analyzed, the test spits out a **p-value** (probability value). This number tells us the likelihood that our results happened purely by chance if the null hypothesis is actually true. A p-value of 0.03 means there is a 3% chance the results are a fluke. Nurses compare this p-value to a pre-set **significance level (alpha)**, usually set at 0.05. If the p-value is lower than 0.05, we call the result **statistically significant** and reject the null hypothesis."
+      "content": "The **p-value** (probability value) tells you the likelihood that your results occurred purely by chance. Researchers set a threshold beforehand called the significance level, commonly written as alpha ($\\alpha$), usually set at 0.05. If your calculated p-value falls below 0.05, you reject the null hypothesis because the finding is considered statistically significant. A common misconception treats the p-value as the probability that your hypothesis is wrong, when it actually measures how compatible your data is with the null hypothesis."
     },
     {
       "heading_id": "GNS217_U4_T3_h5",
       "order": 5,
       "title": "Type I and Type II Errors in Clinical Decision Making",
-      "content": "Statistics is not foolproof, and making decisions based on samples always carries a risk of error. A **Type I error (False Positive)** happens when a nurse researcher concludes that a new intervention works when it actually does not. A **Type II error (False Negative)** happens when the researcher concludes there is no effect when the intervention actually does work. In clinical practice, a Type I error might introduce an expensive, useless drug, while a Type II error might cause us to ignore a life-saving therapy."
+      "content": "Statistical testing is not infallible, and conclusions can sometimes lead us astray.\n\n| Error Type | Description | Clinical Implication |\n| --- | --- | --- |\n| **Type I Error ($\\alpha$)** | Rejecting a true null hypothesis (False Positive) | Adopting an ineffective or harmful nursing intervention |\n| **Type II Error ($\\beta$)** | Failing to reject a false null hypothesis (False Negative) | Rejecting a beneficial nursing intervention that actually works |\n\nBalancing these errors requires careful sample size calculation before launching a clinical trial."
     },
     {
       "heading_id": "GNS217_U4_T3_h6",
       "order": 6,
       "title": "Common Parametric Tests: t-Tests and ANOVA",
-      "content": "When our data follows a normal, bell-shaped distribution and involves continuous measurements, we use **parametric tests**. \n- **Independent t-test**: Compares the means of two separate groups, such as testing post-op pain scores between a music therapy group and a control group.\n- **Paired t-test**: Compares means from the same group at two different times, such as measuring patient anxiety scores before and after a nursing briefing.\n- **ANOVA (Analysis of Variance)**: Compares the means of three or more groups at once, such as comparing recovery times across four different hospital wards."
+      "content": "Parametric tests are used when data is normally distributed and measured on interval or ratio scales. \n\n- **Independent samples t-test**: Compares the mean scores of two separate groups, such as average blood pressure between male and female hypertensive patients.\n- **Paired t-test**: Compares mean scores from the same group at two different times, like pre-test and post-test pain scores after an intervention.\n- **Analysis of Variance (ANOVA)**: Compares the means of three or more groups simultaneously, such as recovery times across four different surgical wards.\n\nUsing these tests requires checking underlying assumptions like data normality."
     },
     {
       "heading_id": "GNS217_U4_T3_h7",
       "order": 7,
       "title": "Non-Parametric Alternatives for Nursing Data",
-      "content": "Not all nursing data fits neatly into a normal bell curve. When data is skewed, measured in categories, or based on small sample sizes, parametric tests become unreliable. In these cases, we use **non-parametric tests** which do not assume a normal distribution. For example, the **Mann-Whitney U test** serves as the non-parametric alternative to the independent t-test, while the **Chi-Square test** is used to analyze categorical data, such as comparing the number of smokers versus non-smokers who develop pressure ulcers."
+      "content": "Not all clinical data fits a neat bell curve. When data is ordinal, nominal, or heavily skewed, parametric assumptions break down. Non-parametric tests do not assume a normal distribution and serve as robust alternatives.\n\n- **Mann-Whitney U test**: Compares two independent groups using ranked data instead of raw means.\n- **Wilcoxon signed-rank test**: Compares two related measurements from the same group for ordinal or non-normal data.\n- **Chi-Square test**: Analyzes categorical frequency data, such as comparing the proportion of smokers versus non-smokers who develop lung complications."
     },
     {
       "heading_id": "GNS217_U4_T3_h8",
       "order": 8,
       "title": "Interpreting Results for Evidence-Based Nursing Practice",
-      "content": "Reading a statistical report in a nursing journal requires looking beyond just the p-value. While a low p-value tells us an effect is statistically significant, it does not tell us if the effect is clinically meaningful for patient care. Nurses must evaluate **effect size** to see how large the difference actually is. If a new medication lowers blood pressure by a statistically significant 1 mmHg, but costs a fortune and causes severe side effects, it lacks clinical significance. Integrating statistical findings with clinical expertise forms the backbone of safe, **evidence-based nursing practice**."
+      "content": "Translating statistical output into clinical action requires looking beyond statistical significance to evaluate clinical relevance. A p-value might prove that a new mouthwash lowers bacterial counts significantly, but if the actual reduction is negligible, it may not justify changing hospital policy. Nurses must appraise confidence intervals and effect sizes to determine if an intervention produces meaningful improvements for patients at the bedside."
     }
   ]
 }

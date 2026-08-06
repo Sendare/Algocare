@@ -12,43 +12,43 @@
       "heading_id": "GNS217_U4_T1_h1",
       "order": 1,
       "title": "Introduction to Measurement in Nursing Research",
-      "content": "Measurement is the foundation of evidence-based nursing practice and research. It involves assigning numbers or labels to objects, events, or characteristics according to specific rules. When we collect data—whether measuring a patient's temperature, recording their marital status, or scoring their pain level—we are using a measurement scale.\n\nUnderstanding these scales helps nurses choose the correct statistical tests and interpret research findings accurately. Without clear measurement rules, data becomes meaningless and clinical decisions lose their scientific backing. Every variable studied in nursing care fits into one of four primary levels of measurement."
+      "content": "Measurement is the process of assigning numbers or labels to objects, events, or characteristics according to specific rules. In nursing research, accurate measurement turns abstract clinical concepts like pain, anxiety, or blood pressure into usable data. Without clear rules for measurement, data lacks consistency and validity, making it impossible to evaluate patient outcomes properly or draw reliable conclusions from a study."
     },
     {
       "heading_id": "GNS217_U4_T1_h2",
       "order": 2,
       "title": "Nominal Scale: Categorization and Naming",
-      "content": "The **nominal scale** is the simplest level of measurement. It classifies data into distinct, mutually exclusive categories that have no inherent numerical value or order. Numbers assigned to nominal categories serve only as labels.\n\n- **Blood type**: Categories include A, B, AB, and O.\n- **Gender**: Categories include male, female, or other.\n- **Marital status**: Categories include single, married, divorced, or widowed.\n- **Hospital ward**: Categories include surgical, medical, pediatric, or emergency.\n\nYou cannot perform mathematical operations like addition or division on nominal data. You can only count the frequency of items falling into each category."
+      "content": "The **nominal scale** is the simplest level of measurement. It sorts data into discrete, mutually exclusive categories that do not overlap. Numbers assigned to nominal categories serve purely as labels and hold no mathematical value. \n\n- **Gender**: Categorized as male or female.\n- **Blood Type**: Categorized as A, B, AB, or O.\n- **Marital Status**: Categorized as single, married, divorced, or widowed."
     },
     {
       "heading_id": "GNS217_U4_T1_h3",
       "order": 3,
       "title": "Ordinal Scale: Ranking and Ordering",
-      "content": "The **ordinal scale** goes a step beyond the nominal scale by placing data into a logical order or rank. However, the intervals or distances between the ranks are not necessarily equal or known.\n\n- **Patient mobility status**: Independent, needs assistance, or completely bedbound.\n- **Cancer staging**: Stage I, Stage II, Stage III, or Stage IV.\n- **Likert scale survey responses**: Strongly agree, agree, neutral, disagree, strongly disagree.\n\nWhile we know that Stage III cancer is more advanced than Stage II, we cannot say that the physical difference between Stage I and II is mathematically identical to the difference between Stage III and IV. Ordinal data tells us 'greater than' or 'less than', but not 'how much greater'."
+      "content": "The **ordinal scale** classifies data into categories that can be ranked or placed in a specific order. While you can tell which value is higher or lower, the exact numerical distance between the ranks is not uniform or known. \n\n- **Patient Pain Scale**: Mild, moderate, severe.\n- **Functional Status**: Independent, needs assistance, completely dependent.\n- **Cancer Staging**: Stage I, Stage II, Stage III, Stage IV."
     },
     {
       "heading_id": "GNS217_U4_T1_h4",
       "order": 4,
       "title": "Interval Scale: Equal Intervals with No True Zero",
-      "content": "An **interval scale** possesses all the properties of an ordinal scale, plus the added feature of equal, standardized intervals between adjacent units. Crucially, an interval scale has **no true zero** point; the zero is arbitrary and does not mean the total absence of the property being measured.\n\n- **Temperature in Celsius or Fahrenheit**: Zero degrees does not mean the complete absence of heat; it is simply a point on the scale.\n- **Standardized intelligence tests**: An IQ score of zero does not mean an absolute absence of intelligence.\n\nBecause zero is arbitrary, you cannot calculate true ratios. For example, 40 degrees Celsius is not twice as hot as 20 degrees Celsius, even though the number is twice as large."
+      "content": "The **interval scale** provides ordered data with equal, standardized distances between adjacent points. However, it lacks a **true zero** point—meaning zero does not represent the total absence of the property being measured.\n\n- **Temperature in Celsius**: Zero degrees does not mean absence of heat; it is just another point on the scale where water freezes.\n- **Standardized IQ Scores**: A score of zero does not mean an absolute lack of intelligence."
     },
     {
       "heading_id": "GNS217_U4_T1_h5",
       "order": 5,
       "title": "Ratio Scale: Equal Intervals and Absolute Zero",
-      "content": "The **ratio scale** is the highest and most precise level of measurement. It includes all the properties of an interval scale—equal intervals and ordered categories—with the addition of an **absolute true zero** point.\n\n- **Patient weight in kilograms**: Zero kg means an absolute absence of weight.\n- **Pulse rate or heart rate**: Zero beats per minute means cardiac arrest.\n- **Fluid intake and output in milliliters**: Zero ml means no fluid has passed.\n\nBecause a true zero exists, you can make meaningful ratio statements. A patient weighing 80 kg is literally twice as heavy as a patient weighing 40 kg. Most physical measurements in nursing care utilize the ratio scale."
+      "content": "The **ratio scale** is the highest and most precise level of measurement. It possesses all the properties of an interval scale—ranked data and equal intervals—plus a **true absolute zero** point. A value of zero means the complete absence of the characteristic being measured.\n\n- **Weight**: Zero kilograms means no weight exists.\n- **Height**: Zero centimeters means no height exists.\n- **Pulse Rate**: Zero beats per minute means cardiac arrest."
     },
     {
       "heading_id": "GNS217_U4_T1_h6",
       "order": 6,
       "title": "Comparison of the Four Scales of Measurement",
-      "content": "Reviewing the characteristics side by side helps clarify how these four scales build upon one another. Each higher scale incorporates the mathematical rules of the scales below it while adding new properties.\n\n| Scale | Categorization | Ranking | Equal Intervals | Absolute Zero | Example in Nursing |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| **Nominal** | Yes | No | No | No | Blood type |\n| **Ordinal** | Yes | Yes | No | No | Pain scale (mild/mod/severe) |\n| **Interval** | Yes | Yes | Yes | No | Temperature (°C) |\n| **Ratio** | Yes | Yes | Yes | Yes | Heart rate (bpm) |\n\nMastering this hierarchy ensures you select appropriate statistical analyses when evaluating clinical research papers."
+      "content": "| Scale | Categorization | Ranking | Equal Intervals | Absolute Zero |\n| :--- | :---: | :---: | :---: | :---: | \n| **Nominal** | Yes | No | No | No |\n| **Ordinal** | Yes | Yes | No | No |\n| **Interval** | Yes | Yes | Yes | No |\n| **Ratio** | Yes | Yes | Yes | Yes |\n\nEach progressive scale builds upon the rules of the previous one, adding mathematical complexity and analytical power."
     },
     {
       "heading_id": "GNS217_U4_T1_h7",
       "order": 7,
       "title": "Choosing the Appropriate Scale for Nursing Data",
-      "content": "Selecting how to measure a clinical variable determines what conclusions you can draw. Sometimes researchers can choose how to collect data. For example, a nurse studying patient age can record the exact number of years (ratio scale) or group patients into age brackets like 20-30, 31-40 (ordinal scale).\n\nCollecting data at a higher level of measurement preserves more detailed information. You can always convert a ratio variable down into ordinal or nominal categories later, but you can never recover precise ratio values once data is collected in broad categories. Always aim to collect data at the highest possible scale that is practical in the clinical setting."
+      "content": "Selecting the correct scale of measurement dictates which statistical tests can be performed on research data. Nominal and ordinal data require nonparametric tests because they lack continuous numerical properties. Interval and ratio data permit parametric tests like means and standard deviations because they offer precise numerical values. Knowing your variable type prevents statistical errors and ensures accurate nursing research outcomes."
     }
   ]
 }

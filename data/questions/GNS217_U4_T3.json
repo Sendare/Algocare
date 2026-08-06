@@ -5,15 +5,15 @@
     "article_id": "GNS217_U4_T3",
     "topic_id": "GNS217_U4_T3",
     "difficulty": "recall",
-    "question": "What is the main goal of inferential statistics in nursing research?",
+    "question": "What is the main goal of using inferential statistics in research?",
     "options": {
-      "A": "To draw pictures and graphs of patient medical records",
-      "B": "To make guesses about a large group based on a small study group",
-      "C": "To calculate the exact average age of patients in a single ward",
-      "D": "To store patient health history in a computer database"
+      "A": "Organizing raw data into simple frequency tables",
+      "B": "Eliminating all measurement errors in a study",
+      "C": "Calculating the exact average age of hospital patients",
+      "D": "Generalizing findings from a sample to a population"
     },
-    "answer": "B",
-    "explanation": "Spot on! Since we can't study every single patient in Nigeria, we use a smaller group (sample) to draw conclusions about the wider population. You've got this! [learn more](GNS217_U4_T3#GNS217_U4_T3_h1)"
+    "answer": "D",
+    "explanation": "Inferential statistics use sample data to draw broader conclusions about an entire target population. [learn more](GNS217_U4_T3#GNS217_U4_T3_h1)"
   },
   {
     "question_id": "GNS217_U4_T3_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GNS217_U4_T3",
     "topic_id": "GNS217_U4_T3",
     "difficulty": "understanding",
-    "question": "How are descriptive statistics different from inferential statistics?",
+    "question": "Why do nurse researchers study a sample instead of the whole population?",
     "options": {
-      "A": "Descriptive statistics are only used in qualitative studies, while inferential ones are for charts.",
-      "B": "Descriptive statistics summarize data, while inferential statistics test hypotheses and make generalizations.",
-      "C": "Descriptive statistics test if results happened by chance, while inferential statistics summarize data.",
-      "D": "Descriptive statistics require large populations, while inferential statistics use only single patients."
+      "A": "Resources and time limits make studying whole populations impossible",
+      "B": "Descriptive statistics cannot handle large volumes of health records",
+      "C": "Sample data completely removes the risk of statistical bias",
+      "D": "Ethics committees strictly forbid studying more than thirty patients"
     },
-    "answer": "B",
-    "explanation": "Think of descriptive stats as painting a picture of what your current data looks like, while inferential stats help you look beyond your data to make bigger conclusions. Great job! [learn more](GNS217_U4_T3#GNS217_U4_T3_h1)"
+    "answer": "A",
+    "explanation": "Practical constraints like funding, logistics, and time prevent researchers from studying every single individual in a population. [learn more](GNS217_U4_T3#GNS217_U4_T3_h1)"
   },
   {
     "question_id": "GNS217_U4_T3_h2_q1",
@@ -37,15 +37,15 @@
     "article_id": "GNS217_U4_T3",
     "topic_id": "GNS217_U4_T3",
     "difficulty": "recall",
-    "question": "What do we call the entire group of people a researcher actually wants to study?",
+    "question": "What do we call a smaller, manageable group chosen from a larger population for a study?",
     "options": {
-      "A": "Population",
-      "B": "Parameter",
-      "C": "Variable",
-      "D": "Sample"
+      "A": "A variable",
+      "B": "A sample",
+      "C": "A parameter",
+      "D": "A population"
     },
-    "answer": "A",
-    "explanation": "That's correct! The 'population' is the total group you are interested in—like all diabetic patients in Lagos State. Keep up the great flow! [learn more](GNS217_U4_T3#GNS217_U4_T3_h2)"
+    "answer": "B",
+    "explanation": "A sample is the specific group of participants selected from the wider population to take part in a study. [learn more](GNS217_U4_T3#GNS217_U4_T3_h2)"
   },
   {
     "question_id": "GNS217_U4_T3_h2_q2",
@@ -53,15 +53,15 @@
     "article_id": "GNS217_U4_T3",
     "topic_id": "GNS217_U4_T3",
     "difficulty": "understanding",
-    "question": "Why do nurse researchers use random sampling when picking study participants?",
+    "question": "Why do researchers use random selection when picking study participants?",
     "options": {
-      "A": "It ensures that every participant receives the new treatment.",
-      "B": "It completely eliminates all human errors during data entry.",
-      "C": "It helps the sample represent the wider population accurately.",
-      "D": "It reduces the total financial cost of running the hospital."
+      "A": "Eliminating the need for statistical significance testing",
+      "B": "Minimizing bias to make results representative",
+      "C": "Guaranteed zero dropouts during clinical follow-up",
+      "D": "Ensuring every single citizen is included in data collection"
     },
-    "answer": "C",
-    "explanation": "Exactly! Random sampling gives everyone an equal chance, making sure your small group is a fair mini-version of the larger population. Brilliant thinking! [learn more](GNS217_U4_T3#GNS217_U4_T3_h2)"
+    "answer": "B",
+    "explanation": "Random selection gives every population member an equal chance of participation, reducing selection bias so findings can generalize. [learn more](GNS217_U4_T3#GNS217_U4_T3_h2)"
   },
   {
     "question_id": "GNS217_U4_T3_h3_q1",
@@ -69,15 +69,15 @@
     "article_id": "GNS217_U4_T3",
     "topic_id": "GNS217_U4_T3",
     "difficulty": "recall",
-    "question": "What does a null hypothesis usually claim?",
+    "question": "What is the term for a statistical statement predicting that no real difference or relationship exists?",
     "options": {
-      "A": "There is no real difference or effect between the groups.",
-      "B": "All patients in the sample will experience full recovery.",
-      "C": "The new nursing intervention is better than the old one.",
-      "D": "The study sample was too small to draw any conclusions."
+      "A": "The null hypothesis",
+      "B": "The sample statistic",
+      "C": "The alternative hypothesis",
+      "D": "The research parameter"
     },
     "answer": "A",
-    "explanation": "You got it! The null hypothesis is like saying 'nothing special is happening here; any difference is just by chance.' It's the starting point for testing! [learn more](GNS217_U4_T3#GNS217_U4_T3_h3)"
+    "explanation": "The null hypothesis assumes no effect or relationship exists between variables until data proves otherwise. [learn more](GNS217_U4_T3#GNS217_U4_T3_h3)"
   },
   {
     "question_id": "GNS217_U4_T3_h3_q2",
@@ -85,15 +85,15 @@
     "article_id": "GNS217_U4_T3",
     "topic_id": "GNS217_U4_T3",
     "difficulty": "understanding",
-    "question": "What is the main goal of doing a statistical test on a research hypothesis?",
+    "question": "When a researcher runs a statistical test, what are they mainly trying to decide?",
     "options": {
-      "A": "To calculate the exact number of patients needed for a trial",
-      "B": "To prove the null hypothesis is always correct",
-      "C": "To see if there is enough evidence to reject the null hypothesis",
-      "D": "To replace the alternative hypothesis with a descriptive chart"
+      "A": "The exact number of participants needed for a new study",
+      "B": "How to prove the alternative hypothesis is 100 percent true",
+      "C": "Whether to reject or fail to reject the null hypothesis",
+      "D": "Whether descriptive percentages match national health records"
     },
     "answer": "C",
-    "explanation": "Spot on! We test our data to see if we have enough strong proof to throw out the null hypothesis and say our intervention actually works. [learn more](GNS217_U4_T3#GNS217_U4_T3_h3)"
+    "explanation": "Statistical tests calculate probabilities to decide if there is enough evidence to reject the null hypothesis. [learn more](GNS217_U4_T3#GNS217_U4_T3_h3)"
   },
   {
     "question_id": "GNS217_U4_T3_h4_q1",
@@ -101,15 +101,15 @@
     "article_id": "GNS217_U4_T3",
     "topic_id": "GNS217_U4_T3",
     "difficulty": "recall",
-    "question": "What does a p-value tell us in a research study?",
+    "question": "Which standard significance level (alpha) is most commonly used in nursing research?",
     "options": {
-      "A": "The probability that results happened by chance",
-      "B": "The financial cost of running the clinical trial",
-      "C": "The exact dosage of medication given to patients",
-      "D": "The total number of patients included in the sample"
+      "A": "0.50",
+      "B": "1.00",
+      "C": "0.05",
+      "D": "0.001"
     },
-    "answer": "A",
-    "explanation": "That's right! The p-value tells you the odds that your results are just a fluke or coincidence rather than a real effect of your nursing care. [learn more](GNS217_U4_T3#GNS217_U4_T3_h4)"
+    "answer": "C",
+    "explanation": "An alpha level of 0.05 is the traditional threshold indicating a five percent risk of concluding a difference exists when it does not. [learn more](GNS217_U4_T3#GNS217_U4_T3_h4)"
   },
   {
     "question_id": "GNS217_U4_T3_h4_q2",
@@ -117,15 +117,15 @@
     "article_id": "GNS217_U4_T3",
     "topic_id": "GNS217_U4_T3",
     "difficulty": "understanding",
-    "question": "In standard nursing research, when is a result considered statistically significant?",
+    "question": "If a research study finds a p-value of 0.02, what does this mean?",
     "options": {
-      "A": "When the null hypothesis is proven to be 100% true",
-      "B": "When the p-value is greater than 0.50",
-      "C": "When the sample size is larger than the population",
-      "D": "When the p-value is less than or equal to 0.05"
+      "A": "The null hypothesis must be accepted as absolute clinical truth",
+      "B": "There is a ninety-eight percent chance the study procedure failed",
+      "C": "The sample size used in the hospital ward was too small",
+      "D": "The results are statistically significant at the 0.05 level"
     },
     "answer": "D",
-    "explanation": "Awesome! A p-value of 0.05 or less means there's a 5% or lower chance your results happened by luck. That's our green light for significance! [learn more](GNS217_U4_T3#GNS217_U4_T3_h4)"
+    "explanation": "Since 0.02 is less than 0.05, the finding meets the threshold for statistical significance, allowing rejection of the null hypothesis. [learn more](GNS217_U4_T3#GNS217_U4_T3_h4)"
   },
   {
     "question_id": "GNS217_U4_T3_h5_q1",
@@ -133,15 +133,15 @@
     "article_id": "GNS217_U4_T3",
     "topic_id": "GNS217_U4_T3",
     "difficulty": "recall",
-    "question": "What happens when a researcher makes a Type I error?",
+    "question": "What type of error occurs when you conclude a new protocol works, but it actually does nothing?",
     "options": {
-      "A": "Concluding a treatment works when it actually does not",
-      "B": "Failing to notice that a treatment works when it actually does",
-      "C": "Selecting a sample that is too small to represent the ward",
-      "D": "Calculating the wrong average for patient blood pressures"
+      "A": "Measurement error",
+      "B": "Type I error",
+      "C": "Sampling error",
+      "D": "Type II error"
     },
-    "answer": "A",
-    "explanation": "Correct! A Type I error is like celebrating a false positive—thinking your new nursing routine helps patients when it really doesn't do anything special. [learn more](GNS217_U4_T3#GNS217_U4_T3_h5)"
+    "answer": "B",
+    "explanation": "A Type I error occurs when a researcher falsely claims a significant effect exists when it is actually due to random chance. [learn more](GNS217_U4_T3#GNS217_U4_T3_h5)"
   },
   {
     "question_id": "GNS217_U4_T3_h5_q2",
@@ -149,15 +149,15 @@
     "article_id": "GNS217_U4_T3",
     "topic_id": "GNS217_U4_T3",
     "difficulty": "understanding",
-    "question": "A clinical trial claims a new bandage prevents infections, but later studies show it doesn't. What type of error happened?",
+    "question": "A researcher fails to detect a real clinical improvement from a new wound dressing. What kind of error is this?",
     "options": {
-      "A": "Descriptive error",
-      "B": "Type II error",
-      "C": "Sampling error",
+      "A": "Type II error",
+      "B": "Selection error",
+      "C": "Alpha error",
       "D": "Type I error"
     },
-    "answer": "D",
-    "explanation": "You nailed it! Believing an intervention works when it's actually useless is a classic false positive, which is a Type I error. Keep crushing it! [learn more](GNS217_U4_T3#GNS217_U4_T3_h5)"
+    "answer": "A",
+    "explanation": "A Type II error happens when a study misses a real effect that actually exists in the clinical population. [learn more](GNS217_U4_T3#GNS217_U4_T3_h5)"
   },
   {
     "question_id": "GNS217_U4_T3_h6_q1",
@@ -165,31 +165,31 @@
     "article_id": "GNS217_U4_T3",
     "topic_id": "GNS217_U4_T3",
     "difficulty": "recall",
-    "question": "Which statistical test should you use to compare the average scores of two completely separate groups of patients?",
+    "question": "Which statistical test is best for comparing the average scores of three or more independent groups?",
     "options": {
-      "A": "Descriptive median",
-      "B": "Independent t-test",
-      "C": "Chi-square test",
-      "D": "Paired t-test"
+      "A": "Analysis of Variance (ANOVA)",
+      "B": "Independent samples t-test",
+      "C": "Chi-square test of independence",
+      "D": "Paired samples t-test"
     },
-    "answer": "B",
-    "explanation": "Spot on! When your two groups are totally separate (like Ward A patients vs. Ward B patients), an independent t-test is your go-to tool. [learn more](GNS217_U4_T3#GNS217_U4_T3_h6)"
+    "answer": "A",
+    "explanation": "ANOVA evaluates differences in means across three or more groups in a single test without inflating the risk of false positives. [learn more](GNS217_U4_T3#GNS217_U4_T3_h6)"
   },
   {
     "question_id": "GNS217_U4_T3_h6_q2",
     "heading_id": "GNS217_U4_T3_h6",
     "article_id": "GNS217_U4_T3",
     "topic_id": "GNS217_U4_T3",
-    "difficulty": "application",
-    "question": "A nurse researcher wants to compare the average blood pressure of patients across four different clinics at the same time. Which test is best?",
+    "difficulty": "understanding",
+    "question": "A nurse wants to compare patient pain scores before and after a breathing exercise. Which test is most appropriate?",
     "options": {
-      "A": "Independent t-test",
-      "B": "Paired t-test",
-      "C": "Null hypothesis test",
-      "D": "ANOVA"
+      "A": "Paired t-test",
+      "B": "One-way ANOVA",
+      "C": "Chi-square test",
+      "D": "Independent t-test"
     },
-    "answer": "D",
-    "explanation": "That's right! Whenever you are comparing averages across three or more groups at once, ANOVA (Analysis of Variance) is the test you need. [learn more](GNS217_U4_T3#GNS217_U4_T3_h6)"
+    "answer": "A",
+    "explanation": "A paired t-test is designed for matching observations from the same participants measured on two separate occasions. [learn more](GNS217_U4_T3#GNS217_U4_T3_h6)"
   },
   {
     "question_id": "GNS217_U4_T3_h7_q1",
@@ -197,15 +197,15 @@
     "article_id": "GNS217_U4_T3",
     "topic_id": "GNS217_U4_T3",
     "difficulty": "recall",
-    "question": "When must a nurse researcher use non-parametric statistical tests?",
+    "question": "When are non-parametric statistical tests most appropriate to use?",
     "options": {
-      "A": "When the research study is funded by a government hospital",
-      "B": "When the data does not follow a normal bell curve distribution",
-      "C": "When the sample size is extremely large and perfectly random",
-      "D": "When all study variables are measured on a continuous scale"
+      "A": "The sample size is greater than five hundred participants",
+      "B": "The data is heavily skewed or measured on a nominal scale",
+      "C": "The study measures continuous ratio variables like exact weight",
+      "D": "The variables follow a strict normal bell-shaped distribution"
     },
     "answer": "B",
-    "explanation": "Brilliant! If your data is messy or skewed and doesn't fit that neat bell-shaped curve, non-parametric tests save the day. [learn more](GNS217_U4_T3#GNS217_U4_T3_h7)"
+    "explanation": "Non-parametric tests are distribution-free and work well with ranked, categorical, or non-normally distributed data. [learn more](GNS217_U4_T3#GNS217_U4_T3_h7)"
   },
   {
     "question_id": "GNS217_U4_T3_h7_q2",
@@ -213,15 +213,15 @@
     "article_id": "GNS217_U4_T3",
     "topic_id": "GNS217_U4_T3",
     "difficulty": "understanding",
-    "question": "Which test is best for analyzing categories, such as whether an infection is present or not (yes/no)?",
+    "question": "Which statistical test is used to analyze categorical data like patient gender and infection status?",
     "options": {
       "A": "Paired t-test",
-      "B": "Independent t-test",
-      "C": "Chi-Square test",
-      "D": "ANOVA"
+      "B": "Chi-Square test",
+      "C": "Analysis of Variance",
+      "D": "Independent t-test"
     },
-    "answer": "C",
-    "explanation": "You got it! The Chi-Square test is perfect for counting frequencies and checking relationships between categories like 'yes/no' or 'male/female'. [learn more](GNS217_U4_T3#GNS217_U4_T3_h7)"
+    "answer": "B",
+    "explanation": "The Chi-Square test evaluates categorical variables by comparing expected and observed frequencies in contingency tables. [learn more](GNS217_U4_T3#GNS217_U4_T3_h7)"
   },
   {
     "question_id": "GNS217_U4_T3_h8_q1",
@@ -229,30 +229,30 @@
     "article_id": "GNS217_U4_T3",
     "topic_id": "GNS217_U4_T3",
     "difficulty": "understanding",
-    "question": "Why might a statistically significant result still not be enough to change everyday nursing practice?",
+    "question": "Why is statistical significance alone sometimes not enough to change clinical nursing practice?",
     "options": {
-      "A": "Nurses are not legally allowed to read research papers.",
-      "B": "P-values only tell you about sample size, not patient outcomes.",
-      "C": "A statistically significant result may not be clinically meaningful for patients.",
-      "D": "Statistical tests are always biased toward large hospital systems."
+      "A": "Non-parametric tests prevent any real-world application of findings",
+      "B": "Hospital management only accepts qualitative interview transcripts",
+      "C": "P-values always overestimate the actual sample size of a study",
+      "D": "An effect can be statistically significant yet clinically meaningless"
     },
-    "answer": "C",
-    "explanation": "Spot on! Just because a number is statistically fancy doesn't mean it actually makes a noticeable, helpful difference in a real patient's life. [learn more](GNS217_U4_T3#GNS217_U4_T3_h8)"
+    "answer": "D",
+    "explanation": "Large sample sizes can produce a significant p-value for tiny differences that make no noticeable impact on patient care. [learn more](GNS217_U4_T3#GNS217_U4_T3_h8)"
   },
   {
     "question_id": "GNS217_U4_T3_h8_q2",
     "heading_id": "GNS217_U4_T3_h8",
     "article_id": "GNS217_U4_T3",
     "topic_id": "GNS217_U4_T3",
-    "difficulty": "recall",
-    "question": "What measure helps nurses see the actual size or practical importance of a treatment's effect?",
+    "difficulty": "application",
+    "question": "A study shows a statistically significant drop in blood pressure from a new herbal tea, but the decrease is less than 1 mmHg. What should a nurse do?",
     "options": {
-      "A": "Sample variance",
-      "B": "Effect size",
-      "C": "P-value",
-      "D": "Null hypothesis"
+      "A": "Question the clinical relevance before altering patient care routines",
+      "B": "Assume a Type I error definitely occurred during data collection",
+      "C": "Immediately ban all standard medications in favor of the herbal tea",
+      "D": "Dismiss the study entirely because the researchers used a t-test"
     },
-    "answer": "B",
-    "explanation": "That's correct! Effect size tells you the actual magnitude of the change, helping you decide if the treatment is powerful enough to matter at the bedside. Great job! [learn more](GNS217_U4_T3#GNS217_U4_T3_h8)"
+    "answer": "A",
+    "explanation": "Evidence-based practice demands evaluating whether a statistically significant result offers meaningful health benefits for real patients. [learn more](GNS217_U4_T3#GNS217_U4_T3_h8)"
   }
 ]
