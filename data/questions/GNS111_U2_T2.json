@@ -5,15 +5,15 @@
     "article_id": "GNS111_U2_T2",
     "topic_id": "GNS111_U2_T2",
     "difficulty": "recall",
-    "question": "What actually decides a person's blood group?",
+    "question": "What part of a red blood cell decides a person's blood group?",
     "options": {
-      "A": "White blood cell count",
-      "B": "Platelet concentration",
-      "C": "Plasma protein levels",
-      "D": "Antigens on red blood cells"
+      "A": "Plasma proteins",
+      "B": "White cell nuclei",
+      "C": "Surface antigens",
+      "D": "Hemoglobin chains"
     },
-    "answer": "D",
-    "explanation": "Think of antigens as tiny ID tags on the surface of your red blood cells. These tags are what determine your specific blood group! [learn more](GNS111_U2_T2#GNS111_U2_T2_h1)"
+    "answer": "C",
+    "explanation": "Think of surface antigens like name tags on the outside of red blood cells. They tell the body which blood group the cells belong to! [learn more](GNS111_U2_T2#GNS111_U2_T2_h1)"
   },
   {
     "question_id": "GNS111_U2_T2_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GNS111_U2_T2",
     "topic_id": "GNS111_U2_T2",
     "difficulty": "understanding",
-    "question": "Why does the body's immune system sometimes react strongly against a foreign blood type?",
+    "question": "In Nigerian hospitals, why do we always check the ABO and Rhesus blood systems first?",
     "options": {
-      "A": "It digests the extra plasma proteins",
-      "B": "It tries to produce more platelets",
-      "C": "It recognizes foreign antigens as invaders",
-      "D": "It lacks enough red blood cells"
+      "A": "They change frequently based on diet and environmental factors",
+      "B": "They trigger the most severe and common transfusion reactions",
+      "C": "They require no laboratory equipment to test accurately",
+      "D": "They are the only blood groups present in human blood"
     },
-    "answer": "C",
-    "explanation": "Your immune system is like a security guard. If it sees unfamiliar ID tags (antigens) on red blood cells, it treats them like intruders and sounds the alarm. [learn more](GNS111_U2_T2#GNS111_U2_T2_h1)"
+    "answer": "B",
+    "explanation": "Getting these two wrong during a blood transfusion can cause very dangerous reactions, which is why nurses check them carefully every single time. [learn more](GNS111_U2_T2#GNS111_U2_T2_h1)"
   },
   {
     "question_id": "GNS111_U2_T2_h2_q1",
@@ -37,15 +37,15 @@
     "article_id": "GNS111_U2_T2",
     "topic_id": "GNS111_U2_T2",
     "difficulty": "recall",
-    "question": "If a patient has blood group O, which antibodies are floating in their plasma?",
+    "question": "If a patient has blood group A, which natural antibodies do they have floating in their plasma?",
     "options": {
-      "A": "Only anti-B antibodies",
-      "B": "Both anti-A and anti-B",
-      "C": "Neither anti-A nor anti-B",
-      "D": "Only anti-A antibodies"
+      "A": "Anti-A antibodies",
+      "B": "Both anti-A and anti-B antibodies",
+      "C": "No antibodies are present",
+      "D": "Anti-B antibodies"
     },
-    "answer": "B",
-    "explanation": "Group O red cells don't have A or B tags. Because of this, the body naturally builds up antibodies against both A and B just in case! [learn more](GNS111_U2_T2#GNS111_U2_T2_h2)"
+    "answer": "D",
+    "explanation": "The body is smart! It naturally makes antibodies against whatever blood antigen it *doesn't* have on its own cells. So group A cells carry anti-B antibodies. [learn more](GNS111_U2_T2#GNS111_U2_T2_h2)"
   },
   {
     "question_id": "GNS111_U2_T2_h2_q2",
@@ -53,15 +53,15 @@
     "article_id": "GNS111_U2_T2",
     "topic_id": "GNS111_U2_T2",
     "difficulty": "understanding",
-    "question": "A patient with blood group AB has which antigens sitting on their red blood cells?",
+    "question": "Why is someone with blood group AB called a 'universal recipient' for red blood cells?",
     "options": {
-      "A": "Both A and B antigens",
-      "B": "Neither A nor B antigens",
-      "C": "Only A antigens",
-      "D": "Only B antigens"
+      "A": "Their plasma contains no antibodies to attack incoming donor red blood cells",
+      "B": "Their bone marrow rapidly destroys any mismatched red blood cells",
+      "C": "Their immune system is permanently suppressed against foreign proteins",
+      "D": "Their red blood cells lack all surface antigens that could trigger a reaction"
     },
     "answer": "A",
-    "explanation": "The name says it all! Blood group AB means the red cells proudly wear both A and B ID tags on their surface. [learn more](GNS111_U2_T2#GNS111_U2_T2_h2)"
+    "explanation": "Group AB plasma has no anti-A or anti-B antibodies lying in wait, meaning it won't fight off incoming donor red blood cells! [learn more](GNS111_U2_T2#GNS111_U2_T2_h2)"
   },
   {
     "question_id": "GNS111_U2_T2_h3_q1",
@@ -69,15 +69,15 @@
     "article_id": "GNS111_U2_T2",
     "topic_id": "GNS111_U2_T2",
     "difficulty": "recall",
-    "question": "What makes a person's blood type Rh-positive?",
+    "question": "How is the Rhesus (Rh) antibody response different from the ABO antibody response?",
     "options": {
-      "A": "Presence of anti-Rh antibodies",
-      "B": "High concentration of plasma iron",
-      "C": "Presence of the RhD antigen",
-      "D": "Absence of all red cell proteins"
+      "A": "Rh antibodies only develop after exposure to foreign Rh antigens",
+      "B": "Rh antibodies completely disappear within a few weeks of exposure",
+      "C": "Rh antibodies are passed directly through casual skin contact",
+      "D": "Rh antibodies are present in everyone at birth regardless of type"
     },
-    "answer": "C",
-    "explanation": "The plus sign (+) in a blood type comes from the RhD antigen. If it's present on the red cells, the blood is Rh-positive! [learn more](GNS111_U2_T2#GNS111_U2_T2_h3)"
+    "answer": "A",
+    "explanation": "Unlike ABO antibodies that you are born with, your body only builds Rh antibodies if an Rh-negative person is actually exposed to Rh-positive blood first. [learn more](GNS111_U2_T2#GNS111_U2_T2_h3)"
   },
   {
     "question_id": "GNS111_U2_T2_h3_q2",
@@ -85,15 +85,15 @@
     "article_id": "GNS111_U2_T2",
     "topic_id": "GNS111_U2_T2",
     "difficulty": "understanding",
-    "question": "When does an Rh-negative person typically develop anti-Rh antibodies?",
+    "question": "An Rh-negative patient gets an accidental transfusion of Rh-positive blood for the very first time. What happens inside their body?",
     "options": {
-      "A": "Whenever they catch a viral infection",
-      "B": "Automatically at six months of age",
-      "C": "After exposure to Rh-positive blood",
-      "D": "During early embryonic development"
+      "A": "Primary sensitization occurs, with gradual antibody production over weeks",
+      "B": "Instant anaphylactic shock occurs due to pre-existing anti-D antibodies",
+      "C": "Immediate massive hemolysis destroys all transfused red blood cells",
+      "D": "No immune response occurs because Rh-negative blood has no antigens"
     },
-    "answer": "C",
-    "explanation": "Rh antibodies aren't there from birth. They only show up if an Rh-negative person gets exposed to Rh-positive blood, like during a transfusion or pregnancy. [learn more](GNS111_U2_T2#GNS111_U2_T2_h3)"
+    "answer": "A",
+    "explanation": "Since it's their first exposure, there's no immediate explosion—instead, the immune system slowly wakes up and starts building antibodies over the following weeks. [learn more](GNS111_U2_T2#GNS111_U2_T2_h3)"
   },
   {
     "question_id": "GNS111_U2_T2_h4_q1",
@@ -101,15 +101,15 @@
     "article_id": "GNS111_U2_T2",
     "topic_id": "GNS111_U2_T2",
     "difficulty": "recall",
-    "question": "What is the main goal of doing a crossmatch test before a blood transfusion?",
+    "question": "During a lab crossmatch, what visual result tells you that the donor and patient blood are incompatible?",
     "options": {
-      "A": "To determine the patient's baseline hemoglobin level",
-      "B": "To measure the exact volume of blood needed",
-      "C": "To sterilize the blood product before transfusion",
-      "D": "To check for compatibility between donor and recipient"
+      "A": "Solution transparency",
+      "B": "Agglutination",
+      "C": "Complete coagulation",
+      "D": "Hemolysis of plasma"
     },
-    "answer": "D",
-    "explanation": "A crossmatch is like a safety rehearsal in the lab. We mix a little of the donor's and recipient's blood to make sure they get along before giving it to the patient. [learn more](GNS111_U2_T2#GNS111_U2_T2_h4)"
+    "answer": "B",
+    "explanation": "Agglutination simply means clumping! If the red blood cells clump together in the test tube, it's a red flag that the blood types don't match. [learn more](GNS111_U2_T2#GNS111_U2_T2_h4)"
   },
   {
     "question_id": "GNS111_U2_T2_h4_q2",
@@ -117,15 +117,15 @@
     "article_id": "GNS111_U2_T2",
     "topic_id": "GNS111_U2_T2",
     "difficulty": "understanding",
-    "question": "In forward blood typing, what are we trying to identify on the patient's red blood cells?",
+    "question": "Why do medical lab scientists use both forward and reverse typing for ABO blood groups?",
     "options": {
-      "A": "Electrolytes",
-      "B": "Antibodies",
-      "C": "Antigens",
-      "D": "Platelets"
+      "A": "To identify hidden infections transmitted through donor blood",
+      "B": "To measure the exact hemoglobin concentration in plasma",
+      "C": "To determine if the patient has a Rhesus negative status",
+      "D": "To cross-check results and prevent fatal typing errors"
     },
-    "answer": "C",
-    "explanation": "Forward typing uses known lab solutions to hunt for the specific antigen tags sitting right on the patient's red blood cells. [learn more](GNS111_U2_T2#GNS111_U2_T2_h4)"
+    "answer": "D",
+    "explanation": "Doing two different tests acts like a double-check system to make sure no dangerous mistakes slip through before a patient gets blood. [learn more](GNS111_U2_T2#GNS111_U2_T2_h4)"
   },
   {
     "question_id": "GNS111_U2_T2_h5_q1",
@@ -133,15 +133,15 @@
     "article_id": "GNS111_U2_T2",
     "topic_id": "GNS111_U2_T2",
     "difficulty": "recall",
-    "question": "Why is O negative blood often called the universal red cell donor?",
+    "question": "Which blood group is the universal donor for packed red blood cells?",
     "options": {
-      "A": "It contains high levels of clotting factors",
-      "B": "It lacks major red cell antigens",
-      "C": "It can be stored longer than other types",
-      "D": "It has the highest concentration of platelets"
+      "A": "Group B",
+      "B": "Group AB",
+      "C": "Group O",
+      "D": "Group A"
     },
-    "answer": "B",
-    "explanation": "O negative red cells are like chameleons—they don't carry A, B, or Rh tags, so almost any patient's immune system will accept them without attacking! [learn more](GNS111_U2_T2#GNS111_U2_T2_h5)"
+    "answer": "C",
+    "explanation": "Group O red blood cells don't have A or B antigens on them, so practically any patient's immune system can accept them without attacking! [learn more](GNS111_U2_T2#GNS111_U2_T2_h5)"
   },
   {
     "question_id": "GNS111_U2_T2_h5_q2",
@@ -149,15 +149,15 @@
     "article_id": "GNS111_U2_T2",
     "topic_id": "GNS111_U2_T2",
     "difficulty": "understanding",
-    "question": "Which blood type is known as the universal red cell recipient?",
+    "question": "Why do the rules for giving donated plasma work in reverse compared to giving red blood cells?",
     "options": {
-      "A": "O negative",
-      "B": "AB positive",
-      "C": "B negative",
-      "D": "A positive"
+      "A": "Plasma contains high concentrations of hemoglobin that alter the recipient blood group",
+      "B": "Plasma antibodies change their type immediately upon contact with recipient veins",
+      "C": "Donor red blood cells destroy plasma proteins before they enter the general circulation",
+      "D": "Plasma transfusions introduce donor antibodies that can attack recipient red blood cells"
     },
-    "answer": "B",
-    "explanation": "AB positive folks already have A, B, and Rh antigens, so their plasma doesn't make antibodies against those tags. They can safely receive red cells from any ABO group! [learn more](GNS111_U2_T2#GNS111_U2_T2_h5)"
+    "answer": "D",
+    "explanation": "When giving plasma, you have to worry about the antibodies floating in the donor's liquid part fighting the patient's cells! [learn more](GNS111_U2_T2#GNS111_U2_T2_h5)"
   },
   {
     "question_id": "GNS111_U2_T2_h6_q1",
@@ -165,15 +165,15 @@
     "article_id": "GNS111_U2_T2",
     "topic_id": "GNS111_U2_T2",
     "difficulty": "recall",
-    "question": "What actually happens inside the body during a hemolytic transfusion reaction?",
+    "question": "What is a major, dangerous complication of an acute mismatched blood transfusion?",
     "options": {
-      "A": "Platelets multiply rapidly in the veins",
-      "B": "White blood cells consume all plasma proteins",
-      "C": "Donor red blood cells are destroyed",
-      "D": "Hemoglobin levels rise above normal limits"
+      "A": "Pulmonary fibrosis",
+      "B": "Chronic bone pain",
+      "C": "Peripheral neuropathy",
+      "D": "Acute kidney injury"
     },
-    "answer": "C",
-    "explanation": "If a mismatch happens, the recipient's antibodies attack the donor red cells, causing them to break apart (hemolyze) in the bloodstream. That's why crossmatching is so crucial! [learn more](GNS111_U2_T2#GNS111_U2_T2_h6)"
+    "answer": "D",
+    "explanation": "When mismatched blood cells burst open, all the loose hemoglobin floods the kidneys and can quickly clog them up, leading to kidney injury. [learn more](GNS111_U2_T2#GNS111_U2_T2_h6)"
   },
   {
     "question_id": "GNS111_U2_T2_h6_q2",
@@ -181,14 +181,14 @@
     "article_id": "GNS111_U2_T2",
     "topic_id": "GNS111_U2_T2",
     "difficulty": "understanding",
-    "question": "Which condition can happen when an Rh-negative mother carries an Rh-positive baby?",
+    "question": "Why is Rho(D) immune globulin given to an Rh-negative mother after childbirth?",
     "options": {
-      "A": "Increased risk of gestational diabetes",
-      "B": "Severe maternal hypertension",
-      "C": "Hemolytic disease of the newborn",
-      "D": "Chronic iron deficiency anemia"
+      "A": "To permanently convert the mother's blood group to Rh-positive",
+      "B": "To stimulate the foetus to produce its own protective antibodies",
+      "C": "To cure existing hemolytic disease in the unborn foetus",
+      "D": "To prevent maternal sensitization against foetal Rh-positive red blood cells"
     },
-    "answer": "C",
-    "explanation": "If the baby's Rh-positive cells sneak into an Rh-negative mother's circulation, her antibodies can form and attack a future baby's red blood cells. Fortunately, we can prevent this easily with routine care! [learn more](GNS111_U2_T2#GNS111_U2_T2_h6)"
+    "answer": "D",
+    "explanation": "It acts like a cleanup crew, destroying any baby blood cells that slipped into the mother's system before her body can spot them and build lifelong antibodies. [learn more](GNS111_U2_T2#GNS111_U2_T2_h6)"
   }
 ]
