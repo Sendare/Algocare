@@ -5,15 +5,15 @@
     "article_id": "GST114_U2_T16",
     "topic_id": "GST114_U2_T16",
     "difficulty": "recall",
-    "question": "What is the primary target group for quarantine measures?",
+    "question": "What is the primary characteristic of individuals placed in quarantine?",
     "options": {
-      "A": "Healthcare workers on annual leave",
-      "B": "Healthy individuals exposed to a contagious disease",
-      "C": "Recovered patients awaiting discharge",
-      "D": "Patients with confirmed laboratory diagnoses"
+      "A": "They are actively showing symptoms.",
+      "B": "They have recovered from infection.",
+      "C": "They are healthy but exposed.",
+      "D": "They refuse medical treatment."
     },
-    "answer": "B",
-    "explanation": "Quarantine specifically restricts people who are well but have been exposed, distinguishing them from those who are actively sick. [learn more](GST114_U2_T16#GST114_U2_T16_h1)"
+    "answer": "C",
+    "explanation": "Quarantine specifically applies to individuals who are well and asymptomatic but have a history of exposure to a communicable disease. [learn more](GST114_U2_T16#GST114_U2_T16_h1)"
   },
   {
     "question_id": "GST114_U2_T16_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GST114_U2_T16",
     "topic_id": "GST114_U2_T16",
     "difficulty": "understanding",
-    "question": "Why is the incubation period the key duration for quarantine?",
+    "question": "Why is the duration of quarantine based on the pathogen's incubation period?",
     "options": {
-      "A": "It marks the exact window when the pathogen becomes completely inactive.",
-      "B": "It is the time required for complete drug clearance in the body.",
-      "C": "It represents the standard length of hospital admission for any fever.",
-      "D": "It allows time to observe if exposed persons develop symptoms."
+      "A": "To wait until the patient develops immunity",
+      "B": "To reduce the financial cost of hospital admissions",
+      "C": "To monitor for disease onset before community exposure",
+      "D": "To allow time for laboratory culture results to process"
     },
-    "answer": "D",
-    "explanation": "Monitoring during the incubation period ensures that anyone who was infected during exposure is identified before they can spread the disease. [learn more](GST114_U2_T16#GST114_U2_T16_h1)"
+    "answer": "C",
+    "explanation": "Matching quarantine length to the incubation period ensures that if an exposed person develops the disease, it happens while they are separated from the public. [learn more](GST114_U2_T16#GST114_U2_T16_h1)"
   },
   {
     "question_id": "GST114_U2_T16_h2_q1",
@@ -37,15 +37,15 @@
     "article_id": "GST114_U2_T16",
     "topic_id": "GST114_U2_T16",
     "difficulty": "recall",
-    "question": "Who is the proper subject for medical isolation?",
+    "question": "A patient with a confirmed Lassa fever diagnosis requires which measure?",
     "options": {
-      "A": "A healthy contact of a cholera patient",
-      "B": "A nurse returning from a community outreach",
-      "C": "A person with a confirmed infectious illness",
-      "D": "A traveler arriving from a malaria-endemic zone"
+      "A": "Rehabilitation",
+      "B": "Quarantine",
+      "C": "Isolation",
+      "D": "Observation"
     },
     "answer": "C",
-    "explanation": "Isolation is strictly reserved for individuals who are already sick and capable of transmitting their active infection to others. [learn more](GST114_U2_T16#GST114_U2_T16_h2)"
+    "explanation": "Confirmed cases of contagious illnesses require isolation to separate sick individuals from healthy populations. [learn more](GST114_U2_T16#GST114_U2_T16_h2)"
   },
   {
     "question_id": "GST114_U2_T16_h2_q2",
@@ -53,15 +53,15 @@
     "article_id": "GST114_U2_T16",
     "topic_id": "GST114_U2_T16",
     "difficulty": "understanding",
-    "question": "What separates quarantine from isolation regarding patient status?",
+    "question": "A key difference between isolation and quarantine is that isolation applies to people who are...",
     "options": {
-      "A": "Quarantine lasts for life, while isolation lasts for a few days.",
-      "B": "Quarantine requires strict hospital admission, while isolation is done at home.",
-      "C": "Quarantine is voluntary, whereas isolation is legally mandated.",
-      "D": "Quarantine applies to exposed healthy people, while isolation applies to sick people."
+      "A": "travelling from abroad",
+      "B": "already sick with symptoms",
+      "C": "waiting for test results",
+      "D": "completely immune to disease"
     },
-    "answer": "D",
-    "explanation": "The fundamental difference lies in the health status and diagnosis of the individual being separated. [learn more](GST114_U2_T16#GST114_U2_T16_h2)"
+    "answer": "B",
+    "explanation": "Isolation is strictly reserved for individuals who are currently ill and capable of spreading the infectious agent. [learn more](GST114_U2_T16#GST114_U2_T16_h2)"
   },
   {
     "question_id": "GST114_U2_T16_h3_q1",
@@ -69,47 +69,47 @@
     "article_id": "GST114_U2_T16",
     "topic_id": "GST114_U2_T16",
     "difficulty": "recall",
-    "question": "What type of quarantine restricts an entire neighborhood or district?",
+    "question": "Which type of quarantine involves restricting movement across an entire neighborhood or town?",
     "options": {
       "A": "Home quarantine",
-      "B": "Facility quarantine",
-      "C": "Voluntary quarantine",
-      "D": "Community quarantine"
+      "B": "Voluntary quarantine",
+      "C": "Community quarantine",
+      "D": "Facility quarantine"
     },
-    "answer": "D",
-    "explanation": "Community quarantine applies broader geographic restrictions when tracking individual contacts becomes unmanageable during severe outbreaks. [learn more](GST114_U2_T16#GST114_U2_T16_h3)"
+    "answer": "C",
+    "explanation": "Community quarantine applies to broader geographic boundaries to halt widespread transmission within a population. [learn more](GST114_U2_T16#GST114_U2_T16_h3)"
   },
   {
     "question_id": "GST114_U2_T16_h3_q2",
     "heading_id": "GST114_U2_T16_h3",
     "article_id": "GST114_U2_T16",
     "topic_id": "GST114_U2_T16",
-    "difficulty": "understanding",
-    "question": "When is facility quarantine preferred over home quarantine?",
+    "difficulty": "application",
+    "question": "A returning traveler with no symptoms but potential exposure is advised to stay in their house. What type of quarantine is this?",
     "options": {
-      "A": "When the patient develops severe respiratory failure",
-      "B": "When laboratory tests confirm negative infection status",
-      "C": "When home conditions lack space to prevent household transmission",
-      "D": "When the exposed person prefers staying in a hotel"
+      "A": "Cordon sanitaire",
+      "B": "Home quarantine",
+      "C": "Strict isolation",
+      "D": "Hospital quarantine"
     },
-    "answer": "C",
-    "explanation": "Facility quarantine protects family members in crowded households where self-separation is practically impossible. [learn more](GST114_U2_T16#GST114_U2_T16_h3)"
+    "answer": "B",
+    "explanation": "Staying within one's private residence for monitoring without hospital admission defines home quarantine. [learn more](GST114_U2_T16#GST114_U2_T16_h3)"
   },
   {
     "question_id": "GST114_U2_T16_h4_q1",
     "heading_id": "GST114_U2_T16_h4",
     "article_id": "GST114_U2_T16",
     "topic_id": "GST114_U2_T16",
-    "difficulty": "recall",
-    "question": "Why must staff wear PPE in quarantine areas housing asymptomatic people?",
+    "difficulty": "understanding",
+    "question": "Why is routine temperature measurement essential during the monitoring of quarantined individuals?",
     "options": {
-      "A": "To prevent unrecognized transmission from incubating cases",
-      "B": "To keep facility floors completely sterile at all times",
-      "C": "To comply with fire safety regulations in public buildings",
-      "D": "To replace the need for handwashing protocols"
+      "A": "It proves the patient is following dietary guidelines.",
+      "B": "Fever is often the earliest sign of clinical disease onset.",
+      "C": "It builds a baseline for normal body fat percentage.",
+      "D": "It prevents secondary bacterial skin infections."
     },
-    "answer": "A",
-    "explanation": "Asymptomatic individuals in quarantine may already be shedding the virus, making PPE essential for worker safety. [learn more](GST114_U2_T16#GST114_U2_T16_h4)"
+    "answer": "B",
+    "explanation": "Tracking body temperature twice daily helps nurses catch the initial febrile response before other severe symptoms manifest. [learn more](GST114_U2_T16#GST114_U2_T16_h4)"
   },
   {
     "question_id": "GST114_U2_T16_h4_q2",
@@ -117,15 +117,15 @@
     "article_id": "GST114_U2_T16",
     "topic_id": "GST114_U2_T16",
     "difficulty": "application",
-    "question": "A nurse enters a quarantine station to drop off supplies. What is the most critical immediate action after leaving?",
+    "question": "A quarantined person reports feeling increasingly anxious and trapped in their room. What should the nurse do?",
     "options": {
-      "A": "File an incident report with the ministry",
-      "B": "Perform thorough hand hygiene",
-      "C": "Spray the hallway with chemical bleach",
-      "D": "Document the temperature check in a ledger"
+      "A": "Assess their mental health and provide supportive counseling.",
+      "B": "Discontinue the quarantine immediately to relieve stress.",
+      "C": "Report the individual to law enforcement for non-compliance.",
+      "D": "Ignore the complaint as an expected part of isolation."
     },
-    "answer": "B",
-    "explanation": "Hand hygiene is the single most effective barrier against cross-contamination after any potential contact in an infectious environment. [learn more](GST114_U2_T16#GST114_U2_T16_h4)"
+    "answer": "A",
+    "explanation": "Nurses must address the psychological well-being of quarantined individuals alongside physical monitoring. [learn more](GST114_U2_T16#GST114_U2_T16_h4)"
   },
   {
     "question_id": "GST114_U2_T16_h5_q1",
@@ -133,15 +133,15 @@
     "article_id": "GST114_U2_T16",
     "topic_id": "GST114_U2_T16",
     "difficulty": "recall",
-    "question": "What is a primary nursing responsibility during daily quarantine checks?",
+    "question": "What is considered the single most effective intervention in infection prevention and control?",
     "options": {
-      "A": "Monitoring for early signs of infection",
-      "B": "Administering therapeutic antibiotics to all residents",
-      "C": "Discharging residents who feel well after one day",
-      "D": "Conducting laboratory blood culture testing"
+      "A": "Spraying chemical disinfectants",
+      "B": "Wearing heavy boots",
+      "C": "Hand hygiene",
+      "D": "Taking prophylactic antibiotics"
     },
-    "answer": "A",
-    "explanation": "Daily assessment catches the very first symptoms of disease, allowing rapid separation and treatment. [learn more](GST114_U2_T16#GST114_U2_T16_h5)"
+    "answer": "C",
+    "explanation": "Frequent and proper hand hygiene remains the cornerstone of preventing the spread of infectious agents in any setting. [learn more](GST114_U2_T16#GST114_U2_T16_h5)"
   },
   {
     "question_id": "GST114_U2_T16_h5_q2",
@@ -149,78 +149,46 @@
     "article_id": "GST114_U2_T16",
     "topic_id": "GST114_U2_T16",
     "difficulty": "understanding",
-    "question": "A quarantined person develops a sudden fever on day four. What should the nurse do first?",
+    "question": "Why must personal protective equipment be doffed following specific institutional guidelines?",
     "options": {
-      "A": "Arrange immediate transition to an isolation facility",
-      "B": "Instruct the family to bring herbal remedies from home",
-      "C": "Document the finding and recheck temperature next week",
-      "D": "Extend the quarantine period for another fourteen days"
+      "A": "To speed up the shift change process for clinical staff",
+      "B": "To comply with fashion standards in modern hospitals",
+      "C": "To ensure the garments can be washed and reused immediately",
+      "D": "To prevent self-contamination from infectious material on the gear"
     },
-    "answer": "A",
-    "explanation": "Developing symptoms changes the status from an exposed contact to a suspected case, requiring immediate isolation. [learn more](GST114_U2_T16#GST114_U2_T16_h5)"
+    "answer": "D",
+    "explanation": "Incorrect removal of PPE often transfers pathogens from the outside of the gown or gloves onto the skin or scrubs of the worker. [learn more](GST114_U2_T16#GST114_U2_T16_h5)"
   },
   {
     "question_id": "GST114_U2_T16_h6_q1",
     "heading_id": "GST114_U2_T16_h6",
     "article_id": "GST114_U2_T16",
     "topic_id": "GST114_U2_T16",
-    "difficulty": "recall",
-    "question": "Which Nigerian statute provides the primary legal basis for quarantine enforcement?",
+    "difficulty": "understanding",
+    "question": "How does clear patient education reduce anxiety among quarantined individuals?",
     "options": {
-      "A": "The Quarantine Act",
-      "B": "The Nursing and Midwifery Decree",
-      "C": "The Criminal Code Ordinance",
-      "D": "The National Health Insurance Act"
+      "A": "It provides financial compensation for lost wages.",
+      "B": "It guarantees that they will not contract the disease.",
+      "C": "It removes uncertainty about the duration and purpose of confinement.",
+      "D": "It eliminates the need for daily temperature checks."
     },
-    "answer": "A",
-    "explanation": "The Quarantine Act is the foundational legislation granting Nigerian authorities the legal power to declare and enforce quarantine. [learn more](GST114_U2_T16#GST114_U2_T16_h6)"
+    "answer": "C",
+    "explanation": "Fear of the unknown fuels anxiety; explaining the clinical reasons and timelines for quarantine helps patients cope better. [learn more](GST114_U2_T16#GST114_U2_T16_h6)"
   },
   {
     "question_id": "GST114_U2_T16_h6_q2",
     "heading_id": "GST114_U2_T16_h6",
     "article_id": "GST114_U2_T16",
     "topic_id": "GST114_U2_T16",
-    "difficulty": "understanding",
-    "question": "Why is it important for nurses to understand the legal basis of quarantine?",
+    "difficulty": "application",
+    "question": "A family in home quarantine expresses fear of community stigma and ostracization. What is the appropriate nursing action?",
     "options": {
-      "A": "To prosecute family members who bring food to the facility",
-      "B": "To balance public safety protection with respect for human rights",
-      "C": "To bypass obtaining informed consent for all clinical procedures",
-      "D": "To arrest individuals who refuse to take their medications"
-    },
-    "answer": "B",
-    "explanation": "Nurses must respect lawful authority while ensuring patient dignity and ethical treatment are maintained throughout confinement. [learn more](GST114_U2_T16#GST114_U2_T16_h6)"
-  },
-  {
-    "question_id": "GST114_U2_T16_h7_q1",
-    "heading_id": "GST114_U2_T16_h7",
-    "article_id": "GST114_U2_T16",
-    "topic_id": "GST114_U2_T16",
-    "difficulty": "understanding",
-    "question": "How does clear patient education improve quarantine compliance?",
-    "options": {
-      "A": "By shortening the incubation period of the pathogen",
-      "B": "By eliminating the need for daily temperature checks",
-      "C": "By reducing fear and explaining the public health purpose",
-      "D": "By threatening legal penalties for leaving the room"
+      "A": "Discharge them from quarantine to protect their social standing.",
+      "B": "Advise them to sneak out at night to avoid being seen.",
+      "C": "Provide reassurance, education, and connect them with support networks.",
+      "D": "Tell them to ignore the community and expect hostility."
     },
     "answer": "C",
-    "explanation": "When people understand why restrictions exist and what to expect, compliance and cooperation improve significantly. [learn more](GST114_U2_T16#GST114_U2_T16_h7)"
-  },
-  {
-    "question_id": "GST114_U2_T16_h7_q2",
-    "heading_id": "GST114_U2_T16_h7",
-    "article_id": "GST114_U2_T16",
-    "topic_id": "GST114_U2_T16",
-    "difficulty": "application",
-    "question": "A quarantined client exhibits severe anxiety and cries constantly about missing work. What is the most appropriate nursing intervention?",
-    "options": {
-      "A": "Provide active listening and connect the client to counseling services",
-      "B": "Advise the client to ignore the feelings and focus on sleeping",
-      "C": "Discharge the client immediately to relieve work stress",
-      "D": "Prescribe strong sedative medications without a doctor's order"
-    },
-    "answer": "A",
-    "explanation": "Addressing mental health needs through support and counseling helps clients cope with the psychological strain of confinement. [learn more](GST114_U2_T16#GST114_U2_T16_h7)"
+    "explanation": "Nurses address psychosocial concerns by offering reassurance and practical guidance to manage stigma and emotional stress. [learn more](GST114_U2_T16#GST114_U2_T16_h6)"
   }
 ]

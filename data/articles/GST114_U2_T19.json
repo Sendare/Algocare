@@ -11,49 +11,49 @@
       "heading_id": "GST114_U2_T19_h1",
       "order": 1,
       "title": "Introduction to Case-Control Studies",
-      "content": "A case-control study is a type of observational research used frequently in epidemiology and nursing research to investigate the causes of diseases, particularly when dealing with outbreaks or rare conditions. Unlike experimental studies where researchers actively intervene, observational studies simply watch and record what has already happened. The defining feature of this design is that it moves backward in time, starting with people who already have a specific health outcome and comparing them to people who do not.\n\nIn clinical practice, nurses encounter this design when reading public health bulletins about sudden cholera or Lassa fever outbreaks in local communities. By looking backward, researchers can quickly identify common risk factors among affected patients without waiting years for a prospective cohort study to unfold."
+      "content": "A case-control study is a type of observational research used frequently in public health and nursing epidemiology. Investigators look backward in time from an outcome to identify possible exposures. Researchers identify individuals who already have a specific health condition, known as **cases**, and compare them to individuals who do not have the condition, known as **controls**. This design is retrospective because it starts with the disease and works backward to find the cause."
     },
     {
       "heading_id": "GST114_U2_T19_h2",
       "order": 2,
       "title": "Core Characteristics and Research Design",
-      "content": "The structural layout of a case-control study is straightforward yet demands rigorous planning to avoid fatal methodological errors. Researchers divide the target population into two distinct groups based entirely on their disease status at the start of the investigation.\n\n- **Cases**: Individuals who currently have the disease, condition, or infection under investigation.\n- **Controls**: Individuals who are free of the disease or condition but come from the same source population as the cases.\n\nOnce these groups are established, investigators look backward to measure past exposures, behaviors, or environmental factors. A common misconception among students is that you select people based on their exposure first; that design is a cohort study. In a case-control study, outcome selection happens first."
+      "content": "Case-control studies are inherently retrospective, moving from the effect to the suspected cause. They are relatively quick to conduct and cost-effective compared to cohort studies. Because they start with existing cases, they are exceptionally useful for studying rare diseases or infections with long incubation periods. The fundamental structural layout requires clear identification of study groups from the same underlying population source."
     },
     {
       "heading_id": "GST114_U2_T19_h3",
       "order": 3,
       "title": "Selection and Definition of Cases and Controls",
-      "content": "Selecting appropriate cases and controls is the most critical phase of designing this type of research. Cases must be clearly defined using explicit diagnostic criteria, such as laboratory-confirmed typhoid fever via Widal test or stool culture, rather than vague clinical suspicion.\n\nControls must represent the baseline population from which the cases arose. If your cases are patients admitted to a tertiary teaching hospital in Lagos, your controls should ideally come from similar communities or non-infectious wards in that same hospital catchment area. Selecting healthy community controls when cases are hospitalized can introduce serious selection bias, because hospital patients often have different healthcare-seeking behaviors and baseline health profiles compared to healthy people walking on the street."
+      "content": "Selecting appropriate participants is the most critical step in designing valid research. \n- **Cases**: Must meet explicit, standardized diagnostic criteria for the disease or infection.\n- **Controls**: Must be representative of the population from which the cases arose, and they must be genuinely at risk of developing the disease under study."
     },
     {
       "heading_id": "GST114_U2_T19_h4",
       "order": 4,
       "title": "Exposure Assessment and Data Collection",
-      "content": "Gathering data on past exposures relies heavily on historical records, laboratory logs, or patient memory through interviews and questionnaires. Researchers must ensure that data collection methods are applied identically to both cases and controls to maintain study validity.\n\nRecall bias is a major hazard during this phase. Patients who are currently sick with a severe infection, such as Lassa fever, often search their memories much harder for suspicious exposures than healthy control participants do. A case might vividly remember eating questionable food at a local market, whereas a healthy control might completely forget eating the exact same meal. To minimize this, structured questionnaires and blinded interviewers who do not know whether the participant is a case or control should be utilized."
+      "content": "Gathering exposure data in retrospective designs often relies on interviews, questionnaires, or past medical records. A major challenge here is **recall bias**, which occurs when patients with a disease remember past exposures differently or more thoroughly than healthy controls. Nurses and researchers must use standardized data collection tools to minimize this error and ensure uniform questioning across all participants."
     },
     {
       "heading_id": "GST114_U2_T19_h5",
       "order": 5,
       "title": "Measures of Association: The Odds Ratio",
-      "content": "Because case-control studies select participants based on disease status rather than exposure, you cannot calculate true disease incidence or relative risk directly. Instead, the standard statistical measure used is the **Odds Ratio (OR)**.\n\nThe odds ratio compares the odds of exposure among the cases to the odds of exposure among the controls. \n\n| Statistic | Meaning | Interpretation |\n| --- | --- | --- |\n| OR = 1 | No association | Exposure does not affect disease odds |\n| OR > 1 | Positive association | Exposure increases the odds of disease (risk factor) |\n| OR < 1 | Negative association | Exposure decreases the odds of disease (protective factor) |\n\nFor example, if an outbreak investigation yields an odds ratio of 4.5 for eating unwashed vegetables, people who ate the vegetables had 4.5 times the odds of falling ill compared to those who did not."
+      "content": "The primary statistical measure used in case-control studies is the **odds ratio (OR)**. It estimates the strength of association between an exposure and an outcome. \n\n| Statistic | Meaning in Case-Control | Interpretation |\n| --- | --- | --- |\n| OR = 1 | No association | Exposure does not affect odds of disease |\n| OR > 1 | Positive association | Exposure increases odds of disease |\n| OR < 1 | Negative association | Exposure may be protective against disease |"
     },
     {
       "heading_id": "GST114_U2_T19_h6",
       "order": 6,
       "title": "Confounding Variables and Bias",
-      "content": "Validity in case-control research is constantly threatened by confounding variables—extraneous factors that distort the true relationship between the exposure and the disease. For instance, if a study investigates whether coffee drinking causes pancreatic cancer, age and smoking status can act as confounders if older smokers happen to drink more coffee and also develop cancer at higher rates.\n\nResearchers can control for confounding during the design phase through **matching** (pairing controls to cases based on age and sex) or during the analysis phase using multivariable statistical adjustment. Selection bias and information bias must also be actively managed through rigorous protocol design to ensure that study findings reflect biological reality rather than methodological flaws."
+      "content": "Validity in case-control studies can be threatened by confounding variables—extraneous factors associated with both the exposure and the disease that distort the true relationship. For example, age or underlying immunity status might skew findings. Researchers control confounding during study design through **matching** participants, or during statistical analysis by adjusting models."
     },
     {
       "heading_id": "GST114_U2_T19_h7",
       "order": 7,
-      "title": "Advantages and Limitations of Case-Control Designs",
-      "content": "Every research methodology has unique strengths and weaknesses that dictate when it should be used. Case-control studies are exceptionally efficient for investigating rare diseases or conditions with long latency periods, such as specific cancers or chronic illnesses, because you do not have to follow healthy people for decades waiting for them to get sick.\n\nHowever, they possess notable limitations. They are highly susceptible to recall bias and selection bias, and they cannot determine disease incidence or absolute risk because the proportion of diseased people is fixed by the researcher. Furthermore, establishing the exact temporal sequence—proving the exposure happened before the disease—can sometimes be challenging when relying on retrospective data."
+      "title": "Advantages and Limitations",
+      "content": "Every research design has operational trade-offs.\n- **Advantages**: Inexpensive, fast, requires small sample sizes, and ideal for rare conditions.\n- **Limitations**: Inability to calculate true disease incidence, highly vulnerable to recall and selection bias, and poor choice for studying rare exposures."
     },
     {
       "heading_id": "GST114_U2_T19_h8",
       "order": 8,
       "title": "Application in Outbreak Investigations",
-      "content": "In public health nursing and epidemiology, rapid case-control studies are the frontline tool for managing sudden disease outbreaks in local communities. When a mysterious cluster of food poisoning, cholera, or viral hemorrhagic fever strikes, public health teams must identify the source immediately to halt transmission.\n\nField nurses and epidemiologists quickly interview affected patients (cases) and healthy community members or event attendees (controls) about what they ate, where they traveled, or what water sources they used. Calculating the odds ratio on site allows public health authorities to pinpoint the vehicle of infection—such as a contaminated community borehole or a specific food vendor—and implement targeted control measures like closing the source or issuing public safety warnings."
+      "content": "Public health nurses and epidemiologists rely heavily on case-control studies during acute disease outbreaks, such as cholera or food poisoning spikes. When an infection hits a community, investigators quickly interview affected patients and healthy community members about what they ate, drank, or touched. This rapid identification of sources stops transmission and guides infection control interventions."
     }
   ]
 }
