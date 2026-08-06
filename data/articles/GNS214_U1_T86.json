@@ -12,44 +12,44 @@
     {
       "heading_id": "GNS214_U1_T86_h1",
       "order": 1,
-      "title": "Introduction to Epidemiological Terms in Primary Health Care",
-      "content": "Epidemiology is simply the study of how and why diseases spread in a population. When working in community health centers or primary health care clinics, nurses encounter terms like outbreak, endemic, prevalence, and incidence daily. Understanding these terms helps healthcare workers track illnesses, plan community outreaches, and allocate limited medical supplies effectively. Without clear definitions, it becomes difficult to explain health trends to community leaders or measure whether a local health intervention is actually working."
+      "title": "Definition and Core Concept of Incidence",
+      "content": "Incidence measures the occurrence of **new cases** of a disease in a specified population over a given period of time. Unlike existing cases, incidence focuses strictly on transition from a healthy state to a diseased state. Understanding incidence helps healthcare providers gauge how fast a condition is spreading through a community.\n\n- **Numerator**: The number of new disease events recorded during a specific timeframe.\n- **Denominator**: The population at risk of developing the disease during that same timeframe.\n- **Timeframe**: The precise period over which the new cases are counted."
     },
     {
       "heading_id": "GNS214_U1_T86_h2",
       "order": 2,
-      "title": "Definition and Core Concept of Incidence",
-      "content": "Incidence measures the number of **new** cases of a disease that develop in a population over a specific period. Imagine a primary health clinic starting a fresh calendar year with zero recorded cases of measles in a nearby village. Over the next twelve months, exactly fifteen children develop the infection. Those fifteen newly diagnosed cases represent the incidence for that year. The core idea here is the transition from a healthy state to a diseased state; incidence only counts people who newly acquire the condition."
+      "title": "Incidence Rate Versus Prevalence",
+      "content": "A common mistake in public health is confusing incidence with prevalence. While incidence counts only new events, **prevalence** measures all existing cases—both old and new—at a specific point in time.\n\n| Feature | Incidence | Prevalence |\n| --- | --- | --- |\n| Focus | New cases | Total existing cases |\n| Primary Use | Measuring risk and speed of disease spread | Determining overall burden on health services |\n| Time Dimension | Measured over an interval | Measured at a single point or period |\n\nA chronic disease like HIV may have low incidence but high prevalence if patients live long lives on antiretroviral therapy."
     },
     {
       "heading_id": "GNS214_U1_T86_h3",
       "order": 3,
-      "title": "Incidence Versus Prevalence",
-      "content": "Students often confuse incidence and prevalence because both describe how common a health condition is. Think of prevalence as a photograph capturing all existing cases at one moment, while incidence is a video showing new cases arising over time.\n\n- **Incidence**: Measures only new cases and is best for studying the causes of acute infections.\n- **Prevalence**: Measures all cases (both old and new) existing at a specific point in time and is useful for planning long-term care for chronic conditions."
+      "title": "How to Calculate Incidence",
+      "content": "Calculating incidence requires dividing the number of new cases by the population at risk, then multiplying by a standard base of ten (such as 1,000 or 100,000) to make the resulting figure easy to interpret.\n\n$$\\text{Incidence Rate} = \\left( \\frac{\\text{Number of New Cases}}{\\text{Total Population at Risk}} \\right) \\times 10^n$$\n\nFor example, if a village of 5,000 people records 50 new cases of malaria in six months, the calculation yields 10 cases per 1,000 population over that period. Always ensure that anyone who already has the disease at the start of the period is removed from the denominator."
     },
     {
       "heading_id": "GNS214_U1_T86_h4",
       "order": 4,
-      "title": "How to Calculate Incidence Rate",
-      "content": "To calculate an incidence rate, you need two main figures: the number of new cases during a specific time period, and the total population at risk during that same period. Anyone who already has the disease or is immune cannot be part of the population at risk.\n\n1. **Identify new cases**: Count everyone who newly develops the condition.\n2. **Determine population at risk**: Count all healthy individuals who could potentially contract the disease.\n3. **Apply the formula**: Divide the new cases by the population at risk, then multiply by a standard base like 1,000 or 100,000 to get a clean number."
+      "title": "Cumulative Incidence Versus Incidence Density",
+      "content": "Epidemiologists use two main ways to express incidence depending on how the population is followed over time.\n\n- **Cumulative Incidence**: Measures the probability or risk that a person will develop a disease during a specified time period. It assumes every person in the denominator is followed for the entire duration.\n- **Incidence Density (Incidence Rate)**: Uses person-time in the denominator, accounting for individuals who drop out, migrate, or die before the study period ends. \n\nIncidence density is especially useful in dynamic community settings where people move in and out frequently."
     },
     {
       "heading_id": "GNS214_U1_T86_h5",
       "order": 5,
-      "title": "Cumulative Incidence Versus Incidence Density",
-      "content": "Measures of incidence are not all calculated the same way. When a stable group of people is followed for a fixed period from start to finish, we use **cumulative incidence**. This assumes every person in the study was observed for the entire duration. However, in real-world public health work, people move away, drop out, or get sick at different times. For these situations, we use **incidence density**, also known as person-time incidence. This method calculates rates using the exact amount of time each individual contributed to the study before the event occurred or before they left."
+      "title": "Factors Influencing Disease Incidence",
+      "content": "Changes in disease incidence do not happen by chance; they reflect shifts in environmental, biological, and social determinants. When public health nurses analyze rising case numbers, they look at several driving forces.\n\n- **Environmental conditions**: Poor sanitation and safe water access increase enteric infection incidence.\n- **Vector ecology**: Rainfall patterns alter mosquito breeding sites, directly changing malaria incidence.\n- **Immunity levels**: Successful mass vaccination campaigns drive down the incidence of vaccine-preventable diseases like measles.\n- **Population density**: Overcrowded living quarters accelerate airborne pathogen transmission."
     },
     {
       "heading_id": "GNS214_U1_T86_h6",
       "order": 6,
       "title": "Role of Incidence Data in Disease Surveillance and Control",
-      "content": "Incidence data acts as an early warning system for public health nurses and epidemiologists. A sudden spike in the incidence of diarrhea or fever in a local community signals that an outbreak may be beginning, prompting immediate investigation of water sources or food supplies. Tracking incidence over months and years also helps health authorities evaluate whether immunization campaigns or sanitation programs are succeeding in reducing the spread of preventable infectious diseases."
+      "content": "Public health agencies rely on continuous tracking of incidence to detect outbreaks before they overwhelm local health facilities. An unexpected spike in weekly incidence triggers rapid response measures, such as contact tracing, isolation protocols, or emergency vaccination drives.\n\nTracking incidence over multiple years also reveals whether disease control policies are working. If incidence curves trend downward following an intervention, nurses and health officers have proof of program success."
     },
     {
       "heading_id": "GNS214_U1_T86_h7",
       "order": 7,
       "title": "Application of Incidence in Nigerian Public Health Practice",
-      "content": "In Nigeria, incidence data guides responses to seasonal health challenges like Lassa fever during the dry season or cholera during the rainy season. Primary health care workers collect daily and weekly disease reports from local clinics and send them up to local government health departments. This routine tracking helps the Nigeria Centre for Disease Control (NCDC) deploy rapid response teams, distribute essential medicines, and launch public awareness campaigns before localized outbreaks turn into widespread national emergencies."
+      "content": "In primary health care across Nigeria, incidence data guides resource deployment for endemic threats like cholera, Lassa fever, and measles. Local government health departments rely on community health extension workers and nurses to report new cases promptly through integrated disease surveillance systems.\n\nAccurate local reporting ensures that limited medical supplies, vaccines, and personal protective equipment reach high-risk areas without delay, protecting vulnerable rural and urban populations alike."
     }
   ]
 }

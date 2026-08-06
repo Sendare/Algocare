@@ -5,15 +5,15 @@
     "article_id": "GNS214_U1_T86",
     "topic_id": "GNS214_U1_T86",
     "difficulty": "recall",
-    "question": "What is the main goal of epidemiology in public health?",
+    "question": "What does incidence measure in a target population?",
     "options": {
-      "A": "Manufacturing vaccines for global distribution",
-      "B": "Managing financial budgets for health clinics",
-      "C": "Treating individual patients in a hospital ward",
-      "D": "Studying how and why diseases spread in a population"
+      "A": "New cases of a disease",
+      "B": "Cured patients from a disease",
+      "C": "Deaths resulting from a disease",
+      "D": "Total existing cases of a disease"
     },
-    "answer": "D",
-    "explanation": "Epidemiology is all about looking at the big picture—how and why health issues affect entire populations, rather than just treating one patient at a time. Great job wrapping your head around this community health fundamental! [learn more](GNS214_U1_T86#GNS214_U1_T86_h1)"
+    "answer": "A",
+    "explanation": "Incidence tracks newly diagnosed cases over a set period to show how fast a condition spreads. [learn more](GNS214_U1_T86#GNS214_U1_T86_h1)"
   },
   {
     "question_id": "GNS214_U1_T86_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GNS214_U1_T86",
     "topic_id": "GNS214_U1_T86",
     "difficulty": "understanding",
-    "question": "Why do community health nurses need to know basic epidemiological terms?",
+    "question": "Why must the denominator in an incidence calculation exclude people who already have the condition?",
     "options": {
-      "A": "To diagnose rare surgical conditions in the emergency room",
-      "B": "To track illnesses and plan local health outreaches effectively",
-      "C": "To calculate hospital building construction costs",
-      "D": "To prescribe complex medications without consulting doctors"
+      "A": "Only people at risk of getting the disease should be counted",
+      "B": "It simplifies mathematical calculations for community health workers",
+      "C": "Existing cases are automatically added to the numerator instead",
+      "D": "Patients with the disease no longer live in the community"
     },
-    "answer": "B",
-    "explanation": "Spotting disease trends helps you plan amazing, targeted health outreaches for your community. You're building skills that save real lives! [learn more](GNS214_U1_T86#GNS214_U1_T86_h1)"
+    "answer": "A",
+    "explanation": "The population at risk must only include disease-free individuals capable of developing the new condition. [learn more](GNS214_U1_T86#GNS214_U1_T86_h1)"
   },
   {
     "question_id": "GNS214_U1_T86_h2_q1",
@@ -37,31 +37,31 @@
     "article_id": "GNS214_U1_T86",
     "topic_id": "GNS214_U1_T86",
     "difficulty": "recall",
-    "question": "In public health, what does 'incidence' specifically measure?",
+    "question": "Prevalence differs from incidence because prevalence measures which of the following?",
     "options": {
-      "A": "The number of recovered patients discharged from a ward",
-      "B": "The percentage of patients who die from a specific infection",
-      "C": "The total number of people living with a chronic illness",
-      "D": "The number of new cases of a disease over a specific period"
+      "A": "All existing cases at a specific time",
+      "B": "The rate of recovery from an infection",
+      "C": "Total deaths caused by an outbreak",
+      "D": "Only newly diagnosed cases in a year"
     },
-    "answer": "D",
-    "explanation": "Think of incidence as the brand-new cases popping up during a set time frame. You've got this! [learn more](GNS214_U1_T86#GNS214_U1_T86_h2)"
+    "answer": "A",
+    "explanation": "Prevalence captures the total burden by counting both old and existing cases together at one moment. [learn more](GNS214_U1_T86#GNS214_U1_T86_h2)"
   },
   {
     "question_id": "GNS214_U1_T86_h2_q2",
     "heading_id": "GNS214_U1_T86_h2",
     "article_id": "GNS214_U1_T86",
     "topic_id": "GNS214_U1_T86",
-    "difficulty": "understanding",
-    "question": "A village starts the year with no cholera, but 10 people fall sick by March. What do these 10 new cases represent?",
+    "difficulty": "application",
+    "question": "A community clinic plans resource allocation for long-term care of diabetic patients. Which metric is most useful?",
     "options": {
-      "A": "The recovery rate of the infected population",
-      "B": "The prevalence of cholera in the village",
-      "C": "The mortality rate of the disease outbreak",
-      "D": "The incidence of cholera for that period"
+      "A": "Disease prevalence",
+      "B": "Case fatality rate",
+      "C": "Disease incidence",
+      "D": "Attack rate"
     },
-    "answer": "D",
-    "explanation": "Because these 10 folks developed the illness during that time window, they are the brand-new cases—making it the incidence! [learn more](GNS214_U1_T86#GNS214_U1_T86_h2)"
+    "answer": "A",
+    "explanation": "Prevalence shows the total number of people living with a condition, helping plan ongoing care and drug supplies. [learn more](GNS214_U1_T86#GNS214_U1_T86_h2)"
   },
   {
     "question_id": "GNS214_U1_T86_h3_q1",
@@ -69,15 +69,15 @@
     "article_id": "GNS214_U1_T86",
     "topic_id": "GNS214_U1_T86",
     "difficulty": "recall",
-    "question": "How is 'prevalence' different from 'incidence'?",
+    "question": "What value is multiplied by the fraction to express incidence per standard population size?",
     "options": {
-      "A": "Prevalence only counts patients who are currently hospitalized",
-      "B": "Prevalence includes all existing cases, both old and new",
-      "C": "Prevalence is only used for vaccine trial evaluations",
-      "D": "Prevalence measures how fast a disease spreads in a week"
+      "A": "The average age of the affected patients",
+      "B": "A base factor like 1,000 or 100,000",
+      "C": "The total number of hospital beds available",
+      "D": "The total number of recovered individuals"
     },
     "answer": "B",
-    "explanation": "While incidence is just the *new* cases, prevalence is the grand total of everyone currently living with the condition (old and new together). Easy peasy! [learn more](GNS214_U1_T86#GNS214_U1_T86_h3)"
+    "explanation": "Multiplying by a factor like 1,000 or 100,000 standardizes the figure for clear reporting and comparison. [learn more](GNS214_U1_T86#GNS214_U1_T86_h3)"
   },
   {
     "question_id": "GNS214_U1_T86_h3_q2",
@@ -85,15 +85,15 @@
     "article_id": "GNS214_U1_T86",
     "topic_id": "GNS214_U1_T86",
     "difficulty": "understanding",
-    "question": "Which measure should a clinic use when planning long-term care resources for people living with HIV?",
+    "question": "What happens to the incidence rate if individuals in the denominator already have the disease?",
     "options": {
-      "A": "Incidence",
-      "B": "Fatality",
-      "C": "Prevalence",
-      "D": "Mortality"
+      "A": "The calculation remains completely accurate",
+      "B": "The time factor is automatically doubled",
+      "C": "The rate becomes artificially lowered",
+      "D": "The rate becomes artificially elevated"
     },
     "answer": "C",
-    "explanation": "To know how many resources (like drugs and counseling space) are needed overall, you need prevalence—the total count of everyone living with the condition right now. [learn more](GNS214_U1_T86#GNS214_U1_T86_h3)"
+    "explanation": "Including immune or already-sick people in the denominator wrongly increases the population at risk, deflating the rate. [learn more](GNS214_U1_T86#GNS214_U1_T86_h3)"
   },
   {
     "question_id": "GNS214_U1_T86_h4_q1",
@@ -101,31 +101,31 @@
     "article_id": "GNS214_U1_T86",
     "topic_id": "GNS214_U1_T86",
     "difficulty": "recall",
-    "question": "When calculating an incidence rate, what goes into the denominator (the bottom number)?",
+    "question": "Cumulative incidence assumes that every person in the study group is followed for what duration?",
     "options": {
-      "A": "The total number of deaths recorded in the hospital",
-      "B": "The total budget allocated for public health programs",
-      "C": "The number of patients who have already recovered",
-      "D": "The total population at risk of getting the disease"
+      "A": "The entire specified time period",
+      "B": "Until they migrate out of the country",
+      "C": "Until they develop a secondary illness",
+      "D": "Only the first few days of life"
     },
-    "answer": "D",
-    "explanation": "When calculating rates, your denominator must only include people who can actually catch the disease. Makes complete sense when you think about it! [learn more](GNS214_U1_T86#GNS214_U1_T86_h4)"
+    "answer": "A",
+    "explanation": "Cumulative incidence requires complete follow-up of all participants across the full duration of observation. [learn more](GNS214_U1_T86#GNS214_U1_T86_h4)"
   },
   {
     "question_id": "GNS214_U1_T86_h4_q2",
     "heading_id": "GNS214_U1_T86_h4",
     "article_id": "GNS214_U1_T86",
     "topic_id": "GNS214_U1_T86",
-    "difficulty": "application",
-    "question": "Why must people who already have a disease be left out of the denominator when calculating incidence?",
+    "difficulty": "understanding",
+    "question": "When is incidence density preferred over cumulative incidence in public health research?",
     "options": {
-      "A": "They are usually transferred to a different clinic",
-      "B": "They cannot develop a condition they already have",
-      "C": "They skew the financial data of the health facility",
-      "D": "They automatically increase the recovery rate statistics"
+      "A": "When studying non-infectious chronic conditions exclusively",
+      "B": "When the researcher wants to measure total existing cases",
+      "C": "When study participants enter or leave at different times",
+      "D": "When every single patient stays in the study until the end"
     },
-    "answer": "B",
-    "explanation": "Incidence tracks *new* infections. If someone already has the illness, they aren't at risk of catching it for the first time anymore! [learn more](GNS214_U1_T86#GNS214_U1_T86_h4)"
+    "answer": "C",
+    "explanation": "Incidence density uses person-time denominators to handle loss to follow-up or migration in dynamic populations. [learn more](GNS214_U1_T86#GNS214_U1_T86_h4)"
   },
   {
     "question_id": "GNS214_U1_T86_h5_q1",
@@ -133,15 +133,15 @@
     "article_id": "GNS214_U1_T86",
     "topic_id": "GNS214_U1_T86",
     "difficulty": "recall",
-    "question": "What is another common name for incidence density?",
+    "question": "Which factor directly drives down the incidence of vaccine-preventable diseases in a community?",
     "options": {
-      "A": "Cumulative prevalence",
-      "B": "Point mortality rate",
-      "C": "Person-time incidence",
-      "D": "Case fatality ratio"
+      "A": "Mass immunization campaigns",
+      "B": "High population density",
+      "C": "Heavy seasonal rainfall",
+      "D": "Poor environmental sanitation"
     },
-    "answer": "C",
-    "explanation": "Incidence density is also known as person-time incidence because it tracks the actual time units each person contributes to the study. You're mastering the terminology! [learn more](GNS214_U1_T86#GNS214_U1_T86_h5)"
+    "answer": "A",
+    "explanation": "Immunization builds community immunity, preventing susceptible individuals from contracting and spreading infections. [learn more](GNS214_U1_T86#GNS214_U1_T86_h5)"
   },
   {
     "question_id": "GNS214_U1_T86_h5_q2",
@@ -149,15 +149,15 @@
     "article_id": "GNS214_U1_T86",
     "topic_id": "GNS214_U1_T86",
     "difficulty": "understanding",
-    "question": "When is incidence density preferred over regular cumulative incidence?",
+    "question": "Why does increased seasonal rainfall often lead to a spike in malaria incidence in Nigeria?",
     "options": {
-      "A": "When every single patient is followed for the exact same number of years",
-      "B": "When the researcher wants to measure total existing chronic cases",
-      "C": "When the population size remains completely frozen with zero movement",
-      "D": "When participants enter a study at different times or drop out early"
+      "A": "It lowers the nutritional status of rural farmers",
+      "B": "It forces people to crowd into closed indoor spaces",
+      "C": "It washes away essential community medication stocks",
+      "D": "It creates breeding sites for mosquito vectors"
     },
     "answer": "D",
-    "explanation": "Real life is messy—people join studies late or drop out. Incidence density handles these rolling timelines like a champ. [learn more](GNS214_U1_T86#GNS214_U1_T86_h5)"
+    "explanation": "Standing water pools from heavy rains provide ideal environments for mosquitoes to multiply and transmit malaria. [learn more](GNS214_U1_T86#GNS214_U1_T86_h5)"
   },
   {
     "question_id": "GNS214_U1_T86_h6_q1",
@@ -165,15 +165,15 @@
     "article_id": "GNS214_U1_T86",
     "topic_id": "GNS214_U1_T86",
     "difficulty": "recall",
-    "question": "What does a sudden spike in the incidence of a disease usually mean?",
+    "question": "What is the primary public health purpose of monitoring weekly disease incidence?",
     "options": {
-      "A": "A potential disease outbreak starting in the community",
-      "B": "An error in the hospital electronic record system",
-      "C": "A successful completion of all vaccination programs",
-      "D": "A decrease in the total population living in the area"
+      "A": "Detecting outbreaks early to trigger rapid responses",
+      "B": "Calculating total historical healthcare costs",
+      "C": "Determining total population growth rates",
+      "D": "Assessing individual patient recovery speeds"
     },
     "answer": "A",
-    "explanation": "A sudden jump in new cases is the classic red flag that an outbreak is kicking off. Spotting this early is a nurse's superpower! [learn more](GNS214_U1_T86#GNS214_U1_T86_h6)"
+    "explanation": "Monitoring new cases week by week allows health teams to spot unusual clustering and stop outbreaks early. [learn more](GNS214_U1_T86#GNS214_U1_T86_h6)"
   },
   {
     "question_id": "GNS214_U1_T86_h6_q2",
@@ -181,15 +181,15 @@
     "article_id": "GNS214_U1_T86",
     "topic_id": "GNS214_U1_T86",
     "difficulty": "understanding",
-    "question": "How can public health nurses use incidence data to check if an immunization campaign worked?",
+    "question": "How do public health nurses use incidence trends over several years?",
     "options": {
-      "A": "By calculating the average age of patients in the ward",
-      "B": "By measuring the total money spent on medical supplies",
-      "C": "By checking if the number of new infections drops over time",
-      "D": "By counting the total number of hospital beds available"
+      "A": "To set pharmaceutical drug prices in local markets",
+      "B": "To evaluate the success of disease control programs",
+      "C": "To diagnose individual patients reporting to the clinic",
+      "D": "To determine daily staff shift rosters in the ward"
     },
-    "answer": "C",
-    "explanation": "If a vaccination drive is successful, you should see the number of new infections (incidence) go way down. Awesome nursing logic! [learn more](GNS214_U1_T86#GNS214_U1_T86_h6)"
+    "answer": "B",
+    "explanation": "Comparing yearly incidence curves shows whether public health interventions are successfully reducing disease transmission. [learn more](GNS214_U1_T86#GNS214_U1_T86_h6)"
   },
   {
     "question_id": "GNS214_U1_T86_h7_q1",
@@ -197,15 +197,15 @@
     "article_id": "GNS214_U1_T86",
     "topic_id": "GNS214_U1_T86",
     "difficulty": "recall",
-    "question": "Which Nigerian agency relies heavily on routine disease reports and tracking to manage outbreaks?",
+    "question": "Which Nigerian health workers are frontline reporters for new disease cases in communities?",
     "options": {
-      "A": "Nigerian Maritime Administration and Safety Agency",
-      "B": "Federal Ministry of Works and Housing",
-      "C": "National Agency for Food and Drug Administration and Control",
-      "D": "Nigeria Centre for Disease Control (NCDC)"
+      "A": "National pharmaceutical manufacturing managers",
+      "B": "Nurses and community health extension workers",
+      "C": "University medical laboratory researchers",
+      "D": "Hospital administrative accountants and cashiers"
     },
-    "answer": "D",
-    "explanation": "The NCDC is our national frontline defense, coordinating outbreak responses using data sent up from local health facilities. [learn more](GNS214_U1_T86#GNS214_U1_T86_h7)"
+    "answer": "B",
+    "explanation": "Nurses and CHEWs staff primary health centres and spot new cases during routine patient consultations. [learn more](GNS214_U1_T86#GNS214_U1_T86_h7)"
   },
   {
     "question_id": "GNS214_U1_T86_h7_q2",
@@ -213,14 +213,14 @@
     "article_id": "GNS214_U1_T86",
     "topic_id": "GNS214_U1_T86",
     "difficulty": "application",
-    "question": "A rural clinic notices a weekly increase in watery diarrhea during the rainy season. What should the nurses do first?",
+    "question": "A primary health centre in a rural Nigerian LGA notes a sudden rise in suspected cholera cases. What immediate action should follow?",
     "options": {
-      "A": "Ignore the data unless every single bed in the clinic is full",
-      "B": "Close the clinic temporarily until the rainy season finishes",
-      "C": "Wait until the end of the year to calculate annual averages",
-      "D": "Report the trend upward to trigger quick public health support"
+      "A": "Transfer all health personnel to urban tertiary hospitals",
+      "B": "Report the incidence data upward to trigger rapid response teams",
+      "C": "Stop recording patient visits to reduce administrative workload",
+      "D": "Wait until the end of the year to publish a formal report"
     },
-    "answer": "D",
-    "explanation": "Early reporting lets health authorities investigate water sources and rush supplies before things spiral into a full epidemic. You are thinking like a true public health nurse! [learn more](GNS214_U1_T86#GNS214_U1_T86_h7)"
+    "answer": "B",
+    "explanation": "Prompt reporting of new cases ensures higher health authorities deploy aid and containment measures immediately. [learn more](GNS214_U1_T86#GNS214_U1_T86_h7)"
   }
 ]
