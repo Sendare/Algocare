@@ -118,6 +118,7 @@ You may occasionally (roughly 3 in 10 questions, not more) use a \
 negative-framed question (NOT / EXCEPT / all BUT one). When you do, the \
 negation word MUST appear in full capitals in the question text itself (e.g. \
 "Which of the following is NOT a symptom of...") so it can't be skimmed past.
+wh questions  should not exceed 60% of all questions 
 
 For every question:
 - "difficulty": one of "recall", "understanding", "application"
