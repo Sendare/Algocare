@@ -12,37 +12,43 @@
       "heading_id": "GNS125_U2_T6_h1",
       "order": 1,
       "title": "Introduction to Drug Dosage Calculation in Nursing",
-      "content": "Drug dosage calculation is a fundamental competency for every safe nurse. Administering the correct amount of medication ensures therapeutic efficacy while preventing toxicity or adverse events. Nurses utilize basic arithmetic formulas, dimensional analysis, or ratio-proportions to determine exact doses ordered by physicians.\n\nA foundational clinical habit is committing to the **formula method** (Desired over Have multiplied by Quantity) because it is widely understood and straightforward. Every calculation requires checking the medication order against the patient's identity, clinical status, and allergy history. A common pitfall is rushing the math during busy shifts, which bypasses the vital safety check of questioning a dose that looks unusually high or low."
+      "content": "Accurate drug dosage calculation is a core competency for nurses across all clinical settings in Nigeria. Medication errors often occur at the calculation or administration stage, making mathematical precision a vital safety barrier. Nurses must master basic arithmetic, fractions, decimals, and ratios before stepping onto the ward. Every medication order requires a systematic approach to ensure the patient receives the exact therapeutic dose prescribed by the physician without causing toxicity or treatment failure."
     },
     {
       "heading_id": "GNS125_U2_T6_h2",
       "order": 2,
-      "title": "Patient Factors: Age and Weight Considerations",
-      "content": "Not all patients receive the same dose of a medication. Body weight and age significantly influence pharmacokinetics—how drugs are absorbed, distributed, metabolized, and excreted. Pediatric and geriatric populations require special caution.\n\n- **Weight-Based Dosing**: Most pediatric medications and potent drugs like chemotherapeutic agents are calculated using **milligrams per kilogram (mg/kg)** of body weight.\n- **Pounds to Kilograms Conversion**: Nurses frequently convert pounds (lbs) to kilograms (kg) by dividing the weight in pounds by 2.2 before calculating the dose.\n- **Age-Related Changes**: Neonates and older adults have altered liver and kidney function, making them more sensitive to standard adult doses."
+      "title": "Understanding Metric Conversions and Units",
+      "content": "Medication orders do not always match the available stock units, requiring constant conversion between metric units. The most common units in clinical practice are kilograms (kg), grams (g), milligrams (mg), and micrograms (mcg) for mass, and liters (L) and milliliters (mL) for volume.\n\n- **1 gram (g)**: equals 1,000 milligrams (mg)\n- **1 milligram (mg)**: equals 1,000 micrograms (mcg)\n- **1 kilogram (kg)**: equals 1,000 grams (g)\n- **1 liter (L)**: equals 1,000 milliliters (mL)\n\nTo convert a larger unit to a smaller unit, multiply by 1,000 by moving the decimal point three places to the right. To convert a smaller unit to a larger unit, divide by 1,000 by moving the decimal point three places to the left."
     },
     {
       "heading_id": "GNS125_U2_T6_h3",
       "order": 3,
-      "title": "Understanding Stock Strength and Medication Labels",
-      "content": "Before performing any math, a nurse must carefully read the medication label to identify the stock strength. The **stock strength** represents the amount of active drug contained in a specific unit of measurement, such as milligrams per tablet or milligrams per milliliter.\n\nConfusing total volume with concentration is a frequent source of error. For example, a bottle may contain 250 mL of liquid, but the concentration might be 125 mg per 5 mL. The total volume in the bottle is rarely the dose that should be administered. Always verify the vehicle—whether it is a tablet, capsule, or liquid suspension—before proceeding with calculations."
+      "title": "Reading Medication Labels and Stock Strength",
+      "content": "Before performing any calculation, the nurse must examine the medication label to identify the stock strength. Stock strength refers to the amount of active drug contained in a specific volume or single unit, such as 500 mg per tablet or 250 mg per 5 mL in a suspension. Misinterpreting a label can lead to tenfold dosing errors. Always cross-check the concentration printed on the ampoule, vial, or bottle before calculating the required volume."
     },
     {
       "heading_id": "GNS125_U2_T6_h4",
       "order": 4,
-      "title": "Calculating Doses for Tablets and Capsules",
-      "content": "Calculating solid oral doses relies on comparing what the doctor ordered with what is available in the clinic or ward pharmacy. The classic formula used is:\n\n$$\\frac{\\text{Desired}}{\\text{Have}} \\times \\text{Quantity} = \\text{Dose to Administer}$$\n\n- **Desired**: The exact dose ordered by the prescriber.\n- **Have**: The strength of the tablet or capsule available in stock.\n- **Quantity**: The physical form containing the stock strength, usually 1 tablet or capsule.\n\nIf a calculation results in half a scored tablet, verify that the tablet is indeed scorable before splitting it. Never attempt to split unscored tablets or capsules."
+      "title": "Calculating Doses for Solid Oral Medications",
+      "content": "The standard formula method for calculating tablet or capsule doses is expressed as:\n\n$$\\frac{\\text{Dose Ordered (DO)}}{\\text{Stock Strength (SS)}} \\times \\text{Quantity (Q)} = \\text{Amount to Administer (X)}$$\n\n- **DO**: The dose prescribed by the doctor.\n- **SS**: The strength of the drug available in stock.\n- **Q**: The physical unit the stock comes in (e.g., 1 tablet, 1 capsule).\n\nFor example, if a patient needs 500 mg of Paracetamol and the available tablets are 250 mg each, dividing 500 by 250 and multiplying by 1 gives 2 tablets."
     },
     {
       "heading_id": "GNS125_U2_T6_h5",
       "order": 5,
       "title": "Calculating Doses for Liquid Medications",
-      "content": "Liquid oral medications, such as syrups, elixirs, and suspensions, use the same fundamental formula as solid doses, but the quantity variable changes from a single tablet to a specific volume of liquid.\n\n$$\\frac{\\text{Desired}}{\\text{Have}} \\times \\text{Volume} = \\text{Volume to Administer}$$\n\nPay meticulous attention to unit consistency. If the ordered dose is in milligrams, the stock strength must also be expressed in milligrams. A common mistake involves misreading millilitres (mL) for cubic centimeters or confusing household spoons with calibrated oral syringes. Always use an oral syringe or a calibrated medicine cup for accurate measurement, never a household kitchen spoon."
+      "content": "Liquid medications such as syrups, mixtures, and suspensions follow the exact same formula principle as solid doses, but the quantity variable represents liquid volume. \n\n$$\\frac{\\text{Dose Ordered}}{\\text{Stock Strength}} \\times \\text{Stock Volume} = \\text{Volume to Administer}$$\n\nWhen measuring liquid medications, nurses must use an oral syringe or a calibrated medicine measure rather than standard household spoons, which vary widely in size. Always ensure the bottom of the meniscus aligns with the calibration line at eye level."
     },
     {
       "heading_id": "GNS125_U2_T6_h6",
       "order": 6,
+      "title": "Calculating Pediatric Doses Based on Weight",
+      "content": "Children are not small adults; their drug dosages must be calculated carefully using their body weight in kilograms. If a medication order is written in pounds (lbs), the nurse must first convert pounds to kilograms by dividing by 2.2 before proceeding with the calculation.\n\nThe calculation typically involves a two-step process: first, finding the total daily dose based on the mg/kg/day guideline, and second, dividing that total by the number of daily doses required. Always double-check pediatric calculations with a colleague to protect vulnerable pediatric patients from dosing errors."
+    },
+    {
+      "heading_id": "GNS125_U2_T6_h7",
+      "order": 7,
       "title": "Calculating Intravenous Infusion Rates",
-      "content": "Intravenous (IV) medications and fluids require precise calculation of flow rates to prevent fluid overload or inadequate drug delivery. Depending on available hospital equipment, infusions are calculated either in drops per minute for gravity sets or milliliters per hour for infusion pumps.\n\n- **Gravity Infusions**: Measured in drops per minute (gtt/min) using a drop factor (drops/mL) found on the IV tubing box.\n  $$\\text{Flow Rate} = \\frac{\\text{Volume in mL} \\times \\text{Drop Factor}}{\\text{Time in minutes}}$$\n- **Electronic Pumps**: Measured directly in milliliters per hour (mL/hr).\n  $$\\text{Flow Rate} = \\frac{\\text{Total Volume in mL}}{\\text{Total Time in hours}}$$\n\nAlways double-check drop factors, as standard sets differ from blood or micro-drip sets."
+      "content": "Intravenous (IV) fluids require precise rate calculations to prevent fluid overload or hypovolemia. The calculation depends on whether you are using a standard gravity infusion set (measured in drops per minute, gtt/min) or an electronic infusion pump (measured in milliliters per hour, mL/hr).\n\n- **Gravity Infusion Formula**: \n  $$\\frac{\\text{Volume in mL} \\times \\text{Drop Factor (gtt/mL)}}{\\text{Time in Minutes}} = \\text{Flow Rate in gtt/min}$$\n\n- **Drop Factor**: Always check the IV tubing box, as drop factors vary between macro-drip sets (typically 10, 15, or 20 gtt/mL) and micro-drip sets (60 gtt/mL)."
     }
   ]
 }
