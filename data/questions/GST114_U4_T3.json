@@ -5,15 +5,15 @@
     "article_id": "GST114_U4_T3",
     "topic_id": "GST114_U4_T3",
     "difficulty": "recall",
-    "question": "What type of white blood cell primarily produces antibodies?",
+    "question": "What type of cells in the body produce antibodies?",
     "options": {
       "A": "Plasma cells",
       "B": "Platelets",
-      "C": "Killer T-cells",
-      "D": "Red blood cells"
+      "C": "Fibroblasts",
+      "D": "Erythrocytes"
     },
     "answer": "A",
-    "explanation": "Plasma cells develop from B-lymphocytes and are the specialized cells that mass-produce and secrete antibodies into body fluids. [learn more](GST114_U4_T3#GST114_U4_T3_h1)"
+    "explanation": "Plasma cells develop from activated B-lymphocytes and specialize in synthesizing and secreting large volumes of immunoglobulins. [learn more](GST114_U4_T3#GST114_U4_T3_h1)"
   },
   {
     "question_id": "GST114_U4_T3_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GST114_U4_T3",
     "topic_id": "GST114_U4_T3",
     "difficulty": "understanding",
-    "question": "What is the primary function of an antibody in the human body?",
+    "question": "What is the main role of immunoglobulins (antibodies) in the body?",
     "options": {
-      "A": "To produce energy for cellular reactions",
-      "B": "To carry oxygen to body tissues",
-      "C": "To identify and neutralize foreign antigens",
-      "D": "To clot blood after an injury occurs"
+      "A": "Digest dietary proteins",
+      "B": "Produce red blood cells",
+      "C": "Transport oxygen gas",
+      "D": "Neutralize foreign antigens"
     },
-    "answer": "C",
-    "explanation": "Antibodies are immune proteins designed to bind specifically to foreign invaders and toxins, marking them for destruction. [learn more](GST114_U4_T3#GST114_U4_T3_h1)"
+    "answer": "D",
+    "explanation": "Antibodies circulate in body fluids to specifically target, bind, and neutralize foreign invaders like bacteria and viruses. [learn more](GST114_U4_T3#GST114_U4_T3_h1)"
   },
   {
     "question_id": "GST114_U4_T3_h2_q1",
@@ -37,15 +37,15 @@
     "article_id": "GST114_U4_T3",
     "topic_id": "GST114_U4_T3",
     "difficulty": "recall",
-    "question": "Which part of the Y-shaped antibody molecule binds directly to the antigen?",
+    "question": "Which part of an antibody molecule binds directly to an antigen?",
     "options": {
-      "A": "Complement tail",
-      "B": "Fc region",
-      "C": "Heavy chain stem",
+      "A": "Heavy chain base",
+      "B": "Complement stem",
+      "C": "Fc region",
       "D": "Fab region"
     },
     "answer": "D",
-    "explanation": "Think of the Fab region as the hands of the antibody! The tips of the Y-shape have variable sequences that specifically match and grab onto antigens. You've got this! [learn more](GST114_U4_T3#GST114_U4_T3_h2)"
+    "explanation": "The Fab region contains the variable amino acid sequences responsible for specific antigen recognition and binding. [learn more](GST114_U4_T3#GST114_U4_T3_h2)"
   },
   {
     "question_id": "GST114_U4_T3_h2_q2",
@@ -53,15 +53,15 @@
     "article_id": "GST114_U4_T3",
     "topic_id": "GST114_U4_T3",
     "difficulty": "understanding",
-    "question": "Why is the variable region of an antibody so important?",
+    "question": "What is the basic shape and structure of a standard antibody unit?",
     "options": {
-      "A": "It allows the body to recognize many different antigens",
-      "B": "It provides the structural strength to hold the Y shape",
-      "C": "It helps the antibody attach to normal red blood cells",
-      "D": "It dissolves the cell wall of invading bacteria directly"
+      "A": "A globular cluster of light chains only",
+      "B": "A circular ring with four heavy chains",
+      "C": "A linear chain with five variable regions",
+      "D": "A Y-shape with two heavy and two light chains"
     },
-    "answer": "A",
-    "explanation": "Because our bodies face countless different germs, the variable region acts like a shape-shifter at the tips of the antibody, creating diverse binding sites to lock onto various invaders. [learn more](GST114_U4_T3#GST114_U4_T3_h2)"
+    "answer": "D",
+    "explanation": "Standard antibody monomers consist of two identical heavy chains and two identical light chains arranged in a characteristic Y shape. [learn more](GST114_U4_T3#GST114_U4_T3_h2)"
   },
   {
     "question_id": "GST114_U4_T3_h3_q1",
@@ -69,126 +69,126 @@
     "article_id": "GST114_U4_T3",
     "topic_id": "GST114_U4_T3",
     "difficulty": "recall",
-    "question": "Which antibody class is mostly found in body secretions like breast milk and saliva?",
+    "question": "Which antibody class is primarily found in mucosal secretions like saliva and breast milk?",
     "options": {
-      "A": "IgD",
+      "A": "IgA",
       "B": "IgG",
-      "C": "IgA",
-      "D": "IgE"
+      "C": "IgE",
+      "D": "IgD"
     },
-    "answer": "C",
-    "explanation": "Secretory IgA is our body's frontline defender in wet areas! It guards mucosal linings in our respiratory and digestive tracts, and is proudly passed to babies through breast milk. [learn more](GST114_U4_T3#GST114_U4_T3_h3)"
+    "answer": "A",
+    "explanation": "Secretory IgA is abundant in mucosal linings, tears, saliva, and colostrum to guard the body's entry points against pathogens. [learn more](GST114_U4_T3#GST114_U4_T3_h3)"
   },
   {
     "question_id": "GST114_U4_T3_h3_q2",
     "heading_id": "GST114_U4_T3_h3",
     "article_id": "GST114_U4_T3",
     "topic_id": "GST114_U4_T3",
-    "difficulty": "application",
-    "question": "A patient is having a severe allergic reaction to a bee sting. Which antibody class is most likely elevated?",
+    "difficulty": "understanding",
+    "question": "Why is IgM effective as the first responder during an infection?",
     "options": {
-      "A": "IgE",
-      "B": "IgG",
-      "C": "IgM",
-      "D": "IgA"
+      "A": "It forms a large structure with many binding sites",
+      "B": "It is stored in high concentrations inside skin cells",
+      "C": "It is the smallest antibody and crosses tissue barriers easily",
+      "D": "It binds exclusively to red blood cell membranes"
     },
     "answer": "A",
-    "explanation": "Remember: 'E' for allergy! IgE antibodies trigger mast cells to release histamine during allergic responses and when fighting off parasites. Great nursing insight! [learn more](GST114_U4_T3#GST114_U4_T3_h3)"
+    "explanation": "IgM typically circulates as a pentamer containing ten antigen-binding sites, making it exceptionally effective at clumping early invaders. [learn more](GST114_U4_T3#GST114_U4_T3_h3)"
   },
   {
     "question_id": "GST114_U4_T3_h4_q1",
     "heading_id": "GST114_U4_T3_h4",
     "article_id": "GST114_U4_T3",
     "topic_id": "GST114_U4_T3",
-    "difficulty": "understanding",
-    "question": "What happens during the process of opsonization?",
+    "difficulty": "recall",
+    "question": "What is the process called when antibodies coat a pathogen to enhance phagocytosis?",
     "options": {
-      "A": "Blood vessels constrict to stop the spread of an infection",
-      "B": "Antibodies punch direct holes in the cell wall of a virus",
-      "C": "Red blood cells are destroyed to release iron to the tissues",
-      "D": "Pathogens are coated with antibodies to help phagocytes swallow them"
+      "A": "Opsonization",
+      "B": "Agglutination",
+      "C": "Neutralization",
+      "D": "Transcription"
     },
-    "answer": "D",
-    "explanation": "Opsonization is basically tagging an enemy for easy spotting. It's like putting a handle on a pathogen so immune cells like macrophages can easily grab and engulf it! [learn more](GST114_U4_T3#GST114_U4_T3_h4)"
+    "answer": "A",
+    "explanation": "Opsonization labels foreign particles with antibodies or complement proteins so phagocytes can easily spot and ingest them. [learn more](GST114_U4_T3#GST114_U4_T3_h4)"
   },
   {
     "question_id": "GST114_U4_T3_h4_q2",
     "heading_id": "GST114_U4_T3_h4",
     "article_id": "GST114_U4_T3",
     "topic_id": "GST114_U4_T3",
-    "difficulty": "recall",
-    "question": "Which of these is NOT a direct job of an antibody?",
+    "difficulty": "understanding",
+    "question": "How does antibody neutralization protect host cells from viral infections?",
     "options": {
-      "A": "Direct phagocytosis of pathogens by the antibody itself",
-      "B": "Activation of the complement system",
-      "C": "Agglutination of floating foreign cells",
-      "D": "Neutralization of harmful bacterial toxins"
+      "A": "By blocking the virus from attaching to host cell receptors",
+      "B": "By signaling red blood cells to absorb the viral particles",
+      "C": "By increasing body temperature to destroy the pathogen",
+      "D": "By dissolving the outer protein coat of the virus directly"
     },
     "answer": "A",
-    "explanation": "Antibodies don't swallow germs themselves—they act like detectives and taggers. They leave the actual eating (phagocytosis) to specialized cells like macrophages! [learn more](GST114_U4_T3#GST114_U4_T3_h4)"
+    "explanation": "Neutralizing antibodies physically cover viral attachment sites, stopping the virus from entering and infecting healthy cells. [learn more](GST114_U4_T3#GST114_U4_T3_h4)"
   },
   {
     "question_id": "GST114_U4_T3_h5_q1",
     "heading_id": "GST114_U4_T3_h5",
     "article_id": "GST114_U4_T3",
     "topic_id": "GST114_U4_T3",
-    "difficulty": "understanding",
-    "question": "Why is a secondary immune response so much faster than the first one?",
+    "difficulty": "recall",
+    "question": "Which cell type is responsible for the rapid antibody production seen in a repeat (secondary) immune response?",
     "options": {
-      "A": "White blood cells travel faster through the bloodstream in adults",
-      "B": "Memory cells formed during the first exposure quickly recognize the invader",
-      "C": "The pathogen becomes weaker every time it enters the human body",
-      "D": "The liver produces extra blood proteins during a secondary infection"
+      "A": "Epithelial cells",
+      "B": "Platelet reserves",
+      "C": "Neutrophil precursors",
+      "D": "Memory B-cells"
     },
-    "answer": "B",
-    "explanation": "Memory B-cells never forget a face! When they see a familiar germ again, they multiply instantly and pump out antibodies without needing a slow learning phase. [learn more](GST114_U4_T3#GST114_U4_T3_h5)"
+    "answer": "D",
+    "explanation": "Memory B-cells survive for long periods after an initial infection, ready to divide rapidly upon re-exposure to the same antigen. [learn more](GST114_U4_T3#GST114_U4_T3_h5)"
   },
   {
     "question_id": "GST114_U4_T3_h5_q2",
     "heading_id": "GST114_U4_T3_h5",
     "article_id": "GST114_U4_T3",
     "topic_id": "GST114_U4_T3",
-    "difficulty": "recall",
-    "question": "Which antibody class shows up first at the very beginning of a brand-new infection?",
+    "difficulty": "understanding",
+    "question": "Why is the secondary immune response much faster than the primary response?",
     "options": {
-      "A": "IgA",
-      "B": "IgE",
-      "C": "IgM",
-      "D": "IgG"
+      "A": "The body already possesses specialized memory cells ready to react",
+      "B": "First-time exposure completely exhausts the immune system",
+      "C": "Pathogens move slower the second time they enter the body",
+      "D": "The liver releases stored antibodies directly into the bloodstream"
     },
-    "answer": "C",
-    "explanation": "Think of IgM as the first responder rushing to the scene! It is always the initial antibody type secreted when your body encounters a brand-new infection. [learn more](GST114_U4_T3#GST114_U4_T3_h5)"
+    "answer": "A",
+    "explanation": "Pre-existing memory cells bypass the lengthy lag phase required to prime naive lymphocytes during a primary exposure. [learn more](GST114_U4_T3#GST114_U4_T3_h5)"
   },
   {
     "question_id": "GST114_U4_T3_h6_q1",
     "heading_id": "GST114_U4_T3_h6",
     "article_id": "GST114_U4_T3",
     "topic_id": "GST114_U4_T3",
-    "difficulty": "application",
-    "question": "A patient has high IgG levels against a virus, but feels totally fine with normal lab results. What does this usually mean?",
+    "difficulty": "recall",
+    "question": "Finding high levels of specific IgM antibodies in a patient's blood sample usually indicates...",
     "options": {
-      "A": "Past exposure or successful vaccination against the virus",
-      "B": "A total failure of the bone marrow to produce white blood cells",
-      "C": "An active parasite infestation in the gastrointestinal tract",
-      "D": "An acute, life-threatening infection requiring immediate isolation"
+      "A": "complete absence of white blood cells",
+      "B": "a chronic long-term genetic disorder",
+      "C": "immunity from a childhood vaccination",
+      "D": "a recent or current acute infection"
     },
-    "answer": "A",
-    "explanation": "Having IgG around long-term is a good thing! It shows your immune system has a memory bank from a previous infection or a vaccine, not a current sickness. [learn more](GST114_U4_T3#GST114_U4_T3_h6)"
+    "answer": "D",
+    "explanation": "IgM is the primary antibody produced during the initial phase of an immune response, signaling a fresh or active infection. [learn more](GST114_U4_T3#GST114_U4_T3_h6)"
   },
   {
     "question_id": "GST114_U4_T3_h6_q2",
     "heading_id": "GST114_U4_T3_h6",
     "article_id": "GST114_U4_T3",
     "topic_id": "GST114_U4_T3",
-    "difficulty": "recall",
-    "question": "What are monoclonal antibodies commonly used for in modern medicine?",
+    "difficulty": "understanding",
+    "question": "How are monoclonal antibodies generally used in modern medical treatments?",
     "options": {
-      "A": "Targeting specific diseased cells like cancer cells",
-      "B": "Lowering high blood pressure in emergency hypertension",
-      "C": "Replacing lost red blood cells after massive hemorrhage",
-      "D": "Curing genetic bleeding disorders like hemophilia"
+      "A": "As targeted therapies to attack specific cancer cells",
+      "B": "As broad-spectrum painkillers for severe joint injuries",
+      "C": "As dietary supplements to boost daily energy levels",
+      "D": "As replacement fluids for severe dehydration cases"
     },
     "answer": "A",
-    "explanation": "Monoclonal antibodies are lab-made magic bullets designed to home in precisely on exact targets, making them super helpful in modern cancer therapy. [learn more](GST114_U4_T3#GST114_U4_T3_h6)"
+    "explanation": "Monoclonal antibodies are engineered in labs to lock onto specific target proteins, such as markers found on tumor cells. [learn more](GST114_U4_T3#GST114_U4_T3_h6)"
   }
 ]

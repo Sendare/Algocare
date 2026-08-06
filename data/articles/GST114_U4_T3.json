@@ -11,37 +11,37 @@
       "heading_id": "GST114_U4_T3_h1",
       "order": 1,
       "title": "Introduction to Antibodies and Immunoglobulins",
-      "content": "Antibodies, also known as **immunoglobulins (Igs)**, are specialized, Y-shaped proteins produced mainly by plasma cells. These plasma cells develop from activated **B-lymphocytes** when the body encounters foreign invaders. Their primary mission is to identify and neutralize foreign objects like bacteria, viruses, and toxins. You will find them circulating freely in the blood plasma, lymph, and other body secretions, acting as frontline chemical defenders for the immune system. Every single antibody is uniquely tailored to recognize a specific target structure on a pathogen, known as an **antigen**."
+      "content": "Antibodies, also known as **immunoglobulins (Igs)**, are large, Y-shaped proteins produced mainly by plasma cells. These specialized proteins play a central role in the body's adaptive immune system by recognizing and neutralizing foreign invaders such as pathogenic bacteria, viruses, and fungi. When a pathogen enters the body, B-lymphocytes encounter its unique surface markers. Upon activation, these lymphocytes transform into plasma cells dedicated to mass-producing antibodies tailored specifically to bind that exact foreign marker, known as an **antigen**."
     },
     {
       "heading_id": "GST114_U4_T3_h2",
       "order": 2,
       "title": "Basic Structure of an Antibody Molecule",
-      "content": "An antibody molecule has a characteristic symmetrical Y-shape made up of four protein chains: two identical **heavy chains** and two identical **light chains**, held together firmly by disulfide bonds. \n\n- **Fab region (Fragment antigen-binding)**: The tips of the Y arms, containing **variable regions** that form the specific antigen-binding site. This is the part that locks onto the invader.\n- **Fc region (Fragment crystallizable)**: The stem of the Y, containing **constant regions** that interact with immune cells and complement proteins to trigger destruction of the pathogen."
+      "content": "- **Heavy Chains**: Two identical, larger polypeptide chains that form the core base and lower stem of the Y-shaped molecule.\n- **Light Chains**: Two identical, smaller polypeptide chains paired with the upper portions of the heavy chains.\n- **Fab Region**: The arms of the Y-shaped structure containing the variable regions that bind directly to antigens.\n- **Fc Region**: The constant stem of the Y-shaped structure that interacts with immune cells and complement proteins."
     },
     {
       "heading_id": "GST114_U4_T3_h3",
       "order": 3,
       "title": "Classes and Isotypes of Antibodies",
-      "content": "There are five main classes of immunoglobulins, each with distinct heavy chains and biological roles in defense:\n\n- **IgG**: The most abundant antibody in blood; crosses the placenta to protect the newborn.\n- **IgA**: Found mainly in body secretions like saliva, tears, and breast milk, guarding mucosal surfaces.\n- **IgM**: The first antibody produced during an initial infection; forms a large pentamer shape.\n- **IgE**: Involved in allergic reactions and defense against parasitic worm infections.\n- **IgD**: Acts mostly as an antigen receptor on the surface of immature B-cells."
+      "content": "Human antibodies are divided into five distinct classes, or **isotypes**, based on differences in the amino acid sequence of their heavy chain constant regions. Each isotype serves a unique physiological function and location in the body.\n\n| Isotype | Primary Location | Key Function |\n| --- | --- | --- |\n| IgG | Blood and extracellular fluid | Long-term immunity, crosses placenta |\n| IgA | Mucosal secretions, breast milk | Protects body surfaces and mucosal linings |\n| IgM | Blood stream and cell surface | First responder during primary infection |\n| IgE | Tissues bound to mast cells | Mediates allergic reactions and defense against parasites |\n| IgD | Surface of immature B-cells | Acts as an antigen receptor for B-cell activation |\n\nA common misconception is that all antibodies perform the exact same task; however, their heavy chain variations dictate entirely different protective roles across various body compartments."
     },
     {
       "heading_id": "GST114_U4_T3_h4",
       "order": 4,
       "title": "Mechanisms of Antibody Action",
-      "content": "Antibodies do not typically kill pathogens directly; instead, they act as a beacon and a shield through several key mechanisms:\n\n1. **Neutralization**: They block critical parts of a toxin or virus so it cannot enter or damage body cells.\n2. **Opsonization**: They coat the surface of a bacterium, making it much easier for phagocytes like macrophages to engulf it.\n3. **Complement activation**: Antibody binding triggers a cascade of blood proteins that punch holes in the enemy cell membrane.\n4. **Agglutination**: They clump multiple pathogens together, making them easier for the immune system to filter out and clear."
+      "content": "Antibodies do not typically destroy pathogens directly; instead, they mark them for elimination through several distinct mechanisms.\n\n1. **Neutralization**: Antibodies cover critical surface sites on viruses or toxins, preventing them from attaching to or entering host cells.\n2. **Opsonization**: Coating a pathogen with antibodies makes it much easier for phagocytic cells like macrophages to recognize and engulf it.\n3. **Complement Activation**: The binding of antibodies triggers a cascade of plasma proteins that punch holes in the cell walls of pathogens, causing lysis."
     },
     {
       "heading_id": "GST114_U4_T3_h5",
       "order": 5,
       "title": "Primary and Secondary Immune Responses",
-      "content": "When you encounter a pathogen for the first time, the **primary immune response** takes several days to build up. B-cells must learn the antigen, and IgM is the first major antibody secreted. During this time, the person may experience full symptoms of the illness. However, the body creates **memory B-cells** that remember this specific invader. \n\nIf the same pathogen enters the body later, the **secondary immune response** is remarkably fast and powerful. IgG antibodies flood the system in massive amounts within hours, often clearing the threat before any illness develops. This is the foundational principle behind how vaccination protects us."
+      "content": "When the immune system encounters an antigen for the very first time, it mounts a **primary immune response**. This process is relatively slow because naive B-cells take days to multiply, differentiate, and begin producing detectable levels of IgM followed by IgG. \n\nSubsequent exposure to the exact same antigen triggers a **secondary immune response**. Thanks to long-lived **memory B-cells** created during the initial encounter, the reaction is much faster, stronger, and produces significantly higher levels of IgG antibodies. This rapid response clears the pathogen before clinical symptoms have a chance to develop."
     },
     {
       "heading_id": "GST114_U4_T3_h6",
       "order": 6,
       "title": "Clinical Significance and Diagnostic Applications",
-      "content": "Doctors use our understanding of antibodies every day in clinical practice. Serology tests detect specific patient antibodies in blood serum to diagnose past or current infections, such as HIV or hepatitis. **Monoclonal antibodies**—which are laboratory-produced identical antibodies—are now powerful targeted medicines used to treat various cancers and autoimmune diseases by zeroing in on specific diseased cells.\n\nA common clinical misconception is that having any detectable antibody means a patient is currently contagious; in reality, IgG antibodies often remain in the blood for years simply showing past exposure or successful vaccination."
+      "content": "Medical laboratories exploit the specificity of antibody-antigen binding for numerous diagnostic tests, including ELISA and blood typing. Detecting specific antibody isotypes in a patient's serum helps clinicians diagnose recent versus past infections. For instance, high levels of specific IgM point toward an active, recent infection, whereas elevated IgG indicates past exposure or successful vaccination. Furthermore, manufactured **monoclonal antibodies** are widely utilized in modern targeted therapies for cancers and autoimmune diseases."
     }
   ]
 }
