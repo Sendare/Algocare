@@ -5,15 +5,15 @@
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
     "difficulty": "recall",
-    "question": "What is raw, unorganized clinical measurements like a single heart rate reading considered?",
+    "question": "What do we call raw, unorganized facts and figures that have no context yet?",
     "options": {
-      "A": "Information",
-      "B": "Knowledge",
+      "A": "Data",
+      "B": "Information",
       "C": "Wisdom",
-      "D": "Data"
+      "D": "Knowledge"
     },
-    "answer": "D",
-    "explanation": "Raw facts and numbers without context are classified as data before they are analyzed or interpreted. [learn more](GNS113_U2_T7#GNS113_U2_T7_h1)"
+    "answer": "A",
+    "explanation": "Think of data as the raw building blocks—like a single temperature reading of 38.5°C before anyone figures out what it means for the patient. [learn more](GNS113_U2_T7#GNS113_U2_T7_h1)"
   },
   {
     "question_id": "GNS113_U2_T7_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
     "difficulty": "understanding",
-    "question": "What turns raw clinical numbers into useful clinical information?",
+    "question": "A nurse checks a patient's temperature readings over three days to spot a fever pattern. What level of the data hierarchy is this?",
     "options": {
-      "A": "Information is always stored exclusively on paper charts",
-      "B": "Information requires no documentation in the medical record",
-      "C": "Information places raw facts into a meaningful context",
-      "D": "Information is gathered only by physicians during rounds"
+      "A": "Data",
+      "B": "Wisdom",
+      "C": "Knowledge",
+      "D": "Information"
     },
-    "answer": "C",
-    "explanation": "Data becomes information when we organize and interpret it so it actually helps us understand the patient's condition! [learn more](GNS113_U2_T7#GNS113_U2_T7_h1)"
+    "answer": "D",
+    "explanation": "Spotting a pattern turns raw numbers into meaningful information that helps you understand what is happening to the patient. [learn more](GNS113_U2_T7#GNS113_U2_T7_h1)"
   },
   {
     "question_id": "GNS113_U2_T7_h2_q1",
@@ -37,15 +37,15 @@
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
     "difficulty": "recall",
-    "question": "Which data quality rule means we should document care right after giving it?",
+    "question": "Which data quality rule means making sure no necessary fields are left blank in a patient's record?",
     "options": {
-      "A": "Completeness",
-      "B": "Consistency",
-      "C": "Timeliness",
-      "D": "Accessibility"
+      "A": "Validity",
+      "B": "Timeliness",
+      "C": "Completeness",
+      "D": "Accuracy"
     },
     "answer": "C",
-    "explanation": "Timeliness means writing things down promptly so the chart always reflects what is happening with the patient right now. [learn more](GNS113_U2_T7#GNS113_U2_T7_h2)"
+    "explanation": "Completeness simply means filling in all the blanks so nothing important is missed when the next shift takes over. [learn more](GNS113_U2_T7#GNS113_U2_T7_h2)"
   },
   {
     "question_id": "GNS113_U2_T7_h2_q2",
@@ -53,15 +53,15 @@
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
     "difficulty": "understanding",
-    "question": "Why do different hospital units need to use consistent terms in patient charts?",
+    "question": "A nurse documents vital signs hours after taking them. Which data quality rule does this break?",
     "options": {
-      "A": "It guarantees that patients will never experience any adverse drug events",
-      "B": "It eliminates the need for nurses to write narrative notes",
-      "C": "It ensures clinical terms and data mean the same thing everywhere",
-      "D": "It reduces the financial cost of purchasing electronic health record software"
+      "A": "Timeliness",
+      "B": "Validity",
+      "C": "Consistency",
+      "D": "Accuracy"
     },
-    "answer": "C",
-    "explanation": "Consistency means any nurse or doctor reading the notes will understand the findings in the exact same way. [learn more](GNS113_U2_T7#GNS113_U2_T7_h2)"
+    "answer": "A",
+    "explanation": "Timeliness means charting things when they happen so the care team always has up-to-date facts. [learn more](GNS113_U2_T7#GNS113_U2_T7_h2)"
   },
   {
     "question_id": "GNS113_U2_T7_h3_q1",
@@ -69,31 +69,31 @@
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
     "difficulty": "recall",
-    "question": "What kind of mistake happens when a busy nurse accidentally documents care in someone else's chart?",
+    "question": "What is a common cause of electronic medication errors in the hospital?",
     "options": {
-      "A": "Data omission",
-      "B": "Transcription error",
-      "C": "Duplicate entry",
-      "D": "Wrong-patient charting"
+      "A": "Verifying entries with a senior nurse",
+      "B": "Entering vital signs right away",
+      "C": "Using standard medical terms",
+      "D": "Charting under the wrong patient profile"
     },
     "answer": "D",
-    "explanation": "Entering notes into the wrong file is a risky mix-up that usually happens when things get too rushed on the ward. [learn more](GNS113_U2_T7#GNS113_U2_T7_h3)"
+    "explanation": "Always double-check the patient's name and ID on the screen before saving notes or medications to avoid giving care to the wrong person! [learn more](GNS113_U2_T7#GNS113_U2_T7_h3)"
   },
   {
     "question_id": "GNS113_U2_T7_h3_q2",
     "heading_id": "GNS113_U2_T7_h3",
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
-    "difficulty": "application",
-    "question": "If a nurse forgets to chart hourly urine output for a surgical patient, what is the biggest danger?",
+    "difficulty": "understanding",
+    "question": "Why is delayed charting so dangerous for patient safety on the ward?",
     "options": {
-      "A": "Immediate cancellation of the patient's insurance coverage",
-      "B": "Immediate notification sent to the hospital legal department",
-      "C": "Automatic deletion of previous vital sign records",
-      "D": "Delayed recognition of declining kidney function"
+      "A": "It increases the hospital bill",
+      "B": "It automatically deletes old records",
+      "C": "It forces oncoming staff to make decisions based on outdated information",
+      "D": "It stops nurses from taking breaks"
     },
-    "answer": "D",
-    "explanation": "Leaving out vital checks hides important trends, making it harder to spot early warning signs like organ failure. [learn more](GNS113_U2_T7#GNS113_U2_T7_h3)"
+    "answer": "C",
+    "explanation": "If you don't chart it, the next nurse flying blind won't know what medications or treatments were just given. [learn more](GNS113_U2_T7#GNS113_U2_T7_h3)"
   },
   {
     "question_id": "GNS113_U2_T7_h4_q1",
@@ -101,15 +101,15 @@
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
     "difficulty": "recall",
-    "question": "What is the main job of a 'hard stop' in a computer health system?",
+    "question": "Which computer feature helps stop typing mistakes by giving you a set list of choices to click?",
     "options": {
-      "A": "To prevent entry of illogical data or dangerous orders",
-      "B": "To automatically log out nurses who take a meal break",
-      "C": "To block patients from viewing their own lab results",
-      "D": "To delete duplicate patient charts at the end of the day"
+      "A": "Paper charts",
+      "B": "Drop-down menus",
+      "C": "Manual typing",
+      "D": "Free text boxes"
     },
-    "answer": "A",
-    "explanation": "A hard stop forces you to fix unusual values or double-check safety alerts before you can move forward. [learn more](GNS113_U2_T7#GNS113_U2_T7_h4)"
+    "answer": "B",
+    "explanation": "Drop-down lists keep everyone using the same spelling and terms, saving time and preventing typos. [learn more](GNS113_U2_T7#GNS113_U2_T7_h4)"
   },
   {
     "question_id": "GNS113_U2_T7_h4_q2",
@@ -117,15 +117,15 @@
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
     "difficulty": "understanding",
-    "question": "Why do nurses always do a double-check before giving high-risk medications?",
+    "question": "How do real-time computer alerts help protect patients from harm?",
     "options": {
-      "A": "To eliminate the need for patient wristband scanning",
-      "B": "To catch calculation or transcription errors before administration",
-      "C": "To reduce the time spent documenting on the computer",
-      "D": "To comply with insurance billing requirements for intensive care"
+      "A": "By prescribing drugs automatically",
+      "B": "By hiding previous clinical notes",
+      "C": "By alerting the nurse when an entered value falls outside normal limits",
+      "D": "By locking the computer until a doctor arrives"
     },
-    "answer": "B",
-    "explanation": "Having a second pair of eyes helps catch little math or dosage mistakes that anyone could miss when tired. [learn more](GNS113_U2_T7#GNS113_U2_T7_h4)"
+    "answer": "C",
+    "explanation": "Pop-up alerts act like a safety net, warning you immediately if a lab result or vital sign is dangerously high or low. [learn more](GNS113_U2_T7#GNS113_U2_T7_h4)"
   },
   {
     "question_id": "GNS113_U2_T7_h5_q1",
@@ -133,15 +133,15 @@
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
     "difficulty": "recall",
-    "question": "What report should a nurse fill out right away after a medication near-miss or error?",
+    "question": "What is the main goal of healthcare interoperability standards?",
     "options": {
-      "A": "Discharge summary report",
-      "B": "Financial audit report",
-      "C": "Public health census report",
-      "D": "Incident report"
+      "A": "Allowing different software systems to exchange clinical information seamlessly",
+      "B": "Replacing computers with paper notebooks",
+      "C": "Lowering the price of drugs",
+      "D": "Cutting down the number of nurses on duty"
     },
-    "answer": "D",
-    "explanation": "Incident reports let the hospital look at safety issues objectively so they can prevent the same thing from happening again. [learn more](GNS113_U2_T7#GNS113_U2_T7_h5)"
+    "answer": "A",
+    "explanation": "Interoperability just means different hospital computer programs can talk to each other without losing patient data. [learn more](GNS113_U2_T7#GNS113_U2_T7_h5)"
   },
   {
     "question_id": "GNS113_U2_T7_h5_q2",
@@ -149,15 +149,15 @@
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
     "difficulty": "understanding",
-    "question": "How do daily nursing assessments help hospitals track their overall quality of care?",
+    "question": "Why do nurses use standardized nursing language like NANDA-I in electronic charts?",
     "options": {
-      "A": "They replace the need for governmental public health surveillance",
-      "B": "They determine the exact monthly salary of hospital administrators",
-      "C": "They calculate the hospital's annual marketing budget",
-      "D": "They provide the baseline data needed to track pressure injuries and falls"
+      "A": "To replace doctor's notes",
+      "B": "To make records invisible to management",
+      "C": "To ensure clear and uniform communication of patient care needs across teams",
+      "D": "To make typing faster"
     },
-    "answer": "D",
-    "explanation": "Hospital quality scores depend heavily on honest, regular nursing notes about things like skin integrity and patient mobility. [learn more](GNS113_U2_T7#GNS113_U2_T7_h5)"
+    "answer": "C",
+    "explanation": "Using standard terms means every nurse and health worker understands the patient's care plan the exact same way. [learn more](GNS113_U2_T7#GNS113_U2_T7_h5)"
   },
   {
     "question_id": "GNS113_U2_T7_h6_q1",
@@ -165,15 +165,15 @@
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
     "difficulty": "recall",
-    "question": "Which of these is a big legal no-no when writing nursing notes?",
+    "question": "Which ethical principle are you respecting when you keep a patient's medical details strictly private?",
     "options": {
-      "A": "Using approved hospital acronyms and terminology",
-      "B": "Including judgmental personal opinions about the patient",
-      "C": "Recording objective physical assessment findings",
-      "D": "Documenting factual vital signs immediately after taking them"
+      "A": "Autonomy",
+      "B": "Utilitarianism",
+      "C": "Maleficence",
+      "D": "Paternalism"
     },
-    "answer": "B",
-    "explanation": "Keep notes strictly professional and factual! Writing personal opinions in a chart can cause legal trouble and hurt your credibility. [learn more](GNS113_U2_T7#GNS113_U2_T7_h6)"
+    "answer": "A",
+    "explanation": "Autonomy is about respecting the patient's right to control their own life and private information. [learn more](GNS113_U2_T7#GNS113_U2_T7_h6)"
   },
   {
     "question_id": "GNS113_U2_T7_h6_q2",
@@ -181,15 +181,15 @@
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
     "difficulty": "understanding",
-    "question": "Why is changing or back-dating a patient's chart after a bad incident a serious offense?",
+    "question": "A nurse talks about a patient's diagnosis loudly in the hospital hallway where visitors can hear. What has been broken?",
     "options": {
-      "A": "It violates public health disease reporting laws",
-      "B": "It automatically increases the patient's hospital billing charges",
-      "C": "It destroys the legal integrity and truthfulness of the clinical record",
-      "D": "It prevents the electronic health record from backing up data"
+      "A": "Interoperability standards",
+      "B": "Data validation rules",
+      "C": "Informatics frameworks",
+      "D": "Patient confidentiality"
     },
-    "answer": "C",
-    "explanation": "The medical record must always show the true, honest timeline of care. Altering it later destroys trust and patient safety. [learn more](GNS113_U2_T7#GNS113_U2_T7_h6)"
+    "answer": "D",
+    "explanation": "Always keep patient discussions in private, professional spaces—never in hallways, cafeterias, or public buses! [learn more](GNS113_U2_T7#GNS113_U2_T7_h6)"
   },
   {
     "question_id": "GNS113_U2_T7_h7_q1",
@@ -197,15 +197,15 @@
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
     "difficulty": "recall",
-    "question": "Which of these is an example of a technical safeguard for computer records?",
+    "question": "What is the main job of an audit trail in an electronic health record system?",
     "options": {
-      "A": "Placing computer monitors away from public waiting areas",
-      "B": "Shredding paper shift handovers at the end of the shift",
-      "C": "Unique staff login credentials and automatic session timeouts",
-      "D": "Conducting annual privacy training sessions for all staff"
+      "A": "Backing up the computer once a year",
+      "B": "Calculating drug doses",
+      "C": "Translating foreign languages",
+      "D": "Recording every instance a user opens, modifies, or prints a file"
     },
-    "answer": "C",
-    "explanation": "Technical safeguards use software tools like passwords and auto-logouts to keep electronic patient records safe from snooping. [learn more](GNS113_U2_T7#GNS113_U2_T7_h7)"
+    "answer": "D",
+    "explanation": "Audit trails are digital footprints that show who opened or changed a patient's chart, keeping everyone accountable. [learn more](GNS113_U2_T7#GNS113_U2_T7_h7)"
   },
   {
     "question_id": "GNS113_U2_T7_h7_q2",
@@ -213,15 +213,15 @@
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
     "difficulty": "understanding",
-    "question": "Which of these actions breaks patient confidentiality?",
+    "question": "Why is role-based access control important in hospital software?",
     "options": {
-      "A": "Discussing a patient's diagnosis in a hospital cafeteria where visitors are present",
-      "B": "Reviewing lab results for an assigned patient with the attending physician",
-      "C": "Logging out of the workstation computer before leaving the nurses' station",
-      "D": "Accessing the electronic chart of a patient under your direct care"
+      "A": "It restricts staff members to viewing only the data necessary for their specific job role",
+      "B": "It lets everyone view any patient record freely",
+      "C": "It speeds up the computer login",
+      "D": "It stops patients from seeing their own history"
     },
     "answer": "A",
-    "explanation": "Never talk about patient details in public spots where visitors or strangers might overhear you! [learn more](GNS113_U2_T7#GNS113_U2_T7_h7)"
+    "explanation": "Role-based access ensures nosy colleagues or staff outside the care team can't open charts they have no business reading. [learn more](GNS113_U2_T7#GNS113_U2_T7_h7)"
   },
   {
     "question_id": "GNS113_U2_T7_h8_q1",
@@ -229,30 +229,30 @@
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
     "difficulty": "recall",
-    "question": "What is the term for fake emails that try to trick hospital staff into giving up their passwords?",
+    "question": "Which of these is a good cyber hygiene habit for nurses using hospital computers?",
     "options": {
-      "A": "Tailgating",
-      "B": "Transcription",
-      "C": "Validation",
-      "D": "Phishing"
+      "A": "Sharing your password with a trusted colleague",
+      "B": "Opening email attachments from unknown senders",
+      "C": "Logging out of the terminal immediately after finishing documentation",
+      "D": "Leaving computer screens unlocked during lunch"
     },
-    "answer": "D",
-    "explanation": "Phishing is a common online scam where hackers send tricky emails to steal your login details. [learn more](GNS113_U2_T7#GNS113_U2_T7_h8)"
+    "answer": "C",
+    "explanation": "Always lock or log out of your workstation when stepping away so no one else can chart under your name. [learn more](GNS113_U2_T7#GNS113_U2_T7_h8)"
   },
   {
     "question_id": "GNS113_U2_T7_h8_q2",
     "heading_id": "GNS113_U2_T7_h8",
     "article_id": "GNS113_U2_T7",
     "topic_id": "GNS113_U2_T7",
-    "difficulty": "application",
-    "question": "A colleague asks to quickly log in under your computer account because they forgot their password. What should you do?",
+    "difficulty": "understanding",
+    "question": "What is a typical sign of a phishing attack aimed at hospital staff?",
     "options": {
-      "A": "Complete the charting for them under your own name instead",
-      "B": "Refuse and ask them to log in using their own credentials",
-      "C": "Allow them to type quickly while you watch over their shoulder",
-      "D": "Write your password down on a sticky note for them to use later"
+      "A": "Sudden AC failure in the ward",
+      "B": "Deceptive emails designed to trick staff into revealing login credentials",
+      "C": "Physical theft of computer monitors",
+      "D": "Accidental deletion of lab results by the lab scientist"
     },
     "answer": "B",
-    "explanation": "Always keep your login secure! Sharing it means you take the blame for whatever gets charted on that account. [learn more](GNS113_U2_T7#GNS113_U2_T7_h8)"
+    "explanation": "Phishing emails pretend to be IT support or management to trick you into handing over your password. Stay alert! [learn more](GNS113_U2_T7#GNS113_U2_T7_h8)"
   }
 ]

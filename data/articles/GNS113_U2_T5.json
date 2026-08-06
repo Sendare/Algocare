@@ -11,43 +11,37 @@
       "heading_id": "GNS113_U2_T5_h1",
       "order": 1,
       "title": "Introduction to Nursing Data Integration",
-      "content": "Nursing data integration brings together patient information from various sources into a single, cohesive view. In modern healthcare, a patient's story is scattered across different departments—laboratory results live in the pathology database, vital signs are entered at the bedside monitor, and medication notes sit in the pharmacy log. When these pieces talk to each other, the care team gets a complete picture of the patient's health status.\n\nWithout integration, nurses waste valuable time hunting for records or manually copying information from one paper chart or computer screen to another. This manual process opens the door to transcription errors and delayed interventions. Integrating data ensures that when a nurse administers a medication or assesses a new symptom, all historical and current data updates instantly across the entire clinical network."
+      "content": "Nursing data integration brings together patient information from multiple sources into a single, unified view. In busy clinical settings across Nigeria, from primary health centres to tertiary teaching hospitals, nurses generate massive volumes of data daily. This includes vital signs, fluid balance charts, medication administration records, and narrative nursing notes.\n\nWithout integration, these details remain scattered in paper files or disconnected software modules. Bringing this information together gives the healthcare team a complete picture of a patient's health status. It reduces redundant charting, cuts down on transcription errors, and supports timely clinical decision-making during emergencies."
     },
     {
       "heading_id": "GNS113_U2_T5_h2",
       "order": 2,
       "title": "Standardized Nursing Terminologies",
-      "content": "To share data smoothly, nurses must speak the same digital language. Standardized nursing terminologies provide a common vocabulary for describing patient problems, nursing interventions, and clinical outcomes.\n\n- **NANDA-I**: Focuses on identifying and naming human responses to actual or potential health problems, known as nursing diagnoses.\n- **NIC (Nursing Interventions Classification)**: Names and defines the specific treatments and actions that nurses perform to improve patient outcomes.\n- **NOC (Nursing Outcomes Classification)**: Measures the patient's condition or status after a nursing intervention has been applied.\n\nWhen a nurse in Lagos and a nurse in Abuja both use these structured terms, an electronic system can accurately track how effective a specific nursing care plan was, regardless of who typed it in."
+      "content": "Standardized terminologies provide a common language for documenting nursing assessments, interventions, and outcomes. Instead of every nurse writing descriptive notes in their own style, structured systems use agreed-upon codes.\n\n- **NANDA-I**: Standardizes nursing diagnoses to identify actual or potential health problems.\n- **NIC**: Standardizes the specific treatments and interventions nurses perform.\n- **NOC**: Standardizes the measurement of patient status changes after nursing care.\n\nUsing these classifications makes nursing work visible in electronic databases, supporting statistical analysis, resource allocation, and nursing research."
     },
     {
       "heading_id": "GNS113_U2_T5_h3",
       "order": 3,
       "title": "Interoperability Standards and Data Exchange",
-      "content": "Interoperability is the ability of different health information systems, devices, and software to communicate and exchange data accurately. Without it, hospitals end up with isolated islands of information that cannot talk to each other.\n\nHealthcare relies heavily on established standards to make this exchange possible. **HL7 (Health Level Seven)** and **FHIR (Fast Healthcare Interoperability Resources)** act like universal translators. They structure data packets so that a laboratory machine made by one company can send blood test results directly into an electronic health record made by another company without scrambling the numbers or patient names."
+      "content": "Interoperability is the ability of different health information systems to communicate and share data accurately. Without it, a laboratory computer cannot send blood test results to the electronic patient folder.\n\nHealthcare systems rely on established health data standards like **HL7** (Health Level Seven) and **FHIR** (Fast Healthcare Interoperability Resources) to package and transport data securely. These protocols ensure that when a patient is transferred from a rural clinic to a state hospital, their complete digital history travels along smoothly without losing context or corrupting values."
     },
     {
       "heading_id": "GNS113_U2_T5_h4",
       "order": 4,
-      "title": "Electronic Health Record (EHR) Systems and Data Architecture",
-      "content": "The Electronic Health Record is the digital backbone of modern patient care. Behind every clinical screen lies a complex data architecture—the structural framework that organizes how information is stored, indexed, and retrieved.\n\nGood data architecture ensures that when a nurse opens a patient file, the allergies load immediately at the top, followed by current medications and vital sign trends. If the architecture is poorly designed, data gets buried in random text boxes, making it hard to find crucial warning signs during a rapid change in patient condition. Nurses interact directly with this architecture every shift, making their feedback vital when designing safer, more intuitive clinical software."
+      "title": "Data Quality and Validation",
+      "content": "Data quality determines whether integrated information can be trusted for clinical decisions. Poor data input leads directly to dangerous care errors.\n\n- **Accuracy**: Data must reflect the true clinical condition of the patient.\n- **Completeness**: All required fields, such as allergies and weight, must be filled.\n- **Timeliness**: Observations must be recorded promptly after collection.\n\nNurses play a frontline role in data validation. Using point-of-care entry devices and validation rules helps catch obvious mistakes, such as an impossible blood pressure reading, before the data enters the permanent health record."
     },
     {
       "heading_id": "GNS113_U2_T5_h5",
       "order": 5,
-      "title": "Data Quality, Integrity, and Validation",
-      "content": "The famous computing rule 'garbage in, garbage out' applies heavily to nursing documentation. Data quality refers to how accurate, complete, and reliable patient information is.\n\nData integrity means the information remains uncorrupted and trustworthy throughout its lifecycle. Nurses play a frontline role in data validation—checking that the numbers and notes entered into the system actually match the patient sitting in front of them. For instance, if a blood pressure reading of 220/120 mmHg is entered by mistake as 22/12 mmHg, clinical alerts might fail to trigger, putting the patient in severe danger. Regular audits and point-of-entry validation checks help catch these mistakes before clinical decisions are made."
+      "title": "Legal, Ethical, and Security Considerations",
+      "content": "Integrating patient data across networks increases the risk of privacy breaches and unauthorized access. Nurses have an ethical and legal obligation to protect patient confidentiality under data protection regulations.\n\nAccess controls, such as unique user login credentials and role-based permissions, ensure that staff members only view data necessary for their specific duties. Encryption safeguards data while it moves across networks or rests on servers. Failing to protect integrated health records compromises patient trust and violates professional nursing codes of conduct."
     },
     {
       "heading_id": "GNS113_U2_T5_h6",
       "order": 6,
-      "title": "Legal, Ethical, and Security Considerations",
-      "content": "Integrated health data crosses multiple departments and external networks, raising significant legal and ethical responsibilities. Patient confidentiality is a fundamental right; nurses are bound by law and professional ethics to protect sensitive health information.\n\nData security involves technical safeguards like password protection, role-based access control, and encryption to stop unauthorized individuals from viewing patient records. A common mistake is leaving an active patient chart open on a nursing station computer when walking away to answer a call light. Violating data privacy can result in severe legal penalties, loss of nursing licensure, and a breakdown of patient trust in the healthcare system."
-    },
-    {
-      "heading_id": "GNS113_U2_T5_h7",
-      "order": 7,
       "title": "Impact on Patient Outcomes and Nursing Workflow",
-      "content": "When data integration works effectively, it transforms both patient care and daily nursing routines. Clinicians spend less time searching through disjointed paperwork and more time at the bedside.\n\nIntegrated systems feed real-time data into automated clinical decision support tools. These tools can send early warnings for sepsis, flag dangerous drug allergies before an order is signed, or track subtle trends in vital signs hours before a patient crashes. By connecting these data points, nurses can act proactively rather than reacting to sudden emergencies, resulting in shorter hospital stays and safer recovery for patients."
+      "content": "Effective data integration transforms the daily workflow of clinical nurses. Instead of hunting through messy paper files or logging into four different software programs, nurses access a consolidated dashboard containing vital trends, lab results, and nursing care plans.\n\nThis streamlined access saves time, reduces cognitive fatigue, and allows more time for direct bedside patient care. Clinically, integrated data triggers early warning alerts for deteriorating conditions, such as sepsis or sudden drops in oxygen saturation, leading to faster interventions and improved survival rates."
     }
   ]
 }
