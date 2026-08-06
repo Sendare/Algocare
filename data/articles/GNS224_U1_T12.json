@@ -13,43 +13,31 @@
       "heading_id": "GNS224_U1_T12_h1",
       "order": 1,
       "title": "Introduction to Correlational Research Design",
-      "content": "Correlational research design is a type of non-experimental study where a researcher looks for relationships between two or more variables without actively manipulating or changing any of them. Instead of testing whether an intervention causes a specific outcome, this design measures what already naturally exists in the environment. Nursing researchers often use this approach when it is unethical or practically impossible to manipulate a variable, such as studying the relationship between smoking history and lung capacity or examining how shift work relates to nurse burnout."
+      "content": "Correlational research is a non-experimental design used by nurse researchers to examine relationships between two or more variables without any manipulation by the investigator. Unlike clinical trials where a specific intervention is introduced, correlational studies simply observe and measure naturally occurring phenomena in a target population. For instance, a researcher might study the relationship between night shift work and fatigue levels among nurses in a Lagos teaching hospital. The primary focus is identifying patterns of association rather than determining a cause-and-effect sequence."
     },
     {
       "heading_id": "GNS224_U1_T12_h2",
       "order": 2,
       "title": "Types of Correlational Relationships",
-      "content": "Relationships uncovered in correlational studies generally fall into three distinct patterns:\n\n- **Positive correlation**: Both variables move in the same direction. As one variable increases, the other variable also increases. For example, higher numbers of clinical simulation hours tend to be associated with higher practical exam scores.\n- **Negative correlation**: The variables move in opposite directions. As one variable increases, the other decreases. An example is the relationship between the number of hours spent sleeping before a shift and the frequency of medication calculation errors.\n- **Zero correlation**: There is no discernible relationship between the variables at all. Shoe size and blood pressure in adults, for instance, show a zero correlation."
+      "content": "Relationships identified in research data generally fall into specific directional patterns that describe how variables interact with one another.\n\n- **Positive correlation**: Both variables move in the same direction. As one variable increases, the other variable also increases. For example, higher scores on a patient anxiety scale often align with higher reported heart rates.\n- **Negative correlation**: The variables move in opposite directions. As one variable increases, the other decreases. An example is the relationship between mobility scores and the incidence of pressure ulcers; as mobility increases, pressure ulcer rates drop.\n- **Zero correlation**: There is no discernible linear relationship between the variables. Patient shoe size and blood glucose levels, for instance, show no statistical connection."
     },
     {
       "heading_id": "GNS224_U1_T12_h3",
       "order": 3,
       "title": "Correlation Coefficients and Statistical Interpretation",
-      "content": "The strength and direction of a relationship are expressed mathematically using a **correlation coefficient**, commonly represented by the letter **r**. This statistical value always falls between -1.00 and +1.00.\n\n| Coefficient Value (r) | Interpretation ||\n|---|---|\n| +1.00 or -1.00 | Perfect linear relationship ||\n| 0.50 to 0.99 (or -0.50 to -0.99) | Strong relationship ||\n| 0.30 to 0.49 (or -0.30 to -0.49) | Moderate relationship ||\n| 0.01 to 0.29 (or -0.01 to -0.29) | Weak relationship ||\n| 0.00 | No relationship at all |\n\nThe sign (+ or -) tells you the direction of the relationship, while the absolute number tells you how strong the association is, regardless of the sign."
+      "content": "The strength and direction of a relationship are quantified using a statistic called the correlation coefficient, usually denoted by the letter **r**. This value ranges from -1.00 to +1.00.\n\n| Coefficient Value (r) | Interpretation | Strength of Association |\n|---|---|---|\n| +1.00 or -1.00 | Perfect correlation | Absolute linear relationship |\n| ±0.50 to ±0.99 | Strong correlation | High association between variables |\n| ±0.30 to ±0.49 | Moderate correlation | Medium association |\n| ±0.01 to ±0.29 | Weak correlation | Low association |\n| 0.00 | No correlation | Complete absence of linear association |\n\nThe numerical value tells you the strength, while the positive or negative sign indicates the direction."
     },
     {
       "heading_id": "GNS224_U1_T12_h4",
       "order": 4,
-      "title": "Data Collection Methods in Nursing",
-      "content": "Gathering data for correlational studies in healthcare relies heavily on measuring existing traits, behaviors, or clinical markers. Researchers frequently use self-report questionnaires, standardized psychological scales, structured observations, and retrospective chart reviews. For instance, a researcher might administer a validated burnout inventory to intensive care nurses and simultaneously pull their overtime hours from human resource records to see if the two datasets align. Because multiple variables must be measured for every single participant, maintaining accurate record-keeping and ensuring data privacy are critical nursing research responsibilities."
+      "title": "Strengths and Limitations of Correlational Studies",
+      "content": "Correlational designs offer distinct practical benefits for nursing science, but they also carry inherent methodological limitations that researchers must manage.\n\n- **Flexibility**: Allows researchers to collect data in natural clinical settings without disrupting patient care.\n- **Efficiency**: Can examine multiple variables and interrelationships simultaneously in a relatively short timeframe.\n- **Foundation**: Helps generate hypotheses that can later be tested through rigorous experimental trials.\n- **No Causality**: Cannot establish cause and effect due to the lack of variable manipulation and control over confounding factors.\n- **Third-variable problem**: An unmeasured hidden factor may be responsible for the observed association between the primary variables."
     },
     {
       "heading_id": "GNS224_U1_T12_h5",
       "order": 5,
-      "title": "Strengths, Advantages, and Practical Uses",
-      "content": "Correlational designs offer several distinct benefits for clinical practice and nursing science. They allow researchers to study complex variables in natural settings where experiments are impossible. They are often more affordable and quicker to execute than heavy clinical trials. Furthermore, correlational findings serve as vital foundational stepping stones. When a strong relationship is identified between two variables, it provides the justification needed to design expensive, time-consuming experimental interventions later on."
-    },
-    {
-      "heading_id": "GNS224_U1_T12_h6",
-      "order": 6,
-      "title": "Limitations and Confounding Variables",
-      "content": "The greatest vulnerability of correlational research is its inability to control for **confounding variables**—hidden factors that may influence both variables under study and create a false impression of a direct connection. For example, a study might find a strong correlation between ice cream sales and the rate of drowning incidents at public pools. A hidden third variable, warm summer weather, drives both increases. Without accounting for these outside influences, nursing researchers can easily misinterpret what their data actually means."
-    },
-    {
-      "heading_id": "GNS224_U1_T12_h7",
-      "order": 7,
       "title": "Distinguishing Correlation from Causation",
-      "content": "A classic trap in data analysis is assuming that **correlation equals causation**. Just because two variables move together does not mean that one makes the other happen. When variable A and variable B are correlated, three logical interpretations are possible: variable A causes variable B, variable B causes variable A, or an entirely separate third factor causes both. Nursing students and clinicians must always maintain a healthy skepticism when reading research summaries, remembering that observational data alone can never prove cause and effect."
+      "content": "A common mistake in research interpretation is assuming that because two variables move together, one causes the other. Establishing true causality requires three strict criteria: temporal precedence, covariation of the variables, and the elimination of all alternative explanations. Correlational designs only satisfy covariation. A famous epidemiological example is the link between ice cream sales and drowning rates; both increase during hot summer months. Ice cream consumption does not cause drowning, as temperature is the underlying confounding factor driving both trends. Nurses must evaluate research findings critically to avoid misinterpreting associations as direct causes."
     }
   ]
 }
