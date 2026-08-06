@@ -5,15 +5,15 @@
     "article_id": "GNS212_U4_T6",
     "topic_id": "GNS212_U4_T6",
     "difficulty": "recall",
-    "question": "What is the primary function of a pulse oximeter?",
+    "question": "What does a pulse oximeter measure?",
     "options": {
-      "A": "To count the exact white blood cell count",
-      "B": "To estimate blood oxygen saturation",
-      "C": "To check the amount of carbon dioxide in the lungs",
-      "D": "To measure blood pressure levels"
+      "A": "Venous carbon dioxide",
+      "B": "Total hemoglobin",
+      "C": "Serum bicarbonate",
+      "D": "Arterial oxygen saturation"
     },
-    "answer": "B",
-    "explanation": "Pulse oximetry is specifically designed to non-invasively measure the percentage of oxygen-saturated hemoglobin in the blood. [learn more](GNS212_U4_T6#GNS212_U4_T6_h1)"
+    "answer": "D",
+    "explanation": "Pulse oximetry estimates the percentage of hemoglobin binding sites in the blood carrying oxygen. [learn more](GNS212_U4_T6#GNS212_U4_T6_h1)"
   },
   {
     "question_id": "GNS212_U4_T6_h1_q2",
@@ -21,15 +21,15 @@
     "article_id": "GNS212_U4_T6",
     "topic_id": "GNS212_U4_T6",
     "difficulty": "understanding",
-    "question": "Why is pulse oximetry sometimes called the fifth vital sign in busy clinical wards?",
+    "question": "Why does a pulse oximeter focus on pulsating blood flow?",
     "options": {
-      "A": "It must be recorded before measuring temperature or pulse",
-      "B": "It requires five different fingers to be tested at the same time",
-      "C": "It is checked every five hours on all ward patients",
-      "D": "It provides quick, vital data about oxygenation without invasive blood draws"
+      "A": "To prevent the probe from overheating",
+      "B": "To calculate the exact breathing rate",
+      "C": "To ignore static light absorption from skin, bone, and venous blood",
+      "D": "To measure total cardiac output per minute"
     },
-    "answer": "D",
-    "explanation": "Because it gives rapid, essential information about tissue perfusion and oxygenation safely, it ranks alongside standard vital signs. [learn more](GNS212_U4_T6#GNS212_U4_T6_h1)"
+    "answer": "C",
+    "explanation": "Focusing on the pulse ensures the reading reflects arterial blood rather than surrounding tissues. [learn more](GNS212_U4_T6#GNS212_U4_T6_h1)"
   },
   {
     "question_id": "GNS212_U4_T6_h2_q1",
@@ -37,15 +37,15 @@
     "article_id": "GNS212_U4_T6",
     "topic_id": "GNS212_U4_T6",
     "difficulty": "recall",
-    "question": "How does oxygen primarily travel through the bloodstream to body tissues?",
+    "question": "What two types of light do standard pulse oximeter probes use?",
     "options": {
-      "A": "Attached directly to white blood cells",
-      "B": "Floating freely as pure gas bubbles in plasma",
-      "C": "Bound to hemoglobin in red blood cells",
-      "D": "Dissolved completely in blood platelets"
+      "A": "X-ray and gamma radiation",
+      "B": "Blue and yellow light",
+      "C": "Ultraviolet and green light",
+      "D": "Red and infrared light"
     },
-    "answer": "C",
-    "explanation": "The vast majority of oxygen in the body is carried by binding to the hemoglobin molecules inside red blood cells. [learn more](GNS212_U4_T6#GNS212_U4_T6_h2)"
+    "answer": "D",
+    "explanation": "Oxygenated and deoxygenated hemoglobin absorb red and infrared light differently, allowing the device to calculate saturation. [learn more](GNS212_U4_T6#GNS212_U4_T6_h2)"
   },
   {
     "question_id": "GNS212_U4_T6_h2_q2",
@@ -53,47 +53,47 @@
     "article_id": "GNS212_U4_T6",
     "topic_id": "GNS212_U4_T6",
     "difficulty": "understanding",
-    "question": "What happens to the color absorption properties of hemoglobin when it binds with oxygen?",
+    "question": "What is the job of the photodetector in a pulse oximeter probe?",
     "options": {
-      "A": "It absorbs more red light and less infrared light",
-      "B": "It absorbs more infrared light and less red light",
-      "C": "It turns the surrounding plasma completely dark blue",
-      "D": "It stops absorbing all types of light completely"
+      "A": "Warming up the skin to improve blood flow",
+      "B": "Converting screen displays into beeps",
+      "C": "Measuring the light that passes through the tissue",
+      "D": "Generating the light needed for the test"
     },
-    "answer": "B",
-    "explanation": "Oxygenated hemoglobin absorbs infrared light differently than deoxygenated hemoglobin, which allows the oximeter sensor to measure the ratio. [learn more](GNS212_U4_T6#GNS212_U4_T6_h2)"
+    "answer": "C",
+    "explanation": "The photodetector catches the unabsorbed light passing through the finger and sends that data to the machine's processor. [learn more](GNS212_U4_T6#GNS212_U4_T6_h2)"
   },
   {
     "question_id": "GNS212_U4_T6_h3_q1",
     "heading_id": "GNS212_U4_T6_h3",
     "article_id": "GNS212_U4_T6",
     "topic_id": "GNS212_U4_T6",
-    "difficulty": "recall",
-    "question": "What two types of light do the LEDs inside a pulse oximeter probe emit?",
+    "difficulty": "application",
+    "question": "Why use a pulse oximeter for a patient with severe malaria and sudden trouble breathing?",
     "options": {
-      "A": "Ultraviolet and green light",
-      "B": "X-ray and fluorescent light",
-      "C": "Blue and yellow laser light",
-      "D": "Red and infrared light"
+      "A": "To diagnose bacterial infections",
+      "B": "To replace the need to count breaths",
+      "C": "To measure the malaria parasite count",
+      "D": "To catch low oxygen levels before blue skin discoloration appears"
     },
     "answer": "D",
-    "explanation": "The sensor relies on two specific light wavelengths, red and infrared, to differentiate between oxygenated and deoxygenated blood. [learn more](GNS212_U4_T6#GNS212_U4_T6_h3)"
+    "explanation": "Pulse oximetry detects low oxygen early, long before physical signs like cyanosis show up. [learn more](GNS212_U4_T6#GNS212_U4_T6_h3)"
   },
   {
     "question_id": "GNS212_U4_T6_h3_q2",
     "heading_id": "GNS212_U4_T6_h3",
     "article_id": "GNS212_U4_T6",
     "topic_id": "GNS212_U4_T6",
-    "difficulty": "understanding",
-    "question": "Why does the pulse oximeter algorithm focus specifically on pulsating arterial blood?",
+    "difficulty": "recall",
+    "question": "Which of these conditions does NOT require routine pulse oximetry monitoring?",
     "options": {
-      "A": "To calculate the exact speed of blood flow through the heart valves",
-      "B": "To prevent the sensor probe from overheating during long monitoring sessions",
-      "C": "To measure the total volume of red blood cells in the bone marrow",
-      "D": "To ignore constant light absorption from skin, bone, and non-pulsating tissue"
+      "A": "Postoperative surgical recovery",
+      "B": "Uncomplicated routine skin rash",
+      "C": "Severe childhood pneumonia",
+      "D": "Postpartum hemorrhage management"
     },
-    "answer": "D",
-    "explanation": "Focusing on the pulse wave lets the machine isolate arterial blood from surrounding static tissues like skin and bone. [learn more](GNS212_U4_T6#GNS212_U4_T6_h3)"
+    "answer": "B",
+    "explanation": "A simple skin rash does not affect breathing or oxygen levels, so oximetry is not needed. [learn more](GNS212_U4_T6#GNS212_U4_T6_h3)"
   },
   {
     "question_id": "GNS212_U4_T6_h4_q1",
@@ -101,158 +101,126 @@
     "article_id": "GNS212_U4_T6",
     "topic_id": "GNS212_U4_T6",
     "difficulty": "understanding",
-    "question": "A nurse in a rural Nigerian health post is triaging multiple patients with fever and cough. Why is pulse oximetry especially useful here?",
+    "question": "Why should dark nail polish be removed before putting on a pulse oximeter sensor?",
     "options": {
-      "A": "It quickly identifies silent hypoxia requiring urgent oxygen therapy",
-      "B": "It cures the underlying lung infection without medications",
-      "C": "It replaces the need to check the patient's respiratory rate",
-      "D": "It gives a definitive diagnosis of bacterial pneumonia"
+      "A": "It blocks the device from turning on",
+      "B": "It stains the plastic housing",
+      "C": "It causes an allergic skin reaction",
+      "D": "It absorbs the light and alters the reading"
     },
-    "answer": "A",
-    "explanation": "Pulse oximetry helps nurses spot dangerous drops in blood oxygen before physical symptoms like severe blue lips become obvious. [learn more](GNS212_U4_T6#GNS212_U4_T6_h4)"
+    "answer": "D",
+    "explanation": "Dark nail polish blocks the light waves, causing falsely low oxygen readings. [learn more](GNS212_U4_T6#GNS212_U4_T6_h4)"
   },
   {
     "question_id": "GNS212_U4_T6_h4_q2",
     "heading_id": "GNS212_U4_T6_h4",
     "article_id": "GNS212_U4_T6",
     "topic_id": "GNS212_U4_T6",
-    "difficulty": "application",
-    "question": "Which patient in a busy emergency ward should a nurse monitor with a pulse oximeter first?",
+    "difficulty": "recall",
+    "question": "What should a nurse do first if a patient's fingers are cold and pale during a check?",
     "options": {
-      "A": "A patient with a mild ankle sprain from a football game",
-      "B": "A patient requesting routine malaria medication refills",
-      "C": "A patient waiting to be discharged after a healed minor cut",
-      "D": "A patient complaining of sudden chest tightness and shortness of breath"
+      "A": "Tape the probe down tightly",
+      "B": "Assume the patient is hypoxic and give oxygen",
+      "C": "Gently warm the hand to improve blood flow",
+      "D": "Switch immediately to an arterial blood gas draw"
     },
-    "answer": "D",
-    "explanation": "Acute respiratory symptoms indicate a potential threat to oxygenation, making immediate pulse oximetry essential. [learn more](GNS212_U4_T6#GNS212_U4_T6_h4)"
+    "answer": "C",
+    "explanation": "Cold fingers reduce blood flow and weaken the sensor signal. Warming the hand helps get an accurate reading. [learn more](GNS212_U4_T6#GNS212_U4_T6_h4)"
   },
   {
     "question_id": "GNS212_U4_T6_h5_q1",
     "heading_id": "GNS212_U4_T6_h5",
     "article_id": "GNS212_U4_T6",
     "topic_id": "GNS212_U4_T6",
-    "difficulty": "recall",
-    "question": "What common cosmetic item on a patient's fingernail can block light transmission and ruin an oximeter reading?",
+    "difficulty": "understanding",
+    "question": "What is a major risk of raising oxygen to 100% in a patient with chronic lung disease?",
     "options": {
-      "A": "Cleansing alcohol",
-      "B": "Medical adhesive",
-      "C": "Hand lotion",
-      "D": "Nail polish"
+      "A": "Causing sudden permanent blindness",
+      "B": "Destroying capillary beds",
+      "C": "Triggering severe high blood pressure",
+      "D": "Suppressing their drive to breathe and worsening carbon dioxide retention"
     },
     "answer": "D",
-    "explanation": "Dark or metallic nail polish absorbs or reflects the LED light, preventing the sensor from getting an accurate reading. [learn more](GNS212_U4_T6#GNS212_U4_T6_h5)"
+    "explanation": "Some chronic lung patients rely on low oxygen levels to stimulate breathing. Too much oxygen can make them stop breathing well. [learn more](GNS212_U4_T6#GNS212_U4_T6_h5)"
   },
   {
     "question_id": "GNS212_U4_T6_h5_q2",
     "heading_id": "GNS212_U4_T6_h5",
     "article_id": "GNS212_U4_T6",
     "topic_id": "GNS212_U4_T6",
-    "difficulty": "understanding",
-    "question": "Why must a nurse warm up a patient's cold hand before attaching a finger pulse oximeter probe?",
+    "difficulty": "recall",
+    "question": "An adult breathing room air has an SpO2 of 88%. How is this classified?",
     "options": {
-      "A": "Cold fingers have too much nail polish on them",
-      "B": "Cold skin burns out the delicate infrared lights inside the sensor",
-      "C": "Cold fingers prevent the patient from sitting still during the test",
-      "D": "Cold temperatures cause vasoconstriction, reducing blood flow to the fingers"
+      "A": "Mild hyperoxemia",
+      "B": "Normal adult baseline",
+      "C": "Significant hypoxia requiring action",
+      "D": "An expected reading for healthy individuals"
     },
-    "answer": "D",
-    "explanation": "Poor peripheral circulation from coldness reduces pulse volume, making it hard for the machine to detect a clear signal. [learn more](GNS212_U4_T6#GNS212_U4_T6_h5)"
+    "answer": "C",
+    "explanation": "Any oxygen saturation below 90% is low and needs prompt medical attention. [learn more](GNS212_U4_T6#GNS212_U4_T6_h5)"
   },
   {
     "question_id": "GNS212_U4_T6_h6_q1",
     "heading_id": "GNS212_U4_T6_h6",
     "article_id": "GNS212_U4_T6",
     "topic_id": "GNS212_U4_T6",
-    "difficulty": "recall",
-    "question": "What is the typical normal oxygen saturation range for a healthy adult breathing room air?",
+    "difficulty": "understanding",
+    "question": "How does severe shivering affect a pulse oximeter reading?",
     "options": {
-      "A": "100% to 110%",
-      "B": "81% to 87%",
-      "C": "70% to 80%",
-      "D": "95% to 100%"
+      "A": "It pushes all blood out of the capillaries",
+      "B": "It damages the infrared diodes inside",
+      "C": "It turns off the battery",
+      "D": "It creates movement noise that confuses the machine"
     },
     "answer": "D",
-    "explanation": "Healthy individuals without lung or heart disease usually maintain oxygen saturation levels between 95% and 100%. [learn more](GNS212_U4_T6#GNS212_U4_T6_h6)"
+    "explanation": "Physical shaking makes it hard for the sensor to tell the difference between real pulse beats and movement. [learn more](GNS212_U4_T6#GNS212_U4_T6_h6)"
   },
   {
     "question_id": "GNS212_U4_T6_h6_q2",
     "heading_id": "GNS212_U4_T6_h6",
     "article_id": "GNS212_U4_T6",
     "topic_id": "GNS212_U4_T6",
-    "difficulty": "understanding",
-    "question": "Why should a nurse check the patient's manual pulse against the pulse rate displayed on the oximeter?",
+    "difficulty": "recall",
+    "question": "Which environmental factor can cause false pulse oximeter readings?",
     "options": {
-      "A": "To clean any dust off the infrared sensor window",
-      "B": "To calibrate the battery level inside the monitor casing",
-      "C": "To confirm the machine is accurately detecting the pulse signal",
-      "D": "To make sure the patient's blood pressure is normal"
+      "A": "Bright room light shining on the sensor",
+      "B": "Strong electrical currents in wall sockets",
+      "C": "Low air pressure at high altitudes",
+      "D": "High room humidity"
     },
-    "answer": "C",
-    "explanation": "Comparing heart rates ensures the oximeter is picking up a true pulse rather than background motion artifacts or weak signals. [learn more](GNS212_U4_T6#GNS212_U4_T6_h6)"
+    "answer": "A",
+    "explanation": "External light can leak into the sensor and interfere with the measurement. [learn more](GNS212_U4_T6#GNS212_U4_T6_h6)"
   },
   {
     "question_id": "GNS212_U4_T6_h7_q1",
     "heading_id": "GNS212_U4_T6_h7",
     "article_id": "GNS212_U4_T6",
     "topic_id": "GNS212_U4_T6",
-    "difficulty": "understanding",
-    "question": "Why might a patient with severe carbon monoxide poisoning show a falsely normal or high oxygen saturation reading on a pulse oximeter?",
+    "difficulty": "application",
+    "question": "A sensor has been taped to an unconscious patient's finger for over six hours. What should the nurse do?",
     "options": {
-      "A": "Carbon monoxide makes the pulse rate extremely fast",
-      "B": "Cold fingers stop the machine from recording low numbers",
-      "C": "Bright lights in the room interfere with the infrared sensors",
-      "D": "The device reads carbon monoxide attached to hemoglobin just like oxygen"
+      "A": "Wrap gauze over it so it stays put",
+      "B": "Remove the probe, check the skin, and move it to a new spot",
+      "C": "Turn up the alarm volume",
+      "D": "Leave it as long as the numbers look stable"
     },
-    "answer": "D",
-    "explanation": "Standard pulse oximeters cannot distinguish between oxygen and carbon monoxide bound to hemoglobin, leading to dangerously misleading high readings. [learn more](GNS212_U4_T6#GNS212_U4_T6_h7)"
+    "answer": "B",
+    "explanation": "Leaving a sensor in one spot too long can cause pressure sores. Nurses should rotate the site regularly. [learn more](GNS212_U4_T6#GNS212_U4_T6_h7)"
   },
   {
     "question_id": "GNS212_U4_T6_h7_q2",
     "heading_id": "GNS212_U4_T6_h7",
     "article_id": "GNS212_U4_T6",
     "topic_id": "GNS212_U4_T6",
-    "difficulty": "recall",
-    "question": "Which of the following is NOT a common cause of inaccurate pulse oximeter readings?",
+    "difficulty": "understanding",
+    "question": "Why is setting individual monitor alarms important for patient care?",
     "options": {
-      "A": "Severe cold hands with poor circulation",
-      "B": "Normal room temperature lighting",
-      "C": "Patient movement and shivering",
-      "D": "Dark nail polish on the finger"
+      "A": "It stops patients from pressing buttons",
+      "B": "It prevents alarm fatigue so real drops in oxygen are not ignored",
+      "C": "It saves battery power",
+      "D": "It keeps the equipment warranty valid"
     },
     "answer": "B",
-    "explanation": "Normal ambient room lighting does not usually interfere, whereas intense surgical lamps or direct sunlight can disrupt the sensor. [learn more](GNS212_U4_T6#GNS212_U4_T6_h7)"
-  },
-  {
-    "question_id": "GNS212_U4_T6_h8_q1",
-    "heading_id": "GNS212_U4_T6_h8",
-    "article_id": "GNS212_U4_T6",
-    "topic_id": "GNS212_U4_T6",
-    "difficulty": "understanding",
-    "question": "What is a key nursing responsibility when using continuous pulse oximetry on a hospitalized patient?",
-    "options": {
-      "A": "Leaving the same sensor taped to one finger for the entire week",
-      "B": "Relying solely on the digital number without looking at the patient",
-      "C": "Moving the sensor to a new site periodically to prevent skin breakdown",
-      "D": "Turning off the audible alarm so patients can sleep peacefully"
-    },
-    "answer": "C",
-    "explanation": "Continuous pressure from a sensor probe can damage fragile skin, so nurses must rotate the monitoring site regularly. [learn more](GNS212_U4_T6#GNS212_U4_T6_h8)"
-  },
-  {
-    "question_id": "GNS212_U4_T6_h8_q2",
-    "heading_id": "GNS212_U4_T6_h8",
-    "article_id": "GNS212_U4_T6",
-    "topic_id": "GNS212_U4_T6",
-    "difficulty": "application",
-    "question": "A nurse notices a patient's pulse oximeter reading drop suddenly from 98% to 82% while the patient is sleeping peacefully and breathing easily. What should the nurse do first?",
-    "options": {
-      "A": "Check the sensor position and ensure the patient has not slipped it off",
-      "B": "Immediately start emergency mouth-to-mouth resuscitation",
-      "C": "Call the doctor to declare a cardiac arrest code",
-      "D": "Administer a stat dose of intravenous adrenaline"
-    },
-    "answer": "A",
-    "explanation": "Sudden unrealistic drops without physical signs of distress usually point to a displaced sensor, loose cable, or motion artifact. [learn more](GNS212_U4_T6#GNS212_U4_T6_h8)"
+    "explanation": "Customizing alarms stops constant false ringing, which helps staff stay alert to real emergencies. [learn more](GNS212_U4_T6#GNS212_U4_T6_h7)"
   }
 ]

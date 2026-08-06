@@ -11,50 +11,44 @@
     {
       "heading_id": "GNS212_U4_T6_h1",
       "order": 1,
-      "title": "Introduction to Pulse Oximetry",
-      "content": "Pulse oximetry is a non-invasive method used to monitor a patient's oxygen saturation levels. By shining light through a capillary bed—usually a fingertip, earlobe, or toe—the device estimates the percentage of hemoglobin binding sites in the bloodstream occupied by oxygen. In clinical practice, this metric is often referred to as the fifth vital sign, joining temperature, pulse, respiration, and blood pressure. Its quick application makes it indispensable in emergency rooms, surgical wards, and primary health clinics across Nigeria. Being able to track oxygen trends without drawing blood helps nurses catch silent hypoxia before it leads to respiratory arrest."
+      "title": "Introduction and Physiological Principles of Pulse Oximetry",
+      "content": "Pulse oximetry provides a non-invasive method for monitoring a patient's arterial oxygen saturation, commonly referred to as **SpO2**. Unlike arterial blood gas analysis, which requires a painful blood draw and laboratory processing, this bedside tool offers continuous, real-time data.\n\nThe technology relies on two main physiological concepts:\n\n1. **Light absorption**: Oxygenated hemoglobin and deoxygenated hemoglobin absorb different wavelengths of light. Oxygenated hemoglobin absorbs more infrared light, while deoxygenated hemoglobin absorbs more red light.\n2. **Pulsatile flow**: The device isolates the arterial blood pulse by measuring light absorption only during the surge of blood flow with each heartbeat, filtering out tissue, bone, and venous blood absorbance."
     },
     {
       "heading_id": "GNS212_U4_T6_h2",
       "order": 2,
-      "title": "Physiological Principles of Oxygen Transport",
-      "content": "To understand why a pulse oximeter works, you must look at how blood carries oxygen. Oxygen travels through the body in two forms: dissolved in plasma and bound to hemoglobin inside red blood cells. Each hemoglobin molecule can carry up to four oxygen molecules. When oxygen binds to hemoglobin, it changes color slightly, altering how the protein absorbs specific wavelengths of light. Oxygenated hemoglobin absorbs more infrared light, while deoxygenated hemoglobin absorbs more red light. The machine compares these two light absorptions to calculate your reading."
+      "title": "Components and Mechanism of the Device",
+      "content": "A standard pulse oximetry system consists of a microprocessor unit and a sensor probe attached to the patient. The probe features two light-emitting diodes (LEDs) on one side—one emitting red light (around 660 nanometers) and the other emitting infrared light (around 940 nanometers). A photodetector sits on the opposite side to measure the unabsorbed light passing through the tissue bed.\n\nThe internal microprocessor compares the ratio of red-to-infrared light absorbed during the pulsatile cycle against a built-in calibration curve to compute the final percentage value displayed on the screen."
     },
     {
       "heading_id": "GNS212_U4_T6_h3",
       "order": 3,
-      "title": "Components and Mechanism of the Device",
-      "content": "A standard pulse oximeter setup consists of a microprocessor unit and a sensor probe containing two light-emitting diodes (LEDs) and a photodetector. One LED emits red light at a wavelength of around 660 nanometers, and the other emits infrared light at about 940 nanometers. As the light passes through the pulsating vascular bed, the photodetector measures the light that emerges on the other side. The device filters out steady background light absorbed by skin, bone, and tissue, focusing purely on the pulsating arterial blood flow to calculate the final saturation percentage."
+      "title": "Clinical Indications in Nigerian Healthcare Settings",
+      "content": "In resource-constrained environments across Nigeria, pulse oximetry serves as a vital triage and monitoring tool. Early identification of silent hypoxia prevents sudden clinical deterioration in busy emergency wards, maternal units, and rural health clinics.\n\n- **Emergency Triage**: Rapidly assessing patients presenting with acute respiratory distress, severe malaria, or trauma.\n- **Maternal Care**: Monitoring women with severe pre-eclampsia, postpartum hemorrhage, or sepsis.\n- **Pediatric Wards**: Assessing infants and children suffering from severe pneumonia, bronchiolitis, or severe acute malnutrition.\n- **Perioperative Monitoring**: Tracking patients undergoing minor or major surgeries during and after general anesthesia."
     },
     {
       "heading_id": "GNS212_U4_T6_h4",
       "order": 4,
-      "title": "Clinical Indications in Nigerian Healthcare Settings",
-      "content": "Pulse oximeters are vital tools across various departments in Nigerian hospitals and rural clinics. Nurses use them extensively during acute respiratory infections like pneumonia, severe malaria complications involving respiratory distress, and post-operative recovery monitoring. They are also crucial during labor and delivery to monitor both mother and newborn status. Having a reliable oximeter helps triage patients quickly during power outages or resource-limited shifts, ensuring that oxygen cylinders are directed to those with the most urgent clinical need."
+      "title": "Procedure for Obtaining an Accurate Reading",
+      "content": "Obtaining a reliable SpO2 reading requires proper technique and preparation of the patient. Interference from movement, cold extremities, or physical barriers can lead to false or missing readings.\n\n1. Explain the procedure to the patient to reduce anxiety and movement.\n2. Inspect the chosen site—usually a finger, toe, or earlobe—ensuring the skin is clean, dry, and free of dark nail polish.\n3. Warm cold extremities gently if peripheral vasoconstriction is present.\n4. Position the sensor so that the light emitter and photodetector align directly opposite each other.\n5. Wait for the waveform to stabilize and the pulse rate to match the patient's auscultated apical or radial pulse before recording the value."
     },
     {
       "heading_id": "GNS212_U4_T6_h5",
       "order": 5,
-      "title": "Step-by-Step Procedure for Accurate Readings",
-      "content": "1. **Prepare the patient**: Ensure the patient is calm and resting comfortably. Remove any nail polish, artificial nails, or heavy dirt from the chosen digit, as these block light transmission.\n2. **Check perfusion**: Feel the patient's hand. Cold extremities cause vasoconstriction, which weakens the pulse signal.\n3. **Place the probe**: Attach the clip probe gently onto the finger, ensuring the light emitter and photodetector align directly opposite each other.\n4. **Verify the waveform**: Wait for the device to display a steady pulse waveform and consistent heart rate before recording the number.\n5. **Document**: Record the saturation value, pulse rate, and whether the patient was breathing room air or receiving supplemental oxygen."
+      "title": "Interpreting Values and Clinical Correlates",
+      "content": "Normal SpO2 levels in healthy adults typically range from 95% to 100% on room air. Values between 90% and 94% indicate mild hypoxemia, while readings below 90% signify significant hypoxia requiring immediate clinical intervention, such as supplemental oxygen therapy.\n\nIt is essential to correlate the numerical saturation percentage with the patient's overall clinical presentation. A patient with chronic obstructive pulmonary disease (COPD) may have a healthy baseline reading between 88% and 92%. Treating them to reach 100% can sometimes suppress their respiratory drive. Always evaluate the pulse wave amplitude alongside the digital readout to confirm signal reliability."
     },
     {
       "heading_id": "GNS212_U4_T6_h6",
       "order": 6,
-      "title": "Interpreting Oxygen Saturation and Pulse Rate",
-      "content": "A normal oxygen saturation level (SpO2) for a healthy individual generally ranges from 95% to 100% on room air. Values between 90% and 94% warrant careful observation, while levels dropping below 90% typically indicate hypoxemia, requiring prompt medical intervention and supplemental oxygen. However, chronic respiratory conditions like severe chronic obstructive pulmonary disease (COPD) may feature baseline safe targets as low as 88% to 92%. Always compare the digital pulse rate reading on the screen with the patient's actual palpated radial pulse to ensure the machine is tracking the correct pulse rhythm."
+      "title": "Factors Affecting Accuracy and Common Pitfalls",
+      "content": "Several clinical and environmental variables can cause inaccurate pulse oximetry readings, leading to misdiagnosis or mistreatment. Nurses must recognize these common pitfalls:\n\n- **Poor Perfusion**: Hypotension, hypothermia, vasoconstriction, or cardiac arrest reduce peripheral pulsatile flow, making it difficult for the device to detect a signal.\n- **Motion Artifact**: Patient shivering, tremors, or restlessness confuses the microprocessor, resulting in erratic numbers.\n- **Abnormal Hemoglobin**: Conditions like methemoglobinemia or carboxyhemoglobinemia skew light absorption ratios, often showing falsely normal readings in patients who are actually hypoxic.\n- **Ambient Light**: Bright overhead surgical lamps or direct sunlight shining on the photodetector can overwhelm the sensor."
     },
     {
       "heading_id": "GNS212_U4_T6_h7",
       "order": 7,
-      "title": "Factors Affecting Accuracy and Common Pitfalls",
-      "content": "Several environmental and physiological factors can cause false readings on a pulse oximeter. Motion artifact occurs when the patient is restless, shivering, or tapping their fingers, confusing the sensor. Poor peripheral perfusion caused by shock, severe hypotension, or hypothermia yields erratic numbers. Carbon monoxide poisoning is a major pitfall: a pulse oximeter reads carboxyhemoglobin as oxygenated hemoglobin, falsely showing a high saturation in a patient who is actually suffocating from smoke inhalation. Ambient bright lights, such as surgical overhead lamps, can also overpower the sensor's photodetector."
-    },
-    {
-      "heading_id": "GNS212_U4_T6_h8",
-      "order": 8,
       "title": "Nursing Responsibilities and Patient Care",
-      "content": "- **Continuous monitoring**: Rotate sensor sites every few hours, especially with adhesive probes, to prevent skin breakdown and pressure necrosis.\n- **Trend analysis**: Watch for steady downward trends in oxygen saturation rather than reacting blindly to a single isolated low drop caused by a twitching finger.\n- **Holistic assessment**: Never treat the machine screen in isolation; always assess the patient's work of breathing, skin color, and level of consciousness.\n- **Equipment maintenance**: Keep sensors clean and check battery levels routinely to ensure readiness during busy shifts."
+      "content": "Monitoring a patient with a pulse oximeter extends beyond recording numbers on a chart. Nurses hold the responsibility of ensuring equipment integrity, verifying data accuracy, and advocating for the patient.\n\nRoutine care involves regularly changing the sensor site—every two to four hours for disposable adhesive probes or at least every shift for reusable spring-clip probes—to prevent pressure injuries, skin breakdown, or burns. Nurses must also troubleshoot alarm fatigue, ensuring that limit settings are tailored to each individual patient rather than silencing them indiscriminately."
     }
   ]
 }

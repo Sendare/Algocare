@@ -11,38 +11,38 @@
     {
       "heading_id": "GNS212_U4_T1_h1",
       "order": 1,
-      "title": "Introduction and Working Principles of Electronic Blood Pressure Devices",
-      "content": "Electronic blood pressure monitors have become a staple in modern healthcare, offering a reliable alternative to traditional mercury or aneroid sphygmomanometers. These devices use **oscillometric oscillometry**, a technique that detects the pulsations of blood flow against an inflated cuff. As the cuff automatically deflates, pressure waves are transmitted to a sensitive pressure transducer inside the machine. \n\nInside the monitor, a microcomputer analyzes these small pressure fluctuations, known as oscillations. The device calculates systolic pressure, diastolic pressure, and heart rate based on algorithmic changes in oscillation amplitude. Understanding this mechanism helps nurses appreciate why excessive patient movement or a loose cuff can easily distort the final reading."
+      "title": "Introduction to Electronic Blood Pressure Devices",
+      "content": "Electronic blood pressure devices, often called digital sphygmomanometers, have become a staple in Nigerian healthcare settings, from busy Lagos teaching hospitals to rural primary health clinics. These devices eliminate the need for a stethoscope and reduce human hearing errors common with traditional auscultation. They are designed for both clinical environments and home monitoring, allowing patients to track their readings over time. Understanding how to use them properly ensures reliable data for medical decision-making."
     },
     {
       "heading_id": "GNS212_U4_T1_h2",
       "order": 2,
-      "title": "Manual vs. Electronic Measurement",
-      "content": "Choosing between manual auscultation and an electronic device depends on the clinical setting and patient condition. Manual measurement using a stethoscope and aneroid gauge relies on hearing **Korotkoff sounds**. Electronic monitors remove human hearing bias, making them faster and easier for busy staff and patients at home.\n\n| Feature | Manual Sphygmomanometer | Electronic Monitor |\n|---|---|---|\n| **Technique** | Auscultation using a stethoscope | Oscillometric waveform analysis |\n| **Skill Required** | High listening skill needed | Minimal technical skill required |\n| **Interference** | Sensitive to ambient room noise | Sensitive to motion and muscle tremors |\n| **Best Used For** | Irregular heart rhythms, low pressure | Routine ward checks, home monitoring |"
+      "title": "Components and Working Principles of Electronic Monitors",
+      "content": "An electronic blood pressure monitor consists of three main parts: an inflatable cuff, a pressure sensor called a transducer, and a digital display screen. \n\n- **Inflatable Cuff**: Wraps around the limb to temporarily stop blood flow when inflated.\n- **Pressure Transducer**: Converts physical pressure changes in the cuff into electrical signals.\n- **Microprocessor**: Analyzes the signals to detect oscillations caused by pulsing blood flow.\n\nUnlike manual methods that listen for Korotkoff sounds, most electronic devices use **oscillometric measurement**. The device detects the tiny fluctuations (oscillations) in pressure created by the arterial wall as the cuff deflates. The point of maximum oscillation corresponds to the mean arterial pressure, while systolic and diastolic pressures are calculated using proprietary algorithms programmed into the device chip."
     },
     {
       "heading_id": "GNS212_U4_T1_h3",
       "order": 3,
       "title": "Step-by-Step Procedure for Accurate Measurement",
-      "content": "Getting an accurate reading requires careful preparation and proper positioning. Even the best machine will fail if the basics are ignored.\n\n1. **Preparation**: Have the patient rest quietly for at least five minutes in a chair with feet flat on the floor and back supported.\n2. **Positioning**: Expose the upper arm and support it at heart level, palm facing upward.\n3. **Cuff Selection**: Choose the correct cuff size; a cuff that is too small gives falsely high readings, while one that is too large gives falsely low readings.\n4. **Placement**: Wrap the cuff snugly around the bare upper arm, positioning the lower edge one inch above the inner elbow crease.\n5. **Initiation**: Ensure the tubing is not twisted, instruct the patient to remain completely still and silent, and press the start button."
+      "content": "Obtaining a correct reading requires proper patient preparation and technique. Errors at this stage lead to misdiagnosis and inappropriate treatment.\n\n1. **Positioning**: Ensure the patient sits quietly with feet flat on the floor and back supported for at least five minutes.\n2. **Arm Level**: Support the bare arm at the level of the right atrium, roughly the level of the fourth intercostal space.\n3. **Cuff Sizing**: Wrap the bladder around the upper arm, ensuring the lower edge sits about two to three centimeters above the antecubital fossa.\n4. **Application**: The cuff should be snug, allowing two fingertips to slip underneath the top edge.\n5. **Measurement**: Instruct the patient to remain silent and still while pressing the start button."
     },
     {
       "heading_id": "GNS212_U4_T1_h4",
       "order": 4,
       "title": "Factors Affecting Electronic Blood Pressure Readings",
-      "content": "Many physiological and environmental factors can alter electronic blood pressure results, leading to misdiagnosis or unnecessary panic. \n\n- **Cuff Placement**: Wrapping the cuff over thick clothing interferes with the transmission of arterial pulsations.\n- **Patient Posture**: Letting legs dangle unsupported or crossing them raises systolic and diastolic pressures.\n- **Bladder Distension**: A full bladder sends stress signals to the nervous system, temporarily elevating blood pressure.\n- **Environmental Noise**: Loud sounds or talking during the measurement can distract the machine or cause the patient to tense up."
+      "content": "Several physiological and mechanical variables can distort electronic blood pressure values. A common misconception is that digital devices are infallible and unaffected by external interference. \n\nCuff size is a frequent culprit; using a cuff that is too small falsely elevates readings, while an oversized cuff results in falsely low values. Patient movement, shivering, or active tremors disrupt the microprocessor's ability to interpret pulse oscillations. Furthermore, conditions involving irregular heart rhythms, such as atrial fibrillation, pose a significant challenge for standard oscillometric devices because erratic pulse waves make algorithmic calculation unreliable."
     },
     {
       "heading_id": "GNS212_U4_T1_h5",
       "order": 5,
-      "title": "Maintenance, Calibration, and Troubleshooting",
-      "content": "Electronic monitors require routine care to maintain clinical accuracy. Unlike mercury columns, electronic devices can lose calibration over time due to drops, bumps, or regular wear and tear.\n\nKeep the device clean by wiping the hard surfaces with a damp cloth, and follow manufacturer guidelines for disinfecting reusable cuffs. Inspect the rubber tubing regularly for cracks, kinks, or loose connections that cause air leaks. If an error code appears on the screen, check the power source, verify tube connections, and ensure the cuff is wrapped correctly before trying again."
+      "title": "Calibration, Maintenance, and Troubleshooting",
+      "content": "To maintain accuracy, electronic blood pressure devices require routine care and periodic checks. Batteries must be replaced promptly when low-power indicators appear, as weak power supplies compromise pump strength and sensor accuracy. Tubing should be inspected regularly for kinks, cracks, or leaks that prevent proper inflation. Clinical devices require professional calibration checks against a mercury or validated reference manometer at least once a year. When error codes appear on the screen, nurses should consult the user manual rather than guessing the mechanical failure."
     },
     {
       "heading_id": "GNS212_U4_T1_h6",
       "order": 6,
       "title": "Clinical Implications and Nursing Responsibilities",
-      "content": "Nurses carry the ultimate legal and clinical responsibility for every set of vital signs recorded in a patient chart. Relying blindly on an automated machine without clinical correlation is a major safety hazard. If a machine displays an unexpectedly high or low reading, the nurse must validate the finding manually using a stethoscope.\n\nDocumenting vital signs promptly and noting any unusual patient symptoms—such as dizziness, pain, or anxiety—provides the medical team with a complete clinical picture. Educating patients on proper home monitoring techniques empowers them to take charge of their chronic conditions safely."
+      "content": "Nurses bear ultimate responsibility for interpreting vital signs within the broader clinical picture. When an electronic monitor displays an unexpected or abnormal value, the nurse should never rely on that single reading alone. The standard nursing action is to repeat the measurement manually using a stethoscope and a calibrated aneroid or mercury sphygmomanometer to verify the findings. Documenting the measurement site, patient position, and device type ensures continuity of care and helps interprofessional teams track true hemodynamic trends."
     }
   ]
 }
