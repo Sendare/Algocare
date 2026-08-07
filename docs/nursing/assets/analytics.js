@@ -14,6 +14,7 @@ const SUPABASE_ANON_KEY = "sb_publishable_C_i1zk4P2phfIALmI6C7Iw_pYSMTGfQ"; // <
 // even if the site's base path changes (custom domain, repo rename, etc).
 const KNOWN_PROGRAMS = ["nursing", "midwifery", "community-health", "pharmacy"];
 
+
 function getUserId() {
   let id = localStorage.getItem("algocare_uid");
   if (!id) {
