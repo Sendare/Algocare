@@ -6,8 +6,8 @@
  * broken analytics call must never disrupt the actual study/test experience.
  */
 
-const SUPABASE_URL = ""; // <-- replace with your Project URL
-const SUPABASE_ANON_KEY = ""; // <-- replace with your anon public key
+const SUPABASE_URL = "https://uhrjtcocwejddtzyjyhr.supabase.co"; // <-- replace with your Project URL
+const SUPABASE_ANON_KEY = "sb_publishable_C_i1zk4P2phfIALmI6C7Iw_pYSMTGfQ"; // <-- replace with your anon public key
 
 // Add every program folder here as new ones launch. Order doesn't matter -
 // matching is by exact path segment, not position, so this stays correct
