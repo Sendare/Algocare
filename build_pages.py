@@ -198,13 +198,13 @@ def render_article_page(article, ctx):
         (article["title"], None),
     ])
     body = (
-        f'<h1>{article["title"]}</h1>{headings_html}'
-        f'<a class="test-yourself-link" href="../../cbt/index.html?topic={article["topic_id"]}">Test yourself on this topic →</a>'
-        f'onclick="logArticleCtaClick(\'{article["topic_id"]}\')">Test yourself on this topic →</a>'
-        f'<script>logArticleViewed("{article["topic_id"]}");</script>'
-
-    )
+    f'<h1>{article["title"]}</h1>{headings_html}'
+    f'<a class="test-yourself-link" href="../../cbt/index.html?topic={article["topic_id"]}" '
+    f'onclick="logArticleCtaClick(\'{article["topic_id"]}\')">Test yourself on this topic →</a>'
+    f'<script>logArticleViewed("{article["topic_id"]}");</script>'
+)
     return render_page(article["title"], "../../", crumbs, body)
+
 
 
 # ---------- unit / course / home pages ----------
