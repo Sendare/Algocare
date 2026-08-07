@@ -1,12 +1,18 @@
 /**
- * Anonymous analytics for Algocare CBT. No PII is collected - just a random
- * ID generated once per browser (localStorage) plus test-attempt events and
- * optional star ratings. Every failure here is swallowed silently - a
- * broken analytics call must never disrupt the actual test experience.
+ * Anonymous analytics for Algocare CBT + article pages. No PII is collected -
+ * just a random ID generated once per browser (localStorage), a program tag
+ * auto-detected from the URL, test-attempt events, article view/CTA events,
+ * and optional star ratings. Every failure here is swallowed silently - a
+ * broken analytics call must never disrupt the actual study/test experience.
  */
 
-const SUPABASE_URL = "https://uhrjtcocwejddtzyjyhr.supabase.co"; // <-- replace with your Project URL
-const SUPABASE_ANON_KEY = "sb_publishable_C_i1zk4P2phfIALmI6C7Iw_pYSMTGfQ";           // <-- replace with your anon public key
+const SUPABASE_URL = ""; // <-- replace with your Project URL
+const SUPABASE_ANON_KEY = ""; // <-- replace with your anon public key
+
+// Add every program folder here as new ones launch. Order doesn't matter -
+// matching is by exact path segment, not position, so this stays correct
+// even if the site's base path changes (custom domain, repo rename, etc).
+const KNOWN_PROGRAMS = ["nursing", "midwifery", "community-health", "pharmacy"];
 
 function getUserId() {
   let id = localStorage.getItem("algocare_uid");
@@ -21,11 +27,26 @@ function generateAttemptId() {
   return crypto.randomUUID();
 }
 
+/**
+ * Auto-detects the program from the current URL path by matching against
+ * KNOWN_PROGRAMS, rather than trusting a fixed segment index - this stays
+ * correct regardless of how deep the page is nested or what the base path
+ * is (project site, custom domain, etc). Returns null on the program-picker
+ * homepage or any page outside a program folder - never guesses.
+ */
+function getProgram() {
+  const segments = window.location.pathname.split("/").filter(Boolean);
+  for (const segment of segments) {
+    if (KNOWN_PROGRAMS.includes(segment)) return segment;
+  }
+  return null;
+}
+
 async function logEvent(table, row) {
   try {
     await fetch(`${SUPABASE_URL}/rest/v1/${table}`, {
       method: "POST",
-      keepalive: true, // lets this survive page unload - needed for abandon events
+      keepalive: true, // lets this survive page unload - needed for abandon/CTA events
       headers: {
         "Content-Type": "application/json",
         "apikey": SUPABASE_ANON_KEY,
@@ -43,6 +64,7 @@ function logTestStarted(attemptId, testType, testIdentifier, questionCount) {
   logEvent("test_events", {
     attempt_id: attemptId,
     user_id: getUserId(),
+    program: getProgram(),
     event_type: "started",
     test_type: testType,
     test_identifier: testIdentifier,
@@ -54,6 +76,7 @@ function logTestFinished(attemptId, testType, testIdentifier, questionCount, att
   logEvent("test_events", {
     attempt_id: attemptId,
     user_id: getUserId(),
+    program: getProgram(),
     event_type: "finished",
     test_type: testType,
     test_identifier: testIdentifier,
@@ -67,6 +90,7 @@ function logTestAbandoned(attemptId, testType, testIdentifier, questionCount, at
   logEvent("test_events", {
     attempt_id: attemptId,
     user_id: getUserId(),
+    program: getProgram(),
     event_type: "abandoned",
     test_type: testType,
     test_identifier: testIdentifier,
@@ -78,9 +102,42 @@ function logTestAbandoned(attemptId, testType, testIdentifier, questionCount, at
 function logReview(testType, stars, comment) {
   logEvent("reviews", {
     user_id: getUserId(),
+    program: getProgram(),
     test_type: testType || null,
     stars,
     comment: comment || null,
+  });
+}
+
+/**
+ * Call once when an article page loads. Logs a single "viewed" event per
+ * page load - not debounced against repeat visits, since repeat views are
+ * themselves a useful signal (are people coming back to re-read a topic).
+ */
+function logArticleViewed(topicId) {
+  logEvent("article_events", {
+    user_id: getUserId(),
+    program: getProgram(),
+    topic_id: topicId,
+    event_type: "viewed",
+  });
+}
+
+/**
+ * Call when the user taps "Test yourself on this topic" at the bottom of an
+ * article. Logged immediately on click via keepalive, so it lands even if
+ * the tap immediately navigates away - it does NOT wait for or get
+ * cancelled by any later abandonment logic on the destination test page.
+ * The two are separate events on separate tables/attempts by design: this
+ * captures intent-to-test, trackAbandonment (below) captures what happened
+ * to the test itself once it starts.
+ */
+function logArticleCtaClick(topicId) {
+  logEvent("article_events", {
+    user_id: getUserId(),
+    program: getProgram(),
+    topic_id: topicId,
+    event_type: "cta_click",
   });
 }
 
@@ -153,4 +210,3 @@ function attachReviewWidget(containerId, testType) {
 
   render();
 }
-

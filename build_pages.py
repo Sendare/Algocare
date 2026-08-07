@@ -148,6 +148,7 @@ PAGE_HEAD = """<!DOCTYPE html>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{rel}assets/style.css">
+<script src="{rel}assets/analytics.js"></script>
 </head>
 <body>
 <div class="topbar">
@@ -199,6 +200,9 @@ def render_article_page(article, ctx):
     body = (
         f'<h1>{article["title"]}</h1>{headings_html}'
         f'<a class="test-yourself-link" href="../../cbt/index.html?topic={article["topic_id"]}">Test yourself on this topic →</a>'
+        f'onclick="logArticleCtaClick(\'{article["topic_id"]}\')">Test yourself on this topic →</a>'
+        f'<script>logArticleViewed("{article["topic_id"]}");</script>'
+
     )
     return render_page(article["title"], "../../", crumbs, body)
 
