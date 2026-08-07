@@ -153,3 +153,50 @@ cut off anytime with zero lost progress.
 - JSON schema field order affects LLM self-consistency: reasoning fields
   before verdict fields, always, in any schema asking a model to judge
   something.
+
+## Progress log
+
+### Aug 2026 — analytics + hosting fixes, pre-launch
+- Repo moved from personal account (`senior-master`) to org account
+  (`sendare`), repo renamed `Algocare-` -> `Algocare`. Reason: drop the
+  personal-account name from the public URL before any real users see it.
+  Confirmed zero hardcoded old-URL references anywhere in the codebase
+  (`git grep`) - all internal links were already relative, so the move
+  required no code changes, only updating the local git remote and the
+  external cron-job.org trigger URL.
+- `analytics.js` refactored:
+  - `getProgram()` added - auto-detects program from the URL path by
+    matching against a `KNOWN_PROGRAMS` list, instead of needing it
+    passed in manually per call. Every event (test_events, reviews,
+    article_events) now stamps `program` automatically.
+  - New `article_events` table: `viewed` (fires on every article page
+    load) and `cta_click` (fires the instant "Test yourself on this
+    topic" is tapped, via `keepalive`, independent of any later
+    abandonment logic on the destination test page).
+  - `program` column added to existing `test_events` and `reviews`
+    tables via SQL migration.
+- `build_pages.py`: `analytics.js` now loaded in `PAGE_HEAD` (was
+  missing entirely before - article pages couldn't log anything).
+  `render_article_page` wired to call `logArticleViewed()` on load and
+  `logArticleCtaClick()` on the test-yourself tap.
+- Fixed a bug where the CTA `onclick` edit was appended as a second,
+  disconnected f-string instead of merged into the existing `<a>` tag -
+  broke the tag early, leaked `onclick="..."` and the second closing
+  text as visible plain text on the page. Caught via screenshot before
+  reaching real users.
+- Verified end-to-end: article view -> CTA tap -> rows landing in
+  Supabase, confirmed live in the table browser.
+
+### Business strategy decisions (not yet built)
+- WhatsApp group (185 members: mix of community nurses, general nurses,
+  BNSc, midwives, various stages) used ONLY as a short-term launch-timing
+  signal via staged polls (stage -> role -> cadre) - not the ongoing
+  product metric.
+- Free web analytics (the data above) is the real signal for direction.
+  Sequencing: launch -> gather analytics -> let data show direction ->
+  THEN decide monetization -> THEN user identity/accounts -> THEN
+  monetization mechanics, giveaways, bonuses.
+- Current site content skews final-year general nursing; poll data
+  (in progress) will show whether that matches the group's actual
+  composition or whether another cadre is underserved and worth
+  prioritizing first.
