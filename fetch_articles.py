@@ -22,12 +22,47 @@ STATE_PATH = f"state/{PROGRAM}/generation_state.json"
 # takes roughly 3x as long as a single-call pipeline, so fewer topics
 # complete per run. Bumped from 180s for headroom under the 6-min workflow
 # timeout.
-MAX_RUNTIME_SECONDS = 240
+MAX_RUNTIME_SECONDS = 360
 
 LEARN_MORE_TOKEN = "[[LEARN_MORE]]"
 
-ARTICLE_SYSTEM_PROMPT = """You are an experienced nursing lecturer writing study \
-content for Algocare, an educational platform for nursing students in Nigeria \
+# Program-aware audience labels, used to fill in the {lecturer}/{students}/
+# {subject}/{student_singular} placeholders in the prompts below. Add a new
+# key here whenever a new program launches; unknown programs fall back to a
+# sensible default built from the program name itself.
+PROGRAM_LABELS = {
+    "nursing": {
+        "lecturer": "nursing lecturer",
+        "students": "nursing students",
+        "student_singular": "nursing student",
+        "subject": "nursing",
+    },
+    "midwifery": {
+        "lecturer": "midwifery lecturer",
+        "students": "midwifery students",
+        "student_singular": "midwifery student",
+        "subject": "midwifery",
+    },
+}
+_labels = PROGRAM_LABELS.get(PROGRAM, {
+    "lecturer": f"{PROGRAM} lecturer",
+    "students": f"{PROGRAM} students",
+    "student_singular": f"{PROGRAM} student",
+    "subject": PROGRAM,
+})
+LECTURER = _labels["lecturer"]
+STUDENTS = _labels["students"]
+STUDENT_SINGULAR = _labels["student_singular"]
+SUBJECT = _labels["subject"]
+
+# NOTE on the .format() calls below: every literal curly brace inside the
+# JSON schema portions of these prompts is doubled ({{ }}) so .format()
+# treats it as a literal brace instead of a placeholder. Only the named
+# placeholders ({lecturer}, {students}, {subject}, {student_singular}) are
+# single-braced and get substituted.
+
+ARTICLE_SYSTEM_PROMPT = """You are an experienced {lecturer} writing study \
+content for Algocare, an educational platform for {students} in Nigeria \
 preparing for the NMCN CBT exam.
 
 You will be given a topic and a proposed list of section headings. You may use \
@@ -63,7 +98,7 @@ scientific uncertainty if it genuinely exists for this specific fact - do not \
 manufacture hedging language on settled topics.
 
 2. "questions": exactly 2 multiple-choice questions per heading that test the \
-underlying nursing CONCEPT that heading covers - not the specific wording of \
+underlying {subject} CONCEPT that heading covers - not the specific wording of \
 the paragraph you just wrote. A student who studied this same concept from a \
 different textbook or article should still be able to answer correctly.
 
@@ -76,7 +111,7 @@ beginners aren't discouraged from daily practice.
 
 CRITICAL - keep the LANGUAGE simple regardless of difficulty tier: write \
 every question and option in the same plain, direct language a Nigerian \
-nursing lecturer uses quizzing students out loud in class - NOT the dense \
+{lecturer} uses quizzing students out loud in class - NOT the dense \
 phrasing of a research journal or postgraduate exam. "Difficulty" should \
 come from WHAT is being asked, never from how complicated the sentence is. \
 Avoid unnecessary technical/Latin vocabulary beyond terms already used and \
@@ -130,23 +165,23 @@ this literal token on its own, nothing after it: [[LEARN_MORE]]
 
 Return ONLY valid JSON, no markdown fences, no commentary, in exactly this \
 schema:
-{
+{{
   "headings": [
-    {
+    {{
       "order": 1,
       "title": "...",
       "content": "...",
       "questions": [
-        {"difficulty": "recall", "question": "...", "options": ["...", "...", "...", "..."], "answer": "...", "explanation": "... [[LEARN_MORE]]"},
-        {"difficulty": "understanding", "question": "...", "options": ["...", "...", "...", "..."], "answer": "...", "explanation": "... [[LEARN_MORE]]"}
+        {{"difficulty": "recall", "question": "...", "options": ["...", "...", "...", "..."], "answer": "...", "explanation": "... [[LEARN_MORE]]"}},
+        {{"difficulty": "understanding", "question": "...", "options": ["...", "...", "...", "..."], "answer": "...", "explanation": "... [[LEARN_MORE]]"}}
       ]
-    }
+    }}
   ]
-}"""
+}}""".format(lecturer=LECTURER, students=STUDENTS, subject=SUBJECT)
 
 
-ENGAGEMENT_SYSTEM_PROMPT = """You are a product-focused nursing education \
-writer for Algocare, a CBT practice app used daily by nursing students in \
+ENGAGEMENT_SYSTEM_PROMPT = """You are a product-focused {subject} education \
+writer for Algocare, a CBT practice app used daily by {students} in \
 Nigeria on their phones.
 
 Your business goal: students should WANT to open this app and answer \
@@ -160,7 +195,7 @@ You will receive a list of already-written multiple-choice questions (each \
 with an id, the question text, 4 options, which one is correct, and its \
 explanation).
 
-For EACH question, decide: would a first-year Nigerian nursing student, \
+For EACH question, decide: would a first-year {student_singular}, \
 studying casually on their phone between classes, find this approachable and \
 feel good attempting it - even if they get it wrong? Rewrite the question if \
 ANY of these are true:
@@ -171,7 +206,7 @@ learning
 - The explanation doesn't teach warmly - it should feel like a patient \
 tutor, not a textbook
 
-When rewriting, you MUST preserve exactly: the underlying nursing concept \
+When rewriting, you MUST preserve exactly: the underlying {subject} concept \
 being tested, and which fact is correct. Never change what's true - only how \
 it's said.
 
@@ -189,16 +224,18 @@ motivated a first-year student would feel attempting this (5 = very \
 approachable, 1 = intimidating)
 
 Return ONLY valid JSON, no markdown fences, no commentary:
-{"questions": [{"id": "...", "needs_rewrite": true, "question": "...", "options": ["...","...","...","..."], "answer": "...", "explanation": "...", "approachability_score": 4}]}"""
+{{"questions": [{{"id": "...", "needs_rewrite": true, "question": "...", "options": ["...","...","...","..."], "answer": "...", "explanation": "...", "approachability_score": 4}}]}}""".format(
+    subject=SUBJECT, students=STUDENTS, student_singular=STUDENT_SINGULAR
+)
 
 
-QA_SYSTEM_PROMPT = """You are a strict quality-assurance reviewer for a nursing \
+QA_SYSTEM_PROMPT = """You are a strict quality-assurance reviewer for a {subject} \
 exam-prep question bank. You will be given a JSON list of multiple-choice \
 questions (each with an id, question text, options A-D, the marked answer, and \
 an explanation).
 
 For EACH question, actually work through whether the marked answer is \
-correct YOURSELF first - reason about the underlying nursing fact before \
+correct YOURSELF first - reason about the underlying {subject} fact before \
 deciding anything. Write that reasoning down BEFORE you decide pass or fail, \
 not after - if you decide first and reason afterward, you can end up \
 reasoning your way to the right answer too late to change a verdict you \
@@ -212,12 +249,12 @@ another question in the list.
 
 Return ONLY valid JSON, no markdown fences, no commentary. Write "reasoning" \
 BEFORE "pass" for every question, in this exact field order:
-{
+{{
   "results": [
-    {"id": "...", "reasoning": "brief step-by-step check of whether the marked answer is actually correct, done BEFORE deciding", "pass": true, "reason": ""},
-    {"id": "...", "reasoning": "...", "pass": false, "reason": "one clear sentence summarizing the problem"}
+    {{"id": "...", "reasoning": "brief step-by-step check of whether the marked answer is actually correct, done BEFORE deciding", "pass": true, "reason": ""}},
+    {{"id": "...", "reasoning": "...", "pass": false, "reason": "one clear sentence summarizing the problem"}}
   ]
-}"""
+}}""".format(subject=SUBJECT)
 
 
 def load_json(path, default):
@@ -300,8 +337,12 @@ def generate_article_and_questions(topic_id, headings_entry, topic_meta):
     """
     proposed_headings = sorted(headings_entry["headings"], key=lambda h: h["order"])
     heading_lines = [f"{h['order']}. {h['title']}" for h in proposed_headings]
+
+    path_str = " > ".join(topic_meta.get("path", [])) if topic_meta.get("path") else ""
+
     user_prompt = (
         f"Topic: {topic_meta['title']}\n"
+        f"Curriculum path: {path_str}\n"
         f"Proposed headings (feel free to revise - rename, reorder, merge, "
         f"split, add, or remove as needed):\n" + "\n".join(heading_lines)
     )
