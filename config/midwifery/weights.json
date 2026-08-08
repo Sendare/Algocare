@@ -1,0 +1,5 @@
+{
+  "_readme": "Course/unit weights control how often real-feel exam questions are drawn from each. Any course_slug or unit key NOT listed here defaults to 1.0 (equal weight). Unit keys are 'course-slug|unit-slug'. These values are volume-corrected: divided by each course's actual question count so the real appearance percentage matches the intended target share, not skewed by which course happens to have more generated content. Left empty until midwifery content is generated -- regenerate with check_weight_balance.py after fetch_articles.py midwifery has run, since question counts per course don't exist yet.",
+  "courses": {},
+  "units": {}
+}
