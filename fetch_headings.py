@@ -10,20 +10,25 @@ if len(sys.argv) < 2:
     sys.exit(1)
 PROGRAM = sys.argv[1]
 
-PROGRAM_LABELS = {
-    "nursing": "nursing students",
-    "midwifery": "midwifery students",
-}
-AUDIENCE = PROGRAM_LABELS.get(PROGRAM, f"{PROGRAM} students")
-
 CURRICULUM_PATH = f"curricula/{PROGRAM}.json"
 HEADINGS_PATH = f"data/{PROGRAM}/topic_headings.json"
 STATE_PATH = f"state/{PROGRAM}/generation_state.json"
 
-MAX_RUNTIME_SECONDS = 360    # 4.5 min hard stop - stays under the 5 min ceiling
+MAX_RUNTIME_SECONDS = 360   # 4.5 min hard stop - stays under the 5 min ceiling
 
-HEADINGS_SYSTEM_PROMPT = f"""You are a curriculum content designer for Algocare, \
-an educational platform for {AUDIENCE} in Nigeria.
+# Program-aware audience label. Keep this dict in sync with the matching one
+# in fetch_articles.py. Unknown programs fall back to "<program> students".
+PROGRAM_LABELS = {
+    "nursing": {"students": "nursing students"},
+    "midwifery": {"students": "midwifery students"},
+}
+STUDENTS = PROGRAM_LABELS.get(PROGRAM, {}).get("students", f"{PROGRAM} students")
+
+# NOTE: the JSON schema braces below are doubled ({{ }}) so .format() treats
+# them as literal braces rather than placeholders - only {students} is a
+# real placeholder.
+HEADINGS_SYSTEM_PROMPT = """You are a curriculum content designer for Algocare, \
+an educational platform for {students} in Nigeria.
 
 Given a topic, produce 5 to 10 section headings for an educational article on \
 that topic, in whatever order best teaches THIS specific topic.
@@ -50,12 +55,12 @@ If no coverage is provided, generate the full list from scratch.
 
 Return ONLY valid JSON, with no markdown fences and no commentary, in exactly \
 this schema:
-{
+{{
   "headings": [
-    {"order": 1, "title": "..."},
-    {"order": 2, "title": "..."}
+    {{"order": 1, "title": "..."}},
+    {{"order": 2, "title": "..."}}
   ]
-}"""
+}}""".format(students=STUDENTS)
 
 
 def load_json(path, default):
