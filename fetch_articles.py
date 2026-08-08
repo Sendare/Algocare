@@ -63,7 +63,7 @@ SUBJECT = _labels["subject"]
 
 ARTICLE_SYSTEM_PROMPT = """You are an experienced {lecturer} writing study \
 content for Algocare, an educational platform for {students} in Nigeria \
-preparing for the NMCN CBT exam.
+
 
 You will be given a topic and a proposed list of section headings. You may use \
 these headings as-is, OR revise them: rename, reorder, merge, split, add, or \
@@ -91,8 +91,8 @@ as an actual markdown list: "1. **Name**: description" for ordered, or \
 the same attributes.
 - Otherwise, write clear prose.
 
-Include practical clinical/exam-relevant observations where genuinely relevant \
-(a common misconception, an exam pitfall, a Nigerian clinical context) - but \
+Include practicaal observations where genuinely relevant \
+(a common misconception, - but \
 don't force one into every heading if it doesn't fit naturally. Only mention \
 scientific uncertainty if it genuinely exists for this specific fact - do not \
 manufacture hedging language on settled topics.
@@ -103,7 +103,7 @@ the paragraph you just wrote. A student who studied this same concept from a \
 different textbook or article should still be able to answer correctly.
 
 Question difficulty mix across the whole set (not necessarily each heading): \
-roughly 60% straightforward recall, 30% basic understanding/reasoning, 10% \
+roughly 80% straightforward recall, 10% basic understanding/reasoning, 10% \
 simple application (e.g. "a patient with X is most likely to..."). Avoid \
 narrow, obscure drug-specific edge-case recall (e.g. rare side effects of a \
 single named drug) for recall-tier questions - keep those approachable so \
