@@ -134,12 +134,9 @@ more about improvement than punishment?"
 If a stem runs longer than about 20 words, or uses a word a first-year \
 student wouldn't say out loud, simplify it.
 
-Vary question stems - do NOT start every question with "Which of the \
-following...". Mix in: "What is...", "The main cause of X is...", "A patient \
-with [scenario] is most likely to...", "Which symptom is most characteristic \
-of...", etc.
+Vary question stems - do NOT start every question with "Which, what(wh questions) 
 
-You may occasionally (roughly 1 in 10 questions, not more) use a \
+You may  (roughly 3 in 10 questions, not more) use a \
 negative-framed question (NOT / EXCEPT / all BUT one). When you do, the \
 negation word MUST appear in full capitals in the question text itself (e.g. \
 "Which of the following is NOT a symptom of...") so it can't be skimmed past.
@@ -205,6 +202,7 @@ ANY of these are true:
 learning
 - The explanation doesn't teach warmly - it should feel like a patient \
 tutor, not a textbook
+- The explanation contain interactive words/phrases such as "you got this", "got it", "right", therefore and explanation should only explain not show feelings.
 
 When rewriting, you MUST preserve exactly: the underlying {subject} concept \
 being tested, and which fact is correct. Never change what's true - only how \
