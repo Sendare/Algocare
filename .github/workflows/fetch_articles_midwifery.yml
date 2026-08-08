@@ -10,7 +10,7 @@ on:
 jobs:
   fetch-articles:
     runs-on: ubuntu-latest
-    timeout-minutes: 6   # outer safety net; script itself self-stops at 4.5 min
+    timeout-minutes: 8   # outer safety net; script itself self-stops at 4.5 min
 
     steps:
       - name: Checkout repo
