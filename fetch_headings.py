@@ -10,14 +10,20 @@ if len(sys.argv) < 2:
     sys.exit(1)
 PROGRAM = sys.argv[1]
 
+PROGRAM_LABELS = {
+    "nursing": "nursing students",
+    "midwifery": "midwifery students",
+}
+AUDIENCE = PROGRAM_LABELS.get(PROGRAM, f"{PROGRAM} students")
+
 CURRICULUM_PATH = f"curricula/{PROGRAM}.json"
 HEADINGS_PATH = f"data/{PROGRAM}/topic_headings.json"
 STATE_PATH = f"state/{PROGRAM}/generation_state.json"
 
 MAX_RUNTIME_SECONDS = 360    # 4.5 min hard stop - stays under the 5 min ceiling
 
-HEADINGS_SYSTEM_PROMPT = """You are a curriculum content designer for Algocare, \
-an educational platform for nursing students in Nigeria.
+HEADINGS_SYSTEM_PROMPT = f"""You are a curriculum content designer for Algocare, \
+an educational platform for {AUDIENCE} in Nigeria.
 
 Given a topic, produce 5 to 10 section headings for an educational article on \
 that topic, in whatever order best teaches THIS specific topic.
