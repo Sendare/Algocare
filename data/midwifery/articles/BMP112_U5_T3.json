@@ -1,0 +1,41 @@
+{
+  "article_id": "BMP112_U5_T3",
+  "topic_id": "BMP112_U5_T3",
+  "title": "Principles of Electrocardiography (ECG) and Electromyography (EMG)",
+  "path": [
+    "Electricity and Magnetism",
+    "Principles of Electrocardiography (ECG) and Electromyography (EMG)"
+  ],
+  "headings": [
+    {
+      "heading_id": "BMP112_U5_T3_h1",
+      "order": 1,
+      "title": "Introduction to Bioelectric Potentials",
+      "content": "Every living cell in the human body maintains an electrical voltage across its cell membrane, known as the **resting membrane potential**. Inside the cell, potassium ions sit in high concentrations, while sodium and chloride ions stay predominantly outside. This balance creates a negative charge inside the cell relative to the outside, typically around -70 millivolts in excitable cells like nerves and muscles.\n\nWhen a cell is stimulated, specialized channels open, allowing sodium ions to rush inside. This rapid influx shifts the internal charge from negative to positive, creating an **action potential**. This temporary reversal of electrical charge sweeps along the cell membrane. In midwifery practice, understanding this electrical activity is vital because the muscular contractions of the uterus during labor and the rhythmic beating of the fetal heart both rely on these exact same bioelectric currents moving across cell membranes."
+    },
+    {
+      "heading_id": "BMP112_U5_T3_h2",
+      "order": 2,
+      "title": "The Cardiac Conduction System and ECG Waveforms",
+      "content": "The heart beats through an intrinsic electrical system that generates and spreads bioelectric signals without direct nervous system input. The impulse starts at the **sinoatrial (SA) node**, travels across the atria, pauses briefly at the **atrioventricular (AV) node**, and then races down the bundle of branches and Purkinje fibers to trigger ventricular contraction.\n\nAn **electrocardiogram (ECG)** captures these electrical events from the surface of the skin and displays them as distinct waves:\n- **P wave**: Represents the electrical activation, or depolarization, of the atria.\n- **QRS complex**: Represents the massive electrical activation of the ventricles, which masks atrial repolarization.\n- **T wave**: Represents the recovery phase, or repolarization, of the ventricles as they prepare for the next beat."
+    },
+    {
+      "heading_id": "BMP112_U5_T3_h3",
+      "order": 3,
+      "title": "Electrode Placement and Lead Configurations in ECG",
+      "content": "An ECG machine does not generate electricity; it measures the differences in electrical potential between different points on the body. To capture a complete picture of heart activity, clinicians attach electrodes to specific locations on the limbs and chest wall. \n\nStandard 12-lead ECG configurations use 10 physical electrodes to produce 12 different viewing angles or \"leads\" of the heart. The limb leads (I, II, III, aVR, aVL, aVF) view the heart in a vertical plane, while the chest leads (V1 through V6) view the heart in a horizontal plane. Placing an electrode even slightly off its designated anatomical landmark can distort the waveform amplitude and lead to misinterpretation of heart conditions."
+    },
+    {
+      "heading_id": "BMP112_U5_T3_h4",
+      "order": 4,
+      "title": "Neuromuscular Physiology and Motor Unit Action Potentials in EMG",
+      "content": "While an ECG records the electrical rhythm of the heart, **electromyography (EMG)** evaluates the health and function of skeletal muscles and the motor neurons that control them. A **motor unit** consists of a single motor neuron and all the muscle fibers it innervates. When the nervous system commands a muscle to contract, electrical signals travel down the motor neuron and prompt all associated muscle fibers to fire.\n\nAn EMG needle electrode or surface sensor detects these electrical discharges, known as **motor unit action potentials (MUAPs)**. By analyzing the shape, amplitude, and firing frequency of MUAPs, clinicians can differentiate between primary muscle diseases (myopathies) and nerve injury disorders (neuropathies)."
+    },
+    {
+      "heading_id": "BMP112_U5_T3_h5",
+      "order": 5,
+      "title": "Signal Acquisition, Artifacts, and Clinical Interpretation",
+      "content": "Bioelectric signals captured by ECG and EMG equipment are extremely small, often measured in millivolts or microvolts, making them vulnerable to environmental interference. Unwanted electrical signals, known as **artifacts**, can easily obscure the true physiological data. Common artifacts include 50Hz or 60Hz mains interference from electrical wiring, baseline drift caused by patient respiration, and muscle tremor noise.\n\nTo obtain clean recordings, technicians prepare the skin to reduce electrical resistance and ensure secure electrode contact. Modern machines use filters to remove background interference without altering the underlying biological waveforms. Proper interpretation requires separating these technical errors from true pathological findings."
+    }
+  ]
+}
