@@ -1,0 +1,47 @@
+{
+  "article_id": "BMP112_U2_T4",
+  "topic_id": "BMP112_U2_T4",
+  "title": "Work, Energy and Power Concepts",
+  "path": [
+    "Mechanics and Force",
+    "Work, Energy and Power Concepts"
+  ],
+  "headings": [
+    {
+      "heading_id": "BMP112_U2_T4_h1",
+      "order": 1,
+      "title": "Introduction to Work in Physics",
+      "content": "In physics, work has a specific meaning that differs from everyday labor. **Work** is done only when a force applied to an object causes that object to move in the direction of the force. If you push hard against a heavy delivery trolley in the hospital corridor and it does not budge, you have exerted a lot of physical effort, but zero work has been done on the trolley in the physics sense. \n\nTo calculate work, two main things must happen: a constant force must act upon an object, and the object must undergo a displacement. If there is no movement, work is zero. The standard unit of measurement for work is the **joule** (J), which is equivalent to a **newton-meter** (N·m)."
+    },
+    {
+      "heading_id": "BMP112_U2_T4_h2",
+      "order": 2,
+      "title": "Calculating Work Done by Constant and Variable Forces",
+      "content": "The mathematical formula for work when a constant force acts in the same direction as motion is simple: \\(W = F \\times d\\), where \\(W\\) represents work, \\(F\\) represents force, and \\(d\\) represents displacement. \n\nWhen the force is applied at an angle to the direction of motion, the formula expands to \\(W = F \\cdot d \\cdot \\cos(\\theta)\\), taking into account only the component of the force pulling along the path of movement. For variable forces—such as stretching an elastic band or compressing a spring—calculating work requires determining the area under a force-versus-displacement graph, often solved using integration in advanced physics."
+    },
+    {
+      "heading_id": "BMP112_U2_T4_h3",
+      "order": 3,
+      "title": "Understanding Energy: Kinetic and Potential Forms",
+      "content": "Energy is the capacity to do work. In mechanics, mechanical energy generally splits into two primary categories:\n- **Kinetic Energy (KE)**: The energy an object possesses due to its motion. Calculated as \\(KE = \\frac{1}{2}mv^2\\), meaning speed has a massive squared impact on total kinetic energy.\n- **Potential Energy (PE)**: Stored energy based on an object's position or state. Gravitational potential energy depends on mass, gravity, and height, calculated as \\(PE = mgh\\).\n\nAn oxygen cylinder resting on a high storage rack possesses high gravitational potential energy, whereas a rolling stretcher rushing down a ramp possesses significant kinetic energy."
+    },
+    {
+      "heading_id": "BMP112_U2_T4_h4",
+      "order": 4,
+      "title": "The Principle of Conservation of Energy",
+      "content": "The **law of conservation of energy** states that energy can neither be created nor destroyed; it can only change from one form into another. The total amount of energy in an isolated system remains constant over time.\n\nConsider dropping a heavy stone from a clinic balcony. At the very top, before release, its potential energy is at its maximum and its kinetic energy is zero. As it falls, potential energy decreases while kinetic energy increases at the exact same rate. Just before hitting the ground, kinetic energy reaches its peak. Friction from air resistance converts a tiny fraction of this mechanical energy into heat and sound, but the total energy in the universe remains unchanged."
+    },
+    {
+      "heading_id": "BMP112_U2_T4_h5",
+      "order": 5,
+      "title": "Defining Power and Its Rate of Energy Transfer",
+      "content": "**Power** measures how quickly work is done or how fast energy is transferred. While two midwives might lift identical heavy patient beds to the exact same height, doing the same amount of work, the one who completes the task faster exerts more power.\n\nThe formula for power is \\(P = \\frac{W}{t}\\), where \\(W\\) is work and \\(t\\) is time. The standard unit of power is the **watt** (W), defined as one joule of work done per second. In larger industrial settings or machinery, horsepower is sometimes used as an alternative unit of measurement."
+    },
+    {
+      "heading_id": "BMP112_U2_T4_h6",
+      "order": 6,
+      "title": "Practical Applications in Healthcare and Daily Mechanics",
+      "content": "Understanding work, energy, and power helps healthcare workers practice safe ergonomics. When lifting heavy objects like equipment boxes or assisting patients, improper posture forces muscles to work against poor mechanical advantage, risking spinal injury. Utilizing proper lifting techniques—keeping loads close to the body's center of gravity—minimizes unnecessary torque and muscle fatigue.\n\nSimilarly, medical equipment design relies heavily on these principles. Centrifuges spin samples at high speeds using electrical power to convert electrical energy into rapid kinetic energy, separating blood components efficiently based on density."
+    }
+  ]
+}
