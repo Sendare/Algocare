@@ -1,0 +1,47 @@
+{
+  "article_id": "BMP112_U5_T1",
+  "topic_id": "BMP112_U5_T1",
+  "title": "Basic Electrical Concepts: Voltage, Current, Resistance",
+  "path": [
+    "Electricity and Magnetism",
+    "Basic Electrical Concepts: Voltage, Current, Resistance"
+  ],
+  "headings": [
+    {
+      "heading_id": "BMP112_U5_T1_h1",
+      "order": 1,
+      "title": "Introduction to Electrical Fundamentals in Clinical Equipment",
+      "content": "Modern healthcare delivery in Nigerian hospitals depends heavily on powered medical devices, ranging from simple pulse oximeters to complex infant incubators and theatre monitors. Understanding how electricity flows through these machines is vital for safe clinical practice. At the core of every electrical system is the movement of tiny charged particles called electrons. When these electrons travel through a conductor like a copper wire, they create electrical energy that powers medical gear. Midwives and nurses do not need to be electrical engineers, but knowing basic electrical principles helps you spot hazards, troubleshoot minor equipment failures, and protect both yourself and your patients from harm."
+    },
+    {
+      "heading_id": "BMP112_U5_T1_h2",
+      "order": 2,
+      "title": "Voltage: The Electrical Push",
+      "content": "Voltage is the force that pushes electrical charges through a circuit. You can think of voltage like water pressure in a hospital plumbing system; a higher pressure pushes water through pipes with more force. In electrical terms, voltage is measured in **volts (V)**. It represents the potential difference between two points. In Nigeria, standard wall sockets typically supply around 220 to 240 volts of alternating current. If voltage is too low, medical equipment may fail to switch on. If voltage fluctuates wildly—a common occurrence on unstable power grids—sensitive electronic components inside monitors or ultrasound machines can suffer permanent damage."
+    },
+    {
+      "heading_id": "BMP112_U5_T1_h3",
+      "order": 3,
+      "title": "Current: The Flow of Charge",
+      "content": "While voltage is the push, current is the actual movement of electrical charge through a conductor. Measured in **amperes (amps or A)**, current describes how many electrons are flowing past a specific point per second. Imagine water flowing steadily through a garden hose. A high current means a large volume of electrons is moving. In clinical settings, current is what actually does the work, but it is also what poses a hazard to the human body. Even a very small amount of current passing directly through the heart can disrupt its normal electrical rhythm and cause dangerous arrhythmias."
+    },
+    {
+      "heading_id": "BMP112_U5_T1_h4",
+      "order": 4,
+      "title": "Resistance: Opposition to Flow",
+      "content": "- **Definition**: Resistance is the opposition that a material offers to the flow of electrical current.\n- **Unit of Measurement**: Measured in **ohms ($Ω$)**.\n- **Conductors vs. Insulators**: Materials with low resistance, such as copper, allow current to flow easily and are called conductors. Materials with high resistance, such as rubber and dry skin, block current and are called insulators.\n- **Clinical Relevance**: Human skin acts as a natural resistor. However, when skin becomes wet with sweat or saline solution, its electrical resistance drops sharply, making the body much more vulnerable to electric shocks in clinical environments."
+    },
+    {
+      "heading_id": "BMP112_U5_T1_h5",
+      "order": 5,
+      "title": "Ohm's Law: Connecting Voltage, Current, and Resistance",
+      "content": "Voltage, current, and resistance are tightly bound together by a fundamental principle known as **Ohm's Law**. The law states that current is directly proportional to voltage and inversely proportional to resistance. Written simply as $I = V / R$ (where $I$ is current, $V$ is voltage, and $R$ is resistance), this formula shows that if voltage increases, current increases. Conversely, if resistance increases, current decreases. Understanding this relationship helps explain why faulty insulation (low resistance) can cause dangerously high current surges that trigger electrical fires or equipment failures in busy maternity wards."
+    },
+    {
+      "heading_id": "BMP112_U5_T1_h6",
+      "order": 6,
+      "title": "Electrical Safety and Patient Protection",
+      "content": "Working in Nigerian healthcare facilities requires constant vigilance regarding electrical safety. Power surges, frayed power cords, and overloaded multi-plug adapters create serious hazards for patients and staff. Always inspect medical devices for cracked plugs or exposed wires before use. Never use equipment with damaged cords near water sources like delivery suites or labour wards where bodily fluids and IV fluids are present. If a machine sparks, smokes, or gives a mild tingling sensation when touched, switch it off immediately at the wall socket, unplug it safely, and report it to the biomedical engineering department right away."
+    }
+  ]
+}
