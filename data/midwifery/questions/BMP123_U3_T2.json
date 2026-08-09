@@ -1,0 +1,226 @@
+[
+  {
+    "question_id": "BMP123_U3_T2_h1_q1",
+    "heading_id": "BMP123_U3_T2_h1",
+    "article_id": "BMP123_U3_T2",
+    "topic_id": "BMP123_U3_T2",
+    "difficulty": "recall",
+    "question": "What is the small box formed where a row and a column meet in a spreadsheet?",
+    "options": {
+      "A": "A formula",
+      "B": "A sheet",
+      "C": "A cell",
+      "D": "A ribbon"
+    },
+    "answer": "C",
+    "explanation": "The individual box where a column and row meet is known as a cell, which holds your data. [learn more](BMP123_U3_T2#BMP123_U3_T2_h1)"
+  },
+  {
+    "question_id": "BMP123_U3_T2_h1_q2",
+    "heading_id": "BMP123_U3_T2_h1",
+    "article_id": "BMP123_U3_T2",
+    "topic_id": "BMP123_U3_T2",
+    "difficulty": "understanding",
+    "question": "How does Excel label the vertical columns across the top of the worksheet?",
+    "options": {
+      "A": "Numbers",
+      "B": "Symbols",
+      "C": "Letters",
+      "D": "Colors"
+    },
+    "answer": "C",
+    "explanation": "Columns use alphabetical letters like A, B, and C, whereas rows use numerical digits. [learn more](BMP123_U3_T2#BMP123_U3_T2_h1)"
+  },
+  {
+    "question_id": "BMP123_U3_T2_h2_q1",
+    "heading_id": "BMP123_U3_T2_h2",
+    "article_id": "BMP123_U3_T2",
+    "topic_id": "BMP123_U3_T2",
+    "difficulty": "recall",
+    "question": "Which keyboard key moves your cursor horizontally to the next cell on the right?",
+    "options": {
+      "A": "Enter key",
+      "B": "Escape key",
+      "C": "Tab key",
+      "D": "Spacebar key"
+    },
+    "answer": "C",
+    "explanation": "Pressing Tab shifts the active cell one step to the right, helping speed up horizontal data input. [learn more](BMP123_U3_T2#BMP123_U3_T2_h2)"
+  },
+  {
+    "question_id": "BMP123_U3_T2_h2_q2",
+    "heading_id": "BMP123_U3_T2_h2",
+    "article_id": "BMP123_U3_T2",
+    "topic_id": "BMP123_U3_T2",
+    "difficulty": "application",
+    "question": "What feature should you use to quickly copy a repeated value down an entire column?",
+    "options": {
+      "A": "The formula bar",
+      "B": "The ribbon menu",
+      "C": "The gridlines tool",
+      "D": "The fill handle"
+    },
+    "answer": "D",
+    "explanation": "Dragging the fill handle down a column quickly duplicates text, numbers, or formula patterns without manual retyping. [learn more](BMP123_U3_T2#BMP123_U3_T2_h2)"
+  },
+  {
+    "question_id": "BMP123_U3_T2_h3_q1",
+    "heading_id": "BMP123_U3_T2_h3",
+    "article_id": "BMP123_U3_T2",
+    "topic_id": "BMP123_U3_T2",
+    "difficulty": "understanding",
+    "question": "Why do rows of hash marks like ##### suddenly appear inside a spreadsheet cell?",
+    "options": {
+      "A": "The data file has been locked by a user",
+      "B": "The formula contains a mathematical error",
+      "C": "The column is too narrow to show the number",
+      "D": "The computer has a serious virus infection"
+    },
+    "answer": "C",
+    "explanation": "Hash marks indicate that the cell value is wider than the current column width allows. [learn more](BMP123_U3_T2#BMP123_U3_T2_h3)"
+  },
+  {
+    "question_id": "BMP123_U3_T2_h3_q2",
+    "heading_id": "BMP123_U3_T2_h3",
+    "article_id": "BMP123_U3_T2",
+    "topic_id": "BMP123_U3_T2",
+    "difficulty": "recall",
+    "question": "What is the standard alignment for numerical values inside an Excel table?",
+    "options": {
+      "A": "Aligned to the left",
+      "B": "Centered in the middle",
+      "C": "Aligned to the right",
+      "D": "Justified on both sides"
+    },
+    "answer": "C",
+    "explanation": "Numbers are typically aligned to the right to keep decimal places and digit columns neatly stacked. [learn more](BMP123_U3_T2#BMP123_U3_T2_h3)"
+  },
+  {
+    "question_id": "BMP123_U3_T2_h4_q1",
+    "heading_id": "BMP123_U3_T2_h4",
+    "article_id": "BMP123_U3_T2",
+    "topic_id": "BMP123_U3_T2",
+    "difficulty": "recall",
+    "question": "What symbol must every formula or function start with in Excel?",
+    "options": {
+      "A": "A hash symbol (#)",
+      "B": "An asterisk (*)",
+      "C": "A plus sign (+)",
+      "D": "An equals sign (=)"
+    },
+    "answer": "D",
+    "explanation": "Excel requires an equals sign at the very beginning of a cell entry to recognize it as a mathematical calculation. [learn more](BMP123_U3_T2#BMP123_U3_T2_h4)"
+  },
+  {
+    "question_id": "BMP123_U3_T2_h4_q2",
+    "heading_id": "BMP123_U3_T2_h4",
+    "article_id": "BMP123_U3_T2",
+    "topic_id": "BMP123_U3_T2",
+    "difficulty": "application",
+    "question": "Which built-in function should you use to find the average of scores stored in cells B1 through B10?",
+    "options": {
+      "A": "=AVERAGE(B1:B10)",
+      "B": "=ADD(B1:B10)",
+      "C": "=SUM(B1:B10) / 2",
+      "D": "=MEAN(B1:B10)"
+    },
+    "answer": "A",
+    "explanation": "The AVERAGE function calculates the mean of a selected cell range automatically. [learn more](BMP123_U3_T2#BMP123_U3_T2_h4)"
+  },
+  {
+    "question_id": "BMP123_U3_T2_h5_q1",
+    "heading_id": "BMP123_U3_T2_h5",
+    "article_id": "BMP123_U3_T2",
+    "topic_id": "BMP123_U3_T2",
+    "difficulty": "understanding",
+    "question": "What happens to spreadsheet rows that do not match your chosen criteria when you apply a filter?",
+    "options": {
+      "A": "They are permanently deleted from storage",
+      "B": "They are moved to a separate worksheet",
+      "C": "They are temporarily hidden from view",
+      "D": "They are changed to red warning text"
+    },
+    "answer": "C",
+    "explanation": "Filtering hides non-matching rows without deleting them, allowing you to reveal the full dataset at any time. [learn more](BMP123_U3_T2#BMP123_U3_T2_h5)"
+  },
+  {
+    "question_id": "BMP123_U3_T2_h5_q2",
+    "heading_id": "BMP123_U3_T2_h5",
+    "article_id": "BMP123_U3_T2",
+    "topic_id": "BMP123_U3_T2",
+    "difficulty": "recall",
+    "question": "Which of the following tasks can you accomplish using the sort feature?",
+    "options": {
+      "A": "Hide unwanted rows from the screen",
+      "B": "Change font styles across multiple sheets",
+      "C": "Calculate the total sum of a column",
+      "D": "Organize text alphabetically from A to Z"
+    },
+    "answer": "D",
+    "explanation": "Sorting rearranges the display order of your rows based on text, numbers, or dates in selected columns. [learn more](BMP123_U3_T2#BMP123_U3_T2_h5)"
+  },
+  {
+    "question_id": "BMP123_U3_T2_h6_q1",
+    "heading_id": "BMP123_U3_T2_h6",
+    "article_id": "BMP123_U3_T2",
+    "topic_id": "BMP123_U3_T2",
+    "difficulty": "understanding",
+    "question": "Which chart type is best for displaying how a single total divides into percentage parts, such as a budget?",
+    "options": {
+      "A": "Pie chart",
+      "B": "Column chart",
+      "C": "Line chart",
+      "D": "Scatter plot"
+    },
+    "answer": "A",
+    "explanation": "Pie charts illustrate proportions and parts of a single whole dataset effectively. [learn more](BMP123_U3_T2#BMP123_U3_T2_h6)"
+  },
+  {
+    "question_id": "BMP123_U3_T2_h6_q2",
+    "heading_id": "BMP123_U3_T2_h6",
+    "article_id": "BMP123_U3_T2",
+    "topic_id": "BMP123_U3_T2",
+    "difficulty": "application",
+    "question": "You need to display monthly malaria case trends over an entire year. Which chart type works best?",
+    "options": {
+      "A": "Line chart",
+      "B": "Filter list",
+      "C": "Pie chart",
+      "D": "Cell border"
+    },
+    "answer": "A",
+    "explanation": "Line charts connect data points sequentially, making them the standard choice for tracking chronological trends over time. [learn more](BMP123_U3_T2#BMP123_U3_T2_h6)"
+  },
+  {
+    "question_id": "BMP123_U3_T2_h7_q1",
+    "heading_id": "BMP123_U3_T2_h7",
+    "article_id": "BMP123_U3_T2",
+    "topic_id": "BMP123_U3_T2",
+    "difficulty": "recall",
+    "question": "What page setup feature ensures that column header labels repeat at the top of every printed page?",
+    "options": {
+      "A": "Portrait orientation",
+      "B": "Print Title Rows",
+      "C": "Formula auditing",
+      "D": "Auto-fit cell width"
+    },
+    "answer": "B",
+    "explanation": "Setting repeat title rows keeps your column headers visible across multi-page printouts for easier reading. [learn more](BMP123_U3_T2#BMP123_U3_T2_h7)"
+  },
+  {
+    "question_id": "BMP123_U3_T2_h7_q2",
+    "heading_id": "BMP123_U3_T2_h7",
+    "article_id": "BMP123_U3_T2",
+    "topic_id": "BMP123_U3_T2",
+    "difficulty": "understanding",
+    "question": "Which of the following actions is NOT recommended when preparing a wide multi-column table for physical printing?",
+    "options": {
+      "A": "Adjusting column widths to prevent data cutoff",
+      "B": "Checking the layout using the print preview tool",
+      "C": "Switching the page layout to landscape orientation",
+      "D": "Keeping the page layout in portrait orientation"
+    },
+    "answer": "D",
+    "explanation": "Wide tables with many columns will get cut off horizontally in portrait orientation and usually require landscape mode. [learn more](BMP123_U3_T2#BMP123_U3_T2_h7)"
+  }
+]
