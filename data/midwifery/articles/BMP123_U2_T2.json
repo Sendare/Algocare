@@ -1,0 +1,41 @@
+{
+  "article_id": "BMP123_U2_T2",
+  "topic_id": "BMP123_U2_T2",
+  "title": "Desktop Environment and File Directories",
+  "path": [
+    "Operating Systems and File Management",
+    "Desktop Environment and File Directories"
+  ],
+  "headings": [
+    {
+      "heading_id": "BMP123_U2_T2_h1",
+      "order": 1,
+      "title": "Introduction to the Desktop Environment",
+      "content": "The **desktop environment** acts as the primary graphical user interface (GUI) on a computer operating system. It translates complex underlying code into visual metaphors that users can easily interact with. Instead of typing text commands into a black screen, midwives and students can point, click, and drag items across a monitor. Core components typically include a background wallpaper, a taskbar or dock, shortcut icons, and system menus. Think of it as a clean office desk where frequently used files and tools sit directly in front of you for quick retrieval."
+    },
+    {
+      "heading_id": "BMP123_U2_T2_h2",
+      "order": 2,
+      "title": "Navigating Windows, Icons, Menus, and Pointers (WIMP)",
+      "content": "Most modern graphical operating systems rely on the **WIMP** paradigm, which stands for Windows, Icons, Menus, and Pointers.\n\n- **Windows**: Framed areas on the screen that run separate programs or display document contents simultaneously.\n- **Icons**: Small graphical pictures representing files, applications, or system tools.\n- **Menus**: Lists of text commands or options that drop down or pop up when selected.\n- **Pointers**: On-screen arrows or cursors controlled by a mouse, trackpad, or touch interface to select items.\n\nMastering these four elements allows users to switch between clinical charts, data entry forms, and learning management systems without closing active tasks."
+    },
+    {
+      "heading_id": "BMP123_U2_T2_h3",
+      "order": 3,
+      "title": "Understanding File Directories and Folder Hierarchies",
+      "content": "A **file directory** (commonly called a folder) is a virtual container used to store digital files and other subdirectories. Operating systems organize these directories into a hierarchical structure, often called a **directory tree**. At the very top is the root directory, from which all other folders branch out.\n\nFor example, a student midwife might have a root drive containing a folder named Nursing School, which splits into subfolders for Midwifery 101, Clinical Rotations, and Assignments. This tree structure prevents digital clutter, making it straightforward to locate specific patient education pamphlets or lecture notes within seconds."
+    },
+    {
+      "heading_id": "BMP123_U2_T2_h4",
+      "order": 4,
+      "title": "Pathnames: Absolute vs. Relative Paths in File Management",
+      "content": "When referencing a file's exact location, the operating system uses a **pathname**. A pathname strings together drive names, directories, and the file name itself, separated by slashes.\n\n- **Absolute Path**: The complete address starting all the way from the root directory (e.g., C:\\Users\\Midwife\\Documents\\Antenatal_Notes.docx).\n- **Relative Path**: An address given in relation to your current working directory. If you are already inside the Documents folder, the relative path is simply Antenatal_Notes.docx.\n\nUnderstanding the difference helps when writing scripts, linking documents, or troubleshooting broken file attachments in educational software."
+    },
+    {
+      "heading_id": "BMP123_U2_T2_h5",
+      "order": 5,
+      "title": "Best Practices for Organizing Files and Directories",
+      "content": "Good digital hygiene saves countless hours of searching and prevents accidental data loss. Implement these habits when managing academic or professional files:\n\n- Use clear, descriptive names instead of vague titles like \"Document1\" or \"FinalFinal\".\n- Avoid using special characters or excessive spaces in file names, as some software programs cannot read them properly.\n- Group files by category or date rather than dumping everything onto the desktop.\n- Back up important files regularly to an external drive or secure cloud storage.\n\nConsistent organization ensures that patient care records, research papers, and study guides remain secure and easily accessible."
+    }
+  ]
+}

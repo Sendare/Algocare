@@ -1,0 +1,41 @@
+{
+  "article_id": "BMP123_U2_T4",
+  "topic_id": "BMP123_U2_T4",
+  "title": "Computer Security, Antivirus Software, and Data Backup",
+  "path": [
+    "Operating Systems and File Management",
+    "Computer Security, Antivirus Software, and Data Backup"
+  ],
+  "headings": [
+    {
+      "heading_id": "BMP123_U2_T4_h1",
+      "order": 1,
+      "title": "Computer Security in Healthcare Settings",
+      "content": "Computer security in a Nigerian healthcare or midwifery clinic involves protecting electronic health records, patient personal details, and clinical computers from unauthorized access, theft, or damage. Midwives handle sensitive data every day, including antenatal clinic registers, labor ward records, and personal phone numbers of pregnant mothers. If unauthorized persons view or alter this information, patient confidentiality is breached. Good security relies on three main pillars: **confidentiality**, ensuring only authorized staff see records; **integrity**, ensuring records are not falsely changed; and **availability**, ensuring computer systems work when needed for emergency obstetric care."
+    },
+    {
+      "heading_id": "BMP123_U2_T4_h2",
+      "order": 2,
+      "title": "Common Threats to Patient Records",
+      "content": "Clinical computers face many dangers that can destroy or expose patient data. Midwives must recognize these common threats to prevent them:\n\n- **Malware**: Harmful software like viruses or ransomware that locks or deletes electronic files.\n- **Phishing**: Fake emails or messages tricking staff into giving away their login passwords.\n- **Physical Theft**: Stealing laptops or desktop towers containing unencrypted patient registers.\n- **Insider Threats**: Unauthorized browsing of patient files by staff members who have no business looking at them."
+    },
+    {
+      "heading_id": "BMP123_U2_T4_h3",
+      "order": 3,
+      "title": "Antivirus Software and Malware Protection",
+      "content": "Antivirus software is a vital tool designed to detect, block, and remove malicious software from clinic computers. When a midwife inserts a flash drive containing patient data from another computer, or downloads a file from the internet, the antivirus scans the files against a database of known threat signatures. If it finds a malicious code, it isolates or deletes it before damage occurs. \n\nClinic computers must have active antivirus programs that update their virus definitions regularly. A common mistake in many facilities is installing an antivirus once and never updating it, leaving the system blind to brand-new strains of malware."
+    },
+    {
+      "heading_id": "BMP123_U2_T4_h4",
+      "order": 4,
+      "title": "Data Backup Strategies for Midwifery Records",
+      "content": "Even with strong security and antivirus protection, computer hardware can fail, power surges can fry hard drives, and fires can destroy a clinic. Data backup is the process of making extra copies of electronic patient records and storing them safely elsewhere. \n\nA reliable backup routine follows the **3-2-1 rule**: keep at least 3 copies of your data, on 2 different types of storage media, with 1 copy stored in a separate physical location (such as secure cloud storage or an external hard drive kept offsite). Storing a backup on the exact same computer that crashed solves nothing."
+    },
+    {
+      "heading_id": "BMP123_U2_T4_h5",
+      "order": 5,
+      "title": "Best Practices for System Integrity and Patient Confidentiality",
+      "content": "Maintaining a secure digital environment in a healthcare facility is a daily habit, not a one-time task. Midwives and clinical staff must practice good digital hygiene:\n\n- **Use Strong Passwords**: Combine letters, numbers, and symbols; never share your login details with colleagues.\n- **Lock Your Screen**: Always lock your computer workstation whenever you step away to examine a patient in the labor ward.\n- **Control Access Levels**: Ensure junior staff or students only access records necessary for their immediate duties.\n- **Avoid Unverified Downloads**: Do not install personal music, games, or unapproved software on clinic workstations."
+    }
+  ]
+}
