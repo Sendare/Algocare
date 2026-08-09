@@ -1,0 +1,47 @@
+{
+  "article_id": "BMP123_U2_T1",
+  "topic_id": "BMP123_U2_T1",
+  "title": "Introduction to Operating Systems",
+  "path": [
+    "Operating Systems and File Management",
+    "Introduction to Operating Systems"
+  ],
+  "headings": [
+    {
+      "heading_id": "BMP123_U2_T1_h1",
+      "order": 1,
+      "title": "What is an Operating System?",
+      "content": "An **operating system** (OS) is the foundational software that manages computer hardware and provides common services for computer programs. Without an OS, a computer is merely a collection of expensive circuits and metal. Think of it as the chief administrator of the machine, sitting directly between physical hardware components like the CPU, memory, and hard drive, and the application software used every day, such as word processors or web browsers. \n\nWhen a user types a document or clicks a folder, the application does not speak directly to the hard disk. Instead, it sends a request to the operating system, which translates that request into language the hardware understands. This abstraction layer protects users from needing to know the complex electrical engineering details required to make a computer run."
+    },
+    {
+      "heading_id": "BMP123_U2_T1_h2",
+      "order": 2,
+      "title": "Core Functions and System Architecture",
+      "content": "Operating systems perform several vital tasks to keep a computer running smoothly. These core duties ensure that multiple programs can run at once without crashing the system or stealing all available resources.\n\n- **Process Management**: Creating, scheduling, and terminating processes so the CPU time is shared fairly among active tasks.\n- **Memory Management**: Tracking every byte of primary memory and deciding which processes get loaded into RAM and when.\n- **File System Management**: Organizing, retrieving, and securing files on storage drives through a structured directory tree.\n- **Device Management**: Using **device drivers** to communicate with peripheral hardware like printers, keyboards, and monitors.\n- **Security and Access Control**: Protecting system data from unauthorized users through passwords, user accounts, and permissions."
+    },
+    {
+      "heading_id": "BMP123_U2_T1_h3",
+      "order": 3,
+      "title": "Windows",
+      "content": "Developed by Microsoft, **Windows** is the most widely used desktop operating system in the world. Its massive popularity stems from its user-friendly graphical interface, extensive software compatibility, and strong support for PC gaming. Almost every major business software package and productivity tool is built to run on Windows first.\n\nFrom a support and hardware standpoint, Windows runs on a vast array of machines built by different manufacturers, from budget laptops to high-end workstations. However, this hardware diversity can occasionally lead to driver conflicts or stability issues compared to tightly controlled single-vendor ecosystems."
+    },
+    {
+      "heading_id": "BMP123_U2_T1_h4",
+      "order": 4,
+      "title": "Linux",
+      "content": "**Linux** is a free, **open-source** operating system modeled on UNIX. Unlike proprietary systems where the source code is locked away, Linux allows anyone to view, modify, and distribute the code. Because of its security, stability, and lack of licensing fees, Linux dominates the server market, powering most of the internet's web servers, cloud infrastructure, and supercomputers.\n\nLinux is distributed in various versions known as \"distros,\" such as Ubuntu, Fedora, and Debian. While desktop adoption has grown among programmers and tech enthusiasts, it historically required more technical knowledge to configure and troubleshoot than Windows or macOS."
+    },
+    {
+      "heading_id": "BMP123_U2_T1_h5",
+      "order": 5,
+      "title": "macOS",
+      "content": "Created by Apple, **macOS** is the proprietary operating system that runs on Mac computers, including MacBooks and iMacs. Known for its sleek user interface, seamless integration with mobile devices like the iPhone, and robust security architecture, macOS is a favorite among creative professionals, designers, and software developers.\n\nBecause Apple designs both the hardware and the software, macOS offers a tightly integrated user experience with fewer hardware driver issues. However, this closed ecosystem means users must purchase Apple-approved hardware, which often comes at a higher initial financial cost than standard PC hardware."
+    },
+    {
+      "heading_id": "BMP123_U2_T1_h6",
+      "order": 6,
+      "title": "Comparing Popular Operating Systems for Different Users",
+      "content": "Choosing the right operating system depends heavily on user needs, budget, and technical expertise. No single OS is objectively the best for every possible scenario.\n\n| Operating System | Primary Strengths | Common Use Cases | Cost & Availability |\n| --- | --- | --- | --- |\n| **Windows** | High software compatibility, PC gaming, hardware variety | General office work, gaming, business applications | Paid license, comes pre-installed on most PCs |\n| **Linux** | Security, stability, free and customizable | Web servers, programming, software development | Free and open-source |\n| **macOS** | Creative design tools, ecosystem integration, sleek UI | Graphic design, video editing, Apple device users | Included with the purchase of Mac hardware |\n\nWhen selecting an operating system for an organization or personal use, evaluating software requirements first prevents compatibility headaches later."
+    }
+  ]
+}
