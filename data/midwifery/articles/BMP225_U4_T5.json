@@ -1,0 +1,47 @@
+{
+  "article_id": "BMP225_U4_T5",
+  "topic_id": "BMP225_U4_T5",
+  "title": "Data Entry and Analysis Using Statistical Software (SPSS/Excel Basics)",
+  "path": [
+    "Biostatistics and Data Analysis",
+    "Data Entry and Analysis Using Statistical Software (SPSS/Excel Basics)"
+  ],
+  "headings": [
+    {
+      "heading_id": "BMP225_U4_T5_h1",
+      "order": 1,
+      "title": "Introduction to Statistical Software in Midwifery Research",
+      "content": "Midwifery research often involves gathering large amounts of information from pregnant women, clinic records, and labor ward registers. Trying to calculate averages, percentages, or tests of association by hand for hundreds of patients leads to errors and wastes valuable clinical time. This is where statistical software such as Microsoft Excel and SPSS (Statistical Package for the Social Sciences) becomes essential for student midwives and researchers.\n\nExcel acts as an electronic ledger, perfect for organizing rows and columns of data, making simple calculations, and drawing basic charts. SPSS is a more specialized powerhouse designed specifically for deep statistical analysis, handling complex health datasets with ease. Learning both tools helps midwives turn raw data from antenatal clinics into reliable evidence that can improve maternal and child health policies across Nigeria."
+    },
+    {
+      "heading_id": "BMP225_U4_T5_h2",
+      "order": 2,
+      "title": "Setting Up Spreadsheets and Coding Variables",
+      "content": "Before typing a single number into a spreadsheet, you must design a clear structure. In data entry, rows typically represent individual participants (such as a specific antenatal patient), while columns represent variables (such as age, parity, or blood pressure). \n\nCoding involves turning descriptive words into numbers so the computer can process them efficiently. For example, when recording **parity** or **marital status**, assign a specific code to each category:\n- **Marital Status**: 1 = Single, 2 = Married, 3 = Widowed\n- **HIV Status**: 0 = Negative, 1 = Positive\n\nAlways create a separate document called a codebook to keep track of these numbers. Clear coding prevents confusion during analysis and ensures anyone reading your research understands what each digit represents."
+    },
+    {
+      "heading_id": "BMP225_U4_T5_h3",
+      "order": 3,
+      "title": "Data Entry in SPSS and Excel",
+      "content": "Entering data requires patience and strict attention to detail to avoid garbage-in, garbage-out scenarios. In Excel, you simply type headers in the top row and enter values down each column. SPSS uses a dual-view system: the **Data View** looks similar to an Excel sheet, while the **Variable View** allows you to define the properties of each column, such as decimals, missing values, and value labels.\n\nWhen entering numeric clinical measurements like birth weight, ensure uniform units are used across all entries, such as kilograms. Avoid mixing units like grams and kilograms in the same column. Setting up validation rules in Excel or defining strict type limits in SPSS prevents an accidental text entry where a numerical blood pressure reading should go."
+    },
+    {
+      "heading_id": "BMP225_U4_T5_h4",
+      "order": 4,
+      "title": "Cleaning and Managing Healthcare Datasets",
+      "content": "Raw data is rarely ready for immediate analysis. Data cleaning is the critical process of detecting and correcting corrupt, inaccurate, or duplicate records from a dataset. Midwives must watch out for extreme outliers, such as a maternal age recorded as 150 years or a gestational age of 60 weeks due to a typing error.\n\nManaging healthcare datasets also involves handling **missing data**—instances where a patient's record lacks a specific value because a question was skipped or a lab test was missed. Most software allows you to designate a specific numeric code, such as 99 or -1, to represent missing information so the program does not mistake it for a valid measurement during calculations."
+    },
+    {
+      "heading_id": "BMP225_U4_T5_h5",
+      "order": 5,
+      "title": "Basic Statistical Software Operations",
+      "content": "Once your dataset is clean and properly formatted, you can begin performing basic statistical operations. In Excel, you use built-in formulas such as `=AVERAGE()`, `=SUM()`, and `=COUNTIF()` to summarize demographic details. SPSS allows you to run descriptive statistics through drop-down menus by navigating to Analyze > Descriptive Statistics > Frequencies or Descriptives.\n\nThese operations help you quickly find the **mean**, **median**, or **percentage** of categorical variables like the proportion of booked versus unbooked mothers attending a primary healthcare center. Mastering these basic software commands forms the stepping stone for more advanced bivariate testing."
+    },
+    {
+      "heading_id": "BMP225_U4_T5_h6",
+      "order": 6,
+      "title": "Generating and Interpreting Outputs",
+      "content": "Running statistical tests in software generates separate output windows where results, tables, and charts appear. In SPSS, the Viewer window displays statistical summaries, p-values, and confidence intervals. Reading these tables requires knowing which figures answer your specific research question.\n\nWhen evaluating a statistical output, look closely at the sample size (often labeled as N), measures of central tendency, and test significance values. Do not let complex formatting overwhelm you; focus on the specific columns that report your primary findings. Always copy or export these tables carefully into your final research report without altering the underlying numbers."
+    }
+  ]
+}

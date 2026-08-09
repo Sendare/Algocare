@@ -1,0 +1,41 @@
+{
+  "article_id": "BMP225_U4_T4",
+  "topic_id": "BMP225_U4_T4",
+  "title": "Interpretation of Statistical Results and P-Values",
+  "path": [
+    "Biostatistics and Data Analysis",
+    "Interpretation of Statistical Results and P-Values"
+  ],
+  "headings": [
+    {
+      "heading_id": "BMP225_U4_T4_h1",
+      "order": 1,
+      "title": "Introduction to Midwifery Research and Data",
+      "content": "Midwifery practice in Nigeria relies heavily on evidence generated from research. When researchers study maternal health questions, they collect data from pregnant women, babies, or clinics. This data can be numbers like birth weight or blood pressure readings, known as **quantitative data**, or descriptions of experiences, known as **qualitative data**. \n\nBefore midwives can use these findings to improve care at antenatal clinics or labor wards, the raw numbers must be organized and analyzed. Statistical analysis helps turn messy numbers into clear patterns. For instance, instead of guessing if a new position during second stage labor shortens pushing time, a researcher uses statistics to compare groups and find out if a real difference exists."
+    },
+    {
+      "heading_id": "BMP225_U4_T4_h2",
+      "order": 2,
+      "title": "Understanding P-Values in Clinical Studies",
+      "content": "The **p-value** is a number between zero and one that helps researchers decide if their study results happened by pure chance. In clinical trials comparing two interventions—such as active versus expectant management of the third stage of labor—the p-value tells us the probability that any observed difference between the groups occurred randomly.\n\nTraditionally, a p-value less than 0.05 is chosen as the threshold for significance. This means there is less than a 5% probability—or a 1 in 20 chance—that the results are a fluke. When a researcher reports a p-value of 0.03, they are saying the chance of getting these results by luck alone is very small, leading them to reject the idea that there is no difference between the treatments."
+    },
+    {
+      "heading_id": "BMP225_U4_T4_h3",
+      "order": 3,
+      "title": "Statistical Significance versus Clinical Relevance",
+      "content": "A common trap for health workers is assuming that a statistically significant result automatically means a treatment changes patient care. **Statistical significance** simply means the math shows a reliable difference between groups that is unlikely due to chance.\n\n**Clinical relevance**, however, asks whether that difference actually matters to the mother or baby at the bedside. For example, a massive clinical trial with ten thousand participants might show that a new drug reduces the length of the first stage of labor by exactly two minutes, with a p-value of 0.001. While this finding is statistically significant, saving two minutes in a twelve-hour labor has almost no clinical relevance for a midwife managing a busy labor ward."
+    },
+    {
+      "heading_id": "BMP225_U4_T4_h4",
+      "order": 4,
+      "title": "Avoiding Common Pitfalls in Data Interpretation",
+      "content": "Interpreting research requires caution to avoid drawing false conclusions that could harm clinical practice. One major error is confusing **correlation with causation**. Just because two factors appear together in a statistical test does not mean one caused the other.\n\nAnother mistake is misinterpreting a non-significant result, where the p-value is greater than 0.05. A high p-value does not prove that an intervention has *no effect*; it only means the study failed to find enough evidence to prove it *does* have an effect. Midwives should also watch out for selective reporting, where researchers highlight only the few positive p-values out of dozens of tests run."
+    },
+    {
+      "heading_id": "BMP225_U4_T4_h5",
+      "order": 5,
+      "title": "Applying Research Findings to Maternal and Child Health Care",
+      "content": "Translating statistical results into everyday midwifery care in Nigeria involves more than just looking at a p-value. Midwives must weigh research evidence against local realities, resource availability, and patient values. \n\nWhen evaluating a new guideline derived from clinical trials, ask three practical questions:\n1. **Internal Validity**: Were the study methods robust and free of major biases?\n2. **Generalizability**: Can these findings apply to women attending Nigerian primary health centers where equipment may differ?\n3. **Feasibility**: Does the clinic have the staff, funds, and supplies to implement the recommendation safely?"
+    }
+  ]
+}
