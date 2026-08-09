@@ -1,0 +1,47 @@
+{
+  "article_id": "BMP112_U1_T1",
+  "topic_id": "BMP112_U1_T1",
+  "title": "System of Units (SI Units)",
+  "path": [
+    "Measurement and Units",
+    "System of Units (SI Units)"
+  ],
+  "headings": [
+    {
+      "heading_id": "BMP112_U1_T1_h1",
+      "order": 1,
+      "title": "Introduction to the International System of Units",
+      "content": "The International System of Units, universally abbreviated as **SI**, serves as the modern standard for measurement across science, clinical practice, and everyday life in Nigeria and globally. Before this standardized system was adopted, health practitioners used various local and historical units, which frequently caused dangerous misunderstandings when patient records or medication dosages were shared across regions. \n\nThe primary goal of the SI system is to provide a single, logical framework that minimizes confusion and guarantees absolute accuracy. In midwifery and general nursing, relying on these standardized measurements ensures that a dose calculated in Lagos matches a dose administered in Port Harcourt or anywhere else in the world. The system rests upon agreed-upon base units that describe fundamental physical properties, which then combine to measure more complex phenomena."
+    },
+    {
+      "heading_id": "BMP112_U1_T1_h2",
+      "order": 2,
+      "title": "Fundamental Base Quantities and Their Standard Units",
+      "content": "The SI system is built upon a foundation of fundamental base quantities. Each base quantity measures a distinct physical property that cannot be broken down into simpler components. \n\n- **Length**: Measured in the **meter (m)**, used for height, fundal height tracking during pregnancy, and dilation checks.\n- **Mass**: Measured in the **kilogram (kg)**, used for weighing pregnant women and neonates.\n- **Time**: Measured in the **second (s)**, essential for timing contractions, fetal heart rates, and pulse rates.\n- **Amount of substance**: Measured in the **mole (mol)**, used in laboratory investigations.\n- **Thermodynamic temperature**: Measured in the **kelvin (K)**, though clinical practice commonly uses degrees Celsius.\n- **Electric current**: Measured in the **ampere (A)**.\n- **Luminous intensity**: Measured in the **candela (cd)**."
+    },
+    {
+      "heading_id": "BMP112_U1_T1_h3",
+      "order": 3,
+      "title": "Derived Units and Their Practical Applications",
+      "content": "Derived units are formed by combining the fundamental base units through multiplication or division. In midwifery and nursing practice, you interact with derived units daily, even if you rarely calculate them from scratch.\n\nFor example, volume is derived from length cubed, yielding the **cubic meter**, but healthcare workers more frequently use the **liter (L)** or **milliliter (mL)**. Another common derived unit is pressure, measured in **pascals (Pa)**, which underpins blood pressure measurement, though millimeters of mercury (mmHg) remains the clinical convention. Flow rate, such as intravenous fluid administration, is expressed in volume divided by time, typically **milliliters per hour (mL/h)**."
+    },
+    {
+      "heading_id": "BMP112_U1_T1_h4",
+      "order": 4,
+      "title": "Standard Prefixes and Decimal Multiples in Healthcare",
+      "content": "Healthcare requires measuring very large quantities as well as extremely microscopic ones. Instead of writing out endless zeros, the SI system uses standard prefixes to multiply or divide base units by powers of ten. \n\nIn midwifery practice, you will constantly move between grams and milligrams, or liters and milliliters. A common mistake among junior students is misinterpreting these multiplier steps, which can lead to catastrophic dosing errors.\n\n| Prefix | Symbol | Meaning / Multiplier |\n| --- | --- | --- |\n| Kilo | k | 1,000 times larger ($10^3$) |\n| Deci | d | 10 times smaller ($10^{-1}$) |\n| Centi | c | 100 times smaller ($10^{-2}$) |\n| Milli | m | 1,000 times smaller ($10^{-3}$) |\n| Micro | $\\mu$ | 1,000,000 times smaller ($10^{-6}$) |"
+    },
+    {
+      "heading_id": "BMP112_U1_T1_h5",
+      "order": 5,
+      "title": "Converting Between Metric Units in Clinical Practice",
+      "content": "Fluid medications, infant birth weights, and laboratory results frequently require unit conversion before administration or charting. Because the metric system is based on factors of ten, conversions require shifting decimal places rather than complex multiplication.\n\nWhen converting from a larger unit to a smaller unit (such as grams to milligrams), you multiply by the scale factor, which shifts the decimal point to the right. Conversely, moving from a smaller unit to a larger unit (such as milligrams to grams) requires dividing, shifting the decimal point to the left. Always double-check your calculations by asking whether the resulting number logically makes sense for the clinical context."
+    },
+    {
+      "heading_id": "BMP112_U1_T1_h6",
+      "order": 6,
+      "title": "Common Measurement Errors and Precision in Medication Dosing",
+      "content": "Precision is non-negotiable in midwifery. A single misplaced decimal point can transform a safe therapeutic dose of a uterotonic drug like oxytocin into a dangerous overdose that threatens both mother and baby. \n\nCommon errors stem from misreading abbreviations, confusing micrograms with milligrams, or misplacing trailing zeros on handwritten orders. Best practice mandates that decimal numbers less than one always feature a leading zero (e.g., write 0.5 mg, never .5 mg). Additionally, trailing zeros after a whole number should be avoided to prevent accidental tenfold overdoses."
+    }
+  ]
+}
