@@ -1,0 +1,53 @@
+{
+  "article_id": "BMP225_U4_T3",
+  "topic_id": "BMP225_U4_T3",
+  "title": "Inferential Statistics: Parametric vs Non-Parametric Tests (Chi-Square, t-Test, ANOVA)",
+  "path": [
+    "Biostatistics and Data Analysis",
+    "Inferential Statistics: Parametric vs Non-Parametric Tests (Chi-Square, t-Test, ANOVA)"
+  ],
+  "headings": [
+    {
+      "heading_id": "BMP225_U4_T3_h1",
+      "order": 1,
+      "title": "Introduction to Inferential Statistics in Midwifery Research",
+      "content": "Midwifery research often deals with samples drawn from a larger population of mothers and newborns. While descriptive statistics simply summarize data, **inferential statistics** allow researchers to take information from a small sample and make reliable guesses or generalizations about the wider population. For instance, testing whether a new antenatal health education program truly reduces postpartum bleeding rates in the whole state of Lagos, rather than just in the twenty women sampled in one clinic. This process relies heavily on **hypothesis testing**, where a researcher starts with a null hypothesis (stating no real difference or relationship) and uses statistical tools to see if the collected data provides enough evidence to reject it. Choosing the correct test depends on the nature of the research question and the type of data collected."
+    },
+    {
+      "heading_id": "BMP225_U4_T3_h2",
+      "order": 2,
+      "title": "Understanding Parametric Tests and Their Assumptions",
+      "content": "Parametric tests are powerful statistical tools used when data meet strict mathematical criteria. They assume that the data follow a normal distribution, often visualized as a symmetrical bell-shaped curve. Common examples include measurements like birth weight, maternal blood pressure, or hemoglobin levels. \n\nBefore running a parametric test, three main assumptions must be checked:\n1. **Normality**: The data values should be roughly normally distributed, especially in larger sample sizes.\n2. **Homogeneity of variance**: The spread or variance of data should be roughly equal across the groups being compared.\n3. **Interval or ratio scale**: The data must be measured on continuous numerical scales, not categories or ranks.\n\nWhen these conditions are met, parametric tests give more accurate and reliable results than their non-parametric alternatives."
+    },
+    {
+      "heading_id": "BMP225_U4_T3_h3",
+      "order": 3,
+      "title": "When and How to Use Non-Parametric Tests",
+      "content": "Not all data collected in a maternity ward fit neatly into a bell curve. Ordinal data (like satisfaction scores ranked from poor to excellent), ranked data, or heavily skewed numerical data violate parametric assumptions. In these situations, **non-parametric tests** are the correct choice. They are often called distribution-free tests because they do not assume the data is normally distributed. Instead of comparing exact numerical means, they frequently analyze the median or rank orders of the data. While they are slightly less powerful than parametric tests when assumptions are met, they are invaluable for analyzing subjective clinical observations, small sample sizes, or skewed datasets like the length of hospital stays."
+    },
+    {
+      "heading_id": "BMP225_U4_T3_h4",
+      "order": 4,
+      "title": "Comparing Two Groups Using the t-Test",
+      "content": "The **t-test** is a widely used parametric test designed to compare the means of two distinct groups. For example, a midwife might want to know if a new iron supplementation syrup results in a higher mean packed cell volume (PCV) compared to the standard tablet. \n\nThere are two main variations of this test:\n- **Independent samples t-test**: Compares the means of two completely separate groups of people, such as mothers in Clinic A versus mothers in Clinic B.\n- **Paired samples t-test**: Compares the means from the exact same group of people at two different times, such as measuring a mother's blood pressure before and after a specific breathing exercise during labor.\n\nThe resulting calculation gives a t-value and a p-value. If the p-value is less than the chosen significance level (usually 0.05), the difference between the two groups is considered statistically significant."
+    },
+    {
+      "heading_id": "BMP225_U4_T3_h5",
+      "order": 5,
+      "title": "Analyzing Variance Across Multiple Groups with ANOVA",
+      "content": "When a midwifery study compares the means of three or more groups simultaneously, using multiple t-tests increases the risk of finding a false positive result (Type I error). To prevent this, researchers use **Analysis of Variance (ANOVA)**. \n\nANOVA tests the null hypothesis that all group population means are equal. For example, evaluating whether post-cesarean pain scores differ significantly among women receiving four different types of pain relief medications. A **one-way ANOVA** looks at one independent grouping variable with multiple categories. If the ANOVA test yields a significant result, it tells the researcher that at least one group mean differs from the others, prompting further post-hoc tests to pinpoint exactly which groups differ."
+    },
+    {
+      "heading_id": "BMP225_U4_T3_h6",
+      "order": 6,
+      "title": "Examining Categorical Data with the Chi-Square Test",
+      "content": "Not all clinical questions involve numbers you can measure on a scale. Many midwifery studies record categories, such as whether a mother had a spontaneous vertex delivery or a caesarean section, categorized against whether she attended antenatal care regularly. The **Chi-Square test** is a non-parametric test used to determine if there is a significant association between two categorical variables. \n\nInstead of comparing means, the Chi-Square test compares **observed frequencies** (the actual counts found in your study) with **expected frequencies** (the counts you would expect to see by pure chance if there was no relationship between the variables). A large discrepancy between observed and expected values results in a high Chi-Square statistic, pointing toward a genuine association."
+    },
+    {
+      "heading_id": "BMP225_U4_T3_h7",
+      "order": 7,
+      "title": "Decision Guide for Selecting the Right Statistical Test in Nursing and Midwifery Studies",
+      "content": "Selecting the correct statistical test can feel overwhelming, but following a systematic decision pathway simplifies the process. Always begin by looking at the research question and the nature of the data variables.\n\nAsk yourself three quick questions:\n1. What is the measurement scale of the primary outcome (continuous numerical versus categorical)?\n2. If numerical, does the data meet the assumptions of normality and equal variance?\n3. How many comparison groups are involved, and are they independent or related?\n\nIf comparing two independent continuous groups with normal distribution, use the **independent t-test**. If comparing categories, use **Chi-Square**. If comparing three or more continuous groups, use **ANOVA**. Matching the research question to the correct test ensures valid and publishable findings."
+    }
+  ]
+}

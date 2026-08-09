@@ -1,0 +1,42 @@
+{
+  "article_id": "BMP225_U2_T5",
+  "topic_id": "BMP225_U2_T5",
+  "title": "Probability",
+  "path": [
+    "Literature Review and Research Design",
+    "Sampling Techniques",
+    "Probability"
+  ],
+  "headings": [
+    {
+      "heading_id": "BMP225_U2_T5_h1",
+      "order": 1,
+      "title": "Understanding Probability in Midwifery Research",
+      "content": "Probability forms the mathematical backbone of quantitative research in maternal and child health. When conducting a study on a condition like postpartum hemorrhage or pre-eclampsia across various Nigerian healthcare tiers, researchers cannot possibly interview every single mother. Instead, they study a subset. **Probability** guarantees that every individual in the target population has a known, non-zero chance of being selected.\n\nThis random selection process eliminates human subjectivity from the recruitment phase. If a midwife researcher hand-picks participants who are friendlier or live closer to the tertiary hospital, the sample becomes skewed. True probability relies on pure chance, allowing researchers to calculate sampling error and make valid statistical inferences about the wider population."
+    },
+    {
+      "heading_id": "BMP225_U2_T5_h2",
+      "order": 2,
+      "title": "Simple Random and Systematic Sampling",
+      "content": "Simple random sampling is the most straightforward probability technique. Every member of the population is assigned a unique number, and a lottery or random number generator selects the participants. While ideal for small, clearly defined populations, it becomes cumbersome with large groups.\n\nSystematic sampling offers a practical alternative. Researchers choose every *k*-th subject from a complete list, where *k* is calculated by dividing the total population size by the desired sample size. For instance, if an antenatal clinic registers 500 women monthly and a sample of 50 is needed, the interval is 10. Selecting every tenth woman entering the clinic provides a reliable, distributed sample without needing a random number table for every single entry."
+    },
+    {
+      "heading_id": "BMP225_U2_T5_h3",
+      "order": 3,
+      "title": "Stratified and Cluster Sampling",
+      "content": "Populations are rarely homogeneous. In Nigerian healthcare, maternal outcomes differ markedly between rural primary health centres, general hospitals, and tertiary teaching hospitals. When researchers need to ensure specific subgroups are adequately represented, they use **stratified sampling**.\n\nThe population is first divided into distinct subgroups, or strata, such as primigravidae versus multigravidae. Random samples are then drawn from each stratum proportionally. \n\nConversely, **cluster sampling** divides the population into geographic groups or clusters—such as all local government areas in a state. Instead of sampling individuals across the entire state, researchers randomly select a few whole clusters and study everyone within those selected groups. This saves travel time and operational costs significantly."
+    },
+    {
+      "heading_id": "BMP225_U2_T5_h4",
+      "order": 4,
+      "title": "Minimizing Selection Bias in Clinical Studies",
+      "content": "Selection bias occurs when the chosen sample does not accurately reflect the target population, leading to flawed clinical conclusions. In midwifery research, this often happens if researchers only recruit women who present early for antenatal care, missing those who deliver at home with traditional birth attendants.\n\nTo protect the integrity of probability sampling, researchers must maintain a complete and updated sampling frame. High non-response rates can also reintroduce bias even when random selection was initially executed perfectly. If half of the selected women refuse to participate, the remaining group may share distinct characteristics—such as higher education or fewer complications—that distort the study's findings."
+    },
+    {
+      "heading_id": "BMP225_U2_T5_h5",
+      "order": 5,
+      "title": "Sample Size Determination",
+      "content": "Calculating how many participants to include is a critical step in research design. A sample that is too small lacks statistical power to detect meaningful differences, such as whether a new counseling intervention reduces postpartum depression. Conversely, an excessively large sample wastes scarce resources and exposes more participants than necessary to research burdens.\n\nDetermining sample size requires balancing several statistical parameters:\n- **Confidence level**: Usually set at 95%, representing how certain researchers are that the sample results reflect the population.\n- **Margin of error**: The acceptable range of variation around the true population value.\n- **Expected variance**: The anticipated variability of the primary clinical outcome based on previous literature or pilot studies."
+    }
+  ]
+}
