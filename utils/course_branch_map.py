@@ -157,7 +157,7 @@ COURSE_BRANCH_MAPS = {
         "BMP312": "Management and Teaching",  # matches nursing's branch name
         "BMP321": "Expectant Family Care Project",
     },
-
+}
 
 
 def get_course_branch_map(program):
@@ -171,3 +171,5 @@ def get_course_branch_map(program):
 def get_course_id_from_topic_id(topic_id):
     """e.g. 'GNS321_U4_T6' -> 'GNS321' - program-agnostic, pure string parsing."""
     return topic_id.split("_")[0]
+
+

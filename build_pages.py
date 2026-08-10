@@ -10,9 +10,10 @@ from utils.course_branch_map import get_course_branch_map, get_course_id_from_to
 from utils.weighted_sampling import build_weighted_pool, sample_without_replacement
 
 if len(sys.argv) < 2:
-    print("Usage: python build_pages.py <program>  (e.g. nursing, midwifery)")
+    print("Usage: python build_pages.py <program> [--force]  (e.g. nursing, midwifery)")
     sys.exit(1)
 PROGRAM = sys.argv[1]
+FORCE_REBUILD = "--force" in sys.argv[2:]
 
 CURRICULUM_PATH = f"curricula/{PROGRAM}.json"
 ARTICLES_DIR = Path(f"data/{PROGRAM}/articles")
@@ -388,10 +389,12 @@ def run():
     done_ids = set(state["published_done"])
 
     available_ids = sorted(p.stem for p in ARTICLES_DIR.glob("*.json")) if ARTICLES_DIR.exists() else []
-    pending_ids = [tid for tid in available_ids if tid not in done_ids]
+    pending_ids = available_ids if FORCE_REBUILD else [tid for tid in available_ids if tid not in done_ids]
 
     print(f"Articles available : {len(available_ids)}")
     print(f"Already published  : {len(done_ids)}")
+    if FORCE_REBUILD:
+        print(f"--force set        : re-rendering ALL {len(pending_ids)} article page(s) this run")
     print(f"Pending this run   : {len(pending_ids)}")
 
     processed_this_run = 0
@@ -416,7 +419,8 @@ def run():
         out_path = PUBLISHED_DIR / ctx["course_slug"] / ctx["unit_slug"] / f"{topic_id}.html"
         write_html(out_path, html)
 
-        state["published_done"].append(topic_id)
+        if topic_id not in state["published_done"]:
+            state["published_done"].append(topic_id)
         save_json(STATE_PATH, state)
 
         processed_this_run += 1

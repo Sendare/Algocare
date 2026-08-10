@@ -1,5 +1,34 @@
 {
-  "_readme": "Course/unit weights control how often real-feel exam questions are drawn from each. Any course_slug or unit key NOT listed here defaults to 1.0 (equal weight). Unit keys are 'course-slug|unit-slug'. These values are volume-corrected: divided by each course's actual question count so the real appearance percentage matches the intended target share, not skewed by which course happens to have more generated content. Left empty until midwifery content is generated -- regenerate with check_weight_balance.py after fetch_articles.py midwifery has run, since question counts per course don't exist yet.",
-  "courses": {},
+  "_readme": "Course/unit weights control how often real-feel exam questions are drawn from each. Any course_slug or unit key NOT listed here defaults to 1.0 (equal weight). Unit keys are 'course-slug|unit-slug'. These are STARTING target-emphasis values on a 0.6-2.5 tier scale, NOT yet volume-corrected - run check_weight_balance.py (now provided) once fetch_articles.py has produced real per-course question counts, so actual appearance % matches these intended targets rather than being skewed by which course has more generated content. 'excluded_from_real_feel' lists courses filtered out of the real-feel pool entirely (not just weight=0) - study articles and regular practice for these courses are untouched, they just never appear in the simulated NMCN exam.",
+  "excluded_from_real_feel": [
+    "applied-physics",
+    "applied-chemistry",
+    "use-of-english",
+    "behavioral-science",
+    "hospital-based-clinical-practice",
+    "seminar-in-midwifery-practice",
+    "research-project",
+    "expectant-family-care-project"
+  ],
+  "courses": {
+    "midwifery-practice": 0.0024,
+    "complicated-midwifery": 0.0034,
+    "reproductive-health": 0.004,
+    "child-health": 0.0091,
+    "infant-care": 0.0049,
+    "family-planning": 0.0078,
+    "primary-health-care": 0.0036,
+    "community-midwifery": 0.0056,
+    "anatomy-and-physiology": 0.0009,
+    "pharmacology": 0.002,
+    "medical-surgical-nursing": 0.0017,
+    "mental-health-nursing": 0.0032,
+    "microbiology": 0.0026,
+    "nutrition-and-dietetics": 0.0025,
+    "foundation-of-nursing": 0.0008,
+    "nursing-informatics": 0.0027,
+    "research-and-statistics": 0.002,
+    "management-and-teaching": 0.002
+  },
   "units": {}
 }
