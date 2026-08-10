@@ -200,3 +200,82 @@ cut off anytime with zero lost progress.
   (in progress) will show whether that matches the group's actual
   composition or whether another cadre is underserved and worth
   prioritizing first.
+### Aug 2026 — Midwifery program build-out
+
+- **Curriculum authored and validated.** `raw_courses.json` (47 courses,
+  syllabus text) → `process_all.py` → Gemini → `curricula/midwifery.json`.
+  Built a standalone `validate_curriculum.py` (schema/ID-consistency/
+  path-integrity/duplicate-title checks) since this data was never going
+  to be eyeballed by hand at ~1000 topics.
+- **Rewrote the curriculum-generation prompt** to fix two systematic
+  AI-generation issues found in the first pass:
+  - Compound source lines ("Antibiotics: Penicillins, Cephalosporins, ...")
+    were inconsistently split into independent topics. New prompt gives
+    explicit splitting rules, including nested-list handling (a
+    compound item whose members are themselves compound gets a deeper
+    `path`, not a flat split).
+  - Unenumerated categories ("Common Childhood Communicable Diseases"
+    with no diseases actually listed) needed a policy: AI may infer the
+    standard named instances, but every inferred topic is marked
+    `"inferred": true` with an `"inferred_basis"` justification, so
+    nothing invented is silently indistinguishable from sourced content.
+  - Re-ran the full 47-course batch: 1055 topics. Manual review caught 4
+    topics with context-losing bare titles (e.g. "Haemorrhage" instead of
+    "Postoperative Haemorrhage") slipping through the same failure mode
+    as vague "Definitions" topics - fixed by hand, not worth scripting
+    for 4 instances.
+- **`COURSE_BRANCH_MAPS["midwifery"]`** added to `utils/course_branch_map.py`
+  - 47 course codes grouped into teaching branches, following nursing's
+    existing naming where the subject matched (Pharmacology, Reproductive
+    Health, Mental Health Nursing, etc.) and introducing new
+    midwifery-specific branches where there's no nursing equivalent
+    (Midwifery Practice, Infant Care, Complicated Midwifery, Community
+    Midwifery, Seminar in Midwifery Practice).
+- **Workflow files**: `fetch_headings_midwifery.yml`,
+  `fetch_articles_midwifery.yml`, `build_pages_midwifery.yml` added,
+  program argument and all data/state paths swapped to `midwifery`.
+- **`config/midwifery/`**: `real_feel_config.json` seeded with nursing's
+  defaults (250 questions / 30s each / 125 min-answered-to-submit).
+  `weights.json` deliberately left empty (all courses default to 1.0) since
+  weight values are volume-corrected against actual generated question
+  counts, which don't exist until `fetch_articles.py midwifery` has run -
+  regenerate with `check_weight_balance.py` once real content exists.
+- **`docs/index.html`**: uncommented the pre-staged "Basic Midwifery"
+  picker card - live and clickable at launch.
+- **Two prompt bugs fixed in `fetch_headings.py` / `fetch_articles.py`**:
+  - `MAX_RUNTIME_SECONDS` in `fetch_headings.py` was `120` but every
+    comment (and the workflow YAML) documented a 4.5-minute (270s)
+    self-stop - script was quietly running at less than half its
+    intended per-run budget. Fixed to `270`.
+  - Both scripts' Gemini system prompts hardcoded "nursing students" /
+    "nursing lecturer" / "the underlying nursing CONCEPT" regardless of
+    which program was actually running. Made program-aware via a
+    `PROGRAM_LABELS` dict with a graceful fallback for future programs.
+    Caught mid-fix: naively adding an `f` prefix to these prompt strings
+    would have crashed at runtime, since they contain literal JSON schema
+    examples (`{"headings": [...]}`) that Python would try to parse as
+    format placeholders. Used `.format()` with every literal brace in the
+    schema doubled (`{{ }}`) instead - verified by actually importing
+    both scripts under `nursing`, `midwifery`, and an unmapped program
+    name before shipping, not just a syntax check.
+  - `fetch_articles.py`'s article-generation prompt was sending only the
+    topic title to Gemini, not the curriculum `path` - unlike
+    `fetch_headings.py`, which already sent both. Fixed, since two
+    same-titled topics in different courses (e.g. "Fractures" under
+    First Aid vs. under Anatomy) need that context to get differentiated
+    content.
+- **Gotchas hit during setup**, worth remembering for the next program:
+  - Local sparse checkout silently skips out-of-scope paths on
+    `git add .` - it prints a hint, not an error, so a genuinely new
+    top-level folder (`curricula/` didn't exist in the sparse-checkout
+    scope yet) can get committed-looking-successful while actually being
+    left out entirely. Fix: `git sparse-checkout add <path>` before
+    adding new files there for the first time.
+  - Moving the repo into the `Sendare` org reset GitHub Actions'
+    workflow permissions to read-only by default, which silently broke
+    every automated `git push` (403 to `github-actions[bot]`) until
+    caught - and it's an *org*-level setting (`Settings → Actions →
+    General → Workflow permissions`), not just a repo-level one.
+- **First live run**: `fetch_headings.py midwifery` processing
+  (200+/1055 topics as of this session, continuing incrementally per the
+  existing 10-minute external cron trigger).
