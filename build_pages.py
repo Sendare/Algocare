@@ -163,6 +163,10 @@ PAGE_HEAD = """<!DOCTYPE html>
 {breadcrumb}
 {body}
 </div>
+<div style="text-align: center; margin-top: 40px; padding: 16px 0; font-size: 0.8rem;">
+  <a href="{root_rel}privacy.html" style="color: var(--ink-soft); margin-right: 16px;">Privacy Policy</a>
+  <a href="{root_rel}terms.html" style="color: var(--ink-soft);">Terms &amp; Disclaimer</a>
+</div>
 </body>
 </html>
 """
@@ -288,6 +292,7 @@ def build_real_feel_tests(course_pools):
         "question_count": 250, "seconds_per_question": 30, "min_answered_to_submit": 125
     })
     weights_config = load_json(WEIGHTS_CONFIG_PATH, {"courses": {}, "units": {}})
+    excluded_courses = set(weights_config.get("excluded_from_real_feel", []))
 
     rf_state = load_json(REAL_FEEL_STATE_PATH, {"used_question_ids": [], "tests_built": 0})
 
@@ -303,9 +308,16 @@ def build_real_feel_tests(course_pools):
 
     used_ids = set(rf_state["used_question_ids"])
 
-    # Filter out already-used questions before building the weighted pool
+    # Filter out already-used questions AND entirely-excluded courses before
+    # building the weighted pool. Excluded courses are skipped here, not
+    # given weight=0 - a weight=0 question would stay in the pool forever
+    # (never selected, never marked used), inflating pool size every run
+    # until eventually random.choices() hits an all-zero-weight remainder
+    # and crashes. Excluding them from unused_pools entirely avoids that.
     unused_pools = {}
     for c_slug, units in course_pools.items():
+        if c_slug in excluded_courses:
+            continue
         unused_pools[c_slug] = {}
         for u_slug, questions in units.items():
             unused_pools[c_slug][u_slug] = [q for q in questions if q["question_id"] not in used_ids]
