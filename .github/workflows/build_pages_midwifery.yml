@@ -5,7 +5,7 @@ name: Build Pages (Midwifery)
 # a manual fallback for testing.
 on:
   schedule:
-    - cron: "0 * * * *"   # every hour, on the hour
+    - cron: "* * * * *"   # every hour, on the hour
   workflow_dispatch:
 
 jobs:
@@ -23,7 +23,7 @@ jobs:
           python-version: "3.11"
 
       - name: Run build_pages.py
-        run: python build_pages.py midwifery
+        run: python build_pages.py --force midwifery
 
       - name: Commit and push updated pages/state
         run: |
