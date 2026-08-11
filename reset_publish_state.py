@@ -14,10 +14,11 @@ import json
 import shutil
 from pathlib import Path
 
-GEN_STATE_PATH = Path("state/nursing/generation_state.json")
-BUILD_STATE_PATH = Path("state/nursing/build_state.json")
-REAL_FEEL_STATE_PATH = Path("state/nursing/real_feel_state.json")
-REAL_FEEL_TESTS_DIR = Path("docs/data/real_feel_tests")
+GEN_STATE_PATH = Path("state/midwifery/generation_state.json")
+BUILD_STATE_PATH = Path("state/midwifery/build_state.json")
+REAL_FEEL_STATE_PATH = Path("state/midwifery/real_feel_state.json")
+REAL_FEEL_TESTS_DIR = Path("docs/midwifery/data/real_feel_tests")
+
 
 
 def run():
