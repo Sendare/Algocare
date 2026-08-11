@@ -23,7 +23,7 @@ jobs:
           python-version: "3.11"
 
       - name: Run build_pages.py
-        run: python build_pages.py --force nursing
+        run: python build_pages.py nursing
 
       - name: Commit and push updated pages/state
         run: |
