@@ -279,3 +279,69 @@ cut off anytime with zero lost progress.
 - **First live run**: `fetch_headings.py midwifery` processing
   (200+/1055 topics as of this session, continuing incrementally per the
   existing 10-minute external cron trigger).
+### Aug 2026 — Legal compliance, real-feel exam scoping, and launch
+
+- **`docs/privacy.html` and `docs/terms.html`** drafted against NDPA 2023 /
+  GAID 2025 baseline requirements (who runs it, what's collected, lawful
+  basis, retention, no data sale, NDPA user rights, not-for-children
+  clause / AI-generated content disclaimer, no NMCN affiliation, accuracy
+  disclaimer, no liability, governing law). Contact:
+  `algotred.a1v1@gmail.com`, X `@AbdulDJA`. Root-level, shared across all
+  programs - not duplicated per program.
+- **Footer added to the shared `PAGE_HEAD`** in `build_pages.py`, linking
+  to both pages via the existing `root_rel` pattern (`rel + "../"`), so
+  it resolves correctly at every nesting depth without new plumbing.
+- **Found and fixed a real re-render bug while shipping the footer**:
+  `build_pages.py` only renders an article/topic page once - a topic
+  already in `published_done` never gets its HTML regenerated again,
+  even if the shared template changes. Since midwifery's articles were
+  already 100% published, the footer would have silently never reached
+  a single existing topic page. Added a `--force` flag that re-renders
+  every article page regardless of publish state - safe and free since
+  page rendering is pure local templating from already-downloaded JSON,
+  no AI calls involved. Verified it doesn't create duplicate
+  `published_done` entries before relying on it.
+- **Real-feel exam course scoping**: NMCN's professional exam doesn't
+  test every course in the curriculum (general first-year sciences like
+  Physics/Chemistry/English, plus practicum/seminar/capstone courses,
+  aren't part of the licensing exam). Two things had to be solved:
+  - **Mechanism**: found that using `weight: 0.0` to exclude a course
+    from `weighted_sampling.py`'s pool would silently pile up
+    never-selected questions forever, risking an eventual crash
+    (`random.choices()` on an all-zero-weight remainder). Fixed by
+    adding a dedicated `excluded_from_real_feel` list in `weights.json`,
+    filtered out of the pool entirely *before* weighting - the excluded
+    course's study articles and regular practice pool are untouched,
+    it just never appears in the simulated professional exam.
+  - **Scope**: 8 branches excluded from real-feel only (Applied Physics,
+    Applied Chemistry, Use of English, Behavioral Science,
+    Hospital-Based Clinical Practice, Seminar in Midwifery Practice,
+    Research Project, Expectant Family Care Project), 18 branches
+    included.
+- **Weighting**: built a 5-tier target scale (2.5 down to 0.6) reflecting
+  likely NMCN exam emphasis - core midwifery-specific clinical content
+  (Midwifery Practice, Complicated Midwifery, Reproductive Health, Child
+  Health, Infant Care, Family Planning) and requested emphasis courses
+  (Primary Health Care, Community Midwifery) weighted highest, general
+  supporting sciences in the middle, administrative/soft-skill courses
+  (Informatics, Research and Statistics, Management and Teaching)
+  weighted lowest.
+- **Wrote `check_weight_balance.py` from scratch** - it didn't exist in
+  the repo despite being referenced in `weights.json`'s own readme note.
+  Reads real per-course question counts from `data/{program}/questions/`,
+  divides each target weight by its course's actual count, and writes
+  the volume-corrected weights back - so appearance % matches intended
+  target regardless of how much content got generated per course. Ran
+  it for real: all 18 included branches came back with target % exactly
+  matching realized %, no thin-content warnings.
+  - **Operational finding worth remembering**: volume correction only
+    balances the *per-draw* probability while a course's question supply
+    lasts. A course's total lifetime contribution across all real-feel
+    tests combined is hard-capped by its actual question count - no
+    weight can manufacture content that doesn't exist. Confirmed via a
+    live test: a 10-question course dropped to 0% representation in
+    later tests once its supply was exhausted, despite equal weighting
+    with a 100-question course. If a branch is consistently
+    under-represented long-term, the fix is generating more content for
+    it, not raising its weight further.
+- **Midwifery confirmed 100% live and working end-to-end.**
