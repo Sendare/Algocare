@@ -5,6 +5,11 @@ import shutil
 import sys
 import time
 from pathlib import Path
+import html  # add to top-level imports
+
+def _inline_md(text):
+    text = html.escape(text)
+    return re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", text)
 
 from utils.course_branch_map import get_course_branch_map, get_course_id_from_topic_id
 from utils.weighted_sampling import build_weighted_pool, sample_without_replacement
