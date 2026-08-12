@@ -6,15 +6,21 @@
  * broken analytics call must never disrupt the actual study/test experience.
  */
 
-const SUPABASE_URL = "https://uhrjtcocwejddtzyjyhr.supabase.co"; // <-- replace with your Project URL
-const SUPABASE_ANON_KEY = "sb_publishable_C_i1zk4P2phfIALmI6C7Iw_pYSMTGfQ"; // <-- replace with your anon public key
+const SUPABASE_URL = "https://uhrjtcocwejddtzyjyhr.supabase.co";  
+const SUPABASE_ANON_KEY = "sb_publishable_C_i1zk4P2phfIALmI6C7Iw_pYSMTGfQ"; 
 
 // Add every program folder here as new ones launch. Order doesn't matter -
 // matching is by exact path segment, not position, so this stays correct
 // even if the site's base path changes (custom domain, repo rename, etc).
 const KNOWN_PROGRAMS = ["nursing", "midwifery", "community-health", "pharmacy"];
 
-
+function isAdminVisit() {
+  const params = new URLSearchParams(window.location.search);
+  if (params.get("admin") === "1") {
+    localStorage.setItem("algocare_admin", "1");
+  }
+  return localStorage.getItem("algocare_admin") === "1";
+}
 function getUserId() {
   let id = localStorage.getItem("algocare_uid");
   if (!id) {
@@ -70,6 +76,7 @@ function logTestStarted(attemptId, testType, testIdentifier, questionCount) {
     test_type: testType,
     test_identifier: testIdentifier,
     question_count: questionCount,
+    is_admin: isAdminVisit()
   });
 }
 
@@ -84,8 +91,10 @@ function logTestFinished(attemptId, testType, testIdentifier, questionCount, att
     question_count: questionCount,
     attempted,
     correct,
+    is_admin: isAdminVisit()
   });
 }
+
 
 function logTestAbandoned(attemptId, testType, testIdentifier, questionCount, attempted) {
   logEvent("test_events", {
@@ -97,6 +106,7 @@ function logTestAbandoned(attemptId, testType, testIdentifier, questionCount, at
     test_identifier: testIdentifier,
     question_count: questionCount,
     attempted,
+    is_admin: isAdminVisit()
   });
 }
 
@@ -107,6 +117,7 @@ function logReview(testType, stars, comment) {
     test_type: testType || null,
     stars,
     comment: comment || null,
+    is_admin: isAdminVisit()
   });
 }
 
@@ -121,6 +132,7 @@ function logArticleViewed(topicId) {
     program: getProgram(),
     topic_id: topicId,
     event_type: "viewed",
+    is_admin: isAdminVisit()
   });
 }
 
@@ -139,6 +151,7 @@ function logArticleCtaClick(topicId) {
     program: getProgram(),
     topic_id: topicId,
     event_type: "cta_click",
+    is_admin: isAdminVisit()
   });
 }
 
