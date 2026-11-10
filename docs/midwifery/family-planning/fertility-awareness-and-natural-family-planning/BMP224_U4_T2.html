@@ -1,11 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script>
+  (function() {
+    const t = localStorage.getItem('algocare_theme') || 'clinical';
+    document.documentElement.setAttribute('data-theme', t);
+  })();
+</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>TwoDay Method — Algocare</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="manifest" href="../../../manifest.webmanifest">
+<meta name="theme-color" content="#F7F8F7">
+<link rel="icon" href="../../../icon-192x192.png" sizes="192x192">
 <link rel="stylesheet" href="../../assets/style.css">
 <script src="../../assets/analytics.js"></script>
 </head>
@@ -16,7 +25,13 @@
     <a href="../../cbt/index.html" style="font-size: 0.85rem; color: var(--scrub); font-weight: 600; margin-right: 16px;">Practice tests</a>
     <a href="../../index.html" style="font-size: 0.85rem; color: var(--ink-soft); margin-right: 16px;">Home</a>
     <a href="../../../index.html" style="font-size: 0.85rem; color: var(--ink-soft);">All programs</a>
-  </div>
+  
+    <button class="theme-toggle" onclick="
+      const cur = document.documentElement.getAttribute('data-theme');
+      const next = cur === 'clinical' ? 'jamb' : 'clinical';
+      document.documentElement.setAttribute('data-theme', next);
+      localStorage.setItem('algocare_theme', next);
+    ">Switch Theme</button></div>
 </div>
 <div class="container">
 <div class="breadcrumb"><a href="../../index.html">Home</a> &gt; <a href="../../family-planning/index.html">Family Planning</a> &gt; <a href="../../family-planning/fertility-awareness-and-natural-family-planning/index.html">Fertility Awareness and Natural Family Planning</a> &gt; TwoDay Method</div>
@@ -30,5 +45,12 @@
   <a href="../../../privacy.html" style="color: var(--ink-soft); margin-right: 16px;">Privacy Policy</a>
   <a href="../../../terms.html" style="color: var(--ink-soft);">Terms &amp; Disclaimer</a>
 </div>
+<script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("../../../sw.js", { scope: "/" }).catch(() => {});
+  });
+}
+</script>
 </body>
 </html>

@@ -192,6 +192,12 @@ def build_context_lookup(curriculum):
 PAGE_HEAD = """<!DOCTYPE html>
 <html lang="en">
 <head>
+<script>
+  (function() {{
+    const t = localStorage.getItem('algocare_theme') || 'clinical';
+    document.documentElement.setAttribute('data-theme', t);
+  }})();
+</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{title} — Algocare</title>
@@ -210,7 +216,13 @@ PAGE_HEAD = """<!DOCTYPE html>
     <a href="{rel}cbt/index.html" style="font-size: 0.85rem; color: var(--scrub); font-weight: 600; margin-right: 16px;">Practice tests</a>
     <a href="{rel}index.html" style="font-size: 0.85rem; color: var(--ink-soft); margin-right: 16px;">Home</a>
     <a href="{root_rel}index.html" style="font-size: 0.85rem; color: var(--ink-soft);">All programs</a>
-  </div>
+  
+    <button class="theme-toggle" onclick="
+      const cur = document.documentElement.getAttribute('data-theme');
+      const next = cur === 'clinical' ? 'jamb' : 'clinical';
+      document.documentElement.setAttribute('data-theme', next);
+      localStorage.setItem('algocare_theme', next);
+    ">Switch Theme</button></div>
 </div>
 <div class="container">
 {breadcrumb}

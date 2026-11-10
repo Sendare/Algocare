@@ -1,308 +1,157 @@
+
 const params = new URLSearchParams(window.location.search);
 const courseSlug = params.get("course");
 const topicId = params.get("topic");
 const requestedCount = parseInt(params.get("count"), 10) || null;
 const secondsPerQuestion = parseInt(params.get("spq"), 10) || 30;
-
-// Keyed on the full query string so different course/topic/count/spq combos
-// don't collide, but reloading the *same* URL resumes the *same* attempt.
 const STORAGE_KEY = `algocare_practice_${window.location.search}`;
 
 let questions = [];
-let siteIndex = [];
 let current = 0;
-let answers = []; // { selected, isCorrect, showExplanation }
-let endTime = null; // absolute timestamp (ms) - survives refresh/backgrounding
-let pauseStartedAt = null; // timestamp (ms) when the current pause began, or null
+let answers = [];
+let endTime = null;
+let pauseStartedAt = null;
 let timerInterval = null;
 let attemptId = null;
-let markTestFinished = () => {};
 
-function shuffle(arr) {
-  const a = [...arr];
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
-  }
-  return a;
-}
-
-function saveState() {
-  sessionStorage.setItem(STORAGE_KEY, JSON.stringify({
-    questions, current, answers, endTime, pauseStartedAt, attemptId,
-  }));
-}
-
-function loadState() {
-  try {
-    const raw = sessionStorage.getItem(STORAGE_KEY);
-    return raw ? JSON.parse(raw) : null;
-  } catch {
-    return null;
-  }
-}
-
-function clearState() {
-  sessionStorage.removeItem(STORAGE_KEY);
-}
+function shuffle(arr) { let a=[...arr]; for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];} return a; }
+function saveState() { sessionStorage.setItem(STORAGE_KEY, JSON.stringify({questions,current,answers,endTime,pauseStartedAt,attemptId})); }
+function loadState() { try { const r = sessionStorage.getItem(STORAGE_KEY); return r?JSON.parse(r):null; } catch { return null; } }
+function clearState() { sessionStorage.removeItem(STORAGE_KEY); }
 
 async function init() {
   try {
-    const siteRes = await fetch("../site_index.json");
-    siteIndex = await siteRes.json();
-
-    // Resume an in-progress attempt for this exact URL if one exists in this tab.
     const saved = loadState();
-    if (saved && Array.isArray(saved.questions) && saved.questions.length) {
-      questions = saved.questions;
-      current = saved.current;
-      answers = saved.answers;
-      endTime = saved.endTime;
-      pauseStartedAt = saved.pauseStartedAt ?? null;
-      attemptId = saved.attemptId;
+    if (saved && saved.questions.length) {
+      ({questions,current,answers,endTime,pauseStartedAt,attemptId} = saved);
     } else {
       let pool = [];
-      if (topicId) {
-        const qRes = await fetch(`../data/questions/${topicId}.json`);
-        pool = await qRes.json();
-      } else if (courseSlug) {
-        const qRes = await fetch(`../data/course_pools/${courseSlug}.json`);
-        pool = await qRes.json();
-      } else {
-        document.getElementById("root").innerHTML =
-          `<div class="empty-state">No course or topic specified. <a href="index.html">Go back</a>.</div>`;
-        return;
-      }
-
+      if (topicId) pool = await (await fetch(`../data/questions/${topicId}.json`)).json();
+      else if (courseSlug) pool = await (await fetch(`../data/course_pools/${courseSlug}.json`)).json();
+      else { document.body.innerHTML = `<div class="empty-state">No course or topic specified. <a href="index.html">Go back</a></div>`; return; }
+      
       const count = requestedCount ? Math.min(requestedCount, pool.length) : pool.length;
       questions = shuffle(pool).slice(0, count);
       answers = new Array(questions.length).fill(null);
       endTime = Date.now() + questions.length * secondsPerQuestion * 1000;
-      pauseStartedAt = null;
       attemptId = generateAttemptId();
       saveState();
-
       logTestStarted(attemptId, "practice", topicId || courseSlug, questions.length);
     }
-  } catch (err) {
-    document.getElementById("root").innerHTML =
-      `<div class="empty-state">Couldn't load this practice set. <a href="index.html">Go back</a>.</div>`;
-    console.error(err);
-    return;
-  }
+  } catch (e) { document.body.innerHTML = `<div class="empty-state">Error loading test.</div>`; return; }
 
-  if (!questions.length) {
-    document.getElementById("root").innerHTML = `<div class="empty-state">No questions available.</div>`;
-    return;
-  }
-
-  markTestFinished = trackAbandonment(
-    attemptId, "practice", topicId || courseSlug, questions.length,
-    () => answers.filter(a => a).length
-  );
-
-  // Reconcile any pause that was active across a reload/background before
-  // checking whether time's up.
+  if (!questions.length) return;
+  markTestFinished = trackAbandonment(attemptId, "practice", topicId || courseSlug, questions.length, () => answers.filter(a=>a).length);
   reconcilePause();
-
-  if (Date.now() >= endTime) {
-    finishTest(true);
-    return;
-  }
-
-  startTimer();
-  render();
+  if (Date.now() >= endTime) return finishTest(true);
+  startTimer(); render();
 }
 
-function isPaused() {
-  const a = answers[current];
-  return !!(a && a.showExplanation);
-}
-
+function isPaused() { const a = answers[current]; return !!(a && a.showExplanation); }
 function reconcilePause() {
-  if (isPaused()) {
-    if (pauseStartedAt === null) {
-      pauseStartedAt = Date.now();
-      saveState();
-    }
-  } else if (pauseStartedAt !== null) {
-    endTime += Date.now() - pauseStartedAt;
-    pauseStartedAt = null;
-    saveState();
-  }
+  if (isPaused()) { if (pauseStartedAt === null) { pauseStartedAt = Date.now(); saveState(); } }
+  else if (pauseStartedAt !== null) { endTime += Date.now() - pauseStartedAt; pauseStartedAt = null; saveState(); }
 }
-
 function startTimer() {
   updateTimerDisplay();
   timerInterval = setInterval(() => {
-    if (isPaused()) {
-      updateTimerDisplay();
-      return;
-    }
-    if (Date.now() >= endTime) {
-      clearInterval(timerInterval);
-      finishTest(true);
-      return;
-    }
+    if (isPaused()) return updateTimerDisplay();
+    if (Date.now() >= endTime) { clearInterval(timerInterval); finishTest(true); return; }
     updateTimerDisplay();
   }, 1000);
 }
-
-function timeRemainingSeconds() {
-  return Math.max(0, Math.round((endTime - Date.now()) / 1000));
-}
-
 function updateTimerDisplay() {
-  const remaining = timeRemainingSeconds();
-  const paused = isPaused();
-  const m = Math.floor(remaining / 60).toString().padStart(2, "0");
-  const s = (remaining % 60).toString().padStart(2, "0");
-  document.getElementById("timerReadout").textContent = paused ? "PAUSED" : `${m}:${s}`;
-
-  const strip = document.getElementById("pulseStrip");
-  strip.classList.remove("warning", "danger");
-  if (remaining <= 60) strip.classList.add("danger");
-  else if (remaining <= 180) strip.classList.add("warning");
+  const rem = Math.max(0, Math.round((endTime - Date.now()) / 1000));
+  const m = Math.floor(rem / 60).toString().padStart(2, "0");
+  const s = (rem % 60).toString().padStart(2, "0");
+  document.getElementById("examTimer").textContent = isPaused() ? "PAUSED" : `${m}:${s}`;
 }
 
 function render() {
   reconcilePause();
-
   const q = questions[current];
-  const answer = answers[current];
-  const optionKeys = Object.keys(q.options);
-
-  updateTimerDisplay();
-
-  const optionsHtml = optionKeys.map(key => {
-    let cls = "option";
-    if (answer) {
-      if (key === answer.selected) cls += " selected";
-      if (key === q.answer) cls += " correct";
-      if (key === answer.selected && key !== q.answer) cls += " incorrect";
+  const ans = answers[current];
+  
+  const opts = Object.keys(q.options).map(k => {
+    let cls = "exam-opt";
+    if (ans) {
+      if (k === ans.selected) cls += " selected";
+      if (k === q.answer) cls += " correct";
+      if (k === ans.selected && k !== q.answer) cls += " incorrect";
     }
-    return `<button class="${cls}" data-key="${key}" ${answer ? "disabled" : ""}>
-      <strong>${key}.</strong> ${q.options[key]}
+    return `<button class="${cls}" onclick="selectAnswer('${k}')" ${ans?'disabled':''}>
+      <div class="opt-letter">${k}</div><div>${q.options[k]}</div>
     </button>`;
   }).join("");
 
-  const explanationHtml = answer ? `
-    ${answer.showExplanation ? `<div class="explanation-box">${parseExplanation(q.explanation, q.topic_id)}</div>` : ""}
-    <div class="action-row">
-      ${!answer.showExplanation ? `<button class="btn secondary" id="showExplanationBtn">Show explanation</button>` : ""}
-      <button class="btn" id="nextBtn">${current < questions.length - 1 ? "Next question" : "Finish"}</button>
+  const expHtml = ans ? `
+    <div class="explanation-box" style="margin-top:20px; padding:16px; background:var(--paper); border-left:4px solid var(--amber); color:var(--ink-soft)">
+      ${ans.showExplanation ? parseExplanation(q.explanation, q.topic_id) : `<button class="btn" onclick="showExp()">Show Explanation</button>`}
     </div>
-  ` : "";
+    <div class="exam-actions" style="margin-top:20px">
+      <button class="exam-btn exam-btn-next" onclick="nextQ()">${current < questions.length - 1 ? "Next Question" : "Finish"}</button>
+    </div>
+  ` : '';
 
-  document.getElementById("root").innerHTML = `
-    <div class="test-layout">
-      <div class="test-card">
-        <div class="question-number">Question ${current + 1} of ${questions.length}</div>
-        <div class="question-text">${q.question}</div>
-        <div class="options-list">${optionsHtml}</div>
-        ${explanationHtml}
+  document.getElementById("examRoot").innerHTML = `
+    <div class="exam-main">
+      <div class="exam-q-info">
+        <span>Question ${current + 1} of ${questions.length}</span>
+        <span>| Answered: ${answers.filter(a=>a).length}/${questions.length}</span>
       </div>
-      <div class="question-nav">${renderNavTabs()}</div>
+      <div class="exam-card">
+        <div class="exam-q-text">${q.question}</div>
+        <div class="exam-options">${opts}</div>
+        ${expHtml}
+      </div>
+      <div class="exam-actions" style="margin-top:auto">
+        <button class="exam-btn exam-btn-prev" onclick="prevQ()" ${current===0?'disabled':''}>← Prev (P)</button>
+        ${!ans ? `<button class="exam-btn exam-btn-next" onclick="nextQ()">Next (N) →</button>` : ''}
+      </div>
+    </div>
+    <div class="exam-palette">
+      <div class="palette-header"><span>Question Palette</span></div>
+      <div class="palette-grid">
+        ${questions.map((_,i) => {
+          let c = "palette-btn";
+          if (i === current) c += " current";
+          else if (answers[i]) c += answers[i].isCorrect ? " answered" : " flagged";
+          return `<button class="${c}" onclick="jumpTo(${i})">${i+1}</button>`;
+        }).join("")}
+      </div>
     </div>
   `;
-
-  attachHandlers();
 }
 
-function renderNavTabs() {
-  return questions.map((_, i) => {
-    let cls = "nav-tab";
-    if (i === current) cls += " current";
-    else if (answers[i]) cls += answers[i].isCorrect ? " answered-correct" : " answered-incorrect";
-    return `<div class="${cls}" data-index="${i}">${i + 1}</div>`;
-  }).join("");
-}
-
-function parseExplanation(text, ownTopicId) {
-  return text.replace(/\[([^\]]+)\]\(([^)#]+)#([^)]+)\)/g, (match, label, tId, headingId) => {
-    const entry = siteIndex.find(item => item.topic_id === tId);
-    if (!entry) return label;
-    return `<a href="../${entry.url}#${headingId}">${label}</a>`;
+function parseExplanation(text, ownId) {
+  return text.replace(/\[([^\]]+)\]\(([^)#]+)#([^)]+)\)/g, (m, l, tid, hid) => {
+    const entry = window.siteIndex?.find(i => i.topic_id === tid);
+    return entry ? `<a href="../${entry.url}#${hid}" style="color:var(--amber)">${l}</a>` : l;
   });
 }
+function selectAnswer(k) { answers[current] = { selected: k, isCorrect: k === questions[current].answer, showExplanation: false }; saveState(); render(); }
+function showExp() { answers[current].showExplanation = true; saveState(); render(); }
+function jumpTo(i) { current = i; saveState(); render(); }
+function nextQ() { if (current < questions.length - 1) { current++; saveState(); render(); } else { finishTest(false); } }
+function prevQ() { if (current > 0) { current--; saveState(); render(); } }
 
-function attachHandlers() {
-  document.querySelectorAll(".option").forEach(btn => {
-    btn.addEventListener("click", () => selectAnswer(btn.dataset.key));
-  });
-
-  document.querySelectorAll(".nav-tab").forEach(tab => {
-    tab.addEventListener("click", () => {
-      current = parseInt(tab.dataset.index, 10);
-      saveState();
-      render();
-    });
-  });
-
-  const showExplanationBtn = document.getElementById("showExplanationBtn");
-  if (showExplanationBtn) {
-    showExplanationBtn.addEventListener("click", () => {
-      answers[current].showExplanation = true;
-      saveState();
-      render();
-    });
-  }
-
-  const nextBtn = document.getElementById("nextBtn");
-  if (nextBtn) {
-    nextBtn.addEventListener("click", () => {
-      if (current < questions.length - 1) {
-        current++;
-        saveState();
-        render();
-      } else {
-        finishTest(false);
-      }
-    });
-  }
-}
-
-function selectAnswer(key) {
-  if (answers[current]) return;
-  const q = questions[current];
-  answers[current] = {
-    selected: key,
-    isCorrect: key === q.answer,
-    showExplanation: false,
-  };
-  saveState();
-  render();
-}
-
-function finishTest(timedOut) {
+function finishTest(to) {
   clearInterval(timerInterval);
-
-  const total = questions.length;
-  const attempted = answers.filter(a => a).length;
-  const correct = answers.filter(a => a && a.isCorrect).length;
-  const pctOfAttempted = attempted > 0 ? Math.round((correct / attempted) * 100) : 0;
-  const pctOfTotal = Math.round((correct / total) * 100);
-
-  markTestFinished();
-  logTestFinished(attemptId, "practice", topicId || courseSlug, total, attempted, correct);
-  clearState();
-
-  document.getElementById("root").innerHTML = `
-    <div class="score-summary">
-      <h2>${timedOut ? "Time's up" : "Practice complete"}</h2>
-      <div class="big-score">${correct} out of ${total}</div>
-      <div style="color: var(--ink-soft); margin-top: 8px;">
-        <p style="margin: 4px 0;">Attempted: ${attempted} out of ${total}</p>
-        <p style="margin: 4px 0;">Correct answers: ${correct}</p>
-        <p style="margin: 4px 0;">Score (of attempted): ${correct} out of ${attempted} · ${pctOfAttempted}%</p>
-        <p style="margin: 4px 0;">Score (of all ${total}): ${correct} out of ${total} · ${pctOfTotal}%</p>
-      </div>
+  const tot = questions.length, att = answers.filter(a=>a).length, cor = answers.filter(a=>a&&a.isCorrect).length;
+  markTestFinished(); logTestFinished(attemptId, "practice", topicId||courseSlug, tot, att, cor); clearState();
+  document.getElementById("examRoot").innerHTML = `
+    <div class="score-summary" style="text-align:center; padding:40px 20px;">
+      <h2 style="color:var(--amber); font-size:2rem">${to ? "Time's up" : "Practice Complete"}</h2>
+      <div style="font-size:3rem; font-weight:800; color:var(--ink); margin:20px 0">${cor} / ${tot}</div>
+      <p style="color:var(--ink-soft)">Attempted: ${att} · Correct: ${cor} · Score: ${att>0?Math.round((cor/att)*100):0}%</p>
       <div id="reviewWidgetContainer"></div>
-      <a class="btn" href="index.html" style="text-decoration:none; display:inline-block; margin-top: 16px;">Back to practice tests</a>
+      <a class="btn" href="index.html" style="margin-top:24px">Back to Practice</a>
     </div>
   `;
-
   attachReviewWidget("reviewWidgetContainer", "practice");
 }
 
-init();
+window.addEventListener("load", async () => {
+  window.siteIndex = await (await fetch("../site_index.json")).json();
+  init();
+});
