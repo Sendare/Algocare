@@ -4,8 +4,52 @@ import re
 import shutil
 import sys
 import time
+import datetime
 from pathlib import Path
 import html  # add to top-level imports
+
+
+# ---------- PWA ----------
+MANIFEST_JSON = {
+    "name": "Algocare \u2014 Nursing & Midwifery Exam Prep",
+    "short_name": "Algocare",
+    "description": "Study articles, practice tests, and real-feel exams for Nigerian nursing and midwifery students.",
+    "theme_color": "#F7F8F7",
+    "background_color": "#F7F8F7",
+    "display": "standalone",
+    "orientation": "portrait",
+    "start_url": "/",
+    "scope": "/",
+    "icons": [
+        {"src": "/icon-192x192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable"},
+        {"src": "/icon-512x512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"},
+    ],
+}
+
+SW_TEMPLATE_PATH = Path("assets/sw-template.js")
+ICONS_SRC = Path("assets/icons")
+
+
+def write_pwa_files():
+    """Writes manifest + sw + icons at docs/ root. Safe to run from any program build."""
+    docs_root = Path("docs")
+    docs_root.mkdir(exist_ok=True)
+    save_json(docs_root / "manifest.webmanifest", MANIFEST_JSON)
+
+    build_id = datetime.datetime.now(datetime.timezone.utc).strftime("%Y%m%d%H%M%S")
+    template = SW_TEMPLATE_PATH.read_text()
+    write_html(docs_root / "sw.js", template.replace("__BUILD_ID__", build_id))
+
+    if ICONS_SRC.exists():
+        for name in ("icon-192x192.png", "icon-512x512.png"):
+            src_icon = ICONS_SRC / name
+            if src_icon.exists():
+                shutil.copy2(src_icon, docs_root / name)
+            else:
+                print(f"\u26a0\ufe0f  Missing {src_icon} - PWA install will fail without it")
+
+    print(f"\U0001f4f1 Wrote manifest.webmanifest + sw.js (build {build_id})")
+
 
 def _inline_md(text):
     text = html.escape(text)
@@ -153,6 +197,9 @@ PAGE_HEAD = """<!DOCTYPE html>
 <title>{title} — Algocare</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="manifest" href="{root_rel}manifest.webmanifest">
+<meta name="theme-color" content="#F7F8F7">
+<link rel="icon" href="{root_rel}icon-192x192.png" sizes="192x192">
 <link rel="stylesheet" href="{rel}assets/style.css">
 <script src="{rel}assets/analytics.js"></script>
 </head>
@@ -173,6 +220,13 @@ PAGE_HEAD = """<!DOCTYPE html>
   <a href="{root_rel}privacy.html" style="color: var(--ink-soft); margin-right: 16px;">Privacy Policy</a>
   <a href="{root_rel}terms.html" style="color: var(--ink-soft);">Terms &amp; Disclaimer</a>
 </div>
+<script>
+if ("serviceWorker" in navigator) {{
+  window.addEventListener("load", () => {{
+    navigator.serviceWorker.register("{root_rel}sw.js", {{ scope: "/" }}).catch(() => {{}});
+  }});
+}}
+</script>
 </body>
 </html>
 """
@@ -363,6 +417,8 @@ def run():
     start_time = time.time()
 
     print(f"Program: {PROGRAM}")
+
+    write_pwa_files()
 
     # GitHub Pages only serves what's inside PUBLISHED_DIR - assets/ lives at
     # repo root as a sibling, shared across all programs, so it must be

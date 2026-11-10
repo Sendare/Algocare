@@ -6,6 +6,9 @@
 <title>Urinary System — Algocare</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="manifest" href="../../../manifest.webmanifest">
+<meta name="theme-color" content="#F7F8F7">
+<link rel="icon" href="../../../icon-192x192.png" sizes="192x192">
 <link rel="stylesheet" href="../../assets/style.css">
 <script src="../../assets/analytics.js"></script>
 </head>
@@ -26,5 +29,12 @@
   <a href="../../../privacy.html" style="color: var(--ink-soft); margin-right: 16px;">Privacy Policy</a>
   <a href="../../../terms.html" style="color: var(--ink-soft);">Terms &amp; Disclaimer</a>
 </div>
+<script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("../../../sw.js", { scope: "/" }).catch(() => {});
+  });
+}
+</script>
 </body>
 </html>
