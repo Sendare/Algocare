@@ -179,10 +179,10 @@ if "theme-toggle" not in src:
     # Inject Theme JS into <head> to prevent flash of wrong theme
     head_script = """
 <script>
-  (function() {
+  (function() {{
     const t = localStorage.getItem('algocare_theme') || 'clinical';
     document.documentElement.setAttribute('data-theme', t);
-  })();
+  }})();
 </script>"""
     src = src.replace("<head>", "<head>" + head_script, 1)
 
