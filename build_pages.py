@@ -193,10 +193,10 @@ PAGE_HEAD = """<!DOCTYPE html>
 <html lang="en">
 <head>
 <script>
-  (function() {{
+  (function() {{{
     const t = localStorage.getItem('algocare_theme') || 'clinical';
     document.documentElement.setAttribute('data-theme', t);
-  }})();
+  }}})();
 </script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">

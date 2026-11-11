@@ -1,6 +1,6 @@
 name: Fetch Headings
 on:
-  workflow_dispatch: # Manual trigger only
+  workflow_dispatch:
 jobs:
   fetch:
     runs-on: ubuntu-latest
@@ -12,6 +12,7 @@ jobs:
         with: { python-version: '3.11' }
       - run: pip install -r requirements.txt
       - run: python fetch_headings.py nursing
+      - run: python fetch_headings.py midwifery
       - name: Commit and Push
         run: |
           git config user.name "algocare-bot"
