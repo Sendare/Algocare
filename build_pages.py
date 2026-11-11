@@ -193,10 +193,10 @@ PAGE_HEAD = """<!DOCTYPE html>
 <html lang="en">
 <head>
 <script>
-  (function() {{{
+  (function() {
     const t = localStorage.getItem('algocare_theme') || 'clinical';
     document.documentElement.setAttribute('data-theme', t);
-  }}})();
+  })();
 </script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -216,13 +216,7 @@ PAGE_HEAD = """<!DOCTYPE html>
     <a href="{rel}cbt/index.html" style="font-size: 0.85rem; color: var(--scrub); font-weight: 600; margin-right: 16px;">Practice tests</a>
     <a href="{rel}index.html" style="font-size: 0.85rem; color: var(--ink-soft); margin-right: 16px;">Home</a>
     <a href="{root_rel}index.html" style="font-size: 0.85rem; color: var(--ink-soft);">All programs</a>
-  
-    <button class="theme-toggle" onclick="
-      const cur = document.documentElement.getAttribute('data-theme');
-      const next = cur === 'clinical' ? 'jamb' : 'clinical';
-      document.documentElement.setAttribute('data-theme', next);
-      localStorage.setItem('algocare_theme', next);
-    ">Switch Theme</button></div>
+  </div>
 </div>
 <div class="container">
 {breadcrumb}
@@ -233,11 +227,11 @@ PAGE_HEAD = """<!DOCTYPE html>
   <a href="{root_rel}terms.html" style="color: var(--ink-soft);">Terms &amp; Disclaimer</a>
 </div>
 <script>
-if ("serviceWorker" in navigator) {{
-  window.addEventListener("load", () => {{
-    navigator.serviceWorker.register("{root_rel}sw.js", {{ scope: "/" }}).catch(() => {{}});
-  }});
-}}
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("{root_rel}sw.js", { scope: "/" }).catch(() => {});
+  });
+}
 </script>
 </body>
 </html>
@@ -246,7 +240,12 @@ if ("serviceWorker" in navigator) {{
 
 def render_page(title, rel, breadcrumb_html, body_html):
     root_rel = rel + "../"
-    return PAGE_HEAD.format(title=title, rel=rel, root_rel=root_rel, breadcrumb=breadcrumb_html, body=body_html)
+    html = PAGE_HEAD.replace("{title}", title)
+    html = html.replace("{rel}", rel)
+    html = html.replace("{root_rel}", root_rel)
+    html = html.replace("{breadcrumb}", breadcrumb_html)
+    html = html.replace("{body}", body_html)
+    return html
 
 
 def breadcrumb(rel, crumbs):
