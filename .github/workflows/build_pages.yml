@@ -1,35 +1,25 @@
 name: Build Pages
-
-# No AI calls in this job, so no rate-limit reason to use an external cron -
-# GitHub's own schedule trigger runs it hourly. workflow_dispatch is kept as
-# a manual fallback for testing.
 on:
   schedule:
-    - cron: "* * * * *"   # every hour, on the hour
+    - cron: '0 * * * *' # Hourly
   workflow_dispatch:
-
 jobs:
-  build-pages:
+  build:
     runs-on: ubuntu-latest
-    timeout-minutes: 6   # outer safety net; script itself self-stops at 4.5 min
-
+    permissions:
+      contents: write
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-
-      - name: Run build_pages.py
-        run: python build_pages.py nursing
-
-      - name: Commit and push updated pages/state
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install -r requirements.txt
+      - run: python build_pages.py nursing
+      - run: python build_pages.py midwifery
+      - name: Commit and Push
         run: |
           git config user.name "algocare-bot"
           git config user.email "algocare-bot@users.noreply.github.com"
-          git add docs/nursing state/nursing/build_state.json state/nursing/real_feel_state.json
-          git diff --cached --quiet || git commit -m "Build nursing pages [automated]"
-          git pull --rebase
+          git add .
+          git diff --cached --quiet || git commit -m "Build pages [automated]"
+          git pull --rebase --autostash
           git push
