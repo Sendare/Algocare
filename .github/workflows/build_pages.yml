@@ -1,6 +1,6 @@
 name: Build Pages
 on:
-  schedule:
+
     - cron: '0 * * * *' # Hourly
   workflow_dispatch:
 jobs:

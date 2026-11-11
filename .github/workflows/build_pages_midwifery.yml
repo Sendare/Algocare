@@ -4,7 +4,7 @@ name: Build Pages (Midwifery)
 # GitHub's own schedule trigger runs it hourly. workflow_dispatch is kept as
 # a manual fallback for testing.
 on:
-  schedule:
+
     - cron: "* * * * *"   # every hour, on the hour
   workflow_dispatch:
 
