@@ -1,8 +1,6 @@
 name: Build Pages
 on:
-
-    - cron: '0 * * * *' # Hourly
-  workflow_dispatch:
+  workflow_dispatch: # Manual trigger only
 jobs:
   build:
     runs-on: ubuntu-latest
