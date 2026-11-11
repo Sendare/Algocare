@@ -11,7 +11,7 @@ body.exam-theme { background: #09090b !important; color: #f4f4f5 !important; mar
 .exam-card { background: #18181b; border: 1px solid #27272a; border-radius: 6px; padding: 24px; margin-bottom: 20px; }
 .exam-q-text { font-size: 1.15rem; font-weight: 500; color: #fff; margin-bottom: 24px; line-height: 1.6; }
 .exam-options { display: flex; flex-direction: column; gap: 12px; }
-.exam-opt { display: flex; align-items: center; gap: 16px; padding: 16px; background: #09090b; border: 2px solid #27272a; border-radius: 6px; cursor: pointer; text-align: left; transition: all 0.2s; color: #f4f4f5; }
+.exam-opt { display: flex; align-items: center; gap: 16px; padding: 16px; background: #09090b; border: 2px solid #27272a; border-radius: 6px; cursor: pointer; text-align: left; transition: all 0.2s; color: #f4f4f5; width: 100%; }
 .exam-opt:hover { border-color: rgba(245, 158, 11, 0.5); }
 .exam-opt.selected { border-color: #f59e0b; background: rgba(245, 158, 11, 0.1); }
 .exam-opt.selected .opt-letter { background: #f59e0b; color: #000; }
