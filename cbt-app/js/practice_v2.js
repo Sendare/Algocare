@@ -1,7 +1,5 @@
-
 const params = new URLSearchParams(window.location.search);
 const coursesParam = params.get("courses");
-const topicId = params.get("topic");
 const requestedCount = parseInt(params.get("count"), 10) || null;
 const secondsPerQuestion = parseInt(params.get("spq"), 10) || 30;
 const STORAGE_KEY = `algocare_practice_${window.location.search}`;
@@ -16,22 +14,21 @@ let endTime = null, pauseStartedAt = null, timerInterval = null, attemptId = nul
 let isCatchingSkips = false;
 
 function shuffle(arr) { let a=[...arr]; for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];} return a; }
-function saveState() { sessionStorage.setItem(STORAGE_KEY, JSON.stringify({subjects,questions,currentIndexes,activeSubject,answers,flags,endTime,pauseStartedAt,attemptId})); }
+function saveState() { sessionStorage.setItem(STORAGE_KEY, JSON.stringify({subjects,questions,currentIndexes,activeSubject,answers,flags,endTime,pauseStartedAt,attemptId,isCatchingSkips})); }
 function loadState() { try { const r = sessionStorage.getItem(STORAGE_KEY); return r?JSON.parse(r):null; } catch { return null; } }
 function clearState() { sessionStorage.removeItem(STORAGE_KEY); }
 
 async function init() {
   try {
     const saved = loadState();
-    if (saved && saved.questions.length) {
-      ({subjects,questions,currentIndexes,activeSubject,answers,flags,endTime,pauseStartedAt,attemptId} = saved);
+    if (saved && saved.subjects && saved.subjects.length) {
+      ({subjects,questions,currentIndexes,activeSubject,answers,flags,endTime,pauseStartedAt,attemptId,isCatchingSkips} = saved);
     } else {
       if (!coursesParam) { document.getElementById("examRoot").innerHTML = `<div class="empty-state" style="color:#a1a1aa; text-align:center; padding:40px;">No courses specified. <a href="index.html">Go back</a></div>`; return; }
       
       const courseSlugs = coursesParam.split(',');
       const courseNames = {};
       
-      // We need siteIndex to map slugs to names
       window.siteIndex = await (await fetch("../site_index.json")).json();
       window.siteIndex.forEach(item => { courseNames[item.course_slug] = item.course; });
 
@@ -45,7 +42,6 @@ async function init() {
         totalQuestionsLoaded += pool.length;
       }
       
-      // Limit total questions if requested
       let totalAllowed = requestedCount ? Math.min(requestedCount, totalQuestionsLoaded) : totalQuestionsLoaded;
       let distributed = 0;
       for (let i = 0; i < subjects.length; i++) {
@@ -63,8 +59,8 @@ async function init() {
     }
   } catch (e) { document.getElementById("examRoot").innerHTML = `<div class="empty-state" style="color:#a1a1aa;">Error loading test.</div>`; return; }
 
-  if (!questions.length) return;
-  markTestFinished = trackAbandonment(attemptId, "practice", topicId || courseSlug, questions.length, () => answers.filter(a=>a).length);
+  if (!subjects.length) return;
+  markTestFinished = trackAbandonment(attemptId, "practice", coursesParam, getTotalQuestions(), () => getAnsweredCount());
   reconcilePause();
   if (Date.now() >= endTime) return finishTest(true);
   startTimer(); render();
@@ -73,8 +69,14 @@ async function init() {
 function isPaused() { const q = questions[activeSubject][currentIndexes[activeSubject]]; const a = answers[q.question_id]; return !!(a && a.showExplanation); }
 function getAnsweredCount() { return Object.keys(answers).length; }
 function getTotalQuestions() { return subjects.reduce((acc, sub) => acc + questions[sub].length, 0); }
-function updateTopSubmit() { const canSubmit = getAnsweredCount() >= Math.floor(getTotalQuestions() / 2); document.getElementById("topSubmitBtn").disabled = !canSubmit; }
-function showToast(msg) { const t = document.createElement("div"); t.className = "toast"; t.textContent = msg; document.body.appendChild(t); setTimeout(() => t.remove(), 3000); }
+function showToast(msg) { 
+  const t = document.createElement("div"); 
+  t.className = "toast"; 
+  t.textContent = msg; 
+  document.body.appendChild(t); 
+  setTimeout(() => t.remove(), 3000); 
+}
+
 function reconcilePause() {
   if (isPaused()) { if (pauseStartedAt === null) { pauseStartedAt = Date.now(); saveState(); } }
   else if (pauseStartedAt !== null) { endTime += Date.now() - pauseStartedAt; pauseStartedAt = null; saveState(); }
@@ -96,8 +98,13 @@ function updateTimerDisplay() {
 
 function render() {
   reconcilePause();
-  const q = questions[current];
-  const ans = answers[current];
+  const qList = questions[activeSubject];
+  const current = currentIndexes[activeSubject];
+  const q = qList[current];
+  const ans = answers[q.question_id];
+  const isFlagged = flags.includes(q.question_id);
+
+  const tabsHtml = subjects.length > 1 ? `<div class="exam-tabs">${subjects.map(s => `<button class="exam-tab ${s === activeSubject ? 'active' : ''}" onclick="switchTab('${s}')">${s}</button>`).join("")}</div>` : '';
 
   const opts = Object.keys(q.options).map(k => {
     let cls = "exam-opt";
@@ -113,87 +120,171 @@ function render() {
     <div class="explanation-box" style="margin-top:20px; padding:16px; background:#18181b; border-left:4px solid #f59e0b; color:#a1a1aa">
       ${ans.showExplanation ? parseExplanation(q.explanation, q.topic_id) : `<button class="btn" style="background:#27272a; color:#fff; border:none;" onclick="showExp()">Show Explanation</button>`}
     </div>
-    <div class="exam-actions" style="margin-top:20px"><button class="exam-btn exam-btn-next" onclick="nextQ()">${current < questions.length - 1 ? "Next Question" : "Finish"}</button></div>
   ` : '';
 
   document.getElementById("examRoot").innerHTML = `
+    ${tabsHtml}
     <div class="exam-main">
-      <div class="exam-q-info"><span>Question ${current + 1} of ${questions.length}</span><span>| Answered: ${answers.filter(a=>a).length}/${questions.length}</span></div>
+      <div class="exam-q-info">
+        <span>Question ${current + 1} of ${qList.length}</span>
+        <span>| Answered: ${getAnsweredCount()}/${getTotalQuestions()}</span>
+        <button class="exam-flag-btn ${isFlagged ? 'flagged' : ''}" onclick="toggleFlag()">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"></path><line x1="4" y1="22" x2="4" y2="15"></line></svg>
+          ${isFlagged ? 'Flagged' : 'Flag (R)'}
+        </button>
+      </div>
       <div class="exam-card"><div class="exam-q-text">${q.question}</div><div class="exam-options">${opts}</div>${expHtml}</div>
-      <div class="exam-actions" style="margin-top:auto"><button class="exam-btn exam-btn-prev" onclick="prevQ()" ${current===0?'disabled':''}>← Prev (P)</button>${!ans ? `<button class="exam-btn exam-btn-next" onclick="nextQ()">Next (N) →</button>` : ''}</div>
+      <div class="exam-actions" style="margin-top:auto">
+        <button class="exam-btn exam-btn-prev" onclick="prevQ()" ${current===0 && activeSubject===subjects[0]?'disabled':''}>← Prev (P)</button>
+        <button class="exam-btn exam-btn-next" onclick="nextQ()">Next (N) →</button>
+      </div>
     </div>
     <div class="exam-palette">
       <div class="palette-header"><span>Question Palette</span></div>
-      <div class="palette-grid">${questions.map((_,i) => {
+      <div class="palette-grid">${qList.map((item, i) => {
           let c = "palette-btn";
           if (i === current) c += " current";
-          else if (answers[i]) c += answers[i].isCorrect ? " answered" : " flagged";
+          else if (answers[item.question_id]) c += " answered";
+          if (flags.includes(item.question_id)) c += " flagged";
           return `<button class="${c}" onclick="jumpTo(${i})">${i+1}</button>`;
         }).join("")}</div>
     </div>
   `;
 }
 
-function parseExplanation(text, ownId) {
-  return text.replace(/\[([^\]]+)\]\(([^)#]+)#([^)]+)\)/g, (m, l, tid, hid) => {
-    const entry = window.siteIndex?.find(i => i.topic_id === tid);
-    return entry ? `<a href="../${entry.url}#${hid}" style="color:#f59e0b">${l}</a>` : l;
-  });
-}
-function selectAnswer(k) { answers[current] = { selected: k, isCorrect: k === questions[current].answer, showExplanation: false }; isCatchingSkips = false; saveState(); render(); }
-function showExp() { answers[current].showExplanation = true; saveState(); render(); }
-function jumpTo(i) { current = i; saveState(); render(); }
+function switchTab(sub) { activeSubject = sub; isCatchingSkips = false; saveState(); render(); }
+function toggleFlag() { const q = questions[activeSubject][currentIndexes[activeSubject]]; if (flags.includes(q.question_id)) flags = flags.filter(id => id !== q.question_id); else flags.push(q.question_id); saveState(); render(); }
+function jumpTo(i) { currentIndexes[activeSubject] = i; isCatchingSkips = false; saveState(); render(); }
+
 function nextQ() {
-  // Trigger catch skips if we are already doing it, OR if we are on the very last question
-  if (isCatchingSkips || current === questions.length - 1) {
+  const currentIndex = currentIndexes[activeSubject];
+  const currentQuestions = questions[activeSubject];
+  const isAtAbsoluteEnd = activeSubject === subjects[subjects.length - 1] && currentIndex === currentQuestions.length - 1;
+
+  if (isCatchingSkips || isAtAbsoluteEnd) {
+    let targetSub = '';
     let targetIndex = -1;
-    
-    // Search forward from current position
-    for (let i = current + 1; i < questions.length; i++) { 
-      if (!answers[questions[i].question_id]) { targetIndex = i; break; } 
+
+    for (let s = subjects.indexOf(activeSubject); s < subjects.length; s++) {
+      const sub = subjects[s];
+      const subQs = questions[sub] || [];
+      for (let i = 0; i < subQs.length; i++) {
+        if (s === subjects.indexOf(activeSubject) && i <= currentIndex) continue;
+        if (!answers[subQs[i].question_id]) { targetSub = sub; targetIndex = i; break; }
+      }
+      if (targetSub) break;
     }
-    
-    // If not found forward, search from the beginning
-    if (targetIndex === -1) {
-      for (let i = 0; i <= current; i++) { 
-        if (!answers[questions[i].question_id]) { targetIndex = i; break; } 
+
+    if (!targetSub) {
+      for (let s = 0; s <= subjects.indexOf(activeSubject); s++) {
+        const sub = subjects[s];
+        const subQs = questions[sub] || [];
+        for (let i = 0; i < subQs.length; i++) {
+          if (s === subjects.indexOf(activeSubject) && i >= currentIndex) break;
+          if (!answers[subQs[i].question_id]) { targetSub = sub; targetIndex = i; break; }
+        }
+        if (targetSub) break;
       }
     }
-    
-    if (targetIndex !== -1) { 
-      jumpTo(targetIndex); 
-      isCatchingSkips = true; 
-      showToast("Jumped to next unanswered"); 
-    } else { 
-      handleSubmitClick(); 
+
+    if (targetSub !== '') {
+      switchTab(targetSub);
+      jumpTo(targetIndex);
+      isCatchingSkips = true;
+      showToast("Jumped to next unanswered question");
+    } else {
+      handleSubmitClick();
+      isCatchingSkips = false;
     }
     return;
   }
-  
-  // Normal sequential next
-  if (current < questions.length - 1) { 
-    jumpTo(current + 1); 
+
+  if (currentIndex < currentQuestions.length - 1) {
+    jumpTo(currentIndex + 1);
+  } else {
+    const currentSubIndex = subjects.indexOf(activeSubject);
+    if (currentSubIndex < subjects.length - 1) {
+      switchTab(subjects[currentSubIndex + 1]);
+      jumpTo(0);
+    }
   }
+}
+
+function prevQ() {
+  const current = currentIndexes[activeSubject];
+  if (current > 0) { jumpTo(current - 1); }
+  else {
+    const currentSubIndex = subjects.indexOf(activeSubject);
+    if (currentSubIndex > 0) {
+      const prevSub = subjects[currentSubIndex - 1];
+      switchTab(prevSub); jumpTo(questions[prevSub].length - 1);
+    }
+  }
+  isCatchingSkips = false;
+}
+
+function selectAnswer(k) { 
+  const q = questions[activeSubject][currentIndexes[activeSubject]];
+  answers[q.question_id] = { selected: k, isCorrect: k === q.answer, showExplanation: false }; 
+  isCatchingSkips = false; 
+  saveState(); render(); 
+}
+
+function showExp() { 
+  const q = questions[activeSubject][currentIndexes[activeSubject]];
+  answers[q.question_id].showExplanation = true; 
+  saveState(); render(); 
+}
+
+function parseExplanation(text, ownId) {
+  return text.replace(/\[([^\]]+)\]\(([^)#]+)#([^)]+)\)/g, (m, l, tid, hid) => {
+    const entry = window.siteIndex?.find(i => i.topic_id === tid);
+    return entry ? `<a href="../${entry.url}#${hid}" style="color:var(--amber)">${l}</a>` : l;
+  });
+}
+
+function handleSubmitClick() {
+  const answered = getAnsweredCount();
+  const total = getTotalQuestions();
+  if (answered < Math.floor(total / 2)) { showToast(`You must answer at least ${Math.floor(total / 2)} questions to submit.`); return; }
+  
+  const modal = document.createElement("div");
+  modal.className = "modal-overlay";
+  modal.innerHTML = `
+    <div class="modal-content">
+      <h2>Submit Exam?</h2>
+      <p>You have answered <strong>${answered}</strong> out of <strong>${total}</strong> questions.</p>
+      <div class="modal-actions">
+        <button class="exam-btn exam-btn-prev" onclick="this.closest('.modal-overlay').remove()">Cancel</button>
+        <button class="exam-btn exam-btn-next" onclick="this.closest('.modal-overlay').remove(); finishTest(false)">Submit</button>
+      </div>
+    </div>
+  `;
+  document.body.appendChild(modal);
 }
 
 function finishTest(timedOut) {
   clearInterval(timerInterval);
-  const total = questions.length, attempted = answers.filter(a => a).length, correct = answers.filter(a => a && a.isCorrect).length;
-  const pctOfAttempted = attempted > 0 ? Math.round((correct / attempted) * 100) : 0;
-  const pctOfTotal = Math.round((correct / total) * 100);
+  const tot = getTotalQuestions(), att = getAnsweredCount();
+  let cor = 0;
+  subjects.forEach(sub => {
+    questions[sub].forEach(q => {
+      if (answers[q.question_id] && answers[q.question_id].isCorrect) cor++;
+    });
+  });
 
-  markTestFinished(); logTestFinished(attemptId, "practice", topicId || courseSlug, total, attempted, correct); clearState();
+  markTestFinished(); logTestFinished(attemptId, "practice", coursesParam, tot, att, cor); clearState();
 
   document.body.style.background = "#F7F8F7";
   document.getElementById("examRoot").innerHTML = `
     <div class="score-summary" style="min-height: 100vh; display: flex; flex-direction: column; justify-content: center; padding: 40px 20px;">
       <h2 style="color: #16232E;">${timedOut ? "Time's up" : "Practice complete"}</h2>
-      <div class="big-score" style="color: #16232E;">${correct} out of ${total}</div>
+      <div class="big-score" style="color: #16232E;">${cor} out of ${tot}</div>
       <div style="color: #46545F; margin-top: 8px;">
-        <p style="margin: 4px 0;">Attempted: ${attempted} out of ${total}</p>
-        <p style="margin: 4px 0;">Correct answers: ${correct}</p>
-        <p style="margin: 4px 0;">Score (of attempted): ${correct} out of ${attempted} · ${pctOfAttempted}%</p>
-        <p style="margin: 4px 0;">Score (of all ${total}): ${correct} out of ${total} · ${pctOfTotal}%</p>
+        <p style="margin: 4px 0;">Attempted: ${att} out of ${tot}</p>
+        <p style="margin: 4px 0;">Correct answers: ${cor}</p>
+        <p style="margin: 4px 0;">Score (of attempted): ${cor} out of ${att} · ${att>0?Math.round((cor/att)*100):0}%</p>
+        <p style="margin: 4px 0;">Score (of all ${tot}): ${cor} out of ${tot} · ${Math.round((cor/tot)*100)}%</p>
       </div>
       <div id="reviewWidgetContainer"></div>
       <a class="btn" href="index.html" style="text-decoration:none; display:inline-block; margin: 16px auto 0; width: fit-content;">Back to practice tests</a>
@@ -213,7 +304,4 @@ window.addEventListener("keydown", (e) => {
   else if (key === "S") handleSubmitClick();
 });
 
-window.addEventListener("load", async () => {
-  window.siteIndex = await (await fetch("../site_index.json")).json();
-  init();
-});
+window.addEventListener("load", async () => { init(); });
