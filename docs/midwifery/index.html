@@ -23,6 +23,7 @@
 <link rel="icon" href="../icon-192x192.png" sizes="192x192">
 <link rel="stylesheet" href="assets/style.css">
 <script src="assets/analytics.js"></script>
+<script src="../assets/auth.js"></script>
 </head>
 <body>
 <div class="topbar">
@@ -30,7 +31,8 @@
   <div>
     <a href="cbt/index.html" style="font-size: 0.85rem; color: var(--scrub); font-weight: 600; margin-right: 16px;">Practice tests</a>
     <a href="index.html" style="font-size: 0.85rem; color: var(--ink-soft); margin-right: 16px;">Home</a>
-    <a href="../index.html" style="font-size: 0.85rem; color: var(--ink-soft);">All programs</a>
+    <a href="../index.html" style="font-size: 0.85rem; color: var(--ink-soft); margin-right: 16px;">All programs</a>
+    <span id="authSlot"></span>
   
     <button class="theme-toggle" onclick="
       const cur = document.documentElement.getAttribute('data-theme');
