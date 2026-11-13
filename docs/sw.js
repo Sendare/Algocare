@@ -1,4 +1,4 @@
-const BUILD_ID = "20261113214531";
+const BUILD_ID = "20261113220814";
 const CACHE_NAME = `algocare-v5-${BUILD_ID}`;
 const PRECACHE = [
   "/", "/manifest.webmanifest",

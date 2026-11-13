@@ -264,33 +264,173 @@ function handleSubmitClick() {
 
 function finishTest(timedOut) {
   clearInterval(timerInterval);
-  const tot = getTotalQuestions(), att = getAnsweredCount();
-  let cor = 0;
+  const total = getTotalQuestions(), attempted = getAnsweredCount();
+  let totalCorrect = 0;
+  const subjectResults = [];
+
   subjects.forEach(sub => {
+    let correct = 0;
     questions[sub].forEach(q => {
-      if (answers[q.question_id] && answers[q.question_id].isCorrect) cor++;
+      if (answers[q.question_id] && answers[q.question_id].isCorrect) correct++;
+    });
+    totalCorrect += correct;
+    subjectResults.push({ sub, correct, total: questions[sub].length });
+  });
+
+  markTestFinished(); logTestFinished(attemptId, "practice", coursesParam, total, attempted, totalCorrect); clearState();
+
+  // Build Subject Breakdown HTML
+  const subjectHtml = subjectResults.map(r => `
+    <div class="subject-card">
+      <div class="subject-name">${r.sub.replace(/-/g, ' ')}</div>
+      <div class="subject-score-row">
+        <span class="subject-score-raw">${r.correct}/${r.total}</span>
+        <span class="subject-score-bold">${r.correct}<span>/${r.total}</span></span>
+      </div>
+    </div>
+  `).join("");
+
+  // Build Review Incorrect HTML
+  let reviewHtml = "";
+  subjects.forEach(sub => {
+    const wrongQs = questions[sub].filter(q => answers[q.question_id] && !answers[q.question_id].isCorrect);
+    if (wrongQs.length === 0) return;
+    
+    reviewHtml += `<div style="margin-bottom: 24px;"><h3 style="color:#e4e4e7; text-transform:capitalize; border-bottom:1px solid #27272a; padding-bottom:4px; margin-bottom:12px; font-size:1rem;">${sub.replace(/-/g, ' ')}</h3>`;
+    wrongQs.forEach(q => {
+      const uAns = answers[q.question_id].selected;
+      const cAns = q.answer;
+      const uText = q.options[uAns];
+      const cText = q.options[cAns];
+      
+      // Find learn more link
+      const entry = window.siteIndex?.find(i => i.topic_id === q.topic_id);
+      const learnMoreBtn = entry ? `<a href="../${entry.url}" class="learn-more-btn">Learn More →</a>` : '';
+
+      reviewHtml += `
+        <div class="wrong-q-card">
+          <div class="wrong-q-text">${q.question}</div>
+          <div class="ans-line"><span class="ans-yours">Your answer:</span> ${uText}</div>
+          <div class="ans-line"><span class="ans-correct">Correct answer:</span> ${cText}</div>
+          ${q.explanation ? `<div class="expl-box"><strong style="color:#e4e4e7;">Explanation:</strong> ${parseExplanation(q.explanation, q.topic_id)}</div>` : ''}
+          ${learnMoreBtn}
+        </div>
+      `;
+    });
+    reviewHtml += `</div>`;
+  });
+
+  if (!reviewHtml) reviewHtml = `<p style="text-align:center; color:#a1a1aa; font-size:0.875rem;">You got everything right! No corrections to show.</p>`;
+
+  document.body.style.background = "#09090b";
+  document.getElementById("examRoot").innerHTML = `
+    <div class="results-page">
+      <header class="results-header">
+        <h1>Results</h1>
+        <div class="results-header-actions">
+          <button class="btn-share" onclick="handleShare(${totalCorrect}, ${total})">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg>
+            Share
+          </button>
+          <a href="index.html" class="btn-home">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+            Home
+          </a>
+        </div>
+      </header>
+
+      <div class="score-card">
+        <h2>Practice Score</h2>
+        <div class="score-val">${totalCorrect} <span>/ ${total}</span></div>
+        <p class="score-sub">${totalCorrect} correct out of ${total} questions</p>
+      </div>
+
+      <h3 class="section-title">Subject Breakdown</h3>
+      <div class="subject-grid">${subjectHtml}</div>
+
+      <details class="review-section">
+        <summary class="review-summary">
+          <span>Review Incorrect Answers</span>
+          <span class="review-summary-icon">▼</span>
+        </summary>
+        <div class="review-content">${reviewHtml}</div>
+      </details>
+
+      <div class="feedback-section" id="feedbackContainer">
+        <div class="feedback-header">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+          Give Feedback
+        </div>
+        <div class="feedback-body" id="feedbackBody">
+          <p>How do you feel about the app? Any complaints, suggestions, or bugs to report?</p>
+          <div class="star-row" id="starRow">
+            ${[1,2,3,4,5].map(n => `<button class="star-btn" data-star="${n}">★</button>`).join("")}
+          </div>
+          <div class="cat-row" id="catRow">
+            ${['General', 'Suggestion', 'Bug Report'].map((c, i) => `<button class="cat-btn ${i===0?'active':''}" data-cat="${c}">${c}</button>`).join("")}
+          </div>
+          <textarea class="feedback-textarea" id="feedbackText" placeholder="Tell us what you think or how we can improve..."></textarea>
+          <button class="btn-submit-feedback" onclick="submitFeedback('practice')">Submit Feedback</button>
+        </div>
+      </div>
+    </div>
+    <div class="fixed-bottom">
+      <a href="index.html" class="btn-take-another" style="text-decoration:none; display:block; text-align:center;">Take Another Exam</a>
+    </div>
+  `;
+  setupFeedbackWidget();
+}
+
+function handleShare(score, total) {
+  const text = `I just scored ${score}/${total} on Algocare Practice! 🎯 Ready for my exams. Practice here:`;
+  const url = window.location.origin + "/" + (window.location.pathname.split('/')[1] || '');
+  if (navigator.share) {
+    navigator.share({ title: 'Algocare', text: text, url: url }).catch(console.error);
+  } else {
+    navigator.clipboard.writeText(text + " " + url);
+    alert('Link copied to clipboard!');
+  }
+}
+
+function setupFeedbackWidget() {
+  let selectedStars = 0;
+  let selectedCat = 'General';
+  const stars = document.querySelectorAll('.star-btn');
+  const cats = document.querySelectorAll('.cat-btn');
+
+  stars.forEach(s => {
+    s.addEventListener('click', () => {
+      selectedStars = parseInt(s.dataset.star);
+      stars.forEach(b => b.classList.remove('active'));
+      for(let i=0; i<selectedStars; i++) stars[i].classList.add('active');
     });
   });
 
-  markTestFinished(); logTestFinished(attemptId, "practice", coursesParam, tot, att, cor); clearState();
+  cats.forEach(c => {
+    c.addEventListener('click', () => {
+      selectedCat = c.dataset.cat;
+      cats.forEach(b => b.classList.remove('active'));
+      c.classList.add('active');
+    });
+  });
 
-  document.body.style.background = "#F7F8F7";
-  document.getElementById("examRoot").innerHTML = `
-    <div class="score-summary" style="min-height: 100vh; display: flex; flex-direction: column; justify-content: center; padding: 40px 20px;">
-      <h2 style="color: #16232E;">${timedOut ? "Time's up" : "Practice complete"}</h2>
-      <div class="big-score" style="color: #16232E;">${cor} out of ${tot}</div>
-      <div style="color: #46545F; margin-top: 8px;">
-        <p style="margin: 4px 0;">Attempted: ${att} out of ${tot}</p>
-        <p style="margin: 4px 0;">Correct answers: ${cor}</p>
-        <p style="margin: 4px 0;">Score (of attempted): ${cor} out of ${att} · ${att>0?Math.round((cor/att)*100):0}%</p>
-        <p style="margin: 4px 0;">Score (of all ${tot}): ${cor} out of ${tot} · ${Math.round((cor/tot)*100)}%</p>
+  window.submitFeedback = (mode) => {
+    if (selectedStars === 0) return alert("Please select a star rating first.");
+    const comment = document.getElementById('feedbackText').value;
+    
+    // Use analytics.js function to save to DB
+    logReview(mode, selectedStars, comment);
+    
+    document.getElementById('feedbackBody').innerHTML = `
+      <div class="feedback-success">
+        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+        <h4>Thank you!</h4>
+        <p>Your feedback has been securely saved.</p>
       </div>
-      <div id="reviewWidgetContainer"></div>
-      <a class="btn" href="index.html" style="text-decoration:none; display:inline-block; margin: 16px auto 0; width: fit-content;">Back to practice tests</a>
-    </div>
-  `;
-  attachReviewWidget("reviewWidgetContainer", "practice");
+    `;
+  };
 }
+
 
 window.addEventListener("keydown", (e) => {
   if (e.target.tagName === "INPUT" || e.target.tagName === "TEXTAREA") return;
