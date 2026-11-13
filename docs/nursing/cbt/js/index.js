@@ -53,7 +53,7 @@ async function init() {
     ? realFeelIndex.tests.map(n => `
         <div class="topic-card">
           <div class="topic-title">Real-Feel Exam ${n}</div>
-          <div class="topic-actions"><a href="real_feel.html?test=${n}">Attempt →</a></div>
+          <div class="topic-actions"><a href="exam-mode.html?test=${n}">Attempt →</a></div>
         </div>
       `).join("")
     : `<div class="empty-state">No real-feel exams available yet — check back soon.</div>`;
