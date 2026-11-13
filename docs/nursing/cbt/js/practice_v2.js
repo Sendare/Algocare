@@ -140,30 +140,40 @@ function parseExplanation(text, ownId) {
     return entry ? `<a href="../${entry.url}#${hid}" style="color:#f59e0b">${l}</a>` : l;
   });
 }
-function selectAnswer(k) { answers[current] = { selected: k, isCorrect: k === questions[current].answer, showExplanation: false }; saveState(); render(); }
+function selectAnswer(k) { answers[current] = { selected: k, isCorrect: k === questions[current].answer, showExplanation: false }; isCatchingSkips = false; saveState(); render(); }
 function showExp() { answers[current].showExplanation = true; saveState(); render(); }
 function jumpTo(i) { current = i; saveState(); render(); }
-function nextQ() { if (current < questions.length - 1) { current++; saveState(); render(); } else { finishTest(false); } }
-function prevQ() { if (current > 0) { current--; saveState(); render(); } }
-
-function handleSubmitClick() {
-  const answered = getAnsweredCount();
-  const total = getTotalQuestions();
-  if (answered < Math.floor(total / 2)) { showToast(`You must answer at least ${Math.floor(total / 2)} questions to submit.`); return; }
+function nextQ() {
+  // Trigger catch skips if we are already doing it, OR if we are on the very last question
+  if (isCatchingSkips || current === questions.length - 1) {
+    let targetIndex = -1;
+    
+    // Search forward from current position
+    for (let i = current + 1; i < questions.length; i++) { 
+      if (!answers[questions[i].question_id]) { targetIndex = i; break; } 
+    }
+    
+    // If not found forward, search from the beginning
+    if (targetIndex === -1) {
+      for (let i = 0; i <= current; i++) { 
+        if (!answers[questions[i].question_id]) { targetIndex = i; break; } 
+      }
+    }
+    
+    if (targetIndex !== -1) { 
+      jumpTo(targetIndex); 
+      isCatchingSkips = true; 
+      showToast("Jumped to next unanswered"); 
+    } else { 
+      handleSubmitClick(); 
+    }
+    return;
+  }
   
-  const modal = document.createElement("div");
-  modal.className = "modal-overlay";
-  modal.innerHTML = `
-    <div class="modal-content">
-      <h2>Submit Exam?</h2>
-      <p>You have answered <strong>${answered}</strong> out of <strong>${total}</strong> questions.</p>
-      <div class="modal-actions">
-        <button class="exam-btn exam-btn-prev" onclick="this.closest('.modal-overlay').remove()">Cancel</button>
-        <button class="exam-btn exam-btn-next" onclick="this.closest('.modal-overlay').remove(); finishTest(false)">Submit</button>
-      </div>
-    </div>
-  `;
-  document.body.appendChild(modal);
+  // Normal sequential next
+  if (current < questions.length - 1) { 
+    jumpTo(current + 1); 
+  }
 }
 
 function finishTest(timedOut) {
