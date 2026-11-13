@@ -58,8 +58,14 @@ async function init() {
       <p>Choose a course, how many questions, and time per question. Explanations and "learn more" links available after each answer.</p>
       <form id="practiceForm">
         <div class="form-row">
-          <label>Course</label>
-          <select id="courseSelect" required><option value="" disabled selected>Select a course...</option>${courseOptions}</select>
+          <label>Select Courses (Pick 1 or more)</label>
+          <div style="max-height: 150px; overflow-y: auto; background: var(--paper); border: 1px solid var(--grey-line); padding: 8px; border-radius: 6px;">
+            ${Object.entries(courseMap).sort((a, b) => a[1].localeCompare(b[1])).map(([slug, name]) => `
+              <label style="display: flex; align-items: center; gap: 8px; padding: 6px; font-size: 0.9rem; cursor: pointer;">
+                <input type="checkbox" name="courseCheckbox" value="${slug}"> ${name}
+              </label>
+            `).join("")}
+          </div>
         </div>
         <div class="form-row">
           <label>Number of questions</label>
@@ -76,10 +82,12 @@ async function init() {
 
   document.getElementById("practiceForm").addEventListener("submit", (e) => {
     e.preventDefault();
-    const course = document.getElementById("courseSelect").value;
+    const checkboxes = document.querySelectorAll('input[name="courseCheckbox"]:checked');
+    if (checkboxes.length === 0) { alert("Please select at least one course."); return; }
+    const courses = Array.from(checkboxes).map(cb => cb.value).join(",");
     const count = document.getElementById("questionCount").value;
     const spq = document.getElementById("secondsPerQuestion").value;
-    window.location.href = `practice.html?course=${course}&count=${count}&spq=${spq}`;
+    window.location.href = `practice.html?courses=${courses}&count=${count}&spq=${spq}`;
   });
 }
 init();

@@ -1,15 +1,22 @@
 
 const params = new URLSearchParams(window.location.search);
-const courseSlug = params.get("course");
+const coursesParam = params.get("courses");
 const topicId = params.get("topic");
 const requestedCount = parseInt(params.get("count"), 10) || null;
 const secondsPerQuestion = parseInt(params.get("spq"), 10) || 30;
 const STORAGE_KEY = `algocare_practice_${window.location.search}`;
 
-let questions = [], current = 0, answers = [], endTime = null, pauseStartedAt = null, timerInterval = null, attemptId = null;
+let subjects = [];
+let questions = {}; 
+let currentIndexes = {};
+let activeSubject = "";
+let answers = {}; 
+let flags = [];
+let endTime = null, pauseStartedAt = null, timerInterval = null, attemptId = null;
+let isCatchingSkips = false;
 
 function shuffle(arr) { let a=[...arr]; for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];} return a; }
-function saveState() { sessionStorage.setItem(STORAGE_KEY, JSON.stringify({questions,current,answers,endTime,pauseStartedAt,attemptId})); }
+function saveState() { sessionStorage.setItem(STORAGE_KEY, JSON.stringify({subjects,questions,currentIndexes,activeSubject,answers,flags,endTime,pauseStartedAt,attemptId})); }
 function loadState() { try { const r = sessionStorage.getItem(STORAGE_KEY); return r?JSON.parse(r):null; } catch { return null; } }
 function clearState() { sessionStorage.removeItem(STORAGE_KEY); }
 
@@ -17,20 +24,42 @@ async function init() {
   try {
     const saved = loadState();
     if (saved && saved.questions.length) {
-      ({questions,current,answers,endTime,pauseStartedAt,attemptId} = saved);
+      ({subjects,questions,currentIndexes,activeSubject,answers,flags,endTime,pauseStartedAt,attemptId} = saved);
     } else {
-      let pool = [];
-      if (topicId) pool = await (await fetch(`../data/questions/${topicId}.json`)).json();
-      else if (courseSlug) pool = await (await fetch(`../data/course_pools/${courseSlug}.json`)).json();
-      else { document.getElementById("examRoot").innerHTML = `<div class="empty-state" style="color:#a1a1aa; text-align:center; padding:40px;">No course or topic specified. <a href="index.html">Go back</a></div>`; return; }
+      if (!coursesParam) { document.getElementById("examRoot").innerHTML = `<div class="empty-state" style="color:#a1a1aa; text-align:center; padding:40px;">No courses specified. <a href="index.html">Go back</a></div>`; return; }
+      
+      const courseSlugs = coursesParam.split(',');
+      const courseNames = {};
+      
+      // We need siteIndex to map slugs to names
+      window.siteIndex = await (await fetch("../site_index.json")).json();
+      window.siteIndex.forEach(item => { courseNames[item.course_slug] = item.course; });
 
-      const count = requestedCount ? Math.min(requestedCount, pool.length) : pool.length;
-      questions = shuffle(pool).slice(0, count);
-      answers = new Array(questions.length).fill(null);
-      endTime = Date.now() + questions.length * secondsPerQuestion * 1000;
+      let totalQuestionsLoaded = 0;
+      for (const cSlug of courseSlugs) {
+        const pool = await (await fetch(`../data/course_pools/${cSlug}.json`)).json();
+        const cName = courseNames[cSlug] || cSlug;
+        subjects.push(cName);
+        questions[cName] = shuffle(pool);
+        currentIndexes[cName] = 0;
+        totalQuestionsLoaded += pool.length;
+      }
+      
+      // Limit total questions if requested
+      let totalAllowed = requestedCount ? Math.min(requestedCount, totalQuestionsLoaded) : totalQuestionsLoaded;
+      let distributed = 0;
+      for (let i = 0; i < subjects.length; i++) {
+        const sub = subjects[i];
+        const take = i === subjects.length - 1 ? (totalAllowed - distributed) : Math.floor(totalAllowed / subjects.length);
+        questions[sub] = questions[sub].slice(0, take);
+        distributed += take;
+      }
+
+      activeSubject = subjects[0];
+      endTime = Date.now() + totalAllowed * secondsPerQuestion * 1000;
       attemptId = generateAttemptId();
       saveState();
-      logTestStarted(attemptId, "practice", topicId || courseSlug, questions.length);
+      logTestStarted(attemptId, "practice", coursesParam, totalAllowed);
     }
   } catch (e) { document.getElementById("examRoot").innerHTML = `<div class="empty-state" style="color:#a1a1aa;">Error loading test.</div>`; return; }
 
@@ -41,7 +70,11 @@ async function init() {
   startTimer(); render();
 }
 
-function isPaused() { const a = answers[current]; return !!(a && a.showExplanation); }
+function isPaused() { const q = questions[activeSubject][currentIndexes[activeSubject]]; const a = answers[q.question_id]; return !!(a && a.showExplanation); }
+function getAnsweredCount() { return Object.keys(answers).length; }
+function getTotalQuestions() { return subjects.reduce((acc, sub) => acc + questions[sub].length, 0); }
+function updateTopSubmit() { const canSubmit = getAnsweredCount() >= Math.floor(getTotalQuestions() / 2); document.getElementById("topSubmitBtn").disabled = !canSubmit; }
+function showToast(msg) { const t = document.createElement("div"); t.className = "toast"; t.textContent = msg; document.body.appendChild(t); setTimeout(() => t.remove(), 3000); }
 function reconcilePause() {
   if (isPaused()) { if (pauseStartedAt === null) { pauseStartedAt = Date.now(); saveState(); } }
   else if (pauseStartedAt !== null) { endTime += Date.now() - pauseStartedAt; pauseStartedAt = null; saveState(); }
@@ -113,6 +146,26 @@ function jumpTo(i) { current = i; saveState(); render(); }
 function nextQ() { if (current < questions.length - 1) { current++; saveState(); render(); } else { finishTest(false); } }
 function prevQ() { if (current > 0) { current--; saveState(); render(); } }
 
+function handleSubmitClick() {
+  const answered = getAnsweredCount();
+  const total = getTotalQuestions();
+  if (answered < Math.floor(total / 2)) { showToast(`You must answer at least ${Math.floor(total / 2)} questions to submit.`); return; }
+  
+  const modal = document.createElement("div");
+  modal.className = "modal-overlay";
+  modal.innerHTML = `
+    <div class="modal-content">
+      <h2>Submit Exam?</h2>
+      <p>You have answered <strong>${answered}</strong> out of <strong>${total}</strong> questions.</p>
+      <div class="modal-actions">
+        <button class="exam-btn exam-btn-prev" onclick="this.closest('.modal-overlay').remove()">Cancel</button>
+        <button class="exam-btn exam-btn-next" onclick="this.closest('.modal-overlay').remove(); finishTest(false)">Submit</button>
+      </div>
+    </div>
+  `;
+  document.body.appendChild(modal);
+}
+
 function finishTest(timedOut) {
   clearInterval(timerInterval);
   const total = questions.length, attempted = answers.filter(a => a).length, correct = answers.filter(a => a && a.isCorrect).length;
@@ -138,6 +191,17 @@ function finishTest(timedOut) {
   `;
   attachReviewWidget("reviewWidgetContainer", "practice");
 }
+
+window.addEventListener("keydown", (e) => {
+  if (e.target.tagName === "INPUT" || e.target.tagName === "TEXTAREA") return;
+  const key = e.key.toUpperCase();
+  const q = questions[activeSubject][currentIndexes[activeSubject]];
+  if (["A", "B", "C", "D"].includes(key)) selectAnswer(key);
+  else if (key === "N") nextQ();
+  else if (key === "P") prevQ();
+  else if (key === "R") toggleFlag();
+  else if (key === "S") handleSubmitClick();
+});
 
 window.addEventListener("load", async () => {
   window.siteIndex = await (await fetch("../site_index.json")).json();

@@ -4,10 +4,11 @@ const testNumber = params.get("test");
 const STORAGE_KEY = testNumber ? `algocare_realfeel_${testNumber}` : null;
 
 let config = { question_count: 250, seconds_per_question: 30, min_answered_to_submit: 125 };
-let questions = [], current = 0, answers = [], endTime = null, timerInterval = null, finished = false, attemptId = null;
+let questions = [], current = 0, answers = {}, flags = [], endTime = null, timerInterval = null, finished = false, attemptId = null;
+let isCatchingSkips = false;
 let markTestFinished = () => {};
 
-function saveState() { if (!STORAGE_KEY || finished) return; sessionStorage.setItem(STORAGE_KEY, JSON.stringify({ current, answers, endTime, attemptId })); }
+function saveState() { if (!STORAGE_KEY || finished) return; sessionStorage.setItem(STORAGE_KEY, JSON.stringify({ current, answers, flags, endTime, attemptId })); }
 function loadState() { if (!STORAGE_KEY) return null; try { const raw = sessionStorage.getItem(STORAGE_KEY); return raw ? JSON.parse(raw) : null; } catch { return null; } }
 function clearState() { if (STORAGE_KEY) sessionStorage.removeItem(STORAGE_KEY); }
 
@@ -27,7 +28,7 @@ async function init() {
   if (saved && Array.isArray(saved.answers) && saved.answers.length === questions.length) {
     current = saved.current; answers = saved.answers; endTime = saved.endTime; attemptId = saved.attemptId;
   } else {
-    answers = new Array(questions.length).fill(null);
+    answers = {}; flags = [];
     endTime = Date.now() + questions.length * config.seconds_per_question * 1000;
     attemptId = generateAttemptId();
     saveState();
@@ -52,7 +53,9 @@ function updateTimerDisplay() {
   document.getElementById("examTimer").textContent = h > 0 ? `${h}:${m}:${s}` : `${m}:${s}`;
 }
 
-function answeredCount() { return answers.filter(a => a !== null).length; }
+function answeredCount() { return Object.keys(answers).length; }
+function updateTopSubmit() { const canSubmit = answeredCount() >= Math.floor(questions.length / 2); document.getElementById("topSubmitBtn").disabled = !canSubmit; }
+function showToast(msg) { const t = document.createElement("div"); t.className = "toast"; t.textContent = msg; document.body.appendChild(t); setTimeout(() => t.remove(), 3000); }
 
 function render() {
   if (finished) return;
@@ -91,6 +94,26 @@ function jumpTo(i) { current = i; saveState(); render(); }
 function prevQ() { if (current > 0) { current--; saveState(); render(); } }
 function nextQ() { if (current < questions.length - 1) { current++; saveState(); render(); } }
 
+function handleSubmitClick() {
+  const answered = answeredCount();
+  const total = questions.length;
+  if (answered < Math.floor(total / 2)) { showToast(`You must answer at least ${Math.floor(total / 2)} questions to submit.`); return; }
+  
+  const modal = document.createElement("div");
+  modal.className = "modal-overlay";
+  modal.innerHTML = `
+    <div class="modal-content">
+      <h2>Submit Exam?</h2>
+      <p>You have answered <strong>${answered}</strong> out of <strong>${total}</strong> questions.</p>
+      <div class="modal-actions">
+        <button class="exam-btn exam-btn-prev" onclick="this.closest('.modal-overlay').remove()">Cancel</button>
+        <button class="exam-btn exam-btn-next" onclick="this.closest('.modal-overlay').remove(); finishExam()">Submit</button>
+      </div>
+    </div>
+  `;
+  document.body.appendChild(modal);
+}
+
 function finishExam() {
   if (finished) return;
   finished = true;
@@ -121,5 +144,16 @@ function finishExam() {
   `;
   attachReviewWidget("reviewWidgetContainer", "real_feel");
 }
+
+window.addEventListener("keydown", (e) => {
+  if (e.target.tagName === "INPUT" || e.target.tagName === "TEXTAREA") return;
+  const key = e.key.toUpperCase();
+  const q = questions[current];
+  if (["A", "B", "C", "D"].includes(key)) selectAnswer(key);
+  else if (key === "N") nextQ();
+  else if (key === "P") prevQ();
+  else if (key === "R") toggleFlag();
+  else if (key === "S") handleSubmitClick();
+});
 
 window.addEventListener("load", async () => { init(); });
