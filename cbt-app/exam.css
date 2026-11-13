@@ -99,10 +99,10 @@ body.exam-theme {
 .exam-actions { display: flex; gap: 12px; margin-top: 20px; margin-bottom: 24px; }
 .exam-btn { 
     flex: 1; 
-    padding: 10px 16px !important; /* Overriding any previous padding */
+    padding: 6px 12px !important; /* Overriding any previous padding */
     border-radius: 6px; 
     font-weight: 700; 
-    font-size: 0.9rem !important; 
+    font-size: 0.8rem !important; 
     border: none; 
     cursor: pointer; 
     display: flex; 
