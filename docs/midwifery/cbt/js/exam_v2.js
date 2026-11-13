@@ -1,4 +1,3 @@
-
 const params = new URLSearchParams(window.location.search);
 const testNumber = params.get("test");
 const STORAGE_KEY = testNumber ? `algocare_realfeel_${testNumber}` : null;
@@ -6,9 +5,8 @@ const STORAGE_KEY = testNumber ? `algocare_realfeel_${testNumber}` : null;
 let config = { question_count: 250, seconds_per_question: 30, min_answered_to_submit: 125 };
 let questions = [], current = 0, answers = {}, flags = [], endTime = null, timerInterval = null, finished = false, attemptId = null;
 let isCatchingSkips = false;
-let markTestFinished = () => {};
 
-function saveState() { if (!STORAGE_KEY || finished) return; sessionStorage.setItem(STORAGE_KEY, JSON.stringify({ current, answers, flags, endTime, attemptId })); }
+function saveState() { if (!STORAGE_KEY || finished) return; sessionStorage.setItem(STORAGE_KEY, JSON.stringify({ current, answers, flags, endTime, attemptId, isCatchingSkips })); }
 function loadState() { if (!STORAGE_KEY) return null; try { const raw = sessionStorage.getItem(STORAGE_KEY); return raw ? JSON.parse(raw) : null; } catch { return null; } }
 function clearState() { if (STORAGE_KEY) sessionStorage.removeItem(STORAGE_KEY); }
 
@@ -25,8 +23,8 @@ async function init() {
 
   if (!questions.length) return;
   const saved = loadState();
-  if (saved && Array.isArray(saved.answers) && saved.answers.length === questions.length) {
-    current = saved.current; answers = saved.answers; endTime = saved.endTime; attemptId = saved.attemptId;
+  if (saved && Array.isArray(saved.answers) && Object.keys(saved.answers).length > 0) {
+    current = saved.current || 0; answers = saved.answers || {}; flags = saved.flags || []; endTime = saved.endTime; attemptId = saved.attemptId; isCatchingSkips = saved.isCatchingSkips || false;
   } else {
     answers = {}; flags = [];
     endTime = Date.now() + questions.length * config.seconds_per_question * 1000;
@@ -34,7 +32,7 @@ async function init() {
     saveState();
     logTestStarted(attemptId, "real_feel", testNumber, questions.length);
   }
-  markTestFinished = trackAbandonment(attemptId, "real_feel", testNumber, questions.length, () => answers.filter(a => a !== null).length);
+  markTestFinished = trackAbandonment(attemptId, "real_feel", testNumber, questions.length, () => Object.keys(answers).length);
   if (Date.now() >= endTime) { finishExam(); return; }
   startTimer(); render();
 }
@@ -54,75 +52,92 @@ function updateTimerDisplay() {
 }
 
 function answeredCount() { return Object.keys(answers).length; }
-function updateTopSubmit() { const canSubmit = answeredCount() >= Math.floor(questions.length / 2); document.getElementById("topSubmitBtn").disabled = !canSubmit; }
-function showToast(msg) { const t = document.createElement("div"); t.className = "toast"; t.textContent = msg; document.body.appendChild(t); setTimeout(() => t.remove(), 3000); }
+
+function showToast(msg) { 
+  const t = document.createElement("div"); 
+  t.className = "toast"; 
+  t.textContent = msg; 
+  document.body.appendChild(t); 
+  setTimeout(() => t.remove(), 3000); 
+}
 
 function render() {
   if (finished) return;
-  const q = questions[current], selected = answers[current];
+  const q = questions[current], selected = answers[q.question_id];
+  const isFlagged = flags.includes(q.question_id);
+  
   const opts = Object.keys(q.options).map(k => {
     const cls = "exam-opt" + (k === selected ? " selected" : "");
     return `<button class="${cls}" onclick="selectAnswer('${k}')"><div class="opt-letter">${k}</div><div>${q.options[k]}</div></button>`;
   }).join("");
 
-  const canSubmit = answeredCount() >= config.min_answered_to_submit;
-
   document.getElementById("examRoot").innerHTML = `
     <div class="exam-main">
-      <div class="exam-q-info"><span>Question ${current + 1} of ${questions.length}</span><span>| Answered: ${answeredCount()}/${questions.length}</span></div>
+      <div class="exam-q-info">
+        <span>Question ${current + 1} of ${questions.length}</span>
+        <span>| Answered: ${answeredCount()}/${questions.length}</span>
+        <button class="exam-flag-btn ${isFlagged ? 'flagged' : ''}" onclick="toggleFlag()">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"></path><line x1="4" y1="22" x2="4" y2="15"></line></svg>
+          ${isFlagged ? 'Flagged' : 'Flag (R)'}
+        </button>
+      </div>
       <div class="exam-card"><div class="exam-q-text">${q.question}</div><div class="exam-options">${opts}</div></div>
       <div class="exam-actions" style="margin-top:auto">
         <button class="exam-btn exam-btn-prev" onclick="prevQ()" ${current === 0 ? "disabled" : ""}>← Prev (P)</button>
-        <button class="exam-btn exam-btn-next" onclick="nextQ()" ${current === questions.length - 1 ? "disabled" : ""}>Next (N) →</button>
-        
+        <button class="exam-btn exam-btn-next" onclick="nextQ()">Next (N) →</button>
       </div>
     </div>
     <div class="exam-palette">
       <div class="palette-header"><span>Question Palette</span></div>
-      <div class="palette-grid">${questions.map((_, i) => {
+      <div class="palette-grid">${questions.map((item, i) => {
           let c = "palette-btn";
           if (i === current) c += " current";
-          else if (answers[i]) c += " answered";
+          else if (answers[item.question_id]) c += " answered";
+          if (flags.includes(item.question_id)) c += " flagged";
           return `<button class="${c}" onclick="jumpTo(${i})">${i + 1}</button>`;
         }).join("")}</div>
     </div>
   `;
 }
 
-function selectAnswer(k) { answers[current] = k; isCatchingSkips = false; saveState(); render(); }
-function jumpTo(i) { current = i; saveState(); render(); }
-function prevQ() { if (current > 0) { current--; saveState(); render(); } }
+function jumpTo(i) { current = i; isCatchingSkips = false; saveState(); render(); }
+function toggleFlag() { const q = questions[current]; if (flags.includes(q.question_id)) flags = flags.filter(id => id !== q.question_id); else flags.push(q.question_id); saveState(); render(); }
+
 function nextQ() {
-  // Trigger catch skips if we are already doing it, OR if we are on the very last question
   if (isCatchingSkips || current === questions.length - 1) {
     let targetIndex = -1;
-    
-    // Search forward from current position
-    for (let i = current + 1; i < questions.length; i++) { 
-      if (!answers[questions[i].question_id]) { targetIndex = i; break; } 
-    }
-    
-    // If not found forward, search from the beginning
+    for (let i = current + 1; i < questions.length; i++) { if (!answers[questions[i].question_id]) { targetIndex = i; break; } }
     if (targetIndex === -1) {
-      for (let i = 0; i <= current; i++) { 
-        if (!answers[questions[i].question_id]) { targetIndex = i; break; } 
-      }
+      for (let i = 0; i <= current; i++) { if (!answers[questions[i].question_id]) { targetIndex = i; break; } }
     }
-    
-    if (targetIndex !== -1) { 
-      jumpTo(targetIndex); 
-      isCatchingSkips = true; 
-      showToast("Jumped to next unanswered"); 
-    } else { 
-      handleSubmitClick(); 
-    }
+    if (targetIndex !== -1) { jumpTo(targetIndex); isCatchingSkips = true; showToast("Jumped to next unanswered question"); }
+    else { handleSubmitClick(); }
     return;
   }
+  if (current < questions.length - 1) { jumpTo(current + 1); }
+}
+
+function prevQ() { if (current > 0) { jumpTo(current - 1); } isCatchingSkips = false; }
+function selectAnswer(k) { answers[questions[current].question_id] = k; isCatchingSkips = false; saveState(); render(); }
+
+function handleSubmitClick() {
+  const answered = answeredCount();
+  const total = questions.length;
+  if (answered < Math.floor(total / 2)) { showToast(`You must answer at least ${Math.floor(total / 2)} questions to submit.`); return; }
   
-  // Normal sequential next
-  if (current < questions.length - 1) { 
-    jumpTo(current + 1); 
-  }
+  const modal = document.createElement("div");
+  modal.className = "modal-overlay";
+  modal.innerHTML = `
+    <div class="modal-content">
+      <h2>Submit Exam?</h2>
+      <p>You have answered <strong>${answered}</strong> out of <strong>${total}</strong> questions.</p>
+      <div class="modal-actions">
+        <button class="exam-btn exam-btn-prev" onclick="this.closest('.modal-overlay').remove()">Cancel</button>
+        <button class="exam-btn exam-btn-next" onclick="this.closest('.modal-overlay').remove(); finishExam()">Submit</button>
+      </div>
+    </div>
+  `;
+  document.body.appendChild(modal);
 }
 
 function finishExam() {
@@ -131,7 +146,7 @@ function finishExam() {
   clearInterval(timerInterval);
   const total = questions.length, attempted = answeredCount();
   let correct = 0;
-  questions.forEach((q, i) => { if (answers[i] === q.answer) correct++; });
+  questions.forEach((q) => { if (answers[q.question_id] === q.answer) correct++; });
   const pctOfAttempted = attempted > 0 ? Math.round((correct / attempted) * 100) : 0;
   const pctOfTotal = Math.round((correct / total) * 100);
 
@@ -159,7 +174,6 @@ function finishExam() {
 window.addEventListener("keydown", (e) => {
   if (e.target.tagName === "INPUT" || e.target.tagName === "TEXTAREA") return;
   const key = e.key.toUpperCase();
-  const q = questions[current];
   if (["A", "B", "C", "D"].includes(key)) selectAnswer(key);
   else if (key === "N") nextQ();
   else if (key === "P") prevQ();
