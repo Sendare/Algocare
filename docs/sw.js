@@ -1,4 +1,4 @@
-const BUILD_ID = "20261113073248";
+const BUILD_ID = "20261113074908";
 const CACHE_NAME = `algocare-v5-${BUILD_ID}`;
 const PRECACHE = [
   "/", "/manifest.webmanifest",
@@ -37,7 +37,7 @@ self.addEventListener("fetch", (event) => {
         const copy = res.clone();
         caches.open(CACHE_NAME).then((c) => c.put(req, copy));
         return res;
-      }).catch(() => caches.match(req).then((r) => r || caches.match("/")))
+      }).catch(() => caches.match(req))
     );
     return;
   }

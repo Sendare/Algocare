@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#09090b">
+<title>Algocare — Exam</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+<link rel="stylesheet" href="exam.css?v=5">
+</head>
+<body class="exam-theme">
+<div class="exam-header">
+  <div class="exam-header-left">
+    <span class="exam-header-title">Algocare CBT</span>
+    <span style="font-size:0.75rem; color:#a1a1aa">Real-Feel Exam</span>
+  </div>
+  <div class="exam-header-right">
+    <button class="exam-btn-submit" style="background:#18181b; border:1px solid #27272a; color:#fff" onclick="toggleCalculator()">Calc</button>
+    <div class="exam-timer" id="examTimer">--:--</div>
+    <button class="exam-btn-submit" onclick="finishExam()">Submit</button>
+  </div>
+</div>
+<div id="examRoot" style="display:flex; flex-direction:column; flex:1; overflow:hidden;"></div>
+
+<div id="calcModal" class="calc-modal">
+  <div class="calc-header">
+    <span>Calculator</span>
+    <button class="calc-close" onclick="toggleCalculator()">✕</button>
+  </div>
+  <div class="calc-display" id="calcDisplay">0</div>
+  <div class="calc-grid">
+    <button class="calc-btn" onclick="calcInput('7')">7</button>
+    <button class="calc-btn" onclick="calcInput('8')">8</button>
+    <button class="calc-btn" onclick="calcInput('9')">9</button>
+    <button class="calc-btn op" onclick="calcInput('/')">÷</button>
+    <button class="calc-btn" onclick="calcInput('4')">4</button>
+    <button class="calc-btn" onclick="calcInput('5')">5</button>
+    <button class="calc-btn" onclick="calcInput('6')">6</button>
+    <button class="calc-btn op" onclick="calcInput('*')">×</button>
+    <button class="calc-btn" onclick="calcInput('1')">1</button>
+    <button class="calc-btn" onclick="calcInput('2')">2</button>
+    <button class="calc-btn" onclick="calcInput('3')">3</button>
+    <button class="calc-btn op" onclick="calcInput('-')">-</button>
+    <button class="calc-btn" onclick="calcInput('0')">0</button>
+    <button class="calc-btn" onclick="calcInput('.')">.</button>
+    <button class="calc-btn op" onclick="calcInput('+')">+</button>
+    <button class="calc-btn op" onclick="calcInput('C')">C</button>
+    <button class="calc-btn eq" onclick="calcInput('=')">=</button>
+  </div>
+</div>
+
+<script src="../assets/analytics.js"></script>
+<script src="js/util.js"></script>
+<script src="js/real_feel.js"></script>
+</body>
+</html>
