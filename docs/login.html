@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Log In — Algocare</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+
+<style>
+.auth-container { max-width: 400px; margin: 60px auto; padding: 32px; background: var(--card); border: 1px solid var(--grey-line); border-radius: 12px; box-shadow: var(--shadow); }
+.auth-container h2 { text-align: center; margin-bottom: 24px; font-size: 1.5rem; }
+.auth-error { background: var(--brick-soft); color: var(--brick); padding: 10px; border-radius: 6px; font-size: 0.85rem; margin-bottom: 16px; display: none; }
+.auth-input-group { margin-bottom: 16px; }
+.auth-input-group label { display: block; font-family: var(--mono); font-size: 0.75rem; text-transform: uppercase; color: var(--grey); margin-bottom: 6px; }
+.auth-input-group input { width: 100%; padding: 12px; border: 1px solid var(--grey-line); border-radius: 6px; background: var(--paper); box-sizing: border-box; }
+.auth-btn { width: 100%; padding: 12px; background: var(--scrub); color: #fff; border: none; border-radius: 6px; font-weight: 700; cursor: pointer; font-size: 1rem; margin-top: 8px; }
+.auth-btn:disabled { opacity: 0.6; cursor: not-allowed; }
+.auth-links { text-align: center; margin-top: 20px; font-size: 0.85rem; color: var(--ink-soft); }
+.auth-links a { color: var(--scrub); font-weight: 600; text-decoration: none; }
+</style>
+
+</head>
+<body>
+<div class="topbar"><div class="brand"><span class="pulse-dot"></span>Algocare</div></div>
+<div class="auth-container">
+  <h2>Welcome Back</h2>
+  <div id="authError" class="auth-error"></div>
+  <form id="loginForm">
+    <div class="auth-input-group">
+      <label>Email</label>
+      <input type="email" id="email" required placeholder="you@example.com">
+    </div>
+    <div class="auth-input-group">
+      <label>Password</label>
+      <input type="password" id="password" required placeholder="••••••••">
+    </div>
+    <button type="submit" class="auth-btn" id="submitBtn">Log In</button>
+  </form>
+  <div class="auth-links">
+    Don't have an account? <a href="signup.html">Sign Up</a>
+  </div>
+</div>
+<script src="assets/auth.js"></script>
+<script>
+  document.getElementById("loginForm").addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const btn = document.getElementById("submitBtn");
+    const err = document.getElementById("authError");
+    btn.disabled = true; btn.textContent = "Logging in..."; err.style.display = "none";
+    try {
+      await logIn(document.getElementById("email").value, document.getElementById("password").value);
+      window.location.href = "dashboard.html";
+    } catch (error) {
+      err.textContent = error.message; err.style.display = "block";
+      btn.disabled = false; btn.textContent = "Log In";
+    }
+  });
+</script>
+</body>
+</html>

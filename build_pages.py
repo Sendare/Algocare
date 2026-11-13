@@ -214,6 +214,7 @@ PAGE_HEAD = """<!DOCTYPE html>
 <link rel="icon" href="{root_rel}icon-192x192.png" sizes="192x192">
 <link rel="stylesheet" href="{rel}assets/style.css">
 <script src="{rel}assets/analytics.js"></script>
+<script src="{root_rel}assets/auth.js"></script>
 </head>
 <body>
 <div class="topbar">
@@ -221,7 +222,8 @@ PAGE_HEAD = """<!DOCTYPE html>
   <div>
     <a href="{rel}cbt/index.html" style="font-size: 0.85rem; color: var(--scrub); font-weight: 600; margin-right: 16px;">Practice tests</a>
     <a href="{rel}index.html" style="font-size: 0.85rem; color: var(--ink-soft); margin-right: 16px;">Home</a>
-    <a href="{root_rel}index.html" style="font-size: 0.85rem; color: var(--ink-soft);">All programs</a>
+    <a href="{root_rel}index.html" style="font-size: 0.85rem; color: var(--ink-soft); margin-right: 16px;">All programs</a>
+    <span id="authSlot"></span>
   
     <button class="theme-toggle" onclick="
       const cur = document.documentElement.getAttribute('data-theme');
