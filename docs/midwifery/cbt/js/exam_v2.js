@@ -118,7 +118,7 @@ function nextQ() {
 }
 
 function prevQ() { if (current > 0) { jumpTo(current - 1); } isCatchingSkips = false; }
-function selectAnswer(k) { answers[questions[current].question_id] = k; isCatchingSkips = false; saveState(); render(); }
+function selectAnswer(k) { answers[questions[current].question_id] = k; saveState(); render(); }
 
 function handleSubmitClick() {
   const answered = answeredCount();

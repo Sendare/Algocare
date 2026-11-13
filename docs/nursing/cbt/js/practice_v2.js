@@ -226,7 +226,6 @@ function prevQ() {
 function selectAnswer(k) { 
   const q = questions[activeSubject][currentIndexes[activeSubject]];
   answers[q.question_id] = { selected: k, isCorrect: k === q.answer, showExplanation: false }; 
-  isCatchingSkips = false; 
   saveState(); render(); 
 }
 
