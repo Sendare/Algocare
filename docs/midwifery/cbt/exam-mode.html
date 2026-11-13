@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="jamb">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,35 +7,31 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../assets/style.css">
-<style>
-  .exam-layout { height: 100vh; display: flex; flex-direction: column; }
-  .exam-main { flex: 1; overflow-y: auto; padding: 16px; display: flex; flex-direction: column; max-width: 800px; margin: 0 auto; width: 100%; }
-  .exam-palette { background: var(--card); border-top: 1px solid var(--grey-line); padding: 16px; }
-  .palette-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(36px, 1fr)); gap: 8px; margin-top: 10px; }
-  .palette-btn { height: 36px; border-radius: 6px; border: 1px solid var(--grey-line); background: var(--paper); color: var(--ink-soft); font-weight: 700; cursor: pointer; }
-  .palette-btn.current { outline: 2px solid var(--scrub); outline-offset: 2px; }
-  .palette-btn.answered { background: var(--scrub); color: #fff; border-color: var(--scrub); }
-  .palette-btn.flagged { background: var(--amber); color: #000; border-color: var(--amber); }
-</style>
+<link rel="stylesheet" href="exam.css?v=99">
 </head>
-<body style="margin:0; background:var(--paper);">
-<div class="exam-layout">
-  <header class="exam-header">
-    <div class="exam-header-left">
-      <span class="exam-header-title">Algocare CBT</span>
-      <span style="font-size:0.75rem; color:#a1a1aa">Real-Feel Exam</span>
-    </div>
-    <div class="exam-header-right">
-      <button class="exam-btn-submit" onclick="toggleCalculator()" style="background:#18181b; border:1px solid #27272a; color:#fff">Calc</button>
-      <div class="exam-timer" id="examTimer">--:--</div>
-      <button class="exam-btn-submit" onclick="finishTest(true)">Submit</button>
-    </div>
-  </header>
-  <div id="examRoot" style="display:flex; flex-direction:column; flex:1; overflow:hidden;"></div>
+<body class="exam-theme">
+<div class="exam-header">
+  <div class="exam-header-left"><span class="exam-header-title">Algocare CBT</span><span style="font-size:0.75rem; color:#a1a1aa">Exam Mode</span></div>
+  <div class="exam-header-right">
+    <button class="exam-btn-submit" style="background:#18181b; border:1px solid #27272a; color:#fff" onclick="toggleCalculator()">Calc</button>
+    <div class="exam-timer" id="examTimer">--:--</div>
+    <button class="exam-btn-submit" onclick="finishExam()">Submit</button>
+  </div>
 </div>
-
+<div id="examRoot" style="display:flex; flex-direction:column; flex:1; overflow:hidden;"></div>
+<div id="calcModal" class="calc-modal">
+  <div class="calc-header"><span>Calculator</span><button class="calc-close" onclick="toggleCalculator()">✕</button></div>
+  <div class="calc-display" id="calcDisplay">0</div>
+  <div class="calc-grid">
+    <button class="calc-btn" onclick="calcInput('7')">7</button><button class="calc-btn" onclick="calcInput('8')">8</button><button class="calc-btn" onclick="calcInput('9')">9</button><button class="calc-btn op" onclick="calcInput('/')">÷</button>
+    <button class="calc-btn" onclick="calcInput('4')">4</button><button class="calc-btn" onclick="calcInput('5')">5</button><button class="calc-btn" onclick="calcInput('6')">6</button><button class="calc-btn op" onclick="calcInput('*')">×</button>
+    <button class="calc-btn" onclick="calcInput('1')">1</button><button class="calc-btn" onclick="calcInput('2')">2</button><button class="calc-btn" onclick="calcInput('3')">3</button><button class="calc-btn op" onclick="calcInput('-')">-</button>
+    <button class="calc-btn" onclick="calcInput('0')">0</button><button class="calc-btn" onclick="calcInput('.')">.</button><button class="calc-btn op" onclick="calcInput('+')">+</button><button class="calc-btn op" onclick="calcInput('C')">C</button>
+    <button class="calc-btn eq" onclick="calcInput('=')">=</button>
+  </div>
+</div>
 <script src="../assets/analytics.js"></script>
 <script src="js/util.js"></script>
-<script src="js/real_feel.js"></script>
+<script src="js/exam_v2.js"></script>
 </body>
 </html>
