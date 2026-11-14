@@ -261,12 +261,27 @@ def main():
         course_map = get_course_branch_map(prog)
         ctx_lookup = build_context_lookup(curriculum, course_map)
         
+        state_file = ROOT_DIR / "state" / prog / "build_state.json"
+        state_file.parent.mkdir(parents=True, exist_ok=True)
+        state_data = load_json(state_file, {"published_done": []})
+        published_done = set(state_data["published_done"])
+        
         published = []
         courses = {}
         
         articles_dir = Path(f"data/{prog}/articles")
-        if articles_dir.exists():
-            for a_file in articles_dir.glob("*.json"):
+        all_articles = list(articles_dir.glob("*.json")) if articles_dir.exists() else []
+        pending_articles = [a for a in all_articles if a.stem not in published_done]
+        
+        if not pending_articles:
+            print(f"  ✅ All {len(all_articles)} articles already built for {prog}.")
+            print("ALL_DONE")
+            # We still need to build nav and real-feel, so we don't return yet
+        else:
+            batch = pending_articles[:100]
+            print(f"  📦 Processing batch of {len(batch)} articles (Total remaining: {len(pending_articles)})...")
+            
+            for a_file in batch:
                 topic_id = a_file.stem
                 ctx = ctx_lookup.get(topic_id)
                 if not ctx: continue
@@ -276,10 +291,21 @@ def main():
                 
                 write_html(DOCS_DIR / prog / ctx["course_slug"] / ctx["unit_slug"] / f"{topic_id}.html", render_article_page(article, ctx))
                 published.append(topic_id)
+                published_done.add(topic_id)
                 
-                courses.setdefault(ctx["course_slug"], {"course_name": ctx["course_name"], "units": {}})
-                courses[ctx["course_slug"]]["units"].setdefault(ctx["unit_slug"], {"unit_name": ctx["unit_name"], "topics": []})
-                courses[ctx["course_slug"]]["units"][ctx["unit_slug"]]["topics"].append({"topic_id": topic_id, "title": ctx["title"], "order": ctx["order"]})
+            # Save state
+            state_data["published_done"] = list(published_done)
+            save_json(state_file, state_data)
+            print(f"  💾 Saved state: {len(published_done)} total published.")
+
+        # Rebuild navigation and index based on *all* published articles (from state)
+        published = list(published_done)
+        for topic_id in published:
+            ctx = ctx_lookup.get(topic_id)
+            if not ctx: continue
+            courses.setdefault(ctx["course_slug"], {"course_name": ctx["course_name"], "units": {}})
+            courses[ctx["course_slug"]]["units"].setdefault(ctx["unit_slug"], {"unit_name": ctx["unit_name"], "topics": []})
+            courses[ctx["course_slug"]]["units"][ctx["unit_slug"]]["topics"].append({"topic_id": topic_id, "title": ctx["title"], "order": ctx["order"]})
 
         # Generate Navigation Pages
         for c_slug, c_data in courses.items():
@@ -310,7 +336,12 @@ def main():
             save_json(DOCS_DIR / prog / "data" / "course_pools" / f"{c_slug}.json", flat_qs)
 
         build_real_feel_tests(prog)
-        print(f"  ✅ Built {len(published)} articles and generated exams for {prog}")
+        print(f"  ✅ Generated exams and navigation for {prog}")
+        
+        if not pending_articles:
+            print("BATCH_COMPLETE_ALL_DONE")
+        else:
+            print("BATCH_COMPLETE_MORE_REMAINING")
 
     print("\n🎉 Build Complete! Deploy the 'docs' folder.")
 
