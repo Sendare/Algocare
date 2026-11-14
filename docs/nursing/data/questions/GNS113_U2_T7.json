@@ -1,0 +1,258 @@
+[
+  {
+    "question_id": "GNS113_U2_T7_h1_q1",
+    "heading_id": "GNS113_U2_T7_h1",
+    "article_id": "GNS113_U2_T7",
+    "topic_id": "GNS113_U2_T7",
+    "difficulty": "recall",
+    "question": "What best describes raw, uninterpreted facts collected in clinical practice?",
+    "options": {
+      "A": "Processed knowledge",
+      "B": "Synthesized wisdom",
+      "C": "Clinical information",
+      "D": "Raw health data"
+    },
+    "answer": "D",
+    "explanation": "Data consists of uninterpreted facts and figures before they are given context or meaning. [learn more](GNS113_U2_T7#GNS113_U2_T7_h1)"
+  },
+  {
+    "question_id": "GNS113_U2_T7_h1_q2",
+    "heading_id": "GNS113_U2_T7_h1",
+    "article_id": "GNS113_U2_T7",
+    "topic_id": "GNS113_U2_T7",
+    "difficulty": "understanding",
+    "question": "A nurse reviews a patient's temperature of 39.2 degrees Celsius and identifies it as a fever. This process demonstrates the conversion of data into what level?",
+    "options": {
+      "A": "Algorithm",
+      "B": "Hardware",
+      "C": "Information",
+      "D": "Database"
+    },
+    "answer": "C",
+    "explanation": "Giving context to raw numbers turns them into meaningful information that guides clinical thinking. [learn more](GNS113_U2_T7#GNS113_U2_T7_h1)"
+  },
+  {
+    "question_id": "GNS113_U2_T7_h2_q1",
+    "heading_id": "GNS113_U2_T7_h2",
+    "article_id": "GNS113_U2_T7",
+    "topic_id": "GNS113_U2_T7",
+    "difficulty": "recall",
+    "question": "A data quality dimension that ensures all required fields in a patient chart are filled is known as what?",
+    "options": {
+      "A": "Consistency",
+      "B": "Validity",
+      "C": "Timeliness",
+      "D": "Completeness"
+    },
+    "answer": "D",
+    "explanation": "Completeness requires that no essential clinical details or required fields are left blank in the record. [learn more](GNS113_U2_T7#GNS113_U2_T7_h2)"
+  },
+  {
+    "question_id": "GNS113_U2_T7_h2_q2",
+    "heading_id": "GNS113_U2_T7_h2",
+    "article_id": "GNS113_U2_T7",
+    "topic_id": "GNS113_U2_T7",
+    "difficulty": "application",
+    "question": "A nurse documents a patient's blood pressure as 120/80 mmHg immediately after measurement. Which data quality principle is primarily demonstrated here?",
+    "options": {
+      "A": "Anonymity",
+      "B": "Timeliness",
+      "C": "Redundancy",
+      "D": "Subjectivity"
+    },
+    "answer": "B",
+    "explanation": "Recording observations immediately ensures that information is available in a timely manner for clinical decisions. [learn more](GNS113_U2_T7#GNS113_U2_T7_h2)"
+  },
+  {
+    "question_id": "GNS113_U2_T7_h3_q1",
+    "heading_id": "GNS113_U2_T7_h3",
+    "article_id": "GNS113_U2_T7",
+    "topic_id": "GNS113_U2_T7",
+    "difficulty": "recall",
+    "question": "What is a frequent cause of fragmented patient history in electronic health systems?",
+    "options": {
+      "A": "Duplicate patient charts",
+      "B": "Real-time vital sync",
+      "C": "Immediate data entry",
+      "D": "Standardized vocabulary use"
+    },
+    "answer": "A",
+    "explanation": "Creating duplicate charts splits a single patient's health information across multiple profiles, causing fragmentation. [learn more](GNS113_U2_T7#GNS113_U2_T7_h3)"
+  },
+  {
+    "question_id": "GNS113_U2_T7_h3_q2",
+    "heading_id": "GNS113_U2_T7_h3",
+    "article_id": "GNS113_U2_T7",
+    "topic_id": "GNS113_U2_T7",
+    "difficulty": "understanding",
+    "question": "How do documentation errors directly affect patient safety in clinical practice?",
+    "options": {
+      "A": "They lead to incorrect medication dosages and missed allergies",
+      "B": "They eliminate the need for physical bedside assessments",
+      "C": "They increase the speed of interprofessional shift handovers",
+      "D": "They automatically upgrade hospital accreditation status"
+    },
+    "answer": "A",
+    "explanation": "Inaccurate records mislead healthcare providers, increasing the risk of medication errors and unmanaged patient allergies. [learn more](GNS113_U2_T7#GNS113_U2_T7_h3)"
+  },
+  {
+    "question_id": "GNS113_U2_T7_h4_q1",
+    "heading_id": "GNS113_U2_T7_h4",
+    "article_id": "GNS113_U2_T7",
+    "topic_id": "GNS113_U2_T7",
+    "difficulty": "recall",
+    "question": "A software feature that rejects an impossible vital sign entry is an example of which validation method?",
+    "options": {
+      "A": "Manual audit",
+      "B": "Peer debriefing",
+      "C": "Data encryption",
+      "D": "Range check"
+    },
+    "answer": "D",
+    "explanation": "Range checks set upper and lower limits in software to flag or block data that falls outside realistic biological parameters. [learn more](GNS113_U2_T7#GNS113_U2_T7_h4)"
+  },
+  {
+    "question_id": "GNS113_U2_T7_h4_q2",
+    "heading_id": "GNS113_U2_T7_h4",
+    "article_id": "GNS113_U2_T7",
+    "topic_id": "GNS113_U2_T7",
+    "difficulty": "understanding",
+    "question": "Why is the read-back technique important when receiving telephone or verbal clinical orders?",
+    "options": {
+      "A": "It prevents misinterpretation of critical clinical instructions",
+      "B": "It speeds up the hospital electronic billing process",
+      "C": "It automatically updates the national health database",
+      "D": "It replaces the need for a written patient consent form"
+    },
+    "answer": "A",
+    "explanation": "Repeating orders aloud gives the sender a chance to correct misunderstandings immediately before entry. [learn more](GNS113_U2_T7#GNS113_U2_T7_h4)"
+  },
+  {
+    "question_id": "GNS113_U2_T7_h5_q1",
+    "heading_id": "GNS113_U2_T7_h5",
+    "article_id": "GNS113_U2_T7",
+    "topic_id": "GNS113_U2_T7",
+    "difficulty": "recall",
+    "question": "What is the primary purpose of standardized nursing terminologies like NANDA-I in electronic health records?",
+    "options": {
+      "A": "To ensure universal understanding of care plans",
+      "B": "To calculate daily hospital utility expenses",
+      "C": "To encrypt patient files against cyber threats",
+      "D": "To bypass regulatory legal documentation laws"
+    },
+    "answer": "A",
+    "explanation": "Standardized terminologies use common definitions so nurses everywhere interpret patient problems and interventions identically. [learn more](GNS113_U2_T7#GNS113_U2_T7_h5)"
+  },
+  {
+    "question_id": "GNS113_U2_T7_h5_q2",
+    "heading_id": "GNS113_U2_T7_h5",
+    "article_id": "GNS113_U2_T7",
+    "topic_id": "GNS113_U2_T7",
+    "difficulty": "understanding",
+    "question": "How do interoperability frameworks like HL7 and FHIR benefit modern healthcare delivery?",
+    "options": {
+      "A": "They automatically generate mandatory legal court documents",
+      "B": "They restrict patient access to personal electronic health records",
+      "C": "They enable smooth exchange of health data between different software systems",
+      "D": "They replace the need for physical bedside nursing assessments"
+    },
+    "answer": "C",
+    "explanation": "Interoperability standards bridge gaps between different software vendors, allowing complete health histories to follow patients. [learn more](GNS113_U2_T7#GNS113_U2_T7_h5)"
+  },
+  {
+    "question_id": "GNS113_U2_T7_h6_q1",
+    "heading_id": "GNS113_U2_T7_h6",
+    "article_id": "GNS113_U2_T7",
+    "topic_id": "GNS113_U2_T7",
+    "difficulty": "recall",
+    "question": "What ethical principle serves as the foundation for protecting patient health information in clinical practice?",
+    "options": {
+      "A": "Veracity",
+      "B": "Beneficence",
+      "C": "Confidentiality",
+      "D": "Autonomy"
+    },
+    "answer": "C",
+    "explanation": "Confidentiality obligates healthcare providers to protect private patient data from unauthorized disclosure. [learn more](GNS113_U2_T7#GNS113_U2_T7_h6)"
+  },
+  {
+    "question_id": "GNS113_U2_T7_h6_q2",
+    "heading_id": "GNS113_U2_T7_h6",
+    "article_id": "GNS113_U2_T7",
+    "topic_id": "GNS113_U2_T7",
+    "difficulty": "application",
+    "question": "A nurse looks up the electronic medical record of a neighbor who is not assigned to their care unit. What legal or ethical boundary has been violated?",
+    "options": {
+      "A": "Standard requirement for data completeness",
+      "B": "Principle of biomedical interoperability",
+      "C": "Right to privacy and confidentiality",
+      "D": "Guideline for rapid incident reporting"
+    },
+    "answer": "C",
+    "explanation": "Accessing records without a direct clinical need violates patient privacy and institutional confidentiality policies. [learn more](GNS113_U2_T7#GNS113_U2_T7_h6)"
+  },
+  {
+    "question_id": "GNS113_U2_T7_h7_q1",
+    "heading_id": "GNS113_U2_T7_h7",
+    "article_id": "GNS113_U2_T7",
+    "topic_id": "GNS113_U2_T7",
+    "difficulty": "recall",
+    "question": "Positioning computer screens away from public waiting areas is an example of which security safeguard?",
+    "options": {
+      "A": "Technical safeguard",
+      "B": "Interoperable safeguard",
+      "C": "Administrative safeguard",
+      "D": "Physical safeguard"
+    },
+    "answer": "D",
+    "explanation": "Physical safeguards protect the actual hardware and environment where electronic data is displayed and stored. [learn more](GNS113_U2_T7#GNS113_U2_T7_h7)"
+  },
+  {
+    "question_id": "GNS113_U2_T7_h7_q2",
+    "heading_id": "GNS113_U2_T7_h7",
+    "article_id": "GNS113_U2_T7",
+    "topic_id": "GNS113_U2_T7",
+    "difficulty": "understanding",
+    "question": "Which measure is a primary example of a technical safeguard in electronic health record systems?",
+    "options": {
+      "A": "Staff orientation lectures on privacy ethics",
+      "B": "Locking doors to the hospital server room",
+      "C": "Role-based access control and data encryption",
+      "D": "Shredding paper notes at the nurses' station"
+    },
+    "answer": "C",
+    "explanation": "Technical safeguards use technology such as passwords, encryption, and access controls to secure digital information. [learn more](GNS113_U2_T7#GNS113_U2_T7_h7)"
+  },
+  {
+    "question_id": "GNS113_U2_T7_h8_q1",
+    "heading_id": "GNS113_U2_T7_h8",
+    "article_id": "GNS113_U2_T7",
+    "topic_id": "GNS113_U2_T7",
+    "difficulty": "recall",
+    "question": "What is the term for deceptive emails designed to trick healthcare staff into revealing their login passwords?",
+    "options": {
+      "A": "Auditing",
+      "B": "Interoperability",
+      "C": "Phishing",
+      "D": "Encryption"
+    },
+    "answer": "C",
+    "explanation": "Phishing involves fraudulent electronic communications disguised as legitimate sources to steal sensitive credentials. [learn more](GNS113_U2_T7#GNS113_U2_T7_h8)"
+  },
+  {
+    "question_id": "GNS113_U2_T7_h8_q2",
+    "heading_id": "GNS113_U2_T7_h8",
+    "article_id": "GNS113_U2_T7",
+    "topic_id": "GNS113_U2_T7",
+    "difficulty": "application",
+    "question": "A nurse receives an urgent email claiming to be from hospital administration asking for network login credentials to verify an account. What is the safest immediate action?",
+    "options": {
+      "A": "Report the email to the IT security department",
+      "B": "Reply directly with the requested password details",
+      "C": "Forward the message to all clinical colleagues",
+      "D": "Ignore the message and leave the terminal unlocked"
+    },
+    "answer": "A",
+    "explanation": "Reporting suspicious messages prevents potential phishing attacks and protects institutional network security. [learn more](GNS113_U2_T7#GNS113_U2_T7_h8)"
+  }
+]

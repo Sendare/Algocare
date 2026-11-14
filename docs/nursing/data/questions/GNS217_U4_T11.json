@@ -1,0 +1,194 @@
+[
+  {
+    "question_id": "GNS217_U4_T11_h1_q1",
+    "heading_id": "GNS217_U4_T11_h1",
+    "article_id": "GNS217_U4_T11",
+    "topic_id": "GNS217_U4_T11",
+    "difficulty": "recall",
+    "question": "What does an ogive graph show in research data?",
+    "options": {
+      "A": "A categorical variable count",
+      "B": "A cumulative frequency distribution",
+      "C": "A simple mean value trend",
+      "D": "A standard deviation spread"
+    },
+    "answer": "B",
+    "explanation": "An ogive is a graph specifically designed to plot cumulative frequencies against class boundaries. [learn more](GNS217_U4_T11#GNS217_U4_T11_h1)"
+  },
+  {
+    "question_id": "GNS217_U4_T11_h1_q2",
+    "heading_id": "GNS217_U4_T11_h1",
+    "article_id": "GNS217_U4_T11",
+    "topic_id": "GNS217_U4_T11",
+    "difficulty": "understanding",
+    "question": "Why would a researcher use an ogive instead of a standard histogram?",
+    "options": {
+      "A": "To compare two completely unrelated patient diagnoses",
+      "B": "To find the precise daily medication dosage errors",
+      "C": "To see total observations falling above or below a value",
+      "D": "To calculate the exact mode of a nominal data set"
+    },
+    "answer": "C",
+    "explanation": "Cumulative graphs like ogives display running totals, making it easy to see how many data points accumulate past a certain point. [learn more](GNS217_U4_T11#GNS217_U4_T11_h1)"
+  },
+  {
+    "question_id": "GNS217_U4_T11_h2_q1",
+    "heading_id": "GNS217_U4_T11_h2",
+    "article_id": "GNS217_U4_T11",
+    "topic_id": "GNS217_U4_T11",
+    "difficulty": "recall",
+    "question": "What is a running total of frequencies called in statistics?",
+    "options": {
+      "A": "Class midpoint",
+      "B": "Relative frequency",
+      "C": "Standard frequency",
+      "D": "Cumulative frequency"
+    },
+    "answer": "D",
+    "explanation": "Cumulative frequency continuously adds up the frequency values from one interval to the next. [learn more](GNS217_U4_T11#GNS217_U4_T11_h2)"
+  },
+  {
+    "question_id": "GNS217_U4_T11_h2_q2",
+    "heading_id": "GNS217_U4_T11_h2",
+    "article_id": "GNS217_U4_T11",
+    "topic_id": "GNS217_U4_T11",
+    "difficulty": "understanding",
+    "question": "What is the main purpose of class boundaries when plotting an ogive?",
+    "options": {
+      "A": "To eliminate gaps between numerical data intervals",
+      "B": "To determine the most common diagnosis in a ward",
+      "C": "To increase the total number of patient records",
+      "D": "To calculate the average age of the patients"
+    },
+    "answer": "A",
+    "explanation": "Using exact class boundaries ensures the graph's horizontal axis is continuous without missing numerical values between bins. [learn more](GNS217_U4_T11#GNS217_U4_T11_h2)"
+  },
+  {
+    "question_id": "GNS217_U4_T11_h3_q1",
+    "heading_id": "GNS217_U4_T11_h3",
+    "article_id": "GNS217_U4_T11",
+    "topic_id": "GNS217_U4_T11",
+    "difficulty": "recall",
+    "question": "Which direction does a 'less than' ogive slope on a graph?",
+    "options": {
+      "A": "Vertically straight up and down",
+      "B": "Flat across the middle axis",
+      "C": "Downward from left to right",
+      "D": "Upward from left to right"
+    },
+    "answer": "D",
+    "explanation": "A 'less than' ogive always rises because cumulative frequencies increase as you move toward higher values. [learn more](GNS217_U4_T11#GNS217_U4_T11_h3)"
+  },
+  {
+    "question_id": "GNS217_U4_T11_h3_q2",
+    "heading_id": "GNS217_U4_T11_h3",
+    "article_id": "GNS217_U4_T11",
+    "topic_id": "GNS217_U4_T11",
+    "difficulty": "understanding",
+    "question": "What does a 'greater than' ogive typically measure?",
+    "options": {
+      "A": "The lowest single recorded value in a study",
+      "B": "The exact average of all patient wait times",
+      "C": "Observations that exceed a specific lower boundary",
+      "D": "Frequencies that decrease from left to right"
+    },
+    "answer": "C",
+    "explanation": "Greater-than cumulative graphs track values that meet or exceed specific thresholds moving backward through the data. [learn more](GNS217_U4_T11#GNS217_U4_T11_h3)"
+  },
+  {
+    "question_id": "GNS217_U4_T11_h4_q1",
+    "heading_id": "GNS217_U4_T11_h4",
+    "article_id": "GNS217_U4_T11",
+    "topic_id": "GNS217_U4_T11",
+    "difficulty": "recall",
+    "question": "What value starts the line on the horizontal axis of a 'less than' ogive?",
+    "options": {
+      "A": "The highest frequency in the data set",
+      "B": "The median value of the entire study",
+      "C": "The lower boundary of the first class",
+      "D": "The total number of patients sampled"
+    },
+    "answer": "C",
+    "explanation": "An ogive always begins on the X-axis at the lower boundary of the first class where cumulative frequency is zero. [learn more](GNS217_U4_T11#GNS217_U4_T11_h4)"
+  },
+  {
+    "question_id": "GNS217_U4_T11_h4_q2",
+    "heading_id": "GNS217_U4_T11_h4",
+    "article_id": "GNS217_U4_T11",
+    "topic_id": "GNS217_U4_T11",
+    "difficulty": "application",
+    "question": "When plotting an ogive, what data goes on the vertical Y-axis?",
+    "options": {
+      "A": "Raw individual scores",
+      "B": "Class intervals",
+      "C": "Midpoints of data",
+      "D": "Cumulative frequencies"
+    },
+    "answer": "D",
+    "explanation": "The vertical axis of any ogive represents the running total or cumulative frequency of the observations. [learn more](GNS217_U4_T11#GNS217_U4_T11_h4)"
+  },
+  {
+    "question_id": "GNS217_U4_T11_h5_q1",
+    "heading_id": "GNS217_U4_T11_h5",
+    "article_id": "GNS217_U4_T11",
+    "topic_id": "GNS217_U4_T11",
+    "difficulty": "recall",
+    "question": "Which percentile matches the median on an ogive graph?",
+    "options": {
+      "A": "100th percentile",
+      "B": "25th percentile",
+      "C": "75th percentile",
+      "D": "50th percentile"
+    },
+    "answer": "D",
+    "explanation": "The median divides a data set in half, matching the 50 percent mark on the cumulative frequency axis. [learn more](GNS217_U4_T11#GNS217_U4_T11_h5)"
+  },
+  {
+    "question_id": "GNS217_U4_T11_h5_q2",
+    "heading_id": "GNS217_U4_T11_h5",
+    "article_id": "GNS217_U4_T11",
+    "topic_id": "GNS217_U4_T11",
+    "difficulty": "understanding",
+    "question": "How do you find the third quartile using a completed ogive graph?",
+    "options": {
+      "A": "Find the highest peak on the X-axis and divide it by two",
+      "B": "Locate 75 percent on the Y-axis and read the matching X value",
+      "C": "Locate 25 percent on the X-axis and look up to the curve",
+      "D": "Measure the total height of the Y-axis and multiply by ten"
+    },
+    "answer": "B",
+    "explanation": "The third quartile represents 75 percent of the cumulative data, found by matching the 75 percent mark on the Y-axis to the X-axis. [learn more](GNS217_U4_T11#GNS217_U4_T11_h5)"
+  },
+  {
+    "question_id": "GNS217_U4_T11_h6_q1",
+    "heading_id": "GNS217_U4_T11_h6",
+    "article_id": "GNS217_U4_T11",
+    "topic_id": "GNS217_U4_T11",
+    "difficulty": "understanding",
+    "question": "How can a nurse manager use an ogive in an emergency department?",
+    "options": {
+      "A": "To order medical supplies based on hospital branding",
+      "B": "To calculate the exact salary of every nurse on duty",
+      "C": "To determine what percentage of patients wait less than a specific time",
+      "D": "To schedule the weekly holiday roster for ward staff"
+    },
+    "answer": "C",
+    "explanation": "Ogives let managers easily read cumulative percentages, such as how many patients were seen under a target time limit. [learn more](GNS217_U4_T11#GNS217_U4_T11_h6)"
+  },
+  {
+    "question_id": "GNS217_U4_T11_h6_q2",
+    "heading_id": "GNS217_U4_T11_h6",
+    "article_id": "GNS217_U4_T11",
+    "topic_id": "GNS217_U4_T11",
+    "difficulty": "application",
+    "question": "A public health nurse wants to know how many children received immunizations below a target age. Which graph is best?",
+    "options": {
+      "A": "A simple bar graph",
+      "B": "A basic scatter plot",
+      "C": "A standard pie chart",
+      "D": "A 'less than' ogive"
+    },
+    "answer": "D",
+    "explanation": "A 'less than' ogive explicitly shows how many cumulative observations fall below a given upper boundary or target. [learn more](GNS217_U4_T11#GNS217_U4_T11_h6)"
+  }
+]
