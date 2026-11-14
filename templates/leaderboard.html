@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Leaderboard — Algocare</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./assets/style.css">
+<style>
+  .lb-header { text-align: center; margin-bottom: 24px; }
+  .lb-header h1 { font-size: 2rem; margin-bottom: 8px; }
+  .lb-controls { display: flex; flex-direction: column; align-items: center; gap: 16px; margin-bottom: 32px; }
+  .toggle-group { display: flex; background: var(--card); border: 1px solid var(--grey-line); border-radius: var(--radius); overflow: hidden; }
+  .toggle-btn { padding: 10px 20px; background: none; border: none; font-weight: 600; color: var(--ink-soft); cursor: pointer; transition: background 0.2s; }
+  .toggle-btn.active { background: var(--scrub); color: #fff; }
+  
+  .lb-table { width: 100%; border-collapse: collapse; background: var(--card); border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); }
+  .lb-table th, .lb-table td { padding: 16px; text-align: left; border-bottom: 1px solid var(--grey-line); }
+  .lb-table th { background: var(--paper); font-family: var(--mono); font-size: 0.8rem; text-transform: uppercase; color: var(--ink-soft); font-weight: 600; }
+  .lb-table tr:last-child td { border-bottom: none; }
+  .lb-rank { font-weight: 700; font-family: var(--mono); color: var(--scrub); }
+  .lb-name { font-weight: 600; }
+  .lb-score { font-family: var(--mono); font-weight: 700; text-align: right; }
+  
+  .loading { text-align: center; padding: 40px; color: var(--grey); }
+</style>
+</head>
+<body>
+<div class="topbar">
+  <a href="./index.html" class="brand" style="text-decoration:none;"><span class="pulse-dot"></span>Algocare</a>
+  <div id="authSlot"></div>
+</div>
+
+<div class="container">
+  <div class="lb-header">
+    <h1>🏆 Leaderboard</h1>
+    <p style="color: var(--ink-soft);">Top scores across the platform.</p>
+  </div>
+
+  <div class="lb-controls">
+    <div class="toggle-group" id="modeToggle">
+      <button class="toggle-btn active" data-mode="real_feel">Real-Feel Exam</button>
+      <button class="toggle-btn" data-mode="practice">Practice Mode</button>
+    </div>
+  </div>
+
+  <div id="leaderboardContainer">
+    <div class="loading">Loading scores...</div>
+  </div>
+</div>
+
+<script src="./assets/auth.js"></script>
+<script src="./assets/leaderboard.js"></script>
+</body>
+</html>
