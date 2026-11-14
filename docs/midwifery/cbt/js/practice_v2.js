@@ -443,4 +443,13 @@ window.addEventListener("keydown", (e) => {
   else if (key === "S") handleSubmitClick();
 });
 
-window.addEventListener("load", async () => { init(); });
+window.addEventListener("load", async () => {
+  try {
+    const user = window.getUser ? window.getUser() : null;
+    if (user) {
+      window.candidateName = user.user_metadata?.name || user.email.split('@')[0];
+      window.candidateRegNo = user.id.substring(0, 8).toUpperCase();
+    }
+  } catch (e) { console.warn("Auth not loaded"); }
+  init(); 
+});
