@@ -35,7 +35,7 @@ def copy_root_assets():
     """Ensure docs/assets has the latest shared files for the root index.html, login, and signup pages."""
     docs_assets = Path("docs/assets")
     docs_assets.mkdir(parents=True, exist_ok=True)
-    for filename in ["style.css", "analytics.js", "auth.js"]:
+    for filename in ["style.css", "analytics.js", "auth.js", "home_search.js"]:
         src = Path("assets") / filename
         if src.exists():
             shutil.copy2(src, docs_assets / filename)
