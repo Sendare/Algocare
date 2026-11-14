@@ -1,0 +1,194 @@
+[
+  {
+    "question_id": "BMP123_U2_T1_h1_q1",
+    "heading_id": "BMP123_U2_T1_h1",
+    "article_id": "BMP123_U2_T1",
+    "topic_id": "BMP123_U2_T1",
+    "difficulty": "recall",
+    "question": "What is the main job of an operating system in a computer?",
+    "options": {
+      "A": "Managing computer hardware and software resources",
+      "B": "Designing graphic images and videos",
+      "C": "Creating spreadsheets and text documents",
+      "D": "Protecting the computer entirely from power surges"
+    },
+    "answer": "A",
+    "explanation": "The operating system acts as the main controller that bridges physical hardware with user applications so the computer functions properly. [learn more](BMP123_U2_T1#BMP123_U2_T1_h1)"
+  },
+  {
+    "question_id": "BMP123_U2_T1_h1_q2",
+    "heading_id": "BMP123_U2_T1_h1",
+    "article_id": "BMP123_U2_T1",
+    "topic_id": "BMP123_U2_T1",
+    "difficulty": "understanding",
+    "question": "Why is an operating system often compared to a chief administrator?",
+    "options": {
+      "A": "It prevents users from ever installing unauthorized software",
+      "B": "It physically repairs broken circuit boards inside the computer",
+      "C": "It coordinates communication between hardware and application programs",
+      "D": "It determines the financial cost of purchasing computer parts"
+    },
+    "answer": "C",
+    "explanation": "Just like an administrator manages daily operations and staff requests, the operating system manages system resources and user program requests. [learn more](BMP123_U2_T1#BMP123_U2_T1_h1)"
+  },
+  {
+    "question_id": "BMP123_U2_T1_h2_q1",
+    "heading_id": "BMP123_U2_T1_h2",
+    "article_id": "BMP123_U2_T1",
+    "topic_id": "BMP123_U2_T1",
+    "difficulty": "recall",
+    "question": "Which operating system part is responsible for communicating with hardware devices like printers?",
+    "options": {
+      "A": "Spreadsheet macros",
+      "B": "RAM chips",
+      "C": "Power supply units",
+      "D": "Device drivers"
+    },
+    "answer": "D",
+    "explanation": "Device drivers are specialized programs that allow the operating system to interact with hardware devices connected to the computer. [learn more](BMP123_U2_T1#BMP123_U2_T1_h2)"
+  },
+  {
+    "question_id": "BMP123_U2_T1_h2_q2",
+    "heading_id": "BMP123_U2_T1_h2",
+    "article_id": "BMP123_U2_T1",
+    "topic_id": "BMP123_U2_T1",
+    "difficulty": "understanding",
+    "question": "What happens during memory management by the operating system?",
+    "options": {
+      "A": "The system deletes old files to make room for new user documents",
+      "B": "The system decides which programs get loaded into RAM and tracks memory use",
+      "C": "The computer screen automatically adjusts its brightness levels",
+      "D": "The computer permanently increases its hard drive storage capacity"
+    },
+    "answer": "B",
+    "explanation": "Memory management tracks primary memory usage to ensure active programs have enough RAM to run without interfering with each other. [learn more](BMP123_U2_T1#BMP123_U2_T1_h2)"
+  },
+  {
+    "question_id": "BMP123_U2_T1_h3_q1",
+    "heading_id": "BMP123_U2_T1_h3",
+    "article_id": "BMP123_U2_T1",
+    "topic_id": "BMP123_U2_T1",
+    "difficulty": "recall",
+    "question": "Which company developed the Windows operating system?",
+    "options": {
+      "A": "Google",
+      "B": "Apple",
+      "C": "Microsoft",
+      "D": "Linux Foundation"
+    },
+    "answer": "C",
+    "explanation": "Microsoft Corporation is the developer and distributor of the Windows operating system family. [learn more](BMP123_U2_T1#BMP123_U2_T1_h3)"
+  },
+  {
+    "question_id": "BMP123_U2_T1_h3_q2",
+    "heading_id": "BMP123_U2_T1_h3",
+    "article_id": "BMP123_U2_T1",
+    "topic_id": "BMP123_U2_T1",
+    "difficulty": "application",
+    "question": "A clinic needs desktop computers that support various medical billing software. Which operating system is most practical?",
+    "options": {
+      "A": "Windows",
+      "B": "A mobile-only OS",
+      "C": "A proprietary server mainframe OS",
+      "D": "An embedded router firmware"
+    },
+    "answer": "A",
+    "explanation": "Windows has the broadest compatibility with standard business software and hardware peripherals used in most office environments. [learn more](BMP123_U2_T1#BMP123_U2_T1_h3)"
+  },
+  {
+    "question_id": "BMP123_U2_T1_h4_q1",
+    "heading_id": "BMP123_U2_T1_h4",
+    "article_id": "BMP123_U2_T1",
+    "topic_id": "BMP123_U2_T1",
+    "difficulty": "recall",
+    "question": "What does the term open-source mean for the Linux operating system?",
+    "options": {
+      "A": "The system only runs on computers manufactured by one company",
+      "B": "The source code can be viewed, modified, and shared by anyone",
+      "C": "The operating system code is completely hidden from the user",
+      "D": "The software can only be operated with an expensive yearly license"
+    },
+    "answer": "B",
+    "explanation": "Open-source software provides public access to its underlying source code so developers can study, change, and improve it freely. [learn more](BMP123_U2_T1#BMP123_U2_T1_h4)"
+  },
+  {
+    "question_id": "BMP123_U2_T1_h4_q2",
+    "heading_id": "BMP123_U2_T1_h4",
+    "article_id": "BMP123_U2_T1",
+    "topic_id": "BMP123_U2_T1",
+    "difficulty": "understanding",
+    "question": "Where is Linux most commonly used in modern computing infrastructure?",
+    "options": {
+      "A": "As the default firmware for basic pocket calculators",
+      "B": "On enterprise web servers and cloud infrastructure",
+      "C": "On home gaming consoles built by Microsoft",
+      "D": "As the exclusive operating system on Apple iPhones"
+    },
+    "answer": "B",
+    "explanation": "Due to its stability, security, and low cost, Linux is the leading operating system for servers, cloud platforms, and supercomputers. [learn more](BMP123_U2_T1#BMP123_U2_T1_h4)"
+  },
+  {
+    "question_id": "BMP123_U2_T1_h5_q1",
+    "heading_id": "BMP123_U2_T1_h5",
+    "article_id": "BMP123_U2_T1",
+    "topic_id": "BMP123_U2_T1",
+    "difficulty": "recall",
+    "question": "Which technology company designs and distributes macOS?",
+    "options": {
+      "A": "Oracle",
+      "B": "Apple",
+      "C": "IBM",
+      "D": "Microsoft"
+    },
+    "answer": "B",
+    "explanation": "Apple designs macOS specifically to run exclusively on its line of Macintosh personal computers. [learn more](BMP123_U2_T1#BMP123_U2_T1_h5)"
+  },
+  {
+    "question_id": "BMP123_U2_T1_h5_q2",
+    "heading_id": "BMP123_U2_T1_h5",
+    "article_id": "BMP123_U2_T1",
+    "topic_id": "BMP123_U2_T1",
+    "difficulty": "understanding",
+    "question": "Why does macOS generally experience fewer hardware driver conflicts than Windows?",
+    "options": {
+      "A": "The operating system is completely open-source and modified by the public",
+      "B": "macOS does not use any drivers to communicate with computer hardware",
+      "C": "Mac computers only connect to wireless printers and keyboards",
+      "D": "Apple controls both the hardware manufacturing and the operating system design"
+    },
+    "answer": "D",
+    "explanation": "Controlling both hardware and software allows Apple to tightly optimize macOS for specific components, reducing driver incompatibility issues. [learn more](BMP123_U2_T1#BMP123_U2_T1_h5)"
+  },
+  {
+    "question_id": "BMP123_U2_T1_h6_q1",
+    "heading_id": "BMP123_U2_T1_h6",
+    "article_id": "BMP123_U2_T1",
+    "topic_id": "BMP123_U2_T1",
+    "difficulty": "understanding",
+    "question": "Which factor is most important to look at first when choosing an operating system for work?",
+    "options": {
+      "A": "The physical weight of the computer keyboard and mouse",
+      "B": "The aesthetic color of the computer desktop background wallpaper",
+      "C": "The specific software applications required to complete job tasks",
+      "D": "The number of video games pre-installed on the hard drive"
+    },
+    "answer": "C",
+    "explanation": "Software compatibility is critical because specialized tools must be able to run properly on the chosen operating system platform. [learn more](BMP123_U2_T1#BMP123_U2_T1_h6)"
+  },
+  {
+    "question_id": "BMP123_U2_T1_h6_q2",
+    "heading_id": "BMP123_U2_T1_h6",
+    "article_id": "BMP123_U2_T1",
+    "topic_id": "BMP123_U2_T1",
+    "difficulty": "application",
+    "question": "A student wants a free, customizable operating system to learn programming. Which system fits best?",
+    "options": {
+      "A": "Windows",
+      "B": "Linux",
+      "C": "macOS",
+      "D": "Proprietary console OS"
+    },
+    "answer": "B",
+    "explanation": "Linux is free, open-source, highly customizable, and serves as the standard platform for learning programming and server administration. [learn more](BMP123_U2_T1#BMP123_U2_T1_h6)"
+  }
+]
