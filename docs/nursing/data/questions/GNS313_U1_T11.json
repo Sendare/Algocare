@@ -1,0 +1,194 @@
+[
+  {
+    "question_id": "GNS313_U1_T11_h1_q1",
+    "heading_id": "GNS313_U1_T11_h1",
+    "article_id": "GNS313_U1_T11",
+    "topic_id": "GNS313_U1_T11",
+    "difficulty": "recall",
+    "question": "What does incidence measure in a population?",
+    "options": {
+      "A": "The total number of existing cases",
+      "B": "The proportion of people who have died",
+      "C": "The total cost of treating a condition",
+      "D": "The number of new disease cases"
+    },
+    "answer": "D",
+    "explanation": "Incidence specifically counts newly developing cases of a condition over a given period, distinguishing it from total existing disease burden. [learn more](GNS313_U1_T11#GNS313_U1_T11_h1)"
+  },
+  {
+    "question_id": "GNS313_U1_T11_h1_q2",
+    "heading_id": "GNS313_U1_T11_h1",
+    "article_id": "GNS313_U1_T11",
+    "topic_id": "GNS313_U1_T11",
+    "difficulty": "understanding",
+    "question": "Why is tracking incidence useful for community health nurses?",
+    "options": {
+      "A": "It cures chronic illnesses in the community",
+      "B": "It replaces the need for patient vital signs",
+      "C": "It lowers the overall cost of hospital drugs",
+      "D": "It helps detect disease outbreaks early"
+    },
+    "answer": "D",
+    "explanation": "Monitoring new infections allows nurses and public health teams to spot rising transmission trends and respond before an epidemic grows. [learn more](GNS313_U1_T11#GNS313_U1_T11_h1)"
+  },
+  {
+    "question_id": "GNS313_U1_T11_h2_q1",
+    "heading_id": "GNS313_U1_T11_h2",
+    "article_id": "GNS313_U1_T11",
+    "topic_id": "GNS313_U1_T11",
+    "difficulty": "recall",
+    "question": "Who should be excluded from the denominator when calculating incidence?",
+    "options": {
+      "A": "Healthcare workers in public hospitals",
+      "B": "Healthy children under five years old",
+      "C": "People who already have the disease",
+      "D": "Adult males of working age"
+    },
+    "answer": "C",
+    "explanation": "The denominator must only include individuals who are actually at risk of developing the condition, meaning they must be disease-free at the start. [learn more](GNS313_U1_T11#GNS313_U1_T11_h2)"
+  },
+  {
+    "question_id": "GNS313_U1_T11_h2_q2",
+    "heading_id": "GNS313_U1_T11_h2",
+    "article_id": "GNS313_U1_T11",
+    "topic_id": "GNS313_U1_T11",
+    "difficulty": "understanding",
+    "question": "What is the purpose of multiplying the final incidence fraction by a standard base like 1,000?",
+    "options": {
+      "A": "To account for inflation in medical treatment costs",
+      "B": "To adjust the population size for missing census data",
+      "C": "To inflate the actual number of sick patients for funding",
+      "D": "To convert a tiny decimal into an easy-to-read whole number"
+    },
+    "answer": "D",
+    "explanation": "Standard multipliers bring small rates into a readable format that can be easily compared across different populations. [learn more](GNS313_U1_T11#GNS313_U1_T11_h2)"
+  },
+  {
+    "question_id": "GNS313_U1_T11_h3_q1",
+    "heading_id": "GNS313_U1_T11_h3",
+    "article_id": "GNS313_U1_T11",
+    "topic_id": "GNS313_U1_T11",
+    "difficulty": "recall",
+    "question": "What does prevalence measure that incidence does not?",
+    "options": {
+      "A": "The number of preventable deaths",
+      "B": "Only newly diagnosed infections",
+      "C": "All existing cases of a disease",
+      "D": "The speed of disease transmission"
+    },
+    "answer": "C",
+    "explanation": "Prevalence captures the total burden by counting both long-standing chronic cases and newly diagnosed ones together. [learn more](GNS313_U1_T11#GNS313_U1_T11_h3)"
+  },
+  {
+    "question_id": "GNS313_U1_T11_h3_q2",
+    "heading_id": "GNS313_U1_T11_h3",
+    "article_id": "GNS313_U1_T11",
+    "topic_id": "GNS313_U1_T11",
+    "difficulty": "understanding",
+    "question": "A researcher wants to know the total burden of chronic hypertension in a Nigerian state to plan medication supplies. Which measure is most appropriate?",
+    "options": {
+      "A": "Incidence",
+      "B": "Prevalence",
+      "C": "Mortality rate",
+      "D": "Case fatality ratio"
+    },
+    "answer": "B",
+    "explanation": "Prevalence tells health planners how many total people need ongoing treatment, which directly guides drug supply and clinic staffing. [learn more](GNS313_U1_T11#GNS313_U1_T11_h3)"
+  },
+  {
+    "question_id": "GNS313_U1_T11_h4_q1",
+    "heading_id": "GNS313_U1_T11_h4",
+    "article_id": "GNS313_U1_T11",
+    "topic_id": "GNS313_U1_T11",
+    "difficulty": "recall",
+    "question": "What is cumulative incidence also known as?",
+    "options": {
+      "A": "Risk",
+      "B": "Mortality",
+      "C": "Prevalence",
+      "D": "Endemicity"
+    },
+    "answer": "A",
+    "explanation": "Cumulative incidence estimates the probability or risk that an individual will develop the disease over a defined time interval. [learn more](GNS313_U1_T11#GNS313_U1_T11_h4)"
+  },
+  {
+    "question_id": "GNS313_U1_T11_h4_q2",
+    "heading_id": "GNS313_U1_T11_h4",
+    "article_id": "GNS313_U1_T11",
+    "topic_id": "GNS313_U1_T11",
+    "difficulty": "understanding",
+    "question": "When must a researcher use incidence density instead of cumulative incidence?",
+    "options": {
+      "A": "When every single patient stays in the community for the entire five-year study",
+      "B": "When study participants enter at different times and are followed for varying periods",
+      "C": "When the total population size is fixed and known down to the exact person",
+      "D": "When the disease is non-infectious and completely disappears within a week"
+    },
+    "answer": "B",
+    "explanation": "Incidence density utilizes person-time denominators, making it ideal when people drop out or join a study at different intervals. [learn more](GNS313_U1_T11#GNS313_U1_T11_h4)"
+  },
+  {
+    "question_id": "GNS313_U1_T11_h5_q1",
+    "heading_id": "GNS313_U1_T11_h5",
+    "article_id": "GNS313_U1_T11",
+    "topic_id": "GNS313_U1_T11",
+    "difficulty": "understanding",
+    "question": "Why might a community clinic suddenly record a higher incidence of malaria without any actual change in mosquito transmission?",
+    "options": {
+      "A": "A drop in the total number of pregnant women visiting the antenatal clinic",
+      "B": "A sudden increase in the population size due to migration from rural areas",
+      "C": "Patients refusing to take prescribed antimalarial medications from nurses",
+      "D": "Introduction of rapid diagnostic test kits that uncover previously missed cases"
+    },
+    "answer": "D",
+    "explanation": "Better diagnostic tools catch mild infections that previously went unrecorded, creating an apparent rise in incidence without increased transmission. [learn more](GNS313_U1_T11#GNS313_U1_T11_h5)"
+  },
+  {
+    "question_id": "GNS313_U1_T11_h5_q2",
+    "heading_id": "GNS313_U1_T11_h5",
+    "article_id": "GNS313_U1_T11",
+    "topic_id": "GNS313_U1_T11",
+    "difficulty": "recall",
+    "question": "Which factor does NOT directly influence the true biological incidence of an infectious disease?",
+    "options": {
+      "A": "Environmental sanitation standards",
+      "B": "Transmission rate of the pathogen",
+      "C": "Availability of advanced diagnostic equipment",
+      "D": "Level of herd immunity in the population"
+    },
+    "answer": "C",
+    "explanation": "Diagnostic tools change how many cases are detected and recorded, but they do not alter whether a pathogen actually infects a person's body. [learn more](GNS313_U1_T11#GNS313_U1_T11_h5)"
+  },
+  {
+    "question_id": "GNS313_U1_T11_h6_q1",
+    "heading_id": "GNS313_U1_T11_h6",
+    "article_id": "GNS313_U1_T11",
+    "topic_id": "GNS313_U1_T11",
+    "difficulty": "understanding",
+    "question": "A community health nurse notices a sharp rise in cholera incidence during the rainy season. What is the most appropriate immediate nursing action?",
+    "options": {
+      "A": "Stopping all routine immunization clinics to focus solely on wound care",
+      "B": "Waiting until the end of the year to write a comprehensive report for the ministry",
+      "C": "Discharging all admitted patients to make room for incoming emergency cases",
+      "D": "Initiating community water sanitation education and distributing oral rehydration supplies"
+    },
+    "answer": "D",
+    "explanation": "A rising incidence of a waterborne disease requires immediate preventive education and emergency treatment supplies to halt transmission. [learn more](GNS313_U1_T11#GNS313_U1_T11_h6)"
+  },
+  {
+    "question_id": "GNS313_U1_T11_h6_q2",
+    "heading_id": "GNS313_U1_T11_h6",
+    "article_id": "GNS313_U1_T11",
+    "topic_id": "GNS313_U1_T11",
+    "difficulty": "recall",
+    "question": "What is the primary purpose of public health disease surveillance systems?",
+    "options": {
+      "A": "To replace physical clinical examinations with computer algorithms",
+      "B": "To punish hospitals that report high numbers of infectious patients",
+      "C": "To track disease occurrences and guide timely public health interventions",
+      "D": "To calculate exact financial profits for private pharmaceutical companies"
+    },
+    "answer": "C",
+    "explanation": "Surveillance collects ongoing health data so authorities can detect threats early and deploy effective nursing and medical interventions. [learn more](GNS313_U1_T11#GNS313_U1_T11_h6)"
+  }
+]

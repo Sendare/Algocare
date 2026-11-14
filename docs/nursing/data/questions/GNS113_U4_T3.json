@@ -1,0 +1,194 @@
+[
+  {
+    "question_id": "GNS113_U4_T3_h1_q1",
+    "heading_id": "GNS113_U4_T3_h1",
+    "article_id": "GNS113_U4_T3",
+    "topic_id": "GNS113_U4_T3",
+    "difficulty": "recall",
+    "question": "What is the primary purpose of direct nursing delivery technology at the bedside?",
+    "options": {
+      "A": "To completely replace clinical nurses",
+      "B": "To slow down the medication pass process",
+      "C": "To reduce errors and support safe care",
+      "D": "To increase paperwork for nursing staff"
+    },
+    "answer": "C",
+    "explanation": "These tools are designed to assist nurses by providing safeguards against mistakes rather than eliminating the nursing workforce. [learn more](GNS113_U4_T3#GNS113_U4_T3_h1)"
+  },
+  {
+    "question_id": "GNS113_U4_T3_h1_q2",
+    "heading_id": "GNS113_U4_T3_h1",
+    "article_id": "GNS113_U4_T3",
+    "topic_id": "GNS113_U4_T3",
+    "difficulty": "understanding",
+    "question": "Real-time data entry using bedside technology primarily helps solve which common clinical problem?",
+    "options": {
+      "A": "Delayed documentation of patient vital signs",
+      "B": "Shortages of essential intravenous fluids",
+      "C": "Poor communication between doctors and patients",
+      "D": "Lack of basic patient medical histories"
+    },
+    "answer": "A",
+    "explanation": "Bedside devices allow immediate recording of findings, which prevents the time lag typical of paper charting at the end of a shift. [learn more](GNS113_U4_T3#GNS113_U4_T3_h1)"
+  },
+  {
+    "question_id": "GNS113_U4_T3_h2_q1",
+    "heading_id": "GNS113_U4_T3_h2",
+    "article_id": "GNS113_U4_T3",
+    "topic_id": "GNS113_U4_T3",
+    "difficulty": "recall",
+    "question": "Which two items must be scanned during barcode medication administration?",
+    "options": {
+      "A": "Nurse ID badge and drug chart",
+      "B": "Bedside monitor and IV infusion bag",
+      "C": "Doctor prescription and nurse license",
+      "D": "Patient wristband and medication package"
+    },
+    "answer": "D",
+    "explanation": "BCMA relies on matching the unique identifier on the patient against the barcode on the specific drug package. [learn more](GNS113_U4_T3#GNS113_U4_T3_h2)"
+  },
+  {
+    "question_id": "GNS113_U4_T3_h2_q2",
+    "heading_id": "GNS113_U4_T3_h2",
+    "article_id": "GNS113_U4_T3",
+    "topic_id": "GNS113_U4_T3",
+    "difficulty": "understanding",
+    "question": "Why is barcode medication administration considered a closed-loop system?",
+    "options": {
+      "A": "It completely removes the need for physical nurse verification",
+      "B": "It electronically links the ordered drug to the exact patient identity",
+      "C": "It prevents pharmacists from dispensing expired pharmaceutical products",
+      "D": "It automatically locks the medication cart after every use"
+    },
+    "answer": "B",
+    "explanation": "The closed loop connects the prescription, the patient identity, and the administered product to catch errors instantly. [learn more](GNS113_U4_T3#GNS113_U4_T3_h2)"
+  },
+  {
+    "question_id": "GNS113_U4_T3_h3_q1",
+    "heading_id": "GNS113_U4_T3_h3",
+    "article_id": "GNS113_U4_T3",
+    "topic_id": "GNS113_U4_T3",
+    "difficulty": "recall",
+    "question": "What is the function of a hard limit in a smart infusion pump?",
+    "options": {
+      "A": "It stops the infusion when the IV bag is completely empty",
+      "B": "It requires a password to turn the device power supply on",
+      "C": "It prevents the pump from exceeding a dangerous maximum dose",
+      "D": "It measures the exact blood pressure of the patient continuously"
+    },
+    "answer": "C",
+    "explanation": "Hard limits establish absolute safety ceilings that cannot be bypassed by the clinical user without administrative clearance. [learn more](GNS113_U4_T3#GNS113_U4_T3_h3)"
+  },
+  {
+    "question_id": "GNS113_U4_T3_h3_q2",
+    "heading_id": "GNS113_U4_T3_h3",
+    "article_id": "GNS113_U4_T3",
+    "topic_id": "GNS113_U4_T3",
+    "difficulty": "application",
+    "question": "A nurse programs an IV drip and the smart pump issues a soft limit warning. What does this mean?",
+    "options": {
+      "A": "The medication order is completely illegal and must be discarded",
+      "B": "The dosage is outside normal parameters but allows a clinical override",
+      "C": "The patient identity barcode does not match the active chart",
+      "D": "The pump battery is failing and needs an immediate recharge"
+    },
+    "answer": "B",
+    "explanation": "Soft limits provide caution alerts for unusual doses, giving the nurse an opportunity to double-check before proceeding. [learn more](GNS113_U4_T3#GNS113_U4_T3_h3)"
+  },
+  {
+    "question_id": "GNS113_U4_T3_h4_q1",
+    "heading_id": "GNS113_U4_T3_h4",
+    "article_id": "GNS113_U4_T3",
+    "topic_id": "GNS113_U4_T3",
+    "difficulty": "recall",
+    "question": "How do smart beds primarily help prevent patient injuries in the ward?",
+    "options": {
+      "A": "By cooling the patient skin during high fevers",
+      "B": "By detecting exit attempts and triggering fall alarms",
+      "C": "By automatically administering pain relief medication",
+      "D": "By locking the wheels whenever a nurse walks away"
+    },
+    "answer": "B",
+    "explanation": "Bed exit sensors alert nurses when vulnerable patients try to stand up unassisted. [learn more](GNS113_U4_T3#GNS113_U4_T3_h4)"
+  },
+  {
+    "question_id": "GNS113_U4_T3_h4_q2",
+    "heading_id": "GNS113_U4_T3_h4",
+    "article_id": "GNS113_U4_T3",
+    "topic_id": "GNS113_U4_T3",
+    "difficulty": "understanding",
+    "question": "What is the main clinical advantage of continuous electronic patient monitoring over intermittent manual checks?",
+    "options": {
+      "A": "It lowers the financial cost of hospital admission",
+      "B": "It removes the legal requirement for shift reports",
+      "C": "It detects sudden physiological deterioration much faster",
+      "D": "It eliminates the need for any nursing physical assessments"
+    },
+    "answer": "C",
+    "explanation": "Continuous tracking catches subtle changes in vitals immediately between traditional four-hour manual observation rounds. [learn more](GNS113_U4_T3#GNS113_U4_T3_h4)"
+  },
+  {
+    "question_id": "GNS113_U4_T3_h5_q1",
+    "heading_id": "GNS113_U4_T3_h5",
+    "article_id": "GNS113_U4_T3",
+    "topic_id": "GNS113_U4_T3",
+    "difficulty": "understanding",
+    "question": "What is a major risk associated with technology workarounds in clinical practice?",
+    "options": {
+      "A": "They bypass safety features and reintroduce the risk of error",
+      "B": "They cause mechanical failures in smart infusion pumps",
+      "C": "They increase the battery life of handheld barcode scanners",
+      "D": "They slow down the daily hospital discharge process"
+    },
+    "answer": "A",
+    "explanation": "When nurses invent shortcuts to save time, they often defeat the electronic safeguards intended to protect the patient. [learn more](GNS113_U4_T3#GNS113_U4_T3_h5)"
+  },
+  {
+    "question_id": "GNS113_U4_T3_h5_q2",
+    "heading_id": "GNS113_U4_T3_h5",
+    "article_id": "GNS113_U4_T3",
+    "topic_id": "GNS113_U4_T3",
+    "difficulty": "recall",
+    "question": "Which type of clinical error is most directly targeted by bedside technology integration?",
+    "options": {
+      "A": "Adverse drug administration events",
+      "B": "Inadequate physical therapy sessions",
+      "C": "Surgical site infections",
+      "D": "Delayed diagnostic laboratory results"
+    },
+    "answer": "A",
+    "explanation": "Barcode scanning and smart pumps are primarily engineered to stop medication administration mistakes before they harm patients. [learn more](GNS113_U4_T3#GNS113_U4_T3_h5)"
+  },
+  {
+    "question_id": "GNS113_U4_T3_h6_q1",
+    "heading_id": "GNS113_U4_T3_h6",
+    "article_id": "GNS113_U4_T3",
+    "topic_id": "GNS113_U4_T3",
+    "difficulty": "recall",
+    "question": "What is alarm fatigue in a busy clinical nursing environment?",
+    "options": {
+      "A": "Battery drain caused by leaving infusion pumps running",
+      "B": "Mental stress from hearing patient call bells ring simultaneously",
+      "C": "Desensitization to device warnings due to frequent false alarms",
+      "D": "Physical exhaustion caused by carrying heavy medical monitors"
+    },
+    "answer": "C",
+    "explanation": "Constant ringing of monitors causes staff to tune out the noise, which can lead to missed critical warnings. [learn more](GNS113_U4_T3#GNS113_U4_T3_h6)"
+  },
+  {
+    "question_id": "GNS113_U4_T3_h6_q2",
+    "heading_id": "GNS113_U4_T3_h6",
+    "article_id": "GNS113_U4_T3",
+    "topic_id": "GNS113_U4_T3",
+    "difficulty": "understanding",
+    "question": "Why are reliable power supply and network connectivity critical for bedside technology?",
+    "options": {
+      "A": "To ensure that nurses finish their shifts on time",
+      "B": "To lower the purchasing cost of medical hardware devices",
+      "C": "To prevent the complete loss of electronic function during patient care",
+      "D": "To eliminate the need for regular equipment maintenance"
+    },
+    "answer": "C",
+    "explanation": "Digital systems rely heavily on continuous electricity and data signals; outages disrupt access to essential patient data and device controls. [learn more](GNS113_U4_T3#GNS113_U4_T3_h6)"
+  }
+]
