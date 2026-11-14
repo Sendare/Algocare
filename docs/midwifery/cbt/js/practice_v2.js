@@ -24,9 +24,23 @@ async function init() {
     if (saved && saved.subjects && saved.subjects.length) {
       ({subjects,questions,currentIndexes,activeSubject,answers,flags,endTime,pauseStartedAt,attemptId,isCatchingSkips} = saved);
     } else {
-      if (!coursesParam) { document.getElementById("examRoot").innerHTML = `<div class="empty-state" style="color:#a1a1aa; text-align:center; padding:40px;">No courses specified. <a href="index.html">Go back</a></div>`; return; }
-      
-      const courseSlugs = coursesParam.split(',');
+      const topicId = params.get("topic");
+      if (topicId) {
+        // Single topic mode (from article CTA)
+        const pool = await (await fetch(`../data/questions/${topicId}.json`)).json();
+        subjects = ["Topic Practice"];
+        questions["Topic Practice"] = shuffle(pool);
+        currentIndexes["Topic Practice"] = 0;
+        activeSubject = "Topic Practice";
+        // Default to 20 questions or the pool size
+        const limit = requestedCount || 20;
+        questions["Topic Practice"] = questions["Topic Practice"].slice(0, Math.min(limit, pool.length));
+        endTime = Date.now() + questions["Topic Practice"].length * secondsPerQuestion * 1000;
+        attemptId = generateAttemptId();
+        saveState();
+        logTestStarted(attemptId, "practice", topicId, questions["Topic Practice"].length);
+      } else if (coursesParam) {
+        const courseSlugs = coursesParam.split(',');
       const courseNames = {};
       
       window.siteIndex = await (await fetch("../site_index.json")).json();
@@ -56,6 +70,7 @@ async function init() {
       attemptId = generateAttemptId();
       saveState();
       logTestStarted(attemptId, "practice", coursesParam, totalAllowed);
+      }
     }
   } catch (e) { document.getElementById("examRoot").innerHTML = `<div class="empty-state" style="color:#a1a1aa;">Error loading test.</div>`; return; }
 
@@ -444,12 +459,14 @@ window.addEventListener("keydown", (e) => {
 });
 
 window.addEventListener("load", async () => {
+  // Wait a tiny bit for auth.js to parse the session
+  await new Promise(r => setTimeout(r, 150));
   try {
     const user = window.getUser ? window.getUser() : null;
     if (user) {
       window.candidateName = user.user_metadata?.name || user.email.split('@')[0];
       window.candidateRegNo = user.id.substring(0, 8).toUpperCase();
     }
-  } catch (e) { console.warn("Auth not loaded"); }
+  } catch (e) { console.warn("Auth loading error:", e); }
   init(); 
 });

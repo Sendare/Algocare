@@ -295,12 +295,14 @@ window.addEventListener("keydown", (e) => {
 });
 
 window.addEventListener("load", async () => {
+  // Wait a tiny bit for auth.js to parse the session
+  await new Promise(r => setTimeout(r, 150));
   try {
     const user = window.getUser ? window.getUser() : null;
     if (user) {
       window.candidateName = user.user_metadata?.name || user.email.split('@')[0];
       window.candidateRegNo = user.id.substring(0, 8).toUpperCase();
     }
-  } catch (e) { console.warn("Auth not loaded"); }
+  } catch (e) { console.warn("Auth loading error:", e); }
   init(); 
 });
