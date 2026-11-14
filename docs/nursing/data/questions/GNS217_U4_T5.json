@@ -1,0 +1,162 @@
+[
+  {
+    "question_id": "GNS217_U4_T5_h1_q1",
+    "heading_id": "GNS217_U4_T5_h1",
+    "article_id": "GNS217_U4_T5",
+    "topic_id": "GNS217_U4_T5",
+    "difficulty": "recall",
+    "question": "What do measures of variability primarily describe in a dataset?",
+    "options": {
+      "A": "How spread out the data values are",
+      "B": "The most frequently occurring score",
+      "C": "The exact middle value of the data",
+      "D": "The total number of patients studied"
+    },
+    "answer": "A",
+    "explanation": "Variability measures show how much individual scores differ or spread away from the center of the distribution. [learn more](GNS217_U4_T5#GNS217_U4_T5_h1)"
+  },
+  {
+    "question_id": "GNS217_U4_T5_h1_q2",
+    "heading_id": "GNS217_U4_T5_h1",
+    "article_id": "GNS217_U4_T5",
+    "topic_id": "GNS217_U4_T5",
+    "difficulty": "understanding",
+    "question": "Why is relying only on averages dangerous when reviewing clinical data?",
+    "options": {
+      "A": "Averages only apply to qualitative research data",
+      "B": "Averages change depending on the sample size",
+      "C": "Averages completely hide extreme highs and lows",
+      "D": "Averages are too difficult to calculate manually"
+    },
+    "answer": "C",
+    "explanation": "Two groups can share the same average while having drastically different levels of spread and clinical risk. [learn more](GNS217_U4_T5#GNS217_U4_T5_h1)"
+  },
+  {
+    "question_id": "GNS217_U4_T5_h2_q1",
+    "heading_id": "GNS217_U4_T5_h2",
+    "article_id": "GNS217_U4_T5",
+    "topic_id": "GNS217_U4_T5",
+    "difficulty": "recall",
+    "question": "How is the range of a data set calculated?",
+    "options": {
+      "A": "Subtracting the lowest value from the highest value",
+      "B": "Dividing the median value by two",
+      "C": "Adding all values together and dividing by the total",
+      "D": "Finding the difference between the first and third quartiles"
+    },
+    "answer": "A",
+    "explanation": "The range is simply the span between the maximum and minimum observed values in a dataset. [learn more](GNS217_U4_T5#GNS217_U4_T5_h2)"
+  },
+  {
+    "question_id": "GNS217_U4_T5_h2_q2",
+    "heading_id": "GNS217_U4_T5_h2",
+    "article_id": "GNS217_U4_T5",
+    "topic_id": "GNS217_U4_T5",
+    "difficulty": "understanding",
+    "question": "When is the interquartile range preferred over the range in clinical studies?",
+    "options": {
+      "A": "When the data set contains extreme outliers",
+      "B": "When all data points are identical",
+      "C": "When the sample size is extremely small",
+      "D": "When calculating simple percentages"
+    },
+    "answer": "A",
+    "explanation": "The interquartile range focuses on the middle fifty percent, shielding the measure of spread from skewed data or outliers. [learn more](GNS217_U4_T5#GNS217_U4_T5_h2)"
+  },
+  {
+    "question_id": "GNS217_U4_T5_h3_q1",
+    "heading_id": "GNS217_U4_T5_h3",
+    "article_id": "GNS217_U4_T5",
+    "topic_id": "GNS217_U4_T5",
+    "difficulty": "recall",
+    "question": "What is the standard deviation in relation to variance?",
+    "options": {
+      "A": "The variance divided by the mean",
+      "B": "The square root of the variance",
+      "C": "The variance multiplied by two",
+      "D": "The variance squared"
+    },
+    "answer": "B",
+    "explanation": "Taking the square root of the variance brings the dispersion value back into the original measurement units. [learn more](GNS217_U4_T5#GNS217_U4_T5_h3)"
+  },
+  {
+    "question_id": "GNS217_U4_T5_h3_q2",
+    "heading_id": "GNS217_U4_T5_h3",
+    "article_id": "GNS217_U4_T5",
+    "topic_id": "GNS217_U4_T5",
+    "difficulty": "understanding",
+    "question": "A low standard deviation in patient blood pressure readings indicates what about the measurements?",
+    "options": {
+      "A": "The readings cluster closely around the mean",
+      "B": "There was a major calculation error in the study",
+      "C": "The sample size was too small to be valid",
+      "D": "The readings are heavily skewed by outliers"
+    },
+    "answer": "A",
+    "explanation": "A small standard deviation demonstrates that individual readings are very close to the average value, showing high consistency. [learn more](GNS217_U4_T5#GNS217_U4_T5_h3)"
+  },
+  {
+    "question_id": "GNS217_U4_T5_h4_q1",
+    "heading_id": "GNS217_U4_T5_h4",
+    "article_id": "GNS217_U4_T5",
+    "topic_id": "GNS217_U4_T5",
+    "difficulty": "recall",
+    "question": "What does the coefficient of variation express standard deviation as?",
+    "options": {
+      "A": "A ratio of the sample size",
+      "B": "A multiple of the range",
+      "C": "A fraction of the median",
+      "D": "A percentage of the mean"
+    },
+    "answer": "D",
+    "explanation": "The coefficient of variation is calculated by dividing the standard deviation by the mean and multiplying by one hundred. [learn more](GNS217_U4_T5#GNS217_U4_T5_h4)"
+  },
+  {
+    "question_id": "GNS217_U4_T5_h4_q2",
+    "heading_id": "GNS217_U4_T5_h4",
+    "article_id": "GNS217_U4_T5",
+    "topic_id": "GNS217_U4_T5",
+    "difficulty": "application",
+    "question": "Why would a nurse researcher use the coefficient of variation instead of standard deviation?",
+    "options": {
+      "A": "To eliminate all extreme outliers from a large study",
+      "B": "To find the exact middle point of a skewed distribution",
+      "C": "To compare variability between data sets with different units",
+      "D": "To calculate the total number of participants needed"
+    },
+    "answer": "C",
+    "explanation": "The coefficient of variation removes units of measurement, allowing direct comparison of dispersion across completely different variables. [learn more](GNS217_U4_T5#GNS217_U4_T5_h4)"
+  },
+  {
+    "question_id": "GNS217_U4_T5_h5_q1",
+    "heading_id": "GNS217_U4_T5_h5",
+    "article_id": "GNS217_U4_T5",
+    "topic_id": "GNS217_U4_T5",
+    "difficulty": "understanding",
+    "question": "How does analyzing outcome variability help evaluate a new nursing intervention?",
+    "options": {
+      "A": "It shows if the intervention works consistently for all patients",
+      "B": "It proves the intervention is cheaper than older methods",
+      "C": "It guarantees that every patient will recover immediately",
+      "D": "It removes the need for statistical testing altogether"
+    },
+    "answer": "A",
+    "explanation": "Looking at the spread of outcomes reveals whether an intervention benefits everyone equally or only creates wide, unpredictable results. [learn more](GNS217_U4_T5#GNS217_U4_T5_h5)"
+  },
+  {
+    "question_id": "GNS217_U4_T5_h5_q2",
+    "heading_id": "GNS217_U4_T5_h5",
+    "article_id": "GNS217_U4_T5",
+    "topic_id": "GNS217_U4_T5",
+    "difficulty": "recall",
+    "question": "Which of the following is NOT a primary reason to study data variability in nursing?",
+    "options": {
+      "A": "To accurately interpret research findings in literature",
+      "B": "To eliminate the need for taking patient vital signs",
+      "C": "To understand patient diversity within a sample group",
+      "D": "To differentiate normal fluctuations from clinical decline"
+    },
+    "answer": "B",
+    "explanation": "Studying data variability helps interpret findings and patient statuses, but it never replaces direct physical assessment and vital sign collection. [learn more](GNS217_U4_T5#GNS217_U4_T5_h5)"
+  }
+]
