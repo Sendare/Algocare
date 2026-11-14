@@ -1,0 +1,41 @@
+{
+  "article_id": "BMP225_U4_T1",
+  "topic_id": "BMP225_U4_T1",
+  "title": "Descriptive Statistics: Measures of Central Tendency (Mean, Median, Mode) and Dispersion (Standard Deviation, Range)",
+  "path": [
+    "Biostatistics and Data Analysis",
+    "Descriptive Statistics: Measures of Central Tendency (Mean, Median, Mode) and Dispersion (Standard Deviation, Range)"
+  ],
+  "headings": [
+    {
+      "heading_id": "BMP225_U4_T1_h1",
+      "order": 1,
+      "title": "Why We Summarize Datasets in Midwifery Research",
+      "content": "When a researcher collects hundreds of birth weights or maternal ages from a secondary health post in rural Nigeria, the raw data is just a long, confusing list of numbers. To make sense of this mass of information, midwives use descriptive statistics. These tools allow us to take a massive spreadsheet and condense it into a few meaningful values that describe the entire group. Instead of listing every single postpartum hemorrhage volume recorded last year, we can state the average volume and how much it typically varied. This summary process helps public health planners allocate resources, design maternity protocols, and spot unusual clinical trends quickly."
+    },
+    {
+      "heading_id": "BMP225_U4_T1_h2",
+      "order": 2,
+      "title": "Finding the Center: Mean, Median, and Mode Calculation",
+      "content": "Measures of central tendency point us toward the middle or typical value of a dataset. \n\n- **Mean**: The arithmetic average. You find it by adding up all the individual data points and dividing that sum by the total number of observations. It is heavily influenced by extreme values.\n- **Median**: The exact middle score when all values are arranged in order from lowest to highest. If there is an even number of observations, you take the average of the two middle numbers. It remains stable even if a few extreme outliers exist.\n- **Mode**: The most frequently occurring value in the dataset. A distribution can have one mode, more than one mode, or no mode at all if every value appears only once."
+    },
+    {
+      "heading_id": "BMP225_U4_T1_h3",
+      "order": 3,
+      "title": "Choosing the Right Average for Skewed Clinical Data",
+      "content": "Not all clinical data is distributed evenly. Consider maternal length of stay in a hospital: most women go home in two days, but a few with severe complications stay for weeks. This creates a skewed distribution. When data is skewed, the **mean** gets pulled toward the extreme outliers, making it a poor representation of a typical patient's experience. In these cases, the **median** is much more reliable because it ignores the absolute value of outliers and focuses purely on the middle rank. A classic error in hospital audits is reporting the mean length of stay, which misleads administrators into thinking routine recovery takes much longer than it actually does."
+    },
+    {
+      "heading_id": "BMP225_U4_T1_h4",
+      "order": 4,
+      "title": "Measuring Variability: Standard Deviation and Range Calculation",
+      "content": "Knowing the center of a dataset tells only half the story. We must also understand how spread out the individual numbers are. \n\n- **Range**: The simplest measure of dispersion. It is calculated by subtracting the minimum value from the maximum value. While easy to compute, it is very sensitive to extreme errors or rare outliers.\n- **Standard Deviation**: A much more robust measure that tells us, on average, how far each data point lies away from the mean. A small standard deviation means the clinical measurements cluster tightly around the average, while a large standard deviation indicates high variability among patients."
+    },
+    {
+      "heading_id": "BMP225_U4_T1_h5",
+      "order": 5,
+      "title": "Interpreting Dispersion in Patient Vital Signs and Outcomes",
+      "content": "In clinical practice, understanding dispersion is just as vital as knowing averages. Two different antenatal clinics might have the exact same mean systolic blood pressure of 120 mmHg. However, Clinic A might have a small standard deviation, meaning almost all pregnant women hover safely around that normal pressure. Clinic B might have a large standard deviation, indicating that while the average looks fine, many individual women are swinging dangerously into severe hypertension or hypotension. Recognizing dispersion prevents clinicians from being lulled into a false sense of security by a normal-looking average that masks dangerous patient extremes."
+    }
+  ]
+}

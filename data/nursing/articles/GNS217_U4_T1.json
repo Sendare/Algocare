@@ -1,0 +1,54 @@
+{
+  "article_id": "GNS217_U4_T1",
+  "topic_id": "GNS217_U4_T1",
+  "title": "Scales of Measurement",
+  "path": [
+    "Research & Statistics I",
+    "Introduction to Measurement and Statistics",
+    "Scales of Measurement"
+  ],
+  "headings": [
+    {
+      "heading_id": "GNS217_U4_T1_h1",
+      "order": 1,
+      "title": "Introduction to Measurement in Nursing Research",
+      "content": "Measurement is the process of assigning numbers or labels to objects, events, or characteristics according to specific rules. In nursing research, accurate measurement turns abstract clinical concepts like pain, anxiety, or blood pressure into usable data. Without clear rules for measurement, data lacks consistency and validity, making it impossible to evaluate patient outcomes properly or draw reliable conclusions from a study."
+    },
+    {
+      "heading_id": "GNS217_U4_T1_h2",
+      "order": 2,
+      "title": "Nominal Scale: Categorization and Naming",
+      "content": "The **nominal scale** is the simplest level of measurement. It sorts data into discrete, mutually exclusive categories that do not overlap. Numbers assigned to nominal categories serve purely as labels and hold no mathematical value. \n\n- **Gender**: Categorized as male or female.\n- **Blood Type**: Categorized as A, B, AB, or O.\n- **Marital Status**: Categorized as single, married, divorced, or widowed."
+    },
+    {
+      "heading_id": "GNS217_U4_T1_h3",
+      "order": 3,
+      "title": "Ordinal Scale: Ranking and Ordering",
+      "content": "The **ordinal scale** classifies data into categories that can be ranked or placed in a specific order. While you can tell which value is higher or lower, the exact numerical distance between the ranks is not uniform or known. \n\n- **Patient Pain Scale**: Mild, moderate, severe.\n- **Functional Status**: Independent, needs assistance, completely dependent.\n- **Cancer Staging**: Stage I, Stage II, Stage III, Stage IV."
+    },
+    {
+      "heading_id": "GNS217_U4_T1_h4",
+      "order": 4,
+      "title": "Interval Scale: Equal Intervals with No True Zero",
+      "content": "The **interval scale** provides ordered data with equal, standardized distances between adjacent points. However, it lacks a **true zero** point—meaning zero does not represent the total absence of the property being measured.\n\n- **Temperature in Celsius**: Zero degrees does not mean absence of heat; it is just another point on the scale where water freezes.\n- **Standardized IQ Scores**: A score of zero does not mean an absolute lack of intelligence."
+    },
+    {
+      "heading_id": "GNS217_U4_T1_h5",
+      "order": 5,
+      "title": "Ratio Scale: Equal Intervals and Absolute Zero",
+      "content": "The **ratio scale** is the highest and most precise level of measurement. It possesses all the properties of an interval scale—ranked data and equal intervals—plus a **true absolute zero** point. A value of zero means the complete absence of the characteristic being measured.\n\n- **Weight**: Zero kilograms means no weight exists.\n- **Height**: Zero centimeters means no height exists.\n- **Pulse Rate**: Zero beats per minute means cardiac arrest."
+    },
+    {
+      "heading_id": "GNS217_U4_T1_h6",
+      "order": 6,
+      "title": "Comparison of the Four Scales of Measurement",
+      "content": "| Scale | Categorization | Ranking | Equal Intervals | Absolute Zero |\n| :--- | :---: | :---: | :---: | :---: | \n| **Nominal** | Yes | No | No | No |\n| **Ordinal** | Yes | Yes | No | No |\n| **Interval** | Yes | Yes | Yes | No |\n| **Ratio** | Yes | Yes | Yes | Yes |\n\nEach progressive scale builds upon the rules of the previous one, adding mathematical complexity and analytical power."
+    },
+    {
+      "heading_id": "GNS217_U4_T1_h7",
+      "order": 7,
+      "title": "Choosing the Appropriate Scale for Nursing Data",
+      "content": "Selecting the correct scale of measurement dictates which statistical tests can be performed on research data. Nominal and ordinal data require nonparametric tests because they lack continuous numerical properties. Interval and ratio data permit parametric tests like means and standard deviations because they offer precise numerical values. Knowing your variable type prevents statistical errors and ensures accurate nursing research outcomes."
+    }
+  ]
+}

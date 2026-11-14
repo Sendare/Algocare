@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Dashboard — Algocare</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./assets/style.css">
+<style>
+  .dashboard-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; }
+  .dashboard-header h1 { margin: 0; font-size: 1.75rem; }
+  .dashboard-header p { margin: 4px 0 0 0; color: var(--ink-soft); font-size: 1rem; }
+  .logout-btn { background: none; border: 1px solid var(--grey-line); padding: 8px 16px; border-radius: var(--radius); color: var(--ink-soft); cursor: pointer; font-size: 0.85rem; font-weight: 600; }
+  .logout-btn:hover { background: var(--paper); }
+
+  .program-switcher { display: flex; gap: 8px; margin-bottom: 32px; overflow-x: auto; padding-bottom: 8px; }
+  .prog-tab { padding: 10px 20px; background: var(--card); border: 1px solid var(--grey-line); border-radius: var(--radius); font-weight: 600; cursor: pointer; color: var(--ink-soft); white-space: nowrap; transition: all 0.2s; }
+  .prog-tab.active { background: var(--scrub); color: #fff; border-color: var(--scrub); }
+
+  .stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 32px; }
+  .stat-card { background: var(--card); padding: 16px; border-radius: var(--radius); border: 1px solid var(--grey-line); text-align: center; }
+  .stat-value { font-family: var(--mono); font-size: 1.5rem; font-weight: 700; color: var(--scrub); margin-bottom: 4px; }
+  .stat-label { font-size: 0.75rem; color: var(--ink-soft); text-transform: uppercase; letter-spacing: 0.05em; }
+
+  .mode-grid { display: grid; grid-template-columns: 1fr; gap: 16px; margin-bottom: 32px; }
+  @media (min-width: 600px) { .mode-grid { grid-template-columns: 1fr 1fr; } }
+  .mode-card { background: var(--card); padding: 24px; border-radius: 12px; border: 1px solid var(--grey-line); text-decoration: none; color: var(--ink); transition: all 0.2s; display: flex; flex-direction: column; gap: 8px; }
+  .mode-card:hover { border-color: var(--scrub); transform: translateY(-2px); box-shadow: 0 4px 12px rgba(47,111,98,0.1); }
+  .mode-icon { font-size: 2rem; margin-bottom: 8px; }
+  .mode-card h3 { margin: 0; font-size: 1.1rem; color: var(--scrub); }
+  .mode-card p { margin: 0; font-size: 0.85rem; color: var(--ink-soft); }
+
+  .recent-section { background: var(--card); padding: 20px; border-radius: var(--radius); border: 1px solid var(--grey-line); }
+  .recent-section h3 { margin-top: 0; margin-bottom: 16px; font-size: 1rem; }
+  .recent-list { list-style: none; padding: 0; margin: 0; }
+  .recent-list li { padding: 8px 0; border-bottom: 1px solid var(--grey-line); font-size: 0.9rem; display: flex; justify-content: space-between; }
+  .recent-list li:last-child { border-bottom: none; }
+</style>
+</head>
+<body>
+<div class="topbar">
+  <a href="./index.html" class="brand" style="text-decoration:none;"><span class="pulse-dot"></span>Algocare</a>
+  <div>
+    <a href="/dashboard.html" style="font-weight:600; color:var(--scrub); text-decoration:none; margin-right:16px;">My Dashboard</a>
+    <button onclick="logOut()" class="logout-btn">Log out</button>
+  </div>
+</div>
+
+<div class="container">
+  <div class="dashboard-header">
+    <div>
+      <h1 id="greeting">Welcome!</h1>
+      <p>Select a program to start studying.</p>
+    </div>
+  </div>
+
+  <!-- Program Switcher -->
+  <div class="program-switcher" id="programSwitcher">
+    <button class="prog-tab active" data-prog="nursing">Basic Nursing</button>
+    <button class="prog-tab" data-prog="midwifery">Basic Midwifery</button>
+  </div>
+
+  <!-- Quick Stats (Placeholder Data) -->
+  <div class="stats-grid">
+    <div class="stat-card">
+      <div class="stat-value">🔥 5</div>
+      <div class="stat-label">Day Streak</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value">12</div>
+      <div class="stat-label">Qs Today</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value">68%</div>
+      <div class="stat-label">Avg. Score</div>
+    </div>
+  </div>
+
+  <!-- Main Action Cards -->
+  <div class="mode-grid">
+    <a href="#" id="link-articles" class="mode-card">
+      <div class="mode-icon">📚</div>
+      <h3>Study Articles</h3>
+      <p>Read topics and test yourself on specific concepts.</p>
+    </a>
+    <a href="#" id="link-practice" class="mode-card">
+      <div class="mode-icon">🎯</div>
+      <h3>Practice Mode</h3>
+      <p>Take custom practice tests by selecting specific courses.</p>
+    </a>
+    <a href="#" id="link-realfeel" class="mode-card" style="grid-column: 1 / -1;">
+      <div class="mode-icon">⏱️</div>
+      <h3>Real-Feel Exam</h3>
+      <p>Simulate the actual CBT exam with 250 mixed questions and a strict timer.</p>
+    </a>
+    <a href="#" id="link-leaderboard" class="mode-card" style="grid-column: 1 / -1; background: var(--paper); border-color: var(--scrub);">
+      <div class="mode-icon">🏆</div>
+      <h3>Leaderboard</h3>
+      <p>See how you rank against other students in your program.</p>
+    </a>
+  </div>
+
+  <!-- Recent Activity (Placeholder) -->
+  <div class="recent-section">
+    <h3>Recent Scores</h3>
+    <ul class="recent-list">
+      <li><span>Practice: Anatomy</span> <span style="color: var(--scrub); font-weight: 600;">15/20 (75%)</span></li>
+      <li><span>Real-Feel Exam 1</span> <span style="color: var(--scrub); font-weight: 600;">180/250 (72%)</span></li>
+      <li><span>Practice: Pharmacology</span> <span style="color: var(--brick); font-weight: 600;">10/20 (50%)</span></li>
+    </ul>
+  </div>
+</div>
+
+<script src="./assets/auth.js"></script>
+<script src="./assets/dashboard.js"></script>
+</body>
+</html>

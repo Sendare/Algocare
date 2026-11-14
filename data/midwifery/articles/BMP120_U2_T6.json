@@ -1,0 +1,53 @@
+{
+  "article_id": "BMP120_U2_T6",
+  "topic_id": "BMP120_U2_T6",
+  "title": "Calculation of Drug Dosages and Solutions",
+  "path": [
+    "Administration of Medications",
+    "Calculation of Drug Dosages and Solutions"
+  ],
+  "headings": [
+    {
+      "heading_id": "BMP120_U2_T6_h1",
+      "order": 1,
+      "title": "Introduction to Medication Mathematics in Clinical Practice",
+      "content": "Accurate medication calculation is a daily safety barrier between a stable patient and a severe adverse event. Midwives and nurses must calculate doses for various clinical settings, from busy antenatal wards in Lagos to rural primary health clinics. A single decimal placement error can multiply a dose tenfold, turning a therapeutic intervention into a fatal toxicity.\n\nConfidence in basic arithmetic eliminates the anxiety that often leads to calculation errors during night shifts or emergencies. This mathematical foundation rests on understanding proportional relationships and recognizing standard clinical abbreviations. Regular practice ensures that finding the correct dose becomes second nature, allowing clinical focus to remain on the mother and baby rather than the calculator."
+    },
+    {
+      "heading_id": "BMP120_U2_T6_h2",
+      "order": 2,
+      "title": "Review of Essential Metric and Apothecary Conversions",
+      "content": "Before calculating any dose, all values must be expressed in the same unit of measurement. The metric system is the global standard in modern healthcare, utilizing grams, milligrams, and micrograms for mass, and liters and milliliters for volume.\n\n- **Kilogram (kg)**: Equal to 1,000 grams. Used primarily for patient body weight.\n- **Gram (g)**: Equal to 1,000 milligrams. \n- **Milligram (mg)**: Equal to 1,000 micrograms. Common tablet and injection dose unit.\n- **Liter (L)**: Equal to 1,000 milliliters. Used for large fluid volumes.\n- **Milliliter (mL)**: Standard unit for liquid medications and intravenous solutions.\n\nTo convert a larger unit to a smaller unit, multiply by 1,000 by moving the decimal point three places to the right. To convert a smaller unit to a larger unit, divide by 1,000 by moving the decimal point three places to the left."
+    },
+    {
+      "heading_id": "BMP120_U2_T6_h3",
+      "order": 3,
+      "title": "Mastering the Core Formula Method for Oral and Parenteral Doses",
+      "content": "The standard formula method provides a reliable, universal approach for calculating solid and liquid medications. The formula uses three variables: the dose ordered by the prescriber, the dose available in stock, and the volume or quantity of the stock.\n\n$$\\text{Desired} \\over \\text{Have} \\times \\text{Quantity} = \\text{Amount to Administer}$|\n\n- **Desired**: The exact dose prescribed by the doctor or midwife.\n- **Have**: The strength of the medication available in the clinical unit.\n- **Quantity**: The capsule, tablet, or milliliter measurement that holds the 'have' amount.\n\nAlways ensure the desired and have units match before plugging numbers into the formula. If the order is in milligrams and the stock is in grams, perform the unit conversion first."
+    },
+    {
+      "heading_id": "BMP120_U2_T6_h4",
+      "order": 4,
+      "title": "Preparation of Solutions and Percentage Strengths",
+      "content": "Midwives frequently prepare antiseptic solutions, liquid dilutions, and intravenous admixtures from stock powders or concentrated liquids. Percentage solutions represent parts of solute per 100 parts of solution.\n\n- **W/V (Weight in Volume)**: Grams of solute in 100 mL of solution. A 1% solution contains 1 gram of drug in every 100 mL.\n- **V/V (Volume in Volume)**: Milliliters of solute in 100 mL of liquid solution.\n- **Ratio Strengths**: Expressed as proportions, such as 1:1,000, meaning 1 gram of solute in 1,000 mL of total solution.\n\nTo find the actual weight of a drug in a given volume of a percentage solution, multiply the total volume by the percentage expressed as a decimal or fraction."
+    },
+    {
+      "heading_id": "BMP120_U2_T6_h5",
+      "order": 5,
+      "title": "Determining Pediatric Dosages Based on Body Weight",
+      "content": "Children and neonates cannot handle adult medication doses because their metabolic pathways and renal clearance are immature. Pediatric doses are typically calculated based on the child's exact body weight in kilograms.\n\n$$\\text{Child Dose} = \\text{Child Weight (kg)} \\times \\text{Dose per kg prescribed}$$\n\nIf the reference manual states a drug dose is 10 mg/kg/day, and a toddler weighs 12 kg, the total daily requirement is 120 mg. This total is often divided into smaller doses given every 6 or 8 hours as ordered. Always double-check weight calculations against safe dosage range tables provided in pediatric formularies."
+    },
+    {
+      "heading_id": "BMP120_U2_T6_h6",
+      "order": 6,
+      "title": "Intravenous Flow Rates and Infusion Time Calculations",
+      "content": "Administering intravenous fluids requires calculating either the drops per minute for gravity sets or milliliters per hour for electronic infusion pumps. The drop factor, measured in drops per milliliter (gtt/mL), is stamped on the infusion set packaging.\n\n$$\\text{Flow Rate (gtt/min)} = {\\text{Volume (mL)} \\times \\text{Drop Factor (gtt/mL)} \\over \\text{Time (minutes)}}$|\n\n- Standard drop sets usually deliver 10, 15, or 20 gtt/mL.\n- Microdrip sets deliver a standard 60 gtt/mL, used primarily for pediatric or critical care infusions.\n\nWhen using an infusion pump, the calculation simplifies to milliliters per hour, bypassing the drop factor entirely."
+    },
+    {
+      "heading_id": "BMP120_U2_T6_h7",
+      "order": 7,
+      "title": "Common Calculation Pitfalls and Safety Strategies",
+      "content": "Even experienced midwives can make mathematical errors when rushed. Recognizing common pitfalls helps establish personal safety habits in clinical environments.\n\n- **Misplaced Decimals**: A single misplaced dot turns 0.5 mg into 5.0 mg, a tenfold overdose.\n- **Label Blindness**: Failing to check whether the medication is available in mg, mcg, or grams.\n- **Rounding Too Early**: Rounding intermediate steps instead of keeping full decimal numbers until the final answer.\n\nAlways utilize the 'two-nurse check' for high-alert medications such as oxytocin, magnesium sulfate, and insulin. Never hesitate to pause and recalculate if a dose feels unusually large or small for the patient."
+    }
+  ]
+}

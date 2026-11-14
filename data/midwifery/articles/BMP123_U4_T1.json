@@ -1,0 +1,41 @@
+{
+  "article_id": "BMP123_U4_T1",
+  "topic_id": "BMP123_U4_T1",
+  "title": "Basics of the Internet, World Wide Web (WWW), and Browsers",
+  "path": [
+    "Internet and Digital Communication",
+    "Basics of the Internet, World Wide Web (WWW), and Browsers"
+  ],
+  "headings": [
+    {
+      "heading_id": "BMP123_U4_T1_h1",
+      "order": 1,
+      "title": "Introduction to Internet Basics",
+      "content": "The **internet** is a massive global network connecting millions of smaller computer networks together. Through this infrastructure, devices across hospitals, schools, and homes can share information instantly. Data travels across this network in small packets, moving from a source device to a destination device using standardized communication rules called **protocols**. In a modern healthcare setting, this connectivity allows midwives to access digital guidelines, consult with specialists miles away, and maintain electronic health records. Understanding that the internet is simply the physical hardware and wiring behind global data sharing helps clarify why a stable connection is vital for digital health tools."
+    },
+    {
+      "heading_id": "BMP123_U4_T1_h2",
+      "order": 2,
+      "title": "Understanding the World Wide Web (WWW)",
+      "content": "Many people use the terms 'internet' and the **World Wide Web** interchangeably, but they are distinct concepts. While the internet is the physical hardware, the WWW is a vast collection of text, images, and videos stored on servers and linked together. Tim Berners-Lee invented the web, introducing a system where pages connect via **hyperlinks**. To view these pages, users rely on a unique addressing system known as **Uniform Resource Locators** (URLs). The web sits on top of the internet, acting as the visual, readable layer that users interact with daily through their screens."
+    },
+    {
+      "heading_id": "BMP123_U4_T1_h3",
+      "order": 3,
+      "title": "How Web Browsers Work",
+      "content": "A **web browser** is an application software used to locate, retrieve, and display content on the World Wide Web. Common examples include Google Chrome, Mozilla Firefox, and Microsoft Edge. When a user enters a web address, the browser sends a request across the internet to a **web server** hosting that specific site. The server sends back code written in languages like HTML and CSS. The browser then translates that raw code into the formatted text, images, and buttons seen on the screen. Understanding this request-and-response cycle helps explain why slow loading times often happen due to network delays rather than device failure."
+    },
+    {
+      "heading_id": "BMP123_U4_T1_h4",
+      "order": 4,
+      "title": "Navigating URLs and Web Addresses",
+      "content": "A **Uniform Resource Locator (URL)** is the specific address used to find a resource on the internet. Every web page has a unique URL composed of several standard parts:\n- **Protocol**: Tells the browser how to handle the data, usually **HTTP** or **HTTPS** (where the 'S' stands for secure, encrypting data sent between the browser and server).\n- **Domain Name**: The specific name of the website, such as who.int or nursingworld.org.\n- **Path**: The specific folder or page location within that website.\n\nMidwives accessing online journals or clinical calculators should always check that a URL begins with **HTTPS** to ensure patient and personal data privacy."
+    },
+    {
+      "heading_id": "BMP123_U4_T1_h5",
+      "order": 5,
+      "title": "Practical Digital Tools for Midwifery Practice",
+      "content": "Digital literacy is becoming essential for modern midwifery practice in Nigeria. Midwives utilize web-based tools for various professional tasks, including accessing national health management information systems, reading peer-reviewed obstetric journals, and utilizing electronic partographs. Bookmarking frequently used clinical sites saves valuable time during busy shifts. Additionally, understanding how to clear browser cache and cookies helps resolve common loading errors when hospital computers freeze or fail to display updated hospital policy documents."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "article_id": "BMP112_U5_T2",
+  "topic_id": "BMP112_U5_T2",
+  "title": "Electrical Safety in Hospital and Clinical Settings",
+  "path": [
+    "Electricity and Magnetism",
+    "Electrical Safety in Hospital and Clinical Settings"
+  ],
+  "headings": [
+    {
+      "heading_id": "BMP112_U5_T2_h1",
+      "order": 1,
+      "title": "Principles of Electrical Safety in Clinical Environments",
+      "content": "Clinical environments present unique electrical safety challenges because patients often have compromised natural skin resistance or have direct electrical pathways connected to internal organs via catheters, pacing wires, or invasive monitors. Under normal conditions, human skin offers high resistance to electric current. When this skin barrier is bypassed or broken down by sweat, conductive gels, surgical incisions, or saline solutions, even very small electrical currents can cause significant harm. Biomedical equipment must be regularly checked for current leakage, frayed power cords, and damaged housing. Midwives and clinical staff must remain vigilant, inspecting equipment before use and ensuring that hospital beds, fetal monitors, and infusion pumps are plugged into functional, grounded electrical outlets rather than overloaded multi-way extension cords."
+    },
+    {
+      "heading_id": "BMP112_U5_T2_h2",
+      "order": 2,
+      "title": "Macroshocks vs. Microshocks in Patient Care",
+      "content": "Electrical shocks in healthcare settings are generally divided into two distinct categories based on the pathway of the current and the magnitude required to cause injury.\n\n- **Macroshock**: This occurs when a relatively large current passes through the intact skin and across the trunk of the body, typically entering through one hand or arm and exiting through another body part or the feet. It can cause muscle contractions, respiratory arrest, or ventricular fibrillation if the current is strong enough.\n- **Microshock**: This is a hazard unique to patients with invasive electrical pathways, such as central venous catheters or epicardial pacing wires. Because the current bypasses the high-resistance skin barrier and travels directly to or near the heart, an extremely tiny current—as low as 10 microamperes—is enough to trigger lethal ventricular fibrillation."
+    },
+    {
+      "heading_id": "BMP112_U5_T2_h3",
+      "order": 3,
+      "title": "Isolated Power Systems and Electrical Grounding",
+      "content": "Grounding is the primary line of defense against electrical shocks in clinical areas. A proper grounding system provides a safe, low-resistance path for fault current to flow directly into the earth rather than through a patient or a staff member. When an appliance develops an internal short circuit to its metal casing, the ground wire directs the stray current back to the breaker, causing it to trip immediately.\n\nIn high-risk areas like operating theaters and intensive care units, isolated power systems are often utilized. These systems isolate the power supply from the main electrical ground. If a single fault occurs to ground, the equipment continues to operate without interrupting critical life-support procedures, while a line isolation monitor sounds an alarm to alert staff that a fault has occurred."
+    },
+    {
+      "heading_id": "BMP112_U5_T2_h4",
+      "order": 4,
+      "title": "Inspection and Maintenance Protocols for Biomedical Equipment",
+      "content": "Preventive maintenance is essential for catching electrical faults before they endanger patients or staff. Biomedical engineering departments routinely test medical devices for leakage current, insulation integrity, and the physical condition of plugs and power cables. Clinical personnel also have a daily responsibility to perform visual safety checks before powering on any machine. Frayed cables, cracked plastic casing, loose prongs on plugs, and evidence of liquid spills inside the device are clear warning signs. Any equipment found to be defective must be immediately removed from clinical service, labeled clearly as out of order, and sent to the biomedical department for repair."
+    },
+    {
+      "heading_id": "BMP112_U5_T2_h5",
+      "order": 5,
+      "title": "Immediate Nursing Actions During an Electrical Hazard Event",
+      "content": "When an electrical accident or hazard occurs in a clinical setting, rapid and calm action is required to protect both the patient and the responder. Midwives and nurses must never touch a person who is still in contact with a live electrical source, as the current can pass through them as well. The immediate priority is to break the electrical contact by turning off the power source at the wall switch, unplugging the device if the plug is undamaged, or using a non-conductive object like a wooden broom handle to push the wire away from the victim. Once the patient is safely separated from the power source, assess their airway, breathing, and circulation, initiate cardiopulmonary resuscitation if necessary, and call for emergency medical assistance."
+    }
+  ]
+}

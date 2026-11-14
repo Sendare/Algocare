@@ -1,0 +1,47 @@
+{
+  "article_id": "BMP225_U2_T7",
+  "topic_id": "BMP225_U2_T7",
+  "title": "Sample Size Determination Principles",
+  "path": [
+    "Literature Review and Research Design",
+    "Sample Size Determination Principles"
+  ],
+  "headings": [
+    {
+      "heading_id": "BMP225_U2_T7_h1",
+      "order": 1,
+      "title": "Introduction to Sampling in Midwifery Research",
+      "content": "In midwifery research, studying an entire population—such as every pregnant woman in Nigeria—is practically impossible due to time, financial constraints, and logistics. Instead, researchers select a smaller subset called a **sample** to represent the larger group, known as the **target population**. Good research depends heavily on how well this sample reflects the wider group. If the selection process is flawed, the findings will not apply to real-world clinical practice, no matter how well the data was collected."
+    },
+    {
+      "heading_id": "BMP225_U2_T7_h2",
+      "order": 2,
+      "title": "Core Principles of Sample Size Calculation",
+      "content": "Determining how many participants to recruit is not a guessing game. It is a mathematical process that balances statistical requirements with practical limits. A sample must be large enough to detect a real clinical difference if one exists, but small enough to manage within available resources. Guessing numbers or copying what previous researchers did without checking their methods often leads to underpowered studies that waste valuable time and patient goodwill."
+    },
+    {
+      "heading_id": "BMP225_U2_T7_h3",
+      "order": 3,
+      "title": "Key Factors Influencing Sample Size",
+      "content": "Several statistical elements dictate the final number of participants required for a study:\n\n- **Effect size**: The magnitude of the difference or relationship you expect to find. Smaller effects require larger samples to detect.\n- **Variance**: The spread or diversity of data within the population. More diverse populations need more participants.\n- **Significance level (alpha)**: The threshold for deciding if a result is statistically significant, usually set at 0.05.\n- **Statistical power (beta)**: The probability of detecting a real effect, standardly set at 0.80 or 80%."
+    },
+    {
+      "heading_id": "BMP225_U2_T7_h4",
+      "order": 4,
+      "title": "Alpha and Beta: Understanding Significance and Power",
+      "content": "Statistical testing involves guarding against two types of errors. A **Type I error (Alpha)** occurs when a researcher concludes there is a difference when there actually is none—a false positive. A **Type II error (Beta)** happens when the study misses a real difference that actually exists—a false negative. \n\nPower is simply 1 minus Beta. Aiming for 80% power means you accept a 20% chance of missing a real clinical effect. In high-stakes midwifery interventions, researchers sometimes demand 90% power to be extra certain they capture meaningful outcomes."
+    },
+    {
+      "heading_id": "BMP225_U2_T7_h5",
+      "order": 5,
+      "title": "Accounting for Attrition and Non-Response",
+      "content": "Calculating the bare minimum statistical sample size is only the first step. In clinical midwifery studies, participants drop out, move away, or withdraw consent before data collection finishes. This loss of participants is called **attrition**. If a researcher calculates a need for 100 women but expects a 20% dropout rate, they must recruit roughly 125 women initially. Failing to inflate the sample size for anticipated losses leaves the final analysis underpowered and scientifically invalid."
+    },
+    {
+      "heading_id": "BMP225_U2_T7_h6",
+      "order": 6,
+      "title": "Common Pitfalls in Sample Size Determination",
+      "content": "Researchers often make avoidable mistakes when planning sample sizes. One major error is relying on convenience—enrolling however many patients walk into the antenatal clinic in two weeks without checking if the number is statistically adequate. Another pitfall is using rule-of-thumb numbers from old textbooks rather than running proper calculations for the specific research question. Finally, failing to consult a statistician early in the design phase frequently leads to unpublishable research."
+    }
+  ]
+}

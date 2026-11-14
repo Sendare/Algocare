@@ -1,0 +1,53 @@
+{
+  "article_id": "GNS121_U3_T12",
+  "topic_id": "GNS121_U3_T12",
+  "title": "Physiology of Muscle Contraction",
+  "path": [
+    "Anatomy and Physiology",
+    "Physiology of Muscle Contraction"
+  ],
+  "headings": [
+    {
+      "heading_id": "GNS121_U3_T12_h1",
+      "order": 1,
+      "title": "Muscle Tissue Types and General Functions",
+      "content": "The human body contains three distinct types of muscle tissue: skeletal, cardiac, and smooth muscle. Each serves specialized mechanical roles across different organ systems.\n\n- **Skeletal muscle**: Attached to bones, it drives voluntary body movements, posture maintenance, and thermoregulation through shivering. \n- **Cardiac muscle**: Found exclusively in the heart wall, it contracts involuntarily to pump blood throughout the systemic and pulmonary circulations.\n- **Smooth muscle**: Located within the walls of hollow internal organs such as blood vessels, the stomach, and the uterus, it regulates internal flow and peristalsis.\n\nWhile all muscle tissues share the fundamental properties of excitability, contractility, and extensibility, skeletal muscle operates under conscious somatic control, whereas cardiac and smooth muscles respond to autonomic and hormonal signals."
+    },
+    {
+      "heading_id": "GNS121_U3_T12_h2",
+      "order": 2,
+      "title": "Microscopic Anatomy of Skeletal Muscle Fibers",
+      "content": "Skeletal muscle is organized into a hierarchical structure wrapped in connective tissue sheaths. Individual muscle cells, known as **muscle fibers** or myocytes, run the length of the muscle and contain specialized intracellular structures.\n\n- **Sarcolemma**: The specialized plasma membrane of a muscle fiber. It propagates electrical signals.\n- **Sarcoplasm**: The cytoplasm of a muscle fiber, packed with glycogen and myoglobin for oxygen storage.\n- **Sarcoplasmic reticulum**: A modified endoplasmic reticulum that stores and releases calcium ions.\n- **T-tubules**: Invaginations of the sarcolemma that carry electrical impulses deep into the muscle fiber.\n\nInside each fiber are hundreds of cylindrical **myofibrils**, which contain the repeating contractile units called **sarcomeres**. The boundary of each sarcomere is marked by the **Z-line**. Within the sarcomere, overlapping **actin** (thin) and **myosin** (thick) filaments interact to generate mechanical force."
+    },
+    {
+      "heading_id": "GNS121_U3_T12_h3",
+      "order": 3,
+      "title": "The Neuromuscular Junction and Action Potential Generation",
+      "content": "Muscle contraction begins when a nerve impulse reaches the **neuromuscular junction**, the specialized synapse between a motor neuron and a skeletal muscle fiber. \n\nWhen an action potential travels down the motor axon, it triggers voltage-gated calcium channels to open at the axon terminal. This influx of calcium causes synaptic vesicles to fuse with the presynaptic membrane, releasing the neurotransmitter **acetylcholine (ACh)** into the synaptic cleft.\n\nACh diffuses across the narrow gap and binds to ligand-gated ion channels on the motor end plate of the sarcolemma. This binding opens the channels, allowing sodium ions to rush into the muscle cell while potassium ions exit. This sudden shift in charge produces a local depolarization known as the **end-plate potential**. Once this potential reaches threshold, voltage-gated sodium channels open across the sarcolemma, sparking a propagating muscle **action potential**."
+    },
+    {
+      "heading_id": "GNS121_U3_T12_h4",
+      "order": 4,
+      "title": "Excitation-Contraction Coupling",
+      "content": "Excitation-contraction coupling is the physiological process translating the sarcolemmal action potential into the sliding of myofilaments. \n\nThe action potential races along the sarcolemma and travels down the **T-tubules**. As the wave of depolarization passes through, it alters the shape of voltage-sensitive protein receptors located in the T-tubule membrane. These receptors are mechanically linked to calcium release channels situated on the terminal cisternae of the **sarcoplasmic reticulum**.\n\nOpening these storage channels causes a massive efflux of stored **calcium ions** out of the sarcoplasmic reticulum and directly into the surrounding sarcoplasm where the myofibrils lie. This sudden elevation in intracellular calcium concentration is the direct trigger that initiates cross-bridge cycling between actin and myosin."
+    },
+    {
+      "heading_id": "GNS121_U3_T12_h5",
+      "order": 5,
+      "title": "Role of Calcium and Regulatory Proteins",
+      "content": "At rest, skeletal muscle is prevented from contracting continuously by two regulatory proteins wrapped around the actin filament: **tropomyosin** and **troponin**.\n\n- **Tropomyosin**: A long protein strand that physically blocks the active binding sites on the actin filament, preventing myosin from attaching.\n- **Troponin**: A complex attached to tropomyosin that holds it in place over the binding sites.\n\nWhen calcium ions flood into the sarcoplasm from the sarcoplasmic reticulum, they bind directly to troponin. This binding causes troponin to undergo a conformational change, pulling tropomyosin away from the active sites on actin. With the binding sites now exposed, myosin heads can attach to actin, setting the stage for force generation."
+    },
+    {
+      "heading_id": "GNS121_U3_T12_h6",
+      "order": 6,
+      "title": "The Sliding Filament Theory and Cross-Bridge Cycling",
+      "content": "Once actin binding sites are exposed, muscle shortens through the **sliding filament theory**. Myosin and actin filaments do not change their actual length; instead, they slide past one another, pulling the Z-lines closer together.\n\nThe mechanical cycle unfolds in distinct mechanical steps:\n\n1. **Cross-bridge formation**: Energized myosin heads bind to the exposed active site on actin.\n2. **Power stroke**: The myosin head pivots, pulling the actin filament toward the center of the sarcomere while releasing stored ADP and inorganic phosphate.\n3. **Detachment**: A new **ATP** molecule binds to the myosin head, causing it to release its hold on the actin filament.\n4. **Recovery**: The myosin head hydrolyzes the ATP into ADP and inorganic phosphate, cocking the head back into its high-energy position."
+    },
+    {
+      "heading_id": "GNS121_U3_T12_h7",
+      "order": 7,
+      "title": "Muscle Relaxation and Energy Restoration",
+      "content": "When nerve stimulation ceases, the muscle must actively relax to prevent continuous, exhausting contraction. \n\nAcetylcholine in the synaptic cleft is rapidly broken down by the enzyme **acetylcholinesterase**, ending the generation of muscle action potentials. Simultaneously, active transport pumps in the sarcoplasmic reticulum membrane use energy from ATP to pump calcium ions back out of the sarcoplasm and into storage.\n\nAs calcium levels in the sarcoplasm drop, troponin returns to its original shape, allowing tropomyosin to slide back and cover the active binding sites on actin. Without active cross-bridges, the muscle lengthens and returns to its resting state. Because active calcium pumping and cross-bridge detachment both require cellular energy, muscle relaxation is an active, ATP-consuming process."
+    }
+  ]
+}

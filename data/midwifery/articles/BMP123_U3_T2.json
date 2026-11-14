@@ -1,0 +1,53 @@
+{
+  "article_id": "BMP123_U3_T2",
+  "topic_id": "BMP123_U3_T2",
+  "title": "Spreadsheets (MS Excel)",
+  "path": [
+    "Office Productivity Tools",
+    "Spreadsheets (MS Excel)"
+  ],
+  "headings": [
+    {
+      "heading_id": "BMP123_U3_T2_h1",
+      "order": 1,
+      "title": "Introduction to the Excel Interface and Workbook Structure",
+      "content": "Microsoft Excel is a powerful spreadsheet application used widely in healthcare administration, research data tracking, and general office tasks. When you open a new file, you are looking at a **workbook**. Every workbook contains one or more **worksheets**, which appear as tabs at the bottom of the screen. \n\nInside a worksheet, you will find a massive grid made up of intersecting horizontal **rows** and vertical **columns**. Rows are identified by numbers on the left side of the screen, while columns are labeled with letters across the top. The box where a specific row and column meet is called a **cell**. Each cell has a unique address or name, combining its column letter and row number, such as A1 or C4. \n\nAt the very top of the Excel window sits the **ribbon**, divided into tabs like Home, Insert, and Page Layout. Below the ribbon is the **formula bar**, which displays the exact contents of the active cell. Understanding this basic layout is essential before you attempt to enter data or build calculations for patient records or clinic inventories."
+    },
+    {
+      "heading_id": "BMP123_U3_T2_h2",
+      "order": 2,
+      "title": "Best Practices for Efficient Data Entry",
+      "content": "Entering data correctly the first time saves hours of cleanup later. Always design your spreadsheet with clear headings in the very first row, using one distinct column for each type of information—for example, separate columns for patient first name, last name, and date of birth. \n\nTo move quickly to the next cell during data entry, press the **Tab** key to move horizontally to the right, or the **Enter** key to drop down to the next row. Avoid typing formulas directly into cells until all raw numbers are recorded. When you need to enter the same text or value across multiple cells, use the **fill handle**—the small green square at the bottom-right corner of an active cell—to drag and copy the data instantly. Never merge header cells if you plan to sort or filter the data later, as merged cells disrupt Excel's ability to read columns properly."
+    },
+    {
+      "heading_id": "BMP123_U3_T2_h3",
+      "order": 3,
+      "title": "Formatting Cells, Rows, and Columns for Readability",
+      "content": "Raw numbers and unformatted text can easily cause reading errors when reviewing clinical logs or financial sheets. Proper formatting transforms a messy grid into a professional document.\n\n- **Number Formatting**: Always assign the correct data type. Use currency formatting for monetary amounts and short date styles for calendar dates so Excel understands how to process them.\n- **Text Alignment**: Keep text aligned to the left and numbers aligned to the right. This standard practice makes scanning columns much easier.\n- **Column Width**: If you see a series of hash marks like ##### inside a cell, it simply means the column is too narrow to display the full number. Double-click the right boundary of the column header to auto-fit the content.\n- **Cell Shading and Borders**: Apply light background shading to header rows and clean grid borders to separate sections visually."
+    },
+    {
+      "heading_id": "BMP123_U3_T2_h4",
+      "order": 4,
+      "title": "Mastering Basic Functions and Formulas",
+      "content": "Formulas are the calculations that make spreadsheets truly useful. Every formula in Excel must begin with an equals sign (=). Without the equals sign, Excel treats your input as regular text.\n\nA **formula** is a custom equation you create, such as `=A1+A2`. A **function** is a pre-built shortcut designed by Excel to handle complex math automatically. For example, instead of typing `=A1+A2+A3+A4+A5`, you can use the **SUM** function: `=SUM(A1:A5)`.\n\nCommon functions used in administrative and clinical recordkeeping include:\n- **AVERAGE()**: Calculates the arithmetic mean of a range of numbers.\n- **COUNT()**: Counts how many cells in a range contain numbers.\n- **MAX()**: Finds the highest value in a given selection.\n- **MIN()**: Finds the lowest value in a given selection."
+    },
+    {
+      "heading_id": "BMP123_U3_T2_h5",
+      "order": 5,
+      "title": "Sorting and Filtering Large Datasets",
+      "content": "When your spreadsheet grows to hundreds of rows of patient visits or supply inventory, scrolling manually becomes inefficient. Sorting and filtering help you find specific information instantly.\n\n**Sorting** reorganizes your rows based on the contents of a specific column. You can sort alphabetical text from A to Z, or numerical values from smallest to largest. Multi-level sorts let you organize by primary and secondary rules—for instance, sorting first by clinic department, and then by patient last name within each department.\n\n**Filtering** temporarily hides rows that do not match criteria you select. By clicking the drop-down arrow on a column header, you can choose to view only records belonging to a specific month or a single healthcare worker. Unlike deleting rows, filtering is non-destructive; clicking 'Clear Filter' brings all your hidden data right back onto the screen."
+    },
+    {
+      "heading_id": "BMP123_U3_T2_h6",
+      "order": 6,
+      "title": "Visualizing Data Through Chart Creation",
+      "content": "Tables filled with numbers can be difficult for stakeholders or hospital boards to digest quickly. Converting data into visual charts makes trends, increases, and declines obvious at a glance.\n\nTo create a chart, select the range of cells containing the data and labels you want to display, navigate to the **Insert** tab on the ribbon, and choose your preferred chart type. \n\n- **Column and Bar Charts**: Excellent for comparing discrete categories, such as patient admissions across different hospital wards.\n- **Line Charts**: Ideal for showing trends over time, like monthly clinic attendance records across a calendar year.\n- **Pie Charts**: Best for displaying parts of a whole, such as the percentage breakdown of contraceptive methods chosen at a family planning clinic. Avoid pie charts if you have more than six slices, as they become cluttered and hard to read."
+    },
+    {
+      "heading_id": "BMP123_U3_T2_h7",
+      "order": 7,
+      "title": "Tips for Printing and Sharing Workbooks",
+      "content": "Designing a great spreadsheet on your computer screen does not guarantee it will look professional when printed or emailed to colleagues. Large tables often split awkwardly across multiple pages if page setup is ignored.\n\nBefore printing, always use **Print Preview** to inspect your layout. Adjust the orientation between **Portrait** (tall) and **Landscape** (wide) depending on how many columns your table contains. If your table spans multiple pages, configure your settings to **Print Title Rows** so that your header labels appear at the top of every printed page. When sharing files digitally, save the workbook in a secure format or export it as a PDF if recipients only need to view the final numbers without making accidental edits."
+    }
+  ]
+}

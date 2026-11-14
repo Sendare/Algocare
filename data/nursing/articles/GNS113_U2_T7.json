@@ -1,0 +1,59 @@
+{
+  "article_id": "GNS113_U2_T7",
+  "topic_id": "GNS113_U2_T7",
+  "title": "Data Quality, Reporting and Security",
+  "path": [
+    "Nursing Informatics",
+    "Data Quality, Reporting and Security"
+  ],
+  "headings": [
+    {
+      "heading_id": "GNS113_U2_T7_h1",
+      "order": 1,
+      "title": "Introduction to Nursing Informatics and Data Concepts",
+      "content": "Nursing informatics merges nursing science, computer science, and information science to manage and communicate data, information, knowledge, and wisdom in nursing practice. Data forms the base of this hierarchy. It consists of raw, uninterpreted facts, numbers, or symbols without context. When nurses collect vital signs, blood glucose readings, or intake and output volumes, they are gathering raw data.\n\nTransforming data requires processing it to give it meaning, turning it into information. For example, a single heart rate of 120 beats per minute is data. Recognizing that this rate indicates tachycardia in an adult patient turns that data into information. Organizing and understanding relationships among pieces of information builds knowledge, which ultimately guides clinical decision-making and wisdom.\n\n1. **Data**: Raw, discrete facts without context or interpretation.\n2. **Information**: Data that has been organized, structured, or processed to provide meaning.\n3. **Knowledge**: The synthesis of information and clinical experience to understand relationships.\n4. **Wisdom**: The appropriate use of knowledge to manage and solve human problems."
+    },
+    {
+      "heading_id": "GNS113_U2_T7_h2",
+      "order": 2,
+      "title": "Principles of Data Quality in Healthcare",
+      "content": "Accurate clinical documentation depends on strict adherence to core data quality dimensions. Without high-quality data, healthcare teams risk making flawed clinical decisions, leading to compromised patient safety. The key characteristics of reliable healthcare data include:\n\n- **Accuracy**: Data correctly reflects the actual patient status and clinical event.\n- **Completeness**: All required fields within the patient record are fully documented without missing vital information.\n- **Timeliness**: Data is recorded and available at the point of care when needed.\n- **Consistency**: Data collected across different systems or shifts uses standardized definitions and remains uniform.\n- **Validity**: Data conforms to predefined rules, formats, and acceptable value ranges."
+    },
+    {
+      "heading_id": "GNS113_U2_T7_h3",
+      "order": 3,
+      "title": "Common Data Errors and Their Impact on Patient Outcomes",
+      "content": "Errors in documentation compromise patient safety across all clinical settings. Common mistakes range from typographical errors during manual data entry to delayed documentation, which leaves subsequent shifts uninformed about recent interventions. Another frequent issue involves duplicate charts, where a single patient has multiple medical record numbers, fragmenting their health history.\n\nWhen incorrect data enters the electronic health record, downstream effects can be severe. A misplaced decimal point in medication dosage can result in a toxic overdose. Incomplete allergy lists can trigger catastrophic anaphylactic reactions. Furthermore, fragmented data due to charting errors hinders interprofessional communication and delays necessary treatments."
+    },
+    {
+      "heading_id": "GNS113_U2_T7_h4",
+      "order": 4,
+      "title": "Strategies for Data Validation and Verification",
+      "content": "Safeguarding information integrity requires active validation and verification strategies built into daily workflows and software systems. Nurses play a frontline role in catching errors before they propagate through the patient record.\n\n- **Double-checking**: Verifying high-risk measurements or calculations with a colleague before entry.\n- **Range checks**: Utilizing software features that reject physically impossible values, such as a heart rate of 500 beats per minute.\n- **Read-back techniques**: Repeating verbal medication orders or lab values back to the ordering provider to confirm accuracy.\n- **Routine audits**: Regularly reviewing documentation logs to identify systematic entry errors or missing data trends."
+    },
+    {
+      "heading_id": "GNS113_U2_T7_h5",
+      "order": 5,
+      "title": "Healthcare Reporting Standards and Frameworks",
+      "content": "Structured reporting frameworks ensure that health data is shared securely and accurately across different institutions and software platforms. Without standardized formats, health records become isolated silos, hindering continuity of care and public health tracking.\n\nInteroperability standards, such as Health Level Seven International (HL7) and Fast Healthcare Interoperability Resources (FHIR), allow disparate hospital systems to exchange patient information seamlessly. Nursing documentation also relies on standardized terminologies, like NANDA-I for nursing diagnoses and NIC/NOC for interventions and outcomes, ensuring that a nursing care plan is universally understood regardless of geographical location or facility type."
+    },
+    {
+      "heading_id": "GNS113_U2_T7_h6",
+      "order": 6,
+      "title": "Legal and Ethical Considerations in Patient Data Management",
+      "content": "Managing patient data involves serious legal and ethical obligations. Nurses hold a fiduciary duty to protect patient information, rooted in the ethical principle of confidentiality. Every entry in a health record is a legal document that can be subpoenaed in court during malpractice litigation or investigations.\n\nEthical data management requires transparency, informed consent regarding data use, and adherence to professional codes of conduct. Nurses must never share patient passwords, leave electronic health record terminals unattended while logged in, or access patient charts out of personal curiosity rather than direct clinical need."
+    },
+    {
+      "heading_id": "GNS113_U2_T7_h7",
+      "order": 7,
+      "title": "Data Security, Confidentiality, and Privacy Regulations",
+      "content": "Healthcare institutions implement rigorous security measures to protect electronic health data from unauthorized access, breaches, and loss. Privacy regulations establish legal frameworks governing how health information is collected, stored, and disclosed.\n\nSecurity mechanisms are divided into administrative, physical, and technical safeguards. Administrative safeguards include policies, staff training, and access privileges. Physical safeguards involve locking server rooms and positioning computer monitors away from public view. Technical safeguards feature user authentication, role-based access control, and robust data encryption during transmission and storage."
+    },
+    {
+      "heading_id": "GNS113_U2_T7_h8",
+      "order": 8,
+      "title": "Mitigating Cybersecurity Threats in Nursing Practice",
+      "content": "Digital healthcare environments face constant threats from cyberattacks, including ransomware, phishing schemes, and unauthorized data breaches. Nurses are often targeted by malicious actors through social engineering tactics.\n\nPhishing emails disguised as routine hospital updates can trick staff into revealing login credentials. Mitigating these risks requires constant vigilance. Nurses must recognize suspicious email links, never share authentication credentials, lock workstations immediately when stepping away, and report any unusual system behavior to the IT department without delay."
+    }
+  ]
+}

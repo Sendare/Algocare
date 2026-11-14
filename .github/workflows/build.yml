@@ -1,0 +1,34 @@
+name: Build Algocare Site
+on:
+  workflow_dispatch: # Manual trigger only
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Requirements
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Build Script
+        run: python scripts/build.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config user.name "algocare-bot"
+          git config user.email "algocare-bot@users.noreply.github.com"
+          git add docs/
+          git diff --cached --quiet || git commit -m "Auto-build: Generated static site [skip ci]"
+          git pull --rebase origin main
+          git push

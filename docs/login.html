@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Log In — Algocare</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./assets/style.css">
+<style>
+  .auth-container { max-width: 420px; margin: 60px auto; padding: 32px; background: var(--card); border: 1px solid var(--grey-line); border-radius: 12px; box-shadow: var(--shadow); }
+  .auth-container h2 { text-align: center; margin-bottom: 24px; font-size: 1.75rem; }
+  .auth-error { background: var(--brick-soft); color: var(--brick); padding: 12px; border-radius: var(--radius); font-size: 0.9rem; margin-bottom: 20px; display: none; border: 1px solid var(--brick); }
+  .auth-footer { text-align: center; margin-top: 24px; font-size: 0.9rem; color: var(--ink-soft); }
+  .auth-footer a { font-weight: 600; }
+</style>
+</head>
+<body>
+<div class="topbar">
+  <a href="./index.html" class="brand" style="text-decoration:none;"><span class="pulse-dot"></span>Algocare</a>
+</div>
+
+<div class="auth-container">
+  <h2>Welcome Back</h2>
+  <div id="authError" class="auth-error"></div>
+  
+  <form id="loginForm">
+    <div class="form-group">
+      <label>Email</label>
+      <input type="email" id="email" class="form-control" required placeholder="you@example.com">
+    </div>
+    <div class="form-group">
+      <label>Password</label>
+      <input type="password" id="password" class="form-control" required placeholder="••••••••">
+    </div>
+    
+    <button type="submit" class="btn" style="width:100%; margin-top: 8px;" id="submitBtn">Log In</button>
+  </form>
+  
+  <div class="auth-footer">
+    Don't have an account? <a href="./signup.html">Sign Up</a>
+  </div>
+</div>
+
+<script src="./assets/auth.js"></script>
+<script>
+  document.getElementById("loginForm").addEventListener("submit", async (e) => {
+    e.preventDefault();
+    
+    const btn = document.getElementById("submitBtn");
+    const err = document.getElementById("authError");
+    const email = document.getElementById("email").value;
+    const pass = document.getElementById("password").value;
+    
+    err.style.display = "none";
+    btn.disabled = true;
+    btn.textContent = "Logging in...";
+    
+    try {
+      await logIn(email, pass);
+      // On success, redirect to dashboard
+      window.location.href = "./dashboard.html";
+    } catch (error) {
+      // Show error message from Supabase (e.g., "Invalid login credentials")
+      err.textContent = error.message;
+      err.style.display = "block";
+      btn.disabled = false;
+      btn.textContent = "Log In";
+    }
+  });
+</script>
+</body>
+</html>

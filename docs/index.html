@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Algocare — Pass Your Nursing & Midwifery Exams</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./assets/style.css">
+<style>
+  .hero { text-align: center; padding: 80px 20px 60px; max-width: 800px; margin: 0 auto; }
+  .hero h1 { font-size: 2.8rem; margin-bottom: 20px; line-height: 1.1; letter-spacing: -0.02em; }
+  .hero p { font-size: 1.15rem; color: var(--ink-soft); margin-bottom: 32px; max-width: 600px; margin-inline: auto; }
+  .hero-btns { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+  .hero-btns a { padding: 14px 28px; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 1rem; transition: all 0.2s; }
+  .btn-primary { background: var(--scrub); color: #fff; border: 1px solid var(--scrub); }
+  .btn-primary:hover { opacity: 0.9; transform: translateY(-1px); }
+  .btn-secondary { background: var(--card); color: var(--ink); border: 1px solid var(--grey-line); }
+  .btn-secondary:hover { background: var(--paper); transform: translateY(-1px); }
+  
+  .features { display: grid; grid-template-columns: 1fr; gap: 24px; max-width: 1000px; margin: 0 auto 100px; padding: 0 20px; }
+  @media (min-width: 768px) { .features { grid-template-columns: 1fr 1fr 1fr; } }
+  
+  .feature-card { background: var(--card); padding: 32px 24px; border-radius: 12px; border: 1px solid var(--grey-line); box-shadow: var(--shadow); transition: transform 0.2s; }
+  .feature-card:hover { transform: translateY(-4px); }
+  .feature-icon { font-size: 2.5rem; margin-bottom: 16px; }
+  .feature-card h3 { color: var(--ink); margin-bottom: 8px; font-size: 1.2rem; }
+  .feature-card p { color: var(--ink-soft); font-size: 0.95rem; margin: 0; line-height: 1.5; }
+  
+  .footer { text-align: center; padding: 40px 20px; border-top: 1px solid var(--grey-line); font-size: 0.85rem; color: var(--ink-soft); }
+  .footer a { color: var(--scrub); text-decoration: none; margin: 0 8px; }
+</style>
+</head>
+<body>
+<div class="topbar">
+  <div class="brand"><span class="pulse-dot"></span>Algocare</div>
+  <div id="authSlot">
+    <!-- auth.js will inject Log In / Dashboard here -->
+  </div>
+</div>
+
+<div class="hero">
+  <h1>Pass your Nursing & Midwifery exams with confidence.</h1>
+  <p>Curated study articles, practice tests, and real-feel CBT exams. Built for Nigerian students, by Nigerian students.</p>
+  <div class="hero-btns">
+    <a href="./signup.html" class="btn-primary">Get Started Free</a>
+    <a href="./login.html" class="btn-secondary">Log In</a>
+  </div>
+</div>
+
+<div class="features">
+  <div class="feature-card">
+    <div class="feature-icon">📚</div>
+    <h3>Study Articles</h3>
+    <p>2,000+ nursing topics and 1,500+ midwifery topics covering the full curriculum, from Anatomy to Community Health.</p>
+  </div>
+  <div class="feature-card">
+    <div class="feature-icon">🎯</div>
+    <h3>Practice Mode</h3>
+    <p>Choose specific courses, the number of questions, and set your own time limit. Get instant explanations for every answer.</p>
+  </div>
+  <div class="feature-card">
+    <div class="feature-icon">⏱️</div>
+    <h3>Real-Feel Exam</h3>
+    <p>Simulate the actual CBT exam with 250 mixed questions, strict timing, and a question palette. No explanations, just the real thing.</p>
+  </div>
+</div>
+
+<div class="footer">
+  <p>© 2026 Algocare. Built for Nigerian students.</p>
+  <p><a href="./privacy.html">Privacy Policy</a> • <a href="./terms.html">Terms & Disclaimer</a></p>
+</div>
+
+<script src="./assets/auth.js"></script>
+</body>
+</html>
