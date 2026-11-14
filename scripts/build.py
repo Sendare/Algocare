@@ -55,14 +55,16 @@ def markdown_to_html(text):
         if re.match(r"^\d+\.\s+", line):
             items = []
             while i < len(lines) and re.match(r"^\d+\.\s+", lines[i].strip()):
-                items.append(f"<li>{_inline_md(re.sub(r'^\d+\.\s+', '', lines[i].strip()))}</li>")
+                txt = re.sub(r"^\d+\.\s+", "", lines[i].strip())
+                items.append(f"<li>{_inline_md(txt)}</li>")
                 i += 1
             html_parts.append("<ol>" + "".join(items) + "</ol>")
             continue
         if re.match(r"^[-*]\s+", line):
             items = []
             while i < len(lines) and re.match(r"^[-*]\s+", lines[i].strip()):
-                items.append(f"<li>{_inline_md(re.sub(r'^[-*]\s+', '', lines[i].strip()))}</li>")
+                txt = re.sub(r"^[-*]\s+", "", lines[i].strip())
+                items.append(f"<li>{_inline_md(txt)}</li>")
                 i += 1
             html_parts.append("<ul>" + "".join(items) + "</ul>")
             continue
