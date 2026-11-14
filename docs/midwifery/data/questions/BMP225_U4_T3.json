@@ -1,0 +1,226 @@
+[
+  {
+    "question_id": "BMP225_U4_T3_h1_q1",
+    "heading_id": "BMP225_U4_T3_h1",
+    "article_id": "BMP225_U4_T3",
+    "topic_id": "BMP225_U4_T3",
+    "difficulty": "recall",
+    "question": "What is the main goal of using inferential statistics in a research study?",
+    "options": {
+      "A": "Calculating the exact average age of every patient",
+      "B": "Eliminating all possible errors from data collection",
+      "C": "Generalizing sample findings to a larger population",
+      "D": "Organizing raw data into simple frequency tables"
+    },
+    "answer": "C",
+    "explanation": "Inferential statistics take data from a smaller group of participants and use it to draw conclusions about a much wider population. [learn more](BMP225_U4_T3#BMP225_U4_T3_h1)"
+  },
+  {
+    "question_id": "BMP225_U4_T3_h1_q2",
+    "heading_id": "BMP225_U4_T3_h1",
+    "article_id": "BMP225_U4_T3",
+    "topic_id": "BMP225_U4_T3",
+    "difficulty": "understanding",
+    "question": "Why do researchers set up a null hypothesis before starting data analysis?",
+    "options": {
+      "A": "To prove that the new intervention is completely safe for pregnant women",
+      "B": "To show that the sample size chosen is large enough for the study",
+      "C": "To guarantee that the research findings will be statistically significant",
+      "D": "To assume there is no real effect or difference until data proves otherwise"
+    },
+    "answer": "D",
+    "explanation": "The null hypothesis acts as a baseline assumption that nothing changed or there is no effect, which statistical tests then check against. [learn more](BMP225_U4_T3#BMP225_U4_T3_h1)"
+  },
+  {
+    "question_id": "BMP225_U4_T3_h2_q1",
+    "heading_id": "BMP225_U4_T3_h2",
+    "article_id": "BMP225_U4_T3",
+    "topic_id": "BMP225_U4_T3",
+    "difficulty": "recall",
+    "question": "Which type of data works best for a parametric statistical test?",
+    "options": {
+      "A": "Nominal data like blood group types A, B, and O",
+      "B": "Categorical data like male or female infant gender",
+      "C": "Continuous numerical data like maternal height",
+      "D": "Ranked data like mild, moderate, or severe pain"
+    },
+    "answer": "C",
+    "explanation": "Parametric tests require continuous numerical measurements that follow a normal distribution. [learn more](BMP225_U4_T3#BMP225_U4_T3_h2)"
+  },
+  {
+    "question_id": "BMP225_U4_T3_h2_q2",
+    "heading_id": "BMP225_U4_T3_h2",
+    "article_id": "BMP225_U4_T3",
+    "topic_id": "BMP225_U4_T3",
+    "difficulty": "understanding",
+    "question": "What does homogeneity of variance mean when comparing groups?",
+    "options": {
+      "A": "Every single participant in the study has the exact same measurement",
+      "B": "The sample size in the treatment group equals the control group",
+      "C": "The data follows a strict bell-shaped curve without any outliers",
+      "D": "The spread of data points is similar across all groups being compared"
+    },
+    "answer": "D",
+    "explanation": "Homogeneity of variance simply means that the variability or spread of data is roughly equal across the different groups. [learn more](BMP225_U4_T3#BMP225_U4_T3_h2)"
+  },
+  {
+    "question_id": "BMP225_U4_T3_h3_q1",
+    "heading_id": "BMP225_U4_T3_h3",
+    "article_id": "BMP225_U4_T3",
+    "topic_id": "BMP225_U4_T3",
+    "difficulty": "recall",
+    "question": "When would a researcher choose a non-parametric test instead of a parametric test?",
+    "options": {
+      "A": "When all assumptions of a normal bell-shaped distribution are fully met",
+      "B": "When comparing the exact numerical means of continuous variables",
+      "C": "When the data is heavily skewed or measured on an ordinal scale",
+      "D": "When the researcher has a very large sample size exceeding one thousand"
+    },
+    "answer": "C",
+    "explanation": "Non-parametric tests are designed for ranked, ordinal, or heavily skewed data that do not meet the rules of parametric tests. [learn more](BMP225_U4_T3#BMP225_U4_T3_h3)"
+  },
+  {
+    "question_id": "BMP225_U4_T3_h3_q2",
+    "heading_id": "BMP225_U4_T3_h3",
+    "article_id": "BMP225_U4_T3",
+    "topic_id": "BMP225_U4_T3",
+    "difficulty": "understanding",
+    "question": "Why are non-parametric tests sometimes called distribution-free tests?",
+    "options": {
+      "A": "They do not require the data to follow a normal bell-shaped curve",
+      "B": "They can be calculated without needing any numerical data at all",
+      "C": "They eliminate the need for formulating a formal research hypothesis",
+      "D": "They allow researchers to ignore missing participant records"
+    },
+    "answer": "A",
+    "explanation": "These tests make no assumptions about the shape of the underlying population distribution. [learn more](BMP225_U4_T3#BMP225_U4_T3_h3)"
+  },
+  {
+    "question_id": "BMP225_U4_T3_h4_q1",
+    "heading_id": "BMP225_U4_T3_h4",
+    "article_id": "BMP225_U4_T3",
+    "topic_id": "BMP225_U4_T3",
+    "difficulty": "recall",
+    "question": "Which statistical test is best for comparing the average birth weight of babies born to teenage mothers versus older mothers?",
+    "options": {
+      "A": "Chi-Square test of independence",
+      "B": "Analysis of variance (ANOVA)",
+      "C": "Independent samples t-test",
+      "D": "Paired samples t-test"
+    },
+    "answer": "C",
+    "explanation": "An independent samples t-test compares the means of two separate, unrelated groups of people. [learn more](BMP225_U4_T3#BMP225_U4_T3_h4)"
+  },
+  {
+    "question_id": "BMP225_U4_T3_h4_q2",
+    "heading_id": "BMP225_U4_T3_h4",
+    "article_id": "BMP225_U4_T3",
+    "topic_id": "BMP225_U4_T3",
+    "difficulty": "application",
+    "question": "A researcher measures hemoglobin levels in pregnant women before and after a six-week malaria prevention program. Which test should she use to check for a change?",
+    "options": {
+      "A": "Independent samples t-test",
+      "B": "One-way ANOVA",
+      "C": "Chi-Square test",
+      "D": "Paired samples t-test"
+    },
+    "answer": "D",
+    "explanation": "A paired samples t-test compares two sets of measurements taken from the exact same individuals at different times. [learn more](BMP225_U4_T3#BMP225_U4_T3_h4)"
+  },
+  {
+    "question_id": "BMP225_U4_T3_h5_q1",
+    "heading_id": "BMP225_U4_T3_h5",
+    "article_id": "BMP225_U4_T3",
+    "topic_id": "BMP225_U4_T3",
+    "difficulty": "recall",
+    "question": "What is the main benefit of using ANOVA instead of running multiple t-tests on three or more groups?",
+    "options": {
+      "A": "It eliminates the need for calculating standard deviations",
+      "B": "It can analyze categorical data without numerical values",
+      "C": "It requires a much smaller sample size to show significance",
+      "D": "It prevents an increased risk of false positive errors"
+    },
+    "answer": "D",
+    "explanation": "Running many t-tests at once raises the chance of a false positive result, which ANOVA helps prevent. [learn more](BMP225_U4_T3#BMP225_U4_T3_h5)"
+  },
+  {
+    "question_id": "BMP225_U4_T3_h5_q2",
+    "heading_id": "BMP225_U4_T3_h5",
+    "article_id": "BMP225_U4_T3",
+    "topic_id": "BMP225_U4_T3",
+    "difficulty": "understanding",
+    "question": "When is a one-way ANOVA appropriate for analyzing maternity research data?",
+    "options": {
+      "A": "Comparing mean blood loss across four different maternity clinics",
+      "B": "Evaluating whether maternal age is correlated with gestational age",
+      "C": "Testing the association between infant gender and delivery method",
+      "D": "Comparing blood pressure readings before and after labor induction"
+    },
+    "answer": "A",
+    "explanation": "One-way ANOVA is used when comparing the means of three or more separate groups. [learn more](BMP225_U4_T3#BMP225_U4_T3_h5)"
+  },
+  {
+    "question_id": "BMP225_U4_T3_h6_q1",
+    "heading_id": "BMP225_U4_T3_h6",
+    "article_id": "BMP225_U4_T3",
+    "topic_id": "BMP225_U4_T3",
+    "difficulty": "recall",
+    "question": "What type of data is primarily analyzed using a Chi-Square test?",
+    "options": {
+      "A": "Continuous numerical height measurements",
+      "B": "Exact time intervals in minutes or hours",
+      "C": "Ranked pain scores on a continuous scale",
+      "D": "Categorical or frequency count data"
+    },
+    "answer": "D",
+    "explanation": "The Chi-Square test evaluates categorical variables by looking at frequency counts in different categories. [learn more](BMP225_U4_T3#BMP225_U4_T3_h6)"
+  },
+  {
+    "question_id": "BMP225_U4_T3_h6_q2",
+    "heading_id": "BMP225_U4_T3_h6",
+    "article_id": "BMP225_U4_T3",
+    "topic_id": "BMP225_U4_T3",
+    "difficulty": "understanding",
+    "question": "What does a Chi-Square test compare to find its statistical value?",
+    "options": {
+      "A": "Observed frequencies against expected frequencies",
+      "B": "Median values of two completely independent groups",
+      "C": "Sample mean values against population standard deviations",
+      "D": "Variance within groups against variance between groups"
+    },
+    "answer": "A",
+    "explanation": "The test measures how much the actual counts in a study differ from what would be expected by chance. [learn more](BMP225_U4_T3#BMP225_U4_T3_h6)"
+  },
+  {
+    "question_id": "BMP225_U4_T3_h7_q1",
+    "heading_id": "BMP225_U4_T3_h7",
+    "article_id": "BMP225_U4_T3",
+    "topic_id": "BMP225_U4_T3",
+    "difficulty": "understanding",
+    "question": "What is the FIRST thing a researcher should consider when choosing a statistical test?",
+    "options": {
+      "A": "The total budget available for conducting the research",
+      "B": "The measurement scale and type of the data variables",
+      "C": "The specific software program installed on the computer",
+      "D": "The number of pages required for the final research report"
+    },
+    "answer": "B",
+    "explanation": "The data type and scale determine whether parametric or non-parametric tests are appropriate. [learn more](BMP225_U4_T3#BMP225_U4_T3_h7)"
+  },
+  {
+    "question_id": "BMP225_U4_T3_h7_q2",
+    "heading_id": "BMP225_U4_T3_h7",
+    "article_id": "BMP225_U4_T3",
+    "topic_id": "BMP225_U4_T3",
+    "difficulty": "application",
+    "question": "A student wants to know if maternal smoking status (yes or no) is linked to low birth weight status (yes or no). Which test is NOT appropriate for this analysis?",
+    "options": {
+      "A": "Independent samples t-test",
+      "B": "Fisher's exact test",
+      "C": "Any non-parametric categorical test",
+      "D": "Chi-Square test of independence"
+    },
+    "answer": "A",
+    "explanation": "An independent t-test is meant for continuous numerical data, whereas smoking status and birth weight are categorical variables that need a Chi-Square test. [learn more](BMP225_U4_T3#BMP225_U4_T3_h7)"
+  }
+]
