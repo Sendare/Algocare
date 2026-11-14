@@ -94,7 +94,7 @@ handleAuthHash();
 
 document.addEventListener("DOMContentLoaded", () => {
   const authSlot = document.getElementById("authSlot");
-  if (!authSlot) return;
+  if (!authSlot) return console.log("AuthSlot not found on this page.");
   
   const user = getUser();
   if (user) {

@@ -420,9 +420,12 @@ window.addEventListener("load", async () => {
   try {
     const user = window.getUser ? window.getUser() : null;
     if (user) {
-      window.candidateName = user.user_metadata?.name || user.email.split('@')[0];
-      window.candidateRegNo = user.id.substring(0, 8).toUpperCase();
+      const name = user.user_metadata?.name || user.email.split('@')[0];
+      const regNo = user.id.substring(0, 8).toUpperCase();
+      // Find the candidate span in the header and update it directly
+      const headerSpan = document.getElementById('candidateInfo');
+      if (headerSpan) headerSpan.textContent = `Candidate: ${name} | ${regNo}`;
     }
-  } catch (e) { console.warn("Auth loading error"); }
+  } catch (e) { console.warn("Auth loading error:", e); }
   init(); 
 });
