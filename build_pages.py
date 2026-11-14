@@ -455,6 +455,7 @@ def run():
 
     write_pwa_files()
     copy_root_assets()
+    copy_root_assets()
 
     # GitHub Pages only serves what's inside PUBLISHED_DIR - assets/ lives at
     # repo root as a sibling, shared across all programs, so it must be

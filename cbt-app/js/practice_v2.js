@@ -1,5 +1,7 @@
+
 const params = new URLSearchParams(window.location.search);
 const coursesParam = params.get("courses");
+const topicId = params.get("topic");
 const requestedCount = parseInt(params.get("count"), 10) || null;
 const secondsPerQuestion = parseInt(params.get("spq"), 10) || 30;
 const STORAGE_KEY = `algocare_practice_${window.location.search}`;
@@ -24,58 +26,59 @@ async function init() {
     if (saved && saved.subjects && saved.subjects.length) {
       ({subjects,questions,currentIndexes,activeSubject,answers,flags,endTime,pauseStartedAt,attemptId,isCatchingSkips} = saved);
     } else {
-      const topicId = params.get("topic");
       if (topicId) {
-        // Single topic mode (from article CTA)
         const pool = await (await fetch(`../data/questions/${topicId}.json`)).json();
         subjects = ["Topic Practice"];
-        questions["Topic Practice"] = shuffle(pool);
+        questions["Topic Practice"] = shuffle(pool).slice(0, 20);
         currentIndexes["Topic Practice"] = 0;
         activeSubject = "Topic Practice";
-        // Default to 20 questions or the pool size
-        const limit = requestedCount || 20;
-        questions["Topic Practice"] = questions["Topic Practice"].slice(0, Math.min(limit, pool.length));
         endTime = Date.now() + questions["Topic Practice"].length * secondsPerQuestion * 1000;
         attemptId = generateAttemptId();
         saveState();
         logTestStarted(attemptId, "practice", topicId, questions["Topic Practice"].length);
       } else if (coursesParam) {
         const courseSlugs = coursesParam.split(',');
-      const courseNames = {};
-      
-      window.siteIndex = await (await fetch("../site_index.json")).json();
-      window.siteIndex.forEach(item => { courseNames[item.course_slug] = item.course; });
+        const courseNames = {};
+        window.siteIndex = await (await fetch("../site_index.json")).json();
+        window.siteIndex.forEach(item => { courseNames[item.course_slug] = item.course; });
 
-      let totalQuestionsLoaded = 0;
-      for (const cSlug of courseSlugs) {
-        const pool = await (await fetch(`../data/course_pools/${cSlug}.json`)).json();
-        const cName = courseNames[cSlug] || cSlug;
-        subjects.push(cName);
-        questions[cName] = shuffle(pool);
-        currentIndexes[cName] = 0;
-        totalQuestionsLoaded += pool.length;
-      }
-      
-      let totalAllowed = requestedCount ? Math.min(requestedCount, totalQuestionsLoaded) : totalQuestionsLoaded;
-      let distributed = 0;
-      for (let i = 0; i < subjects.length; i++) {
-        const sub = subjects[i];
-        const take = i === subjects.length - 1 ? (totalAllowed - distributed) : Math.floor(totalAllowed / subjects.length);
-        questions[sub] = questions[sub].slice(0, take);
-        distributed += take;
-      }
+        let totalQuestionsLoaded = 0;
+        for (const cSlug of courseSlugs) {
+          const pool = await (await fetch(`../data/course_pools/${cSlug}.json`)).json();
+          const cName = courseNames[cSlug] || cSlug;
+          subjects.push(cName);
+          questions[cName] = shuffle(pool);
+          currentIndexes[cName] = 0;
+          totalQuestionsLoaded += pool.length;
+        }
+        
+        let totalAllowed = requestedCount ? Math.min(requestedCount, totalQuestionsLoaded) : totalQuestionsLoaded;
+        let distributed = 0;
+        for (let i = 0; i < subjects.length; i++) {
+          const sub = subjects[i];
+          const take = i === subjects.length - 1 ? (totalAllowed - distributed) : Math.floor(totalAllowed / subjects.length);
+          questions[sub] = questions[sub].slice(0, take);
+          distributed += take;
+        }
 
-      activeSubject = subjects[0];
-      endTime = Date.now() + totalAllowed * secondsPerQuestion * 1000;
-      attemptId = generateAttemptId();
-      saveState();
-      logTestStarted(attemptId, "practice", coursesParam, totalAllowed);
+        activeSubject = subjects[0];
+        endTime = Date.now() + totalAllowed * secondsPerQuestion * 1000;
+        attemptId = generateAttemptId();
+        saveState();
+        logTestStarted(attemptId, "practice", coursesParam, totalAllowed);
+      } else {
+        document.getElementById("examRoot").innerHTML = `<div class="empty-state" style="color:#a1a1aa; text-align:center; padding:40px;">No courses or topic specified. <a href="index.html">Go back</a></div>`; 
+        return;
       }
     }
-  } catch (e) { document.getElementById("examRoot").innerHTML = `<div class="empty-state" style="color:#a1a1aa;">Error loading test.</div>`; return; }
+  } catch (e) { 
+    document.getElementById("examRoot").innerHTML = `<div class="empty-state" style="color:#a1a1aa; text-align:center; padding:40px;">Error loading test.</div>`; 
+    console.error(e);
+    return; 
+  }
 
   if (!subjects.length) return;
-  markTestFinished = trackAbandonment(attemptId, "practice", coursesParam, getTotalQuestions(), () => getAnsweredCount());
+  markTestFinished = trackAbandonment(attemptId, "practice", coursesParam || topicId, getTotalQuestions(), () => getAnsweredCount());
   reconcilePause();
   if (Date.now() >= endTime) return finishTest(true);
   startTimer(); render();
@@ -292,9 +295,8 @@ function finishTest(timedOut) {
     subjectResults.push({ sub, correct, total: questions[sub].length });
   });
 
-  markTestFinished(); logTestFinished(attemptId, "practice", coursesParam, total, attempted, totalCorrect); clearState();
+  markTestFinished(); logTestFinished(attemptId, "practice", coursesParam || topicId, total, attempted, totalCorrect); clearState();
 
-  // Build Subject Breakdown HTML
   const subjectHtml = subjectResults.map(r => `
     <div class="subject-card">
       <div class="subject-name">${r.sub.replace(/-/g, ' ')}</div>
@@ -305,7 +307,6 @@ function finishTest(timedOut) {
     </div>
   `).join("");
 
-  // Build Review Incorrect HTML
   let reviewHtml = "";
   subjects.forEach(sub => {
     const wrongQs = questions[sub].filter(q => answers[q.question_id] && !answers[q.question_id].isCorrect);
@@ -317,8 +318,6 @@ function finishTest(timedOut) {
       const cAns = q.answer;
       const uText = q.options[uAns];
       const cText = q.options[cAns];
-      
-      // Find learn more link
       const entry = window.siteIndex?.find(i => i.topic_id === q.topic_id);
       const learnMoreBtn = entry ? `<a href="../${entry.url}" class="learn-more-btn">Learn More →</a>` : '';
 
@@ -353,16 +352,13 @@ function finishTest(timedOut) {
           </a>
         </div>
       </header>
-
       <div class="score-card">
         <h2>Practice Score</h2>
         <div class="score-val">${totalCorrect} <span>/ ${total}</span></div>
         <p class="score-sub">${totalCorrect} correct out of ${total} questions</p>
       </div>
-
       <h3 class="section-title">Subject Breakdown</h3>
       <div class="subject-grid">${subjectHtml}</div>
-
       <details class="review-section">
         <summary class="review-summary">
           <span>Review Incorrect Answers</span>
@@ -370,7 +366,6 @@ function finishTest(timedOut) {
         </summary>
         <div class="review-content">${reviewHtml}</div>
       </details>
-
       <div class="feedback-section" id="feedbackContainer">
         <div class="feedback-header">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
@@ -378,20 +373,14 @@ function finishTest(timedOut) {
         </div>
         <div class="feedback-body" id="feedbackBody">
           <p>How do you feel about the app? Any complaints, suggestions, or bugs to report?</p>
-          <div class="star-row" id="starRow">
-            ${[1,2,3,4,5].map(n => `<button class="star-btn" data-star="${n}">★</button>`).join("")}
-          </div>
-          <div class="cat-row" id="catRow">
-            ${['General', 'Suggestion', 'Bug Report'].map((c, i) => `<button class="cat-btn ${i===0?'active':''}" data-cat="${c}">${c}</button>`).join("")}
-          </div>
+          <div class="star-row" id="starRow">${[1,2,3,4,5].map(n => `<button class="star-btn" data-star="${n}">★</button>`).join("")}</div>
+          <div class="cat-row" id="catRow">${['General', 'Suggestion', 'Bug Report'].map((c, i) => `<button class="cat-btn ${i===0?'active':''}" data-cat="${c}">${c}</button>`).join("")}</div>
           <textarea class="feedback-textarea" id="feedbackText" placeholder="Tell us what you think or how we can improve..."></textarea>
           <button class="btn-submit-feedback" onclick="submitFeedback('practice')">Submit Feedback</button>
         </div>
       </div>
     </div>
-    <div class="fixed-bottom">
-      <a href="index.html" class="btn-take-another" style="text-decoration:none; display:block; text-align:center;">Take Another Exam</a>
-    </div>
+    <div class="fixed-bottom"><a href="index.html" class="btn-take-another" style="text-decoration:none; display:block; text-align:center;">Take Another Exam</a></div>
   `;
   setupFeedbackWidget();
 }
@@ -399,58 +388,26 @@ function finishTest(timedOut) {
 function handleShare(score, total) {
   const text = `I just scored ${score}/${total} on Algocare Practice! 🎯 Ready for my exams. Practice here:`;
   const url = window.location.origin + "/" + (window.location.pathname.split('/')[1] || '');
-  if (navigator.share) {
-    navigator.share({ title: 'Algocare', text: text, url: url }).catch(console.error);
-  } else {
-    navigator.clipboard.writeText(text + " " + url);
-    alert('Link copied to clipboard!');
-  }
+  if (navigator.share) { navigator.share({ title: 'Algocare', text: text, url: url }).catch(console.error); } 
+  else { navigator.clipboard.writeText(text + " " + url); alert('Link copied to clipboard!'); }
 }
 
 function setupFeedbackWidget() {
   let selectedStars = 0;
-  let selectedCat = 'General';
   const stars = document.querySelectorAll('.star-btn');
   const cats = document.querySelectorAll('.cat-btn');
-
-  stars.forEach(s => {
-    s.addEventListener('click', () => {
-      selectedStars = parseInt(s.dataset.star);
-      stars.forEach(b => b.classList.remove('active'));
-      for(let i=0; i<selectedStars; i++) stars[i].classList.add('active');
-    });
-  });
-
-  cats.forEach(c => {
-    c.addEventListener('click', () => {
-      selectedCat = c.dataset.cat;
-      cats.forEach(b => b.classList.remove('active'));
-      c.classList.add('active');
-    });
-  });
-
-  window.submitFeedback = (mode) => {
+  stars.forEach(s => { s.addEventListener('click', () => { selectedStars = parseInt(s.dataset.star); stars.forEach(b => b.classList.remove('active')); for(let i=0; i<selectedStars; i++) stars[i].classList.add('active'); }); });
+  cats.forEach(c => { c.addEventListener('click', () => { cats.forEach(b => b.classList.remove('active')); c.classList.add('active'); }); });
+  window.submitFeedback = () => {
     if (selectedStars === 0) return alert("Please select a star rating first.");
-    const comment = document.getElementById('feedbackText').value;
-    
-    // Use analytics.js function to save to DB
-    logReview(mode, selectedStars, comment);
-    
-    document.getElementById('feedbackBody').innerHTML = `
-      <div class="feedback-success">
-        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
-        <h4>Thank you!</h4>
-        <p>Your feedback has been securely saved.</p>
-      </div>
-    `;
+    logReview("practice", selectedStars, document.getElementById('feedbackText').value);
+    document.getElementById('feedbackBody').innerHTML = `<div class="feedback-success"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg><h4>Thank you!</h4><p>Your feedback has been securely saved.</p></div>`;
   };
 }
-
 
 window.addEventListener("keydown", (e) => {
   if (e.target.tagName === "INPUT" || e.target.tagName === "TEXTAREA") return;
   const key = e.key.toUpperCase();
-  const q = questions[activeSubject][currentIndexes[activeSubject]];
   if (["A", "B", "C", "D"].includes(key)) selectAnswer(key);
   else if (key === "N") nextQ();
   else if (key === "P") prevQ();
@@ -459,14 +416,13 @@ window.addEventListener("keydown", (e) => {
 });
 
 window.addEventListener("load", async () => {
-  // Wait a tiny bit for auth.js to parse the session
-  await new Promise(r => setTimeout(r, 150));
+  await new Promise(r => setTimeout(r, 200));
   try {
     const user = window.getUser ? window.getUser() : null;
     if (user) {
       window.candidateName = user.user_metadata?.name || user.email.split('@')[0];
       window.candidateRegNo = user.id.substring(0, 8).toUpperCase();
     }
-  } catch (e) { console.warn("Auth loading error:", e); }
+  } catch (e) { console.warn("Auth loading error"); }
   init(); 
 });
