@@ -216,37 +216,43 @@ def build_real_feel_tests(program):
 # Main Build Loop
 # ==========================================
 def main():
-    print("🚀 Starting Master Build...")
+    import sys
+    target = sys.argv[1] if len(sys.argv) > 1 else "all"
+    print(f"🚀 Starting Master Build (Target: {target})...")
     
-    if DOCS_DIR.exists(): shutil.rmtree(DOCS_DIR)
-    DOCS_DIR.mkdir()
+    if target == "all" or target == "root":
+        print("📁 Creating root folder structure...")
+        if DOCS_DIR.exists(): shutil.rmtree(DOCS_DIR)
+        DOCS_DIR.mkdir()
+        for page in ["index.html", "login.html", "signup.html", "dashboard.html", "leaderboard.html"]:
+            src = TEMPLATES_DIR / page
+            if src.exists(): shutil.copy2(src, DOCS_DIR / page)
+        shutil.copytree(ASSETS_DIR, DOCS_DIR / "assets")
 
-    # 1. Copy Root Pages
-    for page in ["index.html", "login.html", "signup.html", "dashboard.html", "leaderboard.html"]:
-        src = TEMPLATES_DIR / page
-        if src.exists(): shutil.copy2(src, DOCS_DIR / page)
-
-    # 2. Copy Root Assets
-    shutil.copytree(ASSETS_DIR, DOCS_DIR / "assets")
-
-    # 3. Build Programs
-    for prog in PROGRAMS:
+    progs = PROGRAMS if target == "all" else [target] if target in PROGRAMS else []
+    
+    for prog in progs:
         print(f"\n📚 Building Program: {prog}")
         
         # Ensure dirs
-        (DOCS_DIR / prog).mkdir()
-        (DOCS_DIR / prog / "data").mkdir()
+        (DOCS_DIR / prog).mkdir(parents=True, exist_ok=True)
+        (DOCS_DIR / prog / "data").mkdir(exist_ok=True)
         
         # Copy assets & CBT pages
-        shutil.copytree(ASSETS_DIR, DOCS_DIR / prog / "assets")
-        (DOCS_DIR / prog / "cbt").mkdir()
+        if not (DOCS_DIR / prog / "assets").exists():
+            shutil.copytree(ASSETS_DIR, DOCS_DIR / prog / "assets")
+            
+        (DOCS_DIR / prog / "cbt").mkdir(exist_ok=True)
         for page in ["practice-setup.html", "exam-setup.html", "exam.html"]:
             src = TEMPLATES_DIR / page
             if src.exists(): shutil.copy2(src, DOCS_DIR / prog / "cbt" / page)
             
         # Copy question data
         if Path(f"data/{prog}/questions").exists():
-            shutil.copytree(f"data/{prog}/questions", DOCS_DIR / prog / "data" / "questions")
+            q_dest = DOCS_DIR / prog / "data" / "questions"
+            if not q_dest.exists():
+                shutil.copytree(f"data/{prog}/questions", q_dest)
+                
         if Path(f"config/{prog}/real_feel_config.json").exists():
             save_json(DOCS_DIR / prog / "data" / "real_feel_config.json", load_json(f"config/{prog}/real_feel_config.json", {}))
 
@@ -306,7 +312,7 @@ def main():
         build_real_feel_tests(prog)
         print(f"  ✅ Built {len(published)} articles and generated exams for {prog}")
 
-    print("\n🎉 Master Build Complete! Deploy the 'docs' folder.")
+    print("\n🎉 Build Complete! Deploy the 'docs' folder.")
 
 if __name__ == "__main__":
     main()

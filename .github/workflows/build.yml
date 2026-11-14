@@ -1,6 +1,6 @@
-name: Build Algocare Site
+name: Build Algocare Site (Chunked)
 on:
-  workflow_dispatch: # Manual trigger only
+  workflow_dispatch: # Manual trigger
 
 jobs:
   build:
@@ -21,14 +21,41 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run Build Script
-        run: python scripts/build.py
+      # --- CHUNK 1: ROOT ---
+      - name: Build Root
+        run: python scripts/build.py root
 
-      - name: Commit and Push Changes
+      - name: Commit Root
         run: |
           git config user.name "algocare-bot"
           git config user.email "algocare-bot@users.noreply.github.com"
           git add docs/
-          git diff --cached --quiet || git commit -m "Auto-build: Generated static site [skip ci]"
+          git diff --cached --quiet || git commit -m "Build: Root pages & assets"
+          git pull --rebase origin main
+          git push
+
+      # --- CHUNK 2: NURSING ---
+      - name: Build Nursing
+        run: python scripts/build.py nursing
+
+      - name: Commit Nursing
+        run: |
+          git config user.name "algocare-bot"
+          git config user.email "algocare-bot@users.noreply.github.com"
+          git add docs/
+          git diff --cached --quiet || git commit -m "Build: Nursing program"
+          git pull --rebase origin main
+          git push
+
+      # --- CHUNK 3: MIDWIFERY ---
+      - name: Build Midwifery
+        run: python scripts/build.py midwifery
+
+      - name: Commit Midwifery
+        run: |
+          git config user.name "algocare-bot"
+          git config user.email "algocare-bot@users.noreply.github.com"
+          git add docs/
+          git diff --cached --quiet || git commit -m "Build: Midwifery program"
           git pull --rebase origin main
           git push
