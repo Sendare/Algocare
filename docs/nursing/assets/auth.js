@@ -2,7 +2,6 @@
 const SUPABASE_URL = "https://uhrjtcocwejddtzyjyhr.supabase.co";
 const SUPABASE_ANON_KEY = "sb_publishable_C_i1zk4P2phfIALmI6C7Iw_pYSMTGfQ";
 
-// Save session to localStorage
 function saveSession(data) {
   if (data && data.access_token) {
     localStorage.setItem("algocare_session", JSON.stringify({
@@ -34,10 +33,8 @@ async function signUp(name, email, password) {
   const data = await res.json();
   if (!res.ok) throw new Error(data.msg || data.error_description || "Signup failed");
   
-  // If email confirmation is off, the session is returned immediately
   if (data.access_token) {
     saveSession(data);
-    // Link anonymous analytics to this user ID
     localStorage.setItem("algocare_uid", data.user.id);
   }
   return data;
@@ -59,10 +56,42 @@ async function logIn(email, password) {
 
 function logOut() {
   localStorage.removeItem("algocare_session");
-  window.location.href = "/"; // Redirect to homepage
+  window.location.href = "/"; 
 }
 
-// Automatically update the topbar if the authSlot exists
+// CATCH THE SUPABASE REDIRECT HASH (Email Confirmation)
+async function handleAuthHash() {
+  if (window.location.hash && window.location.hash.includes("access_token=")) {
+    const hashParams = new URLSearchParams(window.location.hash.substring(1));
+    const accessToken = hashParams.get("access_token");
+    const refreshToken = hashParams.get("refresh_token");
+    
+    if (accessToken) {
+      // We have the token, let's fetch the user profile
+      try {
+        const res = await fetch(`${SUPABASE_URL}/auth/v1/user`, {
+          headers: { "apikey": SUPABASE_ANON_KEY, "Authorization": `Bearer ${accessToken}` }
+        });
+        const user = await res.json();
+        
+        saveSession({ access_token: accessToken, refresh_token: refreshToken, user });
+        localStorage.setItem("algocare_uid", user.id);
+        
+        // Clean the URL so the token isn't visible
+        window.history.replaceState(null, "", window.location.pathname);
+        
+        // Redirect to dashboard
+        window.location.href = "/dashboard.html";
+      } catch (err) {
+        console.error("Failed to fetch user:", err);
+      }
+    }
+  }
+}
+
+// Run this immediately when the script loads
+handleAuthHash();
+
 document.addEventListener("DOMContentLoaded", () => {
   const authSlot = document.getElementById("authSlot");
   if (!authSlot) return;
