@@ -30,6 +30,16 @@ SW_TEMPLATE_PATH = Path("assets/sw-template.js")
 ICONS_SRC = Path("assets/icons")
 
 
+
+def copy_root_assets():
+    """Ensure docs/assets has the latest shared files for the root index.html, login, and signup pages."""
+    docs_assets = Path("docs/assets")
+    docs_assets.mkdir(parents=True, exist_ok=True)
+    for filename in ["style.css", "analytics.js", "auth.js"]:
+        src = Path("assets") / filename
+        if src.exists():
+            shutil.copy2(src, docs_assets / filename)
+
 def write_pwa_files():
     """Writes manifest + sw + icons at docs/ root. Safe to run from any program build."""
     docs_root = Path("docs")
@@ -444,6 +454,7 @@ def run():
     print(f"Program: {PROGRAM}")
 
     write_pwa_files()
+    copy_root_assets()
 
     # GitHub Pages only serves what's inside PUBLISHED_DIR - assets/ lives at
     # repo root as a sibling, shared across all programs, so it must be
