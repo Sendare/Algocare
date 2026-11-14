@@ -1,44 +1,37 @@
-#!/usr/bin/env python3
 import json
 import random
 import re
 import shutil
 import sys
-import os
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-import sys
 import html
 from pathlib import Path
-
-from utils.course_branch_map import get_course_branch_map
-from utils.weighted_sampling import build_weighted_pool, sample_without_replacement
 
 ROOT_DIR = Path(__file__).parent.parent
 TEMPLATES_DIR = ROOT_DIR / "templates"
 ASSETS_DIR = ROOT_DIR / "assets"
 DOCS_DIR = ROOT_DIR / "docs"
-PROGRAMS = ["nursing", "midwifery"]
+DATA_DIR = ROOT_DIR / "data"
+CURRICULA_DIR = ROOT_DIR / "curricula"
 
-# ==========================================
-# Helper Functions
-# ==========================================
 def slugify(text):
-    text = text.lower().strip()
-    text = re.sub(r"[^a-z0-9]+", "-", text)
-    return text.strip("-")
+    return re.sub(r"[^a-z0-9]+", "-", text.lower().strip()).strip("-")
 
-def load_json(path, default):
-    p = Path(path)
-    if not p.exists(): return default
-    with open(p, "r", encoding="utf-8") as f: return json.load(f)
+def load_json(path, default=None):
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return default
 
 def save_json(path, data):
-    Path(path).parent.mkdir(parents=True, exist_ok=True)
-    with open(path, "w", encoding="utf-8") as f: json.dump(data, f, indent=2, ensure_ascii=False)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
 
-def write_html(path, html):
-    Path(path).parent.mkdir(parents=True, exist_ok=True)
-    with open(path, "w", encoding="utf-8") as f: f.write(html)
+def write_html(path, content):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(content)
 
 def _inline_md(text):
     text = html.escape(text)
@@ -46,7 +39,7 @@ def _inline_md(text):
 
 def markdown_to_html(text):
     lines = text.strip().split("\n")
-    html_parts = []
+    parts = []
     i = 0
     while i < len(lines):
         line = lines[i].strip()
@@ -58,7 +51,7 @@ def markdown_to_html(text):
                 txt = re.sub(r"^\d+\.\s+", "", lines[i].strip())
                 items.append(f"<li>{_inline_md(txt)}</li>")
                 i += 1
-            html_parts.append("<ol>" + "".join(items) + "</ol>")
+            parts.append("<ol>" + "".join(items) + "</ol>")
             continue
         if re.match(r"^[-*]\s+", line):
             items = []
@@ -66,34 +59,15 @@ def markdown_to_html(text):
                 txt = re.sub(r"^[-*]\s+", "", lines[i].strip())
                 items.append(f"<li>{_inline_md(txt)}</li>")
                 i += 1
-            html_parts.append("<ul>" + "".join(items) + "</ul>")
+            parts.append("<ul>" + "".join(items) + "</ul>")
             continue
-        para_lines = []
+        para = []
         while i < len(lines) and lines[i].strip() and not re.match(r"^(\d+\.\s+|[-*]\s+|\|)", lines[i].strip()):
-            para_lines.append(lines[i].strip()); i += 1
-        html_parts.append(f"<p>{_inline_md(' '.join(para_lines))}</p>")
-    return "\n".join(html_parts)
+            para.append(lines[i].strip())
+            i += 1
+        parts.append(f"<p>{_inline_md(' '.join(para))}</p>")
+    return "\n".join(parts)
 
-def build_context_lookup(curriculum, course_map):
-    lookup = {}
-    for c in curriculum.get("curriculum", []):
-        course_id = c.get("course_id")
-        course_name = course_map.get(course_id, c.get("course_name"))
-        course_slug = slugify(course_name)
-        for u in c.get("units", []):
-            unit_name = u.get("unit_name")
-            unit_slug = slugify(unit_name)
-            for t in u.get("topics", []):
-                lookup[t["topic_id"]] = {
-                    "title": t.get("title"), "order": t.get("order", 0),
-                    "course_name": course_name, "course_slug": course_slug,
-                    "unit_name": unit_name, "unit_slug": unit_slug,
-                }
-    return lookup
-
-# ==========================================
-# Page Shell (With Auth Topbar)
-# ==========================================
 PAGE_HEAD = """<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -110,7 +84,7 @@ PAGE_HEAD = """<!DOCTYPE html>
 <div class="topbar">
   <div class="brand"><span class="pulse-dot"></span>Algocare</div>
   <div>
-    <a href="{rel}cbt/index.html" style="font-size: 0.85rem; color: var(--scrub); font-weight: 600; margin-right: 16px;">Practice tests</a>
+    <a href="{rel}cbt/practice-setup.html" style="font-size: 0.85rem; color: var(--scrub); font-weight: 600; margin-right: 16px;">Practice tests</a>
     <a href="{rel}index.html" style="font-size: 0.85rem; color: var(--ink-soft); margin-right: 16px;">Home</a>
     <a href="{root_rel}index.html" style="font-size: 0.85rem; color: var(--ink-soft); margin-right: 16px;">All programs</a>
     <span id="authSlot"></span>
@@ -130,16 +104,12 @@ PAGE_HEAD = """<!DOCTYPE html>
 
 def render_page(title, rel, breadcrumb_html, body_html):
     root_rel = rel + "../"
-    html = PAGE_HEAD.replace("{title}", title).replace("{rel}", rel).replace("{root_rel}", root_rel).replace("{breadcrumb}", breadcrumb_html).replace("{body}", body_html)
-    return html
+    return PAGE_HEAD.replace("{title}", title).replace("{rel}", rel).replace("{root_rel}", root_rel).replace("{breadcrumb}", breadcrumb_html).replace("{body}", body_html)
 
 def breadcrumb(rel, crumbs):
     parts = [f'<a href="{rel}{href}">{label}</a>' if href else label for label, href in crumbs]
     return f'<div class="breadcrumb">{" &gt; ".join(parts)}</div>'
 
-# ==========================================
-# Renderers
-# ==========================================
 def render_article_page(article, ctx):
     headings_html = "".join(
         f'<div class="article-heading" id="{h["heading_id"]}"><h2>{h["title"]}</h2>{markdown_to_html(h["content"])}</div>'
@@ -170,180 +140,133 @@ def render_home_page(courses):
     body = '<h1>Study articles</h1><p style="color: var(--ink-soft); margin-top: -8px;">Browse by course, or search below.</p><input type="text" id="searchInput" class="search-box" placeholder="Search courses, units, or topics..."><div class="branch-group" id="courseList">' + rows + '</div><script src="assets/home_search.js"></script>'
     return render_page("Algocare", "", "", body)
 
-# ==========================================
-# CBT Real-Feel Builder
-# ==========================================
-def build_real_feel_tests(program):
-    config = load_json(f"config/{program}/real_feel_config.json", {"question_count": 250, "seconds_per_question": 30})
-    weights_config = load_json(f"config/{program}/weights.json", {"courses": {}, "units": {}})
-    rf_state_path = Path(f"state/{program}/real_feel_state.json")
-    rf_state = load_json(rf_state_path, {"used_question_ids": [], "tests_built": 0})
-    
-    used_ids = set(rf_state["used_question_ids"])
-    unused_pools = {}
-    
-    # Load all questions from courses
-    for c_file in (DOCS_DIR / program / "data" / "course_pools").glob("*.json"):
-        c_slug = c_file.stem
-        if c_slug in weights_config.get("excluded_from_real_feel", []): continue
-        questions = load_json(c_file, [])
-        unused_pools[c_slug] = {"all": [q for q in questions if q["question_id"] not in used_ids]}
+def build_context_lookup(prog):
+    curriculum = load_json(CURRICULA_DIR / f"{prog}.json", {"curriculum": []})
+    lookup = {}
+    for c in curriculum.get("curriculum", []):
+        c_name = c.get("course_name")
+        c_slug = slugify(c_name)
+        for u in c.get("units", []):
+            u_name = u.get("unit_name")
+            u_slug = slugify(u_name)
+            for t in u.get("topics", []):
+                lookup[t["topic_id"]] = {
+                    "title": t.get("title"), "order": t.get("order", 0),
+                    "course_name": c_name, "course_slug": c_slug,
+                    "unit_name": u_name, "unit_slug": u_slug,
+                }
+    return lookup
 
-    pool = build_weighted_pool(unused_pools, weights_config)
-    question_count = config["question_count"]
-
-    real_feel_dir = DOCS_DIR / program / "data" / "real_feel_tests"
-    real_feel_dir.mkdir(parents=True, exist_ok=True)
-    available = load_json(real_feel_dir / "index.json", {"tests": []})
-
-    while len(pool) >= question_count:
-        selected = sample_without_replacement(pool, question_count)
-        selected_ids = {q["question_id"] for q in selected}
-        random.shuffle(selected)
-
-        rf_state["tests_built"] += 1
-        test_number = rf_state["tests_built"]
-        save_json(real_feel_dir / f"test_{test_number}.json", selected)
-        used_ids.update(selected_ids)
-        rf_state["used_question_ids"] = list(used_ids)
-        save_json(rf_state_path, rf_state)
-
-        available["tests"].append(test_number)
-        save_json(real_feel_dir / "index.json", available)
-        pool = [(q, w) for q, w in pool if q["question_id"] not in selected_ids]
-
-# ==========================================
-# Main Build Loop
-# ==========================================
 def main():
-    import sys
     target = sys.argv[1] if len(sys.argv) > 1 else "all"
     print(f"🚀 Starting Master Build (Target: {target})...")
     
-    if target == "all" or target == "root":
-        print("📁 Creating root folder structure...")
+    if target == "root":
+        print("📁 Building root structure...")
         if DOCS_DIR.exists(): shutil.rmtree(DOCS_DIR)
         DOCS_DIR.mkdir()
         for page in ["index.html", "login.html", "signup.html", "dashboard.html", "leaderboard.html"]:
             src = TEMPLATES_DIR / page
             if src.exists(): shutil.copy2(src, DOCS_DIR / page)
         shutil.copytree(ASSETS_DIR, DOCS_DIR / "assets")
+        print("✅ Root built.")
+        return
 
-    progs = PROGRAMS if target == "all" else [target] if target in PROGRAMS else []
+    prog = target
+    print(f"📚 Building Program: {prog}")
     
-    for prog in progs:
-        print(f"\n📚 Building Program: {prog}")
+    (DOCS_DIR / prog).mkdir(parents=True, exist_ok=True)
+    (DOCS_DIR / prog / "data").mkdir(exist_ok=True)
+    
+    if not (DOCS_DIR / prog / "assets").exists():
+        shutil.copytree(ASSETS_DIR, DOCS_DIR / prog / "assets")
         
-        # Ensure dirs
-        (DOCS_DIR / prog).mkdir(parents=True, exist_ok=True)
-        (DOCS_DIR / prog / "data").mkdir(exist_ok=True)
+    (DOCS_DIR / prog / "cbt").mkdir(exist_ok=True)
+    for page in ["practice-setup.html", "exam-setup.html", "exam.html"]:
+        src = TEMPLATES_DIR / page
+        if src.exists(): shutil.copy2(src, DOCS_DIR / prog / "cbt" / page)
         
-        # Copy assets & CBT pages
-        if not (DOCS_DIR / prog / "assets").exists():
-            shutil.copytree(ASSETS_DIR, DOCS_DIR / prog / "assets")
+    if Path(f"data/{prog}/questions").exists():
+        q_dest = DOCS_DIR / prog / "data" / "questions"
+        if not q_dest.exists(): shutil.copytree(f"data/{prog}/questions", q_dest)
             
-        (DOCS_DIR / prog / "cbt").mkdir(exist_ok=True)
-        for page in ["practice-setup.html", "exam-setup.html", "exam.html"]:
-            src = TEMPLATES_DIR / page
-            if src.exists(): shutil.copy2(src, DOCS_DIR / prog / "cbt" / page)
-            
-        # Copy question data
-        if Path(f"data/{prog}/questions").exists():
-            q_dest = DOCS_DIR / prog / "data" / "questions"
-            if not q_dest.exists():
-                shutil.copytree(f"data/{prog}/questions", q_dest)
-                
-        if Path(f"config/{prog}/real_feel_config.json").exists():
-            save_json(DOCS_DIR / prog / "data" / "real_feel_config.json", load_json(f"config/{prog}/real_feel_config.json", {}))
+    if Path(f"config/{prog}/real_feel_config.json").exists():
+        save_json(DOCS_DIR / prog / "data" / "real_feel_config.json", load_json(f"config/{prog}/real_feel_config.json", {}))
 
-        # Generate Articles
-        curriculum = load_json(f"curricula/{prog}.json", {})
-        course_map = get_course_branch_map(prog)
-        ctx_lookup = build_context_lookup(curriculum, course_map)
+    ctx_lookup = build_context_lookup(prog)
+    published = []
+    courses = {}
+    
+    articles_dir = Path(f"data/{prog}/articles")
+    all_articles = list(articles_dir.glob("*.json")) if articles_dir.exists() else []
+    pending_articles = []
+    
+    for a_file in all_articles:
+        topic_id = a_file.stem
+        ctx = ctx_lookup.get(topic_id)
+        if not ctx: continue
         
-        state_file = ROOT_DIR / "state" / prog / "build_state.json"
-        state_file.parent.mkdir(parents=True, exist_ok=True)
-        state_data = load_json(state_file, {"published_done": []})
-        published_done = set(state_data["published_done"])
-        
-        published = []
-        courses = {}
-        
-        articles_dir = Path(f"data/{prog}/articles")
-        all_articles = list(articles_dir.glob("*.json")) if articles_dir.exists() else []
-        pending_articles = [a for a in all_articles if a.stem not in published_done]
-        
-        if not pending_articles:
-            print(f"  ✅ All {len(all_articles)} articles already built for {prog}.")
-            print("ALL_DONE")
-            # We still need to build nav and real-feel, so we don't return yet
+        out_path = DOCS_DIR / prog / ctx["course_slug"] / ctx["unit_slug"] / f"{topic_id}.html"
+        if not out_path.exists():
+            pending_articles.append(a_file)
         else:
-            batch = pending_articles[:100]
-            print(f"  📦 Processing batch of {len(batch)} articles (Total remaining: {len(pending_articles)})...")
-            
-            for a_file in batch:
-                topic_id = a_file.stem
-                ctx = ctx_lookup.get(topic_id)
-                if not ctx: continue
-                
-                article = load_json(a_file, None)
-                if not article: continue
-                
-                write_html(DOCS_DIR / prog / ctx["course_slug"] / ctx["unit_slug"] / f"{topic_id}.html", render_article_page(article, ctx))
-                published.append(topic_id)
-                published_done.add(topic_id)
-                
-            # Save state
-            state_data["published_done"] = list(published_done)
-            save_json(state_file, state_data)
-            print(f"  💾 Saved state: {len(published_done)} total published.")
-
-        # Rebuild navigation and index based on *all* published articles (from state)
-        published = list(published_done)
-        for topic_id in published:
+            published.append(topic_id)
+    
+    if not pending_articles:
+        print(f"  ✅ All {len(all_articles)} articles built.")
+    else:
+        batch = pending_articles[:100]
+        print(f"  📦 Building batch of {len(batch)} (Remaining: {len(pending_articles)})...")
+        
+        for a_file in batch:
+            topic_id = a_file.stem
             ctx = ctx_lookup.get(topic_id)
             if not ctx: continue
-            courses.setdefault(ctx["course_slug"], {"course_name": ctx["course_name"], "units": {}})
-            courses[ctx["course_slug"]]["units"].setdefault(ctx["unit_slug"], {"unit_name": ctx["unit_name"], "topics": []})
-            courses[ctx["course_slug"]]["units"][ctx["unit_slug"]]["topics"].append({"topic_id": topic_id, "title": ctx["title"], "order": ctx["order"]})
+            article = load_json(a_file, None)
+            if not article: continue
+            write_html(DOCS_DIR / prog / ctx["course_slug"] / ctx["unit_slug"] / f"{topic_id}.html", render_article_page(article, ctx))
+            published.append(topic_id)
+        print(f"  💾 Built {len(batch)} files. {len(pending_articles) - len(batch)} remaining.")
 
-        # Generate Navigation Pages
-        for c_slug, c_data in courses.items():
-            for u_slug, u_data in c_data["units"].items():
-                write_html(DOCS_DIR / prog / c_slug / u_slug / "index.html", render_unit_page(c_data["course_name"], c_slug, u_data["unit_name"], u_slug, u_data["topics"]))
-            
-            units_summary = {u_slug: {"unit_name": u["unit_name"], "topic_count": len(u["topics"])} for u_slug, u in c_data["units"].items()}
-            write_html(DOCS_DIR / prog / c_slug / "index.html", render_course_page(c_data["course_name"], c_slug, units_summary))
-            
-        courses_summary = {c_slug: {"course_name": c["course_name"], "unit_count": len(c["units"]), "topic_count": sum(len(u["topics"]) for u in c["units"].values())} for c_slug, c in courses.items()}
-        write_html(DOCS_DIR / prog / "index.html", render_home_page(courses_summary))
+    # Build Nav
+    for topic_id in published:
+        ctx = ctx_lookup.get(topic_id)
+        if not ctx: continue
+        courses.setdefault(ctx["course_slug"], {"course_name": ctx["course_name"], "units": {}})
+        courses[ctx["course_slug"]]["units"].setdefault(ctx["unit_slug"], {"unit_name": ctx["unit_name"], "topics": []})
+        courses[ctx["course_slug"]]["units"][ctx["unit_slug"]]["topics"].append({"topic_id": topic_id, "title": ctx["title"], "order": ctx["order"]})
 
-        # Site Index for Search
-        site_index = []
-        for c_slug, c_data in courses.items():
-            for u_slug, u_data in c_data["units"].items():
-                for t in u_data["topics"]:
-                    site_index.append({"topic_id": t["topic_id"], "title": t["title"], "course": c_data["course_name"], "course_slug": c_slug, "unit": u_data["unit_name"], "url": f"{c_slug}/{u_slug}/{t['topic_id']}.html"})
-        save_json(DOCS_DIR / prog / "site_index.json", site_index)
-
-        # CBT Pools & Real-Feel
-        (DOCS_DIR / prog / "data" / "course_pools").mkdir(parents=True, exist_ok=True)
-        for c_slug, c_data in courses.items():
-            flat_qs = []
-            for u_data in c_data["units"].values():
-                for t in u_data["topics"]:
-                    flat_qs.extend(load_json(Path(f"data/{prog}/questions") / f"{t['topic_id']}.json", []))
-            save_json(DOCS_DIR / prog / "data" / "course_pools" / f"{c_slug}.json", flat_qs)
-
-        build_real_feel_tests(prog)
-        print(f"  ✅ Generated exams and navigation for {prog}")
+    for c_slug, c_data in courses.items():
+        for u_slug, u_data in c_data["units"].items():
+            write_html(DOCS_DIR / prog / c_slug / u_slug / "index.html", render_unit_page(c_data["course_name"], c_slug, u_data["unit_name"], u_slug, u_data["topics"]))
         
-        if not pending_articles:
-            print("BATCH_COMPLETE_ALL_DONE")
-        else:
-            print("BATCH_COMPLETE_MORE_REMAINING")
+        units_summary = {u_slug: {"unit_name": u["unit_name"], "topic_count": len(u["topics"])} for u_slug, u in c_data["units"].items()}
+        write_html(DOCS_DIR / prog / c_slug / "index.html", render_course_page(c_data["course_name"], c_slug, units_summary))
+        
+    courses_summary = {c_slug: {"course_name": c["course_name"], "unit_count": len(c["units"]), "topic_count": sum(len(u["topics"]) for u in c["units"].values())} for c_slug, c in courses.items()}
+    write_html(DOCS_DIR / prog / "index.html", render_home_page(courses_summary))
 
-    print("\n🎉 Build Complete! Deploy the 'docs' folder.")
+    # Site Index
+    site_index = []
+    for c_slug, c_data in courses.items():
+        for u_slug, u_data in c_data["units"].items():
+            for t in u_data["topics"]:
+                site_index.append({"topic_id": t["topic_id"], "title": t["title"], "course": c_data["course_name"], "course_slug": c_slug, "unit": u_data["unit_name"], "url": f"{c_slug}/{u_slug}/{t['topic_id']}.html"})
+    save_json(DOCS_DIR / prog / "site_index.json", site_index)
+
+    # CBT Pools
+    (DOCS_DIR / prog / "data" / "course_pools").mkdir(parents=True, exist_ok=True)
+    for c_slug, c_data in courses.items():
+        flat_qs = []
+        for u_data in c_data["units"].values():
+            for t in u_data["topics"]:
+                flat_qs.extend(load_json(Path(f"data/{prog}/questions") / f"{t['topic_id']}.json", []))
+        save_json(DOCS_DIR / prog / "data" / "course_pools" / f"{c_slug}.json", flat_qs)
+
+    if not pending_articles:
+        print("BATCH_COMPLETE_ALL_DONE")
+    else:
+        print("BATCH_COMPLETE_MORE_REMAINING")
 
 if __name__ == "__main__":
     main()

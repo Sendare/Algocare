@@ -21,7 +21,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      # --- CHUNK 1: ROOT ---
       - name: Build Root
         run: python scripts/build.py root
 
@@ -29,13 +28,12 @@ jobs:
         run: |
           git config user.name "algocare-bot"
           git config user.email "algocare-bot@users.noreply.github.com"
-          git add docs/ state/
-          git diff --cached --quiet || git commit -m "Build: Root pages & assets"
+          git add docs/
+          git diff --cached --quiet || git commit -m "Build: Root pages"
           git pull --rebase origin main || true
           git push
 
-      # --- CHUNK 2: NURSING (Loop 100 at a time) ---
-      - name: Build Nursing (Incremental)
+      - name: Build Nursing (Loop)
         run: |
           git config user.name "algocare-bot"
           git config user.email "algocare-bot@users.noreply.github.com"
@@ -44,20 +42,17 @@ jobs:
             OUTPUT=$(python scripts/build.py nursing)
             echo "$OUTPUT"
             
-            git add docs/ state/
+            git add docs/
             if ! git diff --cached --quiet; then
-              git commit -m "Build: Nursing batch [skip ci]"
+              git commit -m "Build: Nursing batch"
               git pull --rebase origin main || true
               git push
             fi
             
-            if echo "$OUTPUT" | grep -q "BATCH_COMPLETE_ALL_DONE"; then
-              break
-            fi
+            if echo "$OUTPUT" | grep -q "BATCH_COMPLETE_ALL_DONE"; then break; fi
           done
 
-      # --- CHUNK 3: MIDWIFERY (Loop 100 at a time) ---
-      - name: Build Midwifery (Incremental)
+      - name: Build Midwifery (Loop)
         run: |
           git config user.name "algocare-bot"
           git config user.email "algocare-bot@users.noreply.github.com"
@@ -66,14 +61,12 @@ jobs:
             OUTPUT=$(python scripts/build.py midwifery)
             echo "$OUTPUT"
             
-            git add docs/ state/
+            git add docs/
             if ! git diff --cached --quiet; then
-              git commit -m "Build: Midwifery batch [skip ci]"
+              git commit -m "Build: Midwifery batch"
               git pull --rebase origin main || true
               git push
             fi
             
-            if echo "$OUTPUT" | grep -q "BATCH_COMPLETE_ALL_DONE"; then
-              break
-            fi
+            if echo "$OUTPUT" | grep -q "BATCH_COMPLETE_ALL_DONE"; then break; fi
           done
