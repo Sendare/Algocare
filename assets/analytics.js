@@ -37,7 +37,7 @@ function getProgram() {
 
 async function logEvent(table, row) {
   try {
-    const res = await fetch(`${API_URL}/log-event`, {
+    const res = await fetch(`${API_URL}/log-event?table=${table}`, {
       method: "POST",
       keepalive: true,
       headers: {
