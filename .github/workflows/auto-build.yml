@@ -2,10 +2,10 @@ name: Auto Build Algocare
 on:
   schedule:
     - cron: '*/5 * * * *' # Runs every 5 minutes
-  workflow_dispatch: # Allows manual run if needed
+  workflow_dispatch: # Manual trigger
 
 concurrency:
-  group: ${{ github.workflow }}
+  group: auto-build
   cancel-in-progress: true # Prevents overlapping builds
 
 jobs:
@@ -36,5 +36,5 @@ jobs:
           git config user.email "algocare-bot@users.noreply.github.com"
           git add docs/
           git diff --cached --quiet || git commit -m "Auto-build: Batch [skip ci]"
-          git pull --rebase origin main || true
-          git push
+          # Use force push to skip the slow pull/rebase process
+          git push origin main -f

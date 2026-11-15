@@ -226,7 +226,13 @@ def main():
     ctx_lookup = build_context_lookup(prog)
     articles_dir = Path(f"data/{prog}/articles")
     all_articles = list(articles_dir.glob("*.json")) if articles_dir.exists() else []
-    pending = [a for a in all_articles if not (DOCS_DIR / prog / ctx_lookup.get(a.stem, {}).get("course_slug", "x") / ctx_lookup.get(a.stem, {}).get("unit_slug", "x") / f"{a.stem}.html").exists()]
+    pending = []
+    for a in all_articles:
+        ctx = ctx_lookup.get(a.stem)
+        if not ctx: continue
+        out_path = DOCS_DIR / prog / ctx["course_slug"] / ctx["unit_slug"] / f"{a.stem}.html"
+        if not out_path.exists():
+            pending.append(a)
 
     if pending:
         print(f"📚 Nursing: Building {min(300, len(pending))} of {len(pending)} remaining...")
@@ -258,7 +264,13 @@ def main():
     ctx_lookup = build_context_lookup(prog)
     articles_dir = Path(f"data/{prog}/articles")
     all_articles = list(articles_dir.glob("*.json")) if articles_dir.exists() else []
-    pending = [a for a in all_articles if not (DOCS_DIR / prog / ctx_lookup.get(a.stem, {}).get("course_slug", "x") / ctx_lookup.get(a.stem, {}).get("unit_slug", "x") / f"{a.stem}.html").exists()]
+    pending = []
+    for a in all_articles:
+        ctx = ctx_lookup.get(a.stem)
+        if not ctx: continue
+        out_path = DOCS_DIR / prog / ctx["course_slug"] / ctx["unit_slug"] / f"{a.stem}.html"
+        if not out_path.exists():
+            pending.append(a)
 
     if pending:
         print(f"📚 Midwifery: Building {min(300, len(pending))} of {len(pending)} remaining...")
