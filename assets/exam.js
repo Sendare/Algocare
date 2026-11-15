@@ -23,8 +23,12 @@ function shuffle(arr) { let a=[...arr]; for(let i=a.length-1;i>0;i--){const j=Ma
 // --- Initialization ---
 async function init() {
   try {
-    if (mode === "practice") {
+    // Load site index for explanations
+    try {
       window.siteIndex = await (await fetch(`../site_index.json`)).json();
+    } catch(e) { console.warn("siteIndex missing", e); }
+
+    if (mode === "practice") {
       if (topicId) {
         const pool = await (await fetch(`../data/questions/${topicId}.json`)).json();
         subjects = ["Topic Practice"];
@@ -35,10 +39,9 @@ async function init() {
       } else if (coursesParam) {
         const slugs = coursesParam.split(',');
         const courseNames = {};
-        try {
-          const siteData = await (await fetch(`../site_index.json`)).json();
-          siteData.forEach(item => courseNames[item.course_slug] = item.course);
-        } catch(e) { console.warn("site_index missing"); }
+        if (window.siteIndex) {
+          window.siteIndex.forEach(item => courseNames[item.course_slug] = item.course);
+        }
 
         let totalLoaded = 0;
         for (const slug of slugs) {
@@ -68,7 +71,7 @@ async function init() {
       questions["Real-Feel Exam"] = shuffle(pool);
       currentIndexes["Real-Feel Exam"] = 0;
       activeSubject = "Real-Feel Exam";
-      endTime = Date.now() + questions["Real-Feel Exam"].length * 30 * 1000; // default 30s/q
+      endTime = Date.now() + questions["Real-Feel Exam"].length * 30 * 1000;
     }
   } catch (e) {
     document.getElementById("examRoot").innerHTML = `<div class="empty-state" style="text-align:center; padding:40px;">Error loading exam. <a href="index.html">Go back</a></div>`;
@@ -255,14 +258,30 @@ function handleSubmitClick() {
   document.body.appendChild(modal);
 }
 
+// --- Explanation Parser ---
+function parseExplanation(text, ownId) {
+  if (!text) return "";
+  // Regex allows for an optional space between ] and (
+  return text.replace(/\[([^\]]+)\]\s*\(([^)#]+)#([^)]+)\)/g, function(match, label, topicId, headingId) {
+    if (!window.siteIndex) return label;
+    const entry = window.siteIndex.find(i => i.topic_id === topicId);
+    if (entry) {
+      return `<a href="../${entry.url}#${headingId}" style="color:var(--scrub); font-weight:700;">${label}</a>`;
+    }
+    return label;
+  });
+}
+
 // --- Results & Feedback ---
 function finishExam(timedOut) {
   if (isFinished) return;
   isFinished = true;
   clearInterval(timerInterval);
+  
+  // Hide the exam header
   const header = document.querySelector('.exam-header');
   if (header) header.style.display = 'none';
-  
+
   const total = getTotalQuestions(), attempted = getAnsweredCount();
   let totalCorrect = 0;
   const subjectResults = [];
@@ -298,13 +317,16 @@ function finishExam(timedOut) {
       wrongQs.forEach(q => {
         const uAns = answers[q.question_id].selected;
         const cAns = q.answer;
+        const entry = window.siteIndex?.find(i => i.topic_id === q.topic_id);
+        const learnMoreBtn = entry ? `<a href="../${entry.url}" class="learn-more-btn">Study more on this topic →</a>` : '';
+
         reviewHtml += `
           <div class="wrong-q-card">
             <div class="wrong-q-text">${q.question}</div>
             <div class="ans-line"><span class="ans-yours">Your answer:</span> ${q.options[uAns]}</div>
             <div class="ans-line"><span class="ans-correct">Correct answer:</span> ${q.options[cAns]}</div>
-            ${q.explanation ? `<div class="expl-box"><strong style="color:var(--ink);">Explanation:</strong> ${q.explanation}</div>` : ''}
-            <a href="../index.html" class="learn-more-btn">Study more on this topic →</a>
+            ${q.explanation ? `<div class="expl-box"><strong style="color:var(--ink);">Explanation:</strong> ${parseExplanation(q.explanation, q.topic_id)}</div>` : ''}
+            ${learnMoreBtn}
           </div>
         `;
       });
@@ -370,7 +392,6 @@ function setupFeedbackWidget() {
   window.submitFeedback = (modeType) => {
     if (selectedStars === 0) return alert("Please select a star rating first.");
     const comment = document.getElementById('feedbackText').value;
-    // Insert to Supabase (using your existing logic)
     console.log("Feedback submitted:", selectedStars, comment);
     document.getElementById('feedbackBody').innerHTML = `<div style="text-align:center; padding:20px;"><p style="color:var(--scrub); font-weight:700;">Thank you!</p><p style="font-size:0.9rem; color:var(--ink-soft);">Your feedback has been saved.</p></div>`;
   };
@@ -402,7 +423,7 @@ window.addEventListener("keydown", (e) => {
 window.addEventListener("load", async () => {
   await new Promise(r => setTimeout(r, 200));
   try {
-    const user = getUser ? getUser() : null;
+    const user = window.getUser ? window.getUser() : null;
     if (user) {
       const name = user.user_metadata?.name || user.email.split('@')[0];
       const regNo = user.id.substring(0, 8).toUpperCase();
