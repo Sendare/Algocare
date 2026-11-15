@@ -277,6 +277,14 @@ def main():
         src = TEMPLATES_DIR / page
         if src.exists(): shutil.copy2(src, DOCS_DIR / page)
     shutil.copytree(ASSETS_DIR, DOCS_DIR / "assets")
+    
+    # Create _headers for Cloudflare to prevent HTML caching
+    headers_content = '''/*.html
+  Cache-Control: public, max-age=0, must-revalidate
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+'''
+    (DOCS_DIR / "_headers").write_text(headers_content)
 
     for prog in ["nursing", "midwifery"]:
         (DOCS_DIR / prog).mkdir(parents=True, exist_ok=True)
