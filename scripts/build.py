@@ -4,6 +4,7 @@ import re
 import shutil
 import sys
 import html
+import time
 from pathlib import Path
 
 ROOT_DIR = Path(__file__).parent.parent
@@ -12,6 +13,9 @@ ASSETS_DIR = ROOT_DIR / "assets"
 DOCS_DIR = ROOT_DIR / "docs"
 DATA_DIR = ROOT_DIR / "data"
 CURRICULA_DIR = ROOT_DIR / "curricula"
+
+# Hard stop at 170 seconds to allow safe git commit/push
+MAX_RUNTIME = 170 
 
 def slugify(text):
     return re.sub(r"[^a-z0-9]+", "-", text.lower().strip()).strip("-")
@@ -160,7 +164,6 @@ def build_context_lookup(prog):
 def rebuild_navigation(prog, ctx_lookup):
     published = []
     courses = {}
-    
     for topic_id, ctx in ctx_lookup.items():
         out_path = DOCS_DIR / prog / ctx["course_slug"] / ctx["unit_slug"] / f"{topic_id}.html"
         if out_path.exists():
@@ -194,7 +197,8 @@ def rebuild_navigation(prog, ctx_lookup):
         save_json(DOCS_DIR / prog / "data" / "course_pools" / f"{c_slug}.json", flat_qs)
 
 def main():
-    print("🚀 Starting Auto Build (Max 300 files)...")
+    start_time = time.time()
+    print("🚀 Starting Build (Max 3 minutes)...")
     
     # 1. Root
     if not (DOCS_DIR / "index.html").exists():
@@ -208,81 +212,54 @@ def main():
         print("BATCH_COMPLETE_MORE_REMAINING")
         return
 
-    # 2. Check Nursing
-    prog = "nursing"
-    (DOCS_DIR / prog).mkdir(parents=True, exist_ok=True)
-    (DOCS_DIR / prog / "data").mkdir(exist_ok=True)
-    if not (DOCS_DIR / prog / "assets").exists(): shutil.copytree(ASSETS_DIR, DOCS_DIR / prog / "assets")
-    (DOCS_DIR / prog / "cbt").mkdir(exist_ok=True)
-    for page in ["practice-setup.html", "exam-setup.html", "exam.html"]:
-        src = TEMPLATES_DIR / page
-        if src.exists(): shutil.copy2(src, DOCS_DIR / prog / "cbt" / page)
-    if Path(f"data/{prog}/questions").exists():
-        q_dest = DOCS_DIR / prog / "data" / "questions"
-        if not q_dest.exists(): shutil.copytree(f"data/{prog}/questions", q_dest)
-    if Path(f"config/{prog}/real_feel_config.json").exists():
-        save_json(DOCS_DIR / prog / "data" / "real_feel_config.json", load_json(f"config/{prog}/real_feel_config.json", {}))
+    for prog in ["nursing", "midwifery"]:
+        (DOCS_DIR / prog).mkdir(parents=True, exist_ok=True)
+        (DOCS_DIR / prog / "data").mkdir(exist_ok=True)
+        if not (DOCS_DIR / prog / "assets").exists(): shutil.copytree(ASSETS_DIR, DOCS_DIR / prog / "assets")
+        (DOCS_DIR / prog / "cbt").mkdir(exist_ok=True)
+        for page in ["practice-setup.html", "exam-setup.html", "exam.html"]:
+            src = TEMPLATES_DIR / page
+            if src.exists(): shutil.copy2(src, DOCS_DIR / prog / "cbt" / page)
+        
+        if Path(f"data/{prog}/questions").exists():
+            q_dest = DOCS_DIR / prog / "data" / "questions"
+            if not q_dest.exists(): shutil.copytree(f"data/{prog}/questions", q_dest)
+        if Path(f"config/{prog}/real_feel_config.json").exists():
+            save_json(DOCS_DIR / prog / "data" / "real_feel_config.json", load_json(f"config/{prog}/real_feel_config.json", {}))
 
-    ctx_lookup = build_context_lookup(prog)
-    articles_dir = Path(f"data/{prog}/articles")
-    all_articles = list(articles_dir.glob("*.json")) if articles_dir.exists() else []
-    pending = []
-    for a in all_articles:
-        ctx = ctx_lookup.get(a.stem)
-        if not ctx: continue
-        out_path = DOCS_DIR / prog / ctx["course_slug"] / ctx["unit_slug"] / f"{a.stem}.html"
-        if not out_path.exists():
-            pending.append(a)
-
-    if pending:
-        print(f"📚 Nursing: Building {min(300, len(pending))} of {len(pending)} remaining...")
-        for a_file in pending[:300]:
-            ctx = ctx_lookup.get(a_file.stem)
+        ctx_lookup = build_context_lookup(prog)
+        articles_dir = Path(f"data/{prog}/articles")
+        all_articles = list(articles_dir.glob("*.json")) if articles_dir.exists() else []
+        
+        pending = []
+        for a in all_articles:
+            ctx = ctx_lookup.get(a.stem)
             if not ctx: continue
-            article = load_json(a_file, None)
-            if not article: continue
-            write_html(DOCS_DIR / prog / ctx["course_slug"] / ctx["unit_slug"] / f"{a_file.stem}.html", render_article_page(article, ctx))
-        rebuild_navigation(prog, ctx_lookup)
-        print("BATCH_COMPLETE_MORE_REMAINING")
-        return
+            out_path = DOCS_DIR / prog / ctx["course_slug"] / ctx["unit_slug"] / f"{a.stem}.html"
+            if not out_path.exists():
+                pending.append(a)
 
-    # 3. Check Midwifery
-    prog = "midwifery"
-    (DOCS_DIR / prog).mkdir(parents=True, exist_ok=True)
-    (DOCS_DIR / prog / "data").mkdir(exist_ok=True)
-    if not (DOCS_DIR / prog / "assets").exists(): shutil.copytree(ASSETS_DIR, DOCS_DIR / prog / "assets")
-    (DOCS_DIR / prog / "cbt").mkdir(exist_ok=True)
-    for page in ["practice-setup.html", "exam-setup.html", "exam.html"]:
-        src = TEMPLATES_DIR / page
-        if src.exists(): shutil.copy2(src, DOCS_DIR / prog / "cbt" / page)
-    if Path(f"data/{prog}/questions").exists():
-        q_dest = DOCS_DIR / prog / "data" / "questions"
-        if not q_dest.exists(): shutil.copytree(f"data/{prog}/questions", q_dest)
-    if Path(f"config/{prog}/real_feel_config.json").exists():
-        save_json(DOCS_DIR / prog / "data" / "real_feel_config.json", load_json(f"config/{prog}/real_feel_config.json", {}))
-
-    ctx_lookup = build_context_lookup(prog)
-    articles_dir = Path(f"data/{prog}/articles")
-    all_articles = list(articles_dir.glob("*.json")) if articles_dir.exists() else []
-    pending = []
-    for a in all_articles:
-        ctx = ctx_lookup.get(a.stem)
-        if not ctx: continue
-        out_path = DOCS_DIR / prog / ctx["course_slug"] / ctx["unit_slug"] / f"{a.stem}.html"
-        if not out_path.exists():
-            pending.append(a)
-
-    if pending:
-        print(f"📚 Midwifery: Building {min(300, len(pending))} of {len(pending)} remaining...")
-        for a_file in pending[:300]:
-            ctx = ctx_lookup.get(a_file.stem)
-            if not ctx: continue
-            article = load_json(a_file, None)
-            if not article: continue
-            write_html(DOCS_DIR / prog / ctx["course_slug"] / ctx["unit_slug"] / f"{a_file.stem}.html", render_article_page(article, ctx))
-        rebuild_navigation(prog, ctx_lookup)
-        print("BATCH_COMPLETE_MORE_REMAINING")
-        return
+        if pending:
+            print(f"📚 {prog.capitalize()}: Building until timeout (Total remaining: {len(pending)})...")
+            built_count = 0
+            for a_file in pending:
+                # Check timer at the start of every single file
+                if time.time() - start_time > MAX_RUNTIME:
+                    print(f"  ⏱️ Time limit reached ({MAX_RUNTIME}s). Stopping gracefully.")
+                    break
+                    
+                ctx = ctx_lookup.get(a_file.stem)
+                if not ctx: continue
+                article = load_json(a_file, None)
+                if not article: continue
+                
+                write_html(DOCS_DIR / prog / ctx["course_slug"] / ctx["unit_slug"] / f"{a_file.stem}.html", render_article_page(article, ctx))
+                built_count += 1
+                
+            print(f"  💾 Built {built_count} files this run.")
+            rebuild_navigation(prog, ctx_lookup)
+            print("BATCH_COMPLETE_MORE_REMAINING")
+            return # Stop processing so Git can commit this batch
 
     print("🎉 All done! Every article has been generated.")
 

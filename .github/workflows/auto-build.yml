@@ -36,5 +36,5 @@ jobs:
           git config user.email "algocare-bot@users.noreply.github.com"
           git add docs/
           git diff --cached --quiet || git commit -m "Auto-build: Batch [skip ci]"
-          # Use force push to skip the slow pull/rebase process
+          # Force push skips the slow pull/rebase process entirely
           git push origin main -f
