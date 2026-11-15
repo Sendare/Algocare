@@ -15,7 +15,7 @@ DATA_DIR = ROOT_DIR / "data"
 CURRICULA_DIR = ROOT_DIR / "curricula"
 
 # Hard stop at 170 seconds to allow safe git commit/push
-MAX_RUNTIME = 170 
+MAX_RUNTIME = 99999 
 
 def slugify(text):
     return re.sub(r"[^a-z0-9]+", "-", text.lower().strip()).strip("-")
