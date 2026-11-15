@@ -223,7 +223,7 @@ def rebuild_navigation(prog, ctx_lookup):
 
 def main():
     start_time = time.time()
-    print("🚀 Starting Build (Max 3 minutes)...", flush=True)
+    print("🚀 Starting Full Build...", flush=True)
     
     # 1. Root
     if not (DOCS_DIR / "index.html").exists():
@@ -281,10 +281,8 @@ def main():
                 write_html(DOCS_DIR / prog / ctx["course_slug"] / ctx["unit_slug"] / f"{a_file.stem}.html", render_article_page(article, ctx))
                 built_count += 1
                 
-            print(f"  💾 Built {built_count} files this run.", flush=True)
+            print(f"  💾 Built {built_count} files for {prog}.", flush=True)
             rebuild_navigation(prog, ctx_lookup)
-            print("BATCH_COMPLETE_MORE_REMAINING", flush=True)
-            return # Stop processing so Git can commit this batch
 
     print("🎉 All done! Every article has been generated.", flush=True)
 
