@@ -154,7 +154,7 @@ def render_article_page(article, ctx):
     ])
     body = (
         f'<h1>{article["title"]}</h1>{headings_html}'
-        f'<a class="test-yourself-link" href="../../cbt/practice-setup.html?topic={article["topic_id"]}&prog={ctx["course_slug"]}" style="display:inline-block; margin-top:24px; padding:10px 18px; background:var(--scrub); color:#fff; border-radius:var(--radius); font-weight:600; text-decoration:none;">Test yourself on this topic →</a>'
+        f'<a class="test-yourself-link" href="../../cbt/exam.html?mode=practice&topic={article["topic_id"]}&prog={ctx["course_slug"]}" style="display:inline-block; margin-top:24px; padding:10px 18px; background:var(--scrub); color:#fff; border-radius:var(--radius); font-weight:600; text-decoration:none;">Test yourself on this topic →</a>'
     )
     return render_page(article["title"], "../../", crumbs, body)
 

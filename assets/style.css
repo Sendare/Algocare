@@ -63,3 +63,55 @@ button, input, select { font-family: inherit; font-size: inherit; }
 .form-group label { display: block; font-family: var(--mono); font-size: 0.8rem; text-transform: uppercase; color: var(--grey); margin-bottom: 8px; }
 .form-control { width: 100%; padding: 12px 16px; border: 1px solid var(--grey-line); border-radius: var(--radius); background: var(--card); color: var(--ink); }
 .form-control:focus { border-color: var(--scrub); outline: none; }
+
+/* --- Topic Cards --- */
+.topic-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  background: var(--card);
+  border: 1px solid var(--grey-line);
+  border-radius: var(--radius);
+  margin-bottom: 12px;
+  transition: border-color 0.15s ease;
+}
+.topic-card:hover {
+  border-color: var(--scrub);
+}
+.topic-title {
+  font-weight: 600;
+  color: var(--ink);
+  font-size: 1.05rem;
+}
+.topic-meta {
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  color: var(--grey);
+  margin-top: 4px;
+}
+.topic-actions a {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--scrub);
+  text-decoration: none;
+}
+.topic-actions a:hover {
+  text-decoration: underline;
+}
+
+/* --- Search Box --- */
+.search-box {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1px solid var(--grey-line);
+  border-radius: var(--radius);
+  background: var(--card);
+  margin-bottom: 24px;
+  font-size: 1rem;
+  color: var(--ink);
+}
+.search-box:focus {
+  border-color: var(--scrub);
+  outline: none;
+}
