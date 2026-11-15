@@ -22,14 +22,27 @@ document.addEventListener("DOMContentLoaded", async () => {
     if (!statQs) return; 
     
     try {
-      // Fetch using the user's actual session token, not the anon key
-      const res = await fetch(`${SUPABASE_URL}/rest/v1/test_events?user_id=eq.${user.id}&program=eq.${prog}&event_type=eq.finished&order=created_at.desc&select=*`, {
-        headers: { 
-          "apikey": SUPABASE_ANON_KEY, 
-          "Authorization": `Bearer ${session.access_token}` 
-        }
-      });
+      // Helper function to make the request
+      const makeRequest = async (token) => {
+        return await fetch(`${SUPABASE_URL}/rest/v1/test_events?user_id=eq.${user.id}&program=eq.${prog}&event_type=eq.finished&order=created_at.desc&select=*`, {
+          headers: { 
+            "apikey": SUPABASE_ANON_KEY, 
+            "Authorization": `Bearer ${token}` 
+          }
+        });
+      };
+
+      let res = await makeRequest(session.access_token);
       
+      // If token expired, try to refresh and retry once
+      if (res.status === 401) {
+        console.log("Token expired, refreshing...");
+        const newSession = await refreshSession();
+        if (newSession) {
+          res = await makeRequest(newSession.access_token);
+        }
+      }
+
       if (!res.ok) {
         const errText = await res.text();
         throw new Error(`HTTP ${res.status}: ${errText}`);

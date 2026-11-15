@@ -52,6 +52,30 @@ async function logIn(email, password) {
   return data;
 }
 
+
+async function refreshSession() {
+  const session = getSession();
+  if (!session || !session.refresh_token) return null;
+
+  try {
+    const res = await fetch(`${SUPABASE_URL}/auth/v1/token?grant_type=refresh_token`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json", "apikey": SUPABASE_ANON_KEY },
+      body: JSON.stringify({ refresh_token: session.refresh_token })
+    });
+    
+    if (!res.ok) throw new Error("Refresh failed");
+    
+    const data = await res.json();
+    saveSession(data);
+    return data;
+  } catch (err) {
+    console.error("Failed to refresh token:", err);
+    logOut(); // If refresh token is dead, force login
+    return null;
+  }
+}
+
 function logOut() { 
   localStorage.removeItem("algocare_session"); 
   window.location.href = (window.APP_ROOT || "") + "index.html"; 
