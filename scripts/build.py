@@ -198,7 +198,7 @@ def rebuild_navigation(prog, ctx_lookup):
 
 def main():
     start_time = time.time()
-    print("🚀 Starting Build (Max 3 minutes, flush=True)...")
+    print("🚀 Starting Build (Max 3 minutes)...", flush=True)
     
     # 1. Root
     if not (DOCS_DIR / "index.html").exists():
@@ -240,12 +240,12 @@ def main():
                 pending.append(a)
 
         if pending:
-            print(f"📚 {prog.capitalize(, flush=True)}: Building until timeout (Total remaining: {len(pending)})...")
+            print(f"📚 {prog.capitalize()}: Building until timeout (Total remaining: {len(pending)})...", flush=True)
             built_count = 0
             for a_file in pending:
                 # Check timer at the start of every single file
                 if time.time() - start_time > MAX_RUNTIME:
-                    print(f"  ⏱️ Time limit reached ({MAX_RUNTIME}s, flush=True). Stopping gracefully.")
+                    print(f"  ⏱️ Time limit reached ({MAX_RUNTIME}s). Stopping gracefully.", flush=True)
                     break
                     
                 ctx = ctx_lookup.get(a_file.stem)
