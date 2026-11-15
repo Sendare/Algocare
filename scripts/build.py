@@ -198,18 +198,18 @@ def rebuild_navigation(prog, ctx_lookup):
 
 def main():
     start_time = time.time()
-    print("🚀 Starting Build (Max 3 minutes)...")
+    print("🚀 Starting Build (Max 3 minutes, flush=True)...")
     
     # 1. Root
     if not (DOCS_DIR / "index.html").exists():
-        print("📁 Building root structure...")
+        print("📁 Building root structure...", flush=True)
         if DOCS_DIR.exists(): shutil.rmtree(DOCS_DIR)
         DOCS_DIR.mkdir()
         for page in ["index.html", "login.html", "signup.html", "dashboard.html", "leaderboard.html"]:
             src = TEMPLATES_DIR / page
             if src.exists(): shutil.copy2(src, DOCS_DIR / page)
         shutil.copytree(ASSETS_DIR, DOCS_DIR / "assets")
-        print("BATCH_COMPLETE_MORE_REMAINING")
+        print("BATCH_COMPLETE_MORE_REMAINING", flush=True)
         return
 
     for prog in ["nursing", "midwifery"]:
@@ -240,12 +240,12 @@ def main():
                 pending.append(a)
 
         if pending:
-            print(f"📚 {prog.capitalize()}: Building until timeout (Total remaining: {len(pending)})...")
+            print(f"📚 {prog.capitalize(, flush=True)}: Building until timeout (Total remaining: {len(pending)})...")
             built_count = 0
             for a_file in pending:
                 # Check timer at the start of every single file
                 if time.time() - start_time > MAX_RUNTIME:
-                    print(f"  ⏱️ Time limit reached ({MAX_RUNTIME}s). Stopping gracefully.")
+                    print(f"  ⏱️ Time limit reached ({MAX_RUNTIME}s, flush=True). Stopping gracefully.")
                     break
                     
                 ctx = ctx_lookup.get(a_file.stem)
@@ -256,12 +256,12 @@ def main():
                 write_html(DOCS_DIR / prog / ctx["course_slug"] / ctx["unit_slug"] / f"{a_file.stem}.html", render_article_page(article, ctx))
                 built_count += 1
                 
-            print(f"  💾 Built {built_count} files this run.")
+            print(f"  💾 Built {built_count} files this run.", flush=True)
             rebuild_navigation(prog, ctx_lookup)
-            print("BATCH_COMPLETE_MORE_REMAINING")
+            print("BATCH_COMPLETE_MORE_REMAINING", flush=True)
             return # Stop processing so Git can commit this batch
 
-    print("🎉 All done! Every article has been generated.")
+    print("🎉 All done! Every article has been generated.", flush=True)
 
 if __name__ == "__main__":
     main()

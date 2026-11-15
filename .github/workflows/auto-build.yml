@@ -1,12 +1,8 @@
 name: Auto Build Algocare
 on:
   schedule:
-    - cron: '*/5 * * * *' # Runs every 5 minutes
+    - cron: '*/15 * * * *' # Runs every 15 minutes
   workflow_dispatch: # Manual trigger
-
-concurrency:
-  group: auto-build
-  cancel-in-progress: true # Prevents overlapping builds
 
 jobs:
   build:
@@ -28,13 +24,20 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run Build
-        run: python scripts/build.py
+        # -u forces Python to print logs immediately without buffering
+        run: python -u scripts/build.py
 
       - name: Commit and Push
         run: |
           git config user.name "algocare-bot"
           git config user.email "algocare-bot@users.noreply.github.com"
+          
+          echo "Staging files..."
           git add docs/
+          
+          echo "Committing..."
           git diff --cached --quiet || git commit -m "Auto-build: Batch [skip ci]"
-          # Force push skips the slow pull/rebase process entirely
+          
+          echo "Pushing to GitHub..."
           git push origin main -f
+          echo "Done!"
