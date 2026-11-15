@@ -1,3 +1,5 @@
+const API_URL = "https://algocare-api.abdul01abdul03.workers.dev/";
+
 document.addEventListener("DOMContentLoaded", async () => {
   const session = getSession();
   if (!session) { window.location.href = "./login.html"; return; }
@@ -22,28 +24,9 @@ document.addEventListener("DOMContentLoaded", async () => {
     if (!statQs) return; 
     
     try {
-      // Helper function to make the request
-      const makeRequest = async (token) => {
-        return await fetch(`${API_URL}/get-stats?user_id=${user.id}&program=${prog}`, {
-          headers: { 
-            "apikey": SUPABASE_ANON_KEY, 
-            "Authorization": `Bearer ${token}`,
-            "Cache-Control": "no-cache"
-          }
-        });
-      };
-
-      let res = await makeRequest(session.access_token);
+      // Fetch from the Cloudflare Worker
+      const res = await fetch(`${API_URL}/get-stats?user_id=${user.id}&program=${prog}`);
       
-      // If token expired, try to refresh and retry once
-      if (res.status === 401) {
-        console.log("Token expired, refreshing...");
-        const newSession = await refreshSession();
-        if (newSession) {
-          res = await makeRequest(newSession.access_token);
-        }
-      }
-
       if (!res.ok) {
         const errText = await res.text();
         throw new Error(`HTTP ${res.status}: ${errText}`);
@@ -88,7 +71,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     } catch (err) {
       console.error("Stats error", err);
-      if (recentList) recentList.innerHTML = `<li style="padding: 8px 0; color: var(--brick);">Error: ${err.message}. <br><small>Try logging out and back in.</small></li>`;
+      if (recentList) recentList.innerHTML = `<li style="padding: 8px 0; color: var(--brick);">Error: ${err.message}</li>`;
     }
   }
 
