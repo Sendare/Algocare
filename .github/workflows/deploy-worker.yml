@@ -3,7 +3,7 @@ on:
   push:
     branches: ["main"]
     paths:
-      - 'worker/**' # Only runs when you change worker files
+      - 'worker/**'
   workflow_dispatch:
 
 jobs:
@@ -11,12 +11,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
       - name: Deploy Worker
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           workingDirectory: worker
+          wranglerVersion: '4.x'
           command: deploy
           secrets: |
             SUPABASE_URL
