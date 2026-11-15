@@ -226,17 +226,14 @@ def main():
     start_time = time.time()
     print("🚀 Starting Full Build...", flush=True)
     
-    # 1. Root
-    if not (DOCS_DIR / "index.html").exists():
-        print("📁 Building root structure...", flush=True)
-        if DOCS_DIR.exists(): shutil.rmtree(DOCS_DIR)
-        DOCS_DIR.mkdir()
-        for page in ["index.html", "login.html", "signup.html", "dashboard.html", "leaderboard.html"]:
-            src = TEMPLATES_DIR / page
-            if src.exists(): shutil.copy2(src, DOCS_DIR / page)
-        shutil.copytree(ASSETS_DIR, DOCS_DIR / "assets")
-        print("BATCH_COMPLETE_MORE_REMAINING", flush=True)
-        return
+    # 1. Root (Always wipe and rebuild to ensure fresh links)
+    print("📁 Building root structure...", flush=True)
+    if DOCS_DIR.exists(): shutil.rmtree(DOCS_DIR)
+    DOCS_DIR.mkdir()
+    for page in ["index.html", "login.html", "signup.html", "dashboard.html", "leaderboard.html"]:
+        src = TEMPLATES_DIR / page
+        if src.exists(): shutil.copy2(src, DOCS_DIR / page)
+    shutil.copytree(ASSETS_DIR, DOCS_DIR / "assets")
 
     for prog in ["nursing", "midwifery"]:
         (DOCS_DIR / prog).mkdir(parents=True, exist_ok=True)
