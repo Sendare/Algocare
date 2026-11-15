@@ -1,9 +1,10 @@
 export default {
   async fetch(request, env) {
-    const url = new URL(request.url);
+    let url = new URL(request.url);
+    // Clean up double slashes in the path just in case
+    let path = url.pathname.replace(/\/+/g, '/');
     
-    // Add a visual log to the Worker console
-    console.log(`[Worker] Received request: ${request.method} ${url.pathname}`);
+    console.log(`[Worker] Received request: ${request.method} ${path}`);
 
     const corsHeaders = {
       "Access-Control-Allow-Origin": "*",
@@ -20,7 +21,7 @@ export default {
 
     try {
       // 1. Log Event Endpoint
-      if (url.pathname === "/log-event" && request.method === "POST") {
+      if (path === "/log-event" && request.method === "POST") {
         const table = url.searchParams.get("table") || "exam_logs";
         const body = await request.json();
 
@@ -40,7 +41,7 @@ export default {
       }
 
       // 2. Get Stats Endpoint
-      if (url.pathname === "/get-stats" && request.method === "GET") {
+      if (path === "/get-stats" && request.method === "GET") {
         const userId = url.searchParams.get("user_id");
         const program = url.searchParams.get("program");
 
@@ -57,7 +58,7 @@ export default {
       }
 
       // 3. Get Leaderboard Endpoint
-      if (url.pathname === "/leaderboard" && request.method === "GET") {
+      if (path === "/leaderboard" && request.method === "GET") {
         const program = url.searchParams.get("program");
         const mode = url.searchParams.get("mode");
 
@@ -80,7 +81,6 @@ export default {
       return new Response(JSON.stringify({ error: err.message }), { status: 500, headers: { ...corsHeaders, "Content-Type": "application/json" } });
     }
 
-    // If no paths match, return a descriptive 404
-    return new Response(`Not Found: The path '${url.pathname}' does not match any endpoint.`, { status: 404, headers: corsHeaders });
+    return new Response(`Not Found: The path '${path}' does not match any endpoint.`, { status: 404, headers: corsHeaders });
   }
 };
