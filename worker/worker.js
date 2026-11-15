@@ -2,7 +2,9 @@ export default {
   async fetch(request, env) {
     const url = new URL(request.url);
     
-    // CORS Headers to allow your frontend to talk to this Worker
+    // Add a visual log to the Worker console
+    console.log(`[Worker] Received request: ${request.method} ${url.pathname}`);
+
     const corsHeaders = {
       "Access-Control-Allow-Origin": "*",
       "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
@@ -17,7 +19,7 @@ export default {
     const serviceKey = env.SUPABASE_SERVICE_KEY;
 
     try {
-      // 1. Log Event Endpoint (Inserts to DB)
+      // 1. Log Event Endpoint
       if (url.pathname === "/log-event" && request.method === "POST") {
         const table = url.searchParams.get("table") || "exam_logs";
         const body = await request.json();
@@ -37,7 +39,7 @@ export default {
         return new Response(JSON.stringify({ success: true }), { headers: { ...corsHeaders, "Content-Type": "application/json" } });
       }
 
-      // 2. Get Stats Endpoint (Reads from DB)
+      // 2. Get Stats Endpoint
       if (url.pathname === "/get-stats" && request.method === "GET") {
         const userId = url.searchParams.get("user_id");
         const program = url.searchParams.get("program");
@@ -59,7 +61,6 @@ export default {
         const program = url.searchParams.get("program");
         const mode = url.searchParams.get("mode");
 
-        // Using the RPC we created earlier, but pointed at the new table
         const res = await fetch(`${supabaseUrl}/rest/v1/rpc/get_leaderboard?prog=${program}&test_mode=${mode}&limit_count=20`, {
           method: "POST",
           headers: {
@@ -75,9 +76,11 @@ export default {
       }
 
     } catch (err) {
+      console.error(`[Worker Error]`, err.message);
       return new Response(JSON.stringify({ error: err.message }), { status: 500, headers: { ...corsHeaders, "Content-Type": "application/json" } });
     }
 
-    return new Response("Not Found", { status: 404, headers: corsHeaders });
+    // If no paths match, return a descriptive 404
+    return new Response(`Not Found: The path '${url.pathname}' does not match any endpoint.`, { status: 404, headers: corsHeaders });
   }
 };

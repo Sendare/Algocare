@@ -1,4 +1,4 @@
-const API_URL = "https://algocare-api.abdul01abdul03.workers.dev/";
+const API_URL = "https://algocare-api.abdul01abdul03.workers.dev";
 
 function getUserId() {
   let id = localStorage.getItem("algocare_uid");
