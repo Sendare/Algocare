@@ -16,7 +16,7 @@ function logTestStarted(attemptId, testType, testIdentifier, questionCount) {
 }
 
 const SUPABASE_URL = "https://uhrjtcocwejddtzyjyhr.supabase.co";
-const SUPABASE_ANON_KEY = "sb_publishable_C_i1zk4P2phfIALmI6C7Iw_pYSMTGfQ";
+const API_URL = "https://api.algocare.pages.dev";
 
 function getUserId() {
   let id = localStorage.getItem("algocare_uid");
@@ -37,7 +37,7 @@ function getProgram() {
 
 async function logEvent(table, row) {
   try {
-    const res = await fetch(`${SUPABASE_URL}/rest/v1/${table}`, {
+    const res = await fetch(`${API_URL}/log-event`, {
       method: "POST",
       keepalive: true,
       headers: {

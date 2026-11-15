@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     try {
       // Helper function to make the request
       const makeRequest = async (token) => {
-        return await fetch(`${SUPABASE_URL}/rest/v1/test_events?user_id=eq.${user.id}&program=eq.${prog}&event_type=eq.finished&order=created_at.desc&select=*&_t=${Date.now()}`, {
+        return await fetch(`${API_URL}/get-stats?user_id=${user.id}&program=${prog}`, {
           headers: { 
             "apikey": SUPABASE_ANON_KEY, 
             "Authorization": `Bearer ${token}`,
