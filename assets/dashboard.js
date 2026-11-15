@@ -30,7 +30,10 @@ document.addEventListener("DOMContentLoaded", async () => {
         }
       });
       
-      if (!res.ok) throw new Error("Failed to fetch stats");
+      if (!res.ok) {
+        const errText = await res.text();
+        throw new Error(`HTTP ${res.status}: ${errText}`);
+      }
       const data = await res.json();
       
       if (data.length === 0) {
@@ -71,7 +74,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     } catch (err) {
       console.error("Stats error", err);
-      if (recentList) recentList.innerHTML = `<li style="padding: 8px 0; color: var(--brick);">Error loading scores.</li>`;
+      if (recentList) recentList.innerHTML = `<li style="padding: 8px 0; color: var(--brick);">Error: ${err.message}. <br><small>Try logging out and back in.</small></li>`;
     }
   }
 

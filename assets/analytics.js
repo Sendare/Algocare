@@ -1,3 +1,20 @@
+
+function generateAttemptId() {
+  return crypto.randomUUID();
+}
+
+function logTestStarted(attemptId, testType, testIdentifier, questionCount) {
+  logEvent("test_events", {
+    attempt_id: attemptId,
+    user_id: getUserId(),
+    program: getProgram() || "nursing",
+    event_type: "started",
+    test_type: testType,
+    test_identifier: testIdentifier,
+    question_count: questionCount
+  });
+}
+
 const SUPABASE_URL = "https://uhrjtcocwejddtzyjyhr.supabase.co";
 const SUPABASE_ANON_KEY = "sb_publishable_C_i1zk4P2phfIALmI6C7Iw_pYSMTGfQ";
 
