@@ -1,6 +1,12 @@
-name: Build Algocare Site (Incremental)
+name: Auto Build Algocare
 on:
-  workflow_dispatch: # Manual trigger
+  schedule:
+    - cron: '*/5 * * * *' # Runs every 5 minutes
+  workflow_dispatch: # Allows manual run if needed
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: true # Prevents overlapping builds
 
 jobs:
   build:
@@ -21,52 +27,14 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Build Root
-        run: python scripts/build.py root
+      - name: Run Build
+        run: python scripts/build.py
 
-      - name: Commit Root
+      - name: Commit and Push
         run: |
           git config user.name "algocare-bot"
           git config user.email "algocare-bot@users.noreply.github.com"
           git add docs/
-          git diff --cached --quiet || git commit -m "Build: Root pages"
+          git diff --cached --quiet || git commit -m "Auto-build: Batch [skip ci]"
           git pull --rebase origin main || true
           git push
-
-      - name: Build Nursing (Loop)
-        run: |
-          git config user.name "algocare-bot"
-          git config user.email "algocare-bot@users.noreply.github.com"
-          
-          while true; do
-            OUTPUT=$(python scripts/build.py nursing)
-            echo "$OUTPUT"
-            
-            git add docs/
-            if ! git diff --cached --quiet; then
-              git commit -m "Build: Nursing batch"
-              git pull --rebase origin main || true
-              git push
-            fi
-            
-            if echo "$OUTPUT" | grep -q "BATCH_COMPLETE_ALL_DONE"; then break; fi
-          done
-
-      - name: Build Midwifery (Loop)
-        run: |
-          git config user.name "algocare-bot"
-          git config user.email "algocare-bot@users.noreply.github.com"
-          
-          while true; do
-            OUTPUT=$(python scripts/build.py midwifery)
-            echo "$OUTPUT"
-            
-            git add docs/
-            if ! git diff --cached --quiet; then
-              git commit -m "Build: Midwifery batch"
-              git pull --rebase origin main || true
-              git push
-            fi
-            
-            if echo "$OUTPUT" | grep -q "BATCH_COMPLETE_ALL_DONE"; then break; fi
-          done

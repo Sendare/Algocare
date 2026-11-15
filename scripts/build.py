@@ -157,104 +157,34 @@ def build_context_lookup(prog):
                 }
     return lookup
 
-def main():
-    target = sys.argv[1] if len(sys.argv) > 1 else "all"
-    print(f"🚀 Starting Master Build (Target: {target})...")
-    
-    if target == "root":
-        print("📁 Building root structure...")
-        if DOCS_DIR.exists(): shutil.rmtree(DOCS_DIR)
-        DOCS_DIR.mkdir()
-        for page in ["index.html", "login.html", "signup.html", "dashboard.html", "leaderboard.html"]:
-            src = TEMPLATES_DIR / page
-            if src.exists(): shutil.copy2(src, DOCS_DIR / page)
-        shutil.copytree(ASSETS_DIR, DOCS_DIR / "assets")
-        print("✅ Root built.")
-        return
-
-    prog = target
-    print(f"📚 Building Program: {prog}")
-    
-    (DOCS_DIR / prog).mkdir(parents=True, exist_ok=True)
-    (DOCS_DIR / prog / "data").mkdir(exist_ok=True)
-    
-    if not (DOCS_DIR / prog / "assets").exists():
-        shutil.copytree(ASSETS_DIR, DOCS_DIR / prog / "assets")
-        
-    (DOCS_DIR / prog / "cbt").mkdir(exist_ok=True)
-    for page in ["practice-setup.html", "exam-setup.html", "exam.html"]:
-        src = TEMPLATES_DIR / page
-        if src.exists(): shutil.copy2(src, DOCS_DIR / prog / "cbt" / page)
-        
-    if Path(f"data/{prog}/questions").exists():
-        q_dest = DOCS_DIR / prog / "data" / "questions"
-        if not q_dest.exists(): shutil.copytree(f"data/{prog}/questions", q_dest)
-            
-    if Path(f"config/{prog}/real_feel_config.json").exists():
-        save_json(DOCS_DIR / prog / "data" / "real_feel_config.json", load_json(f"config/{prog}/real_feel_config.json", {}))
-
-    ctx_lookup = build_context_lookup(prog)
+def rebuild_navigation(prog, ctx_lookup):
     published = []
     courses = {}
     
-    articles_dir = Path(f"data/{prog}/articles")
-    all_articles = list(articles_dir.glob("*.json")) if articles_dir.exists() else []
-    pending_articles = []
-    
-    for a_file in all_articles:
-        topic_id = a_file.stem
-        ctx = ctx_lookup.get(topic_id)
-        if not ctx: continue
-        
+    for topic_id, ctx in ctx_lookup.items():
         out_path = DOCS_DIR / prog / ctx["course_slug"] / ctx["unit_slug"] / f"{topic_id}.html"
-        if not out_path.exists():
-            pending_articles.append(a_file)
-        else:
+        if out_path.exists():
             published.append(topic_id)
-    
-    if not pending_articles:
-        print(f"  ✅ All {len(all_articles)} articles built.")
-    else:
-        batch = pending_articles[:100]
-        print(f"  📦 Building batch of {len(batch)} (Remaining: {len(pending_articles)})...")
-        
-        for a_file in batch:
-            topic_id = a_file.stem
-            ctx = ctx_lookup.get(topic_id)
-            if not ctx: continue
-            article = load_json(a_file, None)
-            if not article: continue
-            write_html(DOCS_DIR / prog / ctx["course_slug"] / ctx["unit_slug"] / f"{topic_id}.html", render_article_page(article, ctx))
-            published.append(topic_id)
-        print(f"  💾 Built {len(batch)} files. {len(pending_articles) - len(batch)} remaining.")
-
-    # Build Nav
-    for topic_id in published:
-        ctx = ctx_lookup.get(topic_id)
-        if not ctx: continue
-        courses.setdefault(ctx["course_slug"], {"course_name": ctx["course_name"], "units": {}})
-        courses[ctx["course_slug"]]["units"].setdefault(ctx["unit_slug"], {"unit_name": ctx["unit_name"], "topics": []})
-        courses[ctx["course_slug"]]["units"][ctx["unit_slug"]]["topics"].append({"topic_id": topic_id, "title": ctx["title"], "order": ctx["order"]})
-
+            courses.setdefault(ctx["course_slug"], {"course_name": ctx["course_name"], "units": {}})
+            courses[ctx["course_slug"]]["units"].setdefault(ctx["unit_slug"], {"unit_name": ctx["unit_name"], "topics": []})
+            courses[ctx["course_slug"]]["units"][ctx["unit_slug"]]["topics"].append({"topic_id": topic_id, "title": ctx["title"], "order": ctx["order"]})
+            
     for c_slug, c_data in courses.items():
         for u_slug, u_data in c_data["units"].items():
             write_html(DOCS_DIR / prog / c_slug / u_slug / "index.html", render_unit_page(c_data["course_name"], c_slug, u_data["unit_name"], u_slug, u_data["topics"]))
-        
         units_summary = {u_slug: {"unit_name": u["unit_name"], "topic_count": len(u["topics"])} for u_slug, u in c_data["units"].items()}
         write_html(DOCS_DIR / prog / c_slug / "index.html", render_course_page(c_data["course_name"], c_slug, units_summary))
         
     courses_summary = {c_slug: {"course_name": c["course_name"], "unit_count": len(c["units"]), "topic_count": sum(len(u["topics"]) for u in c["units"].values())} for c_slug, c in courses.items()}
     write_html(DOCS_DIR / prog / "index.html", render_home_page(courses_summary))
 
-    # Site Index
     site_index = []
     for c_slug, c_data in courses.items():
         for u_slug, u_data in c_data["units"].items():
             for t in u_data["topics"]:
                 site_index.append({"topic_id": t["topic_id"], "title": t["title"], "course": c_data["course_name"], "course_slug": c_slug, "unit": u_data["unit_name"], "url": f"{c_slug}/{u_slug}/{t['topic_id']}.html"})
     save_json(DOCS_DIR / prog / "site_index.json", site_index)
-
-    # CBT Pools
+    
     (DOCS_DIR / prog / "data" / "course_pools").mkdir(parents=True, exist_ok=True)
     for c_slug, c_data in courses.items():
         flat_qs = []
@@ -263,10 +193,86 @@ def main():
                 flat_qs.extend(load_json(Path(f"data/{prog}/questions") / f"{t['topic_id']}.json", []))
         save_json(DOCS_DIR / prog / "data" / "course_pools" / f"{c_slug}.json", flat_qs)
 
-    if not pending_articles:
-        print("BATCH_COMPLETE_ALL_DONE")
-    else:
+def main():
+    print("🚀 Starting Auto Build (Max 300 files)...")
+    
+    # 1. Root
+    if not (DOCS_DIR / "index.html").exists():
+        print("📁 Building root structure...")
+        if DOCS_DIR.exists(): shutil.rmtree(DOCS_DIR)
+        DOCS_DIR.mkdir()
+        for page in ["index.html", "login.html", "signup.html", "dashboard.html", "leaderboard.html"]:
+            src = TEMPLATES_DIR / page
+            if src.exists(): shutil.copy2(src, DOCS_DIR / page)
+        shutil.copytree(ASSETS_DIR, DOCS_DIR / "assets")
         print("BATCH_COMPLETE_MORE_REMAINING")
+        return
+
+    # 2. Check Nursing
+    prog = "nursing"
+    (DOCS_DIR / prog).mkdir(parents=True, exist_ok=True)
+    (DOCS_DIR / prog / "data").mkdir(exist_ok=True)
+    if not (DOCS_DIR / prog / "assets").exists(): shutil.copytree(ASSETS_DIR, DOCS_DIR / prog / "assets")
+    (DOCS_DIR / prog / "cbt").mkdir(exist_ok=True)
+    for page in ["practice-setup.html", "exam-setup.html", "exam.html"]:
+        src = TEMPLATES_DIR / page
+        if src.exists(): shutil.copy2(src, DOCS_DIR / prog / "cbt" / page)
+    if Path(f"data/{prog}/questions").exists():
+        q_dest = DOCS_DIR / prog / "data" / "questions"
+        if not q_dest.exists(): shutil.copytree(f"data/{prog}/questions", q_dest)
+    if Path(f"config/{prog}/real_feel_config.json").exists():
+        save_json(DOCS_DIR / prog / "data" / "real_feel_config.json", load_json(f"config/{prog}/real_feel_config.json", {}))
+
+    ctx_lookup = build_context_lookup(prog)
+    articles_dir = Path(f"data/{prog}/articles")
+    all_articles = list(articles_dir.glob("*.json")) if articles_dir.exists() else []
+    pending = [a for a in all_articles if not (DOCS_DIR / prog / ctx_lookup.get(a.stem, {}).get("course_slug", "x") / ctx_lookup.get(a.stem, {}).get("unit_slug", "x") / f"{a.stem}.html").exists()]
+
+    if pending:
+        print(f"📚 Nursing: Building {min(300, len(pending))} of {len(pending)} remaining...")
+        for a_file in pending[:300]:
+            ctx = ctx_lookup.get(a_file.stem)
+            if not ctx: continue
+            article = load_json(a_file, None)
+            if not article: continue
+            write_html(DOCS_DIR / prog / ctx["course_slug"] / ctx["unit_slug"] / f"{a_file.stem}.html", render_article_page(article, ctx))
+        rebuild_navigation(prog, ctx_lookup)
+        print("BATCH_COMPLETE_MORE_REMAINING")
+        return
+
+    # 3. Check Midwifery
+    prog = "midwifery"
+    (DOCS_DIR / prog).mkdir(parents=True, exist_ok=True)
+    (DOCS_DIR / prog / "data").mkdir(exist_ok=True)
+    if not (DOCS_DIR / prog / "assets").exists(): shutil.copytree(ASSETS_DIR, DOCS_DIR / prog / "assets")
+    (DOCS_DIR / prog / "cbt").mkdir(exist_ok=True)
+    for page in ["practice-setup.html", "exam-setup.html", "exam.html"]:
+        src = TEMPLATES_DIR / page
+        if src.exists(): shutil.copy2(src, DOCS_DIR / prog / "cbt" / page)
+    if Path(f"data/{prog}/questions").exists():
+        q_dest = DOCS_DIR / prog / "data" / "questions"
+        if not q_dest.exists(): shutil.copytree(f"data/{prog}/questions", q_dest)
+    if Path(f"config/{prog}/real_feel_config.json").exists():
+        save_json(DOCS_DIR / prog / "data" / "real_feel_config.json", load_json(f"config/{prog}/real_feel_config.json", {}))
+
+    ctx_lookup = build_context_lookup(prog)
+    articles_dir = Path(f"data/{prog}/articles")
+    all_articles = list(articles_dir.glob("*.json")) if articles_dir.exists() else []
+    pending = [a for a in all_articles if not (DOCS_DIR / prog / ctx_lookup.get(a.stem, {}).get("course_slug", "x") / ctx_lookup.get(a.stem, {}).get("unit_slug", "x") / f"{a.stem}.html").exists()]
+
+    if pending:
+        print(f"📚 Midwifery: Building {min(300, len(pending))} of {len(pending)} remaining...")
+        for a_file in pending[:300]:
+            ctx = ctx_lookup.get(a_file.stem)
+            if not ctx: continue
+            article = load_json(a_file, None)
+            if not article: continue
+            write_html(DOCS_DIR / prog / ctx["course_slug"] / ctx["unit_slug"] / f"{a_file.stem}.html", render_article_page(article, ctx))
+        rebuild_navigation(prog, ctx_lookup)
+        print("BATCH_COMPLETE_MORE_REMAINING")
+        return
+
+    print("🎉 All done! Every article has been generated.")
 
 if __name__ == "__main__":
     main()
