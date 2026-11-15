@@ -18,10 +18,42 @@ let endTime = null, timerInterval = null, attemptId = null;
 let isCatchingSkips = false;
 let isFinished = false;
 
+
+function saveState() {
+  const state = { subjects, questions, currentIndexes, activeSubject, answers, flags, endTime, attemptId, isCatchingSkips, isFinished };
+  sessionStorage.setItem("algocare_exam_state", JSON.stringify(state));
+}
+function loadState() {
+  try {
+    const s = sessionStorage.getItem("algocare_exam_state");
+    if (!s) return null;
+    const state = JSON.parse(s);
+    if (state.isFinished) return null; // Don't load a finished exam
+    return state;
+  } catch { return null; }
+}
+function clearState() {
+  sessionStorage.removeItem("algocare_exam_state");
+}
+
 function shuffle(arr) { let a=[...arr]; for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];} return a; }
 
 // --- Initialization ---
 async function init() {
+  const saved = loadState();
+  if (saved) {
+    subjects = saved.subjects;
+    questions = saved.questions;
+    currentIndexes = saved.currentIndexes;
+    activeSubject = saved.activeSubject;
+    answers = saved.answers;
+    flags = saved.flags;
+    endTime = saved.endTime;
+    attemptId = saved.attemptId;
+    isCatchingSkips = saved.isCatchingSkips;
+    startTimer(); render(); return;
+  }
+
   try {
     // Load site index for explanations
     try {
@@ -170,11 +202,11 @@ function render() {
 }
 
 // --- Actions ---
-function switchTab(sub) { activeSubject = sub; isCatchingSkips = false; render(); }
-function toggleFlag() { const q = questions[activeSubject][currentIndexes[activeSubject]]; if (flags.includes(q.question_id)) flags = flags.filter(id => id !== q.question_id); else flags.push(q.question_id); render(); }
-function jumpTo(i) { currentIndexes[activeSubject] = i; isCatchingSkips = false; render(); }
+function switchTab(sub) { saveState(); activeSubject = sub; isCatchingSkips = false; render(); }
+function toggleFlag() { saveState(); const q = questions[activeSubject][currentIndexes[activeSubject]]; if (flags.includes(q.question_id)) flags = flags.filter(id => id !== q.question_id); else flags.push(q.question_id); render(); }
+function jumpTo(i) { saveState(); currentIndexes[activeSubject] = i; isCatchingSkips = false; render(); }
 
-function selectAnswer(k) { 
+function selectAnswer(k) { saveState(); 
   const q = questions[activeSubject][currentIndexes[activeSubject]];
   answers[q.question_id] = { selected: k, isCorrect: k === q.answer, showExplanation: false }; 
   if (mode === "practice") isCatchingSkips = false; 
@@ -275,6 +307,7 @@ function parseExplanation(text, ownId) {
 // --- Results & Feedback ---
 function finishExam(timedOut) {
   if (isFinished) return;
+  clearState();
   isFinished = true;
   clearInterval(timerInterval);
   
@@ -420,6 +453,15 @@ window.addEventListener("keydown", (e) => {
 });
 
 // Load Candidate Name
+document.addEventListener("visibilitychange", () => {
+  if (document.visibilityState === "hidden") {
+    clearInterval(timerInterval);
+    saveState();
+  } else if (!isFinished && endTime) {
+    startTimer();
+  }
+});
+
 window.addEventListener("load", async () => {
   await new Promise(r => setTimeout(r, 200));
   try {

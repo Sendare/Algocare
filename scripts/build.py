@@ -143,7 +143,7 @@ def breadcrumb(rel, crumbs):
     parts = [f'<a href="{rel}{href}">{label}</a>' if href else label for label, href in crumbs]
     return f'<div class="breadcrumb">{" &gt; ".join(parts)}</div>'
 
-def render_article_page(article, ctx, prog):
+def render_article_page(article, ctx, prog, is_from_exam=False):
     headings_html = "".join(
         f'<div class="article-heading" id="{h["heading_id"]}"><h2>{h["title"]}</h2>{markdown_to_html(h["content"])}</div>'
         for h in sorted(article["headings"], key=lambda x: x["order"])
@@ -154,7 +154,7 @@ def render_article_page(article, ctx, prog):
     ])
     body = (
         f'<h1>{article["title"]}</h1>{headings_html}'
-        f'<a class="test-yourself-link" href="../../cbt/exam.html?mode=practice&topic={article["topic_id"]}&prog={prog}" style="display:inline-block; margin-top:24px; padding:10px 18px; background:var(--scrub); color:#fff; border-radius:var(--radius); font-weight:600; text-decoration:none;">Test yourself on this topic →</a>'
+        f'<a id="actionButton" class="test-yourself-link" href="../../cbt/exam.html?mode=practice&topic={article["topic_id"]}&prog={prog}" style="display:inline-block; margin-top:24px; padding:10px 18px; background:var(--scrub); color:#fff; border-radius:var(--radius); font-weight:600; text-decoration:none;">Test yourself on this topic →</a><script>if(sessionStorage.getItem("algocare_exam_state")){{document.getElementById("actionButton").textContent="← Return to Exam";document.getElementById("actionButton").href="../../cbt/exam.html";}}</script>'
     )
     return render_page(article["title"], "../../", crumbs, body)
 
