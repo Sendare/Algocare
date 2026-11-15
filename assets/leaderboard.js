@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   const session = getSession();
-  if (!session) { window.location.href = "/login.html"; return; }
+  if (!session) { window.location.href = "./login.html"; return; }
 
   const urlParams = new URLSearchParams(window.location.search);
   const program = urlParams.get("prog") || "nursing";

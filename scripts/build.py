@@ -107,6 +107,7 @@ PAGE_HEAD = """<!DOCTYPE html>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{rel}assets/style.css">
 <script src="{rel}assets/analytics.js"></script>
+<script>window.APP_ROOT = "{root_rel}";</script>
 <script src="{root_rel}assets/auth.js"></script>
 </head>
 <body>
