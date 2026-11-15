@@ -24,6 +24,7 @@ function shuffle(arr) { let a=[...arr]; for(let i=a.length-1;i>0;i--){const j=Ma
 async function init() {
   try {
     if (mode === "practice") {
+      window.siteIndex = await (await fetch(`../site_index.json`)).json();
       if (topicId) {
         const pool = await (await fetch(`../data/questions/${topicId}.json`)).json();
         subjects = ["Topic Practice"];
@@ -259,6 +260,8 @@ function finishExam(timedOut) {
   if (isFinished) return;
   isFinished = true;
   clearInterval(timerInterval);
+  const header = document.querySelector('.exam-header');
+  if (header) header.style.display = 'none';
   
   const total = getTotalQuestions(), attempted = getAnsweredCount();
   let totalCorrect = 0;
@@ -318,7 +321,7 @@ function finishExam(timedOut) {
         <h1>Results</h1>
         <div style="display:flex;">
           <button class="btn-share" onclick="navigator.clipboard.writeText('I scored ${totalCorrect}/${total} on Algocare!'); alert('Score copied!')">Share</button>
-          <a href="../dashboard.html" class="btn-home">Home</a>
+          <a href="../../dashboard.html" class="btn-home">Home</a>
         </div>
       </header>
       
@@ -348,7 +351,7 @@ function finishExam(timedOut) {
         </div>
       </div>
     </div>
-    <div class="fixed-bottom"><a href="../dashboard.html" class="btn-take-another">Back to Dashboard</a></div>
+    <div class="fixed-bottom"><a href="../../dashboard.html" class="btn-take-another">Back to Dashboard</a></div>
   `;
 
   setupFeedbackWidget();

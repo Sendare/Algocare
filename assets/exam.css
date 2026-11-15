@@ -2,21 +2,22 @@
 body.exam-body {
   background: var(--paper);
   margin: 0;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
 }
 
 /* Header */
 .exam-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 12px 20px;
   background: var(--card);
   border-bottom: 1px solid var(--grey-line);
-  flex-shrink: 0;
 }
 .exam-header-left { display: flex; flex-direction: column; }
 .exam-header-title { font-family: var(--display); font-size: 1.1rem; font-weight: 700; color: var(--scrub); }
@@ -80,8 +81,6 @@ body.exam-body {
 
 /* Main Body */
 .exam-main {
-  flex: 1;
-  overflow-y: auto;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -153,7 +152,7 @@ body.exam-body {
 
 /* Question Palette */
 .exam-palette {
-  background: var(--card); border-top: 2px solid var(--grey-line); padding: 16px 20px; flex-shrink: 0;
+  background: var(--card); border-top: 2px solid var(--grey-line); padding: 16px 20px; max-width: 800px; margin: 0 auto; width: 100%; box-sizing: border-box;
 }
 .palette-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; font-weight: 700; color: var(--ink); font-size: 0.9rem; }
 .palette-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(36px, 1fr)); gap: 8px; }
@@ -191,7 +190,7 @@ body.exam-body {
 .toast { position: fixed; top: 80px; left: 50%; transform: translateX(-50%); background: var(--brick); color: white; padding: 12px 24px; border-radius: 6px; font-weight: 600; z-index: 1000; box-shadow: 0 4px 12px rgba(0,0,0,0.2); transition: opacity 0.3s; }
 
 /* ===== Results Page ===== */
-.results-page { background: var(--paper); min-height: 100vh; padding: 20px 20px 100px; max-width: 700px; margin: 0 auto; }
+.results-page { background: var(--paper); min-height: 100vh; padding: 20px 20px 120px; max-width: 700px; margin: 0 auto; }
 .results-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
 .results-header h1 { font-size: 1.5rem; color: var(--ink); margin: 0; }
 .btn-share { background: var(--scrub); color: #fff; padding: 8px 16px; border-radius: 6px; font-weight: 700; font-size: 0.9rem; border: none; cursor: pointer; text-decoration: none; }
