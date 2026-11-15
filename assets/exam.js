@@ -127,7 +127,7 @@ function render() {
   if (mode === "practice" && ans) {
     expHtml = `
       <div class="expl-box" style="margin-top:20px;">
-        ${ans.showExplanation ? q.explanation : `<button class="btn" style="background:var(--paper); color:var(--ink); border:1px solid var(--grey-line);" onclick="showExp()">Show Explanation</button>`}
+        ${ans.showExplanation ? parseExplanation(q.explanation, q.topic_id) : `<button class="btn" style="background:var(--paper); color:var(--ink); border:1px solid var(--grey-line);" onclick="showExp()">Show Explanation</button>`}
       </div>
     `;
   }
