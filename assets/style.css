@@ -13,7 +13,45 @@ a:hover { text-decoration: underline; }
 h1, h2, h3, h4 { font-family: var(--display); font-weight: 600; margin: 0 0 0.5em 0; }
 button, input, select { font-family: inherit; font-size: inherit; }
 :focus-visible { outline: 2px solid var(--scrub); outline-offset: 2px; }
-.topbar { display: flex; align-items: center; justify-content: space-between; padding: 16px 20px; border-bottom: 1px solid var(--grey-line); background: var(--card); position: sticky; top: 0; z-index: 50; }
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 20px;
+  border-bottom: 1px solid var(--grey-line);
+  background: var(--card);
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  flex-wrap: wrap; /* Allows wrapping on small screens */
+  gap: 12px;
+}
+
+.topbar-menu {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.topbar-menu a {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--ink-soft);
+  text-decoration: none;
+}
+
+.topbar-menu a:hover {
+  color: var(--scrub);
+}
+
+.topbar-menu .active {
+  color: var(--scrub);
+}
+
+.old-topbar { display: flex; align-items: center; justify-content: space-between; padding: 16px 20px; border-bottom: 1px solid var(--grey-line); background: var(--card); position: sticky; top: 0; z-index: 50; }
 .brand { font-family: var(--display); font-weight: 700; font-size: 1.25rem; color: var(--ink); display: flex; align-items: center; }
 .brand .pulse-dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; background: var(--scrub); margin-right: 10px; animation: pulse 1.6s ease-in-out infinite; }
 @keyframes pulse { 0%, 100% { opacity: 1; transform: scale(1); } 50% { opacity: 0.4; transform: scale(0.8); } }

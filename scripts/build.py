@@ -6,6 +6,7 @@ import sys
 import html
 import time
 from pathlib import Path
+from utils.weighted_sampling import build_weighted_pool, sample_without_replacement
 
 ROOT_DIR = Path(__file__).parent.parent
 TEMPLATES_DIR = ROOT_DIR / "templates"
@@ -112,11 +113,9 @@ PAGE_HEAD = """<!DOCTYPE html>
 </head>
 <body>
 <div class="topbar">
-  <div class="brand"><span class="pulse-dot"></span>Algocare</div>
-  <div>
-    <a href="{rel}cbt/practice-setup.html" style="font-size: 0.85rem; color: var(--scrub); font-weight: 600; margin-right: 16px;">Practice tests</a>
-    <a href="{rel}index.html" style="font-size: 0.85rem; color: var(--ink-soft); margin-right: 16px;">Home</a>
-    <a href="{root_rel}index.html" style="font-size: 0.85rem; color: var(--ink-soft); margin-right: 16px;">All programs</a>
+  <a href="{root_rel}index.html" class="brand" style="text-decoration:none;"><span class="pulse-dot"></span>Algocare</a>
+  <div class="topbar-menu">
+    <a href="{rel}index.html">Study Articles</a>
     <span id="authSlot"></span>
   </div>
 </div>
@@ -222,6 +221,46 @@ def rebuild_navigation(prog, ctx_lookup):
                 flat_qs.extend(load_json(Path(f"data/{prog}/questions") / f"{t['topic_id']}.json", []))
         save_json(DOCS_DIR / prog / "data" / "course_pools" / f"{c_slug}.json", flat_qs)
 
+
+def build_real_feel_tests(prog):
+    config = load_json(f"config/{prog}/real_feel_config.json", {"question_count": 250, "seconds_per_question": 30})
+    weights_config = load_json(f"config/{prog}/weights.json", {"courses": {}, "units": {}})
+    
+    used_ids = set()
+    unused_pools = {}
+    
+    # Load all questions from course pools
+    for c_file in (DOCS_DIR / prog / "data" / "course_pools").glob("*.json"):
+        c_slug = c_file.stem
+        if c_slug in weights_config.get("excluded_from_real_feel", []): continue
+        questions = load_json(c_file, [])
+        unused_pools[c_slug] = {"all": [q for q in questions if q["question_id"] not in used_ids]}
+
+    pool = build_weighted_pool(unused_pools, weights_config)
+    question_count = config["question_count"]
+
+    real_feel_dir = DOCS_DIR / prog / "data" / "real_feel_tests"
+    real_feel_dir.mkdir(parents=True, exist_ok=True)
+    available = {"tests": []}
+
+    test_num = 1
+    while len(pool) >= question_count:
+        selected = sample_without_replacement(pool, question_count)
+        selected_ids = {q["question_id"] for q in selected}
+        random.shuffle(selected)
+
+        save_json(real_feel_dir / f"test_{test_num}.json", selected)
+        used_ids.update(selected_ids)
+        
+        available["tests"].append(test_num)
+        test_num += 1
+        
+        pool = [(q, w) for q, w in pool if q["question_id"] not in selected_ids]
+
+    save_json(real_feel_dir / "index.json", available)
+    print(f"  ✅ Generated {len(available['tests'])} Real-Feel Exams for {prog}.", flush=True)
+
+
 def main():
     start_time = time.time()
     print("🚀 Starting Full Build...", flush=True)
@@ -281,6 +320,7 @@ def main():
                 
             print(f"  💾 Built {built_count} files for {prog}.", flush=True)
             rebuild_navigation(prog, ctx_lookup)
+            build_real_feel_tests(prog)
 
     print("🎉 All done! Every article has been generated.", flush=True)
 

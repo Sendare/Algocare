@@ -91,14 +91,13 @@ window.addEventListener("DOMContentLoaded", () => {
   
   const user = getUser();
   if (user) {
-    const name = user.user_metadata?.name || user.email.split('@')[0];
     authSlot.innerHTML = `
-      <a href="${window.APP_ROOT || ''}dashboard.html" style="font-weight:600; color:var(--scrub); text-decoration:none; margin-right:16px;">My Dashboard</a>
-      <button onclick="logOut()" style="background:none; border:none; color:var(--ink-soft); cursor:pointer; font-size:0.85rem;">Log out</button>
+      <a href="${window.APP_ROOT || ''}dashboard.html" style="color:var(--scrub);">Dashboard</a>
+      <button onclick="logOut()" style="background:none; border:none; color:var(--ink-soft); cursor:pointer; font-size:0.85rem; font-weight:600; padding:0;">Log out</button>
     `;
   } else {
     authSlot.innerHTML = `
-      <a href="${window.APP_ROOT || ''}login.html" style="font-weight:600; color:var(--scrub); text-decoration:none;">Log In</a>
+      <a href="${window.APP_ROOT || ''}login.html" style="color:var(--scrub);">Log In</a>
     `;
   }
 });
