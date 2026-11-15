@@ -37,7 +37,7 @@ function getProgram() {
 
 async function logEvent(table, row) {
   try {
-    await fetch(`${SUPABASE_URL}/rest/v1/${table}`, {
+    const res = await fetch(`${SUPABASE_URL}/rest/v1/${table}`, {
       method: "POST",
       keepalive: true,
       headers: {
@@ -48,6 +48,15 @@ async function logEvent(table, row) {
       },
       body: JSON.stringify(row),
     });
+
+    if (!res.ok) {
+      const err = await res.text();
+      // Show a red banner on the screen
+      const debugEl = document.createElement("div");
+      debugEl.style.cssText = "position:fixed; bottom:0; left:0; right:0; background:#b14a3a; color:white; padding:16px; z-index:9999; font-family:monospace; font-size:12px; word-wrap:break-word;";
+      debugEl.innerHTML = `<strong>Save Error:</strong> ${res.status} ${err}`;
+      document.body.appendChild(debugEl);
+    }
   } catch (err) {
     console.warn("Analytics log failed:", err);
   }
