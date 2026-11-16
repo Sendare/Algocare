@@ -110,6 +110,17 @@ handleAuthHash();
 
 // 4. Inject State into Topbar
 window.addEventListener("DOMContentLoaded", () => {
+  // --- AUTH GUARD ---
+  const publicPages = ['index.html', 'login.html', 'signup.html', 'privacy.html', 'terms.html', ''];
+  const currentPath = window.location.pathname.split('/').pop() || 'index.html';
+  
+  // If the page is NOT public and there is NO valid session, redirect to signup
+  if (!publicPages.includes(currentPath) && !getSession()) {
+    window.location.replace("/signup.html");
+    return;
+  }
+  // ------------------
+
   const authSlot = document.getElementById("authSlot");
   if (!authSlot) return; 
   

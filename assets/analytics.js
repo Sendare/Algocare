@@ -34,9 +34,15 @@ function generateAttemptId() { return crypto.randomUUID(); }
 
 async function logEvent(table, row) {
   try {
+    const session = getSession();
+    const token = session ? session.access_token : "";
+    
     const res = await fetch(`${API_URL}/log-event?table=${table}`, {
       method: "POST",
-      headers: { "Content-Type": "application/json" },
+      headers: { 
+        "Content-Type": "application/json",
+        "Authorization": `Bearer ${token}`
+      },
       body: JSON.stringify(row),
     });
 

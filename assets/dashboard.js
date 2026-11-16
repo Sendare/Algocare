@@ -25,7 +25,9 @@ document.addEventListener("DOMContentLoaded", async () => {
     
     try {
       // Fetch from the Cloudflare Worker
-      const res = await fetch(`${API_URL}/get-stats?user_id=${user.id}&program=${prog}`);
+      const res = await fetch(`${API_URL}/get-stats?program=${prog}`, {
+        headers: { "Authorization": `Bearer ${session.access_token}` }
+      });
       
       if (!res.ok) {
         const errText = await res.text();

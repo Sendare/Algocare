@@ -15,7 +15,9 @@ document.addEventListener("DOMContentLoaded", () => {
     container.innerHTML = '<div class="loading">Loading scores...</div>';
     
     try {
-      const res = await fetch(`${API_URL}/leaderboard?program=${program}&mode=${mode}`);
+      const res = await fetch(`${API_URL}/leaderboard?program=${program}&mode=${mode}`, {
+        headers: { "Authorization": `Bearer ${session.access_token}` }
+      });
       if (!res.ok) throw new Error(`HTTP ${res.status}: ${await res.text()}`);
       
       const data = await res.json();
