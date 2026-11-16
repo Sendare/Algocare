@@ -38,6 +38,28 @@ async function signUp(name, email, password) {
   return data;
 }
 
+
+// Helper: Fetch with automatic JWT refresh on 401
+async function fetchWithAuth(url, options = {}) {
+  let session = getSession();
+  if (!session) return fetch(url, options); // Let it fail naturally if no session
+
+  if (!options.headers) options.headers = {};
+  options.headers["Authorization"] = `Bearer ${session.access_token}`;
+
+  let res = await fetch(url, options);
+
+  if (res.status === 401) {
+    console.log("Token expired, attempting automatic refresh...");
+    const newSession = await refreshSession();
+    if (newSession) {
+      options.headers["Authorization"] = `Bearer ${newSession.access_token}`;
+      res = await fetch(url, options);
+    }
+  }
+  return res;
+}
+
 async function logIn(email, password) {
   const res = await fetch(`${SUPABASE_URL}/auth/v1/token?grant_type=password`, {
     method: "POST", 
