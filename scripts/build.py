@@ -154,7 +154,14 @@ def render_article_page(article, ctx, prog, is_from_exam=False):
     ])
     body = (
         f'<h1>{article["title"]}</h1>{headings_html}'
-        f'<a id="actionButton" class="test-yourself-link" href="../../cbt/exam.html?mode=practice&topic={article["topic_id"]}&prog={prog}" style="display:inline-block; margin-top:24px; padding:10px 18px; background:var(--scrub); color:#fff; border-radius:var(--radius); font-weight:600; text-decoration:none;">Test yourself on this topic →</a><script>if(sessionStorage.getItem("algocare_exam_state")){{document.getElementById("actionButton").textContent="← Return to Exam";document.getElementById("actionButton").href="../../cbt/exam.html?resume=true";}}</script>'
+        f'<a id="actionButton" class="test-yourself-link" href="../../cbt/exam.html?mode=practice&topic={article["topic_id"]}&prog={prog}" style="display:inline-block; margin-top:24px; padding:10px 18px; background:var(--scrub); color:#fff; border-radius:var(--radius); font-weight:600; text-decoration:none;">Test yourself on this topic →</a>'
+        f'<script>'
+        f'  if(sessionStorage.getItem("algocare_exam_state")){{'
+        f'    document.getElementById("actionButton").textContent="← Return to Exam";'
+        f'    document.getElementById("actionButton").href="../../cbt/exam.html?resume=true";'
+        f'  }}'
+        f'  if(typeof logArticleViewed === "function") {{ logArticleViewed("{article["topic_id"]}"); }}'
+        f'</script>'
     )
     return render_page(article["title"], "../../", crumbs, body)
 
