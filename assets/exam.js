@@ -111,6 +111,8 @@ async function init() {
   }
 
   if (!subjects.length) return;
+  if (!attemptId) attemptId = generateAttemptId();
+  logTestStarted(attemptId, mode, coursesParam || topicId || testNum, getTotalQuestions());
   startTimer(); render();
 }
 
@@ -311,6 +313,9 @@ function finishExam(timedOut) {
   isFinished = true;
   clearInterval(timerInterval);
   
+  const totalCorr = subjects.reduce((acc, sub) => acc + questions[sub].filter(q => answers[q.question_id] && answers[q.question_id].isCorrect).length, 0);
+  logTestFinished(attemptId, mode, coursesParam || topicId || testNum, getTotalQuestions(), getAnsweredCount(), totalCorr);
+  
   // Hide the exam header
   const header = document.querySelector('.exam-header');
   if (header) header.style.display = 'none';
@@ -425,7 +430,7 @@ function setupFeedbackWidget() {
   window.submitFeedback = (modeType) => {
     if (selectedStars === 0) return alert("Please select a star rating first.");
     const comment = document.getElementById('feedbackText').value;
-    console.log("Feedback submitted:", selectedStars, comment);
+    logReview(modeType, selectedStars, comment);
     document.getElementById('feedbackBody').innerHTML = `<div style="text-align:center; padding:20px;"><p style="color:var(--scrub); font-weight:700;">Thank you!</p><p style="font-size:0.9rem; color:var(--ink-soft);">Your feedback has been saved.</p></div>`;
   };
 }
