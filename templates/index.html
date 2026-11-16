@@ -30,6 +30,8 @@
   .footer { text-align: center; padding: 40px 20px; border-top: 1px solid var(--grey-line); font-size: 0.85rem; color: var(--ink-soft); }
   .footer a { color: var(--scrub); text-decoration: none; margin: 0 8px; }
 </style>
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#F7F8F7">
 </head>
 <body>
 <div class="topbar">
@@ -72,5 +74,12 @@
 </div>
 
 <script src="/assets/auth.js"></script>
+<script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("/sw.js", { scope: "/" }).catch(() => {});
+  });
+}
+</script>
 </body>
 </html>

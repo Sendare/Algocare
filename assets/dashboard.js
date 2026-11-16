@@ -9,13 +9,6 @@ document.addEventListener("DOMContentLoaded", async () => {
   
   document.getElementById("greeting").textContent = `Welcome, ${name}`;
 
-  // --- DEBUG EMAIL ON SCREEN ---
-  const debugDiv = document.createElement("div");
-  debugDiv.style.cssText = "font-size:0.75rem; color:var(--brick); margin-top:4px; font-family:var(--mono);";
-  debugDiv.textContent = `DEBUG: Logged in as ${user.email || "UNKNOWN EMAIL"}`;
-  document.querySelector(".dashboard-header > div:first-child").appendChild(debugDiv);
-  // -----------------------------
-
   // 1. Inject Admin Button
   const container = document.getElementById("adminBtnContainer");
   if (container) {

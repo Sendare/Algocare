@@ -26,6 +26,8 @@
   .badge-good { background: var(--scrub-soft); color: var(--scrub); }
   .badge-bad { background: var(--brick-soft); color: var(--brick); }
 </style>
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#F7F8F7">
 </head>
 <body>
 <div class="topbar">
@@ -74,5 +76,12 @@
 
 <script src="/assets/auth.js"></script>
 <script src="/assets/admin.js"></script>
+<script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("/sw.js", { scope: "/" }).catch(() => {});
+  });
+}
+</script>
 </body>
 </html>
