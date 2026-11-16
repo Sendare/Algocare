@@ -2,7 +2,7 @@ const API_URL = "https://algocare-api.abdul01abdul03.workers.dev";
 
 document.addEventListener("DOMContentLoaded", async () => {
   const session = getSession();
-  if (!session) { window.location.href = "/login.html"; return; }
+  if (!session) { window.location.href = "/login"; return; }
 
   const user = session.user || {};
   const name = user.user_metadata?.name || user.email?.split('@')[0] || "Student";
@@ -16,13 +16,15 @@ document.addEventListener("DOMContentLoaded", async () => {
   document.querySelector(".dashboard-header > div:first-child").appendChild(debugDiv);
   // -----------------------------
 
-  // 1. Inject Admin Button (Unconditional for debugging)
+  // 1. Inject Admin Button
   const container = document.getElementById("adminBtnContainer");
   if (container) {
-    container.innerHTML = `
-      <a href="/admin.html" style="display:inline-block; background:var(--ink); color:#fff; padding:10px 16px; border-radius:6px; font-weight:700; text-decoration:none; font-size:0.9rem;">
-        🛡️ Admin Panel
-      </a>`;
+    if (user.email && user.email.toLowerCase() === "abdul01abdul03@gmail.com") {
+      container.innerHTML = `
+        <a href="/admin.html" style="display:inline-block; background:var(--ink); color:#fff; padding:10px 16px; border-radius:6px; font-weight:700; text-decoration:none; font-size:0.9rem;">
+          🛡️ Admin Panel
+        </a>`;
+    }
   }
 
   // 2. Setup UI Links

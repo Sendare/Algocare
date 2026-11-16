@@ -49,10 +49,7 @@ async function logIn(email, password) {
 
 async function refreshSession() {
   const session = getSession();
-  if (!session || !session.refresh_token) { 
-    logOut(); 
-    return null; 
-  }
+  if (!session || !session.refresh_token) { logOut(); return null; }
 
   try {
     const res = await fetch(`${SUPABASE_URL}/auth/v1/token?grant_type=refresh_token`, {
@@ -65,7 +62,6 @@ async function refreshSession() {
     saveSession(data);
     return data;
   } catch (err) {
-    console.error("Refresh error:", err);
     logOut();
     return null;
   }
@@ -73,7 +69,7 @@ async function refreshSession() {
 
 function logOut() {
   localStorage.removeItem("algocare_session");
-  window.location.href = "/login.html";
+  window.location.href = "/login";
 }
 
 async function fetchWithAuth(url, options = {}) {
@@ -86,14 +82,13 @@ async function fetchWithAuth(url, options = {}) {
   let res = await fetch(url, options);
 
   if (res.status === 401) {
-    console.log("401 caught. Refreshing token...");
     const newSession = await refreshSession();
     if (newSession && newSession.access_token) {
       options.headers["Authorization"] = `Bearer ${newSession.access_token}`;
       res = await fetch(url, options);
     } else {
       logOut();
-      throw new Error("Session expired completely.");
+      throw new Error("Session expired");
     }
   }
   return res;
@@ -113,7 +108,7 @@ async function handleAuthHash() {
         saveSession({ access_token: accessToken, refresh_token: refreshToken, user });
         localStorage.setItem("algocare_uid", user.id);
         window.history.replaceState(null, "", window.location.pathname);
-        window.location.href = "/dashboard.html";
+        window.location.href = "/dashboard";
       } catch (err) { console.error(err); }
     }
   }
@@ -121,11 +116,12 @@ async function handleAuthHash() {
 handleAuthHash();
 
 window.addEventListener("DOMContentLoaded", () => {
-  const publicPages = ['index.html', 'login.html', 'signup.html', 'privacy.html', 'terms.html', ''];
-  const currentPath = window.location.pathname.split('/').pop() || 'index.html';
+  // Handle both /login and /login.html (Cloudflare strips .html)
+  const publicPages = ['index', 'login', 'signup', 'privacy', 'terms', ''];
+  const currentPath = window.location.pathname.split('/').pop().replace('.html', '') || 'index';
   
   if (!publicPages.includes(currentPath) && !getSession()) {
-    window.location.replace("/signup.html");
+    window.location.replace("/signup");
     return;
   }
 
@@ -135,10 +131,10 @@ window.addEventListener("DOMContentLoaded", () => {
   const user = getUser();
   if (user) {
     authSlot.innerHTML = `
-      <a href="/dashboard.html" style="color:var(--scrub); font-weight:600; margin-right:16px;">Dashboard</a>
+      <a href="/dashboard" style="color:var(--scrub); font-weight:600; margin-right:16px;">Dashboard</a>
       <button onclick="logOut()" style="background:none; border:none; color:var(--ink-soft); cursor:pointer; font-size:0.85rem; font-weight:600; padding:0;">Log out</button>
     `;
   } else {
-    authSlot.innerHTML = `<a href="/login.html" style="color:var(--scrub); font-weight:600;">Log In</a>`;
+    authSlot.innerHTML = `<a href="/login" style="color:var(--scrub); font-weight:600;">Log In</a>`;
   }
 });
