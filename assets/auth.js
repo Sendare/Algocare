@@ -1,4 +1,3 @@
-// ===== Algocare Auth Logic =====
 const SUPABASE_URL = "https://uhrjtcocwejddtzyjyhr.supabase.co";
 const SUPABASE_ANON_KEY = "sb_publishable_C_i1zk4P2phfIALmI6C7Iw_pYSMTGfQ";
 
@@ -50,7 +49,10 @@ async function logIn(email, password) {
 
 async function refreshSession() {
   const session = getSession();
-  if (!session || !session.refresh_token) { logOut(); return null; }
+  if (!session || !session.refresh_token) { 
+    logOut(); 
+    return null; 
+  }
 
   try {
     const res = await fetch(`${SUPABASE_URL}/auth/v1/token?grant_type=refresh_token`, {
@@ -71,13 +73,12 @@ async function refreshSession() {
 
 function logOut() {
   localStorage.removeItem("algocare_session");
-  window.location.href = "/login.html"; // Force redirect
+  window.location.href = "/login.html";
 }
 
-// Robust fetch wrapper
 async function fetchWithAuth(url, options = {}) {
   let session = getSession();
-  if (!session) { logOut(); throw new Error("No session"); }
+  if (!session || !session.access_token) { logOut(); throw new Error("No valid session"); }
 
   if (!options.headers) options.headers = {};
   options.headers["Authorization"] = `Bearer ${session.access_token}`;
@@ -87,7 +88,7 @@ async function fetchWithAuth(url, options = {}) {
   if (res.status === 401) {
     console.log("401 caught, refreshing token...");
     const newSession = await refreshSession();
-    if (newSession) {
+    if (newSession && newSession.access_token) {
       options.headers["Authorization"] = `Bearer ${newSession.access_token}`;
       res = await fetch(url, options);
     } else {
@@ -98,7 +99,6 @@ async function fetchWithAuth(url, options = {}) {
   return res;
 }
 
-// Email Hash Handler
 async function handleAuthHash() {
   if (window.location.hash && window.location.hash.includes("access_token=")) {
     const hashParams = new URLSearchParams(window.location.hash.substring(1));
@@ -120,7 +120,6 @@ async function handleAuthHash() {
 }
 handleAuthHash();
 
-// Auth Guard & Topbar Injection
 window.addEventListener("DOMContentLoaded", () => {
   const publicPages = ['index.html', 'login.html', 'signup.html', 'privacy.html', 'terms.html', ''];
   const currentPath = window.location.pathname.split('/').pop() || 'index.html';

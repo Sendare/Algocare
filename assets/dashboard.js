@@ -9,8 +9,15 @@ document.addEventListener("DOMContentLoaded", async () => {
   
   document.getElementById("greeting").textContent = `Welcome, ${name}`;
 
+  // --- DEBUG EMAIL ON SCREEN ---
+  const debugDiv = document.createElement("div");
+  debugDiv.style.cssText = "font-size:0.75rem; color:var(--grey); margin-top:4px; font-family:var(--mono);";
+  debugDiv.textContent = `Logged in as: ${user.email}`;
+  document.querySelector(".dashboard-header > div:first-child").appendChild(debugDiv);
+  // -----------------------------
+
   // 1. Inject Admin Button securely
-  if (user.email === "abdul01abdul03@gmail.com") {
+  if (user.email && user.email.toLowerCase() === "abdul01abdul03@gmail.com") {
     const container = document.getElementById("adminBtnContainer");
     if (container) {
       container.innerHTML = `
@@ -35,7 +42,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     
     try {
       const res = await fetchWithAuth(`${API_URL}/get-stats?program=${prog}`);
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      if (!res.ok) throw new Error(`HTTP ${res.status}: ${await res.text()}`);
       
       const data = await res.json();
       if (data.length === 0) {
