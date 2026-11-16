@@ -4,27 +4,25 @@ document.addEventListener("DOMContentLoaded", async () => {
   const session = getSession();
   if (!session) { window.location.href = "/login.html"; return; }
 
-  const user = session.user;
-  const name = user.user_metadata?.name || user.email.split('@')[0];
+  const user = session.user || {};
+  const name = user.user_metadata?.name || user.email?.split('@')[0] || "Student";
   
   document.getElementById("greeting").textContent = `Welcome, ${name}`;
 
   // --- DEBUG EMAIL ON SCREEN ---
   const debugDiv = document.createElement("div");
-  debugDiv.style.cssText = "font-size:0.75rem; color:var(--grey); margin-top:4px; font-family:var(--mono);";
-  debugDiv.textContent = `Logged in as: ${user.email}`;
+  debugDiv.style.cssText = "font-size:0.75rem; color:var(--brick); margin-top:4px; font-family:var(--mono);";
+  debugDiv.textContent = `DEBUG: Logged in as ${user.email || "UNKNOWN EMAIL"}`;
   document.querySelector(".dashboard-header > div:first-child").appendChild(debugDiv);
   // -----------------------------
 
-  // 1. Inject Admin Button securely
-  if (user.email && user.email.toLowerCase() === "abdul01abdul03@gmail.com") {
-    const container = document.getElementById("adminBtnContainer");
-    if (container) {
-      container.innerHTML = `
-        <a href="/admin.html" style="display:inline-block; background:var(--ink); color:#fff; padding:10px 16px; border-radius:6px; font-weight:700; text-decoration:none; font-size:0.9rem;">
-          🛡️ Admin Panel
-        </a>`;
-    }
+  // 1. Inject Admin Button (Unconditional for debugging)
+  const container = document.getElementById("adminBtnContainer");
+  if (container) {
+    container.innerHTML = `
+      <a href="/admin.html" style="display:inline-block; background:var(--ink); color:#fff; padding:10px 16px; border-radius:6px; font-weight:700; text-decoration:none; font-size:0.9rem;">
+        🛡️ Admin Panel
+      </a>`;
   }
 
   // 2. Setup UI Links
@@ -42,7 +40,11 @@ document.addEventListener("DOMContentLoaded", async () => {
     
     try {
       const res = await fetchWithAuth(`${API_URL}/get-stats?program=${prog}`);
-      if (!res.ok) throw new Error(`HTTP ${res.status}: ${await res.text()}`);
+      
+      if (!res.ok) {
+        const errorText = await res.text();
+        throw new Error(`Worker Error ${res.status}: ${errorText}`);
+      }
       
       const data = await res.json();
       if (data.length === 0) {
@@ -71,7 +73,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         </li>`;
       }).join("");
     } catch (err) {
-      recentList.innerHTML = `<li style="padding: 8px 0; color: var(--brick);">Error: ${err.message}</li>`;
+      recentList.innerHTML = `<li style="padding: 8px 0; color: var(--brick); font-size:0.8rem;">ERROR: ${err.message}</li>`;
     }
   }
 

@@ -86,14 +86,14 @@ async function fetchWithAuth(url, options = {}) {
   let res = await fetch(url, options);
 
   if (res.status === 401) {
-    console.log("401 caught, refreshing token...");
+    console.log("401 caught. Refreshing token...");
     const newSession = await refreshSession();
     if (newSession && newSession.access_token) {
       options.headers["Authorization"] = `Bearer ${newSession.access_token}`;
       res = await fetch(url, options);
     } else {
       logOut();
-      throw new Error("Session expired");
+      throw new Error("Session expired completely.");
     }
   }
   return res;
