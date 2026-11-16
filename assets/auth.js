@@ -78,7 +78,7 @@ async function refreshSession() {
 
 function logOut() { 
   localStorage.removeItem("algocare_session"); 
-  window.location.href = (window.APP_ROOT || "") + "index.html"; 
+  window.location.href = "/index.html"; 
 }
 
 // 3. Catch Email Confirmation Redirects
@@ -99,7 +99,7 @@ async function handleAuthHash() {
         localStorage.setItem("algocare_uid", user.id);
         
         window.history.replaceState(null, "", window.location.pathname);
-        window.location.href = (window.APP_ROOT || "") + "dashboard.html";
+        window.location.href = "/dashboard.html";
       } catch (err) { 
         console.error("Auth Redirect Error:", err); 
       }
@@ -116,12 +116,12 @@ window.addEventListener("DOMContentLoaded", () => {
   const user = getUser();
   if (user) {
     authSlot.innerHTML = `
-      <a href="${window.APP_ROOT || ''}dashboard.html" style="color:var(--scrub);">Dashboard</a>
+      <a href="/dashboard.html" style="color:var(--scrub);">Dashboard</a>
       <button onclick="logOut()" style="background:none; border:none; color:var(--ink-soft); cursor:pointer; font-size:0.85rem; font-weight:600; padding:0;">Log out</button>
     `;
   } else {
     authSlot.innerHTML = `
-      <a href="${window.APP_ROOT || ''}login.html" style="color:var(--scrub);">Log In</a>
+      <a href="/login.html" style="color:var(--scrub);">Log In</a>
     `;
   }
 });

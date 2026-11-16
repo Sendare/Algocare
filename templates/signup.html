@@ -16,7 +16,7 @@
 </head>
 <body>
 <div class="topbar">
-  <a href="./index.html" class="brand" style="text-decoration:none;"><span class="pulse-dot"></span>Algocare</a>
+  <a href="/index.html" class="brand" style="text-decoration:none;"><span class="pulse-dot"></span>Algocare</a>
 </div>
 
 <div class="auth-container">
@@ -45,7 +45,7 @@
   </form>
   
   <div class="auth-footer">
-    Already have an account? <a href="./login.html">Log In</a>
+    Already have an account? <a href="/login.html">Log In</a>
   </div>
 </div>
 
@@ -85,7 +85,7 @@
         document.querySelector(".auth-container").innerHTML = `
           <h2 style="text-align:center; color: var(--scrub);">Check your email</h2>
           <p style="text-align:center; color: var(--ink-soft);">We sent a confirmation link to <strong>${document.getElementById("email").value}</strong>.<br>Click it to activate your account.</p>
-          <a href="./login.html" class="btn" style="width:100%; display:block; margin-top:20px;">Go to Login</a>
+          <a href="/login.html" class="btn" style="width:100%; display:block; margin-top:20px;">Go to Login</a>
         `;
       }
     } catch (error) {

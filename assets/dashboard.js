@@ -76,10 +76,10 @@ document.addEventListener("DOMContentLoaded", async () => {
   }
 
   function updateLinks(prog) {
-    linkArticles.href = `./${prog}/index.html`;
-    linkPractice.href = `./${prog}/cbt/practice-setup.html`;
-    linkRealfeel.href = `./${prog}/cbt/exam-setup.html`;
-    linkLeaderboard.href = `./leaderboard.html?prog=${prog}`;
+    linkArticles.href = `/${prog}/index.html`;
+    linkPractice.href = `/${prog}/cbt/practice-setup.html`;
+    linkRealfeel.href = `/${prog}/cbt/exam-setup.html`;
+    linkLeaderboard.href = `/leaderboard.html?prog=${prog}`;
 
     tabs.forEach(t => t.classList.toggle("active", t.dataset.prog === prog));
     localStorage.setItem("algocare_dashboard_prog", prog);
