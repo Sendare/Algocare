@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin Dashboard — Algocare</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/style.css">
+<style>
+  .admin-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 24px; }
+  .stat-card { background: var(--card); padding: 20px; border-radius: 8px; border: 1px solid var(--grey-line); text-align: center; }
+  .stat-value { font-family: var(--mono); font-size: 1.8rem; font-weight: 700; color: var(--scrub); }
+  
+  .tabs { display: flex; gap: 8px; margin-bottom: 16px; border-bottom: 1px solid var(--grey-line); padding-bottom: 8px; overflow-x: auto;}
+  .tab-btn { padding: 8px 16px; background: none; border: none; font-weight: 600; color: var(--ink-soft); cursor: pointer; font-size: 1rem;}
+  .tab-btn.active { color: var(--scrub); border-bottom: 2px solid var(--scrub); }
+  
+  .tab-content { display: none; }
+  .tab-content.active { display: block; }
+  
+  table { width: 100%; border-collapse: collapse; background: var(--card); border-radius: 8px; overflow: hidden; border: 1px solid var(--grey-line); font-size: 0.9rem; }
+  th, td { padding: 12px; text-align: left; border-bottom: 1px solid var(--grey-line); }
+  th { background: var(--paper); font-family: var(--mono); font-size: 0.75rem; text-transform: uppercase; color: var(--ink-soft); }
+  tr:last-child td { border-bottom: none; }
+  .badge { padding: 4px 8px; border-radius: 4px; font-size: 0.75rem; font-weight: 700; }
+  .badge-good { background: var(--scrub-soft); color: var(--scrub); }
+  .badge-bad { background: var(--brick-soft); color: var(--brick); }
+</style>
+</head>
+<body>
+<div class="topbar">
+  <a href="/index.html" class="brand" style="text-decoration:none;"><span class="pulse-dot"></span>Algocare</a>
+  <div><a href="/dashboard.html" style="font-weight:600; color:var(--scrub);">Back to App</a></div>
+</div>
+
+<div class="container">
+  <h1 style="margin-bottom: 24px;">Admin Dashboard</h1>
+  
+  <div class="admin-grid">
+    <div class="stat-card"><div class="stat-value" id="total-users">-</div><div class="stat-label">Total Users</div></div>
+    <div class="stat-card"><div class="stat-value" id="total-tests">-</div><div class="stat-label">Tests Taken</div></div>
+    <div class="stat-card"><div class="stat-value" id="total-feedback">-</div><div class="stat-label">Feedback</div></div>
+  </div>
+
+  <div class="tabs">
+    <button class="tab-btn active" onclick="switchTab('users')">Users</button>
+    <button class="tab-btn" onclick="switchTab('feedback')">Feedback</button>
+    <button class="tab-btn" onclick="switchTab('logs')">Exam Logs</button>
+  </div>
+
+  <div id="loading" style="text-align:center; padding: 40px; color: var(--grey);">Loading admin data...</div>
+
+  <div id="tab-users" class="tab-content">
+    <div style="overflow-x:auto;"><table>
+      <thead><tr><th>Name</th><th>Email</th><th>Joined Date</th></tr></thead>
+      <tbody id="users-body"></tbody>
+    </table></div>
+  </div>
+
+  <div id="tab-feedback" class="tab-content">
+    <div style="overflow-x:auto;"><table>
+      <thead><tr><th>User</th><th>Stars</th><th>Category</th><th>Comment</th></tr></thead>
+      <tbody id="feedback-body"></tbody>
+    </table></div>
+  </div>
+
+  <div id="tab-logs" class="tab-content">
+    <div style="overflow-x:auto;"><table>
+      <thead><tr><th>User</th><th>Program</th><th>Type</th><th>Score</th></tr></thead>
+      <tbody id="logs-body"></tbody>
+    </table></div>
+  </div>
+</div>
+
+<script src="/assets/auth.js"></script>
+<script src="/assets/admin.js"></script>
+</body>
+</html>
