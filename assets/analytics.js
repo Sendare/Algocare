@@ -1,7 +1,7 @@
 const API_URL = "https://algocare-api.abdul01abdul03.workers.dev";
 
+// Helper: Get the ID (Logged in user, or Anonymous)
 function getUserId() {
-  // If logged in, use Supabase ID. Otherwise, anonymous UUID.
   const user = window.getUser ? window.getUser() : null;
   if (user) return user.id;
   
@@ -11,6 +11,15 @@ function getUserId() {
     localStorage.setItem("algocare_uid", id);
   }
   return id;
+}
+
+// Helper: Get the Name (Logged in user, or Anonymous)
+function getUserName() {
+  const user = window.getUser ? window.getUser() : null;
+  if (user) {
+    return user.user_metadata?.name || user.email.split('@')[0];
+  }
+  return "Anonymous";
 }
 
 function getProgram() {
@@ -34,11 +43,6 @@ async function logEvent(table, row) {
     if (!res.ok) {
       const err = await res.text();
       console.error(`Worker DB Error (${table}):`, err);
-      // Visual error banner
-      const debugEl = document.createElement("div");
-      debugEl.style.cssText = "position:fixed; bottom:0; left:0; right:0; background:#b14a3a; color:white; padding:16px; z-index:99999; font-family:monospace; font-size:12px; word-wrap:break-word;";
-      debugEl.innerHTML = `<strong>DB Save Error (${table}):</strong> ${err}`;
-      document.body.appendChild(debugEl);
     }
   } catch (err) {
     console.warn("Analytics network error:", err);
@@ -49,6 +53,7 @@ function logTestStarted(attemptId, testType, testIdentifier, questionCount) {
   logEvent("exam_logs", {
     attempt_id: attemptId,
     user_id: getUserId(),
+    user_name: getUserName(),
     program: getProgram(),
     event_type: "started",
     test_type: testType,
@@ -61,6 +66,7 @@ function logTestFinished(attemptId, testType, testIdentifier, questionCount, att
   logEvent("exam_logs", {
     attempt_id: attemptId,
     user_id: getUserId(),
+    user_name: getUserName(),
     program: getProgram(),
     event_type: "finished",
     test_type: testType,
@@ -74,6 +80,7 @@ function logTestFinished(attemptId, testType, testIdentifier, questionCount, att
 function logReview(testType, stars, comment) {
   logEvent("feedback", {
     user_id: getUserId(),
+    user_name: getUserName(),
     program: getProgram(),
     test_type: testType || null,
     stars: stars,
@@ -84,6 +91,7 @@ function logReview(testType, stars, comment) {
 function logArticleViewed(topicId) {
   logEvent("article_events", {
     user_id: getUserId(),
+    user_name: getUserName(),
     program: getProgram(),
     topic_id: topicId,
     event_type: "viewed"
