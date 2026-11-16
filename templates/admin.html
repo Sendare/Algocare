@@ -48,6 +48,7 @@
     <button class="tab-btn active" onclick="switchTab('users')">Users</button>
     <button class="tab-btn" onclick="switchTab('feedback')">Feedback</button>
     <button class="tab-btn" onclick="switchTab('logs')">Exam Logs</button>
+    <button class="tab-btn" onclick="switchTab('articles')">Articles Read</button>
   </div>
 
   <div id="loading" style="text-align:center; padding: 40px; color: var(--grey);">Loading admin data...</div>
@@ -63,6 +64,13 @@
     <div style="overflow-x:auto;"><table>
       <thead><tr><th>User</th><th>Stars</th><th>Category</th><th>Comment</th></tr></thead>
       <tbody id="feedback-body"></tbody>
+    </table></div>
+  </div>
+
+  <div id="tab-articles" class="tab-content">
+    <div style="overflow-x:auto;"><table>
+      <thead><tr><th>User</th><th>Topic ID</th><th>Date</th></tr></thead>
+      <tbody id="articles-body"></tbody>
     </table></div>
   </div>
 

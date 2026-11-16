@@ -53,6 +53,16 @@ document.addEventListener("DOMContentLoaded", async () => {
       </tr>
     `).join("");
 
+    // Populate Articles Table
+    const artBody = document.getElementById("articles-body");
+    artBody.innerHTML = data.articles.map(a => `
+      <tr>
+        <td>${a.user_name || 'Anonymous'}</td>
+        <td style="font-family:var(--mono); font-size:0.8rem;">${a.topic_id}</td>
+        <td>${new Date(a.created_at).toLocaleDateString()}</td>
+      </tr>
+    `).join("");
+
     // Populate Logs Table
     const logsBody = document.getElementById("logs-body");
     logsBody.innerHTML = data.logs.map(l => `

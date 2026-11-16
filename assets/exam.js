@@ -55,10 +55,8 @@ async function init() {
   }
 
   try {
-    // Load site index for explanations
-    try {
-      window.siteIndex = await (await fetch(`../site_index.json`)).json();
-    } catch(e) { console.warn("siteIndex missing", e); }
+    // Load site index in the background without blocking the exam
+    fetch(`../site_index.json`).then(r => r.json()).then(d => { window.siteIndex = d; }).catch(e => console.warn(e));
 
     if (mode === "practice") {
       if (topicId) {
@@ -310,6 +308,7 @@ function parseExplanation(text, ownId) {
 function finishExam(timedOut) {
   if (isFinished) return;
   clearState();
+  sessionStorage.removeItem('algocare_exam_state');
   isFinished = true;
   clearInterval(timerInterval);
   

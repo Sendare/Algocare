@@ -74,7 +74,13 @@ export default {
         });
         const logs = await logRes.json();
 
-        return new Response(JSON.stringify({ users, feedback, logs }), { headers: { ...corsHeaders, "Content-Type": "application/json" } });
+        // 4. Fetch Article Events
+        const artRes = await fetch(`${supabaseUrl}/rest/v1/article_events?order=created_at.desc&limit=30`, {
+          headers: { "apikey": serviceKey, "Authorization": `Bearer ${serviceKey}` }
+        });
+        const articles = await artRes.json();
+
+        return new Response(JSON.stringify({ users, feedback, logs, articles }), { headers: { ...corsHeaders, "Content-Type": "application/json" } });
       }
 
       // 1. Log Event

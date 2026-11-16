@@ -15,9 +15,9 @@ function getUserId() {
 
 // Helper: Get the Name (Logged in user, or Anonymous)
 function getUserName() {
-  const user = window.getUser ? window.getUser() : null;
-  if (user) {
-    return user.user_metadata?.name || user.email.split('@')[0];
+  const session = getSession();
+  if (session && session.user) {
+    return session.user.user_metadata?.name || session.user.email.split('@')[0];
   }
   return "Anonymous";
 }
