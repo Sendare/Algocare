@@ -11,6 +11,31 @@ export default {
 
     if (request.method === "OPTIONS") return new Response(null, { headers: corsHeaders });
 
+    // --- 🛡️ RATE LIMITING LOGIC ---
+    const ip = request.headers.get("CF-Connecting-IP") || "unknown-ip";
+    const minuteWindow = Math.floor(Date.now() / 60000); // Current minute
+    const kvKey = `rate:${ip}:${minuteWindow}`;
+    
+    try {
+      // Get the current request count for this IP in this minute
+      const currentCountStr = await env.RATE_LIMIT_KV.get(kvKey);
+      const currentCount = parseInt(currentCountStr || "0", 10);
+
+      if (currentCount >= 60) {
+        return new Response(JSON.stringify({ error: "Too many requests. Please wait a minute." }), { 
+          status: 429, 
+          headers: { ...corsHeaders, "Content-Type": "application/json" } 
+        });
+      }
+
+      // Increment the count (expires after 60 seconds automatically)
+      await env.RATE_LIMIT_KV.put(kvKey, (currentCount + 1).toString(), { expirationTtl: 65 });
+    } catch (e) {
+      console.warn("Rate limit KV error:", e);
+      // If KV fails, we let the request through rather than breaking the app
+    }
+    // ------------------------------
+
     const supabaseUrl = env.SUPABASE_URL;
     const serviceKey = env.SUPABASE_SERVICE_KEY;
 
@@ -23,7 +48,6 @@ export default {
 
       const token = authHeader.replace("Bearer ", "");
       
-      // Verify token with Supabase
       const userRes = await fetch(`${supabaseUrl}/auth/v1/user`, {
         headers: { "apikey": serviceKey, "Authorization": `Bearer ${token}` }
       });
@@ -33,14 +57,12 @@ export default {
       }
       
       const user = await userRes.json();
-      // -----------------------------------------
 
       // 1. Log Event (Insert)
       if (path === "/log-event" && request.method === "POST") {
         const table = url.searchParams.get("table") || "exam_logs";
         const body = await request.json();
         
-        // Override user_id with the verified ID from the token to prevent spoofing
         body.user_id = user.id;
 
         const res = await fetch(`${supabaseUrl}/rest/v1/${table}`, {
@@ -55,7 +77,6 @@ export default {
 
       // 2. Get Stats (Dashboard)
       if (path === "/get-stats" && request.method === "GET") {
-        // Force the query to only look for the logged-in user's data
         const program = url.searchParams.get("program");
 
         const res = await fetch(`${supabaseUrl}/rest/v1/exam_logs?user_id=eq.${user.id}&program=eq.${program}&event_type=eq.finished&order=created_at.desc&select=*`, {

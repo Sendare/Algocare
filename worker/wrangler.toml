@@ -1,3 +1,7 @@
 name = "algocare-api"
 main = "worker.js"
 compatibility_date = "2023-10-01"
+
+[[kv_namespaces]]
+binding = "RATE_LIMIT_KV"
+id = "a42e21f7309144afbcaade741f7d8fb3"
