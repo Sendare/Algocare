@@ -278,6 +278,12 @@ def main():
         if src.exists(): shutil.copy2(src, DOCS_DIR / page)
     shutil.copytree(ASSETS_DIR, DOCS_DIR / "assets")
     
+    # Copy PWA icons to root
+    for icon in ["icon-192x192.png", "icon-512x512.png"]:
+        icon_path = ASSETS_DIR / icon
+        if icon_path.exists():
+            shutil.copy2(icon_path, DOCS_DIR / icon)
+    
     # Create _headers for Cloudflare to prevent HTML caching
     headers_content = '''/*.html
   Cache-Control: public, max-age=0, must-revalidate
