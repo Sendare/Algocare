@@ -9,6 +9,20 @@ document.addEventListener("DOMContentLoaded", async () => {
   const greetingEl = document.getElementById("greeting");
   if (greetingEl) greetingEl.textContent = `Welcome, ${name}`;
 
+  // --- ADMIN BUTTON LOGIC ---
+  if (user.email === "abdul01abdul03@gmail.com") {
+    const adminActions = document.getElementById("adminActions");
+    if (adminActions) {
+      adminActions.innerHTML = `
+        <a href="/admin.html" style="display:inline-flex; align-items:center; gap:8px; background:var(--ink); color:#fff; padding:10px 16px; border-radius:6px; font-weight:700; text-decoration:none; font-size:0.9rem;">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+          Admin Panel
+        </a>
+      `;
+    }
+  }
+  // -------------------------
+
   const tabs = document.querySelectorAll(".prog-tab");
   const linkArticles = document.getElementById("link-articles");
   const linkPractice = document.getElementById("link-practice");
