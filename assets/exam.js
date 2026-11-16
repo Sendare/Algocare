@@ -40,6 +40,18 @@ function shuffle(arr) { let a=[...arr]; for(let i=a.length-1;i>0;i--){const j=Ma
 
 // --- Initialization ---
 async function init() {
+  const resultsStr = sessionStorage.getItem("algocare_results_state");
+  if (resultsStr) {
+    const r = JSON.parse(resultsStr);
+    subjects = r.subjects;
+    questions = r.questions;
+    answers = r.answers;
+    mode = r.mode;
+    isFinished = false;
+    finishExam(r.timedOut);
+    return;
+  }
+
   const saved = loadState();
   if (saved) {
     subjects = saved.subjects;
@@ -374,13 +386,15 @@ function finishExam(timedOut) {
     reviewHtml = `<p style="text-align:center; color:var(--ink-soft); font-size:0.9rem;">Answers and explanations are not shown for real-feel exams.</p>`;
   }
 
+  sessionStorage.setItem("algocare_results_state", JSON.stringify({ subjects, questions, answers, mode, timedOut }));
+  
   document.getElementById("examRoot").innerHTML = `
     <div class="results-page" style="overflow-y:auto; height:100vh;">
       <header class="results-header">
         <h1>Results</h1>
         <div style="display:flex;">
           <button class="btn-share" onclick="navigator.clipboard.writeText('I scored ${totalCorrect}/${total} on Algocare!'); alert('Score copied!')">Share</button>
-          <a href="../../dashboard.html" class="btn-home">Home</a>
+          <a href="../../dashboard.html" onclick="sessionStorage.removeItem('algocare_results_state');" class="btn-home">Home</a>
         </div>
       </header>
       
@@ -410,7 +424,7 @@ function finishExam(timedOut) {
         </div>
       </div>
     </div>
-    <div class="fixed-bottom"><a href="../../dashboard.html" class="btn-take-another">Back to Dashboard</a></div>
+    <div class="fixed-bottom"><a href="../../dashboard.html" onclick="sessionStorage.removeItem('algocare_results_state');" class="btn-take-another">Back to Dashboard</a></div>
   `;
 
   setupFeedbackWidget();
@@ -458,7 +472,9 @@ window.addEventListener("keydown", (e) => {
 
 // Load Candidate Name
 document.addEventListener("visibilitychange", () => {
-  if (document.visibilityState === "hidden") {
+  // ONLY save if the exam is NOT finished. 
+  // This stops the "Return to Exam" button from showing on articles after finishing.
+  if (document.visibilityState === "hidden" && !isFinished) {
     clearInterval(timerInterval);
     saveState();
   } else if (!isFinished && endTime) {
