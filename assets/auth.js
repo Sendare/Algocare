@@ -20,8 +20,8 @@ function getUser() {
 }
 
 async function signUp(name, email, password) {
-  const captchaToken = window.turnstile ? window.turnstile.getResponse() : null;
-  if (!captchaToken) throw new Error("Please complete the CAPTCHA.");
+  const captchaToken = window.captchaToken;
+  if (!captchaToken) throw new Error("Please wait for CAPTCHA verification or refresh the page.");
   
   const res = await fetch(`${SUPABASE_URL}/auth/v1/signup`, {
     method: "POST",
@@ -38,8 +38,8 @@ async function signUp(name, email, password) {
 }
 
 async function logIn(email, password) {
-  const captchaToken = window.turnstile ? window.turnstile.getResponse() : null;
-  if (!captchaToken) throw new Error("Please complete the CAPTCHA.");
+  const captchaToken = window.captchaToken;
+  if (!captchaToken) throw new Error("Please wait for CAPTCHA verification or refresh the page.");
   
   const res = await fetch(`${SUPABASE_URL}/auth/v1/token?grant_type=password`, {
     method: "POST",

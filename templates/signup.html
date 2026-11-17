@@ -15,7 +15,7 @@
 </style>
 <link rel="manifest" href="/manifest.json">
 <meta name="theme-color" content="#F7F8F7">
-<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit" async defer></script>
 </head>
 <body>
 <div class="topbar">
@@ -44,7 +44,7 @@
       <input type="password" id="confirmPassword" class="form-control" required placeholder="••••••••">
     </div>
     
-    <div class="cf-turnstile" data-sitekey="0x4AAAAAAGFKyPVsNwNsCT-f" data-theme="light" style="margin-bottom: 16px;"></div>
+    <div id="turnstile-container" style="margin-bottom: 16px; min-height: 65px;"></div>
 <button type="submit" class="btn" style="width:100%; margin-top: 8px;" id="submitBtn">Sign Up</button>
   </form>
   
@@ -106,6 +106,28 @@ if ("serviceWorker" in navigator) {
     navigator.serviceWorker.register("/sw.js", { scope: "/" }).catch(() => {});
   });
 }
+</script>
+
+<script>
+  function initTurnstile() {
+    if (typeof turnstile !== 'undefined') {
+      turnstile.render('#turnstile-container', {
+        sitekey: '0x4AAAAAAGFKyPVsNwNsCT-f',
+        theme: 'light',
+        appearance: 'managed',
+        callback: function(token) {
+          window.captchaToken = token;
+        },
+        'error-callback': function(error) {
+          console.error("Turnstile Error:", error);
+          document.getElementById('turnstile-container').innerHTML = '<span style="color:var(--brick); font-size:0.85rem;">Verification failed. Please refresh.</span>';
+        }
+      });
+    } else {
+      setTimeout(initTurnstile, 100); // Wait for API to load
+    }
+  }
+  document.addEventListener('DOMContentLoaded', initTurnstile);
 </script>
 </body>
 </html>
