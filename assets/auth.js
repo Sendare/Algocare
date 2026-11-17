@@ -20,10 +20,13 @@ function getUser() {
 }
 
 async function signUp(name, email, password) {
+  const captchaToken = window.turnstile ? window.turnstile.getResponse() : null;
+  if (!captchaToken) throw new Error("Please complete the CAPTCHA.");
+  
   const res = await fetch(`${SUPABASE_URL}/auth/v1/signup`, {
     method: "POST",
     headers: { "Content-Type": "application/json", "apikey": SUPABASE_ANON_KEY },
-    body: JSON.stringify({ email, password, data: { name } })
+    body: JSON.stringify({ email, password, data: { name }, gotrue_meta_security: { captcha_token: captchaToken } })
   });
   const data = await res.json();
   if (!res.ok) throw new Error(data.msg || data.error_description || "Signup failed");
@@ -35,10 +38,13 @@ async function signUp(name, email, password) {
 }
 
 async function logIn(email, password) {
+  const captchaToken = window.turnstile ? window.turnstile.getResponse() : null;
+  if (!captchaToken) throw new Error("Please complete the CAPTCHA.");
+  
   const res = await fetch(`${SUPABASE_URL}/auth/v1/token?grant_type=password`, {
     method: "POST",
     headers: { "Content-Type": "application/json", "apikey": SUPABASE_ANON_KEY },
-    body: JSON.stringify({ email, password })
+    body: JSON.stringify({ email, password, gotrue_meta_security: { captcha_token: captchaToken } })
   });
   const data = await res.json();
   if (!res.ok) throw new Error(data.error_description || data.msg || "Login failed");

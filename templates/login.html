@@ -15,6 +15,7 @@
 </style>
 <link rel="manifest" href="/manifest.json">
 <meta name="theme-color" content="#F7F8F7">
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 </head>
 <body>
 <div class="topbar">
@@ -35,7 +36,8 @@
       <input type="password" id="password" class="form-control" required placeholder="••••••••">
     </div>
     
-    <button type="submit" class="btn" style="width:100%; margin-top: 8px;" id="submitBtn">Log In</button>
+    <div class="cf-turnstile" data-sitekey="0x4AAAAAAGFKyPVsNwNsCT-f" data-theme="light" style="margin-bottom: 16px;"></div>
+<button type="submit" class="btn" style="width:100%; margin-top: 8px;" id="submitBtn">Log In</button>
   </form>
   
   <div class="auth-footer">
