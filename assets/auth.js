@@ -21,7 +21,7 @@ function getUser() {
 
 async function signUp(name, email, password) {
   const captchaToken = window.captchaToken;
-  if (!captchaToken) throw new Error("Please wait for CAPTCHA verification or refresh the page.");
+  if (!captchaToken) throw new Error("Please complete the CAPTCHA verification.");
   
   const res = await fetch(`${SUPABASE_URL}/auth/v1/signup`, {
     method: "POST",
@@ -39,7 +39,7 @@ async function signUp(name, email, password) {
 
 async function logIn(email, password) {
   const captchaToken = window.captchaToken;
-  if (!captchaToken) throw new Error("Please wait for CAPTCHA verification or refresh the page.");
+  if (!captchaToken) throw new Error("Please complete the CAPTCHA verification.");
   
   const res = await fetch(`${SUPABASE_URL}/auth/v1/token?grant_type=password`, {
     method: "POST",

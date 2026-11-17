@@ -15,7 +15,7 @@
 </style>
 <link rel="manifest" href="/manifest.json">
 <meta name="theme-color" content="#F7F8F7">
-<script src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit" async defer></script>
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit&onload=onloadTurnstile" async defer></script>
 </head>
 <body>
 <div class="topbar">
@@ -97,6 +97,7 @@
       err.style.display = "block";
       btn.disabled = false;
       btn.textContent = "Sign Up";
+      if (typeof resetCaptcha === "function") resetCaptcha();
     }
   });
 </script>
@@ -109,25 +110,28 @@ if ("serviceWorker" in navigator) {
 </script>
 
 <script>
-  function initTurnstile() {
-    if (typeof turnstile !== 'undefined') {
-      turnstile.render('#turnstile-container', {
-        sitekey: '0x4AAAAAAGFKyPVsNwNsCT-f',
-        theme: 'light',
-        appearance: 'managed',
-        callback: function(token) {
-          window.captchaToken = token;
-        },
-        'error-callback': function(error) {
-          console.error("Turnstile Error:", error);
-          document.getElementById('turnstile-container').innerHTML = '<span style="color:var(--brick); font-size:0.85rem;">Verification failed. Please refresh.</span>';
-        }
-      });
-    } else {
-      setTimeout(initTurnstile, 100); // Wait for API to load
+  function onloadTurnstile() {
+    turnstile.render('#turnstile-container', {
+      sitekey: '0x4AAAAAAGFKyPVsNwNsCT-f',
+      theme: 'light',
+      appearance: 'managed',
+      callback: function(token) {
+        window.captchaToken = token;
+      },
+      'error-callback': function(error) {
+        console.error("Turnstile Error:", error);
+        document.getElementById('turnstile-container').innerHTML = '<span style="color:var(--brick); font-size:0.85rem;">Verification failed. Please refresh.</span>';
+      }
+    });
+  }
+  
+  // Helper to reset CAPTCHA if login fails
+  function resetCaptcha() {
+    if (window.turnstile) {
+      turnstile.reset('#turnstile-container');
+      window.captchaToken = null;
     }
   }
-  document.addEventListener('DOMContentLoaded', initTurnstile);
 </script>
 </body>
 </html>
