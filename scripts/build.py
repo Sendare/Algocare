@@ -9,6 +9,7 @@ import shutil
 import sys
 import html
 import time
+import datetime
 from pathlib import Path
 from utils.weighted_sampling import build_weighted_pool, sample_without_replacement
 
@@ -280,9 +281,18 @@ def main():
     print("📁 Building root structure...", flush=True)
     if DOCS_DIR.exists(): shutil.rmtree(DOCS_DIR)
     DOCS_DIR.mkdir()
-    for page in ["index.html", "login.html", "signup.html", "dashboard.html", "leaderboard.html", "admin.html", "manifest.json", "sw.js"]:
+    for page in ["index.html", "login.html", "signup.html", "dashboard.html", "leaderboard.html", "admin.html", "manifest.json"]:
         src = TEMPLATES_DIR / page
         if src.exists(): shutil.copy2(src, DOCS_DIR / page)
+        
+    # Dynamic Service Worker Generation
+    sw_path = TEMPLATES_DIR / "sw.js"
+    if sw_path.exists():
+        sw_content = sw_path.read_text()
+        build_id = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
+        sw_content = sw_content.replace("__BUILD_ID__", build_id)
+        (DOCS_DIR / "sw.js").write_text(sw_content)
+        print(f"✅ Generated dynamic sw.js with build ID: {build_id}")
     shutil.copytree(ASSETS_DIR, DOCS_DIR / "assets")
     
     # Copy PWA icons to root
