@@ -20,16 +20,15 @@ function getUser() {
 }
 
 async function signUp(name, email, password) {
-  const captchaToken = window.captchaToken;
-  if (!captchaToken) throw new Error("Please complete the CAPTCHA verification.");
-  
+  // NO CAPTCHA LOGIC HERE ANYMORE
   const res = await fetch(`${SUPABASE_URL}/auth/v1/signup`, {
     method: "POST",
     headers: { "Content-Type": "application/json", "apikey": SUPABASE_ANON_KEY },
-    body: JSON.stringify({ email, password, data: { name }, gotrue_meta_security: { captcha_token: captchaToken } })
+    body: JSON.stringify({ email, password, data: { name } })
   });
   const data = await res.json();
   if (!res.ok) throw new Error(data.msg || data.error_description || "Signup failed");
+  
   if (data.access_token) {
     saveSession(data);
     localStorage.setItem("algocare_uid", data.user.id);
@@ -38,16 +37,15 @@ async function signUp(name, email, password) {
 }
 
 async function logIn(email, password) {
-  const captchaToken = window.captchaToken;
-  if (!captchaToken) throw new Error("Please complete the CAPTCHA verification.");
-  
+  // NO CAPTCHA LOGIC HERE ANYMORE
   const res = await fetch(`${SUPABASE_URL}/auth/v1/token?grant_type=password`, {
     method: "POST",
     headers: { "Content-Type": "application/json", "apikey": SUPABASE_ANON_KEY },
-    body: JSON.stringify({ email, password, gotrue_meta_security: { captcha_token: captchaToken } })
+    body: JSON.stringify({ email, password })
   });
   const data = await res.json();
   if (!res.ok) throw new Error(data.error_description || data.msg || "Login failed");
+  
   saveSession(data);
   localStorage.setItem("algocare_uid", data.user.id);
   return data;
@@ -122,7 +120,6 @@ async function handleAuthHash() {
 handleAuthHash();
 
 window.addEventListener("DOMContentLoaded", () => {
-  // Handle both /login and /login.html (Cloudflare strips .html)
   const publicPages = ['index', 'login', 'signup', 'privacy', 'terms', ''];
   const currentPath = window.location.pathname.split('/').pop().replace('.html', '') || 'index';
   
