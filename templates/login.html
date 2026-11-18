@@ -15,7 +15,7 @@
 </style>
 <link rel="manifest" href="/manifest.json">
 <meta name="theme-color" content="#F7F8F7">
-<script src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit&onload=onloadTurnstile" async defer></script>
+
 </head>
 <body>
 <div class="topbar">
@@ -36,8 +36,14 @@
       <input type="password" id="password" class="form-control" required placeholder="••••••••">
     </div>
     
-    <div id="turnstile-container" style="margin-bottom: 16px; min-height: 65px;"></div>
-<button type="submit" class="btn" style="width:100%; margin-top: 8px;" id="submitBtn">Log In</button>
+    
+
+    <!-- Honeypot (Bots will fill this, humans won't) -->
+    <div style="display:none;">
+      <input type="text" id="website_url" name="website_url" tabindex="-1" autocomplete="off">
+    </div>
+
+    <button type="submit" class="btn" style="width:100%; margin-top: 8px;" id="submitBtn">Log In</button>
   </form>
   
   <div class="auth-footer">
@@ -46,7 +52,18 @@
 </div>
 
 <script src="/assets/auth.js"></script>
+
 <script>
+  // Check if redirected from signup
+  const urlParams = new URLSearchParams(window.location.search);
+  if (urlParams.get("msg") === "confirm_email") {
+    const successEl = document.getElementById("authSuccess");
+    if(successEl) {
+      successEl.innerHTML = "<strong>Account created!</strong> Please check your email to confirm your account, then log in below.";
+      successEl.style.display = "block";
+    }
+  }
+
   document.getElementById("loginForm").addEventListener("submit", async (e) => {
     e.preventDefault();
     
@@ -54,17 +71,24 @@
     const err = document.getElementById("authError");
     const email = document.getElementById("email").value;
     const pass = document.getElementById("password").value;
+    const honeypot = document.getElementById("website_url").value;
     
     err.style.display = "none";
+
+    // Honeypot check
+    if (honeypot !== "") {
+      err.textContent = "Bot detected. Please refresh.";
+      err.style.display = "block";
+      return;
+    }
+    
     btn.disabled = true;
     btn.textContent = "Logging in...";
     
     try {
       await logIn(email, pass);
-      // On success, redirect to dashboard
-      window.location.href = "./dashboard.html";
+      window.location.href = "/dashboard";
     } catch (error) {
-      // Show error message from Supabase (e.g., "Invalid login credentials")
       err.textContent = error.message;
       err.style.display = "block";
       btn.disabled = false;
@@ -72,6 +96,7 @@
     }
   });
 </script>
+</body>
 <script>
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => {
@@ -80,29 +105,6 @@ if ("serviceWorker" in navigator) {
 }
 </script>
 
-<script>
-  function onloadTurnstile() {
-    turnstile.render('#turnstile-container', {
-      sitekey: '0x4AAAAAAGFKyPVsNwNsCT-f',
-      theme: 'light',
-      appearance: 'managed',
-      callback: function(token) {
-        window.captchaToken = token;
-      },
-      'error-callback': function(error) {
-        console.error("Turnstile Error:", error);
-        document.getElementById('turnstile-container').innerHTML = '<span style="color:var(--brick); font-size:0.85rem;">Verification failed. Please refresh.</span>';
-      }
-    });
-  }
-  
-  // Helper to reset CAPTCHA if login fails
-  function resetCaptcha() {
-    if (window.turnstile) {
-      turnstile.reset('#turnstile-container');
-      window.captchaToken = null;
-    }
-  }
-</script>
+
 </body>
 </html>

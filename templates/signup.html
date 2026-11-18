@@ -15,7 +15,7 @@
 </style>
 <link rel="manifest" href="/manifest.json">
 <meta name="theme-color" content="#F7F8F7">
-<script src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit&onload=onloadTurnstile" async defer></script>
+
 </head>
 <body>
 <div class="topbar">
@@ -44,8 +44,20 @@
       <input type="password" id="confirmPassword" class="form-control" required placeholder="••••••••">
     </div>
     
-    <div id="turnstile-container" style="margin-bottom: 16px; min-height: 65px;"></div>
-<button type="submit" class="btn" style="width:100%; margin-top: 8px;" id="submitBtn">Sign Up</button>
+    
+
+    <!-- Honeypot (Bots will fill this, humans won't) -->
+    <div style="display:none;">
+      <input type="text" id="website_url" name="website_url" tabindex="-1" autocomplete="off">
+    </div>
+
+    <!-- Math Challenge -->
+    <div class="form-group" style="background: var(--paper); padding: 12px; border-radius: var(--radius); border: 1px solid var(--grey-line);">
+      <label style="color: var(--ink);">Security Check: <span id="math-question"></span> = ?</label>
+      <input type="number" id="math-answer" class="form-control" required placeholder="Enter the answer">
+    </div>
+
+    <button type="submit" class="btn" style="width:100%; margin-top: 8px;" id="submitBtn">Sign Up</button>
   </form>
   
   <div class="auth-footer">
@@ -54,7 +66,14 @@
 </div>
 
 <script src="/assets/auth.js"></script>
+
 <script>
+  // Generate simple math question
+  const num1 = Math.floor(Math.random() * 10) + 1;
+  const num2 = Math.floor(Math.random() * 10) + 1;
+  const correctAnswer = num1 + num2;
+  document.getElementById('math-question').textContent = `${num1} + ${num2}`;
+
   document.getElementById("signupForm").addEventListener("submit", async (e) => {
     e.preventDefault();
     
@@ -62,9 +81,26 @@
     const err = document.getElementById("authError");
     const pass = document.getElementById("password").value;
     const confirmPass = document.getElementById("confirmPassword").value;
-    
+    const honeypot = document.getElementById("website_url").value;
+    const mathAns = parseInt(document.getElementById("math-answer").value);
+
     err.style.display = "none";
     
+    // 1. Honeypot check
+    if (honeypot !== "") {
+      err.textContent = "Bot detected. Please refresh.";
+      err.style.display = "block";
+      return;
+    }
+
+    // 2. Math check
+    if (mathAns !== correctAnswer) {
+      err.textContent = "Incorrect math answer. Please try again.";
+      err.style.display = "block";
+      return;
+    }
+
+    // 3. Password check
     if (pass !== confirmPass) {
       err.textContent = "Passwords do not match.";
       err.style.display = "block";
@@ -81,26 +117,20 @@
         pass
       );
       
-      // If email confirmation is turned OFF in Supabase, they log in immediately
       if (data.access_token) {
-        window.location.href = "./dashboard.html";
+        window.location.href = "/dashboard";
       } else {
-        // If email confirmation is ON, tell them to check their email
-        document.querySelector(".auth-container").innerHTML = `
-          <h2 style="text-align:center; color: var(--scrub);">Check your email</h2>
-          <p style="text-align:center; color: var(--ink-soft);">We sent a confirmation link to <strong>${document.getElementById("email").value}</strong>.<br>Click it to activate your account.</p>
-          <a href="/login.html" class="btn" style="width:100%; display:block; margin-top:20px;">Go to Login</a>
-        `;
+        window.location.href = "/login?msg=confirm_email";
       }
     } catch (error) {
       err.textContent = error.message;
       err.style.display = "block";
       btn.disabled = false;
       btn.textContent = "Sign Up";
-      if (typeof resetCaptcha === "function") resetCaptcha();
     }
   });
 </script>
+</body>
 <script>
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => {
@@ -109,29 +139,6 @@ if ("serviceWorker" in navigator) {
 }
 </script>
 
-<script>
-  function onloadTurnstile() {
-    turnstile.render('#turnstile-container', {
-      sitekey: '0x4AAAAAAGFKyPVsNwNsCT-f',
-      theme: 'light',
-      appearance: 'managed',
-      callback: function(token) {
-        window.captchaToken = token;
-      },
-      'error-callback': function(error) {
-        console.error("Turnstile Error:", error);
-        document.getElementById('turnstile-container').innerHTML = '<span style="color:var(--brick); font-size:0.85rem;">Verification failed. Please refresh.</span>';
-      }
-    });
-  }
-  
-  // Helper to reset CAPTCHA if login fails
-  function resetCaptcha() {
-    if (window.turnstile) {
-      turnstile.reset('#turnstile-container');
-      window.captchaToken = null;
-    }
-  }
-</script>
+
 </body>
 </html>
