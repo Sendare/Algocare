@@ -281,7 +281,7 @@ def main():
     print("📁 Building root structure...", flush=True)
     if DOCS_DIR.exists(): shutil.rmtree(DOCS_DIR)
     DOCS_DIR.mkdir()
-    for page in ["index.html", "login.html", "signup.html", "dashboard.html", "leaderboard.html", "admin.html", "manifest.json", "privacy.html", "terms.html"]:
+    for page in ["index.html", "login.html", "signup.html", "dashboard.html", "leaderboard.html", "admin.html", "manifest.json", "privacy.html", "terms.html", "profile.html"]:
         src = TEMPLATES_DIR / page
         if src.exists(): shutil.copy2(src, DOCS_DIR / page)
         
