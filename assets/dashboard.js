@@ -1,5 +1,12 @@
 const API_URL = "https://algocare-api.abdul01abdul03.workers.dev";
 
+// Global function to close the modal
+window.closeWelcomeModal = function() {
+  document.getElementById("welcomeModal").style.display = "none";
+  // Save to localStorage so it doesn't show again
+  localStorage.setItem("algocare_welcomed", "true");
+};
+
 document.addEventListener("DOMContentLoaded", async () => {
   const session = getSession();
   if (!session) { window.location.href = "/login"; return; }
@@ -8,6 +15,12 @@ document.addEventListener("DOMContentLoaded", async () => {
   const name = user.user_metadata?.name || user.email?.split('@')[0] || "Student";
   
   document.getElementById("greeting").textContent = `Welcome, ${name}`;
+
+  // Show Welcome Modal for new users
+  if (!localStorage.getItem("algocare_welcomed")) {
+    const modal = document.getElementById("welcomeModal");
+    if (modal) modal.style.display = "flex";
+  }
 
   // 1. Inject Admin Button
   const container = document.getElementById("adminBtnContainer");
@@ -73,13 +86,15 @@ document.addEventListener("DOMContentLoaded", async () => {
   }
 
   function updateLinks(prog) {
-    tabs.forEach(t => t.classList.toggle("active", t.dataset.prog === prog));
-
     if (prog === "public-health") {
       alert("Public Health is coming soon! Stay tuned.");
-      return; // Stop here, don't update links or fetch stats
+      // Revert the active tab to the last saved program
+      const savedProg = localStorage.getItem("algocare_dashboard_prog") || "nursing";
+      tabs.forEach(t => t.classList.toggle("active", t.dataset.prog === savedProg));
+      return; // Stop executing, keep the old links intact
     }
 
+    tabs.forEach(t => t.classList.toggle("active", t.dataset.prog === prog));
     linkArticles.href = `/${prog}/index.html`;
     linkPractice.href = `/${prog}/cbt/practice-setup.html`;
     linkRealfeel.href = `/${prog}/cbt/exam-setup.html`;

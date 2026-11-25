@@ -122,5 +122,30 @@ if ("serviceWorker" in navigator) {
   });
 }
 </script>
+
+<!-- Welcome Modal for New Users -->
+<div id="welcomeModal" class="modal-overlay" style="display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.5); align-items: center; justify-content: center; z-index: 1000;">
+  <div class="modal-content" style="background: var(--card); padding: 32px; border-radius: 12px; max-width: 450px; width: 90%; box-shadow: var(--shadow); text-align: left;">
+    <h2 style="color: var(--scrub); margin-top: 0; font-size: 1.5rem;">Welcome to Algocare! 👋</h2>
+    <p style="color: var(--ink-soft); font-size: 0.95rem; margin-bottom: 20px;">Here is a quick guide to get you started on your journey to passing your exams:</p>
+    
+    <ul style="list-style: none; padding: 0; margin: 0 0 24px 0; display: flex; flex-direction: column; gap: 16px;">
+      <li style="display: flex; gap: 12px; align-items: flex-start;">
+        <div style="background: var(--scrub-soft); color: var(--scrub); border-radius: 50%; width: 24px; height: 24px; display: flex; align-items: center; justify-content: center; font-weight: bold; flex-shrink: 0; font-size: 0.8rem;">1</div>
+        <div><strong style="color: var(--ink);">Switch Programs:</strong> <span style="color: var(--ink-soft); font-size: 0.9rem;">Use the tabs above to study Nursing, Midwifery, or Public Health (coming soon).</span></div>
+      </li>
+      <li style="display: flex; gap: 12px; align-items: flex-start;">
+        <div style="background: var(--scrub-soft); color: var(--scrub); border-radius: 50%; width: 24px; height: 24px; display: flex; align-items: center; justify-content: center; font-weight: bold; flex-shrink: 0; font-size: 0.8rem;">2</div>
+        <div><strong style="color: var(--ink);">Study & Practice:</strong> <span style="color: var(--ink-soft); font-size: 0.9rem;">Read articles, take custom practice tests, or simulate a real CBT exam.</span></div>
+      </li>
+      <li style="display: flex; gap: 12px; align-items: flex-start;">
+        <div style="background: var(--scrub-soft); color: var(--scrub); border-radius: 50%; width: 24px; height: 24px; display: flex; align-items: center; justify-content: center; font-weight: bold; flex-shrink: 0; font-size: 0.8rem;">3</div>
+        <div><strong style="color: var(--ink);">Track Progress:</strong> <span style="color: var(--ink-soft); font-size: 0.9rem;">Watch your scores climb and compete on the Leaderboard!</span></div>
+      </li>
+    </ul>
+
+    <button class="btn btn-primary" style="width: 100%; padding: 14px; font-size: 1rem;" onclick="closeWelcomeModal()">Let's Go!</button>
+  </div>
+</div>
 </body>
 </html>
