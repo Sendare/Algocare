@@ -89,7 +89,11 @@
       await logIn(email, pass);
       window.location.href = "/dashboard";
     } catch (error) {
-      err.textContent = error.message;
+      if (error.message.includes("Email not confirmed")) {
+        err.innerHTML = "Please check your email inbox and click the confirmation link before logging in.";
+      } else {
+        err.textContent = error.message;
+      }
       err.style.display = "block";
       btn.disabled = false;
       btn.textContent = "Log In";

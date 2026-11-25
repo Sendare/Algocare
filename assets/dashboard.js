@@ -73,11 +73,18 @@ document.addEventListener("DOMContentLoaded", async () => {
   }
 
   function updateLinks(prog) {
+    tabs.forEach(t => t.classList.toggle("active", t.dataset.prog === prog));
+
+    if (prog === "public-health") {
+      alert("Public Health is coming soon! Stay tuned.");
+      return; // Stop here, don't update links or fetch stats
+    }
+
     linkArticles.href = `/${prog}/index.html`;
     linkPractice.href = `/${prog}/cbt/practice-setup.html`;
     linkRealfeel.href = `/${prog}/cbt/exam-setup.html`;
     linkLeaderboard.href = `/leaderboard.html?prog=${prog}`;
-    tabs.forEach(t => t.classList.toggle("active", t.dataset.prog === prog));
+    
     localStorage.setItem("algocare_dashboard_prog", prog);
     updateStats(prog);
   }

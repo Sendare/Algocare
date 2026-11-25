@@ -120,7 +120,7 @@ async function handleAuthHash() {
 handleAuthHash();
 
 window.addEventListener("DOMContentLoaded", () => {
-  const publicPages = ['index', 'login', 'signup', 'privacy', 'terms', ''];
+  const publicPages = ['index', 'login', 'signup', 'privacy', 'terms', 'privacy.html', 'terms.html', ''];
   const currentPath = window.location.pathname.split('/').pop().replace('.html', '') || 'index';
   
   if (!publicPages.includes(currentPath) && !getSession()) {
