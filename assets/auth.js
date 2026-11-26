@@ -133,11 +133,11 @@ window.addEventListener("DOMContentLoaded", () => {
 
   const user = getUser();
   if (user) {
-    const name = user.user_metadata?.name || user.email.split('@')[0];
+    const name = user.user_metadata?.username || user.user_metadata?.name || user.email.split('@')[0];
     const avatarUrl = user.user_metadata?.avatar_url;
     const avatarContent = avatarUrl 
       ? `<img src="${avatarUrl}" style="width:100%; height:100%; object-fit:cover;">` 
-      : `<span>${name.charAt(0).toUpperCase()}</span>`;
+      : `<span>${(user.user_metadata?.name || name).charAt(0).toUpperCase()}</span>`;
 
     authSlot.innerHTML = `
       <div style="position: relative; display: inline-block;">

@@ -7,19 +7,21 @@ document.addEventListener("DOMContentLoaded", async () => {
   if (!session) { window.location.href = "/login"; return; }
 
   const user = session.user;
-  const name = user.user_metadata?.name || user.email.split('@')[0];
-  const bio = user.user_metadata?.bio || "";
-  let avatarUrl = user.user_metadata?.avatar_url || null;
-
-  // Populate fields
-  document.getElementById("profileName").value = name;
-  document.getElementById("profileBio").value = bio;
+  const meta = user.user_metadata || {};
   
+  // Populate fields
+  document.getElementById("profileName").value = meta.name || "";
+  document.getElementById("profileUsername").value = meta.username || "";
+  document.getElementById("profileAge").value = meta.age || "";
+  document.getElementById("profileGender").value = meta.gender || "";
+  document.getElementById("profileBio").value = meta.bio || "";
+  
+  let avatarUrl = meta.avatar_url || null;
   const preview = document.getElementById("avatarPreview");
   if (avatarUrl) {
     preview.innerHTML = `<img src="${avatarUrl}" style="width:100%; height:100%; object-fit:cover;">`;
   } else {
-    preview.textContent = name.charAt(0).toUpperCase();
+    preview.textContent = (meta.name || user.email).charAt(0).toUpperCase();
   }
 
   // Handle Avatar Upload
@@ -27,13 +29,11 @@ document.addEventListener("DOMContentLoaded", async () => {
     const file = e.target.files[0];
     if (!file) return;
 
-    // Show loading state
     const label = document.querySelector('label[for="avatarInput"]');
     const originalText = label.textContent;
     label.textContent = "Uploading...";
 
     try {
-      // Upload to Supabase Storage directly
       const fileExt = file.name.split('.').pop();
       const fileName = `${user.id}/avatar_${Date.now()}.${fileExt}`;
       
@@ -46,11 +46,12 @@ document.addEventListener("DOMContentLoaded", async () => {
         body: file
       });
 
-      if (!res.ok) throw new Error("Upload failed");
+      if (!res.ok) throw new Error(await res.text());
       
       // Get public URL
       avatarUrl = `${SUPABASE_URL}/storage/v1/object/public/avatars/${fileName}`;
       preview.innerHTML = `<img src="${avatarUrl}" style="width:100%; height:100%; object-fit:cover;">`;
+      alert("Photo uploaded! Click 'Save Changes' to apply.");
       
     } catch (err) {
       alert("Error uploading image: " + err.message);
@@ -63,32 +64,40 @@ document.addEventListener("DOMContentLoaded", async () => {
   document.getElementById("profileForm").addEventListener("submit", async (e) => {
     e.preventDefault();
     const btn = document.getElementById("saveBtn");
-    const newBio = document.getElementById("profileBio").value;
 
     btn.disabled = true;
     btn.textContent = "Saving...";
+
+    const updatedData = {
+      name: document.getElementById("profileName").value,
+      username: document.getElementById("profileUsername").value,
+      age: document.getElementById("profileAge").value,
+      gender: document.getElementById("profileGender").value,
+      bio: document.getElementById("profileBio").value,
+      avatar_url: avatarUrl
+    };
 
     try {
       const res = await fetchWithAuth(`${API_URL}/update-profile`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ bio: newBio, avatar_url: avatarUrl })
+        body: JSON.stringify(updatedData)
       });
 
-      if (!res.ok) throw new Error("Failed to save profile");
+      if (!res.ok) throw new Error(await res.text());
+      const result = await res.json();
 
-      // Update local session so topbar updates instantly without re-logging
+      // Update local session
       const currentSession = getSession();
       if (currentSession && currentSession.user) {
-        currentSession.user.user_metadata.bio = newBio;
-        currentSession.user.user_metadata.avatar_url = avatarUrl;
+        currentSession.user.user_metadata = result.user.user_metadata;
         localStorage.setItem("algocare_session", JSON.stringify(currentSession));
       }
 
       alert("Profile saved successfully!");
       window.location.href = "/dashboard";
     } catch (err) {
-      alert("Error: " + err.message);
+      alert("Error saving: " + err.message);
       btn.disabled = false;
       btn.textContent = "Save Changes";
     }
