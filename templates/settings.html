@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Account Settings — Algocare</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/style.css">
+<style>
+  .profile-card { background: var(--card); padding: 32px; border-radius: 12px; border: 1px solid var(--grey-line); max-width: 500px; margin: 40px auto; box-shadow: var(--shadow); }
+  .avatar-upload { display: flex; flex-direction: column; align-items: center; margin-bottom: 24px; }
+  .avatar-preview { width: 100px; height: 100px; border-radius: 50%; object-fit: cover; background: var(--paper); border: 2px solid var(--scrub); margin-bottom: 12px; display: flex; align-items: center; justify-content: center; font-size: 2rem; color: var(--scrub); font-weight: bold; overflow: hidden;}
+  .file-input { display: none; }
+  .btn-upload { background: var(--scrub-soft); color: var(--scrub); padding: 8px 16px; border-radius: 6px; font-weight: 600; cursor: pointer; font-size: 0.85rem; border: 1px solid var(--scrub); }
+  .row { display: flex; gap: 16px; }
+  .row .form-group { flex: 1; }
+</style>
+</head>
+<body>
+<div class="topbar">
+  <a href="/dashboard" class="brand" style="text-decoration:none;"><span class="pulse-dot"></span>Algocare</a>
+  <div id="authSlot"></div>
+</div>
+
+<div class="container">
+  <div class="profile-card">
+    <h2 style="text-align:center;">Account Settings</h2>
+    
+    <div id="profileForm">
+      <div class="avatar-upload">
+        <div class="avatar-preview" id="avatarPreview">A</div>
+        <input type="file" id="avatarInput" class="file-input" accept="image/*">
+        <label for="avatarInput" class="btn-upload" id="uploadLabel">Upload New Photo</label>
+      </div>
+
+      <div class="form-group">
+        <label>Full Name</label>
+        <input type="text" id="profileName" class="form-control" placeholder="e.g. Abdul A Abdul">
+      </div>
+
+      <div class="row">
+        <div class="form-group">
+          <label>Username</label>
+          <input type="text" id="profileUsername" class="form-control" placeholder="e.g. abdul123">
+        </div>
+        <div class="form-group">
+          <label>Age</label>
+          <input type="number" id="profileAge" class="form-control" placeholder="e.g. 22">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>Gender</label>
+        <select id="profileGender" class="form-control">
+          <option value="">Select Gender (Optional)</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label>Short Bio</label>
+        <textarea id="profileBio" class="form-control" rows="3" placeholder="e.g. Final year Nursing student at University of Lagos."></textarea>
+      </div>
+
+      <!-- Using a global onclick directly to test -->
+      <button type="button" class="btn" style="width:100%;" id="saveBtn" onclick="handleSaveClick()">Save Changes</button>
+    </div>
+  </div>
+</div>
+
+<script src="/assets/auth.js"></script>
+<script>
+  const SUPABASE_URL = "https://uhrjtcocwejddtzyjyhr.supabase.co";
+  const SUPABASE_ANON_KEY = "sb_publishable_C_i1zk4P2phfIALmI6C7Iw_pYSMTGfQ";
+  const API_URL = "https://algocare-api.abdul01abdul03.workers.dev";
+  let currentAvatarUrl = null;
+
+  // 1. Load Data
+  window.addEventListener("DOMContentLoaded", () => {
+    try {
+      const session = getSession();
+      if (!session) { window.location.href = "/login"; return; }
+
+      const user = session.user;
+      const meta = user.user_metadata || {};
+      
+      document.getElementById("profileName").value = meta.name || "";
+      document.getElementById("profileUsername").value = meta.username || "";
+      document.getElementById("profileAge").value = meta.age || "";
+      document.getElementById("profileGender").value = meta.gender || "";
+      document.getElementById("profileBio").value = meta.bio || "";
+      
+      currentAvatarUrl = meta.avatar_url || null;
+      const preview = document.getElementById("avatarPreview");
+      
+      if (currentAvatarUrl) {
+        preview.innerHTML = `<img src="${currentAvatarUrl}" style="width:100%; height:100%; object-fit:cover;">`;
+      } else {
+        preview.textContent = (meta.name || user.email).charAt(0).toUpperCase();
+      }
+
+      // 2. Attach Upload Listener
+      document.getElementById("avatarInput").addEventListener("change", async (e) => {
+        const file = e.target.files[0];
+        if (!file) return;
+
+        const label = document.getElementById("uploadLabel");
+        label.textContent = "Uploading...";
+
+        try {
+          const fileExt = file.name.split('.').pop();
+          const fileName = `${user.id}/avatar_${Date.now()}.${fileExt}`;
+          
+          const res = await fetch(`${SUPABASE_URL}/storage/v1/object/avatars/${fileName}`, {
+            method: "POST",
+            headers: { 
+              "apikey": SUPABASE_ANON_KEY, 
+              "Authorization": `Bearer ${session.access_token}` 
+            },
+            body: file
+          });
+
+          if (!res.ok) {
+            const errorText = await res.text();
+            throw new Error(`Status ${res.status}: ${errorText}`);
+          }
+          
+          currentAvatarUrl = `${SUPABASE_URL}/storage/v1/object/public/avatars/${fileName}`;
+          preview.innerHTML = `<img src="${currentAvatarUrl}" style="width:100%; height:100%; object-fit:cover;">`;
+          alert("Photo uploaded! Click 'Save Changes' to apply.");
+          
+        } catch (err) {
+          alert("UPLOAD ERROR: " + err.message);
+        } finally {
+          label.textContent = "Upload New Photo";
+        }
+      });
+
+    } catch (err) {
+      alert("LOAD ERROR: " + err.message);
+    }
+  });
+
+  // 3. Handle Save
+  window.handleSaveClick = async function() {
+    try {
+      alert("1. Button clicked! Starting save...");
+      
+      const session = getSession();
+      if (!session) { alert("2. No session found!"); return; }
+      
+      const btn = document.getElementById("saveBtn");
+      btn.disabled = true;
+      btn.textContent = "Saving...";
+
+      const updatedData = {
+        name: document.getElementById("profileName").value,
+        username: document.getElementById("profileUsername").value,
+        age: document.getElementById("profileAge").value,
+        gender: document.getElementById("profileGender").value,
+        bio: document.getElementById("profileBio").value,
+        avatar_url: currentAvatarUrl
+      };
+
+      alert("2. Sending data to Worker...");
+
+      const res = await fetch(`${API_URL}/update-profile`, {
+        method: "POST",
+        headers: { 
+          "Content-Type": "application/json",
+          "Authorization": `Bearer ${session.access_token}`
+        },
+        body: JSON.stringify(updatedData)
+      });
+
+      alert("3. Worker responded with status: " + res.status);
+
+      if (!res.ok) {
+        const errTxt = await res.text();
+        throw new Error(`Worker Error ${res.status}: ${errTxt}`);
+      }
+      
+      const result = await res.json();
+      alert("4. Profile saved successfully!");
+
+      // Update local session
+      const currentSession = getSession();
+      if (currentSession && currentSession.user) {
+        currentSession.user.user_metadata = result.user.user_metadata;
+        localStorage.setItem("algocare_session", JSON.stringify(currentSession));
+      }
+
+      window.location.href = "/dashboard";
+      
+    } catch (err) {
+      alert("SAVE CRASH: " + err.message);
+      const btn = document.getElementById("saveBtn");
+      if(btn) { btn.disabled = false; btn.textContent = "Save Changes"; }
+    }
+  };
+</script>
+</body>
+</html>

@@ -151,7 +151,7 @@ window.addEventListener("DOMContentLoaded", () => {
             <div style="font-size: 0.75rem; color: var(--ink-soft); white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${user.email}</div>
           </div>
           <a href="/dashboard" style="display: block; padding: 10px 16px; color: var(--ink); text-decoration: none; font-size: 0.9rem; border-bottom: 1px solid var(--grey-line);">My Dashboard</a>
-          <a href="/profile.html" style="display: block; padding: 10px 16px; color: var(--ink); text-decoration: none; font-size: 0.9rem; border-bottom: 1px solid var(--grey-line);">Profile Settings</a>
+          <a href="/settings.html" style="display: block; padding: 10px 16px; color: var(--ink); text-decoration: none; font-size: 0.9rem; border-bottom: 1px solid var(--grey-line);">Profile Settings</a>
           <button onclick="logOut()" style="display: block; width: 100%; text-align: left; padding: 10px 16px; background: none; border: none; color: var(--brick); cursor: pointer; font-size: 0.9rem; font-weight: 600;">Log out</button>
         </div>
       </div>
