@@ -94,12 +94,17 @@
   // 1. Load Data
   window.addEventListener("DOMContentLoaded", async () => {
     try {
-      // Fetch Schools List dynamically
+      // Fetch Schools List dynamically (Handling grouped by state schema)
       fetch('/assets/schools.json')
         .then(res => res.json())
-        .then(schools => {
+        .then(data => {
           const datalist = document.getElementById('school-list');
-          datalist.innerHTML = schools.map(s => `<option value="${s}">`).join('');
+          // Flatten the object into a single array of all schools
+          const allSchools = Object.values(data).flat();
+          // Sort alphabetically so users can easily find their school
+          allSchools.sort((a, b) => a.localeCompare(b));
+          
+          datalist.innerHTML = allSchools.map(s => `<option value="${s}">`).join('');
         })
         .catch(err => console.warn("Could not load schools list", err));
 
