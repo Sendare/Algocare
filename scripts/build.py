@@ -304,8 +304,12 @@ def main():
     # Create _headers for Cloudflare to prevent HTML caching
     headers_content = '''/*.html
   Cache-Control: public, max-age=0, must-revalidate
+/sw.js
+  Cache-Control: public, max-age=0, must-revalidate
+/manifest.json
+  Cache-Control: public, max-age=0, must-revalidate
 /assets/*
-  Cache-Control: public, max-age=31536000, immutable
+  Cache-Control: public, max-age=0, must-revalidate
 '''
     (DOCS_DIR / "_headers").write_text(headers_content)
 
