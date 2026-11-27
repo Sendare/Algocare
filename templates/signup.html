@@ -57,8 +57,20 @@
       <input type="number" id="math-answer" class="form-control" required placeholder="Enter the answer">
     </div>
 
-    <button type="submit" class="btn" style="width:100%; margin-top: 8px;" id="submitBtn">Sign Up</button>
+    <div class="form-group" style="display: flex; align-items: flex-start; gap: 10px; margin-bottom: 16px;">
+        <input type="checkbox" id="agreeTerms" required style="width: 18px; height: 18px; margin-top: 2px; accent-color: var(--scrub); cursor: pointer;">
+        <label for="agreeTerms" style="font-size: 0.85rem; color: var(--ink-soft); line-height: 1.4; cursor: pointer; font-family: var(--body); text-transform: none; letter-spacing: normal;">
+          I agree to the <a href="/terms.html" target="_blank" style="color: var(--scrub); font-weight: 600;">Terms & Disclaimer</a> and <a href="/privacy.html" target="_blank" style="color: var(--scrub); font-weight: 600;">Privacy Policy</a>.
+        </label>
+      </div>
+      <button type="submit" class="btn" style="width:100%; margin-top: 8px;" id="submitBtn">Sign Up</button>
   </form>
+
+  <div style="text-align: center; margin-top: 32px; font-size: 0.8rem; color: var(--ink-soft);">
+    <a href="/terms.html" style="color: var(--ink-soft); text-decoration: none; margin: 0 8px;">Terms</a> • 
+    <a href="/privacy.html" style="color: var(--ink-soft); text-decoration: none; margin: 0 8px;">Privacy</a>
+  </div>
+
   
   <div class="auth-footer">
     Already have an account? <a href="/login.html">Log In</a>
