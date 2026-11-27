@@ -92,8 +92,17 @@
   let currentAvatarUrl = null;
 
   // 1. Load Data
-  window.addEventListener("DOMContentLoaded", () => {
+  window.addEventListener("DOMContentLoaded", async () => {
     try {
+      // Fetch Schools List dynamically
+      fetch('/assets/schools.json')
+        .then(res => res.json())
+        .then(schools => {
+          const datalist = document.getElementById('school-list');
+          datalist.innerHTML = schools.map(s => `<option value="${s}">`).join('');
+        })
+        .catch(err => console.warn("Could not load schools list", err));
+
       const session = getSession();
       if (!session) { window.location.href = "/login"; return; }
 
