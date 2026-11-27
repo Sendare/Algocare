@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   const user = session.user;
   const meta = user.user_metadata || {};
   
-  // Populate fields
+  // Pre-fill fields with existing data
   document.getElementById("profileName").value = meta.name || "";
   document.getElementById("profileUsername").value = meta.username || "";
   document.getElementById("profileAge").value = meta.age || "";
@@ -18,6 +18,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   
   let avatarUrl = meta.avatar_url || null;
   const preview = document.getElementById("avatarPreview");
+  
   if (avatarUrl) {
     preview.innerHTML = `<img src="${avatarUrl}" style="width:100%; height:100%; object-fit:cover;">`;
   } else {
@@ -46,15 +47,19 @@ document.addEventListener("DOMContentLoaded", async () => {
         body: file
       });
 
-      if (!res.ok) throw new Error(await res.text());
+      // PRINT EXACT ERROR IF UPLOAD FAILS
+      if (!res.ok) {
+        const errorText = await res.text();
+        throw new Error(`Status ${res.status}: ${errorText}`);
+      }
       
-      // Get public URL
       avatarUrl = `${SUPABASE_URL}/storage/v1/object/public/avatars/${fileName}`;
       preview.innerHTML = `<img src="${avatarUrl}" style="width:100%; height:100%; object-fit:cover;">`;
       alert("Photo uploaded! Click 'Save Changes' to apply.");
       
     } catch (err) {
-      alert("Error uploading image: " + err.message);
+      alert("UPLOAD ERROR: " + err.message);
+      console.error("Upload Error details:", err);
     } finally {
       label.textContent = originalText;
     }
@@ -97,7 +102,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       alert("Profile saved successfully!");
       window.location.href = "/dashboard";
     } catch (err) {
-      alert("Error saving: " + err.message);
+      alert("SAVE ERROR: " + err.message);
       btn.disabled = false;
       btn.textContent = "Save Changes";
     }

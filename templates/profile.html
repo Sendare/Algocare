@@ -34,26 +34,27 @@
         <label for="avatarInput" class="btn-upload">Upload New Photo</label>
       </div>
 
+      <!-- REMOVED required attributes so users can save even if empty -->
       <div class="form-group">
         <label>Full Name</label>
-        <input type="text" id="profileName" class="form-control" required placeholder="John Doe">
+        <input type="text" id="profileName" class="form-control" placeholder="e.g. Abdul A Abdul">
       </div>
 
       <div class="row">
         <div class="form-group">
           <label>Username</label>
-          <input type="text" id="profileUsername" class="form-control" placeholder="johndoe123">
+          <input type="text" id="profileUsername" class="form-control" placeholder="e.g. abdul123">
         </div>
         <div class="form-group">
           <label>Age</label>
-          <input type="number" id="profileAge" class="form-control" placeholder="22">
+          <input type="number" id="profileAge" class="form-control" placeholder="e.g. 22">
         </div>
       </div>
 
       <div class="form-group">
         <label>Gender</label>
         <select id="profileGender" class="form-control">
-          <option value="">Select Gender</option>
+          <option value="">Select Gender (Optional)</option>
           <option value="Male">Male</option>
           <option value="Female">Female</option>
           <option value="Other">Other</option>
@@ -62,7 +63,7 @@
 
       <div class="form-group">
         <label>Short Bio</label>
-        <textarea id="profileBio" class="form-control" rows="3" placeholder="e.g., Final year Nursing student at University of Lagos."></textarea>
+        <textarea id="profileBio" class="form-control" rows="3" placeholder="e.g. Final year Nursing student at University of Lagos."></textarea>
       </div>
 
       <button type="submit" class="btn" style="width:100%;" id="saveBtn">Save Changes</button>
