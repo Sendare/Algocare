@@ -487,7 +487,9 @@ window.addEventListener("load", async () => {
   try {
     const user = window.getUser ? window.getUser() : null;
     if (user) {
-      const name = user.user_metadata?.name || user.email.split('@')[0];
+      const meta = user.user_metadata || {};
+      // Priority: Username -> First Name -> Email prefix
+      const name = meta.username || (meta.name ? meta.name.split(' ')[0] : user.email.split('@')[0]);
       const regNo = user.id.substring(0, 8).toUpperCase();
       const el = document.getElementById("candidateInfo");
       if (el) el.textContent = `Candidate: ${name} | ${regNo}`;
