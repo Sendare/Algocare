@@ -151,5 +151,15 @@ if ("serviceWorker" in navigator) {
 </script>
 
 
+
+<script>
+  // Preserve the ?next= parameter when clicking "Log In"
+  document.addEventListener("DOMContentLoaded", () => {
+    const loginLink = document.querySelector('.auth-footer a');
+    if (loginLink && window.location.search) {
+      loginLink.href = '/login' + window.location.search;
+    }
+  });
+</script>
 </body>
 </html>
