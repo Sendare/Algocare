@@ -1,31 +1,44 @@
 const API_URL = "https://algocare-api.abdul01abdul03.workers.dev";
 
-// Global function to close the modal
-window.closeWelcomeModal = function() {
-  document.getElementById("welcomeModal").style.display = "none";
-  // Save to localStorage so it doesn't show again
-  localStorage.setItem("algocare_welcomed", "true");
-};
-
 document.addEventListener("DOMContentLoaded", async () => {
   const session = getSession();
   if (!session) { window.location.href = "/login"; return; }
 
-  const user = session.user || {};
-  const name = user.user_metadata?.name || user.email?.split('@')[0] || "Student";
+  const user = session.user;
   
-  document.getElementById("greeting").textContent = `Welcome, ${name}`;
-
-  // Show Welcome Modal for new users
-  if (!localStorage.getItem("algocare_welcomed")) {
-    const modal = document.getElementById("welcomeModal");
-    if (modal) modal.style.display = "flex";
+  // 1. Fetch FRESH user data from Supabase to bypass any local cache issues
+  let displayName = "Student";
+  try {
+    const res = await fetch(`${SUPABASE_URL}/auth/v1/user`, {
+      headers: { "apikey": SUPABASE_ANON_KEY, "Authorization": `Bearer ${session.access_token}` }
+    });
+    const freshUser = await res.json();
+    const meta = freshUser.user_metadata || {};
+    
+    // Fallback logic: Username -> First Name -> Email
+    if (meta.username && meta.username.trim() !== "") {
+      displayName = meta.username;
+    } else if (meta.name && meta.name.trim() !== "") {
+      displayName = meta.name.split(' ')[0];
+    } else {
+      displayName = freshUser.email.split('@')[0];
+    }
+    
+    // Keep localstorage in sync silently
+    session.user.user_metadata = meta;
+    localStorage.setItem("algocare_session", JSON.stringify(session));
+    
+  } catch (err) {
+    console.error("Could not fetch fresh user data:", err);
+    displayName = user.user_metadata?.username || user.email.split('@')[0];
   }
 
-  // 1. Inject Admin Button
-  const container = document.getElementById("adminBtnContainer");
-  if (container) {
-    if (user.email && user.email.toLowerCase() === "abdul01abdul03@gmail.com") {
+  document.getElementById("greeting").textContent = `Welcome, ${displayName}`;
+
+  // 2. Inject Admin Button
+  if (user.email && user.email.toLowerCase() === "abdul01abdul03@gmail.com") {
+    const container = document.getElementById("adminBtnContainer");
+    if (container) {
       container.innerHTML = `
         <a href="/admin.html" style="display:inline-block; background:var(--ink); color:#fff; padding:10px 16px; border-radius:6px; font-weight:700; text-decoration:none; font-size:0.9rem;">
           🛡️ Admin Panel
@@ -33,7 +46,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
   }
 
-  // 2. Setup UI Links
+  // 3. Setup UI Links and Tabs
   const tabs = document.querySelectorAll(".prog-tab");
   const linkArticles = document.getElementById("link-articles");
   const linkPractice = document.getElementById("link-practice");
@@ -45,6 +58,8 @@ document.addEventListener("DOMContentLoaded", async () => {
     const statScore = document.getElementById("stat-score");
     const statStreak = document.getElementById("stat-streak");
     const recentList = document.getElementById("recentScoresList");
+    
+    if (!statQs) return; 
     
     try {
       const res = await fetchWithAuth(`${API_URL}/get-stats?program=${prog}`);
@@ -88,10 +103,9 @@ document.addEventListener("DOMContentLoaded", async () => {
   function updateLinks(prog) {
     if (prog === "public-health") {
       alert("Public Health is coming soon! Stay tuned.");
-      // Revert the active tab to the last saved program
       const savedProg = localStorage.getItem("algocare_dashboard_prog") || "nursing";
       tabs.forEach(t => t.classList.toggle("active", t.dataset.prog === savedProg));
-      return; // Stop executing, keep the old links intact
+      return;
     }
 
     tabs.forEach(t => t.classList.toggle("active", t.dataset.prog === prog));
