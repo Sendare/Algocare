@@ -169,6 +169,14 @@
         const file = e.target.files[0];
         if (!file) return;
 
+        // Security & Size Checks
+        if (file.size > 2 * 1024 * 1024) {
+          return alert("File is too large. Maximum size is 2MB.");
+        }
+        if (!["image/jpeg", "image/png", "image/webp"].includes(file.type)) {
+          return alert("Invalid format. Please upload a JPG, PNG, or WebP image.");
+        }
+
         const label = document.getElementById("uploadLabel");
         label.textContent = "Uploading...";
 
@@ -176,11 +184,12 @@
           const fileExt = file.name.split('.').pop();
           const fileName = `${user.id}/avatar_${Date.now()}.${fileExt}`;
           
-          const res = await fetch(`${SUPABASE_URL}/storage/v1/object/avatars/${fileName}`, {
+          // Use fetchWithAuth to handle token expiration gracefully
+          const res = await fetchWithAuth(`${SUPABASE_URL}/storage/v1/object/avatars/${fileName}`, {
             method: "POST",
             headers: { 
-              "apikey": SUPABASE_ANON_KEY, 
-              "Authorization": `Bearer ${session.access_token}` 
+              "apikey": SUPABASE_ANON_KEY,
+              "Content-Type": file.type
             },
             body: file
           });

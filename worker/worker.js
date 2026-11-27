@@ -199,7 +199,7 @@ export default {
       }
 
     } catch (err) {
-      return new Response(JSON.stringify({ error: err.message }), { status: 500, headers: { ...corsHeaders, "Content-Type": "application/json" } });
+      console.error(err); return new Response(JSON.stringify({ error: "Internal Server Error" }), { status: 500, headers: { ...corsHeaders, "Content-Type": "application/json" } });
     }
     return new Response(`Not Found: ${path}`, { status: 404, headers: corsHeaders });
   }

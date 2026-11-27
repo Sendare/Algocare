@@ -94,7 +94,14 @@
     
     try {
       await logIn(email, pass);
-      window.location.href = "/dashboard";
+      
+      // Handle ?next= redirect safely (prevent open redirects)
+      const nextUrl = urlParams.get("next");
+      if (nextUrl && nextUrl.startsWith("/") && !nextUrl.startsWith("//")) {
+        window.location.href = nextUrl;
+      } else {
+        window.location.href = "/dashboard";
+      }
     } catch (error) {
       if (error.message.includes("Email not confirmed")) {
         err.innerHTML = "Please check your email inbox and click the confirmation link before logging in.";

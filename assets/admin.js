@@ -27,10 +27,9 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     // Populate Stats
     document.getElementById("total-users").textContent = data.users.length;
-    document.getElementById("total-feedback").textContent = data.feedback.length;
+    document.getElementById("total-feedback").textContent = data.totalFeedback;
     // Count only 'finished' tests for total tests
-    const finishedTests = data.logs.filter(l => l.event_type === 'finished').length;
-    document.getElementById("total-tests").textContent = finishedTests;
+    document.getElementById("total-tests").textContent = data.totalLogs;
 
     // Populate Users Table
     const usersBody = document.getElementById("users-body");

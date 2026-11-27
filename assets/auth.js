@@ -154,7 +154,9 @@ window.addEventListener("DOMContentLoaded", () => {
   const currentPath = window.location.pathname.split('/').pop().replace('.html', '') || 'index';
   
   if (!publicPages.includes(currentPath) && !getSession()) {
-    window.location.replace("/signup");
+    // Pass the intended destination so they return after login
+    const nextUrl = encodeURIComponent(window.location.pathname + window.location.search);
+    window.location.replace(`/signup?next=${nextUrl}`);
     return;
   }
 
