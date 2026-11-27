@@ -302,14 +302,8 @@ def main():
             shutil.copy2(icon_path, DOCS_DIR / icon)
     
     # Create _headers for Cloudflare to prevent HTML caching
-    headers_content = '''/*.html
-  Cache-Control: public, max-age=0, must-revalidate
-/sw.js
-  Cache-Control: public, max-age=0, must-revalidate
-/manifest.json
-  Cache-Control: public, max-age=0, must-revalidate
-/assets/*
-  Cache-Control: public, max-age=0, must-revalidate
+    headers_content = '''/*
+  Cache-Control: no-cache, no-store, must-revalidate
 '''
     (DOCS_DIR / "_headers").write_text(headers_content)
 
