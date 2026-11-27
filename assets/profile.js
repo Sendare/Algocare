@@ -1,3 +1,8 @@
+
+window.onerror = function(msg, url, line, col, error) {
+  alert("CRITICAL JS ERROR:\n" + msg + "\nLine: " + line);
+  return false;
+};
 const API_URL = "https://algocare-api.abdul01abdul03.workers.dev";
 const SUPABASE_URL = "https://uhrjtcocwejddtzyjyhr.supabase.co";
 const SUPABASE_ANON_KEY = "sb_publishable_C_i1zk4P2phfIALmI6C7Iw_pYSMTGfQ";
