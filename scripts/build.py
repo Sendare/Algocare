@@ -284,6 +284,43 @@ def main():
     for page in ["index.html", "login.html", "signup.html", "dashboard.html", "leaderboard.html", "admin.html", "manifest.json", "privacy.html", "terms.html", "profile.html", "settings.html"]:
         src = TEMPLATES_DIR / page
         if src.exists(): shutil.copy2(src, DOCS_DIR / page)
+
+    # Explicitly copy PWA icons to root
+    for icon in ["icon-192x192.png", "icon-512x512.png"]:
+        icon_path = ASSETS_DIR / icon
+        if icon_path.exists():
+            shutil.copy2(icon_path, DOCS_DIR / icon)
+            print(f"✅ Copied {icon} to root")
+        else:
+            print(f"⚠️ WARNING: {icon} not found in assets folder!")
+
+
+    # Copy PWA icons to root
+    for icon in ["icon-192x192.png", "icon-512x512.png"]:
+        icon_path = ASSETS_DIR / icon
+        if icon_path.exists():
+            shutil.copy2(icon_path, DOCS_DIR / icon)
+
+    # Generate dynamic service worker
+    sw_path = TEMPLATES_DIR / "sw.js"
+    if sw_path.exists():
+        sw_content = sw_path.read_text()
+        build_id = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
+        sw_content = sw_content.replace("__BUILD_ID__", build_id)
+        (DOCS_DIR / "sw.js").write_text(sw_content)
+        print(f"✅ Generated dynamic sw.js with build ID: {build_id}")
+        src = TEMPLATES_DIR / page
+        if src.exists(): shutil.copy2(src, DOCS_DIR / page)
+
+    # Explicitly copy PWA icons to root
+    for icon in ["icon-192x192.png", "icon-512x512.png"]:
+        icon_path = ASSETS_DIR / icon
+        if icon_path.exists():
+            shutil.copy2(icon_path, DOCS_DIR / icon)
+            print(f"✅ Copied {icon} to root")
+        else:
+            print(f"⚠️ WARNING: {icon} not found in assets folder!")
+
         
     # Dynamic Service Worker Generation
     sw_path = TEMPLATES_DIR / "sw.js"
