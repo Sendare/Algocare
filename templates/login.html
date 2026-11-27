@@ -54,7 +54,7 @@
 
   
   <div class="auth-footer">
-    Don't have an account? <a href="/signup.html">Sign Up</a>
+    Don't have an account? <a href="/signup.html" id="goToSignup">Sign Up</a>
   </div>
 </div>
 
@@ -123,5 +123,16 @@ if ("serviceWorker" in navigator) {
 </script>
 
 
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const nextParam = urlParams.get("next");
+    if (nextParam) {
+      const signupLink = document.getElementById("goToSignup");
+      if (signupLink) signupLink.href = `/signup.html?next=${encodeURIComponent(nextParam)}`;
+    }
+  });
+</script>
 </body>
 </html>

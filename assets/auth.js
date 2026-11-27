@@ -156,7 +156,7 @@ window.addEventListener("DOMContentLoaded", () => {
   if (!publicPages.includes(currentPath) && !getSession()) {
     // Redirect to login (not signup) to preserve the flow
     const nextUrl = encodeURIComponent(window.location.pathname + window.location.search);
-    window.location.replace(`/login?next=${nextUrl}`);
+    window.location.replace(`/signup?next=${nextUrl}`);
     return;
   }
 

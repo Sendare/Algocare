@@ -73,7 +73,7 @@
 
   
   <div class="auth-footer">
-    Already have an account? <a href="/login.html">Log In</a>
+    Already have an account? <a href="/login.html" id="goToLogin">Log In</a>
   </div>
 </div>
 
@@ -158,6 +158,17 @@ if ("serviceWorker" in navigator) {
     const loginLink = document.querySelector('.auth-footer a');
     if (loginLink && window.location.search) {
       loginLink.href = '/login' + window.location.search;
+    }
+  });
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const nextParam = urlParams.get("next");
+    if (nextParam) {
+      const loginLink = document.getElementById("goToLogin");
+      if (loginLink) loginLink.href = `/login.html?next=${encodeURIComponent(nextParam)}`;
     }
   });
 </script>
