@@ -81,15 +81,29 @@ document.addEventListener("DOMContentLoaded", async () => {
         return;
       }
 
-      const today = new Date().toISOString().split('T')[0];
-      statQs.textContent = data.filter(d => d.created_at.startsWith(today)).reduce((sum, d) => sum + d.correct, 0);
+      // Local Date (YYYY-MM-DD)
+      const today = new Date().toLocaleDateString('en-CA'); 
+      statQs.textContent = data.filter(d => new Date(d.created_at).toLocaleDateString('en-CA') === today).reduce((sum, d) => sum + (d.attempted || d.question_count || 0), 0);
       
       const totalCorrect = data.reduce((sum, d) => sum + d.correct, 0);
       const totalQuestions = data.reduce((sum, d) => sum + d.question_count, 0);
       statScore.textContent = totalQuestions > 0 ? `${Math.round((totalCorrect / totalQuestions) * 100)}%` : "0%";
       
-      const uniqueDays = new Set(data.map(d => d.created_at.split('T')[0]));
-      statStreak.textContent = `🔥 ${uniqueDays.size}`;
+      // Calculate Consecutive Streak
+      const dates = [...new Set(data.map(d => new Date(d.created_at).toLocaleDateString('en-CA')))].sort().reverse();
+      let streak = 0;
+      const yesterday = new Date(Date.now() - 86400000).toLocaleDateString('en-CA');
+      
+      if (dates.length > 0 && (dates[0] === today || dates[0] === yesterday)) {
+        let expectedDate = new Date(dates[0]);
+        for (let dateStr of dates) {
+          if (dateStr === expectedDate.toLocaleDateString('en-CA')) {
+            streak++;
+            expectedDate.setDate(expectedDate.getDate() - 1);
+          } else { break; }
+        }
+      }
+      statStreak.textContent = `🔥 ${streak}`;
 
       recentList.innerHTML = data.slice(0, 3).map(r => {
         const pct = Math.round((r.correct / r.question_count) * 100);

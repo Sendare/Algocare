@@ -1,6 +1,6 @@
 // ===== Exam Engine =====
 const params = new URLSearchParams(window.location.search);
-const mode = params.get("mode") || "practice";
+let mode = params.get("mode") || "practice";
 const prog = params.get("prog") || "nursing";
 const testNum = params.get("test");
 const coursesParam = params.get("courses");
@@ -43,13 +43,18 @@ async function init() {
   const resultsStr = sessionStorage.getItem("algocare_results_state");
   if (resultsStr) {
     const r = JSON.parse(resultsStr);
-    subjects = r.subjects;
-    questions = r.questions;
-    answers = r.answers;
-    mode = r.mode;
-    isFinished = false;
-    finishExam(r.timedOut);
-    return;
+    // Only restore if the URL matches, preventing old results from hijacking new tests
+    if (r.search === window.location.search) {
+      subjects = r.subjects;
+      questions = r.questions;
+      answers = r.answers;
+      mode = r.mode;
+      isFinished = false;
+      finishExam(r.timedOut, true); // Pass true to prevent double-logging
+      return;
+    } else {
+      sessionStorage.removeItem("algocare_results_state");
+    }
   }
 
   const saved = loadState();
@@ -215,7 +220,7 @@ function render() {
 
 // --- Actions ---
 function switchTab(sub) { saveState(); activeSubject = sub; isCatchingSkips = false; render(); }
-function toggleFlag() { saveState(); const q = questions[activeSubject][currentIndexes[activeSubject]]; if (flags.includes(q.question_id)) flags = flags.filter(id => id !== q.question_id); else flags.push(q.question_id); render(); }
+function toggleFlag() { const q = questions[activeSubject][currentIndexes[activeSubject]]; if (flags.includes(q.question_id)) flags = flags.filter(id => id !== q.question_id); else flags.push(q.question_id); saveState(); render(); }
 function jumpTo(i) { saveState(); currentIndexes[activeSubject] = i; isCatchingSkips = false; render(); }
 
 function selectAnswer(k) { saveState(); 
@@ -317,15 +322,17 @@ function parseExplanation(text, ownId) {
 }
 
 // --- Results & Feedback ---
-function finishExam(timedOut) {
+function finishExam(timedOut, fromRestore = false) {
   if (isFinished) return;
   clearState();
   sessionStorage.removeItem('algocare_exam_state');
   isFinished = true;
   clearInterval(timerInterval);
   
-  const totalCorr = subjects.reduce((acc, sub) => acc + questions[sub].filter(q => answers[q.question_id] && answers[q.question_id].isCorrect).length, 0);
-  logTestFinished(attemptId, mode, coursesParam || topicId || testNum, getTotalQuestions(), getAnsweredCount(), totalCorr);
+  if (!fromRestore) {
+    const totalCorr = subjects.reduce((acc, sub) => acc + questions[sub].filter(q => answers[q.question_id] && answers[q.question_id].isCorrect).length, 0);
+    logTestFinished(attemptId, mode, coursesParam || topicId || testNum, getTotalQuestions(), getAnsweredCount(), totalCorr);
+  }
   
   // Hide the exam header
   const header = document.querySelector('.exam-header');
@@ -386,7 +393,7 @@ function finishExam(timedOut) {
     reviewHtml = `<p style="text-align:center; color:var(--ink-soft); font-size:0.9rem;">Answers and explanations are not shown for real-feel exams.</p>`;
   }
 
-  sessionStorage.setItem("algocare_results_state", JSON.stringify({ subjects, questions, answers, mode, timedOut }));
+  sessionStorage.setItem("algocare_results_state", JSON.stringify({ subjects, questions, answers, mode, timedOut, search: window.location.search }));
   
   document.getElementById("examRoot").innerHTML = `
     <div class="results-page" style="overflow-y:auto; height:100vh;">
@@ -451,10 +458,38 @@ function setupFeedbackWidget() {
 // Calculator Logic
 function toggleCalculator() { document.getElementById('calcModal').classList.toggle('open'); }
 let calcExpr = '';
+function safeMathEval(str) {
+  if (!/^[0-9+\-*/(). ]+$/.test(str)) return 'Error';
+  let tokens = str.match(/(\d+\.?\d*|[+\-*/()])/g);
+  if (!tokens) return 'Error';
+  let pos = 0;
+  function parseExpression() {
+    let left = parseTerm();
+    while (tokens[pos] === '+' || tokens[pos] === '-') {
+      let op = tokens[pos++]; let right = parseTerm();
+      if (op === '+') left += right; else left -= right;
+    } return left;
+  }
+  function parseTerm() {
+    let left = parseFactor();
+    while (tokens[pos] === '*' || tokens[pos] === '/') {
+      let op = tokens[pos++]; let right = parseFactor();
+      if (op === '*') left *= right; else left /= right;
+    } return left;
+  }
+  function parseFactor() {
+    if (tokens[pos] === '(') { pos++; let val = parseExpression(); pos++; return val; }
+    if (tokens[pos] === '-') { pos++; return -parseFactor(); }
+    let num = parseFloat(tokens[pos++]);
+    return isNaN(num) ? 'Error' : num;
+  }
+  try { let res = parseExpression(); return isNaN(res) ? 'Error' : String(res); } catch { return 'Error'; }
+}
+
 function calcInput(val) {
   const display = document.getElementById('calcDisplay');
   if (val === 'C') { calcExpr = ''; }
-  else if (val === '=') { try { calcExpr = String(eval(calcExpr || '0')); } catch { calcExpr = 'Error'; } }
+  else if (val === '=') { calcExpr = safeMathEval(calcExpr || '0'); }
   else { if (calcExpr === 'Error') calcExpr = ''; calcExpr += val; }
   display.textContent = calcExpr || '0';
 }
