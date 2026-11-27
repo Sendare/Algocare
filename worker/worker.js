@@ -60,6 +60,7 @@ export default {
           gender: ["Male", "Female", "Other"].includes(b.gender) ? b.gender : "",
           school: String(b.school || "").slice(0, 100),
           bio: String(b.bio || "").slice(0, 300),
+          school: String(b.school || "").slice(0, 100),
           avatar_url: avatar
         };
 

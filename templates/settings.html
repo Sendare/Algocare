@@ -106,6 +106,7 @@
       document.getElementById("profileGender").value = meta.gender || "";
       document.getElementById("profileSchool").value = meta.school || "";
       document.getElementById("profileBio").value = meta.bio || "";
+      document.getElementById("profileSchool").value = meta.school || "";
       
       currentAvatarUrl = meta.avatar_url || null;
       const preview = document.getElementById("avatarPreview");
@@ -177,6 +178,7 @@
         gender: document.getElementById("profileGender").value,
         school: document.getElementById("profileSchool").value,
         bio: document.getElementById("profileBio").value,
+        school: document.getElementById("profileSchool").value,
         avatar_url: currentAvatarUrl
       };
 
