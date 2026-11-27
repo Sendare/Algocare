@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     displayName = user.user_metadata?.username || user.email.split('@')[0];
   }
 
-  document.getElementById("greeting").textContent = `Welcome, ${displayName}`;
+  document.getElementById("greeting").textContent = displayName;
 
   // 2. Inject Admin Button
   if (user.email && user.email.toLowerCase() === "abdul01abdul03@gmail.com") {
