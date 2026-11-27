@@ -14,7 +14,8 @@
   .btn-upload { background: var(--scrub-soft); color: var(--scrub); padding: 8px 16px; border-radius: 6px; font-weight: 600; cursor: pointer; font-size: 0.85rem; border: 1px solid var(--scrub); }
   .row { display: flex; gap: 16px; }
   .row .form-group { flex: 1; }
-
+  
+  /* Custom Dropdown Styling */
   .school-wrapper { position: relative; }
   .custom-dropdown { 
     position: absolute; top: 100%; left: 0; right: 0; 
@@ -92,12 +93,12 @@
 <script>
   const API_URL = "https://algocare-api.abdul01abdul03.workers.dev";
   let currentAvatarUrl = null;
+  let allSchools = [];
 
-  // 1. Load Data & Schools
+  // 1. Initialize Page
   window.addEventListener("DOMContentLoaded", async () => {
     try {
-      // Fetch Schools List dynamically
-      let allSchools = [];
+      // A. Fetch Schools List
       fetch('/assets/schools.json?v=' + new Date().getTime())
         .then(res => res.json())
         .then(data => {
@@ -107,6 +108,7 @@
         })
         .catch(err => console.error("Could not load schools:", err));
 
+      // B. Setup Dropdown Logic
       const schoolInput = document.getElementById('profileSchool');
       const schoolDropdown = document.getElementById('schoolDropdown');
 
@@ -119,7 +121,7 @@
         const filtered = allSchools.filter(s => s.toLowerCase().includes(val));
         if (filtered.length === 0) { schoolDropdown.style.display = 'none'; return; }
 
-        filtered.slice(0, 50).forEach(school => { // Limit to 50 results for performance
+        filtered.slice(0, 50).forEach(school => {
           const div = document.createElement('div');
           div.className = 'custom-dropdown-item';
           div.textContent = school;
@@ -132,12 +134,56 @@
         schoolDropdown.style.display = 'block';
       });
 
-      // Close dropdown if clicking outside
+      // Close dropdown when clicking outside
       document.addEventListener('click', (e) => {
         if (e.target !== schoolInput && e.target !== schoolDropdown) {
           schoolDropdown.style.display = 'none';
         }
       });
+
+      // C. Load User Data
+      const session = getSession();
+      if (!session) { window.location.href = "/login"; return; }
+
+      const user = session.user;
+      const meta = user.user_metadata || {};
+      
+      document.getElementById("profileName").value = meta.name || "";
+      document.getElementById("profileUsername").value = meta.username || "";
+      document.getElementById("profileAge").value = meta.age || "";
+      document.getElementById("profileGender").value = meta.gender || "";
+      document.getElementById("profileSchool").value = meta.school || "";
+      document.getElementById("profileBio").value = meta.bio || "";
+      
+      currentAvatarUrl = meta.avatar_url || null;
+      const preview = document.getElementById("avatarPreview");
+      
+      if (currentAvatarUrl) {
+        preview.innerHTML = `<img src="${currentAvatarUrl}" style="width:100%; height:100%; object-fit:cover;">`;
+      } else {
+        preview.textContent = (meta.name || user.email).charAt(0).toUpperCase();
+      }
+
+      // D. Setup Photo Upload
+      document.getElementById("avatarInput").addEventListener("change", async (e) => {
+        const file = e.target.files[0];
+        if (!file) return;
+
+        const label = document.getElementById("uploadLabel");
+        label.textContent = "Uploading...";
+
+        try {
+          const fileExt = file.name.split('.').pop();
+          const fileName = `${user.id}/avatar_${Date.now()}.${fileExt}`;
+          
+          const res = await fetch(`${SUPABASE_URL}/storage/v1/object/avatars/${fileName}`, {
+            method: "POST",
+            headers: { 
+              "apikey": SUPABASE_ANON_KEY, 
+              "Authorization": `Bearer ${session.access_token}` 
+            },
+            body: file
+          });
 
           if (!res.ok) {
             const errorText = await res.text();
@@ -160,7 +206,7 @@
     }
   });
 
-  // 3. Handle Save
+  // 2. Handle Save
   window.handleSaveClick = async function() {
     try {
       const session = getSession();
@@ -170,7 +216,6 @@
       btn.disabled = true;
       btn.textContent = "Saving...";
 
-      // Clean, deduplicated object
       const updatedData = {
         name: document.getElementById("profileName").value,
         username: document.getElementById("profileUsername").value,
@@ -194,7 +239,6 @@
       
       const result = await res.json();
 
-      // Update local session
       const currentSession = getSession();
       if (currentSession && currentSession.user) {
         currentSession.user.user_metadata = result.user.user_metadata;
