@@ -63,20 +63,43 @@ async function refreshSession() {
       headers: { "Content-Type": "application/json", "apikey": SUPABASE_ANON_KEY },
       body: JSON.stringify({ refresh_token: session.refresh_token })
     });
-    if (!res.ok) throw new Error("Refresh failed");
+    
+    // Only log out if the token is actually dead (400/401)
+    if (res.status === 400 || res.status === 401) {
+      console.warn("Refresh token rejected by Supabase. Logging out.");
+      logOut();
+      return null;
+    }
+    
+    if (!res.ok) throw new Error("Server error");
+    
     const data = await res.json();
     saveSession(data);
     return data;
   } catch (err) {
-    logOut();
-    return null;
+    console.warn("Refresh failed due to network. Keeping session alive.", err);
+    return null; // Don't log out on network drop
   }
 }
 
-function logOut() {
+async function logOut() {
+  const session = getSession();
+  if (session && session.access_token) {
+    // Fire and forget server-side revocation
+    fetch(`${SUPABASE_URL}/auth/v1/logout`, {
+      method: "POST",
+      headers: { "apikey": SUPABASE_ANON_KEY, "Authorization": `Bearer ${session.access_token}` }
+    }).catch(() => {});
+  }
+  
   localStorage.removeItem("algocare_session");
+  localStorage.removeItem("algocare_uid");
+  sessionStorage.removeItem("algocare_exam_state");
+  sessionStorage.removeItem("algocare_results_state");
   window.location.href = "/login";
 }
+
+let refreshPromise = null;
 
 async function fetchWithAuth(url, options = {}) {
   let session = getSession();
@@ -88,12 +111,17 @@ async function fetchWithAuth(url, options = {}) {
   let res = await fetch(url, options);
 
   if (res.status === 401) {
-    const newSession = await refreshSession();
+    // In-flight lock: if a refresh is already happening, wait for it
+    if (!refreshPromise) {
+      refreshPromise = refreshSession().finally(() => { refreshPromise = null; });
+    }
+    
+    const newSession = await refreshPromise;
+    
     if (newSession && newSession.access_token) {
       options.headers["Authorization"] = `Bearer ${newSession.access_token}`;
       res = await fetch(url, options);
     } else {
-      logOut();
       throw new Error("Session expired");
     }
   }

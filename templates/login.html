@@ -24,6 +24,7 @@
 
 <div class="auth-container">
   <h2>Welcome Back</h2>
+  <div id="authSuccess" style="display:none; background:var(--scrub-soft); color:var(--scrub); padding:12px; border-radius:var(--radius); font-size:0.9rem; margin-bottom:20px; border:1px solid var(--scrub);"></div>
   <div id="authError" class="auth-error"></div>
   
   <form id="loginForm">
@@ -106,7 +107,6 @@
     }
   });
 </script>
-</body>
 <script>
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => {

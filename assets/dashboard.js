@@ -1,5 +1,10 @@
 const API_URL = "https://algocare-api.abdul01abdul03.workers.dev";
 
+window.closeWelcomeModal = function() {
+  document.getElementById("welcomeModal").style.display = "none";
+  localStorage.setItem("algocare_welcomed", "true");
+};
+
 document.addEventListener("DOMContentLoaded", async () => {
   const session = getSession();
   if (!session) { window.location.href = "/login"; return; }
