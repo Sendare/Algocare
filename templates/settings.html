@@ -14,6 +14,16 @@
   .btn-upload { background: var(--scrub-soft); color: var(--scrub); padding: 8px 16px; border-radius: 6px; font-weight: 600; cursor: pointer; font-size: 0.85rem; border: 1px solid var(--scrub); }
   .row { display: flex; gap: 16px; }
   .row .form-group { flex: 1; }
+
+  .school-wrapper { position: relative; }
+  .custom-dropdown { 
+    position: absolute; top: 100%; left: 0; right: 0; 
+    background: var(--card); border: 1px solid var(--grey-line); 
+    border-radius: var(--radius); box-shadow: 0 4px 12px rgba(0,0,0,0.15); 
+    z-index: 1000; max-height: 200px; overflow-y: auto; display: none; margin-top: 4px;
+  }
+  .custom-dropdown-item { padding: 10px 16px; cursor: pointer; border-bottom: 1px solid var(--grey-line); font-size: 0.9rem; color: var(--ink); }
+  .custom-dropdown-item:hover { background: var(--paper); color: var(--scrub); }
 </style>
 </head>
 <body>
@@ -61,9 +71,10 @@
         </div>
         <div class="form-group">
           <label>School / Institution</label>
-          <input type="text" id="profileSchool" class="form-control" list="school-list" placeholder="e.g. UNILAG">
-          <!-- Empty datalist, populated by JS -->
-          <datalist id="school-list"></datalist>
+          <div class="school-wrapper">
+            <input type="text" id="profileSchool" class="form-control" placeholder="Type to search schools..." autocomplete="off">
+            <div id="schoolDropdown" class="custom-dropdown"></div>
+          </div>
         </div>
       </div>
 
@@ -86,60 +97,47 @@
   window.addEventListener("DOMContentLoaded", async () => {
     try {
       // Fetch Schools List dynamically
+      let allSchools = [];
       fetch('/assets/schools.json?v=' + new Date().getTime())
         .then(res => res.json())
         .then(data => {
-          const datalist = document.getElementById('school-list'); // MATCHES HTML NOW
-          let allSchools = Array.isArray(data) ? data : Object.values(data).flat();
+          allSchools = Array.isArray(data) ? data : Object.values(data).flat();
           allSchools.sort((a, b) => a.localeCompare(b));
-          datalist.innerHTML = allSchools.map(s => `<option value="${s}">`).join('');
           console.log(`✅ Loaded ${allSchools.length} schools.`);
         })
         .catch(err => console.error("Could not load schools:", err));
 
-      const session = getSession();
-      if (!session) { window.location.href = "/login"; return; }
+      const schoolInput = document.getElementById('profileSchool');
+      const schoolDropdown = document.getElementById('schoolDropdown');
 
-      const user = session.user;
-      const meta = user.user_metadata || {};
-      
-      // Pre-fill fields
-      document.getElementById("profileName").value = meta.name || "";
-      document.getElementById("profileUsername").value = meta.username || "";
-      document.getElementById("profileAge").value = meta.age || "";
-      document.getElementById("profileGender").value = meta.gender || "";
-      document.getElementById("profileSchool").value = meta.school || "";
-      document.getElementById("profileBio").value = meta.bio || "";
-      
-      currentAvatarUrl = meta.avatar_url || null;
-      const preview = document.getElementById("avatarPreview");
-      
-      if (currentAvatarUrl) {
-        preview.innerHTML = `<img src="${currentAvatarUrl}" style="width:100%; height:100%; object-fit:cover;">`;
-      } else {
-        preview.textContent = (meta.name || user.email).charAt(0).toUpperCase();
-      }
+      schoolInput.addEventListener('input', function() {
+        const val = this.value.toLowerCase();
+        schoolDropdown.innerHTML = '';
+        
+        if (!val) { schoolDropdown.style.display = 'none'; return; }
 
-      // 2. Attach Upload Listener
-      document.getElementById("avatarInput").addEventListener("change", async (e) => {
-        const file = e.target.files[0];
-        if (!file) return;
+        const filtered = allSchools.filter(s => s.toLowerCase().includes(val));
+        if (filtered.length === 0) { schoolDropdown.style.display = 'none'; return; }
 
-        const label = document.getElementById("uploadLabel");
-        label.textContent = "Uploading...";
+        filtered.slice(0, 50).forEach(school => { // Limit to 50 results for performance
+          const div = document.createElement('div');
+          div.className = 'custom-dropdown-item';
+          div.textContent = school;
+          div.onclick = () => {
+            schoolInput.value = school;
+            schoolDropdown.style.display = 'none';
+          };
+          schoolDropdown.appendChild(div);
+        });
+        schoolDropdown.style.display = 'block';
+      });
 
-        try {
-          const fileExt = file.name.split('.').pop();
-          const fileName = `${user.id}/avatar_${Date.now()}.${fileExt}`;
-          
-          const res = await fetch(`${SUPABASE_URL}/storage/v1/object/avatars/${fileName}`, {
-            method: "POST",
-            headers: { 
-              "apikey": SUPABASE_ANON_KEY, 
-              "Authorization": `Bearer ${session.access_token}` 
-            },
-            body: file
-          });
+      // Close dropdown if clicking outside
+      document.addEventListener('click', (e) => {
+        if (e.target !== schoolInput && e.target !== schoolDropdown) {
+          schoolDropdown.style.display = 'none';
+        }
+      });
 
           if (!res.ok) {
             const errorText = await res.text();
