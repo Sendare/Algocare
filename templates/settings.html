@@ -94,19 +94,29 @@
   // 1. Load Data
   window.addEventListener("DOMContentLoaded", async () => {
     try {
-      // Fetch Schools List dynamically (Handling grouped by state schema)
-      fetch('/assets/schools.json')
+      // Fetch Schools List dynamically
+      fetch('/assets/schools.json?v=' + new Date().getTime()) // Cache bust
         .then(res => res.json())
         .then(data => {
           const datalist = document.getElementById('school-list');
-          // Flatten the object into a single array of all schools
-          const allSchools = Object.values(data).flat();
-          // Sort alphabetically so users can easily find their school
+          
+          // Check if data is grouped by state (Object) or a flat array
+          let allSchools = [];
+          if (Array.isArray(data)) {
+            allSchools = data; // Old flat list
+          } else {
+            allSchools = Object.values(data).flat(); // New grouped list
+          }
+
+          // Sort alphabetically
           allSchools.sort((a, b) => a.localeCompare(b));
           
           datalist.innerHTML = allSchools.map(s => `<option value="${s}">`).join('');
+          console.log(`✅ Loaded ${allSchools.length} schools into datalist.`);
         })
-        .catch(err => console.warn("Could not load schools list", err));
+        .catch(err => {
+          console.error("Could not load schools list:", err);
+        });
 
       const session = getSession();
       if (!session) { window.location.href = "/login"; return; }
@@ -196,15 +206,11 @@
         avatar_url: currentAvatarUrl
       };
 
-      alert("2. Sending data to Worker...");
-
       const res = await fetchWithAuth(`${API_URL}/update-profile`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(updatedData)
       });
-
-      alert("3. Worker responded with status: " + res.status);
 
       if (!res.ok) {
         const errTxt = await res.text();
@@ -212,8 +218,6 @@
       }
       
       const result = await res.json();
-      alert("4. Profile saved successfully!");
-
       // Update local session
       const currentSession = getSession();
       if (currentSession && currentSession.user) {
@@ -224,7 +228,7 @@
       window.location.href = "/dashboard";
       
     } catch (err) {
-      alert("SAVE CRASH: " + err.message);
+      alert("Error saving profile: " + err.message);
       const btn = document.getElementById("saveBtn");
       if(btn) { btn.disabled = false; btn.textContent = "Save Changes"; }
     }
