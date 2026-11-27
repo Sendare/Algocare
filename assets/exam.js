@@ -73,7 +73,7 @@ async function init() {
 
   try {
     // Load site index in the background without blocking the exam
-    fetch(`../site_index.json`).then(r => r.json()).then(d => { window.siteIndex = d; }).catch(e => console.warn(e));
+    try { window.siteIndex = await (await fetch(`../site_index.json`)).json(); } catch(e) { console.warn(e); }
 
     if (mode === "practice") {
       if (topicId) {
@@ -163,7 +163,7 @@ function render() {
   const ans = answers[q.question_id];
   const isFlagged = flags.includes(q.question_id);
 
-  const tabsHtml = subjects.length > 1 ? `<div class="exam-tabs">${subjects.map(s => `<button class="exam-tab ${s === activeSubject ? 'active' : ''}" onclick="switchTab('${s}')">${s}</button>`).join("")}</div>` : '';
+  const tabsHtml = subjects.length > 1 ? `<div class="exam-tabs">${subjects.map(s => `<button class="exam-tab ${s === activeSubject ? 'active' : ''}" data-subject="${esc(s)}">${s}</button>`).join("")}</div>` : '';
 
   const opts = Object.keys(q.options).map(k => {
     let cls = "exam-opt";
@@ -216,6 +216,11 @@ function render() {
         }).join("")}</div>
     </div>
   `;
+  
+  // Attach Tab Listeners safely
+  document.querySelectorAll('.exam-tab').forEach(btn => {
+    btn.addEventListener('click', () => switchTab(btn.dataset.subject));
+  });
 }
 
 // --- Actions ---
@@ -357,8 +362,7 @@ function finishExam(timedOut, fromRestore = false) {
       <div class="subject-card">
         <div class="subject-name">${r.sub.replace(/-/g, ' ')}</div>
         <div class="subject-score-row">
-          <span class="subject-score-raw">${r.correct}/${r.total}</span>
-          <span class="subject-score-bold">${r.correct}<span>/${r.total}</span></span>
+          <span class="subject-score-bold" style="font-size: 1.1rem;">${r.correct} <span style="font-size: 0.8rem; color: var(--ink-soft);">/ ${r.total}</span></span>
         </div>
       </div>
     `).join("")}</div>
@@ -396,7 +400,7 @@ function finishExam(timedOut, fromRestore = false) {
   sessionStorage.setItem("algocare_results_state", JSON.stringify({ subjects, questions, answers, mode, timedOut, search: window.location.search }));
   
   document.getElementById("examRoot").innerHTML = `
-    <div class="results-page" style="overflow-y:auto; height:100vh;">
+    <div class="results-page" style="overflow-y:auto; height:100dvh;">
       <header class="results-header">
         <h1>Results</h1>
         <div style="display:flex;">
@@ -502,8 +506,7 @@ window.addEventListener("keydown", (e) => {
   else if (key === "N") nextQ();
   else if (key === "P") prevQ();
   else if (key === "R") toggleFlag();
-  else if (key === "S") handleSubmitClick();
-});
+  });
 
 // Load Candidate Name
 document.addEventListener("visibilitychange", () => {
