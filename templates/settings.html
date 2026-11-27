@@ -61,17 +61,9 @@
         </div>
         <div class="form-group">
           <label>School / Institution</label>
-          <input type="text" id="profileSchool" class="form-control" list="schoolList" placeholder="e.g. UNILAG">
-          <datalist id="schoolList">
-            <option value="University of Lagos (UNILAG)">
-            <option value="University of Ibadan (UI)">
-            <option value="Ahmadu Bello University (ABU)">
-            <option value="University of Nigeria, Nsukka (UNN)">
-            <option value="LUTH School of Nursing">
-            <option value="UCH School of Nursing">
-            <option value="AKTH School of Nursing">
-            <option value="School of Nursing, Lagos">
-          </datalist>
+          <input type="text" id="profileSchool" class="form-control" list="school-list" placeholder="e.g. UNILAG">
+          <!-- Empty datalist, populated by JS -->
+          <datalist id="school-list"></datalist>
         </div>
       </div>
 
@@ -80,7 +72,6 @@
         <textarea id="profileBio" class="form-control" rows="3" placeholder="e.g. Final year Nursing student at University of Lagos."></textarea>
       </div>
 
-      <!-- Using a global onclick directly to test -->
       <button type="button" class="btn" style="width:100%;" id="saveBtn" onclick="handleSaveClick()">Save Changes</button>
     </div>
   </div>
@@ -91,32 +82,20 @@
   const API_URL = "https://algocare-api.abdul01abdul03.workers.dev";
   let currentAvatarUrl = null;
 
-  // 1. Load Data
+  // 1. Load Data & Schools
   window.addEventListener("DOMContentLoaded", async () => {
     try {
       // Fetch Schools List dynamically
-      fetch('/assets/schools.json?v=' + new Date().getTime()) // Cache bust
+      fetch('/assets/schools.json?v=' + new Date().getTime())
         .then(res => res.json())
         .then(data => {
-          const datalist = document.getElementById('school-list');
-          
-          // Check if data is grouped by state (Object) or a flat array
-          let allSchools = [];
-          if (Array.isArray(data)) {
-            allSchools = data; // Old flat list
-          } else {
-            allSchools = Object.values(data).flat(); // New grouped list
-          }
-
-          // Sort alphabetically
+          const datalist = document.getElementById('school-list'); // MATCHES HTML NOW
+          let allSchools = Array.isArray(data) ? data : Object.values(data).flat();
           allSchools.sort((a, b) => a.localeCompare(b));
-          
           datalist.innerHTML = allSchools.map(s => `<option value="${s}">`).join('');
-          console.log(`✅ Loaded ${allSchools.length} schools into datalist.`);
+          console.log(`✅ Loaded ${allSchools.length} schools.`);
         })
-        .catch(err => {
-          console.error("Could not load schools list:", err);
-        });
+        .catch(err => console.error("Could not load schools:", err));
 
       const session = getSession();
       if (!session) { window.location.href = "/login"; return; }
@@ -124,13 +103,13 @@
       const user = session.user;
       const meta = user.user_metadata || {};
       
+      // Pre-fill fields
       document.getElementById("profileName").value = meta.name || "";
       document.getElementById("profileUsername").value = meta.username || "";
       document.getElementById("profileAge").value = meta.age || "";
       document.getElementById("profileGender").value = meta.gender || "";
       document.getElementById("profileSchool").value = meta.school || "";
       document.getElementById("profileBio").value = meta.bio || "";
-      document.getElementById("profileSchool").value = meta.school || "";
       
       currentAvatarUrl = meta.avatar_url || null;
       const preview = document.getElementById("avatarPreview");
@@ -186,15 +165,14 @@
   // 3. Handle Save
   window.handleSaveClick = async function() {
     try {
-      alert("1. Button clicked! Starting save...");
-      
       const session = getSession();
-      if (!session) { alert("2. No session found!"); return; }
+      if (!session) { alert("No session found!"); return; }
       
       const btn = document.getElementById("saveBtn");
       btn.disabled = true;
       btn.textContent = "Saving...";
 
+      // Clean, deduplicated object
       const updatedData = {
         name: document.getElementById("profileName").value,
         username: document.getElementById("profileUsername").value,
@@ -202,7 +180,6 @@
         gender: document.getElementById("profileGender").value,
         school: document.getElementById("profileSchool").value,
         bio: document.getElementById("profileBio").value,
-        school: document.getElementById("profileSchool").value,
         avatar_url: currentAvatarUrl
       };
 
@@ -218,6 +195,7 @@
       }
       
       const result = await res.json();
+
       // Update local session
       const currentSession = getSession();
       if (currentSession && currentSession.user) {
