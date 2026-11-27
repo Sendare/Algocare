@@ -38,6 +38,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       <tr>
         <td style="font-weight:600;">${u.name}</td>
         <td>${u.email}</td>
+        <td>${u.school || "N/A"}</td>
         <td>${new Date(u.joined).toLocaleDateString()}</td>
       </tr>
     `).join("");

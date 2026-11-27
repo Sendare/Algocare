@@ -58,6 +58,7 @@ export default {
           username: String(b.username || "").slice(0, 30),
           age: String(b.age || "").slice(0, 3),
           gender: ["Male", "Female", "Other"].includes(b.gender) ? b.gender : "",
+          school: String(b.school || "").slice(0, 100),
           bio: String(b.bio || "").slice(0, 300),
           avatar_url: avatar
         };
@@ -89,6 +90,7 @@ export default {
             id: u.id,
             email: u.email,
             name: u.user_metadata?.name || "N/A",
+            school: u.user_metadata?.school || "N/A",
             joined: u.created_at
         })) : [];
 
