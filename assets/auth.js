@@ -1,7 +1,7 @@
-const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-
 const SUPABASE_URL = "https://uhrjtcocwejddtzyjyhr.supabase.co";
 const SUPABASE_ANON_KEY = "sb_publishable_C_i1zk4P2phfIALmI6C7Iw_pYSMTGfQ";
+
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 
 function saveSession(data) {
   if (data && data.access_token) {
@@ -22,7 +22,6 @@ function getUser() {
 }
 
 async function signUp(name, email, password) {
-  // NO CAPTCHA LOGIC HERE ANYMORE
   const res = await fetch(`${SUPABASE_URL}/auth/v1/signup`, {
     method: "POST",
     headers: { "Content-Type": "application/json", "apikey": SUPABASE_ANON_KEY },
@@ -30,7 +29,7 @@ async function signUp(name, email, password) {
   });
   const data = await res.json();
   if (!res.ok) throw new Error(data.msg || data.error_description || "Signup failed");
-  
+
   if (data.access_token) {
     saveSession(data);
     localStorage.setItem("algocare_uid", data.user.id);
@@ -39,7 +38,6 @@ async function signUp(name, email, password) {
 }
 
 async function logIn(email, password) {
-  // NO CAPTCHA LOGIC HERE ANYMORE
   const res = await fetch(`${SUPABASE_URL}/auth/v1/token?grant_type=password`, {
     method: "POST",
     headers: { "Content-Type": "application/json", "apikey": SUPABASE_ANON_KEY },
@@ -47,7 +45,7 @@ async function logIn(email, password) {
   });
   const data = await res.json();
   if (!res.ok) throw new Error(data.error_description || data.msg || "Login failed");
-  
+
   saveSession(data);
   localStorage.setItem("algocare_uid", data.user.id);
   return data;
@@ -64,9 +62,7 @@ async function refreshSession() {
       body: JSON.stringify({ refresh_token: session.refresh_token })
     });
     
-    // Only log out if the token is actually dead (400/401)
     if (res.status === 400 || res.status === 401) {
-      console.warn("Refresh token rejected by Supabase. Logging out.");
       logOut();
       return null;
     }
@@ -77,15 +73,13 @@ async function refreshSession() {
     saveSession(data);
     return data;
   } catch (err) {
-    console.warn("Refresh failed due to network. Keeping session alive.", err);
-    return null; // Don't log out on network drop
+    return null;
   }
 }
 
 async function logOut() {
   const session = getSession();
   if (session && session.access_token) {
-    // Fire and forget server-side revocation
     fetch(`${SUPABASE_URL}/auth/v1/logout`, {
       method: "POST",
       headers: { "apikey": SUPABASE_ANON_KEY, "Authorization": `Bearer ${session.access_token}` }
@@ -111,7 +105,6 @@ async function fetchWithAuth(url, options = {}) {
   let res = await fetch(url, options);
 
   if (res.status === 401) {
-    // In-flight lock: if a refresh is already happening, wait for it
     if (!refreshPromise) {
       refreshPromise = refreshSession().finally(() => { refreshPromise = null; });
     }
@@ -152,9 +145,8 @@ handleAuthHash();
 window.addEventListener("DOMContentLoaded", () => {
   const publicPages = ['index', 'login', 'signup', 'privacy', 'terms', 'privacy.html', 'terms.html', ''];
   const currentPath = window.location.pathname.split('/').pop().replace('.html', '') || 'index';
-  
+
   if (!publicPages.includes(currentPath) && !getSession()) {
-    // Redirect to login (not signup) to preserve the flow
     const nextUrl = encodeURIComponent(window.location.pathname + window.location.search);
     window.location.replace(`/signup?next=${nextUrl}`);
     return;
@@ -167,8 +159,8 @@ window.addEventListener("DOMContentLoaded", () => {
   if (user) {
     const name = user.user_metadata?.username || user.user_metadata?.name || user.email.split('@')[0];
     const avatarUrl = user.user_metadata?.avatar_url;
-    const avatarContent = avatarUrl 
-      ? `<img src="${avatarUrl}" style="width:100%; height:100%; object-fit:cover;">` 
+    const avatarContent = avatarUrl
+      ? `<img src="${esc(avatarUrl)}" style="width:100%; height:100%; object-fit:cover;">`
       : `<span>${esc((user.user_metadata?.name || name).charAt(0).toUpperCase())}</span>`;
 
     authSlot.innerHTML = `
@@ -176,7 +168,7 @@ window.addEventListener("DOMContentLoaded", () => {
         <button id="avatarBtn" style="width: 40px; height: 40px; border-radius: 50%; background: var(--scrub-soft); color: var(--scrub); border: 1px solid var(--scrub); font-weight: bold; cursor: pointer; display: flex; align-items: center; justify-content: center; overflow: hidden; padding: 0;">
           ${avatarContent}
         </button>
-        
+
         <div id="avatarDropdown" style="display: none; position: absolute; right: 0; top: 50px; background: var(--card); border: 1px solid var(--grey-line); border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); min-width: 180px; z-index: 100; overflow: hidden;">
           <div style="padding: 12px 16px; border-bottom: 1px solid var(--grey-line); background: var(--paper);">
             <div style="font-weight: bold; color: var(--ink); font-size: 0.9rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${esc(name)}</div>
@@ -189,14 +181,12 @@ window.addEventListener("DOMContentLoaded", () => {
       </div>
     `;
 
-    // Toggle dropdown
     document.getElementById("avatarBtn").addEventListener("click", (e) => {
       e.stopPropagation();
       const dropdown = document.getElementById("avatarDropdown");
       dropdown.style.display = dropdown.style.display === "none" ? "block" : "none";
     });
 
-    // Close dropdown when clicking outside
     document.addEventListener("click", () => {
       const dropdown = document.getElementById("avatarDropdown");
       if (dropdown) dropdown.style.display = "none";
