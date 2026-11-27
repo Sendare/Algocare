@@ -43,6 +43,36 @@ export default {
       if (!userRes.ok) return new Response(JSON.stringify({ error: "Unauthorized" }), { status: 401, headers: corsHeaders });
       const user = await userRes.json();
 
+      // --- UPDATE PROFILE ENDPOINT ---
+      if (path === "/update-profile" && request.method === "POST") {
+        const b = await request.json();
+        
+        // Sanitize and validate inputs
+        const avatar = typeof b.avatar_url === "string" &&
+          b.avatar_url.startsWith(`${supabaseUrl}/storage/v1/object/public/avatars/`)
+          ? b.avatar_url : (user.user_metadata?.avatar_url || null);
+
+        const meta = {
+          ...(user.user_metadata || {}),
+          name: String(b.name || "").slice(0, 80),
+          username: String(b.username || "").slice(0, 30),
+          age: String(b.age || "").slice(0, 3),
+          gender: ["Male", "Female", "Other"].includes(b.gender) ? b.gender : "",
+          bio: String(b.bio || "").slice(0, 300),
+          avatar_url: avatar
+        };
+
+        const r = await fetch(`${supabaseUrl}/auth/v1/admin/users/${user.id}`, {
+          method: "PUT",
+          headers: { "apikey": serviceKey, "Authorization": `Bearer ${serviceKey}`, "Content-Type": "application/json" },
+          body: JSON.stringify({ user_metadata: meta })
+        });
+        
+        if (!r.ok) return new Response(await r.text(), { status: 400, headers: corsHeaders });
+        const updated = await r.json();
+        return new Response(JSON.stringify({ user: updated }), { headers: { ...corsHeaders, "Content-Type": "application/json" } });
+      }
+
       // --- ADMIN ENDPOINT ---
       if (path === "/admin-data" && request.method === "GET") {
         // STRICT ADMIN CHECK
