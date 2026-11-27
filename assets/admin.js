@@ -36,9 +36,9 @@ document.addEventListener("DOMContentLoaded", async () => {
     const usersBody = document.getElementById("users-body");
     usersBody.innerHTML = data.users.map(u => `
       <tr>
-        <td style="font-weight:600;">${u.name}</td>
-        <td>${u.email}</td>
-        <td>${u.school || "N/A"}</td>
+        <td style="font-weight:600;">${esc(u.name)}</td>
+        <td>${esc(u.email)}</td>
+        <td>${esc(u.school || "N/A")}</td>
         <td>${new Date(u.joined).toLocaleDateString()}</td>
       </tr>
     `).join("");
@@ -47,10 +47,10 @@ document.addEventListener("DOMContentLoaded", async () => {
     const fbBody = document.getElementById("feedback-body");
     fbBody.innerHTML = data.feedback.map(f => `
       <tr>
-        <td>${f.user_name || 'Anonymous'}</td>
+        <td>${esc(f.user_name || 'Anonymous')}</td>
         <td style="color:var(--amber); font-weight:bold;">${'★'.repeat(f.stars)}</td>
-        <td><span class="badge ${f.test_type === 'Bug Report' ? 'badge-bad' : 'badge-good'}">${f.test_type || 'General'}</span></td>
-        <td style="max-width: 200px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${f.comment || '-'}</td>
+        <td><span class="badge ${f.test_type === 'Bug Report' ? 'badge-bad' : 'badge-good'}">${esc(f.test_type || 'General')}</span></td>
+        <td style="max-width: 200px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${esc(f.comment || '-')}</td>
       </tr>
     `).join("");
 
@@ -58,8 +58,8 @@ document.addEventListener("DOMContentLoaded", async () => {
     const artBody = document.getElementById("articles-body");
     artBody.innerHTML = data.articles.map(a => `
       <tr>
-        <td>${a.user_name || 'Anonymous'}</td>
-        <td style="font-family:var(--mono); font-size:0.8rem;">${a.topic_id}</td>
+        <td>${esc(a.user_name || 'Anonymous')}</td>
+        <td style="font-family:var(--mono); font-size:0.8rem;">${esc(a.topic_id)}</td>
         <td>${new Date(a.created_at).toLocaleDateString()}</td>
       </tr>
     `).join("");
@@ -68,9 +68,9 @@ document.addEventListener("DOMContentLoaded", async () => {
     const logsBody = document.getElementById("logs-body");
     logsBody.innerHTML = data.logs.map(l => `
       <tr>
-        <td>${l.user_name || 'Anonymous'}</td>
-        <td style="text-transform:capitalize;">${l.program}</td>
-        <td>${l.test_type.replace('_', ' ')}</td>
+        <td>${esc(l.user_name || 'Anonymous')}</td>
+        <td style="text-transform:capitalize;">${esc(l.program)}</td>
+        <td>${esc((l.test_type || '').replace('_', ' '))}</td>
         <td style="font-weight:bold; color:var(--scrub);">${l.correct}/${l.question_count}</td>
       </tr>
     `).join("");

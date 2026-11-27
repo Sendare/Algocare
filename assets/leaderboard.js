@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         html += `<tr style="${rowStyle}">
             <td class="lb-rank">${rankDisplay}</td>
-            <td class="lb-name">${row.user_name} ${isMe ? '(You)' : ''}</td>
+            <td class="lb-name">${esc(row.user_name)} ${isMe ? '(You)' : ''}</td>
             <td class="lb-score" style="font-size: 1.1rem;">${row.total_correct} 🏅</td>
           </tr>`;
       });

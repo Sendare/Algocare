@@ -167,7 +167,7 @@ function render() {
       if (mode === "practice" && k === q.answer) cls += " correct";
       if (mode === "practice" && k === ans.selected && k !== q.answer) cls += " incorrect";
     }
-    return `<button class="${cls}" onclick="selectAnswer('${k}')" ${ans && mode==='practice'?'disabled':''}><div class="opt-letter">${k}</div><div>${q.options[k]}</div></button>`;
+    return `<button class="${cls}" onclick="selectAnswer('${k}')" ${ans && mode==='practice'?'disabled':''}><div class="opt-letter">${k}</div><div>${esc(q.options[k])}</div></button>`;
   }).join("");
 
   let expHtml = "";
@@ -191,7 +191,7 @@ function render() {
         </button>
       </div>
       <div class="exam-card">
-        <div class="exam-q-text">${q.question}</div>
+        <div class="exam-q-text">${esc(q.question)}</div>
         <div class="exam-options">${opts}</div>
         ${expHtml}
       </div>

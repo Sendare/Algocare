@@ -91,7 +91,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         const color = pct >= 50 ? 'var(--scrub)' : 'var(--brick)';
         const title = r.test_type === 'real_feel' ? 'Real-Feel Exam' : 'Practice: ' + (r.test_identifier || '').replace(/-/g, ' ').substring(0, 15);
         return `<li style="display:flex; justify-content:space-between; padding: 12px 0; border-bottom: 1px solid var(--grey-line);">
-          <span style="font-weight:600; color:var(--ink);">${title}...</span>
+          <span style="font-weight:600; color:var(--ink);">${esc(title)}...</span>
           <span style="color: ${color}; font-weight: 700;">${r.correct}/${r.question_count} (${pct}%)</span>
         </li>`;
       }).join("");

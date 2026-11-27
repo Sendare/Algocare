@@ -1,3 +1,5 @@
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+
 const SUPABASE_URL = "https://uhrjtcocwejddtzyjyhr.supabase.co";
 const SUPABASE_ANON_KEY = "sb_publishable_C_i1zk4P2phfIALmI6C7Iw_pYSMTGfQ";
 
@@ -137,7 +139,7 @@ window.addEventListener("DOMContentLoaded", () => {
     const avatarUrl = user.user_metadata?.avatar_url;
     const avatarContent = avatarUrl 
       ? `<img src="${avatarUrl}" style="width:100%; height:100%; object-fit:cover;">` 
-      : `<span>${(user.user_metadata?.name || name).charAt(0).toUpperCase()}</span>`;
+      : `<span>${esc((user.user_metadata?.name || name).charAt(0).toUpperCase())}</span>`;
 
     authSlot.innerHTML = `
       <div style="position: relative; display: inline-block;">
@@ -147,8 +149,8 @@ window.addEventListener("DOMContentLoaded", () => {
         
         <div id="avatarDropdown" style="display: none; position: absolute; right: 0; top: 50px; background: var(--card); border: 1px solid var(--grey-line); border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); min-width: 180px; z-index: 100; overflow: hidden;">
           <div style="padding: 12px 16px; border-bottom: 1px solid var(--grey-line); background: var(--paper);">
-            <div style="font-weight: bold; color: var(--ink); font-size: 0.9rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${name}</div>
-            <div style="font-size: 0.75rem; color: var(--ink-soft); white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${user.email}</div>
+            <div style="font-weight: bold; color: var(--ink); font-size: 0.9rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${esc(name)}</div>
+            <div style="font-size: 0.75rem; color: var(--ink-soft); white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${esc(user.email)}</div>
           </div>
           <a href="/dashboard" style="display: block; padding: 10px 16px; color: var(--ink); text-decoration: none; font-size: 0.9rem; border-bottom: 1px solid var(--grey-line);">My Dashboard</a>
           <a href="/settings.html" style="display: block; padding: 10px 16px; color: var(--ink); text-decoration: none; font-size: 0.9rem; border-bottom: 1px solid var(--grey-line);">Profile Settings</a>

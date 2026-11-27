@@ -116,17 +116,54 @@ export default {
         return new Response(JSON.stringify({ users, feedback, logs, articles }), { headers: { ...corsHeaders, "Content-Type": "application/json" } });
       }
 
-      // 1. Log Event
+      // 1. Log Event (Whitelisted)
       if (path === "/log-event" && request.method === "POST") {
-        const table = url.searchParams.get("table") || "exam_logs";
-        const body = await request.json();
-        body.user_id = user.id;
+        const table = url.searchParams.get("table");
+        const TABLES = {
+          exam_logs: ["attempt_id","program","event_type","test_type","test_identifier","question_count","attempted","correct"],
+          feedback: ["program","test_type","stars","comment"],
+          article_events: ["program","topic_id","event_type"]
+        };
+        
+        if (!TABLES[table]) {
+          return new Response(JSON.stringify({ error: "Invalid table" }), { status: 400, headers: corsHeaders });
+        }
+
+        const raw = await request.json();
+        const row = {};
+        for (const k of TABLES[table]) {
+          if (k in raw) row[k] = raw[k];
+        }
+
+        // Validate program
+        if (!["nursing", "midwifery"].includes(row.program)) {
+          return new Response(JSON.stringify({ error: "Invalid program" }), { status: 400, headers: corsHeaders });
+        }
+
+        // Override user data securely
+        row.user_id = user.id;
+        row.user_name = String(user.user_metadata?.username || user.user_metadata?.name || "Student").slice(0, 30);
+
+        // Sanitize specific tables
+        if (table === "feedback") {
+          row.stars = Math.min(5, Math.max(1, parseInt(row.stars) || 1));
+          row.comment = String(row.comment || "").slice(0, 500);
+        }
+
+        // Validate scores
+        if (table === "exam_logs" && row.event_type === "finished") {
+          const c = parseInt(row.correct), a = parseInt(row.attempted), n = parseInt(row.question_count);
+          if (!(0 <= c && c <= a && a <= n && n <= 250)) {
+            return new Response(JSON.stringify({ error: "Invalid score data" }), { status: 400, headers: corsHeaders });
+          }
+        }
 
         const res = await fetch(`${supabaseUrl}/rest/v1/${table}`, {
           method: "POST",
           headers: { "apikey": serviceKey, "Authorization": `Bearer ${serviceKey}`, "Content-Type": "application/json", "Prefer": "return=minimal" },
-          body: JSON.stringify(body)
+          body: JSON.stringify(row)
         });
+        
         if (!res.ok) return new Response(await res.text(), { status: 400, headers: corsHeaders });
         return new Response(JSON.stringify({ success: true }), { headers: { ...corsHeaders, "Content-Type": "application/json" } });
       }
@@ -134,7 +171,11 @@ export default {
       // 2. Get Stats
       if (path === "/get-stats" && request.method === "GET") {
         const program = url.searchParams.get("program");
-        const res = await fetch(`${supabaseUrl}/rest/v1/exam_logs?user_id=eq.${user.id}&program=eq.${program}&event_type=eq.finished&order=created_at.desc&select=*`, {
+        if (!["nursing", "midwifery"].includes(program)) {
+          return new Response(JSON.stringify({ error: "Invalid program" }), { status: 400, headers: corsHeaders });
+        }
+        const safeProgram = encodeURIComponent(program);
+        const res = await fetch(`${supabaseUrl}/rest/v1/exam_logs?user_id=eq.${user.id}&program=eq.${safeProgram}&event_type=eq.finished&order=created_at.desc&select=*`, {
           headers: { "apikey": serviceKey, "Authorization": `Bearer ${serviceKey}` }
         });
         if (!res.ok) throw new Error(await res.text());
@@ -145,6 +186,9 @@ export default {
       if (path === "/leaderboard" && request.method === "GET") {
         const program = url.searchParams.get("program");
         const mode = url.searchParams.get("mode");
+        if (!["nursing", "midwifery"].includes(program) || !["real_feel", "practice"].includes(mode)) {
+          return new Response(JSON.stringify({ error: "Invalid params" }), { status: 400, headers: corsHeaders });
+        }
         const res = await fetch(`${supabaseUrl}/rest/v1/rpc/get_leaderboard`, {
           method: "POST",
           headers: { "apikey": serviceKey, "Authorization": `Bearer ${serviceKey}`, "Content-Type": "application/json" },

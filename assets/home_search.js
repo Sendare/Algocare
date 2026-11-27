@@ -36,15 +36,15 @@ function renderSearchResults(query) {
   );
 
   if (matches.length === 0) {
-    resultsEl.innerHTML = `<div class="empty-state">No topics match "${query}".</div>`;
+    resultsEl.innerHTML = `<div class="empty-state">No topics match "${esc(query)}".</div>`;
     return;
   }
 
   resultsEl.innerHTML = matches.map(item => `
     <div class="topic-card">
       <div>
-        <div class="topic-title">${item.title}</div>
-        <div class="topic-meta">${item.course} · ${item.unit}</div>
+        <div class="topic-title">${esc(item.title)}</div>
+        <div class="topic-meta">${esc(item.course)} · ${esc(item.unit)}</div>
       </div>
       <div class="topic-actions"><a href="${item.url}">Read →</a></div>
     </div>
